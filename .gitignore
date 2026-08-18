@@ -1,0 +1,7 @@
+.DS_Store
+dump.pretty.json
+dump.*.pretty.json
+
+# Python バイトコード
+__pycache__/
+*.pyc
