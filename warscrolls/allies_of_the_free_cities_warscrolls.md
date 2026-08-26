@@ -1,8 +1,8 @@
 # Allies of the Free Cities ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.36.0 build 85 / dump.json data_version 466 / 抽出 2026-08-19
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
 
-全44 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
+全61 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
 
 ---
@@ -236,6 +236,41 @@
 
 ---
 
+## Assassin
+
+**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 25mm
+
+**増援不可**
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 6" | 5 | 5+ | 2 |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Poison-coated Blades | 6 | 3+ | 4+ | 1 | 2 | Anti-HERO (+1 Rend), Crit (Mortal) |
+
+**アビリティ:**
+
+- **Hidden Murderer**（Passive）
+  - 効果: While this unit is within the combat range of a friendly **INFANTRY** unit that has 5 or more models and there are no enemy units within this unit’s combat range, this unit is not visible to enemy units.
+- **In For The Kill**（Once Per Turn (Army), Any Combat Phase）
+  - 効果: This unit has **STRIKE-FIRST** if it charged in the same turn.
+
+**レジメントオプション:**
+
+- Any **AELF** **INFANTRY**
+
+**キーワード:** Hero, Infantry, Order, Cities of Sigmar, Aelf
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+
+---
+
 ## Battlemage
 
 **ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 25mm
@@ -390,6 +425,126 @@
 - Any **SIGMARITE** **CAVALRY**
 
 **キーワード:** Hero, War Machine, Wizard (1), Order, Cities of Sigmar, Sigmarite
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+
+---
+
+## Black Ark Corsairs
+
+**ポイント:** 120pt / **モデル数:** 10 / **ベースサイズ:** 25mm
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 6" | 1 | 5+ | 1 |
+
+**射撃武器:**
+
+| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|---|
+| Repeater Handbow | 10" | 2 | 4+ | 4+ | - | 1 | Shoot in Combat |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Vicious Blades | 2 | 3+ | 4+ | - | 1 | - |
+
+**アビリティ:**
+
+- **Swift Shots**（Once Per Turn (Army), Any Charge Phase）
+  - 効果: If this unit is in combat, it can immediately use the ‘Shoot’ ability as if it were your shooting phase. All attacks must target the same enemy unit, and the enemy unit picked to be the target of the attacks must be in combat with this unit and have charged this phase.&#x20;
+
+**キーワード:** Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Order, Cities of Sigmar, Aelf
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+
+---
+
+## Black Ark Fleetmaster
+
+**ポイント:** 90pt / **モデル数:** 1 / **ベースサイズ:** 25mm
+
+**増援不可**
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 6" | 5 | 4+ | 2 |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Wicked Cutlass and Murder Hook | 5 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
+
+**アビリティ:**
+
+- **'At Them, You Curs!'**（Reaction: You declared a FIGHT ability for this unit）
+  - 効果: Pick a friendly **Black Ark Corsairs** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.
+
+**レジメントオプション:**
+
+- Any **AELF**
+
+**キーワード:** Hero, Infantry, Order, Cities of Sigmar, Aelf
+
+**ノート:** This Hero can join a **Dreadlord on Black Dragon’s**, **Sorceress**’ or **Sorceress on Black Dragon’s** regiment. This unit will move to Warhammer Legends on 1 June 2027.
+
+---
+
+## Black Guard
+
+**ポイント:** 130pt / **モデル数:** 10 / **ベースサイズ:** 25mm
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 6" | 1 | 4+ | 1 |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Ebon Halberd | 2 | 3+ | 4+ | 1 | 1 | - |
+
+**アビリティ:**
+
+- **Steel and Sorcery**（Passive）
+  - 効果: While any friendly **CITIES OF SIGMAR AELF INFANTRY HEROES** are wholly within this unit’s combat range, both this unit and those friendly units have **WARD (5+)**.
+
+**キーワード:** Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Order, Cities of Sigmar, Aelf
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+
+---
+
+## Bleakswords
+
+**ポイント:** 100pt / **モデル数:** 10 / **ベースサイズ:** 25mm
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 6" | 1 | 4+ | 1 |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Darkling Sword | 2 | 3+ | 4+ | - | 1 | Crit (2 Hits) |
+
+**アビリティ:**
+
+- **Merciless Conquerors**（Once Per Turn (Army), Any Combat Phase）
+  - 効果: For the rest of the turn, add 1 to the Attacks characteristic of this unit’s melee weapons while it is contesting an objective you do not control.
+
+**キーワード:** Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Order, Cities of Sigmar, Aelf
 
 **ノート:** This unit will move to Warhammer Legends on 1 June 2027.
 
@@ -562,6 +717,234 @@
 - Any **ALLIES OF THE FREE CITIES**
 
 **キーワード:** Hero, War Machine, Order, Cities of Sigmar, Sigmarite
+
+---
+
+## Dark Riders
+
+**ポイント:** 170pt / **モデル数:** 5 / **ベースサイズ:** 60 x 35mm
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 12" | 3 | 4+ | 1 |
+
+**射撃武器:**
+
+| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|---|
+| Repeater Crossbow | 12" | 2 | 4+ | 4+ | - | 1 | Crit (2 Hits) |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Dark Steed’s Vicious Bite | 2 | 5+ | 3+ | - | 1 | Companion |
+| Barbed Spear | 2 | 3+ | 4+ | 1 | 1 | Anti-INFANTRY (+1 Rend) |
+
+**アビリティ:**
+
+- **Sow Havoc**（Once Per Turn (Army), End of Any Turn）
+  - 宣言: Pick an enemy unit in combat with this unit to be the target.
+  - 効果: Roll a dice. On a 3+: • Inflict D3 mortal damage on the target. • This unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.
+
+**キーワード:** Cavalry, Champion, Musician (1/5), Standard Bearer (1/5), Order, Cities of Sigmar, Aelf
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+
+---
+
+## Darkshards
+
+**ポイント:** 150pt / **モデル数:** 10 / **ベースサイズ:** 25mm
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 6" | 1 | 5+ | 1 |
+
+**射撃武器:**
+
+| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|---|
+| Master-crafted Repeater Crossbow | 15" | 2 | 3+ | 4+ | - | 1 | Anti-INFANTRY (+1 Rend) |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Cruel Dagger | 1 | 3+ | 4+ | - | 1 | - |
+
+**アビリティ:**
+
+- **Storm of Iron-tipped Bolts**（Once Per Turn (Army), Your Shooting Phase）
+  - 効果: If this unit has not used a **MOVE** ability this turn and was not set up this turn, add 1 to the Attacks characteristic of this unit’s **Master‑crafted** **Repeater Crossbows** for the rest of the turn.
+
+**キーワード:** Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Order, Cities of Sigmar, Aelf
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+
+---
+
+## Drakespawn Chariot
+
+**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+
+**増援不可**
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 10" | 8 | 4+ | 2 |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Barbed Spear | 2 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage) |
+| Drakespawn’s Ferocious Jaws | 6 | 4+ | 3+ | 1 | 1 | Companion |
+
+**アビリティ:**
+
+- **Scythed Runners**（Once Per Turn (Army), Any Charge Phase）
+  - 宣言: If this unit charged this phase, pick an enemy unit within 1" of it to be the target.
+  - 効果: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
+
+**キーワード:** War Machine, Order, Cities of Sigmar, Aelf
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+
+---
+
+## Drakespawn Knights
+
+**ポイント:** 190pt / **モデル数:** 5 / **ベースサイズ:** 60 x 35mm
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 10" | 3 | 3+ | 1 |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Barbed Lance | 2 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage) |
+| Drakespawn’s Ferocious Jaws | 3 | 4+ | 3+ | 1 | 1 | Companion |
+
+**アビリティ:**
+
+- **Bestial Instincts**（Once Per Turn (Army), Any Combat Phase）
+  - 効果: &#x20;For the rest of the phase, add 1 to the Attacks characteristic of this unit’s **Drakespawn’s Ferocious Jaws** while it is in combat with any enemy units that had any damage points allocated to them this phase or that had any models slain this phase.
+
+**キーワード:** Cavalry, Champion, Musician (1/5), Standard Bearer (1/5), Order, Cities of Sigmar, Aelf
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+
+---
+
+## Dreadlord on Black Dragon
+
+**ポイント:** 260pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
+
+**増援不可**
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 12" | 14 | 4+ | 5 |
+
+**射撃武器:**
+
+| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|---|
+| Black Dragon’s Noxious Breath | 10" | 2D6 | 2+ | 4+ | 1 | 1 | Shoot in Combat, Companion |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Dreadlord’s Weapons | 5 | 3+ | 4+ | 1 | 2 | Charge (+1 Damage) |
+| Black Dragon’s Claws（戦傷時） | 7 | 4+ | 2+ | 1 | 2 | Companion |
+| Black Dragon’s Jaws | 3 | 4+ | 2+ | 2 | 3 | Companion |
+
+**アビリティ:**
+
+- **Battle Damaged**（Passive）
+  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Black Dragon’s Jaws Claws** is 4.
+- **Under the Shadow of Black Wings**（Passive）
+  - 効果: Add 1 to charge rolls for friendly **CITIES OF SIGMAR AELF CAVALRY** units while they are wholly within 12" of this unit.
+- **Indiscriminate Slaughter**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
+  - 宣言: Pick each other unit (friendly and enemy) within this unit’s combat range to be the targets.
+  - 効果: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
+
+**レジメントオプション:**
+
+- 0-1 **Black Ark Fleetmaster**
+- Any **AELF**
+
+**キーワード:** Hero, Monster, Fly, Order, Cities of Sigmar, Aelf
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+
+---
+
+## Dreadspears
+
+**ポイント:** 110pt / **モデル数:** 10 / **ベースサイズ:** 25mm
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 6" | 1 | 4+ | 1 |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Darkling Spear | 2 | 3+ | 4+ | - | 1 | Anti-charge (+1 Rend) |
+
+**アビリティ:**
+
+- **Coven Guard**（Once Per Turn (Army), Any Combat Phase）
+  - 効果: If this unit did not charge this turn, add 1 to wound rolls for this unit’s attacks for the rest of the turn.
+
+**キーワード:** Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Order, Cities of Sigmar, Aelf
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+
+---
+
+## Executioners
+
+**ポイント:** 150pt / **モデル数:** 10 / **ベースサイズ:** 25mm
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 6" | 1 | 4+ | 1 |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Executioner’s Draich | 2 | 3+ | 4+ | 1 | 1 | - |
+
+**アビリティ:**
+
+- **Severing Strike**（Once Per Turn (Army), Any Combat Phase）
+  - 効果: If this unit charged this turn, this unit’s melee weapons have **Crit (Mortal)**.
+
+**キーワード:** Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Order, Cities of Sigmar, Aelf
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
 
 ---
 
@@ -1245,6 +1628,38 @@
 
 ---
 
+## Kharibdyss
+
+**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+
+**増援不可**
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 8" | 12 | 5+ | 5 |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Fanged Tentacles and Spiked Tail | 5 | 4+ | 2+ | 1 | 2 | Companion |
+
+**アビリティ:**
+
+- **Abyssal Howl**（Once Per Turn (Army), End of Any Turn） ［Rampage］
+  - 宣言: Pick an enemy unit in combat with this unit to be the target.
+  - 効果: &#x20;Roll a dice. On a 3+, the target has a maximum control score of 1 for the rest of the turn.
+- **Goaded and Whipped**（Once Per Turn (Army), Any Combat Phase）
+  - 効果: Double the Attacks characteristic of this unit’s **Companion** melee weapons for the rest of the turn.
+
+**キーワード:** Monster, Order, Cities of Sigmar, Aelf
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+
+---
+
 ## Longbeards
 
 **ポイント:** 130pt / **モデル数:** 10 / **ベースサイズ:** 25mm
@@ -1414,6 +1829,130 @@
 
 ---
 
+## Scourgerunner Chariot
+
+**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+
+**増援不可**
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 10" | 8 | 5+ | 2 |
+
+**射撃武器:**
+
+| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|---|
+| Ravager Harpoon | 16" | 2 | 3+ | 3+ | 1 | D3 | Anti-MONSTER (+1 Rend) |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Dark Steeds’ Vicious Bites | 4 | 5+ | 3+ | - | 1 | Companion |
+| Hook Spear | 2 | 3+ | 4+ | 2 | 1 | Anti-MONSTER (+1 Rend) |
+
+**アビリティ:**
+
+- **Prize Specimens**（Once Per Turn (Army), Your Shooting Phase）
+  - 効果: For the rest of the turn, add 1 to hit rolls and wound rolls for this unit’s shooting attacks that target enemy **MONSTERS**.
+
+**キーワード:** War Machine, Order, Cities of Sigmar, Aelf
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+
+---
+
+## Sorceress
+
+**ポイント:** 130pt / **モデル数:** 1 / **ベースサイズ:** 25mm
+
+**増援不可**
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 6" | 5 | 6+ | 2 |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Witchstaff | 1 | 3+ | 4+ | 1 | D3 | - |
+
+**アビリティ:**
+
+- **Word of Pain**（Once Per Turn (Army), Any Combat Phase）
+  - 宣言: Pick an enemy unit in combat with this unit to be the target.
+  - 効果: Roll a dice. On a 3+, subtract 1 from hit rolls and wound rolls for the target’s attacks until the start of your next turn.
+- **Cruel Sacrifice**（Once Per Turn (Army), Your Hero Phase）
+  - 宣言: Pick a friendly **CITIES OF SIGMAR AELF** unit wholly within 6" of this unit to be the target.
+  - 効果: Add 1 to casting rolls for this unit for the rest of the turn. Then, roll a dice. On a 4+, 1 model in the target unit is slain.
+
+**レジメントオプション:**
+
+- 0-1 **Black Ark Fleetmaster**
+- Any **AELF**
+
+**キーワード:** Hero, Wizard (1), Infantry, Order, Cities of Sigmar, Aelf
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+
+---
+
+## Sorceress on Black Dragon
+
+**ポイント:** 280pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
+
+**増援不可**
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 12" | 14 | 4+ | 5 |
+
+**射撃武器:**
+
+| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|---|
+| Black Dragon’s Noxious Breath | 10" | 2D6 | 2+ | 4+ | 1 | 1 | Shoot in Combat, Companion |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Cruel Weapons | 3 | 3+ | 4+ | 1 | D3 | - |
+| Black Dragon’s Claws（戦傷時） | 7 | 4+ | 2+ | 1 | 2 | Companion |
+| Black Dragon’s Jaws | 3 | 4+ | 2+ | 2 | 3 | Companion |
+
+**アビリティ:**
+
+- **Dark Sorcery**（Passive）
+  - 効果: Add 1 to casting rolls for this unit for each **dark sorcery token** it has.
+- **Command Underlings**（Once Per Turn (Army), Your Hero Phase）
+  - 宣言: Pick up to 3 friendly **CITIES OF SIGMAR AELF INFANTRY** units wholly within 12" of this unit to be targets.
+  - 効果: Add 3" to the Move characteristic of each target for the rest of the turn.
+- **Feed on Life Force**（Once Per Turn (Army), End of Any Turn） ［Rampage］
+  - 宣言: Pick an enemy unit in combat with this unit to be the target.
+  - 効果: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any enemy models are slain by this ability, place a **dark** **sorcery** token next to this unit for the rest of the battle, to a maximum of 3 tokens.
+- **Battle Damaged**（Passive）
+  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Black Dragon’s Claws** is 4.
+
+**レジメントオプション:**
+
+- 0-1 **Black Ark Fleetmaster**
+- Any **AELF**
+
+**キーワード:** Hero, Monster, Wizard (1), Fly, Order, Cities of Sigmar, Aelf
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+
+---
+
 ## Steam Tank
 
 **ポイント:** 240pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
@@ -1490,6 +2029,44 @@
 - Any **Steam Tank**
 
 **キーワード:** Hero, War Machine, Order, Cities of Sigmar, Sigmarite
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+
+---
+
+## War Hydra
+
+**ポイント:** 170pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+
+**増援不可**
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 8" | 12 | 5+ | 5 |
+
+**射撃武器:**
+
+| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|---|
+| Fiery Breath | 10" | 6 | 4+ | 3+ | - | D3 | Shoot in Combat, Companion |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Razor-sharp Fangs | 6 | 4+ | 2+ | 1 | 2 | Anti-INFANTRY (+1 Rend), Companion |
+
+**アビリティ:**
+
+- **Impossible to Destroy**（Passive）
+  - 効果: If this unit would be destroyed, before removing it from play, roll 6 dice. Subtract 1 from the number of dice rolled for each **destroyed head token** this unit has. If any of the rolls are a 5+, this unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, **Heal (1)** this unit for each 5+. Finally, give this unit 1 **destroyed head token.**
+- **Six-headed Strike**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
+  - 宣言: Pick an enemy unit in combat with this unit to be the target.
+  - 効果: Roll 6 dice. For each 3+, inflict 1 mortal damage on the target.
+
+**キーワード:** Monster, Order, Cities of Sigmar, Aelf
 
 **ノート:** This unit will move to Warhammer Legends on 1 June 2027.
 

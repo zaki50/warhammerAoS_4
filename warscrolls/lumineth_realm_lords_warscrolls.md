@@ -1,6 +1,6 @@
 # Lumineth Realm-lords ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.36.0 build 85 / dump.json data_version 466 / 抽出 2026-08-19
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
 
 全35 ウォースクロール（Spearhead 版 4 件は除外。--include-spearhead で含められる）
 
@@ -926,11 +926,11 @@
 
 **アビリティ:**
 
-- **Supreme Swordmaster**（Passive）
-  - 効果: Ignore negative modifiers to hit rolls and wound rolls for this unit’s attacks.
-- **Valorous intervention**（Any Combat Phase / CP 1）
+- **Valorous Intervention**（Any Combat Phase / CP 1）
   - 宣言: This unit cannot use this ability if it is in combat. Pick a friendly **LUMINETH REALM-LORDS** unit that is in combat to be the target.
   - 効果: Remove this unit from the battlefield and set it up again within 1" of the target, within 1" of an enemy unit and in combat. This unit has charged.
+- **Supreme Swordmaster**（Passive）
+  - 効果: Ignore negative modifiers to hit rolls and wound rolls for this unit’s combat attacks.
 
 **レジメントオプション:**
 

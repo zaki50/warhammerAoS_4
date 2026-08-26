@@ -1,6 +1,6 @@
 # Seraphon ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.36.0 build 85 / dump.json data_version 466 / 抽出 2026-08-19
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
 
 全40 ウォースクロール（Spearhead 版 8 件は除外。--include-spearhead で含められる）
 
@@ -791,12 +791,12 @@
 
 **アビリティ:**
 
+- **Saurian Ambush**（Your Movement Phase）
+  - 宣言: This unit can use this ability even if it is in reserve. Pick each friendly unit that is **stalking the prey** to be the targets.
+  - 効果: Set up the targets on the battlefield wholly within 7" of the battlefield edge and more than 9" from all enemy units.
 - **The Hunt Begins**（Once Per Batlle (Army), Deployment Phase） ［Deploy］
   - 宣言: Pick this unit and up to 1 friendly **SERAPHON CAVALRY** unit if those units have not been deployed.
   - 効果: Set up that friendly **CAVALRY** unit in reserve **stalking** **the prey**. Then, either set up this unit in reserve **stalking the prey** or set up this unit wholly within friendly territory and more than 9" from enemy territory. Those units have now been deployed.
-- **Saurian Ambush**（Your Movement Phase）
-  - 宣言: Pick each friendly unit that is **stalking the prey** to be the targets.
-  - 効果: Set up the targets on the battlefield wholly within 7" of the battlefield edge and more than 9" from all enemy units.
 - **Reptilian Instincts**（Reaction: Opponent declared a **SHOOT** ability）
   - 効果: This unit can use this ability even if it is in reserve. Pick each friendly unit that is **stalking the prey** to be the targets. After that **SHOOT** ability has been resolved, set up each target on the battlefield more than 9" from all enemy units and within 18" of the unit that used the **SHOOT** ability. Then, you can spend up to 3 **rage dice**. If you do: • If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. • Each target can move up to **X**", where **X** is the number of **rage** **dice** spent. It must end that move no further from the unit that used the **SHOOT** ability than it was at the start of the move. Then, for the rest of the turn, each time a target uses a **CHARGE** ability, it must end that charge move in combat with the unit that used the **SHOOT** ability.
 

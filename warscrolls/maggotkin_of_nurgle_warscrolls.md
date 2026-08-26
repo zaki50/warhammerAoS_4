@@ -1,6 +1,6 @@
 # Maggotkin of Nurgle ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.36.0 build 85 / dump.json data_version 466 / 抽出 2026-08-19
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
 
 全41 ウォースクロール（Spearhead 版 4 件は除外。--include-spearhead で含められる）
 
@@ -759,7 +759,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of **Whippermaw’s Claws** is 3.
 - **Acid Ichor**（Passive）
-  - 効果: Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.
+  - 効果: Each time you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.
 
 **レジメントオプション:**
 
@@ -1428,7 +1428,7 @@
 
 | Move | Health | Save | Control | Ward |
 |---|---|---|---|---|
-| 4" | 4 | 4+ | 1 | 5+ |
+| 4" | 4 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
@@ -1445,6 +1445,6 @@
 
 **装備オプション:** ***Each model in this unit is armed with Blighted Weapons. The models in this unit are:*** • ***Fecula Flyblown** (champion)* • ***Ghulgoch the Butcher*** • ***Sepsimus, Plaguesworn***
 
-**キーワード:** Unique, Infantry, Champion, Ward (5+), Chaos, Maggotkin of Nurgle, Rotbringers
+**キーワード:** Unique, Infantry, Champion, Ward (6+), Chaos, Maggotkin of Nurgle, Rotbringers
 
 **ノート:** This unit cannot be reinforced.

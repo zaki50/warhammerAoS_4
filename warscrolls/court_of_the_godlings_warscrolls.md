@@ -1,6 +1,6 @@
 # Court of the Godlings ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.36.0 build 85 / dump.json data_version 466 / 抽出 2026-08-19
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
 
 全16 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -418,10 +418,10 @@
 
 **アビリティ:**
 
+- **Like Nails on a Chalkboard**（Once Per Turn (Army), Reaction: Opponent declared the 'Eruption of Fury' ability for a unit within 12" of and visible to this unit.）
+  - 効果: You and your opponent must roll off. If you roll higher, pick a unit (friendly or enemy) other than the enemy unit using the ‘Eruption of Fury’ ability within that enemy unit’s combat range. That unit is now the target of that ‘Eruption of Fury’ ability. Your opponent must spend as many **rage dice** as possible as part of that ability, to a maximum of 3.
 - **Delightful Defeatism**（Passive）
   - 効果: Each time a visible enemy unit within 18" of this unit uses the ‘Rally’ command, your opponent must make 3 fewer rally rolls of D6.
-- **Like Nails on a Chalkboard**（Once Per Turn (Army), Reaction: Opponent declared the 'Eruption of Fury' ability for a unit within 12" of and visible to this unit.）
-  - 効果: You and your opponent must roll off. If you roll higher, pick another unit (friendly or enemy) within the combat range of the enemy unit using the ‘Eruption of Fury’ ability. That unit is now the target of that ‘Eruption of Fury’ ability. Your opponent must spend as many **rage dice** as possible as part of that ability, to a maximum of 3.
 
 **レジメントオプション:**
 

@@ -1,6 +1,6 @@
 # Taar's Grand Forgehost ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.36.0 build 85 / dump.json data_version 466 / 抽出 2026-08-19
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
 
 
 ## バトル特性
@@ -23,7 +23,7 @@
 
 **HERO** only
 
-- **Ruthless Oversser**（Passive）
+- **Ruthless Overseer**（Passive）
   - 効果: Each time a friendly **GRAND FORGEHOST** unit wholly within 12" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.
 
 ## アーティファクト・オブ・パワー

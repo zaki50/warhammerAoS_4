@@ -1,6 +1,6 @@
 # Fyreslayers ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.36.0 build 85 / dump.json data_version 466 / 抽出 2026-08-19
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
 
 
 ## バトル特性
@@ -19,7 +19,7 @@ Fyreslayers armies can use the following abilities:
 - **Rune of Searing Heat**（Once Per Battle (Army), Any Combat Phase）
   - 効果: You can only use this ability if you have not used any **UR-GOLD RUNE** abilities this battle round. Melee weapons used by friendly **FYRESLAYERS** units have **Crit** **(Mortal)** for the rest of the battle round.
 - **Rune of Farsight**（Once Per Battle (Army), Any Shooting Phase）
-  - 宣言: You can only use this ability if you have not used any **UR-GOLD RUNE** abilities this battle round. Pick any number of enemy units within 10" of any visible friendly **FYRESLAYERS** units to be targets.
+  - 宣言: You can only use this ability if you have not used any **UR-GOLD RUNE** abilities this battle round. Pick any number of enemy units within 10" of and visible to any friendly **FYRESLAYERS** units to be targets.
   - 効果: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. In addition, for the rest of the battle round, ranged weapons, including **Companion** weapons, used by friendly **FYRESLAYERS** units have **Crit (2 Hits)**.
 
 ## バトルフォーメーション

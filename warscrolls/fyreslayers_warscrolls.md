@@ -1,6 +1,6 @@
 # Fyreslayers ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.36.0 build 85 / dump.json data_version 466 / 抽出 2026-08-19
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
 
 全26 ウォースクロール（Spearhead 版 3 件は除外。--include-spearhead で含められる）
 
@@ -209,12 +209,12 @@
 
 **アビリティ:**
 
-- **Emergence**（Your Hero Phase）
-  - 宣言: Pick this unit if it is **underground**.
-  - 効果: Set up this unit anywhere on the battlefield more than 9" from all enemy units. Then, set up the other unit that was set up **underground** with it (if any) wholly within 6" of this unit and more than 9" from all enemy units.
 - **Magmic Tunnelling**（Deployment Phase） ［Deploy］
   - 宣言: Pick this unit and any number of other units in its regiment if none of those units have been deployed to be the targets.
   - 効果: Set up those units in reserve **underground**. They have now been deployed.
+- **Emergence**（Your Hero Phase）
+  - 宣言: Pick this unit if it is **underground**.
+  - 効果: Set up this unit anywhere on the battlefield more than 9" from all enemy units. Then, set up the other units that were set up **underground** with it (if any) wholly within 6" of this unit and more than 9" from all enemy units.
 
 **レジメントオプション:**
 

@@ -1,6 +1,6 @@
 # Lords of the Clan ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.36.0 build 85 / dump.json data_version 466 / 抽出 2026-08-19
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
 
 全12 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -44,7 +44,7 @@
 
 ## Grove Guardian
 
-**ポイント:** 220pt / **モデル数:** 1 / **ベースサイズ:** 90 × 52mm
+**ポイント:** 220pt / **モデル数:** 1 / **ベースサイズ:** 105 × 70mm
 
 **増援不可**
 

@@ -1,15 +1,15 @@
 # Ogor Mawtribes ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.36.0 build 85 / dump.json data_version 466 / 抽出 2026-08-19
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
 
-全33 ウォースクロール（Spearhead 版 9 件は除外。--include-spearhead で含められる）
+全42 ウォースクロール（Spearhead 版 9 件は除外。--include-spearhead で含められる）
 
 
 ---
 
 ## Bloodpelt Hunter
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 130pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -17,14 +17,13 @@
 
 | Move | Health | Save | Control |
 |---|---|---|---|
-| 6" | 8 | 5+ | 5 |
+| 6" | 8 | 5+ | 3 |
 
 **射撃武器:**
 
 | 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Impaling Spear | 12" | 1 | 4+ | 2+ | 1 | D6 | Anti-MONSTER (+1 Rend) |
-| Skullshatter Crossbow | 18" | 2 | 4+ | 3+ | 1 | D3 | - |
+| Skullshatter Crossbow and Impaling Spear | 15" | 4 | 4+ | 3+ | 1 | D3+1 | Anti-MONSTER (+1 Rend) |
 
 **近接武器:**
 
@@ -34,22 +33,84 @@
 
 **アビリティ:**
 
-- **Beast-breaker**（Passive）
-  - 効果: If the target is a **MONSTER**, the Damage characteristic of this unit’s **Skullshatter** **Crossbow** is 3 and the **Damage** characteristic of its **Impaling** **Spear** is 6.
-- **Unrelenting Hunter**（Once Per Turn (Army), Enemy Movement Phase）
-  - 効果: If this unit is more than 9" from all enemy units, it can use the ‘Normal Move’ ability as if it were your movement phase.
+- **Biggest-Game Hunter**（Passive）
+  - 効果: The Damage characteristic of this unit’s **Skullshatter Crossbow and Impaling Spear** is 4 if the target is a **MONSTER**.
+- **The First Shot's Mine**（Once Per Turn (Army), Your Shooting Phase）
+  - 宣言: Pick an enemy unit that had any damage points allocated to it this turn by this unit’s shooting attacks to be the target.
+  - 効果: For the rest of the phase, add 1 to hit rolls for shooting attacks made by friendly **BEASTCLAW** units that target that enemy unit.
 
 **レジメントオプション:**
 
-- Any **GUTBUSTERS**
+- Any **BEASTCLAW**
+- Any **INFANTRY**
 
-**キーワード:** Hero, Infantry, Destruction, Ogor Mawtribes, Ogor, Gutbusters
+**キーワード:** Hero, Infantry, Destruction, Ogor Mawtribes, Ogor, Beastclaw
 
-**ノート:** This **HERO** can join a **Tyrant**’s regiment.
+**ノート:** This **HERO** can join an eligible regiment as a *Maw Nomad.*
 
 ---
 
 ## Butcher
+
+**ポイント:** 170pt / **モデル数:** 1 / **ベースサイズ:** 50mm
+
+**増援不可**
+
+**ステータス:**
+
+| Move | Health | Save | Control | Ward |
+|---|---|---|---|---|
+| 6" | 8 | 5+ | 3 | 6+ |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Butcher's Tools | 4 | 4+ | 2+ | 2 | 3 | - |
+
+**アビリティ:**
+
+- **Trogg-Guts**（Once Per Turn (Army), Any Movement Phase）
+  - 宣言: Pick a visible friendly **OGOR MAWTRIBES** unit wholly within 12" of this unit to be the target.
+  - 効果: Roll a dice. On a 3+, the target has **WARD (6+)** until the start of your next turn. If you picked a **MAWSEEKERS** unit, it has **WARD (5+)** until the start of your next turn instead.
+- **More Meat for the Pot**（Once Per Battle (Army), End of Any Turn）
+  - 効果: If any damage points were allocated to an enemy unit this turn by this unit’s combat attacks or by combat attacks made by a **MANIFESTATION** summoned by this unit, and that enemy unit has been destroyed, add 1 to this unit’s power level for the rest of the battle.
+
+**レジメントオプション:**
+
+- 0-1 **MAW NOMAD**
+- Any **INFANTRY**
+
+**キーワード:** Hero, Wizard (1), Infantry, Ward (6+), Destruction, Ogor Mawtribes, Ogor, Mawseekers
+
+---
+
+## Cleavers
+
+**ポイント:** 220pt / **モデル数:** 3 / **ベースサイズ:** 40mm
+
+**ステータス:**
+
+| Move | Health | Save | Control | Ward |
+|---|---|---|---|---|
+| 6" | 4 | 5+ | 2 | 6+ |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Cleaver's Tools | 4 | 4+ | 2+ | 2 | 3 | - |
+
+**アビリティ:**
+
+- **A Taste for the Arcane**（Any Combat Phase）
+  - 効果: If a friendly or enemy **WIZARD** or **PRIEST** is within 6" of this unit, roll a dice. On a 3+, pick 1 of the following effects to apply for the rest of the turn: • This unit’s melee weapons have **Crit (2 Hits)**. • If this unit’s melee weapons already have **Crit (2 Hits)**, they have **Crit (Mortal)**.
+
+**キーワード:** Infantry, Champion, Ward (6+), Destruction, Ogor Mawtribes, Ogor, Mawseekers
+
+---
+
+## Firebelly
 
 **ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 50mm
 
@@ -59,41 +120,7 @@
 
 | Move | Health | Save | Control |
 |---|---|---|---|
-| 6" | 7 | 5+ | 5 |
-
-**近接武器:**
-
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
-|---|---|---|---|---|---|---|
-| Butcher's Tools | 3 | 4+ | 2+ | 1 | 3 | - |
-
-**アビリティ:**
-
-- **Savage Hunger**（Passive）
-  - 効果: While they are wholly within 12" of this unit, friendly **GUTBUSTERS** units can use **CHARGE** abilities even if they used a **RUN** ability in the same turn.
-
-**レジメントオプション:**
-
-- 0-1 **Gnoblar Scraplauncher**
-- Any **GUTBUSTERS**
-- Any **Gnoblars**
-- Any **Gorger Mawpack**
-
-**キーワード:** Hero, Wizard (1), Infantry, Destruction, Ogor Mawtribes, Ogor, Gutbusters
-
----
-
-## Firebelly
-
-**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 50mm
-
-**増援不可**
-
-**ステータス:**
-
-| Move | Health | Save | Control |
-|---|---|---|---|
-| 6" | 7 | 5+ | 5 |
+| 6" | 7 | 5+ | 3 |
 
 **射撃武器:**
 
@@ -110,16 +137,17 @@
 **アビリティ:**
 
 - **Torrent of Flame**（Passive）
-  - 効果: Add 1 to the Damage characteristic of this unit’s **Fire Breath** for attacks that target **INFANTRY**.
+  - 効果: Add 1 to the Damage characteristic of this unit’s **Fire Breath** if the target is **INFANTRY**.
 
 **レジメントオプション:**
 
 - 0-1 **Gnoblar Scraplauncher**
 - Any **GUTBUSTERS**
 - Any **Gnoblars**
-- Any **Gorger Mawpack**
 
-**キーワード:** Hero, Wizard (1), Infantry, Destruction, Ogor Mawtribes, Ogor
+**キーワード:** Hero, Wizard (1), Infantry, Destruction, Ogor Mawtribes, Ogor, Gutbusters
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
 
 ---
 
@@ -137,7 +165,7 @@
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Tusks and Claws | 3 | 4+ | 3+ | 1 | 1 | - |
+| Tusks and Claws | 3 | 4+ | 3+ | 1 | 1 | Companion |
 
 **アビリティ:**
 
@@ -145,14 +173,18 @@
   - 効果: This unit has a maximum control score of 1.
 - **Hunters of the Frozen Wilds**（Passive）
   - 効果: This unit is not visible to enemy units while it is within 3" of a terrain feature and more than 9" from all enemy units.
+- **Gutless**（Passive）
+  - 効果: This unit cannot use the ‘Bull Charge’ ability.
 
-**キーワード:** Beast, Destruction, Ogor Mawtribes, Beastclaw Raiders
+**キーワード:** Beast, Destruction, Ogor Mawtribes, Beastclaw
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
 
 ---
 
 ## Frostlord on Stonehorn
 
-**ポイント:** 320pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 340pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -166,34 +198,33 @@
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Stonehorn’s Rock-hard Horns（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
+| Stonehorn’s Rock-hard Horns and Hooves（戦傷時） | 7 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
 | Frost Spear | 4 | 4+ | 2+ | 2 | 2 | Charge (+1 Damage) |
-| Stonehorn's Hooves | D6 | 4+ | 2+ | 1 | D3 | Companion |
 
 **アビリティ:**
 
 - **Stone Skeleton**（Passive）
   - 効果: Ignore the first damage point that would be allocated to this unit in each phase.
 - **Battle Damaged**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Stonehorn’s Rock-hard Horns** is 4.
+  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Stonehorn’s Rock-hard Horns** **and Hooves** is 4.
 - **Earth-shattering Charge**（Once Per Turn (Army), Any Charge Phase） ［Rampage］
-  - 宣言: If this unit charged this phase, pick an enemy unit within 1" of it to be the target.
-  - 効果: Inflict D3 mortal damage on the target. Then, roll 2D6. This unit can move a distance up to the value of the roll. During that move, it can pass through models in the target unit but must end that move in combat.
-- **Frost Spear**（Passive）
-  - 効果: If any damage points are allocated to an enemy **HERO** or **MONSTER** by attacks made with this unit’s **Frost Spear**, subtract 1 from the Attacks characteristic of that enemy unit’s melee weapons until the start of your next turn.
+  - 宣言: If this unit charged this turn and has not used the ‘Bull Charge’ ability this turn, pick a visible enemy unit within 1" of it to be the target.
+  - 効果: Inflict D3 mortal damage on the target and then roll 2D6. This unit can move a distance in inches up to the value of the roll. It can pass through models in the target unit but must end that move in combat.
+- **Enraged Roar**（Passive）
+  - 効果: While this unit is damaged, add 1 to the Attacks characteristic of **Companion** weapons used by other friendly **OGOR MAWTRIBES** units while they are within this unit’s combat range.
 
 **レジメントオプション:**
 
-- 0-1 *Voice of the Everwinter*
+- 0-1 **MAW NOMAD**
 - Any **OGOR MAWTRIBES**
 
-**キーワード:** Hero, Monster, Destruction, Ogor Mawtribes, Ogor, Beastclaw Raiders
+**キーワード:** Hero, Monster, Destruction, Ogor Mawtribes, Ogor, Beastclaw
 
 ---
 
 ## Frostlord on Thundertusk
 
-**ポイント:** 230pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 280pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -220,25 +251,50 @@
 
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Thundertusk’s Colossal Tusks** is 2.
-- **Bellowing Voice**（Once Per Battle (Army), Your Charge Phase）
-  - 宣言: Pick any number of friendly **BEASTCLAW RAIDERS** units wholly within 12" of this unit to be the targets.
-  - 効果: Each target can add 1 to the D3 roll made if that unit uses the ‘Trampling Charge’ ability this turn.
 - **Sweeping Tusks**（Once per Turn (Army), Any Movement Phase） ［Rampage］
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
-  - 効果: Roll a dice. On a 3+, roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.
+  - 効果: Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.
+- **Blessed of the Old Ice**（Once Per Turn (Army), Your Movement Phase）
+  - 宣言: Pick a visible friendly **OGOR MAWTRIBES** unit wholly within 12" of this unit to be the target.
+  - 効果: Roll a dice. On a 3+, for the rest of the turn, the target can still use **SHOOT** and/or **CHARGE** abilities even if it used a **RETREAT** or **RUN** ability in the same turn.
 
 **レジメントオプション:**
 
-- 0-1 *Voice of the Everwinter*
+- 0-1 **MAW NOMAD**
 - Any **OGOR MAWTRIBES**
 
-**キーワード:** Hero, Monster, Destruction, Ogor Mawtribes, Ogor, Beastclaw Raiders
+**キーワード:** Hero, Monster, Destruction, Ogor Mawtribes, Ogor, Beastclaw
+
+---
+
+## Gluttons
+
+**ポイント:** 200pt / **モデル数:** 5 / **ベースサイズ:** 40mm
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 6" | 4 | 5+ | 2 |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Glutton Weapons | 4 | 4+ | 2+ | 1 | 2 | - |
+
+**アビリティ:**
+
+- **Wall of Meat**（Passive）
+  - 効果: Add 1 to save rolls for this unit if it has not charged this turn.
+
+**キーワード:** Infantry, Champion, Musician (1/5), Destruction, Ogor Mawtribes, Ogor, Gutbusters
 
 ---
 
 ## Gnoblar Scraplauncher
 
-**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 160pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -252,24 +308,21 @@
 
 | 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Piles of Old Scrap | 24" | 3D6 | 4+ | 4+ | - | 1 | Anti-INFANTRY (+1 Rend), Crit (Auto-wound) |
+| Piles of Old Scrap | 18" | 12 | 4+ | 2+ | 1 | 1 | Crit (2 Hits) |
 
 **近接武器:**
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Rhinox’s Sharp Horns | 2 | 4+ | 2+ | 1 | D3 | Companion |
-| Scrappers’ Stabbers | 7 | 5+ | 5+ | - | 1 | - |
+| Rhinox’s Sharp Horns and Crew's Weapons | 3 | 4+ | 2+ | 1 | D3 | Companion |
 
 **アビリティ:**
 
-- **Rain of Scrap**（Your Shooting Phase）
-  - 宣言: Pick an enemy unit that had any models slain this turn by this unit’s shooting attacks to be the target.
-  - 効果: Subtract 1 from hit rolls for the target’s attacks for the rest of the turn.
-- **Load It Up!**（Your Shooting Phase）
-  - 効果: If this unit is within the combat range of a friendly **Gnoblars** unit, this unit’s shooting attacks score critical hits on unmodified hit rolls of 5+ until the start of your next turn.
+- **Rain of Scrap**（Once Per Turn (Army), Any Shooting Phase）
+  - 宣言: Pick an enemy unit that had any damage points allocated to it this phase by this unit’s shooting attacks to be the target.
+  - 効果: Until the start of your next turn, subtract **X**" from the target’s Move characteristic (to a minimum Move characteristic of 1"), where **X** is the number of damage points allocated to the target this phase by this unit’s shooting attacks. Then, roll a dice. On a 3+, until the start of your next turn, the target cannot use **RUN** or **RETREAT** abilities and cannot use or be picked to be the target of abilities that would allow it to be set up on the battlefield.
 
-**キーワード:** War Machine, Destruction, Ogor Mawtribes, Rhinox
+**キーワード:** War Machine, Destruction, Ogor Mawtribes
 
 ---
 
@@ -297,11 +350,15 @@
 
 **アビリティ:**
 
-- **Nasty Traps And Tricks**（Any Charge Phase）
-  - 宣言: Pick an enemy unit within 6" of this unit and that used a **MOVE** ability this turn to be the target. You cannot pick the same unit to be the target of this ability more than once per turn.
+- **Gutless**（Passive）
+  - 効果: This unit cannot use the ‘Bull Charge’ ability.
+- **Nasty Traps And Tricks**（Once Per Turn (Army), Any Charge Phase）
+  - 宣言: Pick an enemy unit in combat with this unit and that charged this turn to be the target.
   - 効果: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
 
 **キーワード:** Infantry, Champion, Destruction, Ogor Mawtribes
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
 
 ---
 
@@ -313,9 +370,9 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
-|---|---|---|---|
-| 6" | 5 | 6+ | 2 |
+| Move | Health | Save | Control | Ward |
+|---|---|---|---|---|
+| 6" | 5 | 6+ | 2 | 6+ |
 
 **近接武器:**
 
@@ -332,7 +389,7 @@
   - 宣言: Pick this unit if it has not been deployed.
   - 効果: Set up this unit in reserve **lurking on the fringes**. It has now been deployed.
 
-**キーワード:** Infantry, Champion (1/5), Musician (1/5), Destruction, Ogor Mawtribes, Ogor
+**キーワード:** Infantry, Champion (1/5), Musician (1/5), Ward (6+), Destruction, Ogor Mawtribes, Ogor, Mawseekers
 
 **ノート:** This unit cannot be reinforced.
 
@@ -375,7 +432,7 @@
 
 ## Great Mawpot
 
-**モデル数:** 1 / **ベースサイズ:** Use Model
+**ポイント:** 20pt / **モデル数:** 1 / **ベースサイズ:** Use Model
 
 **増援不可**
 
@@ -388,14 +445,12 @@
 **アビリティ:**
 
 - **Battlebroth**（Your Hero Phase）
-  - 効果: If the **Great Mawpot** is full, **Heal (D3)** each friendly unit wholly within 18" of it. After you have done so, the **Great Mawpot** is **empty**.
+  - 効果: If the **Great Mawpot** is full, **Heal (D3)** each visible friendly unit wholly within 18" of it. After you have done so, the **Great Mawpot** is **empty**.
 - **Throw 'Em In**（Passive）
-  - 効果: If an enemy model is slain within 6" of the **Great Mawpot** when it is **empty**, it becomes **full**.
-- **Great Mawpot**（Passive）
-  - 効果: The **Great Mawpot** is either **full** or **empty**. It starts the battle **full**.
+  - 効果: This Great Mawpot is either **full** or **empty**. It starts the battle **full**. If an enemy model is slain within 12" of this **Great Mawpot** while it is **empty**, it becomes **full**.
 - **Vessel of the Gulping God**（Your Hero Phase）
-  - 宣言: If the **Great Mawpot** is **full**, pick a friendly **OGOR WIZARD** within 3" of it to be the target.
-  - 効果: Add 1 to the power level of the target for the rest of the turn.
+  - 宣言: If the **Great Mawpot** is **full**, pick a visible friendly **OGOR MAWTRIBES WIZARD** within 3" of it to be the target.
+  - 効果: Add 1 to casting rolls for the target for the rest of the turn.
 
 **地形ルール:**
 
@@ -405,6 +460,80 @@
 **装備オプション:** **The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):** **Cover, Impassable**
 
 **キーワード:** Faction Terrain, Destruction, Ogor Mawtribes
+
+**ノート:** This terrain feature will move to Warhammer Legends on 1 June 2027.
+
+---
+
+## Grell Firefist
+
+**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 50mm
+
+**増援不可**
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 6" | 8 | 4+ | 3 |
+
+**射撃武器:**
+
+| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|---|
+| Blastbelch | 12" | D3+2 | 4+ | 2+ | 2 | 2 | - |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Maneater Cleaver | 4 | 4+ | 2+ | 2 | 2 | Crit (Mortal) |
+
+**アビリティ:**
+
+- **Ogor-Made Ammunition**（Any Shooting Phase）
+  - 宣言: Pick a visible enemy unit within 6" of this unit to be the target.
+  - 効果: For the rest of the phase: •  All of this unit’s shooting attacks must target that enemy unit. •  The Attacks characteristic of this unit’s **Blastbelch** is D6+2 instead of D3+2.
+- **Thunderous Diversion**（Your Shooting Phase）
+  - 宣言: Pick a friendly **OGOR MAWTRIBES** unit that is in combat with an enemy unit that had any damage inflicted on it this turn by this unit’s shooting attacks to be the target.
+  - 効果: The target can immediately use a **RETREAT** ability as if it were your movement phase and can still use **CHARGE** abilities later in the turn. No mortal damage is inflicted on the target by that **RETREAT** ability.
+- **Oi! Pay Attention, Slobs!**（Once Per Turn (Army), Reaction: Opponent declared a command for a visible enemy unit within 6" of this unit）
+  - 効果: You must allocate D3 damage points to another visible friendly **OGOR MAWTRIBES** unit within 3" of this unit (ward rolls cannot be made for those damage points). Then, that command has no effect and still counts as having been used, but the command points spent to use it are regained by your opponent.
+
+**レジメントオプション:**
+
+- Any **OGOR MAWTRIBES**
+
+**キーワード:** Unique, Hero, Infantry, Destruction, Ogor Mawtribes, Ogor, Gutbusters
+
+**ノート:** This **HERO** can join an eligible regiment as a *Maw Nomad.*
+
+---
+
+## Gutseers
+
+**ポイント:** 200pt / **モデル数:** 3 / **ベースサイズ:** 40mm
+
+**ステータス:**
+
+| Move | Health | Save | Control | Ward |
+|---|---|---|---|---|
+| 6" | 4 | 5+ | 2 | 6+ |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Gutseer's Tools | 3 | 4+ | 2+ | 2 | 3 | - |
+
+**アビリティ:**
+
+- **Arcane Contortions**（Passive）
+  - 効果: Subtract 1 from casting rolls and chanting rolls for visible enemy units while they are within 12" of this unit. Add 1 to casting rolls for visible friendly **MAWSEEKERS WIZARDS** while they are wholly within 12" of this unit.
+- **Conduits of Gut Magic**（Once Per Turn (Army), Any Hero Phase）
+  - 効果: Measure the range and visibility of the next **SPELL** ability used by a friendly **OGOR MAWTRIBES WIZARD** that is wholly within 12" of and visible to this unit from this unit instead of that **WIZARD**. This unit is treated as the caster for the purpose of other abilities or spell effects, such as ‘Unbind’.
+
+**キーワード:** Infantry, Champion, Ward (6+), Destruction, Ogor Mawtribes, Ogor, Mawseekers
 
 ---
 
@@ -448,9 +577,46 @@
 
 ---
 
+## Hunters with Sabrefangs
+
+**ポイント:** 160pt / **モデル数:** 5 / **ベースサイズ:** 40mm [3], 60 x 35mm [2]
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 6" | 4 | 5+ | 2 |
+
+**射撃武器:**
+
+| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|---|
+| Hunter's Crossbow | 15" | 3 | 4+ | 3+ | 1 | 2 | Anti-MONSTER (+1 Rend) |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Skinning Blades | 2 | 4+ | 2+ | 1 | 1 | Anti-CAVALRY (+1 Rend), Anti-MONSTER (+1 Rend) |
+| Sabrefang's Tusks and Claws | 4 | 4+ | 3+ | 1 | 1 | Companion |
+
+**アビリティ:**
+
+- **Through the Frosts**（Once Per Battle (Army), Deployment Phase）
+  - 効果: Remove this unit from the battlefield and set it up again wholly within 3" of a terrain feature and more than 9" from all enemy units. This unit cannot use **MOVE** abilities in the first turn of the first battle round.
+- **Ferocious Sabrefangs**（Once Per Turn (Army), Any Combat Phase）
+  - 宣言: Pick an enemy unit in combat with this unit and that charged this turn to be the target.
+  - 効果: Roll 2 dice for each **Sabrefang** in this unit. For each 3+, inflict 1 mortal damage on the target.
+
+**装備オプション:** **3/5 models in this unit are Hunters and are armed with a Hunter’s Crossbow and Skinning Blades.** **2/5 models in this unit are Sabrefangs and are armed with Sabrefang’s Tusks and Claws.** **A Sabrefang cannot be the unit champion.**
+
+**キーワード:** Infantry, Champion, Destruction, Ogor Mawtribes, Ogor, Beastclaw
+
+---
+
 ## Huskard on Stonehorn
 
-**ポイント:** 290pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 300pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -464,43 +630,37 @@
 
 | 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Blood Vulture | 24" | 1 | 2+ | 3+ | - | 1 | - |
-| Harpoon Launcher | 18" | 1 | 4+ | 3+ | 1 | D3 | - |
-| Chaintrap | 12" | 1 | 4+ | 3+ | 1 | 3 | Anti-MONSTER (+1 Rend) |
+| Chaintrap, Harpoon Launcher or Blood Vulture | 15" | 1 | 4+ | 3+ | 1 | 3 | - |
 
 **近接武器:**
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Stonehorn's Rock-hard horns（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
-| Stonehorn's Hooves | D6 | 4+ | 2+ | 1 | D3 | Companion |
-| Punches and Kicks | 3 | 4+ | 2+ | - | 1 | - |
+| Huskard's Punches and Kicks | 4 | 4+ | 2+ | 1 | 1 | - |
+| Stonehorn's Rock-hard Horns and Hooves（戦傷時） | 7 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
 
 **アビリティ:**
 
 - **Stone Skeleton**（Passive）
   - 効果: Ignore the first damage point that would be allocated to this unit in each phase.
-- **Everwinter's Goad**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
-  - 宣言: Pick each friendly and enemy **MONSTER** within this unit’s combat range to be the targets.
-  - 効果: Roll a dice for each target. On a 3+: • If the target is a friendly **OGOR MAWTRIBES** unit, its **Companion** weapons have **Crit (2 Hits)** for the rest of the turn. • If the target is an enemy unit, subtract 1 from hit rolls for attacks made with its **Companion** weapons for the rest of the turn.
 - **Battle Damaged**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Stonehorn’s Rock-hard Horns** is 4.
+  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Stonehorn’s Rock-hard Horns and Hooves** is 4.
+- **Primal Bellow**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
+  - 宣言: Pick a friendly **OGOR MAWTRIBES** unit within this unit’s combat range to be the target or pick an enemy unit in combat with this unit to be the target.
+  - 効果: Roll a dice. Add 2 to the roll if this unit charged this turn. On a 4+: •  If the target is a friendly unit, its **Companion** weapons have **Crit (2 Hits)** for the rest of the turn. •  If the target is an enemy unit, subtract 1 from hit rolls for the target’s attacks for the rest of the turn.
 
 **レジメントオプション:**
 
-- Any **BEASTCLAW RAIDERS**
+- 0-1 **MAW NOMAD**
+- Any **OGOR MAWTRIBES**
 
-**装備オプション:** ***This unit is armed with Punches and Kicks, Stonehorn’s Rock-hard Horns, Stonehorn’s Hooves and 1 of the following options:*** • ***Chaintrap*** • ***Harpoon Launcher*** • ***Blood Vulture***
-
-**キーワード:** Hero, Monster, Priest (1), Destruction, Ogor Mawtribes, Ogor, Beastclaw Raiders
-
-**ノート:** This **HERO** can join an eligible regiment as a *Voice of the Everwinter*.
+**キーワード:** Hero, Monster, Priest (1), Destruction, Ogor Mawtribes, Ogor, Beastclaw
 
 ---
 
 ## Huskard on Thundertusk
 
-**ポイント:** 220pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 280pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -514,41 +674,39 @@
 
 | 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Blood Vulture | 24" | 1 | 2+ | 3+ | - | 1 | - |
-| Harpoon Launcher | 18" | 1 | 4+ | 3+ | 1 | D3 | - |
 | Ice Blast | 12" | 1 | 4+ | 2+ | 1 | D3+2 | Companion |
-| Chaintrap | 12" | 1 | 4+ | 3+ | 1 | 3 | Anti-MONSTER (+1 Rend) |
+| Chaintrap, Harpoon Launcher or Blood Vulture | 15" | 1 | 4+ | 3+ | 1 | 3 | - |
 
 **近接武器:**
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Punches and Kicks | 3 | 4+ | 2+ | - | 1 | - |
+| Huskard's Punches and Kicks | 4 | 4+ | 2+ | 1 | 1 | - |
 | Thundertusk’s Colossal Tusks（戦傷時） | 3 | 4+ | 2+ | 1 | 5 | Anti-INFANTRY (+1 Rend), Companion |
 
 **アビリティ:**
 
 - **Freezing Aura**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
-  - 宣言: Pick an enemy **INFANTRY** unit in combat with this unit to be the target.
-  - 効果: Roll a dice. Add 1 to the roll if the target had **STRIKE‑LAST** as a result of this ability in the previous turn. On a 4+, the target has **STRIKE‑LAST** for the rest of the turn.
+  - 宣言: If this unit did not charge this turn, pick an enemy unit in combat with it to be the target.
+  - 効果: Roll a dice. On a 3+, subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn.
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Thundertusk’s Colossal Tusks** is 2.
+- **Winter's Cruelty**（Once Per Turn (Army), Any Shooting Phase）
+  - 宣言: Pick a visible enemy unit to be the target.
+  - 効果: Roll a dice. If the roll is equal to or less than the number of damage points allocated to the target by attacks made with this unit’s **Ice Blast** this phase, subtract 1 from the Damage characteristic of the target’s weapons until the start of your next turn.
 
 **レジメントオプション:**
 
-- Any **BEASTCLAW RAIDERS**
+- 0-1 **MAW NOMAD**
+- Any **OGOR MAWTRIBES**
 
-**装備オプション:** ***This unit is armed with an Ice Blast, Punches and Kicks, Thundertusk’s Colossal Tusks, and 1 of the following options:*** • ***Chaintrap*** • ***Harpoon Launcher*** • ***Blood Vulture***
-
-**キーワード:** Hero, Monster, Priest (1), Destruction, Ogor Mawtribes, Ogor, Beastclaw Raiders
-
-**ノート:** This **HERO** can join an eligible regiment as a *Voice of the Everwinter*.
+**キーワード:** Hero, Monster, Priest (1), Destruction, Ogor Mawtribes, Ogor, Beastclaw
 
 ---
 
 ## Icebrow Hunter
 
-**ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 50mm
+**ポイント:** 130pt / **モデル数:** 1 / **ベースサイズ:** 50mm
 
 **増援不可**
 
@@ -556,14 +714,13 @@
 
 | Move | Health | Save | Control |
 |---|---|---|---|
-| 6" | 7 | 5+ | 5 |
+| 6" | 7 | 5+ | 3 |
 
 **射撃武器:**
 
 | 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Hunter’s Crossbow | 12" | 1 | 4+ | 3+ | - | D3 | Anti-MONSTER (+1 Rend) |
-| Great Throwing Spear | 10" | 1 | 4+ | 3+ | 1 | D3 | Anti-MONSTER (+1 Rend) |
+| Great Throwing Spear and Crossbow | 12" | 2 | 4+ | 3+ | - | D3 | Anti-MONSTER (+1 Rend) |
 
 **近接武器:**
 
@@ -582,23 +739,23 @@
 
 **レジメントオプション:**
 
-- Any **BEASTCLAW RAIDERS**
+- Any **BEASTCLAW**
 
-**キーワード:** Hero, Infantry, Destruction, Ogor Mawtribes, Ogor, Beastclaw Raiders
+**キーワード:** Hero, Infantry, Destruction, Ogor Mawtribes, Ogor, Beastclaw
 
-**ノート:** This **HERO** can join an eligible regiment as a *Voice of the Everwinter*.
+**ノート:** This **HERO** can join an eligible regiment as a *Maw Nomad*. This unit will move to Warhammer Legends on 1 June 2027.
 
 ---
 
 ## Icefall Yhetees
 
-**ポイント:** 100pt / **モデル数:** 3 / **ベースサイズ:** 50mm
+**ポイント:** 120pt / **モデル数:** 3 / **ベースサイズ:** 50mm
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
-|---|---|---|---|---|
-| 6" | 4 | 6+ | 1 | 6+ |
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 6" | 4 | 6+ | 1 |
 
 **近接武器:**
 
@@ -608,16 +765,18 @@
 
 **アビリティ:**
 
-- **Bounding Leaps**（Enemy Combat Phase）
-  - 効果: This unit can move up to 3". It can move into combat.
+- **Bounding Leaps**（Once Per Turn (Army), Enemy Combat Phase）
+  - 効果: This unit can move up to 3". It can move through the combat ranges of enemy units and end that move in combat.
 
-**キーワード:** Infantry, Ward (6+), Destruction, Ogor Mawtribes, Beastclaw Raiders
+**キーワード:** Infantry, Destruction, Ogor Mawtribes, Beastclaw
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
 
 ---
 
 ## Ironblaster
 
-**ポイント:** 160pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 180pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -631,34 +790,34 @@
 
 | 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Ironblaster Cannon: Hail Shot | 12" | 8 | 4+ | 3+ | 1 | 2 | - |
-| Ironblaster Cannon: Big Shot | 18" | 2 | 4+ | 2+ | 2 | D3+3 | - |
+| Ironblaster Cannon Shot | 18" | 2 | 4+ | 2+ | 2 | 5 | - |
 
 **近接武器:**
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Rhinox’s Sharp Horns | 2 | 4+ | 2+ | 1 | D3 | Companion |
-| Clubber | 2 | 4+ | 2+ | - | 2 | - |
+| Clubbers | 2 | 4+ | 2+ | 1 | 2 | - |
+| Rhinox's Sharp Horns | 4 | 4+ | 2+ | 1 | D3 | Companion |
 
 **アビリティ:**
 
-- **Lethal Payload**（Passive）
-  - 効果: Each time this unit uses a **SHOOT** ability, pick either the **Big Shot** or **Hail Shot** weapon characteristics for all the attacks it makes with its **Ironblaster** **Cannon**.
+- **Obliterating Blast**（Once Per Turn (Army), Your Shooting Phase） ［Core, Attack, Shoot］
+  - 宣言: If this unit has not used a **RUN** or **RETREAT** ability this turn, pick a visible enemy unit within 18" of it to be the target. Then, draw a straight line between the closest points on the bases of this unit and the target. Each other unit (friendly and enemy) that the line passes across is a **collateral damage target**.
+  - 効果: Roll a dice. On a 3+: • Inflict an amount of mortal damage on the target equal to the roll. • Inflict D3 mortal damage on each **collateral damage target**.
 
-**キーワード:** War Machine, Destruction, Ogor Mawtribes, Ogor, Rhinox, Gutbusters
+**キーワード:** War Machine, Destruction, Ogor Mawtribes, Ogor, Gutbusters
 
 ---
 
 ## Ironguts
 
-**ポイント:** 210pt / **モデル数:** 4 / **ベースサイズ:** 40mm
+**ポイント:** 200pt / **モデル数:** 3 / **ベースサイズ:** 40mm
 
 **ステータス:**
 
 | Move | Health | Save | Control |
 |---|---|---|---|
-| 6" | 4 | 5+ | 2 |
+| 6" | 4 | 4+ | 2 |
 
 **近接武器:**
 
@@ -668,12 +827,12 @@
 
 **アビリティ:**
 
-- **Down to the Ironguts**（Once Per Battle, Any Combat Phase）
-  - 効果: This unit can use 2 **FIGHT** abilities this phase. After the first is used, however, this unit has **STRIKE-LAST** for the rest of the turn.
-- **Protect the Tyrant**（Passive）
-  - 効果: While this unit is within the combat ranges of any friendly **Tyrants**, both this unit and those **Tyrants** have **WARD (6+)**.
+- **Personal Enforcers**（Passive）
+  - 効果: While this unit is within the combat ranges of any friendly **OGOR MAWTRIBES INFANTRY HEROES**, both this unit and those **HEROES** have **WARD (5+)**.
+- **Displays of Might**（Once Per Turn (Army), Any Charge Phase）
+  - 効果: This unit can use the ‘Bull Charge’ ability even if another friendly unit has used it this turn.
 
-**キーワード:** Infantry, Champion, Musician (1/4), Standard Bearer (1/4), Destruction, Ogor Mawtribes, Ogor, Gutbusters
+**キーワード:** Infantry, Champion, Destruction, Ogor Mawtribes, Ogor, Gutbusters
 
 ---
 
@@ -699,19 +858,20 @@
 
 **アビリティ:**
 
-- **Battle Damaged**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of **The Dread Mace** is 4 and this unit has a Control characteristic of 10.
 - **Rampaging Destruction**（Once Per Turn (Army), Any Charge Phase） ［Rampage］
   - 効果: If this unit charged this phase, pick 1 of the following effects: • Roll a dice for each enemy unit within 1" of this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll. • Pick an enemy **MONSTER** in combat with this unit and roll 2D6. On a 7, this ability has no effect. Otherwise, inflict an amount of mortal damage on that unit equal to the results on the dice used for the 2D6 roll multiplied together. For example, a 2D6 roll of 2 and 6 would inflict 12 mortal damage (2 × 6).
 - **The Shield Inviolate**（Reaction: Opponent declared a SPELL ability）
   - 効果: If this unit was picked to be the target of that spell, roll a dice. On a 3+, ignore the effect of that spell on this unit. This unit can use this ability more than once per phase but only once per **SPELL** ability.
 - **Avatar of Destruction**（Passive）
   - 効果: If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).
-- **The End of Empires**（Your Charge Phase.）
+- **The End of Empires**（Your Charge Phase）
   - 効果: For the rest of the turn, add 1 to the number of dice rolled when making charge rolls for friendly **DESTRUCTION** units while they are wholly within 12" of this unit, to a maximum of 3.
+- **Battle Damaged**（Passive）
+  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of **The Dread Mace** is 4 and this unit has a Control characteristic of 10.
 
 **レジメントオプション:**
 
+- 0-1 **MAW NOMAD**
 - Any **OGOR MAWTRIBES**
 
 **キーワード:** Warmaster, Unique, Hero, Monster, Ward (5+), Destruction, Ogor Mawtribes
@@ -720,7 +880,7 @@
 
 ## Leadbelchers
 
-**ポイント:** 120pt / **モデル数:** 4 / **ベースサイズ:** 40mm
+**ポイント:** 140pt / **モデル数:** 4 / **ベースサイズ:** 40mm
 
 **ステータス:**
 
@@ -732,7 +892,7 @@
 
 | 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Leadbelcher Gun | 15" | D3 | 4+ | 3+ | 1 | 1 | - |
+| Leadbelcher Gun | 15" | 2 | 4+ | 3+ | 1 | 1 | - |
 
 **近接武器:**
 
@@ -742,18 +902,20 @@
 
 **アビリティ:**
 
-- **Firing from the Belly**（Your Shooting Phase）
+- **Firing from the Belly**（Once Per Turn (Army), Your Shooting Phase）
   - 効果: If this unit has not used a **MOVE** ability this turn and was not set up this turn, add 1 to hit rolls for this unit’s shooting attacks for the rest of the turn.
 - **Powder Gnoblars**（Passive）
-  - 効果: This unit has up to 2 **Powder Gnoblar** tokens. Each time this unit uses a **SHOOT** ability, for each of this unit’s **Powder Gnoblars** that are on the battlefield, you can re-roll 1 random characteristic roll for this unit’s Attacks characteristic. If a random characteristic roll re-rolled in this manner is 1, remove 1 of this unit’s **Powder Gnoblars** from the battlefield.
+  - 効果: This unit’s **Powder Gnoblars** are tokens. There are 2 **Powder Gnoblars** for every 4 models in this unit. Each time this unit uses a **SHOOT** ability, for each of this unit’s **Powder Gnoblars** that are on the battlefield, you can re-roll 1 hit roll of 1 but if that attack misses, remove 1 of this unit’s **Powder Gnoblars** from the battlefield after that **SHOOT** ability has been resolved.
 
 **キーワード:** Infantry, Champion, Destruction, Ogor Mawtribes, Ogor, Gutbusters
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
 
 ---
 
 ## Maneaters
 
-**ポイント:** 160pt / **モデル数:** 3 / **ベースサイズ:** 50mm
+**ポイント:** 180pt / **モデル数:** 3 / **ベースサイズ:** 50mm
 
 **ステータス:**
 
@@ -778,13 +940,15 @@
 - **Been There, Done That**（Once Per Turn (Army), Reaction: This unit was picked as the target of a non-CORE ability）
   - 効果: Roll a dice. On a 4+, that ability has no effect on this unit.
 
-**キーワード:** Infantry, Destruction, Ogor Mawtribes, Ogor
+**キーワード:** Infantry, Destruction, Ogor Mawtribes, Ogor, Gutbusters
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
 
 ---
 
 ## Mantrapper
 
-**ポイント:** 130pt / **モデル数:** 1 / **ベースサイズ:** 40mm [1] 50 x 25mm [1], 25mm [3]
+**ポイント:** 130pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -798,7 +962,7 @@
 
 | 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Mantrapper Launcher | 15" | 4 | 3+ | 3+ | 1 | D3 | Crit (Auto-wound) |
+| Mantrap Launcher | 15" | 4 | 3+ | 3+ | 1 | D3 | Crit (Auto-wound) |
 
 **近接武器:**
 
@@ -819,11 +983,73 @@
 
 **レジメントオプション:**
 
-- Any **BEASTCLAW RAIDERS**
+- Any **BEASTCLAW**
+- Any **INFANTRY**
 
-**キーワード:** Hero, Infantry, Destruction, Ogor Mawtribes, Ogor, Beastclaw Raiders
+**キーワード:** Hero, Infantry, Destruction, Ogor Mawtribes, Ogor, Beastclaw
 
-**ノート:** This **HERO** can join an eligible regiment as a *Voice of the Everwinter*
+**ノート:** This Hero can join an eligible regiment as a Maw Nomad.
+
+---
+
+## Maulbeast Cavalry
+
+**ポイント:** 280pt / **モデル数:** 2 / **ベースサイズ:** 90 x 52mm
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 10" | 7 | 3+ | 3 |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Gutbiter Weapons | 3 | 4+ | 2+ | 2 | 3 | - |
+| Maulbeast's Horns and Fangs | 4 | 4+ | 2+ | 1 | 2 | Charge (+1 Damage), Companion |
+
+**アビリティ:**
+
+- **Ravenous Counter-Attack**（Passive）
+  - 効果: Enemy units do not count as having charged while they are in combat with this unit.
+- **Shock and Gore**（Once Per Turn (Army), Any Combat Phase）
+  - 宣言: If this unit charged this turn, pick an enemy unit in combat with it to be the target.
+  - 効果: Roll a dice. On a 3+, for the rest of the turn, subtract 1 from wound rolls for the target’s attacks.
+
+**キーワード:** Cavalry, Champion, Destruction, Ogor Mawtribes, Ogor, Gutbusters
+
+---
+
+## Maulbeast Raiders
+
+**ポイント:** 230pt / **モデル数:** 2 / **ベースサイズ:** 90 x 52mm
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 10" | 7 | 4+ | 3 |
+
+**射撃武器:**
+
+| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|---|
+| Hunter Crossbow and Blood Vulture | 15" | 3 | 4+ | 3+ | 1 | 2 | Shoot in Combat |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Punches and Kicks | 4 | 4+ | 2+ | 1 | 1 | - |
+| Maulbeast's Horns and Fangs | 4 | 4+ | 2+ | 1 | 2 | Charge (+1 Damage), Companion |
+
+**アビリティ:**
+
+- **Relentless Predators**（Once Per Turn (Army), Enemy Movement Phase）
+  - 効果: If this unit is more than 9" from all enemy units, it can move up to D6". It cannot move into combat during any part of that move.
+
+**キーワード:** Cavalry, Champion, Destruction, Ogor Mawtribes, Ogor, Beastclaw
 
 ---
 
@@ -835,22 +1061,26 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
-|---|---|---|---|
-| - | 10 | 5+ | - |
+| Move | Health | Save | Control | Ward |
+|---|---|---|---|---|
+| - | 12 | 4+ | - | 6+ |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Ever-hungry Pit | 2D6 | 4+ | 2+ | 1 | 1 | Crit (Mortal) |
 
 **アビリティ:**
 
-- **Throat of Ghur**（Any Hero Phase）
-  - 宣言: Pick up to 3 enemy units within 12" of this terrain feature, or within 18" if it has a Head Butcher, to be the targets.
-  - 効果: Roll a D3 for each target. Add 1 to the roll if the target is more than 3" from all other enemy units. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.
-- **Feed the Maw**（Your Hero Phase）
-  - 宣言: If this terrain feature does not have a Head Butcher, pick a friendly **Butcher** or **Slaughtermaster** within 3" of it and not in combat to be the target.
-  - 効果: Place the target on this terrain feature. The target is now a Head Butcher (see ‘Altar of the Gulping God’).
-- **Altar of the Gulping God**（Passive）
-  - 効果: While this terrain feature has a Head Butcher: • The Head Butcher cannot use **MOVE** abilities. • Instead of measuring range or visibility to the Head Butcher, measure to this terrain feature instead. • All attacks that would target the Head Butcher target this terrain feature instead. • If this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the Head Butcher. Then, set up the Head Butcher on the battlefield wholly within 3" of this terrain feature and not in combat. That unit is no longer a Head Butcher. If it is not possible to set up the Head Butcher, it is slain.
 - **Step Away From The Maw**（Your Movement Phase）
-  - 効果: If this terrain feature has a Head Butcher that was not placed on it this turn, set up the Head Butcher on the battlefield wholly within 3" of this terrain feature and not in combat. That unit is no longer a Head Butcher.
+  - 効果: If this terrain feature has a **Head Butcher** that was not placed on it this turn, set up the **Head Butcher** on the battlefield wholly within 3" of this terrain feature and not in combat. That unit is no longer a **Head Butcher**.
+- **Feed the Maw**（Your Hero Phase）
+  - 宣言: If this terrain feature does not have a **Head Butcher**, pick a friendly **Butcher** within 3" of it and not in combat to be the target.
+  - 効果: Place the target on this terrain feature. The target is now a **Head Butcher** (see 'Hungry Sinkhole'). If this terrain feature is demolished, before removing it from the battlefield, inflict D3 mortal damage on the **Head Butcher**. Then, set up the **Head Butcher** on the battlefield wholly within 3" of this terrain feature and not in combat. That unit is no longer a **Head Butcher**. If it is not possible to set up the **Head Butcher**, it is slain.
+- **Hungry Sinkhole**（Once Per Turn (Army), End of Any Turn）
+  - 宣言: Pick this **Mawpit** to be a **sinkhole**. Then, you can pick another terrain feature within 12" of this **Mawpit** and that you have not already picked to be a **sinkhole** this battle to be a **sinkhole** for the rest of the turn. Then, pick each enemy unit within 3" of the **sinkhole(s)** to be the targets. From the second battle round onwards, increase the range at which another terrain feature can be picked to be a **sinkhole** by 3" for each previous battle round. If this terrain feature has a **Head Butcher**, increase the range at which another terrain feature can be picked to be a **sinkhole** by 6" for each previous battle round instead of 3".
+  - 効果: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
 
 **地形ルール:**
 
@@ -859,13 +1089,56 @@
 
 **装備オプション:** **The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):** **Cover, Impassable**
 
-**キーワード:** Faction Terrain, Destruction, Ogor Mawtribes
+**キーワード:** Faction Terrain, Ward (6+), Destruction, Ogor Mawtribes
+
+---
+
+## Morga The Mighty, Overtyrant
+
+**ポイント:** 430pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+
+**増援不可**
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 10" | 16 | 3+ | 10 |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| The Meatfist Masher | 4 | 3+ | 2+ | 2 | 3 | Crit (Mortal) |
+| Grutta's Horn and Hooves（戦傷時） | 8 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
+
+**アビリティ:**
+
+- **The Right Motivation**（Any Combat Phase / CP 1）
+  - 宣言: Pick a visible friendly **OGOR MAWTRIBES INFANTRY** unit wholly within 12" of this unit to be the target.
+  - 効果: For the rest of the turn, the following effects apply: •  While the target has not had any damage points allocated to it this phase, each time the unmodified hit roll for a combat attack that targets it is 1, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved. •  If the target has had any damage points allocated to it this phase, add 1 to the Attacks characteristic of the target’s melee weapons.
+- **Battle Damaged**（Passive）
+  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of **Grutta's Horn and Hooves** is 5
+- **An Ogor's Ogor**（Passive）
+  - 効果: More than 1 effect of the ‘Eat ’Em Alive’ ability can apply to this unit at the same time; however, each effect can only be applied to this unit once.
+- **A Light Snack**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
+  - 宣言: Pick an enemy unit in combat with this unit to be the target.
+  - 効果: Roll a dice. If the roll exceeds the target’s Health characteristic, 1 model in the target unit is automatically slain.
+- **Been There, Ate That**（End of Any Turn）
+  - 効果: Pick 1 of the following effects: • If any enemy non-**MONSTER** models were slain by this unit’s combat attacks this turn, **Heal (D3)** this unit. • If any damage points were allocated to an enemy **MONSTER** unit by this unit’s combat attacks this turn and that enemy **MONSTER** has been destroyed, **Heal (D3+3)** this unit.
+
+**レジメントオプション:**
+
+- 0-1 **MAW NOMAD**
+- Any **OGOR MAWTRIBES**
+
+**キーワード:** Warmaster, Unique, Hero, Monster, Destruction, Ogor Mawtribes, Ogor, Gutbusters
 
 ---
 
 ## Mournfang Pack
 
-**ポイント:** 150pt / **モデル数:** 2 / **ベースサイズ:** 90 x 52mm
+**ポイント:** 200pt / **モデル数:** 2 / **ベースサイズ:** 90 x 52mm
 
 **ステータス:**
 
@@ -873,54 +1146,62 @@
 |---|---|---|---|
 | 9" | 6 | 4+ | 2 |
 
-**射撃武器:**
-
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
-|---|---|---|---|---|---|---|---|
-| Ironlock Pistol | 10" | 1 | 4+ | 3+ | 1 | D3 | Shoot in Combat |
-
 **近接武器:**
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Mournfang’s Tusks | 4 | 4+ | 2+ | 1 | 2 | Companion |
+| Mournfang’s Tusks | 4 | 4+ | 2+ | 1 | 1 | Charge (+1 Damage), Companion |
 | Mournfang Rider Weapon | 3 | 4+ | 2+ | 1 | 2 | Anti-CAVALRY (+1 Rend) |
 
 **アビリティ:**
 
-- **Lumpen Wall of Flesh**（Passive）
-  - 効果: Subtract 1 from wound rolls for shooting attacks that target friendly **BEASTCLAW RAIDERS** units while they are within this unit’s combat range.
 - **Alpha Cavalry**（Passive）
   - 効果: The **Charge (+1 Damage)** weapon ability has no effect on attacks that target this unit.
 
-**装備オプション:** ***Each model in this unit is armed with a Mournfang Rider Weapon and Mournfang’s Tusks.*** ***• The champion is armed with an Ironlock Pistol in addition to their other weapons.***
+**キーワード:** Cavalry, Champion, Musician (1/4), Standard Bearer (1/4), Destruction, Ogor Mawtribes, Ogor, Beastclaw
 
-**キーワード:** Cavalry, Champion, Musician (1/4), Standard Bearer (1/4), Destruction, Ogor Mawtribes, Ogor, Beastclaw Raiders
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
 
 ---
 
-## Ogor Gluttons
+## Redd the Maw, High Slaughtermaster
 
-**ポイント:** 220pt / **モデル数:** 6 / **ベースサイズ:** 40mm
+**ポイント:** 400pt / **モデル数:** 1 / **ベースサイズ:** 160mm
+
+**増援不可**
 
 **ステータス:**
 
-| Move | Health | Save | Control |
-|---|---|---|---|
-| 6" | 4 | 5+ | 2 |
+| Move | Health | Save | Control | Ward |
+|---|---|---|---|---|
+| 6" | 18 | 4+ | 10 | 5+ |
 
 **近接武器:**
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Glutton Weapons | 4 | 4+ | 2+ | 1 | 2 | - |
+| Redd's Ladle | 5 | 4+ | 2+ | 2 | 3 | - |
+| Mawseeker Acolytes' Blades and Gorger's Claws（戦傷時） | 8 | 4+ | 2+ | 2 | 2 | - |
 
 **アビリティ:**
 
-- **Insatiable Gluttony**（Passive）
-  - 効果: If you have used the ‘Feast on Flesh’ ability this battle, add 1 to the control score of this unit for each model in this unit.
+- **Battle Damaged**（Passive）
+  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Mawseeker Acolytes' Blades and Gorger's Claws** is 5.
+- **From the Depths of the Cauldron**（Your Hero Phase / CP 1）
+  - 宣言: Pick a visible friendly non-**HERO OGOR MAWTRIBES** unit wholly within 12" of this unit to be the target.
+  - 効果: The target can immediately use the ‘Eat ’Em Alive’ ability as if it were the end of the turn and it were eligible to do so.
+- **Son of the Hungering One**（Passive）
+  - 効果: While they are wholly within 12" of this unit: •  Friendly non-**MAWSEEKERS OGOR MAWTRIBES INFANTRY** units have **WARD (6+)**. •  Friendly **MAWSEEKERS** units have **WARD (5+)**.
+- **The Maw Opens**（Your Hero Phase / 詠唱/詠誦値 7） ［Spell］
+  - 宣言: Pick a visible friendly **OGOR MAWTRIBES** unit wholly within 12" of this unit to be the target, then make a casting roll of 2D6.
+  - 効果: If the target is not in combat, it can move up to D3+3" but must end that move no further from the nearest enemy unit that is visible to it. It cannot move into combat during any part of that move. If the target is in combat, inflict D3 mortal damage on each enemy unit in combat with the target, then **Heal (D3)** the target. If the target is a **MAWSEEKERS** unit, instead inflict 3 mortal damage on each enemy unit in combat with the target, then **Heal (3)** the target.
 
-**キーワード:** Infantry, Champion, Musician (1/6), Standard Bearer (1/6), Destruction, Ogor Mawtribes, Ogor, Gutbusters
+**レジメントオプション:**
+
+- 0-1 **MAW NOMAD**
+- Any **OGOR MAWTRIBES**
+
+**キーワード:** Warmaster, Unique, Hero, War Machine, Wizard (2), Ward (5+), Destruction, Ogor Mawtribes, Ogor, Mawseekers
 
 ---
 
@@ -960,7 +1241,7 @@
 
 **レジメントオプション:**
 
-- 0-1 *Voice of the Everwinter*
+- 0-1 **MAW NOMAD**
 - Any **OGOR MAWTRIBES**
 
 **キーワード:** Hero, Monster, Destruction, Ogor Mawtribes, Ogor, Beastclaw Raiders
@@ -1092,44 +1373,43 @@
 
 ## Slaughtermaster
 
-**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
+**ポイント:** 160pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
 
 **増援不可**
 
 **ステータス:**
 
-| Move | Health | Save | Control |
-|---|---|---|---|
-| 6" | 8 | 5+ | 5 |
+| Move | Health | Save | Control | Ward |
+|---|---|---|---|---|
+| 6" | 8 | 5+ | 3 | 6+ |
 
 **近接武器:**
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
 | Stump Blades | 2D6 | 4+ | 2+ | 1 | 1 | - |
-| Gnoblar's Implements | 3 | 5+ | 5+ | - | 1 | Companion |
 
 **アビリティ:**
 
-- **Great Cauldron**（Any Hero Phase）
-  - 効果: You can spend 1 or more of this unit’s **grisly remains points**. For each point spent, pick a friendly **GUTBUSTERS** unit wholly within 12" of this unit to be the target, then pick 1 of the following effects: ***Bloodgruel:*** The target has **WARD (5+)** for the rest of the turn. ***Spinemarrow:*** Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.
+- **Great Cauldron**（Once Per Turn (Army), Any Hero Phase）
+  - 宣言: If this unit’s cauldron is **filled with grisly remains**, pick a visible friendly **MAWSEEKERS** unit wholly within 12" of this unit to be the target.&#x20;
+  - 効果: This unit’s cauldron is now **empty**. Pick 1 of the following effects: ***Bloodgruel***: The target has **WARD (5+)** for the rest of the turn. ***Spinemarrow***: Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.
 - **Fill the Pot**（Passive）
-  - 効果: Each time an enemy unit is destroyed by a combat attack made by a friendly **OGOR MAWTRIBES** unit wholly within 18" of this unit, give this unit a **grisly remains point**, to a maximum of 3.
+  - 効果: &#x20;This unit’s cauldron is either **filled with grisly remains** or **empty**. It starts the battle **empty**. If an enemy unit that was in combat with this unit this turn is destroyed and this unit’s cauldron is **empty**, it becomes **filled with grisly remains**.
 
 **レジメントオプション:**
 
-- 0-1 **Gnoblar Scraplauncher**
-- Any **GUTBUSTERS**
-- Any **Gnoblars**
-- Any **Gorger Mawpack**
+- Any **MAWSEEKERS**
 
-**キーワード:** Hero, Wizard (1), Infantry, Destruction, Ogor Mawtribes, Ogor, Gutbusters
+**キーワード:** Hero, Wizard (1), Infantry, Ward (6+),Destruction, Ogor Mawtribes, Ogor, Mawseekers
+
+**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
 
 ---
 
 ## Stonehorn Beastriders
 
-**ポイント:** 260pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 280pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -1143,36 +1423,32 @@
 
 | 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Chaintrap | 12" | 1 | 4+ | 3+ | 1 | 3 | Anti-MONSTER (+1 Rend) |
-| Harpoon Launcher | 18" | 1 | 4+ | 3+ | 1 | D3 | - |
-| Blood Vulture | 24" | 1 | 2+ | 3+ | - | 1 | - |
+| Chaintrap, Harpoon Launcher or Blood Vulture | 15" | 1 | 4+ | 3+ | 1 | 3 | - |
 
 **近接武器:**
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Stonehorn’s Rock-hard Horns（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
-| Punches and Kicks | 6 | 4+ | 2+ | - | 1 | - |
-| Stonehorn’s Hooves | D6 | 4+ | 2+ | 1 | D3 | Companion |
+| Stonehorn’s Rock-hard Horns and Hooves（戦傷時） | 7 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
+| Punches and Kicks | 4 | 4+ | 2+ | 1 | 1 | - |
 
 **アビリティ:**
 
-- **Stonehorn Avalanche**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
-  - 効果: If this unit charged this turn, roll a dice. On a 3+, when this unit makes a pile-in move this phase, add D6" to the distance it can move.
-- **Battle Damaged**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Stonehorn’s Rock-hard Horns** is 4.
 - **Stone Skeleton**（Passive）
   - 効果: Ignore the first damage point that would be allocated to this unit in each phase.
+- **Battle Damaged**（Passive）
+  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Stonehorn’s Rock-hard Horns and Hooves** is 4.
+- **Stonehorn Avalanche**（Once Per Turn (Army), Any Charge Phase） ［Rampage］
+  - 宣言: If this unit charged this turn and has not used the ‘Bull Charge’ ability this turn, pick an enemy unit in combat with this unit or an enemy faction terrain feature within this unit’s combat range to be the target.
+  - 効果: Roll a dice. On a 3+: • If the target is a unit, inflict 3 mortal damage on it. • If the target is a faction terrain feature, inflict 6 mortal damage on it.
 
-**装備オプション:** ***This unit is armed with a Harpoon Launcher, Punches and Kicks, Stonehorn’s Rock‑hard Horns, Stonehorn’s Hooves and 1 of the following options:*** • ***Chaintrap*** • ***Blood Vulture***
-
-**キーワード:** Monster, Destruction, Ogor Mawtribes, Ogor, Beastclaw Raiders
+**キーワード:** Monster, Destruction, Ogor Mawtribes, Ogor, Beastclaw
 
 ---
 
 ## Thundertusk Beastriders
 
-**ポイント:** 180pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 240pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -1186,35 +1462,33 @@
 
 | 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Harpoon Launcher | 18" | 1 | 4+ | 3+ | 1 | D3 | - |
-| Blood Vulture | 24" | 1 | 2+ | 3+ | - | 1 | - |
-| Chaintrap | 12" | 1 | 4+ | 3+ | 1 | 3 | Anti-MONSTER (+1 Rend) |
 | Ice Blast | 12" | 1 | 4+ | 2+ | 1 | D3+2 | Companion |
+| Chaintrap, Harpoon Launcher or Blood Vulture | 15" | 1 | 4+ | 3+ | 1 | 3 | - |
 
 **近接武器:**
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
 | Thundertusk’s Colossal Tusks（戦傷時） | 3 | 4+ | 2+ | 1 | 5 | Anti-INFANTRY (+1 Rend), Companion |
-| Punches and Kicks | 6 | 4+ | 2+ | - | 1 | - |
+| Punches and Kicks | 4 | 4+ | 2+ | 1 | 1 | - |
 
 **アビリティ:**
 
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Thundertusk’s Colossal Tusks** is 2.
-- **Everwinter's Assault**（Once Per Turn (Army), End of Any Turn） ［Rampage］
+- **Plough the Icepath**（Once Per Turn (Army), Reaction: You declared a non-**CHARGE MOVE** ability for this unit in your movement phase）
+  - 効果: Pick a friendly **OGOR MAWTRIBES INFANTRY** unit that has not been reinforced, is wholly within 6" of this unit and has not been set up this turn to be the target. Remove the target from the battlefield. After this unit ends its move, you must set up the target unit wholly within 6" of this unit and not in combat. The target cannot use **CHARGE** abilities for the rest of the turn.
+- **Chilling Onslaught**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
   - 宣言: If this unit charged this turn, pick an enemy unit in combat with it to be the target.
-  - 効果: Roll a dice. On a 3+, for the rest of the turn: • If the target is a **MONSTER**, subtract 3 from its control score. • If the target is a non-**MONSTER** unit, subtract 5 from its control score.
+  - 効果: Roll a dice. On a 4+, for the rest of the turn, subtract 1 from hit rolls for the target’s attacks.
 
-**装備オプション:** ***This unit is armed with an Ice Blast, Harpoon Launcher, Punches and Kicks, Thundertusk’s Colossal Tusks, and 1 of the following options:*** • ***Chaintrap*** • ***Blood Vulture***
-
-**キーワード:** Monster, Destruction, Ogor Mawtribes, Ogor, Beastclaw Raiders
+**キーワード:** Monster, Destruction, Ogor Mawtribes, Ogor, Beastclaw
 
 ---
 
 ## Tyrant
 
-**ポイント:** 130pt / **モデル数:** 1 / **ベースサイズ:** 50mm
+**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 50mm
 
 **増援不可**
 
@@ -1222,32 +1496,63 @@
 
 | Move | Health | Save | Control |
 |---|---|---|---|
-| 6" | 8 | 4+ | 5 |
-
-**射撃武器:**
-
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
-|---|---|---|---|---|---|---|---|
-| Ogor Pistols | 10" | 2 | 4+ | 3+ | 1 | D3 | Shoot in Combat |
+| 6" | 8 | 4+ | 3 |
 
 **近接武器:**
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Thundermace | 3 | 4+ | 2+ | 2 | 3 | Crit (Mortal) |
-| Beastskewer Glaive | 2 | 4+ | 2+ | 1 | 2 | Anti-MONSTER (+1 Rend) |
+| Tyrant's Meatcleavers | 4 | 4+ | 2+ | 2 | 3 | Crit (Mortal) |
 
 **アビリティ:**
 
-- **Brawlerguts**（Passive）
-  - 効果: Add 1 to the D3 roll made when this unit uses the ‘Trampling Charge’ ability.
-- **Bully of the First Degree**（Your Hero Phase）
-  - 宣言: Pick another friendly **OGOR MAWTRIBES** unit wholly within 12" of this unit to be the target.
-  - 効果: Add 3 to the target’s control score until the start of your next turn.
+- **Brawlerguts**（Reaction: You delcared a **FIGHT** ability for this unit）
+  - 効果: Pick a visible friendly non-**HERO OGOR MAWTRIBES INFANTRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s combat attacks for the rest of the turn.
+- **Big Name**（Deployment Phase）
+  - 効果: Pick 1 of the following effects to apply for the rest of the battle. You cannot pick an effect that has already been picked for another friendly **Tyrant**. • ***Neck-wringer***: Enemy **INFANTRY** units that have a Health characteristic of 1 or 2 cannot contest objectives while they are in combat with this unit. • ***Steed-eater***: Enemy **CAVALRY** units cannot use **RETREAT** abilities while they are in combat with this unit. • ***Giant-wrestler***: Enemy **MONSTERS** cannot use **RAMPAGE** abilities while they are in combat with this unit.
 
 **レジメントオプション:**
 
-- 0-1 **Bloodpelt Hunter**
 - Any **OGOR MAWTRIBES**
 
 **キーワード:** Hero, Infantry, Destruction, Ogor Mawtribes, Ogor, Gutbusters
+
+**ノート:** This Hero can join an eligible regiment as a *Maw Nomad*.
+
+---
+
+## Tyrant on Glutthorn
+
+**ポイント:** 400pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+
+**増援不可**
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 10" | 16 | 3+ | 10 |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Glutthorn's Horn and Hooves（戦傷時） | 7 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
+| Tyrant's Meatcleavers | 4 | 4+ | 2+ | 2 | 3 | Crit (Mortal) |
+
+**アビリティ:**
+
+- **Battle Damaged**（Passive）
+  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Glutthorn’s Horn and Hooves** is 5.
+- **Pitiless Warlord**（Once Per Turn (Army), Reaction: You declared a **CHARGE** ability for an **OGOR MAWTRIBES** unit wholly within 12" of this unit）
+  - 効果: Re-roll 1 dice in that charge roll.
+- **Glutthorn Stampede**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
+  - 宣言: If this unit charged this turn, pick an enemy unit in combat with it to be the target.
+  - 効果: Roll a dice. Add 1 to the roll if the target is **INFANTRY**. On a 4+, the target has **STRIKE-LAST** for the rest of the turn.
+
+**レジメントオプション:**
+
+- 0-1 **MAW NOMAD**
+- Any **OGOR MAWTRIBES**
+
+**キーワード:** Hero, Monster, Destruction, Ogor Mawtribes, Ogor, Gutbusters
