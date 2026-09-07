@@ -43,7 +43,13 @@ if ! "${ADB[@]}" shell pm path "$PKG" >/dev/null 2>&1; then
 fi
 
 # 3. base.apk のパスを取得
-APK_PATH="$("${ADB[@]}" shell pm path "$PKG" | tr -d '\r' | grep 'base.apk' | head -1 | sed 's/^package://')"
+# grep/head でパイプを早期に閉じると上流が SIGPIPE で死に、pipefail のせいで
+# スクリプトごと落ちる (rc=141) ため、一度変数に受けてから探す。
+PM_OUT="$("${ADB[@]}" shell pm path "$PKG" | tr -d '\r')"
+APK_PATH=""
+while IFS= read -r line; do
+  if [[ "$line" == *base.apk ]]; then APK_PATH="${line#package:}"; break; fi
+done <<< "$PM_OUT"
 if [[ -z "$APK_PATH" ]]; then
   echo "エラー: base.apk のパスを取得できませんでした。" >&2
   exit 1
@@ -73,8 +79,12 @@ VER="$(python3 -c "import json,sys; print(json.load(open('$OUT')).get('metadata'
 echo "saved: $OUT ($(du -h "$OUT" | cut -f1), data_version $VER)"
 
 # 8. 抽出元のバージョン情報をサイドカー <dump>.meta.json に記録
-VNAME="$("${ADB[@]}" shell dumpsys package "$PKG" 2>/dev/null | tr -d '\r' | grep -m1 'versionName=' | sed 's/.*versionName=//' | awk '{print $1}')"
-VCODE="$("${ADB[@]}" shell dumpsys package "$PKG" 2>/dev/null | tr -d '\r' | grep -m1 'versionCode=' | sed 's/.*versionCode=//' | awk '{print $1}')"
+# grep -m1 / head -1 でパイプを早期に閉じると tr が SIGPIPE で死に、
+# pipefail のせいでスクリプトごと落ちる。一度変数に受けて bash の正規表現で拾う。
+DUMPSYS="$("${ADB[@]}" shell dumpsys package "$PKG" 2>/dev/null | tr -d '\r')"
+VNAME=""; VCODE=""
+[[ "$DUMPSYS" =~ versionName=([^[:space:]]+) ]] && VNAME="${BASH_REMATCH[1]}" || true
+[[ "$DUMPSYS" =~ versionCode=([0-9]+) ]] && VCODE="${BASH_REMATCH[1]}" || true
 SERIAL_ID="$("${ADB[@]}" get-serialno 2>/dev/null | tr -d '\r')"
 DEVMODEL="$("${ADB[@]}" shell getprop ro.product.model 2>/dev/null | tr -d '\r')"
 NOW="$(date +%Y-%m-%dT%H:%M:%S%z)"
