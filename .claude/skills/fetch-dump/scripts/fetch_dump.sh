@@ -83,6 +83,9 @@ echo "saved: $OUT ($(du -h "$OUT" | cut -f1), data_version $VER)"
 # pipefail のせいでスクリプトごと落ちる。一度変数に受けて bash の正規表現で拾う。
 DUMPSYS="$("${ADB[@]}" shell dumpsys package "$PKG" 2>/dev/null | tr -d '\r')"
 VNAME=""; VCODE=""
+# 不一致時は && リスト全体が rc=1 になる。set -e では落ちない (AND-OR リストの
+# 最後以外のコマンドの失敗は対象外) が、行の並び替えでこれが最終文になると
+# スクリプトの終了ステータスが 1 になるため || true で固定しておく。
 [[ "$DUMPSYS" =~ versionName=([^[:space:]]+) ]] && VNAME="${BASH_REMATCH[1]}" || true
 [[ "$DUMPSYS" =~ versionCode=([0-9]+) ]] && VCODE="${BASH_REMATCH[1]}" || true
 SERIAL_ID="$("${ADB[@]}" get-serialno 2>/dev/null | tr -d '\r')"
