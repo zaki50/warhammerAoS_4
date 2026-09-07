@@ -79,4 +79,22 @@ rm -rf spearheads
 python3 "$SP" --dump dump.json >/dev/null || echo "  NG(sp)"
 echo "  files: $(find spearheads -name '*.md' | wc -l | tr -d ' ')"
 
+# --- 6. データ改訂なし (抽出日のみの差分) なら自動で元に戻す ---
+# 条件: git 管理下で、dump.json が HEAD から不変 (= data_version も不変) かつ
+# 生成物の変更行がすべて出典行 (抽出日) / dump.meta.json の extractedAt のみで、
+# 新規・削除ファイルが無い場合に限り、生成物一式を HEAD に戻す。
+GEN_PATHS=(warscrolls faction_rules battle_tactics.md spearheads dump.json dump.meta.json)
+if git rev-parse --is-inside-work-tree >/dev/null 2>&1 \
+   && git diff --quiet -- dump.json 2>/dev/null \
+   && [[ -z "$(git status --porcelain -- "${GEN_PATHS[@]}" | grep -v '^ M ' || true)" ]]; then
+  CHANGED="$(git diff -U0 -- "${GEN_PATHS[@]}" | grep -E '^[+-][^+-]' || true)"
+  NON_PROV="$(printf '%s\n' "$CHANGED" \
+      | grep -vE '^[+-](出典: Warhammer Age of Sigmar 公式アプリ|  "extractedAt": )' \
+      | grep -v '^$' || true)"
+  if [[ -n "$CHANGED" && -z "$NON_PROV" ]]; then
+    git checkout -- "${GEN_PATHS[@]}"
+    echo "=== データ改訂なし (抽出日のみの差分) のため生成物を元に戻しました ==="
+  fi
+fi
+
 echo "=== 完了 ==="

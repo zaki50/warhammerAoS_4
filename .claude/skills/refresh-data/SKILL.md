@@ -52,6 +52,12 @@ bash $SKILL -s 46221FDAP000JD
 4. **battle_tactics.md** … 単一ファイルを上書き再生成
 5. **spearheads** … 全一括再生成。ファクション別ディレクトリ構造のため、
    `spearheads/` をクリアしてから再生成
+6. **データ改訂なしの自動復元** … git 管理下で `dump.json` が HEAD から不変
+   （= data_version も不変）かつ、生成物の変更行がすべて出典行（抽出日）と
+   `dump.meta.json` の `extractedAt` のみで、新規・削除ファイルも無い場合は、
+   生成物一式を自動で `git checkout` して元に戻す
+   （抽出日だけの無意味な差分をコミット候補に残さないため）。
+   出典行以外の変更が 1 行でもあれば何も戻さない。
 
 AoS の dump.json は英語のみのため、40k 版のような言語方針（`--lang`）は無い。
 
