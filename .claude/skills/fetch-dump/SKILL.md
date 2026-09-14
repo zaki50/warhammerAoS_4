@@ -12,8 +12,13 @@ Warhammer Age of Sigmar 公式アプリ `com.gamesworkshop.aos4` の `base.apk` 
 ## 前提
 
 - macOS / Linux 等で `adb`・`unzip`・`python3` が使えること。
-- Android 端末が USB 接続され、USB デバッグが有効で、公式アプリがインストール済みであること。
-  （`adb devices` 等で接続を確認できる。）
+- **取得には AVD 名 `Warhammer_tablet_35`（表示名 "Warhammer tablet 35"）のエミュレータを使う**
+  （実機ではなくこのエミュレータを使うのが本プロジェクトの運用）。
+  起動していなければ `emulator -avd Warhammer_tablet_35` で起動し、
+  `adb -s <serial> emu avd name` で AVD 名を確認できる。
+- **取得の前に、エミュレータ内の Play ストアで公式アプリを最新に更新**してから実行する
+  （Play の UI 操作には Mobile MCP を優先して使う）。
+- 他の端末・エミュレータも接続されている場合は `-s <serial>` で対象を指定する。
 - アプリのデータ領域 `/data/data/...` は root 不可・デバッグ不可で直接読めないが、
   APK 同梱の JSON に全データが入っているためそれを使う。
 - `assets/dump.json` は base.apk にのみ含まれ、split（言語・ABI・xxhdpi 等）には含まれない。

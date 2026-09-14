@@ -13,7 +13,10 @@ description: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) �
 
 ## 前提
 
-- `fetch-dump` スキルと同じ（`adb`・`unzip`・`python3`、USB 接続・USB デバッグ有効な端末に公式アプリ）。
+- `fetch-dump` スキルと同じ（`adb`・`unzip`・`python3`）。
+- **取得には AVD 名 `Warhammer_tablet_35` のエミュレータを使い、実行前にエミュレータ内の
+  Play ストアで公式アプリを最新に更新する**（詳細は `fetch-dump` スキルの前提を参照）。
+  他の端末も接続されている場合は `-s <エミュレータの serial>` を付けて実行する。
 - 再生成のみ（`--no-fetch`）なら端末接続は不要で、既存の `dump.json` を使う。
 
 ## 使い方
