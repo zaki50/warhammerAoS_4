@@ -47,8 +47,19 @@ bash $SKILL --keep-apk
 
 - `-o, --output <path>` … 保存先（既定 `./dump.json`、親ディレクトリは自動作成）
 - `-s, --serial <serial>` … 対象端末の adb serial（端末が複数のとき）
+- `--apk-dir <dir>` … APK アーカイブの保存先（既定 `<dump.json と同じディレクトリ>/apk_archive`）
+- `--no-archive` … APK アーカイブを保存しない
 - `--keep-apk` … 取得した base.apk を一時ディレクトリに残す
 - `--pkg <package>` … 対象パッケージ名を変更（既定 `com.gamesworkshop.aos4`）
+
+### APK アーカイブ
+
+取得した base.apk を既定で `apk_archive/aos4-<versionName>-<versionCode>.apk`
+（例: `apk_archive/aos4-1.38.1-88.apk`）として保存する。同名ファイルが既にあれば
+スキップするため、同一バージョンを何度取得しても増えない。過去バージョンの
+dump.json は git 履歴から取り出せるが、APK 本体（コード・アセット）は端末が
+自動更新されると失われるため、ここにローカル保存しておく（`apk_archive/` は
+.gitignore 済みでコミットされない。1本約15MB）。
 
 ## 処理の流れ
 
@@ -59,6 +70,7 @@ bash $SKILL --keep-apk
 5. 出力先へコピーし、`metadata.data_version` を表示
 6. 抽出元のバージョン情報をサイドカー `<dump>.meta.json` に記録
    （`versionName` / `versionCode` / `dataVersion` / `extractedAt` / `device`）
+7. base.apk を `apk_archive/` にバージョン名付きで保存（同名があればスキップ）
 
 ## サイドカー `dump.meta.json`
 

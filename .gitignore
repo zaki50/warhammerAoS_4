@@ -2,6 +2,9 @@
 dump.pretty.json
 dump.*.pretty.json
 
+# fetch-dump が保存する APK アーカイブ (ローカル保存のみ)
+apk_archive/
+
 # Python バイトコード
 __pycache__/
 *.pyc

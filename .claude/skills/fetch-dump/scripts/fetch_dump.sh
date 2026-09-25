@@ -4,24 +4,31 @@
 #
 # 使い方:
 #   fetch_dump.sh [-o <出力先 dump.json>] [-s <adb serial>] [--keep-apk]
+#                 [--apk-dir <dir>] [--no-archive]
 #
-# 既定の出力先はカレントディレクトリの ./dump.json
+# 既定の出力先はカレントディレクトリの ./dump.json。
+# 取得した base.apk は既定で <dump.json と同じディレクトリ>/apk_archive/ に
+# <pkg末尾>-<versionName>-<versionCode>.apk として保存する (同名があればスキップ)。
 set -euo pipefail
 
 PKG="com.gamesworkshop.aos4"
 OUT="./dump.json"
 SERIAL=""
 KEEP_APK=0
+ARCHIVE=1
+APK_DIR=""
 TMPDIR="$(mktemp -d)"
 trap '[[ $KEEP_APK -eq 0 ]] && rm -rf "$TMPDIR"' EXIT
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
-    -o|--output) OUT="$2"; shift 2;;
-    -s|--serial) SERIAL="$2"; shift 2;;
-    --keep-apk)  KEEP_APK=1; shift;;
-    --pkg)       PKG="$2"; shift 2;;
-    -h|--help)   sed -n '2,12p' "$0"; exit 0;;
+    -o|--output)  OUT="$2"; shift 2;;
+    -s|--serial)  SERIAL="$2"; shift 2;;
+    --keep-apk)   KEEP_APK=1; shift;;
+    --apk-dir)    APK_DIR="$2"; shift 2;;
+    --no-archive) ARCHIVE=0; shift;;
+    --pkg)        PKG="$2"; shift 2;;
+    -h|--help)    sed -n '2,11p' "$0"; exit 0;;
     *) echo "不明な引数: $1" >&2; exit 1;;
   esac
 done
@@ -109,5 +116,18 @@ json.dump({
 }, open(meta_path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 print("meta saved: %s (v%s build %s)" % (meta_path, vname, vcode))
 PY
+# 9. base.apk をバージョン名付きでアーカイブ (既定 <OUT と同じディレクトリ>/apk_archive/)
+if [[ $ARCHIVE -eq 1 ]]; then
+  [[ -z "$APK_DIR" ]] && APK_DIR="$(dirname "$OUT")/apk_archive"
+  mkdir -p "$APK_DIR"
+  DEST="$APK_DIR/${PKG##*.}-${VNAME:-unknown}-${VCODE:-0}.apk"
+  if [[ -f "$DEST" ]]; then
+    echo "apk archive: $DEST は既に存在するためスキップ"
+  else
+    cp "$LOCAL_APK" "$DEST"
+    echo "apk archived: $DEST ($(du -h "$DEST" | cut -f1))"
+  fi
+fi
+
 [[ $KEEP_APK -eq 1 ]] && echo "APK 保持: $LOCAL_APK"
 exit 0
