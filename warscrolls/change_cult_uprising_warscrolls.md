@@ -1,6 +1,6 @@
 # Change-Cult Uprising ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全13 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -197,8 +197,6 @@
 
 **ポイント:** 100pt / **モデル数:** 9 / **ベースサイズ:** 32mm [5], 28.5mm [5]
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control |
@@ -224,8 +222,6 @@
 **装備オプション:** ***Each model in this unit is armed with Passive Mason’s Tools.*** ***•  4/9 models can carry an Antithete Bow.*** ***•  The champion cannot carry an Antithete Bow.***
 
 **キーワード:** Infantry, Champion (1/9), Chaos, Disciples of Tzeentch, Arcanite
-
-**ノート:** This unit cannot be reinforced.
 
 ---
 
@@ -339,7 +335,7 @@
 
 ## Ogroid Thaumaturge
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 50mm
+**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 50mm
 
 **増援不可**
 

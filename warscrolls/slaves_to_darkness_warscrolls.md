@@ -1,6 +1,6 @@
 # Slaves to Darkness ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全63 ウォースクロール（Spearhead 版 4 件は除外。--include-spearhead で含められる）
 
@@ -9,7 +9,7 @@
 
 ## Abraxia, Spear of the Everchosen
 
-**ポイント:** 250pt / **モデル数:** 1 / **ベースサイズ:** 100mm
+**ポイント:** 230pt / **モデル数:** 1 / **ベースサイズ:** 100mm
 
 **増援不可**
 
@@ -51,7 +51,7 @@
 
 ## Archaon, the Everchosen
 
-**ポイント:** 810pt / **モデル数:** 1 / **ベースサイズ:** 160mm
+**ポイント:** 780pt / **モデル数:** 1 / **ベースサイズ:** 160mm
 
 **増援不可**
 
@@ -228,7 +228,7 @@
 
 ## Chaos Furies
 
-**ポイント:** 120pt / **モデル数:** 6 / **ベースサイズ:** 32mm
+**ポイント:** 100pt / **モデル数:** 6 / **ベースサイズ:** 32mm
 
 **ステータス:**
 
@@ -281,8 +281,6 @@
 
 **ポイント:** 80pt / **モデル数:** 8 / **ベースサイズ:** 32mm [5], 28.5mm [3]
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control |
@@ -302,8 +300,6 @@
   - 効果: Roll a dice. On a 4+, the target cannot use commands for the rest of the turn.
 
 **キーワード:** Infantry, Champion (1/8), Chaos, Slaves to Darkness, Undivided
-
-**ノート:** This unit cannot be reinforced.
 
 ---
 
@@ -378,7 +374,7 @@
 
 ## Chaos Lord on Karkadrak
 
-**ポイント:** 190pt / **モデル数:** 1 / **ベースサイズ:** 90 x 52mm
+**ポイント:** 180pt / **モデル数:** 1 / **ベースサイズ:** 90 x 52mm
 
 **増援不可**
 
@@ -474,7 +470,7 @@
 
 - **Oracular Visions**（Once Per Turn (Army), Your Hero Phase）
   - 宣言: Pick a friendly **WARRIORS OF CHAOS** unit wholly within 12" of this unit to be the target and roll a dice.
-  - 効果: On a 3+, the target has **WARD (5+)** until the start of your next turn.
+  - 効果: If this unit successfully cast a spell this phase, the target has **WARD (5+)** until the start of your next turn. Otherwise, the target has **WARD (6+)** until the start of your next turn.
 
 **レジメントオプション:**
 
@@ -483,6 +479,8 @@
 - Any **WARRIORS OF CHAOS**
 
 **キーワード:** Hero, Wizard (1), Infantry, Chaos, Slaves to Darkness, Warriors of Chaos
+
+**ノート:** This **HERO** can join an eligible regiment as a *Ruinous Champion*.
 
 ---
 
@@ -620,8 +618,6 @@
 
 **ポイント:** 100pt / **モデル数:** 9 / **ベースサイズ:** 40mm [1], 28.5mm [3], 25mm [5]
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control |
@@ -651,15 +647,11 @@
 
 **キーワード:** Infantry, Champion (1/9), Chaos, Slaves to Darkness, Undivided
 
-**ノート:** This unit cannot be reinforced.
-
 ---
 
 ## Cypher Lords (Legends)
 
 **ポイント:** 100pt / **モデル数:** 8 / **ベースサイズ:** 32mm [1], 28.5mm [4], 25mm [3]
-
-**増援不可**
 
 **ステータス:**
 
@@ -687,8 +679,6 @@
   - 効果: This unit has **STRIKE-FIRST** if it charged in the same turn.
 
 **キーワード:** Infantry, Champion (1/8), Chaos, Slaves to Darkness, Undivided
-
-**ノート:** This unit cannot be reinforced.
 
 ---
 
@@ -790,6 +780,7 @@
 
 **レジメントオプション:**
 
+- 0-1 *Oathsworn*
 - 0-1 **MONSTER**
 - Any **DARKOATH**
 
@@ -905,8 +896,6 @@
 
 **ポイント:** 90pt / **モデル数:** 10 / **ベースサイズ:** 32mm [3], 28.5mm [7]
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control |
@@ -922,11 +911,9 @@
 **アビリティ:**
 
 - **Oath of Conquest**（Once Per Battle, Any Hero Phase）
-  - 効果: If this unit is contesting an objective you control that is wholly within enemy territory, this unit has **WARD (5+)** for the rest of the battle.
+  - 効果: If this unit is contesting an objective you control that is not within friendly territory, this unit has **WARD (5+)** for the rest of the battle.
 
 **キーワード:** Infantry, Champion (1/10), Chaos, Slaves to Darkness, Darkoath
-
-**ノート:** This unit cannot be reinforced.
 
 ---
 
@@ -963,6 +950,8 @@
 - Any **DARKOATH**
 
 **キーワード:** Hero, Infantry, Ward (5+), Chaos, Slaves to Darkness, Darkoath
+
+**ノート:** This **HERO** can join an eligible regiment as an *Oathsworn*.
 
 ---
 
@@ -1093,7 +1082,7 @@
 
 ## Fomoroid Crusher
 
-**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 60mm
+**ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 60mm
 
 **増援不可**
 
@@ -1326,8 +1315,6 @@
 
 **ポイント:** 120pt / **モデル数:** 10 / **ベースサイズ:** 32mm [3], 28.5mm [4], 25mm [3]
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control |
@@ -1356,15 +1343,11 @@
 
 **キーワード:** Infantry, Champion (1/10), Chaos, Slaves to Darkness, Undivided
 
-**ノート:** This unit cannot be reinforced.
-
 ---
 
 ## Iron Golem (Legends)
 
 **ポイント:** 100pt / **モデル数:** 8 / **ベースサイズ:** 40mm [1], 32mm [3], 28.5mm [4]
-
-**増援不可**
 
 **ステータス:**
 
@@ -1394,8 +1377,6 @@
 **装備オプション:** ***1/8 models in this unit is an Ogor Breacher. An Ogor Breacher cannot be the champion or a standard bearer.***
 
 **キーワード:** Infantry, Champion (1/8), Standard Bearer (1/8), Chaos, Slaves to Darkness, Undivided
-
-**ノート:** This unit cannot be reinforced.
 
 ---
 
@@ -1462,7 +1443,7 @@
 
 ## Mutalith Vortex Beast
 
-**ポイント:** 160pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -1654,8 +1635,6 @@
 
 **ポイント:** 120pt / **モデル数:** 8 / **ベースサイズ:** 32mm [3], 28.5mm [3], 25mm [2]
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control |
@@ -1681,13 +1660,11 @@
 
 **キーワード:** Infantry, Champion (1/8), Chaos, Slaves to Darkness, Undivided
 
-**ノート:** This unit cannot be reinforced.
-
 ---
 
 ## Scourge of Aqshy: Chaos Lord on Karkadrak
 
-**ポイント:** 230pt / **モデル数:** 1 / **ベースサイズ:** 90 x 52mm
+**ポイント:** 200pt / **モデル数:** 1 / **ベースサイズ:** 90 x 52mm
 
 **増援不可**
 
@@ -1837,7 +1814,7 @@
 
 ## Slaughterbrute
 
-**ポイント:** 200pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 170pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -1913,8 +1890,6 @@
 
 **ポイント:** 110pt / **モデル数:** 9 / **ベースサイズ:** 40mm [1], 32mm [3], 28.5mm [4]
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control |
@@ -1934,15 +1909,11 @@
 
 **キーワード:** Infantry, Champion (1/9), Chaos, Slaves to Darkness, Undivided
 
-**ノート:** This unit cannot be reinforced.
-
 ---
 
 ## Splintered Fang (Legends)
 
 **ポイント:** 110pt / **モデル数:** 9 / **ベースサイズ:** 32mm [3], 28.5mm [2], 25mm [5]
-
-**増援不可**
 
 **ステータス:**
 
@@ -1968,15 +1939,11 @@
 
 **キーワード:** Infantry, Champion (1/9), Chaos, Slaves to Darkness, Undivided
 
-**ノート:** This unit cannot be reinforced.
-
 ---
 
 ## Tarantulos Brood (Legends)
 
 **ポイント:** 150pt / **モデル数:** 13 / **ベースサイズ:** 32mm [1], 28.5mm [2], 25mm [10]
-
-**増援不可**
 
 **ステータス:**
 
@@ -2005,8 +1972,6 @@
 **装備オプション:** ***Each model in this unit is armed with Envenomed Projectiles and Brood Weapons.*** • ***3/13 models are Spider Swarms and must replace their weapons with Venomous Bites.*** • ***A Spider Swarm cannot be the champion.***
 
 **キーワード:** Infantry, Champion (1/13), Chaos, Slaves to Darkness, Undivided
-
-**ノート:** This unit cannot be reinforced.
 
 ---
 
@@ -2082,8 +2047,6 @@
 
 **ポイント:** 110pt / **モデル数:** 9 / **ベースサイズ:** 40mm [1], 32mm [1], 28.5mm [3], 25mm [4]
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control |
@@ -2106,15 +2069,11 @@
 
 **キーワード:** Infantry, Champion (1/9), Chaos, Slaves to Darkness, Undivided
 
-**ノート:** This unit cannot be reinforced.
-
 ---
 
 ## Untamed Beasts (Legends)
 
 **ポイント:** 110pt / **モデル数:** 9 / **ベースサイズ:** 40mm [1], 32mm [3], 28.5mm [2], 25mm [3]
-
-**増援不可**
 
 **ステータス:**
 
@@ -2140,13 +2099,11 @@
 
 **キーワード:** Infantry, Champion (1/9), Chaos, Slaves to Darkness, Undivided
 
-**ノート:** This unit cannot be reinforced.
-
 ---
 
 ## Varanguard
 
-**ポイント:** 300pt / **モデル数:** 3 / **ベースサイズ:** 75 x 42mm
+**ポイント:** 290pt / **モデル数:** 3 / **ベースサイズ:** 75 x 42mm
 
 **ステータス:**
 

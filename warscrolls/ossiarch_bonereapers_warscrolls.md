@@ -1,6 +1,6 @@
 # Ossiarch Bonereapers ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全34 ウォースクロール（Spearhead 版 8 件は除外。--include-spearhead で含められる）
 
@@ -39,6 +39,7 @@
 
 **レジメントオプション:**
 
+- 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
 **キーワード:** Unique, Hero, Cavalry, Ward (6+), Relentless Discipline (7), Death, Ossiarch Bonereapers
@@ -49,7 +50,7 @@
 
 ## Arkhan the Black, Mortarch of Sacrament
 
-**ポイント:** 440pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 430pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -72,7 +73,7 @@
 
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of **Razarak’s Ebon Claws** is 3.
-- **Mortarch of Sacrament**（Once Per Turn, Reaction: Opponent declared a **SPELL** ability for a unit within 18" of this uni）
+- **Mortarch of Sacrament**（Once Per Turn, Reaction: Opponent declared a **SPELL** ability for a unit within 18" of this unit）
   - 効果: Roll 2D6. If the roll exceeds the casting roll for the spell, then the spell is unbound, its effect is not resolved and that **SPELL** ability cannot be used by enemy units until the start of your next turn.
 - **Curse of Years**（Your Hero Phase / 詠唱/詠誦値 7） ［Spell］
   - 宣言: Pick a visible enemy unit within 12" of this unit to be the target, then make a casting roll of 2D6.
@@ -86,6 +87,7 @@
 **レジメントオプション:**
 
 - 0-1 *Legion Subcommander*
+- 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
 **キーワード:** Warmaster, Unique, Hero, Monster, Wizard (3), Fly, Ward (6+), Relentless Discipline (3), Death, Ossiarch Bonereapers
@@ -161,7 +163,7 @@
 
 ## Gothizzar Harvester
 
-**ポイント:** 200pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
+**ポイント:** 180pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
 
 **増援不可**
 
@@ -193,7 +195,7 @@
 
 ## Immortis Guard
 
-**ポイント:** 170pt / **モデル数:** 3 / **ベースサイズ:** 50mm
+**ポイント:** 150pt / **モデル数:** 3 / **ベースサイズ:** 50mm
 
 **ステータス:**
 
@@ -254,7 +256,7 @@
 
 ## Katakros, Mortarch of the Necropolis
 
-**ポイント:** 470pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 450pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -282,17 +284,18 @@
 - **You Dare?!**（Once Per Battle, Start of Any Turn）
   - 宣言: This unit can only use this ability if at least half of the units from your starting army have been destroyed.
   - 効果: For the rest of the battle round: • Add 5 to the Attacks characteristic of this unit's **Inda-Khaat**. • Add 3 to the Attacks characteristic of this unit's **The Shield Immortis**. • This unit cannot use the 'Supreme Lord of the Bonereaper Legions' ability.
-- **Supreme Lord of the Bonereaper Legions**（Any Combat Phase）
-  - 宣言: If this unit is not in combat, pick a visible friendly **OSSIARCH BONEREAPERS** unit wholly within 12" of this unit that is in combat and has not used a **RELENTLESS DISCIPLINE** ability this phase to be the target.
-  - 効果: Spend a number of **relentless discipline** points equal to the target's Health characteristic. If the target is reinforced and has more than half of its starting models, spend an additional **relentless discipline** point. The target can use 2 **FIGHT** abilities this phase. After the first is used, however, the target has **STRIKE-LAST** for the rest of the turn. In addition, the target cannot use **RELENTLESS DISCIPLINE** abilities for the rest of the phase.
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the number after its **RELENTLESS DISCIPLINE** keyword is 4.
 - **Mortarch of the Necropolis**（Passive）
   - 効果: Add 3 to the control scores of visible friendly **OSSIARCH BONEREAPERS** units that have used any **RELENTLESS DISCIPLINE** abilities this turn.
+- **Supreme Lord of the Bonereaper Legions**（Any Combat Phase）
+  - 宣言: If this unit is not in combat, pick a visible friendly **OSSIARCH BONEREAPERS** unit wholly within 12" of this unit that is in combat and has not used a **RELENTLESS DISCIPLINE** ability this phase to be the target.
+  - 効果: Spend a number of **relentless discipline** points equal to the target's Health characteristic. The target can use 2 **FIGHT** abilities this phase. After the first is used, however, the target has **STRIKE-LAST** for the rest of the turn. In addition, the target cannot use **RELENTLESS DISCIPLINE** abilities for the rest of the phase.
 
 **レジメントオプション:**
 
 - 0-1 *Legion Subcommander*
+- 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
 **キーワード:** Warmaster, Unique, Hero, Infantry, Ward (6+), Relentless Discipline (10), Death, Ossiarch Bonereapers
@@ -301,7 +304,7 @@
 
 ## Kavalos Deathriders
 
-**ポイント:** 150pt / **モデル数:** 5 / **ベースサイズ:** 60 x 35mm
+**ポイント:** 160pt / **モデル数:** 5 / **ベースサイズ:** 60 x 35mm
 
 **ステータス:**
 
@@ -328,7 +331,7 @@
 
 ## Kavalos War Chariot
 
-**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 120 × 92mm
+**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 120 × 92mm
 
 **増援不可**
 
@@ -388,6 +391,7 @@
 
 **レジメントオプション:**
 
+- 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
 **キーワード:** Hero, Cavalry, Ward (6+), Relentless Discipline (6), Death, Ossiarch Bonereapers
@@ -398,7 +402,7 @@
 
 ## Liege-Kavalos on War Chariot
 
-**ポイント:** 210pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 180pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -428,6 +432,7 @@
 
 **レジメントオプション:**
 
+- 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
 **キーワード:** Hero, War Machine, Ward (6+), Relentless Discipline (6), Death, Ossiarch Bonereapers
@@ -464,6 +469,7 @@
 **レジメントオプション:**
 
 - 0-1 **Mortek Crawler**
+- 0-1 **MORTISAN VIZIER**
 - Any **INFANTRY**
 
 **キーワード:** Hero, Infantry, Ward (6+), Relentless Discipline (5), Death, Ossiarch Bonereapers
@@ -474,7 +480,7 @@
 
 ## Morghast Archai
 
-**ポイント:** 250pt / **モデル数:** 2 / **ベースサイズ:** 60mm
+**ポイント:** 240pt / **モデル数:** 2 / **ベースサイズ:** 60mm
 
 **ステータス:**
 
@@ -502,7 +508,7 @@
 
 ## Morghast Harbingers
 
-**ポイント:** 240pt / **モデル数:** 2 / **ベースサイズ:** 60mm
+**ポイント:** 230pt / **モデル数:** 2 / **ベースサイズ:** 60mm
 
 **ステータス:**
 
@@ -562,7 +568,7 @@
 
 ## Mortek Guard
 
-**ポイント:** 110pt / **モデル数:** 10 / **ベースサイズ:** 25mm
+**ポイント:** 100pt / **モデル数:** 10 / **ベースサイズ:** 25mm
 
 **ステータス:**
 
@@ -587,7 +593,7 @@
 
 ## Mortek Triaxes
 
-**ポイント:** 140pt / **モデル数:** 10 / **ベースサイズ:** 25mm
+**ポイント:** 130pt / **モデル数:** 10 / **ベースサイズ:** 25mm
 
 **ステータス:**
 
@@ -684,6 +690,8 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers
 
+**ノート:** This **HERO** can join an eligible regiment as a *Mortisan Vizier*.
+
 ---
 
 ## Mortisan Ossifector
@@ -720,6 +728,8 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Fly, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers
 
+**ノート:** This **HERO** can join an eligible regiment as a *Mortisan Vizier*.
+
 ---
 
 ## Mortisan Soulmason
@@ -755,11 +765,13 @@
 
 **キーワード:** Hero, Wizard (2), Infantry, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers
 
+**ノート:** This **HERO** can join an eligible regiment as a *Mortisan Vizier*.
+
 ---
 
 ## Mortisan Soulreaper
 
-**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 32mm
+**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
 **増援不可**
 
@@ -792,11 +804,13 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Fly, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers
 
+**ノート:** This **HERO** can join an eligible regiment as a *Mortisan Vizier*.
+
 ---
 
 ## Nagash, Supreme Lord of the Undead
 
-**ポイント:** 830pt / **モデル数:** 1 / **ベースサイズ:** 130mm
+**ポイント:** 790pt / **モデル数:** 1 / **ベースサイズ:** 130mm
 
 **増援不可**
 
@@ -834,6 +848,7 @@
 **レジメントオプション:**
 
 - 0-1 *Legion Subcommander*
+- 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
 **キーワード:** Warmaster, Unique, Hero, Monster, Wizard (9), Fly, Ward (5+),Relentless Discipline (3), Death, Ossiarch Bonereapers
@@ -842,7 +857,7 @@
 
 ## Necropolis Stalkers
 
-**ポイント:** 130pt / **モデル数:** 3 / **ベースサイズ:** 50mm
+**ポイント:** 120pt / **モデル数:** 3 / **ベースサイズ:** 50mm
 
 **ステータス:**
 
@@ -960,6 +975,7 @@
 **レジメントオプション:**
 
 - 0-1 *Legion Subcommander*
+- 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
 **キーワード:** Unique, Hero, Wizard (2), Infantry, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers
@@ -1063,8 +1079,6 @@
 
 **ポイント:** 90pt / **モデル数:** 8 / **ベースサイズ:** 60 x 35mm [1], 32mm [2], 28.5mm [5]
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control | Ward |
@@ -1087,8 +1101,6 @@
   - 効果: This unit has a maximum control score of 1.
 
 **キーワード:** Beast, Champion (1/8), Ward (6+), Death, Ossiarch Bonereapers
-
-**ノート:** This unit cannot be reinforced.
 
 ---
 
@@ -1163,6 +1175,7 @@
 **レジメントオプション:**
 
 - 0-1 *Legion Subcommander*
+- 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
 **キーワード:** Unique, Hero, Wizard (2), Infantry, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers

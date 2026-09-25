@@ -1,6 +1,6 @@
 # The Null Myriad ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全16 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -9,7 +9,7 @@
 
 ## Arkhan the Black, Mortarch of Sacrament
 
-**ポイント:** 440pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 430pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -32,7 +32,7 @@
 
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of **Razarak’s Ebon Claws** is 3.
-- **Mortarch of Sacrament**（Once Per Turn, Reaction: Opponent declared a **SPELL** ability for a unit within 18" of this uni）
+- **Mortarch of Sacrament**（Once Per Turn, Reaction: Opponent declared a **SPELL** ability for a unit within 18" of this unit）
   - 効果: Roll 2D6. If the roll exceeds the casting roll for the spell, then the spell is unbound, its effect is not resolved and that **SPELL** ability cannot be used by enemy units until the start of your next turn.
 - **Curse of Years**（Your Hero Phase / 詠唱/詠誦値 7） ［Spell］
   - 宣言: Pick a visible enemy unit within 12" of this unit to be the target, then make a casting roll of 2D6.
@@ -46,6 +46,7 @@
 **レジメントオプション:**
 
 - 0-1 *Legion Subcommander*
+- 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
 **キーワード:** Warmaster, Unique, Hero, Monster, Wizard (3), Fly, Ward (6+), Relentless Discipline (3), Death, Ossiarch Bonereapers
@@ -88,7 +89,7 @@
 
 ## Immortis Guard
 
-**ポイント:** 170pt / **モデル数:** 3 / **ベースサイズ:** 50mm
+**ポイント:** 150pt / **モデル数:** 3 / **ベースサイズ:** 50mm
 
 **ステータス:**
 
@@ -114,7 +115,7 @@
 
 ## Morghast Archai
 
-**ポイント:** 250pt / **モデル数:** 2 / **ベースサイズ:** 60mm
+**ポイント:** 240pt / **モデル数:** 2 / **ベースサイズ:** 60mm
 
 **ステータス:**
 
@@ -142,7 +143,7 @@
 
 ## Morghast Harbingers
 
-**ポイント:** 240pt / **モデル数:** 2 / **ベースサイズ:** 60mm
+**ポイント:** 230pt / **モデル数:** 2 / **ベースサイズ:** 60mm
 
 **ステータス:**
 
@@ -167,7 +168,7 @@
 
 ## Mortek Guard
 
-**ポイント:** 110pt / **モデル数:** 10 / **ベースサイズ:** 25mm
+**ポイント:** 100pt / **モデル数:** 10 / **ベースサイズ:** 25mm
 
 **ステータス:**
 
@@ -192,7 +193,7 @@
 
 ## Mortek Triaxes
 
-**ポイント:** 140pt / **モデル数:** 10 / **ベースサイズ:** 25mm
+**ポイント:** 130pt / **モデル数:** 10 / **ベースサイズ:** 25mm
 
 **ステータス:**
 
@@ -289,6 +290,8 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers
 
+**ノート:** This **HERO** can join an eligible regiment as a *Mortisan Vizier*.
+
 ---
 
 ## Mortisan Ossifector
@@ -325,6 +328,8 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Fly, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers
 
+**ノート:** This **HERO** can join an eligible regiment as a *Mortisan Vizier*.
+
 ---
 
 ## Mortisan Soulmason
@@ -360,11 +365,13 @@
 
 **キーワード:** Hero, Wizard (2), Infantry, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers
 
+**ノート:** This **HERO** can join an eligible regiment as a *Mortisan Vizier*.
+
 ---
 
 ## Mortisan Soulreaper
 
-**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 32mm
+**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
 **増援不可**
 
@@ -397,11 +404,13 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Fly, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers
 
+**ノート:** This **HERO** can join an eligible regiment as a *Mortisan Vizier*.
+
 ---
 
 ## Necropolis Stalkers
 
-**ポイント:** 130pt / **モデル数:** 3 / **ベースサイズ:** 50mm
+**ポイント:** 120pt / **モデル数:** 3 / **ベースサイズ:** 50mm
 
 **ステータス:**
 

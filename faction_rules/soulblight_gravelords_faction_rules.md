@@ -1,6 +1,6 @@
 # Soulblight Gravelords ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 
 ## バトル特性
@@ -131,7 +131,7 @@ Origins of Terrifying Folk Tales are unique enhancements that can be given to no
 
 - **The Empty Graveyard**（Deployment Phase / 10pt）
   - 効果: Remove this unit from the battlefield and set it up again more than 9" from all enemy units and either wholly within 7" of a terrain feature or wholly within 7" of the battlefield edge. This unit cannot use **MOVE** abilities in the first turn of the first battle round.
-- **The Never-Dead**（Any Hero Phase / 10pt）
+- **The Never-Dead**（Any Hero Phase / 20pt）
   - 効果: Spend 1 **rage dice**. If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, for the rest of the turn, each time you make an unmodified save roll of 5+ for an attack that targets this unit, the attack fails and the attack sequence ends
 - **The Incarnadine Killers**（End of Any Turn / 10pt）
   - 効果: If this unit is not in combat and an enemy unit was destroyed by its combat attacks this turn, this unit can move up to D6". It can end that move in combat.

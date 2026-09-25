@@ -1,6 +1,6 @@
 # Helsmiths of Hashut ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 
 ## バトル特性
@@ -25,12 +25,12 @@ Helsmiths of Hashut armies can use the following abilities:
 ### Castigation Battery
 
 - **Experimental Munitions**（Passive）
-  - 効果: Add 1 to the Attacks characteristic of ranged weapons used by friendly **HELSMITHS OF HASHUT WAR MACHINES** while they have 3 **daemonic power points**.
+  - 効果: Ranged weapons used by friendly **HELSMITHS OF HASHUT** units have **Crit (2 Hits)** while they have 2 or more **daemonic power points.**
 
 ### Daemonsmith Cabal
 
 - **Arcane Dominance**（Passive）
-  - 効果: Add 1 to casting rolls, unbinding rolls, banishment rolls and chanting rolls for friendly **HELSMITHS OF HASHUT WIZARDS** and **PRIESTS** while they have 3 **daemonic power points**.
+  - 効果: Add 1 to casting rolls, chanting rolls, unbinding rolls, and banishment rolls for friendly **HELSMITHS OF HASHUT WIZARDS** and **PRIESTS** while they are wholly within 12" of another friendly **HELSMITHS OF HASHUT WIZARD** or **PRIEST** with 1 or more **daemonic power points**.
 
 ### Domination Force
 
@@ -40,7 +40,7 @@ Helsmiths of Hashut armies can use the following abilities:
 ### Hashutite Host
 
 - **Amassed Legions**（Passive）
-  - 効果: Each time a friendly **HELSMITHS OF HASHUT INFANTRY** unit with 3 **daemonic power points** uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.
+  - 効果: Each time a friendly **HELSMITHS OF HASHUT** unit within the combat range of a friendly **HELSMITHS OF HASHUT INFANTRY** unit with 1 or more **daemonic power** **points** uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.
 
 ### Industrial Polluters
 
@@ -50,7 +50,7 @@ Helsmiths of Hashut armies can use the following abilities:
 ### The Bullfather's Horns
 
 - **Bulls of the Ziggurat**（Passive）
-  - 効果: Add 2" to the Move characteristic of friendly **HELSMITHS OF HASHUT CAVALRY** and **MONSTER** units while they have 3 **daemonic power points**.
+  - 効果: Add 1" to the Move characteristic of friendly **HELSMITHS OF HASHUT** units for each **daemonic power point** that unit has.
 
 ## 英雄特性
 

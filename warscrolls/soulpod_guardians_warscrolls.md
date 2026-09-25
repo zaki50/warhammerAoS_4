@@ -1,6 +1,6 @@
 # Soulpod Guardians ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全11 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -9,7 +9,7 @@
 
 ## Arch-Revenant
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 90pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -108,6 +108,8 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Order, Sylvaneth
 
+**ノート:** This **HERO** can join an eligible regiment as a *Forest Sentinel*.
+
 ---
 
 ## Gossamid Archers
@@ -145,7 +147,7 @@
 
 ## Grove Guardian
 
-**ポイント:** 220pt / **モデル数:** 1 / **ベースサイズ:** 105 × 70mm
+**ポイント:** 200pt / **モデル数:** 1 / **ベースサイズ:** 105 × 70mm
 
 **増援不可**
 
@@ -263,9 +265,7 @@
 
 ## The Twistweald
 
-**ポイント:** 140pt / **モデル数:** 8 / **ベースサイズ:** 40mm [2], 32mm [3], 28.5mm [3] or 40mm [1], 32mm [4], 28.5mm [3]
-
-**増援不可**
+**ポイント:** 160pt / **モデル数:** 8 / **ベースサイズ:** 40mm [2], 32mm [3], 28.5mm [3] or 40mm [1], 32mm [4], 28.5mm [3]
 
 **ステータス:**
 
@@ -298,8 +298,6 @@
 
 **キーワード:** Infantry, Champion, Order, Sylvaneth, Revenant
 
-**ノート:** This unit cannot be reinforced.
-
 ---
 
 ## Tree-Revenants
@@ -329,7 +327,7 @@
 
 ## Warsong Revenant
 
-**ポイント:** 170pt / **モデル数:** 1 / **ベースサイズ:** 105x70mm
+**ポイント:** 190pt / **モデル数:** 1 / **ベースサイズ:** 105x70mm
 
 **増援不可**
 

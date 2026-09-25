@@ -1,6 +1,6 @@
 # Hedonites of Slaanesh ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 
 ## バトル特性
@@ -43,7 +43,7 @@ Hedonites of Slaanesh armies can use the following abilities:
   - 宣言: Pick a friendly **HEDONITES OF SLAANESH** unit to use this ability, then pick an enemy unit in combat with that unit and that had any damage points allocated to it this turn to be the target.
   - 効果: For the rest of the turn: • All of the combat attacks made by that friendly unit must target that enemy unit. • Add 1 to the Attacks characteristic of that friendly unit’s melee weapons.
 
-### Depraved Carnival
+### Depraved Carnival（10pt）
 
 - **In Search of Sin**（Once Per Turn (Army), End of Any Turn）
   - 宣言: Pick up to 3 friendly **HEDONITES OF SLAANESH INFANTRY** units to be the targets.
@@ -106,7 +106,7 @@ Hedonites of Slaanesh armies can use the following abilities:
 - **Agonisingly Elusive**（Any Movement Phase）
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
   - 効果: If it is your turn, apply the effect below. If it is your opponent’s turn, roll a dice. On a 3+, apply the effect below: Inflict D3 mortal damage on the target. Then, this unit must move a distance up to its Move characteristic. It can move through the combat ranges of enemy units but cannot end that move in combat.
-- **Incensed**（Your Hero Phase / CP 1）
+- **Incensed**（Your Hero Phase / CP 1 / 10pt）
   - 宣言: Pick an objective within 6" of this unit to be the target.
   - 効果: Until the start of your next turn, friendly **HEDONITES OF SLAANESH** units are not visible to enemy units more than 9" from them while all models in those friendly units are contesting the target objective.
 - **Arcane Magnetism**（Any Combat Phase）
@@ -135,10 +135,10 @@ Hedonites of Slaanesh armies can use the following abilities:
 
 All-consuming Obsessions are unique enhancements that can be given to non-**HERO** **HEDONITES OF SLAANESH** **INFANTRY** or **CAVALRY** units. A unit can only have 1 All-consuming Obsession.
 
-- **Obsession with Control**（Deployment Phase / 10pt）
+- **Obsession with Control**（Deployment Phase / 20pt）
   - 宣言: Pick an objective to be the target.
   - 効果: For the rest of the battle, while this unit is contesting the target objective: • This unit has **WARD (5+)**. • Add 5 to this unit’s control score.
-- **Obsession with Form**（Reaction: You declared the 'RUN' ability for this unit / 10pt）
+- **Obsession with Form**（Reaction: You declared the 'Run' ability for this unit / 10pt）
   - 効果: Subtract 1 from hit rolls for attacks that target this unit for the rest of the turn.
 - **Obsession with Pain**（Any Combat Phase / 10pt）
   - 効果: If this unit is damaged, spend 1 **rage dice**. If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, add 1 to the Rend characteristic of this unit’s non-**Companion** melee weapons for the rest of the turn.

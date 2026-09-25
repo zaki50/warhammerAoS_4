@@ -1,6 +1,6 @@
 # The Lance of Ossia ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全5 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -39,6 +39,7 @@
 
 **レジメントオプション:**
 
+- 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
 **キーワード:** Unique, Hero, Cavalry, Ward (6+), Relentless Discipline (7), Death, Ossiarch Bonereapers
@@ -49,7 +50,7 @@
 
 ## Kavalos Deathriders
 
-**ポイント:** 150pt / **モデル数:** 5 / **ベースサイズ:** 60 x 35mm
+**ポイント:** 160pt / **モデル数:** 5 / **ベースサイズ:** 60 x 35mm
 
 **ステータス:**
 
@@ -76,7 +77,7 @@
 
 ## Kavalos War Chariot
 
-**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 120 × 92mm
+**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 120 × 92mm
 
 **増援不可**
 
@@ -136,6 +137,7 @@
 
 **レジメントオプション:**
 
+- 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
 **キーワード:** Hero, Cavalry, Ward (6+), Relentless Discipline (6), Death, Ossiarch Bonereapers
@@ -146,7 +148,7 @@
 
 ## Liege-Kavalos on War Chariot
 
-**ポイント:** 210pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 180pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -176,6 +178,7 @@
 
 **レジメントオプション:**
 
+- 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
 **キーワード:** Hero, War Machine, Ward (6+), Relentless Discipline (6), Death, Ossiarch Bonereapers

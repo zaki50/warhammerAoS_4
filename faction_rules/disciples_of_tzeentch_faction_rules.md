@@ -1,6 +1,6 @@
 # Disciples of Tzeentch ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 
 ## バトル特性
@@ -19,7 +19,7 @@ Disciples of Tzeentch armies can use the following abilities:
 - **Silver Simulacrum**（Once Per Battle (Army), Deployment Phase）
   - 効果: If there is a friendly **Argent Shard** on the battlefield, you can set up 1 additional **Argent Shard** on the battlefield. It must be set up wholly within friendly territory and more than 3" from all objectives and other terrain features. **Designer’s Note:** *The original Argent Shard is set up in Step 1 of the deployment phase using the ‘Deploy Faction Terrain’ ability. This ability allows you to set up a second such terrain feature and is used in Step 3 of the deployment phase, after armies have been deployed.*
 - **All Part of the Plan**（Passive）
-  - 効果: You start the battle with 0 **fate points**. Gain 1 **fate point** each time: • You lose the priority roll. • A spell cast by a friendly **DISCIPLES OF TZEENTCH** unit is unbound. • A friendly **DISCIPLES OF TZEENTCH** unit miscasts a spell. • Your opponent gains control of an objective that you controlled at the start of the turn. • A friendly **Argent Shard** is **demolished**.
+  - 効果: You start the battle with 0 **fate points**. Gain 1 **fate point** each time: • You lose the priority roll. • A spell cast by a friendly **DISCIPLES OF TZEENTCH** unit is unbound. • A friendly **DISCIPLES OF TZEENTCH** unit miscasts a spell. • Your opponent gains control of an objective that you controlled at the start of the turn. • A friendly **Argent Shard** is **demolished**. You can have a maximum of 9 fate points.
 - **Destined to Serve**（Passive）
   - 効果: Before allocating damage points to a friendly **DISCIPLES OF** **TZEENTCH** unit, you can spend any number of **fate points**. For each **fate point** you spend, remove 1 damage point in that unit’s damage pool.
 - **Destined Arcana**（Reaction: You declared a **SPELL** ability for a **DISCIPLES OF TZEENTCH** unit）
@@ -70,7 +70,7 @@ Disciples of Tzeentch armies can use the following abilities:
 
 **HERO** only
 
-- **Silver Summoner**（Your Movement Phase / CP 1）
+- **Silver Summoner**（Your Movement Phase / CP 1 / 10pt）
   - 宣言: Pick a friendly non-**WARFLOCK ARCANITE** unit that has been destroyed to be the target.
   - 効果: Set up a replacement unit with half the number of models from the target unit (rounding up) more than 9" from all enemy units and wholly within 12" of a friendly **ARGENT SHARD** that is visible to this unit.
 - **Grand Illusionist**（Any Hero Phase）

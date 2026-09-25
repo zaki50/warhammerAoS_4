@@ -1,6 +1,6 @@
 # Nighthaunt ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 
 ## バトル特性
@@ -25,9 +25,9 @@ Nighthaunt armies can use the following abilities:
 
 ### Death Stalkers
 
-- **There Is No Escape**（Once Per Turn (Army), Your Movement Phase）
-  - 宣言: Pick a friendly **NIGHTHAUNT** unit to be the target.
-  - 効果: For the rest of the turn: • The target can use **CHARGE** and **SHOOT** abilities even if it has used a **RETREAT** ability in the same turn. • The target can use the 'Retreat' ability without any mortal damage being inflicted on it.
+- **There Is No Escape**（Once Per Turn (Army), Any Hero Phase）
+  - 宣言: If there is not a **condemned** enemy unit on the battlefield, pick an enemy unit to be **condemned**.
+  - 効果: For the rest of the battle, add 1 to the Rend characteristic of melee weapons used for attacks made by friendly **NIGHTHAUNT** units that target the **condemned** enemy unit.
 
 ### Deathrust Gheists
 
@@ -41,7 +41,7 @@ Nighthaunt armies can use the following abilities:
   - 宣言: Pick a friendly **Nexus of Grief** to be the target.
   - 効果: For the rest of the turn, the target has a Move characteristic of 3". It can immediately move up to 3" and can move into combat but cannot end that move on a terrain feature or within 3" of an objective.
 
-### Quicksilver Gheists（40pt）
+### Quicksilver Gheists（20pt）
 
 - **Vanish and Reappear**（Once Per Turn (Army), Your Movement Phase）
   - 宣言: Pick a friendly **NIGHTHAUNT** unit that is in combat to use this ability.
@@ -66,14 +66,14 @@ Nighthaunt armies can use the following abilities:
 
 **HERO** only
 
-- **Ruler of the Spectral Hosts**（Once Per Turn (Army), Your Hero Phase / 20pt）
+- **Ruler of the Spectral Hosts**（Once Per Turn (Army), Your Hero Phase）
   - 宣言: Pick up to 3 friendly non-**HERO NIGHTHAUNT** units wholly within 12" of this unit to be the targets.
   - 効果: Roll a D3 for each target. On a 2+: • If the target is damaged, **Heal (X)** the target, where **X** is an amount equal to the roll. • If the target is not damaged, return a number of slain models to it with a combined Health characteristic of up to **X,** where **X** is an amount equal to the roll.
 - **Deathly Possessor**（Any Combat Phase）
   - 宣言: Pick an enemy **HERO** in combat with this unit to be the target, then pick another enemy unit within the target's combat range to be the victim.
   - 効果: Roll a dice. On a 3+, pick 1 of the target's melee weapons. Immediately resolve combat attacks for the target with that weapon against the victim.
-- **Shadowy Aura**（Reaction: You declared the 'Redeploy' command for a friendly NIGHTHAUNT unit wholly within 12" of this unit）
-  - 効果: For the rest of the turn, subtract 1 from hit rolls for attacks that target this unit.
+- **Shadowy Aura**（Passive）
+  - 効果: While they are wholly within 6" of this unit, friendly **NIGHTHAUNT INFANTRY** and **CAVALRY** units are not visible to enemy units more than 9" from them.
 
 ## アーティファクト・オブ・パワー
 
@@ -108,7 +108,7 @@ Nighthaunt armies can use the following abilities:
 
 - **Brazier of Nagashizzar**（Reaction: You declared the 'Redeploy' command for a friendly NIGHTHAUNT INFANTRY unit wholly within 12" of this unit）
   - 効果: If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead.
-- **Lightshard of the Harvest Moon**（Once Per Battle, Any Combat Phase / 20pt）
+- **Lightshard of the Harvest Moon**（Once Per Battle, Any Combat Phase）
   - 効果: If this unit is in combat, add 1 to the Attacks characteristic of melee weapons used by friendly **NIGHTHAUNT** units while they are wholly within 12" of this unit for the rest of the turn.
 - **Mirror of Echoing Failures**（Reaction: Opponent declared a SPELL or PRAYER ability for a WIZARD or PRIEST within 12" of this unit）
   - 宣言: Pick each enemy **WIZARD** and **PRIEST** within 12" of this unit to be the targets.

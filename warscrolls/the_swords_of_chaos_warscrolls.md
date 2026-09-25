@@ -1,6 +1,6 @@
 # The Swords of Chaos ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全5 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -9,7 +9,7 @@
 
 ## Abraxia, Spear of the Everchosen
 
-**ポイント:** 250pt / **モデル数:** 1 / **ベースサイズ:** 100mm
+**ポイント:** 230pt / **モデル数:** 1 / **ベースサイズ:** 100mm
 
 **増援不可**
 
@@ -51,7 +51,7 @@
 
 ## Archaon, the Everchosen
 
-**ポイント:** 810pt / **モデル数:** 1 / **ベースサイズ:** 160mm
+**ポイント:** 780pt / **モデル数:** 1 / **ベースサイズ:** 160mm
 
 **増援不可**
 
@@ -171,7 +171,7 @@
 
 ## Varanguard
 
-**ポイント:** 300pt / **モデル数:** 3 / **ベースサイズ:** 75 x 42mm
+**ポイント:** 290pt / **モデル数:** 3 / **ベースサイズ:** 75 x 42mm
 
 **ステータス:**
 

@@ -1,6 +1,6 @@
 # Fyreslayers ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 
 ## バトル特性
@@ -70,7 +70,7 @@ Fyreslayers armies can use the following abilities:
   - 効果: Add 3 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.
 - **Droth-helm**（Passive）
   - 効果: Add 1 to hit rolls for **Companion** weapons used by friendly **FYRESLAYERS** units while they are wholly within 12" of this unit.
-- **Ash-cloud Rune**（Once Per Battle, Enemy Hero Phase）
+- **Ash-cloud Rune**（Once Per Battle, Enemy Hero Phase / 20pt）
   - 効果: Until the start of your next turn, friendly **INFANTRY** units cannot be targeted by shooting attacks while they are wholly within 12" of this unit.
 
 ## その他の強化
@@ -134,7 +134,7 @@ Marks of Vulcatrix are unique enhancements that can be given to **MAGMADROTHS**.
   - 宣言: Pick a friendly **FYRESLAYERS PRIEST** to chant this prayer, pick a visible friendly **FYRESLAYERS** unit wholly within 12" of them to be the target, then make a chanting roll of D6.
   - 効果: Add 1 to hit rolls for the target’s combat attacks, including those made with **Companion** weapons, until the start of your next turn. In addition, if the chanting roll was 8+, add 1 to the Attacks characteristic of the target’s melee weapons, including **Companion** weapons, until the start of your next turn.
 - **Blazing Impetus**（Your Hero Phase / 詠唱/詠誦値 5）
-  - 宣言: Pick a friendly **FYRESLAYERS PRIEST** to chant this prayer, pick a visible friendly **FYRESLAYERS** unit wholly within 12" of them to be the target, then make a chanting roll of D6.
+  - 宣言: Pick a friendly **FYRESLAYERS PRIEST** to chant this prayer, pick a visible friendly **FYRESLAYERS** unit that was not set up this turn and that is wholly within 12" of them to be the target, then make a chanting roll of D6.
   - 効果: If the chanting roll was 10+, you can pick another eligible unit to be a second target. Each target can use the ‘Normal Move’ or ‘Retreat’ ability as if it were your movement phase.
 
 ### Zharrgrim Blessings

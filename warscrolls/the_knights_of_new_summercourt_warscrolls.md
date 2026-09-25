@@ -1,6 +1,6 @@
 # The Knights of New Summercourt ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全23 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -9,7 +9,7 @@
 
 ## Abhorrant Archregent
 
-**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -39,6 +39,8 @@
 - Any **FLESH-EATER COURTS**
 
 **キーワード:** Hero, Wizard (1), Infantry, Ward (6+), Death, Flesh-eater Courts, Abhorrant
+
+**ノート:** This **HERO** can join an eligible regiment as a *Royal Attendant*.
 
 ---
 
@@ -76,11 +78,13 @@
 
 **キーワード:** Hero, Priest (1), Infantry, Ward (6+), Death, Flesh-eater Courts, Abhorrant
 
+**ノート:** This **HERO** can join an eligible regiment as a *Royal Attendant*.
+
 ---
 
 ## Abhorrant Ghoul King
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 32mm
+**ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
 **増援不可**
 
@@ -109,6 +113,8 @@
 - Any **FLESH-EATER COURTS**
 
 **キーワード:** Hero, Wizard (1), Infantry, Ward (6+), Death, Flesh-eater Courts, Abhorrant
+
+**ノート:** This **HERO** can join an eligible regiment as a *Royal Attendant*.
 
 ---
 
@@ -208,7 +214,7 @@
 
 ## Abhorrant Gorewarden
 
-**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -243,6 +249,8 @@
 - Any **KNIGHTS**
 
 **キーワード:** Hero, Wizard (1), Infantry, Fly, Ward (6+), Death, Flesh-eater Courts, Abhorrant
+
+**ノート:** This **HERO** can join an eligible regiment as a *Royal Attendant*.
 
 ---
 
@@ -284,7 +292,7 @@
 
 ## Crypt Flayers
 
-**ポイント:** 160pt / **モデル数:** 3 / **ベースサイズ:** 50mm
+**ポイント:** 140pt / **モデル数:** 3 / **ベースサイズ:** 50mm
 
 **ステータス:**
 
@@ -420,7 +428,7 @@
 
 ## Crypt Horrors
 
-**ポイント:** 160pt / **モデル数:** 3 / **ベースサイズ:** 50mm
+**ポイント:** 150pt / **モデル数:** 3 / **ベースサイズ:** 50mm
 
 **ステータス:**
 
@@ -521,7 +529,7 @@
 
 ## Marrowscroll Herald
 
-**ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 32mm
+**ポイント:** 90pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
 **増援不可**
 
@@ -558,7 +566,7 @@
 
 ## Morbheg Knights
 
-**ポイント:** 170pt / **モデル数:** 3 / **ベースサイズ:** 75 x 42mm
+**ポイント:** 150pt / **モデル数:** 3 / **ベースサイズ:** 75 x 42mm
 
 **ステータス:**
 

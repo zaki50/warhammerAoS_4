@@ -1,6 +1,6 @@
 # Spearhead: General's Handbook 2026-27: Matched Play Battlepack（共通ルール）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 
 ## Season Rules 2026-27
@@ -41,7 +41,7 @@
   - 宣言: Pick a pair of objectives to be the target.
   - 効果: For the rest of the battle round, the target is the **coveted** pair of objectives instead of the other pair of objectives.
 - **Rolling Ash-Clouds**（Passive）
-  - 効果: While the ash-clouds are **low-lying**: •  Units and **MANIFESTATIONS** cannot be set up in neutral territory. •  Units and **MANIFESTATIONS** cannot end a move within neutral territory unless they started that move wholly within neutral territory. •  Models and **MANIFESTATIONS** are not visible to other models more than 3" away unless a straight line can be drawn between any points on their bases that does not cross neutral territory.
+  - 効果: While the ash-clouds are **low-lying**: •  Units, terrain features and **MANIFESTATIONS** cannot be set up in neutral territory. •  Units, terrain features and **MANIFESTATIONS** cannot end a move within neutral territory unless they started that move wholly within neutral territory. •  Models, terrain features and **MANIFESTATIONS** are not visible to other models more than 3" away unless a straight line can be drawn between any points on their bases that does not cross neutral territory.
 - **Spreading Warpfire**（Once Per Battle Round, Start of Battle Round）
   - 宣言: If there are no **flaming** terrain features on the battlefield, pick a non‑**FACTION TERRAIN** terrain feature to be the target. Otherwise, pick a non‑**Faction Terrain** terrain feature that is not **flaming** and that is within 12" of a **flaming** terrain feature to be the target.
   - 効果: The target is **flaming** for the rest of the battle. Then, inflict D3 mortal damage on each unit (friendly and enemy) within 6" of any **flaming** terrain features.

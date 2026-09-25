@@ -1,6 +1,6 @@
 # Fyreslayers ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全26 ウォースクロール（Spearhead 版 3 件は除外。--include-spearhead で含められる）
 
@@ -37,11 +37,13 @@
 
 **キーワード:** Hero, Infantry, Ward (6+), Order, Fyreslayers, Duardin
 
+**ノート:** This **HERO** can join an eligible regiment as *Grimnir’s Chosen*.
+
 ---
 
 ## Auric Hearthguard
 
-**ポイント:** 100pt / **モデル数:** 5 / **ベースサイズ:** 32mm
+**ポイント:** 120pt / **モデル数:** 5 / **ベースサイズ:** 32mm
 
 **ステータス:**
 
@@ -187,11 +189,13 @@
 
 **キーワード:** Hero, Priest (2), Infantry, Ward (6+), Order, Fyreslayers, Duardin
 
+**ノート:** This **HERO** can join an eligible regiment as *Grimnir’s Chosen*.
+
 ---
 
 ## Auric Runesmiter
 
-**ポイント:** 90pt / **モデル数:** 1 / **ベースサイズ:** 32mm
+**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
 **増援不可**
 
@@ -221,6 +225,8 @@
 - Any **FYRESLAYERS**
 
 **キーワード:** Hero, Priest (1), Infantry, Ward (6+), Order, Fyreslayers, Duardin
+
+**ノート:** This **HERO** can join an eligible regiment as *Grimnir’s Chosen*.
 
 ---
 
@@ -268,6 +274,8 @@
 - Any **FYRESLAYERS**
 
 **キーワード:** Hero, Monster, Priest (1), Ward (6+), Order, Fyreslayers, Duardin, Magmadroth
+
+**ノート:** This **HERO** can join an eligible regiment as *Vulcatrix's Chosen*.
 
 ---
 
@@ -694,9 +702,7 @@
 
 ## Scourge of Aqshy: Vulkyn Flameseekers
 
-**ポイント:** 160pt / **モデル数:** 9 / **ベースサイズ:** 32mm [4], 28.5mm [5]
-
-**増援不可**
+**ポイント:** 190pt / **モデル数:** 9 / **ベースサイズ:** 32mm [4], 28.5mm [5]
 
 **ステータス:**
 
@@ -720,7 +726,7 @@
 
 **キーワード:** Infantry, Champion (1/9), Ward (6+), Order, Fyreslayers, Duardin
 
-**ノート:** This unit cannot be reinforced. This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
+**ノート:** This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
 
 ---
 
@@ -860,9 +866,7 @@
 
 ## Vulkyn Flameseekers
 
-**ポイント:** 150pt / **モデル数:** 9 / **ベースサイズ:** 32mm [4], 28.5mm [5]
-
-**増援不可**
+**ポイント:** 160pt / **モデル数:** 9 / **ベースサイズ:** 32mm [4], 28.5mm [5]
 
 **ステータス:**
 
@@ -886,8 +890,6 @@
 **装備オプション:** ***Each model in this unit is armed with Vulkyn Weapons.*** • ***1/9 models is a Kyndledroth and must replace their weapons with Emberteeth.*** • ***The champion is a Vulkyn Runefather and cannot replace their weapons.***
 
 **キーワード:** Infantry, Champion (1/9), Ward (6+), Order, Fyreslayers, Duardin
-
-**ノート:** This unit cannot be reinforced.
 
 ---
 

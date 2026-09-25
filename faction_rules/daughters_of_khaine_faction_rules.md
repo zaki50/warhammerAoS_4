@@ -1,6 +1,6 @@
 # Daughters of Khaine ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 
 ## バトル特性
@@ -41,12 +41,12 @@ Daughters of Khaine armies can use the following abilities:
 - **Higher Purpose**（Once Per Turn (Army), End of Any Turn）
   - 効果: Return D3 slain models to each friendly **DAUGHTERS OF KHAINE AELF INFANTRY** unit.
 
-### Coven of Blood
+### Coven of Blood（20pt）
 
 - **The Breath of Khaine**（Passive）
   - 効果: While each model in a friendly **DAUGHTERS OF KHAINE** unit is contesting an objective you control, those models are not visible to enemy models more than 9" away.
 
-### Fervent Ritualists
+### Fervent Ritualists（10pt）
 
 - **Final Frenzy**（Once Per Turn (Army), End of Any Turn）
   - 宣言: Pick each friendly **DAUGHTERS OF KHAINE** unit contesting an objective to be the targets.

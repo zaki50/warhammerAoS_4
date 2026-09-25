@@ -1,6 +1,6 @@
 # Tribes of the Snow Peaks ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全13 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -34,6 +34,7 @@
 
 **レジメントオプション:**
 
+- 0-1 *Oathsworn*
 - 0-1 **MONSTER**
 - Any **DARKOATH**
 
@@ -149,8 +150,6 @@
 
 **ポイント:** 90pt / **モデル数:** 10 / **ベースサイズ:** 32mm [3], 28.5mm [7]
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control |
@@ -166,11 +165,9 @@
 **アビリティ:**
 
 - **Oath of Conquest**（Once Per Battle, Any Hero Phase）
-  - 効果: If this unit is contesting an objective you control that is wholly within enemy territory, this unit has **WARD (5+)** for the rest of the battle.
+  - 効果: If this unit is contesting an objective you control that is not within friendly territory, this unit has **WARD (5+)** for the rest of the battle.
 
 **キーワード:** Infantry, Champion (1/10), Chaos, Slaves to Darkness, Darkoath
-
-**ノート:** This unit cannot be reinforced.
 
 ---
 
@@ -207,6 +204,8 @@
 - Any **DARKOATH**
 
 **キーワード:** Hero, Infantry, Ward (5+), Chaos, Slaves to Darkness, Darkoath
+
+**ノート:** This **HERO** can join an eligible regiment as an *Oathsworn*.
 
 ---
 

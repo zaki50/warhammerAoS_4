@@ -1,6 +1,6 @@
 # Decadent Host ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全19 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -107,11 +107,13 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Ward (4+), Chaos, Hedonites of Slaanesh, Daemon
 
+**ノート:** This **HERO** can join an eligible regiment as a *Slaaneshi Beguiler*.
+
 ---
 
 ## Daemonettes
 
-**ポイント:** 110pt / **モデル数:** 10 / **ベースサイズ:** 25mm
+**ポイント:** 100pt / **モデル数:** 10 / **ベースサイズ:** 25mm
 
 **ステータス:**
 
@@ -229,7 +231,7 @@
 
 ## Lord of Hysteria
 
-**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -265,7 +267,7 @@
 
 ## Lord of Pain
 
-**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -301,7 +303,7 @@
 
 ## Myrmidesh Painbringers
 
-**ポイント:** 120pt / **モデル数:** 5 / **ベースサイズ:** 32mm
+**ポイント:** 130pt / **モデル数:** 5 / **ベースサイズ:** 32mm
 
 **ステータス:**
 
@@ -467,6 +469,8 @@
 - Any **SYBARITE**
 
 **キーワード:** Hero, Wizard (1), Infantry, Chaos, Hedonites of Slaanesh, Sybarite
+
+**ノート:** This **HERO** can join an eligible regiment as a *Dark Egotist*.
 
 ---
 

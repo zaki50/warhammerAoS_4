@@ -1,6 +1,6 @@
 # Big Waaagh! ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全40 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -245,7 +245,7 @@
 
 ## Gordrakk, the Fist of Gork
 
-**ポイント:** 340pt / **モデル数:** 1 / **ベースサイズ:** 160mm
+**ポイント:** 320pt / **モデル数:** 1 / **ベースサイズ:** 160mm
 
 **増援不可**
 
@@ -344,7 +344,7 @@
 
 ## Hobgrot Slittaboss
 
-**ポイント:** 70pt / **モデル数:** 1 / **ベースサイズ:** 32mm
+**ポイント:** 60pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
 **増援不可**
 
@@ -495,7 +495,7 @@
 
 ## Killaboss with Stab-grot
 
-**ポイント:** 80pt / **モデル数:** 1 / **ベースサイズ:** 40mm [1], 25mm [1]
+**ポイント:** 70pt / **モデル数:** 1 / **ベースサイズ:** 40mm [1], 25mm [1]
 
 **増援不可**
 
@@ -579,9 +579,7 @@
 
 ## Kruleboyz Monsta-killaz
 
-**ポイント:** 120pt / **モデル数:** 7 / **ベースサイズ:** 40mm [1], 32mm [6], 28.5mm [1]
-
-**増援不可**
+**ポイント:** 140pt / **モデル数:** 7 / **ベースサイズ:** 40mm [1], 32mm [6], 28.5mm [1]
 
 **ステータス:**
 
@@ -606,8 +604,6 @@
   - 効果: This unit’s **Klutcha-grot** is a token. If it is removed from the battlefield, this unit cannot use the ‘A Tough Grot to Swallow’ ability.
 
 **キーワード:** Infantry, Champion (1/7), Musician (1/7), Destruction, Kruleboyz
-
-**ノート:** This unit cannot be reinforced.
 
 ---
 
@@ -741,7 +737,7 @@
 
 ## Megaboss
 
-**ポイント:** 130pt / **モデル数:** 1 / **ベースサイズ:** 60mm
+**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 60mm
 
 **増援不可**
 
@@ -777,7 +773,7 @@
 
 ## Megaboss on Maw-Krusha
 
-**ポイント:** 330pt / **モデル数:** 1 / **ベースサイズ:** 160mm
+**ポイント:** 310pt / **モデル数:** 1 / **ベースサイズ:** 160mm
 
 **増援不可**
 
@@ -857,7 +853,7 @@
 
 ## Scourge of Aqshy: Brutes
 
-**ポイント:** 160pt / **モデル数:** 5 / **ベースサイズ:** 40mm
+**ポイント:** 170pt / **モデル数:** 5 / **ベースサイズ:** 40mm
 
 **ステータス:**
 
@@ -1250,6 +1246,8 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Destruction, Kruleboyz
 
+**ノート:** This **HERO** can join an eligible regiment as a *Mob Wrangler*.
+
 ---
 
 ## Tuskboss on Maw-grunta
@@ -1323,6 +1321,8 @@
 
 **キーワード:** Hero, Priest (1), Infantry, Destruction, Ironjawz
 
+**ノート:** This **HERO** can join an eligible regiment as a *Headstompa*.
+
 ---
 
 ## Weirdbrute Wrekkaz
@@ -1384,6 +1384,8 @@
 - Any **IRONJAWZ**
 
 **キーワード:** Hero, Wizard (1), Infantry, Destruction, Ironjawz
+
+**ノート:** This **HERO** can join an eligible regiment as a *Headstompa*.
 
 ---
 

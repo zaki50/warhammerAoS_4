@@ -1,6 +1,6 @@
 # Cities of Sigmar ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 
 ## バトル特性
@@ -120,7 +120,7 @@ Cities of Sigmar armies can use the following abilities:
 
 (**Hero** only, excluding **Cannonade Cogfort** and **Conqueror Cogfort**)
 
-- **The Last Blade of Embergard**（Deployment Phase）
+- **The Last Blade of Embergard**（Deployment Phase / 10pt）
   - 効果: This unit can use this ability while it is in reserve. Pick 1 of this unit’s non-**Companion** melee weapons. Add 2 to that weapon’s Attacks characteristic and Rend characteristic for the rest of the battle.
 - **Bones of Saint Ignifus**（Reaction: You declared a **SPELL** or **PRAYER** ability for a visible unit that is wholly within 12" of this unit and under orders）
   - 効果: Add 1 to the casting roll or chanting roll for that ability.

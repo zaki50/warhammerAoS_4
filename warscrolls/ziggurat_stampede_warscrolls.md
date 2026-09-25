@@ -1,6 +1,6 @@
 # Ziggurat Stampede ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全7 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -64,7 +64,7 @@
 
 ## Daemonsmith on Infernal Taurus
 
-**ポイント:** 290pt / **モデル数:** 1 / **ベースサイズ:** 130mm
+**ポイント:** 270pt / **モデル数:** 1 / **ベースサイズ:** 130mm
 
 **増援不可**
 
@@ -110,7 +110,7 @@
 
 ## Dominator Engine with Bane Maces
 
-**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 80mm
+**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 80mm
 
 **増援不可**
 
@@ -139,7 +139,7 @@
 
 ## Dominator Engine with Immolation Cannons
 
-**ポイント:** 160pt / **モデル数:** 1 / **ベースサイズ:** 80mm
+**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 80mm
 
 **増援不可**
 

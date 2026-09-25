@@ -1,6 +1,6 @@
 # Gloomspite Gitz ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全56 ウォースクロール（Spearhead 版 4 件は除外。--include-spearhead で含められる）
 
@@ -394,7 +394,7 @@
 
 ## Frazzlegit Shaman on War-Wheela
 
-**ポイント:** 130pt / **モデル数:** 1 / **ベースサイズ:** 120 × 92mm
+**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 120 × 92mm
 
 **増援不可**
 
@@ -1089,7 +1089,7 @@
 
 ## Scourge of Aqshy: Fellwater Troggoths
 
-**ポイント:** 180pt / **モデル数:** 3 / **ベースサイズ:** 50mm
+**ポイント:** 160pt / **モデル数:** 3 / **ベースサイズ:** 50mm
 
 **ステータス:**
 
@@ -1125,7 +1125,7 @@
 
 ## Scourge of Aqshy: Sunsteala Wheelas
 
-**ポイント:** 170pt / **モデル数:** 2 / **ベースサイズ:** 105 × 70mm
+**ポイント:** 150pt / **モデル数:** 2 / **ベースサイズ:** 105 × 70mm
 
 **ステータス:**
 
@@ -1423,7 +1423,7 @@
 
 ## Snarlboss on War-Wheela
 
-**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 120 × 92mm
+**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 120 × 92mm
 
 **増援不可**
 
@@ -1494,7 +1494,7 @@
 
 ## Snarlpack Cavalry
 
-**ポイント:** 110pt / **モデル数:** 3 / **ベースサイズ:** 75 × 42mm
+**ポイント:** 100pt / **モデル数:** 3 / **ベースサイズ:** 75 × 42mm
 
 **ステータス:**
 
@@ -1703,7 +1703,7 @@
 
 ## Sunsteala Wheelas
 
-**ポイント:** 130pt / **モデル数:** 2 / **ベースサイズ:** 105 × 70mm
+**ポイント:** 120pt / **モデル数:** 2 / **ベースサイズ:** 105 × 70mm
 
 **ステータス:**
 

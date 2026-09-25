@@ -1,6 +1,6 @@
 # Skaven ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全55 ウォースクロール（Spearhead 版 9 件は除外。--include-spearhead で含められる）
 
@@ -79,6 +79,8 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Chaos, Skaven, Skryre
 
+**ノート:** This **HERO** can join an eligible regiment as a *Skaven Overclaw*.
+
 ---
 
 ## Bell of Doom
@@ -110,7 +112,7 @@
 
 ## Brood Terror
 
-**ポイント:** 220pt / **モデル数:** 1 / **ベースサイズ:** 90mm
+**ポイント:** 200pt / **モデル数:** 1 / **ベースサイズ:** 90mm
 
 **増援不可**
 
@@ -206,7 +208,7 @@
 
 ## Clawlord on Gnaw-beast
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 75 × 42mm
+**ポイント:** 90pt / **モデル数:** 1 / **ベースサイズ:** 75 × 42mm
 
 **増援不可**
 
@@ -502,8 +504,6 @@
 
 **ポイント:** 150pt / **モデル数:** 10 / **ベースサイズ:** 32mm [1], 28.5mm [9]
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control | Ward |
@@ -534,8 +534,6 @@
 **装備オプション:** ***Each model in this unit is armed with a Punch Dagger and Blade.*** ***1/10 models in this unit can be armed with Saboteur Bombs in addition to their other weapons*** ***The champion cannot be armed with Saboteur Bombs.***
 
 **キーワード:** Infantry, Champion, Ward (6+), Chaos, Skaven, Eshin
-
-**ノート:** This unit cannot be reinforced.
 
 ---
 
@@ -603,7 +601,7 @@
   - 効果: This unit has **STRIKE-FIRST** for the rest of the turn but it cannot use commands this phase.
 - **Foster Competition**（Passive）
   - 効果: Add 1 to wound rolls for friendly **Stormvermin** units while they are wholly within 13"of this unit.
-- **A Reputation For Cunning**（Enemy Hero Phase / CP 1）
+- **A Reputation For Cunning**（Enemy Hero Phase）
   - 効果: You can pick 2 different eligible units to use the 'Always Three Clawsteps Ahead' ability this phase instead of 1, but at least 1 of those units must have the **VERMINUS** keyword.
 
 **レジメントオプション:**
@@ -617,7 +615,7 @@
 
 ## Lord Skreech Verminking
 
-**ポイント:** 380pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 350pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -701,8 +699,6 @@
 
 **ポイント:** 130pt / **モデル数:** 10 / **ベースサイズ:** 28.5mm [10]
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control | Ward |
@@ -731,8 +727,6 @@
   - 効果: Resolve combat attacks against the target unit(s) Then, if this unit is in combat, roll a dice. On a 3+, this unit can move a distance up to its Move characteristic. It can pass through the combat ranges of enemy units but can only end that move in combat with units it was in combat with at the start of that move. It does not have to end the move in combat.
 
 **キーワード:** Infantry, Champion, Ward (6+), Chaos, Skaven, Eshin
-
-**ノート:** This unit cannot be reinforced.
 
 ---
 
@@ -928,7 +922,7 @@
 
 ## Rat Ogors
 
-**ポイント:** 140pt / **モデル数:** 3 / **ベースサイズ:** 50mm
+**ポイント:** 130pt / **モデル数:** 3 / **ベースサイズ:** 50mm
 
 **ステータス:**
 
@@ -961,7 +955,7 @@
 
 ## Ratling Guns
 
-**ポイント:** 170pt / **モデル数:** 3 / **ベースサイズ:** 60 x 35mm
+**ポイント:** 160pt / **モデル数:** 3 / **ベースサイズ:** 60 x 35mm
 
 **ステータス:**
 
@@ -1075,7 +1069,7 @@
 
 ## Scourge of Aqshy: Verminlord Corruptor
 
-**ポイント:** 310pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 290pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -1457,7 +1451,7 @@
 
 ## Verminlord Deceiver
 
-**ポイント:** 390pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 360pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -1757,7 +1751,7 @@
   - 効果: Roll a D3 for each other enemy unit within the target's combat range. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.
 - **Lightning Master**（Once Per Battle (Army), Your Shooting Phase）
   - 宣言: Pick a friendly **Warpvolt Scourgers** unit within this unit's combat range to be the target.
-  - 効果: Roll a dice. On a 2+, set the Attacks characteristic of the target's **Warpvolt Scourgers** to 10 for the rest of the turn.
+  - 効果: Set the Attacks characteristic of the target’s **Warpvolt Scourgers** to 10 for the rest of the turn.
 
 **レジメントオプション:**
 

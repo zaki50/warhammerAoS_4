@@ -1,6 +1,6 @@
 # The Evergreen Hunt ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全10 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -9,7 +9,7 @@
 
 ## Arch-Revenant
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 90pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -180,7 +180,7 @@
 
 ## Kurnoth Hunters with Greatswords
 
-**ポイント:** 210pt / **モデル数:** 3 / **ベースサイズ:** 50mm
+**ポイント:** 220pt / **モデル数:** 3 / **ベースサイズ:** 50mm
 
 **ステータス:**
 
@@ -237,7 +237,7 @@
 
 ## Scourge of Aqshy: Kurnoth Hunters with Greatswords
 
-**ポイント:** 240pt / **モデル数:** 3 / **ベースサイズ:** 50mm
+**ポイント:** 220pt / **モデル数:** 3 / **ベースサイズ:** 50mm
 
 **ステータス:**
 

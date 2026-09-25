@@ -1,6 +1,6 @@
 # Allies of the Free Cities ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全61 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -9,7 +9,7 @@
 
 ## Alchemite Warforger
 
-**ポイント:** 130pt / **モデル数:** 1 / **ベースサイズ:** 32mm
+**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
 **増援不可**
 
@@ -37,6 +37,8 @@
 - Any **SIGMARITE** **INFANTRY**
 
 **キーワード:** Hero, Wizard (1), Infantry, Order, Cities of Sigmar, Sigmarite
+
+**ノート:** This **HERO** can join an eligible regiment as a *Thaumaturgical Specialist*.
 
 ---
 
@@ -199,6 +201,8 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Order, Cities of Sigmar, Sigmarite
 
+**ノート:** This **HERO** can join an eligible regiment as a *Thaumaturgical Specialist*.
+
 ---
 
 ## Aqshian Pyrocaster
@@ -233,6 +237,8 @@
 - Any **SIGMARITE** **INFANTRY**
 
 **キーワード:** Hero, Wizard (1), Infantry, Order, Cities of Sigmar, Sigmarite
+
+**ノート:** This **HERO** can join an eligible regiment as a *Thaumaturgical Specialist*.
 
 ---
 
@@ -590,6 +596,7 @@
 **レジメントオプション:**
 
 - 0-1 *Freeguild Veteran*
+- 0-1 **THAUMATURGICAL SPECIALIST**
 - Any **SIGMARITE**
 - Any **ALLIES OF THE FREE CITIES**
 
@@ -672,7 +679,7 @@
 
 ## Conqueror Cogfort
 
-**ポイント:** 440pt / **モデル数:** 1 / **ベースサイズ:** 160mm
+**ポイント:** 420pt / **モデル数:** 1 / **ベースサイズ:** 160mm
 
 **増援不可**
 
@@ -713,6 +720,7 @@
 **レジメントオプション:**
 
 - 0-1 *Freeguild Veteran*
+- 0-1 **THAUMATURGICAL SPECIALIST**
 - Any **SIGMARITE**
 - Any **ALLIES OF THE FREE CITIES**
 
@@ -977,7 +985,7 @@
 
 ## Freeguild Cavalier-Marshal
 
-**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 75 x 42mm
+**ポイント:** 130pt / **モデル数:** 1 / **ベースサイズ:** 75 x 42mm
 
 **増援不可**
 
@@ -1011,6 +1019,7 @@
 **レジメントオプション:**
 
 - 0-1 *Freeguild Veteran*
+- 0-1 **THAUMATURGICAL SPECIALIST**
 - Any **SIGMARITE**
 - Any **ALLIES OF THE FREE CITIES**
 
@@ -1022,7 +1031,7 @@
 
 ## Freeguild Cavaliers
 
-**ポイント:** 150pt / **モデル数:** 5 / **ベースサイズ:** 60 x 35mm
+**ポイント:** 180pt / **モデル数:** 5 / **ベースサイズ:** 60 x 35mm
 
 **ステータス:**
 
@@ -1178,7 +1187,7 @@
 
 ## Freeguild Gallants
 
-**ポイント:** 130pt / **モデル数:** 5 / **ベースサイズ:** 28.5mm
+**ポイント:** 110pt / **モデル数:** 5 / **ベースサイズ:** 28.5mm
 
 **ステータス:**
 
@@ -1206,8 +1215,6 @@
 ## Freeguild Grenadiers
 
 **ポイント:** 140pt / **モデル数:** 10 / **ベースサイズ:** 28.5mm
-
-**増援不可**
 
 **ステータス:**
 
@@ -1237,13 +1244,11 @@
 
 **キーワード:** Infantry, Champion (1/10), Order, Cities of Sigmar, Sigmarite
 
-**ノート:** This unit cannot be reinforced
-
 ---
 
 ## Freeguild Marshal and Relic Envoy
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 32mm [1], 28.5mm [1]
+**ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 32mm [1], 28.5mm [1]
 
 **増援不可**
 
@@ -1276,6 +1281,7 @@
 **レジメントオプション:**
 
 - 0-1 *Freeguild Veteran*
+- 0-1 **THAUMATURGICAL SPECIALIST**
 - Any **SIGMARITE**
 - Any **ALLIES OF THE FREE CITIES**
 
@@ -1317,6 +1323,7 @@
 **レジメントオプション:**
 
 - 0-1 *Freeguild Veteran*
+- 0-1 **THAUMATURGICAL SPECIALIST**
 - Any **SIGMARITE**
 
 **キーワード:** Hero, Monster, Fly, Order, Cities of Sigmar, Sigmarite
@@ -1327,7 +1334,7 @@
 
 ## Freeguild Steelhelms
 
-**ポイント:** 90pt / **モデル数:** 10 / **ベースサイズ:** 25mm
+**ポイント:** 110pt / **モデル数:** 10 / **ベースサイズ:** 25mm
 
 **ステータス:**
 
@@ -1386,6 +1393,7 @@
 **レジメントオプション:**
 
 - 0-1 *Freeguild Veteran*
+- 0-1 **THAUMATURGICAL SPECIALIST**
 - Any **SIGMARITE**
 - Any **ALLIES OF THE FREE CITIES**
 
@@ -1757,6 +1765,8 @@
 
 **キーワード:** Hero, Priest (1), Infantry, Order, Cities of Sigmar, Sigmarite
 
+**ノート:** This **HERO** can join an eligible regiment as a *Thaumaturgical Specialist*.
+
 ---
 
 ## Runelord
@@ -1797,7 +1807,7 @@
 
 ## Scourge of Aqshy: Alchemite Warforger
 
-**ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 32mm
+**ポイント:** 90pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
 **増援不可**
 
@@ -1821,11 +1831,12 @@
 **レジメントオプション:**
 
 - 0-1 **WAR MACHINE** **SIGMARITE**
+- 0-1 **THAUMATURGICAL SPECIALIST**
 - Any **SIGMARITE** **INFANTRY**
 
 **キーワード:** Hero, Wizard (1), Infantry, Order, Cities of Sigmar, Sigmarite
 
-**ノート:** This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
+**ノート:** This **HERO** can join an eligible regiment as a *Thaumaturgical Specialist*. This unit isThis unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
 
 ---
 
@@ -2060,8 +2071,8 @@
 
 **アビリティ:**
 
-- **Impossible to Destroy**（Passive）
-  - 効果: If this unit would be destroyed, before removing it from play, roll 6 dice. Subtract 1 from the number of dice rolled for each **destroyed head token** this unit has. If any of the rolls are a 5+, this unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, **Heal (1)** this unit for each 5+. Finally, give this unit 1 **destroyed head token.**
+- **Impossible to Destroy**（Once Per Turn (Army), End of Any Turn）
+  - 効果: **Heal (6)** this unit.
 - **Six-headed Strike**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
   - 効果: Roll 6 dice. For each 3+, inflict 1 mortal damage on the target.
@@ -2113,8 +2124,6 @@
 
 **ポイント:** 120pt / **モデル数:** 11 / **ベースサイズ:** 40mm [2], 28.5mm [3], 25mm [6]
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control |
@@ -2146,5 +2155,3 @@
 **装備オプション:** ***•  The champion is a Wildercorps Warden and is armed with a Hunting Crossbow, Wildercorps Hunting Weapons and a Trailhound’s Ferocious Bite.*** ***•  6/11 models in this unit are Wildercorpsmen and are armed with a Hunting Crossbow and Wildercorps Hunting Weapons.*** ***•  4/11 models are Trailhounds and are armed with a Trailhound’s Ferocious Bite.***
 
 **キーワード:** Infantry, Champion (1/11), Order, Cities of Sigmar, Sigmarite
-
-**ノート:** This unit cannot be reinforced.

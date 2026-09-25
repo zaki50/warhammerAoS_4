@@ -1,6 +1,6 @@
 # Trugg's Troggherd ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全6 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -141,7 +141,7 @@
 
 ## Scourge of Aqshy: Fellwater Troggoths
 
-**ポイント:** 180pt / **モデル数:** 3 / **ベースサイズ:** 50mm
+**ポイント:** 160pt / **モデル数:** 3 / **ベースサイズ:** 50mm
 
 **ステータス:**
 

@@ -1,6 +1,6 @@
 # Blades of Khorne ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全43 ウォースクロール（Spearhead 版 7 件は除外。--include-spearhead で含められる）
 
@@ -134,6 +134,8 @@
 - Any **BLADES OF KHORNE** **DAEMON**
 
 **キーワード:** Hero, Priest (1), Infantry, Ward (6+), Chaos, Blades of Khorne, Daemon
+
+**ノート:** This **HERO** can join an eligible regiment as a *Slaughter Seeker*.
 
 ---
 
@@ -320,8 +322,6 @@
 
 **ポイント:** 100pt / **モデル数:** 8 / **ベースサイズ:** 60 x 35mm [1], 40mm [1], 32mm [2], 28.5mm [4]
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control |
@@ -343,13 +343,11 @@
 
 **キーワード:** Infantry, Champion (1/8), Chaos, Blades of Khorne, Bloodbound
 
-**ノート:** This unit cannot be reinforced.
-
 ---
 
 ## Deathbringer
 
-**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -476,7 +474,7 @@
 
 ## Herald of Khorne on Blood Throne
 
-**ポイント:** 160pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -797,6 +795,8 @@
 
 **キーワード:** Hero, Priest (1), Infantry, Chaos, Blades of Khorne, Bloodbound
 
+**ノート:** This **HERO** can join an eligible regiment as a *Bloodbound Warmonger*.
+
 ---
 
 ## Scourge of Aqshy: Blood Warriors
@@ -828,7 +828,7 @@
 
 ## Scourge of Aqshy: Bloodletters
 
-**ポイント:** 150pt / **モデル数:** 10 / **ベースサイズ:** 32mm
+**ポイント:** 140pt / **モデル数:** 10 / **ベースサイズ:** 32mm
 
 **ステータス:**
 
@@ -1064,7 +1064,7 @@
 
 ## Skull Cannon
 
-**ポイント:** 130pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -1100,7 +1100,7 @@
 
 ## Skullgrinder
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -1268,6 +1268,8 @@
 
 **キーワード:** Hero, Priest (1), Infantry, Chaos, Blades of Khorne, Bloodbound
 
+**ノート:** This **HERO** can join an eligible regiment as a *Bloodbound Warmonger*.
+
 ---
 
 ## Valkia The Bloody (Legends)
@@ -1335,7 +1337,7 @@
 **アビリティ:**
 
 - **Wrathful Dominance**（Passive）
-  - 効果: Add I to hit rolls for this unit's attacks that target an enemy **HERO.**
+  - 効果: Add 1 to hit rolls for this unit's attacks that target an enemy **HERO.**
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Mighty Axe of Khorne and Bloodflail** is 4.
 - **Vengeance of Khorne**（Once Per Turn (Army), Any Combat Phase） ［Rampage］

@@ -1,6 +1,6 @@
 # Knights of the Crimson Keep ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全6 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -9,7 +9,7 @@
 
 ## Blood Knights
 
-**ポイント:** 220pt / **モデル数:** 5 / **ベースサイズ:** 75 × 42mm
+**ポイント:** 210pt / **モデル数:** 5 / **ベースサイズ:** 75 × 42mm
 
 **ステータス:**
 
@@ -38,7 +38,7 @@
 
 ## Fell Bats
 
-**ポイント:** 80pt / **モデル数:** 3 / **ベースサイズ:** 40mm
+**ポイント:** 90pt / **モデル数:** 3 / **ベースサイズ:** 40mm
 
 **ステータス:**
 
@@ -65,7 +65,7 @@
 
 ## Prince Vhordrai
 
-**ポイント:** 470pt / **モデル数:** 1 / **ベースサイズ:** 160mm
+**ポイント:** 450pt / **モデル数:** 1 / **ベースサイズ:** 160mm
 
 **増援不可**
 
@@ -114,7 +114,7 @@
 
 ## Revenant Draconith
 
-**ポイント:** 180pt / **モデル数:** 1 / **ベースサイズ:** 160mm
+**ポイント:** 170pt / **モデル数:** 1 / **ベースサイズ:** 160mm
 
 **増援不可**
 
@@ -198,7 +198,7 @@
 
 ## Vampire Lord on Nightmare Steed
 
-**ポイント:** 180pt / **モデル数:** 1 / **ベースサイズ:** 80mm
+**ポイント:** 170pt / **モデル数:** 1 / **ベースサイズ:** 80mm
 
 **増援不可**
 

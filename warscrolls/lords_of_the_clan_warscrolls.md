@@ -1,6 +1,6 @@
 # Lords of the Clan ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全12 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -44,7 +44,7 @@
 
 ## Grove Guardian
 
-**ポイント:** 220pt / **モデル数:** 1 / **ベースサイズ:** 105 × 70mm
+**ポイント:** 200pt / **モデル数:** 1 / **ベースサイズ:** 105 × 70mm
 
 **増援不可**
 
@@ -141,7 +141,7 @@
 
 ## Kurnoth Hunters with Greatswords
 
-**ポイント:** 210pt / **モデル数:** 3 / **ベースサイズ:** 50mm
+**ポイント:** 220pt / **モデル数:** 3 / **ベースサイズ:** 50mm
 
 **ステータス:**
 
@@ -169,7 +169,7 @@
 
 ## Scourge of Aqshy: Kurnoth Hunters with Greatswords
 
-**ポイント:** 240pt / **モデル数:** 3 / **ベースサイズ:** 50mm
+**ポイント:** 220pt / **モデル数:** 3 / **ベースサイズ:** 50mm
 
 **ステータス:**
 
@@ -371,7 +371,7 @@
 
 ## Treelord
 
-**ポイント:** 240pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
+**ポイント:** 200pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
 
 **増援不可**
 
@@ -411,7 +411,7 @@
 
 ## Treelord Ancient
 
-**ポイント:** 280pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
+**ポイント:** 260pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
 
 **増援不可**
 

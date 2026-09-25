@@ -1,6 +1,6 @@
 # Lumineth Realm-lords ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全35 ウォースクロール（Spearhead 版 4 件は除外。--include-spearhead で含められる）
 
@@ -9,7 +9,7 @@
 
 ## Alarith Spirit of the Mountain
 
-**ポイント:** 310pt / **モデル数:** 1 / **ベースサイズ:** 100mm
+**ポイント:** 300pt / **モデル数:** 1 / **ベースサイズ:** 100mm
 
 **増援不可**
 
@@ -47,7 +47,7 @@
 
 ## Alarith Stoneguard
 
-**ポイント:** 130pt / **モデル数:** 5 / **ベースサイズ:** 32mm
+**ポイント:** 120pt / **モデル数:** 5 / **ベースサイズ:** 32mm
 
 **ステータス:**
 
@@ -72,7 +72,7 @@
 
 ## Alarith Stonemage
 
-**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -104,6 +104,8 @@
 - Any **ALARITH**
 
 **キーワード:** Hero, Wizard (1), Infantry, Order, Lumineth Realm‑lords, Aelf, Alarith
+
+**ノート:** This **HERO** can join the regiment of **Avalenor, the Stoneheart King**.
 
 ---
 
@@ -158,7 +160,7 @@
 
 ## Avalenor, The Stoneheart King
 
-**ポイント:** 400pt / **モデル数:** 1 / **ベースサイズ:** 100mm
+**ポイント:** 390pt / **モデル数:** 1 / **ベースサイズ:** 100mm
 
 **増援不可**
 
@@ -195,6 +197,7 @@
 **レジメントオプション:**
 
 - 0-1 *Lumineth Paragon*
+- 0-1 **Alarith Stonemage**
 - Any **VANARI**
 - Any **ALARITH**
 
@@ -204,7 +207,7 @@
 
 ## Ellania and Ellathor, Eclipsian Warsages
 
-**ポイント:** 310pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 330pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -284,11 +287,13 @@
 
 **キーワード:** Monster, Fly, Ward (5+), Order, Lumineth Realm‑lords, Hurakan
 
+**ノート:** This **HERO** can join the regiment of **Sevireth, Lord of the Seventh Wind**.
+
 ---
 
 ## Hurakan Windchargers
 
-**ポイント:** 170pt / **モデル数:** 5 / **ベースサイズ:** 60 x 35mm
+**ポイント:** 180pt / **モデル数:** 5 / **ベースサイズ:** 60 x 35mm
 
 **ステータス:**
 
@@ -358,6 +363,8 @@
 - Any **HURAKAN**
 
 **キーワード:** Hero, Wizard (1), Infantry, Fly, Order, Lumineth Realm‑lords, Aelf, Hurakan
+
+**ノート:** This **HERO** can join the regiment of **Sevireth, Lord of the Seventh Wind**
 
 ---
 
@@ -542,6 +549,8 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Order, Lumineth Realm‑lords, Aelf, Scinari
 
+**ノート:** This **HERO** can join an eligible regiment as a *Lumineth Paragon*.
+
 ---
 
 ## Scinari Cathallar
@@ -575,6 +584,8 @@
 - Any **Vanari Bladelords**
 
 **キーワード:** Hero, Wizard (1), Infantry, Order, Lumineth Realm‑lords, Aelf, Scinari
+
+**ノート:** This **HERO** can join an eligible regiment as a *Lumineth Paragon*.
 
 ---
 
@@ -618,6 +629,8 @@
 
 **キーワード:** Hero, Wizard (2), Infantry, Order, Lumineth Realm‑lords, Aelf, Scinari
 
+**ノート:** This **HERO** can join an eligible regiment as a *Lumineth Paragon*.
+
 ---
 
 ## Scinari Loreseeker
@@ -660,11 +673,13 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Order, Lumineth Realm‑lords, Aelf, Scinari
 
+**ノート:** This **HERO** can join an eligible regiment as a *Lumineth Paragon*.
+
 ---
 
 ## Scourge of Aqshy: Alarith Stonemage
 
-**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -702,7 +717,7 @@
 
 ## Scourge of Aqshy: Scinari Loreseeker
 
-**ポイント:** 160pt / **モデル数:** 1 / **ベースサイズ:** 32mm
+**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
 **増援不可**
 
@@ -857,6 +872,7 @@
 **レジメントオプション:**
 
 - 0-1 *Lumineth Paragon*
+- 0-1 **Hurakan Windmage**
 - Any **VANARI**
 - Any **HURAKAN**
 
@@ -1078,7 +1094,7 @@
 
 ## Vanari Bladelords
 
-**ポイント:** 150pt / **モデル数:** 5 / **ベースサイズ:** 32mm
+**ポイント:** 140pt / **モデル数:** 5 / **ベースサイズ:** 32mm
 
 **ステータス:**
 
@@ -1131,7 +1147,7 @@
 
 ## Vanari Lord Regent
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 32mm
+**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
 **増援不可**
 
@@ -1168,7 +1184,7 @@
 
 ## Vanari Lord Regent on Lightcourser
 
-**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 90 x 52mm
+**ポイント:** 130pt / **モデル数:** 1 / **ベースサイズ:** 90 x 52mm
 
 **増援不可**
 
@@ -1200,7 +1216,7 @@
 
 **キーワード:** Hero, Cavalry, Order, Lumineth Realm‑lords, Aelf, Vanari
 
-**ノート:** Previously Vanari Lord Regent
+**ノート:** This **HERO** can join an eligible regiment as a *Lumineth Paragon*.
 
 ---
 
@@ -1244,8 +1260,6 @@
 
 **ポイント:** 150pt / **モデル数:** 10 / **ベースサイズ:** 32mm [5], 28.5mm [5]
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control |
@@ -1272,5 +1286,3 @@
   - 効果: If this unit is in combat, it can move 2D6". It can pass through models in enemy units but must end that move in combat.
 
 **キーワード:** Infantry, Champion, Order, Lumineth Realm‑lords, Aelf, Ydrilan
-
-**ノート:** This unit cannot be reinforced.

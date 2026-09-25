@@ -1,6 +1,6 @@
 # Ogor Mawtribes ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全42 ウォースクロール（Spearhead 版 9 件は除外。--include-spearhead で含められる）
 
@@ -83,6 +83,8 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Ward (6+), Destruction, Ogor Mawtribes, Ogor, Mawseekers
 
+**ノート:** This **HERO** can join an eligible regiment as a *Maw Nomad*.
+
 ---
 
 ## Cleavers
@@ -147,7 +149,7 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Destruction, Ogor Mawtribes, Ogor, Gutbusters
 
-**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+**ノート:** This **HERO** can join an eligible regiment as a *Maw Nomad*. This unit will move to Warhammer Legends on 1 June 2027.
 
 ---
 
@@ -269,7 +271,7 @@
 
 ## Gluttons
 
-**ポイント:** 200pt / **モデル数:** 5 / **ベースサイズ:** 40mm
+**ポイント:** 210pt / **モデル数:** 5 / **ベースサイズ:** 40mm
 
 **ステータス:**
 
@@ -428,6 +430,8 @@
 
 **キーワード:** Unique, Hero, Infantry, Destruction, Ogor Mawtribes, Ogor
 
+**ノート:** This **HERO** can join an eligible regiment as a *Maw Nomad*.
+
 ---
 
 ## Great Mawpot
@@ -449,7 +453,7 @@
 - **Throw 'Em In**（Passive）
   - 効果: This Great Mawpot is either **full** or **empty**. It starts the battle **full**. If an enemy model is slain within 12" of this **Great Mawpot** while it is **empty**, it becomes **full**.
 - **Vessel of the Gulping God**（Your Hero Phase）
-  - 宣言: If the **Great Mawpot** is **full**, pick a visible friendly **OGOR MAWTRIBES WIZARD** within 3" of it to be the target.
+  - 宣言: If the **Great Mawpot** is **full**, pick a visible friendly **OGOR MAWTRIBES WIZARD** wholly within 3" of it to be the target.
   - 効果: Add 1 to casting rolls for the target for the rest of the turn.
 
 **地形ルール:**
@@ -467,7 +471,7 @@
 
 ## Grell Firefist
 
-**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 50mm
+**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 50mm
 
 **増援不可**
 
@@ -573,13 +577,15 @@
 - **Bushwakka's Trap**（Passive）
   - 効果: The first time an enemy unit finishes a move within 1" of the objective or terrain feature with this unit’s **Bushwakka’s Trap** next to it, remove that **Bushwakka’s Trap** from the battlefield, then roll a D3. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.
 
-**キーワード:** Unique, Hero, Infantry, Destruction, Ogor Mawtribes, Ogor, Beastclaw Raiders
+**キーワード:** Unique, Hero, Infantry, Destruction, Ogor Mawtribes, Ogor, Beastclaw
+
+**ノート:** This **HERO** can join an eligible regiment as a *Maw Nomad*.
 
 ---
 
 ## Hunters with Sabrefangs
 
-**ポイント:** 160pt / **モデル数:** 5 / **ベースサイズ:** 40mm [3], 60 x 35mm [2]
+**ポイント:** 170pt / **モデル数:** 5 / **ベースサイズ:** 40mm [3], 60 x 35mm [2]
 
 **ステータス:**
 
@@ -1023,7 +1029,7 @@
 
 ## Maulbeast Raiders
 
-**ポイント:** 230pt / **モデル数:** 2 / **ベースサイズ:** 90 x 52mm
+**ポイント:** 210pt / **モデル数:** 2 / **ベースサイズ:** 90 x 52mm
 
 **ステータス:**
 
@@ -1095,7 +1101,7 @@
 
 ## Morga The Mighty, Overtyrant
 
-**ポイント:** 430pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 420pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -1166,7 +1172,7 @@
 
 ## Redd the Maw, High Slaughtermaster
 
-**ポイント:** 400pt / **モデル数:** 1 / **ベースサイズ:** 160mm
+**ポイント:** 420pt / **モデル数:** 1 / **ベースサイズ:** 160mm
 
 **増援不可**
 
@@ -1244,7 +1250,7 @@
 - 0-1 **MAW NOMAD**
 - Any **OGOR MAWTRIBES**
 
-**キーワード:** Hero, Monster, Destruction, Ogor Mawtribes, Ogor, Beastclaw Raiders
+**キーワード:** Hero, Monster, Destruction, Ogor Mawtribes, Ogor, Beastclaw
 
 **ノート:** This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
 
@@ -1293,7 +1299,7 @@
 
 **装備オプション:** ***This unit is armed with an Ice Blast, Punches and Kicks, Thundertusk’s Colossal Tusks, and 1 of the following options:*** • ***Chaintrap*** • ***Harpoon Launcher*** • ***Blood Vulture***
 
-**キーワード:** Hero, Monster, Priest (1), Destruction, Ogor Mawtribes, Ogor, Beastclaw Raiders
+**キーワード:** Hero, Monster, Priest (1), Destruction, Ogor Mawtribes, Ogor, Beastclaw
 
 **ノート:** This **HERO** can join an eligible regiment as a *Voice of the Everwinter*. This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
 
@@ -1403,7 +1409,7 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Ward (6+),Destruction, Ogor Mawtribes, Ogor, Mawseekers
 
-**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+**ノート:** This **HERO** can join an eligible regiment as a *Maw Nomad*. This unit will move to Warhammer Legends on 1 June 2027.
 
 ---
 
@@ -1523,7 +1529,7 @@
 
 ## Tyrant on Glutthorn
 
-**ポイント:** 400pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 390pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 

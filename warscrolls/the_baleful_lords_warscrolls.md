@@ -1,6 +1,6 @@
 # The Baleful Lords ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全5 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -193,7 +193,7 @@
 **アビリティ:**
 
 - **Wrathful Dominance**（Passive）
-  - 効果: Add I to hit rolls for this unit's attacks that target an enemy **HERO.**
+  - 効果: Add 1 to hit rolls for this unit's attacks that target an enemy **HERO.**
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Mighty Axe of Khorne and Bloodflail** is 4.
 - **Vengeance of Khorne**（Once Per Turn (Army), Any Combat Phase） ［Rampage］

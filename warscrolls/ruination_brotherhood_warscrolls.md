@@ -1,6 +1,6 @@
 # Ruination Brotherhood ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全34 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -294,7 +294,7 @@
 
 ## Knight-Azyros
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 50mm
+**ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 50mm
 
 **増援不可**
 
@@ -333,7 +333,7 @@
 
 ## Knight-Questor
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -474,6 +474,8 @@
 - Any **WARRIOR CHAMBER**
 
 **キーワード:** Hero, Priest (1), Infantry, Order, Stormcast Eternals, Ruination Chamber
+
+**ノート:** This **HERO** can join an eligible regiment as a *Stormcast Exemplar*.
 
 ---
 
@@ -778,7 +780,7 @@
 
 ## Scourge of Aqshy: Stormstrike Palladors
 
-**ポイント:** 220pt / **モデル数:** 3 / **ベースサイズ:** 90 x 52mm
+**ポイント:** 210pt / **モデル数:** 3 / **ベースサイズ:** 90 x 52mm
 
 **ステータス:**
 
@@ -1018,7 +1020,7 @@
 
 ## Tornus the Redeemed
 
-**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 50mm
+**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 50mm
 
 **増援不可**
 

@@ -1,6 +1,6 @@
 # Spearhead: Glittering Phalanx（Lumineth Realm-lords）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 
 ## 編成
@@ -126,7 +126,7 @@
 - **Shining Company**（Passive）
   - 効果: Subtract 1 from hit rolls that target friendly units.
 - **Facets of War**（Once Per Battle Round, Start of Battle Round）
-  - 効果: You must use this ability at the start of the battle round. Pick 1 **FACET OF WAR** ability. That **FACET OF WAR** ability can be used this battle round but the other two cannot.
+  - 効果: You must use this ability at the start of the battle round. Pick 1 **FACET OF WAR** ability. That **FACET OF WAR** ability can be used this battle round but the other cannot.
 
 ## レジメントアビリティ（Glittering Phalanx Regiment Abilities）
 

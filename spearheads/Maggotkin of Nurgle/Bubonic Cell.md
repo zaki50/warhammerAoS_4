@@ -1,6 +1,6 @@
 # Spearhead: Bubonic Cell（Maggotkin of Nurgle）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 
 ## 編成
@@ -111,7 +111,7 @@
 - **Bilewood Stilts**（Passive）
   - 効果: No mortal damage is inflicted on this unit when it uses **RETREAT** abilities.
 
-**キーワード:** Infantry, Ward (6+)
+**キーワード:** Infantry, Ward (6+), Reinforcements
 
 ## バトル特性（Bubonic Cell Battle Traits）
 

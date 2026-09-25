@@ -1,6 +1,6 @@
 # Seraphon ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全40 ウォースクロール（Spearhead 版 8 件は除外。--include-spearhead で含められる）
 
@@ -146,8 +146,6 @@
 
 **ポイント:** 80pt / **モデル数:** 5 / **ベースサイズ:** 28.5mm [1], 25mm [4]
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control | Ward |
@@ -180,15 +178,11 @@
 
 **キーワード:** Infantry, Champion (1/5), Musician (1/5), Ward (5+), Order, Seraphon, Skink
 
-**ノート:** This unit cannot be reinforced.
-
 ---
 
 ## Hunters of Huanchi with Starstone Bolas
 
 **ポイント:** 90pt / **モデル数:** 5 / **ベースサイズ:** 28.5mm [2], 25mm [3]
-
-**増援不可**
 
 **ステータス:**
 
@@ -225,8 +219,6 @@
 **装備オプション:** ***Each model in this unit is armed with Starstone Bolas and a Moonstone Club.*** • ***1/5 models can replace their weapons with a Hunter Javelin.*** • ***The champion cannot replace their weapons.***
 
 **キーワード:** Infantry, Champion (1/5), Musician (1/5), Ward (5+), Order, Seraphon, Skink
-
-**ノート:** This unit cannot be reinforced.
 
 ---
 
@@ -327,7 +319,7 @@
 
 **レジメントオプション:**
 
-- 0-1 **Skink Starpriest** or *Favoured Spawning*
+- 0-1 **Skink Starpriest, Skink Starseer** or *Favoured Spawning*
 - Any **SERAPHON**
 
 **キーワード:** Warmaster, Unique, Hero, Wizard (3), Fly, Ward (4+), Order, Seraphon, Slann
@@ -591,7 +583,7 @@
 
 ## Saurus Oldblood
 
-**ポイント:** 90pt / **モデル数:** 1 / **ベースサイズ:** 32mm
+**ポイント:** 80pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
 **増援不可**
 
@@ -625,7 +617,7 @@
 
 ## Saurus Oldblood on Carnosaur
 
-**ポイント:** 220pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 210pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -707,7 +699,7 @@
 
 ## Saurus Scar-Veteran on Carnosaur
 
-**ポイント:** 200pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 190pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -807,7 +799,7 @@
 
 **キーワード:** Hero, Cavalry, Order, Seraphon, Saurus
 
-**ノート:** This **HERO** can join an eligible regiment as a *Favoured Spawning*.&#x20; This unit is legal for Matched Play for battles fought using the *General's Handbook 2026-27* battlepack.&#x20;
+**ノート:** This unit is legal for Matched Play for battles fought using the *General's Handbook 2026-27* battlepack.&#x20;
 
 ---
 
@@ -842,7 +834,7 @@
 
 **レジメントオプション:**
 
-- 0-1 **Skink Starpriest** or *Favoured Spawning*
+- 0-1 **Skink Starpriest, Skink Starseer** or *Favoured Spawning*
 - Any **SERAPHON**
 
 **キーワード:** Warmaster, Hero, Wizard (3), Infantry, Fly, Ward (6+), Order, Seraphon, Slann
@@ -1015,11 +1007,13 @@
 
 **キーワード:** Hero, Wizard (2), Infantry, Fly, Order, Seraphon, Skink
 
+**ノート:** This **HERO** can join **Lord Kroak**'s or **Slann Starmaster**'s regiment.
+
 ---
 
 ## Skinks
 
-**ポイント:** 80pt / **モデル数:** 10 / **ベースサイズ:** 25mm
+**ポイント:** 70pt / **モデル数:** 10 / **ベースサイズ:** 25mm
 
 **ステータス:**
 
@@ -1082,7 +1076,7 @@
 
 **レジメントオプション:**
 
-- 0-1 **Skink Starpriest** or *Favoured Spawning*
+- 0-1 **Skink Starpriest, Skink Starseer** or *Favoured Spawning*
 - Any **SERAPHON**
 
 **キーワード:** Warmaster, Hero, Wizard (3), Infantry, Fly, Ward (6+), Order, Seraphon, Slann
@@ -1372,8 +1366,6 @@
 
 **ポイント:** 70pt / **モデル数:** 3 / **ベースサイズ:** 32mm
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control |
@@ -1395,8 +1387,6 @@
   - 効果: This unit has a maximum control score of 1.
 
 **キーワード:** Beast, Fly, Order, Seraphon
-
-**ノート:** This unit cannot be reinforced.
 
 ---
 

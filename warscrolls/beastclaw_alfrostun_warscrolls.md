@@ -1,8 +1,8 @@
 # Beastclaw Alfrostun ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
-全16 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
+全19 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
 
 ---
@@ -185,7 +185,7 @@
 - **Throw 'Em In**（Passive）
   - 効果: This Great Mawpot is either **full** or **empty**. It starts the battle **full**. If an enemy model is slain within 12" of this **Great Mawpot** while it is **empty**, it becomes **full**.
 - **Vessel of the Gulping God**（Your Hero Phase）
-  - 宣言: If the **Great Mawpot** is **full**, pick a visible friendly **OGOR MAWTRIBES WIZARD** within 3" of it to be the target.
+  - 宣言: If the **Great Mawpot** is **full**, pick a visible friendly **OGOR MAWTRIBES WIZARD** wholly within 3" of it to be the target.
   - 効果: Add 1 to casting rolls for the target for the rest of the turn.
 
 **地形ルール:**
@@ -201,9 +201,51 @@
 
 ---
 
+## Hrothgorn Mantrapper (Legends)
+
+**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 40mm [1], 50 × 25mm [1], 25mm [3]
+
+**増援不可**
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 6" | 7 | 5+ | 5 |
+
+**射撃武器:**
+
+| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|---|
+| Trap Launcher | 12" | 2 | 4+ | 3+ | 1 | D3 | Anti-INFANTRY (+1 Rend) |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Hunting Knife | 5 | 4+ | 2+ | - | 2 | - |
+
+**アビリティ:**
+
+- **Hrothgorn's Mantrappers**（Passive）
+  - 効果: This unit’s **Bushwakka**, **Bushwakka’s Trap**, **Quiv**, **Luggit** and **Thwack**, and **Thrafnir** are tokens. After setting up this unit on the battlefield for the first time, place all of its tokens except for its **Bushwakka’s Trap** next to it. Then, pick an objective or terrain feature and place its **Bushwakka’s** **Trap** next to it.
+- **Hunting Beast**（Your Movement Phase）
+  - 宣言: If this unit’s **Thrafnir** is on the battlefield, pick an enemy unit within 12" of this unit to be the target.
+  - 効果: Roll a dice. On a 1, remove **Thrafnir** from the battlefield. On a 2+, place **Thrafnir** next to the target. Until the start of your next turn, the target is being **stalked by** **Thrafnir**. While a unit is being **stalked by Thrafnir**, add 1 to the Damage characteristic of this unit’s **Trap Launcher** for attacks that target that unit.
+- **Gnoblar Minions**（Passive）
+  - 効果: You can re-roll hit rolls for attacks made with this unit’s **Trap Launcher** while this unit’s **Bushwakka**, **Quiv** or **Luggit** and **Thwack** are on the battlefield. If you make an unmodified save roll of 1 for this unit, remove 1 of those tokens from the battlefield after the **ATTACK** ability has been resolved (the damage point is still inflicted).
+- **Bushwakka's Trap**（Passive）
+  - 効果: The first time an enemy unit finishes a move within 1" of the objective or terrain feature with this unit’s **Bushwakka’s Trap** next to it, remove that **Bushwakka’s Trap** from the battlefield, then roll a D3. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.
+
+**キーワード:** Unique, Hero, Infantry, Destruction, Ogor Mawtribes, Ogor, Beastclaw
+
+**ノート:** This **HERO** can join an eligible regiment as a *Maw Nomad*.
+
+---
+
 ## Hunters with Sabrefangs
 
-**ポイント:** 160pt / **モデル数:** 5 / **ベースサイズ:** 40mm [3], 60 x 35mm [2]
+**ポイント:** 170pt / **モデル数:** 5 / **ベースサイズ:** 40mm [3], 60 x 35mm [2]
 
 **ステータス:**
 
@@ -446,7 +488,7 @@
 
 ## Maulbeast Raiders
 
-**ポイント:** 230pt / **モデル数:** 2 / **ベースサイズ:** 90 x 52mm
+**ポイント:** 210pt / **モデル数:** 2 / **ベースサイズ:** 90 x 52mm
 
 **ステータス:**
 
@@ -541,6 +583,100 @@
 **キーワード:** Cavalry, Champion, Musician (1/4), Standard Bearer (1/4), Destruction, Ogor Mawtribes, Ogor, Beastclaw
 
 **ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+
+---
+
+## Scourge of Aqshy: Frostlord on Thundertusk
+
+**ポイント:** 280pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+
+**増援不可**
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 10" | 15 | 4+ | 10 |
+
+**射撃武器:**
+
+| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|---|
+| Ice Blast | 12" | 1 | 4+ | 2+ | 1 | D3+2 | Companion |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Frost Spear | 4 | 4+ | 2+ | 2 | 2 | Charge (+1 Damage) |
+| Thundertusk’s Colossal Tusks（戦傷時） | 3 | 4+ | 2+ | 1 | 5 | Anti-INFANTRY (+1 Rend), Companion |
+
+**アビリティ:**
+
+- **Battle Damaged**（Passive）
+  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Thundertusk’s Colossal Tusks** is 2.
+- **Snow Plough**（Once per Turn (Army), Your Charge Phase） ［Rampage］
+  - 効果: This unit can use **CHARGE** abilities this turn even if it is in combat. If the charge roll is 2 or less when it does so, it does not count as having charged.
+- **Cold Fury**（Reaction: You declared the ‘Eruption of Fury’ ability for this unit）
+  - 効果: When resolving attacks as part of that ability: • For each unmodified hit roll of 6, inflict an additional 3 mortal damage on each enemy unit in combat with this unit instead of D3. • For each unmodified hit roll of 1, allocate 1 mortal damage to this unit instead of D3 (ward rolls cannot be made for that damage point.
+
+**レジメントオプション:**
+
+- 0-1 **MAW NOMAD**
+- Any **OGOR MAWTRIBES**
+
+**キーワード:** Hero, Monster, Destruction, Ogor Mawtribes, Ogor, Beastclaw
+
+**ノート:** This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
+
+---
+
+## Scourge of Aqshy: Huskard on Thundertusk
+
+**ポイント:** 260pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+
+**増援不可**
+
+**ステータス:**
+
+| Move | Health | Save | Control |
+|---|---|---|---|
+| 10" | 14 | 4+ | 10 |
+
+**射撃武器:**
+
+| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|---|
+| Blood Vulture | 24" | 1 | 2+ | 3+ | - | 1 | - |
+| Harpoon Launcher | 18" | 1 | 4+ | 3+ | 1 | D3 | - |
+| Ice Blast | 12" | 1 | 4+ | 2+ | 1 | D3+2 | Companion |
+| Chaintrap | 12" | 1 | 4+ | 3+ | 1 | 3 | Anti-MONSTER (+1 Rend) |
+
+**近接武器:**
+
+| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+|---|---|---|---|---|---|---|
+| Punches and Kicks | 3 | 4+ | 2+ | - | 1 | - |
+| Thundertusk’s Colossal Tusks（戦傷時） | 3 | 4+ | 2+ | 1 | 5 | Anti-INFANTRY (+1 Rend), Companion |
+
+**アビリティ:**
+
+- **Battle Damaged**（Passive）
+  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Thundertusk’s Colossal Tusks** is 2.
+- **Cool Tempers**（Once Per Turn (Army), End of Your Turn） ［Rampage］
+  - 効果: If this unit is wholly outside friendly territory and not in combat, your opponent must reduce their **fury level** by 1, to a minimum of 0.
+- **Everwinter's Ire**（Once Per Turn (Army), Start of Any Turn）
+  - 効果: For the rest of the turn: •  While your opponent’s **fury level** is equal to or up to 2 levels below your **fury level**, add 1 to chanting rolls for this unit. •  While your opponent’s **fury level** is 3 or more levels below your **fury level**, add 2 to chanting rolls for this unit.
+
+**レジメントオプション:**
+
+- Any **OGOR MAWTRIBES**
+
+**装備オプション:** ***This unit is armed with an Ice Blast, Punches and Kicks, Thundertusk’s Colossal Tusks, and 1 of the following options:*** • ***Chaintrap*** • ***Harpoon Launcher*** • ***Blood Vulture***
+
+**キーワード:** Hero, Monster, Priest (1), Destruction, Ogor Mawtribes, Ogor, Beastclaw
+
+**ノート:** This **HERO** can join an eligible regiment as a *Voice of the Everwinter*. This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
 
 ---
 

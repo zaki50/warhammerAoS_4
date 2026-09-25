@@ -1,6 +1,6 @@
 # Legion of the First Prince ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全17 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -88,7 +88,7 @@
 
 ## Chaos Furies
 
-**ポイント:** 120pt / **モデル数:** 6 / **ベースサイズ:** 32mm
+**ポイント:** 100pt / **モデル数:** 6 / **ベースサイズ:** 32mm
 
 **ステータス:**
 
@@ -115,8 +115,6 @@
 
 **ポイント:** 80pt / **モデル数:** 8 / **ベースサイズ:** 32mm [5], 28.5mm [3]
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control |
@@ -136,8 +134,6 @@
   - 効果: Roll a dice. On a 4+, the target cannot use commands for the rest of the turn.
 
 **キーワード:** Infantry, Champion (1/8), Chaos, Slaves to Darkness, Undivided
-
-**ノート:** This unit cannot be reinforced.
 
 ---
 
@@ -163,7 +159,7 @@
 
 - **Oracular Visions**（Once Per Turn (Army), Your Hero Phase）
   - 宣言: Pick a friendly **WARRIORS OF CHAOS** unit wholly within 12" of this unit to be the target and roll a dice.
-  - 効果: On a 3+, the target has **WARD (5+)** until the start of your next turn.
+  - 効果: If this unit successfully cast a spell this phase, the target has **WARD (5+)** until the start of your next turn. Otherwise, the target has **WARD (6+)** until the start of your next turn.
 
 **レジメントオプション:**
 
@@ -172,6 +168,8 @@
 - Any **WARRIORS OF CHAOS**
 
 **キーワード:** Hero, Wizard (1), Infantry, Chaos, Slaves to Darkness, Warriors of Chaos
+
+**ノート:** This **HERO** can join an eligible regiment as a *Ruinous Champion*.
 
 ---
 
@@ -468,7 +466,7 @@
 
 ## Legion of the First Prince Screamers of Tzeentch
 
-**ポイント:** 80pt / **モデル数:** 3 / **ベースサイズ:** 32mm
+**ポイント:** 70pt / **モデル数:** 3 / **ベースサイズ:** 32mm
 
 **ステータス:**
 
@@ -532,7 +530,7 @@
 
 ## Varanguard
 
-**ポイント:** 300pt / **モデル数:** 3 / **ベースサイズ:** 75 x 42mm
+**ポイント:** 290pt / **モデル数:** 3 / **ベースサイズ:** 75 x 42mm
 
 **ステータス:**
 

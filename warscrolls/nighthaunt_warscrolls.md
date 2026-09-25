@@ -1,6 +1,6 @@
 # Nighthaunt ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全38 ウォースクロール（Spearhead 版 9 件は除外。--include-spearhead で含められる）
 
@@ -237,7 +237,7 @@
 
 ## Dreadblade Harrows
 
-**ポイント:** 140pt / **モデル数:** 2 / **ベースサイズ:** 60 x 35mm
+**ポイント:** 120pt / **モデル数:** 2 / **ベースサイズ:** 60 x 35mm
 
 **ステータス:**
 
@@ -369,6 +369,8 @@
 - Any **INFANTRY**
 
 **キーワード:** Hero, Wizard (1), Infantry, Fly, Ward (5+), Death, Nighthaunt
+
+**ノート:** This **HERO** can join an eligible regiment as a *Cursed Soul*.
 
 ---
 
@@ -503,6 +505,8 @@
 - Any **INFANTRY**
 
 **キーワード:** Hero, Infantry, Fly, Ward (5+), Death, Nighthaunt
+
+**ノート:** This **HERO** can join an eligible regiment as a *Cursed Soul*.
 
 ---
 
@@ -651,7 +655,7 @@
 
 - **Spectral Alchemy**（Once Per Turn (Army), Your Shooting Phase）
   - 宣言: Pick an enemy unit within 10" of this unit to be the target.
-  - 効果: Roll a dice. On a 3+, pick 1 of the following effects or roll two dice and apply both corresponding effects in an order of your choosing, including duplicate effects: **1 *Phantasmal Solvent:*** If the target has a Move characteristic of'-', inflict 6 mortal damage on the target. **2 *Acidic Fug:*** Inflict D3 mortal damage on the target. **3 *Fling Concoctions:*** Add 1 to the Attacks characteristic of this unit's Hurled Vial this phase but all attacks made by this unit this phase must target that enemy unit. **4 *Choking Vapours:*** If the target is a **WIZARD**, subtract 1 from its power level until the start of your next turn. **5 *Fear-laced Hallucinogen:*** If the target is a **PRIEST**, remove D3 ritual points from it. **6 *Unholy Prescription:*** Ward rolls cannot be made for the target for the rest of the turn.
+  - 効果: If this unit’s shooting attacks inflicted damage on the target this turn, apply 1 of the following effects. Otherwise, roll a dice. On a 3+, apply 1 of the following effects: ***Phantasmal Solvent:*** If the target has a Move characteristic of'-', inflict 6 mortal damage on the target. ***Acidic Fug:*** Inflict D3 mortal damage on the target. ***Fling Concoctions:*** Add 1 to the Attacks characteristic of this unit's Hurled Vial this phase but all attacks made by this unit this phase must target that enemy unit. ***Choking Vapours:*** If the target is a **WIZARD**, subtract 1 from its power level until the start of your next turn. ***Fear-laced Hallucinogen:*** If the target is a **PRIEST**, remove D3 ritual points from it. ***Unholy Prescription:*** Ward rolls cannot be made for the target for the rest of the turn.
 
 **レジメントオプション:**
 
@@ -792,8 +796,6 @@
 
 **ポイント:** 180pt / **モデル数:** 8 / **ベースサイズ:** 40mm [1], 32mm [4], 28.5mm [3]
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control | Ward |
@@ -820,13 +822,11 @@
 
 **キーワード:** Infantry, Champion, Fly, Ward (5+), Death, Nighthaunt
 
-**ノート:** This unit cannot be reinforced.
-
 ---
 
 ## Reikenor the Grimhailer
 
-**ポイント:** 200pt / **モデル数:** 1 / **ベースサイズ:** 75 x 42mm
+**ポイント:** 180pt / **モデル数:** 1 / **ベースサイズ:** 75 x 42mm
 
 **増援不可**
 
@@ -1000,7 +1000,7 @@
 
 ## Scriptor Mortis
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 90pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -1022,7 +1022,7 @@
   - 効果: Each time a friendly **NIGHTHAUNT INFANTRY** unit uses a **FIGHT** ability, if all of its attacks target the same **SENTENCED** enemy unit, that friendly unit's melee weapons have **Crit (Mortal)** for that **FIGHT** ability.
 - **Sentenced to Eternal Torment**（Once Per Turn (Army), Your Hero Phase）
   - 宣言: Pick a visible enemy unit within 18" of this unit to be the target.
-  - 効果: Roll a dice. On a 3+, inflict 1 mortal damage on the target and the target has the **SENTENCED** keyword until the start of your next turn.
+  - 効果: Roll a dice. On a 3+, inflict 1 mortal damage on the target and the target has the **SENTENCED** keyword for the rest of the battle.
 
 **レジメントオプション:**
 
@@ -1089,7 +1089,7 @@
 
 ## Spirit Torment
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 

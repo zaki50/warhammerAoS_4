@@ -1,6 +1,6 @@
 # Daughters of Khaine ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全34 ウォースクロール（Spearhead 版 3 件は除外。--include-spearhead で含められる）
 
@@ -99,7 +99,7 @@
 
 ## Blood Sisters
 
-**ポイント:** 160pt / **モデル数:** 5 / **ベースサイズ:** 40mm
+**ポイント:** 170pt / **モデル数:** 5 / **ベースサイズ:** 40mm
 
 **ステータス:**
 
@@ -329,7 +329,7 @@
 
 ## Hag Queen
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 25mm
+**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 25mm
 
 **増援不可**
 
@@ -357,11 +357,13 @@
 
 **キーワード:** Hero, Priest (1), Infantry, Ward (6+), Order, Daughters of Khaine, Aelf
 
+**ノート:** This **HERO** can join an eligible regiment as a *Coven Matriarch*.
+
 ---
 
 ## Hag Queen on Cauldron of Blood
 
-**ポイント:** 290pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 280pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -455,8 +457,6 @@
 
 **ポイント:** 130pt / **モデル数:** 9 / **ベースサイズ:** 40mm [1], 28.5mm [8]
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control | Ward |
@@ -481,8 +481,6 @@
   - 効果: Remove this unit from the battlefield and set it up again on the battlefield more than 9" from all enemy units.
 
 **キーワード:** Infantry, Champion (1/9), Ward (6+), Order, Daughters of Khaine, Aelf
-
-**ノート:** This unit cannot be reinforced.
 
 ---
 
@@ -658,7 +656,7 @@
 
 ## Melusai Ironscale
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -692,7 +690,7 @@
 
 ## Morathi-Khaine
 
-**ポイント:** 750pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 770pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -771,9 +769,7 @@
 
 ## Scourge of Aqshy: Khainite Shadowstalkers
 
-**ポイント:** 100pt / **モデル数:** 9 / **ベースサイズ:** 40mm [1], 28.5mm [8]
-
-**増援不可**
+**ポイント:** 120pt / **モデル数:** 9 / **ベースサイズ:** 40mm [1], 28.5mm [8]
 
 **ステータス:**
 
@@ -801,13 +797,13 @@
 
 **キーワード:** Infantry, Champion (1/9), Ward (6+), Order, Daughters of Khaine, Aelf
 
-**ノート:** This unit cannot be reinforced. This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
+**ノート:** This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
 
 ---
 
 ## Scourge of Aqshy: Melusai Ironscale
 
-**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -831,7 +827,7 @@
 
 **レジメントオプション:**
 
-- Any **DAUGHTERS OF KHAINE**
+- Any non-**AELF**
 
 **キーワード:** Hero, Infantry, Ward (6+), Order, Daughters of Khaine
 
@@ -1010,6 +1006,8 @@
 - Any **AELF**
 
 **キーワード:** Hero, Priest (1), Infantry, Ward (6+), Order, Daughters of Khaine, Aelf
+
+**ノート:** This **HERO** can join an eligible regiment as a *Coven Matriarch*.
 
 ---
 

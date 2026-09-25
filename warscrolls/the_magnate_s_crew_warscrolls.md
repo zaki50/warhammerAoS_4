@@ -1,6 +1,6 @@
 # The Magnate's Crew ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全14 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -9,7 +9,7 @@
 
 ## Arkanaut Frigate
 
-**ポイント:** 300pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 280pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -53,7 +53,7 @@
 
 ## Arkanaut Ironclad
 
-**ポイント:** 450pt / **モデル数:** 1 / **ベースサイズ:** 170 x 105mm
+**ポイント:** 430pt / **モデル数:** 1 / **ベースサイズ:** 170 x 105mm
 
 **増援不可**
 
@@ -232,7 +232,7 @@
 
 ## Endrinriggers
 
-**ポイント:** 100pt / **モデル数:** 3 / **ベースサイズ:** 32mm
+**ポイント:** 90pt / **モデル数:** 3 / **ベースサイズ:** 32mm
 
 **ステータス:**
 
@@ -353,7 +353,7 @@
 
 ## Scourge of Aqshy: Endrinriggers
 
-**ポイント:** 140pt / **モデル数:** 3 / **ベースサイズ:** 32mm
+**ポイント:** 120pt / **モデル数:** 3 / **ベースサイズ:** 32mm
 
 **ステータス:**
 
@@ -391,7 +391,7 @@
 
 ## Scourge of Aqshy: Null-Khemist
 
-**ポイント:** 200pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 160pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 

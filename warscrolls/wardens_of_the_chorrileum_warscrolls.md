@@ -1,6 +1,6 @@
 # Wardens of the Chorrileum ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全19 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -9,7 +9,7 @@
 
 ## Akhelian Thrallmaster
 
-**ポイント:** 90pt / **モデル数:** 1 / **ベースサイズ:** 32mm
+**ポイント:** 70pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
 **増援不可**
 
@@ -79,7 +79,7 @@
 
 ## Eidolon of Mathlann, Aspect of the Sea
 
-**ポイント:** 340pt / **モデル数:** 1 / **ベースサイズ:** 100mm
+**ポイント:** 310pt / **モデル数:** 1 / **ベースサイズ:** 100mm
 
 **増援不可**
 
@@ -235,7 +235,7 @@
 
 ## Ikon of the Sea
 
-**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -408,11 +408,13 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Order, Idoneth Deepkin, Aelf, Isharann
 
+**ノート:** This **HERO** can join an eligible regiment as an *Isharann Emissary*.
+
 ---
 
 ## Lotann, Warden of the Soul Ledgers
 
-**ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 90pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -576,7 +578,7 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Order, Idoneth Deepkin, Aelf, Isharann
 
-**ノート:** This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
+**ノート:** This **HERO** can join an eligible regiment as an *Isharann Emissary*. This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
 
 ---
 

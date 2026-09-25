@@ -1,6 +1,6 @@
 # The Gardeners of Nurgle ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全17 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -39,7 +39,7 @@
 
 ## Cankerborn
 
-**ポイント:** 180pt / **モデル数:** 2 / **ベースサイズ:** 40mm
+**ポイント:** 170pt / **モデル数:** 2 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -189,7 +189,7 @@
 
 ## Gelgus Pust
 
-**ポイント:** 200pt / **モデル数:** 1 / **ベースサイズ:** 50mm
+**ポイント:** 190pt / **モデル数:** 1 / **ベースサイズ:** 50mm
 
 **増援不可**
 

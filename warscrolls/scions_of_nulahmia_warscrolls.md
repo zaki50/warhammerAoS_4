@@ -1,6 +1,6 @@
 # Scions of Nulahmia ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全8 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -44,7 +44,7 @@
 
 ## Coven Throne
 
-**ポイント:** 230pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 210pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -109,7 +109,7 @@
 
 ## Fell Bats
 
-**ポイント:** 80pt / **モデル数:** 3 / **ベースサイズ:** 40mm
+**ポイント:** 90pt / **モデル数:** 3 / **ベースサイズ:** 40mm
 
 **ステータス:**
 
@@ -244,7 +244,7 @@
 
 ## Vampire Lord on Nightmare Steed
 
-**ポイント:** 180pt / **モデル数:** 1 / **ベースサイズ:** 80mm
+**ポイント:** 170pt / **モデル数:** 1 / **ベースサイズ:** 80mm
 
 **増援不可**
 

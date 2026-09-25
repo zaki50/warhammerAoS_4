@@ -1,6 +1,6 @@
 # Spearhead: Akhelian Tide Guard（Idoneth Deepkin）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 
 ## 編成
@@ -105,7 +105,7 @@
 
 | 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Whisperbow | 12" | 2 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound) |
+| Whisperbow | 12" | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 

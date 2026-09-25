@@ -1,6 +1,6 @@
 # Slaves to Darkness ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 
 ## バトル特性
@@ -49,9 +49,9 @@
 
 ### Despoilers
 
-- **Feral Ruin**（Once Per Turn (Army), End of Your Turn）
-  - 宣言: Pick a friendly **Daemon Prince** to use this ability. Then, pick a visible non-**DAEMON** non-**UNIQUE SLAVES TO DARKNESS** unit wholly within 12" of this unit to be the target.
-  - 効果: Remove any **PLEDGE TO CHAOS** keywords the target has. Then, the target gains any **PLEDGE TO CHAOS** keywords this unit has.
+- **You Will Serve!**（Once Per Turn (Army), End of Your Turn）
+  - 宣言: Pick a friendly **Daemon Prince** to use this ability. Then, pick a visible non-**DAEMON** non‐**UNIQUE SLAVES TO DARKNESS** unit that does not have an Ensorcelled Banner wholly within 12" of this unit to be the target.
+  - 効果: Remove any **Pledge to Chaos** keywords the target has. Then, the target gains any **Pledge to Chaos** keywords this unit has.
 
 ### Godswrath Warband
 
@@ -75,7 +75,7 @@
   - 効果: If this unit is picked as the target of the ‘Eye of the Gods’ ability, it gains 3 **Dark Apotheosis** points.
 - **Deathmonger**（Once Per Battle, Any Combat Phase）
   - 効果: This unit can use 2 **FIGHT** abilities this phase. After the first is used, however, this unit has **STRIKE-LAST** for the rest of the turn.
-- **Radiance of Dark Glory**（Any Hero Phase / 20pt）
+- **Radiance of Dark Glory**（Any Hero Phase）
   - 宣言: Pick each damaged friendly unit wholly within 12" of this unit to be the targets.
   - 効果: Roll a dice for each target. On a 3+, **Heal (1)** the target. **Heal** **(3)** the target instead if it is a **MONSTER**.
 
@@ -131,6 +131,7 @@ Brands of the Dark Gods are unique enhancements that can only be given to non-**
 - **Brand of Apoplexy**（Passive / 10pt）
   - 効果: While your **fury level** is 7, add 1 to the Damage characteristic of this unit’s weapons.
 - **Brand of the Unaligned**（Your Hero Phase / 20pt）
+  - 宣言: This unit cannot use this ability if it has an Ensorcelled Banner.
   - 効果: Remove all of this unit’s **Pledge to Chaos** keywords. Then, pick 1 of the following **Pledge to Chaos** keywords. You cannot pick a keyword you picked for this unit earlier in the battle. **• Pledged to Khorne** **• Pledged to Tzeentch** **• Pledged to Nurgle** **• Pledged to Slaanesh** This unit has that keyword for the rest of the battle.
 
 ### Ensorcelled Banners（出典: Chaos Battletome: Slaves to Darkness）

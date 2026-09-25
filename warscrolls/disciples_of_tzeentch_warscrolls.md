@@ -1,6 +1,6 @@
 # Disciples of Tzeentch ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全39 ウォースクロール（Spearhead 版 6 件は除外。--include-spearhead で含められる）
 
@@ -74,7 +74,7 @@
 
 ## Burning Chariot of Tzeentch
 
-**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 130pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -131,7 +131,7 @@
 
 ## Changecaster, Herald of Tzeentch
 
-**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 32mm
+**ポイント:** 130pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
 **増援不可**
 
@@ -308,7 +308,7 @@
 
 ## Exalted Flamer of Tzeentch
 
-**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 75 x 42mm
+**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 75 x 42mm
 
 **増援不可**
 
@@ -458,7 +458,7 @@
 
 ## Fateskimmer, Herald of Tzeentch on Burning Chariot
 
-**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -520,7 +520,7 @@
   - 宣言: Pick an enemy unit that had any damage points allocated to it this turn by this unit’s shooting attacks to be the target.
   - 効果: The target has the **BURNING** keyword for the rest of the battle.
 - **Lingering Burns**（Once Per Turn (Army), End of Any Turn）
-  - 宣言: This unit can use this ability even if it has been destroyed. Pick any number of **BURNING** enemy units to be the targets.
+  - 宣言: This unit can use this ability even if it has been destroyed or is in reserve. Pick any number of **BURNING** enemy units to be the targets.
   - 効果: Roll a D3 for each target. On a 1, the target no longer has the **BURNING** keyword. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
 
 **キーワード:** Infantry, Champion, Fly, Ward (6+), Chaos, Disciples of Tzeentch, Daemon
@@ -567,7 +567,7 @@
 
 ## Gaunt Summoner
 
-**ポイント:** 180pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 160pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -611,7 +611,7 @@
 
 ## Gaunt Summoner on Disc of Tzeentch
 
-**ポイント:** 210pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 190pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -658,8 +658,6 @@
 
 **ポイント:** 100pt / **モデル数:** 9 / **ベースサイズ:** 32mm [5], 28.5mm [5]
 
-**増援不可**
-
 **ステータス:**
 
 | Move | Health | Save | Control |
@@ -685,8 +683,6 @@
 **装備オプション:** ***Each model in this unit is armed with Passive Mason’s Tools.*** ***•  4/9 models can carry an Antithete Bow.*** ***•  The champion cannot carry an Antithete Bow.***
 
 **キーワード:** Infantry, Champion (1/9), Chaos, Disciples of Tzeentch, Arcanite
-
-**ノート:** This unit cannot be reinforced.
 
 ---
 
@@ -890,7 +886,7 @@
 
 ## Ogroid Thaumaturge
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 50mm
+**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 50mm
 
 **増援不可**
 
@@ -1004,7 +1000,7 @@
 
 ## Scourge of Aqshy: Screamers of Tzeentch
 
-**ポイント:** 110pt / **モデル数:** 3 / **ベースサイズ:** 32mm
+**ポイント:** 120pt / **モデル数:** 3 / **ベースサイズ:** 32mm
 
 **ステータス:**
 
@@ -1324,6 +1320,8 @@
 - Any **ARCANITE**
 
 **キーワード:** Hero, Wizard (1), Cavalry, Fly, Chaos, Disciples of Tzeentch, Arcanite, Warflock
+
+**ノート:** This **HERO** can join an eligible regiment as an *Arcanite Cabalist*.
 
 ---
 

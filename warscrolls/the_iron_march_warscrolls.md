@@ -1,6 +1,6 @@
 # The Iron March ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全6 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -47,6 +47,7 @@
 **レジメントオプション:**
 
 - 0-1 *Freeguild Veteran*
+- 0-1 **THAUMATURGICAL SPECIALIST**
 - Any **SIGMARITE**
 - Any **ALLIES OF THE FREE CITIES**
 
@@ -56,7 +57,7 @@
 
 ## Conqueror Cogfort
 
-**ポイント:** 440pt / **モデル数:** 1 / **ベースサイズ:** 160mm
+**ポイント:** 420pt / **モデル数:** 1 / **ベースサイズ:** 160mm
 
 **増援不可**
 
@@ -97,6 +98,7 @@
 **レジメントオプション:**
 
 - 0-1 *Freeguild Veteran*
+- 0-1 **THAUMATURGICAL SPECIALIST**
 - Any **SIGMARITE**
 - Any **ALLIES OF THE FREE CITIES**
 
@@ -106,7 +108,7 @@
 
 ## Freeguild Gallants
 
-**ポイント:** 130pt / **モデル数:** 5 / **ベースサイズ:** 28.5mm
+**ポイント:** 110pt / **モデル数:** 5 / **ベースサイズ:** 28.5mm
 
 **ステータス:**
 
@@ -256,3 +258,5 @@
 - Any **SIGMARITE** **INFANTRY**
 
 **キーワード:** Hero, Priest (1), Infantry, Order, Cities of Sigmar, Sigmarite
+
+**ノート:** This **HERO** can join an eligible regiment as a *Thaumaturgical Specialist*.

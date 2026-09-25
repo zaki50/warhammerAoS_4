@@ -1,6 +1,6 @@
 # Vanari Paragons ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全12 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -253,7 +253,7 @@
 
 ## Vanari Bladelords
 
-**ポイント:** 150pt / **モデル数:** 5 / **ベースサイズ:** 32mm
+**ポイント:** 140pt / **モデル数:** 5 / **ベースサイズ:** 32mm
 
 **ステータス:**
 
@@ -306,7 +306,7 @@
 
 ## Vanari Lord Regent
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 32mm
+**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
 **増援不可**
 
@@ -343,7 +343,7 @@
 
 ## Vanari Lord Regent on Lightcourser
 
-**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 90 x 52mm
+**ポイント:** 130pt / **モデル数:** 1 / **ベースサイズ:** 90 x 52mm
 
 **増援不可**
 
@@ -375,7 +375,7 @@
 
 **キーワード:** Hero, Cavalry, Order, Lumineth Realm‑lords, Aelf, Vanari
 
-**ノート:** Previously Vanari Lord Regent
+**ノート:** This **HERO** can join an eligible regiment as a *Lumineth Paragon*.
 
 ---
 

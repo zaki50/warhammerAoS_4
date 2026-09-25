@@ -1,6 +1,6 @@
 # Gorechosen Champions ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全9 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -78,7 +78,7 @@
 
 ## Deathbringer
 
-**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -178,6 +178,8 @@
 
 **キーワード:** Hero, Priest (1), Infantry, Chaos, Blades of Khorne, Bloodbound
 
+**ノート:** This **HERO** can join an eligible regiment as a *Bloodbound Warmonger*.
+
 ---
 
 ## Scourge of Ghyran Mighty Lord of Khorne
@@ -257,7 +259,7 @@
 
 ## Skullgrinder
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -323,3 +325,5 @@
 - Any **BLOODBOUND**
 
 **キーワード:** Hero, Priest (1), Infantry, Chaos, Blades of Khorne, Bloodbound
+
+**ノート:** This **HERO** can join an eligible regiment as a *Bloodbound Warmonger*.

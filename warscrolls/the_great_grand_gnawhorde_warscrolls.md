@@ -1,6 +1,6 @@
 # The Great-Grand Gnawhorde ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全31 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -79,11 +79,13 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Chaos, Skaven, Skryre
 
+**ノート:** This **HERO** can join an eligible regiment as a *Skaven Overclaw*.
+
 ---
 
 ## Brood Terror
 
-**ポイント:** 220pt / **モデル数:** 1 / **ベースサイズ:** 90mm
+**ポイント:** 200pt / **モデル数:** 1 / **ベースサイズ:** 90mm
 
 **増援不可**
 
@@ -179,7 +181,7 @@
 
 ## Clawlord on Gnaw-beast
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 75 × 42mm
+**ポイント:** 90pt / **モデル数:** 1 / **ベースサイズ:** 75 × 42mm
 
 **増援不可**
 
@@ -436,7 +438,7 @@
 
 ## Rat Ogors
 
-**ポイント:** 140pt / **モデル数:** 3 / **ベースサイズ:** 50mm
+**ポイント:** 130pt / **モデル数:** 3 / **ベースサイズ:** 50mm
 
 **ステータス:**
 
@@ -469,7 +471,7 @@
 
 ## Ratling Guns
 
-**ポイント:** 170pt / **モデル数:** 3 / **ベースサイズ:** 60 x 35mm
+**ポイント:** 160pt / **モデル数:** 3 / **ベースサイズ:** 60 x 35mm
 
 **ステータス:**
 
@@ -965,7 +967,7 @@
   - 効果: Roll a D3 for each other enemy unit within the target's combat range. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.
 - **Lightning Master**（Once Per Battle (Army), Your Shooting Phase）
   - 宣言: Pick a friendly **Warpvolt Scourgers** unit within this unit's combat range to be the target.
-  - 効果: Roll a dice. On a 2+, set the Attacks characteristic of the target's **Warpvolt Scourgers** to 10 for the rest of the turn.
+  - 効果: Set the Attacks characteristic of the target’s **Warpvolt Scourgers** to 10 for the rest of the turn.
 
 **レジメントオプション:**
 

@@ -1,6 +1,6 @@
 # Ogor Mawtribes ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 
 ## バトル特性
@@ -43,7 +43,7 @@ Ogor Mawtribes armies can use the following abilities:
   - 宣言: For each enemy unit that was destroyed this turn, pick a friendly **OGOR MAWTRIBES** unit that is not in combat and has not used the ‘Power Through’ command this turn to be the target.
   - 効果: Each target can move up to 3". It can move through the combat ranges of enemy units and can end that move in combat.
 
-### Maw-Cult Fanatics
+### Maw-Cult Fanatics（10pt）
 
 - **Grub's Up, Mateys!**（Once Per Turn (Army), End of Any Turn）
   - 宣言: Pick each friendly **OGOR MAWTRIBES** unit that has used the ‘Eat ’Em Alive’ ability this battle to be the targets.

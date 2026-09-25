@@ -1,6 +1,6 @@
 # Stormcast Eternals ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全98 ウォースクロール（Spearhead 版 5 件は除外。--include-spearhead で含められる）
 
@@ -895,7 +895,7 @@
 
 ## Gryph-hounds
 
-**ポイント:** 90pt / **モデル数:** 6 / **ベースサイズ:** 40mm
+**ポイント:** 80pt / **モデル数:** 6 / **ベースサイズ:** 40mm
 
 **ステータス:**
 
@@ -1127,7 +1127,7 @@
 
 ## Knight-Arcanum
 
-**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -1155,11 +1155,13 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Order, Stormcast Eternals, Warrior Chamber
 
+**ノート:** This **HERO** can join an eligible regiment as a *Stormcast Exemplar*.
+
 ---
 
 ## Knight-Azyros
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 50mm
+**ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 50mm
 
 **増援不可**
 
@@ -1198,7 +1200,7 @@
 
 ## Knight-Draconis
 
-**ポイント:** 230pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
+**ポイント:** 200pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
 
 **増援不可**
 
@@ -1272,6 +1274,8 @@
 
 **キーワード:** Hero, Infantry, Order, Stormcast Eternals, Warrior Chamber
 
+**ノート:** This **HERO** can join an eligible regiment as a *Stormcast Exemplar*.
+
 ---
 
 ## Knight-Incantor (Legends)
@@ -1305,6 +1309,8 @@
 - Any **SACROSANCT CHAMBER** **INFANTRY**
 
 **キーワード:** Hero, Wizard (1), Infantry, Order, Stormcast Eternals, Sacrosanct Chamber
+
+**ノート:** This **HERO** can join an eligible regiment as a *Stormcast Exemplar*.
 
 ---
 
@@ -1353,7 +1359,7 @@
 
 ## Knight-Questor
 
-**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -1420,6 +1426,8 @@
 - Any **WARRIOR CHAMBER**
 
 **キーワード:** Hero, Priest (1), Infantry, Order, Stormcast Eternals, Warrior Chamber
+
+**ノート:** This **HERO** can join an eligible regiment as a *Stormcast Exemplar*.
 
 ---
 
@@ -1689,6 +1697,8 @@
 
 **キーワード:** Hero, Cavalry, Order, Stormcast Eternals, Vanguard Chamber
 
+**ノート:** This **HERO** can join an eligible regiment as a *Stormcast Exemplar*.
+
 ---
 
 ## Lord-Arcanum (Legends)
@@ -1722,6 +1732,8 @@
 - Any **SACROSANCT CHAMBER** **INFANTRY**
 
 **キーワード:** Hero, Wizard (1), Infantry, Order, Stormcast Eternals, Sacrosanct Chamber
+
+**ノート:** This **HERO** can join an eligible regiment as a *Stormcast Exemplar*.
 
 ---
 
@@ -1869,6 +1881,8 @@
 
 **キーワード:** Hero, Infantry, Order, Stormcast Eternals, Warrior Chamber
 
+**ノート:** This **HERO** can join an eligible regiment as a *Stormcast Exemplar*.
+
 ---
 
 ## Lord-Celestant
@@ -1901,6 +1915,8 @@
 - Any **WARRIOR CHAMBER**
 
 **キーワード:** Hero, Infantry, Order, Stormcast Eternals, Warrior Chamber
+
+**ノート:** This **HERO** can join an eligible regiment as a *Stormcast Exemplar*.
 
 ---
 
@@ -2067,6 +2083,8 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Order, Stormcast Eternals, Sacrosanct Chamber
 
+**ノート:** This **HERO** can join an eligible regiment as a *Stormcast Exemplar*.
+
 ---
 
 ## Lord-Imperatant
@@ -2137,6 +2155,8 @@
 - Any **WAR MACHINE** **SACROSANCT CHAMBER**
 
 **キーワード:** Hero, Infantry, Order, Stormcast Eternals, Sacrosanct Chamber
+
+**ノート:** This **HERO** can join an eligible regiment as a *Stormcast Exemplar*.
 
 ---
 
@@ -2250,6 +2270,8 @@
 - Any **WARRIOR CHAMBER**
 
 **キーワード:** Hero, Priest (1), Infantry, Order, Stormcast Eternals, Ruination Chamber
+
+**ノート:** This **HERO** can join an eligible regiment as a *Stormcast Exemplar*.
 
 ---
 
@@ -2637,7 +2659,7 @@
 
 ## Scourge of Aqshy: Stormstrike Palladors
 
-**ポイント:** 220pt / **モデル数:** 3 / **ベースサイズ:** 90 x 52mm
+**ポイント:** 210pt / **モデル数:** 3 / **ベースサイズ:** 90 x 52mm
 
 **ステータス:**
 
@@ -2810,7 +2832,7 @@
 
 ## Stormdrake Guard
 
-**ポイント:** 310pt / **モデル数:** 2 / **ベースサイズ:** 105 x 70mm
+**ポイント:** 290pt / **モデル数:** 2 / **ベースサイズ:** 105 x 70mm
 
 **ステータス:**
 
@@ -2849,7 +2871,7 @@
 
 ## Stormdrake Guard (1 model)
 
-**ポイント:** 160pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
+**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
 
 **増援不可**
 
@@ -3100,7 +3122,7 @@
 
 ## Tornus the Redeemed
 
-**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 50mm
+**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 50mm
 
 **増援不可**
 
@@ -3184,7 +3206,7 @@
 
 ## Vanguard-Hunters
 
-**ポイント:** 120pt / **モデル数:** 5 / **ベースサイズ:** 40mm
+**ポイント:** 110pt / **モデル数:** 5 / **ベースサイズ:** 40mm
 
 **ステータス:**
 
@@ -3220,7 +3242,7 @@
 
 ## Vanguard-Palladors with Shock Handaxes
 
-**ポイント:** 250pt / **モデル数:** 3 / **ベースサイズ:** 75 x 42mm
+**ポイント:** 240pt / **モデル数:** 3 / **ベースサイズ:** 75 x 42mm
 
 **ステータス:**
 

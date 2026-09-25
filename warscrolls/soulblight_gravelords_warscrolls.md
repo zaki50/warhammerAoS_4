@@ -1,6 +1,6 @@
 # Soulblight Gravelords ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全56 ウォースクロール（Spearhead 版 4 件は除外。--include-spearhead で含められる）
 
@@ -9,9 +9,7 @@
 
 ## Askurgan Trueblades
 
-**ポイント:** 140pt / **モデル数:** 8 / **ベースサイズ:** 40mm [1], 32mm [4], 28.5mm [3]
-
-**増援不可**
+**ポイント:** 150pt / **モデル数:** 8 / **ベースサイズ:** 40mm [1], 32mm [4], 28.5mm [3]
 
 **ステータス:**
 
@@ -37,8 +35,6 @@
 **装備オプション:** ***Each model in this unit is armed with Askurgan Weapons.*** • ***1/8 models is a Curseblood and must replace their Askurgan Weapons with Elongated Claws and Slavering Maw.*** • ***The champion is an Askurgan Exemplar and cannot replace their weapons.***
 
 **キーワード:** Infantry, Champion (1/8), Ward (6+), Death, Soulblight Gravelords, Vampire
-
-**ノート:** This unit cannot be reinforced.
 
 ---
 
@@ -135,7 +131,7 @@
 
 ## Blades of the Hollow King
 
-**ポイント:** 270pt / **モデル数:** 3 / **ベースサイズ:** 50mm [1], 40mm [2]
+**ポイント:** 260pt / **モデル数:** 3 / **ベースサイズ:** 50mm [1], 40mm [2]
 
 **増援不可**
 
@@ -179,7 +175,7 @@
 
 ## Blood Knights
 
-**ポイント:** 220pt / **モデル数:** 5 / **ベースサイズ:** 75 × 42mm
+**ポイント:** 210pt / **モデル数:** 5 / **ベースサイズ:** 75 × 42mm
 
 **ステータス:**
 
@@ -307,7 +303,7 @@
 
 ## Coven Throne
 
-**ポイント:** 230pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 210pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -452,7 +448,7 @@
 
 ## Fell Bats
 
-**ポイント:** 80pt / **モデル数:** 3 / **ベースサイズ:** 40mm
+**ポイント:** 90pt / **モデル数:** 3 / **ベースサイズ:** 40mm
 
 **ステータス:**
 
@@ -766,6 +762,7 @@
 
 **レジメントオプション:**
 
+- 0-1 **Necromancer**
 - 0-1 *Deathrattle Overseer*
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -775,7 +772,7 @@
 
 ## Mortis Engine
 
-**ポイント:** 230pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 210pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -847,6 +844,7 @@
 
 **レジメントオプション:**
 
+- 0-1 **Necromancer**
 - 0-1 *Deathrattle Overseer*
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -886,6 +884,8 @@
 - Any **SOULBLIGHT GRAVELORDS**
 
 **キーワード:** Hero, Wizard (1), Infantry, Ward (6+), Death, Soulblight Gravelords
+
+**ノート:** This **HERO** can join the regiment of **Mannfred von Carstein, Mortarch of Night, Nagash, Supreme Lord of the Undead**, or **Neferata, Mortarch of Blood**.
 
 ---
 
@@ -927,6 +927,7 @@
 
 **レジメントオプション:**
 
+- 0-1 **Necromancer**
 - 0-1 *Deathrattle Overseer*
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -936,7 +937,7 @@
 
 ## Prince Vhordrai
 
-**ポイント:** 470pt / **モデル数:** 1 / **ベースサイズ:** 160mm
+**ポイント:** 450pt / **モデル数:** 1 / **ベースサイズ:** 160mm
 
 **増援不可**
 
@@ -1062,7 +1063,7 @@
 
 ## Revenant Draconith
 
-**ポイント:** 180pt / **モデル数:** 1 / **ベースサイズ:** 160mm
+**ポイント:** 170pt / **モデル数:** 1 / **ベースサイズ:** 160mm
 
 **増援不可**
 
@@ -1194,13 +1195,13 @@
 
 **アビリティ:**
 
+- **Frenzied Surge**（Once Per Turn (Army), Any Charge Phase）
+  - 宣言: You can pick another visible friendly non-**HERO SOULBLIGHT GRAVELORDS INFANTRY** or **MONSTER** unit wholly within 12" of this unit to be the target.
+  - 効果: This unit can move up to **X**", where **X** is your **fury level**. It must end that move in combat. Then, the target can move up to **X**", where **X** is your **fury level**. It can move through enemy models and the combat ranges of enemy units during that move but must end that move in combat with an enemy unit that this unit is in combat with.
 - **Nightmare's Miasma**（Passive）
   - 効果: Subtract 1 from the Rend characteristic of melee weapons used by enemy units while they are in combat with this unit.
 - **Indignant Outburst**（Once Per Turn (Army), Any Combat Phase）
   - 効果: If this unit is in combat, gain 1 **rage dice**.
-- **Frenzied Surge**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
-  - 宣言: You can pick another visible friendly non-**HERO SOULBLIGHT GRAVELORDS INFANTRY** or **MONSTER** unit wholly within 12" of this unit to be the target.
-  - 効果: This unit and the target (if any) can move up to **X**+D3", where **X** is your **fury level**. They can move through enemy models and the combat ranges of enemy units during that move and must end that move in combat. If you picked a target, after moving, this unit and the target must be in combat with the same enemy unit.
 
 **レジメントオプション:**
 
@@ -1585,7 +1586,7 @@
 
 ## Vampire Lord on Nightmare Steed
 
-**ポイント:** 180pt / **モデル数:** 1 / **ベースサイズ:** 80mm
+**ポイント:** 170pt / **モデル数:** 1 / **ベースサイズ:** 80mm
 
 **増援不可**
 

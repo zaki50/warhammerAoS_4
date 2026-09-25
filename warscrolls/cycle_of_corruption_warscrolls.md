@@ -1,6 +1,6 @@
 # Cycle of Corruption ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全25 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -352,7 +352,7 @@
 
 ## Morbidex Twiceborn
 
-**ポイント:** 250pt / **モデル数:** 1 / **ベースサイズ:** 100mm
+**ポイント:** 230pt / **モデル数:** 1 / **ベースサイズ:** 100mm
 
 **増援不可**
 
@@ -398,7 +398,7 @@
 
 ## Orghotts Daemonspew
 
-**ポイント:** 260pt / **モデル数:** 1 / **ベースサイズ:** 100mm
+**ポイント:** 250pt / **モデル数:** 1 / **ベースサイズ:** 100mm
 
 **増援不可**
 
@@ -610,13 +610,13 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Ward (6+), Chaos, Maggotkin of Nurgle, Rotbringers
 
+**ノート:** This **HERO** can join an eligible regiment as a *Rotbringer Lord*.
+
 ---
 
 ## Rotmire Creed
 
 **ポイント:** 110pt / **モデル数:** 10 / **ベースサイズ:** 32mm [2], 28.5mm [2], 25mm [6]
-
-**増援不可**
 
 **ステータス:**
 
@@ -642,8 +642,6 @@
   - 効果: When picking an enemy unit to be the target of the ‘Infect’ effect of the ‘Blessed by the Plaguefather’ ability, you can pick an enemy unit that had any damage points allocated to it by this unit’s shooting attacks this turn to be the target, even if that unit is not within 7" of any friendly **MAGGOTKIN** **OF NURGLE** units. You cannot pick a **MANIFESTATION** or terrain feature.
 
 **キーワード:** Infantry, Champion (1/10), Ward (6+), Chaos, Maggotkin of Nurgle, Rotbringers
-
-**ノート:** This unit cannot be reinforced.
 
 ---
 
@@ -704,7 +702,7 @@
 
 ## Scourge of Aqshy: Sloven Knights
 
-**ポイント:** 210pt / **モデル数:** 3 / **ベースサイズ:** 75 × 42mm
+**ポイント:** 180pt / **モデル数:** 3 / **ベースサイズ:** 75 × 42mm
 
 **ステータス:**
 

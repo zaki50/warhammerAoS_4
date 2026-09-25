@@ -1,6 +1,6 @@
 # Idoneth Deepkin ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 
 ## バトル特性
@@ -93,7 +93,7 @@ Idoneth Deepkin armies can use the following abilities:
 
 - **Abyssal Dweller**（Once Per Battle, Any Hero Phase）
   - 宣言: Pick an objective within 18" of this unit to be the target.
-  - 効果: For the rest of the battle, while enemy units are contesting the target objective: • Subtract the current battle round number from those units’ Move characteristic. • Those units cannot use **RUN**, **RETREAT** or **CHARGE** abilities.
+  - 効果: For the rest of the battle, while enemy units are contesting the target objective: • Those units cannot use **RUN**, **RETREAT** or **CHARGE** abilities.
 - **Cursed Lineage**（End of Your Turn）
   - 宣言: Pick a visible enemy unit within 12" of this unit to be the target.
   - 効果: Roll a number of dice equal to your opponent’s **fury level**. For each 3+, inflict 1 mortal damage on the target.

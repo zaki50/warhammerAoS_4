@@ -1,6 +1,6 @@
 # Meatfist Mawtribe ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全14 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -44,13 +44,13 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Destruction, Ogor Mawtribes, Ogor, Gutbusters
 
-**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+**ノート:** This **HERO** can join an eligible regiment as a *Maw Nomad*. This unit will move to Warhammer Legends on 1 June 2027.
 
 ---
 
 ## Gluttons
 
-**ポイント:** 200pt / **モデル数:** 5 / **ベースサイズ:** 40mm
+**ポイント:** 210pt / **モデル数:** 5 / **ベースサイズ:** 40mm
 
 **ステータス:**
 
@@ -92,7 +92,7 @@
 - **Throw 'Em In**（Passive）
   - 効果: This Great Mawpot is either **full** or **empty**. It starts the battle **full**. If an enemy model is slain within 12" of this **Great Mawpot** while it is **empty**, it becomes **full**.
 - **Vessel of the Gulping God**（Your Hero Phase）
-  - 宣言: If the **Great Mawpot** is **full**, pick a visible friendly **OGOR MAWTRIBES WIZARD** within 3" of it to be the target.
+  - 宣言: If the **Great Mawpot** is **full**, pick a visible friendly **OGOR MAWTRIBES WIZARD** wholly within 3" of it to be the target.
   - 効果: Add 1 to casting rolls for the target for the rest of the turn.
 
 **地形ルール:**
@@ -110,7 +110,7 @@
 
 ## Grell Firefist
 
-**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 50mm
+**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 50mm
 
 **増援不可**
 
@@ -354,7 +354,7 @@
 
 ## Morga The Mighty, Overtyrant
 
-**ポイント:** 430pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 420pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -468,7 +468,7 @@
 
 ## Tyrant on Glutthorn
 
-**ポイント:** 400pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 390pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 

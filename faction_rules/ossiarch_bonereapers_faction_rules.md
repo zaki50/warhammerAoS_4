@@ -1,6 +1,6 @@
 # Ossiarch Bonereapers ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 
 ## バトル特性
@@ -15,16 +15,16 @@ Ossiarch Bonereapers armies can use the following abilities:
   - 効果: You gain a number of **relentless discipline** points equal to the number after the target's **RELENTLESS DISCIPLINE** keyword. At the end of the battle round, any unspent **relentless discipline** points are lost.
 - **Remorseless March**（Your Movement Phase）
   - 宣言: Pick a friendly **OSSIARCH BONEREAPERS** unit that has not used a **RELENTLESS DISCIPLINE** ability this phase to use this ability.
-  - 効果: Spend 1 **relentless discipline** point. If that unit is reinforced and has more than half of its starting models, spend 2 **relentless discipline** points instead. Add 3" to the Move characteristic of that unit for the rest of the phase. That unit cannot use **RUN** abilities for the rest of the turn.
+  - 効果: Spend 1 **relentless discipline** point. Add 3" to the Move characteristic of that unit for the rest of the phase. That unit cannot use **RUN** abilities for the rest of the turn.
 - **Impassive Retreat**（Your Movement Phase）
   - 宣言: Pick a friendly **OSSIARCH BONEREAPERS** unit that has not used a **RELENTLESS DISCIPLINE** ability this phase to use this ability.
-  - 効果: Spend 1 **relentless discipline** point. If that unit is reinforced and has more than half of its starting models, spend 2 **relentless discipline** points instead. For the rest of the turn, that unit can use **CHARGE** abilities even if it used a **RETREAT** ability in the same turn.
+  - 効果: Spend 1 **relentless discipline** point. For the rest of the turn, that unit can use **CHARGE** abilities even if it used a **RETREAT** ability in the same turn.
 - **Ruthless Extermination**（Once Per Turn (Army), Reaction: You declared a **SHOOT** ability for a unit that has not used a **RELENTLESS DISCIPLINE** ability this phase）
-  - 効果: Spend 1 **relentless discipline** point. If that unit is reinforced and has more than half of its starting models, spend 2 **relentless discipline** points instead. Subtract l from ward rolls for damage points inflicted by attacks made as part of that **SHOOT** ability.
+  - 効果: Spend 1 **relentless discipline** point. Subtract l from ward rolls for damage points inflicted by attacks made as part of that **SHOOT** ability.
 - **Pitiless Assault**（Reaction: You declared a **FIGHT** ability for a unit that has not used a **RELENTLESS DISCIPLINE** ability this phase）
-  - 効果: Spend 1 **relentless discipline** point. If that unit is reinforced and has more than half of its starting models, spend 2 **relentless discipline** points instead. Add 1 to wound rolls for attacks made as part of that **FIGHT** ability.
+  - 効果: Spend 1 **relentless discipline** point. Add 1 to wound rolls for attacks made as part of that **FIGHT** ability.
 - **Inviolate Legions**（Reaction: Opponent declared an **ATTACK** ability）
-  - 効果: Spend 1 **relentless discipline** point. If that unit is reinforced and has more than half of its starting models, spend 2 **relentless discipline** points instead. That unit has **WARD (5+)** against damage points inflicted by attacks made as part of that **ATTACK** ability.
+  - 効果: Spend 1 **relentless discipline** point. That unit has **WARD (5+)** against damage points inflicted by attacks made as part of that **ATTACK** ability.
 
 ## バトルフォーメーション
 

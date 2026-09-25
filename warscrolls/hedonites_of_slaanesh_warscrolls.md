@@ -1,6 +1,6 @@
 # Hedonites of Slaanesh ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全42 ウォースクロール（Spearhead 版 8 件は除外。--include-spearhead で含められる）
 
@@ -223,11 +223,13 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Ward (4+), Chaos, Hedonites of Slaanesh, Daemon
 
+**ノート:** This **HERO** can join an eligible regiment as a *Slaaneshi Beguiler*.
+
 ---
 
 ## Daemonettes
 
-**ポイント:** 110pt / **モデル数:** 10 / **ベースサイズ:** 25mm
+**ポイント:** 100pt / **モデル数:** 10 / **ベースサイズ:** 25mm
 
 **ステータス:**
 
@@ -252,7 +254,7 @@
 
 ## Dexcessa, the Talon of Slaanesh
 
-**ポイント:** 280pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
+**ポイント:** 260pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
 
 **増援不可**
 
@@ -556,7 +558,7 @@
 
 ## Keeper of Secrets
 
-**ポイント:** 420pt / **モデル数:** 1 / **ベースサイズ:** 100mm
+**ポイント:** 410pt / **モデル数:** 1 / **ベースサイズ:** 100mm
 
 **増援不可**
 
@@ -636,7 +638,7 @@
 
 ## Lord of Hysteria
 
-**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -672,7 +674,7 @@
 
 ## Lord of Pain
 
-**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 40mm
+**ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
 **増援不可**
 
@@ -729,7 +731,7 @@
 
 ## Myrmidesh Painbringers
 
-**ポイント:** 120pt / **モデル数:** 5 / **ベースサイズ:** 32mm
+**ポイント:** 130pt / **モデル数:** 5 / **ベースサイズ:** 32mm
 
 **ステータス:**
 
@@ -792,7 +794,7 @@
 
 ## Scourge of Aqshy: Infernal Enrapturess, Herald of Slaanesh
 
-**ポイント:** 90pt / **モデル数:** 1 / **ベースサイズ:** 60 x 35mm
+**ポイント:** 80pt / **モデル数:** 1 / **ベースサイズ:** 60 x 35mm
 
 **増援不可**
 
@@ -1031,6 +1033,8 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Chaos, Hedonites of Slaanesh, Sybarite
 
+**ノート:** This **HERO** can join an eligible regiment as a *Dark Egotist*.
+
 ---
 
 ## Sigvald, Prince of Slaanesh
@@ -1130,7 +1134,7 @@
 
 ## Syll'Esske, the Vengeful Allegiance
 
-**ポイント:** 250pt / **モデル数:** 1 / **ベースサイズ:** 50mm
+**ポイント:** 240pt / **モデル数:** 1 / **ベースサイズ:** 50mm
 
 **増援不可**
 
@@ -1195,7 +1199,7 @@
 
 ## Synessa, the Voice of Slaanesh
 
-**ポイント:** 250pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
+**ポイント:** 220pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
 
 **増援不可**
 
@@ -1276,7 +1280,7 @@
 
 ## The Masque
 
-**ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 32mm
+**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
 **増援不可**
 
@@ -1344,7 +1348,7 @@
 
 ## Thricefold Discord
 
-**ポイント:** 180pt / **モデル数:** 3 / **ベースサイズ:** 40mm [1], 28.5mm [2]
+**ポイント:** 190pt / **モデル数:** 3 / **ベースサイズ:** 40mm [1], 28.5mm [2]
 
 **増援不可**
 

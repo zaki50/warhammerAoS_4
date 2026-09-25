@@ -1,6 +1,6 @@
 # The Roving Maw ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.37.0 build 86 / dump.json data_version 476 / 抽出 2026-08-26
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
 
 全16 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -39,6 +39,8 @@
 - Any **INFANTRY**
 
 **キーワード:** Hero, Wizard (1), Infantry, Ward (6+), Destruction, Ogor Mawtribes, Ogor, Mawseekers
+
+**ノート:** This **HERO** can join an eligible regiment as a *Maw Nomad*.
 
 ---
 
@@ -104,13 +106,13 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Destruction, Ogor Mawtribes, Ogor, Gutbusters
 
-**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+**ノート:** This **HERO** can join an eligible regiment as a *Maw Nomad*. This unit will move to Warhammer Legends on 1 June 2027.
 
 ---
 
 ## Gluttons
 
-**ポイント:** 200pt / **モデル数:** 5 / **ベースサイズ:** 40mm
+**ポイント:** 210pt / **モデル数:** 5 / **ベースサイズ:** 40mm
 
 **ステータス:**
 
@@ -460,7 +462,7 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Ward (6+),Destruction, Ogor Mawtribes, Ogor, Mawseekers
 
-**ノート:** This unit will move to Warhammer Legends on 1 June 2027.
+**ノート:** This **HERO** can join an eligible regiment as a *Maw Nomad*. This unit will move to Warhammer Legends on 1 June 2027.
 
 ---
 
@@ -501,7 +503,7 @@
 
 ## Tyrant on Glutthorn
 
-**ポイント:** 400pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 390pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
