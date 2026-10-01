@@ -38,6 +38,81 @@ def _plain(s):
     return (s or "").replace("**", "")
 
 
+def fix_pairs(n):
+    """注の fix_ja を [(誤訳箇所, 修正後), ...] にする。fix_ja が文字列なら ja 全体の差し替え。"""
+    fix = n.get("fix_ja")
+    if isinstance(fix, str):
+        return [(_plain(n.get("ja")), _plain(fix))]
+    if isinstance(fix, dict):
+        return [(_plain(a), _plain(b)) for a, b in fix.items()]
+    return []
+
+
+def fix_parts(old, new):
+    """訂正 old → new を [(keep|del|ins, 文字列), ...] に分ける (translation-notes の fix_parts と同じ)。"""
+    if not new:
+        return [("del", old)]
+    if not old:
+        return [("ins", new)]
+    if old == new:
+        return [("keep", old)]
+    head = 0
+    while head < len(old) and head < len(new) and old[head] == new[head]:
+        head += 1
+    tail = 0
+    while (tail < len(old) - head and tail < len(new) - head
+           and old[len(old) - 1 - tail] == new[len(new) - 1 - tail]):
+        tail += 1
+    if head or tail:
+        mid = fix_parts(old[head:len(old) - tail], new[head:len(new) - tail])
+        return (([("keep", old[:head])] if head else []) + mid
+                + ([("keep", old[len(old) - tail:])] if tail else []))
+    i = old.find(new)
+    if i >= 0:
+        return ([("del", old[:i])] if old[:i] else []) + [("keep", new)] + \
+               ([("del", old[i + len(new):])] if old[i + len(new):] else [])
+    j = new.find(old)
+    if j >= 0:
+        return ([("ins", new[:j])] if new[:j] else []) + [("keep", old)] + \
+               ([("ins", new[j + len(old):])] if new[j + len(old):] else [])
+    return [("del", old), ("ins", new)]
+
+
+def _loose_pattern(old):
+    """誤訳箇所を、Markdown 化した本文 (太字記号や空白が挟まる) から探す正規表現。"""
+    return re.compile(r"(?:\*\*|\s)*".join(re.escape(ch) for ch in old if not ch.isspace()))
+
+
+_MARKUP = re.compile(r"(?:\*\*|\s)*")
+
+
+def _render_fix(old, new, matched):
+    """本文中の一致箇所 matched (old に太字記号・空白が挟まったもの) を「~~誤~~==正==」に書き換える。
+    matched 側の太字記号は残す (落とすと前後の ** と対がずれる)。"""
+    parts = fix_parts(old, new)
+    # 共通部分がごくわずかなら、細切れにせず全体を差し替えて見せる
+    kept = sum(len(t) for k, t in parts if k == "keep")
+    if 0 < kept < max(4, 0.3 * len(old)):
+        parts = [("del", old), ("ins", new)]
+    out, pos = [], 0
+    for kind, txt in parts:
+        if kind == "ins":
+            out.append("==%s==" % txt)
+            continue
+        m = _MARKUP.match(matched, pos)
+        out.append(matched[pos:m.end()])
+        pos = start = m.end()
+        n = len([c for c in txt if not c.isspace()])
+        while n:
+            pos = _MARKUP.match(matched, pos).end() if pos > start else pos
+            pos += 1
+            n -= 1
+        seg = matched[start:pos]
+        out.append(seg if kind == "keep" else "~~%s~~" % seg)
+    out.append(matched[pos:])
+    return "".join(out)
+
+
 # 照合を試みた (base, slug, section, key) の記録。check-translations が使う
 LOOKUPS = set()
 # "ユニット|名前" が当たったため照合されなかった "名前" の記録 (同じ形)
@@ -138,28 +213,46 @@ class Translations:
             return (["Spearhead|%s|%s" % (unit, en)] if spearhead else []) + ["%s|%s" % (unit, en)]
         return (["Spearhead|%s" % en] if spearhead else []) + [en]
 
-    def note_lines(self, section, keys, indent=""):
-        """translation_notes.json の open な注のうち、このファクションの section の keys に当たるものを
-        訳注のコールアウト行にする。keys は引く順の候補で、実際に訳が当たったキーの注だけを出す。"""
+    def _hit_notes(self, section, keys):
+        """translation_notes.json の open な注のうち、このファクションの section の keys に当たるもの。
+        keys は引く順の候補で、実際に訳が当たったキーの注だけを返す (同じ文面の注は 1 つにまとめる)。"""
         used = next((k for k in keys
                      if (self.official.get(section) or {}).get(k) or (self.own.get(section) or {}).get(k)), None)
         if used is None:
             return []
-        hit = [n for n in _load_notes(self.base)
-               if n.get("faction") == self.slug and n.get("tr_section") == section and n.get("tr_key") == used]
-        lines, seen = [], set()
-        for n in hit:
-            if n["note"] in seen:
-                continue
-            seen.add(n["note"])
+        out, seen = [], set()
+        for n in _load_notes(self.base):
+            if (n.get("faction") == self.slug and n.get("tr_section") == section
+                    and n.get("tr_key") == used and n["note"] not in seen):
+                seen.add(n["note"])
+                out.append(n)
+        return out
+
+    def fix_lines(self, lines, section, keys, indent=""):
+        """当たった注の fix_ja を、描画済みの行 lines (その場で書き換える) に「~~誤~~==正==」の形で
+        書き込む (40k の extract-core-rules と同じ表記)。訂正文が無い注・本文に見つからなかった訂正は
+        訳注のコールアウト行にして返す。"""
+        rest = []
+        for n in self._hit_notes(section, keys):
+            ok = False
+            for old, new in fix_pairs(n):
+                pat = _loose_pattern(old)
+                for i, l in enumerate(lines):
+                    m = pat.search(l)
+                    if m:
+                        lines[i] = l[:m.start()] + _render_fix(old, new, m.group(0)) + l[m.end():]
+                        ok = True
+                        break
+            if not ok:
+                rest.append(n)
+        out = []
+        for n in rest:
             body = n["note"]
-            fix = n.get("fix_ja")
-            if isinstance(fix, str):
-                body += " 訂正: 「%s」→「%s」" % (_plain(n.get("ja")), _plain(fix))
-            elif isinstance(fix, dict):
-                body += " 訂正: " + "、".join("「%s」→「%s」" % (_plain(a), _plain(b)) for a, b in fix.items())
-            lines += ["%s> [!warning] 訳注" % indent, "%s> %s" % (indent, body)]
-        return lines
+            pairs = fix_pairs(n)
+            if pairs:
+                body += " 訂正: " + "、".join("「%s」→「%s」" % (a, b) for a, b in pairs)
+            out += ["%s> [!warning] 訳注" % indent, "%s> %s" % (indent, body)]
+        return out
 
     def text(self, en, unit=None, spearhead=False):
         """アビリティ本文の訳 ({timing, declare, effect, keywords} の dict) か None。

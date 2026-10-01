@@ -125,8 +125,9 @@ def render_ability_lines(a, kw_names=None, indent="  ", tr=None, unit=None, spea
                 break
     keys_name = ["%s|%s" % (unit, a.get("name")), a.get("name")] if unit else [a.get("name")]
     if tr:
-        lines += tr.note_lines("ability_texts", tr.text_keys(a.get("name"), unit, spearhead), indent)
-        lines += tr.note_lines("ability_names", keys_name, indent)
+        notes = tr.fix_lines(lines, "ability_texts", tr.text_keys(a.get("name"), unit, spearhead), indent)
+        notes += tr.fix_lines(lines, "ability_names", keys_name, indent)
+        lines += notes
     return lines
 
 
@@ -176,6 +177,7 @@ def render_warscroll(w, ix, out, tr, show_points=True):
     weapons = ix["weapons_by_ws"].get(wid, [])
     ranged = [x for x in weapons if x.get("type") == "ranged"]
     melee = [x for x in weapons if x.get("type") != "ranged"]
+    wstart = len(out)
     if ranged:
         out.append("\n**遠隔武器:**\n")
         out.append("| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |")
@@ -197,11 +199,12 @@ def render_warscroll(w, ix, out, tr, show_points=True):
                 cell(x.get("wound")), cell(x.get("rend")),
                 cell(x.get("damage")), cell(", ".join(wab_names(x)) or "-")))
 
-    wnotes = []
-    for x in ranged + melee:
-        for l in tr.note_lines("weapon_names", ["%s|%s" % (unit, x["name"]), x["name"]]):
+    wnotes, wlines = [], out[wstart:]
+    for name in dict.fromkeys(x["name"] for x in ranged + melee):
+        for l in tr.fix_lines(wlines, "weapon_names", ["%s|%s" % (unit, name), name]):
             if l not in wnotes:
                 wnotes.append(l)
+    out[wstart:] = wlines
     if wnotes:
         out.append("")
         out.extend(wnotes)
@@ -240,9 +243,10 @@ def render_warscroll(w, ix, out, tr, show_points=True):
         out.append("\n**装備オプション:** %s" % clean(tr.wargear_text(unit, w["wargearOptionsText"])))
     if w.get("referenceKeywords"):
         out.append("\n**キーワード:** %s" % tr.keywords(w["referenceKeywords"], unit))
-        knotes = []
+        knotes, kline = [], out[-1:]
         for k in [k.strip() for k in w["referenceKeywords"].split(",") if k.strip()]:
-            knotes += tr.note_lines("keyword_names", ["%s|%s" % (unit, k), k])
+            knotes += tr.fix_lines(kline, "keyword_names", ["%s|%s" % (unit, k), k])
+        out[-1:] = kline
         if knotes:
             out.append("")
             out.extend(knotes)

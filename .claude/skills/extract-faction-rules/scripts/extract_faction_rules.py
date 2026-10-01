@@ -97,8 +97,9 @@ def render_ability(a, indent="  ", tr=None):
                 lines.append("%s- %s" % (indent, clean(a[k])))
                 break
     if tr:
-        lines += tr.note_lines("ability_texts", tr.text_keys(a.get("name")), indent)
-        lines += tr.note_lines("ability_names", [a.get("name")], indent)
+        notes = tr.fix_lines(lines, "ability_texts", tr.text_keys(a.get("name")), indent)
+        notes += tr.fix_lines(lines, "ability_names", [a.get("name")], indent)
+        lines += notes
     return lines
 
 
