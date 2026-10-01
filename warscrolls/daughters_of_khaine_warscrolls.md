@@ -1,13 +1,13 @@
 # Daughters of Khaine ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全34 ウォースクロール（Spearhead 版 3 件は除外。--include-spearhead で含められる）
 
 
 ---
 
-## Avatar of Khaine
+## カインの化身(Avatar of Khaine)
 
 **モデル数:** 1 / **ベースサイズ:** 40mm
 
@@ -29,14 +29,14 @@
 
 - **Lord of Murder Incarnate**（Passive）
   - 効果: This **MANIFESTATION** is affected by the ‘Blessings of Khaine’ ability as if it were a unit.
-- **Wrath of Khaine**（Passive）
+- **カインの憤怒(Wrath of Khaine)**（Passive）
   - 効果: Add **X** to the Attacks characteristic of this **MANIFESTATION**’s melee weapons, where **X** is the number of times you have used the ‘Blessings of Khaine’ ability this battle, to a maximum of 3.
 
 **キーワード:** Manifestation, Endless Spell, Ward (6+), Order, Daughters of Khaine
 
 ---
 
-## Bladewind
+## ブレイドウィンド(Bladewind)
 
 **モデル数:** 1 / **ベースサイズ:** 50mm
 
@@ -52,11 +52,11 @@
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Bladed Vortex | 9 | 3+ | 3+ | 1 | 1 | - |
+| 刃ありし大渦(Bladed Vortex) | 9 | 3+ | 3+ | 1 | 1 | - |
 
 **アビリティ:**
 
-- **Unnatural Edge**（Any Combat Phase）
+- **この世ならざる切れ味(Unnatural Edge)**（Any Combat Phase）
   - 宣言: If this **MANIFESTATION** charged this turn, pick an enemy unit in combat with it to be the target.
   - 効果: If any damage points are allocated to the target this phase by this **MANIFESTATION’**&#x73; combat attacks, ward rolls cannot be made for the target for the rest of the battle.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Blood Hags
+## ブラッドハグ(Blood Hags)
 
 **ポイント:** 150pt / **モデル数:** 10 / **ベースサイズ:** 28.5mm
 
@@ -97,7 +97,7 @@
 
 ---
 
-## Blood Sisters
+## ブラッドシスター(Blood Sisters)
 
 **ポイント:** 170pt / **モデル数:** 5 / **ベースサイズ:** 40mm
 
@@ -111,11 +111,11 @@
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Heartshard Glaive | 2 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
+| 心臓片の薙刀(Heartshard Glaive) | 2 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
 
 **アビリティ:**
 
-- **Crystal Touch**（Once Per Turn (Army), Any Combat Phase）
+- **結晶化(Crystal Touch)**（Once Per Turn (Army), Any Combat Phase）
   - 宣言: Pick an enemy **INFANTRY** or **CAVALRY** unit in combat with this unit to be the target.
   - 効果: Roll a dice. If the roll is equal to or less than the target’s Health characteristic, the target has **STRIKE-LAST** for the rest of the turn.
 
@@ -123,7 +123,7 @@
 
 ---
 
-## Blood Stalkers
+## ブラッドストーカー(Blood Stalkers)
 
 **ポイント:** 150pt / **モデル数:** 5 / **ベースサイズ:** 40mm
 
@@ -137,13 +137,13 @@
 
 | 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Heartseeker Bow | 18" | 3 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound) |
+| 心臓探しの弓(Heartseeker Bow) | 18" | 3 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Scianlar | 2 | 3+ | 4+ | - | 1 | - |
+| シアンラー(Scianlar) | 2 | 3+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
@@ -154,7 +154,7 @@
 
 ---
 
-## Bloodwrack Medusa
+## ブラッドラック・メデューサ(Bloodwrack Medusa)
 
 **ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
@@ -170,11 +170,11 @@
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Bloodwrack Spear and Whisperclaw | 5 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
+| ブラッドラック・スピアとウィスパークロウ(Bloodwrack Spear and Whisperclaw) | 5 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
 
 **アビリティ:**
 
-- **Exsanguinating Glare**（Once Per Turn (Army), Your Shooting Phase）
+- **滅血の眼光(Exsanguinating Glare)**（Once Per Turn (Army), Your Shooting Phase）
   - 宣言: If this unit is in combat, pick an enemy unit in combat with it to be the target. If this unit is not in combat, pick a visible enemy unit within 12" of it to be the target.
   - 効果: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Then, if any enemy models were slain by that mortal damage, inflict an amount of mortal damage on the target equal to its Health characteristic.
 - **Arcane Resonance**（Passive） ［Exalted］
@@ -188,7 +188,7 @@
 
 ---
 
-## Bloodwrack Shrine
+## ブラッドラック・シュライン(Bloodwrack Shrine)
 
 **ポイント:** 270pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
@@ -204,13 +204,13 @@
 
 | 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Bloodwrack Stare | 15" | 4 | 3+ | 3+ | 2 | 3 | Crit (2 Hits), Shoot in Combat |
+| ブラッドラックの視線(Bloodwrack Stare) | 15" | 4 | 3+ | 3+ | 2 | 3 | Crit (2 Hits), Shoot in Combat |
 
 **近接武器:**
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Shrine Guardians’ Blades | 9 | 3+ | 4+ | 1 | 2 | - |
+| 祭壇守護者の刃(Shrine Guardians’ Blades) | 9 | 3+ | 4+ | 1 | 2 | - |
 
 **アビリティ:**
 
@@ -219,7 +219,7 @@
 - **Born of Slaughter**（Your Hero Phase / 詠唱/詠誦値 6） ［Summon, Spell］
   - 宣言: If there are fewer friendly **Avatars of Khaine** on the battlefield than there are friendly **Bloodwrack Shrines** on the battlefield, make a casting roll of 2D6.
   - 効果: Set up an **Avatar of Khaine** wholly within 12" of the caster, visible to them and more than 9" from all enemy units.
-- **Aura of Agony**（Once Per Turn (Army), Your Hero Phase） ［Exalted］
+- **苦痛のオーラ(Aura of Agony)**（Once Per Turn (Army), Your Hero Phase） ［Exalted］
   - 効果: Until the start of your next turn: • Enemy **MANIFESTATIONS** cannot be set up within 12" of this unit. • This unit has **WARD (4+)** against mortal damage inflicted by **SPELL** abilities, **PRAYER** abilities and abilities used by **MANIFESTATIONS**.
 
 **レジメントオプション:**
@@ -231,7 +231,7 @@
 
 ---
 
-## Bloodwrack Viper
+## ブラッドラック・ヴァイパー(Bloodwrack Viper)
 
 **モデル数:** 1 / **ベースサイズ:** 100mm
 
@@ -247,11 +247,11 @@
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Fanged Strikes | 4 | 4+ | 2+ | 1 | 3 | Anti-HERO (+1 Rend), Crit (Mortal) |
+| 牙の一撃(Fanged Strikes) | 4 | 4+ | 2+ | 1 | 3 | Anti-HERO (+1 Rend), Crit (Mortal) |
 
 **アビリティ:**
 
-- **Crushing Coils**（Any Combat Phase）
+- **圧倒するとぐろ(Crushing Coils)**（Any Combat Phase）
   - 宣言: Pick an enemy **HERO** or **MONSTER** in combat with this **MANIFESTATION** to be the target.
   - 効果: Roll a dice. On a 3+, the target has **STRIKE-LAST** for the rest of the turn.
 - **Bind and Bite**（Passive）
@@ -261,7 +261,7 @@
 
 ---
 
-## Doomfire Warlocks
+## ドゥームファイア・ウォーロック(Doomfire Warlocks)
 
 **ポイント:** 150pt / **モデル数:** 5 / **ベースサイズ:** 60 x 35mm
 
@@ -275,18 +275,18 @@
 
 | 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Doomfire Crossbow | 10" | 2 | 3+ | 4+ | - | 1 | - |
+| ドゥームファイア・クロスボウ(Doomfire Crossbow) | 10" | 2 | 3+ | 4+ | - | 1 | - |
 
 **近接武器:**
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Cursed Scimitar | 2 | 3+ | 4+ | 1 | 1 | - |
-| Dark Steed’s Vicious Bite | 2 | 5+ | 3+ | - | 1 | Companion |
+| 呪われし曲刀(Cursed Scimitar) | 2 | 3+ | 4+ | 1 | 1 | - |
+| ダークスティードの猛烈な噛みつき(Dark Steed’s Vicious Bite) | 2 | 5+ | 3+ | - | 1 | Companion |
 
 **アビリティ:**
 
-- **Outmanoeuvre**（Passive）
+- **超絶駆動(Outmanoeuvre)**（Passive）
   - 効果: When this unit uses the ‘Redeploy’ command, if you roll a 1-3 when determining the distance this unit can move, you can use a value of 4 instead.
 
 **キーワード:** Wizard (1), Cavalry, Champion, Ward (6+), Order, Daughters of Khaine, Aelf
@@ -327,7 +327,7 @@
 
 ---
 
-## Hag Queen
+## ハグクィーン(Hag Queen)
 
 **ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 25mm
 
@@ -343,7 +343,7 @@
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Blade of Khaine | 5 | 3+ | 4+ | 1 | 2 | - |
+| カインの刃(Blade of Khaine) | 5 | 3+ | 4+ | 1 | 2 | - |
 
 **アビリティ:**
 
@@ -361,7 +361,7 @@
 
 ---
 
-## Hag Queen on Cauldron of Blood
+## ハグクィーン（コルドロン・オヴ・ブラッド搭乗）(Hag Queen on Cauldron of Blood)
 
 **ポイント:** 280pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
@@ -377,8 +377,8 @@
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Shrine Guardians’ Blades | 9 | 3+ | 4+ | 1 | 2 | - |
-| Avatar’s Sword | 5 | 3+ | 3+ | 2 | 3 | Companion |
+| 祭壇守護者の刃(Shrine Guardians’ Blades) | 9 | 3+ | 4+ | 1 | 2 | - |
+| 化身の剣(Avatar’s Sword) | 5 | 3+ | 3+ | 2 | 3 | Companion |
 
 **アビリティ:**
 
@@ -398,7 +398,7 @@
 
 ---
 
-## Heart of Fury
+## 憤怒の心臓(Heart of Fury)
 
 **モデル数:** 1 / **ベースサイズ:** 50mm
 
@@ -412,14 +412,14 @@
 
 **アビリティ:**
 
-- **Locus of the Murder God**（Passive）
+- **殺戮神の力の座(Locus of the Murder God)**（Passive）
   - 効果: Subtract 1 from wound rolls for attacks that target friendly **DAUGHTERS OF KHAINE INFANTRY** units while they are wholly within 12" of this **MANIFESTATION**.
 
 **キーワード:** Manifestation, Endless Spell, Ward (6+), Order, Daughters of Khaine
 
 ---
 
-## High Gladiatrix
+## ハイ・グラディアトリックス(High Gladiatrix)
 
 **ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -435,11 +435,11 @@
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Barbed Whip and Gladiatrix’s Blade | 6 | 3+ | 4+ | 1 | 2 | - |
+| 有棘の鞭と剣闘士の剣(Barbed Whip and Gladiatrix’s Blade) | 6 | 3+ | 4+ | 1 | 2 | - |
 
 **アビリティ:**
 
-- **Paragon of Slaughter**（Once Per Turn (Army), Your Hero Phase） ［Exalted］
+- **殺戮の模範者(Paragon of Slaughter)**（Once Per Turn (Army), Your Hero Phase） ［Exalted］
   - 宣言: Pick a visible friendly **DAUGHTERS OF KHAINE INFANTRY** unit wholly within 12" of this unit to be the target.
   - 効果: If this unit is in combat, add 1 to the Rend characteristic of the target’s melee weapons for the rest of the turn. If this unit is not in combat, roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s melee weapons for the rest of the turn.
 
@@ -453,7 +453,7 @@
 
 ---
 
-## Khainite Shadowstalkers
+## カイナイト・シャドウストーカー(Khainite Shadowstalkers)
 
 **ポイント:** 130pt / **モデル数:** 9 / **ベースサイズ:** 40mm [1], 28.5mm [8]
 
@@ -467,24 +467,24 @@
 
 | 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Cursed Bolts and Missiles | 10" | 2 | 3+ | 4+ | 1 | 1 | - |
+| 呪われた矢弾(Cursed Bolts and Missiles) | 10" | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Blades of Murder | 2 | 3+ | 4+ | 1 | 1 | - |
+| 殺人の刃(Blades of Murder) | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **アビリティ:**
 
-- **Shadow Leap**（Once Per Turn (Army), Your Movement Phase）
+- **影への跳躍(Shadow Leap)**（Once Per Turn (Army), Your Movement Phase）
   - 効果: Remove this unit from the battlefield and set it up again on the battlefield more than 9" from all enemy units.
 
 **キーワード:** Infantry, Champion (1/9), Ward (6+), Order, Daughters of Khaine, Aelf
 
 ---
 
-## Khinerai Heartrenders
+## キネライ・ハートレンダー(Khinerai Heartrenders)
 
 **ポイント:** 100pt / **モデル数:** 5 / **ベースサイズ:** 40mm
 
@@ -498,24 +498,24 @@
 
 | 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Barbed Javelin | 12" | 2 | 3+ | 4+ | 1 | 1 | - |
+| 鉤あるジャヴェリン(Barbed Javelin) | 12" | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Barbed Javelin | 1 | 3+ | 4+ | - | 1 | - |
+| 鉤あるジャヴェリン(Barbed Javelin) | 1 | 3+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Fire and Flight**（Once Per Turn (Army), Reaction: You declared a **SHOOT** ability for this unit）
+- **まず彼方より攻めよ(Fire and Flight)**（Once Per Turn (Army), Reaction: You declared a **SHOOT** ability for this unit）
   - 効果: After that **SHOOT** ability has been resolved, this unit can move 2D6". It cannot move into combat during any part of that move.
 
 **キーワード:** Infantry, Champion, Fly, Ward (6+), Order, Daughters of Khaine
 
 ---
 
-## Khinerai Lifetakers
+## キネライ・ライフテイカー(Khinerai Lifetakers)
 
 **ポイント:** 110pt / **モデル数:** 5 / **ベースサイズ:** 40mm
 
@@ -529,11 +529,11 @@
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Barbed Sickle | 2 | 3+ | 4+ | 1 | 1 | - |
+| 鉤ある鎌(Barbed Sickle) | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **アビリティ:**
 
-- **Fight and Flight**（Once Per Turn (Army), Any Combat Phase） ［Core, Attack, Fight］
+- **攻め立て、逃げよ(Fight and Flight)**（Once Per Turn (Army), Any Combat Phase） ［Core, Attack, Fight］
   - 効果: If this unit is in combat, it can move 12". It can pass through the combat ranges of enemy units but cannot end that move in combat. Then, roll a D3 for each enemy unit that this unit passed across during that move. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.
 
 **キーワード:** Infantry, Champion, Fly, Ward (6+), Order, Daughters of Khaine
@@ -577,7 +577,7 @@
 
 ---
 
-## Krethusa the Croneseer
+## 老婆の預言者クレトゥサ(Krethusa the Croneseer)
 
 **ポイント:** 220pt / **モデル数:** 1 / **ベースサイズ:** 60mm
 
@@ -593,7 +593,7 @@
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Staff of Morai-Heg | 4 | 3+ | 4+ | 1 | D3 | - |
+| モライ＝ヘグの杖(Staff of Morai-Heg) | 4 | 3+ | 4+ | 1 | D3 | - |
 
 **アビリティ:**
 
@@ -654,7 +654,7 @@
 
 ---
 
-## Melusai Ironscale
+## メルサイ・アイアンスケイル(Melusai Ironscale)
 
 **ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
@@ -670,7 +670,7 @@
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Keldrisaíth | 6 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
+| ケルドリサイス(Keldrisaíth) | 6 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
 
 **アビリティ:**
 
@@ -688,7 +688,7 @@
 
 ---
 
-## Morathi-Khaine
+## モラスィ＝カイン(Morathi-Khaine)
 
 **ポイント:** 770pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
@@ -704,7 +704,7 @@
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Heartrender and Bladed Wings | 5 | 3+ | 4+ | 2 | 2 | - |
+| ハートレンダーと刃ある翼(Heartrender and Bladed Wings) | 5 | 3+ | 4+ | 2 | 2 | - |
 
 **アビリティ:**
 
@@ -743,7 +743,7 @@
 
 | 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Heartseeker Bow | 18" | 3 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound) |
+| 心臓探しの弓(Heartseeker Bow) | 18" | 3 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
@@ -753,7 +753,7 @@
 
 **アビリティ:**
 
-- **Witchbrew**（Once Per Turn (Army), Any Hero Phase）
+- **ウィッチブリュー(Witchbrew)**（Once Per Turn (Army), Any Hero Phase）
   - 宣言: Pick a friendly **DAUGHTERS OF KHAINE** unit wholly within 12" of this unit to be the target.
   - 効果: Roll a dice. On a 3+, the target has **WARD (5+)** for the rest of the turn.
 - **Morgwaeth the Bloodied**（Passive）
@@ -767,7 +767,7 @@
 
 ---
 
-## Scourge of Aqshy: Khainite Shadowstalkers
+## アキュシーの禍事 カイナイト・シャドウストーカー(Scourge of Aqshy: Khainite Shadowstalkers)
 
 **ポイント:** 120pt / **モデル数:** 9 / **ベースサイズ:** 40mm [1], 28.5mm [8]
 
@@ -781,17 +781,17 @@
 
 | 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Cursed Bolts and Missiles | 10" | 2 | 3+ | 4+ | 1 | 1 | - |
+| 呪われた矢弾(Cursed Bolts and Missiles) | 10" | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Blades of Murder | 2 | 3+ | 4+ | 1 | 1 | - |
+| 殺人の刃(Blades of Murder) | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **アビリティ:**
 
-- **Shadow Lariat**（Once Per Turn (Army), End of Any Turn）
+- **影の投げ縄(Shadow Lariat)**（Once Per Turn (Army), End of Any Turn）
   - 宣言: If this unit is not in combat, pick a visible enemy **INFANTRY** or **CAVALRY HERO** that has no more than 1 model and is within 12" of this unit to be the target.
   - 効果: If the target is more than 3" from all other enemy units, apply the effect below. Otherwise, roll a dice. On a 3+, apply the effect below. Your opponent must remove the target from the battlefield and set it up again in combat with this unit.
 
@@ -801,7 +801,7 @@
 
 ---
 
-## Scourge of Aqshy: Melusai Ironscale
+## アキュシーの禍事 メルサイ・アイアンスケイル(Scourge of Aqshy: Melusai Ironscale)
 
 **ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
@@ -817,11 +817,11 @@
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Keldrisaíth | 6 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
+| ケルドリサイス(Keldrisaíth) | 6 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
 
 **アビリティ:**
 
-- **Frenzied Slaughter**（Once Per Turn (Army), Your Hero Phase） ［Exalted］
+- **狂乱の虐殺(Frenzied Slaughter)**（Once Per Turn (Army), Your Hero Phase） ［Exalted］
   - 宣言: Pick a visible friendly **DAUGHTERS OF KHAINE** unit wholly within 12" of this unit to be the target.
   - 効果: Roll a dice. If this unit is in combat, you can re-roll the dice. If the roll is lower than your **fury level**, add 1 to the Attacks characteristic of weapons used by this unit and the target until the start of your next turn.
 
@@ -835,7 +835,7 @@
 
 ---
 
-## Scourge of Ghyran Bloodwrack Shrine
+## グューランの禍事 ブラッドラック・シュライン(Scourge of Ghyran Bloodwrack Shrine)
 
 **ポイント:** 250pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
@@ -851,7 +851,7 @@
 
 | 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Bloodwrack Stare | 15" | 4 | 3+ | 3+ | 2 | 3 | Shoot in Combat, Crit (2 Hits) |
+| ブラッドラックの視線(Bloodwrack Stare) | 15" | 4 | 3+ | 3+ | 2 | 3 | Shoot in Combat, Crit (2 Hits) |
 
 **近接武器:**
 
@@ -861,10 +861,10 @@
 
 **アビリティ:**
 
-- **Reflected Agony**（Your Hero Phase / 詠唱/詠誦値 5） ［Spell］
+- **繰り返す断末魔(Reflected Agony)**（Your Hero Phase / 詠唱/詠誦値 5） ［Spell］
   - 宣言: Make a casting roll of 2D6.
   - 効果: Until the start of your next turn, enemy units and enemy **MANIFESTATIONS** cannot be set up within 12" of this unit.
-- **Wracking Gaze**（Once Per Turn (Army), Any Shooting Phase）
+- **ブラッドラックの睥睨(Wracking Gaze)**（Once Per Turn (Army), Any Shooting Phase）
   - 宣言: Pick a visible enemy unit within 15" of this unit to be the target.
   - 効果: Roll a dice. If the roll is equal to or less than that enemy unit’s Health characteristic, for the rest of the phase, you can re-roll failed hit rolls for attacks made by this unit that target that enemy unit.
 
@@ -879,7 +879,7 @@
 
 ---
 
-## Scourge of Ghyran Krethusa the Croneseer
+## グューランの禍事 老婆の預言者クレトゥサ(Scourge of Ghyran Krethusa the Croneseer)
 
 **ポイント:** 260pt / **モデル数:** 1 / **ベースサイズ:** 60mm
 
@@ -895,17 +895,17 @@
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Staff of Morai-Heg | 5 | 3+ | 4+ | 1 | D3 | Crit (Auto-wound) |
+| モライ＝ヘグの杖(Staff of Morai-Heg) | 5 | 3+ | 4+ | 1 | D3 | Crit (Auto-wound) |
 
 **アビリティ:**
 
-- **Gift of Foresight**（Once Per Battle, Your Movement Phase / CP 1）
+- **予言の力(Gift of Foresight)**（Once Per Battle, Your Movement Phase / CP 1）
   - 宣言: Pick a friendly non-**UNIQUE DAUGHTERS OF KHAINE AELF INFANTRY** or **CAVALRY** unit that has been destroyed to be the target.
   - 効果: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 9" of a battlefield edge and more than 9" from all enemy units.
-- **Blood Ritual**（Your Hero Phase / 詠唱/詠誦値 3） ［Prayer］
+- **鮮血の儀式(Blood Ritual)**（Your Hero Phase / 詠唱/詠誦値 3） ［Prayer］
   - 宣言: Pick a visible friendly **DAUGHTERS OF KHAINE AELF INFANTRY** or **CAVALRY** unit wholly within 12" of this unit to be the target. Then, make a chanting roll of D6.
   - 効果: Pick 1 of the following effects to apply until the start of your next turn: ***Prophecy of Tyranny:*** Enemy units cannot use commands while they are in combat with the target. ***Prophecy of Shelter:*** Other than the **COMPANION** ability, weapon abilities used by enemy units while they are in combat with the target have no effect. ***Prophecy of Retribution:*** Subtract 1 from ward rolls made for damage points inflicted by the target’s combat attacks. If the chanting roll was 9+, all of the above effects apply.
-- **The Croneseer**（Enemy Hero Phase）
+- **預言者クレトゥサ(The Croneseer)**（Enemy Hero Phase）
   - 効果: Give this unit D3 ritual points.
 
 **レジメントオプション:**
@@ -919,7 +919,7 @@
 
 ---
 
-## Shrine of Dark Tribute
+## 闇供物の祭壇(Shrine of Dark Tribute)
 
 **ポイント:** 20pt / **モデル数:** 1 / **ベースサイズ:** 130mm
 
@@ -950,7 +950,7 @@
 
 ---
 
-## Sisters of Slaughter
+## シスター・オヴ・スローター(Sisters of Slaughter)
 
 **ポイント:** 110pt / **モデル数:** 10 / **ベースサイズ:** 25mm
 
@@ -964,11 +964,11 @@
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Kruiplash | 3 | 3+ | 4+ | - | 1 | - |
+| クルイプラッシュ(Kruiplash) | 3 | 3+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Dance of Death**（Once Per Turn (Army), Any Combat Phase）
+- **死の舞踏(Dance of Death)**（Once Per Turn (Army), Any Combat Phase）
   - 宣言: Pick an enemy unit that charged this turn and is in combat with this unit to be the target.
   - 効果: Subtract 1 from hit rolls and wound rolls for the target’s combat attacks for the rest of the turn.
 
@@ -976,7 +976,7 @@
 
 ---
 
-## Slaughter Queen
+## スロータークィーン(Slaughter Queen)
 
 **ポイント:** 130pt / **モデル数:** 1 / **ベースサイズ:** 25mm
 
@@ -992,7 +992,7 @@
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Deathsword and Blade of Khaine | 6 | 3+ | 4+ | 1 | 2 | - |
+| 死の剣とカインの刃(Deathsword and Blade of Khaine) | 6 | 3+ | 4+ | 1 | 2 | - |
 
 **アビリティ:**
 
@@ -1011,7 +1011,7 @@
 
 ---
 
-## Slaughter Queen on Cauldron of Blood
+## スロータークィーン（コルドロン・オヴ・ブラッド搭乗）(Slaughter Queen on Cauldron of Blood)
 
 **ポイント:** 300pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
@@ -1027,12 +1027,12 @@
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Avatar’s Sword | 5 | 3+ | 3+ | 2 | 3 | Companion |
-| Shrine Guardians’ Blades | 9 | 3+ | 4+ | 1 | 2 | - |
+| 化身の剣(Avatar’s Sword) | 5 | 3+ | 3+ | 2 | 3 | Companion |
+| 祭壇守護者の刃(Shrine Guardians’ Blades) | 9 | 3+ | 4+ | 1 | 2 | - |
 
 **アビリティ:**
 
-- **Consecrated Revulsion**（Passive）
+- **聖なる激情(Consecrated Revulsion)**（Passive）
   - 効果: Add 1 to save rolls for visible friendly **DAUGHTERS OF KHAINE INFANTRY** units while they are wholly within 12" of this unit.
 - **Icon of Slaughter**（Passive） ［Exalted］
   - 効果: Each time a friendly **DAUGHTERS OF KHAINE** unit wholly within 12" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6. In addition, if there are any friendly **Hag Queens on Cauldrons of Blood** on the battlefield when that command is used, you receive D3 additional rally points.
@@ -1062,17 +1062,17 @@
 
 | 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Cursed Missiles | 10" | 1 | 3+ | 3+ | 1 | 1 | - |
+| 呪われし飛び道具(Cursed Missiles) | 10" | 1 | 3+ | 3+ | 1 | 1 | - |
 
 **近接武器:**
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Shadowstalker Blades | 2 | 3+ | 4+ | - | 1 | - |
+| シャドウストーカー・ブレイド(Shadowstalker Blades) | 2 | 3+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Shadow Leap**（Your Movement Phase）
+- **影への跳躍(Shadow Leap)**（Your Movement Phase）
   - 効果: Remove this unit from the battlefield and set it up again on the battlefield more than 9" from all enemy units.
 - **Mask of Shadowed Mirrors**（Any Combat Phase）
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
@@ -1086,7 +1086,7 @@
 
 ---
 
-## The Shadow Queen
+## 影の女王(The Shadow Queen)
 
 **ポイント:** 0pt / **モデル数:** 1 / **ベースサイズ:** 100mm
 
@@ -1102,8 +1102,8 @@
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Envenomed Tail | 1 | 3+ | 3+ | 2 | 6 | Crit (Mortal) |
-| Heartrender（戦傷時） | 8 | 3+ | 3+ | 2 | 3 | Crit (Mortal) |
+| 猛毒の尾(Envenomed Tail) | 1 | 3+ | 3+ | 2 | 6 | Crit (Mortal) |
+| 心臓裂き(Heartrender)（戦傷時） | 8 | 3+ | 3+ | 2 | 3 | Crit (Mortal) |
 
 **アビリティ:**
 
@@ -1125,7 +1125,7 @@
 
 ---
 
-## Witch Aelves
+## ウィッチアエルフ(Witch Aelves)
 
 **ポイント:** 120pt / **モデル数:** 10 / **ベースサイズ:** 25mm
 
@@ -1139,11 +1139,11 @@
 
 | 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
 |---|---|---|---|---|---|---|
-| Sciansá | 3 | 3+ | 4+ | - | 1 | - |
+| シアンサ(Sciansá) | 3 | 3+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Frenzied Fervour**（Passive）
+- **熱烈なる感情(Frenzied Fervour)**（Passive）
   - 効果: Add 1 to the Rend characteristic of this unit’s melee weapons if it charged in the same turn.
 
 **キーワード:** Infantry, Champion, Musician (1/5), Standard Bearer (1/5), Ward (6+), Order, Daughters of Khaine, Aelf

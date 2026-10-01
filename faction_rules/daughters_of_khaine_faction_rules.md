@@ -1,6 +1,6 @@
 # Daughters of Khaine ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## バトル特性
@@ -17,9 +17,9 @@ Daughters of Khaine armies can use the following abilities:
   - 効果: Each time a friendly **anointed** unit is destroyed, after removing it from play, you can immediately use the ‘Anointed Ritualist’ ability as if it were the start of the first battle round.
 - **Strident War Cry**（Once Per Turn (Army), Reaction: You declared a **CHARGE** ability for an anointed unit）
   - 効果: Pick a friendly non-**HERO DAUGHTERS OF KHAINE** unit that is not in combat, is wholly within 12" of that **anointed** unit and has not charged this turn to be the target. If that **anointed** unit charges, after that **CHARGE** ability has been resolved, the target can immediately use the ‘Charge’ ability even if it is not your charge phase. In addition, you can re-roll charge rolls for the target for the rest of the phase.
-- **Blood Rites**（Passive）
+- **血の儀式(Blood Rites)**（Passive）
   - 効果: You perform a blood rite each time: • An enemy unit is destroyed and any damage points were allocated to that unit by a friendly **anointed** unit’s combat attacks in the same turn. • A friendly **anointed** unit is destroyed. • A friendly unit contesting an objective you control is destroyed. • An enemy unit is destroyed by a friendly **DAUGHTERS OF KHAINE** unit’s attacks and any models in that enemy unit were contesting an objective you do not control in the same phase. • A unit (friendly or enemy) is destroyed and it was within 3" of a **Place of Power** at the start of the phase. Only one blood rite can be performed per unit destroyed.
-- **Blessings of Khaine**（Once Per Turn (Army), End of Any Turn）
+- **カインの祝福(Blessings of Khaine)**（Once Per Turn (Army), End of Any Turn）
   - 宣言: You can only use this ability if you performed any blood rites this turn.
   - 効果: Pick 1 of the following blessings that is not **active**. That blessing is **active**. While a blessing is **active**, its effect applies to friendly **DAUGHTERS OF KHAINE** units. The effects of more than 1 blessing can apply to a unit at the same time. • ***Blessing of Ruthlessness:*** Add 1 to hit rolls for those units’ combat attacks. • ***Blessing of Hatred:*** Add 1 to wound rolls for those units’ combat attacks. • ***Blessing of Haste:*** Add 3" to those units’ Move characteristic. • ***Blessing of Zeal:*** If those units charged in the same turn, they have **WARD (5+)** for the rest of the turn. • ***Blessing of Shadow:*** Subtract 1 from hit rolls for shooting attacks that target those units. • ***Blessing of Cruelty:*** Those units can use **CHARGE** and/or **SHOOT** abilities even if they have used a **RETREAT** ability in the same turn. • ***Blessing of Clarity:*** Add 1 to chanting rolls and casting rolls for those units.
 
@@ -28,7 +28,7 @@ Daughters of Khaine armies can use the following abilities:
 
 ### Arena Veterans（20pt）
 
-- **Graceful Elusion**（Any Combat Phase）
+- **優美な回避(Graceful Elusion)**（Any Combat Phase）
   - 効果: For the rest of the phase, friendly **DAUGHTERS OF KHAINE AELF INFANTRY** units have **WARD (5+)** until they have used a **FIGHT** ability.
 
 ### Cold-Hearted Murderers
@@ -38,7 +38,7 @@ Daughters of Khaine armies can use the following abilities:
 
 ### Coven Zealots
 
-- **Higher Purpose**（Once Per Turn (Army), End of Any Turn）
+- **より高い望みへ(Higher Purpose)**（Once Per Turn (Army), End of Any Turn）
   - 効果: Return D3 slain models to each friendly **DAUGHTERS OF KHAINE AELF INFANTRY** unit.
 
 ### Coven of Blood（20pt）
@@ -65,12 +65,12 @@ Daughters of Khaine armies can use the following abilities:
 
 **HERO** only
 
-- **Shadow-Blooded**（Reaction: You declared the ‘Redeploy’ command for a **DAUGHTERS OF KHAINE** unit wholly within 12" of this unit）
+- **影の血(Shadow-Blooded)**（Reaction: You declared the ‘Redeploy’ command for a **DAUGHTERS OF KHAINE** unit wholly within 12" of this unit）
   - 効果: If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead.
-- **Murderous Duellist**（Any Combat Phase）
+- **凶悪な決闘士(Murderous Duellist)**（Any Combat Phase）
   - 宣言: Pick an enemy unit that has no more than 1 model and is in combat with this unit to be the target.
   - 効果: Roll 2D6. If the roll equals or exceeds the target’s Control characteristic, for the rest of the turn, if this unit is in combat with the target when the target is picked to use a **FIGHT** ability, all of the target’s attacks must target this unit.
-- **Hand of Khaine**（Any Combat Phase）
+- **カインの御手(Hand of Khaine)**（Any Combat Phase）
   - 宣言: Pick an enemy **HERO** in combat with this unit to be the target.
   - 効果: Roll 2D6. If the roll exceeds the target’s Health characteristic, it is automatically destroyed. If the target is destroyed by this ability, this unit can use 2 **FIGHT** abilities this phase. After the first is used, however, this unit has **STRIKE-LAST** for the rest of the turn.
 
@@ -78,12 +78,12 @@ Daughters of Khaine armies can use the following abilities:
 
 **HERO** only
 
-- **Murder Manifested**（Reaction: This unit used the 'Activate Place of Power' ability）
+- **殺戮の顕現(Murder Manifested)**（Reaction: This unit used the 'Activate Place of Power' ability）
   - 効果: Apply the effect below instead of the effect of that ‘Activate Place of Power’ ability. Roll a dice. On a 1, inflict D3 mortal damage on this unit. On a 2+, if there are no friendly **Avatars of Khaine** on the battlefield, set up an **Avatar of Khaine** wholly within 12" of this unit, visible to it and more than 9" from all enemy units. This unit has summoned that **MANIFESTATION**.
-- **Loyal Unto Death**（Deployment Phase）
+- **死を以て忠となす(Loyal Unto Death)**（Deployment Phase）
   - 宣言: Pick another friendly **DAUGHTERS OF KHAINE HERO** that has a Health characteristic that equals or exceeds this unit’s Health characteristic to be the target.
   - 効果: For the rest of the battle, if this unit is within the target’s combat range when the target would be destroyed, the target is not destroyed and any remaining damage points inflicted on it have no effect. Then, **Heal (D3)** the target. Then, this unit is destroyed.
-- **Honoured Among Sects**（Passive）
+- **衆目の敬意(Honoured Among Sects)**（Passive）
   - 効果: If this unit is **anointed**, the effect of all blessings from the ‘Blessings of Khaine’ ability apply to this unit as if they were **active**.
 
 ## アーティファクト・オブ・パワー
@@ -93,12 +93,12 @@ Daughters of Khaine armies can use the following abilities:
 
 **HERO** only
 
-- **Crimson Draught**（Passive）
+- **紅蓮の薬壜(Crimson Draught)**（Passive）
   - 効果: You can re-roll charge rolls for this unit.
-- **Darkling Elixir**（End of Your Turn）
+- **悪鬼の霊薬(Darkling Elixir)**（End of Your Turn）
   - 宣言: Pick a visible friendly **DAUGHTERS OF KHAINE** unit wholly within 12" of this unit to be the target.
   - 効果: Roll a dice. On a 3+, the target can immediately use the ‘Retreat’ ability as if it were your movement phase.
-- **Witchbrew**（Your Hero Phase）
+- **魔女の薬液(Witchbrew)**（Your Hero Phase）
   - 宣言: Pick a visible friendly non-**UNIQUE DAUGHTERS OF KHAINE** unit wholly within 12" of this unit to be the target.
   - 効果: Roll a dice. On a 3+, ignore negative modifiers to save rolls for the target until the start of your next turn.
 
@@ -109,11 +109,11 @@ Daughters of Khaine armies can use the following abilities:
 
 Boons of Shadow are unique enhancements that can only be given to non-**HERO DAUGHTERS OF KHAINE** units. A unit can only have 1 Boon of Shadow.
 
-- **Ulguan Reactions**（Passive / 10pt）
+- **ウルグの応変(Ulguan Reactions)**（Passive / 10pt）
   - 効果: Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.
-- **Talismans of Shadow**（Reaction: You declared a SPELL, PRAYER or UNBIND ability for a unit within 3" of this unit / 10pt）
+- **影の護符(Talismans of Shadow)**（Reaction: You declared a SPELL, PRAYER or UNBIND ability for a unit within 3" of this unit / 10pt）
   - 効果: Spend 1 **rage dice**. If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, add 1 to that casting roll, chanting roll or unbinding roll.
-- **Tenebrous Aura**（Start of Any Turn / 10pt）
+- **闇の威光(Tenebrous Aura)**（Start of Any Turn / 10pt）
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
   - 効果: For the rest of the turn: • The target cannot use **RETREAT** abilities. • If an ability would heal or return any slain models to the target unit, that ability does not heal any damage points or return any slain models to it.
 
@@ -122,13 +122,13 @@ Boons of Shadow are unique enhancements that can only be given to non-**HERO DAU
 
 ### Bloodshadow Rites（20pt）
 
-- **Scáthscale**（Your Hero Phase / 詠唱/詠誦値 3）
+- **影の鱗(Scáthscale)**（Your Hero Phase / 詠唱/詠誦値 3）
   - 宣言: Pick a friendly **DAUGHTERS OF KHAINE PRIEST** to chant this prayer, pick a friendly **DAUGHTERS OF KHAINE AELF INFANTRY** unit wholly within 12" of them to be the target, then make a chanting roll of D6.
   - 効果: Until the start of your next turn, subtract 1 from wound rolls for combat attacks that target that friendly unit. If the chanting roll was 8+, until the start of your next turn, subtract 1 from wound rolls for combat attacks that target friendly **DAUGHTERS OF KHAINE AELF INFANTRY** units while they are wholly within 12" of the target of this ability instead.
-- **Shadowstep**（Your Hero Phase / 詠唱/詠誦値 3）
+- **影歩み(Shadowstep)**（Your Hero Phase / 詠唱/詠誦値 3）
   - 宣言: Pick a friendly **DAUGHTERS OF KHAINE PRIEST** to chant this prayer, pick a visible friendly **DAUGHTERS OF KHAINE AELF INFANTRY** unit wholly within 12" of them and that has not been picked to be the target of this prayer this turn to be the target, then make a chanting roll of D6.
   - 効果: The target can move up to 6". It can move through the combat ranges of enemy units but cannot end that move in combat. If the chanting roll was 8+, you can pick another eligible unit to be a second target.
-- **Exultation of Murder**（Your Hero Phase / 詠唱/詠誦値 4）
+- **狂喜殺人(Exultation of Murder)**（Your Hero Phase / 詠唱/詠誦値 4）
   - 宣言: Pick a friendly **DAUGHTERS OF KHAINE PRIEST** to chant this prayer, pick a friendly **DAUGHTERS OF KHAINE AELF INFANTRY** unit wholly within 12" of them to be the target, then make a chanting roll of D6.
   - 効果: Until the start of your next turn, add 1 to wound rolls for the target’s combat attacks. In addition, if the chanting roll was 9+, until the start of your next turn, add 1 to the Attacks characteristic of the target’s melee weapons.
 
@@ -137,22 +137,22 @@ Boons of Shadow are unique enhancements that can only be given to non-**HERO DAU
 - **Black Horror of Ulgu**（Your Hero Phase / 詠唱/詠誦値 6）
   - 宣言: Pick a friendly **DAUGHTERS OF KHAINE WIZARD** to cast this spell, pick a point on the battlefield within 18" of them, pick up to 3 enemy units within 3" of that point to be the targets, then make a casting roll of 2D6.
   - 効果: The targets cannot use **RUN** abilities until the start of your next turn.
-- **Steed of Shadows**（Your Hero Phase / 詠唱/詠誦値 6）
+- **影の駿馬(Steed of Shadows)**（Your Hero Phase / 詠唱/詠誦値 6）
   - 宣言: Pick a friendly **DAUGHTERS OF KHAINE WIZARD** to cast this spell, pick a visible friendly **DAUGHTERS OF KHAINE** unit wholly within 12" of them to be the target, then make a casting roll of 2D6.
   - 効果: The target can use **CHARGE** abilities this turn even if it used a **RUN** ability in the same turn.
-- **Mindrazor**（Your Hero Phase / 詠唱/詠誦値 7）
+- **心の刃(Mindrazor)**（Your Hero Phase / 詠唱/詠誦値 7）
   - 宣言: Pick a friendly **DAUGHTERS OF KHAINE WIZARD** to cast this spell, pick a visible friendly **DAUGHTERS OF KHAINE** unit wholly within 12" of them to be the target, then make a casting roll of 2D6.
   - 効果: The target’s melee weapons have **Charge (+1 Damage)** until the start of your next turn.
 
 ### Manifestations of Khaine
 
-- **Summon Bladewind**（Your Hero Phase / 詠唱/詠誦値 6）
+- **ブレイドウィンド召喚(Summon Bladewind)**（Your Hero Phase / 詠唱/詠誦値 6）
   - 宣言: If there is not a friendly **Bladewind** on the battlefield, pick a friendly **DAUGHTERS OF KHAINE WIZARD** to cast this spell, then make a casting roll of 2D6.
   - 効果: Set up a **Bladewind** wholly within 12" of the caster, visible to them and more than 9" from all enemy units.
-- **Summon Bloodwrack Viper**（Your Hero Phase / 詠唱/詠誦値 6）
+- **ブラッドラック・ヴァイパー召喚(Summon Bloodwrack Viper)**（Your Hero Phase / 詠唱/詠誦値 6）
   - 宣言: If there is not a friendly **Bloodwrack Viper** on the battlefield, pick a friendly **DAUGHTERS OF KHAINE WIZARD** to cast this spell, then make a casting roll of 2D6.
   - 効果: Set up a **Bloodwrack Viper** wholly within 12" of the caster, visible to them and more than 9" from all enemy units.
-- **Summon Heart of Fury**（Your Hero Phase / 詠唱/詠誦値 6）
+- **憤怒の心臓の召喚(Summon Heart of Fury)**（Your Hero Phase / 詠唱/詠誦値 6）
   - 宣言: If there is not a friendly **Heart of Fury** on the battlefield, pick a friendly **DAUGHTERS OF KHAINE WIZARD** to cast this spell, then make a casting roll of 2D6.
   - 効果: Set up a **Heart of Fury** wholly within 18" of the chanter and visible to them.
 
@@ -161,7 +161,7 @@ Boons of Shadow are unique enhancements that can only be given to non-**HERO DAU
 - **Catechism of Murder**（Your Hero Phase / 詠唱/詠誦値 3）
   - 宣言: Pick a friendly **DAUGHTERS OF KHAINE PRIEST** to chant this prayer, pick a visible friendly **DAUGHTERS OF KHAINE** unit wholly within 12" of them to be the target, then make a chanting roll of D6.
   - 効果: The target’s melee weapons have **Crit (Auto-wound)** until the start of your next turn. In addition, if the chanting roll was 7+, the target’s combat attacks score critical hits on unmodified hit rolls of 5+ until the start of your next turn.
-- **Covenant of the Iron Heart**（Your Hero Phase / 詠唱/詠誦値 3）
+- **鉄心臓の盟約(Covenant of the Iron Heart)**（Your Hero Phase / 詠唱/詠誦値 3）
   - 宣言: Pick a friendly **DAUGHTERS OF KHAINE PRIEST** to chant this prayer, pick a visible friendly **DAUGHTERS OF KHAINE** unit wholly within 12" of them to be the target, then make a chanting roll of D6.
   - 効果: Add 10 to the target’s control score until the start of your next turn. In addition, if the chanting roll was 6+, ignore the first damage point that would be allocated to the target in each phase until the start of your next turn.
 - **Dance of Doom**（Your Hero Phase / 詠唱/詠誦値 4）
