@@ -26,6 +26,9 @@ dump.json は英語のみ（localisations 無し）。入手方法は fetch-dump
 """
 import json, re, argparse, sys, os
 
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "_lib"))
+from aos_translations import Translations, slugify  # noqa: E402
+
 
 def provenance(dump_path, data_version=None):
     """出典文字列を生成。<dump>.meta.json (fetch-dump 生成) があれば
@@ -60,10 +63,6 @@ def cell(t):
     return clean(t).replace("|", "\\|") or "-"
 
 
-def slugify(en):
-    return re.sub(r"[^a-z0-9]+", "_", (en or "").lower()).strip("_")
-
-
 def build_indexes(d):
     """warscroll 描画に必要なインデックス群を構築する。"""
     def by(t, key):
@@ -86,10 +85,11 @@ def build_indexes(d):
     return ix
 
 
-def render_ability_lines(a, kw_names=None, indent="  "):
+def render_ability_lines(a, kw_names=None, indent="  ", tr=None, unit=None):
     """warscroll_ability / lore_ability 相当の 1 アビリティを箇条書きで描画。"""
     lines = []
-    head = "- **%s**" % a.get("name")
+    name = tr.ability(a.get("name"), unit) if tr else a.get("name")
+    head = "- **%s**" % name
     tags = []
     if a.get("phaseDetails"):
         tags.append(a["phaseDetails"])
@@ -117,10 +117,11 @@ def render_ability_lines(a, kw_names=None, indent="  "):
     return lines
 
 
-def render_warscroll(w, ix, out, show_points=True):
+def render_warscroll(w, ix, out, tr, show_points=True):
     """1 ウォースクロールを Markdown で out(list) に追記する。"""
     wid = w["id"]
-    name = w["name"] + ((", %s" % w["subname"]) if w.get("subname") else "")
+    unit = w["name"]
+    name = tr.unit(w)
     flags = []
     if w.get("isLegends"):
         flags.append("Legends")
@@ -167,7 +168,7 @@ def render_warscroll(w, ix, out, show_points=True):
         out.append("| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |")
         out.append("|---|---|---|---|---|---|---|---|")
         for x in ranged:
-            nm = x["name"] + ("（戦傷時）" if x.get("battleDamaged") else "")
+            nm = tr.weapon(x["name"], unit) + ("（戦傷時）" if x.get("battleDamaged") else "")
             out.append("| %s | %s | %s | %s | %s | %s | %s | %s |" % (
                 cell(nm), cell(x.get("range")), cell(x.get("attacks")),
                 cell(x.get("hit")), cell(x.get("wound")), cell(x.get("rend")),
@@ -177,7 +178,7 @@ def render_warscroll(w, ix, out, show_points=True):
         out.append("| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |")
         out.append("|---|---|---|---|---|---|---|")
         for x in melee:
-            nm = x["name"] + ("（戦傷時）" if x.get("battleDamaged") else "")
+            nm = tr.weapon(x["name"], unit) + ("（戦傷時）" if x.get("battleDamaged") else "")
             out.append("| %s | %s | %s | %s | %s | %s | %s |" % (
                 cell(nm), cell(x.get("attacks")), cell(x.get("hit")),
                 cell(x.get("wound")), cell(x.get("rend")),
@@ -189,7 +190,7 @@ def render_warscroll(w, ix, out, show_points=True):
         for a in abilities:
             kws = [ix["keyword"].get(r["keywordId"])
                    for r in ix["wakw_by_ability"].get(a["id"], [])]
-            out.extend(render_ability_lines(a, [k for k in kws if k]))
+            out.extend(render_ability_lines(a, [k for k in kws if k], tr=tr, unit=unit))
 
     # 地形ウォースクロールの地形ルール
     tas = sorted(ix["terrainab_by_ws"].get(wid, []),
@@ -199,7 +200,8 @@ def render_warscroll(w, ix, out, show_points=True):
         for r in tas:
             ta = ix["terrain_ability"].get(r["terrainAbilityId"])
             if ta:
-                out.append("- **%s:** %s" % (ta["name"], clean(ta.get("rules"))))
+                out.append("- **%s:** %s" % (tr.ability(ta["name"], unit),
+                                             clean(ta.get("rules"))))
 
     # 編成 (レジメントに加えられるユニット)
     ropts = [r for r in sorted(ix["regopt_by_ws"].get(wid, []),
@@ -237,6 +239,7 @@ def build(dump_path, faction_id, raw, include_spearhead=False):
     fname = fk.get(faction_id, {}).get("name") or faction_id
     rows, total = faction_warscrolls(d, faction_id, include_spearhead)
     ix = build_indexes(d)
+    tr = Translations(dump_path, fname)
 
     out = []
     out.append("# %s ウォースクロール一覧\n" % fname)
@@ -245,7 +248,7 @@ def build(dump_path, faction_id, raw, include_spearhead=False):
         "（Spearhead 版 %d 件は除外。--include-spearhead で含められる）" % (total - len(rows))
     out.append("全%d ウォースクロール%s\n" % (len(rows), note))
     for w in rows:
-        render_warscroll(w, ix, out)
+        render_warscroll(w, ix, out, tr)
     return "\n".join(out) + "\n", len(rows), fname
 
 

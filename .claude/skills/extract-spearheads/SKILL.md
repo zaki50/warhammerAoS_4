@@ -50,6 +50,14 @@ python3 $SKILL --dump dump.json --outdir sp
 4. **レジメントアビリティ** … ターンごとに 1 つ選ぶアビリティ（4 種）
 5. **強化** … ジェネラルに与える強化（4 種）
 
+## 日本語の名前
+
+`extract-warscrolls` と同じく、`official_translations/` → `own_translations/` の
+`<ファクションslug>.json` から名前を引いて `{日本語名}({英語名})` で出す。
+ユニット名（編成一覧・ユニット詳細の見出し）、武器名（武器表）、アビリティ名
+（ユニットのアビリティ、バトル特性・レジメントアビリティ・強化）が対象。
+Spearhead 版も通常版と同じ英語名で当たる。
+
 ## 補足
 
 - Spearhead は publication（`spearheadName` 持ち / 名前が "Spearhead: ..."）として表現され、

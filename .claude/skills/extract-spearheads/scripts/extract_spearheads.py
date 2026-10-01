@@ -28,6 +28,9 @@ dump.json は英語のみ。入手方法は fetch-dump スキルを参照。
 """
 import json, re, argparse, sys, os
 
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "_lib"))
+from aos_translations import Translations  # noqa: E402
+
 
 def provenance(dump_path, data_version=None):
     meta = {}
@@ -82,9 +85,10 @@ def build_indexes(d):
     }
 
 
-def render_ability_lines(a, kw_names=None, indent="  "):
+def render_ability_lines(a, kw_names=None, indent="  ", tr=None, unit=None):
     lines = []
-    head = "- **%s**" % a.get("name")
+    name = tr.ability(a.get("name"), unit) if tr else a.get("name")
+    head = "- **%s**" % name
     tags = []
     if a.get("phaseDetails"):
         tags.append(a["phaseDetails"])
@@ -111,10 +115,10 @@ def render_ability_lines(a, kw_names=None, indent="  "):
     return lines
 
 
-def render_warscroll(w, ix, out):
+def render_warscroll(w, ix, out, tr):
     wid = w["id"]
-    name = w["name"] + ((", %s" % w["subname"]) if w.get("subname") else "")
-    out.append("\n### %s\n" % name)
+    unit = w["name"]
+    out.append("\n### %s\n" % tr.unit(w))
 
     info = []
     if w.get("modelCount") is not None:
@@ -149,7 +153,7 @@ def render_warscroll(w, ix, out):
         out.append("| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |")
         out.append("|---|---|---|---|---|---|---|---|")
         for x in ranged:
-            nm = x["name"] + ("（戦傷時）" if x.get("battleDamaged") else "")
+            nm = tr.weapon(x["name"], unit) + ("（戦傷時）" if x.get("battleDamaged") else "")
             out.append("| %s | %s | %s | %s | %s | %s | %s | %s |" % (
                 cell(nm), cell(x.get("range")), cell(x.get("attacks")),
                 cell(x.get("hit")), cell(x.get("wound")), cell(x.get("rend")),
@@ -159,7 +163,7 @@ def render_warscroll(w, ix, out):
         out.append("| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |")
         out.append("|---|---|---|---|---|---|---|")
         for x in melee:
-            nm = x["name"] + ("（戦傷時）" if x.get("battleDamaged") else "")
+            nm = tr.weapon(x["name"], unit) + ("（戦傷時）" if x.get("battleDamaged") else "")
             out.append("| %s | %s | %s | %s | %s | %s | %s |" % (
                 cell(nm), cell(x.get("attacks")), cell(x.get("hit")),
                 cell(x.get("wound")), cell(x.get("rend")),
@@ -171,7 +175,7 @@ def render_warscroll(w, ix, out):
         for a in abilities:
             kws = [ix["keyword"].get(r["keywordId"])
                    for r in ix["wakw_by_ability"].get(a["id"], [])]
-            out.extend(render_ability_lines(a, [k for k in kws if k]))
+            out.extend(render_ability_lines(a, [k for k in kws if k], tr=tr, unit=unit))
 
     if w.get("referenceKeywords"):
         out.append("\n**キーワード:** %s" % w["referenceKeywords"])
@@ -232,14 +236,15 @@ def build_one(dump_path, sp, d, ix, data_version, ab_by_group):
     out.append(provenance(dump_path, data_version))
 
     units = sorted(sp["units"], key=lambda w: (w["name"], w.get("subname") or ""))
+    tr = Translations(dump_path, sp["faction"])
     if units:
         out.append("\n## 編成\n")
         for w in units:
             mc = w.get("modelCount")
-            out.append("- %s%s" % (w["name"], "（%s体）" % mc if mc else ""))
+            out.append("- %s%s" % (tr.unit(w), "（%s体）" % mc if mc else ""))
         out.append("\n## ユニット詳細\n")
         for w in units:
-            render_warscroll(w, ix, out)
+            render_warscroll(w, ix, out, tr)
 
     order = {t: i for i, (t, _) in enumerate(GROUP_SECTION)}
     titles = dict(GROUP_SECTION)
@@ -251,7 +256,7 @@ def build_one(dump_path, sp, d, ix, data_version, ab_by_group):
         if g.get("restrictionText"):
             out.append("%s\n" % clean(g["restrictionText"]))
         for a in ab_by_group.get(g["id"], []):
-            out.extend(render_ability_lines(a))
+            out.extend(render_ability_lines(a, tr=tr))
     return "\n".join(out) + "\n"
 
 

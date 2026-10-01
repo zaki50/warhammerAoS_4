@@ -22,6 +22,23 @@ Warhammer Age of Sigmar 公式アプリ `com.gamesworkshop.aos4` に同梱され
 
 **dump.json は英語のみ**（40k 版と異なり `localisations` を持たない）。`--lang` オプションは無い。
 
+## 日本語の名前
+
+dump.json と同じディレクトリの翻訳ファイルから名前を引き、`{日本語名}({英語名})` で出す
+（例: `## ウィッチアエルフ(Witch Aelves)`）。無ければ英語名のみ。
+
+- ユニット名（`unit_names`）… 見出し
+- 武器名（`weapon_names`）… 射撃・近接武器の表
+- アビリティ名（`ability_names`）… アビリティ欄と地形ルール
+
+武器名・アビリティ名は `"ユニット英語名|名前"` のキーがあればそちらが優先される。
+
+1. `official_translations/<ファクションslug>.json`（公式訳。優先）
+2. `own_translations/<ファクションslug>.json`（独自訳）
+
+他ファクションのファイルは参照しない。書き方と取り込み元は `official_translations/README.md`。
+訳を足したら、そのファクションだけ `--faction` で作り直せばよい。
+
 ## 使い方
 
 スクリプト: `scripts/extract_warscrolls.py`（依存は Python 3 標準ライブラリのみ）

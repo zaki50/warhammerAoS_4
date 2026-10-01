@@ -87,7 +87,9 @@ GEN_PATHS=(warscrolls faction_rules battle_tactics.md spearheads dump.json dump.
 if git rev-parse --is-inside-work-tree >/dev/null 2>&1 \
    && git diff --quiet -- dump.json 2>/dev/null \
    && [[ -z "$(git status --porcelain -- "${GEN_PATHS[@]}" | grep -v '^ M ' || true)" ]]; then
-  CHANGED="$(git diff -U0 -- "${GEN_PATHS[@]}" | grep -E '^[+-][^+-]' || true)"
+  # 変更行は '+'/'-' で始まる行のうち、ファイル見出しの '+++ '/'--- ' を除いたもの。
+  # 箇条書きの行は '+- **…**' のように 2 文字目も '-' になるので、2 文字目では除外しない
+  CHANGED="$(git diff -U0 -- "${GEN_PATHS[@]}" | grep -E '^[+-]' | grep -vE '^(\+\+\+|---) ' || true)"
   NON_PROV="$(printf '%s\n' "$CHANGED" \
       | grep -vE '^[+-](出典: Warhammer Age of Sigmar 公式アプリ|  "extractedAt": )' \
       | grep -v '^$' || true)"
@@ -96,5 +98,10 @@ if git rev-parse --is-inside-work-tree >/dev/null 2>&1 \
     echo "=== データ改訂なし (抽出日のみの差分) のため生成物を元に戻しました ==="
   fi
 fi
+
+# --- 7. 参照されなくなった訳の確認 (列挙のみ。失敗扱いにはしない) ---
+echo "=== 訳ファイルの確認 (check-translations) ==="
+python3 .claude/skills/check-translations/scripts/check_translations.py --dump dump.json \
+  | sed 's/^/  /' || echo "  NG(ct)"
 
 echo "=== 完了 ==="

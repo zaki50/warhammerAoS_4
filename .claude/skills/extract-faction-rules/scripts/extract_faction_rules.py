@@ -24,6 +24,9 @@ dump.json は英語のみ。入手方法は fetch-dump スキルを参照。
 """
 import json, re, argparse, sys, os
 
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "_lib"))
+from aos_translations import Translations  # noqa: E402
+
 GROUP_SECTIONS = [
     ("battleTraits", "バトル特性"),
     ("heroicTraits", "英雄特性"),
@@ -62,10 +65,10 @@ def slugify(en):
     return re.sub(r"[^a-z0-9]+", "_", (en or "").lower()).strip("_")
 
 
-def render_ability(a, indent="  "):
+def render_ability(a, indent="  ", tr=None):
     """ability / battle_formation_rule / lore_ability を共通の箇条書きで描画。"""
     lines = []
-    head = "- **%s**" % a.get("name")
+    head = "- **%s**" % (tr.ability(a.get("name")) if tr else a.get("name"))
     tags = []
     if a.get("phaseDetails"):
         tags.append(a["phaseDetails"])
@@ -124,6 +127,7 @@ def build(dump_path, fid, raw):
     data_version = raw.get("metadata", {}).get("data_version")
     fk = {f["id"]: f for f in d["faction_keyword"]}
     fname = fk.get(fid, {}).get("name") or fid
+    tr = Translations(dump_path, fname)
 
     ab_by_group = {}
     for a in d["ability"]:
@@ -161,7 +165,7 @@ def build(dump_path, fid, raw):
             if g.get("restrictionText"):
                 out.append("%s\n" % clean(g["restrictionText"]))
             for a in ab_by_group.get(g["id"], []):
-                out.extend(render_ability(a))
+                out.extend(render_ability(a, tr=tr))
                 n_items += 1
 
     emit_groups("battleTraits", "バトル特性")
@@ -178,7 +182,7 @@ def build(dump_path, fid, raw):
             out.append("\n### %s%s\n" % (b["name"],
                                          "（%s）" % ", ".join(tags) if tags else ""))
             for r in bfr_by_bf.get(b["id"], []):
-                out.extend(render_ability(r))
+                out.extend(render_ability(r, tr=tr))
                 n_items += 1
 
     for gtype, title in GROUP_SECTIONS[1:]:
@@ -194,7 +198,7 @@ def build(dump_path, fid, raw):
                 out.append("%s\n" % clean(l["restrictionText"]))
             for a in sorted(la_by_lore.get(l["id"], []),
                             key=lambda x: (x.get("castingValue") or 0, x["name"])):
-                out.extend(render_ability(a))
+                out.extend(render_ability(a, tr=tr))
                 n_items += 1
 
     return "\n".join(out) + "\n", n_items, fname

@@ -23,6 +23,12 @@ Warhammer Age of Sigmar 公式アプリ `com.gamesworkshop.aos4` 同梱の `asse
 各アビリティはフェイズ・宣言・効果・ポイント・詠唱値付きの箇条書き。
 同名グループ（版違い等）を区別できるよう、グループ見出しに出典書籍を付記する。
 
+## 日本語のアビリティ名
+
+各アビリティ名は `official_translations/` → `own_translations/` の `<ファクションslug>.json` の
+`ability_names` から引いて `{日本語名}({英語名})` で出す（無ければ英語名のみ）。
+仕組みと書き方は `official_translations/README.md`。グループ名（フォーメーション名・ロア名など）は今は訳さない。
+
 ## データソース
 
 プロジェクトルートの `dump.json` を使う。無い・古い場合は `fetch-dump` スキルで端末から取得する。
