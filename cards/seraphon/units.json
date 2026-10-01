@@ -1144,7 +1144,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Starstone Bolas and a Moonstone Club.***\n\n• ***1/5 models can replace their weapons with a Hunter Javelin.***\n• ***The champion cannot replace their weapons.***"
+    "en": "***Each model in this unit is armed with Starstone Bolas and a Moonstone Club.***\n\n• ***1/5 models can replace their weapons with a Hunter Javelin.***\n• ***The champion cannot replace their weapons.***",
+    "fix": []
    }
   },
   {
@@ -1284,7 +1285,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Drakebite Maul.***\n\n***• 1/3 models can replace their Drakebite Maul with a Moonstone Hammer.***"
+    "en": "***Each model in this unit is armed with a Drakebite Maul.***\n\n***• 1/3 models can replace their Drakebite Maul with a Moonstone Hammer.***",
+    "fix": []
    }
   },
   {
@@ -1457,7 +1459,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Drakefang Warpick.***\n\n***• 1/3 models can replace their Drakefang Warpick with a Starfang Warpick.***"
+    "en": "***Each model in this unit is armed with a Drakefang Warpick.***\n\n***• 1/3 models can replace their Drakefang Warpick with a Starfang Warpick.***",
+    "fix": []
    }
   },
   {
@@ -2231,7 +2234,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Unstable**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Unstable**",
+    "fix": []
    }
   },
   {
@@ -6179,7 +6183,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***This unit is armed with Handlers’ Meteoric Javelins and Stegadon’s Horns and Jaws, and 1 of the following options:***\n\n• ***Skystreak Bow***\n• ***Sunfire Throwers***"
+    "en": "***This unit is armed with Handlers’ Meteoric Javelins and Stegadon’s Horns and Jaws, and 1 of the following options:***\n\n• ***Skystreak Bow***\n• ***Sunfire Throwers***",
+    "fix": []
    }
   },
   {
@@ -6452,7 +6457,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***This unit is armed with a Meteoric Warspear, Handlers’ Meteoric Javelins, Stegadon’s Horns and Jaws, and 1 of the following options:***\n\n• ***Skystreak Bow***\n• ***Sunfire Throwers***"
+    "en": "***This unit is armed with a Meteoric Warspear, Handlers’ Meteoric Javelins, Stegadon’s Horns and Jaws, and 1 of the following options:***\n\n• ***Skystreak Bow***\n• ***Sunfire Throwers***",
+    "fix": []
    }
   },
   {
@@ -6644,7 +6650,8 @@
    "notes_en": "This **HERO** can join an eligible regiment as a *Favoured Spawning*. This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "*The models in this unit are 1 Sunblood and 2 Saurus Bodyguard. Each model is armed with Celestite Weapons. This unit’s Venomites are a token.*"
+    "en": "*The models in this unit are 1 Sunblood and 2 Saurus Bodyguard. Each model is armed with Celestite Weapons. This unit’s Venomites are a token.*",
+    "fix": []
    }
   },
   {
@@ -7577,7 +7584,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***The models in this unit are:***\n\n***• Kro-Jax, the Aegis** (armed with a Relic Celestite Warmace)*\n***• So-Kar** (armed with a Celestite Weapon)*\n***• Ro-Tak, the Guardian** (armed with a Celestite Weapon)*"
+    "en": "***The models in this unit are:***\n\n***• Kro-Jax, the Aegis** (armed with a Relic Celestite Warmace)*\n***• So-Kar** (armed with a Celestite Weapon)*\n***• Ro-Tak, the Guardian** (armed with a Celestite Weapon)*",
+    "fix": []
    }
   },
   {
@@ -7791,7 +7799,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***The models in this unit are:***\n\n• ***Kixi-Taka, the Diviner** (champion, armed with Starblood Weapons)*\n• ***Otapatl** (armed with Starblood Weapons)*\n• ***Huachi** (armed with Starblood Weapons)*\n• ***Tok** (armed with Starblood Weapons)*\n• ***Xepic** (armed with Starblood Weapons)*\n• ***Klaq-Trok** (armed with a Relic Celestite Weapon)*"
+    "en": "***The models in this unit are:***\n\n• ***Kixi-Taka, the Diviner** (champion, armed with Starblood Weapons)*\n• ***Otapatl** (armed with Starblood Weapons)*\n• ***Huachi** (armed with Starblood Weapons)*\n• ***Tok** (armed with Starblood Weapons)*\n• ***Xepic** (armed with Starblood Weapons)*\n• ***Klaq-Trok** (armed with a Relic Celestite Weapon)*",
+    "fix": []
    }
   }
  ]

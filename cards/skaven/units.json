@@ -1991,7 +1991,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover**",
+    "fix": []
    }
   },
   {
@@ -2570,7 +2571,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Punch Dagger and Blade.***\n***1/10 models in this unit can be armed with Saboteur Bombs in addition to their other weapons***\n***The champion cannot be armed with Saboteur Bombs.***"
+    "en": "***Each model in this unit is armed with a Punch Dagger and Blade.***\n***1/10 models in this unit can be armed with Saboteur Bombs in addition to their other weapons***\n***The champion cannot be armed with Saboteur Bombs.***",
+    "fix": []
    }
   },
   {
@@ -4586,7 +4588,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Weapons of Corruption.***\n\n• ***1/5 models is a Plague Censer Bearer and is armed with a Plague Censer instead of Weapons of Corruption.***\n• ***The champion cannot replace their weapons.***"
+    "en": "***Each model in this unit is armed with Weapons of Corruption.***\n\n• ***1/5 models is a Plague Censer Bearer and is armed with a Plague Censer instead of Weapons of Corruption.***\n• ***The champion cannot replace their weapons.***",
+    "fix": []
    }
   },
   {
@@ -4726,7 +4729,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Claws, Blades and Fangs.***\n\n***• 1/3 models are armed with a Warpfire Gun in addition to their other weapons.***"
+    "en": "***Each model in this unit is armed with Claws, Blades and Fangs.***\n\n***• 1/3 models are armed with a Warpfire Gun in addition to their other weapons.***",
+    "fix": []
    }
   },
   {
@@ -6138,7 +6142,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "**The models in this unit are:**\n• ***Skabbik Plagueseeker** (champion, armed with Plaguepack Weapons)*\n• ***Poxlix** (armed with Plaguepack Weapons)*\n• ***Itchitt** (armed with Plaguepack Weapons)*\n• ***Rikkit** (armed with Plaguepack Weapons)*\n• ***Rabidius Skench** (armed with a Plague Censer)*"
+    "en": "**The models in this unit are:**\n• ***Skabbik Plagueseeker** (champion, armed with Plaguepack Weapons)*\n• ***Poxlix** (armed with Plaguepack Weapons)*\n• ***Itchitt** (armed with Plaguepack Weapons)*\n• ***Rikkit** (armed with Plaguepack Weapons)*\n• ***Rabidius Skench** (armed with a Plague Censer)*",
+    "fix": []
    }
   },
   {
@@ -6340,7 +6345,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Poisoned Stars. The models in this unit are:***\n\n• ***Slynk Skittershank** (also armed with a Weeping Blade)*\n• ***Snyp Padpaw** (also armed with Poisoned Blades)*\n• ***Kreep Kinwhisper** (also armed with Poisoned Blades)*\n• ***Krowch’t** (also armed with Poisoned Blades)*\n• ***Skulck** (also armed with Poisoned Blades)*"
+    "en": "***Each model in this unit is armed with Poisoned Stars. The models in this unit are:***\n\n• ***Slynk Skittershank** (also armed with a Weeping Blade)*\n• ***Snyp Padpaw** (also armed with Poisoned Blades)*\n• ***Kreep Kinwhisper** (also armed with Poisoned Blades)*\n• ***Krowch’t** (also armed with Poisoned Blades)*\n• ***Skulck** (also armed with Poisoned Blades)*",
+    "fix": []
    }
   },
   {
@@ -6482,7 +6488,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***The models in this unit are:***\n\n• ***Skritch Spiteclaw** (armed with a Wicked Halberd)*\n• ***Krrk the Almost-trusted** (armed with a Rusty Weapon)*\n• ***The Lurking Skaven** (armed with a Rusty Weapon)*\n• ***The Festering Skaven** (armed with a Rusty Weapon)*\n• ***The Hungering Skaven** (armed with a Rusty Weapon)*"
+    "en": "***The models in this unit are:***\n\n• ***Skritch Spiteclaw** (armed with a Wicked Halberd)*\n• ***Krrk the Almost-trusted** (armed with a Rusty Weapon)*\n• ***The Lurking Skaven** (armed with a Rusty Weapon)*\n• ***The Festering Skaven** (armed with a Rusty Weapon)*\n• ***The Hungering Skaven** (armed with a Rusty Weapon)*",
+    "fix": []
    }
   },
   {
@@ -6743,7 +6750,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***1/3 models must be armed with 1 of the following options:***\n• ***Warpfire Projectors and Clubbing Blows***\n• ***Windlaunchers and Clubbing Blows***\n\n***1/3 models must be armed with 1 of the following options:***\n• ***Ratling Cannons and Clubbing Blows***\n• ***Grinderfists***\n\n***1/3 models must be armed with 1 of the following options:***\n• ***Doomflayer Gauntlets***\n• ***Shock Gauntlets***"
+    "en": "***1/3 models must be armed with 1 of the following options:***\n• ***Warpfire Projectors and Clubbing Blows***\n• ***Windlaunchers and Clubbing Blows***\n\n***1/3 models must be armed with 1 of the following options:***\n• ***Ratling Cannons and Clubbing Blows***\n• ***Grinderfists***\n\n***1/3 models must be armed with 1 of the following options:***\n• ***Doomflayer Gauntlets***\n• ***Shock Gauntlets***",
+    "fix": []
    }
   },
   {
@@ -10043,7 +10051,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***The models in Zikkit’s Tunnelpack are Zikkit Rockgnaw, Rittak Verm, Krittatok and Nitch Singe-snout. Zikkit Rockgnaw is armed with a Warp Drill. Rittak Verm is armed with Tunnelling Gear. Each other model is armed with Skryre Bombs and Mangy Claws.***"
+    "en": "***The models in Zikkit’s Tunnelpack are Zikkit Rockgnaw, Rittak Verm, Krittatok and Nitch Singe-snout. Zikkit Rockgnaw is armed with a Warp Drill. Rittak Verm is armed with Tunnelling Gear. Each other model is armed with Skryre Bombs and Mangy Claws.***",
+    "fix": []
    }
   }
  ]

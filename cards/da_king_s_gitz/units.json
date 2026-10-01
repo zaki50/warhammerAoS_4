@@ -174,7 +174,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "The following universal terrain abilities apply to this terrain feature (Terrain, 1.2): Cover, Impassable"
+    "en": "The following universal terrain abilities apply to this terrain feature (Terrain, 1.2): Cover, Impassable",
+    "fix": []
    }
   },
   {
@@ -1173,7 +1174,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Looncourt Weapons. The models in this unit are:***\n\n• ***Grinkrak the Great** (champion, also armed with a Moon-slicer)*\n• ***Skolko and Pronk** (also armed with a Squigapult)*\n• ***Grib, da Wonky Lance***\n• ***Pokin’ Snark***\n• ***Snorbo da Spore***\n• ***Pointy Burk***\n• ***Moonface Nagz***"
+    "en": "***Each model in this unit is armed with Looncourt Weapons. The models in this unit are:***\n\n• ***Grinkrak the Great** (champion, also armed with a Moon-slicer)*\n• ***Skolko and Pronk** (also armed with a Squigapult)*\n• ***Grib, da Wonky Lance***\n• ***Pokin’ Snark***\n• ***Snorbo da Spore***\n• ***Pointy Burk***\n• ***Moonface Nagz***",
+    "fix": []
    }
   },
   {
@@ -4268,7 +4270,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Fang-filled Gob.***\n\n***• 1/6 models is a Squig Herder and is armed with a Squig Prodder instead of a Fang‑filled Gob.***"
+    "en": "***Each model in this unit is armed with a Fang-filled Gob.***\n\n***• 1/6 models is a Squig Herder and is armed with a Squig Prodder instead of a Fang‑filled Gob.***",
+    "fix": []
    }
   },
   {
@@ -4756,7 +4759,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***The models in this unit are:***\n\n• ***Zarbag** (champion, armed with Git Weapons)*\n• ***Drizgit da Squig Herder** (armed with Git Weapons)*\n• ***Bonekrakka** (armed with Git Weapons)*\n• ***Gobbaluk** (armed with Git Weapons)*\n• ***Snirk Sourtongue** (armed with Git Weapons)*\n• ***Prog da Netter** (armed with Git Weapons)*\n• ***Stikkit** (armed with a Moonclan Bow)*\n• ***Redkap** (armed with a Moonclan Bow)*\n• ***Dibbz** (armed with a Moonclan Bow)*"
+    "en": "***The models in this unit are:***\n\n• ***Zarbag** (champion, armed with Git Weapons)*\n• ***Drizgit da Squig Herder** (armed with Git Weapons)*\n• ***Bonekrakka** (armed with Git Weapons)*\n• ***Gobbaluk** (armed with Git Weapons)*\n• ***Snirk Sourtongue** (armed with Git Weapons)*\n• ***Prog da Netter** (armed with Git Weapons)*\n• ***Stikkit** (armed with a Moonclan Bow)*\n• ***Redkap** (armed with a Moonclan Bow)*\n• ***Dibbz** (armed with a Moonclan Bow)*",
+    "fix": []
    }
   }
  ]

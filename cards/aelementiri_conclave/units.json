@@ -1516,7 +1516,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Purifier Weapons. The models in this unit are:***\n\n• ***Myari Lightcaller** (champion)*\n• ***Bahannar***\n• ***Ailenn, the Mind’s Edge***\n• ***Senaela** (also armed with an Auralan Bow)*"
+    "en": "***Each model in this unit is armed with Purifier Weapons. The models in this unit are:***\n\n• ***Myari Lightcaller** (champion)*\n• ***Bahannar***\n• ***Ailenn, the Mind’s Edge***\n• ***Senaela** (also armed with an Auralan Bow)*",
+    "fix": []
    }
   },
   {
@@ -2177,7 +2178,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):***\n\n***Cover, Impassable***"
+    "en": "***The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):***\n\n***Cover, Impassable***",
+    "fix": []
    }
   },
   {
@@ -2414,7 +2416,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "**Each model in this unit is armed with Zephyrite Weapons and a Slipstream Bow. The models in this unit are:**\n• **Thyrielle** *(champion, must replace their Slipstream Bow with a Windblast)*\n• **Orieth**\n• **Sirikith**\n• **Anara**"
+    "en": "**Each model in this unit is armed with Zephyrite Weapons and a Slipstream Bow. The models in this unit are:**\n• **Thyrielle** *(champion, must replace their Slipstream Bow with a Windblast)*\n• **Orieth**\n• **Sirikith**\n• **Anara**",
+    "fix": []
    }
   },
   {

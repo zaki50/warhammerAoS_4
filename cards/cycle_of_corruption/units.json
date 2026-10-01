@@ -844,7 +844,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**",
+    "fix": []
    }
   },
   {
@@ -4531,7 +4532,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Blighted Weapons. The models in this unit are:***\n\n• ***Fecula Flyblown** (champion)*\n• ***Ghulgoch the Butcher***\n• ***Sepsimus, Plaguesworn***"
+    "en": "***Each model in this unit is armed with Blighted Weapons. The models in this unit are:***\n\n• ***Fecula Flyblown** (champion)*\n• ***Ghulgoch the Butcher***\n• ***Sepsimus, Plaguesworn***",
+    "fix": []
    }
   }
  ]

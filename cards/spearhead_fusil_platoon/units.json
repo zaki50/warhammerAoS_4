@@ -558,7 +558,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**Each model in this unit is armed with a Hunting Crossbow and Hunting Weapons.**\n\n**• The Wildercorps Warden is armed with a Trailhound's Ferocious Bite in addition to their other weapons.**\n\n**• 4/11 models are Trailhounds and are armed with a Trailhound's Ferocious Bite instead of any other weapons.**"
+    "en": "**Each model in this unit is armed with a Hunting Crossbow and Hunting Weapons.**\n\n**• The Wildercorps Warden is armed with a Trailhound's Ferocious Bite in addition to their other weapons.**\n\n**• 4/11 models are Trailhounds and are armed with a Trailhound's Ferocious Bite instead of any other weapons.**",
+    "fix": []
    }
   }
  ]

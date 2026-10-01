@@ -565,7 +565,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Warsteed’s Hooves and 1 of the following options:***\n\n***• Marauder Javelin***\n***• Fellrider Blades***"
+    "en": "***Each model in this unit is armed with Warsteed’s Hooves and 1 of the following options:***\n\n***• Marauder Javelin***\n***• Fellrider Blades***",
+    "fix": []
    }
   },
   {
@@ -1408,7 +1409,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Godsworn Weapons. The models in this unit are:***\n\n• ***Theddra Skull-scryer** (champion)*\n• ***Grundann Blood-Eye***\n• ***Shond Head-Claimer***\n• ***Jagathra***\n• ***Grawl***\n• ***Ollo** (also armed with a Hunting Bow)*"
+    "en": "***Each model in this unit is armed with Godsworn Weapons. The models in this unit are:***\n\n• ***Theddra Skull-scryer** (champion)*\n• ***Grundann Blood-Eye***\n• ***Shond Head-Claimer***\n• ***Jagathra***\n• ***Grawl***\n• ***Ollo** (also armed with a Hunting Bow)*",
+    "fix": []
    }
   },
   {
@@ -1808,7 +1810,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**",
+    "fix": []
    }
   },
   {
@@ -2175,7 +2178,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Gnarlspirit Weapons. The models in this unit are:***\n\n• ***Sarrakkar Blackwing** (champion)*\n• ***Gorl Spinehammer***\n• ***Crimson Kheira***\n• ***Lupan Longcut***"
+    "en": "***Each model in this unit is armed with Gnarlspirit Weapons. The models in this unit are:***\n\n• ***Sarrakkar Blackwing** (champion)*\n• ***Gorl Spinehammer***\n• ***Crimson Kheira***\n• ***Lupan Longcut***",
+    "fix": []
    }
   },
   {
@@ -2354,7 +2358,8 @@
    "notes_en": "This unit can only be taken in **Gunnar Brand**’s regiment. This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***• Warqueen Tanari and Dendrel Direbrand are each armed with a Heavy Darkoath Weapon.***\n***• Broken Nadja is armed with a Gnarled Staff.***"
+    "en": "***• Warqueen Tanari and Dendrel Direbrand are each armed with a Heavy Darkoath Weapon.***\n***• Broken Nadja is armed with a Gnarled Staff.***",
+    "fix": []
    }
   }
  ]

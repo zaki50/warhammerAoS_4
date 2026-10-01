@@ -211,7 +211,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n**Cover, Impassable**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n**Cover, Impassable**",
+    "fix": []
    }
   },
   {
@@ -569,7 +570,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Mighty Sorcerous Bolt and Arcanite Weapons. The models in this unit are:***\n\n• ***Vortemis the All-seeing** (champion)*\n• ***K’charik***\n• ***Narvia***\n• ***Turosh***\n• ***Blue Horror***"
+    "en": "***Each model in this unit is armed with a Mighty Sorcerous Bolt and Arcanite Weapons. The models in this unit are:***\n\n• ***Vortemis the All-seeing** (champion)*\n• ***K’charik***\n• ***Narvia***\n• ***Turosh***\n• ***Blue Horror***",
+    "fix": []
    }
   },
   {
@@ -1106,7 +1108,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Passive Mason’s Tools.***\n***•  4/9 models can carry an Antithete Bow.***\n***•  The champion cannot carry an Antithete Bow.***"
+    "en": "***Each model in this unit is armed with Passive Mason’s Tools.***\n***•  4/9 models can carry an Antithete Bow.***\n***•  The champion cannot carry an Antithete Bow.***",
+    "fix": []
    }
   },
   {

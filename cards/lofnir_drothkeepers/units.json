@@ -1813,7 +1813,8 @@
    "notes_en": "This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Vulkyn Weapons.***\n\n• ***1/9 models is a Kyndledroth and must replace their weapons with Emberteeth.***\n• ***The champion is a Vulkyn Runefather and cannot replace their weapons.***"
+    "en": "***Each model in this unit is armed with Vulkyn Weapons.***\n\n• ***1/9 models is a Kyndledroth and must replace their weapons with Emberteeth.***\n• ***The champion is a Vulkyn Runefather and cannot replace their weapons.***",
+    "fix": []
    }
   },
   {
@@ -2252,7 +2253,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Vulkyn Weapons.***\n\n• ***1/9 models is a Kyndledroth and must replace their weapons with Emberteeth.***\n• ***The champion is a Vulkyn Runefather and cannot replace their weapons.***"
+    "en": "***Each model in this unit is armed with Vulkyn Weapons.***\n\n• ***1/9 models is a Kyndledroth and must replace their weapons with Emberteeth.***\n• ***The champion is a Vulkyn Runefather and cannot replace their weapons.***",
+    "fix": []
    }
   }
  ]

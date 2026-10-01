@@ -241,6 +241,12 @@ def render_warscroll(w, ix, out, tr, show_points=True):
 
     if w.get("wargearOptionsText"):
         out.append("\n**装備オプション:** %s" % clean(tr.wargear_text(unit, w["wargearOptionsText"])))
+        wline = out[-1:]
+        wgnotes = tr.fix_lines(wline, "wargear_option_texts", [unit])
+        out[-1:] = wline
+        if wgnotes:
+            out.append("")
+            out.extend(wgnotes)
     if w.get("referenceKeywords"):
         out.append("\n**キーワード:** %s" % tr.keywords(w["referenceKeywords"], unit))
         knotes, kline = [], out[-1:]

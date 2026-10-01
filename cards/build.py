@@ -248,7 +248,7 @@ class Cards:
         wg = ''
         if u.get('wargear'):
             w = u['wargear']
-            wg = ('<p class="ab">%s</p>' % self.fix(w['ja'] or w['en'], None)) + \
+            wg = ('<p class="ab">%s</p>' % self.fix(w['ja'] or w['en'], w.get('fix') if w['ja'] else None)) + \
                  ('<p class="en-b">%s</p>' % E(clean(w['en'])) if w['ja'] else '')
         reg = ''.join('<li>%s</li>' % E(clean(r)) for r in u['regiment'] if r)
         reg = '<ul class="bul">%s</ul>' % reg if reg else ''

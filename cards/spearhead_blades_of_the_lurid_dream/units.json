@@ -138,7 +138,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***One unit has 5 Blissbarb Archers and 1 Blissbrew Homonculus. The other unit has 5 Blissbarb Archers.***\n\n***The Blissbarb Archers are each armed with a Blissbarb Bow and Sybarite Blade. The Blissbrew Homonculus is armed with a Sybarite Blade.***"
+    "en": "***One unit has 5 Blissbarb Archers and 1 Blissbrew Homonculus. The other unit has 5 Blissbarb Archers.***\n\n***The Blissbarb Archers are each armed with a Blissbarb Bow and Sybarite Blade. The Blissbrew Homonculus is armed with a Sybarite Blade.***",
+    "fix": []
    }
   },
   {
@@ -379,7 +380,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***This unit has 2 Slaangor Fiendbloods armed with Razorsharp Claws, and 1 Slaangor Fiendblood armed with a Razor-sharp Claw and Gilded Weapon.***"
+    "en": "***This unit has 2 Slaangor Fiendbloods armed with Razorsharp Claws, and 1 Slaangor Fiendblood armed with a Razor-sharp Claw and Gilded Weapon.***",
+    "fix": []
    }
   },
   {

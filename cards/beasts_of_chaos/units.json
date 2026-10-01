@@ -2730,7 +2730,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Despoiler Weapons. The models in this unit are:***\n\n• ***Grashrak Fellhoof** (champion)*\n• ***Draknar***\n• ***Murghoth Half-horn***\n• ***Korsh ‘the Sneak’***\n• ***Ushkor** (also armed with a Despoiler Shortbow)*\n• ***Gnarl** (also armed with a Despoiler Shortbow)*"
+    "en": "***Each model in this unit is armed with Despoiler Weapons. The models in this unit are:***\n\n• ***Grashrak Fellhoof** (champion)*\n• ***Draknar***\n• ***Murghoth Half-horn***\n• ***Korsh ‘the Sneak’***\n• ***Ushkor** (also armed with a Despoiler Shortbow)*\n• ***Gnarl** (also armed with a Despoiler Shortbow)*",
+    "fix": []
    }
   },
   {
@@ -3025,7 +3026,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):\n\nCover, Unstable"
+    "en": "The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):\n\nCover, Unstable",
+    "fix": []
    }
   },
   {

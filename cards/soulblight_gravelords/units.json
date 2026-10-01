@@ -188,7 +188,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Askurgan Weapons.***\n\n• ***1/8 models is a Curseblood and must replace their Askurgan Weapons with Elongated Claws and Slavering Maw.***\n• ***The champion is an Askurgan Exemplar and cannot replace their weapons.***"
+    "en": "***Each model in this unit is armed with Askurgan Weapons.***\n\n• ***1/8 models is a Curseblood and must replace their Askurgan Weapons with Elongated Claws and Slavering Maw.***\n• ***The champion is an Askurgan Exemplar and cannot replace their weapons.***",
+    "fix": []
    }
   },
   {
@@ -972,7 +973,8 @@
    "notes_en": "You cannot include this unit and **Cado Ezechiar, the Hollow King** in the same army.",
    "wargear": {
     "ja": "",
-    "en": "***• 1 model in this unit is Cado Ezechiar, who is armed with an Ezechiarian Greatsword.***\n\n***• 1 model in this unit is Sissendra, who is armed with Sissendra’s Twin Blades.***\n\n***• 1 model in this unit is Aurelias, who is armed with Kennistrix’s Fangs.***"
+    "en": "***• 1 model in this unit is Cado Ezechiar, who is armed with an Ezechiarian Greatsword.***\n\n***• 1 model in this unit is Sissendra, who is armed with Sissendra’s Twin Blades.***\n\n***• 1 model in this unit is Aurelias, who is armed with Kennistrix’s Fangs.***",
+    "fix": []
    }
   },
   {
@@ -2092,7 +2094,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n**Cover, Impassable**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n**Cover, Impassable**",
+    "fix": []
    }
   },
   {
@@ -7709,7 +7712,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Courtly Weapon. The models in this unit are:***\n\n• ***Prince Duvalle** (champion)*\n• ***Gorath the Enforcer***\n• ***Vellas von Faine***\n• ***Ennias Curse-born***"
+    "en": "***Each model in this unit is armed with a Courtly Weapon. The models in this unit are:***\n\n• ***Prince Duvalle** (champion)*\n• ***Gorath the Enforcer***\n• ***Vellas von Faine***\n• ***Ennias Curse-born***",
+    "fix": []
    }
   },
   {
@@ -7876,7 +7880,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Arco-electric Weapons. The models in this unit are:***\n\n• ***Deintalos the Exile** (champion)*\n• ***Prentice Marcov***\n• ***Regulus Unbound***\n• ***Coyl Unbound***\n• ***Bault Unbound***\n• ***Vlash Unbound***\n• ***Ione Unbound***"
+    "en": "***Each model in this unit is armed with Arco-electric Weapons. The models in this unit are:***\n\n• ***Deintalos the Exile** (champion)*\n• ***Prentice Marcov***\n• ***Regulus Unbound***\n• ***Coyl Unbound***\n• ***Bault Unbound***\n• ***Vlash Unbound***\n• ***Ione Unbound***",
+    "fix": []
    }
   },
   {
@@ -8010,7 +8015,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with an Ancient Weapon. The models in this unit are:***\n\n• ***The Sepulchral Warden** (champion)*\n• ***The Champion***\n• ***The Harvester***\n• ***The Prince of Dust***\n• ***The Inevitable Petitioner***\n• ***The Zealous Petitioner***\n• ***The Rising Petitioner***"
+    "en": "***Each model in this unit is armed with an Ancient Weapon. The models in this unit are:***\n\n• ***The Sepulchral Warden** (champion)*\n• ***The Champion***\n• ***The Harvester***\n• ***The Prince of Dust***\n• ***The Inevitable Petitioner***\n• ***The Zealous Petitioner***\n• ***The Rising Petitioner***",
+    "fix": []
    }
   },
   {
@@ -8144,7 +8150,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Royal Weapons. The models in this unit are:***\n\n• ***King Morlak Velmorn** (champion)*\n• ***Sir Jedran Falseborn***\n• ***Helmar the Hewer***\n• ***Marshal Faulk Velmorn***\n• ***Thain, Fourth-and-last***"
+    "en": "***Each model in this unit is armed with Royal Weapons. The models in this unit are:***\n\n• ***King Morlak Velmorn** (champion)*\n• ***Sir Jedran Falseborn***\n• ***Helmar the Hewer***\n• ***Marshal Faulk Velmorn***\n• ***Thain, Fourth-and-last***",
+    "fix": []
    }
   },
   {
@@ -10563,7 +10570,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***The models in this unit are:***\n\n• ***Zondara Rivenheart** (champion, armed with Graverobber’s Tools)*\n• ***Pikk** (armed with Graverobber’s Tools)*\n• ***Cracktomb** (armed with Graverobber’s Tools)*\n• ***Toyle** (armed with Graverobber’s Tools)*\n• ***Lost Ferlain** (armed with Rending Claws)*"
+    "en": "***The models in this unit are:***\n\n• ***Zondara Rivenheart** (champion, armed with Graverobber’s Tools)*\n• ***Pikk** (armed with Graverobber’s Tools)*\n• ***Cracktomb** (armed with Graverobber’s Tools)*\n• ***Toyle** (armed with Graverobber’s Tools)*\n• ***Lost Ferlain** (armed with Rending Claws)*",
+    "fix": []
    }
   }
  ]

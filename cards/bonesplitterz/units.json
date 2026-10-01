@@ -173,7 +173,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Madmob Weapons. The models in this unit are:***\n\n• ***Hedkrakka, Gob of Gork** (champion)*\n• ***Toofdagga***\n• ***Wollop da Skul***\n• ***Dakko Sharp-Stikka***"
+    "en": "***Each model in this unit is armed with Madmob Weapons. The models in this unit are:***\n\n• ***Hedkrakka, Gob of Gork** (champion)*\n• ***Toofdagga***\n• ***Wollop da Skul***\n• ***Dakko Sharp-Stikka***",
+    "fix": []
    }
   },
   {

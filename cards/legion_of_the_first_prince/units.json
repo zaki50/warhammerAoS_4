@@ -1001,7 +1001,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**Marks of Chaos**\n***During army composition, if this unit is part of a Slaves to Darkness army, you can pick 1 of the following Pledge to Chaos keywords for this unit***:\n\n**• PLEDGED TO KHORNE**\n**• PLEDGED TO TZEENTCH**\n**• PLEDGED TO NURGLE**\n**• PLEDGED TO SLAANESH**\n\n***This unit is armed with Hellforged Weapons and has 1 of the following options:***\n• ***Wings***\n• ***Trophy Rack***"
+    "en": "**Marks of Chaos**\n***During army composition, if this unit is part of a Slaves to Darkness army, you can pick 1 of the following Pledge to Chaos keywords for this unit***:\n\n**• PLEDGED TO KHORNE**\n**• PLEDGED TO TZEENTCH**\n**• PLEDGED TO NURGLE**\n**• PLEDGED TO SLAANESH**\n\n***This unit is armed with Hellforged Weapons and has 1 of the following options:***\n• ***Wings***\n• ***Trophy Rack***",
+    "fix": []
    }
   },
   {
@@ -2717,7 +2718,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**",
+    "fix": []
    }
   },
   {

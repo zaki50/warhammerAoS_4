@@ -3876,7 +3876,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**",
+    "fix": []
    }
   },
   {
@@ -5645,7 +5646,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***The models in this unit are:***\n\n• ***The Wielder of the Blade** (armed with Terminus)*\n• ***The Scriptor of the Sentence** (armed with a Tool of Judgement)*\n• ***The Bearer of the Block** (armed with a Tool of Judgement)*\n• ***The Sharpener of the Blade** (armed with a Tool of Judgement)*"
+    "en": "***The models in this unit are:***\n\n• ***The Wielder of the Blade** (armed with Terminus)*\n• ***The Scriptor of the Sentence** (armed with a Tool of Judgement)*\n• ***The Bearer of the Block** (armed with a Tool of Judgement)*\n• ***The Sharpener of the Blade** (armed with a Tool of Judgement)*",
+    "fix": []
    }
   },
   {
@@ -5846,7 +5848,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***The models in this unit are:***\n\n• ***The Briar Queen** (armed with an Ancient Chill Dagger and a Piercing Scream)*\n• ***Varclav the Cruel** (armed with a Malignant Weapon)*\n• ***The Ever-hanged** (armed with a Malignant Weapon)*\n• ***The Ironwretch** (armed with a Malignant Weapon)*\n• ***The Exhumed** (armed with a Malignant Weapon)*\n• ***The Silenced** (armed with a Malignant Weapon)*\n• ***The Uncrowned** (armed with a Malignant Weapon)*"
+    "en": "***The models in this unit are:***\n\n• ***The Briar Queen** (armed with an Ancient Chill Dagger and a Piercing Scream)*\n• ***Varclav the Cruel** (armed with a Malignant Weapon)*\n• ***The Ever-hanged** (armed with a Malignant Weapon)*\n• ***The Ironwretch** (armed with a Malignant Weapon)*\n• ***The Exhumed** (armed with a Malignant Weapon)*\n• ***The Silenced** (armed with a Malignant Weapon)*\n• ***The Uncrowned** (armed with a Malignant Weapon)*",
+    "fix": []
    }
   },
   {

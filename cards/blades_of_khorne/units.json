@@ -2146,7 +2146,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Reaver Blades and Axes. The models in this unit are:***\n\n• ***Garrek Gorebeard** (champion)*\n• ***Blooded Saek***\n• ***Karsus the Chained***\n• ***Targor***\n• ***Arnulf***"
+    "en": "***Each model in this unit is armed with Reaver Blades and Axes. The models in this unit are:***\n\n• ***Garrek Gorebeard** (champion)*\n• ***Blooded Saek***\n• ***Karsus the Chained***\n• ***Targor***\n• ***Arnulf***",
+    "fix": []
    }
   },
   {
@@ -2277,7 +2278,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Weapons of Wrath. The models in this unit are:***\n\n• ***Dromm, Wounder of Worlds** (champion)*\n• ***Skullgrinder Herax***\n• ***The Gorehulk***"
+    "en": "***Each model in this unit is armed with Weapons of Wrath. The models in this unit are:***\n\n• ***Dromm, Wounder of Worlds** (champion)*\n• ***Skullgrinder Herax***\n• ***The Gorehulk***",
+    "fix": []
    }
   },
   {
@@ -2766,7 +2768,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Bloodied Weapons. The models in this unit are:***&#x20;\n***• Kamandora** (champion)*\n***• Throkk***\n***• Ghalista***\n***• Antro Krast***"
+    "en": "***Each model in this unit is armed with Bloodied Weapons. The models in this unit are:***&#x20;\n***• Kamandora** (champion)*\n***• Throkk***\n***• Ghalista***\n***• Antro Krast***",
+    "fix": []
    }
   },
   {
@@ -3445,7 +3448,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***The models in this unit are:***\n\n• ***Magore Redhand** (champion, armed with a Goreaxe)*\n• ***Zharkus the Bloodsighted** (armed with a Goreaxe)*\n• ***Ghartok Flayskull** (armed with a Goreaxe)*\n• ***Riptooth** (armed with Blood-dark Claws)*"
+    "en": "***The models in this unit are:***\n\n• ***Magore Redhand** (champion, armed with a Goreaxe)*\n• ***Zharkus the Bloodsighted** (armed with a Goreaxe)*\n• ***Ghartok Flayskull** (armed with a Goreaxe)*\n• ***Riptooth** (armed with Blood-dark Claws)*",
+    "fix": []
    }
   },
   {
@@ -5307,7 +5311,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**",
+    "fix": []
    }
   },
   {

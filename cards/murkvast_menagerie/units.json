@@ -718,7 +718,8 @@
    "notes_en": "This **HERO** can join an eligible regiment as a *Swamp Beast*.",
    "wargear": {
     "ja": "",
-    "en": "This **HERO** can join an eligible regiment as a *Swamp Beast*."
+    "en": "This **HERO** can join an eligible regiment as a *Swamp Beast*.",
+    "fix": []
    }
   },
   {

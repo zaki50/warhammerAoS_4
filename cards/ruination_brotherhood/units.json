@@ -460,7 +460,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Decimator Thunderaxe.***\n\n***• 2/5 models can replace their Decimator Thunderaxe with a Starsoul Mace.***"
+    "en": "***Each model in this unit is armed with a Decimator Thunderaxe.***\n\n***• 2/5 models can replace their Decimator Thunderaxe with a Starsoul Mace.***",
+    "fix": []
    }
   },
   {
@@ -639,7 +640,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Azyrite Bolts and Valedictor Weapons. The models in this unit are:***\n\n• ***Domitan, Eye of the Storm***\n• ***Leona Stratosi***\n• ***Sarpon, the Cyclone***"
+    "en": "***Each model in this unit is armed with Azyrite Bolts and Valedictor Weapons. The models in this unit are:***\n\n• ***Domitan, Eye of the Storm***\n• ***Leona Stratosi***\n• ***Sarpon, the Cyclone***",
+    "fix": []
    }
   },
   {
@@ -1336,7 +1338,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Boltstorm Crossbow and Storm Gladius.***\n\n***• 1/5 models can replace their Boltstorm Crossbow with a Thunderbolt Crossbow.***"
+    "en": "***Each model in this unit is armed with a Boltstorm Crossbow and Storm Gladius.***\n\n***• 1/5 models can replace their Boltstorm Crossbow with a Thunderbolt Crossbow.***",
+    "fix": []
    }
   },
   {
@@ -1499,7 +1502,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Skybolt Bow and Storm Gladius.***\n\n***• 1/5 models can replace their Skybolt Bow with a Shockbolt Bow.***"
+    "en": "***Each model in this unit is armed with a Skybolt Bow and Storm Gladius.***\n\n***• 1/5 models can replace their Skybolt Bow with a Shockbolt Bow.***",
+    "fix": []
    }
   },
   {
@@ -2031,7 +2035,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Warhammer.***\n\n• ***1/5 models can replace their Warhammer with a Grandhammer.***\n• ***The champion cannot replace their weapon.***"
+    "en": "***Each model in this unit is armed with a Warhammer.***\n\n• ***1/5 models can replace their Warhammer with a Grandhammer.***\n• ***The champion cannot replace their weapon.***",
+    "fix": []
    }
   },
   {
@@ -3338,7 +3343,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Protector Stormstrike Glaive.***\n\n***• 2/5 models can replace their Protector Stormstrike Glaive with a Starsoul Mace.***"
+    "en": "***Each model in this unit is armed with a Protector Stormstrike Glaive.***\n\n***• 2/5 models can replace their Protector Stormstrike Glaive with a Starsoul Mace.***",
+    "fix": []
    }
   },
   {
@@ -3825,7 +3831,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Retributor Lightning Hammer.***\n\n***• 2/5 models can replace their Retributor Lightning Hammer with a Starsoul Mace.***"
+    "en": "***Each model in this unit is armed with a Retributor Lightning Hammer.***\n\n***• 2/5 models can replace their Retributor Lightning Hammer with a Starsoul Mace.***",
+    "fix": []
    }
   },
   {
@@ -4691,7 +4698,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Heavens-wrought Weapon. The models in this unit are:***\n\n• ***Severin Steelheart** (champion)*\n• ***Obryn the Bold***\n• ***Angharad Brightshield***"
+    "en": "***Each model in this unit is armed with a Heavens-wrought Weapon. The models in this unit are:***\n\n• ***Severin Steelheart** (champion)*\n• ***Obryn the Bold***\n• ***Angharad Brightshield***",
+    "fix": []
    }
   },
   {
@@ -5029,7 +5037,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**",
+    "fix": []
    }
   },
   {
@@ -5239,7 +5248,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***This unit is armed with a Stormstrike Axe, Gryph-chargers’ Razor Beaks and 1 of the following options:***\n\n• ***Tempestuous Spear***\n• ***Great Stormbow***"
+    "en": "***This unit is armed with a Stormstrike Axe, Gryph-chargers’ Razor Beaks and 1 of the following options:***\n\n• ***Tempestuous Spear***\n• ***Great Stormbow***",
+    "fix": []
    }
   },
   {
@@ -6206,7 +6216,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***The models in this unit are:***\n\n• ***Calthia Xandire** (champion, armed with Truthseeker Weapons)*\n• ***Dhoraz Giant-fell** (armed with a Great Hammer)*\n• ***Luxa Stormrider** (armed with Truthseeker Weapons and a Stormcaller Bow)*"
+    "en": "***The models in this unit are:***\n\n• ***Calthia Xandire** (champion, armed with Truthseeker Weapons)*\n• ***Dhoraz Giant-fell** (armed with a Great Hammer)*\n• ***Luxa Stormrider** (armed with Truthseeker Weapons and a Stormcaller Bow)*",
+    "fix": []
    }
   }
  ]

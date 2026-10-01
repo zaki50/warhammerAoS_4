@@ -487,7 +487,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Gladiatorial Weapons. The models in this unit are:***\n\n• ***Gryselle, the Slaughterer** (champion)*\n• ***Thrialla, the Lash***\n• ***Retaria, the Entangler***\n• ***Kalexis, the Silvered Blur***\n• ***Traxya, the Aegis***"
+    "en": "***Each model in this unit is armed with Gladiatorial Weapons. The models in this unit are:***\n\n• ***Gryselle, the Slaughterer** (champion)*\n• ***Thrialla, the Lash***\n• ***Retaria, the Entangler***\n• ***Kalexis, the Silvered Blur***\n• ***Traxya, the Aegis***",
+    "fix": []
    }
   },
   {
@@ -1220,7 +1221,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "*Each model in this unit is armed with Haruspicy Blades. The models in this unit are:*\n\n*• Kaerna Vix (champion)*\n*• Tazari*\n*• Krieta, Wing of the Crone*\n*• Azphel, the Hag’s Eye (also armed with an Aelven Crossbow)*"
+    "en": "*Each model in this unit is armed with Haruspicy Blades. The models in this unit are:*\n\n*• Kaerna Vix (champion)*\n*• Tazari*\n*• Krieta, Wing of the Crone*\n*• Azphel, the Hag’s Eye (also armed with an Aelven Crossbow)*",
+    "fix": []
    }
   },
   {
@@ -1580,7 +1582,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Sacrificial Weapons. The models in this unit are:***\n\n• ***Morgwaeth the Bloodied** (champion)*\n• ***Khamyss***\n• ***Kyrssa***\n• ***Lethyr***\n• ***Kyrae** (also armed with a Heartseeker Bow)*"
+    "en": "***Each model in this unit is armed with Sacrificial Weapons. The models in this unit are:***\n\n• ***Morgwaeth the Bloodied** (champion)*\n• ***Khamyss***\n• ***Kyrssa***\n• ***Lethyr***\n• ***Kyrae** (also armed with a Heartseeker Bow)*",
+    "fix": []
    }
   },
   {
@@ -2562,7 +2565,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Cursed Missiles and Shadowstalker Blades. The models in this unit are:***\n\n• ***Slythael Shadestalker** (champion)*\n• ***Drusylla Vyserax***\n• ***Sylarc Greyblood***\n• ***Valyssa Umbrael***"
+    "en": "***Each model in this unit is armed with Cursed Missiles and Shadowstalker Blades. The models in this unit are:***\n\n• ***Slythael Shadestalker** (champion)*\n• ***Drusylla Vyserax***\n• ***Sylarc Greyblood***\n• ***Valyssa Umbrael***",
+    "fix": []
    }
   },
   {

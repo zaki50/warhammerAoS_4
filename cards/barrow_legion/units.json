@@ -533,7 +533,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n**Cover, Impassable**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n**Cover, Impassable**",
+    "fix": []
    }
   },
   {
@@ -796,7 +797,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with an Ancient Weapon. The models in this unit are:***\n\n• ***The Sepulchral Warden** (champion)*\n• ***The Champion***\n• ***The Harvester***\n• ***The Prince of Dust***\n• ***The Inevitable Petitioner***\n• ***The Zealous Petitioner***\n• ***The Rising Petitioner***"
+    "en": "***Each model in this unit is armed with an Ancient Weapon. The models in this unit are:***\n\n• ***The Sepulchral Warden** (champion)*\n• ***The Champion***\n• ***The Harvester***\n• ***The Prince of Dust***\n• ***The Inevitable Petitioner***\n• ***The Zealous Petitioner***\n• ***The Rising Petitioner***",
+    "fix": []
    }
   },
   {
@@ -930,7 +932,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Royal Weapons. The models in this unit are:***\n\n• ***King Morlak Velmorn** (champion)*\n• ***Sir Jedran Falseborn***\n• ***Helmar the Hewer***\n• ***Marshal Faulk Velmorn***\n• ***Thain, Fourth-and-last***"
+    "en": "***Each model in this unit is armed with Royal Weapons. The models in this unit are:***\n\n• ***King Morlak Velmorn** (champion)*\n• ***Sir Jedran Falseborn***\n• ***Helmar the Hewer***\n• ***Marshal Faulk Velmorn***\n• ***Thain, Fourth-and-last***",
+    "fix": []
    }
   },
   {

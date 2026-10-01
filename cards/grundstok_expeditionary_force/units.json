@@ -757,7 +757,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***This unit comprises 1 of the following: Nullifier Auto-Endrin, Stuncloud Auto-Endrin or Grudgeblast Auto-Endrin.***"
+    "en": "***This unit comprises 1 of the following: Nullifier Auto-Endrin, Stuncloud Auto-Endrin or Grudgeblast Auto-Endrin.***",
+    "fix": []
    }
   },
   {
@@ -1696,7 +1697,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "• ***Each model in this unit is armed with an Aethershot Rifle and Gun Butt.***\n• ***2/5 models can replace their Aethershot Rifle with an Aetheric Fumigator or Decksweeper.***\n• ***2/5 models can replace their Aethershot Rifle with a Grundstok Mortar or Aethercannon.***\n• ***The champion cannot replace their Aethershot Rifle.***"
+    "en": "• ***Each model in this unit is armed with an Aethershot Rifle and Gun Butt.***\n• ***2/5 models can replace their Aethershot Rifle with an Aetheric Fumigator or Decksweeper.***\n• ***2/5 models can replace their Aethershot Rifle with a Grundstok Mortar or Aethercannon.***\n• ***The champion cannot replace their Aethershot Rifle.***",
+    "fix": []
    }
   },
   {

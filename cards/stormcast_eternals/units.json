@@ -1446,7 +1446,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***This unit’s Sacristan Engineers are tokens.***"
+    "en": "***This unit’s Sacristan Engineers are tokens.***",
+    "fix": []
    }
   },
   {
@@ -1821,7 +1822,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Decimator Thunderaxe.***\n\n***• 2/5 models can replace their Decimator Thunderaxe with a Starsoul Mace.***"
+    "en": "***Each model in this unit is armed with a Decimator Thunderaxe.***\n\n***• 2/5 models can replace their Decimator Thunderaxe with a Starsoul Mace.***",
+    "fix": []
    }
   },
   {
@@ -2000,7 +2002,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Azyrite Bolts and Valedictor Weapons. The models in this unit are:***\n\n• ***Domitan, Eye of the Storm***\n• ***Leona Stratosi***\n• ***Sarpon, the Cyclone***"
+    "en": "***Each model in this unit is armed with Azyrite Bolts and Valedictor Weapons. The models in this unit are:***\n\n• ***Domitan, Eye of the Storm***\n• ***Leona Stratosi***\n• ***Sarpon, the Cyclone***",
+    "fix": []
    }
   },
   {
@@ -5464,7 +5467,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Boltstorm Crossbow and Storm Gladius.***\n\n***• 1/5 models can replace their Boltstorm Crossbow with a Thunderbolt Crossbow.***"
+    "en": "***Each model in this unit is armed with a Boltstorm Crossbow and Storm Gladius.***\n\n***• 1/5 models can replace their Boltstorm Crossbow with a Thunderbolt Crossbow.***",
+    "fix": []
    }
   },
   {
@@ -5627,7 +5631,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Skybolt Bow and Storm Gladius.***\n\n***• 1/5 models can replace their Skybolt Bow with a Shockbolt Bow.***"
+    "en": "***Each model in this unit is armed with a Skybolt Bow and Storm Gladius.***\n\n***• 1/5 models can replace their Skybolt Bow with a Shockbolt Bow.***",
+    "fix": []
    }
   },
   {
@@ -8122,7 +8127,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Warhammer.***\n\n• ***1/5 models can replace their Warhammer with a Grandhammer.***\n• ***The champion cannot replace their weapon.***"
+    "en": "***Each model in this unit is armed with a Warhammer.***\n\n• ***1/5 models can replace their Warhammer with a Grandhammer.***\n• ***The champion cannot replace their weapon.***",
+    "fix": []
    }
   },
   {
@@ -12007,7 +12013,8 @@
    "notes_en": "This unit can only be taken in **Neave Blacktalon**’s regiment. This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "• ***Hendrick, the Silver Wolf, is armed with a Cyclone Sword and Axe.***\n• ***Rostus Oxenhammer is armed with a Stormcharged Warhammer.***\n• ***Shakana Goldenblade is armed with a Typhoon Crossbow, and her Star-eagle Anda is armed with Celestial Talons.***"
+    "en": "• ***Hendrick, the Silver Wolf, is armed with a Cyclone Sword and Axe.***\n• ***Rostus Oxenhammer is armed with a Stormcharged Warhammer.***\n• ***Shakana Goldenblade is armed with a Typhoon Crossbow, and her Star-eagle Anda is armed with Celestial Talons.***",
+    "fix": []
    }
   },
   {
@@ -12514,7 +12521,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Protector Stormstrike Glaive.***\n\n***• 2/5 models can replace their Protector Stormstrike Glaive with a Starsoul Mace.***"
+    "en": "***Each model in this unit is armed with a Protector Stormstrike Glaive.***\n\n***• 2/5 models can replace their Protector Stormstrike Glaive with a Starsoul Mace.***",
+    "fix": []
    }
   },
   {
@@ -13001,7 +13009,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Retributor Lightning Hammer.***\n\n***• 2/5 models can replace their Retributor Lightning Hammer with a Starsoul Mace.***"
+    "en": "***Each model in this unit is armed with a Retributor Lightning Hammer.***\n\n***• 2/5 models can replace their Retributor Lightning Hammer with a Starsoul Mace.***",
+    "fix": []
    }
   },
   {
@@ -13848,7 +13857,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Sacrosanct Weapons.***\n\n***• 2/5 models can replace their Sacrosanct Weapons with a Stormsmite Greatmace.***"
+    "en": "***Each model in this unit is armed with Sacrosanct Weapons.***\n\n***• 2/5 models can replace their Sacrosanct Weapons with a Stormsmite Greatmace.***",
+    "fix": []
    }
   },
   {
@@ -14011,7 +14021,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Heavens-wrought Weapon. The models in this unit are:***\n\n• ***Severin Steelheart** (champion)*\n• ***Obryn the Bold***\n• ***Angharad Brightshield***"
+    "en": "***Each model in this unit is armed with a Heavens-wrought Weapon. The models in this unit are:***\n\n• ***Severin Steelheart** (champion)*\n• ***Obryn the Bold***\n• ***Angharad Brightshield***",
+    "fix": []
    }
   },
   {
@@ -14435,7 +14446,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Draconic Flamestream, Draconith’s Fangs and Talons and 1 of the following options:***\n\n• ***Drakerider’s Lance***\n• ***Drakerider’s Warblade***"
+    "en": "***Each model in this unit is armed with a Draconic Flamestream, Draconith’s Fangs and Talons and 1 of the following options:***\n\n• ***Drakerider’s Lance***\n• ***Drakerider’s Warblade***",
+    "fix": []
    }
   },
   {
@@ -14687,7 +14699,8 @@
    "notes_en": "You can include 1 unit of this type for each **Knight-Draconis** in your army.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Draconic Flamestream, Draconith’s Fangs and Talons and 1 of the following options:***\n\n• ***Drakerider’s Lance***\n• ***Drakerider’s Warblade***"
+    "en": "***Each model in this unit is armed with a Draconic Flamestream, Draconith’s Fangs and Talons and 1 of the following options:***\n\n• ***Drakerider’s Lance***\n• ***Drakerider’s Warblade***",
+    "fix": []
    }
   },
   {
@@ -14853,7 +14866,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**",
+    "fix": []
    }
   },
   {
@@ -15016,7 +15030,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Cursebreaker Weapons. The models in this unit are:***\n\n• ***Averon Stormsire** (champion)*\n• ***Ammis Dawnguard***\n• ***Rastus the Charmed***"
+    "en": "***Each model in this unit is armed with Cursebreaker Weapons. The models in this unit are:***\n\n• ***Averon Stormsire** (champion)*\n• ***Ammis Dawnguard***\n• ***Rastus the Charmed***",
+    "fix": []
    }
   },
   {
@@ -15226,7 +15241,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***This unit is armed with a Stormstrike Axe, Gryph-chargers’ Razor Beaks and 1 of the following options:***\n\n• ***Tempestuous Spear***\n• ***Great Stormbow***"
+    "en": "***This unit is armed with a Stormstrike Axe, Gryph-chargers’ Razor Beaks and 1 of the following options:***\n\n• ***Tempestuous Spear***\n• ***Great Stormbow***",
+    "fix": []
    }
   },
   {
@@ -15559,7 +15575,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***The models in The Emberwatch are Ardorn Flamerunner, Farasa Twice-risen and Yurik Velzaine***.\n\n• ***Ardorn Flamerunner is the Champion***."
+    "en": "***The models in The Emberwatch are Ardorn Flamerunner, Farasa Twice-risen and Yurik Velzaine***.\n\n• ***Ardorn Flamerunner is the Champion***.",
+    "fix": []
    }
   },
   {
@@ -15740,7 +15757,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with a Boltstorm Pistol and a Stormwrought Weapon. The models in this unit are:***\n\n• ***Sanson Farstrider** (champion)*\n• ***Almeric Eagle-Eye***\n• ***Elias Swiftblade***"
+    "en": "***Each model in this unit is armed with a Boltstorm Pistol and a Stormwrought Weapon. The models in this unit are:***\n\n• ***Sanson Farstrider** (champion)*\n• ***Almeric Eagle-Eye***\n• ***Elias Swiftblade***",
+    "fix": []
    }
   },
   {
@@ -17728,7 +17746,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***The models in this unit are:***\n\n• ***Calthia Xandire** (champion, armed with Truthseeker Weapons)*\n• ***Dhoraz Giant-fell** (armed with a Great Hammer)*\n• ***Luxa Stormrider** (armed with Truthseeker Weapons and a Stormcaller Bow)*"
+    "en": "***The models in this unit are:***\n\n• ***Calthia Xandire** (champion, armed with Truthseeker Weapons)*\n• ***Dhoraz Giant-fell** (armed with a Great Hammer)*\n• ***Luxa Stormrider** (armed with Truthseeker Weapons and a Stormcaller Bow)*",
+    "fix": []
    }
   },
   {

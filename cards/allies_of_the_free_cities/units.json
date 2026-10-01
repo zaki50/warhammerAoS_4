@@ -710,7 +710,8 @@
    "notes_en": "This unit cannot be reinforced. This unit can only be taken in an Allies of the Free Cities Army of Renown.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Vulkyn Weapons.***\n\n• ***1/9 models is a Kyndledroth and must replace their weapons with Kyndledroth’s Fangs.***\n• ***The champion is a Vulkyn Runefather and cannot replace their weapons.***"
+    "en": "***Each model in this unit is armed with Vulkyn Weapons.***\n\n• ***1/9 models is a Kyndledroth and must replace their weapons with Kyndledroth’s Fangs.***\n• ***The champion is a Vulkyn Runefather and cannot replace their weapons.***",
+    "fix": []
    }
   },
   {
@@ -5008,7 +5009,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***This unit comprises 1 Arch-Knight, 1 Great Herald and 1 Mascot Gargoylian.***"
+    "en": "***This unit comprises 1 Arch-Knight, 1 Great Herald and 1 Mascot Gargoylian.***",
+    "fix": []
    }
   },
   {
@@ -5165,7 +5167,8 @@
    "notes_en": "This unit cannot be reinforced. This unit can only be taken in a regiment that contains a **Freeguild Command Corp Adjutant** unit and no other **Freeguild Command Corp Auxiliaries**. This unit does not count towards the number of friendly units that can accompany a **HERO**.",
    "wargear": {
     "ja": "",
-    "en": "***This unit comprises 1 Soul Shepherd and 1 War Surgeon.***"
+    "en": "***This unit comprises 1 Soul Shepherd and 1 War Surgeon.***",
+    "fix": []
    }
   },
   {
@@ -5760,7 +5763,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***1/10 models in this unit is a Cindergout. The champion cannot be a Cindergout.***"
+    "en": "***1/10 models in this unit is a Cindergout. The champion cannot be a Cindergout.***",
+    "fix": []
    }
   },
   {
@@ -6286,7 +6290,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***This unit’s musician and standard bearer are the same model.***"
+    "en": "***This unit’s musician and standard bearer are the same model.***",
+    "fix": []
    }
   },
   {
@@ -9807,7 +9812,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***•  The champion is a Wildercorps Warden and is armed with a Hunting Crossbow, Wildercorps Hunting Weapons and a Trailhound’s Ferocious Bite.***\n\n***•  6/11 models in this unit are Wildercorpsmen and are armed with a Hunting Crossbow and Wildercorps Hunting Weapons.***\n\n***•  4/11 models are Trailhounds and are armed with a Trailhound’s Ferocious Bite.***"
+    "en": "***•  The champion is a Wildercorps Warden and is armed with a Hunting Crossbow, Wildercorps Hunting Weapons and a Trailhound’s Ferocious Bite.***\n\n***•  6/11 models in this unit are Wildercorpsmen and are armed with a Hunting Crossbow and Wildercorps Hunting Weapons.***\n\n***•  4/11 models are Trailhounds and are armed with a Trailhound’s Ferocious Bite.***",
+    "fix": []
    }
   }
  ]

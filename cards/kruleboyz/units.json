@@ -509,7 +509,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Krew Weapons. The models in this unit are:***\n\n• ***Mannok da Kunnin’** (champion)*\n• ***Torka Tuffskul***\n• ***Gikkit***\n• ***Shank***\n• ***Krookgrin***"
+    "en": "***Each model in this unit is armed with Krew Weapons. The models in this unit are:***\n\n• ***Mannok da Kunnin’** (champion)*\n• ***Torka Tuffskul***\n• ***Gikkit***\n• ***Shank***\n• ***Krookgrin***",
+    "fix": []
    }
   },
   {
@@ -639,7 +640,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Wicked Weapons. The models in this unit are:***\n\n• ***Daggok Finksteala** (champion)*\n• ***Hurrk da Howla** (musician)*\n• ***Jagz da Bleeda***\n• ***Grakk da Hook***"
+    "en": "***Each model in this unit is armed with Wicked Weapons. The models in this unit are:***\n\n• ***Daggok Finksteala** (champion)*\n• ***Hurrk da Howla** (musician)*\n• ***Jagz da Bleeda***\n• ***Grakk da Hook***",
+    "fix": []
    }
   },
   {
@@ -1875,7 +1877,8 @@
    "notes_en": "This **HERO** can join an eligible regiment as a *Swamp Beast*.",
    "wargear": {
     "ja": "",
-    "en": "This **HERO** can join an eligible regiment as a *Swamp Beast*."
+    "en": "This **HERO** can join an eligible regiment as a *Swamp Beast*.",
+    "fix": []
    }
   },
   {
@@ -4380,7 +4383,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**&#x20;\n**Cover, Impassable**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**&#x20;\n**Cover, Impassable**",
+    "fix": []
    }
   },
   {

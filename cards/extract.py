@@ -193,7 +193,7 @@ class Dump:
                 pairs, _ = L.fixes('keyword_names', key)
                 if pairs:
                     kfix[k] = pairs
-        wg_ja, _, _ = L.get('wargear_option_texts', [name])
+        wg_ja, _, wg_key = L.get('wargear_option_texts', [name])
         return {
             'id': w['id'], 'name': nm, 'legends': bool(w.get('isLegends')), 'spearhead': sp,
             'stats': [['移動力', 'Move', w.get('move')], ['体力', 'Health', w.get('health')],
@@ -207,7 +207,9 @@ class Dump:
             'keywords': kws, 'keyword_fix': kfix,
             'regiment': [r.get('optionText') or '' for r in self.RO[w['id']]],
             'notes_en': w.get('notes') or '',
-            'wargear': {'ja': wg_ja or '', 'en': w.get('wargearOptionsText') or ''} if w.get('wargearOptionsText') else None,
+            'wargear': {'ja': wg_ja or '', 'en': w.get('wargearOptionsText') or '',
+                        'fix': L.fixes('wargear_option_texts', wg_key)[0] if wg_key else []}
+                       if w.get('wargearOptionsText') else None,
         }
 
     def ability(self, a, L, unit, sp, kw_en):

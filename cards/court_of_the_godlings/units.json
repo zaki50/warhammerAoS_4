@@ -1316,7 +1316,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**",
+    "fix": []
    }
   },
   {
@@ -2849,7 +2850,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Carnal Blades and Wicked Claws. The models in this unit are:***\n\n• ***Vexmor, the Excessively Indolent** (champion)*\n• ***Vashtiss the Coiled***\n• ***Lascivyr, the Bladed Blessing***"
+    "en": "***Each model in this unit is armed with Carnal Blades and Wicked Claws. The models in this unit are:***\n\n• ***Vexmor, the Excessively Indolent** (champion)*\n• ***Vashtiss the Coiled***\n• ***Lascivyr, the Bladed Blessing***",
+    "fix": []
    }
   },
   {

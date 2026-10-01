@@ -952,7 +952,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Brute Weapons.***\n\n• ***1/5 models can replace their Brute Weapons with a Gore-choppa.***\n• ***The champion cannot replace their weapons.***"
+    "en": "***Each model in this unit is armed with Brute Weapons.***\n\n• ***1/5 models can replace their Brute Weapons with a Gore-choppa.***\n• ***The champion cannot replace their weapons.***",
+    "fix": []
    }
   },
   {
@@ -2342,7 +2343,8 @@
    "notes_en": "This **HERO** can join an eligible regiment as a *Swamp Beast*.",
    "wargear": {
     "ja": "",
-    "en": "This **HERO** can join an eligible regiment as a *Swamp Beast*."
+    "en": "This **HERO** can join an eligible regiment as a *Swamp Beast*.",
+    "fix": []
    }
   },
   {
@@ -4646,7 +4648,8 @@
    "notes_en": "This unit is legal for Matched Play for battles fought using the *General's Handbook 2026-27* battlepack.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Brute Weapons.***\n\n• ***1/5 models can replace their Brute Weapons with a Gore-choppa.***\n• ***The champion cannot replace their weapons.***"
+    "en": "***Each model in this unit is armed with Brute Weapons.***\n\n• ***1/5 models can replace their Brute Weapons with a Gore-choppa.***\n• ***The champion cannot replace their weapons.***",
+    "fix": []
    }
   },
   {
@@ -7274,7 +7277,8 @@
    "notes_en": "This **HERO** can join an eligible regiment as a *Headstompa*.",
    "wargear": {
     "ja": "",
-    "en": "***This unit is armed with a Skull-crushing Basha and 1 of the following options:***\n• ***Ward-smashing Choppa***\n• ***Grunta-tongs***"
+    "en": "***This unit is armed with a Skull-crushing Basha and 1 of the following options:***\n• ***Ward-smashing Choppa***\n• ***Grunta-tongs***",
+    "fix": []
    }
   }
  ]

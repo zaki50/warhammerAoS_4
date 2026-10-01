@@ -2322,7 +2322,8 @@
    "notes_en": "This terrain feature will move to Warhammer Legends on 1 June 2027.",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**",
+    "fix": []
    }
   },
   {
@@ -3151,7 +3152,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**3/5 models in this unit are Hunters and are armed with a Hunter’s Crossbow and Skinning Blades.**\n**2/5 models in this unit are Sabrefangs and are armed with Sabrefang’s Tusks and Claws.**\n**A Sabrefang cannot be the unit champion.**"
+    "en": "**3/5 models in this unit are Hunters and are armed with a Hunter’s Crossbow and Skinning Blades.**\n**2/5 models in this unit are Sabrefangs and are armed with Sabrefang’s Tusks and Claws.**\n**A Sabrefang cannot be the unit champion.**",
+    "fix": []
    }
   },
   {
@@ -5679,7 +5681,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**",
+    "fix": []
    }
   },
   {
@@ -6908,7 +6911,8 @@
    "notes_en": "This **HERO** can join an eligible regiment as a *Voice of the Everwinter*.\nThis unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.",
    "wargear": {
     "ja": "",
-    "en": "***This unit is armed with an Ice Blast, Punches and Kicks, Thundertusk’s Colossal Tusks, and 1 of the following options:***\n\n• ***Chaintrap***\n• ***Harpoon Launcher***\n• ***Blood Vulture***"
+    "en": "***This unit is armed with an Ice Blast, Punches and Kicks, Thundertusk’s Colossal Tusks, and 1 of the following options:***\n\n• ***Chaintrap***\n• ***Harpoon Launcher***\n• ***Blood Vulture***",
+    "fix": []
    }
   },
   {

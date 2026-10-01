@@ -348,7 +348,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***•  1 model is armed with a Rapid Fire Rivet Gun and Aethermatic Saw.***\n***•  1 model is armed with an Aethermatic Volley Gun and Gun Butt.***\n***•  1 model is armed with a Skyrigger Heavy Weapon (Grapnel Launcher, Skyhook or Drill Launcher) and Gun Butt.***"
+    "en": "***•  1 model is armed with a Rapid Fire Rivet Gun and Aethermatic Saw.***\n***•  1 model is armed with an Aethermatic Volley Gun and Gun Butt.***\n***•  1 model is armed with a Skyrigger Heavy Weapon (Grapnel Launcher, Skyhook or Drill Launcher) and Gun Butt.***",
+    "fix": []
    }
   },
   {
@@ -641,7 +642,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***•  1 model is armed with an Aethershot Rifle.***\n***•  1 model is armed with an Aetheric Fumigator.***\n***•  1 model is armed with a Decksweeper.***\n***•  1 model is armed with a Grundstok Mortar.***\n***•  1 model is armed with an Aethercannon.***\n***•  Every model is also armed with a Gun Butt.***"
+    "en": "***•  1 model is armed with an Aethershot Rifle.***\n***•  1 model is armed with an Aetheric Fumigator.***\n***•  1 model is armed with a Decksweeper.***\n***•  1 model is armed with a Grundstok Mortar.***\n***•  1 model is armed with an Aethercannon.***\n***•  Every model is also armed with a Gun Butt.***",
+    "fix": []
    }
   }
  ]

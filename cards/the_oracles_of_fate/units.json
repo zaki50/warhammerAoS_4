@@ -185,7 +185,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***This unit starts the battle with 10 Blue Horror models or, if it is a reinforced unit, 20 Blue Horror models.***\n\n***Brimstone Horrors models can be added to this unit using the ‘Split Again’ ability.***"
+    "en": "***This unit starts the battle with 10 Blue Horror models or, if it is a reinforced unit, 20 Blue Horror models.***\n\n***Brimstone Horrors models can be added to this unit using the ‘Split Again’ ability.***",
+    "fix": []
    }
   },
   {
@@ -703,7 +704,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Warping Wyrdfire and Daemonic Talons. The models in this unit are:***\n\n• ***Ephilim the Unknowable** (champion)*\n• ***Spawnmaw***\n• ***Flamespooler***\n• ***Kindlefinger***\n• ***Apo’trax, the Starefysh***"
+    "en": "***Each model in this unit is armed with Warping Wyrdfire and Daemonic Talons. The models in this unit are:***\n\n• ***Ephilim the Unknowable** (champion)*\n• ***Spawnmaw***\n• ***Flamespooler***\n• ***Kindlefinger***\n• ***Apo’trax, the Starefysh***",
+    "fix": []
    }
   },
   {

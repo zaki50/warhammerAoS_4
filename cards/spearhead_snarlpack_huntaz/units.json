@@ -545,7 +545,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***1 model is armed with a Grot Bow and Snarlfang’s Slavering Jaws, and 1 model is armed with a Stabbin’ Stikka and Snarlfang’s Slavering Jaws.***"
+    "en": "***1 model is armed with a Grot Bow and Snarlfang’s Slavering Jaws, and 1 model is armed with a Stabbin’ Stikka and Snarlfang’s Slavering Jaws.***",
+    "fix": []
    }
   }
  ]

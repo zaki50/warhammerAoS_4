@@ -776,7 +776,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Unstable, Obscuring**\n\n**Designer’s Note:** *For rules purposes, an Awakened Wyldwood is a single tree miniature with a crescent-shaped base.*"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Unstable, Obscuring**\n\n**Designer’s Note:** *For rules purposes, an Awakened Wyldwood is a single tree miniature with a crescent-shaped base.*",
+    "fix": []
    }
   },
   {
@@ -2813,7 +2814,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Hunter Weapons. The models in this unit are:***&#x20;\n\n***• Ylarin, Master of the Paths** (champion)*\n***• Cullon, Axe of Kurnoth***\n***• Lenwythe, Eye of the Forest** (also armed with a Kurnothi Bow)*"
+    "en": "***Each model in this unit is armed with Hunter Weapons. The models in this unit are:***&#x20;\n\n***• Ylarin, Master of the Paths** (champion)*\n***• Cullon, Axe of Kurnoth***\n***• Lenwythe, Eye of the Forest** (also armed with a Kurnothi Bow)*",
+    "fix": []
    }
   },
   {
@@ -3949,7 +3951,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Tracker Weapons. The models in this unit are:***\n\n• ***Skaeth the Huntsman** (champion, also armed with Wild Hunt Ranged Weapons)*\n• ***Karthaen, Huntcaller** (musician)*\n• ***Althaen** (also armed with Wild Hunt Ranged Weapons)*\n• ***Sheoch***\n• ***Lighaen***"
+    "en": "***Each model in this unit is armed with Tracker Weapons. The models in this unit are:***\n\n• ***Skaeth the Huntsman** (champion, also armed with Wild Hunt Ranged Weapons)*\n• ***Karthaen, Huntcaller** (musician)*\n• ***Althaen** (also armed with Wild Hunt Ranged Weapons)*\n• ***Sheoch***\n• ***Lighaen***",
+    "fix": []
    }
   },
   {
@@ -5045,7 +5048,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Twistroot Weapons.***\n\n• ***The champion is a Swarmsage and is also armed with a Voracious Swarm.***\n• ***2/8 models are Twistroot Wardens.***\n• ***1/2 Twistroot Wardens can also be armed with a Warden’s Bow.***"
+    "en": "***Each model in this unit is armed with Twistroot Weapons.***\n\n• ***The champion is a Swarmsage and is also armed with a Voracious Swarm.***\n• ***2/8 models are Twistroot Wardens.***\n• ***1/2 Twistroot Wardens can also be armed with a Warden’s Bow.***",
+    "fix": []
    }
   },
   {
@@ -6117,7 +6121,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***The models in this unit are:***\n\n• ***Ylthari** (champion, armed with Enchanted Glade Weapons)*\n• ***Gallanghann** (armed with Enchanted Glade Weapons)*\n• ***Skhathael** (armed with Enchanted Glade Weapons)*\n• ***Ahnslaine** (armed with a Revenant Bow)*"
+    "en": "***The models in this unit are:***\n\n• ***Ylthari** (champion, armed with Enchanted Glade Weapons)*\n• ***Gallanghann** (armed with Enchanted Glade Weapons)*\n• ***Skhathael** (armed with Enchanted Glade Weapons)*\n• ***Ahnslaine** (armed with a Revenant Bow)*",
+    "fix": []
    }
   }
  ]

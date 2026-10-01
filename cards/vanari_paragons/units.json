@@ -610,7 +610,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):***\n\n***Cover, Impassable***"
+    "en": "***The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):***\n\n***Cover, Impassable***",
+    "fix": []
    }
   },
   {

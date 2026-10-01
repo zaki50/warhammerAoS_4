@@ -681,7 +681,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Unstable**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Unstable**",
+    "fix": []
    }
   },
   {
@@ -1307,7 +1308,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***The models in this unit are:***\n\n• ***Mir Kainan** (armed with a Soulreaper Axe)*\n• ***Binar Khenta** (armed with a Nadirite Weapon)*\n• ***Karu** (armed with a Nadirite Weapon)*\n• ***Senha** (armed with a Nadirite Weapon)*\n• ***Hakor** (armed with a Nadirite Weapon)*\n• ***Nohem** (armed with a Nadirite Weapon)*"
+    "en": "***The models in this unit are:***\n\n• ***Mir Kainan** (armed with a Soulreaper Axe)*\n• ***Binar Khenta** (armed with a Nadirite Weapon)*\n• ***Karu** (armed with a Nadirite Weapon)*\n• ***Senha** (armed with a Nadirite Weapon)*\n• ***Hakor** (armed with a Nadirite Weapon)*\n• ***Nohem** (armed with a Nadirite Weapon)*",
+    "fix": []
    }
   },
   {

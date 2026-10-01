@@ -385,7 +385,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***This unit is armed with Barbed Hooks and Blades, Allopex’s Ferocious Bite and 1 of the following options:***\n\n• ***Razorshell Harpoon***\n• ***Retarius Net Launcher***"
+    "en": "***This unit is armed with Barbed Hooks and Blades, Allopex’s Ferocious Bite and 1 of the following options:***\n\n• ***Razorshell Harpoon***\n• ***Retarius Net Launcher***",
+    "fix": []
    }
   },
   {
@@ -1493,7 +1494,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***The models in this unit are:***\n\n• ***Cyreni of the Abyss** (champion, armed with Lanmari Weapons)*\n• ***Alathyrr** (armed with Lanmari Weapons)*\n• ***Renglaith** (armed with Lanmari Weapons)*\n• ***Cephanyr** (armed with Cephanyr’s Tentacles)*"
+    "en": "***The models in this unit are:***\n\n• ***Cyreni of the Abyss** (champion, armed with Lanmari Weapons)*\n• ***Alathyrr** (armed with Lanmari Weapons)*\n• ***Renglaith** (armed with Lanmari Weapons)*\n• ***Cephanyr** (armed with Cephanyr’s Tentacles)*",
+    "fix": []
    }
   },
   {
@@ -2143,7 +2145,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Soulraid Weapons. The models in this unit are:***\n\n• ***Elathain Ill-fated** (champion)*\n• ***Tammael** (also armed with a Riptide Harpoon)*\n• ***Fuirann***\n• ***Duinclaw***\n• ***Spinefin***"
+    "en": "***Each model in this unit is armed with Soulraid Weapons. The models in this unit are:***\n\n• ***Elathain Ill-fated** (champion)*\n• ***Tammael** (also armed with a Riptide Harpoon)*\n• ***Fuirann***\n• ***Duinclaw***\n• ***Spinefin***",
+    "fix": []
    }
   },
   {
@@ -2375,7 +2378,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Obscuring**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Obscuring**",
+    "fix": []
    }
   },
   {

@@ -976,7 +976,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**",
+    "fix": []
    }
   },
   {
@@ -2428,7 +2429,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***The models in this unit are:***\n\n• ***Duke Crakmarrow** (champion, armed with a Great Halberd)*\n• ***Gristlewel** (armed with Knightly Weapons)*\n• ***Valreek the Tracker** (armed with Knightly Weapons)*\n• ***The Royal Butcher** (armed with Knightly Weapons)*\n• ***Master Talon** (armed with Knightly Weapons)*\n• ***The Night’s Herald** (armed with Knightly Weapons)*\n• ***The Duke’s Harriers** (armed with Knightly Weapons)*"
+    "en": "***The models in this unit are:***\n\n• ***Duke Crakmarrow** (champion, armed with a Great Halberd)*\n• ***Gristlewel** (armed with Knightly Weapons)*\n• ***Valreek the Tracker** (armed with Knightly Weapons)*\n• ***The Royal Butcher** (armed with Knightly Weapons)*\n• ***Master Talon** (armed with Knightly Weapons)*\n• ***The Night’s Herald** (armed with Knightly Weapons)*\n• ***The Duke’s Harriers** (armed with Knightly Weapons)*",
+    "fix": []
    }
   },
   {
@@ -2595,7 +2597,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Butchering Weapons. The models in this unit are:***\n\n• ***Gristla Tenderhooke** (champion)*\n• ***The Carnskyr***\n• ***Seddrik the Chain***\n• ***Young Master Kretch***\n• ***Flensemaster Pewdrig***"
+    "en": "***Each model in this unit is armed with Butchering Weapons. The models in this unit are:***\n\n• ***Gristla Tenderhooke** (champion)*\n• ***The Carnskyr***\n• ***Seddrik the Chain***\n• ***Young Master Kretch***\n• ***Flensemaster Pewdrig***",
+    "fix": []
    }
   }
  ]

@@ -1167,7 +1167,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***This unit is armed with a Lashing Whip, Chaos Steeds’ Trampling Hooves and 1 of the following options:***\n\n• ***Chaos War-flail***\n• ***Chaos Greatblade***"
+    "en": "***This unit is armed with a Lashing Whip, Chaos Steeds’ Trampling Hooves and 1 of the following options:***\n\n• ***Chaos War-flail***\n• ***Chaos Greatblade***",
+    "fix": []
    }
   },
   {
@@ -3679,7 +3680,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**Marks of Chaos**\n***During army composition, if this unit is part of a Slaves to Darkness army, you can pick 1 of the following Pledge to Chaos keywords for this unit***:\n\n**• PLEDGED TO KHORNE**\n**• PLEDGED TO TZEENTCH**\n**• PLEDGED TO NURGLE**\n**• PLEDGED TO SLAANESH**\n\n***This unit is armed with Hellforged Weapons and has 1 of the following options:***\n• ***Wings***\n• ***Trophy Rack***"
+    "en": "**Marks of Chaos**\n***During army composition, if this unit is part of a Slaves to Darkness army, you can pick 1 of the following Pledge to Chaos keywords for this unit***:\n\n**• PLEDGED TO KHORNE**\n**• PLEDGED TO TZEENTCH**\n**• PLEDGED TO NURGLE**\n**• PLEDGED TO SLAANESH**\n\n***This unit is armed with Hellforged Weapons and has 1 of the following options:***\n• ***Wings***\n• ***Trophy Rack***",
+    "fix": []
    }
   },
   {
@@ -4381,7 +4383,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Warsteed’s Hooves and 1 of the following options:***\n\n***• Marauder Javelin***\n***• Fellrider Blades***"
+    "en": "***Each model in this unit is armed with Warsteed’s Hooves and 1 of the following options:***\n\n***• Marauder Javelin***\n***• Fellrider Blades***",
+    "fix": []
    }
   },
   {
@@ -6229,7 +6232,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Godsworn Weapons. The models in this unit are:***\n\n• ***Theddra Skull-scryer** (champion)*\n• ***Grundann Blood-Eye***\n• ***Shond Head-Claimer***\n• ***Jagathra***\n• ***Grawl***\n• ***Ollo** (also armed with a Hunting Bow)*"
+    "en": "***Each model in this unit is armed with Godsworn Weapons. The models in this unit are:***\n\n• ***Theddra Skull-scryer** (champion)*\n• ***Grundann Blood-Eye***\n• ***Shond Head-Claimer***\n• ***Jagathra***\n• ***Grawl***\n• ***Ollo** (also armed with a Hunting Bow)*",
+    "fix": []
    }
   },
   {
@@ -6399,7 +6403,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***This unit is armed with a Lashing Whip, Gorebeast’s Crushing Fists and 1 of the following options:***\n\n• ***Chaos War-flail***\n• ***Chaos Greatblade***"
+    "en": "***This unit is armed with a Lashing Whip, Gorebeast’s Crushing Fists and 1 of the following options:***\n\n• ***Chaos War-flail***\n• ***Chaos Greatblade***",
+    "fix": []
    }
   },
   {
@@ -6712,7 +6717,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Forge Weapons.***\n\n• ***1/10 models is armed with a Flamehurler in addition to their other weapons***.\n• ***The champion cannot be armed with a Flamehurler***."
+    "en": "***Each model in this unit is armed with Forge Weapons.***\n\n• ***1/10 models is armed with a Flamehurler in addition to their other weapons***.\n• ***The champion cannot be armed with a Flamehurler***.",
+    "fix": []
    }
   },
   {
@@ -6893,7 +6899,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***1/8 models in this unit is an Ogor Breacher. An Ogor Breacher cannot be the champion or a standard bearer.***"
+    "en": "***1/8 models in this unit is an Ogor Breacher. An Ogor Breacher cannot be the champion or a standard bearer.***",
+    "fix": []
    }
   },
   {
@@ -7056,7 +7063,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Hellforged Weapons. The models in this unit are:***\n\n• ***Khagra the Usurper** (champion)*\n• ***Zarshia Bittersoul***\n• ***Razek Godblessed***\n• ***Dour Cragan***"
+    "en": "***Each model in this unit is armed with Hellforged Weapons. The models in this unit are:***\n\n• ***Khagra the Usurper** (champion)*\n• ***Zarshia Bittersoul***\n• ***Razek Godblessed***\n• ***Dour Cragan***",
+    "fix": []
    }
   },
   {
@@ -7609,7 +7617,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**",
+    "fix": []
    }
   },
   {
@@ -9859,7 +9868,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***This unit’s Serpents are a token. There is 1 Serpents token for every 9 models in this unit.***"
+    "en": "***This unit’s Serpents are a token. There is 1 Serpents token for every 9 models in this unit.***",
+    "fix": []
    }
   },
   {
@@ -10022,7 +10032,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Envenomed Projectiles and Brood Weapons.***\n\n• ***3/13 models are Spider Swarms and must replace their weapons with Venomous Bites.***\n• ***A Spider Swarm cannot be the champion.***"
+    "en": "***Each model in this unit is armed with Envenomed Projectiles and Brood Weapons.***\n\n• ***3/13 models are Spider Swarms and must replace their weapons with Venomous Bites.***\n• ***A Spider Swarm cannot be the champion.***",
+    "fix": []
    }
   },
   {
@@ -10189,7 +10200,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Gnarlspirit Weapons. The models in this unit are:***\n\n• ***Sarrakkar Blackwing** (champion)*\n• ***Gorl Spinehammer***\n• ***Crimson Kheira***\n• ***Lupan Longcut***"
+    "en": "***Each model in this unit is armed with Gnarlspirit Weapons. The models in this unit are:***\n\n• ***Sarrakkar Blackwing** (champion)*\n• ***Gorl Spinehammer***\n• ***Crimson Kheira***\n• ***Lupan Longcut***",
+    "fix": []
    }
   },
   {
@@ -10368,7 +10380,8 @@
    "notes_en": "This unit can only be taken in **Gunnar Brand**’s regiment. This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***• Warqueen Tanari and Dendrel Direbrand are each armed with a Heavy Darkoath Weapon.***\n***• Broken Nadja is armed with a Gnarled Staff.***"
+    "en": "***• Warqueen Tanari and Dendrel Direbrand are each armed with a Heavy Darkoath Weapon.***\n***• Broken Nadja is armed with a Gnarled Staff.***",
+    "fix": []
    }
   },
   {
@@ -10512,7 +10525,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Maiming Weapons.***\n\n• ***The champion must replace their Maiming Weapons with Nightmare Sickles.***"
+    "en": "***Each model in this unit is armed with Maiming Weapons.***\n\n• ***The champion must replace their Maiming Weapons with Nightmare Sickles.***",
+    "fix": []
    }
   },
   {
@@ -10671,7 +10685,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***1/9 models in this unit is a First Fang. A First Fang cannot be the champion.***"
+    "en": "***1/9 models in this unit is a First Fang. A First Fang cannot be the champion.***",
+    "fix": []
    }
   },
   {

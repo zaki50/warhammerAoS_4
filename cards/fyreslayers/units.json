@@ -3005,7 +3005,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable, Obscuring**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable, Obscuring**",
+    "fix": []
    }
   },
   {
@@ -3695,7 +3696,8 @@
    "notes_en": "This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Vulkyn Weapons.***\n\n• ***1/9 models is a Kyndledroth and must replace their weapons with Emberteeth.***\n• ***The champion is a Vulkyn Runefather and cannot replace their weapons.***"
+    "en": "***Each model in this unit is armed with Vulkyn Weapons.***\n\n• ***1/9 models is a Kyndledroth and must replace their weapons with Emberteeth.***\n• ***The champion is a Vulkyn Runefather and cannot replace their weapons.***",
+    "fix": []
    }
   },
   {
@@ -4166,7 +4168,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***The models in this unit are:***\n\n• ***Fjul-Grimnir** (champion, armed with a Latchkey Grandaxe)*\n• ***Tefk Flamebearer** (armed with Fyresteel Weapons)*\n• ***Vol Orrukbane** (armed with Fyresteel Weapons)*\n• ***Mad Maegrim** (armed with Fyresteel Weapons)*"
+    "en": "***The models in this unit are:***\n\n• ***Fjul-Grimnir** (champion, armed with a Latchkey Grandaxe)*\n• ***Tefk Flamebearer** (armed with Fyresteel Weapons)*\n• ***Vol Orrukbane** (armed with Fyresteel Weapons)*\n• ***Mad Maegrim** (armed with Fyresteel Weapons)*",
+    "fix": []
    }
   },
   {
@@ -4573,7 +4576,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Vulkyn Weapons.***\n\n• ***1/9 models is a Kyndledroth and must replace their weapons with Emberteeth.***\n• ***The champion is a Vulkyn Runefather and cannot replace their weapons.***"
+    "en": "***Each model in this unit is armed with Vulkyn Weapons.***\n\n• ***1/9 models is a Kyndledroth and must replace their weapons with Emberteeth.***\n• ***The champion is a Vulkyn Runefather and cannot replace their weapons.***",
+    "fix": []
    }
   },
   {

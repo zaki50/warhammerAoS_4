@@ -337,7 +337,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***One unit has 4 Arkanauts armed with a Privateer Pistol and Arkanaut Cutter, and 1 Arkanaut armed with a Skypike.***\n\n***The other unit has 3 Arkanauts armed with a Privateer Pistol and Arkanaut Cutter, 1 Arkanaut armed with an Aethermatic Volley Gun and Gun Butt, and 1 Arkanaut armed with a Light Skyhook and Gun Butt.***"
+    "en": "***One unit has 4 Arkanauts armed with a Privateer Pistol and Arkanaut Cutter, and 1 Arkanaut armed with a Skypike.***\n\n***The other unit has 3 Arkanauts armed with a Privateer Pistol and Arkanaut Cutter, 1 Arkanaut armed with an Aethermatic Volley Gun and Gun Butt, and 1 Arkanaut armed with a Light Skyhook and Gun Butt.***",
+    "fix": []
    }
   },
   {
@@ -687,7 +688,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "***This unit has 2 Skywardens armed with a Vulcaniser Pistol and Skypike, and 1 Skywarden armed with an Aethermatic Volley Gun and Gun Butt.***"
+    "en": "***This unit has 2 Skywardens armed with a Vulcaniser Pistol and Skypike, and 1 Skywarden armed with an Aethermatic Volley Gun and Gun Butt.***",
+    "fix": []
    }
   }
  ]

@@ -766,7 +766,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**",
+    "fix": []
    }
   },
   {
@@ -1430,7 +1431,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Gardening Tools. The models in this unit are:***\n\n***• Phleghmus Potbelly** (champion)*\n***• Bug-Eyed Dripterus** (standard bearer)*\n***• Slunge***\n***• Maggoty Strewg***\n***• Squort***"
+    "en": "***Each model in this unit is armed with Gardening Tools. The models in this unit are:***\n\n***• Phleghmus Potbelly** (champion)*\n***• Bug-Eyed Dripterus** (standard bearer)*\n***• Slunge***\n***• Maggoty Strewg***\n***• Squort***",
+    "fix": []
    }
   },
   {

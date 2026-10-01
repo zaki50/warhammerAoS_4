@@ -273,7 +273,8 @@
    "notes_en": "",
    "wargear": {
     "ja": "",
-    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Unstable, Obscuring**\n\n**Designer’s Note:** *For rules purposes, an Awakened Wyldwood is a single tree miniature with a crescent-shaped base.*"
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Unstable, Obscuring**\n\n**Designer’s Note:** *For rules purposes, an Awakened Wyldwood is a single tree miniature with a crescent-shaped base.*",
+    "fix": []
    }
   },
   {
@@ -1509,7 +1510,8 @@
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
     "ja": "",
-    "en": "***Each model in this unit is armed with Tracker Weapons. The models in this unit are:***\n\n• ***Skaeth the Huntsman** (champion, also armed with Wild Hunt Ranged Weapons)*\n• ***Karthaen, Huntcaller** (musician)*\n• ***Althaen** (also armed with Wild Hunt Ranged Weapons)*\n• ***Sheoch***\n• ***Lighaen***"
+    "en": "***Each model in this unit is armed with Tracker Weapons. The models in this unit are:***\n\n• ***Skaeth the Huntsman** (champion, also armed with Wild Hunt Ranged Weapons)*\n• ***Karthaen, Huntcaller** (musician)*\n• ***Althaen** (also armed with Wild Hunt Ranged Weapons)*\n• ***Sheoch***\n• ***Lighaen***",
+    "fix": []
    }
   },
   {
