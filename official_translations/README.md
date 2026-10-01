@@ -122,3 +122,9 @@ python3 .claude/skills/check-translations/scripts/check_translations.py --dump d
 
 バトルプロフィールに載らないもの（マニフェステーション、Legends、新しい禍事版など）は
 英語のまま残る。陣営パックやバトルトームから取り込むときは `_source` に追記する。
+
+## 誤訳・誤植の訳注（translation_notes.json）
+
+書籍の公式訳に誤訳・誤植があっても、このフォルダには**書籍どおり**に載せる（勝手に直さない）。
+誤りはリポジトリ直下の `translation_notes.json` に訳注として登録し、md では該当箇所の直後に
+「訳注」（説明と「訂正: 「誤」→「正」」）が出る。登録と照合の手順は `translation-notes` スキル。

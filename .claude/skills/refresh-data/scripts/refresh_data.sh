@@ -54,6 +54,11 @@ if [[ ! -f dump.json ]]; then
   exit 1
 fi
 
+# --- 訳注 (translation_notes.json) を新しい dump.json と訳ファイルに照合して状態を更新 ---
+echo "=== 訳注の照合 (translation-notes) ==="
+python3 .claude/skills/translation-notes/scripts/translation_notes.py check --dump dump.json --update \
+  | sed 's/^/  /' || echo "  NG(tn)"
+
 # いずれもファクション/Spearhead 別のファイル構造のため、消えた項目が残らないよう
 # ディレクトリをクリアしてから再生成する
 

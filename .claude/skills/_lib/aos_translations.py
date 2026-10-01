@@ -6,7 +6,8 @@ check-translations は LOOKUPS に記録されたキーから未使用の訳を�
 訳ファイル: <dump.json と同じディレクトリ>/{official,own}_translations/<ファクションslug>.json
   {"unit_names": {...}, "weapon_names": {...}, "ability_names": {...}, "ability_texts": {...}}
   キーは英語名、または "ユニット英語名|英語名" (そのユニットにだけ当たる。武器・アビリティのみ)。
-  ability_texts はさらに "Spearhead|ユニット英語名|英語名" / "Spearhead|英語名" で Spearhead 版にだけ当てられる。
+  ability_texts はウォースクロールのアビリティを "ユニット英語名|英語名" で持つ (名前だけのキーには落ちない)。
+  名前だけのキーはファクションルールのアビリティ用。"Spearhead|…" を前に付けると Spearhead 版にだけ当たる。
   keyword_names (ユニットのキーワード) / weapon_ability_names (武器アビリティ) / group_names (アビリティグループ・
   戦闘陣形・伝承・Spearhead の名前) / group_texts (グループの前置き文) は英語名がキー。
   "faction_name" はファクション名の日本語 (文字列)。
@@ -20,6 +21,22 @@ SECTIONS = ("unit_names", "weapon_names", "ability_names", "ability_texts",
             "wargear_option_texts")
 # ability_texts の値で使うフィールド (いずれも省略可。省略したものは英語のまま)
 TEXT_FIELDS = ("timing", "used_by", "declare", "effect", "keywords")
+
+_notes_cache = {}
+
+
+def _load_notes(base):
+    """<base>/translation_notes.json の status=open の注 (無ければ空)。"""
+    if base not in _notes_cache:
+        p = os.path.join(base, "translation_notes.json")
+        notes = json.load(open(p, encoding="utf-8")).get("notes", []) if os.path.exists(p) else []
+        _notes_cache[base] = [n for n in notes if n.get("status") == "open"]
+    return _notes_cache[base]
+
+
+def _plain(s):
+    return (s or "").replace("**", "")
+
 
 # 照合を試みた (base, slug, section, key) の記録。check-translations が使う
 LOOKUPS = set()
@@ -112,15 +129,43 @@ class Translations:
         v = self.official.get("faction_name") or self.own.get("faction_name")
         return pair(v, en)
 
+    @staticmethod
+    def text_keys(en, unit=None, spearhead=False):
+        """ability_texts を引くキーの候補 (具体的なものから順)。"""
+        if unit:
+            # ウォースクロールのアビリティはユニット指定のキーだけで引く。名前だけのキーに落とすと、
+            # 同じ名前で中身の違う別ユニット (Legends・禍事版) やファクションルールの本文が当たってしまう
+            return (["Spearhead|%s|%s" % (unit, en)] if spearhead else []) + ["%s|%s" % (unit, en)]
+        return (["Spearhead|%s" % en] if spearhead else []) + [en]
+
+    def note_lines(self, section, keys, indent=""):
+        """translation_notes.json の open な注のうち、このファクションの section の keys に当たるものを
+        訳注のコールアウト行にする。keys は引く順の候補で、実際に訳が当たったキーの注だけを出す。"""
+        used = next((k for k in keys
+                     if (self.official.get(section) or {}).get(k) or (self.own.get(section) or {}).get(k)), None)
+        if used is None:
+            return []
+        hit = [n for n in _load_notes(self.base)
+               if n.get("faction") == self.slug and n.get("tr_section") == section and n.get("tr_key") == used]
+        lines, seen = [], set()
+        for n in hit:
+            if n["note"] in seen:
+                continue
+            seen.add(n["note"])
+            body = n["note"]
+            fix = n.get("fix_ja")
+            if isinstance(fix, str):
+                body += " 訂正: 「%s」→「%s」" % (_plain(n.get("ja")), _plain(fix))
+            elif isinstance(fix, dict):
+                body += " 訂正: " + "、".join("「%s」→「%s」" % (_plain(a), _plain(b)) for a, b in fix.items())
+            lines += ["%s> [!warning] 訳注" % indent, "%s> %s" % (indent, body)]
+        return lines
+
     def text(self, en, unit=None, spearhead=False):
         """アビリティ本文の訳 ({timing, declare, effect, keywords} の dict) か None。
-        具体的なキーから順に引く: Spearhead|ユニット|名前 → Spearhead|名前 → ユニット|名前 → 名前。"""
-        keys = []
-        if spearhead:
-            keys.append("Spearhead|%s|%s" % (unit, en) if unit else "Spearhead|%s" % en)
-        if unit:
-            keys.append("%s|%s" % (unit, en))
-        keys.append(en)
+        ユニットのアビリティは Spearhead|ユニット|名前 → ユニット|名前、ファクションルールの
+        アビリティ (unit=None) は Spearhead|名前 → 名前 の順に引く。"""
+        keys = self.text_keys(en, unit, spearhead)
         for i, k in enumerate(keys):
             v = self._get("ability_texts", k)
             if v:

@@ -120,6 +120,10 @@ def render_ability_lines(a, kw_names=None, indent="  ", tr=None, unit=None, spea
             if a.get(k):
                 lines.append("%s- %s" % (indent, clean(a[k])))
                 break
+    keys_name = ["%s|%s" % (unit, a.get("name")), a.get("name")] if unit else [a.get("name")]
+    if tr:
+        lines += tr.note_lines("ability_texts", tr.text_keys(a.get("name"), unit, spearhead), indent)
+        lines += tr.note_lines("ability_names", keys_name, indent)
     return lines
 
 
@@ -177,6 +181,15 @@ def render_warscroll(w, ix, out, tr):
                 cell(x.get("wound")), cell(x.get("rend")),
                 cell(x.get("damage")), cell(", ".join(wab_names(x)) or "-")))
 
+    wnotes = []
+    for x in ranged + melee:
+        for l in tr.note_lines("weapon_names", ["%s|%s" % (unit, x["name"]), x["name"]]):
+            if l not in wnotes:
+                wnotes.append(l)
+    if wnotes:
+        out.append("")
+        out.extend(wnotes)
+
     abilities = ix["abilities_by_ws"].get(wid, [])
     if abilities:
         out.append("\n**アビリティ:**\n")
@@ -188,6 +201,12 @@ def render_warscroll(w, ix, out, tr):
 
     if w.get("referenceKeywords"):
         out.append("\n**キーワード:** %s" % tr.keywords(w["referenceKeywords"], unit))
+        knotes = []
+        for k in [k.strip() for k in w["referenceKeywords"].split(",") if k.strip()]:
+            knotes += tr.note_lines("keyword_names", ["%s|%s" % (unit, k), k])
+        if knotes:
+            out.append("")
+            out.extend(knotes)
     if w.get("notes"):
         out.append("\n**ノート:** %s" % clean(w["notes"]))
 

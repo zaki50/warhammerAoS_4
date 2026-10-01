@@ -48,6 +48,7 @@ bash $SKILL -s 46221FDAP000JD
 ## 処理内容
 
 1. **dump.json 取得**（既定）… `fetch-dump` を呼び、`dump.json` と `dump.meta.json` を更新
+   その後、**訳注の照合** … `translation-notes` の `check --update` で `translation_notes.json` の状態（誤訳が残っているか）を更新
 2. **warscrolls** … `--all` で一括再生成（Grand Alliance 除外・Spearhead 版除外）。
    ファクション別ファイルのため、削除された項目が残らないよう `warscrolls/` を
    **クリアしてから**再生成
