@@ -1,0 +1,479 @@
+{
+ "_doc": "official_translations/*.json（書籍などから書き写した公式訳）の既知の誤訳・誤植。md 生成時に status=open のものを該当箇所の直後に「訳注」として差し込む（日本語の本文は書籍どおりのまま）。照合・更新は .claude/skills/translation-notes/scripts/translation_notes.py check --update。",
+ "_location": "tr_section / tr_key / tr_field は日本語の場所（official_translations/<faction>.json のセクション・キー・フィールド。フィールドの無い名前のセクションは tr_field=null）。table / id / en_field は対応する英語の dump.json レコード。",
+ "_fix_ja": "fix_ja: 誤訳を何に直すか。文字列なら ja をそれに置き換える。複数箇所・別範囲を直すときは {誤訳箇所: 修正後}。md の訳注に「訂正: 「誤」→「正」」として出る。",
+ "checked_data_version": 483,
+ "notes": [
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Slaughter Queen on Cauldron of Blood|Icon of Slaughter",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "df187102-1a65-4c7e-b180-c1e81807d359",
+   "en_field": "effect",
+   "name": "Icon of Slaughter",
+   "ja": "自軍は追加で3再集結ポイントを得る",
+   "en": "you receive D3 additional rally points",
+   "note": "英語版は「D3 再集結ポイント」。日本語版（書籍 p.62）の「3再集結ポイント」は誤り。",
+   "issue": "A. 数値の誤り",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "追加で3再集結ポイント": "追加でD3再集結ポイント"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Slaughter Queen on Cauldron of Blood|Consecrated Revulsion",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "4d961b0b-8f60-44c2-9d21-bd33349f1883",
+   "en_field": "effect",
+   "name": "Consecrated Revulsion",
+   "ja": "その加護ロールに+1の修正を受ける",
+   "en": "Add 1 to save rolls",
+   "note": "英語版はセーブロール（save rolls）に+1。日本語版（書籍 p.62）の「加護ロール」は誤り（スピアヘッド版 p.82 は正しく「セーブロール」）。",
+   "issue": "B. ロールの種類の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "その加護ロールに": "そのセーブロールに"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Hag Queen|Catechisms of Violence",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "9069e9ab-a06b-4320-bec9-5a2ebb831236",
+   "en_field": "effect",
+   "name": "Catechisms of Violence",
+   "ja": "神官**を1体選択する",
+   "en": "you can pick a visible friendly",
+   "note": "英語版は「選択してもよい」（you can pick）。日本語版（書籍 p.61）は「選択する」で、選択が必須のように読める。",
+   "issue": "C. 任意と必須の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "神官**を1体選択する": "神官**を1体選択してもよい"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Morathi-Khaine|The Iron Heart of Khaine",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "af0c3089-887a-4e62-a172-1fddbd4582e6",
+   "en_field": "effect",
+   "name": "The Iron Heart of Khaine",
+   "ja": "このユニットもしくは**影の女王**を",
+   "en": "this unit or a friendly Shadow Queen",
+   "note": "英語版は「味方の」影の女王（a friendly Shadow Queen）。日本語版（書籍 p.59）は「味方」が抜けている。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "このユニットもしくは**影の女王**": "このユニットもしくは味方**影の女王**"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Spearhead|Shadow Avatar",
+   "tr_field": "timing",
+   "table": "ability",
+   "id": "b80654a4-3bcf-43c7-8db6-afb742d770fe",
+   "en_field": "phaseDetails",
+   "name": "Shadow Avatar",
+   "ja": "バトル中1回限り（アーミー）",
+   "en": "Once Per Battle, Your Combat Phase",
+   "note": "英語版のタイミングは「バトル中1回限り」で「（アーミー）」が無い。日本語版（書籍 p.81）の「（アーミー）」は余分。",
+   "issue": "E. タイミングの誤り",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "バトル中1回限り（アーミー）": "バトル中1回限り"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Bloodwrack Shrine|Agonising Spasms",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "08936484-22cc-467b-8b63-2fab3ac12419",
+   "en_field": "effect",
+   "name": "Agonising Spasms",
+   "ja": "このユニット『**遠隔攻撃**』アビリティのすべての攻撃",
+   "en": "all of this unit’s attacks",
+   "note": "書籍 p.64 の「このユニット『遠隔攻撃』」は「の」が抜けている（誤植）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "このユニット『**遠隔攻撃**』": "このユニットの『**遠隔攻撃**』"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Bloodwrack Shrine|Aura of Agony",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "da244c46-cf8a-4143-8bc8-e8e4f2fa6cc0",
+   "en_field": "effect",
+   "name": "Aura of Agony",
+   "ja": "• 効果:このユニットは",
+   "en": "This unit has **WARD (4+)**",
+   "note": "書籍 p.64 の 2 つ目の項目の先頭にある「効果:」は余分（誤植）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "• 効果:このユニットは": "• このユニットは"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Krethusa the Croneseer|Omens of Doom",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "07550d08-24db-4450-af05-e3da820b2d5e",
+   "en_field": "effect",
+   "name": "Omens of Doom",
+   "ja": "祈願ロールが10＋であった場合",
+   "en": "If the chanting roll was 10+",
+   "note": "書籍 p.60 の「10＋」は ＋ が全角（他の箇所は半角の「+」）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "10＋": "10+"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "weapon_names",
+   "tr_key": "Bloodwrack Spear and Whisperclaw",
+   "tr_field": null,
+   "table": "warscroll_weapon",
+   "id": "fd7b3dfa-00a7-44d0-ad55-231545766755",
+   "en_field": "name",
+   "name": "Bloodwrack Spear and Whisperclaw",
+   "ja": "ブラッドラック・スピア",
+   "en": "Bloodwrack Spear and Whisperclaw",
+   "note": "英語版の武器名は Bloodwrack Spear and Whisperclaw。日本語版（書籍 p.65、陣営パックのメデューサのページも同じ）は「ウィスパークロウ」が抜けている。ブラッドラック・シュラインの旧データシート（陣営パック）では「ブラッドラック・スピアとウィスパークロウ」だった。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": "ブラッドラック・スピアとウィスパークロウ"
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "keyword_names",
+   "tr_key": "Champion (1/10)",
+   "tr_field": null,
+   "table": "warscroll",
+   "id": "524a9b9c-6586-4ddc-aaf5-f329e665631d",
+   "en_field": "referenceKeywords",
+   "name": "Blood Hags",
+   "ja": "豪傑",
+   "en": "Champion (1/10)",
+   "note": "英語版は Champion (1/10)。日本語版（書籍 p.68 のブラッドハグのキーワード）は「豪傑」で「（1/10）」が抜けている。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": "豪傑（1/10）"
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Shadow-Blooded",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "fcc2ddc8-aaec-4724-ae7a-2b67e9d76dee",
+   "en_field": "effect",
+   "name": "Shadow-Blooded",
+   "ja": "このユニットの移動距離",
+   "en": "when determining the distance that unit can move",
+   "note": "英語版の that unit は『再配置』を宣言した味方ユニット（このユニットの12mv以内の DoK ユニット）。日本語版（書籍 p.54）の「このユニット」は英雄特性を持つユニット自身を指してしまう。",
+   "issue": "F. 効果を得る側の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "このユニットの移動距離": "そのユニットの移動距離"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Heretic's Bane",
+   "tr_field": "effect",
+   "table": "battle_formation_rule",
+   "id": "e1f59e68-8285-4e5f-9622-a31df2987e4b",
+   "en_field": "effect",
+   "name": "Heretic's Bane",
+   "ja": "ロール結果が3+であれば、そのターン中、",
+   "en": "For each 3+, subtract 1",
+   "note": "英語版は「3+ の出目 1 個につき -1」で、3+ が複数出れば修正が重なる。日本語版（書籍 p.53）の「3+であれば」では -1 にしかならないように読める。",
+   "issue": "G. 「〜につき」の加算の脱落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "ロール結果が3+であれば、": "3+の出目1個につき、"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Blessings of Khaine",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "0681a95d-65e3-463e-83ed-aa9efb1c0ce4",
+   "en_field": "effect",
+   "name": "Blessings of Khaine",
+   "ja": "**無慈悲の祝福：**味方ユニットは、ヒットロールに+1",
+   "en": "Add 1 to hit rolls for those units’ combat attacks",
+   "note": "英語版の無慈悲の祝福はメレーアタック（combat attacks）のヒットロールだけに +1。日本語版（書籍 p.52）は攻撃種別の限定が無く、レンジアタックにもかかるように読める。",
+   "issue": "H. 攻撃種別の限定の脱落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**無慈悲の祝福：**味方ユニットは、ヒットロールに": "**無慈悲の祝福：**味方ユニットのメレーアタックは、ヒットロールに"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Blessings of Khaine",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "0681a95d-65e3-463e-83ed-aa9efb1c0ce4",
+   "en_field": "effect",
+   "name": "Blessings of Khaine",
+   "ja": "**憎悪の祝福：**味方ユニットは、ウーンズロールに+1",
+   "en": "Add 1 to wound rolls for those units’ combat attacks",
+   "note": "英語版の憎悪の祝福はメレーアタック（combat attacks）のウーンズロールだけに +1。日本語版（書籍 p.52）は攻撃種別の限定が無く、レンジアタックにもかかるように読める。",
+   "issue": "H. 攻撃種別の限定の脱落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**憎悪の祝福：**味方ユニットは、ウーンズロールに": "**憎悪の祝福：**味方ユニットのメレーアタックは、ウーンズロールに"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Shrine of Dark Tribute|Call to Murder",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "6c6cfecd-17e1-41f6-a826-0090a1c6fa98",
+   "en_field": "effect",
+   "name": "Call to Murder",
+   "ja": "解除されたばかりではない",
+   "en": "Then, pick a blessing that is not **active**",
+   "note": "英語版は「有効化されていない祝福を1つ選ぶ」だけで、いま解除した祝福を選び直すことを禁じていない。日本語版（書籍 p.75）の「解除されたばかりではない」は英語に無い条件。",
+   "issue": "I. 英語に無い条件",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "解除されたばかりではない": ""
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Slaughter Queen|Fanatical Blademaster",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "1c435181-3db6-40a0-9ee9-ba63172b57ee",
+   "en_field": "effect",
+   "name": "Fanatical Blademaster",
+   "ja": "選択された祝福は、次の自軍側ターン開始時まで、あたかも**有効化**されているかのように効果を発揮する。",
+   "en": "The effect of that blessing applies to the target",
+   "note": "英語版では祝福の効果は対象ユニットにだけ適用される。日本語版（書籍 p.61）は対象の限定が抜けていて、祝福そのものが有効化されて全ユニットにかかるように読める。",
+   "issue": "F. 効果を得る側の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "選択された祝福は、次の自軍側ターン開始時まで、あたかも**有効化**されているかのように効果を発揮する。": "選択された祝福の効果は、次の自軍側ターン開始時まで、あたかも**有効化**されているかのように選択された味方ユニットに適用される。"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Mindrazor",
+   "tr_field": "declare",
+   "table": "lore_ability",
+   "id": "8842b8ba-a19f-4f91-aabc-2e8db920c3d4",
+   "en_field": "declare",
+   "name": "Mindrazor",
+   "ja": "2D6をロールする。",
+   "en": "make a casting roll of 2D6",
+   "note": "英語版は詠唱ロール（casting roll）。日本語版（書籍 p.55）は「2D6をロールする」で、詠唱ロールであることが抜けている（詠唱ロールへの修正・リロールが効くかに関わる）。",
+   "issue": "J. ロールの種類の欠落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "2D6をロールする。": "2D6の詠唱ロールをする。"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Steed of Shadows",
+   "tr_field": "declare",
+   "table": "lore_ability",
+   "id": "75ed54fa-74ee-415c-b88e-b4c1466fbc2a",
+   "en_field": "declare",
+   "name": "Steed of Shadows",
+   "ja": "2D6をロールする。",
+   "en": "make a casting roll of 2D6",
+   "note": "英語版は詠唱ロール（casting roll）。日本語版（書籍 p.55）は「2D6をロールする」で、詠唱ロールであることが抜けている（詠唱ロールへの修正・リロールが効くかに関わる）。",
+   "issue": "J. ロールの種類の欠落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "2D6をロールする。": "2D6の詠唱ロールをする。"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Blood Rites",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "f35c38b8-d518-4e91-84cf-89c56657d898",
+   "en_field": "effect",
+   "name": "Blood Rites",
+   "ja": "1体以上の敵兵が味方**ドーター・オヴ・カイン**・ユニットの攻撃によって撃破されており、かつその敵ユニットが1個全滅した。",
+   "en": "An enemy unit is destroyed by a friendly **DAUGHTERS OF KHAINE** unit’s attacks and any models in that enemy unit were contesting an objective you do not control in the same phase.",
+   "note": "英語版の 4 つ目の条件は「敵ユニットが DoK の攻撃で全滅し、かつ同じフェイズ中にそのユニットの兵が自軍の確保していない作戦目標を争奪していた」。日本語版（書籍 p.52）は「争奪中だった敵兵が DoK の攻撃で撃破され、かつその敵ユニットが全滅した」で、全滅させたのが DoK の攻撃であることを求めず、争奪中の兵自体の撃破を求めている。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "現在のフェイズ中に、自軍側が確保していなかった作戦目標を争奪中であった1体以上の敵兵が味方**ドーター・オヴ・カイン**・ユニットの攻撃によって撃破されており、かつその敵ユニットが1個全滅した。": "現在のフェイズ中に、自軍側が確保していない作戦目標を争奪中であった兵が1体以上いる敵ユニットが、味方**ドーター・オヴ・カイン**・ユニットの攻撃によって1個全滅した。"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Krethusa the Croneseer|Omens of Doom",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "07550d08-24db-4450-af05-e3da820b2d5e",
+   "en_field": "effect",
+   "name": "Omens of Doom",
+   "ja": "1つではなく2つまで選択する",
+   "en": "pick up to 2 different effects instead",
+   "note": "英語版は「異なる効果を 2 つまで」（different）。日本語版（書籍 p.60）は「異なる」が抜けていて、同じ効果を 2 回選べるようにも読める。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "1つではなく2つまで選択する": "1つではなく異なる効果を2つまで選択する"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Melusai Ironscale|Ironscale's Fury",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "d6cf81d7-2075-4b94-b31e-f9969313c347",
+   "en_field": "effect",
+   "name": "Ironscale's Fury",
+   "ja": "兵１体",
+   "en": "each time a model in a target unit is slain",
+   "note": "ルール・アップデート（2026年9月）の日本語文の「兵１体」は数字が全角（他の箇所は半角）。",
+   "issue": "Y. 書籍・エラッタの誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "兵１体": "兵1体"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Morathi-Khaine|The Iron Heart of Khaine",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "af0c3089-887a-4e62-a172-1fddbd4582e6",
+   "en_field": "effect",
+   "name": "The Iron Heart of Khaine",
+   "ja": "『カインの鉄の心臓』",
+   "en": "If the Shadow Queen retreats",
+   "note": "ルール・アップデート（2026年9月）のデザイナーズノートは『カインの鉄の心臓』と書いているが、アビリティ名は書籍では「カインの鉄心臓」。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "『カインの鉄の心臓』": "『カインの鉄心臓』"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Bloodwrack Shrine|Born of Slaughter",
+   "tr_field": "declare",
+   "table": "warscroll_ability",
+   "id": "bd242c30-f6c0-4484-b026-db821c38b5a6",
+   "en_field": "declare",
+   "name": "Born of Slaughter",
+   "ja": "**アヴァター・オヴ・カイン**",
+   "en": "friendly **Avatars of Khaine**",
+   "note": "書籍 p.64 は宣言で「アヴァター・オヴ・カイン」、効果とユニット名では「カインの化身」と書いており、同じユニットの名前が揺れている（「アヴァター・オヴ・カイン」は書籍 p.73 のルビ）。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**アヴァター・オヴ・カイン**": "**カインの化身**"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Summon Bloodwrack Viper",
+   "tr_field": "declare",
+   "table": "lore_ability",
+   "id": "ae693e0a-6ae1-4340-8bb4-595c0184fa13",
+   "en_field": "declare",
+   "name": "Summon Bloodwrack Viper",
+   "ja": "**ブラッドラック・ヴァイパー**",
+   "en": "If there is not a friendly **Bloodwrack Viper**",
+   "note": "書籍 p.57 は召喚呪文の名前と、ユニットの表題（p.72）では「血荒らしの毒蛇」なのに、この呪文の本文では「ブラッドラック・ヴァイパー」と書いており、同じユニットの名前が揺れている。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**ブラッドラック・ヴァイパー**": "**血荒らしの毒蛇**"
+   }
+  },
+  {
+   "faction": "daughters_of_khaine",
+   "tr_section": "ability_texts",
+   "tr_key": "Summon Bloodwrack Viper",
+   "tr_field": "effect",
+   "table": "lore_ability",
+   "id": "ae693e0a-6ae1-4340-8bb4-595c0184fa13",
+   "en_field": "effect",
+   "name": "Summon Bloodwrack Viper",
+   "ja": "**ブラッドラック・ヴァイパー**",
+   "en": "Set up a **Bloodwrack Viper**",
+   "note": "書籍 p.57 は召喚呪文の名前と、ユニットの表題（p.72）では「血荒らしの毒蛇」なのに、この呪文の本文では「ブラッドラック・ヴァイパー」と書いており、同じユニットの名前が揺れている。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**ブラッドラック・ヴァイパー**": "**血荒らしの毒蛇**"
+   }
+  }
+ ]
+}
