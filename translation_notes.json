@@ -474,6 +474,463 @@
    "fix_ja": {
     "**ブラッドラック・ヴァイパー**": "**血荒らしの毒蛇**"
    }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Bull Centaurs|Bull-Charge",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "df45b8c4-39c2-4c0e-8bcb-5c172bbcdfbd",
+   "en_field": "effect",
+   "name": "Bull-Charge",
+   "ja": "選択された敵ユニット内にいる各兵に対して",
+   "en": "Roll a dice for each model in this unit.",
+   "note": "英語版は「このユニット（ブル・ケンタウロス）内の各兵につきダイスを1個」ロールする。日本語版（書籍 p.62）の「選択された敵ユニット内にいる各兵に対して」は、ダイスの数を決めるユニットを取り違えている（ロールする数は敵ではなく自分の兵の数）。",
+   "issue": "F. 効果を得る側の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "選択された敵ユニット内にいる各兵に対して": "このユニット内にいる各兵に対して"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Arcane Dominance",
+   "tr_field": "effect",
+   "table": "battle_formation_rule",
+   "id": "f1e34123-75be-4205-be65-c32309396a81",
+   "en_field": "effect",
+   "name": "Arcane Dominance",
+   "ja": "12mv以内に一部でも入っている場合",
+   "en": "wholly within 12\"",
+   "note": "英語版は別の魔術師/神官の12mv以内に「全体が入っている」（wholly within）間。日本語版（ルール・アップデート 2026年9月 p.50）の「一部でも入っている」は範囲が広すぎる。",
+   "issue": "N. 範囲（全体が／一部でも）の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "12mv以内に一部でも入っている場合": "12mv以内に全体が入っている場合"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Dominator Engine with Immolation Cannons|All Must Burn!",
+   "tr_field": "timing",
+   "table": "warscroll_ability",
+   "id": "e0803fca-e711-4191-acad-7525e5350a97",
+   "en_field": "phaseDetails",
+   "name": "All Must Burn!",
+   "ja": "各ターンにつき１回、",
+   "en": "Once Per Turn (Army)",
+   "note": "英語版は「各ターンにつき1回（アーミー）」で、アーミー全体で1ターンに1回しか使えない。日本語版（ルール・アップデート 2026年9月 p.49）は「（アーミー）」が抜けていて、ユニットごとに1回使えるように読める（「１」も全角）。",
+   "issue": "E. タイミングの誤り",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "各ターンにつき１回、": "各ターンにつき1回（アーミー）、"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Crucible of Spite",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "a2dcaf76-d64c-4a38-82fb-a2eec0b5dc69",
+   "en_field": "effect",
+   "name": "Crucible of Spite",
+   "ja": "一切の**魔瘴力ポイント**を与えることができなくなる",
+   "en": "you cannot allocate or give any more **daemonic power points** to this unit",
+   "note": "英語版は「割り振ることも与えることもできない」（allocate or give）。日本語版（書籍 p.51）は「与える」だけで、戦闘特性『魔瘴力の活用』で毎ターン行う「割り振り」（日本語版でも「割り振る」）が禁止されることが抜けている。このユニットにはバトル終了時まで、割り振りでもアビリティでも魔瘴力ポイントを持たせられない。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "一切の**魔瘴力ポイント**を与えることができなくなる": "一切の**魔瘴力ポイント**を割り振ったり与えたりすることができなくなる"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Amassed Legions",
+   "tr_field": "effect",
+   "table": "battle_formation_rule",
+   "id": "d2696734-a2e9-4e46-9d5c-45a7d5a776b9",
+   "en_field": "effect",
+   "name": "Amassed Legions",
+   "ja": "味方**ヘルスミス・オヴ・ハシュット・歩兵**・ユニットの近接範囲内に一部でも入っており、かつ1点以上の**魔瘴力ポイント**を持つ味方**ヘルスミス・オヴ・ハシュット**が",
+   "en": "within the combat range of a friendly **HELSMITHS OF HASHUT INFANTRY** unit with 1 or more **daemonic power** **points**",
+   "note": "英語版の「1点以上の魔瘴力ポイントを持つ」（with 1 or more daemonic power points）は直前の味方歩兵ユニットに掛かり、「魔瘴力ポイントを1点以上持つ味方歩兵の近接範囲内にいる味方ユニットが『再集結』するとき」と読める。日本語版（ルール・アップデート 2026年9月 p.50）は『再集結』するユニット自身の条件になっている（英語の掛かり方にも曖昧さがあるため確信度は低い）。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "味方**ヘルスミス・オヴ・ハシュット・歩兵**・ユニットの近接範囲内に一部でも入っており、かつ1点以上の**魔瘴力ポイント**を持つ味方**ヘルスミス・オヴ・ハシュット**が": "1点以上の**魔瘴力ポイント**を持つ味方**ヘルスミス・オヴ・ハシュット・歩兵**・ユニットの近接範囲内に一部でも入っている味方**ヘルスミス・オヴ・ハシュット**・ユニットが"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Deathshrieker Rocket Battery|Watch Them Burn",
+   "tr_field": "timing",
+   "table": "warscroll_ability",
+   "id": "fadcefc6-51c7-4889-a2e1-3cacd164499d",
+   "en_field": "phaseDetails",
+   "name": "Watch Them Burn",
+   "ja": "『遠隔攻撃』アビリティを使用し、",
+   "en": "You declared a SHOOT ability for this unit",
+   "note": "英語版のリアクションは『遠隔攻撃』アビリティを「宣言した」（declared）とき（他のリアクションは日本語版でも「宣言」と訳している）。日本語版（書籍 p.64）の「使用し」では攻撃の解決後に使うようにも読め、攻撃対象が全滅した後でもその近接範囲を測るのか等、使う時点がずれる。",
+   "issue": "E. タイミングの誤り",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "『遠隔攻撃』アビリティを使用し、": "『遠隔攻撃』アビリティを宣言し、"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Bullfather's Scorn",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "0fda61ec-7261-4193-9fef-3b492f0fd50d",
+   "en_field": "effect",
+   "name": "Bullfather's Scorn",
+   "ja": "このユニットの装備している遠隔武器がすでに**クリティカル（2ヒット）**を有する場合、次の自軍側ターン開始時まで、その遠隔武器は、",
+   "en": "If each of this unit’s ranged weapons already have **Crit (2 Hits)**, this unit’s shooting attacks score critical hits",
+   "note": "英語版は「このユニットの遠隔武器がすべて（each）すでにクリティカル（2ヒット）を持つ場合、このユニットのレンジアタックが5+でクリティカルヒットする」。日本語版（アキュシーの禍事 2026年7月）は「すべて」が抜け、武器ごとに判定・適用するように読める（遠隔武器が複数あって一部だけがクリティカル（2ヒット）を持つ場合に結果が変わる）。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "このユニットの装備している遠隔武器がすでに": "このユニットの装備している遠隔武器がすべてすでに",
+    "その遠隔武器は、": "このユニットのレンジアタックは、"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Ashen Smog",
+   "tr_field": "declare",
+   "table": "lore_ability",
+   "id": "77fa6570-e3a8-45ca-bec4-a325ad4d4200",
+   "en_field": "declare",
+   "name": "Ashen Smog",
+   "ja": "魔術師**を１対選択する",
+   "en": "Pick a friendly **HELSMITHS OF HASHUT WIZARD**",
+   "note": "ルール・アップデート 2026年9月 p.49 の「１対」は「1体」の誤植（数字も全角）。",
+   "issue": "Y. 書籍・エラッタの誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "を１対選択する": "を1体選択する"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Casque of Belittlement",
+   "tr_field": "declare",
+   "table": "ability",
+   "id": "80c9381f-091e-4b16-a574-95d0f3801c7a",
+   "en_field": "declare",
+   "name": "Casque of Belittlement",
+   "ja": "敵ユニットを1個を選び",
+   "en": "Pick an enemy unit in combat with this unit to be the target.",
+   "note": "アキュシーの禍事（2026年7月）の「1個を選び」は助詞「を」の重複（誤植）。意味は「1個選び」。",
+   "issue": "Y. 書籍・エラッタの誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "敵ユニットを1個を選び": "敵ユニットを1個選び"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Experimental Munitions",
+   "tr_field": "effect",
+   "table": "battle_formation_rule",
+   "id": "dfe96a2d-2a98-447d-818e-6124f633e13d",
+   "en_field": "effect",
+   "name": "Experimental Munitions",
+   "ja": "その味方ユニットは**クリティカル（2ヒット）**を得る",
+   "en": "Ranged weapons used by friendly **HELSMITHS OF HASHUT** units have **Crit (2 Hits)**",
+   "note": "英語版でクリティカル（2ヒット）を得るのは味方ヘルスミス・オヴ・ハシュット・ユニットが使用する遠隔武器（Ranged weapons）だけ。日本語版（ルール・アップデート 2026年9月）は「その味方ユニットは」で遠隔武器の限定が抜けていて、近接武器にもかかるように読める。",
+   "issue": "H. 攻撃種別の限定の脱落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "その味方ユニットは**クリティカル（2ヒット）**を得る": "その味方ユニットが使用する遠隔武器は**クリティカル（2ヒット）**を得る"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Infernal Cohort with Hashutite Blades|Sacred Gongs",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "1d742f95-a840-47ae-a7f8-ade1e6c0b433",
+   "en_field": "effect",
+   "name": "Sacred Gongs",
+   "ja": "このユニットがリアクションとして『再集結』指揮アビリティを使用する際、",
+   "en": "If this unit uses the ‘Rally’ command, as a reaction, you can remove a **Gong Carrier**",
+   "note": "英語版の「リアクションとして」（as a reaction）は銅鑼持ちを取り除く行為に掛かり、このユニットが『再集結』を使用したときにリアクションとして銅鑼持ちを取り除ける。日本語版（書籍 p.60）は「リアクションとして『再集結』指揮アビリティを使用する際」で『再集結』の使い方に掛かっており、『再集結』はリアクションではないので、この効果を使える場面が無いように読める。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "このユニットがリアクションとして『再集結』指揮アビリティを使用する際、": "このユニットが『再集結』指揮アビリティを使用した際、リアクションとして"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Infernal Cohort with Hashutite Spears|Sacred Gongs",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "5a580793-0d58-4988-a2f3-6a16439eb995",
+   "en_field": "effect",
+   "name": "Sacred Gongs",
+   "ja": "このユニットがリアクションとして『再集結』指揮アビリティを使用する際、",
+   "en": "If this unit uses the ‘Rally’ command, as a reaction, you can remove a **Gong Carrier**",
+   "note": "英語版の「リアクションとして」（as a reaction）は銅鑼持ちを取り除く行為に掛かり、このユニットが『再集結』を使用したときにリアクションとして銅鑼持ちを取り除ける。日本語版（書籍 p.60）は「リアクションとして『再集結』指揮アビリティを使用する際」で『再集結』の使い方に掛かっており、『再集結』はリアクションではないので、この効果を使える場面が無いように読める。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "このユニットがリアクションとして『再集結』指揮アビリティを使用する際、": "このユニットが『再集結』指揮アビリティを使用した際、リアクションとして"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Leech Realm-Magic",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "6747b64c-eb6e-4795-bfa8-b31ce440e441",
+   "en_field": "effect",
+   "name": "Leech Realm-Magic",
+   "ja": "特殊地形を1個選択する。その場合、",
+   "en": "You can pick an objective or terrain feature",
+   "note": "英語版は「選択してもよい」（You can pick）。日本語版（アキュシーの禍事 2026年7月）は「選択する」で、選択が必須のように読める（必須だと、荒廃トークンを残したいときでも取り除かなければならないことになる）。",
+   "issue": "C. 任意と必須の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "特殊地形を1個選択する。その場合、": "特殊地形を1個選択してもよい。その場合、"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Leech Realm-Magic",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "6747b64c-eb6e-4795-bfa8-b31ce440e441",
+   "en_field": "effect",
+   "name": "Leech Realm-Magic",
+   "ja": "その場合、このユニットのパワーレベルは+1の修正を受ける。",
+   "en": "add 1 to this unit’s power level for the rest of the battle",
+   "note": "英語版のパワーレベル +1 は「バトル終了時まで」（for the rest of the battle）。日本語版（アキュシーの禍事 2026年7月）は期間が抜けていて、1 つ目の項目と同じ「次の自軍側ターン開始時まで」で切れるようにも読める。",
+   "issue": "O. 期間の脱落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "その場合、このユニットのパワーレベルは+1の修正を受ける。": "その場合、バトル終了時まで、このユニットのパワーレベルは+1の修正を受ける。"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Calamitous Shockwave",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "858eebd0-9dba-4618-b36c-2141f64611f7",
+   "en_field": "effect",
+   "name": "Calamitous Shockwave",
+   "ja": "選択された敵ユニット攻撃対象とする武器",
+   "en": "weapons used for attacks that target that enemy unit",
+   "note": "アキュシーの禍事（2026年7月）の「敵ユニット攻撃対象とする」は「を」が抜けている（誤植）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "選択された敵ユニット攻撃対象とする": "選択された敵ユニットを攻撃対象とする"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Anointed Sentinels|Daemonic Resilience",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "95f4d24c-fdf3-4a06-9412-1a7771a6f208",
+   "en_field": "effect",
+   "name": "Daemonic Resilience",
+   "ja": "**祈祷**アビリティ",
+   "en": "**PRAYERS**",
+   "note": "英語版の PRAYERS は、書籍・コアルールではキーワード「奇蹟」（伝承のキーワード欄「奇蹟、無制限」など）。日本語版（アキュシーの禍事 2026年7月）は「祈祷アビリティ」と書いており、同じキーワードの訳が揺れている（ルールの内容は英語と同じ）。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**祈祷**アビリティ": "**奇蹟**アビリティ"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Daemonic Resilience",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "77df606b-a748-4204-a6ea-627edc05d5e7",
+   "en_field": "effect",
+   "name": "Daemonic Resilience",
+   "ja": "**祈祷**アビリティ",
+   "en": "PRAYERS",
+   "note": "英語版の PRAYERS は、書籍・コアルールではキーワード「奇蹟」（伝承のキーワード欄「奇蹟、無制限」など）。日本語版（アキュシーの禍事 2026年7月）は「祈祷アビリティ」と書いており、同じキーワードの訳が揺れている（ルールの内容は英語と同じ）。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**祈祷**アビリティ": "**奇蹟**アビリティ"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Ghyran War Despot|Daemonfire Pistol",
+   "tr_field": "declare",
+   "table": "warscroll_ability",
+   "id": "2364531b-c1ad-4def-ab8b-0a33f6baa8e8",
+   "en_field": "declare",
+   "name": "Daemonfire Pistol",
+   "ja": "その後、選択された敵ユニットと近接戦闘中である味方**ヘルスミス・オヴ・ハシュット・歩兵**・ユニットを1個選択する。",
+   "en": "Then, you can pick a friendly **HELSMITHS OF HASHUT INFANTRY** unit",
+   "note": "英語版は味方の対象を「選択してもよい」（you can pick）で、選ばなくてもよい（効果文も「If there is a friendly target」）。日本語版（グューランの禍事 2025年11月 p.2）は「選択する」で、味方ユニットの選択が必須のように読める。",
+   "issue": "C. 任意と必須の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "歩兵**・ユニットを1個選択する。": "歩兵**・ユニットを1個選択してもよい。"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Ghyran War Despot|Triumph or Perish, You Vermin!",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "6be76b87-52c7-4d86-863e-4178990fd78d",
+   "en_field": "effect",
+   "name": "Triumph or Perish, You Vermin!",
+   "ja": "**魔瘴力ポイント**を0点を持つ",
+   "en": "with 0 **daemonic power points**",
+   "note": "グューランの禍事（2025年11月 p.2）の「魔瘴力ポイントを0点を持つ」は助詞「を」が重複している（誤植）。「0点持つ」の意。",
+   "issue": "Y. 書籍・エラッタの誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**魔瘴力ポイント**を0点を持つ": "**魔瘴力ポイント**を0点持つ"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Spearhead|War Despot|Black-hearted Conqueror",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "efe22da1-4778-4543-bb2e-5ea819d13833",
+   "en_field": "effect",
+   "name": "Black-hearted Conqueror",
+   "ja": "**魔瘴力ポイント**を0点を持つ",
+   "en": "with 0 **daemonic power points**",
+   "note": "ルール・アップデート 2026年9月 p.49（2026年7月・8月版、スピアヘッド 2026年4月版と同文）の「魔瘴力ポイントを0点を持つ」は助詞「を」が重複している（誤植）。「0点持つ」の意。",
+   "issue": "Y. 書籍・エラッタの誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**魔瘴力ポイント**を0点を持つ": "**魔瘴力ポイント**を0点持つ"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_texts",
+   "tr_key": "Urak Taar, the First Daemonsmith|Master of Daemonic Power",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "e3a61ca5-ff4d-455c-a250-3c3952b8282f",
+   "en_field": "effect",
+   "name": "Master of Daemonic Power",
+   "ja": "ホブグロットではない味方**ヘルスミス・オヴ・ハシュット**・ユニット1個に割り振る",
+   "en": "allocate them to a different friendly non-**HOBGROT HELSMITHS OF HASHUT** unit",
+   "note": "英語版は取り除いたポイントを「別の（a different）」味方ユニットに割り振る。日本語版（書籍 p.54）は「別の」が抜けていて、ポイントを取り除いたユニットにそのまま戻せるように読める。取り除いた元のユニットとは別のユニット 1 個に割り振るのが正しい。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "ホブグロットではない味方**ヘルスミス・オヴ・ハシュット**・ユニット1個に": "ホブグロットではない別の味方**ヘルスミス・オヴ・ハシュット**・ユニット1個に"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_names",
+   "tr_key": "Earthwrack Stabilisers",
+   "tr_field": null,
+   "table": "ability",
+   "id": "67092628-de89-403c-95e8-72f258e56a96",
+   "en_field": "name",
+   "name": "Earthwrack Stabilisers",
+   "ja": "台地固定",
+   "en": "Earthwrack Stabilisers",
+   "note": "英語版は Earthwrack（大地を砕く）。日本語版（グューランの禍事 2025年11月）の名前「台地固定スタビライザー」は「大地固定」の誤植と思われる（背景文は「大地へ深々と撃ち込まれる」）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "台地固定": "大地固定"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "wargear_option_texts",
+   "tr_key": "The Blood of the Bull",
+   "tr_field": null,
+   "table": "warscroll",
+   "id": "eb9ec1a8-4f55-48c7-9ddf-aff6500c8d8d",
+   "en_field": "wargearOptionsText",
+   "name": "The Blood of the Bull",
+   "ja": "**リスク・バックスタッバ**",
+   "en": "Grisk Back-stabba",
+   "note": "英語版は Grisk Back-stabba。日本語版（レジェンド・ウォースクロール 2026年7月 p.50）の装備欄「リスク・バックスタッバ」は「グ」が抜けている（同じページの背景文は「グリスク」）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**リスク・バックスタッバ**": "**グリスク・バックスタッバ**"
+   }
+  },
+  {
+   "faction": "helsmiths_of_hashut",
+   "tr_section": "ability_names",
+   "tr_key": "Bullfather's Scorn",
+   "tr_field": null,
+   "table": "ability",
+   "id": "0fda61ec-7261-4193-9fef-3b492f0fd50d",
+   "en_field": "name",
+   "name": "Bullfather's Scorn",
+   "ja": "父なる牡牛神",
+   "en": "Bullfather's",
+   "note": "日本語版（アキュシーの禍事 2026年7月）は「父なる牡牛神の侮蔑」だが、同じ Bullfather を書籍は「父なる雄牛神の角笛」「父なる雄牛神の角」と訳しており、雄牛／牡牛の表記が揺れている。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "父なる牡牛神": "父なる雄牛神"
+   }
   }
  ]
 }

@@ -1,19 +1,19 @@
-# Spearhead: Helforge Host（Helsmiths of Hashut）
+# Spearhead: 煉獄炉の軍団(Helforge Host)（ヘルスミス・オヴ・ハシュット(Helsmiths of Hashut)）
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
 
-- Dominator Engine with Immolation Cannons（1体）
-- Infernal Cohort with Hashutite Spears（10体）
-- Tormentor Bombard（1体）
-- War Despot（1体）
+- ドミネイター・エンジン（焦熱砲装備）(Dominator Engine with Immolation Cannons)（1体）
+- インファーナル・コホート（ハシュット信徒の槍装備）(Infernal Cohort with Hashutite Spears)（10体）
+- トーメンター・ボンバード(Tormentor Bombard)（1体）
+- ウォーデスポット(War Despot)（1体）
 
 ## ユニット詳細
 
 
-### Dominator Engine with Immolation Cannons
+### ドミネイター・エンジン（焦熱砲装備）(Dominator Engine with Immolation Cannons)
 
 **モデル数:** 1 / **ベースサイズ:** 80mm
 
@@ -27,22 +27,22 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Immolation Cannons | 8" | 5 | 2+ | 4+ | 1 | D3 | Shoot in Combat |
+| 焦熱砲(Immolation Cannons) | 8" | 5 | 2+ | 4+ | 1 | D3 | 近接射撃(Shoot in Combat) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Horns and Pummelling Strikes | 3 | 4+ | 3+ | 1 | D3 | - |
+| 角と殴打(Horns and Pummelling Strikes) | 3 | 4+ | 3+ | 1 | D3 | - |
 
 **アビリティ:**
 
-- **Daemonic Strength**（Passive）
-  - 効果: For each **daemonic power point** this unit has: •  Add 1" to its Move characteristic. •  Add 1 to the Attacks characteristic of its weapons.
+- **魔の力(Daemonic Strength)**（パッシブ）
+  - 効果: このユニットが保持している**魔瘴力ポイント**1点ごとに、 • 自身の【移動力】は+1mvの修正を受ける。 • 自身が装備している武器の【攻撃回数】は+1の修正を受ける。
 
-**キーワード:** War Machine, Reinforcements
+**キーワード:** 戦闘兵器、増援（War Machine, Reinforcements）
 
-### Infernal Cohort with Hashutite Spears
+### インファーナル・コホート（ハシュット信徒の槍装備）(Infernal Cohort with Hashutite Spears)
 
 **モデル数:** 10 / **ベースサイズ:** 28.5mm
 
@@ -56,18 +56,18 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Hashutite Spear | 2 | 3+ | 4+ | - | 1 | Anti-charge (+1 Rend) |
+| ハシュット信徒の槍(Hashutite Spear) | 2 | 3+ | 4+ | - | 1 | 対突撃（+1貫通値）(Anti-charge (+1 Rend)) |
 
 **アビリティ:**
 
-- **Strike the Gongs**（Once Per Battle, Any Hero Phase）
-  - 効果: This unit’s **Gong Carrier** (if any) is a token. You can remove its **Gong Carrier** from the battlefield and return D3 slain models to this unit.
-- **Daemonic Resilience**（Passive）
-  - 効果: Apply the effect below that corresponds with the number of **daemonic power points** (DPP) this unit has: **DPP - Effect** **1** - This unit has **WARD (6+)**. **2** - This unit has **WARD (5+)**. **3** - This unit has **WARD (5+)** and you ignore the first damage point allocated to this unit in each phase.
+- **銅鑼を打ち鳴らせ(Strike the Gongs)**（バトル中1回限り、任意のヒーローフェイズ）
+  - 効果: このユニットの**銅鑼持ち**（存在する場合）は、トークンである。自軍は**銅鑼持ち**を戦場から取り除くことで、このユニット内の撃破されている兵をD3体復帰させることができる。
+- **魔の頑健性(Daemonic Resilience)**（パッシブ）
+  - 効果: 下記の効果から、このユニットが保持している**魔瘴力ポイント**（DPP）に対応する効果を適用する： DPP 効果 1 このユニットは**加護（6+）**を持つ。 2 このユニットは**加護（5+）**を持つ。 3 このユニットは**加護（5+）**を持ち、各フェイズ中、最初に割り振られる1ポイントのダメージを無視する。
 
-**キーワード:** Infantry, Reinforcements
+**キーワード:** 歩兵、増援（Infantry, Reinforcements）
 
-### Tormentor Bombard
+### トーメンター・ボンバード(Tormentor Bombard)
 
 **モデル数:** 1 / **ベースサイズ:** 100mm
 
@@ -81,25 +81,25 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Torrent of Ruinous Energy | 30" | 4 | 3+ | 3+ | 1 | D3 | Anti-CAVALRY (+1 Rend), Anti-INFANTRY (+1 Rend) |
+| 破滅の力の奔流(Torrent of Ruinous Energy) | 30" | 4 | 3+ | 3+ | 1 | D3 | 対騎兵（+1貫通値）(Anti-CAVALRY (+1 Rend)), 対歩兵（+1貫通値）(Anti-INFANTRY (+1 Rend)) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Artillerist Weapons | 3 | 4+ | 4+ | - | 1 | - |
+| 砲兵の武器(Artillerist Weapons) | 3 | 4+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Ruinous Bombardment**（Once Per Turn (Army), Your Shooting Phase）
-  - 宣言: If this unit used a **SHOOT** ability this turn and all of its attacks targeted the same enemy unit, that enemy unit is the target. Then, you can pick a number of enemy units within 6" of the target equal to the number of **daemonic power points** this unit has to be additional targets.
-  - 効果: Roll a dice for each target. On a 3+, subtract 3 from the target’s control score for the rest of the turn.
-- **Calculated Trajectory**（Passive）
-  - 効果: Add 1 to hit rolls for this unit’s shooting attacks that target an enemy unit with 5 or more models that is more than 12" from this unit.
+- **破滅的砲撃(Ruinous Bombardment)**（各ターンにつき1回（アーミー）、自軍側遠隔フェイズ）
+  - 宣言: このユニットがこのターン中に『**遠隔攻撃**』アビリティを使用しており、かつそのすべての攻撃が同一の敵ユニットを対象にしていた場合、その敵ユニットを選択する。その後、自軍はその敵ユニットの6mv以内に一部でも入っている敵ユニットを、このユニットが保持している**魔瘴力ポイント**に等しい数まで、追加で選択してもよい。
+  - 効果: 選択された各敵ユニットに対して、それぞれダイスを1個ロールする。ロール結果が3+であれば、そのターン中、ロール対象の敵ユニットの確保スコアは-3の修正を受ける。
+- **計算された弾道(Calculated Trajectory)**（パッシブ）
+  - 効果: このユニットから12mvより遠く離れており、5体以上の兵を含む敵ユニットを攻撃対象にする場合、このユニットのレンジアタックはヒットロールに+1の修正を受ける。
 
-**キーワード:** War Machine
+**キーワード:** 戦闘兵器（War Machine）
 
-### War Despot
+### ウォーデスポット(War Despot)
 
 **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -113,41 +113,41 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Daemonflame Glaive | 5 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
+| 魔炎の薙刀(Daemonflame Glaive) | 5 | 3+ | 3+ | 1 | 2 | クリティカル（致命的）(Crit (Mortal)) |
 
 **アビリティ:**
 
-- **Black-hearted Conqueror**（Passive）
-  - 効果: While this unit has any **daemonic power points**, friendly units with 0 **daemonic power points** count as having 1 **daemonic power point** while they are wholly within 6" of and visible to this unit. For each **daemonic power point** this unit has, add 3" to the range of this ability.
+- **邪悪なる征服者(Black-hearted Conqueror)**（パッシブ）
+  - 効果: このユニットが**魔瘴力ポイント**を1点でも有する間、味方ユニットで**魔瘴力ポイント**を0点~~を~~持つユニットは、このユニットの6mv以内に全体が入っており、かつこのユニットから視認状態であるならば**魔瘴力ポイント**を1点持つものとして扱われる。 このユニットが有する1点の**魔瘴力ポイント**ごとに、このアビリティの効果範囲は+3mvの修正を受ける。
 
-**キーワード:** Hero, Infantry
+**キーワード:** 英雄、歩兵（Hero, Infantry）
 
 ## 戦闘特性（Helforge Host Battle Traits）
 
-- **Harness Daemonic Power**（Once Per Turn (Army), Your Hero Phase）
-  - 効果: You must use this ability at the start of each of your hero phases. Remove all **daemonic power points** from each friendly unit. Then, gain a number of **daemonic power points** equal to the current battle round number plus 1. Then, allocate your **daemonic power points** to friendly units. Each unit can have a maximum of 3 **daemonic power points**. Then, all unallocated **daemonic power points** are lost. **Designer’s Note:** *Your units have abilities that become more powerful depending on how many daemonic power points they have. We recommend using coloured dice to track the number of points each unit has.*
+- **魔瘴力の活用(Harness Daemonic Power)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 効果: 各自軍側ヒーローフェイズ開始時に、自軍はこのアビリティを使用しなければならない。各味方ユニットからすべての**魔瘴力ポイント**を取り除く。その後、自軍は現在のバトルラウンド数に1加算した**魔瘴力ポイント**を獲得する。 さらにその後、自軍の**魔瘴力ポイント**を味方ユニットに割り振る。各ユニットは、最大3点までの**魔瘴力ポイント**を保持することができる。割り振らなかった**魔瘴力ポイント**は失われる。 デザイナーズノート：自軍側ユニットは、保持している魔瘴力ポイントの多さによって効果が高まるアビリティを有している。色付きのダイスを使用して、各ユニットがどれだけのポイントを保持しているのか分かりやすくすることを推奨する。
 
 ## 連隊アビリティ（Helforge Host Regiment Abilities）
 
-Pick 1 of the following regiment abilities.
+以下の連隊アビリティの中から1つを選択する。
 
-- **Grinding Advance**（Once Per Battle, Deployment Phase）
-  - 宣言: Pick up to 2 friendly **Infernal Cohort** units to be the targets.
-  - 効果: Each target can immediately move up to 3" but cannot use **CHARGE** abilities in the first battle round.
-- **Suppressive Bombardment**（Once Per Turn, Your Shooting Phase）
-  - 宣言: Pick an enemy **INFANTRY** unit that had any damage points allocated to it this turn as a result of shooting attacks made by a friendly **Tormentor Bombard** to be the target.
-  - 効果: Until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.
+- **執拗な前進(Grinding Advance)**（バトル中1回限り、初期配置フェイズ）
+  - 宣言: 味方**インファーナル・コホート**・ユニットを最大2個まで選択する。
+  - 効果: 選択された各ユニットはただちに最大3mvまで移動してもよいが、第1バトルラウンド中に**突撃**アビリティを使用することはできない。
+- **制圧砲撃(Suppressive Bombardment)**（各ターンにつき1回、自軍側遠隔フェイズ）
+  - 宣言: このターン中に味方**トーメンター・ボンバード**のレンジアタックによって1ポイント以上のダメージが割り振られた敵**歩兵**・ユニットを1個選択する。
+  - 効果: 次の自軍側ターン開始時まで、選択された敵ユニットが用いる突撃ロールのダイス個数は1減算される（この効果により、ロールするダイスが1個を下回ることはない）。
 
 ## 強化（Helforge Host Enhancements）
 
-Give your general 1 of the following enhancements.
+自軍側ジェネラルに、以下の強化の中から1つを付与する。
 
-- **Scroll of Petrification**（Once Per Battle, Any Hero Phase）
-  - 効果: For the rest of the turn, your general has **WARD (2+)** but cannot use abilities or be picked to be the target of friendly abilities.
-- **Talisman of Obsidian**（Passive）
-  - 効果: Ignore the first damage point allocated to your general in each phase.
-- **Chalice of Darkness**（Once Per Battle, Your Shooting Phase）
-  - 宣言: Pick a visible enemy unit within 12" of your general to be the target.
-  - 効果: Inflict D3 mortal damage on the target.
-- **Amulet of Burning Hate**（Once Per Battle, Any Combat Phase）
-  - 効果: For the rest of the turn, your general’s attacks score critical hits on unmodified hit rolls of 5+.
+- **石化の巻物(Scroll of Petrification)**（バトル中1回限り、任意のヒーローフェイズ）
+  - 効果: そのターン中、自軍側ジェネラルは**加護（2+）**を持つが、アビリティを使用できず、味方によるアビリティの対象として選択することもできない。
+- **黒曜石の護符(Talisman of Obsidian)**（パッシブ）
+  - 効果: 各フェイズ中、自軍側ジェネラルに割り振られるダメージの最初の1ポイントは無視される。
+- **暗黒の杯(Chalice of Darkness)**（バトル中1回限り、自軍側遠隔フェイズ）
+  - 宣言: 自軍側ジェネラルの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。
+  - 効果: 選択された敵ユニットは、D3ポイントの致命的ダメージを受ける。
+- **燃え盛る憎悪の首飾り(Amulet of Burning Hate)**（バトル中1回限り、任意の近接フェイズ）
+  - 効果: そのターン中、自軍側ジェネラルの攻撃は、ヒットロールにおいて修正前の出目5+でクリティカルヒットとなる。

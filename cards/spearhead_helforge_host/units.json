@@ -3,19 +3,19 @@
   "slug": "spearhead_helforge_host",
   "kind": "spearhead",
   "faction_en": "Helsmiths of Hashut",
-  "faction_ja": null,
+  "faction_ja": "ヘルスミス・オヴ・ハシュット",
   "faction_slug": "helsmiths_of_hashut",
   "alliance": null,
   "title_en": "Helforge Host",
-  "title_ja": null,
+  "title_ja": "煉獄炉の軍団",
   "data_version": 483
  },
  "units": [
   {
    "id": "a6d807a2-4f93-4b35-a21f-d985393d6851",
    "name": {
-    "ja": "Dominator Engine with Immolation Cannons",
-    "en": "",
+    "ja": "ドミネイター・エンジン（焦熱砲装備）",
+    "en": "Dominator Engine with Immolation Cannons",
     "own": false,
     "fix": [],
     "note": []
@@ -52,8 +52,8 @@
    "reinforce": false,
    "ranged": [
     {
-     "ja": "Immolation Cannons",
-     "en": "",
+     "ja": "焦熱砲",
+     "en": "Immolation Cannons",
      "own": false,
      "fix": [],
      "note": [],
@@ -65,7 +65,9 @@
       "1",
       "D3"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "近接射撃"
+     ],
      "abil_en": [
       "Shoot in Combat"
      ]
@@ -73,8 +75,8 @@
    ],
    "melee": [
     {
-     "ja": "Horns and Pummelling Strikes",
-     "en": "",
+     "ja": "角と殴打",
+     "en": "Horns and Pummelling Strikes",
      "own": false,
      "fix": [],
      "note": [],
@@ -92,28 +94,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Daemonic Strength",
-      "en": "",
+      "ja": "魔の力",
+      "en": "Daemonic Strength",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "For each **daemonic power point** this unit has:\n\n•  Add 1\" to its Move characteristic.\n•  Add 1 to the Attacks characteristic of its weapons."
+       "ja": "このユニットが保持している**魔瘴力ポイント**1点ごとに、\n• 自身の【移動力】は+1mvの修正を受ける。\n• 自身が装備している武器の【攻撃回数】は+1の修正を受ける。",
+       "en": "For each **daemonic power point** this unit has:\n\n•  Add 1\" to its Move characteristic.\n•  Add 1 to the Attacks characteristic of its weapons.",
+       "fix": []
       }
      },
      "own": false,
@@ -127,12 +133,12 @@
    "terrain": [],
    "keywords": [
     [
-     "War Machine",
-     ""
+     "戦闘兵器",
+     "War Machine"
     ],
     [
-     "Reinforcements",
-     ""
+     "増援",
+     "Reinforcements"
     ]
    ],
    "keyword_fix": {},
@@ -143,8 +149,8 @@
   {
    "id": "6363dcb1-b511-402c-a26d-f9878c962c02",
    "name": {
-    "ja": "Infernal Cohort with Hashutite Spears",
-    "en": "",
+    "ja": "インファーナル・コホート（ハシュット信徒の槍装備）",
+    "en": "Infernal Cohort with Hashutite Spears",
     "own": false,
     "fix": [],
     "note": []
@@ -182,8 +188,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Hashutite Spear",
-     "en": "",
+     "ja": "ハシュット信徒の槍",
+     "en": "Hashutite Spear",
      "own": false,
      "fix": [],
      "note": [],
@@ -194,7 +200,9 @@
       "-",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "対突撃（+1貫通値）"
+     ],
      "abil_en": [
       "Anti-charge (+1 Rend)"
      ]
@@ -203,28 +211,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Strike the Gongs",
-      "en": "",
+      "ja": "銅鑼を打ち鳴らせ",
+      "en": "Strike the Gongs",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Battle, Any Hero Phase"
+       "ja": "バトル中1回限り、任意のヒーローフェイズ",
+       "en": "Once Per Battle, Any Hero Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "This unit’s **Gong Carrier** (if any) is a token. You can remove its **Gong Carrier** from the battlefield and return D3 slain models to this unit."
+       "ja": "このユニットの**銅鑼持ち**（存在する場合）は、トークンである。自軍は**銅鑼持ち**を戦場から取り除くことで、このユニット内の撃破されている兵をD3体復帰させることができる。",
+       "en": "This unit’s **Gong Carrier** (if any) is a token. You can remove its **Gong Carrier** from the battlefield and return D3 slain models to this unit.",
+       "fix": []
       }
      },
      "own": false,
@@ -236,28 +248,32 @@
     },
     {
      "name": {
-      "ja": "Daemonic Resilience",
-      "en": "",
+      "ja": "魔の頑健性",
+      "en": "Daemonic Resilience",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Apply the effect below that corresponds with the number of **daemonic power points** (DPP) this unit has:\n\n**DPP - Effect**\n**1** - This unit has **WARD (6+)**.\n**2** - This unit has **WARD (5+)**.\n**3** - This unit has **WARD (5+)** and you ignore the first damage point allocated to this unit in each phase."
+       "ja": "下記の効果から、このユニットが保持している**魔瘴力ポイント**（DPP）に対応する効果を適用する：\nDPP 効果\n1 このユニットは**加護（6+）**を持つ。\n2 このユニットは**加護（5+）**を持つ。\n3 このユニットは**加護（5+）**を持ち、各フェイズ中、最初に割り振られる1ポイントのダメージを無視する。",
+       "en": "Apply the effect below that corresponds with the number of **daemonic power points** (DPP) this unit has:\n\n**DPP - Effect**\n**1** - This unit has **WARD (6+)**.\n**2** - This unit has **WARD (5+)**.\n**3** - This unit has **WARD (5+)** and you ignore the first damage point allocated to this unit in each phase.",
+       "fix": []
       }
      },
      "own": false,
@@ -271,12 +287,12 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Reinforcements",
-     ""
+     "増援",
+     "Reinforcements"
     ]
    ],
    "keyword_fix": {},
@@ -287,8 +303,8 @@
   {
    "id": "fc80a2c8-4bcc-4174-8882-3bf2eea271ea",
    "name": {
-    "ja": "Tormentor Bombard",
-    "en": "",
+    "ja": "トーメンター・ボンバード",
+    "en": "Tormentor Bombard",
     "own": false,
     "fix": [],
     "note": []
@@ -325,8 +341,8 @@
    "reinforce": false,
    "ranged": [
     {
-     "ja": "Torrent of Ruinous Energy",
-     "en": "",
+     "ja": "破滅の力の奔流",
+     "en": "Torrent of Ruinous Energy",
      "own": false,
      "fix": [],
      "note": [],
@@ -338,7 +354,10 @@
       "1",
       "D3"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "対騎兵（+1貫通値）",
+      "対歩兵（+1貫通値）"
+     ],
      "abil_en": [
       "Anti-CAVALRY (+1 Rend)",
       "Anti-INFANTRY (+1 Rend)"
@@ -347,8 +366,8 @@
    ],
    "melee": [
     {
-     "ja": "Artillerist Weapons",
-     "en": "",
+     "ja": "砲兵の武器",
+     "en": "Artillerist Weapons",
      "own": false,
      "fix": [],
      "note": [],
@@ -366,28 +385,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Ruinous Bombardment",
-      "en": "",
+      "ja": "破滅的砲撃",
+      "en": "Ruinous Bombardment",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Your Shooting Phase"
+       "ja": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+       "en": "Once Per Turn (Army), Your Shooting Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "If this unit used a **SHOOT** ability this turn and all of its attacks targeted the same enemy unit, that enemy unit is the target. Then, you can pick a number of enemy units within 6\" of the target equal to the number of **daemonic power points** this unit has to be additional targets."
+       "ja": "このユニットがこのターン中に『**遠隔攻撃**』アビリティを使用しており、かつそのすべての攻撃が同一の敵ユニットを対象にしていた場合、その敵ユニットを選択する。その後、自軍はその敵ユニットの6mv以内に一部でも入っている敵ユニットを、このユニットが保持している**魔瘴力ポイント**に等しい数まで、追加で選択してもよい。",
+       "en": "If this unit used a **SHOOT** ability this turn and all of its attacks targeted the same enemy unit, that enemy unit is the target. Then, you can pick a number of enemy units within 6\" of the target equal to the number of **daemonic power points** this unit has to be additional targets.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Roll a dice for each target. On a 3+, subtract 3 from the target’s control score for the rest of the turn."
+       "ja": "選択された各敵ユニットに対して、それぞれダイスを1個ロールする。ロール結果が3+であれば、そのターン中、ロール対象の敵ユニットの確保スコアは-3の修正を受ける。",
+       "en": "Roll a dice for each target. On a 3+, subtract 3 from the target’s control score for the rest of the turn.",
+       "fix": []
       }
      },
      "own": false,
@@ -399,28 +422,32 @@
     },
     {
      "name": {
-      "ja": "Calculated Trajectory",
-      "en": "",
+      "ja": "計算された弾道",
+      "en": "Calculated Trajectory",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Add 1 to hit rolls for this unit’s shooting attacks that target an enemy unit with 5 or more models that is more than 12\" from this unit."
+       "ja": "このユニットから12mvより遠く離れており、5体以上の兵を含む敵ユニットを攻撃対象にする場合、このユニットのレンジアタックはヒットロールに+1の修正を受ける。",
+       "en": "Add 1 to hit rolls for this unit’s shooting attacks that target an enemy unit with 5 or more models that is more than 12\" from this unit.",
+       "fix": []
       }
      },
      "own": false,
@@ -434,8 +461,8 @@
    "terrain": [],
    "keywords": [
     [
-     "War Machine",
-     ""
+     "戦闘兵器",
+     "War Machine"
     ]
    ],
    "keyword_fix": {},
@@ -446,8 +473,8 @@
   {
    "id": "8ad5063d-d610-4e4c-a0fd-b172be693a28",
    "name": {
-    "ja": "War Despot",
-    "en": "",
+    "ja": "ウォーデスポット",
+    "en": "War Despot",
     "own": false,
     "fix": [],
     "note": []
@@ -485,8 +512,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Daemonflame Glaive",
-     "en": "",
+     "ja": "魔炎の薙刀",
+     "en": "Daemonflame Glaive",
      "own": false,
      "fix": [],
      "note": [],
@@ -497,7 +524,9 @@
       "1",
       "2"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "クリティカル（致命的）"
+     ],
      "abil_en": [
       "Crit (Mortal)"
      ]
@@ -506,28 +535,37 @@
    "abilities": [
     {
      "name": {
-      "ja": "Black-hearted Conqueror",
-      "en": "",
+      "ja": "邪悪なる征服者",
+      "en": "Black-hearted Conqueror",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "While this unit has any **daemonic power points**, friendly units with 0 **daemonic power points** count as having 1 **daemonic power point** while they are wholly within 6\" of and visible to this unit. For each **daemonic power point** this unit has, add 3\" to the range of this ability."
+       "ja": "このユニットが**魔瘴力ポイント**を1点でも有する間、味方ユニットで**魔瘴力ポイント**を0点を持つユニットは、このユニットの6mv以内に全体が入っており、かつこのユニットから視認状態であるならば**魔瘴力ポイント**を1点持つものとして扱われる。\nこのユニットが有する1点の**魔瘴力ポイント**ごとに、このアビリティの効果範囲は+3mvの修正を受ける。",
+       "en": "While this unit has any **daemonic power points**, friendly units with 0 **daemonic power points** count as having 1 **daemonic power point** while they are wholly within 6\" of and visible to this unit. For each **daemonic power point** this unit has, add 3\" to the range of this ability.",
+       "fix": [
+        [
+         "**魔瘴力ポイント**を0点を持つ",
+         "**魔瘴力ポイント**を0点持つ"
+        ]
+       ]
       }
      },
      "own": false,
@@ -535,18 +573,20 @@
      "kw_en": "",
      "cast": null,
      "cp": null,
-     "note": []
+     "note": [
+      "ルール・アップデート 2026年9月 p.49（2026年7月・8月版、スピアヘッド 2026年4月版と同文）の「魔瘴力ポイントを0点を持つ」は助詞「を」が重複している（誤植）。「0点持つ」の意。"
+     ]
     }
    ],
    "terrain": [],
    "keywords": [
     [
-     "Hero",
-     ""
+     "英雄",
+     "Hero"
     ],
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ]
    ],
    "keyword_fix": {},

@@ -1,4 +1,4 @@
-# Helsmiths of Hashut ウォースクロール一覧
+# ヘルスミス・オヴ・ハシュット(Helsmiths of Hashut) ウォースクロール一覧
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
@@ -7,7 +7,7 @@
 
 ---
 
-## Anointed Sentinels
+## アノインテッド・センチネル(Anointed Sentinels)
 
 **ポイント:** 130pt / **モデル数:** 3 / **ベースサイズ:** 75 × 42mm
 
@@ -21,20 +21,20 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Thrice-cursed Glaive | 3 | 3+ | 3+ | 1 | 2 | Anti-CAVALRY (+1 Rend), Charge (+1 Damage) |
+| 幾重にも呪われし薙刀(Thrice-cursed Glaive) | 3 | 3+ | 3+ | 1 | 2 | 対騎兵（+1貫通値）(Anti-CAVALRY (+1 Rend)), 突撃（+1ダメージ量）(Charge (+1 Damage)) |
 
 **アビリティ:**
 
-- **Crush the Unworthy**（Passive）
-  - 効果: Add 1 to charge rolls for this unit for each **daemonic power point** it has.
-- **Zealous Counter-Attack**（Reaction: You declared the ‘Counter-charge’ command for this unit）
-  - 効果: This unit has **STRIKE-FIRST** for the rest of the turn.
+- **価値なき者を粉砕せよ(Crush the Unworthy)**（パッシブ）
+  - 効果: このユニットが保持している**魔瘴力ポイント**1点ごとに、このユニットの突撃ロールは+1の修正を受ける。
+- **熱狂的反撃(Zealous Counter-Attack)**（リアクション：このユニットが『報復攻撃』指揮アビリティを宣言）
+  - 効果: そのターン中、このユニットは**『先手効果』**を得る。
 
-**キーワード:** Cavalry, Champion, Chaos, Helsmiths of Hashut, Duardin
+**キーワード:** 騎兵、豪傑、渾沌の大同盟、ヘルスミス・オヴ・ハシュット、ドゥアーディン（Cavalry, Champion, Chaos, Helsmiths of Hashut, Duardin）
 
 ---
 
-## Ashen Elder
+## アシェン・エルダー(Ashen Elder)
 
 **ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -50,27 +50,27 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Black Hammer of Hashut | 3 | 3+ | 4+ | 1 | D3 | - |
+| ハシュットの黒鎚(Black Hammer of Hashut) | 3 | 3+ | 4+ | 1 | D3 | - |
 
 **アビリティ:**
 
-- **Stoked Fanaticism**（Passive）
-  - 効果: Ignore the first damage point allocated to each friendly non‑**HOBGROT HELSMITHS OF HASHUT** unit each phase while it is wholly within 6" of this unit. Add 6" to the range of this ability for each **daemonic power point** this unit has.
-- **Extract Power**（End of Your Turn）
-  - 効果: If this unit is contesting an objective, a **Place of Power**, or a terrain feature and that objective, **Place of Power** or terrain feature has a friendly desolation token, give this unit 1 ritual point.
+- **煽り立てられた熱狂(Stoked Fanaticism)**（パッシブ）
+  - 効果: 各フェイズ中、このユニットの6mv以内に全体が入っている**ホブグロット**ではない各味方**ヘルスミス・オヴ・ハシュット**・ユニットは、それぞれ最初に受ける1ポイントのダメージを無視する。このユニットが保持している**魔瘴力ポイント**1点ごとに、このアビリティの範囲は6mvずつ拡大する。
+- **力の抽出(Extract Power)**（自軍側ターン終了時）
+  - 効果: このユニットが作戦目標、**力を秘めし地形**、特殊地形のいずれかを争奪しており、それらの作戦目標、**力を秘めし地形**、特殊地形が味方荒廃トークンを有しているならば、このユニットに1儀式ポイントを与える。
 
 **連隊オプション:**
 
 - 0-1 *Hashutite Commander*
 - Any **HELSMITHS OF HASHUT**
 
-**キーワード:** Hero, Priest (1), Infantry, Chaos, Helsmiths of Hashut, Duardin
+**キーワード:** 英雄、神官（1）、歩兵、渾沌の大同盟、ヘルスミス・オヴ・ハシュット、ドゥアーディン（Hero, Priest (1), Infantry, Chaos, Helsmiths of Hashut, Duardin）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Hashutite Commander*.
 
 ---
 
-## Bull Centaurs
+## ブル・ケンタウロス(Bull Centaurs)
 
 **ポイント:** 190pt / **モデル数:** 3 / **ベースサイズ:** 75 × 42mm
 
@@ -84,21 +84,21 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Brazen Mauls | 4 | 3+ | 3+ | 1 | 2 | Charge (+1 Damage), Crit (Mortal) |
+| 大銅鎚(Brazen Mauls) | 4 | 3+ | 3+ | 1 | 2 | 突撃（+1ダメージ量）(Charge (+1 Damage)), クリティカル（致命的）(Crit (Mortal)) |
 
 **アビリティ:**
 
-- **Crush the Unworthy**（Passive）
-  - 効果: Add 1 to charge rolls for this unit for each **daemonic power point** it has.
-- **Bull-Charge**（Any Charge Phase）
-  - 宣言: If this unit charged this turn, pick a visible enemy unit within 1" of it to be the target.
-  - 効果: Roll a dice for each model in this unit. Add the number of **daemonic power points** this unit has to each roll. For each 6+, inflict 1 mortal damage on the target.
+- **価値なき者を粉砕せよ(Crush the Unworthy)**（パッシブ）
+  - 効果: このユニットが保持している**魔瘴力ポイント**1点ごとに、このユニットの突撃ロールは+1の修正を受ける。
+- **雄牛の突撃(Bull-Charge)**（任意の突撃フェイズ）
+  - 宣言: このユニットがこのターン中に突撃を実行している場合、自身の1mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。
+  - 効果: ~~選択された敵~~==この==ユニット内にいる各兵に対して、それぞれダイスを1個ロールする。このユニットが保持している**魔瘴力ポイント**の点数を、各ロールに加算する。ロール結果で6+が出るたびに、その敵ユニットは1ポイントの致命的ダメージを受ける。
 
-**キーワード:** Cavalry, Champion, Chaos, Helsmiths of Hashut, Duardin
+**キーワード:** 騎兵、豪傑、渾沌の大同盟、ヘルスミス・オヴ・ハシュット、ドゥアーディン（Cavalry, Champion, Chaos, Helsmiths of Hashut, Duardin）
 
 ---
 
-## Daemonsmith
+## ディーモンスミス(Daemonsmith)
 
 **ポイント:** 80pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -114,32 +114,32 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Hurled Daemonfire | 18" | 3 | 4+ | 4+ | 1 | D3 | Crit (2 Hits), Shoot in Combat |
+| 魔炎の投射(Hurled Daemonfire) | 18" | 3 | 4+ | 4+ | 1 | D3 | クリティカル（2ヒット）(Crit (2 Hits)), 近接射撃(Shoot in Combat) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Darkiron Talon | 3 | 3+ | 4+ | 1 | D3 | - |
+| 黒鉄の鉤爪(Darkiron Talon) | 3 | 3+ | 4+ | 1 | D3 | - |
 
 **アビリティ:**
 
-- **Molten Mending**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: Pick a friendly **HELSMITHS OF HASHUT WAR MACHINE** wholly within 6" of this unit to be the target. Add 6" to the range of this ability for each **daemonic power point** this unit has.
-  - 効果: **Heal (D3+X)** the target, where **X** is the number of **daemonic power points** this unit has.
+- **熔解修復(Molten Mending)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: このユニットの6mv以内に全体が入っている味方**ヘルスミス・オヴ・ハシュット・戦闘兵器**を1個選択する。このユニットが保持している**魔瘴力ポイント**1点ごとに、このアビリティの範囲は6mvずつ拡大する。
+  - 効果: 選択された味方ユニットを**回復**（D3+X）する。Xは、このユニットが保持している**魔瘴力ポイント**の点数と同数値である。
 
 **連隊オプション:**
 
 - 0-1 *Hashutite Commander*
 - Any **HELSMITHS OF HASHUT**
 
-**キーワード:** Hero, Wizard (1), Infantry, Chaos, Helsmiths of Hashut, Duardin
+**キーワード:** 英雄、魔術師（1）、歩兵、渾沌の大同盟、ヘルスミス・オヴ・ハシュット、ドゥアーディン（Hero, Wizard (1), Infantry, Chaos, Helsmiths of Hashut, Duardin）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Hashutite Commander*.
 
 ---
 
-## Daemonsmith on Infernal Taurus
+## ディーモンスミス（インファーナル・タウルス騎乗）(Daemonsmith on Infernal Taurus)
 
 **ポイント:** 270pt / **モデル数:** 1 / **ベースサイズ:** 130mm
 
@@ -155,37 +155,37 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Hurled Daemonfire | 18" | 3 | 4+ | 4+ | 1 | D3 | Crit (2 Hits), Shoot in Combat |
+| 魔炎の投射(Hurled Daemonfire) | 18" | 3 | 4+ | 4+ | 1 | D3 | クリティカル（2ヒット）(Crit (2 Hits)), 近接射撃(Shoot in Combat) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Horns and Hooves（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
-| Infernal Staff | 3 | 4+ | 3+ | 1 | D3 | - |
+| 角と蹄(Horns and Hooves)（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | 突撃（+1ダメージ量）(Charge (+1 Damage)), 随行者(Companion) |
+| 煉獄の杖(Infernal Staff) | 3 | 4+ | 3+ | 1 | D3 | - |
 
 **アビリティ:**
 
-- **Immolating Presence**（Once Per Turn (Army), End of Any Turn） ［Rampage］
-  - 宣言: Pick an enemy unit in combat with this unit to be the target.
-  - 効果: Roll a dice. If the roll exceeds the target’s Health characteristic, 1 model in the target unit is slain.
-- **Unholy Stampede**（Passive）
-  - 効果: While a friendly **HELSMITHS OF HASHUT CAVALRY** unit is wholly within 12" of this unit: •  That unit can use a **RETREAT** ability and still use **CHARGE** abilities later in the turn. •  No mortal damage is inflicted on that unit by **RETREAT** abilities.
-- **Daemonic Resilience**（Passive）
-  - 効果: Apply the effect below that corresponds with the number of **daemonic power points** (DPP) this unit has: **DPP Effect** **1 -** This unit has **WARD (6+)**. **2 -** This unit has **WARD (5+)**. **3 -** This unit has **WARD (4+)** against damage inflicted by **SPELLS, PRAYERS** and abilities used by **MANIFESTATIONS**. Otherwise, it has **WARD (5+)**.
-- **Battle Damaged**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Horns and Hooves** is 4.
+- **焼き尽くす存在感(Immolating Presence)**（各ターンにつき1回（アーミー）、任意のターン終了時） ［蹂躙］
+  - 宣言: このユニットと近接戦闘中である敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果がその敵ユニットの【体力】を上回る場合、その敵ユニット内の兵が1体撃破される。
+- **冒涜の蹂躙(Unholy Stampede)**（パッシブ）
+  - 効果: 味方**ヘルスミス・オヴ・ハシュット・騎兵**・ユニットが、このユニットの12mv以内に全体が入っている間、 • その味方ユニットは『**退却**』アビリティを使用していたとしても、そのターン中に『**突撃**』アビリティを使用できる。 • その味方ユニットは『**退却**』アビリティによる致命的ダメージを受けない。
+- **魔の頑健性(Daemonic Resilience)**（パッシブ）
+  - 効果: 下記の効果から、このユニットが保持している**魔瘴力ポイント**（DPP）に対応する効果を適用する。 DPP 効果 1 このユニットは**加護（6+）**を持つ。 2 このユニットは**加護（5+）**を持つ。 3 このユニットは**呪文**や**奇蹟**からのダメージに対して、**顕現**が使用するアビリティからのダメージに対して、**加護（4+）**を持つ。それ以外の場合、**加護（5+）**を持つ。
+- **バトルダメージ(Battle Damaged)**（パッシブ）
+  - 効果: このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**角と蹄**の【攻撃回数】は4になる。
 
 **連隊オプション:**
 
 - 0-1 *Hashutite Commander*
 - Any **HELSMITHS OF HASHUT**
 
-**キーワード:** Hero, Monster, War Machine, Wizard (1), Fly, Chaos, Helsmiths of Hashut, Duardin
+**キーワード:** 英雄、大型獣、戦闘兵器、魔術師（1）、飛行、渾沌の大同盟、ヘルスミス・オヴ・ハシュット、ドゥアーディン（Hero, Monster, War Machine, Wizard (1), Fly, Chaos, Helsmiths of Hashut, Duardin）
 
 ---
 
-## Deathshrieker Rocket Battery
+## デスシュリーカー・ロケットバッテリー(Deathshrieker Rocket Battery)
 
 **ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 100mm
 
@@ -201,26 +201,26 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Hashu-Zharr Rockets | 24" | 3 | 4+ | 2+ | 2 | D3+2 | Anti-MONSTER (+1 Rend), Anti-WAR MACHINE (+1 Rend) |
+| ハシュ＝ザール・ロケット(Hashu-Zharr Rockets) | 24" | 3 | 4+ | 2+ | 2 | D3+2 | 対大型獣（+1貫通値）(Anti-MONSTER (+1 Rend)), 対戦闘兵器（+1貫通値）(Anti-WAR MACHINE (+1 Rend)) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Artillerist Weapons | 3 | 4+ | 4+ | - | 1 | - |
+| 砲兵の武器(Artillerist Weapons) | 3 | 4+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Hungering Flames**（Once Per Turn (Army), Your Shooting Phase）
-  - 効果: For the rest of the turn, the Damage characteristic of this unit's **Hashu-Zharr Rockets** is 5 if the target is a **MONSTER** or a **WAR MACHINE**.
-- **Watch Them Burn**（Reaction: You declared a SHOOT ability for this unit and all of its attacks targeted the same enemy unit）
-  - 効果: Roll a number of dice equal to the number of **daemonic power points** this unit has for each other enemy unit within the combat range of the target of this unit's shooting attacks. For each 3+, inflict 1 mortal damage on the enemy unit being rolled for.
+- **飢える炎(Hungering Flames)**（各ターンにつき1回（アーミー）、自軍側遠隔フェイズ）
+  - 効果: このターン中、このユニットのハシュ＝ザール・ロケットは、攻撃対象が**大型獣**または**戦闘兵器**である場合には【ダメージ量】が5になる。
+- **燃える様を見よ(Watch Them Burn)**（リアクション：このユニットが『遠隔攻撃』アビリティを~~使用~~==宣言==し、そのすべての攻撃が同一の敵ユニットを対象としていた場合）
+  - 効果: このユニットのレンジアタックにおいて、その攻撃対象である敵ユニットの近接範囲内に一部でも入っている他の各敵ユニットに対して、このユニットが保持している**魔瘴力ポイント**の点数と同じ個数のダイスをそれぞれロールする。ロール結果で3+が出るたびに、ロール対象の敵ユニットは、1ポイントの致命的ダメージを受ける。
 
-**キーワード:** War Machine, Chaos, Helsmiths of Hashut
+**キーワード:** 戦闘兵器、渾沌の大同盟、ヘルスミス・オヴ・ハシュット（War Machine, Chaos, Helsmiths of Hashut）
 
 ---
 
-## Dominator Engine with Bane Maces
+## ドミネイター・エンジン（破滅のメイス装備）(Dominator Engine with Bane Maces)
 
 **ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 80mm
 
@@ -236,20 +236,20 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Bane Maces | 4 | 4+ | 2+ | 1 | 3 | Charge (+1 Damage) |
+| 破滅のメイス(Bane Maces) | 4 | 4+ | 2+ | 1 | 3 | 突撃（+1ダメージ量）(Charge (+1 Damage)) |
 
 **アビリティ:**
 
-- **Daemonic Strength**（Passive）
-  - 効果: For each **daemonic power point** this unit has: •  Add 1" to its Move characteristic. •  Add 1 to the Attacks characteristic of its weapons.
-- **Engine of Domination**（Once Per Turn (Army), Any Combat Phase）
-  - 効果: If this unit is in combat with any enemy **HEROES**, it can use 2 **FIGHT** abilities this phase. After the first is used, however, this unit has **STRIKE-LAST** for the rest of the phase and can only be picked to use a second **FIGHT** ability if it is still in combat with any enemy **HEROES**.
+- **魔の力(Daemonic Strength)**（パッシブ）
+  - 効果: このユニットが保持している**魔瘴力ポイント**1点ごとに、 • 自身の【移動力】は+1mvの修正を受ける。 • 自身が装備している武器の【攻撃回数】は+1の修正を受ける。
+- **支配の兵器(Engine of Domination)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 効果: このユニットが1体以上の敵**英雄**と近接戦闘中である場合、このユニットはこのフェイズ中に**『近接攻撃』**アビリティを2回使用できる。ただし、1回目を使用した後、そのフェイズ中、このユニットは**『後手効果』**を得る。依然として1体以上の敵**英雄**と近接戦闘中である場合に限り、2回目の**『近接攻撃』**アビリティを使用できる。
 
-**キーワード:** War Machine, Chaos, Helsmiths of Hashut, Automaton
+**キーワード:** 戦闘兵器、渾沌の大同盟、ヘルスミス・オヴ・ハシュット、オートマトン（War Machine, Chaos, Helsmiths of Hashut, Automaton）
 
 ---
 
-## Dominator Engine with Immolation Cannons
+## ドミネイター・エンジン（焦熱砲装備）(Dominator Engine with Immolation Cannons)
 
 **ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 80mm
 
@@ -265,27 +265,27 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Immolation Cannons | 8" | 5 | 2+ | 4+ | 1 | D3 | Anti-CAVALRY (+1 Rend), Shoot in Combat |
+| 焦熱砲(Immolation Cannons) | 8" | 5 | 2+ | 4+ | 1 | D3 | 対騎兵（+1貫通値）(Anti-CAVALRY (+1 Rend)), 近接射撃(Shoot in Combat) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Horns and Pummelling Strikes | 3 | 4+ | 3+ | 1 | D3 | Charge (+1 Damage) |
+| 角と殴打(Horns and Pummelling Strikes) | 3 | 4+ | 3+ | 1 | D3 | 突撃（+1ダメージ量）(Charge (+1 Damage)) |
 
 **アビリティ:**
 
-- **Daemonic Strength**（Passive）
-  - 効果: For each **daemonic power point** this unit has: •  Add 1" to its Move characteristic. •  Add 1 to the Attacks characteristic of its weapons.
-- **All Must Burn!**（Once Per Turn (Army), Your Shooting Phase）
-  - 宣言: Pick 2 or more visible enemy units within 8" of this unit to be the targets.
-  - 効果: For the rest of the turn, add 2 to the Attacks characteristic of this unit’s **Immolation Cannons** for each unit picked to be the target of this ability, but each time this unit uses a **SHOOT** ability, it must target each of those units with at least 3 of its attacks.
+- **魔の力(Daemonic Strength)**（パッシブ）
+  - 効果: このユニットが保持している**魔瘴力ポイント**1点ごとに、 • 自身の【移動力】は+1mvの修正を受ける。 • 自身が装備している武器の【攻撃回数】は+1の修正を受ける。
+- **すべて燃えよ(All Must Burn!)**（各ターンにつき~~１回~~==1回（アーミー）==、自軍側遠隔フェイズ）
+  - 宣言: このユニットの8mv以内に一部でも入っており、かつこのユニットから視認状態である2個以上の敵ユニットを選択する。
+  - 効果: そのターン中、このアビリティの対象として選択された敵ユニット1個につき、このユニットが装備している焦熱砲の【攻撃回数】は+2の修正を受ける。ただし、このユニットが『遠隔攻撃』アビリティを使用する際、それらの各敵ユニットを攻撃対象にするとき、少なくともそれぞれ３回攻撃しなければならない。
 
-**キーワード:** War Machine, Chaos, Helsmiths of Hashut, Automaton
+**キーワード:** 戦闘兵器、渾沌の大同盟、ヘルスミス・オヴ・ハシュット、オートマトン（War Machine, Chaos, Helsmiths of Hashut, Automaton）
 
 ---
 
-## Hobgrotz Vandalz
+## ホブグロット・ヴァンダル(Hobgrotz Vandalz)
 
 **ポイント:** 70pt / **モデル数:** 10 / **ベースサイズ:** 25mm
 
@@ -299,18 +299,18 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Scavenged Weapons | 2 | 4+ | 5+ | - | 1 | - |
+| ごみ漁りの武器(Scavenged Weapons) | 2 | 4+ | 5+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Disposable Lackeys**（Deployment Phase）
-  - 効果: This unit can immediately use the ‘Normal Move’ ability as if it were your movement phase.
+- **捨て駒連中(Disposable Lackeys)**（初期配置フェイズ）
+  - 効果: このユニットは、あたかも自軍側移動フェイズ中かのように、ただちに『通常移動』アビリティを1回使用できる。
 
-**キーワード:** Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Chaos, Helsmiths of Hashut, Hobgrot
+**キーワード:** 歩兵、豪傑、楽士（1/10）、旗手（1/10）、渾沌の大同盟、ヘルスミス・オヴ・ハシュット、ホブグロット（Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Chaos, Helsmiths of Hashut, Hobgrot）
 
 ---
 
-## Infernal Cohort with Hashutite Blades
+## インファーナル・コホート（ハシュット信徒の刃装備）(Infernal Cohort with Hashutite Blades)
 
 **ポイント:** 90pt / **モデル数:** 10 / **ベースサイズ:** 28.5mm
 
@@ -324,22 +324,22 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Hashutite Blade | 2 | 3+ | 4+ | - | 1 | Anti-INFANTRY (+1 Rend) |
+| ハシュット信徒の刃(Hashutite Blade) | 2 | 3+ | 4+ | - | 1 | 対歩兵（+1貫通値）(Anti-INFANTRY (+1 Rend)) |
 
 **アビリティ:**
 
-- **Sacred Gongs**（Passive）
-  - 効果: This unit’s **Gong Carriers** are tokens. There is 1 **Gong Carrier** for every **MUSICIAN** in this unit. If this unit uses the ‘Rally’ command, as a reaction, you can remove a **Gong Carrier** to make an additional rally roll of D6.
-- **Disciplined March**（Passive）
-  - 効果: When making run rolls for this unit, if you roll a 1-3, you can use a value of 4 instead.
-- **Daemonic Resilience**（Passive）
-  - 効果: Apply the effect below that corresponds with the number of **daemonic power points** (DPP) this unit has: **DPP Effect** **1 -** This unit has **WARD (6+)**. **2 -** This unit has **WARD (5+)**. **3 -** This unit has **WARD (4+)** against damage inflicted by **SPELLS**, **PRAYERS** and abilities used by **MANIFESTATIONS**. Otherwise, it has **WARD (5+)**.
+- **聖なる銅鑼(Sacred Gongs)**（パッシブ）
+  - 効果: このユニットの**銅鑼持ち**は、トークンである。このユニット内の**楽士**1体ごとに、1体の**銅鑼持ち**がいることになる。~~このユニットがリアクションとして『再集結』指揮アビリティを使用する際、~~==このユニットが『再集結』指揮アビリティを使用した際、リアクションとして==**銅鑼持ち**を1体戦場から取り除くことで、D6の再集結ロールを追加で1回実行してもよい。
+- **規律正しき行軍(Disciplined March)**（パッシブ）
+  - 効果: このユニットは全力移動ロールをするとき、ロール結果が1-3であれば、代わりに4の値を用いてもよい。
+- **魔の頑健性(Daemonic Resilience)**（パッシブ）
+  - 効果: 下記の効果から、このユニットが保持している**魔瘴力ポイント**（DPP）に対応する効果を適用する。 DPP 効果 1 このユニットは**加護（6+）**を持つ。 2 このユニットは**加護（5+）**を持つ。 3 このユニットは**呪文**や**奇蹟**からのダメージに対して、**顕現**が使用するアビリティからのダメージに対して**加護（4+）**を持つ。それ以外の場合、**加護（5+）を持つ。**
 
-**キーワード:** Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Chaos, Helsmiths of Hashut, Duardin
+**キーワード:** 歩兵、豪傑、楽士（1/10）、旗手（1/10）、渾沌の大同盟、ヘルスミス・オヴ・ハシュット、ドゥアーディン（Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Chaos, Helsmiths of Hashut, Duardin）
 
 ---
 
-## Infernal Cohort with Hashutite Spears
+## インファーナル・コホート（ハシュット信徒の槍装備）(Infernal Cohort with Hashutite Spears)
 
 **ポイント:** 90pt / **モデル数:** 10 / **ベースサイズ:** 28.5mm
 
@@ -353,23 +353,23 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Hashutite Spear | 2 | 3+ | 4+ | - | 1 | Anti-CAVALRY (+1 Rend), Anti-charge (+1 Rend) |
+| ハシュット信徒の槍(Hashutite Spear) | 2 | 3+ | 4+ | - | 1 | 対騎兵（+1貫通値）(Anti-CAVALRY (+1 Rend)), 対突撃（+1貫通値）(Anti-charge (+1 Rend)) |
 
 **アビリティ:**
 
-- **Daemonic Resilience**（Passive）
-  - 効果: Apply the effect below that corresponds with the number of **daemonic power points** (DPP) this unit has: **DPP Effect** **1 -** This unit has **WARD (6+)**. **2 -** This unit has **WARD (5+)**. **3 -** This unit has **WARD (4+)** against damage inflicted by **SPELLS**, **PRAYERS** and abilities used by **MANIFESTATIONS**. Otherwise, it has **WARD (5+)**.
-- **Conquered Lands**（Your Hero Phase）
-  - 宣言: If this unit is contesting an objective you control, pick a friendly non-**HOBGROT HELSMITHS OF HASHUT** unit wholly within 12" of this unit to be the target.
-  - 効果: Roll a dice. On a 3+, give the target 1 **daemonic power** point. **Designer’s Note:** *You cannot make more than one roll for each objective in each turn regardless of how many friendly units with this ability are contesting that objective.*
-- **Sacred Gongs**（Passive）
-  - 効果: This unit’s **Gong Carriers** are tokens. There is 1 **Gong Carrier** for every **MUSICIAN** in this unit. If this unit uses the ‘Rally’ command, as a reaction, you can remove a **Gong Carrier** to make an additional rally roll of D6.
+- **魔の頑健性(Daemonic Resilience)**（パッシブ）
+  - 効果: 下記の効果から、このユニットが保持している**魔瘴力ポイント**（DPP）に対応する効果を適用する。 DPP 効果 1 このユニットは**加護（6+）**を持つ。 2 このユニットは**加護（5+）**を持つ。 3 このユニットは**呪文**や**奇蹟**からのダメージに対して、**顕現**が使用するアビリティからのダメージに対して**加護（4+）**を持つ。それ以外の場合、**加護（5+）を持つ。**
+- **征服されし土地(Conquered Lands)**（自軍側ヒーローフェイズ）
+  - 宣言: このユニットが自軍側が確保している作戦目標を争奪している場合、このユニットの12mv以内に全体が入っているホブグロットではない味方**ヘルスミス・オヴ・ハシュット**・ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、選択された味方ユニットに**魔瘴力ポイント**を1点与える。 デザイナーズノート：**このアビリティを持つ味方ユニットが複数、その作戦目標の争奪にかかわっていたとしても、自軍がターンごとに各作戦目標に対してこのロールができるのは、1回だけである。**
+- **聖なる銅鑼(Sacred Gongs)**（パッシブ）
+  - 効果: このユニットの**銅鑼持ち**は、トークンである。このユニット内の**楽士**1体ごとに、1体の**銅鑼持ち**がいることになる。~~このユニットがリアクションとして『再集結』指揮アビリティを使用する際、~~==このユニットが『再集結』指揮アビリティを使用した際、リアクションとして==**銅鑼持ち**を1体戦場から取り除くことで、D6の再集結ロールを追加で1回実行してもよい。
 
-**キーワード:** Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Chaos, Helsmiths of Hashut, Duardin
+**キーワード:** 歩兵、豪傑、楽士（1/10）、旗手（1/10）、渾沌の大同盟、ヘルスミス・オヴ・ハシュット、ドゥアーディン（Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Chaos, Helsmiths of Hashut, Duardin）
 
 ---
 
-## Infernal Razers with Blunderbusses
+## インファーナル・レイザー（ブランダーバス装備）(Infernal Razers with Blunderbusses)
 
 **ポイント:** 110pt / **モデル数:** 5 / **ベースサイズ:** 28.5mm
 
@@ -383,27 +383,27 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Grizmalok Blunderbusses | 18" | 1 | 3+ | 2+ | - | 2 | - |
+| グリズマロック大口径銃(Grizmalok Blunderbusses) | 18" | 1 | 3+ | 2+ | - | 2 | - |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Weapon Butt | 1 | 4+ | 4+ | - | 1 | - |
+| 銃床(Weapon Butt) | 1 | 4+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Manglers of Metal**（Passive）
-  - 効果: Add 1 to the Rend characteristic of this unit’s ranged weapons for each **daemonic power point** this unit has.
-- **Hateful Hail**（Once Per Turn (Army), Your Shooting Phase）
-  - 宣言: If this unit used a **SHOOT** ability this turn and all of its attacks targeted the same enemy unit, that enemy unit is the target.
-  - 効果: Roll a dice and add the number of enemy models in the target unit slain by attacks made by this unit this turn. If the result is 6+, the target has **STRIKE-LAST** for the rest of the turn.
+- **鋼の破壊者(Manglers of Metal)**（パッシブ）
+  - 効果: このユニットが保持している**魔瘴力ポイント**1点ごとに、このユニットの遠隔武器は【貫通値】に+1の修正を受ける。
+- **憎悪の弾雨(Hateful Hail)**（各ターンにつき1回（アーミー）、自軍側遠隔フェイズ）
+  - 宣言: このユニットがこのターン中に『**遠隔攻撃**』アビリティを使用しており、そのすべての攻撃が同一の敵ユニットを対象としていた場合、その敵ユニットを選択する。
+  - 効果: ダイスを1個ロールする。このターン中、このユニットの攻撃によって撃破されたその敵ユニット内の兵数に等しい数を、そのロール結果に加算する。ロール結果が6+であれば、そのターン中、その敵ユニットは『**後手効果**』を得る。
 
-**キーワード:** Infantry, Champion, Chaos, Helsmiths of Hashut, Duardin
+**キーワード:** 歩兵、豪傑、渾沌の大同盟、ヘルスミス・オヴ・ハシュット、ドゥアーディン（Infantry, Champion, Chaos, Helsmiths of Hashut, Duardin）
 
 ---
 
-## Infernal Razers with Flamehurlers
+## インファーナル・レイザー（フレイムハーラー装備）(Infernal Razers with Flamehurlers)
 
 **ポイント:** 90pt / **モデル数:** 5 / **ベースサイズ:** 28.5mm
 
@@ -417,27 +417,27 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Karagthrun Flamehurlers | 12" | 3 | 2+ | 4+ | - | 1 | Shoot in Combat |
+| カラグサルン火炎投射器(Karagthrun Flamehurlers) | 12" | 3 | 2+ | 4+ | - | 1 | 近接射撃(Shoot in Combat) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Weapon Butt | 1 | 4+ | 4+ | - | 1 | - |
+| 銃床(Weapon Butt) | 1 | 4+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Manglers of Metal**（Passive）
-  - 効果: Add 1 to the Rend characteristic of this unit’s ranged weapons for each **daemonic power point** this unit has.
-- **Scorched Remains**（Once Per Turn (Army), Your Shooting Phase）
-  - 宣言: If this unit used a **SHOOT** ability this turn and all of its attacks targeted the same enemy **INFANTRY** unit, that enemy unit is the target.
-  - 効果: Roll a dice. On a 3+, subtract an amount equal to the roll from the target’s control score until the start of your next turn.
+- **鋼の破壊者(Manglers of Metal)**（パッシブ）
+  - 効果: このユニットが保持している**魔瘴力ポイント**1点ごとに、このユニットの遠隔武器は【貫通値】に+1の修正を受ける。
+- **焼け焦げた残骸(Scorched Remains)**（各ターンにつき1回（アーミー）、自軍側遠隔フェイズ）
+  - 宣言: このユニットがこのターン中に『**遠隔攻撃**』アビリティを使用しており、そのすべての攻撃が同一の敵**歩兵**・ユニットを対象としていた場合、その敵ユニットを選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された敵ユニットの確保スコアは、その出目に等しい数のマイナス修正を受ける。
 
-**キーワード:** Infantry, Champion, Chaos, Helsmiths of Hashut, Duardin
+**キーワード:** 歩兵、豪傑、渾沌の大同盟、ヘルスミス・オヴ・ハシュット、ドゥアーディン（Infantry, Champion, Chaos, Helsmiths of Hashut, Duardin）
 
 ---
 
-## Scourge of Aqshy: Anointed Sentinels
+## アキュシーの禍事 アノインテッド・センチネル(Scourge of Aqshy: Anointed Sentinels)
 
 **ポイント:** 170pt / **モデル数:** 3 / **ベースサイズ:** 75 × 42mm
 
@@ -451,22 +451,22 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Thrice-cursed Glaive | 3 | 3+ | 3+ | 1 | 2 | Anti-CAVALRY (+1 Rend), Charge (+1 Damage) |
+| 幾重にも呪われし薙刀(Thrice-cursed Glaive) | 3 | 3+ | 3+ | 1 | 2 | 対騎兵（+1貫通値）(Anti-CAVALRY (+1 Rend)), 突撃（+1ダメージ量）(Charge (+1 Damage)) |
 
 **アビリティ:**
 
-- **Zealous Acolytes**（Passive）
-  - 効果: • Add 1 to the Attacks characteristic of this unit’s melee weapons while it is contesting an objective you do not control. • Add 10 to this unit’s control score while it is contesting an objective you control.
-- **Daemonic Resilience**（Passive）
-  - 効果: Apply the effect below that corresponds with the number of **daemonic power points** (DPP) this unit has: **DPP Effect** **1** This unit has **WARD (6+)**. **2** This unit has **WARD (5+)**. **3** This unit has **WARD (4+)** against damage inflicted by **SPELLS**, **PRAYERS** and abilities used by **MANIFESTATIONS**. Otherwise, it has **WARD (5+)**.
+- **狂信の侍祭(Zealous Acolytes)**（パッシブ）
+  - 効果: • このユニットが自軍側が確保していない作戦目標を争奪している間、このユニットの装備している近接武器は【攻撃回数】に+1の修正を受ける。 • このユニットが自軍側が確保している作戦目標を争奪している間、このユニットの確保スコアは+10の修正を受ける。
+- **悪魔的強靭性(Daemonic Resilience)**（パッシブ）
+  - 効果: このユニットが持っている**魔瘴力ポイント**（DPP）の数に対応する効果を適用する： DPP 効果 1 このユニットは**加護（6+）**を持つ。 2 このユニットは**加護（5+）**を持つ。 3 このユニットは**『呪文』**アビリティと、**~~祈祷~~==奇蹟==**アビリティ、**『顕現』**が使用したアビリティから与えられるダメージに対して**加護（4+）**を持つ。それ以外の場合、**加護（5+）**を持つ。
 
-**キーワード:** Cavalry, Champion, Chaos, Helsmiths of Hashut, Duardin
+**キーワード:** 騎兵、豪傑、渾沌、ヘルスミス・オヴ・ハシュット、ドゥアーディン（Cavalry, Champion, Chaos, Helsmiths of Hashut, Duardin）
 
 **ノート:** This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
 
 ---
 
-## Scourge of Aqshy: Daemonsmith on Infernal Taurus
+## アキュシーの禍事 ディーモンスミス（インファーナル・タウルス騎乗）(Scourge of Aqshy: Daemonsmith on Infernal Taurus)
 
 **ポイント:** 350pt / **モデル数:** 1 / **ベースサイズ:** 130mm
 
@@ -482,39 +482,39 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Hurled Daemonfire | 18" | 3 | 4+ | 4+ | 1 | D3 | Crit (2 Hits), Shoot in Combat |
+| 魔炎の投射(Hurled Daemonfire) | 18" | 3 | 4+ | 4+ | 1 | D3 | クリティカル（2ヒット）(Crit (2 Hits)), 近接射撃(Shoot in Combat) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Horns and Hooves（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
-| Infernal Staff | 3 | 4+ | 3+ | 1 | D3 | - |
+| 強大なる角と蹄(Horns and Hooves)（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | 突撃（+1ダメージ量）(Charge (+1 Damage)), 随行者(Companion) |
+| 煉獄の杖(Infernal Staff) | 3 | 4+ | 3+ | 1 | D3 | - |
 
 **アビリティ:**
 
-- **Battle Damaged**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Horns and Hooves** is 4.
-- **Daemonic Resilience**（Passive）
-  - 効果: Apply the effect below that corresponds with the number of **daemonic power points** (DPP) this unit has: **DPP Effect** **1 -** This unit has **WARD (6+)**. **2 -** This unit has **WARD (5+)**. **3 -** This unit has **WARD (4+)** against damage inflicted by **SPELLS, PRAYERS** and abilities used by **MANIFESTATIONS**. Otherwise, it has **WARD (5+)**.
-- **Leech Realm-Magic**（Once Per Turn (Army), Your Hero Phase）
-  - 効果: • Add 1 to casting rolls and unbinding rolls for this unit until the start of your next turn. • You can pick an objective or terrain feature that has a friendly **desolation token** and that this unit is contesting. If you do so, add 1 to this unit’s power level for the rest of the battle, then remove that **desolation token** from the battlefield. This unit can be affected by this ability multiple times and the effects are cumulative.
-- **Calamitous Shockwave**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
-  - 宣言: Pick up to 3 enemy units in combat with this unit to be the targets.
-  - 効果: Roll a dice for each target. If the roll is lower than your **fury level**, for the rest of the turn: • The target cannot use the ‘Eruption of Fury’ ability. • When resolving the damage sequence for the target, your opponent cannot spend **rage dice** as part of the ‘Fight Through the Pain’ ability. • Add 1 to the Rend characteristic of weapons used for attacks that target that enemy unit.
+- **バトルダメージ(Battle Damaged)**（パッシブ）
+  - 効果: このユニットが10ポイント以上のダメージを受けている場合、自身の**強大なる角と蹄**の【攻撃回数】は4になる。
+- **悪魔的強靭性(Daemonic Resilience)**（パッシブ）
+  - 効果: このユニットが持っている**魔瘴力ポイント**（DPP）の数に対応する効果を適用する： DPP 効果 1 このユニットは**加護（6+）**を持つ。 2 このユニットは**加護（5+）**を持つ。 3 このユニットは**『呪文』**アビリティと、**~~祈祷~~==奇蹟==**アビリティ、**『顕現』**が使用したアビリティから与えられるダメージに対して**加護（4+）**を持つ。それ以外の場合、**加護（5+）**を持つ。
+- **領域魔法の吸奪(Leech Realm-Magic)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 効果: • 次の自軍側ターン開始時まで、このユニットは詠唱ロールと打ち消しロールに+1の修正を受ける。 • このユニットが争奪している、味方**荒廃トークン**を持つ作戦目標または特殊地形を1個選択~~する~~==してもよい==。その場合、==バトル終了時まで、==このユニットのパワーレベルは+1の修正を受ける。その後、その**荒廃トークン**を戦場から取り除く。このユニットは、このアビリティの効果を複数回受けることができる。そのたびに、効果は累積して適用される。
+- **破局の衝撃波(Calamitous Shockwave)**（各ターンにつき1回（アーミー）、任意の近接フェイズ） ［蹂躙］
+  - 宣言: このユニットと近接戦闘中の敵ユニットを3個まで選択する。
+  - 効果: 選択された各敵ユニットに対してダイスをロールする。ロール結果が自軍側の**憤激レベル**を下回る場合、そのターン中： • 選択された敵ユニットは『怒りの爆発』アビリティを使用できない。 • 選択された敵ユニットのダメージ手順を解決する際、敵は『歯を食いしばれ』アビリティの一環として**憤激ダイス**を使用することができない。 • 選択された敵ユニット==を==攻撃対象とする武器の【貫通値】は+1の修正を受ける。
 
 **連隊オプション:**
 
 - 0-1 *Hashutite Commander*
 - Any **HELSMITHS OF HASHUT**
 
-**キーワード:** Hero, Monster, War Machine, Wizard (1), Fly, Chaos, Helsmiths of Hashut, Duardin
+**キーワード:** 英雄、大型獣、戦闘兵器、魔術師（1）、飛行、渾沌、ヘルスミス・オヴ・ハシュット、ドゥアーディン（Hero, Monster, War Machine, Wizard (1), Fly, Chaos, Helsmiths of Hashut, Duardin）
 
 **ノート:** This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
 
 ---
 
-## Scourge of Ghyran Infernal Cohort with Hashutite Blades
+## グューランの禍事 インファーナル・コホート（ハシュット信徒の刃装備）(Scourge of Ghyran Infernal Cohort with Hashutite Blades)
 
 **ポイント:** 110pt / **モデル数:** 10 / **ベースサイズ:** 28.5mm
 
@@ -528,25 +528,25 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Hashutite Blade | 2 | 3+ | 4+ | - | 1 | Anti-INFANTRY (+1 Rend) |
+| ハシュット信徒の刃(Hashutite Blade) | 2 | 3+ | 4+ | - | 1 | 対歩兵（+1貫通値）(Anti-INFANTRY (+1 Rend)) |
 
 **アビリティ:**
 
-- **Sanctified Gongs**（Passive）
-  - 効果: This unit’s **Gong Carriers** are tokens. There is 1 **Gong Carrier** for every musician in this unit. If this unit uses the ‘Rally’ command, make 2 additional rally rolls of D6 for each **Gong Carrier** in this unit, but for each unmodified rally roll of 1, you must remove a **Gong Carrier** from this unit after the command has been resolved.
-- **Take Up Their Arms**（Once Per Turn (Army), End of Any Turn）
-  - 宣言: Pick another visible friendly non-**HOBGROT HELSMITHS OF HASHUT INFANTRY** unit, **Deathshrieker Rocket Battery** or **Tormentor Bombard** within 12" of this unit to be the target.
-  - 効果: Remove up to 3 models from this unit. Then, if the target is an **INFANTRY** unit, return a number of slain models to the target equal to the number of models you removed from this unit. If the target is a **WAR MACHINE**, heal a number of damage points allocated to the target equal to the number of models you removed from this unit. Models removed from this unit by this ability cannot be returned to this unit.
-- **Daemonic Resilience**（Passive）
-  - 効果: Apply the effect below that corresponds with the number of **daemonic power points** (DPP) this unit has: **DPP - Effect** **1 -** This unit has **WARD (6+)**. **2 -** This unit has **WARD (5+)**. **3 -** This unit has **WARD (4+)** against damage inflicted by **SPELLS**, **PRAYERS** and abilities used by **MANIFESTATIONS**. Otherwise, it has **WARD (5+)**.
+- **殊勝の銅鑼(Sanctified Gongs)**（パッシブ）
+  - 効果: このユニットの**銅鑼の打ち手**はトークンである。このユニット内にいる楽士1体につき、**銅鑼の打ち手**が1つ存在する。このユニットが『再集結』指揮アビリティを使用した場合、このユニット内にいる**銅鑼の打ち手**ごとに、D6の再集結ロールを追加で2個ロールできる。ただし、再集結ロールで修正前の出目1が出るたびに、指揮アビリティが解決された直後に、このユニットの**銅鑼の打ち手**を1つ取り除かなければならない。
+- **武器を拾え(Take Up Their Arms)**（各ターンにつき1回（アーミー）、任意のターン終了時）
+  - 宣言: このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態であるホブグロットでない他の味方**ヘルスミス・オヴ・ハシュット・歩兵**・ユニット、**デスシュリーカー・ロケットバッテリー**、**トーメンター・ボンバード**のいずれか1個を選択する。
+  - 効果: このユニットから最大3体までの兵を取り除く。次に、選択された味方ユニットが**歩兵**・ユニットである場合、その味方ユニット内の撃破された兵を、このユニットから取り除いた兵の数だけ復帰させる。選択された味方ユニットが**戦闘兵器**であるならば、その味方ユニットをこのユニットから取り除いた兵の数だけ回復する。 このアビリティによってこのユニットから取り除かれた兵は、このユニットに復帰させることはできない。
+- **魔の頑健性(Daemonic Resilience)**（パッシブ）
+  - 効果: このユニットが持っている**魔瘴力ポイント**（DPP）の数に対応する以下の効果を適用する。 DPP 効果 1 このユニットは**加護（6+）**を持つ。 2 このユニットは**加護（5+）**を持つ。 3 このユニットは**呪文**や**奇蹟**からのダメージに対して、**顕現**が使用するアビリティからのダメージに対して**加護（4+）**を持つ。それ以外の場合**加護（5+）**を持つ。
 
-**キーワード:** Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Chaos, Helsmiths of Hashut, Duardin
+**キーワード:** 歩兵、豪傑、楽士（1/10）、旗手（1/10）、渾沌の大同盟、ヘルスミス・オヴ・ハシュット、ドゥアーディン（Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Chaos, Helsmiths of Hashut, Duardin）
 
 **ノート:** This unit is legal for Matched Play for battles fought using the *General's Handbook 2025-26* battlepack.&#x20;
 
 ---
 
-## Scourge of Ghyran War Despot
+## グューランの禍事 ウォーデスポット(Scourge of Ghyran War Despot)
 
 **ポイント:** 130pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -562,27 +562,27 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Daemonflame Glaive | 5 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
+| 魔炎の薙刀(Daemonflame Glaive) | 5 | 3+ | 3+ | 1 | 2 | クリティカル（致命的）(Crit (Mortal)) |
 
 **アビリティ:**
 
-- **Daemonfire Pistol**（Once Per Turn (Army), Your Movement Phase）
-  - 宣言: Pick a visible enemy unit within 12" of this unit to be the enemy target. Then, you can pick a friendly **HELSMITHS OF HASHUT INFANTRY** unit in combat with the enemy target to be the friendly target.
-  - 効果: Roll a D3. On a 2+, inflict an amount of mortal damage on the enemy target equal to the roll. If there is a friendly target, for the rest of the turn: • It can use a **RETREAT** ability and still use **SHOOT** and/or **CHARGE** abilities later in the turn. • Add 2" to the distance it can move when using **RETREAT** abilities. • No mortal damage is inflicted on it by **RETREAT** abilities.
-- **Triumph or Perish, You Vermin!**（Passive）
-  - 効果: While this unit has any **daemonic power points**, friendly non‑**HOBGROT HELSMITHS OF HASHUT** units, excluding **War Despots**, with 0 **daemonic power points** count as having 1 **daemonic power point** while they are wholly within 9" of and visible to this unit. Add 3" to the range of this ability while this unit has 2 **daemonic power points**. Add 6" to the range of this ability instead while this unit has 3 **daemonic power points**. **Designer’s Note:** *If a friendly unit with 0 daemonic power points is affected by this ability and subsequently gains 1 or more daemonic power points, this ability would stop affecting that unit. Also, Urak Taar’s ‘Master of Daemonic Power’ ability has no effect on units affected by this ability.*
+- **魔炎のピストル銃(Daemonfire Pistol)**（各ターンにつき1回（アーミー）、自軍側移動フェイズ）
+  - 宣言: このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。その後、選択された敵ユニットと近接戦闘中である味方**ヘルスミス・オヴ・ハシュット・歩兵**・ユニットを1個選択~~する~~==してもよい==。
+  - 効果: D3を1個ロールする。ロール結果が2+であれば、選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。 選択された味方ユニットが健在の場合、そのターン中： • その味方ユニットは**『退却』**アビリティを使用していたとしても、そのターン中に**『遠隔攻撃』**と**『突撃』**アビリティの両方、またはいずれか一方を使用できる。 • その味方ユニットは**『退却』**アビリティを使用したとき、移動できる距離に+2mvの修正を受ける。 • その味方ユニットは**『退却』**アビリティによる致命的ダメージを受けない。
+- **勝利か、さもなくば死だ！(Triumph or Perish, You Vermin!)**（パッシブ）
+  - 効果: このユニットが**魔瘴力ポイント**を1点でも有する間、ホブグロットでない味方**ヘルスミス・オヴ・ハシュット**・ユニット（**ウォーデスポット**は除く）で**魔瘴力ポイント**を0点~~を~~持つユニットは、このユニットの9mv以内に全体が入っており、かつこのユニットから視認状態であるならば**魔瘴力ポイント**を1点持つものとして扱われる。 このユニットが2**魔瘴力ポイント**を有する間、このアビリティは有効範囲に+3mvの修正を受ける。このユニットが3**魔瘴力ポイント**を有する間、代わりにこのアビリティは有効範囲に+6mvの修正を受ける。 デザイナーズ・ノート：魔瘴力ポイントが0点であり、このアビリティの効果を受けている味方ユニットがその後に1点以上の魔瘴力ポイントを獲得した場合、その味方ユニットはこのアビリティの効果を受けなくなる。またウラク・タールの『魔瘴力の熟達者』アビリティは、このアビリティの効果を受けているユニットに効果を与えることはない。
 
 **連隊オプション:**
 
 - Any **HELSMITHS OF HASHUT**
 
-**キーワード:** Hero, Infantry, Chaos, Helsmiths of Hashut, Duardin
+**キーワード:** 英雄、歩兵、渾沌の大同盟、ヘルスミス・オヴ・ハシュット、ドゥアーディン（Hero, Infantry, Chaos, Helsmiths of Hashut, Duardin）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Hashutite Commander.* This unit is legal for Matched Play for battles fought using the *General’s Handbook 2025-26* battlepack.
 
 ---
 
-## The Blood of the Bull (Legends)
+## 雄牛の血(The Blood of the Bull) (Legends)
 
 **ポイント:** 120pt / **モデル数:** 5 / **ベースサイズ:** 32mm [1], 28.5mm [3], 25mm [1]
 
@@ -598,27 +598,27 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Master-crafted Flamehurler | 12" | 4 | 2+ | 4+ | 2 | 1 | Shoot in Combat |
+| 大獄炎の火炎放射器(Master-crafted Flamehurler) | 12" | 4 | 2+ | 4+ | 2 | 1 | 近接射撃(Shoot in Combat) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Blades and Fists | 2 | 4+ | 4+ | - | 1 | - |
-| Daemonflame Weapons | 2 | 3+ | 4+ | 1 | 1 | - |
+| 刃と鉄拳(Blades and Fists) | 2 | 4+ | 4+ | - | 1 | - |
+| 魔炎の武器(Daemonflame Weapons) | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **アビリティ:**
 
-- **Infernal Empowerment**（Passive）
-  - 効果: Apply the effect(s) below that correspond with the number of **daemonic power points** (DPP) this unit has. These effects are cumulative. **DPP - Effect** 1+  Add 1" to this unit’s Move characteristic. 2+  Add 1 to wound rolls for this unit’s combat attacks. 3  Add 1 to the Rend characteristic of this unit’s melee weapons.
+- **獄炎の力(Infernal Empowerment)**（パッシブ）
+  - 効果: **このユニットが持っている**魔瘴力ポイント（DPP）の数に対応する効果を適用する。これらの効果は累積する。 DPP 効果 1+ このユニットは【移動力】に+1mvの修正を受ける。 2+ このユニットのメレーアタックは、ウーンズロールに+1の修正を受ける。 3 このユニットが装備している近接武器は【貫通値】に+1の修正を受ける。
 
-**装備オプション:** ***The models in this unit are:*** ***• Zuldrakka the Hateful** (champion, armed with Daemonflame Weapons)* ***• Imnidrin** (standard bearer, armed with Daemonflame Weapons)* ***• Morudok** (armed with Daemonflame Weapons)* ***• Tokkor the Immolator** (armed with Master-crafted Flamehurler and Blades and Fists)* ***• Grisk Back-stabba** (armed with Blades and Fists)*
+**装備オプション:** このユニット内の兵は以下の通り： • **“憎悪激しき”ザルドラッカ**（豪傑、魔炎の武器装備） • **軍旗手イムニドリン**（旗手、魔炎の武器装備） • **モルドック**（魔炎の武器装備） • **“焼却者”トッコー**（大獄炎の火炎放射器と刃と鉄拳装備） • **==グ==リスク・バックスタッバ**（刃と鉄拳装備）
 
-**キーワード:** Unique, Infantry, Champion, Standard Bearer (1/5), Chaos, Helsmiths of Hashut, Duardin
+**キーワード:** 固有、歩兵、豪傑、旗手（1/5）、渾沌の大同盟、ヘルスミス・オヴ・ハシュット、ドゥアーディン（Unique, Infantry, Champion, Standard Bearer (1/5), Chaos, Helsmiths of Hashut, Duardin）
 
 ---
 
-## Tormentor Bombard
+## トーメンター・ボンバード(Tormentor Bombard)
 
 **ポイント:** 130pt / **モデル数:** 1 / **ベースサイズ:** 100mm
 
@@ -634,27 +634,27 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Torrent of Ruinous Energy | 30" | 4 | 3+ | 3+ | 1 | D3 | Anti-CAVALRY (+1 Rend), Anti-INFANTRY (+1 Rend) |
+| 破滅の力の奔流(Torrent of Ruinous Energy) | 30" | 4 | 3+ | 3+ | 1 | D3 | 対騎兵（+1貫通値）(Anti-CAVALRY (+1 Rend)), 対歩兵（+1貫通値）(Anti-INFANTRY (+1 Rend)) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Artillerist Weapons | 3 | 4+ | 4+ | - | 1 | - |
+| 砲兵の武器(Artillerist Weapons) | 3 | 4+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Calculated Trajectory**（Passive）
-  - 効果: Add 1 to hit rolls for this unit’s shooting attacks that target an enemy unit with 5 or more models that is more than 12" from this unit.
-- **Ruinous Bombardment**（Once Per Turn (Army), Your Shooting Phase）
-  - 宣言: If this unit used a **SHOOT** ability this turn and all of its attacks targeted the same enemy unit, that enemy unit is the target. Then, you can pick a number of enemy units within 6" of the target equal to the number of **daemonic power points** this unit has to be additional targets.
-  - 効果: Roll a dice for each target. On a 3+, that unit cannot use commands until the start of your next turn.
+- **計算された弾道(Calculated Trajectory)**（パッシブ）
+  - 効果: このユニットから12mvより遠く離れており、5体以上の兵を含む敵ユニットを対象とする場合、このユニットのレンジアタックはヒットロールに+1の修正を受ける。
+- **破滅的砲撃(Ruinous Bombardment)**（各ターンにつき1回（アーミー）、自軍側遠隔フェイズ）
+  - 宣言: このユニットがこのターン中に**『遠隔攻撃』**アビリティを使用しており、そのすべての攻撃が同一の敵ユニットを対象としていた場合、その敵ユニットを選択する。 その後、選択された敵ユニットの6mv以内に一部でも入っている敵ユニットを、このユニットが保持している**魔瘴力ポイント**の点数と等しい数まで追加で選択してもよい。
+  - 効果: 選択された各敵ユニットに対して、それぞれダイスを1個ロールする。ロール結果が3+であれば、次の自軍ターン開始時まで、ロール対象の敵ユニットは指揮アビリティを使用できない。
 
-**キーワード:** War Machine, Chaos, Helsmiths of Hashut
+**キーワード:** 戦闘兵器、渾沌の大同盟、ヘルスミス・オヴ・ハシュット（War Machine, Chaos, Helsmiths of Hashut）
 
 ---
 
-## Urak Taar, the First Daemonsmith
+## 筆頭魔瘴鍛治師ウラク・タール(Urak Taar, the First Daemonsmith)
 
 **ポイント:** 340pt / **モデル数:** 1 / **ベースサイズ:** 130mm
 
@@ -670,40 +670,40 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Ruinous Torrents | 18" | 6 | 4+ | 4+ | 1 | D3 | Crit (2 Hits), Shoot in Combat |
+| 破滅の奔流(Ruinous Torrents) | 18" | 6 | 4+ | 4+ | 1 | D3 | クリティカル（2ヒット）(Crit (2 Hits)), 近接射撃(Shoot in Combat) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Dumakaz | 4 | 4+ | 3+ | 1 | D3 | - |
-| Ghorrakos’s Horns and Hooves（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
+| ドゥマカズ(Dumakaz) | 4 | 4+ | 3+ | 1 | D3 | - |
+| ゴラコスの角と蹄(Ghorrakos’s Horns and Hooves)（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | 突撃（+1ダメージ量）(Charge (+1 Damage)), 随行者(Companion) |
 
 **アビリティ:**
 
-- **Battle Damaged**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of **Ghorrakos’s Horns and Hooves** is 4.
-- **The Curse of Stone**（Your Hero Phase / 詠唱/詠誦値 7） ［Spell］
-  - 宣言: Pick a point on the battlefield within 9" of this unit, then pick a second point on the battlefield within 9" of the first point. Draw a line between the caster and the first point, and between the first and second points. Each enemy unit the lines pass across is a target. Then, make a casting roll of 2D6.
-  - 効果: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
-- **Peerless Among Daemonsmiths**（Passive）
-  - 効果: Apply the effect below that corresponds with the number of **daemonic power points** (DPP) this unit has: **DPP - Effect** **1 -** This unit has **WARD (6+)**. **2 -** Add 1 to casting rolls for this unit. In addition, this unit has **WARD (5+)**. **3 -** Add 2 to casting rolls for this unit. In addition, this unit has **WARD (4+)** against damage inflicted by **SPELLS, PRAYERS** and abilities used by **MANIFESTATIONS**. Otherwise, it has **WARD (5+)**.
-- **Pitiless Trampling**（Once Per Turn (Army), Any Charge Phase） ［Rampage］
-  - 宣言: If this unit charged this phase, pick an enemy unit within 1" of it to be the target.
-  - 効果: Inflict D3 mortal damage on the target. Then, roll 2D6. This unit can move a distance up to the value of the roll. During that move, this unit can pass through models in the target unit but must end that move in combat.
-- **Master of Daemonic Power**（Enemy Hero Phase）
-  - 効果: Remove up to 3 **daemonic power points** in total from any combination of friendly units wholly within 18" of this unit. Then, allocate them to a different friendly non-**HOBGROT HELSMITHS OF HASHUT** unit wholly within 18" of this unit.
+- **バトルダメージ(Battle Damaged)**（パッシブ）
+  - 効果: このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**ゴラコスの角と蹄**の【攻撃回数】は4になる。
+- **石化の呪い(The Curse of Stone)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 7） ［呪文］
+  - 宣言: このユニットの9mv以内にある戦場の地点を、1つ目の地点として選択する。次に、その地点から9mv以内にある戦場の地点を、2つ目の地点として選択する。詠唱者から1つ目の地点、1つ目から2つ目の地点へと直線を引く。それらの直線が通り抜けた各敵ユニットを選択する。その後、2D6の詠唱ロールをする。
+  - 効果: 選択された各敵ユニットに対して、それぞれD3を1個ロールする。ロール結果が2+であれば、ロール対象の敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。
+- **並ぶ者なき魔瘴鍛治師(Peerless Among Daemonsmiths)**（パッシブ）
+  - 効果: 下記の効果から、このユニットが保持している**魔瘴力ポイント**（DPP）に対応する効果を適用する。 DPP 効果 1 このユニットは**加護（6+）**を持つ。 2 このユニットの詠唱ロールは+1の修正を受ける。さらに、このユニットは**加護（5+）**を持つ。 3 このユニットの詠唱ロールは+2の修正を受ける。さらに、このユニットは**呪文**や**奇蹟**からのダメージに対して、また**顕現**が使用するアビリティからのダメージに対して**加護（4+）**を持つ。それ以外の場合、このユニットは**加護（5+）**を持つ。
+- **無慈悲なる蹂躙(Pitiless Trampling)**（各ターンにつき1回（アーミー）、任意の突撃フェイズ） ［蹂躙］
+  - 宣言: このユニットがこのフェイズ中に突撃を実行している場合、自身の1mv以内に一部でも入っている敵ユニットを1個選択する。
+  - 効果: 選択された敵ユニットはD3ポイントの致命的ダメージを受ける。その後、2D6をロールする。このユニットはロール結果の数値までの距離を移動できる。その移動中、このユニットはその敵ユニット内にいる兵を通り抜けることができるが、近接戦闘に突入するように移動を完了しなければならない。
+- **魔瘴力の熟達者(Master of Daemonic Power)**（敵軍側ヒーローフェイズ）
+  - 効果: 合計で最大3点までの**魔瘴力ポイント**を、このユニットの18mv以内に全体が入っている任意の味方ユニットの組み合わせで取り除く。その後、取り除いた分の点数を、このユニットの18mv以内に全体が入っている、ホブグロットではない==別の==味方**ヘルスミス・オヴ・ハシュット**・ユニット1個に割り振る。
 
 **連隊オプション:**
 
 - Any *Hashutite Commander*
 - Any **HELSMITHS OF HASHUT**
 
-**キーワード:** Warmaster, Unique, Hero, Monster, War Machine, Wizard (2), Fly, Chaos, Helsmiths of Hashut, Duardin
+**キーワード:** 総大将、固有、英雄、大型獣、戦闘兵器、魔術師（2）、飛行、渾沌の大同盟、ヘルスミス・オヴ・ハシュット、ドゥアーディン（Warmaster, Unique, Hero, Monster, War Machine, Wizard (2), Fly, Chaos, Helsmiths of Hashut, Duardin）
 
 ---
 
-## War Despot
+## ウォーデスポット(War Despot)
 
 **ポイント:** 80pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -719,19 +719,19 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Daemonflame Glaive | 5 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
+| 魔炎の薙刀(Daemonflame Glaive) | 5 | 3+ | 3+ | 1 | 2 | クリティカル（致命的）(Crit (Mortal)) |
 
 **アビリティ:**
 
-- **'Fight, You Scum!"**（Reaction: You declared a FIGHT ability for this unit）
-  - 効果: Pick a friendly non-**HERO HELSMITHS OF HASHUT INFANTRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of its melee weapons for the rest of the turn.
-- **Black-hearted Conqueror**（Passive）
-  - 効果: Add 3 to the control scores of friendly **HELSMITHS OF HASHUT INFANTRY** units while they are wholly within 6" of this unit. Add 6" to the range of this ability for each **daemonic power point** this unit has.
+- **「戦え、この屑め！」('Fight, You Scum!")**（リアクション：このユニットが『近接攻撃』アビリティを宣言）
+  - 効果: このターン中に『**近接攻撃**』アビリティを使用しておらず、かつこのユニットの近接範囲内に一部でも入っている英雄ではない味方**ヘルスミス・オヴ・ハシュット・歩兵**・ユニットを1個選択する。このユニットが使用した『**近接攻撃**』アビリティを解決した直後に、選択された味方ユニットはただちに『**近接攻撃**』アビリティを使用できる。その味方ユニットが『近接攻撃』アビリティを使用した場合、そのターン中、その味方ユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。
+- **邪悪なる征服者(Black-hearted Conqueror)**（パッシブ）
+  - 効果: このユニットの6mv以内に全体が入っている味方**ヘルスミス・オヴ・ハシュット・歩兵**・ユニットの確保スコアは+3の修正を受ける。このユニットが保持している**魔瘴力ポイント**1点ごとに、その効果範囲は+6mvずつ拡大する。
 
 **連隊オプション:**
 
 - Any **HELSMITHS OF HASHUT**
 
-**キーワード:** Hero, Infantry, Chaos, Helsmiths of Hashut, Duardin
+**キーワード:** 英雄、歩兵、渾沌の大同盟、ヘルスミス・オヴ・ハシュット、ドゥアーディン（Hero, Infantry, Chaos, Helsmiths of Hashut, Duardin）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Hashutite Commander.*

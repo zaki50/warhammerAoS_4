@@ -1,4 +1,4 @@
-# Helsmiths of Hashut ファクションルール
+# ヘルスミス・オヴ・ハシュット(Helsmiths of Hashut) ファクションルール
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
@@ -6,147 +6,147 @@
 ## 戦闘特性
 
 
-### Helsmiths of Hashut Battle Traits（出典: Chaos Battletome: Helsmiths of Hashut）
+### 戦闘特性(Helsmiths of Hashut Battle Traits)（出典: Chaos Battletome: Helsmiths of Hashut）
 
-Helsmiths of Hashut armies can use the following abilities:
+ヘルスミス・オヴ・ハシュットは以下のアビリティを使用できる：
 
-- **Harness Daemonic Power**（Once Per Turn (Army), Start of Your Turn）
-  - 効果: You must use this ability at the start of each of your turns. Remove all **daemonic power points** from each friendly unit. Then, gain 1 **daemonic power point** for each friendly **desolation token** on the battlefield. Then, allocate your daemonic power points to friendly non-**HOBGROT HELSMITHS OF HASHUT** units. Each unit can have a maximum of 3 **daemonic power points**. Then, all unallocated **daemonic power points** are lost. **Designer’s Note:** *Non*-**HOBGROT** *units have abilities that become more powerful depending on how many daemonic power points they have. We recommend using coloured dice to track the number of points each unit has.*
-- **Reserves of Daemonic Power**（Once Per Turn (Army), Any Hero Phase / CP 1）
-  - 宣言: Pick a friendly non-**HOBGROT HELSMITHS OF HASHUT** unit that has no **daemonic power points** to be the target.
-  - 効果: Give 2 **daemonic power points** to the target.
-- **Leave the Land in Ruin**（Once Per Turn (Army), Start of Any Turn）
-  - 宣言: Pick a terrain feature or objective that does not have a friendly **desolation token** and is contested by a friendly **HELSMITHS OF HASHUT** unit that is not in combat to be the target.
-  - 効果: Give the target a **desolation token**.
+- **魔瘴力の活用(Harness Daemonic Power)**（各ターンにつき1回（アーミー）、自軍側ターン開始時）
+  - 効果: 自軍は、各自軍側ターン開始時にこのアビリティを使用しなければならない。各味方ユニットから、**魔瘴力ポイント**をすべて取り除く。その後、戦場に存在する味方**荒廃トークン**1個ごとに、**魔瘴力ポイント**を1点ずつ獲得する。 その後、自軍の**魔瘴力ポイント**を**ホブグロット**ではない味方**ヘルスミス・オヴ・ハシュット**・ユニットに割り振る。各ユニットは、最大3点までの**魔瘴力ポイント**を保持することができる。割り振らなかった**魔瘴力ポイント**は失われる。 デザイナーズノート：**ホブグロット**ではないユニットは、保持している魔瘴力ポイントの多さによって効果が高まるアビリティを有している。色付きのダイスを使用して、各ユニットがどれだけのポイントを保持しているのか分かりやすくすることを推奨する。
+- **魔瘴力の貯蓄(Reserves of Daemonic Power)**（各ターンにつき1回（アーミー）、任意のヒーローフェイズ / CP 1）
+  - 宣言: **ホブグロット**ではなく、かつ**魔瘴力ポイント**を保持していない味方**ヘルスミス・オヴ・ハシュット**・ユニットを1個選択する。
+  - 効果: 選択された味方ユニットに**魔瘴力ポイント**を2点与える。
+- **荒廃の土地を後に(Leave the Land in Ruin)**（各ターンにつき1回（アーミー）、任意のターン開始時）
+  - 宣言: 近接戦闘中ではない味方**ヘルスミス・オヴ・ハシュット**・ユニットが争奪中である、味方**荒廃トークン**を有していない特殊地形または作戦目標を1個選択する。
+  - 効果: その特殊地形あるいは作戦目標に**荒廃トークン**を1個与える。
 
 ## 戦闘陣形
 
 
-### Castigation Battery
+### 排撃の砲列(Castigation Battery)
 
-- **Experimental Munitions**（Passive）
-  - 効果: Ranged weapons used by friendly **HELSMITHS OF HASHUT** units have **Crit (2 Hits)** while they have 2 or more **daemonic power points.**
+- **試作弾薬(Experimental Munitions)**（パッシブ）
+  - 効果: 味方**ヘルスミス・オヴ・ハシュット**・ユニットが2点以上の**魔瘴力ポイント**を保持している間、その味方ユニット==が使用する遠隔武器==は**クリティカル（2ヒット）**を得る。
 
-### Daemonsmith Cabal
+### 魔瘴鍛治師結社(Daemonsmith Cabal)
 
-- **Arcane Dominance**（Passive）
-  - 効果: Add 1 to casting rolls, chanting rolls, unbinding rolls, and banishment rolls for friendly **HELSMITHS OF HASHUT WIZARDS** and **PRIESTS** while they are wholly within 12" of another friendly **HELSMITHS OF HASHUT WIZARD** or **PRIEST** with 1 or more **daemonic power points**.
+- **超常の支配(Arcane Dominance)**（パッシブ）
+  - 効果: 味方**ヘルスミス・オヴ・ハシュット・魔術師**や**神官**が1点以上の**魔瘴力ポイント**を保持している別の味方**ヘルスミス・オヴ・ハシュット・魔術師**や**神官**の味方ユニットの12mv以内に~~一部でも~~==全体が==入っている場合、その味方ユニットの詠唱ロール、打ち消しロール、追放ロール、祈願ロールは+1の修正を受ける。
 
-### Domination Force
+### 殲滅軍(Domination Force)
 
-- **Dominion Hexes**（Passive）
-  - 効果: Double the Health characteristic of friendly non-**HOBGROT HELSMITHS OF HASHUT** units for the purposes of the ‘Power Through’ command. **Designer’s Note:** *The effect of this ability applies both when you use ‘Power Through’ and when your opponent uses ‘Power Through’.*
+- **支配の魔導紋(Dominion Hexes)**（パッシブ）
+  - 効果: 『強行突破』指揮アビリティにおいて、ホブグロットでない味方**ヘルスミス・オヴ・ハシュット**・ユニットの【体力】は2倍になる。 デザイナーズ・ノート：このアビリティの効果は、自軍側や敵軍側が『強行突破』を使用したときに適用される。
 
-### Hashutite Host
+### ハシュット信徒の軍勢(Hashutite Host)
 
-- **Amassed Legions**（Passive）
-  - 効果: Each time a friendly **HELSMITHS OF HASHUT** unit within the combat range of a friendly **HELSMITHS OF HASHUT INFANTRY** unit with 1 or more **daemonic power** **points** uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.
+- **召集兵団(Amassed Legions)**（パッシブ）
+  - 効果: ~~味方**ヘルスミス・オヴ・ハシュット・歩兵**・ユニットの近接範囲内に一部でも入っており、かつ1点以上の**魔瘴力ポイント**を持つ味方**ヘルスミス・オヴ・ハシュット**が~~==1点以上の魔瘴力ポイントを持つ味方ヘルスミス・オヴ・ハシュット・歩兵・ユニットの近接範囲内に一部でも入っている味方ヘルスミス・オヴ・ハシュット・ユニットが==『再集結』指揮アビリティを使用する際、D6の再集結ロールを追加で3回実行できる。
 
-### Industrial Polluters
+### 黒煙の錬金卿(Industrial Polluters)
 
-- **Smog and Smoke**（Passive）
-  - 効果: Subtract 1 from hit rolls for shooting attacks that target friendly **HELSMITHS OF HASHUT INFANTRY** or **CAVALRY** units while they are wholly within 9" of a friendly **HELSMITHS OF HASHUT WAR MACHINE.**
+- **吐き出される煙霧(Smog and Smoke)**（パッシブ）
+  - 効果: 味方**ヘルスミス・オヴ・ハシュット・戦闘兵器の9mv以内に全体が入っている味方ヘルスミス・オヴ・ハシュット・歩兵**や**騎兵**を対象とするレンジアタックは、ヒットロールに-1の修正を受ける。
 
-### The Bullfather's Horns
+### 父なる雄牛神の角(The Bullfather's Horns)
 
-- **Bulls of the Ziggurat**（Passive）
-  - 効果: Add 1" to the Move characteristic of friendly **HELSMITHS OF HASHUT** units for each **daemonic power point** that unit has.
+- **ジッグラトの雄牛(Bulls of the Ziggurat)**（パッシブ）
+  - 効果: 味方**ヘルスミス・オヴ・ハシュット**・ユニットが持つ1**魔瘴力ポイント**ごとに、その味方ユニットは【移動力】に+1mvの修正を受ける。
 
 ## 英雄特性
 
 
-### Tyrants and Overseers（出典: Chaos Battletome: Helsmiths of Hashut）
+### 圧制者と監督者(Tyrants and Overseers)（出典: Chaos Battletome: Helsmiths of Hashut）
 
-**HERO** only
+（**英雄**のみ）
 
-- **Servile Automaton**（Deployment Phase）
-  - 宣言: Pick a friendly **HELSMITHS OF HASHUT AUTOMATON** unit within this unit’s combat range to be the target.
-  - 効果: For the rest of the battle, the target is this unit’s bodyguard and the following effects apply: •  While this unit is in combat and its bodyguard is within its combat range, its bodyguard has **STRIKE-FIRST**. •  If this unit is **INFANTRY**, it has **WARD (5+)** while its bodyguard is within its combat range.
-- **'Fire, You Worms!'**（Enemy Charge Phase）
-  - 宣言: Pick a friendly **HELSMITHS OF HASHUT INFANTRY** unit that is not in combat and is wholly within 12" of this unit to be the target.
-  - 効果: The target can immediately use the ‘Shoot’ ability as if it were your shooting phase. All attacks must target the same enemy unit, and the enemy unit picked to be the target of the attacks must have charged this phase. If the unmodified hit roll for any of those attacks is 1-5, the attack fails and the attack sequence ends.
-- **An Eye for Weakness**（Your Hero Phase）
-  - 宣言: Pick a visible enemy unit within 18" of this unit to be the target.
-  - 効果: Until the start of your next turn, add 1 to wound rolls for combat attacks made by friendly **HELSMITHS OF HASHUT** units that target that enemy unit.
+- **従属する自動兵器(Servile Automaton)**（初期配置フェイズ）
+  - 宣言: このユニットの近接範囲内に一部でも入っている味方**ヘルスミス・オヴ・ハシュット・オートマトン**・ユニットを1個選択する。
+  - 効果: 以降バトル終了時まで、選択された味方ユニットはこのユニットの護衛兵となり、以下の効果が適用される： • このユニットが近接戦闘中であり、かつ護衛兵がこのユニットの近接範囲内に一部でも入っている場合、その護衛兵は**『先手効果』**を得る。 • このユニットが**歩兵**であり、かつ護衛兵がこのユニットの近接範囲内に一部でも入っているならば、このユニットは**加護（5+）**を持つ。
+- **「撃て、屑どもめ！」('Fire, You Worms!')**（敵軍側突撃フェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っており、かつ近接戦闘中ではない味方**ヘルスミス・オヴ・ハシュット・歩兵**・ユニットを1個選択する。
+  - 効果: 選択された味方ユニットは、あたかも自軍側遠隔フェイズ中であるかのように、ただちに『遠隔攻撃』アビリティを使用できる。それらのすべての攻撃は同一の敵ユニットを対象としなければならず、攻撃の対象として選択された敵ユニットは、このフェイズ中に突撃を実行していなければならない。それらの攻撃のヒットロールにおいて修正前の出目1-5が出たならば、攻撃は失敗し、攻撃手順はそこで終了する。
+- **弱点を見抜く目(An Eye for Weakness)**（自軍側ヒーローフェイズ）
+  - 宣言: このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。
+  - 効果: 次の自軍側ターン開始時まで、選択された敵ユニットを対象にする味方**ヘルスミス・オヴ・ハシュット**・ユニットのメレーアタックは、ウーンズロールに+1の修正を受ける。
 
 ## 神器
 
 
-### Dark Gifts of Hashut（出典: Chaos Battletome: Helsmiths of Hashut）
+### ハシュットの昏き恩寵(Dark Gifts of Hashut)（出典: Chaos Battletome: Helsmiths of Hashut）
 
-**HERO** only
+（**英雄**のみ）
 
-- **Scroll of Petrification**（Once Per Battle, Any Hero Phase）
-  - 宣言: Pick a friendly **HELSMITHS OF HASHUT** unit wholly within 12" of this unit to be the target.
-  - 効果: For the rest of the turn: •  The target has **WARD (2+)**. •  The target cannot use non-passive abilities or be picked to be the target of friendly abilities. •  Enemy units can ignore the target’s combat range for the purposes of movement and charging. • Enemy units can ignore the target for the purposes of setting up on the battlefield but cannot be set up on the target.
-- **Crucible of Spite**（Once Per Battle, Your Hero Phase）
-  - 効果: Give up to 3 **daemonic power points** to this unit. However, you cannot allocate or give any more **daemonic power points** to this unit for the rest of the battle.
-- **Gauntlets of Punishment**（Your Shooting Phase）
-  - 宣言: Pick a visible enemy unit within 12" of this unit to be the target.
-  - 効果: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
+- **石化の巻物(Scroll of Petrification)**（バトル中1回限り、任意のヒーローフェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っている味方**ヘルスミス・オヴ・ハシュット**・ユニットを1個選択する。
+  - 効果: そのターン中、 • その味方ユニットは**加護（2+）**を持つ。 • その味方ユニットは『パッシブ』以外のアビリティを使用できず、味方によるアビリティの対象として選択することもできない。 • 移動と突撃のルール上、敵ユニットはその味方ユニットの近接範囲を無視できる。 • 戦場に配置するルール上、敵ユニットはその味方ユニットを無視できる。ただし、その味方ユニットと同じ場所に配置することはできない。
+- **憎悪の坩堝(Crucible of Spite)**（バトル中1回限り、自軍側ヒーローフェイズ）
+  - 効果: このユニットに最大3点までの**魔瘴力ポイント**を与えてもよい。ただし、このバトル中、自軍はこれ以降このユニットに一切の**魔瘴力ポイント**を==割り振ったり==与え==たりす==ることができなくなる。
+- **懲罰の籠手(Gauntlets of Punishment)**（自軍側遠隔フェイズ）
+  - 宣言: このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。
+  - 効果: D3を1個ロールする。ロール結果が2+であれば、選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。
 
-### Dark Gifts of Hashut（出典: Scourge of Aqshy: Helsmiths of Hashut）
+### ハシュットの昏き恩寵(Dark Gifts of Hashut)（出典: Scourge of Aqshy: Helsmiths of Hashut）
 
-**HERO** only
+（**英雄**のみ）
 
-- **Gem of Utorak**（Once Per Battle, Your Hero Phase）
-  - 効果: If this unit is not a **WIZARD**, it has **WIZARD (2)** until the start of your next turn. If this unit is a **WIZARD**, until the start of your next turn: • Add 1 to this unit’s power level. • Add D3 to casting rolls for this unit.
-- **Casque of Belittlement**（Any Combat Phase）
-  - 宣言: Pick an enemy unit in combat with this unit to be the target.
-  - 効果: Roll a number of dice equal to your **fury level**. If this unit charged this turn, add 1 to each roll. For each 3+, inflict 1 mortal damage on the target.
-- **Horn of the Bullfather**（Deployment Phase）
-  - 宣言: Pick a visible friendly **HELSMITHS OF HASHUT** unit to be the target. Then, you can pick a visible friendly **Hobgrot Vandalz** unit to be a second target.
-  - 効果: Remove each target from the battlefield and set them up again wholly within 7" of the battlefield edge and more than 9" from all enemy units.
+- **ウトラクの宝石(Gem of Utorak)**（バトル中1回限り、自軍側ヒーローフェイズ）
+  - 効果: このユニットが**魔術師**でない場合、次の自軍側ターン開始時まで**魔術師（2）**を得る。 このユニットが**魔術師**であれば、次の自軍側ターン開始時まで： • このユニットのパワーレベルは+1の修正を受ける。 • 詠唱ロールは+D3の修正を受ける。
+- **侮蔑の兜(Casque of Belittlement)**（任意の近接フェイズ）
+  - 宣言: このユニットと近接戦闘中の敵ユニットを1個~~を~~選び、対象とする。
+  - 効果: 自軍側の**憤激レベル**に等しい数のダイスをロールする。このユニットがこのターン中に突撃を実行していた場合、ロール結果は+1の修正を受ける。ロール結果で3+が出るたびに、選択された敵ユニットは1ポイントの致命的ダメージを受ける。
+- **父なる雄牛神の角笛(Horn of the Bullfather)**（初期配置フェイズ）
+  - 宣言: このユニットから視認状態である味方**ヘルスミス・オヴ・ハシュット**・ユニットを1個選択する。その後、このユニットから視認状態である味方**ホブグロット・ヴァンダル**・ユニット1個をさらに選択できる。
+  - 効果: 選択された味方ユニットを戦場から取り除き、戦場端から7mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた戦場の位置に再配置する。
 
 ## その他の強化
 
 
-### Accursed Devices（出典: Scourge of Ghyran: Helsmiths of Hashut）
+### 破滅呪の装置(Accursed Devices)（出典: Scourge of Ghyran: Helsmiths of Hashut）
 
-Accursed Devices are a special type of enhancement for **WAR MACHINES**. During army composition, when you add enhancements, you can pick 1 Accursed Device and give it to a **WAR MACHINE** on your army roster.
+『破滅呪の装置』は**ヘルスミス・オヴ・ハシュット・戦闘兵器**・ユニットに付与できる固有強化である。 1個のユニットは、『破滅呪の装置』を1個だけ持つことができる。
 
-- **Greed Pistons**（Passive）
-  - 効果: When making charge rolls for this unit, add 1 to the number of dice rolled, to a maximum of 3, then remove 1 dice of your choice and use the remaining dice as the charge roll.
-- **Overdrive Switch**（Once Per Turn (Army), Reaction: You declared an **ATTACK** ability for this unit）
-  - 効果: For the rest of the phase: • Add 1 to hit rolls for this unit’s attacks, including those made with **Companion** weapons, that target an enemy unit within 9" of it. • Each time an unmodified hit roll for an attack made by this unit is 1, allocate 1 damage point to this unit after the **ATTACK** ability has been resolved (ward rolls cannot be made for those damage points).
-- **Breath of Contempt**（End of Any Turn）
-  - 宣言: Pick up to 3 enemy units in combat with this unit to be the targets.
-  - 効果: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
+- **貪欲なピストン装置(Greed Pistons)**（パッシブ）
+  - 効果: このユニットが突撃ロールをするとき、使用する突撃ロールのダイス個数は1個増加する（ダイス個数は最大3個まで）。突撃ロール後、任意のダイス1個を取り除いた残りのダイスを突撃ロールに用いる。
+- **増速駆動スイッチ(Overdrive Switch)**（各ターンにつき1回（アーミー）、リアクション：このユニットが『アタック』アビリティを宣言）
+  - 効果: このフェイズ中、 • 自身の9mv以内に一部でも入っている敵ユニットを対象とするこのユニットの攻撃（**随行者**武器を含む）は、ヒットロールに+1の修正を受ける。 • このユニットによる攻撃のヒットロールで修正前の出目1が出るたび、その**『アタック』**アビリティが解決された直後に、このユニットに1ポイントのダメージを割り振る（このダメージに対して加護ロールはできない）。
+- **蔑みの内燃圧縮機(Breath of Contempt)**（任意のターン終了時）
+  - 宣言: このユニットと近接戦闘中である敵ユニットを最大3個まで選択する。
+  - 効果: 選択された各敵ユニットに対して、それぞれD3を1個ロールする。ロール結果が2+であれば、ロール対象の敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。
 
-### Accursed Devices（出典: Scourge of Aqshy: Helsmiths of Hashut）
+### 破滅呪の装置(Accursed Devices)（出典: Scourge of Aqshy: Helsmiths of Hashut）
 
-Accursed Devices are unique enhancements that can be given to **HELSMITHS OF HASHUT WAR MACHINES**. A unit can only have 1 Accursed Device.
+『破滅呪の装置』は**ヘルスミス・オヴ・ハシュット・戦闘兵器**・ユニットに付与できる固有強化である。 1個のユニットは、『破滅呪の装置』を1個だけ持つことができる。
 
-- **Infernal Motivators**（Passive / 20pt）
-  - 効果: Add 2" to this unit’s Move characteristic.
-- **Earthwrack Stabilisers**（Passive / 10pt）
-  - 効果: Add 1 to the Rend characteristic of this unit’s melee weapons if it has not charged in the same turn.
-- **Bullfather's Scorn**（Your Shooting Phase / 10pt）
-  - 効果: You can spend 1 **rage dice**. If you do: • Apply the effect below. • If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Otherwise, roll a dice. On a 3+, apply the effect below. This unit’s ranged weapons have **Crit (2 Hits)** until the start of your next turn. If each of this unit’s ranged weapons already have **Crit (2 Hits)**, this unit’s shooting attacks score critical hits on unmodified hit rolls of 5+ until the start of your next turn instead.
+- **地獄の駆動装置(Infernal Motivators)**（パッシブ / 20pt）
+  - 効果: このユニットの【移動力】は+2mvの修正を受ける。
+- **~~台地固定~~==大地固定==スタビライザー(Earthwrack Stabilisers)**（パッシブ / 10pt）
+  - 効果: このユニットが現在のターン中に突撃を実行していない場合、このユニットの近接武器の【貫通値】は+1の修正を受ける。
+- **父なる~~牡~~==雄==牛神の侮蔑(Bullfather's Scorn)**（自軍側遠隔フェイズ / 10pt）
+  - 効果: **憤激ダイス**を1個消費してもよい。その場合： • 以下の効果を適用する。 • 敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで） それ以外の場合、ダイスを1個ロールする。ロール結果が3+の場合、以下の効果を適用する。 次の自軍側ターン開始時まで、このユニットの遠隔武器は**クリティカル（2ヒット）**を得る。このユニットの装備している遠隔武器がす==べてす==でに**クリティカル（2ヒット）**を有する場合、次の自軍側ターン開始時まで、~~その遠隔武器は、~~==このユニットのレンジアタックは、==ヒットロールの修正前の出目5+でクリティカルヒットする。
 
 ## 伝承（呪文・奇蹟・顕現）
 
 
-### Lore of Infernal Power
+### 煉獄の呪文伝承(Lore of Infernal Power)
 
-- **Hateful Fractures**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: Pick a friendly **HELSMITHS OF HASHUT WIZARD** to cast this spell, pick a visible enemy unit within 18" of them to be the target, then make a casting roll of 2D6.
-  - 効果: Halve the target’s Move characteristic until the start of your next turn.
-- **Ashen Smog**（Your Hero Phase / 詠唱/詠誦値 7）
-  - 宣言: Pick a friendly **HELSMITHS OF HASHUT WIZARD** to cast this spell, pick a visible terrain feature within 18" of them that has a friendly **desolation token** to be the target, then make a casting roll of 2D6.
-  - 効果: That terrain feature has the ‘Obscuring’ ability (Terrain, 1.2) until the start of your next turn. Then, roll a D3 for each enemy unit contesting the target terrain feature. On a 2+, inflict an amount of damage equal to the roll on that unit.
-- **Molten Metal**（Your Hero Phase / 詠唱/詠誦値 8）
-  - 宣言: Pick a friendly **HELSMITHS OF HASHUT WIZARD** to cast this spell, pick a visible enemy unit within 18" of them to be the target, then make a casting roll of 2D6.
-  - 効果: Roll a number of dice equal to the unmodified casting roll. Inflict 1 mortal damage on the target for each roll that equals or exceeds the target’s Save characteristic.
+- **憎悪の断裂(Hateful Fractures)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: この呪文を詠唱する際に、味方**ヘルスミス・オヴ・ハシュット・魔術師**を1体選択する。その後、選択された魔術師の18mv以内に一部でも入っており、かつその魔術師から視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、選択された敵ユニットの【移動力】は半減する。
+- **灰の煙霧(Ashen Smog)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 7）
+  - 宣言: この呪文を詠唱する際に、味方**ヘルスミス・オヴ・ハシュット・魔術師**を~~１対~~==1体==選択する。その後、選択された魔術師の18mv以内に一部でも入っており、かつその魔術師から視認状態である味方**荒廃トークン**が配置されている特殊地形を1個選択し、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、その特殊地形は『射線妨害』アビリティ（特殊地形、1.2）を得る。その後、その特殊地形を争奪している各敵ユニットに対し、それぞれD3を1個ロールする。ロール結果が2+であれば、ロール対象の敵ユニットは、ロール結果に等しい数のダメージを受ける。
+- **熔解金属(Molten Metal)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 8）
+  - 宣言: この呪文を詠唱する際に、味方**ヘルスミス・オヴ・ハシュット・魔術師**を1体選択する。その後、選択された魔術師の18mv以内に一部でも入っており、かつその魔術師から視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: 修正前の詠唱ロールに等しい個数のダイスをロールする。その敵ユニットの【防御力】以上のロール結果が出るごとに、その敵ユニットは1ポイントの致命的ダメージを受ける。
 
-### Prayers of the Scorched Sect
+### 焼尽の修道会の奇蹟伝承(Prayers of the Scorched Sect)
 
-- **Black Flames of Hashut**（Your Hero Phase / 詠唱/詠誦値 4）
-  - 宣言: Pick a friendly **HELSMITHS OF HASHUT PRIEST** to chant this prayer, pick a visible enemy unit within 12" of them to be the target, then make a chanting roll of D6.
-  - 効果: Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target. If the chanting roll was 8+, inflict 1 mortal damage on the target for each 4+ instead.
-- **Furnace Blessing**（Your Hero Phase / 詠唱/詠誦値 4）
-  - 宣言: Pick a friendly **HELSMITHS OF HASHUT PRIEST** to chant this prayer, pick a visible friendly **HELSMITHS OF HASHUT** unit wholly within 12" of them to be the target, then make a chanting roll of D6.
-  - 効果: Add 1 to the Rend characteristic of the target’s melee weapons for the rest of the turn. If the chanting roll was 8+, that unit’s melee weapons also have **Crit (Mortal)** for the rest of the turn.
-- **Storm of Obsidian Shards**（Your Hero Phase / 詠唱/詠誦値 5）
-  - 宣言: Pick a friendly **HELSMITHS OF HASHUT PRIEST** to chant this prayer, pick a visible enemy unit within 18" of them to be the target, then make a chanting roll of D6.
-  - 効果: Inflict D3 mortal damage on the target and subtract 3 from the target’s control score for the rest of the turn. If the chanting roll was 10+, you can pick another eligible unit to be a second target.
+- **ハシュットの黒炎(Black Flames of Hashut)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 4）
+  - 宣言: この奇蹟を祈願する際に、味方**ヘルスミス・オヴ・ハシュット・神官**を1体選択する。その後、選択された神官の12mv以内に一部でも入っており、かつその神官から視認状態である敵ユニットを1個選択し、D6の祈願ロールをする。
+  - 効果: 選択された敵ユニット内にいる兵の数と等しい個数のダイスをロールする。ロール結果で5+が出るたびに、その敵ユニットに1ポイントの致命的ダメージを与える。祈願ロールが8+であった場合、代わりにロール結果で4+が出るたびに、その敵ユニットに1ポイントの致命的ダメージを与える。
+- **炉の祝福(Furnace Blessing)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 4）
+  - 宣言: この奇蹟を祈願する際に、味方**ヘルスミス・オヴ・ハシュット・神官**を1体選択する。その後、選択された味方神官の12mv以内に全体が入っており、かつその神官から視認状態である味方**ヘルスミス・オヴ・ハシュット**・ユニットを1個選択し、D6の祈願ロールをする。
+  - 効果: そのターン中、選択された味方ユニットの近接武器は【貫通値】に+1の修正を受ける。さらに、祈願ロールが8+であった場合、その味方ユニットの近接武器は、そのターン中**クリティカル（致命的）**を得る。
+- **黒曜石片の嵐(Storm of Obsidian Shards)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 5）
+  - 宣言: この奇蹟を祈願する際に、味方**ヘルスミス・オヴ・ハシュット・神官**を1体選択する。その後、選択された神官の18mv以内に一部でも入っており、かつその神官から視認状態である敵ユニットを1個選択し、D6の祈願ロールをする。
+  - 効果: 選択された敵ユニットは、D3ポイントの致命的ダメージを受ける。そのターン中、その敵ユニットの確保スコアは-3の修正を受ける。祈願ロールが10+であった場合、自軍は冒頭の条件を満たす別の敵ユニットをさらに1個選択してもよい。

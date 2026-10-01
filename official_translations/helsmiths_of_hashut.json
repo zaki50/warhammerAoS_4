@@ -1,0 +1,729 @@
+{
+ "_faction": "ヘルスミス・オヴ・ハシュット (Helsmiths of Hashut)",
+ "_source": [
+  "バトルトーム：ヘルスミス・オヴ・ハシュット 日本語版 pp.46-53（Dropbox: BattleTombPages/HelsmithsOfHashut/_046〜_053_ArmyRules.png のスキャン）",
+  "バトルトーム：ヘルスミス・オヴ・ハシュット 日本語版 pp.54-60（ウォースクロール前半。Dropbox: BattleTombPages/HelsmithsOfHashut/HelsmithsOfHashut_054〜060_Warscrolls.png のスキャン）",
+  "バトルトーム：ヘルスミス・オヴ・ハシュット 日本語版 pp.61–67（Dropbox: BattleTombPages/HelsmithsOfHashut のスキャン）。p.61・p.63 は設定文と写真のみで訳の対象なし。p.62 ブル・ケンタウロス／アノインテッド・センチネル、p.64 デスシュリーカー・ロケットバッテリー、p.65 トーメンター・ボンバード、p.66 ドミネイター・エンジン（破滅のメイス装備）、p.67 ドミネイター・エンジン（焦熱砲装備）",
+  "バトルトーム：ヘルスミス・オヴ・ハシュット 日本語版 pp.68-75（スピアヘッド「煉獄炉の軍団」、Dropbox: BattleTombPages/HelsmithsOfHashut のスキャン）",
+  "スピアヘッド ヘルスミス・オヴ・ハシュット 煉獄炉の軍団 2026年4月（日本語版・英語版 PDF。書籍より新しく、現行の英語 md と一致する版）",
+  "スピアヘッド 同 2025年9月（old/。書籍と同じ旧ルールであることの確認のみ）",
+  "名前の照合用に書籍 pp.56・60・65・67（通常版ウォースクロール）",
+  "グューランの禍事 ヘルスミス・オブ・ハシュット 2025年11月（PDF 2頁。p.1 戦闘陣形・破滅呪の装置、p.2 ウォースクロール 2件）＋同英語版",
+  "アキュシーの禍事 ヘルスミス・オヴ・ハシュット 2026年7月（PDF 3頁。p.1 大いなる神器・破滅呪の装置、p.2-3 ウォースクロール 2件）＋同英語版",
+  "レジェンド・ウォースクロール 2026年7月 p.50（雄牛の血）＋同英語版。レジェンドのコンペンディウム 2026年4月には雄牛の血は無い",
+  "バトルプロフィール ヘルスミス・オヴ・ハシュット 2025年9月（1頁）＋同英語版（_crosscheck のみ）",
+  "名高き連隊 ヘルスミス・オブ・ハシュット 2025年9月（対象外）",
+  "ルール・アップデート 2026年9月 pp.49-50 ＋同英語版 pp.49-50、ルール・アップデート 2026年9月 p.87（ヘルスミス・オヴ・ハシュット（日本語版）エラッタ）。2026年7月・8月とルール・アップデート・エラッタ 2026年4月・6月は同じ内容（9月で戦闘陣形 4件が新規に追加）"
+ ],
+ "_notes": [
+  "戦闘陣形は書籍に 4 件（Hashutite Host / Castigation Battery / The Bullfather's Horns / Daemonsmith Cabal）しか無い。Domination Force（Dominion Hexes）と Industrial Polluters（Smog and Smoke）は書籍に無く、名前・本文とも未訳（_unread）。",
+  "書籍の Reserves of Daemonic Power の効果と、戦闘陣形 4 件（Amassed Legions / Experimental Munitions / Bulls of the Ziggurat / Arcane Dominance）の効果は、現行の英語と条件・数値がまったく違う旧版のルール（現行: Reserves は対象に 2 点与える。Amassed Legions は「1点以上持つ味方歩兵の近接範囲内のユニットが Rally」、Experimental Munitions は 2 点以上で Crit (2 Hits)、Bulls of the Ziggurat は全 HoH ユニットが 1 点につき移動力 +1\"、Arcane Dominance は「1点以上持つ別の魔術師/神官の 12\" 以内に全体」）。README の方針（現行とルールが違いエラッタも無いものは載せない）に従い、名前と timing／宣言だけ ability_texts に入れ、書籍の効果文は _outdated_texts に書籍どおり残した。Reserves の宣言は現行と一致。日本語のルール・アップデートがあれば差し替えたい。",
+  "Reserves of Daemonic Power: 書籍は効果欄が 2 つ（「効果：…3点以下…2点」「効果：…4点以上…1点」）。",
+  "Harness Daemonic Power: デザイナーズノートの「各ユニットがどれだけの」の「ど」にスキャン上インクの染みがかかっていて読めないが、文脈から「どれだけ」とした。",
+  "Ashen Smog（灰の煙霧）: 宣言の途中（「…18mv以内に一部でも入っており、」の後ろから「荒廃トークンを有する特殊地形を1個選択し…」の前まで、約 1.5 行）が黒く塗りつぶされていて読めない。宣言は載せず（英語のまま）、_unread に挙げた。塗られていない部分: 「この呪文を詠唱する際に、味方**ヘルスミス・オヴ・ハシュット**・魔術師を1体選択する。その後、選択された魔術師の18mv以内に一部でも入っており、■■■ **荒廃トークン**を有する特殊地形を1個選択し、2D6の詠唱ロールをする。」（この箇所は「魔術師」が太字になっていない）",
+  "'Fire, You Worms!' のアビリティ名は書籍どおり鉤括弧付きの「「撃て、屑どもめ！」」（英語の引用符に対応）。",
+  "Dark Gifts of Hashut の group_names / group_texts は書籍（Chaos Battletome 出典）から。アキュシーの禍事版の同名グループにも同じキーで当たる（前置き文はどちらも HERO only）。",
+  "keyword_names は本文中の太字キーワードから（英雄・歩兵・騎兵・戦闘兵器・大型獣・オートマトン・ホブグロット・ヘルスミス・オヴ・ハシュット）。魔術師（1）/神官（1）など数値付きはウォースクロールのキーワード欄で確認すること（本文では「魔術師」「神官」）。Duardin は本文に出ない（p.46-47 の説明文で「ザールドロン」がユニット区分名として使われているが、キーワードとしての対応は未確認）。",
+  "書籍のルビ（訳には載せていない）: 父なる雄牛神（ブルファーザー）、魔瘴鍛治師結社（ディーモンスミス・カバル）、昏き（くら）、坩堝（るつぼ）。p.47 にスピアヘッド「煉獄炉の軍団」（ルビ ヘルフォージ・ホスト）の表記がある（Helforge Host、スピアヘッド担当分なのでここには入れていない）。",
+  "半角数字・記号と全角文字の間の組版上の隙間は詰めた（例「12mv」「1個」）。書籍の「・」の箇条書きは「• 」にした。",
+  "対象: pp.54-60 のウォースクロール 10 件（Urak Taar / Daemonsmith on Infernal Taurus / War Despot / Daemonsmith / Ashen Elder / Infernal Razers 2 種 / Hobgrotz Vandalz / Infernal Cohort 2 種）。p.56 左・p.59 右は設定文（訳の対象外）。ページ上部の黄色い付箋（ポイント）は無視した。",
+  "Urak Taar, the First Daemonsmith: 書籍は表題「ウラク・タール」、その下に小見出し「筆頭魔瘴鍛治師」。英語名がサブネーム込みなので、DoK の「老婆の預言者クレトゥサ」(Krethusa the Croneseer) にならい「筆頭魔瘴鍛治師ウラク・タール」とした（親の判断で「ウラク・タール」だけにしてもよい）。",
+  "サブタイトルつきのユニット（インファーナル・タウルス騎乗 / ブランダーバス装備 / フレイムハーラー装備 / ハシュット信徒の刃装備 / ハシュット信徒の槍装備）は、DoK の「ハグクィーン（コルドロン・オヴ・ブラッド搭乗）」にならい表題の後に全角括弧で付けた。",
+  "DPP 表（Peerless Among Daemonsmiths / Daemonic Resilience）は書籍の表組みを「DPP 効果」の見出し行＋「1 …」「2 …」「3 …」の行（\\n 区切り）で書いた。",
+  "Daemonic Resilience（魔の頑健性）は Taurus 版とコホート版で句読点・太字が微妙に違う（Taurus 版は「…ダメージに対して、加護（4+）を持つ」と読点あり。コホート版は末尾の「加護（5+）を持つ。」全体が太字に見える）ので、ユニット指定キーで書籍どおり別々に書いた。ability_names は同名同訳なので名前だけのキー。",
+  "Battle Damaged（バトルダメージ）・Manglers of Metal（鋼の破壊者）・Sacred Gongs（聖なる銅鑼）も同名同訳なので ability_names は名前だけ、本文はユニット指定キー。",
+  "'Fight, You Scum!\"（英語キーは dump の表記どおり ' と \" が混在）: 書籍のアビリティ名は「「戦え、この屑め！」」とカギ括弧込み。カギ括弧ごと載せた。",
+  "keyword_names は各ウォースクロール下部のキーワード欄から。Chaos は書籍で「渾沌の大同盟」（DoK の Order→秩序の大同盟 と同じ形）。括弧は全角に揃えた。",
+  "weapon_ability_names: 対歩兵/対騎兵/対突撃 の「歩兵」「騎兵」「突撃」は書籍で太字に見えるが、DoK の「対英雄（+1貫通値）」にならい太字なしにした。書籍は「(+1 貫通値)」と字間が空いているが詰めた。",
+  "書籍のルビ（訳には載せていない）: 魔瘴鍛治師（ディーモンスミス）、大口径銃（ブランダーバス）、灰の者（アシェン）・長老衆（エルダー）、破壊兵（レイザー）、煉獄歩兵部隊（インファーナル・コホート）。いずれも設定文・フレーバー文中で、ルール本文には出ない。",
+  "Hateful Hail の『後手効果』、Unholy Stampede の『退却』『突撃』、Razers の『遠隔攻撃』、War Despot の『近接攻撃』（最後の 1 つを除く）は書籍で太字なので『**…**』とした。",
+  "Conquered Lands のデザイナーズノートは「デザイナーズノート：」が細字、続く本文が太字に見えるので書籍どおり本文だけ太字にした（英語版はイタリック）。",
+  "Molten Mending の「回復（D3+X）」は「回復」だけが太字に見える。",
+  "Infernal Cohort 2 種の Daemonic Resilience の 3 項目末尾は書籍で「**加護（5+）を持つ。**」と「を持つ。」まで太字に見えるので書籍どおりにした。",
+  "Dominator Engine with Bane Maces / with Immolation Cannons: 書籍の表題は「ドミネイター・エンジン」で、その下に小さく「（破滅のメイス装備）」「（焦熱砲装備）」とある。ユニット名は 2 行をつないで「ドミネイター・エンジン（破滅のメイス装備）」「ドミネイター・エンジン（焦熱砲装備）」とした。",
+  "Crush the Unworthy（ブル・ケンタウロスとアノインテッド・センチネル）と Daemonic Strength（ドミネイター・エンジン 2 種）は、どちらのウォースクロールでも名前・本文とも同じ訳。アノインテッド・センチネルの『価値なき者を粉砕せよ』のフレーバー文も「ブル・ケンタウロスは〜」のまま（流用）。",
+  "Artillerist Weapons はデスシュリーカーとトーメンターの両方で「砲兵の武器」なので名前だけのキーにした。他の武器名も、このファクション内で同名の別訳は担当範囲には無いので名前だけのキー。",
+  "Hashu-Zharr Rockets: 書籍は「ハシュ＝ザール・ロケット」（全角の＝）。",
+  "武器アビリティの「対**騎兵**」等は書籍で騎兵などが太字だが、daughters_of_khaine.json の weapon_ability_names に倣い太字は付けていない。",
+  "Daemonic Strength の箇条書きは書籍では「・」。表記規則に合わせ「• 」にした。",
+  "キーワード欄: Chaos は「渾沌の大同盟」。Dominator Engine with Immolation Cannons の lookups にある Reinforcements（増援）は書籍のキーワード欄に無い（英語 md でも増援不可）。",
+  "All Must Burn!（ドミネイター・エンジン（焦熱砲装備））: 書籍はパッシブで「2個以上のユニットを対象に選んだら1個ごとに【攻撃回数】+2、攻撃は均等に振り分ける」という旧版のルール。現行の英語（dump.json）は「各ターンにつき1回（アーミー）、自軍側遠隔フェイズ／宣言: 8mv以内の視認状態の敵ユニットを2個以上選択／効果: このターン中、選択した1個ごとに Immolation Cannons の Attacks +2、ただし SHOOT のたびに各対象へ最低3回ずつ攻撃する」に改訂されている。ルール・アップデートの日本語訳は担当資料に無いので、書籍どおりの文を入れ _book_issues に記録した（親でルール・アップデートの訳があれば差し替えを）。",
+  "Watch Them Burn のタイミング: 書籍「このユニットが『遠隔攻撃』アビリティを使用し、…」、英語は “You declared a SHOOT ability …”（宣言）。意味はほぼ同じなので book_issue には挙げていない。",
+  "付箋のポイント（Bull Centaurs 190 / Anointed Sentinels 130 / Deathshrieker 140 / Tormentor 130 / Bane Maces 160 / Immolation 170）はユーザーのメモで、訳の対象外。",
+  "書籍 pp.73-75 のスピアヘッドは 2025年9月版 PDF と同じ旧ルール。2026年4月版 PDF（現行の英語 md と一致）で次の 3 点が変わっているので、そこは 2026年4月版 PDF の訳を採った: (1) Harness Daemonic Power 書籍「現在のバトルラウンド数に等しい数の魔瘴力ポイント」→ PDF「現在のバトルラウンド数に1加算した魔瘴力ポイント」（英語 plus 1 に一致）、(2) War Despot の Black-hearted Conqueror の効果全体（旧: 6mv以内の味方の確保力+3。書籍のスキャンは効果欄が黒塗りでユーザーの付箋に新ルールのメモ）、(3) Dominator Engine with Immolation Cannons のキーワードに Reinforcements（増援）が追加（書籍は「戦闘兵器」のみ）。それ以外の本文・名前は書籍と 2026年4月版 PDF で同文",
+  "太字は書籍のスキャン（新文は PDF の画像）で確認: 魔瘴力ポイント、トーメンター・ボンバード、インファーナル・コホート、歩兵、突撃、加護（…）、銅鑼持ち、『遠隔攻撃』",
+  "Harness Daemonic Power のデザイナーズノートは書籍では全文太字（フレーバー文と同じ書体）だが、ルール用語の太字ではないので DoK の『カインの鉄心臓』のデザイナーズノートに合わせて太字なしで本文末尾の行にした",
+  "Daemonic Resilience の DPP 表は書籍の組みどおり「DPP 効果」の見出し行＋各行「数字 効果」で改行区切りにした（通常版 p.60 も同じ組み）",
+  "アビリティ名・武器名・ユニット名は書籍の通常版ウォースクロール（p.56 ウォーデスポット、p.60 インファーナル・コホート（ハシュット信徒の槍装備）、p.65 トーメンター・ボンバード、p.67 ドミネイター・エンジン（焦熱砲装備））とスピアヘッド版で同じ訳だったので、名前だけのキーにした（Strike the Gongs はスピアヘッド版だけのアビリティ）",
+  "unit_names の Dominator Engine with Immolation Cannons / Infernal Cohort with Hashutite Spears は、英語名に装備が含まれるので書籍の表題＋副題（焦熱砲装備）（ハシュット信徒の槍装備）をつないだ。通常版担当と表記を揃えること",
+  "Chalice of Darkness の宣言は「かつこのユニットから視認状態である敵ユニット」。英語は visible（ジェネラルから）で、強化なので「このユニット」は自軍側ジェネラルを指すと読める。誤訳とまではいえないので本文は書籍どおり、_book_issues に軽微として記録",
+  "書籍 p.68 の戦術解説はウォーデスポットのアビリティを『残酷なる暴君』と呼んでいるが、ウォースクロール（書籍 p.74・PDF）の名前は「邪悪なる征服者」。名前はウォースクロールの方を採った",
+  "group_names: Helforge Host は書籍 p.72 の見出し「煉獄炉の軍団」（p.68 にルビ「ヘルフォージ・ホスト」）。戦闘特性・連隊アビリティ・強化の見出しは DoK と同じく名前を持たず前置き文だけ持つ",
+  "禍事版のユニット名は DoK に合わせ「グューランの禍事 …」「アキュシーの禍事 …」と前置きした（PDF の表題はユニット名だけで、上に「ウォースクロール：グューランの禍事」「ウォースクロール：アキュシーの禍事」とある）。ディーモンスミスとインファーナル・コホートの括弧書きは PDF の表題下の副題（「（インファーナル・タウルス騎乗）」「（ハシュット信徒の刃装備）」）を全角括弧でつないだ。",
+  "Infernal Cohort with Hashutite Blades: グューランの禍事 PDF は「ハシュット信徒の刃装備」、バトルプロフィール 2025年9月とルール・アップデート 2026年9月は「ハシュット信徒の剣装備」。禍事版のユニット名と武器名（Hashutite Blade → ハシュット信徒の刃）は禍事 PDF どおりにした。通常版の訳は書籍担当と要照合。",
+  "禍事版の武器名・アビリティ名・キーワードはすべてユニット指定キー（\"ユニット英語名|…\"）にした（通常版の書籍訳と衝突させないため）。Daemonic Resilience はグューラン版が「魔の頑健性」、アキュシー版が「悪魔的強靭性」で、本文の言い回しも違う。",
+  "Chaos キーワード: グューランの禍事・レジェンドは「渾沌の大同盟」、アキュシーの禍事は「渾沌」と印刷。ユニット指定キーで書き分けた。",
+  "アキュシーの禍事 ディーモンスミス: 英語の Horns and Hooves を「強大なる角と蹄」（通常版の訳と違うかもしれないのでユニット指定キー）。Calamitous Shockwave の keywords「蹂躙」（Rampage）。",
+  "Dark Gifts of Hashut（アキュシーの禍事）: 表の名前は「ハシュットよりの暗き賜物（英雄のみ）」。見出しの上に「大いなる神器」「この陣営は使用可能な他の神器の表からではなく、この表から神器を選択してもよい。」とある。md ではバトルトーム版の Dark Gifts of Hashut と同じ group_names / group_texts キーを共有するので、バトルトーム側の訳と食い違う場合は親で判断が必要。group_texts は「（**英雄**のみ）」（英雄が太字）。",
+  "Accursed Devices の group_texts は 1 キーで両出典に当たる。アキュシー版（新しい方）を採った。グューラン版の前置き文は「破滅呪の装置は、**戦闘兵器**固有の強化である。アーミー編成の際に強化を追加するとき、破滅呪の装置を1つ選んで、自軍のアーミーロスターに編入している**戦闘兵器**1個に付与できる。」で、md のグューラン節の英語にはこちらが合う。group_names はどちらも「破滅呪の装置」。",
+  "グューランの禍事の戦闘陣形 2 件（Domination Force 殲滅軍 / Industrial Polluters 黒煙の錬金卿。ルビ: ドミネーション・フォース / インダストリアル・ポルーターズ）とそのアビリティ（Dominion Hexes 支配の魔導紋、Smog and Smoke 吐き出される煙霧）も担当 PDF にあったので入れた（md には出典表記なしで載っている）。",
+  "Smog and Smoke: 書籍は太字が「ヘルスミス・オヴ・ハシュット・戦闘兵器の9mv以内に全体が入っている味方ヘルスミス・オヴ・ハシュット・歩兵」まで一続きに掛かっている（組版の誤り）。書籍どおりにした。",
+  "雄牛の血 Infernal Empowerment: 書籍は太字が「このユニットが持っている」に掛かり、魔瘴力ポイントが太字でない（組版の誤り）。書籍どおりにした。DPP の表は「DPP 効果\\n1+ …」の形で書いた（禍事の Daemonic Resilience も同じ）。",
+  "雄牛の血の装備オプション: 書籍は「・」の箇条書き、兵の名前が太字。• に揃え、“”と名前の間の組版上の隙間は詰めた。背景文ではホブグロットの名は「グリスク」だが装備欄は「リスク・バックスタッバ」（英語 Grisk Back-stabba）。書籍どおり。",
+  "デザイナーズ・ノート（Triumph or Perish / Dominion Hexes）は書籍では段落全体が太字だが、DoK の書き方に合わせて太字なしで載せた。",
+  "Overdrive Switch の timing は書籍のタイミング欄どおり「各ターンにつき1回（アーミー）、リアクション：このユニットが『アタック』アビリティを宣言」（タイミング欄の『アタック』も太字だが timing は装飾なし）。",
+  "Earthwrack Stabilisers の名前は書籍どおり「台地固定スタビライザー」（「大地」の誤植の可能性。背景文は「大地へ深々と撃ち込まれる」）。背景文（訳には載せない）の誤植: Infernal Motivators「この機会を動かす」（機械）、Casque of Belittlement「直用者」（着用者）、Bullfather's Scorn「侮蔑のを宿す」（語の脱落）。Bullfather's Scorn の名前は「父なる牡牛神の侮蔑」（Horn of the Bullfather は「父なる雄牛神の角笛」で、雄牛/牡牛の表記が揺れている）。",
+  "名高き連隊 ヘルスミス・オブ・ハシュット（呪鋼の砲兵隊・恐怖の哀歌の探求者）: 対象外（現行の HoH md に出てこない）。",
+  "The Blood of the Bull はレジェンドのコンペンディウム 2026年4月には無く、レジェンド・ウォースクロール 2026年7月 p.50 にあった。",
+  "エラッタ（_errata）はどれも現行の英語 md（data_version 483）に反映済み。Ashen Smog は日本語版エラッタ（p.87）と通常のエラッタ（p.49）で訳が違い、英語に合うのは p.49 の方（『１対』は誤植）。_errata の本文は PDF テキストから起こしたので太字は推測。",
+  "Standard Bearer (1/5) のキーは lookups どおり NBSP 入り（\"Standard\\u00a0Bearer (1/5)\"）。",
+  "ルール・アップデート 2026年9月（pp.49-50）の日本語訳を本文に適用した: Reserves of Daemonic Power（効果）、Ashen Smog（宣言。p.87 の日本語版エラッタの別訳ではなく、英語と合う p.49 の文）、Scroll of Petrification（最後の項目を 2 項目に差し替え）、All Must Burn!（全体）、戦闘陣形 Amassed Legions / Arcane Dominance / Bulls of the Ziggurat / Experimental Munitions（全体）、スピアヘッドの Harness Daemonic Power / Black-hearted Conqueror（2026年4月のスピアヘッド PDF と同文）。書籍（旧版のルール）の文は使っていない。書籍スキャンでは、改訂された箇所の一部が黒く塗りつぶされている。",
+  "鍛治: 書籍（p.54 の「筆頭魔瘴鍛治師」など）・バトルプロフィールとも「鍛治」の字。",
+  "Infernal Cohort with Hashutite Blades: 書籍 p.60 は「ハシュット信徒の刃装備」、バトルプロフィール（2025年9月）は「剣装備」。書籍を採った。",
+  "Dark Gifts of Hashut: 書籍は「ハシュットの昏き恩寵」、アキュシーの禍事（2026年7月）は「ハシュットよりの暗き賜物」。md の見出しは同じキーなので書籍を採った。",
+  "魔瘴力: 書籍の字は「瘴」（疒）。スキャンの読み取りで「魔障力」としていた 7 か所（pp.62–65）を直した。"
+ ],
+ "faction_name": "ヘルスミス・オヴ・ハシュット",
+ "unit_names": {
+  "Anointed Sentinels": "アノインテッド・センチネル",
+  "Ashen Elder": "アシェン・エルダー",
+  "Bull Centaurs": "ブル・ケンタウロス",
+  "Daemonsmith": "ディーモンスミス",
+  "Daemonsmith on Infernal Taurus": "ディーモンスミス（インファーナル・タウルス騎乗）",
+  "Deathshrieker Rocket Battery": "デスシュリーカー・ロケットバッテリー",
+  "Dominator Engine with Bane Maces": "ドミネイター・エンジン（破滅のメイス装備）",
+  "Dominator Engine with Immolation Cannons": "ドミネイター・エンジン（焦熱砲装備）",
+  "Hobgrotz Vandalz": "ホブグロット・ヴァンダル",
+  "Infernal Cohort with Hashutite Blades": "インファーナル・コホート（ハシュット信徒の刃装備）",
+  "Infernal Cohort with Hashutite Spears": "インファーナル・コホート（ハシュット信徒の槍装備）",
+  "Infernal Razers with Blunderbusses": "インファーナル・レイザー（ブランダーバス装備）",
+  "Infernal Razers with Flamehurlers": "インファーナル・レイザー（フレイムハーラー装備）",
+  "Scourge of Aqshy: Anointed Sentinels": "アキュシーの禍事 アノインテッド・センチネル",
+  "Scourge of Aqshy: Daemonsmith on Infernal Taurus": "アキュシーの禍事 ディーモンスミス（インファーナル・タウルス騎乗）",
+  "Scourge of Ghyran Infernal Cohort with Hashutite Blades": "グューランの禍事 インファーナル・コホート（ハシュット信徒の刃装備）",
+  "Scourge of Ghyran War Despot": "グューランの禍事 ウォーデスポット",
+  "The Blood of the Bull": "雄牛の血",
+  "Tormentor Bombard": "トーメンター・ボンバード",
+  "Urak Taar, the First Daemonsmith": "筆頭魔瘴鍛治師ウラク・タール",
+  "War Despot": "ウォーデスポット"
+ },
+ "weapon_names": {
+  "Artillerist Weapons": "砲兵の武器",
+  "Bane Maces": "破滅のメイス",
+  "Black Hammer of Hashut": "ハシュットの黒鎚",
+  "Brazen Mauls": "大銅鎚",
+  "Daemonflame Glaive": "魔炎の薙刀",
+  "Darkiron Talon": "黒鉄の鉤爪",
+  "Dumakaz": "ドゥマカズ",
+  "Ghorrakos’s Horns and Hooves": "ゴラコスの角と蹄",
+  "Grizmalok Blunderbusses": "グリズマロック大口径銃",
+  "Hashu-Zharr Rockets": "ハシュ＝ザール・ロケット",
+  "Hashutite Blade": "ハシュット信徒の刃",
+  "Hashutite Spear": "ハシュット信徒の槍",
+  "Horns and Hooves": "角と蹄",
+  "Horns and Pummelling Strikes": "角と殴打",
+  "Hurled Daemonfire": "魔炎の投射",
+  "Immolation Cannons": "焦熱砲",
+  "Infernal Staff": "煉獄の杖",
+  "Karagthrun Flamehurlers": "カラグサルン火炎投射器",
+  "Ruinous Torrents": "破滅の奔流",
+  "Scavenged Weapons": "ごみ漁りの武器",
+  "Scourge of Aqshy: Anointed Sentinels|Thrice-cursed Glaive": "幾重にも呪われし薙刀",
+  "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Horns and Hooves": "強大なる角と蹄",
+  "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Hurled Daemonfire": "魔炎の投射",
+  "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Infernal Staff": "煉獄の杖",
+  "Scourge of Ghyran Infernal Cohort with Hashutite Blades|Hashutite Blade": "ハシュット信徒の刃",
+  "Scourge of Ghyran War Despot|Daemonflame Glaive": "魔炎の薙刀",
+  "The Blood of the Bull|Blades and Fists": "刃と鉄拳",
+  "The Blood of the Bull|Daemonflame Weapons": "魔炎の武器",
+  "The Blood of the Bull|Master-crafted Flamehurler": "大獄炎の火炎放射器",
+  "Thrice-cursed Glaive": "幾重にも呪われし薙刀",
+  "Torrent of Ruinous Energy": "破滅の力の奔流",
+  "Weapon Butt": "銃床"
+ },
+ "weapon_ability_names": {
+  "Anti-CAVALRY (+1 Rend)": "対騎兵（+1貫通値）",
+  "Anti-INFANTRY (+1 Rend)": "対歩兵（+1貫通値）",
+  "Anti-MONSTER (+1 Rend)": "対大型獣（+1貫通値）",
+  "Anti-WAR MACHINE (+1 Rend)": "対戦闘兵器（+1貫通値）",
+  "Anti-charge (+1 Rend)": "対突撃（+1貫通値）",
+  "Charge (+1 Damage)": "突撃（+1ダメージ量）",
+  "Companion": "随行者",
+  "Crit (2 Hits)": "クリティカル（2ヒット）",
+  "Crit (Mortal)": "クリティカル（致命的）",
+  "Shoot in Combat": "近接射撃"
+ },
+ "keyword_names": {
+  "Automaton": "オートマトン",
+  "Cavalry": "騎兵",
+  "Champion": "豪傑",
+  "Chaos": "渾沌の大同盟",
+  "Duardin": "ドゥアーディン",
+  "Fly": "飛行",
+  "Helsmiths of Hashut": "ヘルスミス・オヴ・ハシュット",
+  "Hero": "英雄",
+  "Hobgrot": "ホブグロット",
+  "Infantry": "歩兵",
+  "Monster": "大型獣",
+  "Musician (1/10)": "楽士（1/10）",
+  "Priest (1)": "神官（1）",
+  "Reinforcements": "増援",
+  "Scourge of Aqshy: Anointed Sentinels|Cavalry": "騎兵",
+  "Scourge of Aqshy: Anointed Sentinels|Champion": "豪傑",
+  "Scourge of Aqshy: Anointed Sentinels|Chaos": "渾沌",
+  "Scourge of Aqshy: Anointed Sentinels|Duardin": "ドゥアーディン",
+  "Scourge of Aqshy: Anointed Sentinels|Helsmiths of Hashut": "ヘルスミス・オヴ・ハシュット",
+  "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Chaos": "渾沌",
+  "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Duardin": "ドゥアーディン",
+  "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Fly": "飛行",
+  "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Helsmiths of Hashut": "ヘルスミス・オヴ・ハシュット",
+  "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Hero": "英雄",
+  "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Monster": "大型獣",
+  "Scourge of Aqshy: Daemonsmith on Infernal Taurus|War Machine": "戦闘兵器",
+  "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Wizard (1)": "魔術師（1）",
+  "Scourge of Ghyran Infernal Cohort with Hashutite Blades|Champion": "豪傑",
+  "Scourge of Ghyran Infernal Cohort with Hashutite Blades|Chaos": "渾沌の大同盟",
+  "Scourge of Ghyran Infernal Cohort with Hashutite Blades|Duardin": "ドゥアーディン",
+  "Scourge of Ghyran Infernal Cohort with Hashutite Blades|Helsmiths of Hashut": "ヘルスミス・オヴ・ハシュット",
+  "Scourge of Ghyran Infernal Cohort with Hashutite Blades|Infantry": "歩兵",
+  "Scourge of Ghyran Infernal Cohort with Hashutite Blades|Musician (1/10)": "楽士（1/10）",
+  "Scourge of Ghyran Infernal Cohort with Hashutite Blades|Standard Bearer (1/10)": "旗手（1/10）",
+  "Scourge of Ghyran War Despot|Chaos": "渾沌の大同盟",
+  "Scourge of Ghyran War Despot|Duardin": "ドゥアーディン",
+  "Scourge of Ghyran War Despot|Helsmiths of Hashut": "ヘルスミス・オヴ・ハシュット",
+  "Scourge of Ghyran War Despot|Hero": "英雄",
+  "Scourge of Ghyran War Despot|Infantry": "歩兵",
+  "Standard Bearer (1/10)": "旗手（1/10）",
+  "The Blood of the Bull|Champion": "豪傑",
+  "The Blood of the Bull|Chaos": "渾沌の大同盟",
+  "The Blood of the Bull|Duardin": "ドゥアーディン",
+  "The Blood of the Bull|Helsmiths of Hashut": "ヘルスミス・オヴ・ハシュット",
+  "The Blood of the Bull|Infantry": "歩兵",
+  "The Blood of the Bull|Standard Bearer (1/5)": "旗手（1/5）",
+  "The Blood of the Bull|Unique": "固有",
+  "Unique": "固有",
+  "War Machine": "戦闘兵器",
+  "Warmaster": "総大将",
+  "Wizard (1)": "魔術師（1）",
+  "Wizard (2)": "魔術師（2）"
+ },
+ "ability_names": {
+  "'Fight, You Scum!\"": "「戦え、この屑め！」",
+  "'Fire, You Worms!'": "「撃て、屑どもめ！」",
+  "All Must Burn!": "すべて燃えよ",
+  "Amassed Legions": "召集兵団",
+  "Amulet of Burning Hate": "燃え盛る憎悪の首飾り",
+  "An Eye for Weakness": "弱点を見抜く目",
+  "Arcane Dominance": "超常の支配",
+  "Ashen Smog": "灰の煙霧",
+  "Battle Damaged": "バトルダメージ",
+  "Black Flames of Hashut": "ハシュットの黒炎",
+  "Black-hearted Conqueror": "邪悪なる征服者",
+  "Breath of Contempt": "蔑みの内燃圧縮機",
+  "Bull-Charge": "雄牛の突撃",
+  "Bullfather's Scorn": "父なる牡牛神の侮蔑",
+  "Bulls of the Ziggurat": "ジッグラトの雄牛",
+  "Calculated Trajectory": "計算された弾道",
+  "Casque of Belittlement": "侮蔑の兜",
+  "Chalice of Darkness": "暗黒の杯",
+  "Conquered Lands": "征服されし土地",
+  "Crucible of Spite": "憎悪の坩堝",
+  "Crush the Unworthy": "価値なき者を粉砕せよ",
+  "Daemonic Resilience": "魔の頑健性",
+  "Daemonic Strength": "魔の力",
+  "Disciplined March": "規律正しき行軍",
+  "Disposable Lackeys": "捨て駒連中",
+  "Dominion Hexes": "支配の魔導紋",
+  "Earthwrack Stabilisers": "台地固定スタビライザー",
+  "Engine of Domination": "支配の兵器",
+  "Experimental Munitions": "試作弾薬",
+  "Extract Power": "力の抽出",
+  "Furnace Blessing": "炉の祝福",
+  "Gauntlets of Punishment": "懲罰の籠手",
+  "Gem of Utorak": "ウトラクの宝石",
+  "Greed Pistons": "貪欲なピストン装置",
+  "Grinding Advance": "執拗な前進",
+  "Harness Daemonic Power": "魔瘴力の活用",
+  "Hateful Fractures": "憎悪の断裂",
+  "Hateful Hail": "憎悪の弾雨",
+  "Horn of the Bullfather": "父なる雄牛神の角笛",
+  "Hungering Flames": "飢える炎",
+  "Immolating Presence": "焼き尽くす存在感",
+  "Infernal Motivators": "地獄の駆動装置",
+  "Leave the Land in Ruin": "荒廃の土地を後に",
+  "Manglers of Metal": "鋼の破壊者",
+  "Master of Daemonic Power": "魔瘴力の熟達者",
+  "Molten Mending": "熔解修復",
+  "Molten Metal": "熔解金属",
+  "Overdrive Switch": "増速駆動スイッチ",
+  "Peerless Among Daemonsmiths": "並ぶ者なき魔瘴鍛治師",
+  "Pitiless Trampling": "無慈悲なる蹂躙",
+  "Reserves of Daemonic Power": "魔瘴力の貯蓄",
+  "Ruinous Bombardment": "破滅的砲撃",
+  "Sacred Gongs": "聖なる銅鑼",
+  "Scorched Remains": "焼け焦げた残骸",
+  "Scourge of Aqshy: Anointed Sentinels|Daemonic Resilience": "悪魔的強靭性",
+  "Scourge of Aqshy: Anointed Sentinels|Zealous Acolytes": "狂信の侍祭",
+  "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Battle Damaged": "バトルダメージ",
+  "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Calamitous Shockwave": "破局の衝撃波",
+  "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Daemonic Resilience": "悪魔的強靭性",
+  "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Leech Realm-Magic": "領域魔法の吸奪",
+  "Scourge of Ghyran Infernal Cohort with Hashutite Blades|Daemonic Resilience": "魔の頑健性",
+  "Scourge of Ghyran Infernal Cohort with Hashutite Blades|Sanctified Gongs": "殊勝の銅鑼",
+  "Scourge of Ghyran Infernal Cohort with Hashutite Blades|Take Up Their Arms": "武器を拾え",
+  "Scourge of Ghyran War Despot|Daemonfire Pistol": "魔炎のピストル銃",
+  "Scourge of Ghyran War Despot|Triumph or Perish, You Vermin!": "勝利か、さもなくば死だ！",
+  "Scroll of Petrification": "石化の巻物",
+  "Servile Automaton": "従属する自動兵器",
+  "Smog and Smoke": "吐き出される煙霧",
+  "Stoked Fanaticism": "煽り立てられた熱狂",
+  "Storm of Obsidian Shards": "黒曜石片の嵐",
+  "Strike the Gongs": "銅鑼を打ち鳴らせ",
+  "Suppressive Bombardment": "制圧砲撃",
+  "Talisman of Obsidian": "黒曜石の護符",
+  "The Blood of the Bull|Infernal Empowerment": "獄炎の力",
+  "The Curse of Stone": "石化の呪い",
+  "Unholy Stampede": "冒涜の蹂躙",
+  "Watch Them Burn": "燃える様を見よ",
+  "Zealous Counter-Attack": "熱狂的反撃"
+ },
+ "ability_texts": {
+  "'Fire, You Worms!'": {
+   "timing": "敵軍側突撃フェイズ",
+   "declare": "このユニットの12mv以内に全体が入っており、かつ近接戦闘中ではない味方**ヘルスミス・オヴ・ハシュット・歩兵**・ユニットを1個選択する。",
+   "effect": "選択された味方ユニットは、あたかも自軍側遠隔フェイズ中であるかのように、ただちに『遠隔攻撃』アビリティを使用できる。それらのすべての攻撃は同一の敵ユニットを対象としなければならず、攻撃の対象として選択された敵ユニットは、このフェイズ中に突撃を実行していなければならない。それらの攻撃のヒットロールにおいて修正前の出目1-5が出たならば、攻撃は失敗し、攻撃手順はそこで終了する。"
+  },
+  "Amassed Legions": {
+   "timing": "パッシブ",
+   "effect": "味方**ヘルスミス・オヴ・ハシュット・歩兵**・ユニットの近接範囲内に一部でも入っており、かつ1点以上の**魔瘴力ポイント**を持つ味方**ヘルスミス・オヴ・ハシュット**が『再集結』指揮アビリティを使用する際、D6の再集結ロールを追加で3回実行できる。"
+  },
+  "An Eye for Weakness": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。",
+   "effect": "次の自軍側ターン開始時まで、選択された敵ユニットを対象にする味方**ヘルスミス・オヴ・ハシュット**・ユニットのメレーアタックは、ウーンズロールに+1の修正を受ける。"
+  },
+  "Anointed Sentinels|Crush the Unworthy": {
+   "timing": "パッシブ",
+   "effect": "このユニットが保持している**魔瘴力ポイント**1点ごとに、このユニットの突撃ロールは+1の修正を受ける。"
+  },
+  "Anointed Sentinels|Zealous Counter-Attack": {
+   "timing": "リアクション：このユニットが『報復攻撃』指揮アビリティを宣言",
+   "effect": "そのターン中、このユニットは**『先手効果』**を得る。"
+  },
+  "Arcane Dominance": {
+   "timing": "パッシブ",
+   "effect": "味方**ヘルスミス・オヴ・ハシュット・魔術師**や**神官**が1点以上の**魔瘴力ポイント**を保持している別の味方**ヘルスミス・オヴ・ハシュット・魔術師**や**神官**の味方ユニットの12mv以内に一部でも入っている場合、その味方ユニットの詠唱ロール、打ち消しロール、追放ロール、祈願ロールは+1の修正を受ける。"
+  },
+  "Ashen Elder|Extract Power": {
+   "timing": "自軍側ターン終了時",
+   "effect": "このユニットが作戦目標、**力を秘めし地形**、特殊地形のいずれかを争奪しており、それらの作戦目標、**力を秘めし地形**、特殊地形が味方荒廃トークンを有しているならば、このユニットに1儀式ポイントを与える。"
+  },
+  "Ashen Elder|Stoked Fanaticism": {
+   "timing": "パッシブ",
+   "effect": "各フェイズ中、このユニットの6mv以内に全体が入っている**ホブグロット**ではない各味方**ヘルスミス・オヴ・ハシュット**・ユニットは、それぞれ最初に受ける1ポイントのダメージを無視する。このユニットが保持している**魔瘴力ポイント**1点ごとに、このアビリティの範囲は6mvずつ拡大する。"
+  },
+  "Ashen Smog": {
+   "timing": "自軍側ヒーローフェイズ",
+   "effect": "次の自軍側ターン開始時まで、その特殊地形は『射線妨害』アビリティ（特殊地形、1.2）を得る。その後、その特殊地形を争奪している各敵ユニットに対し、それぞれD3を1個ロールする。ロール結果が2+であれば、ロール対象の敵ユニットは、ロール結果に等しい数のダメージを受ける。",
+   "keywords": "呪文",
+   "declare": "この呪文を詠唱する際に、味方**ヘルスミス・オヴ・ハシュット・魔術師**を１対選択する。その後、選択された魔術師の18mv以内に一部でも入っており、かつその魔術師から視認状態である味方**荒廃トークン**が配置されている特殊地形を1個選択し、2D6の詠唱ロールをする。"
+  },
+  "Black Flames of Hashut": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この奇蹟を祈願する際に、味方**ヘルスミス・オヴ・ハシュット・神官**を1体選択する。その後、選択された神官の12mv以内に一部でも入っており、かつその神官から視認状態である敵ユニットを1個選択し、D6の祈願ロールをする。",
+   "effect": "選択された敵ユニット内にいる兵の数と等しい個数のダイスをロールする。ロール結果で5+が出るたびに、その敵ユニットに1ポイントの致命的ダメージを与える。祈願ロールが8+であった場合、代わりにロール結果で4+が出るたびに、その敵ユニットに1ポイントの致命的ダメージを与える。",
+   "keywords": "奇蹟、無制限"
+  },
+  "Breath of Contempt": {
+   "timing": "任意のターン終了時",
+   "declare": "このユニットと近接戦闘中である敵ユニットを最大3個まで選択する。",
+   "effect": "選択された各敵ユニットに対して、それぞれD3を1個ロールする。ロール結果が2+であれば、ロール対象の敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。"
+  },
+  "Bull Centaurs|Bull-Charge": {
+   "timing": "任意の突撃フェイズ",
+   "declare": "このユニットがこのターン中に突撃を実行している場合、自身の1mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。",
+   "effect": "選択された敵ユニット内にいる各兵に対して、それぞれダイスを1個ロールする。このユニットが保持している**魔瘴力ポイント**の点数を、各ロールに加算する。ロール結果で6+が出るたびに、その敵ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Bull Centaurs|Crush the Unworthy": {
+   "timing": "パッシブ",
+   "effect": "このユニットが保持している**魔瘴力ポイント**1点ごとに、このユニットの突撃ロールは+1の修正を受ける。"
+  },
+  "Bullfather's Scorn": {
+   "timing": "自軍側遠隔フェイズ",
+   "effect": "**憤激ダイス**を1個消費してもよい。その場合：\n• 以下の効果を適用する。\n• 敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）\nそれ以外の場合、ダイスを1個ロールする。ロール結果が3+の場合、以下の効果を適用する。\n次の自軍側ターン開始時まで、このユニットの遠隔武器は**クリティカル（2ヒット）**を得る。このユニットの装備している遠隔武器がすでに**クリティカル（2ヒット）**を有する場合、次の自軍側ターン開始時まで、その遠隔武器は、ヒットロールの修正前の出目5+でクリティカルヒットする。"
+  },
+  "Bulls of the Ziggurat": {
+   "timing": "パッシブ",
+   "effect": "味方**ヘルスミス・オヴ・ハシュット**・ユニットが持つ1**魔瘴力ポイント**ごとに、その味方ユニットは【移動力】に+1mvの修正を受ける。"
+  },
+  "Casque of Belittlement": {
+   "timing": "任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中の敵ユニットを1個を選び、対象とする。",
+   "effect": "自軍側の**憤激レベル**に等しい数のダイスをロールする。このユニットがこのターン中に突撃を実行していた場合、ロール結果は+1の修正を受ける。ロール結果で3+が出るたびに、選択された敵ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Crucible of Spite": {
+   "timing": "バトル中1回限り、自軍側ヒーローフェイズ",
+   "effect": "このユニットに最大3点までの**魔瘴力ポイント**を与えてもよい。ただし、このバトル中、自軍はこれ以降このユニットに一切の**魔瘴力ポイント**を与えることができなくなる。"
+  },
+  "Daemonsmith on Infernal Taurus|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**角と蹄**の【攻撃回数】は4になる。"
+  },
+  "Daemonsmith on Infernal Taurus|Daemonic Resilience": {
+   "timing": "パッシブ",
+   "effect": "下記の効果から、このユニットが保持している**魔瘴力ポイント**（DPP）に対応する効果を適用する。\nDPP 効果\n1 このユニットは**加護（6+）**を持つ。\n2 このユニットは**加護（5+）**を持つ。\n3 このユニットは**呪文**や**奇蹟**からのダメージに対して、**顕現**が使用するアビリティからのダメージに対して、**加護（4+）**を持つ。それ以外の場合、**加護（5+）**を持つ。"
+  },
+  "Daemonsmith on Infernal Taurus|Immolating Presence": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "declare": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果がその敵ユニットの【体力】を上回る場合、その敵ユニット内の兵が1体撃破される。",
+   "keywords": "蹂躙"
+  },
+  "Daemonsmith on Infernal Taurus|Unholy Stampede": {
+   "timing": "パッシブ",
+   "effect": "味方**ヘルスミス・オヴ・ハシュット・騎兵**・ユニットが、このユニットの12mv以内に全体が入っている間、\n• その味方ユニットは『**退却**』アビリティを使用していたとしても、そのターン中に『**突撃**』アビリティを使用できる。\n• その味方ユニットは『**退却**』アビリティによる致命的ダメージを受けない。"
+  },
+  "Daemonsmith|Molten Mending": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "このユニットの6mv以内に全体が入っている味方**ヘルスミス・オヴ・ハシュット・戦闘兵器**を1個選択する。このユニットが保持している**魔瘴力ポイント**1点ごとに、このアビリティの範囲は6mvずつ拡大する。",
+   "effect": "選択された味方ユニットを**回復**（D3+X）する。Xは、このユニットが保持している**魔瘴力ポイント**の点数と同数値である。"
+  },
+  "Deathshrieker Rocket Battery|Hungering Flames": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+   "effect": "このターン中、このユニットのハシュ＝ザール・ロケットは、攻撃対象が**大型獣**または**戦闘兵器**である場合には【ダメージ量】が5になる。"
+  },
+  "Deathshrieker Rocket Battery|Watch Them Burn": {
+   "timing": "リアクション：このユニットが『遠隔攻撃』アビリティを使用し、そのすべての攻撃が同一の敵ユニットを対象としていた場合",
+   "effect": "このユニットのレンジアタックにおいて、その攻撃対象である敵ユニットの近接範囲内に一部でも入っている他の各敵ユニットに対して、このユニットが保持している**魔瘴力ポイント**の点数と同じ個数のダイスをそれぞれロールする。ロール結果で3+が出るたびに、ロール対象の敵ユニットは、1ポイントの致命的ダメージを受ける。"
+  },
+  "Dominator Engine with Bane Maces|Daemonic Strength": {
+   "timing": "パッシブ",
+   "effect": "このユニットが保持している**魔瘴力ポイント**1点ごとに、\n• 自身の【移動力】は+1mvの修正を受ける。\n• 自身が装備している武器の【攻撃回数】は+1の修正を受ける。"
+  },
+  "Dominator Engine with Bane Maces|Engine of Domination": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "このユニットが1体以上の敵**英雄**と近接戦闘中である場合、このユニットはこのフェイズ中に**『近接攻撃』**アビリティを2回使用できる。ただし、1回目を使用した後、そのフェイズ中、このユニットは**『後手効果』**を得る。依然として1体以上の敵**英雄**と近接戦闘中である場合に限り、2回目の**『近接攻撃』**アビリティを使用できる。"
+  },
+  "Dominator Engine with Immolation Cannons|All Must Burn!": {
+   "timing": "各ターンにつき１回、自軍側遠隔フェイズ",
+   "declare": "このユニットの8mv以内に一部でも入っており、かつこのユニットから視認状態である2個以上の敵ユニットを選択する。",
+   "effect": "そのターン中、このアビリティの対象として選択された敵ユニット1個につき、このユニットが装備している焦熱砲の【攻撃回数】は+2の修正を受ける。ただし、このユニットが『遠隔攻撃』アビリティを使用する際、それらの各敵ユニットを攻撃対象にするとき、少なくともそれぞれ３回攻撃しなければならない。"
+  },
+  "Dominator Engine with Immolation Cannons|Daemonic Strength": {
+   "timing": "パッシブ",
+   "effect": "このユニットが保持している**魔瘴力ポイント**1点ごとに、\n• 自身の【移動力】は+1mvの修正を受ける。\n• 自身が装備している武器の【攻撃回数】は+1の修正を受ける。"
+  },
+  "Dominion Hexes": {
+   "timing": "パッシブ",
+   "effect": "『強行突破』指揮アビリティにおいて、ホブグロットでない味方**ヘルスミス・オヴ・ハシュット**・ユニットの【体力】は2倍になる。\nデザイナーズ・ノート：このアビリティの効果は、自軍側や敵軍側が『強行突破』を使用したときに適用される。"
+  },
+  "Earthwrack Stabilisers": {
+   "timing": "パッシブ",
+   "effect": "このユニットが現在のターン中に突撃を実行していない場合、このユニットの近接武器の【貫通値】は+1の修正を受ける。"
+  },
+  "Experimental Munitions": {
+   "timing": "パッシブ",
+   "effect": "味方**ヘルスミス・オヴ・ハシュット**・ユニットが2点以上の**魔瘴力ポイント**を保持している間、その味方ユニットは**クリティカル（2ヒット）**を得る。"
+  },
+  "Furnace Blessing": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この奇蹟を祈願する際に、味方**ヘルスミス・オヴ・ハシュット・神官**を1体選択する。その後、選択された味方神官の12mv以内に全体が入っており、かつその神官から視認状態である味方**ヘルスミス・オヴ・ハシュット**・ユニットを1個選択し、D6の祈願ロールをする。",
+   "effect": "そのターン中、選択された味方ユニットの近接武器は【貫通値】に+1の修正を受ける。さらに、祈願ロールが8+であった場合、その味方ユニットの近接武器は、そのターン中**クリティカル（致命的）**を得る。",
+   "keywords": "奇蹟"
+  },
+  "Gauntlets of Punishment": {
+   "timing": "自軍側遠隔フェイズ",
+   "declare": "このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。",
+   "effect": "D3を1個ロールする。ロール結果が2+であれば、選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。"
+  },
+  "Gem of Utorak": {
+   "timing": "バトル中1回限り、自軍側ヒーローフェイズ",
+   "effect": "このユニットが**魔術師**でない場合、次の自軍側ターン開始時まで**魔術師（2）**を得る。\nこのユニットが**魔術師**であれば、次の自軍側ターン開始時まで：\n• このユニットのパワーレベルは+1の修正を受ける。\n• 詠唱ロールは+D3の修正を受ける。"
+  },
+  "Greed Pistons": {
+   "timing": "パッシブ",
+   "effect": "このユニットが突撃ロールをするとき、使用する突撃ロールのダイス個数は1個増加する（ダイス個数は最大3個まで）。突撃ロール後、任意のダイス1個を取り除いた残りのダイスを突撃ロールに用いる。"
+  },
+  "Harness Daemonic Power": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ターン開始時",
+   "effect": "自軍は、各自軍側ターン開始時にこのアビリティを使用しなければならない。各味方ユニットから、**魔瘴力ポイント**をすべて取り除く。その後、戦場に存在する味方**荒廃トークン**1個ごとに、**魔瘴力ポイント**を1点ずつ獲得する。\nその後、自軍の**魔瘴力ポイント**を**ホブグロット**ではない味方**ヘルスミス・オヴ・ハシュット**・ユニットに割り振る。各ユニットは、最大3点までの**魔瘴力ポイント**を保持することができる。割り振らなかった**魔瘴力ポイント**は失われる。\nデザイナーズノート：**ホブグロット**ではないユニットは、保持している魔瘴力ポイントの多さによって効果が高まるアビリティを有している。色付きのダイスを使用して、各ユニットがどれだけのポイントを保持しているのか分かりやすくすることを推奨する。"
+  },
+  "Hateful Fractures": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**ヘルスミス・オヴ・ハシュット・魔術師**を1体選択する。その後、選択された魔術師の18mv以内に一部でも入っており、かつその魔術師から視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、選択された敵ユニットの【移動力】は半減する。",
+   "keywords": "呪文、無制限"
+  },
+  "Hobgrotz Vandalz|Disposable Lackeys": {
+   "timing": "初期配置フェイズ",
+   "effect": "このユニットは、あたかも自軍側移動フェイズ中かのように、ただちに『通常移動』アビリティを1回使用できる。"
+  },
+  "Horn of the Bullfather": {
+   "timing": "初期配置フェイズ",
+   "declare": "このユニットから視認状態である味方**ヘルスミス・オヴ・ハシュット**・ユニットを1個選択する。その後、このユニットから視認状態である味方**ホブグロット・ヴァンダル**・ユニット1個をさらに選択できる。",
+   "effect": "選択された味方ユニットを戦場から取り除き、戦場端から7mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた戦場の位置に再配置する。"
+  },
+  "Infernal Cohort with Hashutite Blades|Daemonic Resilience": {
+   "timing": "パッシブ",
+   "effect": "下記の効果から、このユニットが保持している**魔瘴力ポイント**（DPP）に対応する効果を適用する。\nDPP 効果\n1 このユニットは**加護（6+）**を持つ。\n2 このユニットは**加護（5+）**を持つ。\n3 このユニットは**呪文**や**奇蹟**からのダメージに対して、**顕現**が使用するアビリティからのダメージに対して**加護（4+）**を持つ。それ以外の場合、**加護（5+）を持つ。**"
+  },
+  "Infernal Cohort with Hashutite Blades|Disciplined March": {
+   "timing": "パッシブ",
+   "effect": "このユニットは全力移動ロールをするとき、ロール結果が1-3であれば、代わりに4の値を用いてもよい。"
+  },
+  "Infernal Cohort with Hashutite Blades|Sacred Gongs": {
+   "timing": "パッシブ",
+   "effect": "このユニットの**銅鑼持ち**は、トークンである。このユニット内の**楽士**1体ごとに、1体の**銅鑼持ち**がいることになる。このユニットがリアクションとして『再集結』指揮アビリティを使用する際、**銅鑼持ち**を1体戦場から取り除くことで、D6の再集結ロールを追加で1回実行してもよい。"
+  },
+  "Infernal Cohort with Hashutite Spears|Conquered Lands": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットが自軍側が確保している作戦目標を争奪している場合、このユニットの12mv以内に全体が入っているホブグロットではない味方**ヘルスミス・オヴ・ハシュット**・ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、選択された味方ユニットに**魔瘴力ポイント**を1点与える。\nデザイナーズノート：**このアビリティを持つ味方ユニットが複数、その作戦目標の争奪にかかわっていたとしても、自軍がターンごとに各作戦目標に対してこのロールができるのは、1回だけである。**"
+  },
+  "Infernal Cohort with Hashutite Spears|Daemonic Resilience": {
+   "timing": "パッシブ",
+   "effect": "下記の効果から、このユニットが保持している**魔瘴力ポイント**（DPP）に対応する効果を適用する。\nDPP 効果\n1 このユニットは**加護（6+）**を持つ。\n2 このユニットは**加護（5+）**を持つ。\n3 このユニットは**呪文**や**奇蹟**からのダメージに対して、**顕現**が使用するアビリティからのダメージに対して**加護（4+）**を持つ。それ以外の場合、**加護（5+）を持つ。**"
+  },
+  "Infernal Cohort with Hashutite Spears|Sacred Gongs": {
+   "timing": "パッシブ",
+   "effect": "このユニットの**銅鑼持ち**は、トークンである。このユニット内の**楽士**1体ごとに、1体の**銅鑼持ち**がいることになる。このユニットがリアクションとして『再集結』指揮アビリティを使用する際、**銅鑼持ち**を1体戦場から取り除くことで、D6の再集結ロールを追加で1回実行してもよい。"
+  },
+  "Infernal Motivators": {
+   "timing": "パッシブ",
+   "effect": "このユニットの【移動力】は+2mvの修正を受ける。"
+  },
+  "Infernal Razers with Blunderbusses|Hateful Hail": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+   "declare": "このユニットがこのターン中に『**遠隔攻撃**』アビリティを使用しており、そのすべての攻撃が同一の敵ユニットを対象としていた場合、その敵ユニットを選択する。",
+   "effect": "ダイスを1個ロールする。このターン中、このユニットの攻撃によって撃破されたその敵ユニット内の兵数に等しい数を、そのロール結果に加算する。ロール結果が6+であれば、そのターン中、その敵ユニットは『**後手効果**』を得る。"
+  },
+  "Infernal Razers with Blunderbusses|Manglers of Metal": {
+   "timing": "パッシブ",
+   "effect": "このユニットが保持している**魔瘴力ポイント**1点ごとに、このユニットの遠隔武器は【貫通値】に+1の修正を受ける。"
+  },
+  "Infernal Razers with Flamehurlers|Manglers of Metal": {
+   "timing": "パッシブ",
+   "effect": "このユニットが保持している**魔瘴力ポイント**1点ごとに、このユニットの遠隔武器は【貫通値】に+1の修正を受ける。"
+  },
+  "Infernal Razers with Flamehurlers|Scorched Remains": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+   "declare": "このユニットがこのターン中に『**遠隔攻撃**』アビリティを使用しており、そのすべての攻撃が同一の敵**歩兵**・ユニットを対象としていた場合、その敵ユニットを選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された敵ユニットの確保スコアは、その出目に等しい数のマイナス修正を受ける。"
+  },
+  "Leave the Land in Ruin": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン開始時",
+   "declare": "近接戦闘中ではない味方**ヘルスミス・オヴ・ハシュット**・ユニットが争奪中である、味方**荒廃トークン**を有していない特殊地形または作戦目標を1個選択する。",
+   "effect": "その特殊地形あるいは作戦目標に**荒廃トークン**を1個与える。"
+  },
+  "Molten Metal": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**ヘルスミス・オヴ・ハシュット・魔術師**を1体選択する。その後、選択された魔術師の18mv以内に一部でも入っており、かつその魔術師から視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "修正前の詠唱ロールに等しい個数のダイスをロールする。その敵ユニットの【防御力】以上のロール結果が出るごとに、その敵ユニットは1ポイントの致命的ダメージを受ける。",
+   "keywords": "呪文"
+  },
+  "Overdrive Switch": {
+   "timing": "各ターンにつき1回（アーミー）、リアクション：このユニットが『アタック』アビリティを宣言",
+   "effect": "このフェイズ中、\n• 自身の9mv以内に一部でも入っている敵ユニットを対象とするこのユニットの攻撃（**随行者**武器を含む）は、ヒットロールに+1の修正を受ける。\n• このユニットによる攻撃のヒットロールで修正前の出目1が出るたび、その**『アタック』**アビリティが解決された直後に、このユニットに1ポイントのダメージを割り振る（このダメージに対して加護ロールはできない）。"
+  },
+  "Reserves of Daemonic Power": {
+   "timing": "各ターンにつき1回（アーミー）、任意のヒーローフェイズ",
+   "declare": "**ホブグロット**ではなく、かつ**魔瘴力ポイント**を保持していない味方**ヘルスミス・オヴ・ハシュット**・ユニットを1個選択する。",
+   "effect": "選択された味方ユニットに**魔瘴力ポイント**を2点与える。"
+  },
+  "Scourge of Aqshy: Anointed Sentinels|Daemonic Resilience": {
+   "timing": "パッシブ",
+   "effect": "このユニットが持っている**魔瘴力ポイント**（DPP）の数に対応する効果を適用する：\nDPP 効果\n1 このユニットは**加護（6+）**を持つ。\n2 このユニットは**加護（5+）**を持つ。\n3 このユニットは**『呪文』**アビリティと、**祈祷**アビリティ、**『顕現』**が使用したアビリティから与えられるダメージに対して**加護（4+）**を持つ。それ以外の場合、**加護（5+）**を持つ。"
+  },
+  "Scourge of Aqshy: Anointed Sentinels|Zealous Acolytes": {
+   "timing": "パッシブ",
+   "effect": "• このユニットが自軍側が確保していない作戦目標を争奪している間、このユニットの装備している近接武器は【攻撃回数】に+1の修正を受ける。\n• このユニットが自軍側が確保している作戦目標を争奪している間、このユニットの確保スコアは+10の修正を受ける。"
+  },
+  "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、自身の**強大なる角と蹄**の【攻撃回数】は4になる。"
+  },
+  "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Calamitous Shockwave": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中の敵ユニットを3個まで選択する。",
+   "effect": "選択された各敵ユニットに対してダイスをロールする。ロール結果が自軍側の**憤激レベル**を下回る場合、そのターン中：\n• 選択された敵ユニットは『怒りの爆発』アビリティを使用できない。\n• 選択された敵ユニットのダメージ手順を解決する際、敵は『歯を食いしばれ』アビリティの一環として**憤激ダイス**を使用することができない。\n• 選択された敵ユニット攻撃対象とする武器の【貫通値】は+1の修正を受ける。",
+   "keywords": "蹂躙"
+  },
+  "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Daemonic Resilience": {
+   "timing": "パッシブ",
+   "effect": "このユニットが持っている**魔瘴力ポイント**（DPP）の数に対応する効果を適用する：\nDPP 効果\n1 このユニットは**加護（6+）**を持つ。\n2 このユニットは**加護（5+）**を持つ。\n3 このユニットは**『呪文』**アビリティと、**祈祷**アビリティ、**『顕現』**が使用したアビリティから与えられるダメージに対して**加護（4+）**を持つ。それ以外の場合、**加護（5+）**を持つ。"
+  },
+  "Scourge of Aqshy: Daemonsmith on Infernal Taurus|Leech Realm-Magic": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "effect": "• 次の自軍側ターン開始時まで、このユニットは詠唱ロールと打ち消しロールに+1の修正を受ける。\n• このユニットが争奪している、味方**荒廃トークン**を持つ作戦目標または特殊地形を1個選択する。その場合、このユニットのパワーレベルは+1の修正を受ける。その後、その**荒廃トークン**を戦場から取り除く。このユニットは、このアビリティの効果を複数回受けることができる。そのたびに、効果は累積して適用される。"
+  },
+  "Scourge of Ghyran Infernal Cohort with Hashutite Blades|Daemonic Resilience": {
+   "timing": "パッシブ",
+   "effect": "このユニットが持っている**魔瘴力ポイント**（DPP）の数に対応する以下の効果を適用する。\nDPP 効果\n1 このユニットは**加護（6+）**を持つ。\n2 このユニットは**加護（5+）**を持つ。\n3 このユニットは**呪文**や**奇蹟**からのダメージに対して、**顕現**が使用するアビリティからのダメージに対して**加護（4+）**を持つ。それ以外の場合**加護（5+）**を持つ。"
+  },
+  "Scourge of Ghyran Infernal Cohort with Hashutite Blades|Sanctified Gongs": {
+   "timing": "パッシブ",
+   "effect": "このユニットの**銅鑼の打ち手**はトークンである。このユニット内にいる楽士1体につき、**銅鑼の打ち手**が1つ存在する。このユニットが『再集結』指揮アビリティを使用した場合、このユニット内にいる**銅鑼の打ち手**ごとに、D6の再集結ロールを追加で2個ロールできる。ただし、再集結ロールで修正前の出目1が出るたびに、指揮アビリティが解決された直後に、このユニットの**銅鑼の打ち手**を1つ取り除かなければならない。"
+  },
+  "Scourge of Ghyran Infernal Cohort with Hashutite Blades|Take Up Their Arms": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "declare": "このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態であるホブグロットでない他の味方**ヘルスミス・オヴ・ハシュット・歩兵**・ユニット、**デスシュリーカー・ロケットバッテリー**、**トーメンター・ボンバード**のいずれか1個を選択する。",
+   "effect": "このユニットから最大3体までの兵を取り除く。次に、選択された味方ユニットが**歩兵**・ユニットである場合、その味方ユニット内の撃破された兵を、このユニットから取り除いた兵の数だけ復帰させる。選択された味方ユニットが**戦闘兵器**であるならば、その味方ユニットをこのユニットから取り除いた兵の数だけ回復する。\nこのアビリティによってこのユニットから取り除かれた兵は、このユニットに復帰させることはできない。"
+  },
+  "Scourge of Ghyran War Despot|Daemonfire Pistol": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側移動フェイズ",
+   "declare": "このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。その後、選択された敵ユニットと近接戦闘中である味方**ヘルスミス・オヴ・ハシュット・歩兵**・ユニットを1個選択する。",
+   "effect": "D3を1個ロールする。ロール結果が2+であれば、選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。\n選択された味方ユニットが健在の場合、そのターン中：\n• その味方ユニットは**『退却』**アビリティを使用していたとしても、そのターン中に**『遠隔攻撃』**と**『突撃』**アビリティの両方、またはいずれか一方を使用できる。\n• その味方ユニットは**『退却』**アビリティを使用したとき、移動できる距離に+2mvの修正を受ける。\n• その味方ユニットは**『退却』**アビリティによる致命的ダメージを受けない。"
+  },
+  "Scourge of Ghyran War Despot|Triumph or Perish, You Vermin!": {
+   "timing": "パッシブ",
+   "effect": "このユニットが**魔瘴力ポイント**を1点でも有する間、ホブグロットでない味方**ヘルスミス・オヴ・ハシュット**・ユニット（**ウォーデスポット**は除く）で**魔瘴力ポイント**を0点を持つユニットは、このユニットの9mv以内に全体が入っており、かつこのユニットから視認状態であるならば**魔瘴力ポイント**を1点持つものとして扱われる。\nこのユニットが2**魔瘴力ポイント**を有する間、このアビリティは有効範囲に+3mvの修正を受ける。このユニットが3**魔瘴力ポイント**を有する間、代わりにこのアビリティは有効範囲に+6mvの修正を受ける。\nデザイナーズ・ノート：魔瘴力ポイントが0点であり、このアビリティの効果を受けている味方ユニットがその後に1点以上の魔瘴力ポイントを獲得した場合、その味方ユニットはこのアビリティの効果を受けなくなる。またウラク・タールの『魔瘴力の熟達者』アビリティは、このアビリティの効果を受けているユニットに効果を与えることはない。"
+  },
+  "Scroll of Petrification": {
+   "timing": "バトル中1回限り、任意のヒーローフェイズ",
+   "declare": "このユニットの12mv以内に全体が入っている味方**ヘルスミス・オヴ・ハシュット**・ユニットを1個選択する。",
+   "effect": "そのターン中、\n• その味方ユニットは**加護（2+）**を持つ。\n• その味方ユニットは『パッシブ』以外のアビリティを使用できず、味方によるアビリティの対象として選択することもできない。\n• 移動と突撃のルール上、敵ユニットはその味方ユニットの近接範囲を無視できる。\n• 戦場に配置するルール上、敵ユニットはその味方ユニットを無視できる。ただし、その味方ユニットと同じ場所に配置することはできない。"
+  },
+  "Servile Automaton": {
+   "timing": "初期配置フェイズ",
+   "declare": "このユニットの近接範囲内に一部でも入っている味方**ヘルスミス・オヴ・ハシュット・オートマトン**・ユニットを1個選択する。",
+   "effect": "以降バトル終了時まで、選択された味方ユニットはこのユニットの護衛兵となり、以下の効果が適用される：\n• このユニットが近接戦闘中であり、かつ護衛兵がこのユニットの近接範囲内に一部でも入っている場合、その護衛兵は**『先手効果』**を得る。\n• このユニットが**歩兵**であり、かつ護衛兵がこのユニットの近接範囲内に一部でも入っているならば、このユニットは**加護（5+）**を持つ。"
+  },
+  "Smog and Smoke": {
+   "timing": "パッシブ",
+   "effect": "味方**ヘルスミス・オヴ・ハシュット・戦闘兵器の9mv以内に全体が入っている味方ヘルスミス・オヴ・ハシュット・歩兵**や**騎兵**を対象とするレンジアタックは、ヒットロールに-1の修正を受ける。"
+  },
+  "Spearhead|Amulet of Burning Hate": {
+   "timing": "バトル中1回限り、任意の近接フェイズ",
+   "effect": "そのターン中、自軍側ジェネラルの攻撃は、ヒットロールにおいて修正前の出目5+でクリティカルヒットとなる。"
+  },
+  "Spearhead|Chalice of Darkness": {
+   "timing": "バトル中1回限り、自軍側遠隔フェイズ",
+   "declare": "自軍側ジェネラルの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。",
+   "effect": "選択された敵ユニットは、D3ポイントの致命的ダメージを受ける。"
+  },
+  "Spearhead|Dominator Engine with Immolation Cannons|Daemonic Strength": {
+   "timing": "パッシブ",
+   "effect": "このユニットが保持している**魔瘴力ポイント**1点ごとに、\n• 自身の【移動力】は+1mvの修正を受ける。\n• 自身が装備している武器の【攻撃回数】は+1の修正を受ける。"
+  },
+  "Spearhead|Grinding Advance": {
+   "timing": "バトル中1回限り、初期配置フェイズ",
+   "declare": "味方**インファーナル・コホート**・ユニットを最大2個まで選択する。",
+   "effect": "選択された各ユニットはただちに最大3mvまで移動してもよいが、第1バトルラウンド中に**突撃**アビリティを使用することはできない。"
+  },
+  "Spearhead|Harness Daemonic Power": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "effect": "各自軍側ヒーローフェイズ開始時に、自軍はこのアビリティを使用しなければならない。各味方ユニットからすべての**魔瘴力ポイント**を取り除く。その後、自軍は現在のバトルラウンド数に1加算した**魔瘴力ポイント**を獲得する。\nさらにその後、自軍の**魔瘴力ポイント**を味方ユニットに割り振る。各ユニットは、最大3点までの**魔瘴力ポイント**を保持することができる。割り振らなかった**魔瘴力ポイント**は失われる。\nデザイナーズノート：自軍側ユニットは、保持している魔瘴力ポイントの多さによって効果が高まるアビリティを有している。色付きのダイスを使用して、各ユニットがどれだけのポイントを保持しているのか分かりやすくすることを推奨する。"
+  },
+  "Spearhead|Infernal Cohort with Hashutite Spears|Daemonic Resilience": {
+   "timing": "パッシブ",
+   "effect": "下記の効果から、このユニットが保持している**魔瘴力ポイント**（DPP）に対応する効果を適用する：\nDPP 効果\n1 このユニットは**加護（6+）**を持つ。\n2 このユニットは**加護（5+）**を持つ。\n3 このユニットは**加護（5+）**を持ち、各フェイズ中、最初に割り振られる1ポイントのダメージを無視する。"
+  },
+  "Spearhead|Infernal Cohort with Hashutite Spears|Strike the Gongs": {
+   "timing": "バトル中1回限り、任意のヒーローフェイズ",
+   "effect": "このユニットの**銅鑼持ち**（存在する場合）は、トークンである。自軍は**銅鑼持ち**を戦場から取り除くことで、このユニット内の撃破されている兵をD3体復帰させることができる。"
+  },
+  "Spearhead|Scroll of Petrification": {
+   "timing": "バトル中1回限り、任意のヒーローフェイズ",
+   "effect": "そのターン中、自軍側ジェネラルは**加護（2+）**を持つが、アビリティを使用できず、味方によるアビリティの対象として選択することもできない。"
+  },
+  "Spearhead|Suppressive Bombardment": {
+   "timing": "各ターンにつき1回、自軍側遠隔フェイズ",
+   "declare": "このターン中に味方**トーメンター・ボンバード**のレンジアタックによって1ポイント以上のダメージが割り振られた敵**歩兵**・ユニットを1個選択する。",
+   "effect": "次の自軍側ターン開始時まで、選択された敵ユニットが用いる突撃ロールのダイス個数は1減算される（この効果により、ロールするダイスが1個を下回ることはない）。"
+  },
+  "Spearhead|Talisman of Obsidian": {
+   "timing": "パッシブ",
+   "effect": "各フェイズ中、自軍側ジェネラルに割り振られるダメージの最初の1ポイントは無視される。"
+  },
+  "Spearhead|Tormentor Bombard|Calculated Trajectory": {
+   "timing": "パッシブ",
+   "effect": "このユニットから12mvより遠く離れており、5体以上の兵を含む敵ユニットを攻撃対象にする場合、このユニットのレンジアタックはヒットロールに+1の修正を受ける。"
+  },
+  "Spearhead|Tormentor Bombard|Ruinous Bombardment": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+   "declare": "このユニットがこのターン中に『**遠隔攻撃**』アビリティを使用しており、かつそのすべての攻撃が同一の敵ユニットを対象にしていた場合、その敵ユニットを選択する。その後、自軍はその敵ユニットの6mv以内に一部でも入っている敵ユニットを、このユニットが保持している**魔瘴力ポイント**に等しい数まで、追加で選択してもよい。",
+   "effect": "選択された各敵ユニットに対して、それぞれダイスを1個ロールする。ロール結果が3+であれば、そのターン中、ロール対象の敵ユニットの確保スコアは-3の修正を受ける。"
+  },
+  "Spearhead|War Despot|Black-hearted Conqueror": {
+   "timing": "パッシブ",
+   "effect": "このユニットが**魔瘴力ポイント**を1点でも有する間、味方ユニットで**魔瘴力ポイント**を0点を持つユニットは、このユニットの6mv以内に全体が入っており、かつこのユニットから視認状態であるならば**魔瘴力ポイント**を1点持つものとして扱われる。\nこのユニットが有する1点の**魔瘴力ポイント**ごとに、このアビリティの効果範囲は+3mvの修正を受ける。"
+  },
+  "Storm of Obsidian Shards": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この奇蹟を祈願する際に、味方**ヘルスミス・オヴ・ハシュット・神官**を1体選択する。その後、選択された神官の18mv以内に一部でも入っており、かつその神官から視認状態である敵ユニットを1個選択し、D6の祈願ロールをする。",
+   "effect": "選択された敵ユニットは、D3ポイントの致命的ダメージを受ける。そのターン中、その敵ユニットの確保スコアは-3の修正を受ける。祈願ロールが10+であった場合、自軍は冒頭の条件を満たす別の敵ユニットをさらに1個選択してもよい。",
+   "keywords": "奇蹟"
+  },
+  "The Blood of the Bull|Infernal Empowerment": {
+   "timing": "パッシブ",
+   "effect": "**このユニットが持っている**魔瘴力ポイント（DPP）の数に対応する効果を適用する。これらの効果は累積する。\nDPP 効果\n1+ このユニットは【移動力】に+1mvの修正を受ける。\n2+ このユニットのメレーアタックは、ウーンズロールに+1の修正を受ける。\n3 このユニットが装備している近接武器は【貫通値】に+1の修正を受ける。"
+  },
+  "Tormentor Bombard|Calculated Trajectory": {
+   "timing": "パッシブ",
+   "effect": "このユニットから12mvより遠く離れており、5体以上の兵を含む敵ユニットを対象とする場合、このユニットのレンジアタックはヒットロールに+1の修正を受ける。"
+  },
+  "Tormentor Bombard|Ruinous Bombardment": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+   "declare": "このユニットがこのターン中に**『遠隔攻撃』**アビリティを使用しており、そのすべての攻撃が同一の敵ユニットを対象としていた場合、その敵ユニットを選択する。\nその後、選択された敵ユニットの6mv以内に一部でも入っている敵ユニットを、このユニットが保持している**魔瘴力ポイント**の点数と等しい数まで追加で選択してもよい。",
+   "effect": "選択された各敵ユニットに対して、それぞれダイスを1個ロールする。ロール結果が3+であれば、次の自軍ターン開始時まで、ロール対象の敵ユニットは指揮アビリティを使用できない。"
+  },
+  "Urak Taar, the First Daemonsmith|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**ゴラコスの角と蹄**の【攻撃回数】は4になる。"
+  },
+  "Urak Taar, the First Daemonsmith|Master of Daemonic Power": {
+   "timing": "敵軍側ヒーローフェイズ",
+   "effect": "合計で最大3点までの**魔瘴力ポイント**を、このユニットの18mv以内に全体が入っている任意の味方ユニットの組み合わせで取り除く。その後、取り除いた分の点数を、このユニットの18mv以内に全体が入っている、ホブグロットではない味方**ヘルスミス・オヴ・ハシュット**・ユニット1個に割り振る。"
+  },
+  "Urak Taar, the First Daemonsmith|Peerless Among Daemonsmiths": {
+   "timing": "パッシブ",
+   "effect": "下記の効果から、このユニットが保持している**魔瘴力ポイント**（DPP）に対応する効果を適用する。\nDPP 効果\n1 このユニットは**加護（6+）**を持つ。\n2 このユニットの詠唱ロールは+1の修正を受ける。さらに、このユニットは**加護（5+）**を持つ。\n3 このユニットの詠唱ロールは+2の修正を受ける。さらに、このユニットは**呪文**や**奇蹟**からのダメージに対して、また**顕現**が使用するアビリティからのダメージに対して**加護（4+）**を持つ。それ以外の場合、このユニットは**加護（5+）**を持つ。"
+  },
+  "Urak Taar, the First Daemonsmith|Pitiless Trampling": {
+   "timing": "各ターンにつき1回（アーミー）、任意の突撃フェイズ",
+   "declare": "このユニットがこのフェイズ中に突撃を実行している場合、自身の1mv以内に一部でも入っている敵ユニットを1個選択する。",
+   "effect": "選択された敵ユニットはD3ポイントの致命的ダメージを受ける。その後、2D6をロールする。このユニットはロール結果の数値までの距離を移動できる。その移動中、このユニットはその敵ユニット内にいる兵を通り抜けることができるが、近接戦闘に突入するように移動を完了しなければならない。",
+   "keywords": "蹂躙"
+  },
+  "Urak Taar, the First Daemonsmith|The Curse of Stone": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの9mv以内にある戦場の地点を、1つ目の地点として選択する。次に、その地点から9mv以内にある戦場の地点を、2つ目の地点として選択する。詠唱者から1つ目の地点、1つ目から2つ目の地点へと直線を引く。それらの直線が通り抜けた各敵ユニットを選択する。その後、2D6の詠唱ロールをする。",
+   "effect": "選択された各敵ユニットに対して、それぞれD3を1個ロールする。ロール結果が2+であれば、ロール対象の敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。",
+   "keywords": "呪文"
+  },
+  "War Despot|'Fight, You Scum!\"": {
+   "timing": "リアクション：このユニットが『近接攻撃』アビリティを宣言",
+   "effect": "このターン中に『**近接攻撃**』アビリティを使用しておらず、かつこのユニットの近接範囲内に一部でも入っている英雄ではない味方**ヘルスミス・オヴ・ハシュット・歩兵**・ユニットを1個選択する。このユニットが使用した『**近接攻撃**』アビリティを解決した直後に、選択された味方ユニットはただちに『**近接攻撃**』アビリティを使用できる。その味方ユニットが『近接攻撃』アビリティを使用した場合、そのターン中、その味方ユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。"
+  },
+  "War Despot|Black-hearted Conqueror": {
+   "timing": "パッシブ",
+   "effect": "このユニットの6mv以内に全体が入っている味方**ヘルスミス・オヴ・ハシュット・歩兵**・ユニットの確保スコアは+3の修正を受ける。このユニットが保持している**魔瘴力ポイント**1点ごとに、その効果範囲は+6mvずつ拡大する。"
+  }
+ },
+ "group_names": {
+  "Accursed Devices": "破滅呪の装置",
+  "Castigation Battery": "排撃の砲列",
+  "Daemonsmith Cabal": "魔瘴鍛治師結社",
+  "Dark Gifts of Hashut": "ハシュットの昏き恩寵",
+  "Domination Force": "殲滅軍",
+  "Hashutite Host": "ハシュット信徒の軍勢",
+  "Helforge Host": "煉獄炉の軍団",
+  "Helsmiths of Hashut Battle Traits": "戦闘特性",
+  "Industrial Polluters": "黒煙の錬金卿",
+  "Lore of Infernal Power": "煉獄の呪文伝承",
+  "Prayers of the Scorched Sect": "焼尽の修道会の奇蹟伝承",
+  "The Bullfather's Horns": "父なる雄牛神の角",
+  "Tyrants and Overseers": "圧制者と監督者"
+ },
+ "group_texts": {
+  "Accursed Devices": "『破滅呪の装置』は**ヘルスミス・オヴ・ハシュット・戦闘兵器**・ユニットに付与できる固有強化である。\n1個のユニットは、『破滅呪の装置』を1個だけ持つことができる。",
+  "Dark Gifts of Hashut": "（**英雄**のみ）",
+  "Helforge Host Enhancements": "自軍側ジェネラルに、以下の強化の中から1つを付与する。",
+  "Helforge Host Regiment Abilities": "以下の連隊アビリティの中から1つを選択する。",
+  "Helsmiths of Hashut Battle Traits": "ヘルスミス・オヴ・ハシュットは以下のアビリティを使用できる：",
+  "Tyrants and Overseers": "（**英雄**のみ）"
+ },
+ "wargear_option_texts": {
+  "The Blood of the Bull": "このユニット内の兵は以下の通り：\n• **“憎悪激しき”ザルドラッカ**（豪傑、魔炎の武器装備）\n• **軍旗手イムニドリン**（旗手、魔炎の武器装備）\n• **モルドック**（魔炎の武器装備）\n• **“焼却者”トッコー**（大獄炎の火炎放射器と刃と鉄拳装備）\n• **リスク・バックスタッバ**（刃と鉄拳装備）"
+ }
+}
