@@ -16,7 +16,7 @@ build 関数で全 md をメモリ上に生成し (ファイルは書かない)�
   python3 check_translations.py --dump dump.json
   python3 check_translations.py --dump dump.json --fail   # 見つかったら終了コード 1
 """
-import argparse, importlib.util, json, os, sys
+import argparse, importlib.util, json, os, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SKILLS = os.path.join(HERE, "..", "..")
@@ -61,10 +61,21 @@ def known_names(d):
     for t in ("warscroll_ability", "ability", "battle_formation_rule", "lore_ability",
               "terrain_ability"):
         abilities |= {x["name"] for x in d.get(t, []) if x.get("name")}
+    keywords = {k["name"] for k in d.get("keyword", [])}
+    for w in d["warscroll"]:
+        keywords |= {k.strip() for k in (w.get("referenceKeywords") or "").split(",") if k.strip()}
+    groups = {x["name"] for t in ("ability_group", "battle_formation", "lore") for x in d.get(t, [])}
+    groups |= {re.sub(r"^Spearhead( Battlepack)?:\s*", "", p["name"]) for p in d["publication"]}
     return {
         "unit_names": {w["name"] for w in d["warscroll"]},
         "weapon_names": {x["name"] for x in d["warscroll_weapon"]},
         "ability_names": abilities,
+        "ability_texts": abilities,
+        "keyword_names": keywords,
+        "weapon_ability_names": {x["name"] for x in d.get("weapon_ability", [])},
+        "group_names": groups,
+        "group_texts": groups,
+        "wargear_option_texts": {w["name"] for w in d["warscroll"]},
     }
 
 
@@ -101,8 +112,10 @@ def check(dump_path, raw):
                         problems.append((rel, sec, key, "公式訳に同じキーがあるので使われない"))
                     continue
                 unit, _, name = key.rpartition("|")
+                if unit == "Spearhead" or unit.startswith("Spearhead|"):
+                    unit = unit[len("Spearhead"):].lstrip("|")
                 if (slug, sec, key) in shadowed:
-                    why = "出てくる箇所がすべて「ユニット|%s」のキーで上書きされていて使われない" % key
+                    why = "出てくる箇所がすべて、より具体的なキー（「ユニット|%s」や「Spearhead|…」）で上書きされていて使われない" % key
                 elif unit and unit not in unit_set:
                     why = "ユニット「%s」が dump.json に無い（削除・改名）" % unit
                 elif name not in names[sec]:

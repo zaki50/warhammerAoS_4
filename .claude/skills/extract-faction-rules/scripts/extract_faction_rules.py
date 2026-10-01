@@ -28,9 +28,9 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."
 from aos_translations import Translations  # noqa: E402
 
 GROUP_SECTIONS = [
-    ("battleTraits", "バトル特性"),
+    ("battleTraits", "戦闘特性"),
     ("heroicTraits", "英雄特性"),
-    ("artefactsOfPower", "アーティファクト・オブ・パワー"),
+    ("artefactsOfPower", "神器"),
     ("otherEnhancements", "その他の強化"),
 ]
 
@@ -69,9 +69,10 @@ def render_ability(a, indent="  ", tr=None):
     """ability / battle_formation_rule / lore_ability を共通の箇条書きで描画。"""
     lines = []
     head = "- **%s**" % (tr.ability(a.get("name")) if tr else a.get("name"))
+    tx = (tr.text(a.get("name")) if tr else None) or {}
     tags = []
-    if a.get("phaseDetails"):
-        tags.append(a["phaseDetails"])
+    if tx.get("timing") or a.get("phaseDetails"):
+        tags.append(tx.get("timing") or a["phaseDetails"])
     if a.get("castingValue"):
         tags.append("詠唱/詠誦値 %s" % a["castingValue"])
     if a.get("cpCost"):
@@ -81,11 +82,16 @@ def render_ability(a, indent="  ", tr=None):
     if tags:
         head += "（%s）" % " / ".join(tags)
     lines.append(head)
-    if a.get("declare"):
-        lines.append("%s- 宣言: %s" % (indent, clean(a["declare"])))
-    if a.get("effect"):
-        lines.append("%s- 効果: %s" % (indent, clean(a["effect"])))
-    if not a.get("declare") and not a.get("effect"):
+    used_by = tx.get("used_by") or a.get("usedBy")
+    declare = tx.get("declare") or a.get("declare")
+    effect = tx.get("effect") or a.get("effect")
+    if used_by:
+        lines.append("%s- 使用者: %s" % (indent, clean(used_by)))
+    if declare:
+        lines.append("%s- 宣言: %s" % (indent, clean(declare)))
+    if effect:
+        lines.append("%s- 効果: %s" % (indent, clean(effect)))
+    if not declare and not effect:
         for k in ("additionalRulesText", "subsectionRulesText"):
             if a.get(k):
                 lines.append("%s- %s" % (indent, clean(a[k])))
@@ -149,7 +155,7 @@ def build(dump_path, fid, raw):
         return "（出典: %s）" % ", ".join(names) if names else ""
 
     out = []
-    out.append("# %s ファクションルール\n" % fname)
+    out.append("# %s ファクションルール\n" % tr.faction(fname))
     out.append(provenance(dump_path, data_version))
     n_items = 0
 
@@ -161,25 +167,25 @@ def build(dump_path, fid, raw):
         out.append("\n## %s\n" % title)
         for g in sorted(gs, key=lambda x: x["name"]):
             legends = " (Legends)" if g.get("isLegends") else ""
-            out.append("\n### %s%s%s\n" % (g["name"], legends, pub_suffix(g["id"])))
+            out.append("\n### %s%s%s\n" % (tr.group(g["name"]), legends, pub_suffix(g["id"])))
             if g.get("restrictionText"):
-                out.append("%s\n" % clean(g["restrictionText"]))
+                out.append("%s\n" % clean(tr.group_text(g["name"], g["restrictionText"])))
             for a in ab_by_group.get(g["id"], []):
                 out.extend(render_ability(a, tr=tr))
                 n_items += 1
 
-    emit_groups("battleTraits", "バトル特性")
+    emit_groups("battleTraits", "戦闘特性")
 
     bfs = [b for b in d["battle_formation"] if b.get("factionId") == fid]
     if bfs:
-        out.append("\n## バトルフォーメーション\n")
+        out.append("\n## 戦闘陣形\n")
         for b in sorted(bfs, key=lambda x: x["name"]):
             tags = []
             if b.get("points"):
                 tags.append("%spt" % b["points"])
             if b.get("isLegends"):
                 tags.append("Legends")
-            out.append("\n### %s%s\n" % (b["name"],
+            out.append("\n### %s%s\n" % (tr.group(b["name"]),
                                          "（%s）" % ", ".join(tags) if tags else ""))
             for r in bfr_by_bf.get(b["id"], []):
                 out.extend(render_ability(r, tr=tr))
@@ -190,12 +196,12 @@ def build(dump_path, fid, raw):
 
     lores = [l for l in d["lore"] if l.get("factionId") == fid]
     if lores:
-        out.append("\n## ロア（呪文・祈祷・顕現）\n")
+        out.append("\n## 伝承（呪文・奇蹟・顕現）\n")
         for l in sorted(lores, key=lambda x: x["name"]):
             pts = "（%spt）" % l["points"] if l.get("points") else ""
-            out.append("\n### %s%s\n" % (l["name"], pts))
+            out.append("\n### %s%s\n" % (tr.group(l["name"]), pts))
             if l.get("restrictionText"):
-                out.append("%s\n" % clean(l["restrictionText"]))
+                out.append("%s\n" % clean(tr.group_text(l["name"], l["restrictionText"])))
             for a in sorted(la_by_lore.get(l["id"], []),
                             key=lambda x: (x.get("castingValue") or 0, x["name"])):
                 out.extend(render_ability(a, tr=tr))

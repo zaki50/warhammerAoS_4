@@ -85,13 +85,14 @@ def build_indexes(d):
     }
 
 
-def render_ability_lines(a, kw_names=None, indent="  ", tr=None, unit=None):
+def render_ability_lines(a, kw_names=None, indent="  ", tr=None, unit=None, spearhead=False):
     lines = []
     name = tr.ability(a.get("name"), unit) if tr else a.get("name")
+    tx = (tr.text(a.get("name"), unit, spearhead) if tr else None) or {}
     head = "- **%s**" % name
     tags = []
-    if a.get("phaseDetails"):
-        tags.append(a["phaseDetails"])
+    if tx.get("timing") or a.get("phaseDetails"):
+        tags.append(tx.get("timing") or a["phaseDetails"])
     if a.get("castingValue"):
         tags.append("詠唱/詠誦値 %s" % a["castingValue"])
     if a.get("cpCost"):
@@ -100,14 +101,21 @@ def render_ability_lines(a, kw_names=None, indent="  ", tr=None, unit=None):
         tags.append("%spt" % a["points"])
     if tags:
         head += "（%s）" % " / ".join(tags)
-    if kw_names:
+    if tx.get("keywords"):
+        head += " ［%s］" % tx["keywords"]
+    elif kw_names:
         head += " ［%s］" % ", ".join(kw_names)
     lines.append(head)
-    if a.get("declare"):
-        lines.append("%s- 宣言: %s" % (indent, clean(a["declare"])))
-    if a.get("effect"):
-        lines.append("%s- 効果: %s" % (indent, clean(a["effect"])))
-    if not a.get("declare") and not a.get("effect"):
+    used_by = tx.get("used_by") or a.get("usedBy")
+    declare = tx.get("declare") or a.get("declare")
+    effect = tx.get("effect") or a.get("effect")
+    if used_by:
+        lines.append("%s- 使用者: %s" % (indent, clean(used_by)))
+    if declare:
+        lines.append("%s- 宣言: %s" % (indent, clean(declare)))
+    if effect:
+        lines.append("%s- 効果: %s" % (indent, clean(effect)))
+    if not declare and not effect:
         for k in ("additionalRulesText", "subsectionRulesText"):
             if a.get(k):
                 lines.append("%s- %s" % (indent, clean(a[k])))
@@ -129,7 +137,7 @@ def render_warscroll(w, ix, out, tr):
         out.append(" / ".join(info) + "\n")
 
     ward = w.get("wardSave")
-    cols = ["Move", "Health", "Save", "Control"] + (["Ward"] if ward else [])
+    cols = ["移動力", "体力", "防御力", "確保力"] + (["加護"] if ward else [])
     vals = [w.get("move"), w.get("health"), w.get("save"), w.get("control")] \
         + ([ward] if ward else [])
     out.append("**ステータス:**\n")
@@ -142,15 +150,15 @@ def render_warscroll(w, ix, out, tr):
     def wab_names(weapon):
         rows = sorted(ix["wwa_by_weapon"].get(weapon["id"], []),
                       key=lambda x: x.get("displayOrder") or 0)
-        return [ix["weapon_ability"][r["weaponAbilityId"]]["name"]
+        return [tr.weapon_ability(ix["weapon_ability"][r["weaponAbilityId"]]["name"])
                 for r in rows if r["weaponAbilityId"] in ix["weapon_ability"]]
 
     weapons = ix["weapons_by_ws"].get(wid, [])
     ranged = [x for x in weapons if x.get("type") == "ranged"]
     melee = [x for x in weapons if x.get("type") != "ranged"]
     if ranged:
-        out.append("\n**射撃武器:**\n")
-        out.append("| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |")
+        out.append("\n**遠隔武器:**\n")
+        out.append("| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |")
         out.append("|---|---|---|---|---|---|---|---|")
         for x in ranged:
             nm = tr.weapon(x["name"], unit) + ("（戦傷時）" if x.get("battleDamaged") else "")
@@ -160,7 +168,7 @@ def render_warscroll(w, ix, out, tr):
                 cell(x.get("damage")), cell(", ".join(wab_names(x)) or "-")))
     if melee:
         out.append("\n**近接武器:**\n")
-        out.append("| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |")
+        out.append("| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |")
         out.append("|---|---|---|---|---|---|---|")
         for x in melee:
             nm = tr.weapon(x["name"], unit) + ("（戦傷時）" if x.get("battleDamaged") else "")
@@ -175,10 +183,11 @@ def render_warscroll(w, ix, out, tr):
         for a in abilities:
             kws = [ix["keyword"].get(r["keywordId"])
                    for r in ix["wakw_by_ability"].get(a["id"], [])]
-            out.extend(render_ability_lines(a, [k for k in kws if k], tr=tr, unit=unit))
+            out.extend(render_ability_lines(a, [k for k in kws if k], tr=tr, unit=unit,
+                                            spearhead=True))
 
     if w.get("referenceKeywords"):
-        out.append("\n**キーワード:** %s" % w["referenceKeywords"])
+        out.append("\n**キーワード:** %s" % tr.keywords(w["referenceKeywords"], unit))
     if w.get("notes"):
         out.append("\n**ノート:** %s" % clean(w["notes"]))
 
@@ -186,8 +195,8 @@ def render_warscroll(w, ix, out, tr):
 # ---- Spearhead の列挙と描画 ----
 
 GROUP_SECTION = [
-    ("battleTraits", "バトル特性"),
-    ("regimentAbilities", "レジメントアビリティ"),
+    ("battleTraits", "戦闘特性"),
+    ("regimentAbilities", "連隊アビリティ"),
     ("spearheadEnhancements", "強化"),
 ]
 
@@ -232,11 +241,11 @@ def collect_spearheads(d):
 
 def build_one(dump_path, sp, d, ix, data_version, ab_by_group):
     out = []
-    out.append("# Spearhead: %s（%s）\n" % (sp["name"], sp["faction"]))
+    tr = Translations(dump_path, sp["faction"])
+    out.append("# Spearhead: %s（%s）\n" % (tr.group(sp["name"]), tr.faction(sp["faction"])))
     out.append(provenance(dump_path, data_version))
 
     units = sorted(sp["units"], key=lambda w: (w["name"], w.get("subname") or ""))
-    tr = Translations(dump_path, sp["faction"])
     if units:
         out.append("\n## 編成\n")
         for w in units:
@@ -254,9 +263,9 @@ def build_one(dump_path, sp, d, ix, data_version, ab_by_group):
         out.append("\n## %s\n" % ("%s（%s）" % (title, g["name"]) if title
                                   else g["name"]))
         if g.get("restrictionText"):
-            out.append("%s\n" % clean(g["restrictionText"]))
+            out.append("%s\n" % clean(tr.group_text(g["name"], g["restrictionText"])))
         for a in ab_by_group.get(g["id"], []):
-            out.extend(render_ability_lines(a, tr=tr))
+            out.extend(render_ability_lines(a, tr=tr, spearhead=True))
     return "\n".join(out) + "\n"
 
 
