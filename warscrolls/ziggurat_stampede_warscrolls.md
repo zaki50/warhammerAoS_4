@@ -1,6 +1,6 @@
 # Ziggurat Stampede ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全7 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -13,13 +13,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 4 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Thrice-cursed Glaive | 3 | 3+ | 3+ | 1 | 2 | Anti-CAVALRY (+1 Rend), Charge (+1 Damage) |
 
@@ -40,13 +40,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 4 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Brazen Mauls | 4 | 3+ | 3+ | 1 | 2 | Charge (+1 Damage), Crit (Mortal) |
 
@@ -70,19 +70,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 15 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hurled Daemonfire | 18" | 3 | 4+ | 4+ | 1 | D3 | Crit (2 Hits), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Horns and Hooves（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
 | Infernal Staff | 3 | 4+ | 3+ | 1 | D3 | - |
@@ -99,7 +99,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Horns and Hooves** is 4.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Hashutite Commander*
 - Any **HELSMITHS OF HASHUT**
@@ -116,13 +116,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 10 | 2+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bane Maces | 4 | 4+ | 2+ | 1 | 3 | Charge (+1 Damage) |
 
@@ -145,19 +145,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 10 | 2+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Immolation Cannons | 8" | 5 | 2+ | 4+ | 1 | D3 | Anti-CAVALRY (+1 Rend), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Horns and Pummelling Strikes | 3 | 4+ | 3+ | 1 | D3 | Charge (+1 Damage) |
 
@@ -179,13 +179,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 4 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Thrice-cursed Glaive | 3 | 3+ | 3+ | 1 | 2 | Anti-CAVALRY (+1 Rend), Charge (+1 Damage) |
 
@@ -210,19 +210,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 15 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hurled Daemonfire | 18" | 3 | 4+ | 4+ | 1 | D3 | Crit (2 Hits), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Horns and Hooves（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
 | Infernal Staff | 3 | 4+ | 3+ | 1 | D3 | - |
@@ -239,7 +239,7 @@
   - 宣言: Pick up to 3 enemy units in combat with this unit to be the targets.
   - 効果: Roll a dice for each target. If the roll is lower than your **fury level**, for the rest of the turn: • The target cannot use the ‘Eruption of Fury’ ability. • When resolving the damage sequence for the target, your opponent cannot spend **rage dice** as part of the ‘Fight Through the Pain’ ability. • Add 1 to the Rend characteristic of weapons used for attacks that target that enemy unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Hashutite Commander*
 - Any **HELSMITHS OF HASHUT**

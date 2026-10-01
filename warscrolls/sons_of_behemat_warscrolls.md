@@ -1,6 +1,6 @@
 # Sons of Behemat ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全14 ウォースクロール（Spearhead 版 2 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 7 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Mighty Horns and Hooves | 3 | 4+ | 2+ | 2 | 2 | Charge (+1 Damage), Companion |
 
@@ -46,13 +46,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 25 | 4+ | 10 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Menhir Club: Calamitous Sweep（戦傷時） | 16 | 3+ | 3+ | 1 | 1 | Crit (Auto-wound) |
 | Almighty Stomp | 3 | 4+ | 2+ | 2 | D3 | - |
@@ -69,7 +69,7 @@
 - **Primal Aura**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
   - 効果: Make a rampage roll of D6. Add 1 to the roll for each other friendly **BIG** or **LITTLE** unit that is in combat and within this unit's combat range. On a 3+, subtract 1 from ward rolls for damage points inflicted by abilities used by this unit for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Eager Lout*
 - Any **SONS OF BEHEMAT**
@@ -88,13 +88,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 12 | 5+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stomper's Clubs | 7 | 4+ | 2+ | 1 | 2 | - |
 | 'Eadbutt | 1 | 4+ | 2+ | 2 | 3 | - |
@@ -118,19 +118,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 25 | 4+ | 10 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hurled Boulder | 18" | 1 | 3+ | 2+ | 2 | 4 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Almighty Stomp | 3 | 4+ | 2+ | 2 | D3 | - |
 | Fortcrusha Flail: Calamitous Sweep（戦傷時） | 16 | 3+ | 3+ | 1 | 1 | Crit (Auto-wound) |
@@ -148,7 +148,7 @@
   - 宣言: Pick a terrain feature within 3" of this unit that is not **uprooted**, then pick a friendly **SONS OF BEHEMAT** unit within 3" of that terrain feature to be the target.
   - 効果: Make a rampage roll of D6. On a 3+: • If the target is another **BIG** unit, excluding **Gatebreaker Mega-Gargants**, it is armed with a **Hurled Boulder** for the rest of the turn (see the weapon profile on this unit's warscroll. Modifiers to this unit's ranged weapons or shooting attacks do not apply to the target). • If the target is a **Gatebreaker Mega-Gargant** or a **LITTLE** unit, add 1 to the Attacks characteristic of its ranged weapons for the rest of the turn. • That terrain feature is **uprooted** for the rest of the battle. If it is **FACTION TERRAIN**, inflict an amount of mortal damage on it equal to the rampage roll.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Eager Lout*
 - Any **SONS OF BEHEMAT**
@@ -167,13 +167,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 28 | 4+ | 10 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Obelisk of Tor Crania: Calamitous Sweep（戦傷時） | 20 | 3+ | 3+ | 1 | 1 | Crit (Auto-wound) |
 | Obelisk of Tor Crania: Crushing Blow（戦傷時） | 6 | 4+ | 2+ | 2 | 5 | - |
@@ -195,7 +195,7 @@
   - 宣言: Pick a visible enemy unit within 18" of this unit to be the target.
   - 効果: If there are 3 or more friendly **BIG** or **LITTLE** models in combat with the target, apply the effect below. Otherwise, make a rampage roll of D6. On a 3+, apply the effect below. For the rest of the turn, subtract 1 from hit rolls for the target's combat attacks while it is in combat with 2 or more friendly **BIG** or **LITTLE** models.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Eager Lout*
 - Any **SONS OF BEHEMAT**
@@ -212,13 +212,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 18 | 4+ | 15 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Hooves of Wrack and Ruin | 6 | 3+ | 2+ | 1 | 2 | - |
 | The Dread Mace（戦傷時） | 6 | 3+ | 2+ | 3 | 4 | - |
@@ -237,7 +237,7 @@
 - **The Shield Inviolate**（Reaction: Opponent declared a SPELL ability）
   - 効果: If this unit was picked to be the target of that spell, roll a dice. On a 3+, ignore the effect of that spell on this unit. This unit can use this ability more than once per phase but only once per **SPELL** ability.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SONS OF BEHEMAT**
 
@@ -253,13 +253,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 25 | 4+ | 10 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Almighty Stomp | 3 | 4+ | 2+ | 2 | D3 | - |
 | Shipwrecka Warclub: Calamitous Sweep（戦傷時） | 16 | 3+ | 3+ | 1 | 1 | Crit (Auto-wound) |
@@ -278,7 +278,7 @@
   - 宣言: Pick another visible friendly **BIG** or **LITTLE** unit wholly within 12" of this unit to be the target.
   - 効果: If this unit is contesting its **loot hoard**, apply the effect below. Otherwise, make a rampage roll of D6. On a 3+, apply the effect below. Add 1 to charge rolls for the target for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Eager Lout*
 - Any **SONS OF BEHEMAT**
@@ -297,13 +297,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 15 | 4+ | 10 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spear of Krum Kalda（戦傷時） | 4 | 4+ | 2+ | 2 | 4 | - |
 
@@ -323,7 +323,7 @@
   - 宣言: Pick another visible friendly **LITTLE** unit wholly within 12" of this unit to be mighty.
   - 効果: Pick 1 of the following effects: • For the rest of the turn, each time you make an unmodified wound roll of 6 for a combat attack made by the mighty unit, inflict 1 mortal damage on the target of the attack after the **FIGHT** ability has been resolved. • Pick a point on the battlefield within 1" of the **mighty** unit, then pick a friendly non-**UNIQUE BIG** unit that has been destroyed to be the target. Set up a replacement unit identical to the target within 1" of that point, then allocate 10 damage points to it (ward rolls cannot be made for those damage points). The replacement unit can only be set up in combat with units that the **mighty** unit was in combat with when it was picked to be **mighty**. Then, 1 model in the **mighty** unit is slain.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - **Ancient Ghyrochs** (required)
 - 0-1 *Eager Lout*
@@ -341,19 +341,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 12 | 5+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Throwin' Rocks | 12" | 1 | 4+ | 2+ | 1 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | ’Eadbutt | 1 | 4+ | 2+ | 2 | 3 | - |
 | Gigantic Weapon | 5 | 4+ | 2+ | 1 | 2 | - |
@@ -378,19 +378,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 12 | 5+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hurlin' Rocks | 12" | 3 | 4+ | 2+ | 1 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Massive Clubs and Rocks | 4 | 4+ | 2+ | 1 | 2 | - |
 | 'Eadbutt | 1 | 4+ | 2+ | 2 | 3 | - |
@@ -414,19 +414,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 25 | 4+ | 10 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hurled Boulder | 18" | 1 | 3+ | 2+ | 2 | 4 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fortcrusha Flail: Crushing Blow（戦傷時） | 6 | 4+ | 2+ | 2 | 4 | - |
 | Almighty Stomp | 3 | 4+ | 2+ | 2 | D3 | - |
@@ -443,7 +443,7 @@
 - **Off in a Huff**（Once Per Turn (Army), Your Movement Phase） ［Core, Move］
   - 効果: You and your opponent must roll off. Each player adds their **fury level** to their roll. Then, this unit can move a distance up to its Move characteristic. It can move through the combat ranges of enemy units, but it cannot end that move in combat unless you won the roll-off.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Eager Lout*
 - Any **SONS OF BEHEMAT**
@@ -462,19 +462,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 12 | 5+ | 10 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Throwin’ Rocks | 12" | 1 | 5+ | 2+ | 2 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | ’Eadbutt | 1 | 4+ | 2+ | 2 | 4 | - |
 | Mighty Kick | 1 | 4+ | 2+ | 2 | D3 | - |
@@ -499,19 +499,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 35 | 4+ | 20 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hurled Debris | 24" | 3 | 4+ | 3+ | 1 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spine-shattering Stomp | 4 | 4+ | 2+ | 2 | D3 | Anti-INFANTRY (+1 Rend) |
 | Shipwrecka Warclub（戦傷時） | 4 | 4+ | 2+ | 2 | 5 | - |
@@ -532,7 +532,7 @@
   - 宣言: Pick this unit if it has not been deployed.
   - 効果: Set up this unit in reserve **beneath the waves**. It has now been deployed.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Eager Lout*
 - Any **SONS OF BEHEMAT**
@@ -551,13 +551,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 25 | 4+ | 10 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Titanic Boulderclub: Calamitous Sweep（戦傷時） | 16 | 3+ | 3+ | 1 | 1 | Crit (Auto-wound) |
 | Almighty Stomp | 3 | 4+ | 2+ | 2 | D3 | - |
@@ -576,7 +576,7 @@
   - 宣言: Pick another visible friendly **BIG** or **LITTLE** unit wholly within 12" of this unit and that has not been set up this turn to be the target.
   - 効果: The target can move 2D6". It can pass through and end that move within the combat ranges of enemy units that it was in combat with at the start of the move, but not those of other enemy units. It does not have to end the move in combat.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Eager Lout*
 - Any **SONS OF BEHEMAT**

@@ -1,9 +1,9 @@
 # Champions of the Arena ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Champions of the Arena Battle Traits（出典: Army of Renown: Champions of the Arena）
@@ -29,7 +29,7 @@
 - **Hero of the Killing Games**（Any Combat Phase）
   - 効果: For the rest of the turn, while this unit is in combat with any enemy **HEROES**: • Add 1 to the Attacks, Rend and Damage characteristics of this unit’s melee weapons. • All of its combat attacks must target the same enemy **HERO**.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Champions of the Arena Artefact of Power（出典: Army of Renown: Champions of the Arena）
@@ -39,7 +39,7 @@
 - **Death Razor**（Reaction: You declared a **FIGHT** ability for this unit）
   - 効果: After that **FIGHT** ability has been resolved, if any enemy models were slain by this unit’s attacks made as part of that **FIGHT** ability, you can pick a friendly **CHAMPIONS OF THE ARENA PRIEST** wholly within 12" of this unit to be the target. Instead of making a chanting roll for the next **PRAYER** ability used by the target, you can use a value of 10 for the roll that cannot be modified, even if this unit has been destroyed.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Champions of the Arena Manifestation Lore

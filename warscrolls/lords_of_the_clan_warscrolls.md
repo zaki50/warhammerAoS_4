@@ -1,6 +1,6 @@
 # Lords of the Clan ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全12 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,7 +15,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 8 | 4+ | - |
 
@@ -50,13 +50,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 7 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Guardian Spites | 6 | 4+ | 4+ | 1 | D3 | Crit (Mortal), Companion |
 | Grove Sickle or Shears | 3 | 3+ | 4+ | 1 | D3 | - |
@@ -70,7 +70,7 @@
   - 宣言: Pick each friendly non-**HERO REVENANT** unit wholly within 12" of and visible to this unit to be the targets.
   - 効果: For the rest of the phase, each time a model in a target unit is slain by a combat attack, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SYLVANETH**
 
@@ -84,19 +84,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Kurnoth Greatbow | 18" | 2 | 3+ | 3+ | 1 | 2 | Anti-CAVALRY (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Vicious Claws | 3 | 3+ | 3+ | - | 1 | - |
 
@@ -117,13 +117,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kurnoth Greatscythe | 3 | 3+ | 3+ | 1 | 3 | Anti-charge (+1 Rend) |
 
@@ -145,13 +145,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kurnoth Greatsword | 4 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -173,13 +173,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kurnoth Greatsword | 4 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -204,19 +204,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 14 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Doom Tendril Staff | 18" | 4 | 4+ | 2+ | 1 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sweeping Blows（戦傷時） | 5 | 4+ | 2+ | 1 | 2 | Anti-charge (+1 Rend) |
 | Massive Impaling Talons | 2 | 4+ | 2+ | 2 | 3 | Crit (Mortal) |
@@ -231,7 +231,7 @@
   - 宣言: Pick this unit or a visible friendly **Awakened Wyldwood** wholly within 12" of this unit to be the target, then make a casting roll of 2D6.
   - 効果: Until the start of your next turn: •  Ignore the effects of enemy **SPELL** abilities on units (friendly and enemy) while they are within 6" of the target. •  Weapons used by enemy **MANIFESTATIONS** have a maximum Attacks characteristic of 1 while they are within 6" of the target
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Forest Sentinel*
 - Any **SYLVANETH**
@@ -250,19 +250,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 6+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Wild Hunt Ranged Weapons | 12" | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Tracker Weapons | 2 | 3+ | 4+ | 1 | 1 | - |
 
@@ -289,19 +289,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 14 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Verdant Blast | 12" | 5 | 4+ | 3+ | 1 | 2 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Guardian Sword（戦傷時） | 5 | 3+ | 2+ | 2 | 4 | Anti-MONSTER (+1 Rend) |
 | Massive Impaling Talons | 2 | 4+ | 2+ | 2 | 3 | Crit (Mortal) |
@@ -316,7 +316,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Guardian Sword** is 3.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Forest Sentinel*
 - Any **SYLVANETH**
@@ -333,19 +333,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 10 | 4+ | 5 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Kurnotheal’s Wrath | 12" | 1 | 2+ | 2+ | 2 | D6 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kurnotheal’s Wrath and Lashing Vines | 6 | 3+ | 3+ | 2 | 2 | Crit (Mortal) |
 
@@ -361,7 +361,7 @@
   - 宣言: Pick a terrain feature within 18" of this unit that has a friendly **overgrown token** to be the target.
   - 効果: The next time this unit uses a non-**SUMMON SPELL** ability this phase, when picking targets for that spell, you can measure range and visibility from the target terrain feature instead of from this unit, and your opponent can measure range and visibility to the target terrain feature instead of to this unit for the purposes of the ‘Unbind’ ability.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SYLVANETH**
 
@@ -377,19 +377,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 14 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Strangleroots | 10" | 3 | 3+ | 2+ | 1 | 2 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Massive Impaling Talons | 2 | 4+ | 2+ | 2 | 3 | Crit (Mortal) |
 | Sweeping Blows（戦傷時） | 5 | 4+ | 2+ | 1 | 2 | Anti-charge (+1 Rend) |
@@ -417,19 +417,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 14 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Doom Tendril Staff | 18" | 4 | 4+ | 2+ | 1 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sweeping Blows（戦傷時） | 5 | 4+ | 2+ | 1 | 2 | Anti-charge (+1 Rend) |
 | Massive Impaling Talons | 2 | 4+ | 2+ | 2 | 3 | Crit (Mortal) |
@@ -445,7 +445,7 @@
   - 宣言: Pick each friendly **FOREST ELDER** within this unit’s combat range to be the targets.
   - 効果: Roll a dice for each target. On a 3+, add 1 to hit rolls for that target’s combat attacks until the start of your next turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Forest Sentinel*
 - Any **SYLVANETH**

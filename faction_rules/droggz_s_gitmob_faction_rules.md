@@ -1,9 +1,9 @@
 # Droggz's Gitmob ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Droggz's Gitmob Battle Traits（出典: Army of Renown: Droggz's Gitmob）
@@ -31,7 +31,7 @@
 - **Stick 'Em and Run**（Passive）
   - 効果: Each time this unit uses a **RETREAT** ability or the ‘Frazzlegit’s Flame Stream’ ability, before moving this unit, pick an enemy unit in combat with it and roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Droggz’s Gitmob Artefact of Power（出典: Army of Renown: Droggz's Gitmob）
@@ -42,7 +42,7 @@
   - 宣言: Pick a point on the battlefield within 9" of this unit. Each visible enemy unit within 3" of that point is a target.
   - 効果: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Droggz's Gitmob Spell Lore

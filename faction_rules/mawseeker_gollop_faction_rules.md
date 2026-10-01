@@ -1,9 +1,9 @@
 # Mawseeker Gollop ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Mawseeker Gollop Battle Traits（出典: Army of Renown: Mawseeker Gollop）
@@ -41,7 +41,7 @@
 - **Indomitable Guts**（Passive）
   - 効果: Add 1 to ward rolls for this unit.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Mawseeker Gollop Artefact of Power（出典: Army of Renown: Mawseeker Gollop）
@@ -51,7 +51,7 @@
 - **Overflowing Larder**（Once Per Battle, Your Hero Phase）
   - 効果: Gain D6 **raw ingredients**. If this unit is a **Feastmaster**, gain D3+3 **raw ingredients** instead.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Mawseeker Gollop Spell Lore

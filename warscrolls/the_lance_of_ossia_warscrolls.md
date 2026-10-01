@@ -1,6 +1,6 @@
 # The Lance of Ossia ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全5 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,7 +15,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 8 | 3+ | 2 | 6+ |
 
@@ -23,7 +23,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | The Dark Lance | 5 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage) |
 | Kavalos Steed’s Hooves, Teeth and Barbed Tails | 4 | 5+ | 3+ | - | 1 | Companion |
@@ -37,7 +37,7 @@
   - 宣言: If this unit charged this turn, pick each enemy unit in combat with it to be the targets.
   - 効果: The targets have **STRIKE-LAST** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
@@ -54,13 +54,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 3 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kavalos Blades | 3 | 3+ | 4+ | 1 | 1 | - |
 | Kavalos Steed’s Hooves and Teeth | 2 | 5+ | 3+ | - | 1 | Companion |
@@ -83,13 +83,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 10 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Charioteers' Weapons | 4 | 3+ | 4+ | 1 | 1 | - |
 | Chariot Steeds' Fangs and Claws | 6 | 5+ | 3+ | - | 1 | Companion |
@@ -115,7 +115,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 7 | 3+ | 2 | 6+ |
 
@@ -123,7 +123,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kavalos Steed’s Hooves, Teeth and Barbed Tails | 4 | 5+ | 3+ | - | 1 | Companion |
 | Commander’s Blade | 5 | 3+ | 4+ | 1 | 2 | Charge (+1 Damage) |
@@ -135,7 +135,7 @@
 - **Master of Cavalry**（Reaction: You declared a **FIGHT** ability for this unit）
   - 効果: Pick a friendly **Kavalos Deathriders** unit that has not used a **FIGHT** ability this turn and is within this unit's combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target's combat attacks for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
@@ -154,7 +154,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 12 | 3+ | 2 | 6+ |
 
@@ -162,7 +162,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Commander's Blade | 5 | 3+ | 4+ | 1 | 2 | Charge (+1 Damage) |
 | Chariot Steeds' Fangs and Claws | 6 | 5+ | 3+ | - | 1 | Companion |
@@ -176,7 +176,7 @@
   - 宣言: If this unit is in combat and has charged this turn, pick this unit and up to 2 visible friendly **Kavalos War Chariots** that have charged this turn, that are wholly within 12" of this unit and that are in combat to be the targets.
   - 効果: Each target has **WARD (5+)** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**

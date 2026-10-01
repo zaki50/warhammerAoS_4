@@ -1,6 +1,6 @@
 # Spearhead: Tzaangor Warflock（Disciples of Tzeentch）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 4 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Tzeentchian Spear and Vicious Beak | 3 | 4+ | 3+ | 1 | 2 | - |
 | Disc’s Teeth and Horns | 2 | 4+ | 3+ | 1 | D3 | Companion |
@@ -43,13 +43,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 6 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Disc’s Teeth and Horns | 2 | 4+ | 3+ | 1 | D3 | Companion |
 | Staff of Change and Ritual Dagger | 3 | 4+ | 3+ | 1 | D3 | - |
@@ -68,19 +68,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 4 | 4+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Arrow of Fate | 18" | 2 | 4+ | 3+ | 1 | 2 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Disc’s Teeth and Horns | 2 | 4+ | 3+ | 1 | D3 | Companion |
 | Bow Stave and Vicious Beak | 1 | 4+ | 3+ | - | 1 | - |
@@ -99,13 +99,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Savage Blades and Vicious Beak | 3 | 4+ | 3+ | 1 | 1 | - |
 
@@ -116,7 +116,7 @@
 
 **キーワード:** Infantry
 
-## バトル特性（Tzaangor Warflock Battle Traits）
+## 戦闘特性（Tzaangor Warflock Battle Traits）
 
 - **Fated Arrival**（Your Movement Phase）
   - 効果: Set up this unit wholly within friendly territory, within 1" of a battlefield edge and more than 6" from all enemy units.
@@ -125,7 +125,7 @@
 - **Cheat Destiny**（Reaction: You used a command on a battle tactic card）
   - 効果: Instead of discarding that card, return it face down to the bottom of your battle tactic deck.
 
-## レジメントアビリティ（Tzaangor Warflock Regiment Abilities）
+## 連隊アビリティ（Tzaangor Warflock Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

@@ -1,6 +1,6 @@
 # The Baleful Lords ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全5 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 16 | 4+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Great Axe of Khorne（戦傷時） | 5 | 3+ | 2+ | 2 | 5 | Anti-INFANTRY (+1 Rend), Blood-hungry |
 
@@ -35,7 +35,7 @@
   - 宣言: If this unit charged this turn, pick a visible enemy unit within 1" of it to be the target.
   - 効果: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If the target is **INFANTRY**, inflict an additional 3 mortal damage on it.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Slaughter Seeker*
 - Any **BLADES OF KHORNE** **DAEMON**
@@ -54,19 +54,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 16 | 4+ | 5 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Lash of Khorne | 8" | 4 | 3+ | 3+ | 1 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Mighty Axe of Khorne（戦傷時） | 6 | 3+ | 2+ | 2 | 4 | Anti-MONSTER (+1 Rend), Blood-hungry |
 
@@ -81,7 +81,7 @@
   - 宣言: Pick a friendly non-**UNIQUE BLADES OF KHORNE DAEMON** unit to be the target.
   - 効果: For the rest of the turn, when making charge rolls for the target, roll 1 additional dice, to a maximum of 3, and discard 1 dice of your choice.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Slaughter Seeker*
 - Any **BLADES OF KHORNE** **DAEMON**
@@ -100,13 +100,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 16 | 4+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Slaughter | 4 | 3+ | 2+ | 2 | 4 | Blood-hungry |
 | Carnage | 2 | 3+ | 2+ | 2 | 8 | Crit (Mortal) |
@@ -121,7 +121,7 @@
 - **Inescapable Wrath**（Passive）
   - 効果: Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Slaughter Seeker*
 - Any **BLADES OF KHORNE** **DAEMON**
@@ -138,7 +138,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 10 | 4+ | - |
 
@@ -174,19 +174,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 16 | 4+ | 5 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hellfire Breath | 8" | 2D6 | 2+ | 3+ | 1 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Mighty Axe of Khorne and Bloodflail（戦傷時） | 6 | 3+ | 2+ | 2 | 4 | Anti-HERO (+1 Rend), Blood-hungry |
 
@@ -203,7 +203,7 @@
   - 宣言: Pick another visible friendly non-**UNIQUE BLADES OF KHORNE DAEMON** unit to be the target.
   - 効果: Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Slaughter Seeker*
 - 0-1 *Baleful Lord*

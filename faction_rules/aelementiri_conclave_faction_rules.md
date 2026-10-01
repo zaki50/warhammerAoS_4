@@ -1,9 +1,9 @@
 # Aelementiri Conclave ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Aelementiri Conclave Battle Traits（出典: Army of Renown: Aelementiri Conclave）
@@ -30,7 +30,7 @@
 - **World-Mage**（Passive）
   - 効果: Add 1 to casting rolls for this unit for each unique rune depicted on your **battle scripture**.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Aelementiri Conclave Artefact of Power（出典: Army of Renown: Aelementiri Conclave）
@@ -41,7 +41,7 @@
   - 宣言: Pick a terrain feature to be the target.
   - 効果: Measure the range and visibility of the next **SPELL** ability used by this unit from the target instead of from this unit.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Aelementiri Conclave Manifestation Lore

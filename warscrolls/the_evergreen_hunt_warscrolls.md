@@ -1,6 +1,6 @@
 # The Evergreen Hunt ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全10 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 6 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Arch-Revenant’s Glaive | 5 | 3+ | 4+ | 1 | 2 | - |
 
@@ -33,7 +33,7 @@
 - **Fight and Fly**（Reaction: You declared a **FIGHT** ability for this unit）
   - 効果: If this unit charged this turn, this unit can move up to 2D6" after that **FIGHT** ability has been resolved. It cannot end that move in combat.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SYLVANETH** non-**MONSTER**
 
@@ -51,7 +51,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 8 | 4+ | - |
 
@@ -86,13 +86,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 14 | 3+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Carnelian Greatspite’s Mandibles（戦傷時） | 4 | 4+ | 2+ | 2 | 3 | Companion |
 | Kurnoth Glaive | 5 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage) |
@@ -109,7 +109,7 @@
 - **Kurnothi War-horn**（Passive）
   - 効果: Add 2" to the Move characteristic of friendly **KURNOTHI** units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SYLVANETH**
 
@@ -123,19 +123,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Kurnoth Greatbow | 18" | 2 | 3+ | 3+ | 1 | 2 | Anti-CAVALRY (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Vicious Claws | 3 | 3+ | 3+ | - | 1 | - |
 
@@ -156,13 +156,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kurnoth Greatscythe | 3 | 3+ | 3+ | 1 | 3 | Anti-charge (+1 Rend) |
 
@@ -184,13 +184,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kurnoth Greatsword | 4 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -212,13 +212,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Seeker’s Sickle | 3 | 3+ | 4+ | 1 | 1 | Crit (Mortal) |
 | Dragonspite's Mandibles | 3 | 4+ | 3+ | 1 | 2 | Companion |
@@ -241,13 +241,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kurnoth Greatsword | 4 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -270,13 +270,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sharpened Mandibles | 3 | 4+ | 3+ | 1 | 1 | Charge (+1 Damage), Companion |
 | Scourge Sickle | 3 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
@@ -301,13 +301,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spiterider Lance | 3 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage), Crit (2 Hits) |
 | Dragonspite's Mandibles | 3 | 4+ | 3+ | 1 | 2 | Companion |

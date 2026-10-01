@@ -1,14 +1,15 @@
 # Idoneth Deepkin ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Idoneth Deepkin Battle Traits（出典: Order Battletome: Idoneth Deepkin）
 
 - **Twin Tides**（Once Per Turn (Army), Reaction: You declared an **ATTACK** ability for a friendly **AKHELIAN** unit）
+  - 使用者: The friendly **AKHELIAN** unit using that **ATTACK** ability.
   - 効果: Pick a visible friendly **NAMARTI** unit that has not used an **ATTACK** ability this phase to be the target. •  If this unit used a **SHOOT** ability, immediately after the **SHOOT** ability used by this unit has been resolved, the target can be picked to use a **SHOOT** ability as if it were your shooting phase. •  If this unit used a **FIGHT** ability, immediately after the **FIGHT** ability used by this unit has been resolved, the target can be picked to use a **FIGHT** ability. If the target does so, for the rest of the phase, add 1 to the Attacks characteristic of its weapons but all of its attacks must target enemy units that had any damage points allocated to it this phase by this unit’s attacks.
 
 ### Tides of the Sea（出典: Order Battletome: Idoneth Deepkin）
@@ -39,7 +40,7 @@ Idoneth Deepkin armies can use the following abilities:
   - 宣言: You can only use this ability if you used the ‘Inexorable Tide’ ability in the previous battle round and you have not used any other **TIDAL** abilities this battle round.
   - 効果: Friendly **IDONETH DEEPKIN** units’ melee weapons have **Crit (Mortal)** for the rest of the turn.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Akhelian Beastmasters（20pt）
@@ -112,7 +113,7 @@ Idoneth Deepkin armies can use the following abilities:
 - **Lord of Storm and Sea**（Passive）
   - 効果: Each time an ability returns at least 1 slain model to a friendly unit wholly within 12" of this unit, after that ability has been resolved, you can return 1 additional slain model to it.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Relics of the Abyss（出典: Order Battletome: Idoneth Deepkin）
@@ -142,7 +143,7 @@ Ethersea Companions are unique enhancements that can be given to non-**HERO IDON
   - 宣言: Pick an enemy unit in combat with this unit and that charged this turn to be the target.
   - 効果: Spend 1 **rage dice**. If your opponent’s **fury level** is lower than yours, they must increase their fury level by 1, to a maximum of 7. Then, for the rest of the turn: • Other enemy units cannot use **FIGHT** abilities if the target is eligible to be picked. • If possible, this unit must be picked to be the target of pile-in moves made by the target. • All attacks made by models in the target unit within this unit’s combat range must target this unit. **Designer’s Note**: *This ability does not override the* **STRIKE-FIRST** *or* **STRIKE-LAST** *constraints.*
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Lore of the Abyss

@@ -1,6 +1,6 @@
 # Grundstok Expeditionary Force ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全12 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,19 +15,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 5 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Atmospheric Anatomiser | 8" | 3D6 | 4+ | 4+ | 2 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Heavy Instruments | 3 | 4+ | 4+ | - | D3 | - |
 
@@ -39,7 +39,7 @@
   - 宣言: Pick a friendly **Arkanaut Company** unit wholly within 12" of this unit to be the target.
   - 効果: Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s ranged weapons for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **SKYVESSEL**
 - Any **INFANTRY**
@@ -58,19 +58,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 5 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ranging Pistol | 10" | 2 | 3+ | 3+ | 1 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Zephyrscope | 3 | 3+ | 4+ | 1 | D3 | - |
 
@@ -82,7 +82,7 @@
   - 宣言: Pick a friendly **SKYVESSEL** or **AUTO-ENDRIN** within this unit’s combat range and that is not in combat to be the target.
   - 効果: Remove the target from the battlefield and set it up again on the battlefield more than 9" from all enemy units. Then, if the target is a **SKYVESSEL**, you can remove this unit from the battlefield and set it up again on the battlefield wholly within 6" of the target and more than 9" from all enemy units.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **SKYVESSEL**
 - Any **INFANTRY**
@@ -101,19 +101,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 6 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Masterwork Volley Pistol | 10" | 3 | 3+ | 3+ | 1 | 2 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Skalfhammer | 4 | 3+ | 3+ | 1 | 3 | - |
 
@@ -126,7 +126,7 @@
   - 宣言: Pick a friendly **FLAGSHIP** wholly within 12" of this unit to be the target.
   - 効果: For the rest of the phase, each time the target uses a **SHOOT** ability, you can re-roll 1 of the hit rolls made for that ability.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Guild Officer*
 - Any **KHARADRON OVERLORDS**
@@ -143,7 +143,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 5 | 4+ | - |
 
@@ -175,19 +175,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 5 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Aethershot Pistol | 10" | 2 | 3+ | 3+ | 1 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Battletome | 3 | 4+ | 4+ | - | D3 | - |
 
@@ -197,7 +197,7 @@
   - 宣言: Pick up to 3 visible friendly **SKYFARERS** units to be the targets.
   - 効果: Roll a dice for each target. On a 3+, pick 1 of the following effects to apply to that target for the rest of the turn: ***Seek New Prospects:*** Add 5 to the target’s control score. ***Don’t Argue with the Wind:*** Add 1 to run rolls and charge rolls for the target. ***There’s No Trading With Some People:*** The target can use a **RETREAT** ability and still use **SHOOT** abilities later in the turn. In addition, no mortal damage is inflicted on the target by **RETREAT** abilities.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **SKYVESSEL**
 - Any **INFANTRY**
@@ -216,20 +216,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 8 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Dirigible Suit Weapon Battery | 12" | 6 | 3+ | 3+ | 1 | 1 | Shoot in Combat |
 | Aethercannon | 18" | 1 | 3+ | 3+ | 2 | 3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Upgraded Aethermatic Saw | 4 | 3+ | 3+ | 2 | 2 | - |
 
@@ -242,7 +242,7 @@
   - 宣言: Pick a friendly **SKYVESSEL** or **Zontari Endrin Dock** within this unit’s combat range to be the target.
   - 効果: Roll a dice. On a 2+, **Heal (3)** the target.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **SKYVESSEL**
 - Any **INFANTRY**
@@ -261,13 +261,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Aethermight Hammer | 3 | 4+ | 2+ | 2 | 3 | - |
 
@@ -280,7 +280,7 @@
   - 宣言: Pick a friendly **SKYVESSEL** or **Zontari Endrin Dock** within this unit’s combat range to be the target.
   - 効果: Roll a dice. On a 2+, **Heal (3)** the target.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **SKYVESSEL**
 - Any **INFANTRY**
@@ -299,19 +299,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 10 | 2+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Sky Ordnance | 15" | 3 | 4+ | 3+ | 2 | 3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Boarding Weapons | 4 | 4+ | 4+ | - | 1 | - |
 
@@ -338,13 +338,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 2 | 3+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Grundstok Mortar or Aethercannon | 18" | 2 | 4+ | 3+ | 1 | 2 | - |
 | Aethershot Rifle | 18" | 2 | 3+ | 4+ | 1 | 1 | - |
@@ -352,7 +352,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gun Butt | 1 | 4+ | 5+ | - | 1 | - |
 
@@ -376,19 +376,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 5 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Aethershot Pistol | 10" | 2 | 3+ | 3+ | 1 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Battletome | 3 | 4+ | 4+ | - | D3 | - |
 
@@ -400,7 +400,7 @@
 - **I'm Watching You**（Any Hero Phase）
   - 効果: Give this unit D3 **vexed points**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **SKYVESSEL**
 - Any **INFANTRY**
@@ -417,19 +417,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 10 | 2+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Sky Ordnance | 15" | 3 | 4+ | 3+ | 2 | 3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bombs and Boarding Weapons | 4 | 4+ | 4+ | 1 | D3 | - |
 
@@ -456,7 +456,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 10 | 3+ | - |
 

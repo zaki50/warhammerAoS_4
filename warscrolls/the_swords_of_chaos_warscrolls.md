@@ -1,6 +1,6 @@
 # The Swords of Chaos ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全5 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 14 | 3+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | The Thanatorg’s Claws and Fangs（戦傷時） | 6 | 4+ | 3+ | 1 | 2 | Companion |
 | Gorbolga | 5 | 3+ | 3+ | 2 | 2 | Anti-HERO (+1 Rend), Charge (+1 Damage) |
@@ -40,7 +40,7 @@
 - **Warlord of the First Circle**（Passive）
   - 効果: If a friendly **Varanguard** unit uses the ‘Relentless Killers’ ability while it is wholly within 12" of this unit, that unit does not have **STRIKE-LAST** as a result of that ability.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Ruinous Champion*
 - Any **SLAVES TO DARKNESS**
@@ -57,13 +57,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 14" | 25 | 3+ | 10 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dorghar’s Heads | 3 | 3+ | 2+ | 1 | 5 | Companion |
 | Dorghar’s Claws and Tails（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | Companion |
@@ -80,7 +80,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of **Dorghar’s Claws and Tails** is 4.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Ruinous Champion*
 - Any **SLAVES TO DARKNESS**
@@ -97,7 +97,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 12 | 4+ | - |
 
@@ -131,13 +131,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 14 | 3+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | The Thanatorg’s Claws and Fangs（戦傷時） | 6 | 4+ | 2+ | 2 | 2 | Companion |
 | Gorbolga the Accurs'd | 5 | 3+ | 3+ | 2 | 3 | Anti-HERO (+1 Rend), Charge (+1 Damage) |
@@ -158,7 +158,7 @@
 - **Unending Will To Conquer**（End of Any Turn）
   - 効果: If this unit is contesting an objective you do not control. **Heal (D6)** this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Ruinous Champion*
 - Any **SLAVES TO DARKNESS**
@@ -175,13 +175,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 5 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Daemonforged Blades | 3 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage), Crit (Mortal) |
 | Steed’s Tearing Fangs | 3 | 4+ | 3+ | 1 | 1 | Companion |

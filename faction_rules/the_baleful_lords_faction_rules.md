@@ -1,9 +1,9 @@
 # The Baleful Lords ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### The Baleful Lords Battle Traits（出典: Army of Renown: The Baleful Lords）
@@ -15,6 +15,7 @@
   - 宣言: Pick a friendly **BALEFUL LORDS** unit that has not used a **RAMPAGE** ability this turn to be the target.
   - 効果: For the rest of the turn, enemy units cannot use commands while they are in combat with the target. The target cannot use **RAMPAGE** abilities for the rest of the turn.
 - **Mage-Eaters**（Once Per Turn (Army), Reaction: Opponent declared a **SPELL** ability.）
+  - 使用者: A friendly **BALEFUL LORDS** unit targeted by that **SPELL** ability.
   - 効果: Make a magic-eater roll of D6. On a 3+, that spell is unbound. If the spell was unbound and the magic-eater roll was 5+, inflict D3 mortal damage on the caster.
 - **First In His Sight**（Once Per Turn (Army), End of Enemy Turn）
   - 効果: **Heal (D3)** each friendly **BALEFUL LORDS HERO** that is in combat.
@@ -38,7 +39,7 @@
 - **Unrivalled Battlelust**（Once Per Battle (Army), Any Combat Phase）
   - 効果: For the rest of the turn, add 1 to the Attacks characteristic of friendly **BALEFUL LORDS** units while they are wholly within 12" of this unit.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### The Baleful Lords Artefact of Power（出典: Army of Renown: The Baleful Lords）

@@ -1,6 +1,6 @@
 # Spearhead: Glittering Phalanx（Lumineth Realm-lords）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 6+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Despairing Touch | 3 | 3+ | 4+ | - | D3 | - |
 
@@ -43,19 +43,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Auralan Bow | 18" | 2 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Vanari Dagger | 1 | 3+ | 4+ | - | 1 | - |
 
@@ -72,13 +72,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warden’s Pike | 2 | 3+ | 4+ | - | 1 | Crit (Mortal), Anti-charge (+1 Rend) |
 
@@ -96,13 +96,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sunmetal Greatblade: Perfect Strike | 1 | ✱ | ✱ | ✱ | ✱ | - |
 | Sunmetal Greatblade: Flurry of Blows | 3 | 3+ | 4+ | 1 | 1 | Crit (Mortal), Anti-INFANTRY (+1 Rend) |
@@ -116,7 +116,7 @@
 
 **キーワード:** Infantry
 
-## バトル特性（Glittering Phalanx Battle Traits）
+## 戦闘特性（Glittering Phalanx Battle Traits）
 
 - **Lightning Reactions**（Passive）
   - 効果: When players are alternating picking units to use a **FIGHT** ability, when it is your turn to pick a unit, you can pick 2 units instead of 1. Resolve the second **FIGHT** ability immediately after the first.
@@ -128,7 +128,7 @@
 - **Facets of War**（Once Per Battle Round, Start of Battle Round）
   - 効果: You must use this ability at the start of the battle round. Pick 1 **FACET OF WAR** ability. That **FACET OF WAR** ability can be used this battle round but the other cannot.
 
-## レジメントアビリティ（Glittering Phalanx Regiment Abilities）
+## 連隊アビリティ（Glittering Phalanx Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

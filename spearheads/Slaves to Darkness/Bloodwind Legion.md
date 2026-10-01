@@ -1,6 +1,6 @@
 # Spearhead: Bloodwind Legion（Slaves to Darkness）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 7 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warhorses’ Trampling Hooves | 4 | 5+ | 3+ | - | 1 | Companion |
 | Chaos War-flail | 6 | 3+ | 3+ | - | 1 | - |
@@ -45,13 +45,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 4 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cursed Lance | 3 | 3+ | 3+ | 1 | 1 | Charge (+1 Damage) |
 | Chaos Steed’s Trampling Hooves | 2 | 5+ | 3+ | - | 1 | Companion |
@@ -69,13 +69,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Reaperblade | 5 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -95,13 +95,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rune-etched Halberd | 2 | 3+ | 3+ | 1 | 1 | - |
 
@@ -112,7 +112,7 @@
 
 **キーワード:** Infantry
 
-## バトル特性（Bloodwind Legion Battle Traits）
+## 戦闘特性（Bloodwind Legion Battle Traits）
 
 - **Dreaded Arrival**（Your Movement Phase）
   - 効果: Set up this unit wholly within your territory, within 1" of a battlefield edge and more than 6" from all enemy units.
@@ -120,7 +120,7 @@
   - 宣言: Pick one of the following friendly units to use this ability: • A unit that is **contesting an objective not controlled by your opponent** and is not in combat. • A unit that **destroyed an enemy unit** this turn.
   - 効果: Roll once on the **Eye of the Gods table** for that unit. That unit gains the **Eye of the Gods** passive ability that corresponds to the roll (the unit keeps all Eye of the Gods abilities gained in previous turns). If the same unit gains the same ability more than once in the battle, the effects are **not** cumulative.
 
-## レジメントアビリティ（Bloodwind Legion Regiment Abilities）
+## 連隊アビリティ（Bloodwind Legion Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

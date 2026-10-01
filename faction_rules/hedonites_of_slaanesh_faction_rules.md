@@ -1,9 +1,9 @@
 # Hedonites of Slaanesh ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Hedonites of Slaanesh Battle Traits（出典: Chaos Battletome: Hedonites of Slaanesh）
@@ -34,7 +34,7 @@ Hedonites of Slaanesh armies can use the following abilities:
   - 宣言: Pick a friendly non-**UNIQUE PARAGON** that has not used a **TEMPTATION** ability this turn to use this ability.
   - 効果: For the rest of the turn, while the unit using this ability is a **PARAGON** and is in combat, subtract 1 from hit rolls for attacks that target visible friendly **HEDONITES OF SLAANESH** units while they are wholly within 12" of the unit using this ability.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Artisans of Torment
@@ -112,7 +112,7 @@ Hedonites of Slaanesh armies can use the following abilities:
 - **Arcane Magnetism**（Any Combat Phase）
   - 効果: If this unit has 3 or more damage points, it can use a **SPELL** ability as if it were your hero phase, as if that ability had the **UNLIMITED** keyword and as if this unit had **WIZARD (1)**.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Coveted Treasures（出典: Chaos Battletome: Hedonites of Slaanesh）
@@ -143,7 +143,7 @@ All-consuming Obsessions are unique enhancements that can be given to non-**HERO
 - **Obsession with Pain**（Any Combat Phase / 10pt）
   - 効果: If this unit is damaged, spend 1 **rage dice**. If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, add 1 to the Rend characteristic of this unit’s non-**Companion** melee weapons for the rest of the turn.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Lore of Extravagance

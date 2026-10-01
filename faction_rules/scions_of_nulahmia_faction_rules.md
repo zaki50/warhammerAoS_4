@@ -1,9 +1,9 @@
 # Scions of Nulahmia ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Scions of Nulahmia Battle Traits（出典: Army of Renown: Scions of Nulahmia）
@@ -32,7 +32,7 @@
   - 宣言: Pick a friendly **Dire Wolves** or **Fell Bats** unit that has been destroyed to be the target.
   - 効果: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12" of this unit and more than 9" from all enemy units.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Scions of Nulahmia Artefact of Power（出典: Army of Renown: Scions of Nulahmia）
@@ -42,7 +42,7 @@
 - **Amulet of Leeches**（Passive）
   - 効果: While this unit is within the combat range of a friendly **Dire** **Wolves** or **Fell Bats** unit: • This unit has **WARD (5+)**. • Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly **Dire Wolves** or **Fell** **Bats** unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Scions of Nulahmia Spell Lore

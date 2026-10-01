@@ -1,6 +1,6 @@
 # The Roving Maw ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全16 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 8 | 5+ | 3 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Butcher's Tools | 4 | 4+ | 2+ | 2 | 3 | - |
 
@@ -33,7 +33,7 @@
 - **More Meat for the Pot**（Once Per Battle (Army), End of Any Turn）
   - 効果: If any damage points were allocated to an enemy unit this turn by this unit’s combat attacks or by combat attacks made by a **MANIFESTATION** summoned by this unit, and that enemy unit has been destroyed, add 1 to this unit’s power level for the rest of the battle.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MAW NOMAD**
 - Any **INFANTRY**
@@ -50,13 +50,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 4 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cleaver's Tools | 4 | 4+ | 2+ | 2 | 3 | - |
 
@@ -77,19 +77,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 7 | 5+ | 3 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Fire Breath | 8" | 6 | 2+ | 3+ | - | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Basalt Hammer | 3 | 4+ | 2+ | 1 | D3 | - |
 
@@ -98,7 +98,7 @@
 - **Torrent of Flame**（Passive）
   - 効果: Add 1 to the Damage characteristic of this unit’s **Fire Breath** if the target is **INFANTRY**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Gnoblar Scraplauncher**
 - Any **GUTBUSTERS**
@@ -116,13 +116,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 4 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Glutton Weapons | 4 | 4+ | 2+ | 1 | 2 | - |
 
@@ -143,13 +143,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 6+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Clubs, Claws and Jaws | 5 | 4+ | 2+ | 1 | 2 | Anti-INFANTRY (+1 Rend) |
 
@@ -174,13 +174,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 4 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gutseer's Tools | 3 | 4+ | 2+ | 2 | 3 | - |
 
@@ -203,19 +203,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 9" | 9 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ironblaster Cannon Shot | 18" | 2 | 4+ | 2+ | 2 | 5 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Clubbers | 2 | 4+ | 2+ | 1 | 2 | - |
 | Rhinox's Sharp Horns | 4 | 4+ | 2+ | 1 | D3 | Companion |
@@ -236,13 +236,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 4 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Irongut Weapon | 3 | 4+ | 2+ | 2 | 3 | - |
 
@@ -263,19 +263,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 4 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Leadbelcher Gun | 15" | 2 | 4+ | 3+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bludgeoning Blows | 2 | 4+ | 2+ | - | 2 | - |
 
@@ -298,19 +298,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 4 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Pistols or Throwing Weapons | 10" | 1 | 3+ | 3+ | 1 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Maneater Weapons | 4 | 4+ | 2+ | 1 | 2 | - |
 
@@ -331,13 +331,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 7 | 3+ | 3 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gutbiter Weapons | 3 | 4+ | 2+ | 2 | 3 | - |
 | Maulbeast's Horns and Fangs | 4 | 4+ | 2+ | 1 | 2 | Charge (+1 Damage), Companion |
@@ -362,13 +362,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 12 | 4+ | - | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ever-hungry Pit | 2D6 | 4+ | 2+ | 1 | 1 | Crit (Mortal) |
 
@@ -402,19 +402,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 9" | 9 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ironblaster Cannon | 18" | 2 | 4+ | 2+ | 2 | 5 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rhinox’s Sharp Horns | 3 | 4+ | 2+ | 1 | D3 | Anti-charge (+1 Rend), Companion |
 | Clubber | 2 | 4+ | 2+ | 1 | 2 | - |
@@ -438,13 +438,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 8 | 5+ | 3 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stump Blades | 2D6 | 4+ | 2+ | 1 | 1 | - |
 
@@ -456,11 +456,11 @@
 - **Fill the Pot**（Passive）
   - 効果: &#x20;This unit’s cauldron is either **filled with grisly remains** or **empty**. It starts the battle **empty**. If an enemy unit that was in combat with this unit this turn is destroyed and this unit’s cauldron is **empty**, it becomes **filled with grisly remains**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **MAWSEEKERS**
 
-**キーワード:** Hero, Wizard (1), Infantry, Ward (6+),Destruction, Ogor Mawtribes, Ogor, Mawseekers
+**キーワード:** Hero, Wizard (1), Infantry, Ward (6+), Destruction, Ogor Mawtribes, Ogor, Mawseekers
 
 **ノート:** This **HERO** can join an eligible regiment as a *Maw Nomad*. This unit will move to Warhammer Legends on 1 June 2027.
 
@@ -474,13 +474,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 8 | 4+ | 3 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Tyrant's Meatcleavers | 4 | 4+ | 2+ | 2 | 3 | Crit (Mortal) |
 
@@ -491,7 +491,7 @@
 - **Big Name**（Deployment Phase）
   - 効果: Pick 1 of the following effects to apply for the rest of the battle. You cannot pick an effect that has already been picked for another friendly **Tyrant**. • ***Neck-wringer***: Enemy **INFANTRY** units that have a Health characteristic of 1 or 2 cannot contest objectives while they are in combat with this unit. • ***Steed-eater***: Enemy **CAVALRY** units cannot use **RETREAT** abilities while they are in combat with this unit. • ***Giant-wrestler***: Enemy **MONSTERS** cannot use **RAMPAGE** abilities while they are in combat with this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **OGOR MAWTRIBES**
 
@@ -509,13 +509,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 16 | 3+ | 10 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Glutthorn's Horn and Hooves（戦傷時） | 7 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
 | Tyrant's Meatcleavers | 4 | 4+ | 2+ | 2 | 3 | Crit (Mortal) |
@@ -530,7 +530,7 @@
   - 宣言: If this unit charged this turn, pick an enemy unit in combat with it to be the target.
   - 効果: Roll a dice. Add 1 to the roll if the target is **INFANTRY**. On a 4+, the target has **STRIKE-LAST** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MAW NOMAD**
 - Any **OGOR MAWTRIBES**

@@ -1,9 +1,9 @@
 # King Brodd's Stomp ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### King Brodd's Stomp Battle Traits（出典: Army of Renown: King Brodd's Stomp）
@@ -38,7 +38,7 @@
 - **I Can Do That Better**（Once Per Battle (Army), Reaction: You declared the ‘Wrath of Brodd’ ability for a friendly unit）
   - 効果: This unit can use the ‘Wrath of Brodd’ ability immediately after the ‘Wrath of Brodd’ ability used by the other friendly unit has been resolved. This unit can do so even if it has used another **DESTRUCTIVE IMPULSE** ability this turn.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### King Brodd's Stomp Artefact of Power（出典: Army of Renown: King Brodd's Stomp）
@@ -48,7 +48,7 @@
 - **Lucky Shiny Hat**（Passive）
   - 効果: This unit has **WARD (4+)** against damage points inflicted by **SPELL** and **PRAYER** abilities and by abilities used by **MANIFESTATIONS**.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### King Brodd's Stomp Prayer Lore

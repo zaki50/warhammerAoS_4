@@ -1,6 +1,6 @@
 # Spearhead: Vigilant Brotherhood（Stormcast Eternals）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warhammer | 2 | 3+ | 3+ | 1 | 1 | Crit (Mortal) |
 | Grandhammer | 2 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
@@ -43,13 +43,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Judgement Blade | 3 | 3+ | 3+ | 1 | D3 | Anti-WIZARD (+1 Rend), Anti-PRIEST (+1 Rend) |
 | Staff of Abjuration | 1 | 3+ | 3+ | 1 | 3 | - |
@@ -70,13 +70,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 8 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gryph-stalker’s Beak and Talons | 3 | 4+ | 3+ | 1 | 2 | Companion |
 | Hallowed Greataxe | 5 | 3+ | 3+ | 2 | 2 | - |
@@ -98,19 +98,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 2 | 3+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Stormcall Javelin | 10" | 1 | 3+ | 3+ | 1 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stormcall Javelin | 3 | 3+ | 3+ | 1 | 1 | - |
 
@@ -123,7 +123,7 @@
 
 **キーワード:** Infantry, Fly, Reinforcements
 
-## バトル特性（Vigilant Brotherhood Battle Traits）
+## 戦闘特性（Vigilant Brotherhood Battle Traits）
 
 - **Shield of Azyr**（Once Per Turn, Your Hero Phase）
   - 宣言: Pick a friendly unit.
@@ -132,11 +132,12 @@
   - 宣言: Pick a friendly unit that is not in combat.
   - 効果: That unit can use **CHARGE** abilities this turn even if it used a **RUN** ability in the same turn.
 
-## レジメントアビリティ（Vigilant Brotherhood Regiment Abilities）
+## 連隊アビリティ（Vigilant Brotherhood Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 
 - **Strike Where Needed**（Once Per Battle, Reaction: You declared a RETREAT ability）
+  - 使用者: The unit using that **RETREAT** ability.
   - 効果: No mortal damage is inflicted on that unit by that **RETREAT** ability. In addition, that unit can still use **CHARGE** abilities this turn even though it used a **RETREAT** ability.
 - **Blaze of Glory**（Once Per Battle, Any Combat Phase）
   - 宣言: Pick a friendly unit that is in combat.

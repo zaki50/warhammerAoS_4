@@ -1,9 +1,9 @@
 # Lofnir Drothkeepers ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Lofnir Drothkeepers Battle Traits（出典: Army of Renown: Lofnir Drothkeepers）
@@ -14,6 +14,7 @@
 - **Daring Tamers**（Passive）
   - 効果: Enemy **MONSTERS** have **STRIKE-LAST** while they are in combat with 2 or more friendly **DROTHKEEPERS Vulkyn Flameseekers** units.
 - **Skilled Drothwranglers**（Reaction: You declared a non-CHARGE MOVE ability for a friendly MAGMADROTH）
+  - 使用者: The **MAGMADROTH** using that **MOVE** ability.
   - 効果: Pick a friendly **Vulkyn Flameseekers** unit and/or a friendly **DROTHKEEPERS INFANTRY HERO** that are not in combat and are wholly within 6" of the **MAGMADROTH** to be the targets. Units that have **hitched a lift** this turn (see below) cannot be targets. Remove the targets from the battlefield. After the **MAGMADROTH** ends its move, you must set up each target on the battlefield, wholly within 6" of the **MAGMADROTH** and not in combat. The targets have **hitched a lift**. Units that **hitched a lift** cannot use **CHARGE** abilities in the same turn.
 - **Searing Claws**（Once Per Turn (Army), Any Combat Phase）
   - 宣言: Pick a friendly **DROTHKEEPERS MONSTER** that has not used a **RAMPAGE** ability this turn to use this ability, then pick an enemy unit in combat with it to be the target.
@@ -32,7 +33,7 @@
 - **Raised Around Beasts**（Passive）
   - 効果: The melee weapons of friendly non-**MONSTER** units have **Anti-MONSTER (+1 Rend)** while they are wholly within 9" of this unit.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Lofnir Drothkeepers Artefact of Power（出典: Army of Renown: Lofnir Drothkeepers）
@@ -42,7 +43,7 @@
 - **Mastery Over Monsters**（Passive）
   - 効果: While this unit is contesting an objective, enemy **MONSTERS** contesting that objective each have a maximum control score of 2.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Lofnir Drothkeepers Manifestation Lore

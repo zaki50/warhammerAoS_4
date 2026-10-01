@@ -1,6 +1,6 @@
 # Spearhead: Soulraid Hunt（Idoneth Deepkin）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,19 +19,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 8 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Razorshell Harpoon Launcher | 18" | 2 | 3+ | 2+ | 1 | 3 | Anti-MONSTER (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Allopex’s Ferocious Bite | 3 | 4+ | 2+ | 2 | 2 | Companion |
 | Barbed Hooks and Blades | 4 | 3+ | 4+ | 1 | 1 | - |
@@ -49,13 +49,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 4 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fangmora’s Fangs and Lashing Tail | 3 | 4+ | 3+ | 1 | D3 | Companion |
 | Voltspear | 2 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage) |
@@ -74,19 +74,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Scryfish Shoal | 10" | 8 | 5+ | 5+ | - | 1 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Abyssal Touch | 3 | 3+ | 4+ | - | D3 | - |
 
@@ -104,13 +104,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Lanmari | 2 | 3+ | 4+ | 1 | 1 | Anti-INFANTRY (+1 Rend) |
 
@@ -121,10 +121,10 @@
 
 **キーワード:** Infantry, Reinforcements
 
-## バトル特性（Soulraid Hunt Battle Traits）
+## 戦闘特性（Soulraid Hunt Battle Traits）
 
 
-## レジメントアビリティ（Soulraid Hunt Regiment Abilities）
+## 連隊アビリティ（Soulraid Hunt Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

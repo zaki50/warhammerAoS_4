@@ -1,9 +1,9 @@
 # Tribes of the Snow Peaks ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Tribes of the Snow Peaks Battle Traits（出典: Army of Renown: Tribes of the Snow Peaks）
@@ -21,6 +21,7 @@
   - 宣言: If you have 1 or more **oath points**, pick a friendly **SNOW PEAKS** unit that has not used an **OATH** ability this turn to be the target.
   - 効果: Spend 1 **oath point**. For the rest of the turn, add 1 to the Rend characteristic of the target’s melee weapons.
 - **Shroud of the Pale Elk**（Once Per Phase (Army), Reaction: Opponent declared an ATTACK ability）
+  - 使用者: A friendly **SNOW PEAKS** unit targeted by that **ATTACK** ability, if you have 1 or more **oath points**.
   - 効果: If that friendly **SNOW PEAKS** unit has not used an **OATH** ability this turn, spend 1 **oath point**. For the rest of the turn, that friendly unit has **WARD (4+)**.
 - **Messengers of the Gods**（Once Per Phase (Army), End of Any Turn）
   - 宣言: If you have 1 or more **oath points**, pick a friendly **SNOW PEAKS Darkoath Marauders** or **Fellriders** unit that has been destroyed and has not used an **OATH** ability this turn to be the target.
@@ -38,7 +39,7 @@
 - **Oath of Kinship**（Passive）
   - 効果: While this unit is within the combat range of another friendly **SNOW PEAKS** unit, add 1 to hit rolls for this unit’s attacks.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Tribes of the Snow Peaks Artefact of Power（出典: Army of Renown: Tribes of the Snow Peaks）

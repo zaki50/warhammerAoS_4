@@ -1,9 +1,9 @@
 # Fyreslayers ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Fyreslayers Battle Traits（出典: Faction Pack: Fyreslayers）
@@ -22,7 +22,7 @@ Fyreslayers armies can use the following abilities:
   - 宣言: You can only use this ability if you have not used any **UR-GOLD RUNE** abilities this battle round. Pick any number of enemy units within 10" of and visible to any friendly **FYRESLAYERS** units to be targets.
   - 効果: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. In addition, for the rest of the battle round, ranged weapons, including **Companion** weapons, used by friendly **FYRESLAYERS** units have **Crit (2 Hits)**.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Forge Brethren
@@ -59,7 +59,7 @@ Fyreslayers armies can use the following abilities:
 - **Ash-beard**（Passive）
   - 効果: If this unit is not a **PRIEST**, they have **PRIEST (1)**. If this unit was already a **PRIEST**, add 1 to this unit’s chanting rolls.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Heirlooms of the Lodge（出典: Faction Pack: Fyreslayers）
@@ -98,7 +98,7 @@ Marks of Vulcatrix are unique enhancements that can be given to **MAGMADROTHS**.
 - **Intense Fyrestream**（Any Shooting Phase / 10pt）
   - 効果: Spend 1 **rage dice**. If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, for the rest of the turn: • Add **X**" to the Range characteristic and **X** to the Attacks characteristic of this unit’s **Companion** ranged weapons, where X is equal to your **fury level**. • This unit’s **Companion** ranged weapons have **Shoot in Combat**.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Magmic Invocations

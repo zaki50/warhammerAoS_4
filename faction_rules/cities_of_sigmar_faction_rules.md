@@ -1,9 +1,9 @@
 # Cities of Sigmar ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Cities of Sigmar Battle Traits（出典: Order Battletome: Cities of Sigmar）
@@ -17,6 +17,7 @@ Cities of Sigmar armies can use the following abilities:
   - 宣言: Pick a friendly unit that is **under orders** to use this ability.
   - 効果: Pick 1 of that unit’s ranged weapons. Add 1 to hit rolls for shooting attacks made with that weapon for the rest of the turn.
 - **Sound the Attack!**（Once Per Turn (Army), Reaction: You declared a CHARGE ability for a unit that is under orders）
+  - 使用者: The unit using that **CHARGE** ability.
   - 効果: You can change the lowest D6 in the charge roll to match the highest D6.
 - **Into Them, You Dogs!**（Once Per Turn (Army), Any Combat Phase）
   - 宣言: Pick a friendly **HERO** that is **under orders** to use this ability. That unit is the **field officer** for the rest of the turn. Then, pick 2 other visible friendly non‑**HERO** units that are **under orders** and wholly within 12" of the **field officer** to be the targets.
@@ -25,7 +26,7 @@ Cities of Sigmar armies can use the following abilities:
   - 宣言: Pick a friendly unit that is **under orders** and in combat with an enemy unit that charged this turn to use this ability.
   - 効果: For the rest of the turn, add 1 to the Rend characteristic of that unit’s melee weapons.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Collegiate Exemplars
@@ -113,7 +114,7 @@ Cities of Sigmar armies can use the following abilities:
   - 宣言: Pick up to 3 visible friendly non‐**WAR MACHINE SIGMARITE** units wholly within 12" of this unit to be the targets.
   - 効果: Spend 1 **rage dice** for each target. If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, add 1 to wound rolls for each target’s combat attacks until the start of your next turn.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Treasures of the Cities（出典: Order Battletome: Cities of Sigmar）
@@ -154,7 +155,7 @@ An Ironweld Innovation is a unique enhancement that can be given to **Cannonade 
 - **Emergency Bellows**（End of Any Turn）
   - 効果: Remove 1 of this unit’s **heat tokens**.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Scriptures of Sigmar

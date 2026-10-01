@@ -1,6 +1,6 @@
 # Kruleboyz ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全27 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,19 +15,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Beast-skewer Bolts | 24" | 2 | 4+ | 2+ | 2 | D6 | Anti-MONSTER (+1 Rend), Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Jaggedy Blades | 3 | 4+ | 3+ | - | 1 | Crit (Mortal) |
 
@@ -50,13 +50,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 12 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bident-goad | 5 | 4+ | 3+ | 1 | 2 | Crit (Mortal) |
 | Mirebrute’s Clubs | 4 | 4+ | 2+ | 2 | 3 | Companion |
@@ -71,7 +71,7 @@
 - **Breaka-harness**（Any Combat Phase）
   - 効果: Make a breaka-roll of D3. •  Inflict an amount of mortal damage on this unit equal to the breaka-roll. •  Double the breaka-roll and add that value to the Attacks characteristic of this unit’s **Mirebrute’s Clubs** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Mob Wrangler*
 - Any **KRULEBOYZ**
@@ -90,13 +90,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Krew Weapons | 3 | 4+ | 3+ | 1 | 1 | Crit (Mortal) |
 
@@ -122,13 +122,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Wicked Weapons | 3 | 4+ | 3+ | 1 | 1 | Crit (Mortal) |
 
@@ -154,7 +154,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 8 | 4+ | 7+ | 6+ |
 
@@ -178,13 +178,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 14 | 5+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Killabeak’s Stinger | 1 | 3+ | 2+ | 1 | D6 | Crit (Mortal), Companion |
 | Bogbark Staff | 3 | 4+ | 3+ | - | D3 | Anti-WIZARD (+1 Rend), Crit (Mortal) |
@@ -205,7 +205,7 @@
 - **Screamin' Mandrakk**（Reaction: Opponent declared a SPELL ability）
   - 効果: This unit uses the ‘Unbind’ ability but the unbinding roll is 3D6 instead of 2D6.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Mob Wrangler*
 - 0-1 *Swamp Beast*
@@ -223,13 +223,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 6 | 5+ | 7+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Toxic Gas | 5 | 2+ | 4+ | 1 | D3 | - |
 
@@ -249,13 +249,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stikka or Hacka | 2 | 4+ | 3+ | - | 1 | Crit (Mortal) |
 
@@ -276,13 +276,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 6+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Toxin-smeared Slitta-sword | 4 | 4+ | 4+ | 1 | D3 | Crit (Mortal) |
 
@@ -294,7 +294,7 @@
   - 宣言: Pick an enemy **INFANTRY HERO** in combat with this unit to be the target.
   - 効果: Roll 2D6. If the roll exceeds the target’s Health characteristic, it is automatically destroyed.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **KRULEBOYZ** **INFANTRY**
 - 0-1 **KRULEBOYZ** **MONSTER**
@@ -312,19 +312,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 6+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Scrap-grenades | 8" | 1 | 4+ | 3+ | 1 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Slitta-knives | 2 | 4+ | 5+ | - | 1 | - |
 
@@ -346,13 +346,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 14 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Boss-stikka or Boss-hacka | 5 | 4+ | 3+ | 1 | 2 | Crit (Mortal) |
 | Vulcha’s Stinger | 1 | 3+ | 2+ | 1 | D6 | Crit (Mortal), Companion |
@@ -368,7 +368,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Vulcha’s Talons and Beak** is 5.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Mob Wrangler*
 - Any **KRULEBOYZ**
@@ -389,13 +389,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 10 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Great Gnashtoof’s Jaws | 5 | 4+ | 3+ | 1 | 2 | Companion |
 | Boss-stikka | 5 | 4+ | 3+ | 1 | 2 | Crit (Mortal) |
@@ -408,7 +408,7 @@
 - **That's Ours, Ya Gitz!**（Passive）
   - 効果: While this unit is contesting an objective you do not control, add 1 to hit rolls for combat attacks made by friendly **KRULEBOYZ** units wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Mob Wrangler*
 - Any **KRULEBOYZ**
@@ -427,13 +427,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stab-grot's Shiv | 2 | 4+ | 5+ | - | 1 | Crit (Mortal), Companion |
 | Boss-hacka | 5 | 4+ | 3+ | 1 | 2 | Crit (Mortal) |
@@ -447,7 +447,7 @@
 - **Stab-grot**（Passive）
   - 効果: This unit’s **Stab-grot** is a token. If this unit’s **Stab-grot** has been removed, it can no longer attack with its **Stab-grot’s Shiv** and it cannot use the ‘Unleash the Stab-grot!’ ability.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **KRULEBOYZ**
 
@@ -465,13 +465,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 18 | 4+ | 15 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Tuskbreaker | 3 | 4+ | 2+ | 2 | D3 | Crit (2 Hits) |
 | Hooves of Wrack and Ruin | 6 | 3+ | 2+ | 1 | 2 | - |
@@ -490,7 +490,7 @@
 - **Rampaging Destruction**（Once Per Turn (Army), Any Charge Phase） ［Rampage］
   - 効果: If this unit charged this phase, pick 1 of the following effects: • Roll a dice for each enemy unit within 1" of this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll. • Pick an enemy **MONSTER** in combat with this unit and roll 2D6. On a 7, this ability has no effect. Otherwise, inflict an amount of mortal damage on that unit equal to the results on the dice used for the 2D6 roll multiplied together. For example, a 2D6 roll of 2 and 6 would inflict 12 mortal damage (2 × 6).
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **KRULEBOYZ**
 - Any **IRONJAWZ**
@@ -509,13 +509,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Monsta-killa Weapons | 3 | 4+ | 3+ | 1 | 1 | Anti-MONSTER (+1 Rend), Crit (Mortal) |
 
@@ -539,20 +539,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Man-skewer Crossbow: Aimed Shot | 18" | 1 | 3+ | 3+ | 2 | 2 | Crit (Auto-wound) |
 | Man-skewer Crossbow: Hasty Shot | 12" | 2 | 4+ | 3+ | 1 | 2 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Jaggedy Blades | 1 | 4+ | 3+ | - | 1 | Crit (Mortal) |
 
@@ -575,13 +575,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 10 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sloggoth’s Claws | 6 | 4+ | 2+ | 1 | 2 | Companion |
 | Nets and Snatcha‑stikks | 4 | 4+ | 5+ | - | 1 | - |
@@ -605,7 +605,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 8 | 5+ | 7+ | 6+ |
 
@@ -628,13 +628,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Murknob Cleaver | 4 | 4+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -646,7 +646,7 @@
 - **Power of Kragnos**（Passive）
   - 効果: Friendly **KRULEBOYZ** units have **WARD (6+)** while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **KRULEBOYZ**
 
@@ -664,13 +664,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 10 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Boss-skewa | 5 | 4+ | 3+ | 1 | 2 | Crit (Mortal), Anti-HERO (+1 Rend) |
 | Great Gnashtoof’s Jaws | 5 | 4+ | 3+ | 1 | 2 | Companion |
@@ -683,7 +683,7 @@
   - 宣言: Pick an enemy **INFANTRY HERO** in combat with this unit to be the target.
   - 効果: Roll 2D6. This unit can move a distance in inches up to the value of the roll. Then, if possible, your opponent must remove the target from the battlefield and set it up again within 1" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Mob Wrangler*
 - Any **KRULEBOYZ**
@@ -702,13 +702,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Boss-hacka | 5 | 4+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -720,7 +720,7 @@
 - **Jump 'Em, Ladz, Or Else!**（Once Per Turn (Army), Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly **Gutrippaz** or **Hobgrot Slittaz** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **KRULEBOYZ**
 - 0-1 *Mob Wrangler*
@@ -739,13 +739,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 10 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Great Gnashtoof’s Jaws | 5 | 4+ | 3+ | 1 | 2 | Companion |
 | Boss-skewa | 5 | 4+ | 3+ | 1 | 2 | Anti-HERO (+1 Rend), Crit (Mortal) |
@@ -758,7 +758,7 @@
   - 宣言: Pick an enemy **INFANTRY HERO** in combat with this unit to be the target.
   - 効果: Roll 2D6. This unit can move a distance in inches up to the value of the roll. Then, if possible, your opponent must remove the target from the battlefield and set it up again within 1" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Mob Wrangler*
 - Any **KRULEBOYZ**
@@ -777,13 +777,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 15 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sloppklaw’s Bite and Talons（戦傷時） | 6 | 4+ | 2+ | 1 | 3 | Crit (Mortal), Companion |
 | Snatcha-stikk | 5 | 4+ | 3+ | 1 | 2 | Crit (Mortal) |
@@ -798,7 +798,7 @@
 - **Rigged Odds**（Passive）
   - 効果: The first time you fail a dirty trick roll each turn, give this unit 1 **betting chip**. Each time you make a dirty trick roll for an ability that targets a unit wholly within 12" of this unit, you can spend any number of **betting chips** after seeing the result of the roll. For each **betting chip** you spend, add 1 to that dirty trick roll.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Mob Wrangler*
 - 0-1 *Swamp Beast*
@@ -816,7 +816,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 12 | 4+ | - |
 
@@ -851,13 +851,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 14 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sludgeraker’s Bite | 1 | 3+ | 2+ | 1 | D3+3 | Companion |
 | Grappling Hook | 3 | 3+ | 3+ | 1 | 3 | Crit (Mortal) |
@@ -874,7 +874,7 @@
   - 宣言: Pick up to 3 enemy units that had any damage points allocated to them this turn by attacks made by this unit or a friendly unit with the **SLUDGERAKER VENOM** keyword to be the targets.
   - 効果: Roll a D3 for each target. On a 2+: • Inflict an amount of mortal damage on the target equal to the roll. • Subtract 1 from wound rolls for the target’s attacks until the end of the next turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Mob Wrangler*
 - Any **KRULEBOYZ**
@@ -893,13 +893,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 15 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sloppklaw’s Talons（戦傷時） | 6 | 4+ | 2+ | 1 | 2 | Companion |
 | Snatcha-stikk | 5 | 4+ | 3+ | 1 | 2 | Crit (Mortal) |
@@ -919,7 +919,7 @@
   - 宣言: Pick an enemy unit on the battlefield to be **the bet**.
   - 効果: Add 1 to wound rolls for attacks made by this unit and friendly **Hobgrot Slittaz** units that target **the bet**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Mob Wrangler*
 - 0-1 *Swamp Beast*
@@ -937,13 +937,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 6+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bogbark Staff | 3 | 4+ | 3+ | - | D3 | Crit (Mortal) |
 
@@ -955,7 +955,7 @@
 - **Pot-grot**（Passive）
   - 効果: This unit’s **Pot-grot** is a token. Add 1 to casting rolls for this unit while its **Pot-grot** is on the battlefield. If you make an unmodified casting roll of 4 or less for this unit, remove its **Pot-grot** from the battlefield.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **KRULEBOYZ**
 

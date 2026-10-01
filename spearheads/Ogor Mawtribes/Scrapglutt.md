@@ -1,6 +1,6 @@
 # Spearhead: Scrapglutt（Ogor Mawtribes）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,19 +19,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 9" | 9 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Piles of Old Scrap | 24" | 3D6 | 4+ | 4+ | - | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rhinox’s Sharp Horns | 2 | 4+ | 2+ | 1 | D3 | Companion |
 | Scrappers’ Stabbers | 7 | 5+ | 5+ | - | 1 | - |
@@ -50,19 +50,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 6+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Sharp Stuff | 8" | 1 | 4+ | 5+ | - | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Motley Assortment of Weapons | 1 | 5+ | 5+ | - | 1 | - |
 
@@ -79,13 +79,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 4 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Irongut Weapon | 3 | 4+ | 2+ | 2 | 3 | - |
 
@@ -102,19 +102,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 7 | 5+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Mantrapper Crossbow | 12" | 2 | 4+ | 2+ | 1 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Culling Knife | 4 | 4+ | 2+ | 1 | 2 | - |
 | Frost Sabre's Fangs | 3 | 4+ | 3+ | 1 | 1 | Companion |
@@ -129,12 +129,12 @@
 
 **キーワード:** Hero, Infantry
 
-## バトル特性（Scrapglutt Battle Traits）
+## 戦闘特性（Scrapglutt Battle Traits）
 
 - **Let's Get Stuck In**（Your Movement Phase）
   - 効果: Set up this unit wholly within friendly territory, wholly within 6" of the battlefield edge, and not in combat.
 
-## レジメントアビリティ（Scrapglutt Regiment Abilities）
+## 連隊アビリティ（Scrapglutt Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

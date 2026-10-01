@@ -1,9 +1,9 @@
 # The Evergreen Hunt ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### The Evergreen Hunt Battle Traits（出典: Army of Renown: The Evergreen Hunt）
@@ -42,7 +42,7 @@
 - **Sapwood Leader**（Passive）
   - 効果: If you pick this unit to be a target of the 'Abundant Growth’ ability, **Heal (3)** this unit instead of **Heal (1)**.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### The Evergreen Hunt Artefact of Power（出典: Army of Renown: The Evergreen Hunt）

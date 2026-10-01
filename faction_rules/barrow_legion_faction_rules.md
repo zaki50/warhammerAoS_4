@@ -1,9 +1,9 @@
 # Barrow Legion ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Barrow Legion Battle Traits（出典: Army of Renown: Barrow Legion）
@@ -35,7 +35,7 @@
   - 宣言: Pick a friendly **BARROW LEGION** unit wholly within 12" of this unit to be the target.
   - 効果: Add 2" to the target’s Move characteristic for the rest of the turn.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Barrow Legion Artefacts of Power（出典: Army of Renown: Barrow Legion）

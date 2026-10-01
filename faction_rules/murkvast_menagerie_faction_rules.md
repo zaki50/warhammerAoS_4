@@ -1,9 +1,9 @@
 # Murkvast Menagerie ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Murkvast Menagerie（出典: Army of Renown: Murkvast Menagerie）
@@ -27,7 +27,7 @@
 - **Grim Diet**（Passive）
   - 効果: This unit has **WARD (5+)**.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Artefact of Power（出典: Army of Renown: Murkvast Menagerie）
@@ -38,7 +38,7 @@
   - 宣言: Pick an objective within 6" of this unit to be **infested with bugs** for the rest of the battle.
   - 効果: While an enemy unit is contesting an objective that is **infested with bugs**: • Subtract 3 from that unit’s control score. • Ignore positive modifiers to that unit’s control score.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Murkvast Menagerie Manifestation Lore

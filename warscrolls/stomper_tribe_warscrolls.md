@@ -1,6 +1,6 @@
 # Stomper Tribe ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全4 ウォースクロール（Spearhead 版 1 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 12 | 5+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stomper's Clubs | 7 | 4+ | 2+ | 1 | 2 | - |
 | 'Eadbutt | 1 | 4+ | 2+ | 2 | 3 | - |
@@ -45,19 +45,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 12 | 5+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Throwin' Rocks | 12" | 1 | 4+ | 2+ | 1 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | ’Eadbutt | 1 | 4+ | 2+ | 2 | 3 | - |
 | Gigantic Weapon | 5 | 4+ | 2+ | 1 | 2 | - |
@@ -82,19 +82,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 12 | 5+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hurlin' Rocks | 12" | 3 | 4+ | 2+ | 1 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Massive Clubs and Rocks | 4 | 4+ | 2+ | 1 | 2 | - |
 | 'Eadbutt | 1 | 4+ | 2+ | 2 | 3 | - |
@@ -118,13 +118,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 25 | 4+ | 10 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Titanic Boulderclub: Calamitous Sweep（戦傷時） | 16 | 3+ | 3+ | 1 | 1 | Crit (Auto-wound) |
 | Almighty Stomp | 3 | 4+ | 2+ | 2 | D3 | - |
@@ -143,7 +143,7 @@
   - 宣言: Pick another visible friendly **BIG** or **LITTLE** unit wholly within 12" of this unit and that has not been set up this turn to be the target.
   - 効果: The target can move 2D6". It can pass through and end that move within the combat ranges of enemy units that it was in combat with at the start of the move, but not those of other enemy units. It does not have to end the move in combat.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Eager Lout*
 - Any **SONS OF BEHEMAT**

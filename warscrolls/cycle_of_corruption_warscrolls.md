@@ -1,6 +1,6 @@
 # Cycle of Corruption ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全25 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 7 | 5+ | 3 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Thrice-tainted Staff | 3 | 4+ | 4+ | 1 | D3 | - |
 
@@ -33,7 +33,7 @@
   - 宣言: Pick a visible **DISEASED** enemy unit within 18" of this unit to be the target, then make a chanting roll of D6.
   - 効果: Inflict D3 mortal damage on the target. Then, inflict 1 mortal damage on each other **DISEASED** enemy unit within 3" of the target. If the chanting roll was 9+, you can also pick a friendly **PLAGUEBEARERS** unit within 12" of the target. For each enemy **INFANTRY** model slain by this ability this turn, you can return 1 slain model to that friendly unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Plaguebearers**
 - 0-1 **Cankerborn**
@@ -52,19 +52,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 14 | 4+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Bilespurter’s Vile Bile | 7" | 7 | 2+ | 4+ | 1 | D3 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bilespurter’s Claws（戦傷時） | 5 | 4+ | 2+ | 2 | 3 | Companion |
 | Harvestman’s Scythe | 3 | 3+ | 3+ | 1 | 2 | Anti-MONSTER (+1 Rend) |
@@ -80,7 +80,7 @@
   - 宣言: Pick an enemy **MONSTER** in combat with this unit to be the target.
   - 効果: Roll a dice. On a 3+, subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Rotbringer Lord*
 - Any **MAGGOTKIN OF NURGLE**
@@ -97,13 +97,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 6 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Plague Staff | 3 | 4+ | 3+ | - | D3 | - |
 
@@ -116,7 +116,7 @@
   - 宣言: Pick a visible enemy **WIZARD** or **PRIEST** within 12" of this unit to be the target, then make a casting roll of 2D6.
   - 効果: Subtract 1 from the target’s power level, to a minimum of 0, until the start of your next turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Rotbringer Lord*
 - Any **ROTBRINGERS**
@@ -135,13 +135,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 7 | 5+ | - | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Maggot-infested Mouth | 4 | 4+ | 3+ | 1 | D3 | - |
 
@@ -173,13 +173,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 7 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rot-pocked Axe | 5 | 3+ | 2+ | 1 | 2 | Anti-HERO (+1 Rend), Crit (Mortal) |
 
@@ -195,7 +195,7 @@
   - 宣言: Pick a regiment led by this unit to be the target if no units from that regiment have been deployed.
   - 効果: Each unit in the target regiment is set up in reserve **aboard the Slime Fleet**. Those units have now been deployed.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Rotbringer Lord*
 - Any **ROTBRINGERS**
@@ -212,13 +212,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 7 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Grim Rotsword or Plague Scythe | 3 | 3+ | 3+ | 1 | 3 | Crit (Mortal) |
 | Daemonic Mount’s Flyblown Bite | 2 | 5+ | 3+ | - | 1 | Companion |
@@ -232,7 +232,7 @@
   - 宣言: Pick a visible enemy unit within 12" of this unit to be the target, then make a chanting roll of D6.
   - 効果: Subtract twice the current battle round number from the target’s control score for the rest of the turn. If the chanting roll was 10+, this ability affects all enemy units within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Rotbringer Lord*
 - Any **ROTBRINGERS**
@@ -249,13 +249,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 8 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Festerspike | 4 | 3+ | 3+ | 1 | 2 | Charge (+1 Damage) |
 | Rot Fly’s Mouthparts and Sting | 6 | 4+ | 3+ | - | 1 | Companion |
@@ -269,7 +269,7 @@
   - 宣言: If this unit charged this turn, pick this unit and up to 2 friendly **Pusgoyle Blightlords** units wholly within 12" of this unit to be the targets.
   - 効果: Add 1 to the Rend characteristic of the targets’ **Rot Fly’s Mouthparts and Sting** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **ROTBRINGERS**
 
@@ -285,13 +285,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 7 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bubotic Hammer | 4 | 3+ | 3+ | 1 | 3 | Anti-charge (+1 Rend) |
 
@@ -304,7 +304,7 @@
   - 宣言: Pick an enemy unit that charged this turn and is in combat with this unit or with a friendly **Plague Drones** unit wholly within 12" of this unit to be the target.
   - 効果: Roll D3. On 2+, inflict an amount of mortal damage on the target equal to the roll.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **ROTBRINGERS**
 
@@ -322,13 +322,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 7 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Plague-ridden Great Blade | 5 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -340,7 +340,7 @@
   - 宣言: Pick a friendly **Rotswords** unit that did not charge this turn and is wholly within 12" of this unit to be the target.
   - 効果: Roll a dice. On a 2+, add 1 to the Attacks characteristic of the target’s **Ruined Master-crafted Weapons** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **ROTBRINGERS**
 
@@ -358,19 +358,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 14 | 4+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Tripletongue’s Slabrous Tongues | 7" | 3 | 3+ | 3+ | 1 | 1 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fleshreaper Scythe | 5 | 3+ | 3+ | 1 | 2 | - |
 | Tripletongue’s Claws（戦傷時） | 5 | 4+ | 2+ | 2 | 3 | Companion |
@@ -387,7 +387,7 @@
   - 宣言: Pick up to 2 friendly **Nurglings** units wholly within 12" of this unit to be the targets.
   - 効果: Roll a dice for each target. On a 2+: • If the target is not in combat, it can move a number of inches equal to the roll but cannot end that move in combat. • If the target is in combat, it can make a pile-in move.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Rotbringer Lord*
 - Any **MAGGOTKIN OF NURGLE**
@@ -404,19 +404,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 14 | 3+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Whippermaw’s Grasping Tongue | 7" | 1 | 3+ | 3+ | - | D6 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | The Rotaxes | 7 | 3+ | 3+ | 1 | 2 | - |
 | Whippermaw’s Claws（戦傷時） | 5 | 4+ | 2+ | 2 | 3 | Companion |
@@ -431,7 +431,7 @@
 - **Acid Ichor**（Passive）
   - 効果: Each time you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Rotbringer Lord*
 - Any **MAGGOTKIN OF NURGLE**
@@ -446,13 +446,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 2 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Corroded Weapons | 2 | 4+ | 3+ | - | 1 | - |
 
@@ -471,13 +471,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 1 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Decaying Weapons | 2 | 4+ | 4+ | - | 1 | Crit (Auto-wound) |
 
@@ -499,13 +499,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 8 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Flyrider’s Arsenal | 4 | 3+ | 3+ | 1 | 1 | Charge (+1 Damage) |
 | Rot Fly’s Mouthparts and Sting | 6 | 4+ | 3+ | - | 1 | Companion |
@@ -529,13 +529,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 8 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rot Fly’s Mouthparts and Sting | 6 | 4+ | 3+ | - | 1 | Companion |
 | Flyrider’s Arsenal | 4 | 3+ | 3+ | 1 | 1 | Charge (+1 Damage) |
@@ -559,13 +559,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 3 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Pox-blighted Weapons | 4 | 3+ | 3+ | 1 | 1 | Anti-PRIEST (+1 Rend), Anti-WIZARD (+1 Rend) |
 
@@ -587,13 +587,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 6 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rotwood Staff | 3 | 4+ | 3+ | 1 | D3 | - |
 
@@ -603,7 +603,7 @@
   - 宣言: Pick an enemy unit that was picked to be the target of a spell that was successfully cast by this unit this phase to be the target.
   - 効果: Roll a dice. On a 2+, subtract 1 from ward rolls for the target for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Rotbringer Lord*
 - Any **ROTBRINGERS**
@@ -620,19 +620,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 1 | 6+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Contagion Blowpipes | 12" | 2 | 4+ | 3+ | - | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bilewood Weapons | 2 | 4+ | 4+ | - | 1 | - |
 
@@ -651,13 +651,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 2 | 3+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ruined Master-crafted Weapons | 2 | 3+ | 3+ | 1 | 1 | Crit (2 Hits) |
 
@@ -677,13 +677,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 3 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Pox-blighted Weapons | 4 | 3+ | 3+ | 1 | 1 | Anti-PRIEST (+1 Rend), Anti-WIZARD (+1 Rend) |
 
@@ -706,13 +706,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 4 | 3+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Foetid Nag’s Hooves | 2 | 5+ | 3+ | - | 1 | Companion |
 | Entropic Bludgeons | 2 | 4+ | 3+ | 2 | 2 | Charge (+1 Damage) |
@@ -737,13 +737,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rotstave | 3 | 4+ | 3+ | 1 | D3 | - |
 
@@ -756,7 +756,7 @@
   - 宣言: Pick a friendly **Pestigors** unit wholly within 12" of this unit to be the target.
   - 効果: Roll a dice. On a 3+, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Rotbringer Lord*
 - Any **ROTBRINGERS**
@@ -771,13 +771,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 4 | 3+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Foetid Nag’s Hooves | 2 | 5+ | 3+ | - | 1 | Companion |
 | Entropic Bludgeons | 2 | 4+ | 3+ | 2 | 2 | Charge (+1 Damage) |
@@ -800,13 +800,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 24 | 4+ | 10 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ghurk’s Tentacle（戦傷時） | 4 | 3+ | 2+ | 2 | 5 | - |
 | Otto’s Scythe | 4 | 3+ | 3+ | 1 | 3 | - |
@@ -827,7 +827,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of **Ghurk’s Tentacle** is 3.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Rotbringer Lord*
 - Any **MAGGOTKIN OF NURGLE**
@@ -844,13 +844,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 4 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Blighted Weapons | 4 | 3+ | 3+ | 1 | 1 | - |
 

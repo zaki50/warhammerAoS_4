@@ -1,9 +1,9 @@
 # Helsmiths of Hashut ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Helsmiths of Hashut Battle Traits（出典: Chaos Battletome: Helsmiths of Hashut）
@@ -19,7 +19,7 @@ Helsmiths of Hashut armies can use the following abilities:
   - 宣言: Pick a terrain feature or objective that does not have a friendly **desolation token** and is contested by a friendly **HELSMITHS OF HASHUT** unit that is not in combat to be the target.
   - 効果: Give the target a **desolation token**.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Castigation Battery
@@ -69,7 +69,7 @@ Helsmiths of Hashut armies can use the following abilities:
   - 宣言: Pick a visible enemy unit within 18" of this unit to be the target.
   - 効果: Until the start of your next turn, add 1 to wound rolls for combat attacks made by friendly **HELSMITHS OF HASHUT** units that target that enemy unit.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Dark Gifts of Hashut（出典: Chaos Battletome: Helsmiths of Hashut）
@@ -124,7 +124,7 @@ Accursed Devices are unique enhancements that can be given to **HELSMITHS OF HAS
 - **Bullfather's Scorn**（Your Shooting Phase / 10pt）
   - 効果: You can spend 1 **rage dice**. If you do: • Apply the effect below. • If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Otherwise, roll a dice. On a 3+, apply the effect below. This unit’s ranged weapons have **Crit (2 Hits)** until the start of your next turn. If each of this unit’s ranged weapons already have **Crit (2 Hits)**, this unit’s shooting attacks score critical hits on unmodified hit rolls of 5+ until the start of your next turn instead.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Lore of Infernal Power

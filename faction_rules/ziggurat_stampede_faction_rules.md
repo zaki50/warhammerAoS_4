@@ -1,9 +1,9 @@
 # Ziggurat Stampede ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Ziggurat Stampede Battle Traits（出典: Army of Renown: Ziggurat Stampede）
@@ -26,7 +26,7 @@
 - **Raging Animus**（Passive）
   - 効果: Each time you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict D3 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Ziggurat Stampede Artefacts of Power（出典: Army of Renown: Ziggurat Stampede）
@@ -36,7 +36,7 @@
 - **Visage of the Great Bull**（Passive）
   - 効果: In your charge phase, add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Ziggurat Stampede Spell Lore

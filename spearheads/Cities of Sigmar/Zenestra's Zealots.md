@@ -1,6 +1,6 @@
 # Spearhead: Zenestra's Zealots（Cities of Sigmar）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -20,13 +20,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Command Weapons | 3 | 3+ | 4+ | 1 | 1 | - |
 
@@ -43,13 +43,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 6+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Enchanted Rapier | 4 | 3+ | 4+ | 2 | 2 | - |
 
@@ -66,19 +66,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Duelling Pistols | 10" | 4 | 3+ | 4+ | 1 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Master-forged Weapon | 5 | 3+ | 4+ | 1 | 2 | - |
 
@@ -98,13 +98,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Freeguild Weapons | 2 | 4+ | 4+ | - | 1 | - |
 
@@ -121,13 +121,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 9 | 5+ | 2 | 4+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sceptre of the Wheel | 3 | 4+ | 4+ | 1 | D3 | - |
 
@@ -139,14 +139,14 @@
 
 **キーワード:** Hero, Priest, Infantry, Ward (4+)
 
-## バトル特性（Zenestra's Zealots Battle Traits）
+## 戦闘特性（Zenestra's Zealots Battle Traits）
 
 - **Sudden Ambush**（Your Movement Phase）
   - 効果: Set up this unit within 6" of an enemy unit and not in combat.
 - **Lady of the Wheel**（Passive）
   - 効果: Each time a friendly model is slain by a combat attack, roll a number of dice equal to that model’s Health characteristic. For each 5+, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.
 
-## レジメントアビリティ（Zenestra's Zealots Regiment Abilities）
+## 連隊アビリティ（Zenestra's Zealots Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

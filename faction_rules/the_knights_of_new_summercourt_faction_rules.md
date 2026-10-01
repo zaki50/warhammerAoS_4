@@ -1,9 +1,9 @@
 # The Knights of New Summercourt ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### The Knights of New Summercourt Battle Traits（出典: Army of Renown: The Knights of New Summercourt）
@@ -36,7 +36,7 @@
 - **Tip of the King's Lance**（Any Combat Phase）
   - 効果: If this unit charged this turn, it can move 2D6". It can pass through models in enemy units, but it must end that move in combat.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### The Knights of New Summercourt Artefact of Power（出典: Army of Renown: The Knights of New Summercourt）
@@ -46,7 +46,7 @@
 - **Feted Coronet**（Passive）
   - 効果: This unit has **WARD (4+)** until a friendly **NEW SUMMERCOURT** unit is destroyed.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### The Knights of New Summercourt Manifestation Lore

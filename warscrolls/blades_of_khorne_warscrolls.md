@@ -1,6 +1,6 @@
 # Blades of Khorne ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全43 ウォースクロール（Spearhead 版 7 件は除外。--include-spearhead で含められる）
 
@@ -15,7 +15,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 8 | 5+ | 7+ | 6+ |
 
@@ -35,13 +35,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Goreweapons | 3 | 4+ | 3+ | 1 | 1 | Blood-hungry, Crit (Auto-wound) |
 
@@ -60,13 +60,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 5 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Juggernaut’s Brazen Hooves | 2 | 4+ | 3+ | 1 | D3 | Anti-CAVALRY (+1 Rend), Companion |
 | Bloodcrusher Hellblade | 3 | 3+ | 3+ | 1 | 1 | Blood-hungry, Crit (Mortal) |
@@ -86,13 +86,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 2 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Hellblade | 2 | 3+ | 3+ | 1 | 1 | Blood-hungry, Crit (Mortal) |
 
@@ -113,13 +113,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 6 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Blade of Blood | 5 | 3+ | 3+ | 2 | 2 | Blood-hungry, Crit (2 Hits) |
 
@@ -128,7 +128,7 @@
 - **The Blood Must Flow**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly **Bloodletters** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. For the rest of the turn, add 1 to hit rolls for combat attacks made by this unit and that friendly **Bloodletters** unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Slaughter Seeker*
 - Any **BLADES OF KHORNE** **DAEMON**
@@ -145,13 +145,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 6+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Reaver Blades and Axes | 2 | 4+ | 3+ | - | 1 | Blood-hungry |
 
@@ -172,13 +172,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ensorcelled Axe | 4 | 3+ | 3+ | 1 | 2 | Blood-hungry |
 
@@ -189,7 +189,7 @@
 - **Rage of Khorne**（Once Per Battle (Army), Any Combat Phase）
   - 効果: Add 1 to the Attacks characteristic of friendly **BLOODBOUND** units' melee weapons for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BLOODBOUND**
 
@@ -207,13 +207,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Torture Blade and Blood Whip | 4 | 3+ | 4+ | 1 | 2 | Blood-hungry |
 
@@ -223,7 +223,7 @@
   - 宣言: Pick a friendly non-**HERO BLOODBOUND** unit within this unit’s combat range to be the target.
   - 効果: For the rest of the turn, the target can use **CHARGE** abilities even if it used a **RUN** ability in the same turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BLOODBOUND**
 
@@ -241,13 +241,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 16 | 4+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Great Axe of Khorne（戦傷時） | 5 | 3+ | 2+ | 2 | 5 | Anti-INFANTRY (+1 Rend), Blood-hungry |
 
@@ -261,7 +261,7 @@
   - 宣言: If this unit charged this turn, pick a visible enemy unit within 1" of it to be the target.
   - 効果: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If the target is **INFANTRY**, inflict an additional 3 mortal damage on it.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Slaughter Seeker*
 - Any **BLADES OF KHORNE** **DAEMON**
@@ -280,19 +280,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 16 | 4+ | 5 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Lash of Khorne | 8" | 4 | 3+ | 3+ | 1 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Mighty Axe of Khorne（戦傷時） | 6 | 3+ | 2+ | 2 | 4 | Anti-MONSTER (+1 Rend), Blood-hungry |
 
@@ -307,7 +307,7 @@
   - 宣言: Pick a friendly non-**UNIQUE BLADES OF KHORNE DAEMON** unit to be the target.
   - 効果: For the rest of the turn, when making charge rolls for the target, roll 1 additional dice, to a maximum of 3, and discard 1 dice of your choice.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Slaughter Seeker*
 - Any **BLADES OF KHORNE** **DAEMON**
@@ -324,13 +324,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Weapons of the Hunt | 3 | 4+ | 3+ | - | 1 | Blood-hungry, Crit (2 Hits) |
 
@@ -353,13 +353,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kingslayer Axe | 4 | 3+ | 3+ | 1 | 3 | Blood-hungry, Crit (2 Hits) |
 
@@ -371,7 +371,7 @@
 - **Trophies of Glorious Deaths**（Reaction: Opponent declared a command for a unit within 8" of this unit）
   - 効果: Roll a dice. On an 5+, that command has no effect, it still counts as having been used and the command points spent to use it are still lost. This reaction cannot be used more than once per command.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BLOODBOUND**
 
@@ -387,13 +387,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 2 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Blood-dark Claws | 4 | 4+ | 3+ | - | 1 | Blood-hungry, Companion |
 
@@ -416,13 +416,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 6+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Reaver Blades and Axes | 2 | 4+ | 3+ | - | 1 | Blood-hungry |
 
@@ -449,13 +449,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Weapons of Wrath | 4 | 4+ | 3+ | 1 | 2 | Blood-hungry, Crit (Mortal) |
 
@@ -480,13 +480,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 10 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Blade of Blood and Hellblades | 7 | 3+ | 3+ | 1 | 2 | Blood-hungry, Crit (Mortal) |
 
@@ -498,7 +498,7 @@
 - **Blood Marked**（Passive）
   - 効果: This unit has **WARD (4+)** against damage inflicted by **SPELL** abilities and abilities used by **MANIFESTATIONS.**
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Slaughter Seeker*
 - Any **BLADES OF KHORNE** **DAEMON**
@@ -515,13 +515,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 6 | 5+ | 7+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stream of Molten Blood | 2 | 4+ | 3+ | - | D3 | - |
 
@@ -544,13 +544,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 6+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bloodied Weapons | 2 | 4+ | 3+ | - | 1 | Blood-hungry |
 
@@ -576,13 +576,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 7 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Savage Maws and Goreslick Claws | 6 | 4+ | 3+ | 1 | 2 | Anti-HERO (+1 Rend), Blood-hungry |
 
@@ -596,7 +596,7 @@
   - 宣言: If this unit’s quarry is on the battlefield, pick this unit and up to 1 friendly **Flesh Hounds** unit to be the targets.
   - 効果: Remove the targets from the battlefield and set them up again on the battlefield more than 6" from this unit’s quarry and more than 9" from all other enemy units. If picked to be a target, the unit of **Flesh Hounds** must also be set up wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **Claws of Karanak**
 - Any **Flesh Hounds**
@@ -613,13 +613,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 8 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Claws and Fangs | 5 | 4+ | 2+ | 1 | 2 | Companion |
 
@@ -643,13 +643,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 8 | 2+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Juggernaut’s Brazen Hooves | 2 | 4+ | 3+ | 1 | D3 | Companion |
 | Wrathforged Axe | 6 | 3+ | 3+ | 1 | 2 | Blood-hungry |
@@ -662,7 +662,7 @@
   - 宣言: If this unit charged this turn, pick a visible enemy unit within 1" of it to be the target.
   - 効果: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BLOODBOUND**
 
@@ -678,13 +678,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Goreaxe | 3 | 4+ | 3+ | 1 | 1 | Blood-hungry |
 | Blood-dark Claws | 4 | 4+ | 3+ | - | 1 | Anti-WIZARD (+1 Rend), Blood-hungry, Companion |
@@ -710,13 +710,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 7 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Flesh Hound’s Blood‑dark Claws | 4 | 4+ | 3+ | - | 1 | Companion |
 | Axe of Khorne | 5 | 3+ | 3+ | 2 | 2 | Blood-hungry |
@@ -729,7 +729,7 @@
 - **Lord of the Bloodbound**（Passive）
   - 効果: Add 1 to wound rolls for friendly **BLOODBOUND INFANTRY** units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any *Bloodbound Warmonger*
 - Any **BLOODBOUND**
@@ -744,13 +744,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 5 | 2+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gorebathed Glaive or Axe | 3 | 3+ | 3+ | 1 | 1 | Blood-hungry, Charge (+1 Damage) |
 | Juggernaut’s Brazen Hooves | 2 | 4+ | 3+ | 1 | D3 | Companion |
@@ -773,13 +773,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ritual Dagger | 2 | 3+ | 3+ | 2 | D3 | Blood-hungry |
 
@@ -789,7 +789,7 @@
   - 宣言: Pick an objective or terrain feature within this unit’s combat range to be the target.
   - 効果: For the rest of the battle, add I to wound rolls for combat attacks made by friendly **BLOODBOUND** units while they are wholly within 12" of the target.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BLOODBOUND**
 
@@ -805,13 +805,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Goreweapons | 3 | 4+ | 3+ | 1 | 1 | Blood-hungry, Crit (Auto-wound) |
 
@@ -832,13 +832,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 2 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Hellblade | 2 | 3+ | 3+ | 1 | 1 | Blood-hungry, Crit (Mortal) |
 
@@ -859,13 +859,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 5 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bloodcrusher Hellblade | 2 | 3+ | 3+ | 1 | 1 | Blood-hungry, Charge (+1 Damage), Crit (Mortal) |
 | Juggernaut’s Brazen Hooves | 2 | 4+ | 3+ | 1 | D3 | Anti-CAVALRY (+1 Rend), Companion |
@@ -890,13 +890,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 7 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Flesh Hound’s Blood‑dark Claws | 3 | 4+ | 3+ | - | 1 | Companion |
 | Axe of Khorne | 4 | 3+ | 3+ | 2 | 3 | Blood-hungry |
@@ -910,7 +910,7 @@
   - 宣言: If this unit is in combat, pick a visible friendly **BLOODBOUND** unit that is wholly within 12" of this unit and not in combat to be the target. Then, make a charge roll of 2D6.
   - 効果: The target can move a distance up to the value of the charge roll. That unit can move through the combat ranges of any enemy units and must end that move within 1⁄2" of a visible enemy unit. If it does so, the target has charged.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any *Bloodbound Warmonger*
 - Any **BLADES OF KHORNE**
@@ -929,13 +929,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 8 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Brutal Fists | 8 | 4+ | 2+ | - | 2 | Blood-hungry, Crit (2 Hits) |
 
@@ -946,7 +946,7 @@
 - **Brass Collar of Khorne**（Passive）
   - 効果: This unit can use **UNBIND** abilities as if it had **WIZARD (1)**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BLOODBOUND**
 
@@ -962,13 +962,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 16 | 4+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Slaughter | 4 | 3+ | 2+ | 2 | 4 | Blood-hungry |
 | Carnage | 2 | 3+ | 2+ | 2 | 8 | Crit (Mortal) |
@@ -983,7 +983,7 @@
 - **Inescapable Wrath**（Passive）
   - 効果: Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Slaughter Seeker*
 - Any **BLADES OF KHORNE** **DAEMON**
@@ -1000,13 +1000,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | The Bloodstorm Blades | 6 | 3+ | 3+ | 1 | 2 | Blood-hungry, Crit (2 Hits) |
 
@@ -1018,7 +1018,7 @@
   - 宣言: This unit can only use this ability if it has been destroyed.
   - 効果: Roll 2D6. On an 8+, set up a replacement unit on the battlefield more than 9" from all enemy units.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BLOODBOUND**
 
@@ -1034,7 +1034,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 10 | 4+ | - |
 
@@ -1070,19 +1070,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 8 | 4+ | 2 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Burning Skulls | 15" | 4 | 4+ | 3+ | 1 | 2 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gnashing Maw | 1 | 4+ | 3+ | 1 | D3 | Blood-hungry, Companion |
 | Hellblades | 4 | 3+ | 3+ | 1 | 1 | Blood-hungry, Crit (Mortal) |
@@ -1106,13 +1106,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Brazen Anvil | 4 | 4+ | 2+ | 1 | 3 | Anti-MONSTER (+1 Rend), Blood-hungry |
 
@@ -1125,7 +1125,7 @@
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
   - 効果: Roll a dice. If the roll is equal to or less than the target’s Control characteristic, the target has **STRIKE-LAST** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BLOODBOUND**
 
@@ -1143,13 +1143,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 7 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Juggernaut’s Brazen Hooves | 2 | 4+ | 3+ | 1 | D3 | Anti-CAVALRY (+1 Rend), Companion |
 | Blade of Blood | 5 | 3+ | 3+ | 2 | 2 | Blood-hungry, Crit (Mortal) |
@@ -1163,7 +1163,7 @@
   - 宣言: Pick a friendly **Bloodcrushers** unit within this unit’s combat range to be the target.
   - 効果: For the rest of the turn, weapons used by this unit and the target have **Charge (+1 Damage)**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **DAEMON** **CAVALRY**
 - Any **WAR MACHINE**
@@ -1178,13 +1178,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Daemonforged Weapons | 4 | 4+ | 3+ | 1 | 2 | Blood-hungry, Crit (2 Hits) |
 
@@ -1205,13 +1205,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 7 | 4+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | The Slayer Sword | 6 | 2+ | 3+ | 2 | 2 | Anti-HERO (+1 Rend), Blood-hungry |
 
@@ -1226,7 +1226,7 @@
   - 宣言: Pick an enemy **HERO** unit that used a **FIGHT** ability this turn to be the target.
   - 効果: Remove this unit from the battlefield and set it up again on the battlefield in combat with the target and not in combat with any other enemy units.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BLADES OF KHORNE** **DAEMON**
 
@@ -1244,13 +1244,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bloodbathed Weapon | 4 | 3+ | 3+ | 1 | 2 | Blood-hungry |
 
@@ -1262,7 +1262,7 @@
   - 宣言: Pick a unit (friendly or enemy) within this unit's combat range to be the target.
   - 効果: Roll a D3. On a 2+: • Inflict an amount of mortal damage on the target equal to the roll. • This unit gains 1 ritual point.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BLOODBOUND**
 
@@ -1280,13 +1280,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 6 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Slaupnir | 5 | 3+ | 3+ | 2 | 2 | Blood-hungry, Charge (+1 Damage) |
 
@@ -1301,7 +1301,7 @@
   - 宣言: Pick this unit if it is **soaring above the battlefield**.
   - 効果: Set up this unit anywhere on the battlefield more than 9" from all enemy units. Then, pick a visible enemy unit within 10" of this unit and roll a dice. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Bloodbound Warmonger*
 - Any **BLOODBOUND**
@@ -1318,19 +1318,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 16 | 4+ | 5 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hellfire Breath | 8" | 2D6 | 2+ | 3+ | 1 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Mighty Axe of Khorne and Bloodflail（戦傷時） | 6 | 3+ | 2+ | 2 | 4 | Anti-HERO (+1 Rend), Blood-hungry |
 
@@ -1347,7 +1347,7 @@
   - 宣言: Pick another visible friendly non-**UNIQUE BLADES OF KHORNE DAEMON** unit to be the target.
   - 効果: Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Slaughter Seeker*
 - 0-1 *Baleful Lord*
@@ -1365,13 +1365,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 7 | 5+ | 7+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Wrath-axe | 4 | 4+ | 2+ | 2 | D3 | - |
 
@@ -1391,13 +1391,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Wrath-flails | 4 | 4+ | 3+ | 1 | 1 | Blood-hungry, Crit (2 Hits) |
 

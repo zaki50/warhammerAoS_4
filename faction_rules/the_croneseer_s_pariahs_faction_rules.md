@@ -1,9 +1,9 @@
 # The Croneseer’s Pariahs ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### The Croneseer’s Pariahs Battle Traits（出典: Army of Renown: The Croneseer's Pariahs）
@@ -32,7 +32,7 @@
 - **Proselyte of Morai-Heg**（Passive）
   - 効果: Enemy units cannot use commands while they are in combat with this unit.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### The Croneseer’s Pariahs Artefact of Power（出典: Army of Renown: The Croneseer's Pariahs）
@@ -43,7 +43,7 @@
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
   - 効果: Roll a dice. On a 2+: • If the target is not damaged, inflict 1 mortal damage on it. • If the target is damaged, inflict an amount of mortal damage on it equal to the roll.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### The Croneseer’s Pariahs Prayer Lore

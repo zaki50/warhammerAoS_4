@@ -1,9 +1,9 @@
 # Matriarch's Mob ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Matriarch's Mob Battle Traits（出典: Army of Renown: Matriarch's Mob）
@@ -32,7 +32,7 @@ Marks of the Chooser's Chosen are unique enhancements that can be given to **Man
   - 宣言: Pick a visible friendly **MATRIARCH'S MOB** unit wholly within 12" of this unit to be the target.
   - 効果: **Heal (D3)** the target.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Matriarch's Mob Spell Lore

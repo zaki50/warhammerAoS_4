@@ -1,9 +1,9 @@
 # Decadent Host ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### The Decadent Host Battle Traits（出典: Army of Renown: The Decadent Host）
@@ -34,7 +34,7 @@
 - **Protégé**（Once Per Battle (Army), Reaction: You declared the 'The Prince in the Mirror' ability）
   - 効果: You can set up a replacement **Sigvald** within 1" of this unit instead of within 6" of a friendly **Contorted Epitome**. If you do so, after setting up that replacement unit, this unit is automatically destroyed.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### The Decadent Host Artefact of Power（出典: Army of Renown: The Decadent Host）
@@ -44,7 +44,7 @@
 - **Mirror-Plate**（Passive）
   - 効果: Weapons used by this unit have a maximum Attacks characteristic of 1. While this unit is within 3" of and visible to the friendly **Sigvald**, add 20 to the friendly **Sigvald**’s control score.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### The Decadent Host Manifestation Lore

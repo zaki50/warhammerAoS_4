@@ -1,9 +1,9 @@
 # Skaven ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Skaven Battle Traits（出典: Chaos Battletome: Skaven）
@@ -25,7 +25,7 @@ Skaven armies can use the following abilities:
   - 宣言: Pick a friendly **SKAVEN** unit that is **in the** **tunnels below** to use this ability.
   - 効果: Set up that unit wholly within 6" of a friendly **Gnawhole** and more than 9" from all enemy units.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Claw-horde
@@ -107,7 +107,7 @@ Skaven armies can use the following abilities:
   - 宣言: Pick a friendly **MOULDER** unit wholly within 13" of this unit to be the target.
   - 効果: Pick 1 of the target’s melee weapons. Add 1 to the Rend characteristic of that weapon for the rest of the turn.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Relics of Ruin（出典: Chaos Battletome: Skaven）
@@ -137,7 +137,7 @@ Moulder Mutations are unique enhancements that can be given to non-**HERO** non-
 - **Serrated Bone Protrusions**（Passive / 10pt）
   - 効果: For each unmodified hit roll of 1 for a combat attack made by an enemy unit that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Lore of Ruin

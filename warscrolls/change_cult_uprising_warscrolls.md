@@ -1,6 +1,6 @@
 # Change-Cult Uprising ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全13 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,7 +15,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 6 | 4+ | - | 6+ |
 
@@ -45,19 +45,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hurled Arcane Energy | 18" | D6 | 3+ | 3+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Staff of Tzeentch and Blazing Sword | 5 | 3+ | 4+ | 1 | 2 | - |
 
@@ -69,7 +69,7 @@
   - 宣言: Pick a visible enemy unit within 12" of this unit to be the target. Then, make a casting roll of 2D6.
   - 効果: Subtract 1 from save rolls for combat attacks that target that unit until the start of your next turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Chaos Spawn of Tzeentch**
 - Any **ARCANITE**
@@ -88,19 +88,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Mighty Sorcerous Bolt | 18" | 1 | 4+ | 3+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Mighty Sorcerous Bolt | 2 | 4+ | 4+ | - | 1 | - |
 
@@ -127,13 +127,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cursewrought Glaive | 4 | 3+ | 4+ | 2 | 2 | - |
 
@@ -146,7 +146,7 @@
   - 宣言: This unit can only use this ability if it is **masked by illusion**. Pick up to 1 other friendly unit that is **masked by illusion** to be the target.
   - 効果: Set up this unit on the battlefield more than 9" from all enemy units. Then, set up the target wholly within 6" of this unit and more than 9" from all enemy units.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Chaos Spawn of Tzeentch**
 - Any **ARCANITE**
@@ -165,13 +165,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Disc’s Teeth and Horns | 2 | 4+ | 3+ | 1 | D3 | Companion |
 | Fireglaive of Tzeentch | 3 | 3+ | 3+ | 1 | D3 | - |
@@ -183,7 +183,7 @@
 - **Soulbound Shield**（Reaction: Opponent declared a SPELL ability）
   - 効果: If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit. This unit can use this ability more than once per phase but only once per **SPELL** ability.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Chaos Spawn of Tzeentch**
 - 0-1 *Arcanite Cabalist*
@@ -199,13 +199,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Mason’s Tools | 2 | 4+ | 3+ | 1 | 1 | Anti-FACTION TERRAIN (+1 Rend) |
 
@@ -231,13 +231,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kairic Blades | 2 | 4+ | 3+ | 1 | 1 | - |
 
@@ -258,19 +258,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 6 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Tzeentchian Runestaff | 18" | 1 | 3+ | 4+ | - | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warpsteel Sword | 3 | 3+ | 4+ | - | 2 | - |
 
@@ -282,7 +282,7 @@
   - 宣言: Pick a visible friendly **ARCANITE** unit wholly within 12" of this unit to be the target.
   - 効果: &#x20;The target’s melee weapons have **Crit (Mortal)** until the start of your next turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **ARCANITE**
 
@@ -300,19 +300,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 7 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Tzeentchian Runestaff | 18" | 1 | 3+ | 4+ | - | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Disc’s Teeth and Horns | 2 | 4+ | 3+ | 1 | D3 | Companion |
 | Warpsteel Sword | 3 | 3+ | 4+ | - | 2 | - |
@@ -324,7 +324,7 @@
 - **Fates Converge**（Passive）
   - 効果: While you have 6 or more **fate points**, add 1 to the Attacks characteristic of melee weapons used by friendly **ARCANITE** units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Arcanite Cabalist*
 - Any **ARCANITE**
@@ -341,19 +341,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 8 | 5+ | 2 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Thaumaturge Staff | 12" | 3 | 3+ | 4+ | - | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Great Horns and Cloven Hooves | 6 | 4+ | 2+ | 1 | 2 | Charge (+1 Damage) |
 
@@ -364,7 +364,7 @@
 - **Arcane Absorption**（End of Any Turn）
   - 効果: If any damage points were allocated to an enemy **WIZARD** or **PRIEST** by this unit’s attacks this turn and that enemy unit has been destroyed: • **Heal (7)** this unit. • Add 1 to this unit’s power level for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **ARCANITE**
 
@@ -382,19 +382,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 8 | 5+ | 2 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Thaumaturge Staff | 12" | 3 | 3+ | 4+ | - | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Great Horns and Cloven Hooves | 6 | 4+ | 2+ | 1 | 2 | Charge (+1 Damage) |
 
@@ -406,7 +406,7 @@
 - **Soul-Deep Devotion**（Passive）
   - 効果: While this unit is within a friendly non‐**HERO ARCANITE** unit’s combat range: • This unit has **WARD (4+)**. • Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly non-**HERO ARCANITE** unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **ARCANITE**
 
@@ -422,13 +422,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cursed Blades and Glaives | 2 | 4+ | 3+ | - | 1 | - |
 
@@ -454,19 +454,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 8 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Thaumaturge Staff | 12" | 3 | 3+ | 4+ | - | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Great Horns and Cloven Hooves | 6 | 4+ | 2+ | 1 | 2 | Charge (+1 Damage) |
 
@@ -478,7 +478,7 @@
   - 宣言: If this unit is not in combat, pick a friendly **ARCANITE** unit in combat to be the target.
   - 効果: Remove this unit from the battlefield and set it up again within 1" of the target and in combat. This unit has charged.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **ARCANITE**
 

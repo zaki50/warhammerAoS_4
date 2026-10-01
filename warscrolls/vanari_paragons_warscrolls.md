@@ -1,6 +1,6 @@
 # Vanari Paragons ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全12 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,19 +15,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 6 | 3+ | 2 | 4+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Searing Darts of Light | 12" | 3 | 2+ | 3+ | 2 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fangsword of Eltharion | 5 | 2+ | 3+ | 3 | 3 | Crit (2 Hits) |
 | Celennari Blade | 2 | 2+ | 3+ | 1 | 3 | Anti-HERO (+1 Rend), Anti-MONSTER (+1 Rend) |
@@ -39,7 +39,7 @@
 - **Eternal Light**（Passive）
   - 効果: If this unit is destroyed and if a friendly **LUMINETH REALM-LORDS WIZARD** successfully casts a **SUMMON** spell, instead of resolving the effect of that **SUMMON** spell, you can set up a replacement unit for this unit more than 9" from all enemy units and wholly within 12" of the unit that used that **SUMMON** spell. This ability is still in effect even if this unit is not on the battlefield.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Lumineth Paragon*
 - Any **LUMINETH REALM-LORDS**
@@ -58,13 +58,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 3+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bannerblade’s Sword | 5 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
 
@@ -73,7 +73,7 @@
 - **Defend the Banner**（Passive）
   - 効果: Add 1 to save rolls for friendly **VANARI INFANTRY** units while they are contesting the same objective as this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **VANARI**
 
@@ -91,7 +91,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 12 | 3+ | - |
 
@@ -126,19 +126,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 7 | 3+ | 2 | 4+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Searing Darts of Light | 12" | 3 | 2+ | 3+ | 2 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fangsword of Eltharion | 5 | 2+ | 3+ | 3 | 3 | Crit (2 Hits) |
 | Celennari Blade | 2 | 2+ | 3+ | 1 | 3 | Anti-HERO (+1 Rend), Anti-MONSTER (+1 Rend) |
@@ -151,7 +151,7 @@
 - **Supreme Swordmaster**（Passive）
   - 効果: Ignore negative modifiers to hit rolls and wound rolls for this unit’s combat attacks.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Lumineth Paragon*
 - Any **LUMINETH REALM-LORDS**
@@ -168,19 +168,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Auralan Bow | 18" | 2 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sentinel Blade | 1 | 3+ | 4+ | - | 1 | - |
 
@@ -199,13 +199,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warden Pike and Blade | 2 | 3+ | 4+ | - | 1 | Anti-charge (+1 Rend), Crit (Mortal) |
 
@@ -226,13 +226,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bannerblade’s Sword | 5 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
 
@@ -241,7 +241,7 @@
 - **World Banner**（Passive）
   - 効果: While a visible friendly **LUMINETH REALM-LORDS** unit is wholly within 12" of this unit, it can use the ‘Rally’ command even if it is in combat.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **VANARI**
 
@@ -257,13 +257,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sunmetal Blade | 3 | 3+ | 4+ | 1 | 1 | Crit (Mortal) |
 
@@ -284,13 +284,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 3 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stallions’ Dashing Hooves | 2 | 5+ | 3+ | - | 1 | Companion |
 | Dawnrider Lance and Blade | 2 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage), Crit (Mortal) |
@@ -312,13 +312,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Regent’s Sword | 5 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
 
@@ -330,7 +330,7 @@
   - 宣言: Pick a friendly **VANARI AURALAN WARDENS** unit wholly within 12" of this unit to be the wall of blades. Then, pick an enemy unit in combat with the wall of blades to be the target.
   - 効果: Roll a dice for each model in the wall of blades that is within 3" of the target. For each 5+, inflict 1 mortal damage on the target.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Ydrilan Riverblades**
 - Any **VANARI**
@@ -349,13 +349,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 7 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Lightcourser’s Horns and Claws | 3 | 4+ | 3+ | 1 | 1 | Companion |
 | Regent’s Sword | 5 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
@@ -367,7 +367,7 @@
 - **Lead the Charge**（Passive）
   - 効果: You can re-roll charge rolls for friendly **LUMINETH REALM‑LORDS** units while they are wholly within 6" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Lumineth Paragon*
 - 0-1 **Ydrilan Riverblades**
@@ -387,19 +387,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Starshard Bolts | 24" | 4 | 3+ | 3+ | 1 | 2 | Anti-MONSTER (+1 Rend), Crit (2 Hits) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Crew’s Arming Swords | 2 | 3+ | 4+ | - | 1 | - |
 

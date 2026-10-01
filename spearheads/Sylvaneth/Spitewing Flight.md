@@ -1,6 +1,6 @@
 # Spearhead: Spitewing Flight（Sylvaneth）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 6 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Arch-Revenant’s Glaive | 5 | 3+ | 4+ | 1 | 2 | - |
 
@@ -43,19 +43,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 2 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Gossamid Bow | 12" | 2 | 3+ | 4+ | 1 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cruel Talons | 1 | 3+ | 4+ | - | 1 | - |
 
@@ -72,13 +72,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Seeker’s Sickle | 3 | 3+ | 4+ | 1 | 1 | Crit (Mortal) |
 | Dragonspite's Mandibles | 3 | 4+ | 3+ | 1 | 2 | Companion |
@@ -97,13 +97,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dragonspite's Mandibles | 3 | 4+ | 3+ | 1 | 2 | Companion |
 | Spiterider Lance | 3 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage) |
@@ -116,7 +116,7 @@
 
 **キーワード:** Cavalry, Fly
 
-## バトル特性（Spitewing Flight Battle Traits）
+## 戦闘特性（Spitewing Flight Battle Traits）
 
 - **Target of Vengeance**（Once Per Battle Round (Army), Start of Battle Round）
   - 宣言: If there is no enemy **quarry** on the battlefield, pick an enemy unit on the battlefield to be the target.
@@ -126,7 +126,7 @@
 - **Song of the Hunt**（Passive）
   - 効果: You gain 1 **chord** each time an enemy **quarry** is destroyed. The following cumulative effects apply depending on the number of **chords** you have: 1 chord - **Simple**: Add 1 to run rolls and charge rolls for friendly units while they are within 9" of the enemy **quarry**. 2 chords - **Tuneful**: Add 1 to hit rolls for friendly units’ attacks while they are within 9" of the enemy **quarry**. 3+ chords - **Melodic**: Add 1 to wound rolls for friendly units’ attacks while they are within 9" of the enemy **quarry**.
 
-## レジメントアビリティ（Spitewing Flight Regiment Abilities）
+## 連隊アビリティ（Spitewing Flight Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

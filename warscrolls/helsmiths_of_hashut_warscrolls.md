@@ -1,6 +1,6 @@
 # Helsmiths of Hashut ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全21 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -13,13 +13,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 4 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Thrice-cursed Glaive | 3 | 3+ | 3+ | 1 | 2 | Anti-CAVALRY (+1 Rend), Charge (+1 Damage) |
 
@@ -42,13 +42,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 6 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Black Hammer of Hashut | 3 | 3+ | 4+ | 1 | D3 | - |
 
@@ -59,7 +59,7 @@
 - **Extract Power**（End of Your Turn）
   - 効果: If this unit is contesting an objective, a **Place of Power**, or a terrain feature and that objective, **Place of Power** or terrain feature has a friendly desolation token, give this unit 1 ritual point.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Hashutite Commander*
 - Any **HELSMITHS OF HASHUT**
@@ -76,13 +76,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 4 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Brazen Mauls | 4 | 3+ | 3+ | 1 | 2 | Charge (+1 Damage), Crit (Mortal) |
 
@@ -106,19 +106,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 6 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hurled Daemonfire | 18" | 3 | 4+ | 4+ | 1 | D3 | Crit (2 Hits), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Darkiron Talon | 3 | 3+ | 4+ | 1 | D3 | - |
 
@@ -128,7 +128,7 @@
   - 宣言: Pick a friendly **HELSMITHS OF HASHUT WAR MACHINE** wholly within 6" of this unit to be the target. Add 6" to the range of this ability for each **daemonic power point** this unit has.
   - 効果: **Heal (D3+X)** the target, where **X** is the number of **daemonic power points** this unit has.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Hashutite Commander*
 - Any **HELSMITHS OF HASHUT**
@@ -147,19 +147,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 15 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hurled Daemonfire | 18" | 3 | 4+ | 4+ | 1 | D3 | Crit (2 Hits), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Horns and Hooves（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
 | Infernal Staff | 3 | 4+ | 3+ | 1 | D3 | - |
@@ -176,7 +176,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Horns and Hooves** is 4.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Hashutite Commander*
 - Any **HELSMITHS OF HASHUT**
@@ -193,19 +193,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 8 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hashu-Zharr Rockets | 24" | 3 | 4+ | 2+ | 2 | D3+2 | Anti-MONSTER (+1 Rend), Anti-WAR MACHINE (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Artillerist Weapons | 3 | 4+ | 4+ | - | 1 | - |
 
@@ -228,13 +228,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 10 | 2+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bane Maces | 4 | 4+ | 2+ | 1 | 3 | Charge (+1 Damage) |
 
@@ -257,19 +257,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 10 | 2+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Immolation Cannons | 8" | 5 | 2+ | 4+ | 1 | D3 | Anti-CAVALRY (+1 Rend), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Horns and Pummelling Strikes | 3 | 4+ | 3+ | 1 | D3 | Charge (+1 Damage) |
 
@@ -291,13 +291,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Scavenged Weapons | 2 | 4+ | 5+ | - | 1 | - |
 
@@ -316,13 +316,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 1 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Hashutite Blade | 2 | 3+ | 4+ | - | 1 | Anti-INFANTRY (+1 Rend) |
 
@@ -345,13 +345,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 1 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Hashutite Spear | 2 | 3+ | 4+ | - | 1 | Anti-CAVALRY (+1 Rend), Anti-charge (+1 Rend) |
 
@@ -375,19 +375,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 1 | 4+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Grizmalok Blunderbusses | 18" | 1 | 3+ | 2+ | - | 2 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Weapon Butt | 1 | 4+ | 4+ | - | 1 | - |
 
@@ -409,19 +409,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 1 | 4+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Karagthrun Flamehurlers | 12" | 3 | 2+ | 4+ | - | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Weapon Butt | 1 | 4+ | 4+ | - | 1 | - |
 
@@ -443,13 +443,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 4 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Thrice-cursed Glaive | 3 | 3+ | 3+ | 1 | 2 | Anti-CAVALRY (+1 Rend), Charge (+1 Damage) |
 
@@ -474,19 +474,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 15 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hurled Daemonfire | 18" | 3 | 4+ | 4+ | 1 | D3 | Crit (2 Hits), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Horns and Hooves（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
 | Infernal Staff | 3 | 4+ | 3+ | 1 | D3 | - |
@@ -503,7 +503,7 @@
   - 宣言: Pick up to 3 enemy units in combat with this unit to be the targets.
   - 効果: Roll a dice for each target. If the roll is lower than your **fury level**, for the rest of the turn: • The target cannot use the ‘Eruption of Fury’ ability. • When resolving the damage sequence for the target, your opponent cannot spend **rage dice** as part of the ‘Fight Through the Pain’ ability. • Add 1 to the Rend characteristic of weapons used for attacks that target that enemy unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Hashutite Commander*
 - Any **HELSMITHS OF HASHUT**
@@ -520,13 +520,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 1 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Hashutite Blade | 2 | 3+ | 4+ | - | 1 | Anti-INFANTRY (+1 Rend) |
 
@@ -540,7 +540,7 @@
 - **Daemonic Resilience**（Passive）
   - 効果: Apply the effect below that corresponds with the number of **daemonic power points** (DPP) this unit has: **DPP - Effect** **1 -** This unit has **WARD (6+)**. **2 -** This unit has **WARD (5+)**. **3 -** This unit has **WARD (4+)** against damage inflicted by **SPELLS**, **PRAYERS** and abilities used by **MANIFESTATIONS**. Otherwise, it has **WARD (5+)**.
 
-**キーワード:** Infantry, Champion, Musician (1/10),  Standard Bearer (1/10), Chaos, Helsmiths of Hashut, Duardin
+**キーワード:** Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Chaos, Helsmiths of Hashut, Duardin
 
 **ノート:** This unit is legal for Matched Play for battles fought using the *General's Handbook 2025-26* battlepack.&#x20;
 
@@ -554,13 +554,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Daemonflame Glaive | 5 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -572,7 +572,7 @@
 - **Triumph or Perish, You Vermin!**（Passive）
   - 効果: While this unit has any **daemonic power points**, friendly non‑**HOBGROT HELSMITHS OF HASHUT** units, excluding **War Despots**, with 0 **daemonic power points** count as having 1 **daemonic power point** while they are wholly within 9" of and visible to this unit. Add 3" to the range of this ability while this unit has 2 **daemonic power points**. Add 6" to the range of this ability instead while this unit has 3 **daemonic power points**. **Designer’s Note:** *If a friendly unit with 0 daemonic power points is affected by this ability and subsequently gains 1 or more daemonic power points, this ability would stop affecting that unit. Also, Urak Taar’s ‘Master of Daemonic Power’ ability has no effect on units affected by this ability.*
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **HELSMITHS OF HASHUT**
 
@@ -590,19 +590,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 2 | 4+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Master-crafted Flamehurler | 12" | 4 | 2+ | 4+ | 2 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Blades and Fists | 2 | 4+ | 4+ | - | 1 | - |
 | Daemonflame Weapons | 2 | 3+ | 4+ | 1 | 1 | - |
@@ -626,19 +626,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 8 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Torrent of Ruinous Energy | 30" | 4 | 3+ | 3+ | 1 | D3 | Anti-CAVALRY (+1 Rend), Anti-INFANTRY (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Artillerist Weapons | 3 | 4+ | 4+ | - | 1 | - |
 
@@ -662,19 +662,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 16 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ruinous Torrents | 18" | 6 | 4+ | 4+ | 1 | D3 | Crit (2 Hits), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dumakaz | 4 | 4+ | 3+ | 1 | D3 | - |
 | Ghorrakos’s Horns and Hooves（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
@@ -694,7 +694,7 @@
 - **Master of Daemonic Power**（Enemy Hero Phase）
   - 効果: Remove up to 3 **daemonic power points** in total from any combination of friendly units wholly within 18" of this unit. Then, allocate them to a different friendly non-**HOBGROT HELSMITHS OF HASHUT** unit wholly within 18" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any *Hashutite Commander*
 - Any **HELSMITHS OF HASHUT**
@@ -711,13 +711,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Daemonflame Glaive | 5 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -728,7 +728,7 @@
 - **Black-hearted Conqueror**（Passive）
   - 効果: Add 3 to the control scores of friendly **HELSMITHS OF HASHUT INFANTRY** units while they are wholly within 6" of this unit. Add 6" to the range of this ability for each **daemonic power point** this unit has.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **HELSMITHS OF HASHUT**
 

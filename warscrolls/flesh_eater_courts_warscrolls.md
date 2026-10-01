@@ -1,6 +1,6 @@
 # Flesh-eater Courts ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全36 ウォースクロール（Spearhead 版 4 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gory Talons and Fangs | 5 | 3+ | 3+ | 1 | 2 | - |
 
@@ -33,7 +33,7 @@
   - 宣言: Pick a friendly **SERFS** or **KNIGHTS** unit wholly within 12" of this unit to be the target.
   - 効果: Roll a dice. On a 3+: • If the target is a **SERFS** unit, you can return up to 3 slain models to that unit. • If the target is a **KNIGHTS** unit, you can return 1 slain model to that unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Royal Attendant*
 - Any **FLESH-EATER COURTS**
@@ -52,13 +52,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 6+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cursed Crosier | 3 | 4+ | 3+ | - | D3 | - |
 
@@ -69,7 +69,7 @@
 - **Insular Contemplations**（Passive）
   - 効果: While this unit is more than 6" from all enemy units, add 1 to chanting rolls for this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Royal Attendant*
 - 0-1 **KNIGHTS**
@@ -90,13 +90,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bloodstained Talons and Fangs | 5 | 3+ | 3+ | 1 | 2 | Anti-HERO (+1 Rend) |
 
@@ -107,7 +107,7 @@
 - **Vassals, to Arms!**（Once Per Turn (Army), Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly **SERFS** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to wound rolls for the target’s attacks for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Royal Attendant*
 - Any **FLESH-EATER COURTS**
@@ -126,19 +126,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 16 | 4+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Death Shriek | 10" | 1 | 4+ | 2+ | 2 | D6 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Terrorgheist’s Skeletal Talons（戦傷時） | 6 | 4+ | 2+ | 1 | 2 | Crit (Mortal), Companion |
 | Terrorgheist’s Fanged Maw | 3 | 4+ | 2+ | 2 | D3+3 | Crit (Mortal), Companion |
@@ -156,7 +156,7 @@
 - **Necromantic Limits**（Passive）
   - 効果: This unit’s **Terrorgheist’s Skeletal Talons** have a maximum Attacks characteristic of 10. While this unit has 10 or more damage points, the Attacks characteristic of its **Terrorgheist’s Skeletal Talons** is 4.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Royal Attendant*
 - Any **FLESH-EATER COURTS**
@@ -173,19 +173,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 16 | 4+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Baneful Breath | 10" | D6 | 2+ | 4+ | 1 | 3 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Draconic Claws（戦傷時） | 7 | 4+ | 2+ | 1 | 2 | Crit (Auto-wound), Companion |
 | Draconic Jaws | 4 | 4+ | 2+ | 2 | 4 | Crit (Auto-wound), Companion |
@@ -203,7 +203,7 @@
 - **Monstrous Hunger**（Passive）
   - 効果: While they are wholly within 12" of this unit, friendly non-**HERO FLESH‑EATER COURTS MONSTERS** can use **CHARGE** abilities even if they used a **RUN** ability in the same turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Royal Attendant*
 - Any **FLESH-EATER COURTS**
@@ -220,13 +220,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 7 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gory Talons and Fangs | 5 | 3+ | 3+ | 1 | 2 | - |
 
@@ -241,7 +241,7 @@
 - **Defenders of the Kingdom**（Passive） ［Delusion］
   - 効果: While you believe this **DELUSION** and this unit is on the battlefield, add 1 to charge rolls for friendly **FLESH‑EATER COURTS** units while they are wholly within 12" of a friendly **FLESH‑EATER COURTS HERO**. Add 2 to charge rolls instead if they were also set up in the same turn. When using the ‘A Kingdom Deluded’ ability, you can pick this **DELUSION** even if this unit is **patrolling the borders**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Royal Attendant*
 - 0-1 **BEAST**
@@ -262,7 +262,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 10 | 5+ | 8+ | 6+ |
 
@@ -283,7 +283,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 6 | 6+ | 7+ | 6+ |
 
@@ -305,7 +305,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 10 | 4+ | - |
 
@@ -341,13 +341,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 10 | 5+ | 7+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Corpsemare Trample | 6 | 5+ | 3+ | 1 | 1 | Crit (2 Hits) |
 
@@ -367,19 +367,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 4 | 5+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Death Scream | 10" | 4 | 4+ | 3+ | 2 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Piercing Talons | 4 | 4+ | 3+ | 1 | 1 | - |
 
@@ -400,19 +400,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 4 | 5+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Death Scream | 10" | 4 | 4+ | 3+ | 2 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Piercing Talons | 4 | 4+ | 3+ | 1 | 1 | - |
 
@@ -435,13 +435,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 4 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bone Club and Filthy Claws | 5 | 4+ | 4+ | - | 2 | - |
 
@@ -450,7 +450,7 @@
 - **Marshal of the Peasantry**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly **Crypt Ghouls** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SERFS**
 
@@ -466,13 +466,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 1 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sharpened Teeth and Filthy Claws | 2 | 4+ | 4+ | - | 1 | Crit (Auto-wound) |
 
@@ -493,13 +493,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 7" | 6 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Massive Bone Club and Rancid Talons | 5 | 4+ | 3+ | 2 | 3 | - |
 
@@ -510,7 +510,7 @@
 - **Blessed Blood**（Your Hero Phase）
   - 効果: **Heal (D3)** this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **BEAST**
 - 0-1 **SERFS**
@@ -528,13 +528,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 7" | 4 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Club and Septic Talons | 4 | 4+ | 3+ | 1 | 2 | Anti-CAVALRY (+1 Rend), Crit (Auto-wound) |
 
@@ -556,13 +556,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 7" | 4 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Club and Septic Talons | 4 | 4+ | 3+ | 1 | 2 | Anti-CAVALRY (+1 Rend), Crit (Auto-wound) |
 
@@ -586,19 +586,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 6 | 5+ | 2 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Piercing Death Screech | 10" | 4 | 4+ | 3+ | 2 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Skewering Claws | 5 | 4+ | 3+ | 1 | 2 | - |
 
@@ -611,7 +611,7 @@
   - 宣言: Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s **Piercing Death Screech** to be the target.
   - 効果: For the rest of the turn, add 1 to the Damage characteristic of ranged weapons used by friendly **Crypt Flayers** units for attacks that target that enemy unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **BEAST**
 - 0-1 **SERFS**
@@ -629,13 +629,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 1 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cursed Weapon | 3 | 4+ | 4+ | 1 | 1 | Anti-charge (+1 Rend), Crit (Auto-wound) |
 
@@ -658,13 +658,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gore-streaked Gavel | 4 | 4+ | 3+ | - | D3 | - |
 
@@ -676,7 +676,7 @@
 - **Accusations of Regicide**（Passive） ［Delusion］
   - 効果: While you believe this **DELUSION**, add 1 to the Damage characteristic of melee weapons used by friendly **SERFS** and **KNIGHTS** units while they are wholly within 12" of any friendly **FLESH‑EATER COURTS HEROES** that had any damage points allocated to them in the same turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **BEAST**
 - 0-1 **KNIGHTS**
@@ -696,19 +696,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 4+ | 2 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Carrion Flock | 12" | 1 | 4+ | 4+ | - | D6 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Filthy Talons and Fangs | 5 | 3+ | 3+ | 1 | 2 | - |
 
@@ -722,7 +722,7 @@
 - **Winged Reconnoitrer**（Passive）
   - 効果: While this unit’s **Grype** is next to an enemy unit, ward rolls cannot be made for damage points inflicted on that enemy unit by combat attacks made by this unit and friendly **SERFS** units.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MONSTER**
 - Any **BEAST**
@@ -742,13 +742,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bone Scythe | 5 | 4+ | 3+ | 1 | 2 | - |
 
@@ -760,7 +760,7 @@
 - **Infected**（Reaction: Opponent declared a command, SPELL ability or PRAYER ability for an INFECTED unit）
   - 効果: Roll a dice. On a 5+: •  If they declared a command, that command has no effect, it still counts as having been used and the command points spent to use the command are still lost. •  If they declared a **SPELL** or **PRAYER** ability, that spell or prayer fails. This reaction can be used more than once per phase but only once per command, **SPELL** ability or **PRAYER** ability.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **BEAST**
 - Any **SERFS**
@@ -777,13 +777,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 4 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Nightshrieker’s Claws and Teeth | 3 | 4+ | 3+ | 1 | 2 | Companion |
 | Grisly Lance | 2 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage) |
@@ -806,13 +806,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 18 | 3+ | 10 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Alakanash, the Staff of Power | 4 | 3+ | 3+ | 2 | D6 | - |
 | Zefet-nebtar, the Mortis Blade | 4 | 3+ | 3+ | 2 | 3 | - |
@@ -835,7 +835,7 @@
 - **The Staff of Power**（Passive）
   - 効果: Add 2 to casting rolls for this unit while it has not miscast any spells this turn. If this unit miscasts a spell, ignore the restriction that would stop this unit from casting any more spells this turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Royal Attendant*
 - Any **FLESH-EATER COURTS**
@@ -850,13 +850,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 1 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Beastflayer Weapons | 3 | 4+ | 4+ | - | 1 | Anti-BEAST (+1 Rend), Anti-MONSTER (+1 Rend) |
 
@@ -877,13 +877,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Headsman’s Axe | 3 | 4+ | 3+ | 2 | 3 | - |
 
@@ -894,7 +894,7 @@
 - **Executioner's Entourage**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly **SERFS** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, the target’s melee weapons have **Crit (2 Hits)** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **BEAST**
 - Any **SERFS**
@@ -913,19 +913,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 14 | 4+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Death Shriek | 10" | 1 | 4+ | 2+ | 2 | D6 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fanged Maw | 3 | 4+ | 2+ | 2 | D3+3 | Crit (Mortal), Companion |
 | Skeletal Talons（戦傷時） | 6 | 4+ | 2+ | 1 | 2 | Crit (Mortal), Companion |
@@ -953,19 +953,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 14 | 4+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Baneful Breath | 10" | D6 | 2+ | 4+ | 1 | 3 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Draconic Claws（戦傷時） | 7 | 4+ | 2+ | 1 | 2 | Crit (Auto-wound), Companion |
 | Draconic Jaws | 4 | 4+ | 2+ | 2 | 4 | Crit (Auto-wound), Companion |
@@ -991,13 +991,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Headsman’s Axe | 3 | 4+ | 3+ | 2 | 3 | - |
 
@@ -1010,7 +1010,7 @@
   - 宣言: Pick another friendly **FLESH-EATER COURTS INFANTRY** unit within this unit’s combat range to be the target.
   - 効果: 1 model in the target unit is automatically slain. Then, until the start of your next turn, ignore the first damage point that would be allocated to each visible friendly **FLESH-EATER COURTS** unit in each phase while it is wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **BEAST**
 - Any **SERFS**
@@ -1029,13 +1029,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 8 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Immense Claws | 7 | 4+ | 3+ | 1 | 2 | Anti-INFANTRY (+1 Rend) |
 | Dagger-like Fangs | 1 | 3+ | 2+ | 2 | 3 | Anti-INFANTRY (+1 Rend) |
@@ -1062,13 +1062,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Blood-stained Talons and Fangs | 5 | 3+ | 3+ | 1 | 2 | Anti-HERO (+1 Rend) |
 
@@ -1079,7 +1079,7 @@
 - **Long Live the King**（Passive）
   - 効果: If this unit would be destroyed, before removing it from play, friendly non-**UNIQUE FLESH-EATER COURTS** units wholly within 12" of this unit become **enraged** until the start of your next turn. Melee weapons used by friendly enraged units have **Crit (Auto-wound)** and score critical hits on unmodified hit rolls of 5+, even if this unit has been destroyed.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Royal Attendant*
 - Any **FLESH-EATER COURTS**
@@ -1098,13 +1098,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 7 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gory Talons and Fangs | 5 | 3+ | 3+ | 1 | 2 | - |
 
@@ -1115,7 +1115,7 @@
 - **Glorious Charge**（Passive）
   - 効果: While this unit is within the combat range of a friendly Knights unit and has charged this turn, this unit has **WARD (5+)** and its **Gory Talons and Fangs** have **Charge (+1 Damage)**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Royal Attendant*
 - 0-1 **BEAST**
@@ -1136,13 +1136,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 1 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Knightly Weapons | 3 | 4+ | 4+ | - | 1 | Crit (Auto-wound), Anti-MONSTER (+1 Rend) |
 | Great Halberd | 4 | 3+ | 4+ | 1 | 2 | Crit (Auto-wound), Anti-MONSTER (+1 Rend) |
@@ -1168,13 +1168,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 2 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Butchering Weapons | 2 | 4+ | 4+ | - | 1 | Crit (Auto-wound) |
 
@@ -1202,13 +1202,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 16 | 4+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Monstrous Talons（戦傷時） | 8 | 3+ | 3+ | 1 | 2 | - |
 | Sceptre of the Carrion King | 4 | 3+ | 2+ | 2 | D3+3 | - |
@@ -1228,7 +1228,7 @@
   - 宣言: Pick up to 3 enemy units in combat with this unit to be the targets.
   - 効果: Roll a dice for each target. If the roll exceeds the target’s Control characteristic, the target has **STRIKE‑LAST** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any *Royal Attendant*
 - Any **FLESH-EATER COURTS**
@@ -1245,13 +1245,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 8 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Immense Claws | 7 | 4+ | 3+ | 1 | 2 | Anti-INFANTRY (+1 Rend) |
 | Dagger-like Fangs | 1 | 3+ | 2+ | 2 | 3 | Anti-INFANTRY (+1 Rend) |

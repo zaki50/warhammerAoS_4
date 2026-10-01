@@ -1,6 +1,6 @@
 # Soulblight Gravelords ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全56 ウォースクロール（Spearhead 版 4 件は除外。--include-spearhead で含められる）
 
@@ -13,13 +13,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 2 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Elongated Claws and Slavering Maw | 5 | 4+ | 3+ | 2 | 1 | - |
 | Askurgan Weapons | 2 | 3+ | 3+ | 1 | 1 | Anti-MONSTER (+1 Rend), Crit (2 Hits) |
@@ -44,13 +44,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 1 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Wight Blade | 2 | 3+ | 3+ | 1 | 1 | Crit (Mortal) |
 
@@ -69,13 +69,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 3 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Barrow Lance | 2 | 4+ | 3+ | 1 | 1 | Crit (Mortal), Charge (+1 Damage) |
 | Skeletal Steed’s Hooves and Teeth | 2 | 5+ | 3+ | - | 1 | Companion |
@@ -99,13 +99,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 9 | 4+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Timeworn Scimitar | 4 | 3+ | 3+ | 1 | 2 | - |
 | Lupine Fangs and Claws | 6 | 4+ | 4+ | - | 1 | Companion |
@@ -120,7 +120,7 @@
 - **Wolfguard**（Passive）
   - 効果: While this unit is within the combat range of a friendly **Dire Wolves** unit: • This unit has **WARD (4+)**. • Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly **Dire Wolves** unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any *Vyrkos Retainer*
 - Any **SOULBLIGHT GRAVELORDS**
@@ -137,13 +137,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 6 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sissendra’s Twin Blades | 8 | 3+ | 3+ | 1 | 1 | Crit (Mortal) |
 | Kennistrix’s Fangs | 2 | 4+ | 2+ | 3 | D3 | Companion |
@@ -161,7 +161,7 @@
   - 宣言: This unit can cast this spell while its **Cado Ezechiar** is on the battlefield. Pick a visible unit within 12" of this unit to be the target, then make a casting roll of 2D6.
   - 効果: If the target is an enemy unit, inflict D3 mortal damage on it. If the target is a friendly **DEATHRATTLE** or **DEADWALKERS** unit, subtract 1 from wound rolls for combat attacks that target that unit for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -179,13 +179,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 3 | 3+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Templar Weapon | 3 | 3+ | 3+ | 1 | 1 | Anti-INFANTRY (+1 Rend), Charge (+1 Damage) |
 | Nightmare’s Hooves and Teeth | 3 | 5+ | 3+ | - | 1 | Companion |
@@ -210,13 +210,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 12 | 4+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sanguinarch’s Stiletto | 5 | 3+ | 3+ | 1 | 2 | Crit (2 Hits) |
 | Spectral Host’s Blades | 10 | 4+ | 4+ | - | 1 | Companion |
@@ -229,7 +229,7 @@
 - **Wails of the Damned**（Passive）
   - 効果: Subtract 3 from the control scores of enemy units while they are within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -245,13 +245,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 6 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ezechiarian Greatsword | 5 | 3+ | 3+ | 2 | 2 | Crit (Auto-wound) |
 
@@ -263,7 +263,7 @@
 - **The Court of the Lost**（Your Hero Phase）
   - 効果: Roll a dice. On a 2+, pick 1 of the following effects to apply until the start of your next turn. • This unit has a Move characteristic of 12". • Add 1 to casting rolls, unbinding rolls and banishment rolls for this unit. • This unit’s melee weapons have **Crit (Mortal)**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -281,13 +281,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 7 | 6+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Zombies’ Rusty Blades | 2D6 | 4+ | 4+ | - | 1 | Companion |
 | Corpsemaster’s Weapon | 3 | 4+ | 4+ | - | 1 | - |
@@ -309,13 +309,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 12 | 4+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spectral Host’s Blades | 10 | 4+ | 4+ | - | 1 | Companion |
 | Matriarch’s Stiletto | 5 | 3+ | 3+ | 1 | 2 | Crit (2 Hits) |
@@ -331,7 +331,7 @@
   - 宣言: Pick up to 3 friendly **VAMPIRE** units wholly within 12" of this unit to be the targets.
   - 効果: Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -347,7 +347,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 8 | 4+ | - | 6+ |
 
@@ -375,13 +375,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 1 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Crude Weapon or Infectious Bite | 1 | 5+ | 4+ | - | 1 | - |
 
@@ -400,13 +400,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 1 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ancient Weapon | 2 | 4+ | 4+ | - | 1 | - |
 
@@ -425,13 +425,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 2 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rotting Fangs and Claws | 2 | 4+ | 3+ | - | 1 | Companion |
 
@@ -452,13 +452,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 3 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Chiropteran Fangs | 3 | 4+ | 4+ | - | 2 | Companion |
 
@@ -481,13 +481,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 6 | 6+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gravekeeper’s Spade | 5 | 4+ | 3+ | 1 | 2 | - |
 
@@ -498,7 +498,7 @@
 - **Keeper of the Corpse-gardens**（Passive）
   - 効果: While this unit is within the combat range of a friendly **Deadwalker Zombies** unit: • This unit has **WARD (4+)**. • Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly **Deadwalker Zombies** unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **DEADWALKERS**
 
@@ -516,13 +516,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 10 | 5+ | 8+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Grasping Talon | 5 | 4+ | 2+ | 1 | 2 | Crit (Mortal) |
 
@@ -547,19 +547,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 5+ | 2 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Bat Swarm’s Needling Fangs | 12" | 2D6 | 4+ | 4+ | - | 1 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Heirloom Axe | 5 | 3+ | 3+ | 1 | 2 | Anti-MONSTER (+1 Rend) |
 
@@ -573,7 +573,7 @@
   - 宣言: Make a casting roll of 2D6.
   - 効果: For the rest of the turn, subtract 5 from the control scores of enemy **MONSTERS** while they are within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -591,13 +591,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 4 | 5+ | 3 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kosargi Bardiche | 2 | 4+ | 2+ | 2 | 3 | - |
 
@@ -620,13 +620,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gnawblade | 5 | 3+ | 3+ | 1 | 2 | Crit (2 Hits) |
 
@@ -638,7 +638,7 @@
 - **Scurrying Retreat**（Any Combat Phase）
   - 効果: If this unit is in combat, roll a dice. On a 3+, this unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -656,13 +656,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 5+ | 2 | 4+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | The Blade Proboscian | 7 | 3+ | 4+ | 1 | 2 | - |
 
@@ -678,7 +678,7 @@
   - 宣言: Pick an enemy unit that was allocated any damage points inflicted by this unit’s combat attacks this turn to be the target.
   - 効果: Roll a dice. On a 2+, subtract 1 from save rolls for the target for the rest of the battle.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -696,13 +696,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 11 | 4+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gore-drenched Talons | 3 | 3+ | 2+ | 3 | 3 | - |
 | Askurga Rapier | 5 | 3+ | 3+ | 2 | 2 | - |
@@ -718,7 +718,7 @@
   - 宣言: Pick a visible friendly non-**UNIQUE SOULBLIGHT GRAVELORDS MONSTER** wholly within 12" of this unit to be the target, then make a casting roll of 2D6.
   - 効果: Pick 1 of the target’s melee weapons. If the target has any **Companion** melee weapons, you must pick 1 of those. Add D3 to the Attacks characteristic of that weapon for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Deathrattle Overseer*
 - Any **SOULBLIGHT GRAVELORDS**
@@ -735,13 +735,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 14 | 3+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ashigaroth’s Claws（戦傷時） | 5 | 4+ | 2+ | 3 | 3 | Companion |
 | Gheistvor, the Sword of Unholy Power | 6 | 3+ | 3+ | 1 | 2 | - |
@@ -760,7 +760,7 @@
 - **The Sword of Unholy Power**（Passive）
   - 効果: If this unit has slain any enemy models this turn, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **DEATHRATTLE** and **DEADWALKERS** units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Necromancer**
 - 0-1 *Deathrattle Overseer*
@@ -778,13 +778,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 12 | 4+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spectral Host’s Blades | 10 | 4+ | 4+ | - | 1 | Companion |
 | Corpsemaster’s Staff | 3 | 4+ | 3+ | 1 | D3 | - |
@@ -799,7 +799,7 @@
   - 宣言: Pick up to 3 enemy units within 10" of this unit to be the targets.
   - 効果: Roll a dice for each target. On a 3+, inflict an amount of mortal damage on the target equal to the value of this unit’s **stored energy dice**. Then, change the value of the **stored energy dice** back to 1.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -815,13 +815,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 18 | 3+ | 10 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Alakanash, the Staff of Power | 4 | 3+ | 3+ | 2 | D6 | - |
 | Zefet-nebtar, the Mortis Blade | 4 | 3+ | 3+ | 2 | 3 | - |
@@ -842,7 +842,7 @@
   - 宣言: Pick a visible enemy **HERO** or **MONSTER** in combat with this unit to be the target.
   - 効果: Hide a dice in one of your hands or under one of two appropriate containers. Your opponent must pick one of your hands or containers. If they pick the one hiding the dice, this ability has no effect. If they pick the empty one, the target is automatically destroyed.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Necromancer**
 - 0-1 *Deathrattle Overseer*
@@ -860,13 +860,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 6+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Mortis Staff | 3 | 4+ | 4+ | 1 | 2 | - |
 
@@ -878,7 +878,7 @@
 - **Undead Minions**（Passive）
   - 効果: While this unit is within the combat range of a friendly **DEATHRATTLE** or **DEADWALKERS** unit: • This unit has **WARD (4+)**. • Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly **DEATHRATTLE** or **DEADWALKERS** unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Deathrattle Overseer*
 - Any **SOULBLIGHT GRAVELORDS**
@@ -897,13 +897,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 14 | 3+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Aken-seth, the Staff of Pain | 3 | 2+ | 3+ | 2 | 2 | - |
 | Akmet-har, the Dagger of Jet | 5 | 3+ | 3+ | 2 | 1 | Anti-HERO (+1 Rend) |
@@ -925,7 +925,7 @@
 - **Twilight's Allure**（Passive）
   - 効果: Subtract 1 from hit rolls for combat attacks that target friendly **SOULBLIGHT GRAVELORDS** units while they are wholly within 6" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Necromancer**
 - 0-1 *Deathrattle Overseer*
@@ -943,19 +943,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 18 | 3+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Shordemaire’s Miasma | 10" | D6 | 3+ | 3+ | 2 | 2 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | The Bloodlance | 6 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage) |
 | Shordemaire’s Claws（戦傷時） | 7 | 4+ | 2+ | 1 | 2 | Companion |
@@ -975,7 +975,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of **Shordemaire’s Claws** is 5.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Deathrattle Overseer*
 - Any **SOULBLIGHT GRAVELORDS**
@@ -992,13 +992,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 12 | 4+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Blood-slick Claws | 6 | 3+ | 3+ | 2 | 3 | Crit (Mortal) |
 | Vyrkos Blood-born’s Piercing Blades | 6 | 3+ | 3+ | 1 | 2 | - |
@@ -1013,7 +1013,7 @@
   - 宣言: Make a casting roll of 2D6.
   - 効果: Subtract 1 from hit rolls and wound rolls for attacks that target this unit for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Vyrkos Retainer*
 - Any **SOULBLIGHT GRAVELORDS**
@@ -1032,13 +1032,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 7 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Vyrkos Barrow-blade | 5 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -1050,7 +1050,7 @@
 - **Call to the Hunt**（Passive）
   - 効果: If this unit charged this turn, for the rest of the turn, add 1 to wound rolls for combat attacks made by friendly **DEATHRATTLE** and **DEADWALKERS** units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Vyrkos Retainer*
 - Any **SOULBLIGHT GRAVELORDS**
@@ -1069,19 +1069,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 16 | 5+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Pestilential Miasma | 10" | 5 | 3+ | 3+ | 1 | 2 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Draconic Maw | 3 | 4+ | 2+ | 2 | 3 | Companion |
 | Draconic Claws | 7 | 4+ | 2+ | 1 | 2 | Companion |
@@ -1112,13 +1112,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 6 | 6+ | 7+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Leeching Bites | 10 | 5+ | 5+ | - | 1 | Crit (Mortal) |
 
@@ -1141,19 +1141,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 16 | 5+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Pestilential Miasma | 10" | 5 | 3+ | 3+ | 1 | 2 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Draconic Maw | 3 | 4+ | 2+ | 2 | 3 | Companion |
 | Draconic Claws（戦傷時） | 7 | 4+ | 2+ | 1 | 2 | Companion |
@@ -1182,13 +1182,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 11 | 4+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Nightmare Sabre | 4 | 3+ | 3+ | 1 | 2 | - |
 | Gore-drenched Talons | 3 | 3+ | 2+ | 3 | 3 | - |
@@ -1203,7 +1203,7 @@
 - **Indignant Outburst**（Once Per Turn (Army), Any Combat Phase）
   - 効果: If this unit is in combat, gain 1 **rage dice**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Deathrattle Overseer*
 - Any **SOULBLIGHT GRAVELORDS**
@@ -1222,13 +1222,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 7 | 6+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Corpsemaster’s Tools and Zombies' Bites | D6+6 | 4+ | 4+ | - | 1 | Crit (Auto-wound) |
 
@@ -1255,13 +1255,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 6 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ouboroth’s Godhusk Fangs | 3 | 4+ | 3+ | 2 | D3 | Companion |
 | Nulahmian Warglaive | 5 | 3+ | 3+ | 1 | 2 | Crit (2 Hits) |
@@ -1276,7 +1276,7 @@
 - **Allow Me to Remind You...**（Once Per Turn, Reaction: Opponent declared a command for a visible enemy unit within 18" of this unit / 詠唱/詠誦値 7）
   - 効果: Roll a dice. On a 5+, that command has no effect, it still counts as having been used and the command points spent to use it are still lost.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -1294,13 +1294,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 6 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Nulahmian Warglaive | 5 | 3+ | 3+ | 1 | 2 | Crit (2 Hits) |
 | Ouboroth’s Godhusk Fangs | 3 | 4+ | 3+ | 2 | D3 | Companion |
@@ -1316,7 +1316,7 @@
 - **Serpentine Agility**（Passive）
   - 効果: If the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -1332,19 +1332,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 14 | 4+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Death Shriek | 10" | 1 | 4+ | 2+ | 2 | D6 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Skeletal Talons（戦傷時） | 6 | 4+ | 2+ | 1 | 2 | Companion |
 | Fanged Maw | 3 | 4+ | 2+ | 2 | D6 | Companion |
@@ -1371,13 +1371,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 3 | 3+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Courtly Weapon | 3 | 3+ | 3+ | 1 | 2 | Anti-HERO (+1 Rend) |
 
@@ -1402,13 +1402,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 2 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Arco-electric Weapons | 3 | 4+ | 5+ | - | 1 | Crit (2 Hits) |
 
@@ -1435,13 +1435,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 2 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ancient Weapon | 2 | 4+ | 4+ | - | 1 | Crit (2 Hits) |
 
@@ -1466,13 +1466,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 2 | 3+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Royal Weapons | 3 | 4+ | 3+ | 1 | 1 | Crit (Mortal) |
 
@@ -1497,19 +1497,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 6+ | 2 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Necrotising Bolts | 18" | 6 | 4+ | 4+ | 1 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Familiars’ Fangs and Claws | 4 | 4+ | 4+ | - | 1 | Companion |
 
@@ -1521,7 +1521,7 @@
   - 宣言: Pick a visible enemy unit within 18" of this unit to be the target, then make a casting roll of 2D6.
   - 効果: Until the start of your next turn, subtract 1 from wound rolls for the target’s attacks.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -1539,7 +1539,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 8 | 5+ | 7+ | 6+ |
 
@@ -1561,13 +1561,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dynastic War-relic | 5 | 3+ | 3+ | 1 | 2 | Anti-HERO (+1 Rend), Crit (2 Hits) |
 
@@ -1576,7 +1576,7 @@
 - **Sanguine Blur**（Once Per Turn (Army), Your Hero Phase）
   - 効果: Roll a dice. On a 3+, remove this unit from the battlefield and set it up again on the battlefield more than 9" from all enemy non-**HERO** units and more than 3" from all enemy **HEROES**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -1592,13 +1592,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 7 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dynastic Cavalier Weapon | 5 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage) |
 | Nightmare’s Hooves and Teeth | 3 | 5+ | 3+ | - | 1 | Companion |
@@ -1611,7 +1611,7 @@
 - **'For Glory! For Blood!'**（Reaction: You declared a CHARGE ability for this unit）
   - 効果: You can re-roll the charge roll for that **CHARGE** ability. Then, before the charge move is made, you can pick a friendly **Blood Knights** unit that is not in combat, is wholly within 12" of this unit and has not used a **CHARGE** ability this turn to be the target. If this unit charges, then, immediately after the **CHARGE** ability used by this unit has been resolved, the target can immediately use the ‘Charge’ ability even if it is not your charge phase. In addition, you can re-roll charge rolls for the target this phase.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -1627,19 +1627,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 16 | 3+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Pestilential Breath | 10" | D6 | 2+ | 4+ | 1 | 2 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Draconic Maw | 3 | 4+ | 2+ | 2 | 3 | Companion |
 | Draconic Claws（戦傷時） | 7 | 4+ | 2+ | 1 | 2 | Companion |
@@ -1655,7 +1655,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Draconic Claws** is 5.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -1669,13 +1669,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 4 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Murderous Fangs and Talons | 3 | 4+ | 3+ | 1 | 2 | Crit (2 Hits) |
 
@@ -1696,13 +1696,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 8 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Lacerating Fangs | 2 | 4+ | 2+ | 2 | 3 | Companion |
 | Raking Talons | 4 | 4+ | 2+ | 1 | 2 | Companion |
@@ -1726,13 +1726,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 11 | 4+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Nightmare Sabre | 4 | 3+ | 3+ | 1 | 2 | - |
 | Gore-drenched Talons | 3 | 3+ | 2+ | 3 | 3 | - |
@@ -1747,7 +1747,7 @@
 - **Nightmare's Miasma**（Passive）
   - 効果: Subtract 1 from the Rend characteristic of melee weapons used by enemy units while they are in combat with this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Deathrattle Overseer*
 - Any **SOULBLIGHT GRAVELORDS**
@@ -1764,13 +1764,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 3 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Piercing Blade | 3 | 3+ | 3+ | 1 | 2 | Crit (2 Hits) |
 
@@ -1795,13 +1795,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 5 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cursed Halberd and Sabre | 4 | 4+ | 3+ | 2 | 2 | Crit (Mortal) |
 
@@ -1812,7 +1812,7 @@
 - **Echoes of the Watch**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly **Deathrattle Skeletons** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **DEATHRATTLE**
 
@@ -1830,13 +1830,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 5 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Baleful Tomb Blade | 5 | 4+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -1848,7 +1848,7 @@
 - **Ancient Strategies**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly non-**HERO DEATHRATTLE INFANTRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -1866,13 +1866,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 8 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | King's Relic Weapon | 5 | 4+ | 3+ | 1 | 2 | Charge (+1 Damage), Crit (Mortal) |
 | Skeletal Steed’s Hooves and Teeth | 2 | 5+ | 3+ | - | 1 | Companion |
@@ -1885,7 +1885,7 @@
   - 宣言: Pick an objective or terrain feature within enemy territory.
   - 効果: For the rest of the turn, add 1 to hit rolls for attacks made by friendly **DEATHRATTLE** units while they are wholly within 6" of that objective or terrain feature.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Deathrattle Overseer*
 - Any **SOULBLIGHT GRAVELORDS**
@@ -1904,13 +1904,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 7 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Skeletal Steed’s Hooves and Teeth | 2 | 5+ | 3+ | - | 1 | Companion |
 | Lord's Tomb Blade | 4 | 4+ | 3+ | 1 | 2 | Charge (+1 Damage), Crit (Mortal) |
@@ -1922,7 +1922,7 @@
 - **Lord of Trampling Bones**（Passive）
   - 効果: Add 1 to charge rolls for friendly **DEATHRATTLE CAVALRY** units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **DEATHRATTLE**
 
@@ -1940,13 +1940,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 2 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rending Claws | 4 | 4+ | 3+ | 1 | 2 | - |
 | Graverobber’s Tools | 3 | 4+ | 4+ | - | 1 | - |

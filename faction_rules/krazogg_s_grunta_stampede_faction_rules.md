@@ -1,9 +1,9 @@
 # Krazogg’s Grunta Stampede ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Krazogg's Grunta Stampede Battle Traits（出典: Army of Renown: Krazogg's Grunta Stampede）
@@ -35,7 +35,7 @@
 - **Trophy Hunta**（Passive）
   - 効果: This unit’s **Pig-hakka** has **Anti-MONSTER (+1 Rend)** and **Anti-WAR MACHINE (+1 Rend)**.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Krazogg's Grunta Stampede Artefact of Power（出典: Army of Renown: Krazogg's Grunta Stampede）

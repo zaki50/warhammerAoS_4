@@ -1,9 +1,9 @@
 # Kruleboyz ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Kruleboyz Battle Traits（出典: Kruleboyz）
@@ -25,7 +25,7 @@ Kruleboyz armies can use the following abilities:
   - 宣言: Pick a friendly **KRULEBOYZ INFANTRY** unit that has 10 or fewer models, is not in combat and has not been the target of a **DIRTY TRICK** ability this turn to be the target, then make a dirty trick roll.
   - 効果: Remove the target from the battlefield and set it up again wholly within 3" of a terrain feature and more than 9" from all enemy units.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Badmouthing Baiterz
@@ -76,7 +76,7 @@ Kruleboyz armies can use the following abilities:
   - 宣言: Pick an enemy **HERO** in combat with both this unit and another friendly **KRULEBOYZ** unit to be the target.
   - 効果: Inflict D3 mortal damage on the target. Add 1 to the mortal damage inflicted for each friendly **KRULEBOYZ** unit in combat with the target in addition to the first two **KRULEBOYZ** units.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Krule Artefacts（出典: Kruleboyz）
@@ -128,7 +128,7 @@ Monstrous Traits are enhancements that can only be given to **MONSTERS**.
 - **Quick 'Un**（Passive / 20pt）
   - 効果: Add half your **fury level** (rounding up) to run rolls and charge rolls for this unit.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Lore of the Swamp

@@ -1,6 +1,6 @@
 # The Great-Grand Gnawhorde ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全31 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -13,19 +13,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 6+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Poisoned Wind Globes | 10" | 1 | 3+ | 3+ | 1 | D3 | Anti-INFANTRY (+1 Rend), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rusty Knife | 1 | 4+ | 5+ | - | 1 | - |
 
@@ -50,19 +50,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Warpfire Gauntlet | 10" | 3 | 4+ | 2+ | 2 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Crushing Piston-claw | 2 | 4+ | 2+ | 2 | 2 | - |
 | Stormcage Halberd | 3 | 3+ | 4+ | 1 | 2 | - |
@@ -72,7 +72,7 @@
 - **Overseers of the Enginecovens**（Passive）
   - 効果: If a friendly **SKRYRE** unit wholly within 13" of this unit uses the 'Covering Fire' command, no command points are spent.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Clanrats**
 - Any **SKRYRE**
@@ -91,19 +91,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 12 | 5+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Warpflame Scourger | 15" | 2D6 | 4+ | 2+ | 1 | D3 | Anti-INFANTRY (+1 Rend), Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Chain-flail | 5 | 4+ | 2+ | 2 | 3 | Crit (Mortal) |
 | Bladed Limbs | 3 | 4+ | 4+ | 1 | 2 | - |
@@ -125,13 +125,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rusty Weapon | 2 | 4+ | 5+ | - | 1 | Crit (Auto-wound) |
 
@@ -152,13 +152,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warpforged Blade | 6 | 3+ | 4+ | 1 | 2 | - |
 
@@ -169,7 +169,7 @@
 - **Gnash-gnaw On Their Bones!**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly non-**HERO VERMINUS INFANTRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **VERMINUS**
 
@@ -187,19 +187,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 9" | 7 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ratling Pistol | 10" | D6 | 3+ | 3+ | 1 | 1 | Crit (Auto-wound), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gnaw-beast’s Chisel Fangs | 4 | 4+ | 3+ | 1 | D3 | Companion |
 | Warpforged Halberd | 5 | 3+ | 4+ | 1 | 2 | - |
@@ -212,7 +212,7 @@
 - **Cornered Rat**（Passive）
   - 効果: While this unit is damaged, add 3 to the Attacks characteristic of its **Warpforged Halberd**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **VERMINUS**
 
@@ -228,13 +228,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 2D6+3" | 4 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Whirling Blades | 2D6 | 3+ | 3+ | 1 | 1 | Anti-INFANTRY (+1 Rend), Charge (+1 Damage) |
 
@@ -258,19 +258,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 2D6+7" | 8 | 4+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Warp Bolts | 13" | D6 | 3+ | 3+ | 1 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Grinding Wheels | 6 | 4+ | 3+ | - | 1 | Charge (+1 Damage) |
 
@@ -293,13 +293,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 6+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warpstone Staff | 3 | 4+ | 4+ | 1 | D3 | - |
 
@@ -308,7 +308,7 @@
 - **Warpstone Shards**（Your Hero Phase）
   - 効果: The next time you make a casting roll for this unit this phase, roll 3D6 instead of 2D6. This roll cannot be rerolled or modified. If the casting roll is 13, the spell is successfully cast and cannot be unbound. After the effect of that spell has been resolved, inflict D3 mortal damage on this unit. If the casting roll is not 13, remove 1 dice of your choice from the casting roll and use the remaining 2D6 as the casting roll.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Skaven Overclaw*
 - Any **SKAVEN**
@@ -325,13 +325,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 15 | 4+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warpstone Staff | 3 | 4+ | 4+ | 1 | D3 | - |
 | Crushing Bulk（戦傷時） | 6 | 4+ | 2+ | 1 | 2 | Companion |
@@ -349,7 +349,7 @@
 - **Altar of the Horned Rat**（Passive）
   - 効果: Friendly **SKAVEN INFANTRY** units have **WARD (6+)** while they are wholly within 13" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Skaven Overclaw*
 - Any **SKAVEN**
@@ -366,13 +366,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | D6+5" | 14 | 5+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gnashing Teeth and Flailing Fists（戦傷時） | 13 | 4+ | 2+ | 2 | 2 | Anti-INFANTRY (+1 Rend), Companion |
 
@@ -400,19 +400,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 6+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Warpsyringe Pistol | 10" | D6 | 4+ | 2+ | 2 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Arsenal of Mutation | 4 | 3+ | 4+ | 1 | 1 | Crit (2 Hits) |
 
@@ -425,7 +425,7 @@
   - 宣言: Pick another friendly **MOULDER** unit within this unit’s combat range to be the target.
   - 効果: Add 1 to charge rolls for the target for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Clanrats**
 - Any **MOULDER**
@@ -442,19 +442,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 4 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Warpfire Gun | 10" | 2D6 | 2+ | 4+ | 2 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Claws, Blades and Fangs | 5 | 4+ | 3+ | 1 | 2 | - |
 
@@ -475,19 +475,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 3 | 6+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ratling Gun | 15" | 3D6 | 4+ | 4+ | 1 | 1 | Crit (2 Hits) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rusty Knives | 2 | 4+ | 5+ | - | 1 | - |
 
@@ -510,19 +510,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 7 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hail of Warpstone Bullets | 20" | 3D6+3 | 4+ | 3+ | 1 | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Thrall-rats’ Claws | 4 | 4+ | 5+ | - | 1 | - |
 
@@ -547,13 +547,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 15 | 4+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warpstone Staff | 3 | 4+ | 4+ | 1 | D3 | - |
 | Rat Ogor’s Tearing Claws | 5 | 4+ | 3+ | 1 | 2 | - |
@@ -572,7 +572,7 @@
   - 宣言: Pick up to 3 visible friendly **SKAVEN** units wholly within 13" of this unit to be the targets.
   - 効果: **Heal (D3)** each target.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Skaven Overclaw*
 - Any **SKAVEN**
@@ -591,19 +591,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 12 | 5+ | 5 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Warpflame Scourger | 15" | 2D6 | 4+ | 2+ | 1 | D3 | Anti-INFANTRY (+1 Rend), Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Loosely Attached Bladed Limbs | 5 | 4+ | 4+ | 1 | 2 | - |
 | Chain-flail | 5 | 4+ | 2+ | 2 | 3 | Crit (Mortal) |
@@ -630,13 +630,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 15 | 4+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Crushing Bulk（戦傷時） | 6 | 4+ | 2+ | 1 | 2 | Companion, Charge (+1 Damage) |
 | Warpstone Staff | 3 | 4+ | 4+ | 1 | D3 | - |
@@ -655,7 +655,7 @@
 - **The Bell Tolls**（Passive）
   - 効果: If the current battle round number is odd, add 2" to the Move characteristic of friendly **SKAVEN** units while they are wholly within 13" of this unit. If the current battle round number is even, subtract 1 from hit rolls for attacks made by enemy units that target a friendly **SKAVEN** unit while it is wholly within 13" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Skaven Overclaw*
 - Any **SKAVEN**
@@ -672,13 +672,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 6 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Windlaunchers | 15" | 3 | 4+ | 3+ | 2 | D3 | - |
 | Ratling Cannons | 15" | 3D6 | 4+ | 3+ | 1 | 1 | - |
@@ -686,7 +686,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Doomflayer Gauntlets | 5 | 4+ | 2+ | 2 | D3 | Charge (+1 Damage) |
 | Grinderfists | 4 | 4+ | 2+ | 2 | 2 | - |
@@ -713,13 +713,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stormvermin Weapons | 3 | 3+ | 4+ | 1 | 1 | Anti-charge (+1 Rend) |
 
@@ -740,13 +740,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 13 | 4+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Doom Glaive and Spike-fist | 7 | 3+ | 2+ | 2 | 3 | Crit (Mortal) |
 
@@ -759,12 +759,12 @@
   - 宣言: Pick a damaged enemy unit in combat with this unit to be the target.
   - 効果: Roll a dice. If the roll is less than the number of damage points the target has, inflict an amount of mortal damage on the target equal to the roll.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Skaven Overclaw*
 - Any **SKAVEN**
 
-**キーワード:** Hero, Monster, Wizard (1), Ward (5+),  Chaos, Skaven, Daemon, Verminus
+**キーワード:** Hero, Monster, Wizard (1), Ward (5+), Chaos, Skaven, Daemon, Verminus
 
 ---
 
@@ -776,13 +776,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 13 | 4+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Doom Glaive | 6 | 4+ | 2+ | 2 | 3 | - |
 
@@ -800,7 +800,7 @@
 - **Divine The Future**（Passive）
   - 効果: While this unit is on the battlefield, add 2" to the distance friendly units can move when using the ‘Always Three Clawsteps Ahead’ ability.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Skaven Overclaw*
 - Any **SKAVEN**
@@ -817,13 +817,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 15 | 5+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Host of Vermin | 10 | 5+ | 5+ | - | 1 | Crit (Auto-wound), Companion |
 | Unholy Gnawstaff | 6 | 4+ | 2+ | 1 | D6 | Crit (Mortal) |
@@ -842,7 +842,7 @@
   - 宣言: Pick each enemy unit in combat with this unit to be the targets.
   - 効果: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Skaven Overclaw*
 - Any **SKAVEN**
@@ -859,19 +859,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Doomrocket | 18" | 2 | 4+ | 3+ | 1 | D6 | Anti-INFANTRY (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Firing Pole | 3 | 4+ | 4+ | - | 1 | - |
 
@@ -882,7 +882,7 @@
 - **More-more Doom!**（Reaction: You declared a SHOOT ability for this unit, it was not set up this turn and it has not used a MOVE ability this turn）
   - 効果: Roll a dice. On a 2+, set the Damage characteristic of its **Doomrocket** to D3+3 for the rest of the turn. On a 1, inflict D3 mortal damage on this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Clanrats**
 - Any **SKRYRE**
@@ -901,19 +901,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Warplock Musket | 24" | 2 | 3+ | 3+ | 2 | D3 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warpforged Dagger | 3 | 4+ | 4+ | - | 2 | - |
 
@@ -925,7 +925,7 @@
   - 宣言: Pick a visible enemy **HERO** to be the target.
   - 効果: For the rest of the turn, this unit and friendly **Warplock Jezzails** units wholly within 13" of this unit can ignore the effects of the ‘Guarded Hero’ ability (Core Rules, 25.0) when picking the target for their shooting attacks.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Clanrats**
 - Any **SKRYRE**
@@ -944,19 +944,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Warpvolt Obliterator | 18" | 2 | 3+ | 3+ | 2 | D3 | Anti-CAVALRY (+1 Rend), Crit (2 Hits) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rusted Blade | 3 | 4+ | 5+ | - | 1 | - |
 
@@ -969,7 +969,7 @@
   - 宣言: Pick a friendly **Warpvolt Scourgers** unit within this unit's combat range to be the target.
   - 効果: Set the Attacks characteristic of the target’s **Warpvolt Scourgers** to 10 for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Clanrats**
 - Any **SKRYRE**
@@ -988,19 +988,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 3" | 8 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Warp Lightning Blast | 20" | 2D6 | 4+ | ✹ | ✹ | ✹ | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Crew’s Teeth and Knives | D6 | 4+ | 5+ | - | 1 | - |
 
@@ -1025,13 +1025,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 8 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Crew's Teeth and Knives | D6 | 4+ | 5+ | - | 1 | - |
 | Warpstone Drill-fang | D3 | 4+ | 2+ | 3 | 5 | - |
@@ -1057,19 +1057,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 3 | 6+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Warpfire Thrower | 10" | 2D6 | 2+ | 4+ | 2 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rusty Knives | 2 | 4+ | 5+ | - | 1 | - |
 
@@ -1090,19 +1090,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 4+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Warplock Jezzail | 18" | 2 | 4+ | 3+ | 2 | 2 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rusty Knives | 2 | 4+ | 5+ | - | 1 | - |
 
@@ -1121,19 +1121,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 3 | 6+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Warpvolt Scourger | 15" | 2D6 | 2+ | 4+ | 1 | 1 | Anti-CAVALRY (+1 Rend), Crit (2 Hits) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rusty Knives | 2 | 4+ | 5+ | - | 1 | - |
 

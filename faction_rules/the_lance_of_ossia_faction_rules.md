@@ -1,9 +1,9 @@
 # The Lance of Ossia ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### The Lance of Ossia Battle Traits（出典: Army of Renown: The Lance of Ossia）
@@ -36,7 +36,7 @@
 - **Prevailing Tactician**（Your Hero Phase）
   - 効果: If a friendly **Arch-Kavalos Zandtos** is not wholly within 12" of this unit, you gain 2 **relentless discipline** points.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### The Lance of Ossia Artefact of Power（出典: Army of Renown: The Lance of Ossia）

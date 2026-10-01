@@ -1,6 +1,6 @@
 # Spearhead: Sunblooded Prowlers（Seraphon）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -20,19 +20,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 1 | 6+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Dartpipe | 10" | 2 | 3+ | 3+ | - | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Feeble Claws | 1 | 4+ | 5+ | - | 1 | - |
 
@@ -50,13 +50,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Celestite Club | 2 | 3+ | 3+ | 1 | 1 | - |
 
@@ -73,19 +73,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 8 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Glob of Flame Acid | 16" | 1 | 4+ | 2+ | 2 | D3+3 | Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fiery Maw | 3 | 3+ | 3+ | 2 | 3 | Companion |
 
@@ -102,13 +102,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Celestite Weapons | 3 | 3+ | 3+ | 1 | 2 | - |
 
@@ -128,13 +128,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 2 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Snapping Beaks | 3 | 4+ | 4+ | - | 1 | Companion |
 
@@ -146,7 +146,7 @@
 
 **キーワード:** Beast, Fly, Reinforcements
 
-## バトル特性（Sunblooded Prowlers Battle Traits）
+## 戦闘特性（Sunblooded Prowlers Battle Traits）
 
 - **Chameleon Ambush**（Your Movement Phase）
   - 効果: Set up this unit anywhere on the battlefield more than 6" from all enemy units.
@@ -154,7 +154,7 @@
   - 宣言: Pick each enemy unit in combat with a friendly **SAURUS** unit to be the targets.
   - 効果: Roll a dice for each target. On a 4+, inflict 1 mortal damage on the target.
 
-## レジメントアビリティ（Sunblooded Prowlers Regiment Abilities）
+## 連隊アビリティ（Sunblooded Prowlers Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

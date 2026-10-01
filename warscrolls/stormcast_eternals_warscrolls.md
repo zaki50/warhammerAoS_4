@@ -1,6 +1,6 @@
 # Stormcast Eternals ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全98 ウォースクロール（Spearhead 版 5 件は除外。--include-spearhead で含められる）
 
@@ -13,13 +13,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 2 | 6+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Beak and Claws | 2 | 4+ | 4+ | - | 1 | Companion |
 
@@ -40,13 +40,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 3 | 2+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Meteoric Hammer | 3 | 3+ | 3+ | 1 | 2 | - |
 
@@ -69,13 +69,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 3 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Meteoric Grandhammer | 3 | 3+ | 2+ | 2 | 3 | - |
 
@@ -100,13 +100,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 8 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kazra’s Monstrous Claws | 3 | 3+ | 3+ | 1 | 2 | Companion |
 | Astreia’s Aetherstave | 4 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
@@ -122,7 +122,7 @@
 - **Thunderous Pounce**（Your Charge Phase）
   - 効果: Add 2 to charge rolls for friendly **SACROSANCT CHAMBER CAVALRY** units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **STORMCAST ETERNALS**
 
@@ -138,13 +138,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 12 | 3+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Staff of Hammerhal | 4 | 3+ | 3+ | 2 | 2 | - |
 | Loithar’s Stamping Hooves | 3 | 4+ | 3+ | 1 | D3 | Companion |
@@ -160,7 +160,7 @@
   - 宣言: Pick a visible enemy unit within 12" of this unit to be the target.
   - 効果: Inflict 3 mortal damage on the target, then inflict 1 mortal damage on each other enemy unit within 3" of the target.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **STORMCAST ETERNALS**
 
@@ -174,19 +174,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 3+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Thunderhead Greatbow | 15" | 3 | 3+ | 3+ | 1 | 1 | Anti-CAVALRY (+1 Rend), Crit (2 Hits) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Greatbow Stock | 1 | 3+ | 3+ | - | 1 | - |
 
@@ -211,19 +211,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 10 | 3+ | 2 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Cometstrike Sceptre | 18" | 1 | 2+ | * | * | * | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ghal Maraz | 6 | 3+ | 2+ | 2 | 4 | Crit (Mortal) |
 
@@ -235,7 +235,7 @@
   - 宣言: Pick this unit if it is **in the Celestial Realm**.
   - 効果: Subtract the current battle round number from 10 to determine this unit’s strike zone. Set up this unit on the battlefield more than a number of inches equal to its strike zone from all enemy units.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - Any **STORMCAST ETERNALS**
@@ -252,19 +252,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 3" | 6 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Celestar Stormbolts | 18" | D6+6 | 4+ | 2+ | 1 | 1 | Anti-MONSTER (+1 Rend), Crit (2 Hits) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sacristan Engineers’ Blades | 2 | 3+ | 3+ | 1 | 1 | - |
 
@@ -288,13 +288,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 7 | 6+ | 7+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Storm of Vengeance | 12 | 4+ | 4+ | 1 | 1 | Crit (Auto-wound) |
 
@@ -315,7 +315,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | - | - | 7+ |
 
@@ -334,13 +334,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 3 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Decimator Thunderaxe | 4 | 3+ | 3+ | 1 | 1 | Crit (2 Hits) |
 | Starsoul Mace | 1 | 3+ | 3+ | 2 | 3 | Crit (Mortal) |
@@ -364,19 +364,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 3+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Azyrite Bolts | 18" | 2 | 3+ | 4+ | 1 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Valedictor Weapons | 3 | 3+ | 3+ | 1 | D3 | - |
 
@@ -402,19 +402,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 5 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Stormblast | 10" | 1 | 3+ | 3+ | 2 | D3 | Crit (2 Hits), Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dracoth’s Claws and Fangs | 3 | 4+ | 2+ | 2 | 2 | Companion |
 | Lightning Hammer | 3 | 3+ | 2+ | 1 | 2 | Crit (Mortal) |
@@ -439,19 +439,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 5 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Stormblast | 10" | 1 | 3+ | 3+ | 2 | D3 | Crit (2 Hits), Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dracoth’s Claws and Fangs | 3 | 4+ | 2+ | 2 | 2 | Companion |
 | Lightning Hammer | 3 | 3+ | 2+ | 1 | 2 | Crit (Mortal) |
@@ -476,19 +476,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 5 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Stormblast | 10" | 1 | 3+ | 3+ | 2 | D3 | Crit (2 Hits), Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Thunderaxe | 3 | 3+ | 3+ | 1 | 2 | Anti-INFANTRY (+1 Rend) |
 | Dracoth’s Claws and Fangs | 3 | 4+ | 2+ | 2 | 2 | Companion |
@@ -512,19 +512,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 5 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Stormblast | 10" | 1 | 3+ | 3+ | 2 | D3 | Crit (2 Hits), Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dracoth’s Claws and Fangs | 3 | 4+ | 2+ | 2 | 2 | Companion |
 | Thunderaxe | 3 | 3+ | 3+ | 1 | 2 | Anti-INFANTRY (+1 Rend) |
@@ -548,19 +548,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 5 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Stormblast | 10" | 1 | 3+ | 3+ | 2 | D3 | Crit (2 Hits), Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stormstrike Glaive | 3 | 3+ | 3+ | 1 | 2 | Charge (+1 Damage) |
 | Dracoth’s Claws and Fangs | 3 | 4+ | 2+ | 2 | 2 | Companion |
@@ -585,19 +585,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 5 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Stormblast | 10" | 1 | 3+ | 3+ | 2 | D3 | Crit (2 Hits), Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dracoth’s Claws and Fangs | 3 | 4+ | 2+ | 2 | 2 | Companion |
 | Stormstrike Glaive | 3 | 3+ | 3+ | 1 | 2 | Charge (+1 Damage) |
@@ -622,20 +622,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 5 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Volleystorm Crossbow | 12" | 3 | 3+ | 3+ | 1 | 1 | Crit (2 Hits) |
 | Stormblast | 10" | 1 | 3+ | 3+ | 2 | D3 | Crit (2 Hits), Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dracoth’s Claws and Fangs | 3 | 4+ | 2+ | 2 | 2 | Companion |
 | Warblade | 2 | 3+ | 3+ | 1 | 1 | - |
@@ -660,20 +660,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 5 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Volleystorm Crossbow | 12" | 3 | 3+ | 3+ | 1 | 1 | Crit (2 Hits) |
 | Stormblast | 10" | 1 | 3+ | 3+ | 2 | D3 | Crit (2 Hits), Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warblade | 2 | 3+ | 3+ | 1 | 1 | - |
 | Dracoth’s Claws and Fangs | 3 | 4+ | 2+ | 2 | 2 | Companion |
@@ -700,20 +700,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 18 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Rain of Stars | 24" | 4 | 3+ | 2+ | 2 | 2 | Companion |
 | Skybolt Bow | 18" | 2 | 3+ | 3+ | 1 | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stardrake’s Cavernous Jaws（戦傷時） | 7 | 4+ | 2+ | 2 | 3 | Companion |
 | Templar Weapons | 5 | 3+ | 3+ | 1 | 2 | Anti-HERO (+1 Rend), Anti-MONSTER (+1 Rend) |
@@ -728,7 +728,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Stardrake’s Cavernous Jaws** is 4.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - Any **EXTREMIS CHAMBER**
@@ -746,7 +746,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 5 | 4+ | 6+ | 6+ |
 
@@ -768,13 +768,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Evocator Weapons | 3 | 3+ | 3+ | 1 | 1 | Crit (Mortal) |
 
@@ -796,13 +796,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 5 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Celestial Dracoline’s Claws | 3 | 3+ | 3+ | 1 | 2 | Companion |
 | Evocator Weapons | 3 | 3+ | 3+ | 1 | 1 | Crit (Mortal) |
@@ -826,13 +826,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 6 | 3+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sigmarite Runeblade and Warhammer | 5 | 3+ | 3+ | 1 | 2 | Crit (Auto-wound) |
 
@@ -844,7 +844,7 @@
 - **Aura of Purity**（Passive）
   - 効果: If this unit charged this turn, for the rest of the turn, friendly **STORMCAST ETERNALS** units have **WARD (5+)** while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - 0-1 **Gryph-hounds**
@@ -864,13 +864,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Starbound Blade | 5 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -882,7 +882,7 @@
 - **Sigmarite Thundershield**（Passive）
   - 効果: Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Gryph-hounds**
 - Any **INFANTRY**
@@ -899,13 +899,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 9" | 2 | 6+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Vicious Beak and Claws | 4 | 4+ | 4+ | - | 1 | Companion |
 
@@ -929,19 +929,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 16 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Spirit-scouring Flames | 10" | 9 | 2+ | 4+ | 2 | 1 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Soulbreaker | 4 | 3+ | 3+ | 1 | 2 | - |
 | Cthorak’s Ancient Claws（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | Companion |
@@ -962,7 +962,7 @@
   - 宣言: Pick a visible enemy unit within 12" of this unit to be struck by lightning, then make a chanting roll of D6.
   - 効果: Inflict D3 mortal damage on that unit, then roll a dice. On a 1-2, the sequence ends. On a 3+, pick another enemy unit within 3" of that unit to be struck by lightning and inflict D3 mortal damage on it. If the chanting roll was 10+, you can pick another enemy unit within 6" of that unit instead of 3". Keep rolling dice in this way until the sequence ends or there are no other enemy units eligible to be struck by lightning. A unit cannot be struck by lightning more than once per turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - Any **STORMCAST ETERNALS**
@@ -979,13 +979,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 12 | 3+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Axe of the Final Threshold | 4 | 3+ | 3+ | 2 | D3 | Crit (Mortal) |
 | Ariax’s Talons | 6 | 4+ | 2+ | 2 | 2 | Crit (2 Hits), Companion |
@@ -1001,7 +1001,7 @@
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
   - 効果: Roll a dice. If the roll exceeds the target’s Health characteristic: • 1 model in the target unit is slain. • This unit can immediately use the ‘Retreat’ ability without any mortal damage being inflicted upon it.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - Any **STORMCAST ETERNALS**
@@ -1016,20 +1016,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 3+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Boltstorm Crossbow | 15" | 3 | 3+ | 3+ | - | 1 | Anti-INFANTRY (+1 Rend) |
 | Thunderbolt Crossbow | 15" | 3 | 3+ | 3+ | - | 2 | Anti-INFANTRY (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Storm Gladius | 1 | 3+ | 3+ | 1 | 1 | - |
 
@@ -1051,20 +1051,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 3+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Shockbolt Bow | 18" | D3+3 | 3+ | 3+ | 1 | 1 | Anti-MONSTER (+1 Rend) |
 | Skybolt Bow | 18" | 2 | 3+ | 3+ | 1 | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Storm Gladius | 1 | 3+ | 3+ | 1 | 1 | - |
 
@@ -1088,19 +1088,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 20 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Blazing Tempest | 12" | 1 | 2+ | 3+ | 2 | D3+3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Drake-lord’s Talons | 6 | 3+ | 2+ | 2 | 2 | - |
 | Annihilating Jaws | 4 | 3+ | 2+ | 2 | 4 | Anti-INFANTRY (+1 Rend) |
@@ -1116,7 +1116,7 @@
   - 宣言: Pick an enemy unit within this unit’s combat range to be the target.
   - 効果: Subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - Any **STORMCAST ETERNALS**
@@ -1133,13 +1133,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Valedictor’s Stave | 3 | 3+ | 3+ | 1 | D3 | Anti-MANIFESTATION (+1 Rend) |
 
@@ -1148,7 +1148,7 @@
 - **Indomitable Loreseekers**（Passive）
   - 効果: Add 1 to casting rolls for this unit when it uses a **SUMMON** ability and add 1 to banishment rolls for this unit. Enemy **MANIFESTATIONS** cannot pass through or end any move within this unit’s combat range unless they started that move within this unit’s combat range. This unit has **WARD (4+)** against mortal damage inflicted by **MANIFESTATIONS**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Gryph-hounds**
 - Any **WARRIOR CHAMBER**
@@ -1167,13 +1167,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 6 | 3+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Star-blessed Weapons | 5 | 3+ | 3+ | 1 | 2 | - |
 
@@ -1187,7 +1187,7 @@
 - **The Light of Sigmar**（Any Combat Phase）
   - 効果: Roll a dice. On a 3+, pick 1 of the following effects: • For the rest of the turn, subtract 1 from hit rolls for attacks made by enemy units while they are in combat with this unit. • **Heal (D3)** each friendly **STORMCAST ETERNALS** unit within this unit's combat range.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **WARRIOR CHAMBER**
 - Any **RUINATION CHAMBER**
@@ -1206,19 +1206,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 11 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Draconic Flamestream | 10" | 4 | 2+ | 3+ | 2 | 1 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Aeonfire Blade | 5 | 3+ | 2+ | 2 | 2 | - |
 | Draconith’s Fangs and Talons | 4 | 4+ | 2+ | 2 | 2 | Companion |
@@ -1233,7 +1233,7 @@
   - 宣言: Pick a friendly **Stormdrake Guard** unit within this unit’s combat range to be the target.
   - 効果: Roll a dice. On a 2+, add 1 to the Attacks characteristic of both this unit’s and the target’s **Draconith’s Fangs and Talons** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **EXTREMIS CHAMBER**
 
@@ -1249,13 +1249,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sigmarite Broadsword | 3 | 3+ | 3+ | 1 | 2 | - |
 
@@ -1267,7 +1267,7 @@
   - 宣言: Pick a visible faction terrain feature within 18" of this unit to be the target.
   - 効果: Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Gryph-hounds**
 - Any **WARRIOR CHAMBER**
@@ -1286,13 +1286,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Incantor’s Staff | 3 | 3+ | 3+ | 1 | 2 | - |
 
@@ -1303,7 +1303,7 @@
 - **Aetheric Destabilisation**（Passive）
   - 効果: While they are within 30" of this unit, subtract 1 from casting rolls for enemy units when they use **SUMMON** abilities.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Gryph-hounds**
 - Any **SACROSANCT CHAMBER** **INFANTRY**
@@ -1322,19 +1322,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 6 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Terminus Greatbow | 18" | 3 | 3+ | 3+ | 2 | 3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Judicator’s Warblade | 3 | 3+ | 3+ | 1 | 1 | - |
 
@@ -1346,7 +1346,7 @@
   - 宣言: If this unit was not set up this turn and any of this unit’s **Gryph‑hounds** are on the battlefield, pick an enemy unit within 12" of this unit to be the target.
   - 効果: Roll a dice. On a 1, remove 1 of this unit’s **Gryph-hounds** from the battlefield. On a 2+, pick 1 of this unit’s **Gryph-hounds** that is next to this unit or next to an enemy unit and place it next to the target instead. While any of this unit’s **Gryph-hounds** are next to an enemy unit, add 1 to hit rolls and wound rolls for this unit’s shooting attacks that target that unit. If an enemy unit is destroyed or removed from the battlefield while any of this unit’s **Gryph-hounds** are next to it, place those **Gryph-hounds** next to this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **Gryph-hounds**
 - Any **WARRIOR CHAMBER**
@@ -1365,13 +1365,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Questor Warblade | 5 | 3+ | 3+ | 1 | 2 | Anti-HERO (+1 Rend), Crit (Mortal) |
 
@@ -1384,7 +1384,7 @@
 - **Heroic Retribution**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly **Questor Soulsworn** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Questor Soulsworn**
 - 0-1 **Gryph-hounds**
@@ -1404,13 +1404,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Relic Maul | 3 | 3+ | 3+ | 1 | 2 | - |
 
@@ -1420,7 +1420,7 @@
   - 宣言: Pick an enemy unit within 12" of this unit to be the target.
   - 効果: Roll a dice. On a 2+, subtract 1 from ward rolls made by the target for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Gryph-hounds**
 - Any **WARRIOR CHAMBER**
@@ -1439,19 +1439,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 6 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Realmhunter’s Bow | 24" | 6 | 3+ | 3+ | 1 | 1 | Anti-MONSTER (+1 Rend), Crit (2 Hits) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Star-eagle’s Celestial Talons | 2 | 4+ | 3+ | - | 1 | Companion |
 | Bowstave | 3 | 3+ | 3+ | - | 1 | - |
@@ -1462,7 +1462,7 @@
   - 宣言: Pick a visible enemy unit within 24" of this unit to be the target.
   - 効果: If the target is a non-**MONSTER** unit, inflict D6 mortal damage on it. If the target is a **MONSTER**, inflict D6+3 mortal damage on it.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Gryph-hounds**
 - Any **WARRIOR CHAMBER** **INFANTRY**
@@ -1481,13 +1481,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sigmarite Warblade | 4 | 3+ | 3+ | 1 | 2 | - |
 
@@ -1497,7 +1497,7 @@
   - 宣言: Pick up to D3 friendly **STORMCAST ETERNALS** units wholly within 12" of this unit to be the targets.
   - 効果: Add 3 to each target’s control score for the rest of the turn. In addition, **Heal (D3)** each target.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Gryph-hounds**
 - Any **WARRIOR CHAMBER**
@@ -1516,19 +1516,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 7" | 6 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Stormshot Pistol | 12" | 3 | 3+ | 3+ | - | 1 | Anti-HERO (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Tempest Axes | 6 | 3+ | 3+ | 1 | 1 | Anti-HERO (+1 Rend), Crit (2 Hits) |
 
@@ -1539,7 +1539,7 @@
 - **Tireless Hunter**（Once Per Turn (Army), Your Movement Phase）
   - 効果: Remove this unit from the battlefield and set it up again on the battlefield more than 9" from all enemy units.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Gryph-hounds**
 - Any **VANGUARD CHAMBER**
@@ -1558,19 +1558,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 20 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Blazing Tempest | 12" | 1 | 2+ | 3+ | 2 | D3+3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Drake-lord’s Talons | 6 | 3+ | 2+ | 2 | 2 | - |
 | Apex Maw（戦傷時） | 4 | 3+ | 2+ | 2 | 4 | Anti-INFANTRY (+1 Rend) |
@@ -1588,7 +1588,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Apex Maw** is 2.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - Any **STORMCAST ETERNALS**
@@ -1603,13 +1603,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warhammer | 2 | 3+ | 3+ | 1 | 1 | Crit (Mortal) |
 | Grandhammer | 2 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
@@ -1633,13 +1633,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 4+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Abyssal Touch | 3 | 3+ | 4+ | - | D3 | - |
 
@@ -1665,19 +1665,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 8 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Heavy Boltstorm Pistol | 12" | 4 | 3+ | 3+ | 1 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Starbound Blade and Shock Handaxe | 5 | 3+ | 3+ | 1 | 2 | - |
 | Gryph-charger’s Razor Beak | 3 | 4+ | 3+ | 1 | 1 | Companion |
@@ -1690,7 +1690,7 @@
   - 宣言: If this unit is not in combat, you can pick up to 2 friendly **VANGUARD-PALLADORS** units that are not in combat to be the targets.
   - 効果: Remove this unit and the targets (if any) from the battlefield. Set this unit up again on the battlefield more than 9" from all enemy units. Then, set up each target wholly within 12" of this unit and more than 9" from all enemy units.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **Gryph-hounds**
 - Any **VANGUARD CHAMBER**
@@ -1709,13 +1709,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Aetherstave | 4 | 3+ | 3+ | 1 | 2 | - |
 
@@ -1727,7 +1727,7 @@
   - 宣言: Pick a visible friendly **MANIFESTATION** wholly within 12" of this unit to be the target.
   - 効果: **Heal (D6)** the target.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SACROSANCT CHAMBER** **INFANTRY**
 
@@ -1745,13 +1745,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 8 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Aetherstave | 4 | 3+ | 3+ | 1 | 2 | - |
 | Celestial Dracoline’s Claws | 3 | 3+ | 3+ | 1 | 2 | Companion |
@@ -1765,7 +1765,7 @@
   - 宣言: If this unit is in combat, pick this unit and up to 1 other visible friendly **SACROSANCT CHAMBER CAVALRY** unit within its combat range to be the targets.
   - 効果: Add 1 to the Attacks characteristic of the targets’ **Companion** melee weapons for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SACROSANCT CHAMBER** **CAVALRY**
 
@@ -1781,13 +1781,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 8 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gryph-charger’s Razor Beak | 3 | 4+ | 3+ | 1 | 1 | Companion |
 | Aetherstave | 4 | 3+ | 3+ | 1 | 2 | - |
@@ -1800,7 +1800,7 @@
 - **On the Winds Aetheric**（Your Movement Phase）
   - 効果: If this unit is not in combat, remove it from the battlefield and set it up again on the battlefield more than 9" from all enemy units.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SACROSANCT CHAMBER**
 
@@ -1816,13 +1816,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 12 | 3+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Aetherstave | 4 | 3+ | 3+ | 1 | 2 | - |
 | Tauralon’s Hooves | 3 | 4+ | 3+ | 1 | D3 | Companion |
@@ -1838,7 +1838,7 @@
   - 宣言: If this unit is in combat, pick each visible friendly **STORMCAST ETERNALS** unit within its combat range to be the targets.
   - 効果: For the rest of the turn, the targets have **WARD (5+)** and this unit has **STRIKE-LAST.**
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SACROSANCT CHAMBER**
 
@@ -1854,13 +1854,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gryph-hound’s Beak | 4 | 4+ | 4+ | - | 1 | Companion |
 | Castellant’s Halberd | 3 | 3+ | 3+ | 1 | 2 | Crit (Auto-wound) |
@@ -1875,7 +1875,7 @@
   - 宣言: Pick an objective within 12" of this unit to be the target.
   - 効果: For the rest of the turn: • Friendly **STORMCAST ETERNALS** units have **WARD (6+)** while they are contesting the target. • Ward rolls cannot be made for enemy units while they are contesting the target.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **WARRIOR CHAMBER** **INFANTRY**
 
@@ -1893,13 +1893,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Weapons of Legend | 5 | 3+ | 3+ | 1 | 2 | Crit (Auto-wound) |
 
@@ -1908,7 +1908,7 @@
 - **Furious Retribution**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly non-**HERO WARRIOR CHAMBER INFANTRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to wound rolls for the target’s attacks for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - 0-1 **Gryph-hounds**
@@ -1928,19 +1928,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 8 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Stormblast | 10" | 1 | 3+ | 3+ | 2 | D3 | Crit (2 Hits), Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Weapons of Legend | 5 | 3+ | 3+ | 1 | 2 | Crit (Auto-wound) |
 | Dracoth’s Claws and Fangs | 3 | 4+ | 2+ | 2 | 2 | Companion |
@@ -1952,7 +1952,7 @@
 - **Righteous Avengers**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly non-**HERO EXTREMIS CHAMBER CAVALRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - Any **EXTREMIS CHAMBER**
@@ -1970,19 +1970,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 18 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Rain of Stars | 24" | 4 | 3+ | 2+ | 2 | 2 | Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Weapons of Legend | 5 | 3+ | 3+ | 1 | 2 | Crit (Auto-wound) |
 | Stardrake’s Cavernous Jaws（戦傷時） | 7 | 4+ | 2+ | 2 | 3 | Companion |
@@ -1999,7 +1999,7 @@
 - **Lord of the Host**（Once Per Battle, Any Combat Phase）
   - 効果: Add 1 to the Attacks characteristic of other friendly **EXTREMIS CHAMBER** units wholly within 12" of this unit for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - Any **STORMCAST ETERNALS**
@@ -2016,19 +2016,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 8 | 3+ | 2 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Thunderbolts of Azyr | 18" | 2 | 2+ | 2+ | 2 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Uskavar, the Sunderer | 4 | 3+ | 2+ | 2 | 4 | Crit (Auto-wound) |
 
@@ -2042,7 +2042,7 @@
 - **Mantle of the First Storm**（End of Any Turn）
   - 効果: If any enemy models were slain by this unit’s attacks this turn, **Heal (4)** this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - Any **STORMCAST ETERNALS**
@@ -2059,13 +2059,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Redemption Stave | 3 | 3+ | 3+ | 1 | 2 | - |
 
@@ -2077,7 +2077,7 @@
   - 宣言: Pick a visible enemy **PRIEST** within 18" of this unit to be the target.
   - 効果: Roll a dice. On a 2+: • If the target has any ritual points, remove a number of ritual points from it equal to the roll. • If the target has no ritual points, inflict D3 mortal damage on it.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SACROSANCT CHAMBER** **INFANTRY**
 
@@ -2095,13 +2095,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Blessed Warhammer | 4 | 3+ | 3+ | 1 | 2 | Crit (Auto-wound) |
 
@@ -2113,7 +2113,7 @@
   - 宣言: Pick up to 3 friendly **STORMCAST ETERNALS** units wholly within 12" of this unit that were set up this turn using the ‘Scions of the Storm’ ability to be the targets.
   - 効果: Each target can immediately move D3". The targets cannot move into combat during any part of that move.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - 0-1 **Gryph-hounds**
@@ -2133,13 +2133,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Astral Weapons | 3 | 3+ | 3+ | 1 | 2 | Crit (Auto-wound) |
 
@@ -2149,7 +2149,7 @@
   - 宣言: Pick a visible friendly **SACROSANCT CHAMBER WAR MACHINE** wholly within 12" of this unit to be the target.
   - 効果: The target’s attacks score critical hits on unmodified hit rolls of 4+ for the rest of the phase.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SACROSANCT CHAMBER** **INFANTRY**
 - Any **WAR MACHINE** **SACROSANCT CHAMBER**
@@ -2168,13 +2168,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Relic Hammer | 4 | 3+ | 3+ | 1 | 2 | Crit (Auto-wound) |
 
@@ -2183,7 +2183,7 @@
 - **Mortis Priest**（Passive）
   - 効果: Add 1 to chanting rolls for this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - 0-1 **Gryph-hounds**
@@ -2202,13 +2202,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | The Blade Terminos | 4 | 3+ | 2+ | 2 | 3 | Crit (Mortal) |
 
@@ -2221,7 +2221,7 @@
 - **Ruination Chamber**（Once Per Turn (Army), Reaction: This unit was picked as the target of a non-CORE ability）
   - 効果: Make a resistance roll of D6. On a 4+, that ability has no effect on this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - 0-1 **Gryph-hounds**
@@ -2242,13 +2242,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Judgement Blade | 3 | 3+ | 3+ | 1 | D3 | Anti-PRIEST (+1 Rend), Anti-WIZARD (+1 Rend) |
 | Staff of Abjuration | 1 | 3+ | 3+ | 1 | 3 | - |
@@ -2262,7 +2262,7 @@
 - **Sense Unholy Sorcery**（Passive）
   - 効果: This unit’s **Gryph-crow** is a token. Subtract 1 from casting rolls and chanting rolls for enemy units within 12" of this unit while its **Gryph-crow** is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove its **Gryph-crow** from the battlefield after the **ATTACK** ability has been resolved (the damage point is still inflicted).
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - 0-1 **Gryph-hounds**
@@ -2283,13 +2283,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 8 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Hallowed Greataxe | 5 | 3+ | 3+ | 2 | 2 | - |
 | Gryph-stalker’s Beak and Talons | 3 | 4+ | 3+ | 1 | 2 | Companion |
@@ -2302,7 +2302,7 @@
 - **Ruination Chamber**（Once Per Turn (Army), Reaction: This unit was picked as the target of a non-CORE ability）
   - 効果: Make a resistance roll of D6. On a 4+, that ability has no effect on this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - 0-1 **Gryph-hounds**
@@ -2321,13 +2321,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 12 | 3+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Morrgryph's Talons | 6 | 4+ | 2+ | 2 | 2 | Companion |
 | Hallowed Glaive | 5 | 3+ | 3+ | 1 | 2 | Charge (+1 Damage) |
@@ -2343,7 +2343,7 @@
 - **Ruination Chamber**（Once Per Turn (Army), Reaction: This unit was picked as the target of a non-CORE ability）
   - 効果: Make a resistance roll of D6. On a 4+, that ability has no effect on this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **RUINATION CHAMBER**
 - Any **WARRIOR CHAMBER**
@@ -2360,19 +2360,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 7" | 6 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Relic Boltstorm Pistol | 10" | 3 | 3+ | 3+ | 1 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Whirlwind Axes | 7 | 2+ | 3+ | 2 | 2 | Crit (2 Hits) |
 
@@ -2386,7 +2386,7 @@
 - **Vanguard Chamber**（Once Per Turn (Army), Your Hero Phase）
   - 効果: For the rest of the turn, this unit can use **SHOOT** and/ or **CHARGE** abilities even if it used a **RUN** or **RETREAT** ability in the same turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - **Neave's Companions** (required)
 - **Lorai, Child of the Abyss** (required)
@@ -2404,19 +2404,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 3+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Typhoon Crossbow | 18" | 3 | 3+ | 3+ | 1 | 2 | Anti-HERO (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cyclone Sword and Axe | 6 | 3+ | 3+ | 1 | 1 | - |
 | Stormcharged Warhammer | 4 | 3+ | 2+ | 2 | 2 | - |
@@ -2441,13 +2441,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Soulguard’s Halberd | 3 | 3+ | 3+ | 1 | 2 | - |
 
@@ -2468,19 +2468,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 2 | 3+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Stormcall Javelin | 10" | 1 | 3+ | 3+ | 1 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stormcall Javelin | 3 | 3+ | 3+ | 1 | 1 | Charge (+1 Damage) |
 
@@ -2503,13 +2503,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 3 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Starsoul Mace | 1 | 3+ | 3+ | 2 | 3 | Crit (Mortal) |
 | Protector Stormstrike Glaive | 4 | 3+ | 3+ | 1 | 1 | - |
@@ -2533,13 +2533,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Questor Weapons | 3 | 3+ | 3+ | 1 | 2 | - |
 
@@ -2565,13 +2565,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rune-blessed Weapons | 3 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -2592,13 +2592,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 3 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Retributor Lightning Hammer | 2 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
 | Starsoul Mace | 1 | 3+ | 3+ | 2 | 3 | Crit (Mortal) |
@@ -2622,13 +2622,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 12 | 3+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Axe of the Final Threshold | 4 | 3+ | 3+ | 2 | 3 | Crit (Mortal) |
 | Ariax’s Plunging Talons | 6 | 4+ | 2+ | 2 | 2 | Charge (+1 Damage), Companion |
@@ -2646,7 +2646,7 @@
 - **Guardian of the Final Threshold**（Once Per Turn (Army), Reaction: This unit was picked to be the target of a non-**CORE** ability）
   - 効果: Make a resistance roll of D6. On a 3+, that ability has no effect on this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - Any **STORMCAST ETERNALS**
@@ -2663,13 +2663,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 5 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gryph-charger’s Talons | 3 | 4+ | 3+ | 1 | 1 | Companion |
 | Stormstrike Lance or Blade | 3 | 3+ | 3+ | 1 | 1 | Anti-INFANTRY (+1 Rend), Charge (+1 Damage) |
@@ -2682,7 +2682,7 @@
   - 宣言: If this unit charged this turn, pick an enemy unit in combat with both of the following units to be the target: • This unit. • A friendly unit that did not charge this turn.
   - 効果: Add 1 to the Damage characteristic of this unit’s melee weapons for attacks that target that enemy unit for the rest of the turn.
 
-**キーワード:** Cavalry, Champion, Musician (1/3),  Standard Bearer (1/3), Order, Stormcast Eternals, Warrior Chamber
+**キーワード:** Cavalry, Champion, Musician (1/3), Standard Bearer (1/3), Order, Stormcast Eternals, Warrior Chamber
 
 **ノート:** This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
 
@@ -2696,13 +2696,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 12 | 3+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Axe of the Final Threshold | 4 | 3+ | 3+ | 2 | 3 | Crit (Mortal) |
 | Ariax’s Plunging Talons | 6 | 4+ | 2+ | 2 | 2 | Charge (+1 Damage), Companion |
@@ -2720,7 +2720,7 @@
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
   - 効果: Effect: Roll a dice. On a 3+: • You can remove this unit from the battlefield and set it up again on the battlefield within 1" of the target. • If the target charged this turn, subtract 1 from hit rolls for the target’s attacks for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - Any **STORMCAST ETERNALS**
@@ -2737,13 +2737,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sacrosanct Weapons | 2 | 3+ | 3+ | 1 | 1 | Crit (2 Hits) |
 | Stormsmite Greatmace | 2 | 3+ | 3+ | 1 | 2 | Crit (2 Hits) |
@@ -2767,13 +2767,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Heavens-wrought Weapon | 3 | 3+ | 3+ | 1 | 1 | Crit (Mortal) |
 
@@ -2800,19 +2800,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 3+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Azyrite Bolts | 18" | 2 | 3+ | 4+ | 1 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Valedictor Weapons | 3 | 3+ | 3+ | 1 | D3 | - |
 
@@ -2836,19 +2836,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 9 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Draconic Flamestream | 10" | 4 | 2+ | 3+ | 2 | 1 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Drakerider’s Lance | 3 | 3+ | 3+ | 1 | 1 | Charge (+1 Damage), Anti-INFANTRY (+1 Rend) |
 | Draconith’s Fangs and Talons | 4 | 4+ | 2+ | 2 | 2 | Companion |
@@ -2877,19 +2877,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 9 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Draconic Flamestream | 10" | 4 | 2+ | 3+ | 2 | 1 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Draconith’s Fangs and Talons | 4 | 4+ | 2+ | 2 | 2 | Companion |
 | Drakerider’s Warblade | 6 | 3+ | 3+ | 1 | 1 | - |
@@ -2920,7 +2920,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 12 | 4+ | - |
 
@@ -2949,13 +2949,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cursebreaker Weapons | 3 | 3+ | 3+ | 1 | 1 | Crit (Mortal) |
 
@@ -2983,19 +2983,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 10 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Great Stormbow | 18" | 2 | 3+ | 3+ | 1 | 1 | Anti-INFANTRY (+1 Rend), Crit (2 Hits) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stormstrike Axe | 3 | 3+ | 3+ | 1 | 1 | Charge (+1 Damage) |
 | Gryph-chargers’ Razor Beaks | 6 | 4+ | 3+ | 1 | 1 | Companion |
@@ -3021,13 +3021,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 5 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gryph-charger’s Talons | 3 | 4+ | 3+ | 1 | 1 | Companion |
 | Stormstrike Lance or Blade | 3 | 3+ | 3+ | 1 | 1 | Anti-INFANTRY (+1 Rend), Charge (+1 Damage) |
@@ -3037,7 +3037,7 @@
 - **Ride for Vengeance**（Passive）
   - 効果: If any friendly **WARRIOR CHAMBER** units have been destroyed this battle: • You can re-roll charge rolls for this unit. • This unit has **STRIKE-FIRST** if it charged in the same turn.
 
-**キーワード:** Cavalry, Champion, Musician (1/3),  Standard Bearer (1/3), Order, Stormcast Eternals, Warrior Chamber
+**キーワード:** Cavalry, Champion, Musician (1/3), Standard Bearer (1/3), Order, Stormcast Eternals, Warrior Chamber
 
 ---
 
@@ -3049,19 +3049,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 3+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Boltstorm Weapon | 10" | 3 | 4+ | 4+ | 1 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stormwrought Weapon | 3 | 3+ | 3+ | 1 | 1 | Crit (Mortal) |
 
@@ -3088,19 +3088,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 3+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Boltstorm Pistol | 10" | 2 | 4+ | 4+ | 1 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stormwrought Weapon | 2 | 3+ | 3+ | 1 | 1 | - |
 
@@ -3128,19 +3128,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 8 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hallowed Greatspear | 12" | 1 | 3+ | 3+ | 2 | D3 | Crit (2 Hits) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Hallowed Greatspear | 5 | 3+ | 3+ | 2 | 2 | Crit (2 Hits) |
 
@@ -3153,7 +3153,7 @@
 - **Herald of Redemption**（Passive）
   - 効果: If a friendly **RUINATION CHAMBER** unit wholly within 12" of this unit uses the ‘Rally’ command, you receive 3 additional rally points.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - Any **STORMCAST ETERNALS**
@@ -3170,19 +3170,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 8 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Stormblast | 10" | 1 | 3+ | 3+ | 2 | D3 | Crit (2 Hits), Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Heldensen | 6 | 3+ | 2+ | 1 | 2 | Crit (Auto-wound) |
 | Calanax’s Claws and Fangs | 4 | 4+ | 2+ | 2 | 2 | Companion |
@@ -3194,7 +3194,7 @@
 - **Vengeance Unleashed**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly non-**HERO WARRIOR CHAMBER** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - Any **EXTREMIS CHAMBER**
@@ -3210,19 +3210,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 3+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Boltstorm Pistol | 10" | 2 | 4+ | 4+ | 1 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stormwrought Weapon | 2 | 3+ | 3+ | 1 | 1 | - |
 
@@ -3246,19 +3246,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 5 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Boltstorm Pistol | 10" | 2 | 4+ | 4+ | 1 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gryph-charger’s Razor Beak | 3 | 4+ | 3+ | 1 | 1 | Companion |
 | Shock Handaxe | 2 | 3+ | 3+ | 1 | 2 | Charge (+1 Damage) |
@@ -3280,20 +3280,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 5 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Boltstorm Pistol | 10" | 2 | 4+ | 4+ | 1 | 1 | Shoot in Combat |
 | Starstrike Javelin | 12" | 1 | 3+ | 3+ | 1 | 2 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Starstrike Javelin | 1 | 3+ | 3+ | 1 | 2 | - |
 | Gryph-charger’s Razor Beak | 3 | 4+ | 3+ | 1 | 1 | Companion |
@@ -3316,19 +3316,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 3+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hurricane Crossbow | 12" | 4 | 3+ | 3+ | - | 1 | Anti-INFANTRY (+1 Rend), Crit (2 Hits) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Heavy Stock | 1 | 4+ | 3+ | - | 1 | - |
 
@@ -3350,19 +3350,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 3+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Longstrike Crossbow | 18" | 2 | 3+ | 3+ | 2 | 2 | Anti-HERO (+1 Rend), Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Heavy Stock | 1 | 4+ | 3+ | - | 1 | - |
 
@@ -3383,13 +3383,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Celestial Greatsword | 2 | 3+ | 3+ | 1 | 1 | Anti-INFANTRY (+1 Rend) |
 
@@ -3408,19 +3408,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 3+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Stormcaller Bow | 18" | 2 | 3+ | 3+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stormblade | 2 | 3+ | 3+ | 1 | 1 | - |
 
@@ -3439,13 +3439,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stormspear | 2 | 3+ | 3+ | 1 | 1 | Anti-charge (+1 Rend) |
 
@@ -3466,19 +3466,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 3+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Stormcaller Bow | 18" | 2 | 3+ | 3+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Great Hammer | 2 | 3+ | 3+ | 1 | 2 | Crit (Mortal), Anti-MONSTER (+1 Rend) |
 | Truthseeker Weapons | 3 | 3+ | 3+ | 1 | 1 | Crit (Mortal) |
@@ -3507,19 +3507,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 8 | 3+ | 2 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Thengavar | 12" | 1 | 3+ | 2+ | 2 | 4 | Anti-MONSTER (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Thengavar | 2 | 2+ | 2+ | 2 | 3 | Anti-MONSTER (+1 Rend) |
 | Blade of the High Heavens | 5 | 3+ | 3+ | 2 | 3 | - |
@@ -3533,7 +3533,7 @@
 - **On Wings of Brilliance**（Passive）
   - 効果: Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - Any **STORMCAST ETERNALS**

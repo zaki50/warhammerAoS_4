@@ -1,6 +1,6 @@
 # Draconith Skywing ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全7 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,19 +15,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 16 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Spirit-scouring Flames | 10" | 9 | 2+ | 4+ | 2 | 1 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Soulbreaker | 4 | 3+ | 3+ | 1 | 2 | - |
 | Cthorak’s Ancient Claws（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | Companion |
@@ -48,7 +48,7 @@
   - 宣言: Pick a visible enemy unit within 12" of this unit to be struck by lightning, then make a chanting roll of D6.
   - 効果: Inflict D3 mortal damage on that unit, then roll a dice. On a 1-2, the sequence ends. On a 3+, pick another enemy unit within 3" of that unit to be struck by lightning and inflict D3 mortal damage on it. If the chanting roll was 10+, you can pick another enemy unit within 6" of that unit instead of 3". Keep rolling dice in this way until the sequence ends or there are no other enemy units eligible to be struck by lightning. A unit cannot be struck by lightning more than once per turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - Any **STORMCAST ETERNALS**
@@ -65,19 +65,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 20 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Blazing Tempest | 12" | 1 | 2+ | 3+ | 2 | D3+3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Drake-lord’s Talons | 6 | 3+ | 2+ | 2 | 2 | - |
 | Annihilating Jaws | 4 | 3+ | 2+ | 2 | 4 | Anti-INFANTRY (+1 Rend) |
@@ -93,7 +93,7 @@
   - 宣言: Pick an enemy unit within this unit’s combat range to be the target.
   - 効果: Subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - Any **STORMCAST ETERNALS**
@@ -110,19 +110,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 11 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Draconic Flamestream | 10" | 4 | 2+ | 3+ | 2 | 1 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Aeonfire Blade | 5 | 3+ | 2+ | 2 | 2 | - |
 | Draconith’s Fangs and Talons | 4 | 4+ | 2+ | 2 | 2 | Companion |
@@ -137,7 +137,7 @@
   - 宣言: Pick a friendly **Stormdrake Guard** unit within this unit’s combat range to be the target.
   - 効果: Roll a dice. On a 2+, add 1 to the Attacks characteristic of both this unit’s and the target’s **Draconith’s Fangs and Talons** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **EXTREMIS CHAMBER**
 
@@ -153,19 +153,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 20 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Blazing Tempest | 12" | 1 | 2+ | 3+ | 2 | D3+3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Drake-lord’s Talons | 6 | 3+ | 2+ | 2 | 2 | - |
 | Apex Maw（戦傷時） | 4 | 3+ | 2+ | 2 | 4 | Anti-INFANTRY (+1 Rend) |
@@ -183,7 +183,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Apex Maw** is 2.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Stormcast Exemplar*
 - Any **STORMCAST ETERNALS**
@@ -198,19 +198,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 9 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Draconic Flamestream | 10" | 4 | 2+ | 3+ | 2 | 1 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Drakerider’s Lance | 3 | 3+ | 3+ | 1 | 1 | Charge (+1 Damage), Anti-INFANTRY (+1 Rend) |
 | Draconith’s Fangs and Talons | 4 | 4+ | 2+ | 2 | 2 | Companion |
@@ -239,19 +239,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 9 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Draconic Flamestream | 10" | 4 | 2+ | 3+ | 2 | 1 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Draconith’s Fangs and Talons | 4 | 4+ | 2+ | 2 | 2 | Companion |
 | Drakerider’s Warblade | 6 | 3+ | 3+ | 1 | 1 | - |
@@ -282,7 +282,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 12 | 4+ | - |
 

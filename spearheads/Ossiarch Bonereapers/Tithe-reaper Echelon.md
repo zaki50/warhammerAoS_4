@@ -1,6 +1,6 @@
 # Spearhead: Tithe-reaper Echelon（Ossiarch Bonereapers）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,19 +19,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 10 | 4+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Death’s Head Maw | 12" | 4 | 4+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ossified Hooves and Tail | 4 | 4+ | 3+ | 1 | 2 | - |
 | Soulcrusher Bludgeons | 6 | 4+ | 2+ | 2 | 2 | - |
@@ -52,13 +52,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 3 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kavalos Steed’s Hooves and Teeth | 2 | 5+ | 3+ | - | 1 | Companion |
 | Nadirite Spear | 3 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage) |
@@ -76,13 +76,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 1 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Nadirite Spear | 2 | 3+ | 4+ | - | 1 | Anti-charge (+1 Rend) |
 
@@ -99,13 +99,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Soulreaper Scythe | 3 | 4+ | 3+ | 2 | 2 | - |
 
@@ -120,12 +120,12 @@
 
 **キーワード:** Hero, Wizard, Infantry, Ward (6+)
 
-## バトル特性（Tithe-reaper Echelon Battle Traits）
+## 戦闘特性（Tithe-reaper Echelon Battle Traits）
 
 - **Contingent Arrival**（Your Movement Phase）
   - 効果: Set up this unit anywhere on the battlefield wholly within 3" of a battlefield edge and more than 6" from all enemy units.
 
-## レジメントアビリティ（Tithe-reaper Echelon Regiment Abilities）
+## 連隊アビリティ（Tithe-reaper Echelon Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

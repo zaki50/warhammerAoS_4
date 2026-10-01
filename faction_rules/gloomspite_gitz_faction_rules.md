@@ -1,9 +1,9 @@
 # Gloomspite Gitz ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Gloomspite Gitz Battle Traits（出典: Destruction Battletome: Gloomspite Gitz）
@@ -19,7 +19,7 @@ Gloomspite Gitz armies can use the following abilities:
   - 宣言: Pick a terrain feature to be the target.
   - 効果: Until the start of your next turn, while friendly non-**MONSTER** non-**WAR MACHINE GLOOMSPITE GITZ** units are wholly within 3" of that terrain feature, they are not visible to enemy units more than 9" away.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Gitmob Pack
@@ -70,7 +70,7 @@ Gloomspite Gitz armies can use the following abilities:
 - **The Clammy Hand**（Passive）
   - 効果: Each time a friendly **GLOOMSPITE GITZ** unit wholly within 12" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Troglodytic Treasures（出典: Destruction Battletome: Gloomspite Gitz）
@@ -99,7 +99,7 @@ Special Knick-knacks are unique enhancements that can be given to non‐**HERO G
 - **Glitzy Bitz Rolla**（Start of Any Turn / 10pt）
   - 効果: Spend 1 **rage dice**. If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. If this unit is a non-**TROGGOTH** unit, add 1 to wound rolls for its attacks for the rest of the turn. If this unit is a **TROGGOTH**, pick 1 of the following effects to apply for the rest of the turn: • Set the Damage characteristic of this unit’s **Colossal Boulder Club** to 6. • Set the Damage characteristic of this unit’s **Throwin’ Boulders** to 3. • Set the Attacks characteristic of this unit’s **Noxious Vomit** to 3.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Dank Manifestations

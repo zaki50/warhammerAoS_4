@@ -1,6 +1,6 @@
 # The Croneseer’s Pariahs ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全17 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -13,19 +13,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 1 | 5+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ki’raich | 10" | 1 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Valthrai | 3 | 3+ | 4+ | 1 | 1 | - |
 
@@ -46,19 +46,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 14" | 3 | 5+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Doomfire Crossbow | 10" | 2 | 3+ | 4+ | - | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cursed Scimitar | 2 | 3+ | 4+ | 1 | 1 | - |
 | Dark Steed’s Vicious Bite | 2 | 5+ | 3+ | - | 1 | Companion |
@@ -82,13 +82,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 2 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gladiatorial Weapons | 3 | 3+ | 4+ | - | 1 | Crit (Auto-wound) |
 
@@ -114,13 +114,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Blade of Khaine | 5 | 3+ | 4+ | 1 | 2 | - |
 
@@ -129,7 +129,7 @@
 - **Catechisms of Violence**（Once Per Turn (Army), Any Combat Phase） ［Exalted］
   - 効果: For the rest of the turn, each time a visible friendly **DAUGHTERS OF KHAINE** unit wholly within 12" of this unit uses a **FIGHT** ability, after that ability has been resolved, you can pick a visible friendly **DAUGHTERS OF KHAINE PRIEST** wholly within 12" of this unit. That **PRIEST** gains 1 ritual point.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Coven Matriarch*
 - Any **AELF**
@@ -148,13 +148,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 12 | 4+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Shrine Guardians’ Blades | 9 | 3+ | 4+ | 1 | 2 | - |
 | Avatar’s Sword | 5 | 3+ | 3+ | 2 | 3 | Companion |
@@ -168,7 +168,7 @@
   - 宣言: Pick a visible friendly **DAUGHTERS OF KHAINE** unit that is wholly within 12" of this unit and is in combat with an enemy unit that charged this turn to be the target. If there are any friendly **Slaughter Queens on Cauldrons of Blood** on the battlefield, you can pick another eligible unit to be a second target.
   - 効果: The targets have **WARD (5+)** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Coven Matriarch*
 - Any **AELF**
@@ -185,13 +185,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Barbed Whip and Gladiatrix’s Blade | 6 | 3+ | 4+ | 1 | 2 | - |
 
@@ -201,7 +201,7 @@
   - 宣言: Pick a visible friendly **DAUGHTERS OF KHAINE INFANTRY** unit wholly within 12" of this unit to be the target.
   - 効果: If this unit is in combat, add 1 to the Rend characteristic of the target’s melee weapons for the rest of the turn. If this unit is not in combat, roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s melee weapons for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **AELF**
 
@@ -217,19 +217,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 1 | 5+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Cursed Bolts and Missiles | 10" | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Blades of Murder | 2 | 3+ | 4+ | 1 | 1 | - |
 
@@ -250,19 +250,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 3 | 5+ | 2 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Aelven Crossbow | 10" | 3 | 3+ | 4+ | - | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Haruspicy Blades | 3 | 3+ | 4+ | 1 | D3 | - |
 
@@ -287,13 +287,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 6 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Staff of Morai-Heg | 4 | 3+ | 4+ | 1 | D3 | - |
 
@@ -305,7 +305,7 @@
 - **The Croneseer**（Passive）
   - 効果: Each time you perform a blood rite, immediately after the ability that destroyed a unit has been resolved, give this unit 1 **prophecy token**. • While this unit has 2 or more **prophecy tokens**, this unit cannot be picked to be the target of shooting attacks or **SPELL** abilities used by enemy units. • While this unit has 3 or more **prophecy tokens**, you can re-roll unmodified chanting rolls of 1 for this unit. • While this unit has 4 or more **prophecy tokens**, if the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Coven Matriarch*
 - Any **AELF**
@@ -322,19 +322,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 2 | 6+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Heartseeker Bow | 18" | 3 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sacrificial Weapons | 3 | 3+ | 4+ | - | 1 | Crit (Auto-wound) |
 
@@ -360,19 +360,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 1 | 5+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Cursed Bolts and Missiles | 10" | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Blades of Murder | 2 | 3+ | 4+ | 1 | 1 | - |
 
@@ -396,13 +396,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 6 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Staff of Morai-Heg | 5 | 3+ | 4+ | 1 | D3 | Crit (Auto-wound) |
 
@@ -417,7 +417,7 @@
 - **The Croneseer**（Enemy Hero Phase）
   - 効果: Give this unit D3 ritual points.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Coven Matriarch*
 - Any **AELF**
@@ -434,13 +434,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 1 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kruiplash | 3 | 3+ | 4+ | - | 1 | - |
 
@@ -462,13 +462,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Deathsword and Blade of Khaine | 6 | 3+ | 4+ | 1 | 2 | - |
 
@@ -478,7 +478,7 @@
   - 宣言: Pick a visible friendly **DAUGHTERS OF KHAINE** unit wholly within 12" of this unit to be the target.
   - 効果: Roll a dice. On a 3+, pick a blessing from the ‘Blessings of Khaine’ ability that is not **active**. The effect of that blessing applies to the target until the start of your next turn as if it were **active**. If you have used the ‘Blessings of Khaine’ ability 3 or more times this battle, you can pick 2 blessings instead of 1.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Coven Matriarch*
 - Any **AELF**
@@ -497,13 +497,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 12 | 4+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Avatar’s Sword | 5 | 3+ | 3+ | 2 | 3 | Companion |
 | Shrine Guardians’ Blades | 9 | 3+ | 4+ | 1 | 2 | - |
@@ -515,7 +515,7 @@
 - **Icon of Slaughter**（Passive） ［Exalted］
   - 効果: Each time a friendly **DAUGHTERS OF KHAINE** unit wholly within 12" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6. In addition, if there are any friendly **Hag Queens on Cauldrons of Blood** on the battlefield when that command is used, you receive D3 additional rally points.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Coven Matriarch*
 - Any **AELF**
@@ -532,19 +532,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 2 | 5+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Cursed Missiles | 10" | 1 | 3+ | 3+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Shadowstalker Blades | 2 | 3+ | 4+ | - | 1 | - |
 
@@ -570,13 +570,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 1 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sciansá | 3 | 3+ | 4+ | - | 1 | - |
 

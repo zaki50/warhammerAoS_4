@@ -1,29 +1,30 @@
-# Daughters of Khaine ファクションルール
+# ドーター・オヴ・カイン(Daughters of Khaine) ファクションルール
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
-### Daughters of Khaine Battle Traits（出典: Order Battletome: Daughters of Khaine）
+### 戦闘特性(Daughters of Khaine Battle Traits)（出典: Order Battletome: Daughters of Khaine）
 
-Daughters of Khaine armies can use the following abilities:
+ドーター・オヴ・カインのアーミーは以下のアビリティを利用できる。
 
-- **Anointed Ritualist**（Start of First Battle Round）
-  - 宣言: If there are no friendly **anointed** units on the battlefield, pick a friendly non-**UNIQUE DAUGHTERS OF KHAINE HERO** on the battlefield to be the target.
-  - 効果: The target is **anointed** for the rest of the battle, even if it has been destroyed. Friendly **anointed** units on the battlefield treat **EXALTED** abilities on the warscrolls of friendly **anointed** units that have been destroyed as if they were on their warscrolls.
-- **Bloody Succession**（Passive）
-  - 効果: Each time a friendly **anointed** unit is destroyed, after removing it from play, you can immediately use the ‘Anointed Ritualist’ ability as if it were the start of the first battle round.
-- **Strident War Cry**（Once Per Turn (Army), Reaction: You declared a **CHARGE** ability for an anointed unit）
-  - 効果: Pick a friendly non-**HERO DAUGHTERS OF KHAINE** unit that is not in combat, is wholly within 12" of that **anointed** unit and has not charged this turn to be the target. If that **anointed** unit charges, after that **CHARGE** ability has been resolved, the target can immediately use the ‘Charge’ ability even if it is not your charge phase. In addition, you can re-roll charge rolls for the target for the rest of the phase.
-- **血の儀式(Blood Rites)**（Passive）
-  - 効果: You perform a blood rite each time: • An enemy unit is destroyed and any damage points were allocated to that unit by a friendly **anointed** unit’s combat attacks in the same turn. • A friendly **anointed** unit is destroyed. • A friendly unit contesting an objective you control is destroyed. • An enemy unit is destroyed by a friendly **DAUGHTERS OF KHAINE** unit’s attacks and any models in that enemy unit were contesting an objective you do not control in the same phase. • A unit (friendly or enemy) is destroyed and it was within 3" of a **Place of Power** at the start of the phase. Only one blood rite can be performed per unit destroyed.
-- **カインの祝福(Blessings of Khaine)**（Once Per Turn (Army), End of Any Turn）
-  - 宣言: You can only use this ability if you performed any blood rites this turn.
-  - 効果: Pick 1 of the following blessings that is not **active**. That blessing is **active**. While a blessing is **active**, its effect applies to friendly **DAUGHTERS OF KHAINE** units. The effects of more than 1 blessing can apply to a unit at the same time. • ***Blessing of Ruthlessness:*** Add 1 to hit rolls for those units’ combat attacks. • ***Blessing of Hatred:*** Add 1 to wound rolls for those units’ combat attacks. • ***Blessing of Haste:*** Add 3" to those units’ Move characteristic. • ***Blessing of Zeal:*** If those units charged in the same turn, they have **WARD (5+)** for the rest of the turn. • ***Blessing of Shadow:*** Subtract 1 from hit rolls for shooting attacks that target those units. • ***Blessing of Cruelty:*** Those units can use **CHARGE** and/or **SHOOT** abilities even if they have used a **RETREAT** ability in the same turn. • ***Blessing of Clarity:*** Add 1 to chanting rolls and casting rolls for those units.
+- **聖別の司祭(Anointed Ritualist)**（第1バトルラウンド開始時）
+  - 宣言: 味方**聖別**・ユニットが戦場に1体も配置されていない場合、戦場に配置されている**固有**でない味方**ドーター・オヴ・カイン・英雄**を1体選択する。
+  - 効果: 以降バトル終了時まで、選択された英雄は**聖別**されたものとして扱われる（全滅していても状態は維持される）。戦場に配置されている味方**聖別**・ユニットは、全滅した味方**聖別**・ユニットのウォースクロールに記されている**高位**アビリティを、あたかも自身のウォースクロールに記載されているように扱うことができる。
+- **血の継承(Bloody Succession)**（パッシブ）
+  - 効果: 味方聖別・ユニットが1個全滅するごとに、そのユニットがゲームから取り除かれた後、あたかも第1バトルラウンドの開始時であるかのように、ただちに『聖別の司祭』アビリティを使用できる。
+- **影の裂帛(Strident War Cry)**（各ターンにつき1回（アーミー）、リアクション：味方聖別・ユニットが『突撃』アビリティを宣言）
+  - 使用者: その味方聖別・ユニット。
+  - 効果: その**聖別**・ユニットの12mv以内に全体が入っており、かつこのターン中に突撃しておらず、かつ近接戦闘中ではない**英雄**でない味方**ドーター・オヴ・カイン**・ユニットを1個選択する。その**聖別**・ユニットが突撃をした場合、その**『突撃』**アビリティが解決された直後に、選択された味方ユニットはあたかも自軍側突撃フェイズ中かのように、ただちに『突撃』アビリティを使用できる。加えて、そのフェイズ中、その味方ユニットは突撃ロールをリロールできる。
+- **血の儀式(Blood Rites)**（パッシブ）
+  - 効果: 自軍は以下のいずれかが満たされるたびに、血の儀式を1回執り行う。 • 現在のターン中に、味方**聖別**・ユニットのメレーアタックにより1ポイント以上のダメージが割り振られた敵ユニットが1個全滅した。 • 味方**聖別**・ユニットが1個全滅した。 • 自軍側が確保している作戦目標を争奪中であった味方ユニットが1個全滅した。 • 現在のフェイズ中に、自軍側が確保していなかった作戦目標を争奪中であった1体以上の敵兵が味方**ドーター・オヴ・カイン**・ユニットの攻撃によって撃破されており、かつその敵ユニットが1個全滅した。 • フェイズの開始時に、**力を秘めし地形**の3mv以内に一部でも入っていたユニット（敵味方問わず）が1個全滅した。 血の儀式を執り行えるのは全滅したユニット1個につき1回だけである。
+- **カインの祝福(Blessings of Khaine)**（各ターンにつき1回（アーミー）、任意のターン終了時）
+  - 宣言: 自軍がこのターン中に『血の儀式』を1回以上執り行っている場合にのみ、自軍はこのアビリティを使用できる。
+  - 効果: 以下の中から**有効化**されていない祝福を1つ選択する。選択された祝福は、**有効化**された状態になる。祝福が**有効化**されている間、その効果は味方**ドーター・オヴ・カイン**・ユニットに適用される。ユニットは、同時に2個以上の祝福の効果を得ることができる。 • **無慈悲の祝福：**味方ユニットは、ヒットロールに+1の修正を受ける。 • **憎悪の祝福：**味方ユニットは、ウーンズロールに+1の修正を受ける。 • **敏捷の祝福：**味方ユニットは【移動力】に+3mvの修正を受ける。 • **熱情の祝福：**味方ユニットが現在のターン中に突撃していた場合、そのターン中、その味方ユニットは**加護（5+）**を持つ。 • **影の祝福：**味方ユニットを対象にしたレンジアタックは、ヒットロールに-1の修正を受ける。 • **残酷の祝福：**味方ユニットは現在のターン中に**『退却』**アビリティを使用していたとしても、そのターン中に**『突撃』**と**『遠隔攻撃』**アビリティの両方、またはいずれか一方を使用できる。 • **明晰の祝福：**味方ユニットは、詠唱ロールと祈願ロールに+1の修正を受ける。
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Arena Veterans（20pt）
@@ -31,52 +32,53 @@ Daughters of Khaine armies can use the following abilities:
 - **優美な回避(Graceful Elusion)**（Any Combat Phase）
   - 効果: For the rest of the phase, friendly **DAUGHTERS OF KHAINE AELF INFANTRY** units have **WARD (5+)** until they have used a **FIGHT** ability.
 
-### Cold-Hearted Murderers
+### 冷徹な殺戮者(Cold-Hearted Murderers)
 
-- **Bloody-Handed Worshippers**（Reaction: You declared a **FIGHT** ability for an anointed unit）
-  - 効果: Pick a friendly non-**HERO DAUGHTERS OF KHAINE** unit that has not used a **FIGHT** ability this turn and is within that anointed unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by that **anointed** unit has been resolved. If it is picked to do so, the target’s melee weapons have **Crit (Auto-wound)** for the rest of the turn. If its melee weapons already have **Crit (Auto-wound)**, they have **Crit (Mortal)** for the rest of the turn instead.
+- **血塗られた手の崇拝者(Bloody-Handed Worshippers)**（リアクション：味方聖別・ユニットが『近接攻撃』アビリティを宣言）
+  - 使用者: その味方聖別・ユニット。
+  - 効果: このターン中に**『近接攻撃』**アビリティを使用しておらず、かつその**聖別**・ユニットの近接範囲内に一部でも入っている**英雄**でない味方**ドーター・オヴ・カイン**・ユニットを1個選択する。**聖別**・ユニットが使用した**『近接攻撃』**アビリティを解決した直後に、選択された味方ユニットはただちに**『近接攻撃』**アビリティを使用できる。味方ユニットが『近接攻撃』アビリティを使用した場合、そのターン中、その味方ユニットが装備している近接武器は**クリティカル（自動ウーンズ）**を得る。その近接武器がすでに**クリティカル（自動ウーンズ）**を有するならば、そのターン中、近接武器は代わりに**クリティカル（致命的）**を得る。
 
 ### Coven Zealots
 
 - **より高い望みへ(Higher Purpose)**（Once Per Turn (Army), End of Any Turn）
   - 効果: Return D3 slain models to each friendly **DAUGHTERS OF KHAINE AELF INFANTRY** unit.
 
-### Coven of Blood（20pt）
+### 流血の魔女団(Coven of Blood)（20pt）
 
-- **The Breath of Khaine**（Passive）
-  - 効果: While each model in a friendly **DAUGHTERS OF KHAINE** unit is contesting an objective you control, those models are not visible to enemy models more than 9" away.
+- **カインの血霧(The Breath of Khaine)**（パッシブ）
+  - 効果: 自軍側が確保している作戦目標を味方**ドーター・オヴ・カイン**・ユニットの各兵が争奪中である場合、その味方ユニットは自身から9mvより遠く離れた敵兵から視認状態ではない。
 
-### Fervent Ritualists（10pt）
+### 熱烈な崇拝者(Fervent Ritualists)（10pt）
 
-- **Final Frenzy**（Once Per Turn (Army), End of Any Turn）
-  - 宣言: Pick each friendly **DAUGHTERS OF KHAINE** unit contesting an objective to be the targets.
-  - 効果: Return up to D3 slain models to each target that has a Health characteristic of up to 2. Return up to 1 slain model to each target that has a Health characteristic of 3 or more.
+- **今際の狂気(Final Frenzy)**（各ターンにつき1回（アーミー）、任意のターン終了時）
+  - 宣言: 作戦目標を争奪中である各味方**ドーター・オヴ・カイン**・ユニットを選択する。
+  - 効果: 【体力】2までの各味方ユニットは、それぞれユニット内の撃破された兵をD3体まで復帰させる。【体力】3以上の各味方ユニットは、それぞれユニット内の撃破された兵を1体まで復帰させる。
 
-### Frenzied Devotees
+### 血の狂信者(Frenzied Devotees)
 
-- **Heretic's Bane**（Once Per Turn (Army), Start of Enemy Turn）
-  - 宣言: Pick an enemy **WIZARD** or **PRIEST** on the battlefield to be the target.
-  - 効果: Roll a dice for each objective you control. For each 3+, subtract 1 from casting rolls and chanting rolls for the target for the rest of the turn.
+- **異端者の破滅(Heretic's Bane)**（各ターンにつき1回（アーミー）、敵軍側ターン開始時）
+  - 宣言: 戦場に配置されている敵**魔術師**または**神官**を1体選択する。
+  - 効果: 自軍側が確保している作戦目標1個につき、ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットは詠唱ロールと祈願ロールに-1の修正を受ける。
 
 ## 英雄特性
 
 
-### Paragons of Murder（出典: Order Battletome: Daughters of Khaine）
+### 殺しの化身(Paragons of Murder)（出典: Order Battletome: Daughters of Khaine）
 
-**HERO** only
+（**英雄**のみ）
 
-- **影の血(Shadow-Blooded)**（Reaction: You declared the ‘Redeploy’ command for a **DAUGHTERS OF KHAINE** unit wholly within 12" of this unit）
-  - 効果: If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead.
-- **凶悪な決闘士(Murderous Duellist)**（Any Combat Phase）
-  - 宣言: Pick an enemy unit that has no more than 1 model and is in combat with this unit to be the target.
-  - 効果: Roll 2D6. If the roll equals or exceeds the target’s Control characteristic, for the rest of the turn, if this unit is in combat with the target when the target is picked to use a **FIGHT** ability, all of the target’s attacks must target this unit.
-- **カインの御手(Hand of Khaine)**（Any Combat Phase）
-  - 宣言: Pick an enemy **HERO** in combat with this unit to be the target.
-  - 効果: Roll 2D6. If the roll exceeds the target’s Health characteristic, it is automatically destroyed. If the target is destroyed by this ability, this unit can use 2 **FIGHT** abilities this phase. After the first is used, however, this unit has **STRIKE-LAST** for the rest of the turn.
+- **影の血(Shadow-Blooded)**（リアクション：このユニットの12mv以内に全体が入っている味方ドーター・オヴ・カイン・ユニットが『再配置』指揮アビリティを宣言）
+  - 効果: このユニットの移動距離を決定する際、ロール結果が1-3であれば、代わりに4の値を用いてもよい。
+- **凶悪な決闘士(Murderous Duellist)**（任意の近接フェイズ）
+  - 宣言: このユニットと近接戦闘中である兵数が1体だけの敵ユニットを1個選択する。
+  - 効果: 2D6をロールする。ロール結果が選択された敵ユニットの【確保力】以上であれば、そのターン中、選択された敵ユニットが**『近接攻撃』**アビリティを宣言した際に、このユニットがその敵ユニットと近接戦闘中である場合、その敵ユニットのすべての攻撃はこのユニットを対象にしなければならない。
+- **カインの御手(Hand of Khaine)**（任意の近接フェイズ）
+  - 宣言: このユニットと近接戦闘中である敵**英雄**を1体選択する。
+  - 効果: 2D6をロールする。ロール結果が選択された敵英雄の【体力】を上回る場合、その敵英雄は自動的に全滅する。このアビリティによって敵英雄が全滅したならば、このフェイズ中、このユニットは**『近接攻撃』**アビリティを2回使用できる。ただし1回目が使用された後、そのターン中、このユニットは**『後手効果』**を得る。
 
-### Paragons of Murder（出典: Scourge of Aqshy: Daughters of Khaine）
+### 殺しの化身(Paragons of Murder)（出典: Scourge of Aqshy: Daughters of Khaine）
 
-**HERO** only
+（**英雄**のみ）
 
 - **殺戮の顕現(Murder Manifested)**（Reaction: This unit used the 'Activate Place of Power' ability）
   - 効果: Apply the effect below instead of the effect of that ‘Activate Place of Power’ ability. Roll a dice. On a 1, inflict D3 mortal damage on this unit. On a 2+, if there are no friendly **Avatars of Khaine** on the battlefield, set up an **Avatar of Khaine** wholly within 12" of this unit, visible to it and more than 9" from all enemy units. This unit has summoned that **MANIFESTATION**.
@@ -86,21 +88,21 @@ Daughters of Khaine armies can use the following abilities:
 - **衆目の敬意(Honoured Among Sects)**（Passive）
   - 効果: If this unit is **anointed**, the effect of all blessings from the ‘Blessings of Khaine’ ability apply to this unit as if they were **active**.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
-### Gifts of Morathi（出典: Order Battletome: Daughters of Khaine）
+### モラスィの恩寵(Gifts of Morathi)（出典: Order Battletome: Daughters of Khaine）
 
-**HERO** only
+（**英雄**のみ）
 
-- **紅蓮の薬壜(Crimson Draught)**（Passive）
-  - 効果: You can re-roll charge rolls for this unit.
-- **悪鬼の霊薬(Darkling Elixir)**（End of Your Turn）
-  - 宣言: Pick a visible friendly **DAUGHTERS OF KHAINE** unit wholly within 12" of this unit to be the target.
-  - 効果: Roll a dice. On a 3+, the target can immediately use the ‘Retreat’ ability as if it were your movement phase.
-- **魔女の薬液(Witchbrew)**（Your Hero Phase）
-  - 宣言: Pick a visible friendly non-**UNIQUE DAUGHTERS OF KHAINE** unit wholly within 12" of this unit to be the target.
-  - 効果: Roll a dice. On a 3+, ignore negative modifiers to save rolls for the target until the start of your next turn.
+- **紅蓮の薬壜(Crimson Draught)**（パッシブ）
+  - 効果: このユニットは突撃ロールをリロールできる。
+- **悪鬼の霊薬(Darkling Elixir)**（自軍側ターン終了時）
+  - 宣言: このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**ドーター・オヴ・カイン**・ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、選択された味方ユニットはあたかも自軍側移動フェイズ中かのように、ただちに『退却』アビリティを使用できる。
+- **魔女の薬液(Witchbrew)**（自軍側ヒーローフェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である**固有**でない味方**ドーター・オヴ・カイン**・ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された味方ユニットのセーブロールはマイナス修正を無視する。
 
 ## その他の強化
 
@@ -117,7 +119,7 @@ Boons of Shadow are unique enhancements that can only be given to non-**HERO DAU
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
   - 効果: For the rest of the turn: • The target cannot use **RETREAT** abilities. • If an ability would heal or return any slain models to the target unit, that ability does not heal any damage points or return any slain models to it.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Bloodshadow Rites（20pt）
@@ -132,38 +134,38 @@ Boons of Shadow are unique enhancements that can only be given to non-**HERO DAU
   - 宣言: Pick a friendly **DAUGHTERS OF KHAINE PRIEST** to chant this prayer, pick a friendly **DAUGHTERS OF KHAINE AELF INFANTRY** unit wholly within 12" of them to be the target, then make a chanting roll of D6.
   - 効果: Until the start of your next turn, add 1 to wound rolls for the target’s combat attacks. In addition, if the chanting roll was 9+, until the start of your next turn, add 1 to the Attacks characteristic of the target’s melee weapons.
 
-### Lore of Shadows
+### 影の呪文伝承(Lore of Shadows)
 
-- **Black Horror of Ulgu**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: Pick a friendly **DAUGHTERS OF KHAINE WIZARD** to cast this spell, pick a point on the battlefield within 18" of them, pick up to 3 enemy units within 3" of that point to be the targets, then make a casting roll of 2D6.
-  - 効果: The targets cannot use **RUN** abilities until the start of your next turn.
-- **影の駿馬(Steed of Shadows)**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: Pick a friendly **DAUGHTERS OF KHAINE WIZARD** to cast this spell, pick a visible friendly **DAUGHTERS OF KHAINE** unit wholly within 12" of them to be the target, then make a casting roll of 2D6.
-  - 効果: The target can use **CHARGE** abilities this turn even if it used a **RUN** ability in the same turn.
-- **心の刃(Mindrazor)**（Your Hero Phase / 詠唱/詠誦値 7）
-  - 宣言: Pick a friendly **DAUGHTERS OF KHAINE WIZARD** to cast this spell, pick a visible friendly **DAUGHTERS OF KHAINE** unit wholly within 12" of them to be the target, then make a casting roll of 2D6.
-  - 効果: The target’s melee weapons have **Charge (+1 Damage)** until the start of your next turn.
+- **ウルグの黒き恐怖(Black Horror of Ulgu)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: この呪文を詠唱する際に、味方**ドーター・オヴ・カイン・魔術師**を1体選択する。その後、選択された魔術師から18mv以内にある戦場の地点を選び、その地点から3mv以内に一部でも入っている敵ユニットを最大3個まで選択し、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、選択された敵ユニットは**『全力移動』**アビリティを使用できなくなる。
+- **影の駿馬(Steed of Shadows)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: この呪文を詠唱する際に、味方**ドーター・オヴ・カイン・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に全体が入っており、かつその魔術師から視認状態である味方**ドーター・オヴ・カイン**・ユニットを1個選択し、2D6をロールする。
+  - 効果: 選択された味方ユニットは、現在のターン中に**『全力移動』**アビリティを使用していたとしても、そのターン中に**『突撃』**アビリティを使用できる。
+- **心の刃(Mindrazor)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 7）
+  - 宣言: この呪文を詠唱する際に、味方**ドーター・オヴ・カイン・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に全体が入っており、かつその魔術師から視認状態である味方**ドーター・オヴ・カイン**・ユニットを1個選択し、2D6をロールする。
+  - 効果: 次の自軍側ターン開始時まで、選択された味方ユニットが装備している近接武器は**突撃（+1ダメージ量）**を得る。
 
-### Manifestations of Khaine
+### カイン神の顕現(Manifestations of Khaine)
 
-- **ブレイドウィンド召喚(Summon Bladewind)**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: If there is not a friendly **Bladewind** on the battlefield, pick a friendly **DAUGHTERS OF KHAINE WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: Set up a **Bladewind** wholly within 12" of the caster, visible to them and more than 9" from all enemy units.
-- **ブラッドラック・ヴァイパー召喚(Summon Bloodwrack Viper)**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: If there is not a friendly **Bloodwrack Viper** on the battlefield, pick a friendly **DAUGHTERS OF KHAINE WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: Set up a **Bloodwrack Viper** wholly within 12" of the caster, visible to them and more than 9" from all enemy units.
-- **憤怒の心臓の召喚(Summon Heart of Fury)**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: If there is not a friendly **Heart of Fury** on the battlefield, pick a friendly **DAUGHTERS OF KHAINE WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: Set up a **Heart of Fury** wholly within 18" of the chanter and visible to them.
+- **血刃乱舞を召喚(Summon Bladewind)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: 戦場に味方**血刃乱舞**が1個も存在しない場合、この呪文を唱える際に味方**ドーター・オヴ・カイン・魔術師**を1体選択し、2D6の詠唱ロールをする。
+  - 効果: 詠唱者の12mv以内に全体が入るように、かつ詠唱者から視認状態になり、なおかつあらゆる敵ユニットから9mvより遠く離れた位置に**血刃乱舞**を1個配置する。
+- **血荒らしの毒蛇を召喚(Summon Bloodwrack Viper)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: 戦場に味方**ブラッドラック・ヴァイパー**が1個も存在しない場合、この呪文を唱える際に味方**ドーター・オヴ・カイン・魔術師**を1体選択し、2D6の詠唱ロールをする。
+  - 効果: 詠唱者の12mv以内に全体が入るように、かつ詠唱者から視認状態になり、なおかつあらゆる敵ユニットから9mvより遠く離れた位置に**ブラッドラック・ヴァイパー**を1個配置する。
+- **憤怒の心臓を召喚(Summon Heart of Fury)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: 戦場に味方**憤怒の心臓**が1個も存在しない場合、この呪文を唱える際に味方**ドーター・オヴ・カイン・魔術師**を1体選択し、2D6の詠唱ロールをする。
+  - 効果: 詠唱者の18mv以内に全体が入るように、かつ詠唱者から視認状態になる位置に**憤怒の心臓**を1個配置する。
 
-### Prayers of the Khainite Cult
+### カイン教団の奇蹟(Prayers of the Khainite Cult)
 
-- **Catechism of Murder**（Your Hero Phase / 詠唱/詠誦値 3）
-  - 宣言: Pick a friendly **DAUGHTERS OF KHAINE PRIEST** to chant this prayer, pick a visible friendly **DAUGHTERS OF KHAINE** unit wholly within 12" of them to be the target, then make a chanting roll of D6.
-  - 効果: The target’s melee weapons have **Crit (Auto-wound)** until the start of your next turn. In addition, if the chanting roll was 7+, the target’s combat attacks score critical hits on unmodified hit rolls of 5+ until the start of your next turn.
-- **鉄心臓の盟約(Covenant of the Iron Heart)**（Your Hero Phase / 詠唱/詠誦値 3）
-  - 宣言: Pick a friendly **DAUGHTERS OF KHAINE PRIEST** to chant this prayer, pick a visible friendly **DAUGHTERS OF KHAINE** unit wholly within 12" of them to be the target, then make a chanting roll of D6.
-  - 効果: Add 10 to the target’s control score until the start of your next turn. In addition, if the chanting roll was 6+, ignore the first damage point that would be allocated to the target in each phase until the start of your next turn.
-- **Dance of Doom**（Your Hero Phase / 詠唱/詠誦値 4）
-  - 宣言: Pick a friendly **DAUGHTERS OF KHAINE PRIEST** to chant this prayer, pick a visible friendly non-**UNIQUE DAUGHTERS OF KHAINE** unit wholly within 12" of them to be the target, then make a chanting roll of D6.
-  - 効果: Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn. In addition, if the chanting roll was 10+, the target can use 2 **FIGHT** abilities this turn. After the first is used, however, the target has **STRIKE-LAST** for the rest of the turn.
+- **殺しの連祷(Catechism of Murder)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 3）
+  - 宣言: この奇蹟を祈願する際に、味方**ドーター・オヴ・カイン・神官**を1体選択する。その後、選択された神官の12mv以内に全体が入っており、かつその神官から視認状態である味方**ドーター・オヴ・カイン**・ユニットを1個選択し、D6の祈願ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、選択された味方ユニットが装備している近接武器は**クリティカル（自動ウーンズ）**を得る。加えて、祈願ロールが7+であった場合、次の自軍側ターン開始時まで、その味方ユニットのメレーアタックは、修正前の出目5+のヒットロールでクリティカルヒットする。
+- **鉄心臓の盟約(Covenant of the Iron Heart)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 3）
+  - 宣言: この奇蹟を祈願する際に、味方**ドーター・オヴ・カイン・神官**を1体選択する。その後、選択された神官の12mv以内に全体が入っており、かつその神官から視認状態である味方**ドーター・オヴ・カイン**・ユニットを1個選択し、D6の祈願ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、選択された味方ユニットは確保スコアに+10の修正を受ける。加えて、祈願ロールが6+であった場合、次の自軍側ターン開始時まで、各フェイズ中に選択された味方ユニットに割り振られる最初の1ポイントのダメージは無視される。
+- **罪の舞踊(Dance of Doom)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 4）
+  - 宣言: この奇蹟を祈願する際に、味方**ドーター・オヴ・カイン・神官**を1体選択する。その後、選択された神官の12mv以内に全体が入っており、かつその神官から視認状態である**固有**でない味方**ドーター・オヴ・カイン**・ユニットを1個選択し、D6の祈願ロールをする。
+  - 効果: そのターン中、選択された味方ユニットが装備している近接武器は【攻撃回数】に+1の修正を受ける。加えて、祈願ロールが10+であった場合、その味方ユニットはこのターン中に**『近接攻撃』**アビリティを2回使用できる。ただし1回目が使用された後、そのターン中、その味方ユニットは**『後手効果』**を得る。

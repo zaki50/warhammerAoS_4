@@ -1,6 +1,6 @@
 # Droggz's Gitmob ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全11 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,19 +15,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 12 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Doom Diver | 24" | 4 | 4+ | 3+ | 3 | 3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Catapult Crew Tools | 2 | 5+ | 6+ | - | 1 | - |
 | Slicers and Krag‑smasha’s Paws | 6 | 4+ | 3+ | - | 1 | Companion |
@@ -49,13 +49,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 7 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Jaggedsnarl's Jaws | 4 | 3+ | 3+ | 1 | 2 | Companion |
 | Da Metal Toof | 5 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
@@ -69,7 +69,7 @@
 - **Da Frazzlefangz**（Passive）
   - 効果: While an enemy unit is within 6" of this unit: •  Subtract 1 from hit rolls for that enemy unit’s attacks. •  That enemy unit cannot use the ‘All-out Attack’ command.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **GLOOMSPITE GITZ**
 - 0-1 *Top Dog*
@@ -86,13 +86,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 9 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Snarlfang's Frothing Jaws | 6 | 4+ | 3+ | - | 2 | Companion |
 | Wheela Slicers | 3 | 4+ | 4+ | - | 1 | - |
@@ -105,7 +105,7 @@
 - **Gimme All Da Light**（Passive）
   - 効果: Friendly **GITMOB** units that are not **Frazzlegit Shamans on War-Wheelas** cannot be targeted by shooting attacks while they are wholly within 6" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **GITMOB**
 
@@ -121,13 +121,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 3 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Snarlfang’s Slavering Jaws | 2 | 4+ | 3+ | - | 2 | Companion |
 | Wolfgit Weapons | 3 | 4+ | 5+ | - | 1 | Charge (+1 Damage) |
@@ -154,19 +154,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 6 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Grot Bow | 15" | 2 | 4+ | 5+ | - | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Wheela Slicers and Stabbin’ Stikka | 4 | 4+ | 4+ | - | 1 | - |
 | Snarlfang's Frothing Jaws | 6 | 4+ | 3+ | - | 2 | Companion |
@@ -191,13 +191,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Snarlfang’s Slavering Jaws | 2 | 4+ | 3+ | - | 2 | Companion |
 | Boss Loppa | 5 | 4+ | 4+ | 1 | 2 | - |
@@ -210,7 +210,7 @@
 - **Boss Snarlfang**（Passive）
   - 効果: Add 2 to charge rolls for friendly **GITMOB CAVALRY** units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **GITMOB**
 
@@ -228,13 +228,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 9 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Chain Basha | 5 | 4+ | 3+ | 1 | 2 | Crit (Auto-wound) |
 | Wheela Slicers | 3 | 4+ | 4+ | - | 1 | - |
@@ -249,7 +249,7 @@
 - **Da Glare of Frazzlegit**（Once Per Battle (Army), Any Hero Phase）
   - 効果: For the rest of the turn: • ﻿﻿Subtract 1 from hit rolls for attacks made by enemy units while they are in combat with any friendly **Sunsteala Wheelas**. • ﻿﻿Add 6" to the Move characteristic of this unit and friendly **Sunsteala Wheelas**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **GITMOB**
 
@@ -265,19 +265,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 2 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Grot Bow | 15" | 2 | 4+ | 5+ | - | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stabbin’ Stikka | 2 | 4+ | 5+ | - | 1 | - |
 | Snarlfang’s Slavering Jaws | 2 | 4+ | 3+ | - | 2 | Companion |
@@ -297,13 +297,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 3 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Giant Snarlfang’s Jaws | 3 | 4+ | 3+ | - | 2 | Companion |
 | Pointy Skewas | 4 | 4+ | 5+ | - | 1 | Charge (+1 Damage) |
@@ -325,19 +325,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 6 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Grot Bow | 15" | 2 | 4+ | 5+ | - | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Wheela Slicers and Stabbin’ Stikka | 4 | 4+ | 4+ | - | 1 | - |
 | Snarlfangs’ Frothing Jaws | 6 | 4+ | 3+ | - | 2 | Companion |
@@ -359,19 +359,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 2 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Grot Bow | 15" | 2 | 4+ | 5+ | - | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Snarlfang’s Slavering Jaws | 2 | 4+ | 3+ | - | 2 | Companion |
 | Stabbin’ Stikka | 2 | 4+ | 5+ | - | 1 | - |

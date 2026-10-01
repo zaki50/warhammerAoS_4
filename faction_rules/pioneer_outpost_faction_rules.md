@@ -1,9 +1,9 @@
 # Pioneer Outpost ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Pioneer Outpost Battle Traits（出典: Army of Renown: Pioneer Outpost）
@@ -38,7 +38,7 @@
 - **Territorial Trailblazer**（Passive）
   - 効果: Subtract 3 from the control scores of enemy units while they are in combat with this unit.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Pioneer Outpost Artefacts of Power（出典: Army of Renown: Pioneer Outpost）

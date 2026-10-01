@@ -1,9 +1,9 @@
 # Legion of the First Prince ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Legion of the First Prince Battle Traits（出典: Army of Renown: Legion of the First Prince）
@@ -31,7 +31,7 @@
   - 宣言: Pick up to 3 friendly units wholly within 12" of this unit to be targets.
   - 効果: Add 1 to charge rolls for the targets for the rest of the turn.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Legion of the First Prince Artefact of Power（出典: Army of Renown: Legion of the First Prince）
@@ -41,7 +41,7 @@
 - **Black Ritual Dagger**（Once Per Turn, Reaction: You declared a SPELL ability for a friendly unit wholly within 12" of this unit）
   - 効果: Allocate 1 damage point to this unit. Then, you can re-roll the casting roll.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Legion of the First Prince Manifestation Lore

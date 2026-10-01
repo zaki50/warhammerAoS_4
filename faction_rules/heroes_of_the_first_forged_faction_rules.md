@@ -1,9 +1,9 @@
 # Heroes of the First-Forged ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Heroes of the First-Forged Battle Traits（出典: Army of Renown: Heroes of the First-Forged）
@@ -31,7 +31,7 @@
 - **Thegn of Bellicos**（Passive）
   - 効果: Add 1 to the Attacks characteristic of this unit's melee weapons while it is wholly within 6" of a friendly **Bastian** **Carthalos**.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Heroes of the First-Forged Artefact of Power（出典: Army of Renown: Heroes of the First-Forged）
@@ -42,7 +42,7 @@
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
   - 効果: Roll a dice. On a 4+, ward rolls cannot be made for the target for the rest of the battle.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Heroes of the First-Forged Manifestation Lore

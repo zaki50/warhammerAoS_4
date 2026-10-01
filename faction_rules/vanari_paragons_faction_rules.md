@@ -1,9 +1,9 @@
 # Vanari Paragons ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Vanari Paragons Battle Traits（出典: Army of Renown: Vanari Paragons）
@@ -35,7 +35,7 @@
   - 宣言: Pick a visible enemy **HERO** in combat with this unit to be the target.
   - 効果: Roll a dice. On a 4+: • If the target has an artefact of power, it no longer has that artefact of power. • The target has **STRIKE‑LAST** for the rest of the turn.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Vanari Paragons Artefacts of Power（出典: Army of Renown: Vanari Paragons）

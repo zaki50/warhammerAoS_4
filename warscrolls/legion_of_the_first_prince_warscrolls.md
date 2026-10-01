@@ -1,6 +1,6 @@
 # Legion of the First Prince ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全17 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 14" | 14 | 4+ | 10 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fell Claw and Spearing Tail | 2 | 2+ | 2+ | 2 | 2 | Charge (+1 Damage) |
 | Blade of Shadows（戦傷時） | 8 | 3+ | 3+ | 2 | 2 | Crit (Auto-wound) |
@@ -42,7 +42,7 @@
   - 宣言: Pick this unit and up to 2 friendly **SLAVES TO DARKNESS** units within this unit’s combat range to be the targets.
   - 効果: Roll a dice for each target. On a 4+, that target has **STRIKE-FIRST** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Eternus** or *Ruinous Champion*
 - Any **SLAVES TO DARKNESS**
@@ -59,13 +59,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 10 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Centaurion Weapons | 6 | 3+ | 3+ | 1 | 2 | Charge (+1 Damage) |
 
@@ -74,7 +74,7 @@
 - **Marshal of the Legions**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly non-**HERO DAEMON** or **Chaos Legionnaires** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MONSTER**
 - Any **Chaos Legionnaires**
@@ -92,13 +92,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 1 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Razor-sharp Dagger and Claws | 3 | 4+ | 4+ | 1 | 1 | - |
 
@@ -117,13 +117,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Darkiron Weapons | 2 | 3+ | 4+ | 1 | 1 | - |
 
@@ -145,13 +145,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sorcerer Staff and Runeblade | 3 | 4+ | 3+ | 1 | D3 | - |
 
@@ -161,7 +161,7 @@
   - 宣言: Pick a friendly **WARRIORS OF CHAOS** unit wholly within 12" of this unit to be the target and roll a dice.
   - 効果: If this unit successfully cast a spell this phase, the target has **WARD (5+)** until the start of your next turn. Otherwise, the target has **WARD (6+)** until the start of your next turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Ruinous Champion*
 - 0-1 **MONSTER**
@@ -181,13 +181,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 10 | 3+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Hellforged Weapons | 6 | 3+ | 3+ | 1 | 3 | Crit (Mortal) |
 
@@ -200,7 +200,7 @@
 - **Airborne Horror**（Passive）
   - 効果: If this unit has **Wings**, it has a Move characteristic of 10" and has **FLY**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Ruinous Champion*
 - Any **SLAVES TO DARKNESS**
@@ -219,13 +219,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 9" | 9 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Drakocephalus’s Fangs | 3 | 4+ | 3+ | - | 1 | Companion |
 | Death Glaive and Skull Flail | 6 | 3+ | 3+ | 1 | 2 | Charge (+1 Damage) |
@@ -238,7 +238,7 @@
 - **Network of Spies**（Reaction: Opponent declared a command for a unit within 12" of this unit）
   - 効果: Roll a dice. Add 1 to the roll if the enemy unit is in combat with a friendly **Chaos Legionnaires** or **Chaos Furies** unit. On a 5+, that command has no effect. The command still counts as having been used and the command points spent to use the command are still lost.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Ruinous Champion*
 - Any **SLAVES TO DARKNESS**
@@ -257,13 +257,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 7" | 8 | 5+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Filthy Claws and Slobbering Maw | 5 | 4+ | 3+ | 1 | D3 | Companion |
 
@@ -287,13 +287,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 5 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bloodcrusher Hellblade | 2 | 3+ | 3+ | 1 | 1 | Anti-INFANTRY (+1 Rend), Crit (Mortal) |
 | Juggernaut’s Brazen Hooves | 2 | 4+ | 3+ | 1 | D3 | Companion |
@@ -316,13 +316,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 2 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Hellblade | 2 | 3+ | 3+ | 1 | 1 | Crit (Mortal) |
 
@@ -343,13 +343,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 4 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Deadly Pincers and Barbed Stinger | 4 | 4+ | 3+ | 1 | D3 | Anti-MONSTER (+1 Rend), Companion |
 
@@ -375,19 +375,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 9" | 2 | 5+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Warping Flames | 12" | 3 | 3+ | 4+ | - | D3 | Anti-INFANTRY (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Flaming Maws | 3 | 3+ | 4+ | - | 1 | - |
 
@@ -411,13 +411,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 7 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Axle Blades | 4 | 4+ | 2+ | 2 | D3 | Anti-INFANTRY (+1 Rend), Companion |
 | Steeds’ Poisoned Tongues | 4 | 3+ | 4+ | - | 1 | Companion |
@@ -443,13 +443,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 2 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Plaguesword | 1 | 4+ | 3+ | - | 1 | Crit (Mortal) |
 
@@ -470,13 +470,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 14" | 3 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Lamprey Bite | 3 | 4+ | 3+ | 1 | 1 | Anti-MONSTER (+1 Rend), Companion |
 
@@ -502,7 +502,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 12 | 4+ | - |
 
@@ -534,13 +534,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 5 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Daemonforged Blades | 3 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage), Crit (Mortal) |
 | Steed’s Tearing Fangs | 3 | 4+ | 3+ | 1 | 1 | Companion |

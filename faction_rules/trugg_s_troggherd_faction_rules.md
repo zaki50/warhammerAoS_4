@@ -1,9 +1,9 @@
 # Trugg's Troggherd ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Trugg's Troggherd Battle Traits（出典: Army of Renown: Trugg's Troggherd）
@@ -31,7 +31,7 @@
 - **Loonstone Teef**（Once Per Battle, Any Combat Phase）
   - 効果: This unit can use 2 **FIGHT** abilities this phase. After the first is used, however, this unit has **STRIKE‑LAST** for the rest of the turn.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Trugg's Troggherd Artefact of Power（出典: Army of Renown: Trugg's Troggherd）

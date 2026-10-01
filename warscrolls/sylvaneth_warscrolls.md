@@ -1,6 +1,6 @@
 # Sylvaneth ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全33 ウォースクロール（Spearhead 版 5 件は除外。--include-spearhead で含められる）
 
@@ -15,19 +15,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 14" | 16 | 4+ | 10 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Spear of Kurnoth | 12" | 1 | 2+ | 3+ | 2 | 4 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Wardroth Beetle's Antlers（戦傷時） | 6 | 4+ | 2+ | 2 | 4 | Companion |
 | Spear of Kurnoth | 5 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage) |
@@ -51,7 +51,7 @@
   - 宣言: You must use this ability.
   - 効果: Pick 1 of the following effects to apply for the rest of the battle round. You cannot pick the effect that you picked in the previous battle round. ***The Burgeoning:*** Each time a friendly **Awakened Wyldwood** uses the ‘Ever Growing’ ability, you can pick any terrain feature your opponent does not control to be the target rather than the closest. ***The Reaping:*** Add 1 to casting rolls and chanting rolls for friendly **SYLVANETH** units while they are wholly within 12" of this unit. ***The Dwindling:*** Friendly **SYLVANETH** units can use **CHARGE** abilities even if they used a **RETREAT** ability in the same turn. In addition, no mortal damage is inflicted on those units when they use **Retreat** abilities. ***Everdusk:*** Each time you use the ‘Creeping Dread’ ability this battle round, you can pick up to 3 targets instead of 1.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Forest Sentinel*
 - Any **SYLVANETH**
@@ -68,13 +68,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 6 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Arch-Revenant’s Glaive | 5 | 3+ | 4+ | 1 | 2 | - |
 
@@ -86,7 +86,7 @@
 - **Fight and Fly**（Reaction: You declared a **FIGHT** ability for this unit）
   - 効果: If this unit charged this turn, this unit can move up to 2D6" after that **FIGHT** ability has been resolved. It cannot end that move in combat.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SYLVANETH** non-**MONSTER**
 
@@ -104,7 +104,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 8 | 4+ | - |
 
@@ -139,13 +139,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 14 | 3+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Carnelian Greatspite’s Mandibles（戦傷時） | 4 | 4+ | 2+ | 2 | 3 | Companion |
 | Kurnoth Glaive | 5 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage) |
@@ -162,7 +162,7 @@
 - **Kurnothi War-horn**（Passive）
   - 効果: Add 2" to the Move characteristic of friendly **KURNOTHI** units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SYLVANETH**
 
@@ -178,13 +178,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Greenwood Scythe and Bittergrub | 3 | 3+ | 4+ | 1 | D3 | - |
 
@@ -194,7 +194,7 @@
   - 宣言: Pick an enemy unit that is within the **creeping overgrowth** or that is visible to this unit and within friendly territory to be the target.
   - 効果: Roll a dice. On a 3+, add 1 to wound rolls for combat attacks that target that enemy unit for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **INFANTRY**
 
@@ -210,13 +210,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Wracking Talons | 2 | 3+ | 4+ | - | 1 | - |
 
@@ -237,13 +237,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 12 | 3+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Slashing Talons | 5 | 3+ | 2+ | 2 | 2 | Crit (2 Hits) |
 | Swarm of Spites | 20 | 4+ | 4+ | - | 1 | Crit (Mortal), Companion |
@@ -259,7 +259,7 @@
   - 宣言: If this unit is not in combat and has not used a **RUN** or **RETREAT** ability this turn, make a charge roll of 2D6.
   - 効果: You can remove this unit from the battlefield and set it up again within ½" of an enemy unit and wholly within X" of a terrain feature that has a friendly **overgrown token**, where X is equal to the charge roll. If you do so, this unit has charged.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SYLVANETH**
 
@@ -275,13 +275,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 7 | 4+ | 7+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fearsome Mandibles and Bladed Carapace | 6 | 4+ | 2+ | 1 | D3 | Anti-PRIEST (+1 Rend), Anti-WIZARD (+1 Rend) |
 
@@ -302,19 +302,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 2 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Gossamid Bow | 12" | 2 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cruel Talons | 1 | 3+ | 4+ | - | 1 | - |
 
@@ -337,13 +337,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 7 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Guardian Spites | 6 | 4+ | 4+ | 1 | D3 | Crit (Mortal), Companion |
 | Grove Sickle or Shears | 3 | 3+ | 4+ | 1 | D3 | - |
@@ -357,7 +357,7 @@
   - 宣言: Pick each friendly non-**HERO REVENANT** unit wholly within 12" of and visible to this unit to be the targets.
   - 効果: For the rest of the phase, each time a model in a target unit is slain by a combat attack, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SYLVANETH**
 
@@ -373,19 +373,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 6 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Kurnothi Princeling’s Bow | 18" | 3 | 3+ | 3+ | 2 | 2 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Hooves and Knuckles | 4 | 3+ | 3+ | 1 | 1 | Charge (+1 Damage) |
 
@@ -408,19 +408,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Kurnoth Greatbow | 18" | 2 | 3+ | 3+ | 1 | 2 | Anti-CAVALRY (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Vicious Claws | 3 | 3+ | 3+ | - | 1 | - |
 
@@ -441,13 +441,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kurnoth Greatscythe | 3 | 3+ | 3+ | 1 | 3 | Anti-charge (+1 Rend) |
 
@@ -469,13 +469,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kurnoth Greatsword | 4 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -499,19 +499,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 3 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Kurnothi Bow | 18" | 3 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Hunter Weapons | 3 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage) |
 
@@ -532,13 +532,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Seeker’s Sickle | 3 | 3+ | 4+ | 1 | 1 | Crit (Mortal) |
 | Dragonspite's Mandibles | 3 | 4+ | 3+ | 1 | 2 | Companion |
@@ -561,13 +561,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kurnoth Greatsword | 4 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -592,19 +592,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 14 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Doom Tendril Staff | 18" | 4 | 4+ | 2+ | 1 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sweeping Blows（戦傷時） | 5 | 4+ | 2+ | 1 | 2 | Anti-charge (+1 Rend) |
 | Massive Impaling Talons | 2 | 4+ | 2+ | 2 | 3 | Crit (Mortal) |
@@ -619,7 +619,7 @@
   - 宣言: Pick this unit or a visible friendly **Awakened Wyldwood** wholly within 12" of this unit to be the target, then make a casting roll of 2D6.
   - 効果: Until the start of your next turn: •  Ignore the effects of enemy **SPELL** abilities on units (friendly and enemy) while they are within 6" of the target. •  Weapons used by enemy **MANIFESTATIONS** have a maximum Attacks characteristic of 1 while they are within 6" of the target
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Forest Sentinel*
 - Any **SYLVANETH**
@@ -638,13 +638,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 12 | 3+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Slashing Talons | 10 | 3+ | 2+ | 2 | 2 | Crit (2 Hits) |
 
@@ -658,7 +658,7 @@
   - 宣言: Pick a visible friendly **SYLVANETH** unit wholly within 12" of this unit to be the target. Then, make a casting roll of 2D6.
   - 効果: Until the start of your next turn, add 1 to wound rolls for the target’s combat attacks, including those made with **Companion** weapons. In addition, if the target is non-**KURNOTHI**, add 1 to the Attacks characteristics of the target’s melee weapons.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Forest Sentinel*
 - Any **SYLVANETH**
@@ -675,13 +675,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sharpened Mandibles | 3 | 4+ | 3+ | 1 | 1 | Charge (+1 Damage), Companion |
 | Scourge Sickle | 3 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
@@ -708,19 +708,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 6+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Wild Hunt Ranged Weapons | 12" | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Tracker Weapons | 2 | 3+ | 4+ | 1 | 1 | - |
 
@@ -747,19 +747,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 14 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Verdant Blast | 12" | 5 | 4+ | 3+ | 1 | 2 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Guardian Sword（戦傷時） | 5 | 3+ | 2+ | 2 | 4 | Anti-MONSTER (+1 Rend) |
 | Massive Impaling Talons | 2 | 4+ | 2+ | 2 | 3 | Crit (Mortal) |
@@ -774,7 +774,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Guardian Sword** is 3.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Forest Sentinel*
 - Any **SYLVANETH**
@@ -789,13 +789,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cruel Talons and Fangs | 3 | 3+ | 4+ | - | 1 | Crit (Mortal) |
 
@@ -814,13 +814,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spiterider Lance | 3 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage), Crit (2 Hits) |
 | Dragonspite's Mandibles | 3 | 4+ | 3+ | 1 | 2 | Companion |
@@ -844,19 +844,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 6 | 6+ | 7+ | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Spiteswarm | 18" | 5 | 4+ | 3+ | 1 | 1 | Crit (2 Hits) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spiteswarm | 10 | 4+ | 3+ | 1 | 1 | Crit (2 Hits) |
 
@@ -877,19 +877,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 10 | 4+ | 5 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Kurnotheal’s Wrath | 12" | 1 | 2+ | 2+ | 2 | D6 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kurnotheal’s Wrath and Lashing Vines | 6 | 3+ | 3+ | 2 | 2 | Crit (Mortal) |
 
@@ -905,7 +905,7 @@
   - 宣言: Pick a terrain feature within 18" of this unit that has a friendly **overgrown token** to be the target.
   - 効果: The next time this unit uses a non-**SUMMON SPELL** ability this phase, when picking targets for that spell, you can measure range and visibility from the target terrain feature instead of from this unit, and your opponent can measure range and visibility to the target terrain feature instead of to this unit for the purposes of the ‘Unbind’ ability.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SYLVANETH**
 
@@ -919,20 +919,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Voracious Swarm | 10" | 6 | 3+ | 4+ | 1 | 1 | Shoot in Combat |
 | Warden’s Bow | 18" | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Twistroot Weapons | 3 | 3+ | 4+ | 1 | 1 | - |
 
@@ -956,13 +956,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Revenant Blade | 3 | 3+ | 4+ | 1 | 1 | - |
 
@@ -983,19 +983,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 14 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Strangleroots | 10" | 3 | 3+ | 2+ | 1 | 2 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Massive Impaling Talons | 2 | 4+ | 2+ | 2 | 3 | Crit (Mortal) |
 | Sweeping Blows（戦傷時） | 5 | 4+ | 2+ | 1 | 2 | Anti-charge (+1 Rend) |
@@ -1023,19 +1023,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 14 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Doom Tendril Staff | 18" | 4 | 4+ | 2+ | 1 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sweeping Blows（戦傷時） | 5 | 4+ | 2+ | 1 | 2 | Anti-charge (+1 Rend) |
 | Massive Impaling Talons | 2 | 4+ | 2+ | 2 | 3 | Crit (Mortal) |
@@ -1051,7 +1051,7 @@
   - 宣言: Pick each friendly **FOREST ELDER** within this unit’s combat range to be the targets.
   - 効果: Roll a dice for each target. On a 3+, add 1 to hit rolls for that target’s combat attacks until the start of your next turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Forest Sentinel*
 - Any **SYLVANETH**
@@ -1068,13 +1068,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 8 | 4+ | 7+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Writhing Roots | 3 | 4+ | 2+ | 1 | D3 | - |
 
@@ -1095,13 +1095,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 7 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spirit Falchion and Spearing Vines | 5 | 3+ | 3+ | 1 | D3 | - |
 
@@ -1112,7 +1112,7 @@
 - **Rousing Accompaniment**（Once Per Turn (Army), Reaction: You made an unmodified chanting roll of 1 for a **SYLVANETH PRIEST** wholly within 12" of this unit）
   - 効果: Re-roll that chanting roll.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SYLVANETH**
 
@@ -1128,19 +1128,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Revenant Bow | 18" | 2 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Revenant Bow | 1 | 3+ | 4+ | - | 1 | - |
 | Enchanted Glade Weapons | 3 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound) |

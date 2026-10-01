@@ -1,6 +1,6 @@
 # Ossiarch Bonereapers ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全34 ウォースクロール（Spearhead 版 8 件は除外。--include-spearhead で含められる）
 
@@ -15,7 +15,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 8 | 3+ | 2 | 6+ |
 
@@ -23,7 +23,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | The Dark Lance | 5 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage) |
 | Kavalos Steed’s Hooves, Teeth and Barbed Tails | 4 | 5+ | 3+ | - | 1 | Companion |
@@ -37,7 +37,7 @@
   - 宣言: If this unit charged this turn, pick each enemy unit in combat with it to be the targets.
   - 効果: The targets have **STRIKE-LAST** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
@@ -56,7 +56,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 14 | 3+ | 5 | 6+ |
 
@@ -64,7 +64,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Razarak’s Ebon Claws（戦傷時） | 5 | 4+ | 2+ | 3 | 3 | Companion |
 | Zefet-kar and Khenash-an | 4 | 3+ | 4+ | 1 | D3 | - |
@@ -84,7 +84,7 @@
 - **The Staff of Spirits**（Passive）
   - 効果: Add 1 to casting rolls for this unit. Each time this unit successfully casts a spell, **Heal (1)** this unit after that **SPELL** ability has been resolved.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Legion Subcommander*
 - 0-1 **MORTISAN VIZIER**
@@ -102,13 +102,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 13 | 4+ | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Almighty Obsidian Blade | 2 | 4+ | 2+ | 2 | 3 | - |
 
@@ -136,19 +136,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 7 | 5+ | 7+ | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Soul-rending Shriek | 12" | 4 | 3+ | 4+ | 1 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Soul-rending Shriek | 4 | 3+ | 4+ | 1 | D3 | - |
 
@@ -169,13 +169,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 10 | 4+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Soulcrusher Weapons | 6 | 4+ | 2+ | 2 | 3 | - |
 
@@ -199,13 +199,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 4 | 3+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dread Halberd | 3 | 3+ | 3+ | 1 | 2 | - |
 
@@ -227,13 +227,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 2 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Nadirite Weapon | 3 | 3+ | 4+ | - | 1 | Anti-charge (+1 Rend) |
 | Soulreaper Axe | 4 | 3+ | 3+ | 2 | 2 | Anti-charge (+1 Rend) |
@@ -262,7 +262,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 20 | 3+ | 10 | 6+ |
 
@@ -270,7 +270,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | The Shield Immortis | 3 | 3+ | 3+ | 2 | 2 | - |
 | Inda-Khaat | 3 | 3+ | 3+ | 2 | 3 | Crit (2 Hits) |
@@ -292,7 +292,7 @@
   - 宣言: If this unit is not in combat, pick a visible friendly **OSSIARCH BONEREAPERS** unit wholly within 12" of this unit that is in combat and has not used a **RELENTLESS DISCIPLINE** ability this phase to be the target.
   - 効果: Spend a number of **relentless discipline** points equal to the target's Health characteristic. The target can use 2 **FIGHT** abilities this phase. After the first is used, however, the target has **STRIKE-LAST** for the rest of the turn. In addition, the target cannot use **RELENTLESS DISCIPLINE** abilities for the rest of the phase.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Legion Subcommander*
 - 0-1 **MORTISAN VIZIER**
@@ -308,13 +308,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 3 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kavalos Blades | 3 | 3+ | 4+ | 1 | 1 | - |
 | Kavalos Steed’s Hooves and Teeth | 2 | 5+ | 3+ | - | 1 | Companion |
@@ -337,13 +337,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 10 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Charioteers' Weapons | 4 | 3+ | 4+ | 1 | 1 | - |
 | Chariot Steeds' Fangs and Claws | 6 | 5+ | 3+ | - | 1 | Companion |
@@ -369,7 +369,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 7 | 3+ | 2 | 6+ |
 
@@ -377,7 +377,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kavalos Steed’s Hooves, Teeth and Barbed Tails | 4 | 5+ | 3+ | - | 1 | Companion |
 | Commander’s Blade | 5 | 3+ | 4+ | 1 | 2 | Charge (+1 Damage) |
@@ -389,7 +389,7 @@
 - **Master of Cavalry**（Reaction: You declared a **FIGHT** ability for this unit）
   - 効果: Pick a friendly **Kavalos Deathriders** unit that has not used a **FIGHT** ability this turn and is within this unit's combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target's combat attacks for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
@@ -408,7 +408,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 12 | 3+ | 2 | 6+ |
 
@@ -416,7 +416,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Commander's Blade | 5 | 3+ | 4+ | 1 | 2 | Charge (+1 Damage) |
 | Chariot Steeds' Fangs and Claws | 6 | 5+ | 3+ | - | 1 | Companion |
@@ -430,7 +430,7 @@
   - 宣言: If this unit is in combat and has charged this turn, pick this unit and up to 2 visible friendly **Kavalos War Chariots** that have charged this turn, that are wholly within 12" of this unit and that are in combat to be the targets.
   - 効果: Each target has **WARD (5+)** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
@@ -449,7 +449,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 3+ | 2 | 6+ |
 
@@ -457,7 +457,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Commander's Weapon | 5 | 3+ | 4+ | 1 | 2 | - |
 
@@ -466,7 +466,7 @@
 - **Clinical Efficiency**（Once Per Turn (Army), Any Combat Phase, Reaction: You declared a **FIGHT** ability for this unit.）
   - 効果: Pick a visible friendly **Mortek Guard, Mortek Triaxes** or **Mortek Crawler** unit that has not used an **ATTACK** ability this phase and is wholly within 12" of this unit to be the target. Immediately after the **FIGHT** ability used by this unit has been resolved, the target can be picked to use either a **SHOOT** ability as if it were your shooting phase or a **FIGHT** ability. If it is picked to do so: • Add 1 to hit rolls for the target's attacks for the rest of the turn. • The target's ranged weapons (if any) have **Shoot in Combat** for the rest of the turn. • If the target uses a **SHOOT** ability and is not in combat, all of its shooting attacks must target units in combat with this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Mortek Crawler**
 - 0-1 **MORTISAN VIZIER**
@@ -484,13 +484,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 6 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spirit Weapons | 3 | 3+ | 2+ | 2 | 3 | Anti-MONSTER (+1 Rend), Crit (2 Hits) |
 
@@ -512,13 +512,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 6 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spirit Weapons | 3 | 3+ | 2+ | 2 | 3 | Anti-MONSTER (+1 Rend), Crit (2 Hits) |
 
@@ -539,19 +539,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 12 | 4+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Dread Catapult | 24" | 4 | 4+ | 2+ | 1 | D3+2 | Crit (2 Hits) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Attendants’ Crawler Tools | 6 | 4+ | 4+ | - | 1 | - |
 
@@ -572,13 +572,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 1 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Nadirite Weapons | 2 | 3+ | 4+ | - | 1 | Anti-CAVALRY (+1 Rend) |
 
@@ -597,19 +597,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 1 | 5+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Osseous Bow | 18" | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Nadirite Dagger | 1 | 3+ | 4+ | - | 1 | - |
 
@@ -632,13 +632,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 2 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Reaper's Blades | 3 | 3+ | 4+ | 1 | 1 | Anti-HERO (+1 Rend) |
 
@@ -663,7 +663,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 4+ | 2 | 6+ |
 
@@ -671,7 +671,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ossified Talons | 3 | 4+ | 4+ | - | D3 | - |
 
@@ -683,7 +683,7 @@
   - 宣言: If this unit is not in combat, pick a friendly **Mortek Guard** or **Mortek Triaxes** unit that has been destroyed to be the target.
   - 効果: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12" of this unit and not in combat.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Gothizzar Harvester**
 - Any **INFANTRY**
@@ -702,7 +702,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 4+ | 2 | 6+ |
 
@@ -710,7 +710,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ossified Talons | 3 | 4+ | 4+ | - | D3 | - |
 
@@ -720,7 +720,7 @@
   - 宣言: Pick a visible friendly **Mortek Crawler, Gothizzar Harvester, Morghast Archai** or **Morghast Harbingers** unit wholly within 12" of this unit to be the target.
   - 効果: Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s weapons until the start of your next turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Gothizzar Harvester**
 - 0-1 **Mortek Crawler**
@@ -740,7 +740,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 6 | 4+ | 2 | 6+ |
 
@@ -748,7 +748,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Soulmason’s Staff | 3 | 4+ | 4+ | - | D3 | - |
 
@@ -758,7 +758,7 @@
   - 宣言: Pick a visible friendly **OSSIARCH BONEREAPERS** unit wholly within 12" of the caster to be the target, then make a casting roll of 2D6.
   - 効果: The target has **STRIKE-FIRST** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Gothizzar Harvester**
 - Any **INFANTRY**
@@ -777,7 +777,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 4+ | 2 | 6+ |
 
@@ -785,7 +785,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Soulreaper Scythe | 4 | 3+ | 4+ | 2 | D3 | Crit (2 Hits) |
 
@@ -797,7 +797,7 @@
 - **Soulreaper**（Passive）
   - 効果: Subtract 1 from wound rolls for combat attacks made by enemy units while they are in combat with this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Gothizzar Harvester**
 - Any **INFANTRY**
@@ -816,7 +816,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 18 | 3+ | 10 | 5+ |
 
@@ -824,7 +824,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Alakanash, the Staff of Power | 4 | 3+ | 3+ | 2 | D6 | - |
 | Zefet-nebtar, the Mortis Blade | 4 | 3+ | 3+ | 2 | 3 | - |
@@ -845,13 +845,13 @@
   - 宣言: This unit can cast this spell more than once per phase. Pick a visible unit wholly within 18" of this unit that has not been picked to be the target of this spell this turn to be the target, then make a casting roll of 2D6.
   - 効果: If the target is an enemy unit, inflict D3 mortal damage on it. If the target is a friendly **DEATH** unit, pick 1 of the following effects: • Return a number of slain models to the target unit with a combined Health characteristic of up to 3. • The target has **WARD (5+)** until the start of your next turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Legion Subcommander*
 - 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
-**キーワード:** Warmaster, Unique, Hero, Monster, Wizard (9), Fly, Ward (5+),Relentless Discipline (3), Death, Ossiarch Bonereapers
+**キーワード:** Warmaster, Unique, Hero, Monster, Wizard (9), Fly, Ward (5+), Relentless Discipline (3), Death, Ossiarch Bonereapers
 
 ---
 
@@ -861,13 +861,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 7" | 4 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stalker Blades | 4 | 3+ | 3+ | 2 | 1 | - |
 
@@ -889,13 +889,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 7 | 5+ | 7+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Lacerating Claws | 6 | 4+ | 2+ | 2 | 2 | - |
 
@@ -914,13 +914,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 2 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Reaper's Blades | 3 | 3+ | 4+ | 1 | 1 | Anti-HERO (+1 Rend) |
 
@@ -946,21 +946,21 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 4+ | 2 | 6+ |
 
 **Relentless Discipline:** 2
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Gaze of Death | 12" | 1 | 3+ | 2+ | 1 | D6 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Staff of Retribution | 3 | 4+ | 3+ | 1 | D3 | - |
 
@@ -972,7 +972,7 @@
 - **Master of the Bone-Tithe**（Your Hero Phase）
   - 効果: Your opponent must pick 1 of the following effects: ***Pay the Tithe:*** Your opponent must pick a unit in their army on the battlefield to be the target. They cannot pick a **MANIFESTATION** Or terrain feature. Then: • Inflict D6 mortal damage on the target. • Until the start of your next turn, the target cannot be healed, have slain models returned to it or be replaced. ***Deny the Ossiarchs their Rightful Due:*** Pick 1 of the following effects: • You gain 4 **relentless discipline** points. • Pick an objective you do not control. For the rest of the turn, add 5 to the control scores of friendly **OSSIARCH BONEREAPERS** units while they are contesting that objective. • For the rest of the turn, add 2 to the Attacks characteristic and add 6" to the Range characteristic of this unit's **Gaze of Death**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Legion Subcommander*
 - 0-1 **MORTISAN VIZIER**
@@ -990,13 +990,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 1 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Nadirite Blade or Spear | 2 | 3+ | 4+ | - | 1 | Anti-CAVALRY (+1 Rend), Crit (2 Hits) |
 
@@ -1019,13 +1019,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ossified Talons | 3 | 4+ | 4+ | - | 2 | Crit (2 Hits) |
 
@@ -1037,7 +1037,7 @@
   - 宣言: If this unit is not in combat, pick a friendly **Mortek Guard** unit that has been destroyed to be the target.
   - 効果: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12" of this unit and more than 9" from all enemy units.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Gothizzar Harvester**
 - Any **INFANTRY**
@@ -1056,13 +1056,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 7 | 5+ | 7+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spectral Claws and Beak | 6 | 4+ | 2+ | 1 | D3 | - |
 
@@ -1081,13 +1081,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 7" | 1 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cohort Weapons | 2 | 3+ | 4+ | 1 | 1 | - |
 
@@ -1112,7 +1112,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 2 | 4+ | 1 | 6+ |
 
@@ -1120,7 +1120,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Weapons of the Tithe-reapers | 2 | 3+ | 4+ | 1 | 1 | - |
 
@@ -1145,21 +1145,21 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 4+ | 2 | 6+ |
 
 **Relentless Discipline:** 2
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Gaze of Death | 12" | 1 | 3+ | 2+ | 1 | D6 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Staff of Retribution | 3 | 4+ | 3+ | 1 | D3 | - |
 
@@ -1172,7 +1172,7 @@
   - 宣言: Pick a visible enemy unit within 18" of this unit to be the target, then make a casting roll of 2D6.
   - 効果: Until the start of your next turn, each time the target is picked to use a **CORE** ability, roll a D3 as a reaction. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If the target is destroyed by this ability, do not resolve the effect of that **CORE** ability.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Legion Subcommander*
 - 0-1 **MORTISAN VIZIER**

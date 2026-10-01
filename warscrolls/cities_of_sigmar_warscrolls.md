@@ -1,6 +1,6 @@
 # Cities of Sigmar ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全77 ウォースクロール（Spearhead 版 8 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Tongstaff | 3 | 4+ | 4+ | 1 | D3 | - |
 
@@ -31,7 +31,7 @@
   - 宣言: Pick a visible friendly **SIGMARITE** unit wholly within 12" of this unit to be the target.
   - 効果: Make an arcane manipulation roll of D6. On a 3+, the target’s melee weapons have **Crit (Mortal)** until the start of your next turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **WAR MACHINE** **SIGMARITE**
 - Any **SIGMARITE** **INFANTRY**
@@ -50,13 +50,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 6+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Amethyst Scythe | 3 | 4+ | 4+ | 1 | D3 | - |
 
@@ -68,7 +68,7 @@
 - **Ominous Presence**（Once Per Turn (Army), Your Hero Phase）
   - 効果: Make an arcane manipulation roll of D6. On a 3+, for the rest of the turn, when picking a target for the ‘Deathly Candlelight’ ability, you can pick a visible enemy unit within 18" of this unit instead of within 12".
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **WAR MACHINE** **SIGMARITE**
 - Any **SIGMARITE** **INFANTRY**
@@ -87,13 +87,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 6+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Burning Fists | 3 | 4+ | 4+ | 1 | D3 | - |
 
@@ -105,7 +105,7 @@
   - 宣言: Pick a visible enemy unit within 12" of this unit to be the target, then make a casting roll of 2D6.
   - 効果: If the target was not **incandescent** when they were picked to be the target of this spell: • Inflict D3 mortal damage on the target. • The target is **incandescent** for the rest of the battle. If the target was **incandescent** when they were picked to be the target of this spell: •Allocate 3 damage points to the target (ward rolls cannot be made for those damage points). • The target is no longer **incandescent**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **WAR MACHINE** **SIGMARITE**
 - Any **SIGMARITE** **INFANTRY**
@@ -124,13 +124,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Poison-coated Blades | 6 | 3+ | 4+ | 1 | 2 | Anti-HERO (+1 Rend), Crit (Mortal) |
 
@@ -141,7 +141,7 @@
 - **In For The Kill**（Once Per Turn (Army), Any Combat Phase）
   - 効果: This unit has **STRIKE-FIRST** if it charged in the same turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **AELF** **INFANTRY**
 
@@ -159,13 +159,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 6+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Wizard's Staff | 3 | 4+ | 4+ | 1 | D3 | - |
 
@@ -174,7 +174,7 @@
 - **Protective Focus**（Once Per Battle (Army), Deployment Phase）
   - 効果: Pick a **SPELL** ability that this unit can use. For the rest of the battle, no mortal damage is inflicted on this unit if it miscasts that spell.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SIGMARITE** **INFANTRY**
 
@@ -192,13 +192,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 12 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warhorses’ Steel‑shod Hooves | 4 | 5+ | 3+ | - | 1 | Companion |
 | Wizard’s Staff | 3 | 4+ | 4+ | 1 | D3 | - |
@@ -212,7 +212,7 @@
   - 宣言: Pick a visible friendly **CITIES OF SIGMAR** unit wholly within 12" of this unit to be the target.
   - 効果: Roll a dice. On a 3+, add 1 to hit rolls for the target’s combat attacks until the start of your next turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SIGMARITE** **INFANTRY**
 - Any **SIGMARITE** **CAVALRY**
@@ -231,19 +231,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 15 | 4+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Amber Spear | 12" | 3 | 4+ | 3+ | 1 | D3 | Anti-MONSTER (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Griffon’s Razor Claws and Twin Beaks（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | Companion |
 | Beaststaff | 3 | 4+ | 3+ | 1 | D3 | - |
@@ -255,7 +255,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Griffon’s Razor Claws and Twin Beaks** is 4.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SIGMARITE** **INFANTRY**
 - Any **SIGMARITE** **CAVALRY**
@@ -274,19 +274,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 12 | 4+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Searing Beam of Light | 24" | 1 | 2+ | ✹ | ✹ | ✹ | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warhorses’ Steel‑shod Hooves | 4 | 5+ | 3+ | - | 1 | Companion |
 | Wizard’s Staff | 3 | 4+ | 4+ | 1 | D3 | - |
@@ -299,7 +299,7 @@
   - 宣言: Pick a visible friendly **CITIES OF SIGMAR** unit wholly within 12" of this unit to be the target.
   - 効果: Roll a dice. On a 3+, until the start of your next turn, the target has **WARD (6+)** while it is wholly within 12" of and visible to this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SIGMARITE** **INFANTRY**
 - Any **SIGMARITE** **CAVALRY**
@@ -316,19 +316,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Repeater Handbow | 10" | 2 | 4+ | 4+ | - | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Vicious Blades | 2 | 3+ | 4+ | - | 1 | - |
 
@@ -351,13 +351,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Wicked Cutlass and Murder Hook | 5 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
 
@@ -366,7 +366,7 @@
 - **'At Them, You Curs!'**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly **Black Ark Corsairs** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **AELF**
 
@@ -382,13 +382,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ebon Halberd | 2 | 3+ | 4+ | 1 | 1 | - |
 
@@ -409,13 +409,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Darkling Sword | 2 | 3+ | 4+ | - | 1 | Crit (2 Hits) |
 
@@ -438,13 +438,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Hand-and-a-half Sword | 5 | 3+ | 4+ | 2 | 2 | - |
 
@@ -467,13 +467,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 6+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Brethren Weapons | 3 | 4+ | 4+ | - | 1 | Crit (Mortal) |
 
@@ -503,19 +503,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Flintlock Pistols | 10" | 4 | 3+ | 4+ | 1 | 1 | Anti-WIZARD (+1 Rend), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Azyrite Blades | 4 | 3+ | 4+ | 1 | 2 | Anti-WIZARD (+1 Rend) |
 
@@ -527,7 +527,7 @@
   - 宣言: This unit can use this ability even if it is **in the shadows**. If there is no enemy **mark**, pick an enemy **HERO** on the battlefield to be the target. If there are no enemy **HEROES** on the battlefield, pick an enemy non‑**HERO** unit on the battlefield to be the target instead.
   - 効果: The target is the **mark** for the rest of the battle.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - **Toll's Companions** (required)
 - Any **SIGMARITE** **INFANTRY**
@@ -544,13 +544,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 25 | 3+ | 10 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Godbreaker Cannon | 24" | 4 | 4+ | 2+ | 2 | 4 | - |
 | Breacher Cannon | 12" | 6 | 3+ | 3+ | 1 | 2 | Anti-INFANTRY (+1 Rend) |
@@ -558,7 +558,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Crushing Iron Feet（戦傷時） | 4 | 4+ | 2+ | 2 | 4 | Companion |
 
@@ -573,7 +573,7 @@
 - **Special Ammunition**（Once Per Turn (Army), Reaction: You declared a **SHOOT** ability for this unit）
   - 効果: If this unit is **under orders**, roll a dice. On a 3+, pick 1 of the following effects. ***Nullshot:*** Subtract 1 from ward rolls for damage points inflicted by attacks made with this unit’s **Godbreaker Cannon** this phase.&#x20; ***Heavy Shot:*** Add 1 to the Rend characteristic of this unit’s **Godbreaker Cannon** this phase. ***Grapeshot:*** After that **SHOOT** ability has been resolved, if all of the attacks made with this unit’s **Godbreaker Cannon** targeted the same enemy unit, inflict D3 mortal damage on each other enemy unit within that enemy unit’s combat range.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Freeguild Veteran*
 - 0-1 **THAUMATURGICAL SPECIALIST**
@@ -592,13 +592,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 10 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warhorses’ Steel‑shod Hooves | 4 | 5+ | 3+ | - | 1 | Companion |
 
@@ -625,19 +625,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 5 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Cogsmith’s Firearms | 15" | 4 | 3+ | 3+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gun Butt and Cog Axe | 3 | 4+ | 4+ | 1 | 2 | - |
 
@@ -647,7 +647,7 @@
   - 宣言: Pick up to 3 visible friendly **Gyrocopter** or **Gyrobomber** units wholly within 18" of this unit to be the targets.
   - 効果: Roll a dice for each target. On a 3+, until the start of your next turn: • Add 1 to hit rolls for the target’s attacks. • Add 2" to the target’s Move characteristic.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **DUARDIN**
 
@@ -665,20 +665,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 25 | 3+ | 10 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Crew’s Leadshotters | 12" | 6 | 4+ | 3+ | 1 | D3 | Shoot in Combat |
 | Realmscorcher Flame Cannon | 18" | 6D6 | 2+ | 4+ | 1 | 1 | Anti-INFANTRY (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Crushing Iron Feet（戦傷時） | 4 | 4+ | 2+ | 2 | 4 | Companion |
 
@@ -697,7 +697,7 @@
 - **Overheating**（Passive）
   - 効果: Immediately after resolving this unit’s ‘Full Charge!’ ability, you must roll a number of dice equal to the number of **heat tokens** this unit has. For each 5+, allocate 1 damage point to this unit (ward rolls cannot be made for those damage points), then remove 1 of this unit’s **heat tokens**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Freeguild Veteran*
 - 0-1 **THAUMATURGICAL SPECIALIST**
@@ -714,19 +714,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 3 | 4+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Repeater Crossbow | 12" | 2 | 4+ | 4+ | - | 1 | Crit (2 Hits) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dark Steed’s Vicious Bite | 2 | 5+ | 3+ | - | 1 | Companion |
 | Barbed Spear | 2 | 3+ | 4+ | 1 | 1 | Anti-INFANTRY (+1 Rend) |
@@ -749,19 +749,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Master-crafted Repeater Crossbow | 15" | 2 | 3+ | 4+ | - | 1 | Anti-INFANTRY (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cruel Dagger | 1 | 3+ | 4+ | - | 1 | - |
 
@@ -784,7 +784,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 8 | 4+ | - | 6+ |
 
@@ -815,13 +815,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 8 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Barbed Spear | 2 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage) |
 | Drakespawn’s Ferocious Jaws | 6 | 4+ | 3+ | 1 | 1 | Companion |
@@ -844,13 +844,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 3 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Barbed Lance | 2 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage) |
 | Drakespawn’s Ferocious Jaws | 3 | 4+ | 3+ | 1 | 1 | Companion |
@@ -874,13 +874,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 6 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Feral Claws | 6 | 4+ | 2+ | 2 | 2 | Crit (2 Hits) |
 
@@ -904,19 +904,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 14 | 4+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Black Dragon’s Noxious Breath | 10" | 2D6 | 2+ | 4+ | 1 | 1 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dreadlord’s Weapons | 5 | 3+ | 4+ | 1 | 2 | Charge (+1 Damage) |
 | Black Dragon’s Claws（戦傷時） | 7 | 4+ | 2+ | 1 | 2 | Companion |
@@ -932,7 +932,7 @@
   - 宣言: Pick each other unit (friendly and enemy) within this unit’s combat range to be the targets.
   - 効果: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Black Ark Fleetmaster**
 - Any **AELF**
@@ -949,13 +949,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Darkling Spear | 2 | 3+ | 4+ | - | 1 | Anti-charge (+1 Rend) |
 
@@ -978,19 +978,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 5 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Snaplock Crossbow | 10" | 3 | 3+ | 4+ | 1 | 2 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Runic Axes | 5 | 3+ | 4+ | 1 | 2 | - |
 
@@ -1014,13 +1014,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Knightly Battleaxe | 5 | 3+ | 4+ | 1 | 2 | - |
 
@@ -1043,19 +1043,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 9 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Rod of Radiance | 10" | 2 | 3+ | 3+ | 2 | D3 | Crit (2 Hits) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Glyphwing’s Heads | 4 | 4+ | 3+ | 1 | D3+1 | Companion |
 
@@ -1070,7 +1070,7 @@
 - **Lantern of All-Knowledge**（Your Hero Phase）
   - 効果: If this unit is wholly within 9" of a corner of the battlefield, pick 1 of the following effects to apply until the start of your next turn: ***Searing Brilliance:*** Friendly **SIGMARITE** units are not visible to enemy units more than 6" from them while those friendly units are wholly within 6" of and visible to this unit. ***Lambent Aura:*** Add 1 to this unit’s power level.&#x20; ***Luminous Authority***: Add 2 to arcane manipulation rolls for this unit. ***Prismatic Diffusion:*** Add 3 to the Attacks characteristic of this unit’s **Rod of Radiance** and set its Damage characteristic to 3.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SIGMARITE**
 
@@ -1084,13 +1084,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Executioner’s Draich | 2 | 3+ | 4+ | 1 | 1 | - |
 
@@ -1111,13 +1111,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 6+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Castigating Flails and Clubs | 2 | 4+ | 4+ | - | 1 | - |
 
@@ -1140,19 +1140,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 7 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Dragoon Pistol | 10" | 4 | 3+ | 4+ | 1 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Master-forged Cavalier Sword | 5 | 3+ | 4+ | 1 | 2 | Charge (+1 Damage) |
 | Warhorse’s Steel‑shod Hooves | 2 | 5+ | 3+ | - | 1 | Companion |
@@ -1165,7 +1165,7 @@
   - 宣言: If this unit charged this turn, pick this unit and up to 2 visible friendly non‑**HERO SIGMARITE CAVALRY** units that charged this turn and are wholly within 12" of this unit to be the targets.
   - 効果: For each target: • Make a pile-in move. • Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Freeguild Veteran*
 - 0-1 **THAUMATURGICAL SPECIALIST**
@@ -1184,13 +1184,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 3 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cavalier Weapon | 3 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage) |
 | Warhorse’s Steel‑shod Hooves | 2 | 5+ | 3+ | - | 1 | Companion |
@@ -1213,13 +1213,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Adjutant Weapons | 3 | 4+ | 4+ | 1 | 2 | - |
 
@@ -1245,13 +1245,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 6+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Assortment of Weapons | 2 | 4+ | 4+ | - | 1 | - |
 
@@ -1280,13 +1280,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 6+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Enchanted Rapier | 4 | 3+ | 4+ | 2 | 2 | Crit (Mortal) |
 
@@ -1307,19 +1307,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 4+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Fusil-cannon | 18" | 1 | 4+ | 2+ | 2 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bayonet | 1 | 4+ | 4+ | - | 1 | - |
 
@@ -1340,13 +1340,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Weapons of Gallantry | 2 | 3+ | 4+ | 1 | 1 | - |
 
@@ -1367,19 +1367,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 4+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ruin-sweeper Arsenal | 10" | 1 | 4+ | 2+ | 2 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Grenadier Bardiche | 2 | 4+ | 4+ | 1 | 2 | - |
 
@@ -1403,19 +1403,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Duelling Pistols | 10" | 4 | 3+ | 4+ | 1 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Master-forged Weapon | 5 | 3+ | 4+ | 1 | 2 | - |
 
@@ -1427,7 +1427,7 @@
 - **Front-Line Commander**（Once Per Battle (Army), Reaction: You declared a FIGHT ability for this unit / CP 1）
   - 効果: If this unit is **under orders**, pick a friendly **SIGMARITE** **INFANTRY** or **MONSTER** unit that is wholly within 12" of this unit or has this unit’s **Relic Envoy** next to it and that has not used a **FIGHT** ability this turn to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, the target can use 2 **FIGHT** abilities this phase. After the first is used, however, the target has **STRIKE-LAST** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Freeguild Veteran*
 - 0-1 **THAUMATURGICAL SPECIALIST**
@@ -1448,13 +1448,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 15 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Marshal’s Armaments | 5 | 3+ | 4+ | 1 | 2 | Charge (+1 Damage) |
 | Griffon’s Razor Claws and Deadly Beak（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | Companion |
@@ -1469,7 +1469,7 @@
 - **Tactical Acumen**（Reaction: You declared the ‘Redeploy’ command for a friendly **CITIES OF SIGMAR** unit wholly within 12" of this unit）
   - 効果: If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Freeguild Veteran*
 - 0-1 **THAUMATURGICAL SPECIALIST**
@@ -1487,13 +1487,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Freeguild Weapons | 2 | 4+ | 4+ | - | 1 | - |
 
@@ -1517,19 +1517,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 8 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Long Fusil | 24" | 2 | 3+ | 2+ | 2 | 2 | Crit (Auto-wound), Anti-HERO (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warhulk's Mace | 4 | 4+ | 2+ | 2 | 2 | - |
 
@@ -1539,7 +1539,7 @@
   - 宣言: Pick a visible enemy unit within 24" of this unit to be the target.
   - 効果: For the rest of the turn, add 1 to hit rolls for attacks made by friendly **SIGMARITE** units that are **under orders** that target that enemy unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Freeguild Veteran*
 - 0-1 **THAUMATURGICAL SPECIALIST**
@@ -1560,20 +1560,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Anti-thaumic Crossbow | 18" | 3 | 3+ | 4+ | 1 | 2 | Anti-MANIFESTATION (+1 Rend), Anti-WIZARD (+1 Rend) |
 | Spell-banishing Pistol | 10" | 4 | 3+ | 4+ | 1 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Consecrated Blade | 4 | 3+ | 4+ | 1 | 2 | Anti-WIZARD (+1 Rend) |
 
@@ -1585,7 +1585,7 @@
   - 宣言: Pick a visible friendly **SIGMARITE** unit wholly within 12" of this unit and **under orders** to be the target.
   - 効果: Until the start of your next turn, while the target is wholly within 12" of this unit and **under orders**, add 1 to the Damage characteristic of the target’s weapons for combat attacks that target enemy **WIZARDS**, **PRIESTS** and **MANIFESTATIONS**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Ironweld Great Cannon**
 - Any **SIGMARITE** **INFANTRY**
@@ -1604,19 +1604,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 10 | 3+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Scattershot Cannon | 10" | 5 | 4+ | 3+ | 1 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Massive Warmaul | 5 | 4+ | 2+ | 2 | 3 | - |
 
@@ -1643,19 +1643,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 6 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Clattergun | 12" | 3 | 4+ | 3+ | 1 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rotor Blades | 3 | 4+ | 4+ | 1 | D3 | - |
 
@@ -1679,19 +1679,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 5 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Gyrocopter Guns | 12" | 5 | 4+ | 3+ | 1 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rotor Blades | 3 | 4+ | 4+ | 1 | D3 | - |
 
@@ -1713,13 +1713,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 1 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gromril Great Hammer | 2 | 3+ | 3+ | 1 | 1 | Charge (+1 Damage) |
 
@@ -1742,20 +1742,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 2 | 5+ | 1 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Blackpowder Pistols | 8" | 3 | 3+ | 4+ | - | 1 | Shoot in Combat, Anti-WIZARD (+1 Rend) |
 | Crossbow Launcher | 15" | 2 | 4+ | 3+ | 1 | D3 | Anti-WIZARD (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Witch Hunter Weapons | 2 | 4+ | 4+ | - | 1 | Anti-WIZARD (+1 Rend) |
 
@@ -1784,19 +1784,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Purified Water Blast | 10" | 3 | 3+ | 4+ | 1 | D3 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Blade of Flowing Waters | 3 | 3+ | 4+ | 1 | D3 | Crit (Auto-wound) |
 
@@ -1819,13 +1819,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 1 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ironbreaker Weapon | 2 | 3+ | 4+ | 1 | 1 | - |
 
@@ -1846,19 +1846,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 1 | 3+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Drakegun | 18" | 1 | 3+ | 3+ | 1 | 1 | Anti-INFANTRY (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Plated Fists | 1 | 3+ | 4+ | - | 1 | - |
 
@@ -1882,19 +1882,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 3" | 6 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Great Cannon | 24" | 3 | 4+ | 2+ | 2 | D3+2 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Crew’s Tools and Sidearms | 2 | 4+ | 4+ | - | 1 | - |
 
@@ -1916,19 +1916,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 6+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Vineroot Staff | 9" | 2 | 3+ | 3+ | 2 | 3 | Anti-FACTION TERRAIN (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Enchanted Sickle | 3 | 4+ | 4+ | 1 | D3 | - |
 
@@ -1952,13 +1952,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ranger Blades | 6 | 3+ | 4+ | 1 | 2 | - |
 
@@ -1972,7 +1972,7 @@
 - **Fluid Combat Style**（Reaction: You declared a **FIGHT** ability for this unit or a non-**HERO SIGMARITE INFANTRY** unit wholly within 12" of this unit）
   - 効果: Immediately after the **FIGHT** ability used by that unit has been resolved, pick a point on the battlefield within 6" of this unit and more than 3" from all units (friendly and enemy) and terrain features. Remove the unit that used the **FIGHT** ability from the battlefield and set it up again wholly within 6" of that point and not in combat.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Freeguild Veteran*
 - Any **SIGMARITE**
@@ -1992,13 +1992,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 12 | 5+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fanged Tentacles and Spiked Tail | 5 | 4+ | 2+ | 1 | 2 | Companion |
 
@@ -2022,13 +2022,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 1 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Venerable Weapons | 2 | 3+ | 4+ | 1 | 1 | - |
 
@@ -2052,19 +2052,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 10 | 4+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Searing Beam of Light | 24" | 1 | 2+ | ✹ | ✹ | ✹ | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warhorses’ Steel‑shod Hooves | 4 | 5+ | 3+ | - | 1 | Companion |
 
@@ -2090,13 +2090,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Meteoric Warhammer | 4 | 4+ | 3+ | 1 | D3 | Crit (Auto-wound) |
 
@@ -2106,7 +2106,7 @@
   - 宣言: Pick an objective you control that this unit is contesting to be the target.
   - 効果: If there are no enemy units contesting the target objective, it is considered by you to be **consecrated**. Otherwise, roll a dice. On a 3+, the target objective is considered by you to be **consecrated**. While they are wholly within 6" of a **consecrated** objective and **under orders**: • Friendly non-**WAR MACHINE SIGMARITE** units have **WARD (5+)**. • Friendly **SIGMARITE WAR MACHINES** have **WARD (6+)**. If your opponent gains control of a **consecrated** objective, it is no longer **consecrated**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **WAR MACHINE** **SIGMARITE**
 - Any **SIGMARITE** **INFANTRY**
@@ -2125,13 +2125,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 9 | 5+ | 2 | 4+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Acolytes' Club and Axe | 4 | 4+ | 4+ | - | 1 | - |
 | Sceptre of the Wheel | 3 | 4+ | 4+ | 1 | D3 | - |
@@ -2144,7 +2144,7 @@
   - 宣言: Make a chanting roll of D6. If the roll is an unmodified 1, you can re-roll the dice.
   - 効果: Pick 1 of the following effects. Pick up to 2 different effects instead if the chanting roll was 10+. ***Sanctified Ground***: Until the start of your next turn, visible enemy units that use a **CHARGE** ability while they are within 9" of this unit have **STRIKE-LAST** for the rest of the turn. ***Ardent Prayers:*** Add 1 to zealotry rolls for friendly **SIGMARITE** units until the start of your next turn. ***Cast Out Evil***: Roll a D3 for each visible enemy **WIZARD** and **PRIEST** on the battlefield. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Freeguild Veteran*
 - 0-1 **THAUMATURGICAL SPECIALIST**
@@ -2162,13 +2162,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 5 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rune Staff and Forgehammer | 3 | 4+ | 3+ | 1 | D3 | - |
 
@@ -2180,7 +2180,7 @@
   - 宣言: Pick a friendly **CITIES OF SIGMAR DUARDIN** unit wholly within 12" of this unit to be the target, then make a chanting roll of D6.
   - 効果: If the chanting roll was 10+, you can pick another eligible unit to be a second target. Until the start of your next turn, add 1 to the Rend characteristic of each target’s melee weapons.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **DUARDIN**
 
@@ -2198,13 +2198,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Tongstaff | 3 | 4+ | 4+ | 1 | D3 | - |
 
@@ -2213,7 +2213,7 @@
 - **Crucible of Rage**（Once Per Turn (Army), Your Hero Phase）
   - 効果: You can spend 1 **rage dice**. If you do: • Apply the effect below. • If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Otherwise, roll a dice. On a 3+, apply the effect below. Until the start of your next turn, add 1 to casting rolls for friendly **CITIES OF SIGMAR** units while they are wholly within 6" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **WAR MACHINE** **SIGMARITE**
 - 0-1 **THAUMATURGICAL SPECIALIST**
@@ -2233,13 +2233,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 9 | 5+ | 2 | 4+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Acolytes' Club and Axe | 4 | 4+ | 4+ | - | 1 | - |
 | Sceptre of the Wheel | 3 | 4+ | 4+ | 1 | D3 | - |
@@ -2252,7 +2252,7 @@
   - 宣言: Pick a visible friendly **SIGMARITE** unit wholly within 12" of this unit to be the target, then make a chanting roll of D6.
   - 効果: Until the start of your next turn: • The target’s melee weapons have **Charge (+1 Damage)**. • If the chanting roll was 10+, the target has **WARD (5+)** if it charged in the same turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Freeguild Veteran*
 - 0-1 **THAUMATURGICAL SPECIALIST**
@@ -2270,13 +2270,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 3 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cavalier Weapon | 2 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage) |
 | Warhorse’s Steel‑shod Hooves | 2 | 5+ | 3+ | - | 1 | Companion |
@@ -2301,13 +2301,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 9 | 5+ | 2 | 4+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sceptre of the Wheel and Acolytes’ Weapons | 5 | 4+ | 4+ | - | D3 | - |
 
@@ -2320,7 +2320,7 @@
   - 宣言: Pick an enemy **WIZARD, PRIEST** or **MANIFESTATION** within 18" of this unit to be the target.
   - 効果: Roll a dice. On a 3+: •If the target is a **MANIFESTATION**, it is banished and removed from the battlefield. •If the target is a **WIZARD** or **PRIEST**, inflict an amount of mortal damage on it equal to the roll.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Freeguild Veteran*
 - Any **SIGMARITE**
@@ -2339,19 +2339,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 8 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ravager Harpoon | 16" | 2 | 3+ | 3+ | 1 | D3 | Anti-MONSTER (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dark Steeds’ Vicious Bites | 4 | 5+ | 3+ | - | 1 | Companion |
 | Hook Spear | 2 | 3+ | 4+ | 2 | 1 | Anti-MONSTER (+1 Rend) |
@@ -2375,13 +2375,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 6+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Witchstaff | 1 | 3+ | 4+ | 1 | D3 | - |
 
@@ -2394,7 +2394,7 @@
   - 宣言: Pick a friendly **CITIES OF SIGMAR AELF** unit wholly within 6" of this unit to be the target.
   - 効果: Add 1 to casting rolls for this unit for the rest of the turn. Then, roll a dice. On a 4+, 1 model in the target unit is slain.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Black Ark Fleetmaster**
 - Any **AELF**
@@ -2413,19 +2413,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 14 | 4+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Black Dragon’s Noxious Breath | 10" | 2D6 | 2+ | 4+ | 1 | 1 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cruel Weapons | 3 | 3+ | 4+ | 1 | D3 | - |
 | Black Dragon’s Claws（戦傷時） | 7 | 4+ | 2+ | 1 | 2 | Companion |
@@ -2444,7 +2444,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Black Dragon’s Claws** is 4.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Black Ark Fleetmaster**
 - Any **AELF**
@@ -2463,20 +2463,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 12 | 2+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Steam Gun | 12" | 2D6 | 2+ | 4+ | - | 1 | - |
 | Steam Cannon | 18" | 1 | 4+ | 2+ | 1 | D3+2 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Crushing Wheels | 6 | 4+ | 2+ | 1 | 2 | Companion |
 
@@ -2499,13 +2499,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 12 | 2+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Steam Cannon | 18" | 1 | 4+ | 2+ | 1 | D3+2 | - |
 | Commander’s Rifle | 18" | 3 | 3+ | 3+ | 1 | 2 | - |
@@ -2513,7 +2513,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Crushing Wheels | 6 | 4+ | 2+ | 1 | 2 | Companion |
 | Commander’s Sword | 3 | 3+ | 4+ | 1 | 2 | - |
@@ -2526,7 +2526,7 @@
 - **More Pressure!**（Once Per Turn (Army), Your Hero Phase）
   - 効果: Roll 2D6. If the roll is less than the number of damage points this unit has, inflict D3 mortal damage on this unit. Otherwise, pick 1 of the following effects to apply to this unit until the start of your next turn: ***Power the Wheels:*** This unit can use a **RUN** ability and still use **SHOOT** and/or **CHARGE** abilities later in the turn. ***Power the Guns:*** Add 3 to the Attacks characteristic of this unit’s **Steam Gun**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **Steam Tank**
 
@@ -2544,13 +2544,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 15 | 3+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Weapon of Office | 6 | 3+ | 4+ | 1 | 2 | - |
 | Infernadine’s Leonine Jaws（戦傷時） | 3 | 3+ | 2+ | 2 | 3 | Anti-MONSTER (+1 Rend), Companion |
@@ -2570,7 +2570,7 @@
   - 宣言: If this unit is not in combat, pick a visible friendly **SIGMARITE INFANTRY** unit wholly within 18" of it and that is not in combat to be the target.
   - 効果: The target can immediately use the ‘Normal Move’ ability as if it were your movement phase. In addition, the target is **under orders** for the rest of the battle round.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Freeguild Veteran*
 - Any **SIGMARITE**
@@ -2588,13 +2588,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Exotic Assortment of Weapons | 4 | 3+ | 4+ | 1 | 1 | Anti-WIZARD (+1 Rend) |
 
@@ -2623,19 +2623,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 12 | 5+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Fiery Breath | 10" | 6 | 4+ | 3+ | - | D3 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Razor-sharp Fangs | 6 | 4+ | 2+ | 1 | 2 | Anti-INFANTRY (+1 Rend), Companion |
 
@@ -2661,13 +2661,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 5 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Runic Hammer | 5 | 3+ | 3+ | 2 | 2 | - |
 
@@ -2679,7 +2679,7 @@
   - 宣言: Pick an enemy unit in your opponent’s army to bear a grudge against. You can pick an enemy unit that is in reserve.
   - 効果: For the rest of the battle, add 1 to wound rolls for combat attacks made by friendly **CITIES OF SIGMAR DUARDIN** units that target that unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Cogsmith**
 - Any **DUARDIN**
@@ -2696,19 +2696,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hunting Crossbow | 15" | 2 | 4+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Wildercorps Hunting Weapons | 2 | 4+ | 4+ | - | 1 | - |
 | Trailhound’s Ferocious Bite | 2 | 4+ | 4+ | - | 1 | Companion |
@@ -2736,13 +2736,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 1 | 6+ | 7+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Vulpine Fangs | 2 | 4+ | 5+ | - | 1 | - |
 

@@ -1,6 +1,6 @@
 # Spearhead: Yndrasta's Spearhead（Stormcast Eternals）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -20,13 +20,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 3 | 2+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Meteoric Hammer | 3 | 3+ | 3+ | 1 | 2 | - |
 
@@ -44,13 +44,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sigmarite Warblade | 4 | 3+ | 3+ | 1 | 2 | - |
 
@@ -68,19 +68,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 10 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Great Stormbow | 18" | 2 | 3+ | 3+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gryph-chargers’ Beaks and Claws | 6 | 4+ | 3+ | 1 | 1 | Companion |
 | Stormstrike Axe | 3 | 3+ | 3+ | 1 | 1 | - |
@@ -99,13 +99,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Celestial Greatsword | 2 | 3+ | 3+ | 1 | 1 | - |
 
@@ -122,19 +122,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 8 | 3+ | 2 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Thengavar | 12" | 1 | 3+ | 2+ | 2 | 4 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Blade of the High Heavens | 5 | 3+ | 3+ | 2 | 3 | - |
 
@@ -145,12 +145,12 @@
 
 **キーワード:** Hero, Fly, Ward (6+), Infantry
 
-## バトル特性（Yndrasta's Spearhead Battle Traits）
+## 戦闘特性（Yndrasta's Spearhead Battle Traits）
 
 - **Lightning-Strike Arrival**（Your Movement Phase）
   - 効果: Set up this unit anywhere on the battlefield more than 6" from all enemy units.
 
-## レジメントアビリティ（Yndrasta's Spearhead Regiment Abilities）
+## 連隊アビリティ（Yndrasta's Spearhead Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

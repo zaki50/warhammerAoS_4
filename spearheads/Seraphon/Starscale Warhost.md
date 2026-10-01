@@ -1,6 +1,6 @@
 # Spearhead: Starscale Warhost（Seraphon）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -18,13 +18,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Drakebite Maul | 4 | 4+ | 2+ | 1 | 2 | - |
 
@@ -41,19 +41,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 14 | 4+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Sunbolt Gauntlet | 12" | D6 | 3+ | 3+ | 1 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Relic Celestite Weapon | 5 | 3+ | 3+ | 1 | 2 | - |
 | Carnosaur’s Massive Jaws（戦傷時） | 3 | 4+ | 2+ | 2 | 3 | Companion |
@@ -74,13 +74,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Celestite Club | 2 | 3+ | 3+ | 1 | 1 | - |
 
@@ -91,13 +91,13 @@
 
 **キーワード:** Infantry
 
-## バトル特性（Starscale Warhost Battle Traits）
+## 戦闘特性（Starscale Warhost Battle Traits）
 
 - **Beast of the Dark Jungles**（Any Combat Phase）
   - 宣言: Pick your general to use this ability if they are in combat.
   - 効果: Pick 1 of the following: ***Gargantuan Jaws:*** Pick an enemy unit in combat with your general and roll a dice. If the roll exceeds that unit’s Health characteristic, 1 model in that unit is slain. ***Roar:*** Pick an enemy unit in combat with your general. Subtract D6 from that unit’s control score this turn.
 
-## レジメントアビリティ（Starscale Warhost Regiment Abilities）
+## 連隊アビリティ（Starscale Warhost Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

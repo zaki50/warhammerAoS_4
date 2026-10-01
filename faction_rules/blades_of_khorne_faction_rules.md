@@ -1,9 +1,9 @@
 # Blades of Khorne ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Blades of Khorne Battle Traits（出典: Chaos Battletome: Blades of Khorne）
@@ -36,7 +36,7 @@ Blades of Khorne armies can use the following abilities:
 - **Cleave Wide the Grin of Khorne**（Passive）
   - 効果: Add 1 to hit rolls for combat attacks made by friendly **BLADES OF KHORNE** units.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Bloodbound Warhorde
@@ -52,6 +52,7 @@ Blades of Khorne armies can use the following abilities:
 ### Khornate Legion
 
 - **Butchers of Nations**（Once Per Turn (Army), Reaction: You declared a FIGHT ability for a BLADES OF KHORNE DAEMON unit）
+  - 使用者: The unit using that **FIGHT** ability.
   - 効果: Pick a friendly **BLOODBOUND** unit that has not used a **FIGHT** ability this turn and is wholly within 12" of the unit using this ability to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved.
 
 ### Murderhost
@@ -86,7 +87,7 @@ Blades of Khorne armies can use the following abilities:
 - **Skull Collector**（End of Any Turn）
   - 効果: If any damage points were allocated to an enemy **HERO** by this unit's combat attacks this turn and that enemy **HERO** has been destroyed, add 1 to the Attacks characteristic of this unit's melee weapons for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Murderous Artefacts（出典: Chaos Battletome: Blades of Khorne）
@@ -116,7 +117,7 @@ Brazen Mutations are unique enhancements that can be given to non-**HERO BLADES 
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
   - 効果: • Inflict D3 mortal damage on the target. • If the target unit’s starting size was 1, subtract 1 from wound rolls for its combat attacks for the rest of the turn.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Blood Blesssings of Khorne

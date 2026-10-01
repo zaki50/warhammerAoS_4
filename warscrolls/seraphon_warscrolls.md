@@ -1,6 +1,6 @@
 # Seraphon ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全40 ウォースクロール（Spearhead 版 8 件は除外。--include-spearhead で含められる）
 
@@ -13,13 +13,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Celestite Spear and Club | 3 | 3+ | 3+ | 1 | 1 | Charge (+1 Damage), Anti-MONSTER (+1 Rend) |
 | Aggradon’s Rending Bites and Striking Talons | 3 | 4+ | 3+ | 2 | 2 | Companion |
@@ -41,19 +41,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 12 | 2+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Handlers’ Meteoric Javelins | 12" | 6 | 4+ | 4+ | - | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ark of Sotek | 20 | 4+ | 5+ | - | 1 | Crit (Mortal), Companion |
 | Bludgeoning Tail | 3 | 3+ | 3+ | 1 | D3 | Companion |
@@ -76,20 +76,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 12 | 2+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Solar Engine | 18" | 3 | 3+ | 3+ | 2 | 3 | Crit (2 Hits) |
 | Handlers’ Meteoric Javelins | 12" | 6 | 4+ | 4+ | - | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bludgeoning Tail | 3 | 3+ | 3+ | 1 | D3 | Companion |
 
@@ -111,19 +111,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 14 | 4+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Handlers’ Meteoric Javelins | 12" | 6 | 4+ | 4+ | - | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stegadon’s Horns and Jaws（戦傷時） | 6 | 4+ | 2+ | 1 | 2 | Charge (+1 Damage), Companion |
 
@@ -148,19 +148,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 1 | 6+ | 1 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Dartpipe | 10" | 2 | 3+ | 3+ | - | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Feeble Claws | 1 | 4+ | 5+ | - | 1 | - |
 
@@ -186,20 +186,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 1 | 6+ | 1 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hunter Javelin | 10" | 1 | 3+ | 3+ | 1 | 2 | - |
 | Starstone Bolas | 10" | 1 | 3+ | 4+ | - | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Hunter Javelin | 3 | 3+ | 4+ | 1 | 2 | - |
 | Moonstone Club | 2 | 4+ | 5+ | - | 1 | - |
@@ -228,13 +228,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Drakebite Maul | 4 | 4+ | 2+ | 1 | 2 | Anti-INFANTRY (+1 Rend) |
 | Moonstone Hammer | 4 | 3+ | 2+ | 1 | 3 | Anti-INFANTRY (+1 Rend) |
@@ -256,13 +256,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Starfang Warpick | 4 | 3+ | 2+ | 1 | 3 | Anti-MONSTER (+1 Rend) |
 | Drakefang Warpick | 4 | 4+ | 2+ | 1 | 2 | Anti-MONSTER (+1 Rend) |
@@ -288,19 +288,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 18 | 4+ | 5 | 4+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Gaze of Kroak | 12" | 1 | 2+ | 3+ | 2 | D6 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Azyrite Force Barrier | 2D6 | 3+ | 3+ | 1 | 1 | Crit (Mortal) |
 
@@ -317,7 +317,7 @@
 - **Supreme Master of Order**（Passive）
   - 効果: Add 2 to casting rolls, and add 1 to unbinding rolls and banishment rolls for this unit. In addition, this unit can use an **UNBIND** ability if an enemy **WIZARD** anywhere on the battlefield uses a **SPELL** ability instead of an enemy **WIZARD** within 30" of this unit, and when using the ‘Banish Manifestation’ ability, this unit can pick a manifestation anywhere on the battlefield instead of within 30" of it.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Skink Starpriest, Skink Starseer** or *Favoured Spawning*
 - Any **SERAPHON**
@@ -332,13 +332,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 3 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Tepok Lance | 3 | 4+ | 4+ | 1 | 1 | Charge (+1 Damage) |
 | Raptadon’s Serrated Fangs | 3 | 4+ | 3+ | 1 | 1 | Companion |
@@ -358,19 +358,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 3 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Starstone Atlatl | 12" | 2 | 4+ | 4+ | 2 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Weighted Moonstone Club | 3 | 4+ | 5+ | - | 1 | - |
 | Raptadon’s Serrated Fangs | 3 | 4+ | 3+ | 1 | 1 | Companion |
@@ -393,7 +393,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 15 | 4+ | - |
 
@@ -424,13 +424,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ripperdactyl’s Tearing Jaws | 3 | 4+ | 3+ | 1 | 1 | Charge (+1 Damage), Companion |
 | Skyblade | 5 | 4+ | 4+ | 1 | 2 | Crit (Auto-wound) |
@@ -445,7 +445,7 @@
 - **Ripperdactyl Assault**（Once Per Battle, Any Combat Phase）
   - 効果: Add 1 to the Attacks characteristic of **Moonstone Warspears** used by friendly **Ripperdactyl Riders** units wholly within 12" of this unit for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MONSTER**
 - 0-1 **BEAST**
@@ -461,13 +461,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 3 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ripperdactyl's Tearing Jaws | 3 | 4+ | 3+ | 1 | 1 | Charge (+1 Damage), Companion |
 | Moonstone Warspear | 2 | 4+ | 4+ | - | 1 | Anti-CAVALRY (+1 Rend) |
@@ -494,13 +494,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 3 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Moonstone Warspear | 2 | 4+ | 4+ | - | 1 | Anti-CAVALRY (+1 Rend) |
 | Ripperdactyl's Tearing Jaws | 3 | 4+ | 3+ | 1 | 1 | Charge (+1 Damage), Companion |
@@ -529,13 +529,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Celestite Warclub | 4 | 3+ | 3+ | 1 | 2 | - |
 
@@ -546,7 +546,7 @@
 - **Celestial Conduit**（Reaction: You declared a SPELL ability for a friendly SERAPHON WIZARD wholly within 12" of this unit）
   - 効果: If that spell is successfully cast, for the rest of the turn, add 3 to the control scores of friendly **SERAPHON** units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SAURUS**
 
@@ -562,13 +562,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Celestite Polearm | 3 | 3+ | 3+ | 1 | 1 | - |
 
@@ -589,13 +589,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 7 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Relic Celestite Weapon | 5 | 3+ | 3+ | 1 | 2 | - |
 
@@ -606,7 +606,7 @@
 - **Wrath of the Seraphon**（Once Per Battle, Any Combat Phase）
   - 効果: For the rest of the turn, add 1 to wound rolls for combat attacks made by friendly **SAURUS INFANTRY** units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Favoured Spawning*
 - Any **SERAPHON**
@@ -623,19 +623,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 14 | 4+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Sunbolt Gauntlet | 12" | D6 | 3+ | 3+ | 1 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Carnosaur’s Massive Jaws（戦傷時） | 3 | 4+ | 2+ | 2 | 3 | Companion |
 | Sunstone Spear | 5 | 3+ | 3+ | 1 | 2 | Charge (+1 Damage) |
@@ -652,7 +652,7 @@
 - **Blood Frenzy**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
   - 効果: If this unit is in combat with any damaged enemy **MONSTERS**, roll a dice. On a 3+, this unit has **STRIKE-FIRST** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Favoured Spawning*
 - Any **SERAPHON**
@@ -669,13 +669,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 8 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Celestite Spear or Club | 4 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage) |
 | Aggradon’s Rending Bites and Striking Talons | 3 | 4+ | 3+ | 2 | 2 | Companion |
@@ -688,7 +688,7 @@
   - 宣言: Pick this unit and each friendly **Aggradon Lancers** unit wholly within 12" of it to be the targets.
   - 効果: Add 1 to the Attacks characteristic of the targets’ **Companion** weapons for the rest of the turn. In addition, place a **rage token** next to each target, to a maximum of 3 per unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Favoured Spawning*
 - Any **SAURUS**
@@ -705,13 +705,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 14 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Carnosaur’s Massive Jaws（戦傷時） | 3 | 4+ | 2+ | 2 | 3 | Companion |
 | Relic Celestite Weapon | 5 | 3+ | 3+ | 1 | 2 | - |
@@ -727,7 +727,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Carnosaur’s Massive Jaws** is 2.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Favoured Spawning*
 - 0-1 **MONSTER**
@@ -743,13 +743,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Celestite Weapon | 2 | 3+ | 3+ | 1 | 1 | - |
 
@@ -770,13 +770,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 8 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Celestite Spear or Club | 4 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage) |
 | Aggradon’s Rending Bites and Striking Talons | 3 | 4+ | 3+ | 2 | 2 | Companion |
@@ -792,7 +792,7 @@
 - **Reptilian Instincts**（Reaction: Opponent declared a **SHOOT** ability）
   - 効果: This unit can use this ability even if it is in reserve. Pick each friendly unit that is **stalking the prey** to be the targets. After that **SHOOT** ability has been resolved, set up each target on the battlefield more than 9" from all enemy units and within 18" of the unit that used the **SHOOT** ability. Then, you can spend up to 3 **rage dice**. If you do: • If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. • Each target can move up to **X**", where **X** is the number of **rage** **dice** spent. It must end that move no further from the unit that used the **SHOOT** ability than it was at the start of the move. Then, for the rest of the turn, each time a target uses a **CHARGE** ability, it must end that charge move in combat with the unit that used the **SHOOT** ability.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Favoured Spawning*
 - Any **SAURUS**
@@ -811,13 +811,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 9 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Azure Lightning | 6 | 3+ | 3+ | 1 | 1 | Crit (Mortal) |
 
@@ -832,7 +832,7 @@
   - 宣言: Pick a friendly **MANIFESTATION** wholly within 18" of this unit to be the target.
   - 効果: Spend up to 3 **rage dice**. If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, for the rest of the turn, add **X** to the Damage characteristic of the target’s melee weapons, where **X** is the number of **rage dice** spent.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Skink Starpriest, Skink Starseer** or *Favoured Spawning*
 - Any **SERAPHON**
@@ -851,13 +851,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 14 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Carnosaur’s Clawed Forelimbs | 5 | 4+ | 2+ | 1 | 3 | Companion |
 | Carnosaur’s Massive Jaws（戦傷時） | 3 | 4+ | 2+ | 2 | 4 | Companion |
@@ -875,7 +875,7 @@
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
   - 効果: Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Favoured Spawning*
 - Any **SERAPHON**
@@ -894,19 +894,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 14 | 4+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Troglodon’s Noxious Spittle | 15" | D6 | 3+ | 3+ | 1 | 2 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Divining Rod | 2 | 4+ | 4+ | 1 | D3 | - |
 | Troglodon’s Talons | 2 | 4+ | 3+ | 1 | 2 | Companion |
@@ -924,7 +924,7 @@
   - 宣言: Pick up to 3 enemy units in combat with this unit to be the targets.
   - 効果: Roll a dice for each target. On a 3+, subtract 1 from hit rolls for the target’s attacks for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MONSTER**
 - Any **BEAST**
@@ -943,13 +943,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 5 | 6+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Serpent Staff | 3 | 4+ | 4+ | 1 | D3 | - |
 
@@ -959,7 +959,7 @@
   - 宣言: Pick a visible friendly **SERAPHON** unit wholly within 18" of this unit to be the target.
   - 効果: Roll a dice. On a 2+, the target’s melee weapons have **Crit (Auto-wound)** until the start of your next turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MONSTER**
 - Any **BEAST**
@@ -980,13 +980,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Astromancer’s Staff | 2 | 4+ | 3+ | 1 | D3 | - |
 
@@ -998,7 +998,7 @@
   - 宣言: Pick a visible enemy unit within 18" to be the target, then make a casting roll of 2D6.
   - 効果: Ward rolls cannot be made for the target for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MONSTER**
 - Any **BEAST**
@@ -1017,19 +1017,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 1 | 6+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Javelins and Boltspitters | 12" | 2 | 4+ | 4+ | - | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Celestite Daggers and Moonstone Clubs | 1 | 4+ | 5+ | - | 1 | - |
 
@@ -1050,13 +1050,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 9 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Azure Lightning | 6 | 3+ | 3+ | 1 | 1 | Crit (Mortal) |
 
@@ -1074,7 +1074,7 @@
   - 宣言: Pick a friendly **SKINK WIZARD** wholly within 18" of this unit to be the target.
   - 効果: Measure the range and visibility of the next **SPELL** ability used by this unit this phase from the target instead of from this unit. The target is treated as the caster for the purpose of other abilities or spell effects, such as ‘Unbind’ or ‘The Earth Trembles’.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Skink Starpriest, Skink Starseer** or *Favoured Spawning*
 - Any **SERAPHON**
@@ -1091,20 +1091,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 8 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Glob of Flame Acid | 16" | 1 | 4+ | 2+ | 2 | D3+3 | Companion |
 | Stream of Fire | 10" | 5 | 2+ | 3+ | 1 | 1 | Anti-INFANTRY (+1 Rend), Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fiery Maw | 3 | 3+ | 3+ | 2 | 3 | Companion |
 
@@ -1127,13 +1127,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 14 | 4+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Skystreak Bow | 18" | 3 | 3+ | 3+ | 1 | 2 | Anti-MONSTER (+1 Rend) |
 | Sunfire Throwers | 10" | 2D6 | 3+ | 3+ | - | 1 | Anti-INFANTRY (+1 Rend), Crit (2 Hits) |
@@ -1141,7 +1141,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stegadon’s Horns and Jaws（戦傷時） | 6 | 4+ | 2+ | 1 | 2 | Charge (+1 Damage), Companion |
 
@@ -1167,13 +1167,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 14 | 4+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Skystreak Bow | 18" | 3 | 3+ | 3+ | 1 | 2 | Anti-MONSTER (+1 Rend) |
 | Sunfire Throwers | 10" | 2D6 | 3+ | 3+ | - | 1 | Anti-INFANTRY (+1 Rend), Crit (2 Hits) |
@@ -1181,7 +1181,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stegadon’s Horns and Jaws（戦傷時） | 6 | 4+ | 2+ | 1 | 2 | Charge (+1 Damage), Companion |
 | Meteoric Warspear | 3 | 3+ | 3+ | 1 | 1 | - |
@@ -1196,7 +1196,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Stegadon’s Horns and Jaws** is 4.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MONSTER**
 - Any **BEAST**
@@ -1217,13 +1217,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Celestite Weapons | 3 | 3+ | 3+ | 1 | 2 | - |
 
@@ -1237,7 +1237,7 @@
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
   - 効果: If this unit’s **Venomites** token is on the battlefield, roll a D3. On a 1, remove this unit’s **Venomites** token from the battlefield. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SERAPHON**
 
@@ -1257,13 +1257,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Terradon’s Razor-sharp Jaws | 3 | 4+ | 3+ | 1 | 1 | Companion |
 | Skyblade | 5 | 4+ | 4+ | 1 | 2 | Crit (Auto-wound) |
@@ -1276,7 +1276,7 @@
   - 宣言: Pick an enemy unit that this unit passed across this phase to be the target.
   - 効果: Roll a dice and add 2 to the roll if this unit is within the combat ranges of any friendly **Terradon Riders** units. On a 5+: • Inflict D3 mortal damage on the target. • If any damage points are allocated by this ability and the target does not have **FLY**, the target cannot use **RUN** abilities until the start of your next turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MONSTER**
 - 0-1 **BEAST**
@@ -1292,19 +1292,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 3 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Javelins and Bolas | 10" | 3 | 4+ | 5+ | - | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Terradon’s Razor-sharp Jaws | 3 | 4+ | 3+ | 1 | 1 | Companion |
 
@@ -1330,19 +1330,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 3 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Javelins and Bolas | 10" | 3 | 4+ | 5+ | - | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Terradon’s Razor-sharp Jaws | 3 | 4+ | 3+ | 1 | 1 | Companion |
 
@@ -1368,13 +1368,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 2 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Snapping Beaks | 3 | 4+ | 4+ | - | 1 | Companion |
 
@@ -1398,13 +1398,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Relic Celestite Warmace | 4 | 3+ | 3+ | 1 | 3 | - |
 | Celestite Weapon | 2 | 3+ | 3+ | 1 | 1 | - |
@@ -1433,13 +1433,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 2 | 6+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Starblood Weapons | 1 | 4+ | 5+ | - | 1 | - |
 | Relic Celestite Weapon | 5 | 3+ | 3+ | 1 | 2 | - |

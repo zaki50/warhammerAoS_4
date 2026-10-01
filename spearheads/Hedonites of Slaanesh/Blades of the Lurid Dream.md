@@ -1,6 +1,6 @@
 # Spearhead: Blades of the Lurid Dream（Hedonites of Slaanesh）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,19 +19,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 6+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Blissbarb Bow | 18" | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sybarite Blade | 1 | 3+ | 4+ | - | 1 | - |
 
@@ -48,13 +48,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Haze Staff | 3 | 3+ | 4+ | 1 | D3 | - |
 
@@ -72,13 +72,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 3 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Razor-sharp Claw and Gilded Weapon | 5 | 4+ | 3+ | 1 | 2 | - |
 | Razor-sharp Claws | 4 | 4+ | 3+ | 1 | 2 | - |
@@ -97,13 +97,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 4 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Slickblade Glaive | 3 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage) |
 | Exalted Steed’s Poisoned Tongue | 3 | 3+ | 4+ | - | 1 | Companion |
@@ -115,10 +115,10 @@
 
 **キーワード:** Cavalry, Reinforcements
 
-## バトル特性（Blades of the Lurid Dream Battle Traits）
+## 戦闘特性（Blades of the Lurid Dream Battle Traits）
 
 
-## レジメントアビリティ（Blades of the Lurid Dream Regiment Abilities）
+## 連隊アビリティ（Blades of the Lurid Dream Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

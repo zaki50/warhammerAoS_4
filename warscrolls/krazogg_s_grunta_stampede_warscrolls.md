@@ -1,6 +1,6 @@
 # Krazogg’s Grunta Stampede ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全6 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,7 +15,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 12 | 4+ | - |
 
@@ -49,13 +49,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 9" | 5 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Choppa or Hacka | 4 | 4+ | 3+ | 1 | 1 | Anti-CAVALRY (+1 Rend) |
 | Grunta's Tusks | 4 | 4+ | 2+ | - | 1 | Charge (+1 Damage), Companion |
@@ -78,13 +78,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 12 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Maw-grunta’s Trotters | 4 | 5+ | 2+ | - | D3 | Companion |
 | Maw-grunta’s Tusks | 5 | 4+ | 2+ | 2 | 2 | Companion |
@@ -110,13 +110,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 12 | 3+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Maw-grunta’s Tusks | 5 | 4+ | 2+ | 2 | 2 | Companion |
 | Kill-choppas | 4 | 4+ | 3+ | 1 | 1 | - |
@@ -140,13 +140,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 9" | 5 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Grunta's Tusks | 3 | 4+ | 2+ | 1 | 1 | Charge (+1 Damage), Companion |
 | Choppa or Hacka | 3 | 4+ | 3+ | 1 | 1 | Charge (+1 Damage) |
@@ -170,13 +170,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 14 | 3+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Maw-grunta’s Trotters | 4 | 5+ | 2+ | - | D3 | Companion |
 | Pig-hacka | 7 | 4+ | 3+ | 1 | 2 | - |
@@ -193,7 +193,7 @@
 - **Unstoppable Momentum**（Passive）
   - 効果: Each time this unit has charged as a result of using a **CHARGE** ability, it gains 1 **momentum point**. Each time it uses a **RUN** ability, it gains 2 **momentum points.** It can have a maximum of 3 **momentum points** at once. Add the number of **momentum points** this unit has to the Damage characteristic of its **Maw-grunta’s Tusks.** At the end of each battle round, subtract 1 from its **momentum points**, to a minimum of 0.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Headstompa*
 - Any **IRONJAWZ**

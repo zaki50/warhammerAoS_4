@@ -1,6 +1,6 @@
 # Spearhead: Mawseeker Mob（Ogor Mawtribes）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 8 | 5+ | 3 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Butcher's Tools | 4 | 4+ | 2+ | 2 | 3 | - |
 
@@ -45,13 +45,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 4 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cleaver's Tools | 4 | 4+ | 2+ | 2 | 3 | - |
 
@@ -68,13 +68,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 6+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Clubs, Claws and Jaws | 5 | 4+ | 2+ | 1 | 2 | - |
 
@@ -93,13 +93,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 4 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gutseer's Tools | 3 | 4+ | 2+ | 2 | 3 | - |
 
@@ -110,7 +110,7 @@
 
 **キーワード:** Infantry, Ward (6+)
 
-## バトル特性（Mawseeker Mob）
+## 戦闘特性（Mawseeker Mob）
 
 - **Frenzied Hunters**（Once Per Battle, Start of Battle Round）
   - 効果: Set up this unit within 1" of a battlefield edge and more than 6" from all enemy units.
@@ -120,7 +120,7 @@
   - 宣言: You must use this ability if an enemy unit was destroyed this turn.
   - 効果: Your general’s Butcher’s Cauldron becomes **full**.
 
-## レジメントアビリティ（Mawseeker Mob Regiment Abilities）
+## 連隊アビリティ（Mawseeker Mob Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

@@ -1,9 +1,9 @@
 # Sons of Behemat ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Sons of Behemat Battle Traits（出典: Destruction Battletome: Sons of Behemat）
@@ -26,7 +26,7 @@ Sons of Behemat armies can use the following abilities:
   - 宣言: Pick any number of friendly **BIG** or **LITTLE** units to be the targets.
   - 効果: Roll a dice. If the roll is lower than the number of targets picked, this ability has no effect. Otherwise, pick an effect for each target. The effects must be different unless specified otherwise. • Pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll. You can pick this effect for multiple targets. • If the target is **prepping the big one**, pick an enemy unit in combat with it and roll any number of dice. If any of the rolls are a 1, the target is no longer **prepping the big one**. Otherwise, add the results together, then inflict an amount of mortal damage on that enemy unit equal to the total.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Big Toes
@@ -96,7 +96,7 @@ Sons of Behemat armies can use the following abilities:
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
   - 効果: This unit can make a pile-in move. Then, roll a dice. Add 1 to the roll for cach battle round in which this unit was on the battlefield in both combat phases and did not use any **FIGHT** abilities. On a 6+, inflict 4D6 mortal damage on the target.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Titanic Trophies（出典: Destruction Battletome: Sons of Behemat）
@@ -153,7 +153,7 @@ A Realm-shaking Rampage is a unique enhancement that can be given to non-**UNIQU
 - **Rancid Flatulence**（Once Per Battle (Army), End of Any Turn / 20pt）
   - 効果: For the rest of the turn, enemy units have a maximum control score of 1 while they are in combat with this unit.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Brodd's Bellows

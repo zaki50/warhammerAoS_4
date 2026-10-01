@@ -1,6 +1,6 @@
 # Spearhead: Bloodbound Gore Pilgrims（Blades of Khorne）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Goreaxe and Gorefist | 3 | 4+ | 3+ | 1 | 1 | - |
 
@@ -42,13 +42,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 6+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Reaver Blades | 2 | 4+ | 3+ | - | 1 | - |
 
@@ -65,13 +65,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 5 | 2+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Juggernaut’s Brazen Hooves | 2 | 4+ | 3+ | 1 | D3 | Companion |
 | Bloodglaive | 3 | 3+ | 3+ | 1 | 1 | Charge (+1 Damage) |
@@ -90,13 +90,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Hackblade and Wrath-hammer | 4 | 3+ | 3+ | 1 | 2 | - |
 
@@ -111,7 +111,7 @@
 
 **キーワード:** Hero, Priest, Infantry
 
-## バトル特性（Bloodbound Gore Pilgrims Battle Traits）
+## 戦闘特性（Bloodbound Gore Pilgrims Battle Traits）
 
 - **Heads Must Roll**（Once Per Turn, Any Hero Phase）
   - 宣言: Spend 3 **blood tithe points** and pick up to 3 friendly units.
@@ -122,7 +122,7 @@
   - 宣言: Spend 1 **blood tithe point** and pick up to D3 friendly units.
   - 効果: Each of those units can move D6" (roll for each).
 
-## レジメントアビリティ（Bloodbound Gore Pilgrims Regiment Abilities）
+## 連隊アビリティ（Bloodbound Gore Pilgrims Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

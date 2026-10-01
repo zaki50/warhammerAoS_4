@@ -1,9 +1,9 @@
 # Da King's Gitz ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Da King's Gitz Battle Traits（出典: Army of Renown: Da King's Gitz）
@@ -30,7 +30,7 @@
   - 宣言: You cannot use this ability and the **Bad Moon Loonshrine**’s ‘Moonclan Lairs’ ability in the same turn. If this unit is within 12" of a friendly **Bad Moon Loonshrine**, pick a friendly non-reinforced, non-**HERO**, non-**MONSTER KING’S GITZ** unit that has been destroyed to be the target.
   - 効果: Set up a replacement unit wholly within 12" of a friendly **Bad Moon Loonshrine** and more than 3" from all enemy units.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Da King's Gitz Artefacts of Power（出典: Army of Renown: Da King's Gitz）
@@ -45,7 +45,7 @@
 - **Moonhoned Shiv**（Deployment Phase）
   - 効果: Pick 1 of this unit’s non-**Companion** melee weapons. Add 1 to the Attacks characteristic of that weapon for the rest of the battle. In addition, each time this unit uses a **RETREAT** ability, add 1 to the Attacks characteristic of that weapon for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Da King's Gitz Manifestation Lore

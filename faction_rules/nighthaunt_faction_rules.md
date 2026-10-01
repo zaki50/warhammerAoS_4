@@ -1,9 +1,9 @@
 # Nighthaunt ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Nighthaunt Battle Traits（出典: Death Battletome: Nighthaunt）
@@ -20,7 +20,7 @@ Nighthaunt armies can use the following abilities:
 - **Mounting Dread**（Passive）
   - 効果: Subtract the current battle round number from the control scores of enemy units while they are in combat with any friendly **NIGHTHAUNT** units.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Death Stalkers
@@ -75,7 +75,7 @@ Nighthaunt armies can use the following abilities:
 - **Shadowy Aura**（Passive）
   - 効果: While they are wholly within 6" of this unit, friendly **NIGHTHAUNT INFANTRY** and **CAVALRY** units are not visible to enemy units more than 9" from them.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Relics of Dolorum（出典: Scourge of Ghyran: Nighthaunt）
@@ -128,7 +128,7 @@ Crimes of the Condemned are unique enhancements that can be given to non-**HERO 
 - **Cowards and Deserters**（Reaction: You declared a Fight ability for this unit / 10pt）
   - 効果: After that **FIGHT** ability has been resolved, roll a dice. You can spend 1 **rage dice**. If you do: • Add 1 to the roll. • If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. On a 3+, this unit can move a distance up to its Move characteristic. It can move through the combat ranges of enemy units but cannot end that move in combat.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Infernal Sorceries

@@ -1,6 +1,6 @@
 # Spearhead: Sentinels of Embergard（Cities of Sigmar）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Weapons of Gallantry | 2 | 3+ | 4+ | 1 | 1 | - |
 
@@ -43,19 +43,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 4+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ruin-sweeper Arsenal | 10" | 1 | 4+ | 2+ | 2 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Grenadier Bardiche | 2 | 4+ | 4+ | 1 | 2 | - |
 
@@ -73,13 +73,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ranger Blades | 6 | 3+ | 4+ | 1 | 2 | - |
 
@@ -99,13 +99,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sigmarite Warhammer | 4 | 4+ | 3+ | 1 | D3 | - |
 
@@ -117,12 +117,13 @@
 
 **キーワード:** Hero, Priest, Infantry
 
-## バトル特性（Sentinels of Embergard Battle Traits）
+## 戦闘特性（Sentinels of Embergard Battle Traits）
 
 - **Ranger Doctrines**（Once Per Turn (Army), Reaction: You declared a **FIGHT** ability for your general or a friendly non-**HERO** unit wholly within 12" of your general）
+  - 使用者: The unit using that **FIGHT** ability.
   - 効果: Immediately after that **FIGHT** ability has been resolved, pick a point on the battlefield within 6" of your general. Remove the unit using this ability from the battlefield and set it up again within 1" of that point and not in combat.
 
-## レジメントアビリティ（Sentinels of Embergard Regiment Abilities）
+## 連隊アビリティ（Sentinels of Embergard Regiment Abilities）
 
 Pick 1 of the following regiment abilities:
 

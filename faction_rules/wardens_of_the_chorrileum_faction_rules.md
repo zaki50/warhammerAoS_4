@@ -1,9 +1,9 @@
 # Wardens of the Chorrileum ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Wardens of the Chorrileum Battle Traits（出典: Army of Renown: Wardens of the Chorrileum）
@@ -30,7 +30,7 @@
 - **Serve the Enclave**（Passive）
   - 効果: While this unit and a friendly **CHORRILEUM NAMARTI** unit are contesting the same objective, this unit has a control score of 10 that cannot be modified.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Wardens of the Chorrileum Artefact of Power（出典: Army of Renown: Wardens of the Chorrileum）
@@ -41,7 +41,7 @@
   - 宣言: Pick a friendly **CHORRILEUM NAMARTI** unit that has been destroyed to be the target.
   - 効果: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12" of this unit and more than 9" from all enemy units.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Wardens of the Chorrileum Manifestation Lore

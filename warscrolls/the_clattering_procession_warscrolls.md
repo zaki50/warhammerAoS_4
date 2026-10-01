@@ -1,6 +1,6 @@
 # The Clattering Procession ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全10 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,19 +15,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 12 | 5+ | 5 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Soulreach Grasp | 10" | 2 | 4+ | 3+ | 2 | 2 | Crit (Auto-wound), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Relic Bearers' Claws and Ethereal Steeds' Hooves | 14 | 4+ | 4+ | - | 1 | Crit (Auto-wound), Companion |
 | Wraith's Spectral Weapons | 5 | 3+ | 3+ | 1 | 2 | Anti-INFANTRY (+1 Rend), Crit (Auto-wound) |
@@ -55,19 +55,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 12 | 5+ | 5 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Soulreach Grasp | 10" | 2 | 4+ | 3+ | 2 | 2 | Crit (Auto-wound), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Relic Bearers' Claws and Ethereal Steeds' Hooves | 14 | 4+ | 4+ | - | 1 | Crit (Auto-wound), Companion |
 | Wraith's Spectral Weapons | 5 | 3+ | 3+ | 1 | 2 | Anti-INFANTRY (+1 Rend), Crit (Auto-wound) |
@@ -83,7 +83,7 @@
   - 宣言: If this unit charged this phase, pick an enemy unit within 1" of it to be the target.
   - 効果: Roll a D3. On a 2+, inflict an amount of mortal damage equal on the target equal to the roll.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **NIGHTHAUNT** **CAVALRY**
 
@@ -97,13 +97,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 3 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dreadblade | 4 | 4+ | 3+ | 1 | 2 | Crit (Auto-wound) |
 | Ethereal Steed’s Ghostly Hooves and Teeth | 3 | 5+ | 3+ | - | 1 | Crit (Auto-wound), Companion |
@@ -125,13 +125,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 3 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ethereal Steed’s Ghostly Hooves and Teeth | 2 | 5+ | 3+ | - | 1 | Crit (Auto-wound), Companion |
 | Spectral Scythe | 2 | 4+ | 4+ | 1 | 1 | Charge (+1 Damage), Crit (Auto-wound) |
@@ -154,13 +154,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 7 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sword of Stolen Hours | 5 | 4+ | 3+ | 1 | 2 | Crit (Auto-wound) |
 | Ethereal Steed’s Ghostly Hooves and Teeth | 3 | 5+ | 3+ | - | 1 | Crit (Auto-wound), Companion |
@@ -172,7 +172,7 @@
 - **Stolen Hours**（Passive）
   - 効果: Each time this unit uses a **FIGHT** ability, after that **FIGHT** ability has been resolved, **Heal (X)** this unit, where **X** is the number of damage points allocated to enemy units by combat attacks made as part of that **FIGHT** ability.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Cursed Soul*
 - Any **NIGHTHAUNT**
@@ -189,13 +189,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 7 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fellreaper | 5 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage), Crit (Auto-wound) |
 | Kyllaron’s Ghostly Hooves and Teeth | 3 | 5+ | 3+ | - | 1 | Crit (Auto-wound), Companion |
@@ -211,7 +211,7 @@
   - 宣言: Pick either this unit or a visible enemy unit within 12" of this unit to be the target.
   - 効果: If you picked this unit, allocate 1 damage point to this unit and add 1 to casting rolls for this unit for the rest of the turn (ward rolls cannot be made for that damage point). If you picked an enemy unit, roll a dice. On a 3+, inflict 1 mortal damage on that enemy unit and for the rest of the turn: • Add 1 to casting rolls for this unit. • Add 1 to this unit's power level.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Cursed Soul*
 - Any **NIGHTHAUNT**
@@ -228,13 +228,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 12 | 5+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Black Coach’s Iron‑shod Wheels | 8 | 4+ | 3+ | 2 | 2 | Crit (Auto-wound), Companion |
 | Wraith's Spectral Weapons | 5 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage), Crit (Auto-wound) |
@@ -263,13 +263,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 12 | 5+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Black Coach’s Iron‑shod Wheels | 8 | 4+ | 3+ | 2 | 2 | Crit (Auto-wound), Companion |
 | Wraith's Spectral Weapons | 5 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage), Crit (Auto-wound) |
@@ -284,7 +284,7 @@
 - **Spectral Attendants**（Once Per Turn (Army), Any Hero Phase）
   - 効果: Pick 1 of the following to apply for the rest of the turn: ***Noble Blade:*** This unit's melee weapons, including **Companion** weapons, have **Crit (Mortal)** instead of **Crit (Auto-wound)**. ***Unholy Grail:*** Each time a friendly **NIGHTHAUNT** unit wholly within 12" of this unit uses the 'Rally' command, you receive 3 additional rally points. ***Tome of Undead Lore:*** This unit has **WIZARD (1)**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **NIGHTHAUNT** **CAVALRY**
 
@@ -302,13 +302,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 12 | 5+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Black Coach’s Iron-shod Wheels | 8 | 4+ | 3+ | 2 | 2 | Crit (Auto-wound), Companion |
 | Wraith's Spectral Weapons | 5 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage), Crit (Auto-wound) |
@@ -337,13 +337,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 12 | 5+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Wraith's Spectral Weapons | 5 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage), Crit (Auto-wound) |
 | Black Coach’s Iron-shod Wheels | 8 | 4+ | 3+ | 2 | 2 | Crit (Auto-wound), Companion |
@@ -358,7 +358,7 @@
 - **Spectral Carriage**（Your Charge Phase）
   - 効果: For the rest of the phase, add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **NIGHTHAUNT** **CAVALRY**
 

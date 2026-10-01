@@ -1,6 +1,6 @@
 # Gorechosen Champions ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全9 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ensorcelled Axe | 4 | 3+ | 3+ | 1 | 2 | Blood-hungry |
 
@@ -32,7 +32,7 @@
 - **Rage of Khorne**（Once Per Battle (Army), Any Combat Phase）
   - 効果: Add 1 to the Attacks characteristic of friendly **BLOODBOUND** units' melee weapons for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BLOODBOUND**
 
@@ -50,13 +50,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Torture Blade and Blood Whip | 4 | 3+ | 4+ | 1 | 2 | Blood-hungry |
 
@@ -66,7 +66,7 @@
   - 宣言: Pick a friendly non-**HERO BLOODBOUND** unit within this unit’s combat range to be the target.
   - 効果: For the rest of the turn, the target can use **CHARGE** abilities even if it used a **RUN** ability in the same turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BLOODBOUND**
 
@@ -84,13 +84,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kingslayer Axe | 4 | 3+ | 3+ | 1 | 3 | Blood-hungry, Crit (2 Hits) |
 
@@ -102,7 +102,7 @@
 - **Trophies of Glorious Deaths**（Reaction: Opponent declared a command for a unit within 8" of this unit）
   - 効果: Roll a dice. On an 5+, that command has no effect, it still counts as having been used and the command points spent to use it are still lost. This reaction cannot be used more than once per command.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BLOODBOUND**
 
@@ -120,13 +120,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 7 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Flesh Hound’s Blood‑dark Claws | 4 | 4+ | 3+ | - | 1 | Companion |
 | Axe of Khorne | 5 | 3+ | 3+ | 2 | 2 | Blood-hungry |
@@ -139,7 +139,7 @@
 - **Lord of the Bloodbound**（Passive）
   - 効果: Add 1 to wound rolls for friendly **BLOODBOUND INFANTRY** units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any *Bloodbound Warmonger*
 - Any **BLOODBOUND**
@@ -156,13 +156,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ritual Dagger | 2 | 3+ | 3+ | 2 | D3 | Blood-hungry |
 
@@ -172,7 +172,7 @@
   - 宣言: Pick an objective or terrain feature within this unit’s combat range to be the target.
   - 効果: For the rest of the battle, add I to wound rolls for combat attacks made by friendly **BLOODBOUND** units while they are wholly within 12" of the target.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BLOODBOUND**
 
@@ -190,13 +190,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 7 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Flesh Hound’s Blood‑dark Claws | 3 | 4+ | 3+ | - | 1 | Companion |
 | Axe of Khorne | 4 | 3+ | 3+ | 2 | 3 | Blood-hungry |
@@ -210,7 +210,7 @@
   - 宣言: If this unit is in combat, pick a visible friendly **BLOODBOUND** unit that is wholly within 12" of this unit and not in combat to be the target. Then, make a charge roll of 2D6.
   - 効果: The target can move a distance up to the value of the charge roll. That unit can move through the combat ranges of any enemy units and must end that move within 1⁄2" of a visible enemy unit. If it does so, the target has charged.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any *Bloodbound Warmonger*
 - Any **BLADES OF KHORNE**
@@ -229,7 +229,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 10 | 4+ | - |
 
@@ -265,13 +265,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Brazen Anvil | 4 | 4+ | 2+ | 1 | 3 | Anti-MONSTER (+1 Rend), Blood-hungry |
 
@@ -284,7 +284,7 @@
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
   - 効果: Roll a dice. If the roll is equal to or less than the target’s Control characteristic, the target has **STRIKE-LAST** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BLOODBOUND**
 
@@ -302,13 +302,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bloodbathed Weapon | 4 | 3+ | 3+ | 1 | 2 | Blood-hungry |
 
@@ -320,7 +320,7 @@
   - 宣言: Pick a unit (friendly or enemy) within this unit's combat range to be the target.
   - 効果: Roll a D3. On a 2+: • Inflict an amount of mortal damage on the target equal to the roll. • This unit gains 1 ritual point.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BLOODBOUND**
 

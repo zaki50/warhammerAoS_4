@@ -1,6 +1,6 @@
 # Spearhead: Akhelian Tide Guard（Idoneth Deepkin）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 4 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Helsabre | 3 | 3+ | 4+ | 1 | 1 | - |
 | Fangmora’s Fangs and Lashing Tail | 3 | 4+ | 3+ | 1 | D3 | Companion |
@@ -44,13 +44,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 7 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Deepmare’s Fangs, Talons and Lashing Tails | 4 | 4+ | 3+ | 1 | 2 | Companion |
 | Akhelian Royal Weapons | 5 | 3+ | 4+ | 1 | 2 | - |
@@ -72,13 +72,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 4 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fangmora’s Fangs and Lashing Tail | 3 | 4+ | 3+ | 1 | D3 | Companion |
 | Voltspear | 2 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage) |
@@ -97,19 +97,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 7" | 1 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Whisperbow | 12" | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Keening Blade | 1 | 3+ | 4+ | - | 1 | - |
 
@@ -120,12 +120,12 @@
 
 **キーワード:** Infantry, Reinforcements
 
-## バトル特性（Akhelian Tide Guard Battle Traits）
+## 戦闘特性（Akhelian Tide Guard Battle Traits）
 
 - **Royal Imperative**（Once Per Battle (Army), Any Combat Phase）
   - 効果: Pick 1 of the following effects to apply for the rest of the battle round: ***Into Them!:*** Friendly units have **STRIKE-FIRST**. ***Strike Sure:*** Friendly units’ melee weapons have **Crit (Mortal)**.
 
-## レジメントアビリティ（Akhelian Tide Guard Regiment Abilities）
+## 連隊アビリティ（Akhelian Tide Guard Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

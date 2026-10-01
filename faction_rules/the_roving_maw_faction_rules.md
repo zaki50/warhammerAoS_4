@@ -1,9 +1,9 @@
 # The Roving Maw ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### The Roving Maw Battle Traits（出典: Army of Renown: The Roving Maw）
@@ -30,7 +30,7 @@
 - **Prime Gutserver**（Once Per Battle Round (Army), Start of Battle Round）
   - 効果: If this unit is within 1" of a friendly **Mawpit**, gain 1 **tasty morsel**.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### The Roving Maw Artefact of Power（出典: Army of Renown: The Roving Maw）
@@ -40,7 +40,7 @@
 - **Flasks of Congealed Maw-juices**（Passive）
   - 効果: Friendly **Mawpits** within this unit’s combat range have **WARD** **(5+)**.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### The Roving Maw Spell Lore

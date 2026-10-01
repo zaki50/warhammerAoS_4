@@ -1,6 +1,6 @@
 # Spearhead: Gnawfeast Clawpack（Skaven）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -20,13 +20,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rusty Blade | 2 | 4+ | 5+ | - | 1 | - |
 
@@ -43,19 +43,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 9" | 7 | 4+ | 2 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ratling Pistol | 10" | D6 | 3+ | 3+ | 1 | 1 | Crit (Auto-wound), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warpforged Halberd | 5 | 3+ | 4+ | 1 | 2 | - |
 | Gnaw-beast's Chisel Fangs | 4 | 4+ | 3+ | 1 | D3 | Companion |
@@ -73,13 +73,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 6+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warpstone Staff | 3 | 4+ | 4+ | 1 | D3 | - |
 
@@ -100,19 +100,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 4 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Warpfire Gun | 10" | 2D6 | 2+ | 4+ | 2 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Claws, Blades and Fangs | 5 | 4+ | 3+ | 1 | 2 | - |
 
@@ -129,19 +129,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Warplock Musket | 24" | 2 | 3+ | 3+ | 2 | D3 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warpforged Dagger | 3 | 4+ | 4+ | - | 2 | - |
 
@@ -152,7 +152,7 @@
 
 **キーワード:** Hero, Infantry
 
-## バトル特性（Gnawfeast Clawpack Battle Traits）
+## 戦闘特性（Gnawfeast Clawpack Battle Traits）
 
 - **Gnawhole Ambush**（Your Movement Phase）
   - 宣言: Pick a friendly unit that is **in the tunnels below** to use this ability.
@@ -161,7 +161,7 @@
   - 宣言: Pick a friendly unit that has not been deployed to be the target.
   - 効果: The target unit is set up in reserve in the tunnels below. Units **in the tunnels below** that have not used the ‘Gnawhole Ambush’ ability by the end of the third battle round are destroyed.
 
-## レジメントアビリティ（Gnawfeast Clawpack Regiment Abilities）
+## 連隊アビリティ（Gnawfeast Clawpack Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

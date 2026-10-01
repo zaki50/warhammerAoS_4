@@ -1,6 +1,6 @@
 # Zainthar Kai ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全11 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -13,13 +13,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 3 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Heartshard Glaive | 2 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
 
@@ -39,19 +39,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 3 | 5+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Heartseeker Bow | 18" | 3 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Scianlar | 2 | 3+ | 4+ | - | 1 | - |
 
@@ -72,13 +72,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 6 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bloodwrack Spear and Whisperclaw | 5 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
 
@@ -90,7 +90,7 @@
 - **Arcane Resonance**（Passive） ［Exalted］
   - 効果: Add 1 to casting rolls for this unit when it uses a **SUMMON** ability and add 1 to banishment rolls for this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any non-**AELF**
 
@@ -106,19 +106,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 12 | 4+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Bloodwrack Stare | 15" | 4 | 3+ | 3+ | 2 | 3 | Crit (2 Hits), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Shrine Guardians’ Blades | 9 | 3+ | 4+ | 1 | 2 | - |
 
@@ -132,7 +132,7 @@
 - **Aura of Agony**（Once Per Turn (Army), Your Hero Phase） ［Exalted］
   - 効果: Until the start of your next turn: • Enemy **MANIFESTATIONS** cannot be set up within 12" of this unit. • This unit has **WARD (4+)** against mortal damage inflicted by **SPELL** abilities, **PRAYER** abilities and abilities used by **MANIFESTATIONS**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any non-**AELF**
 - 0-1 *Coven Matriarch*
@@ -147,19 +147,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 2 | 5+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Barbed Javelin | 12" | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Barbed Javelin | 1 | 3+ | 4+ | - | 1 | - |
 
@@ -178,13 +178,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 2 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Barbed Sickle | 2 | 3+ | 4+ | 1 | 1 | - |
 
@@ -205,13 +205,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 6 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Keldrisaíth | 6 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
 
@@ -221,7 +221,7 @@
   - 宣言: Pick each friendly **DAUGHTERS OF KHAINE** unit within this unit's combat range to be the targets.
   - 効果: For the rest of the phase, each time a model in a target unit is slain by a combat attack, roll a dice. If that unit is a **Blood Sisters** or **Blood Stalkers** unit, roll 2 dice instead. For each 5+, inflict 1 mortal damage on the attacking unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any non-**AELF**
 
@@ -239,13 +239,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 6 | 5+ | 2 | 4+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Heartrender and Bladed Wings | 5 | 3+ | 4+ | 2 | 2 | - |
 
@@ -260,7 +260,7 @@
 - **The Iron Heart of Khaine**（Passive）
   - 効果: Each time you perform a blood rite, immediately after the ability that destroyed a unit has been resolved, pick 1 of the following effects: • Until the start of your next turn, this unit is only visible to enemy units while those units are within its combat range. • **Heal (D6)** this unit or a friendly Shadow Queen. • A friendly **Shadow Queen** can immediately use the ‘Normal Move’ or ‘Retreat’ ability as if it was your movement phase even if it has already used that ability or another **CORE** ability this phase. • Remove this unit from the battlefield and set it up again on the battlefield more than 9" from all enemy units. • For the rest of the turn, set this unit’s Control characteristic to 5 and a friendly **Shadow Queen’s** Control characteristic to 15. **Designer’s Note:** *If the Shadow Queen retreats with the ‘Iron Heart of Khaine’ ability, she cannot subsequently use the ‘Fight’ ability in the same combat phase.*
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - **The Shadow Queen** (required)
 - 0-1 *Coven Matriarch*
@@ -278,13 +278,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 6 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Keldrisaíth | 6 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
 
@@ -294,7 +294,7 @@
   - 宣言: Pick a visible friendly **DAUGHTERS OF KHAINE** unit wholly within 12" of this unit to be the target.
   - 効果: Roll a dice. If this unit is in combat, you can re-roll the dice. If the roll is lower than your **fury level**, add 1 to the Attacks characteristic of weapons used by this unit and the target until the start of your next turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any non-**AELF**
 
@@ -312,7 +312,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 12 | 4+ | - | 6+ |
 
@@ -343,13 +343,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 15 | 4+ | 10 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Envenomed Tail | 1 | 3+ | 3+ | 2 | 6 | Crit (Mortal) |
 | Heartrender（戦傷時） | 8 | 3+ | 3+ | 2 | 3 | Crit (Mortal) |

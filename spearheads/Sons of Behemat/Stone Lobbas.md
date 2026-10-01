@@ -1,6 +1,6 @@
 # Spearhead: Stone Lobbas（Sons of Behemat）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -16,19 +16,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 12 | 5+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hurlin' Rocks | 12" | 3 | 4+ | 2+ | 1 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Massive Clubs and Rocks | 4 | 4+ | 2+ | 1 | 2 | - |
 | 'Eadbutt | 1 | 4+ | 2+ | 2 | 3 | - |
@@ -40,7 +40,7 @@
 
 **キーワード:** Monster, Reinforcements
 
-## バトル特性（Stone Lobbas Battle Traits）
+## 戦闘特性（Stone Lobbas Battle Traits）
 
 - **Bowled Over**（Your Shooting Phase）
   - 宣言: Pick an enemy unit that was allocated any damage points by a friendly unit's shooting attacks this turn to be the target.
@@ -49,7 +49,7 @@
   - 宣言: Pick your general to use this ability, then pick another friendly unit wholly within 12" of them to be the target.
   - 効果: Add 1 to hit rolls for the target's shooting attacks for the rest of the turn.
 
-## レジメントアビリティ（Stone Lobbas Regiment Abilities）
+## 連隊アビリティ（Stone Lobbas Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

@@ -1,9 +1,9 @@
 # Zoggrok's Ironmongerz ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Zoggrok's Ironmongerz Battle Traits（出典: Army of Renown: Zoggrok's Ironmongerz）
@@ -28,7 +28,7 @@
 - **Oi! Back To It!**（Passive）
   - 効果: If a friendly **ZOGGROK’S IRONMONGERZ Ardboyz** or **Brutes** unit wholly within 12" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Zoggrok's Ironmongerz Artefact of Power（出典: Army of Renown: Zoggrok's Ironmongerz）
@@ -38,7 +38,7 @@
 - **Da Great Wollopa**（Passive）
   - 効果: If any damage points are allocated to an enemy unit by attacks made by this unit, that enemy unit is **krump’d** until the start of your next turn. While a unit is **krump’d**: • Subtract 1 from save rolls for that unit. • Ignore positive modifiers to save rolls for that unit.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Zoggrok's Ironmongerz Manifestation Lore

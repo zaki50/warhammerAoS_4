@@ -1,9 +1,9 @@
 # Knights of the Crimson Keep ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Knights of the Crimson Keep Battle Traits（出典: Army of Renown: Knights of the Crimson Keep）
@@ -29,7 +29,7 @@
 - **Immortal Dedication**（Any Combat Phase）
   - 効果: This unit receives D3 **martial prowess tokens**. Each **martial prowess token** can be spent to do 1 of the following: • Re-roll a hit roll for this unit. • Re-roll a wound roll for this unit. • Re-roll a save roll for this unit. At the start of the next turn, remove all this unit’s **martial prowess tokens**.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Knights of the Crimson Keep Artefact of Power（出典: Army of Renown: Knights of the Crimson Keep）
@@ -37,7 +37,7 @@
 - **Chalice of the Blood Dragon**（Once Per Battle, End of Any Turn）
   - 効果: **Heal (3D3)** this unit.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Knights of the Crimson Keep Manifestation Lore

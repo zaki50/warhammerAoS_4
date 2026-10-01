@@ -1,6 +1,6 @@
 # Lumineth Realm-lords ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全35 ウォースクロール（Spearhead 版 4 件は除外。--include-spearhead で含められる）
 
@@ -15,19 +15,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 14 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Geomantic Blast | 12" | 1 | 3+ | 2+ | 2 | D6 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stoneheart Worldhammer（戦傷時） | 4 | 4+ | 2+ | 2 | 5 | - |
 
@@ -51,13 +51,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stoneguard Hammers | 2 | 3+ | 3+ | 1 | 2 | - |
 
@@ -78,13 +78,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Staff of the High Peaks | 3 | 3+ | 4+ | 1 | D3 | - |
 
@@ -97,7 +97,7 @@
   - 宣言: Pick an objective within 18" of this unit to be the target, then make a casting roll of 2D6.
   - 効果: Until the start of your next turn, each time a non-**FLY** unit (friendly or enemy) that is contesting the target objective uses a **MOVE** ability, inflict D6 mortal damage on that unit after that ability has been resolved.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Ydrilan Riverblades**
 - Any **Vanari Auralan Wardens**
@@ -117,19 +117,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 16 | 4+ | 10 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Lunar Staff | 12" | 1 | 2+ | 2+ | 2 | D3+3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Celennar’s Moonbright Talons（戦傷時） | 5 | 3+ | 3+ | 2 | 3 | Companion |
 | Sword of Teclis | 2 | 3+ | 3+ | 2 | D3 | Crit (Mortal) |
@@ -149,7 +149,7 @@
   - 宣言: You cannot use this ability in the first battle round.&#x20;
   - 効果: Depict a rune of your choice on your **battle scripture**. **Designer’s Note:** *This allows you to have that rune depicted earlier in the **battle scripture** for the purposes of other abilities. Do not resolve the effect of the ‘Depict Rune’ ability as part of this ability.*
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Lumineth Paragon*
 - Any **LUMINETH REALM-LORDS**
@@ -166,19 +166,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 16 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Geomantic Blast | 12" | 1 | 3+ | 2+ | 2 | D6 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Firestealer Hammers（戦傷時） | 6 | 4+ | 2+ | 2 | 4 | - |
 
@@ -194,7 +194,7 @@
 - **Call of the Mountains**（Passive）
   - 効果: While a visible friendly **ALARITH** unit is wholly within 12" of this unit: •  You are treated as having 1 additional instance of **Alaithi, Rune of the Mountain** depicted on your **battle scripture** for the purposes of the abilities on that unit’s warscroll. •  If that unit is picked to be a target of the ‘Depict Rune’ ability, you can apply the enhanced effects of that ability to that unit as if you had an instance of **Alaithi, Rune of the Mountain** depicted on your **battle scripture**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Lumineth Paragon*
 - 0-1 **Alarith Stonemage**
@@ -213,19 +213,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 10 | 4+ | 4 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Blazing Sunbolt | 12" | 3 | 3+ | 3+ | 1 | D3 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dianaer | 2 | 3+ | 4+ | 1 | D3 | - |
 | Altairi | 5 | 2+ | 3+ | 1 | 2 | - |
@@ -242,7 +242,7 @@
   - 宣言: Make a casting roll of 2D6.
   - 効果: Until the start of your next turn, the first time an enemy unit within 18" of this unit uses a command, unless your opponent spends 1 additional command point, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Lumineth Paragon*
 - Any **LUMINETH REALM-LORDS**
@@ -259,19 +259,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 18" | 8 | 4+ | 5 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Bow of the Wind’s Vengeance | 15" | 4 | 2+ | 3+ | 2 | 2 | Anti-MONSTER (+1 Rend), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Swirling Shards | 6 | 2+ | 4+ | - | 1 | Crit (Mortal) |
 
@@ -297,19 +297,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 3 | 4+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Windcharger Bow | 12" | 3 | 3+ | 4+ | 1 | 1 | Anti-CAVALRY (+1 Rend), Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Treerunner’s Claws | 2 | 5+ | 3+ | - | 1 | Companion |
 | Windcharger Blade | 1 | 4+ | 4+ | - | 1 | - |
@@ -331,19 +331,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 5 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Windblast Vortex | 12" | 1 | 2+ | 3+ | 2 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Aspiragillum | 3 | 3+ | 4+ | 1 | D3 | - |
 
@@ -356,7 +356,7 @@
   - 宣言: Pick up to 3 friendly **HURAKAN** unit wholly within 12" of this unit to be the targets.
   - 効果: For the rest of the turn, each target can use a **RUN** ability and still use **SHOOT** and/or **CHARGE** abilities later in the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Ydrilan Riverblades**
 - Any **Vanari Auralan Wardens**
@@ -376,13 +376,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 4+ | 7+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Crackling Energy | 2D6 | 4+ | 4+ | - | 1 | - |
 
@@ -405,13 +405,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 7 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Daemonbane | 2 | 2+ | 3+ | 1 | 2 | Anti-DAEMON (+1 Rend), Charge (+1 Damage) |
 | Farael’s Horns and Claws | 4 | 4+ | 3+ | 1 | 1 | Companion |
@@ -425,7 +425,7 @@
 - **Champion of the Lord Phoenix**（Passive）
   - 効果: While a visible friendly **VANARI** unit is wholly within 12" of this unit: •  You are treated as having 1 additional instance of **Varinor, Rune of Strength** depicted on your **battle scripture** for the purposes of the abilities on that unit’s warscroll. •  If that unit is picked to be a target of the ‘Depict Rune’ ability, you can apply the enhanced effects of that ability to that unit as if you had an instance of **Varinor, Rune of Strength** depicted on your **battle scripture**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Lumineth Paragon*
 - Any **LUMINETH REALM-LORDS**
@@ -442,19 +442,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 3 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Auralan Bow | 18" | 2 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Purifier Weapons | 2 | 2+ | 4+ | 1 | 2 | - |
 
@@ -482,7 +482,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 6 | 4+ | 7+ | 6+ |
 
@@ -503,7 +503,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 6 | 4+ | 7+ | 6+ |
 
@@ -526,13 +526,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Calligrave Blade | 3 | 3+ | 4+ | 1 | 2 | - |
 
@@ -541,7 +541,7 @@
 - **Realmscribe**（Once Per Battle (Army), Reaction: You declared the ‘Depict Rune’ ability）
   - 効果: Replace 1 instance of a rune on your **battle scripture** with 1 of the following: **• Varinor, Rune of Strength** **• Ydriliqi, Rune of the River** **• Alaithi, Rune of the Mountain** **• Oreali, Rune of the Wind**
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Ydrilan Riverblades**
 - Any **Vanari Auralan Wardens**
@@ -561,13 +561,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 6+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Despairing Touch | 3 | 3+ | 4+ | - | D3 | - |
 
@@ -577,7 +577,7 @@
   - 宣言: Pick a visible enemy unit within 18" of this unit to be the target.
   - 効果: Roll a dice. On a 3+, the target cannot use commands until the start of your next turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Ydrilan Riverblades**
 - Any **Vanari Auralan Wardens**
@@ -597,19 +597,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Crescent Staff | 12" | 3 | 3+ | 3+ | 1 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Enlightener Blade | 3 | 3+ | 4+ | 1 | 2 | - |
 
@@ -621,7 +621,7 @@
 - **Rune of Enthlai**（Once Per Turn (Army), Reaction: You declared an **UNLIMITED SPELL** ability for this unit）
   - 効果: If that spell is successfully cast, roll a dice. On a 4+, after resolving the effect of that spell, this unit can immediately cast that spell a second time using the same casting roll. Do not count the second spell towards the number of **SPELL** abilities this unit can use this turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Ydrilan Riverblades**
 - Any **Vanari Auralan Wardens**
@@ -641,19 +641,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Eclipsian Staff | 12" | 3 | 3+ | 3+ | 1 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Loreseeker Blade | 5 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
 
@@ -665,7 +665,7 @@
 - **Independent Operative**（Once Per Battle (Army), Deployment Phase）
   - 効果: Remove this unit from the battlefield and set it up again on the battlefield more than 9" from all enemy units.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Ydrilan Riverblades**
 - Any **Vanari Auralan Wardens**
@@ -685,13 +685,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Staff of the High Peaks | 3 | 3+ | 4+ | 1 | D3 | - |
 
@@ -703,7 +703,7 @@
 - **Elemental Endurance**（Passive）
   - 効果: If this unit is picked to be a target of the ‘Depict Rune’ ability, for the rest of that battle round, when resolving the damage sequence for a friendly **LUMINETH REALM-LORDS** unit while it is wholly within 12" of this unit, if you spend **rage dice** as part of the ‘Fight Through the Pain’ ability, remove 1 damage point from that unit’s damage pool on a 2+ instead of a 3+.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Ydrilan Riverblades**
 - Any **Vanari Auralan Wardens**
@@ -723,19 +723,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Eclipsian Staff | 12" | 3 | 3+ | 3+ | 1 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Loreseeker Blade | 5 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
 
@@ -747,7 +747,7 @@
 - **Leashed Fury**（Once Per Turn (Army), End of Any Turn）
   - 効果: If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, for the rest of the turn: • Each time this unit is picked to use the ‘Eruption of Fury’ ability, if you spend 1 **rage dice** as part of that ability, it counts as 3 **rage dice**. • This unit can be picked to use the ‘Eruption of Fury’ ability even if you have already used it this turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Ydrilan Riverblades**
 - Any **Vanari Auralan Wardens**
@@ -767,19 +767,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 6 | 3+ | 2 | 4+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Searing Darts of Light | 12" | 3 | 2+ | 3+ | 2 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fangsword of Eltharion | 5 | 2+ | 3+ | 3 | 3 | Crit (2 Hits) |
 | Celennari Blade | 2 | 2+ | 3+ | 1 | 3 | Anti-HERO (+1 Rend), Anti-MONSTER (+1 Rend) |
@@ -791,7 +791,7 @@
 - **Eternal Light**（Passive）
   - 効果: If this unit is destroyed and if a friendly **LUMINETH REALM-LORDS WIZARD** successfully casts a **SUMMON** spell, instead of resolving the effect of that **SUMMON** spell, you can set up a replacement unit for this unit more than 9" from all enemy units and wholly within 12" of the unit that used that **SUMMON** spell. This ability is still in effect even if this unit is not on the battlefield.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Lumineth Paragon*
 - Any **LUMINETH REALM-LORDS**
@@ -810,13 +810,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 3+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bannerblade’s Sword | 5 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
 
@@ -825,7 +825,7 @@
 - **Defend the Banner**（Passive）
   - 効果: Add 1 to save rolls for friendly **VANARI INFANTRY** units while they are contesting the same objective as this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **VANARI**
 
@@ -843,19 +843,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 18" | 10 | 4+ | 5 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Enathrai, the Howling Death | 15" | 4 | 2+ | 3+ | 3 | 3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Swirling Shards | 6 | 2+ | 4+ | - | 1 | Crit (Mortal) |
 
@@ -869,7 +869,7 @@
 - **Call of the Winds**（Passive）
   - 効果: While a visible friendly **HURAKAN** unit is wholly within 12" of this unit: •  You are treated as having 1 additional instance of **Oreali, Rune of the Wind** depicted on your **battle scripture** for the purposes of the abilities on that unit’s warscroll. •  If that unit is picked to be a target of the ‘Depict Rune’ ability, you can apply the enhanced effects of that ability to that unit as if you had an instance of **Oreali, Rune of the Wind** depicted on your **battle scripture**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Lumineth Paragon*
 - 0-1 **Hurakan Windmage**
@@ -888,7 +888,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 12 | 3+ | - |
 
@@ -923,19 +923,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 7 | 3+ | 2 | 4+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Searing Darts of Light | 12" | 3 | 2+ | 3+ | 2 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fangsword of Eltharion | 5 | 2+ | 3+ | 3 | 3 | Crit (2 Hits) |
 | Celennari Blade | 2 | 2+ | 3+ | 1 | 3 | Anti-HERO (+1 Rend), Anti-MONSTER (+1 Rend) |
@@ -948,7 +948,7 @@
 - **Supreme Swordmaster**（Passive）
   - 効果: Ignore negative modifiers to hit rolls and wound rolls for this unit’s combat attacks.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Lumineth Paragon*
 - Any **LUMINETH REALM-LORDS**
@@ -967,20 +967,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 7" | 3 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Slipstream Bow | 12" | 3 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound) |
 | Windblast | 12" | 1 | 2+ | 3+ | 2 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Zephyrite Weapons | 1 | 4+ | 4+ | - | 1 | - |
 
@@ -1009,19 +1009,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Auralan Bow | 18" | 2 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sentinel Blade | 1 | 3+ | 4+ | - | 1 | - |
 
@@ -1040,13 +1040,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warden Pike and Blade | 2 | 3+ | 4+ | - | 1 | Anti-charge (+1 Rend), Crit (Mortal) |
 
@@ -1067,13 +1067,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bannerblade’s Sword | 5 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
 
@@ -1082,7 +1082,7 @@
 - **World Banner**（Passive）
   - 効果: While a visible friendly **LUMINETH REALM-LORDS** unit is wholly within 12" of this unit, it can use the ‘Rally’ command even if it is in combat.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **VANARI**
 
@@ -1098,13 +1098,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sunmetal Blade | 3 | 3+ | 4+ | 1 | 1 | Crit (Mortal) |
 
@@ -1125,13 +1125,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 3 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stallions’ Dashing Hooves | 2 | 5+ | 3+ | - | 1 | Companion |
 | Dawnrider Lance and Blade | 2 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage), Crit (Mortal) |
@@ -1153,13 +1153,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Regent’s Sword | 5 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
 
@@ -1171,7 +1171,7 @@
   - 宣言: Pick a friendly **VANARI AURALAN WARDENS** unit wholly within 12" of this unit to be the wall of blades. Then, pick an enemy unit in combat with the wall of blades to be the target.
   - 効果: Roll a dice for each model in the wall of blades that is within 3" of the target. For each 5+, inflict 1 mortal damage on the target.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Ydrilan Riverblades**
 - Any **VANARI**
@@ -1190,13 +1190,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 7 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Lightcourser’s Horns and Claws | 3 | 4+ | 3+ | 1 | 1 | Companion |
 | Regent’s Sword | 5 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
@@ -1208,7 +1208,7 @@
 - **Lead the Charge**（Passive）
   - 効果: You can re-roll charge rolls for friendly **LUMINETH REALM‑LORDS** units while they are wholly within 6" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Lumineth Paragon*
 - 0-1 **Ydrilan Riverblades**
@@ -1228,19 +1228,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Starshard Bolts | 24" | 4 | 3+ | 3+ | 1 | 2 | Anti-MONSTER (+1 Rend), Crit (2 Hits) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Crew’s Arming Swords | 2 | 3+ | 4+ | - | 1 | - |
 
@@ -1262,19 +1262,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 7" | 1 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ythara Darts | 10" | 2 | 3+ | 4+ | - | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ydrilan Blades | 2 | 3+ | 4+ | 1 | 1 | - |
 

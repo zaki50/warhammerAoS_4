@@ -1,6 +1,6 @@
 # Aelementiri Conclave ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全13 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,19 +15,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 14 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Geomantic Blast | 12" | 1 | 3+ | 2+ | 2 | D6 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stoneheart Worldhammer（戦傷時） | 4 | 4+ | 2+ | 2 | 5 | - |
 
@@ -51,13 +51,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stoneguard Hammers | 2 | 3+ | 3+ | 1 | 2 | - |
 
@@ -78,13 +78,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Staff of the High Peaks | 3 | 3+ | 4+ | 1 | D3 | - |
 
@@ -97,7 +97,7 @@
   - 宣言: Pick an objective within 18" of this unit to be the target, then make a casting roll of 2D6.
   - 効果: Until the start of your next turn, each time a non-**FLY** unit (friendly or enemy) that is contesting the target objective uses a **MOVE** ability, inflict D6 mortal damage on that unit after that ability has been resolved.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Ydrilan Riverblades**
 - Any **Vanari Auralan Wardens**
@@ -117,19 +117,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 16 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Geomantic Blast | 12" | 1 | 3+ | 2+ | 2 | D6 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Firestealer Hammers（戦傷時） | 6 | 4+ | 2+ | 2 | 4 | - |
 
@@ -145,7 +145,7 @@
 - **Call of the Mountains**（Passive）
   - 効果: While a visible friendly **ALARITH** unit is wholly within 12" of this unit: •  You are treated as having 1 additional instance of **Alaithi, Rune of the Mountain** depicted on your **battle scripture** for the purposes of the abilities on that unit’s warscroll. •  If that unit is picked to be a target of the ‘Depict Rune’ ability, you can apply the enhanced effects of that ability to that unit as if you had an instance of **Alaithi, Rune of the Mountain** depicted on your **battle scripture**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Lumineth Paragon*
 - 0-1 **Alarith Stonemage**
@@ -164,19 +164,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 18" | 8 | 4+ | 5 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Bow of the Wind’s Vengeance | 15" | 4 | 2+ | 3+ | 2 | 2 | Anti-MONSTER (+1 Rend), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Swirling Shards | 6 | 2+ | 4+ | - | 1 | Crit (Mortal) |
 
@@ -202,19 +202,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 3 | 4+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Windcharger Bow | 12" | 3 | 3+ | 4+ | 1 | 1 | Anti-CAVALRY (+1 Rend), Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Treerunner’s Claws | 2 | 5+ | 3+ | - | 1 | Companion |
 | Windcharger Blade | 1 | 4+ | 4+ | - | 1 | - |
@@ -236,19 +236,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 5 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Windblast Vortex | 12" | 1 | 2+ | 3+ | 2 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Aspiragillum | 3 | 3+ | 4+ | 1 | D3 | - |
 
@@ -261,7 +261,7 @@
   - 宣言: Pick up to 3 friendly **HURAKAN** unit wholly within 12" of this unit to be the targets.
   - 効果: For the rest of the turn, each target can use a **RUN** ability and still use **SHOOT** and/or **CHARGE** abilities later in the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Ydrilan Riverblades**
 - Any **Vanari Auralan Wardens**
@@ -281,19 +281,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 3 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Auralan Bow | 18" | 2 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Purifier Weapons | 2 | 2+ | 4+ | 1 | 2 | - |
 
@@ -321,13 +321,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Staff of the High Peaks | 3 | 3+ | 4+ | 1 | D3 | - |
 
@@ -339,7 +339,7 @@
 - **Elemental Endurance**（Passive）
   - 効果: If this unit is picked to be a target of the ‘Depict Rune’ ability, for the rest of that battle round, when resolving the damage sequence for a friendly **LUMINETH REALM-LORDS** unit while it is wholly within 12" of this unit, if you spend **rage dice** as part of the ‘Fight Through the Pain’ ability, remove 1 damage point from that unit’s damage pool on a 2+ instead of a 3+.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Ydrilan Riverblades**
 - Any **Vanari Auralan Wardens**
@@ -359,19 +359,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 18" | 10 | 4+ | 5 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Enathrai, the Howling Death | 15" | 4 | 2+ | 3+ | 3 | 3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Swirling Shards | 6 | 2+ | 4+ | - | 1 | Crit (Mortal) |
 
@@ -385,7 +385,7 @@
 - **Call of the Winds**（Passive）
   - 効果: While a visible friendly **HURAKAN** unit is wholly within 12" of this unit: •  You are treated as having 1 additional instance of **Oreali, Rune of the Wind** depicted on your **battle scripture** for the purposes of the abilities on that unit’s warscroll. •  If that unit is picked to be a target of the ‘Depict Rune’ ability, you can apply the enhanced effects of that ability to that unit as if you had an instance of **Oreali, Rune of the Wind** depicted on your **battle scripture**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Lumineth Paragon*
 - 0-1 **Hurakan Windmage**
@@ -404,7 +404,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 12 | 3+ | - |
 
@@ -439,20 +439,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 7" | 3 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Slipstream Bow | 12" | 3 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound) |
 | Windblast | 12" | 1 | 2+ | 3+ | 2 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Zephyrite Weapons | 1 | 4+ | 4+ | - | 1 | - |
 
@@ -481,19 +481,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 7" | 1 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ythara Darts | 10" | 2 | 3+ | 4+ | - | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ydrilan Blades | 2 | 3+ | 4+ | 1 | 1 | - |
 

@@ -1,9 +1,9 @@
 # Thanquol's Mutated Menagerie ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Thanquol's Mutated Menagerie Battle Traits（出典: Army of Renown: Thanquol's Mutated Menagerie）
@@ -31,7 +31,7 @@
   - 宣言: Pick up to 2 friendly non-**HERO MUTATED MENAGERIE MONSTER** units wholly within 13" of this unit to be the targets.
   - 効果: The targets can each use the 'All-out Attack' or 'All-out Defence' command this phase even if that command has been used by a friendly unit this phase.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Thanquol's Mutated Menagerie Artefact of Power（出典: Army of Renown: Thanquol's Mutated Menagerie）
@@ -42,7 +42,7 @@
   - 宣言: Pick a friendly non-**HERO MUTATED MENAGERIE MONSTER** unit wholly within 13" of this unit to be the target.
   - 効果: Add 1 to the Attacks characteristic of the target's melee weapons for the rest of the battle. However, at the end of each turn, allocate D3 damage points to the target.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Thanquol's Mutated Menagerie Manifestation Lore

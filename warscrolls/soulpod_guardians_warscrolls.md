@@ -1,6 +1,6 @@
 # Soulpod Guardians ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全11 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 6 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Arch-Revenant’s Glaive | 5 | 3+ | 4+ | 1 | 2 | - |
 
@@ -33,7 +33,7 @@
 - **Fight and Fly**（Reaction: You declared a **FIGHT** ability for this unit）
   - 効果: If this unit charged this turn, this unit can move up to 2D6" after that **FIGHT** ability has been resolved. It cannot end that move in combat.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SYLVANETH** non-**MONSTER**
 
@@ -51,7 +51,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 8 | 4+ | - |
 
@@ -86,13 +86,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Greenwood Scythe and Bittergrub | 3 | 3+ | 4+ | 1 | D3 | - |
 
@@ -102,7 +102,7 @@
   - 宣言: Pick an enemy unit that is within the **creeping overgrowth** or that is visible to this unit and within friendly territory to be the target.
   - 効果: Roll a dice. On a 3+, add 1 to wound rolls for combat attacks that target that enemy unit for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **INFANTRY**
 
@@ -118,19 +118,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 2 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Gossamid Bow | 12" | 2 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cruel Talons | 1 | 3+ | 4+ | - | 1 | - |
 
@@ -153,13 +153,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 7 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Guardian Spites | 6 | 4+ | 4+ | 1 | D3 | Crit (Mortal), Companion |
 | Grove Sickle or Shears | 3 | 3+ | 4+ | 1 | D3 | - |
@@ -173,7 +173,7 @@
   - 宣言: Pick each friendly non-**HERO REVENANT** unit wholly within 12" of and visible to this unit to be the targets.
   - 効果: For the rest of the phase, each time a model in a target unit is slain by a combat attack, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SYLVANETH**
 
@@ -187,13 +187,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Seeker’s Sickle | 3 | 3+ | 4+ | 1 | 1 | Crit (Mortal) |
 | Dragonspite's Mandibles | 3 | 4+ | 3+ | 1 | 2 | Companion |
@@ -216,13 +216,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cruel Talons and Fangs | 3 | 3+ | 4+ | - | 1 | Crit (Mortal) |
 
@@ -241,13 +241,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spiterider Lance | 3 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage), Crit (2 Hits) |
 | Dragonspite's Mandibles | 3 | 4+ | 3+ | 1 | 2 | Companion |
@@ -269,20 +269,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Voracious Swarm | 10" | 6 | 3+ | 4+ | 1 | 1 | Shoot in Combat |
 | Warden’s Bow | 18" | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Twistroot Weapons | 3 | 3+ | 4+ | 1 | 1 | - |
 
@@ -306,13 +306,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Revenant Blade | 3 | 3+ | 4+ | 1 | 1 | - |
 
@@ -333,13 +333,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 7 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spirit Falchion and Spearing Vines | 5 | 3+ | 3+ | 1 | D3 | - |
 
@@ -350,7 +350,7 @@
 - **Rousing Accompaniment**（Once Per Turn (Army), Reaction: You made an unmodified chanting roll of 1 for a **SYLVANETH PRIEST** wholly within 12" of this unit）
   - 効果: Re-roll that chanting roll.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SYLVANETH**
 

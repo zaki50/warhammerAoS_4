@@ -1,6 +1,6 @@
 # Barrow Legion ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全10 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -13,13 +13,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 1 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Wight Blade | 2 | 3+ | 3+ | 1 | 1 | Crit (Mortal) |
 
@@ -38,13 +38,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 3 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Barrow Lance | 2 | 4+ | 3+ | 1 | 1 | Crit (Mortal), Charge (+1 Damage) |
 | Skeletal Steed’s Hooves and Teeth | 2 | 5+ | 3+ | - | 1 | Companion |
@@ -68,7 +68,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 8 | 4+ | - | 6+ |
 
@@ -96,13 +96,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 1 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ancient Weapon | 2 | 4+ | 4+ | - | 1 | - |
 
@@ -123,13 +123,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 2 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ancient Weapon | 2 | 4+ | 4+ | - | 1 | Crit (2 Hits) |
 
@@ -154,13 +154,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 2 | 3+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Royal Weapons | 3 | 4+ | 3+ | 1 | 1 | Crit (Mortal) |
 
@@ -185,13 +185,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 5 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cursed Halberd and Sabre | 4 | 4+ | 3+ | 2 | 2 | Crit (Mortal) |
 
@@ -202,7 +202,7 @@
 - **Echoes of the Watch**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly **Deathrattle Skeletons** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **DEATHRATTLE**
 
@@ -220,13 +220,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 5 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Baleful Tomb Blade | 5 | 4+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -238,7 +238,7 @@
 - **Ancient Strategies**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly non-**HERO DEATHRATTLE INFANTRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -256,13 +256,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 8 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | King's Relic Weapon | 5 | 4+ | 3+ | 1 | 2 | Charge (+1 Damage), Crit (Mortal) |
 | Skeletal Steed’s Hooves and Teeth | 2 | 5+ | 3+ | - | 1 | Companion |
@@ -275,7 +275,7 @@
   - 宣言: Pick an objective or terrain feature within enemy territory.
   - 効果: For the rest of the turn, add 1 to hit rolls for attacks made by friendly **DEATHRATTLE** units while they are wholly within 6" of that objective or terrain feature.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Deathrattle Overseer*
 - Any **SOULBLIGHT GRAVELORDS**
@@ -294,13 +294,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 7 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Skeletal Steed’s Hooves and Teeth | 2 | 5+ | 3+ | - | 1 | Companion |
 | Lord's Tomb Blade | 4 | 4+ | 3+ | 1 | 2 | Charge (+1 Damage), Crit (Mortal) |
@@ -312,7 +312,7 @@
 - **Lord of Trampling Bones**（Passive）
   - 効果: Add 1 to charge rolls for friendly **DEATHRATTLE CAVALRY** units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **DEATHRATTLE**
 

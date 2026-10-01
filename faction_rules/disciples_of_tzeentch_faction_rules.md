@@ -1,9 +1,9 @@
 # Disciples of Tzeentch ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Disciples of Tzeentch Battle Traits（出典: Chaos Battletome: Disciples of Tzeentch）
@@ -23,11 +23,13 @@ Disciples of Tzeentch armies can use the following abilities:
 - **Destined to Serve**（Passive）
   - 効果: Before allocating damage points to a friendly **DISCIPLES OF** **TZEENTCH** unit, you can spend any number of **fate points**. For each **fate point** you spend, remove 1 damage point in that unit’s damage pool.
 - **Destined Arcana**（Reaction: You declared a **SPELL** ability for a **DISCIPLES OF TZEENTCH** unit）
+  - 使用者: The unit using that **SPELL** ability.
   - 効果: Spend any number of **fate points**. For each **fate point** you spend, add 1 to the casting roll for that spell.
 - **Destined for Battle**（Reaction: You declared a **CHARGE** ability for a **DISCIPLES OF TZEENTCH** unit in your turn）
+  - 使用者: The unit using that **CHARGE** ability.
   - 効果: Spend any number of **fate points**. For each **fate point** you spend, add 1 to the charge roll for that **CHARGE** ability.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Denizens of the Silver Towers
@@ -79,7 +81,7 @@ Disciples of Tzeentch armies can use the following abilities:
   - 宣言: Pick a visible enemy unit within 12" of this unit to be the target.
   - 効果: Roll a dice. Add 1 to the roll if any damage points were allocated to the target this phase. On a 3+, the target has a maximum control score of 1 until the start of your next turn.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Esoteric Treasures（出典: Scourge of Ghyran: Disciples of Tzeentch）
@@ -131,7 +133,7 @@ Visions of Fate are unique enhancements that can be given to non-**HERO** non-**
 - **Vision of Arcane Sacrifice**（Passive / 20pt）
   - 効果: While units (friendly or enemy) are within 6" of this unit: • Add 1 to unbinding rolls for those units. • Spells cast by those units are miscast on an unmodified casting roll of 4 or less. The first time this unit is destroyed, gain D6 **fate points**.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Lore of Change

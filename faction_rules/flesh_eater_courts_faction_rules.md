@@ -1,9 +1,9 @@
 # Flesh-eater Courts ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Flesh-eater Courts Battle Traits（出典: Death Battletome: Flesh-eater Courts）
@@ -30,7 +30,7 @@ Flesh-eater Courts armies can use the following abilities:
   - 宣言: Pick a friendly **FLESH‑EATER COURTS HERO** in combat to be the target.
   - 効果: For the rest of the turn, add 1 to the Attacks characteristic of melee weapons, including **Companion** weapons, used by friendly **FLESH‑EATER COURTS** units while they are wholly within 12" of the target.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Impassioned Serfs
@@ -80,7 +80,7 @@ Flesh-eater Courts armies can use the following abilities:
 - **Savage Beyond Reason**（Passive / 40pt）
   - 効果: Add 1 to the Attacks characteristic of this unit’s melee weapons, including **Companion** weapons, if it did not use a **FIGHT** ability in the previous turn. Add 2 to the Attacks characteristic of those weapons instead while this unit has not used a **FIGHT** ability this battle.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### The Royal Treasury（出典: Death Battletome: Flesh-eater Courts）
@@ -137,7 +137,7 @@ Noble Pursuits are unique enhancements that can be given to non-**HERO FLESH-EAT
   - 宣言: Pick an enemy unit in combat with a friendly **Varghulf Courtier** to be the target.
   - 効果: For the rest of the phase: • Add 2 to charge rolls for this unit. • If this unit uses a **CHARGE** ability, it must end the charge move in combat with the target.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Lore of Madness

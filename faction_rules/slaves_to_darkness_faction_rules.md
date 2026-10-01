@@ -1,9 +1,9 @@
 # Slaves to Darkness ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Slaves to Darkness Battle Traits（出典: Chaos Battletome: Slaves to Darkness）
@@ -27,7 +27,7 @@
   - 宣言: Pick a friendly **PLEDGED TO TZEENTCH** unit to be the target.
   - 効果: Roll 2D6. Then pick a point within a number of inches of the target equal to the roll. Remove the target from the battlefield and set it up again on the battlefield wholly within 6" of that point and more than 9" from all enemy units.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Champions of Chaos（40pt）
@@ -79,7 +79,7 @@
   - 宣言: Pick each damaged friendly unit wholly within 12" of this unit to be the targets.
   - 効果: Roll a dice for each target. On a 3+, **Heal (1)** the target. **Heal** **(3)** the target instead if it is a **MONSTER**.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Fell Artefacts（出典: Scourge of Ghyran: Slaves to Darkness）
@@ -149,7 +149,7 @@ An Ensorcelled Banner is a unique enhancement that can be given to **SLAVES TO D
 - **The Blasted Standard**（Passive）
   - 効果: This unit has the **PLEDGED TO TZEENTCH** keyword. In addition, while this unit includes any standard bearers, this unit has **WARD (4+)** against damage inflicted by shooting attacks.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Lore of the Damned

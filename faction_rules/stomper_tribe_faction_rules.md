@@ -1,9 +1,9 @@
 # Stomper Tribe ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Stomper Tribe Battle Traits（出典: Army of Renown: Stomper Tribe）
@@ -36,7 +36,7 @@
 - **Eager for the Fight**（Passive）
   - 効果: When making charge rolls for this unit, add 1 to the number of dice rolled, to a maximum of 3, then remove 1 dice of your choice and use the remaining dice as the charge roll.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Stomper Tribe Artefacts of Power（出典: Army of Renown: Stomper Tribe）

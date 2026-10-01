@@ -1,9 +1,9 @@
 # Lords of the Clan ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Lords of the Clan Battle Traits（出典: Army of Renown: Lords of the Clan）
@@ -30,7 +30,7 @@
 - **Ancient Might**（Passive）
   - 効果: This unit can use **CHARGE** abilities even if it is in combat. If the charge roll is 3 or less when it does so, it does not count as having charged.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Lords of the Clan Artefact of Power（出典: Army of Renown: Lords of the Clan）
@@ -40,7 +40,7 @@
 - **Rejuvenating Companions**（End of Any Turn）
   - 効果: **Heal (3)** this unit.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Lords of the Clan Manifestation Lore

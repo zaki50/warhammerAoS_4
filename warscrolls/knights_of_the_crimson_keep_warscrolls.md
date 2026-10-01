@@ -1,6 +1,6 @@
 # Knights of the Crimson Keep ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全6 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -13,13 +13,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 3 | 3+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Templar Weapon | 3 | 3+ | 3+ | 1 | 1 | Anti-INFANTRY (+1 Rend), Charge (+1 Damage) |
 | Nightmare’s Hooves and Teeth | 3 | 5+ | 3+ | - | 1 | Companion |
@@ -42,13 +42,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 3 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Chiropteran Fangs | 3 | 4+ | 4+ | - | 2 | Companion |
 
@@ -71,19 +71,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 18 | 3+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Shordemaire’s Miasma | 10" | D6 | 3+ | 3+ | 2 | 2 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | The Bloodlance | 6 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage) |
 | Shordemaire’s Claws（戦傷時） | 7 | 4+ | 2+ | 1 | 2 | Companion |
@@ -103,7 +103,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of **Shordemaire’s Claws** is 5.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Deathrattle Overseer*
 - Any **SOULBLIGHT GRAVELORDS**
@@ -120,19 +120,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 16 | 5+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Pestilential Miasma | 10" | 5 | 3+ | 3+ | 1 | 2 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Draconic Maw | 3 | 4+ | 2+ | 2 | 3 | Companion |
 | Draconic Claws | 7 | 4+ | 2+ | 1 | 2 | Companion |
@@ -163,19 +163,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 16 | 5+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Pestilential Miasma | 10" | 5 | 3+ | 3+ | 1 | 2 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Draconic Maw | 3 | 4+ | 2+ | 2 | 3 | Companion |
 | Draconic Claws（戦傷時） | 7 | 4+ | 2+ | 1 | 2 | Companion |
@@ -204,13 +204,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 7 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dynastic Cavalier Weapon | 5 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage) |
 | Nightmare’s Hooves and Teeth | 3 | 5+ | 3+ | - | 1 | Companion |
@@ -223,7 +223,7 @@
 - **'For Glory! For Blood!'**（Reaction: You declared a CHARGE ability for this unit）
   - 効果: You can re-roll the charge roll for that **CHARGE** ability. Then, before the charge move is made, you can pick a friendly **Blood Knights** unit that is not in combat, is wholly within 12" of this unit and has not used a **CHARGE** ability this turn to be the target. If this unit charges, then, immediately after the **CHARGE** ability used by this unit has been resolved, the target can immediately use the ‘Charge’ ability even if it is not your charge phase. In addition, you can re-roll charge rolls for the target this phase.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 

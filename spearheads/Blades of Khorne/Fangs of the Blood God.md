@@ -1,6 +1,6 @@
 # Spearhead: Fangs of the Blood God（Blades of Khorne）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -18,13 +18,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Weapons of the Hunt | 3 | 4+ | 3+ | - | 1 | Crit (2 Hits) |
 
@@ -42,13 +42,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 2 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Blood-dark Claws | 4 | 4+ | 3+ | - | 1 | - |
 
@@ -65,13 +65,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 7 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Savage Maws and Goreslick Claws | 6 | 4+ | 3+ | 1 | 2 | Anti-HERO (+1 Rend) |
 
@@ -82,7 +82,7 @@
 
 **キーワード:** Hero, Beast, Ward (6+)
 
-## バトル特性（Fangs of the Blood God Battle Traits）
+## 戦闘特性（Fangs of the Blood God Battle Traits）
 
 - **The Quarry**（Start of Battle Round）
   - 効果: If no enemy units are the **quarry**, pick an enemy unit to be the **quarry** (you can pick an enemy unit in reserve).
@@ -90,7 +90,7 @@
   - 宣言: Pick a friendly unit that slew any enemy models using a **FIGHT** ability this turn to be the target.
   - 効果: For the rest of the battle, the target's melee weapons have **Crit (Mortal).**
 
-## レジメントアビリティ（Fangs of the Blood God Regiment Abilities）
+## 連隊アビリティ（Fangs of the Blood God Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

@@ -1,6 +1,6 @@
 # Gloomspite Gitz ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全56 ウォースクロール（Spearhead 版 4 件は除外。--include-spearhead で含められる）
 
@@ -15,19 +15,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 12 | 5+ | 10 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Throwin’ Rocks | 12" | 1 | 5+ | 2+ | 2 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Mighty Kick | 1 | 4+ | 2+ | 2 | D3 | - |
 | ’Eadbutt | 1 | 4+ | 2+ | 2 | 4 | - |
@@ -53,20 +53,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 16 | 4+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Spider-bows | 18" | 10 | 4+ | 5+ | - | 1 | - |
 | Flinger | 24" | D3 | 4+ | 3+ | - | 1 | Crit (2 Hits) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Chitinous Legs（戦傷時） | 8 | 4+ | 2+ | 1 | 1 | Companion |
 | Crooked Spears | 10 | 5+ | 4+ | - | 1 | - |
@@ -96,19 +96,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 16 | 4+ | 10 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Spider-bows | 18" | 10 | 4+ | 5+ | - | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Chitinous Legs（戦傷時） | 8 | 4+ | 2+ | 1 | 1 | Companion |
 | Crooked Spears | 10 | 5+ | 4+ | - | 1 | - |
@@ -136,7 +136,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 14 | 4+ | - |
 
@@ -163,13 +163,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | D6+6" | 2 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Pokin’ Lance | 3 | 4+ | 4+ | 1 | 1 | Charge (+1 Damage) |
 | Fang-filled Gob | 3 | 4+ | 3+ | 1 | 1 | Companion |
@@ -192,13 +192,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 6+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Beastgrabba Weapons | 2 | 4+ | 5+ | - | 1 | Anti-BEAST (+1 Rend), Anti-MONSTER (+1 Rend) |
 | Borgit's Stabba | 5 | 4+ | 4+ | 1 | D3 | Anti-BEAST (+1 Rend), Anti-MONSTER (+1 Rend) |
@@ -228,13 +228,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 12 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Boulder Club | 5 | 4+ | 2+ | 2 | D6 | - |
 
@@ -247,7 +247,7 @@
 - **Shepherd of Destruction**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
   - 効果: Roll a dice. On a 4+, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **TROGGOTH** units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **TROGGOTH**
 
@@ -265,13 +265,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 10 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Colossal Boulder Club | 4 | 4+ | 2+ | 2 | D3+3 | - |
 
@@ -296,19 +296,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 12 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Doom Diver | 24" | 4 | 4+ | 3+ | 3 | 3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Catapult Crew Tools | 2 | 5+ | 6+ | - | 1 | - |
 | Slicers and Krag‑smasha’s Paws | 6 | 4+ | 3+ | - | 1 | Companion |
@@ -330,13 +330,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 7 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Jaggedsnarl's Jaws | 4 | 3+ | 3+ | 1 | 2 | Companion |
 | Da Metal Toof | 5 | 3+ | 4+ | 1 | 2 | Crit (Mortal) |
@@ -350,7 +350,7 @@
 - **Da Frazzlefangz**（Passive）
   - 効果: While an enemy unit is within 6" of this unit: •  Subtract 1 from hit rolls for that enemy unit’s attacks. •  That enemy unit cannot use the ‘All-out Attack’ command.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **GLOOMSPITE GITZ**
 - 0-1 *Top Dog*
@@ -365,19 +365,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Noxious Vomit | 6" | D3 | 2+ | 3+ | 2 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spiked Club | 4 | 4+ | 3+ | 1 | 2 | - |
 
@@ -400,13 +400,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 9 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Snarlfang's Frothing Jaws | 6 | 4+ | 3+ | - | 2 | Companion |
 | Wheela Slicers | 3 | 4+ | 4+ | - | 1 | - |
@@ -419,7 +419,7 @@
 - **Gimme All Da Light**（Passive）
   - 効果: Friendly **GITMOB** units that are not **Frazzlegit Shamans on War-Wheelas** cannot be targeted by shooting attacks while they are wholly within 6" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **GITMOB**
 
@@ -435,13 +435,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 6+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Moon-sickle | 3 | 4+ | 4+ | 1 | 2 | - |
 | Spore Squig’s Vicious Teeth | 2 | 4+ | 3+ | 1 | 1 | Companion |
@@ -451,7 +451,7 @@
 - **Deffcap Mushroom**（Once Per Battle, Your Hero Phase）
   - 効果: Add 1 to this unit’s power level for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Moonclan Agitator*
 - Any **MOONCLAN**
@@ -468,13 +468,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 6+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Staff, Stikka or Jaggedy Blade | 1 | 4+ | 4+ | 1 | D3 | - |
 
@@ -499,19 +499,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 6+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Squigapult | 15" | 1 | 4+ | 3+ | 1 | D3+2 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Looncourt Weapons | 2 | 4+ | 5+ | 1 | 1 | - |
 | Moon-slicer | 5 | 4+ | 4+ | 1 | D3 | - |
@@ -540,13 +540,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 18 | 4+ | 15 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Tuskbreaker | 3 | 4+ | 2+ | 2 | D3 | Crit (2 Hits) |
 | Hooves of Wrack and Ruin | 6 | 3+ | 2+ | 1 | 2 | - |
@@ -565,7 +565,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of **The Dread Mace** is 4 and this unit has a Control characteristic of 10.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Top Dog*
 - 0-1 *Moonclan Agitator*
@@ -583,13 +583,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Moon-slicer | 5 | 4+ | 4+ | 1 | D3 | - |
 
@@ -601,7 +601,7 @@
 - **Let's Get Stabbin'!**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly non-**HERO MOONCLAN INFANTRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Doom Diver Catapult**
 - Any **MOONCLAN**
@@ -620,13 +620,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | D6+6" | 6 | 5+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Moon-cutta or Loonboss Stabba | 5 | 4+ | 4+ | 1 | 2 | Charge (+1 Damage) |
 | Massive Fang-filled Gob | 4 | 4+ | 3+ | 2 | D3 | Companion |
@@ -636,7 +636,7 @@
 - **Let's Get Bouncin'!**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly non-**HERO MOONCLAN CAVALRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Moonclan Agitator*
 - Any **MOONCLAN**
@@ -655,13 +655,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | D6+8" | 14 | 5+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Huge Fang-filled Gobs（戦傷時） | 4 | 4+ | 2+ | 1 | D6 | Companion |
 | Balls and Chains | 4 | 4+ | 4+ | - | D3 | Companion |
@@ -680,7 +680,7 @@
   - 宣言: Pick this unit and all friendly **SQUIG** units wholly within 12" of this unit to be the targets.
   - 効果: Add 1 to hit rolls for attacks made with the targets’ **Fang-filled Gobs,** **Massive Fang-filled Gobs** and **Huge Fang-filled Gobs** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Moonclan Agitator*
 - Any **MOONCLAN**
@@ -697,13 +697,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Massive Fang-filled Gob | 4 | 4+ | 3+ | 2 | D3 | Companion |
 | Moon-prodder | 5 | 4+ | 4+ | 1 | 2 | - |
@@ -716,7 +716,7 @@
   - 宣言: Pick an enemy unit within 1" of this unit to be the target.
   - 効果: Roll a dice. If the roll equals or exceeds the target’s Health characteristic, 1 model in the target unit is slain.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Moonclan Agitator*
 - Any **MOONCLAN**
@@ -733,13 +733,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 2D6" | 1 | 6+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ball and Chain | D6 | 4+ | 3+ | 2 | D3 | - |
 
@@ -766,13 +766,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 4 | 6+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Moon Staff | 3 | 4+ | 4+ | 1 | D3 | - |
 
@@ -781,7 +781,7 @@
 - **Madcap Mushroom**（Once Per Battle, Your Hero Phase）
   - 効果: For the rest of the turn: • Add 1 to this unit’s power level. • If 2 or more dice in a casting roll for this unit have the same value, inflict D3 mortal damage on this unit after the **SPELL** ability has been resolved.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **MOONCLAN**
 
@@ -797,13 +797,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 6 | 6+ | 7+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Lunarock Slam | 1 | 4+ | 3+ | - | D3 | - |
 
@@ -824,13 +824,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | D6+8" | 14 | 5+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Balls and Chains | 4 | 4+ | 4+ | - | D3 | Companion |
 | Bashin’ Stikks | 4 | 4+ | 5+ | - | 1 | - |
@@ -857,19 +857,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 8 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Jabbertoad | 8" | 1 | 4+ | 4+ | - | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Puff-fungus Club | 4 | 4+ | 2+ | 2 | 3 | - |
 
@@ -884,7 +884,7 @@
 - **Bitey Distractions**（Passive）
   - 効果: This unit has **WARD (5+)** while any of its tokens are on the battlefield.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **TROGGOTH**
 
@@ -900,19 +900,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 6+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Moonclan Bow | 18" | 2 | 4+ | 5+ | - | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Moonclan Bow | 1 | 4+ | 5+ | - | 1 | - |
 
@@ -932,13 +932,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stabba | 2 | 4+ | 5+ | - | 1 | - |
 
@@ -960,7 +960,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 6 | 6+ | 7+ | 6+ |
 
@@ -982,19 +982,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Bat Squigs | 12" | 3 | 4+ | 4+ | - | D3 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Moon-sickle and Basha | 5 | 4+ | 4+ | 1 | D3 | - |
 
@@ -1010,7 +1010,7 @@
   - 宣言: Pick this unit if it is **in a secret tunnel**.
   - 効果: Set up this unit anywhere on the battlefield more than 9" from all enemy units.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MONSTER**
 - Any **MOONCLAN** **INFANTRY**
@@ -1029,13 +1029,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 3 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Snarlfang’s Slavering Jaws | 2 | 4+ | 3+ | - | 2 | Companion |
 | Wolfgit Weapons | 3 | 4+ | 5+ | - | 1 | Charge (+1 Damage) |
@@ -1062,19 +1062,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 4+ | 2 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Throwin’ Boulders | 10" | 1 | 5+ | 2+ | 2 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stone Maul or Craggy Hands | 2 | 4+ | 2+ | 2 | 3 | - |
 
@@ -1093,19 +1093,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Noxious Vomit | 6" | D3 | 2+ | 3+ | 2 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spiked Club | 4 | 4+ | 3+ | 1 | 2 | - |
 
@@ -1129,19 +1129,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 6 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Grot Bow | 15" | 2 | 4+ | 5+ | - | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Wheela Slicers and Stabbin’ Stikka | 4 | 4+ | 4+ | - | 1 | - |
 | Snarlfang's Frothing Jaws | 6 | 4+ | 3+ | - | 2 | Companion |
@@ -1164,13 +1164,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 2D6" | 1 | 6+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ball and Chain | 3 | 4+ | 3+ | 2 | D3 | - |
 
@@ -1195,13 +1195,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 2D6" | 1 | 6+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spore-ball and Chain | 2 | 3+ | 4+ | 1 | D3 | - |
 
@@ -1226,13 +1226,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 6 | 5+ | 7+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spider Legs | 2 | 4+ | 3+ | - | 2 | - |
 
@@ -1254,13 +1254,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 7 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gigantic Fangs | 4 | 4+ | 3+ | 1 | 2 | Crit (Mortal), Companion |
 | Envenomed Spear | 5 | 4+ | 4+ | 1 | 2 | - |
@@ -1273,7 +1273,7 @@
 - **Wall Crawler**（Passive）
   - 効果: This unit can pass across terrain features as if it had **FLY**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SPIDERFANG**
 
@@ -1289,13 +1289,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 6 | 6+ | 7+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spider Bites | 8 | 4+ | 4+ | - | 1 | Crit (Mortal) |
 
@@ -1318,13 +1318,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 13 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Monstrous Spider Fangs | 4 | 3+ | 2+ | 1 | 3 | Crit (Mortal), Companion |
 | Chitinous Legs | 8 | 4+ | 2+ | 1 | 1 | Companion |
@@ -1354,13 +1354,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 6 | 6+ | 2 | 4+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Da Moon Onna Stikk | 4 | 3+ | 4+ | 1 | D3 | - |
 
@@ -1374,7 +1374,7 @@
 - **The Loonking's Entreaty**（Once Per Battle (Army), Reaction: You declared the ‘The Faces of the Bad Moon’ ability）
   - 効果: The face of the Bad Moon stays in its current position this battle round instead of moving to the next face in the sequence.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Top Dog*
 - 0-1 *Moonclan Agitator*
@@ -1392,13 +1392,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Snarlfang’s Slavering Jaws | 2 | 4+ | 3+ | - | 2 | Companion |
 | Boss Loppa | 5 | 4+ | 4+ | 1 | 2 | - |
@@ -1411,7 +1411,7 @@
 - **Boss Snarlfang**（Passive）
   - 効果: Add 2 to charge rolls for friendly **GITMOB CAVALRY** units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **GITMOB**
 
@@ -1429,13 +1429,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 9 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Chain Basha | 5 | 4+ | 3+ | 1 | 2 | Crit (Auto-wound) |
 | Wheela Slicers | 3 | 4+ | 4+ | - | 1 | - |
@@ -1450,7 +1450,7 @@
 - **Da Glare of Frazzlegit**（Once Per Battle (Army), Any Hero Phase）
   - 効果: For the rest of the turn: • ﻿﻿Subtract 1 from hit rolls for attacks made by enemy units while they are in combat with any friendly **Sunsteala Wheelas**. • ﻿﻿Add 6" to the Move characteristic of this unit and friendly **Sunsteala Wheelas**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **GITMOB**
 
@@ -1466,19 +1466,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 2 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Grot Bow | 15" | 2 | 4+ | 5+ | - | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stabbin’ Stikka | 2 | 4+ | 5+ | - | 1 | - |
 | Snarlfang’s Slavering Jaws | 2 | 4+ | 3+ | - | 2 | Companion |
@@ -1498,13 +1498,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 3 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Giant Snarlfang’s Jaws | 3 | 4+ | 3+ | - | 2 | Companion |
 | Pointy Skewas | 4 | 4+ | 5+ | - | 1 | Charge (+1 Damage) |
@@ -1526,13 +1526,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 2 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Loonfungus Sickle | 3 | 4+ | 4+ | - | 1 | - |
 | Snufflesquig’s Gnashers | 2 | 4+ | 4+ | - | 1 | Companion |
@@ -1553,19 +1553,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 2 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Spider-bow | 18" | 2 | 4+ | 5+ | - | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spider Fangs | 2 | 4+ | 4+ | - | 1 | Crit (Mortal), Companion |
 | Crooked Spear | 2 | 4+ | 5+ | - | 1 | - |
@@ -1585,13 +1585,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 2D6" | 1 | 6+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spore-ball and Chain | D3 | 3+ | 4+ | 1 | D3 | - |
 
@@ -1612,13 +1612,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | D6+3" | 1 | 6+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fang-filled Gob | 3 | 4+ | 3+ | 1 | 1 | Companion |
 | Squig Prodder | 2 | 5+ | 5+ | - | 1 | - |
@@ -1644,13 +1644,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | D6+8" | 2 | 6+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Slitta | 2 | 4+ | 5+ | - | 1 | - |
 | Fang-filled Gob | 3 | 4+ | 3+ | 1 | 1 | Companion |
@@ -1673,13 +1673,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 4 | 6+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Squig-krook | 5 | 4+ | 4+ | - | 2 | - |
 | Fang-filled Gob | 2 | 4+ | 3+ | 1 | 1 | Companion |
@@ -1690,7 +1690,7 @@
   - 宣言: Pick a friendly **SQUIG** unit within this unit’s combat range to be the target.
   - 効果: Roll a dice. On a 2+, pick 1 of the following effects to apply for the rest of the turn: ***Crimson Deffcap:*** Add 3" to the target’s Move characteristic. ***Yellow Lurka:*** The target’s **Fang-filled Gobs, Huge Fang-filled Gobs** or **Massive Fang-filled Gobs** have **Crit (Mortal)**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Moonclan Agitator*
 - Any **MOONCLAN**
@@ -1707,19 +1707,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 6 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Grot Bow | 15" | 2 | 4+ | 5+ | - | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Wheela Slicers and Stabbin’ Stikka | 4 | 4+ | 4+ | - | 1 | - |
 | Snarlfangs’ Frothing Jaws | 6 | 4+ | 3+ | - | 2 | Companion |
@@ -1741,13 +1741,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 16 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ironshell Club | 4 | 3+ | 2+ | 3 | 4 | - |
 | Mighty Antlers | 2 | 4+ | 2+ | 2 | D3+3 | - |
@@ -1764,7 +1764,7 @@
 - **Greater Regeneration**（Start of Any Turn）
   - 効果: **Heal (D6)** this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Dankhold Troggboss**
 - Any **GLOOMSPITE GITZ**
@@ -1781,13 +1781,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 4 | 6+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spider God Staff | 3 | 4+ | 5+ | - | D3 | Crit (Mortal) |
 
@@ -1800,7 +1800,7 @@
   - 宣言: Pick a friendly **SPIDERFANG** unit or terrain feature within 18" of this unit to be the target.
   - 効果: Roll a dice. On a 2+, remove this unit from the battlefield and set it up again wholly within 3" of the target and more than 9" from all enemy units.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SPIDERFANG**
 - Any **MOONCLAN**
@@ -1817,19 +1817,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 16 | 4+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Spider-bows | 18" | 10 | 4+ | 5+ | - | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Chitinous Legs（戦傷時） | 8 | 4+ | 2+ | 1 | 1 | Companion |
 | Crooked Spears | 8 | 4+ | 5+ | - | 1 | - |
@@ -1848,7 +1848,7 @@
 - **Catchweb Spidershrine**（Passive）
   - 効果: Add 1 to casting rolls for friendly **SPIDERFANG WIZARDS** while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SPIDERFANG**
 - Any **MOONCLAN**
@@ -1865,19 +1865,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 2 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Grot Bow | 15" | 2 | 4+ | 5+ | - | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Snarlfang’s Slavering Jaws | 2 | 4+ | 3+ | - | 2 | Companion |
 | Stabbin’ Stikka | 2 | 4+ | 5+ | - | 1 | - |
@@ -1903,19 +1903,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 6+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Moonclan Bow | 18" | 2 | 4+ | 5+ | - | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Moonclan Bow | 1 | 4+ | 5+ | - | 1 | - |
 | Git Weapons | 2 | 4+ | 5+ | 1 | 1 | - |

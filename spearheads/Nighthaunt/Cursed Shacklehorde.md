@@ -1,6 +1,6 @@
 # Spearhead: Cursed Shacklehorde（Nighthaunt）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -20,13 +20,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 2 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Tomb Greatblade | 2 | 3+ | 3+ | 1 | 1 | Crit (Auto-wound) |
 
@@ -43,19 +43,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 3 | 6+ | 2 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ghastflails | 12" | 2 | 4+ | 3+ | 2 | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ghastflails | 2 | 4+ | 3+ | 2 | 1 | Crit (Auto-wound) |
 
@@ -72,13 +72,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 3 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dreadblade | 4 | 4+ | 3+ | 1 | 2 | Crit (Auto-wound) |
 | Ethereal Steed’s Ghostly Hooves and Teeth | 3 | 5+ | 3+ | - | 1 | Crit (Auto-wound), Companion |
@@ -96,13 +96,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 2 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Scythed Limbs | 3 | 4+ | 4+ | 1 | 1 | Crit (Auto-wound) |
 
@@ -119,13 +119,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 5 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Shacklegheist Chains | 5 | 4+ | 3+ | 1 | 2 | Crit (Auto-wound) |
 
@@ -137,7 +137,7 @@
 
 **キーワード:** Hero, Infantry, Fly, Ward (5+)
 
-## バトル特性（Cursed Shacklehorde Battle Traits）
+## 戦闘特性（Cursed Shacklehorde Battle Traits）
 
 - **Cackling Arrival**（Once Per Turn (Army), Your Movement Phase）
   - 宣言: Pick 1 of your units in reserve.
@@ -145,7 +145,7 @@
 - **Ethereal**（Passive）
   - 効果: Ignore negative modifiers to save rolls for friendly units.
 
-## レジメントアビリティ（Cursed Shacklehorde Regiment Abilities）
+## 連隊アビリティ（Cursed Shacklehorde Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

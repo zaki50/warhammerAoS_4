@@ -1,9 +1,9 @@
 # Soulpod Guardians ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Soulpod Guardians Battle Traits（出典: Army of Renown: Soulpod Guardians）
@@ -28,7 +28,7 @@
 - **Devoted Protector**（Passive）
   - 効果: If this unit is destroyed while it is wholly within 12" of your **Soulpod Grove**, before removing this unit from the battlefield, **Heal (10)** your **Soulpod Grove**.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Soulpod Guardians Artefact of Power（出典: Army of Renown: Soulpod Guardians）
@@ -39,7 +39,7 @@
   - 宣言: &#x20;If there is an enemy unit wholly within 12" of your **Soulpod Grove**, pick up to 3 friendly **SOULPOD GUARDIANS** units to be the targets.
   - 効果: Remove the targets from the battlefield and set them up again wholly within 12" of your **Soulpod Grove** and more than 6" from all enemy units.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Soulpod Guardians Manifestation Lore

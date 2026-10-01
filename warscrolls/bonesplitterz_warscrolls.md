@@ -1,6 +1,6 @@
 # Bonesplitterz ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全12 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 3 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Madmob Weapons | 3 | 4+ | 3+ | - | 1 | - |
 
@@ -49,13 +49,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 18 | 4+ | 15 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | The Dread Mace（戦傷時） | 6 | 3+ | 2+ | 3 | 4 | - |
 | Hooves of Wrack and Ruin | 6 | 3+ | 2+ | 1 | 2 | - |
@@ -74,7 +74,7 @@
 - **Rampaging Destruction**（Once Per Turn (Army), Any Charge Phase） ［Rampage］
   - 効果: If this unit charged this phase, pick 1 of the following effects: • Roll a dice for each enemy unit within 1" of this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll. • Pick an enemy **MONSTER** in combat with this unit and roll 2D6. On a 7, this ability has no effect. Otherwise, inflict an amount of mortal damage on that unit equal to the results on the dice used for the 2D6 roll multiplied together. For example, a 2D6 roll of 2 and 6 would inflict 12 mortal damage (2 × 6).
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BONESPLITTERZ**
 
@@ -90,13 +90,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 6 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | War Boar’s Tusks and Hooves | 2 | 5+ | 3+ | - | 1 | Charge (+1 Damage), Companion |
 | Bonebeast Staff | 3 | 4+ | 3+ | - | D3 | - |
@@ -107,7 +107,7 @@
   - 宣言: Pick a friendly **BONESPLITTERZ CAVALRY** unit within this unit’s combat range to be the target.
   - 効果: Roll a dice. On a 3+, add 1 to wound rolls for the target’s combat attacks for the rest of the turn. This ability also affects **Companion** weapons.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BONESPLITTERZ**
 
@@ -123,13 +123,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 6 | 6+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Boss Chompa | 6 | 4+ | 3+ | 1 | 3 | Anti-MONSTER (+1 Rend) |
 
@@ -138,7 +138,7 @@
 - **Havin' A Good Old Rukk**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly non-**HERO BONESPLITTERZ INFANTRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BONESPLITTERZ**
 
@@ -154,13 +154,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 4 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gorktoof | 3 | 4+ | 2+ | 1 | 2 | Charge (+1 Damage), Crit (Mortal) |
 
@@ -179,13 +179,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 3 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Chompas | 4 | 4+ | 3+ | - | 1 | - |
 | War Boar’s Tusks and Hooves | 2 | 5+ | 3+ | - | 1 | Charge (+1 Damage), Companion |
@@ -205,13 +205,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 3 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | War Boar’s Tusks and Hooves | 2 | 5+ | 3+ | - | 1 | Charge (+1 Damage), Companion |
 | Boarboy Weapons | 3 | 4+ | 3+ | 1 | 1 | - |
@@ -231,19 +231,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 2 | 6+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Stinga Bow | 15" | 2 | 5+ | 4+ | - | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Chompa | 1 | 4+ | 3+ | - | 1 | - |
 
@@ -263,13 +263,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 2 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Paired Savage Weapons | 3 | 4+ | 3+ | - | 1 | - |
 
@@ -288,13 +288,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 2 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Savage Weapons | 2 | 4+ | 3+ | - | 1 | - |
 
@@ -315,13 +315,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 6+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bonebeast Stikk | 3 | 4+ | 3+ | - | D3 | - |
 
@@ -331,7 +331,7 @@
   - 宣言: Pick an enemy **WIZARD** within 24" of this unit to be the target.
   - 効果: Roll a dice. On a 3+, until the start of your next turn, each time the target uses a **SPELL** or **UNBIND** ability, this unit gains 1 ritual point.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BONESPLITTERZ**
 
@@ -347,19 +347,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 6 | 6+ | 2 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Deadly Green Bolts | 10" | D6 | 4+ | 2+ | 1 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Wurrgog Staff | 4 | 4+ | 3+ | - | D3 | - |
 
@@ -371,7 +371,7 @@
   - 宣言: Pick an enemy **HERO** in combat with the caster to be the target, then make a casting roll of 2D6.
   - 効果: Inflict D3 mortal damage on the target. If the target is destroyed by this spell, add 1 to this unit’s power level for the rest of the battle.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Savage Big Boss**
 - Any **BONESPLITTERZ**

@@ -1,9 +1,9 @@
 # The Great-Grand Gnawhorde ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### The Great-Grand Gnawhorde Battle Traits（出典: Army of Renown: The Great-Grand Gnawhorde）
@@ -30,7 +30,7 @@
 - **Harbinger of the Great Ascendancy**（Once Per Battle, Start of Any Turn）
   - 効果: If this unit is not in combat, you can use 2 different **WARPSHATTER THROES** abilities this turn instead of 1.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### The Great-Grand Gnawhorde Artefact of Power（出典: Army of Renown: The Great-Grand Gnawhorde）
@@ -40,7 +40,7 @@
 - **Icon of Great-total Supremacy**（Once Per Battle, Your Hero Phase）
   - 効果: You can return up to D3 slain models to each friendly **GNAWHORDE INFANTRY** unit with a Health characteristic of up to 3.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### The Great-Grand Gnawhorde Manifestation Lore

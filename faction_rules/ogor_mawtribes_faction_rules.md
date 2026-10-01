@@ -1,9 +1,9 @@
 # Ogor Mawtribes ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Ogor Mawtribes Battle Traits（出典: Destruction Battletome: Ogor Mawtribes）
@@ -23,7 +23,7 @@ Ogor Mawtribes armies can use the following abilities:
   - 宣言: Pick a friendly **BEASTCLAW HERO** that is **tracking the prey**.
   - 効果: Set up that **HERO** wholly within 9" of a battlefield edge and more than 9" from all enemy units. Then, set up the other friendly unit that is **tracking the prey** wholly within 9" of a battlefield edge, wholly within 9" of that **HERO** and more than 9" from all enemy units.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Greedy Eaters（10pt）
@@ -76,7 +76,7 @@ HERO only
   - 宣言: If this unit charged this turn, pick an enemy unit in combat with it to be the target.
   - 効果: Roll a dice. If the roll exceeds the target’s Health characteristic, 1 model in the target unit is automatically slain and the target cannot make pile-in moves for the rest of the turn.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Plunder of the Mawtribes（出典: Scourge of Aqshy: Ogor Mawtribes）
@@ -130,7 +130,7 @@ Big Names are enhancements that can only be given to **OGOR MAWTRIBES HEROES**.
   - 宣言: If this unit is in combat, pick another visible friendly **OGOR MONSTER** wholly within 12" of this unit that is not in combat to be the target.
   - 効果: Spend 1 **rage dice**. If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, roll a dice. The target can move a distance in inches up to the roll. It can end that move in combat. If it does so, the target has charged.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Lore of Gut Magic

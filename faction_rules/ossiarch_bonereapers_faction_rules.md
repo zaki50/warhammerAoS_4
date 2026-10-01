@@ -1,9 +1,9 @@
 # Ossiarch Bonereapers ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Ossiarch Bonereapers Battle Traits（出典: Death Battletome: Ossiarch Bonereapers）
@@ -20,13 +20,16 @@ Ossiarch Bonereapers armies can use the following abilities:
   - 宣言: Pick a friendly **OSSIARCH BONEREAPERS** unit that has not used a **RELENTLESS DISCIPLINE** ability this phase to use this ability.
   - 効果: Spend 1 **relentless discipline** point. For the rest of the turn, that unit can use **CHARGE** abilities even if it used a **RETREAT** ability in the same turn.
 - **Ruthless Extermination**（Once Per Turn (Army), Reaction: You declared a **SHOOT** ability for a unit that has not used a **RELENTLESS DISCIPLINE** ability this phase）
+  - 使用者: The unit using that **SHOOT** ability.
   - 効果: Spend 1 **relentless discipline** point. Subtract l from ward rolls for damage points inflicted by attacks made as part of that **SHOOT** ability.
 - **Pitiless Assault**（Reaction: You declared a **FIGHT** ability for a unit that has not used a **RELENTLESS DISCIPLINE** ability this phase）
+  - 使用者: The unit using that **FIGHT** ability.
   - 効果: Spend 1 **relentless discipline** point. Add 1 to wound rolls for attacks made as part of that **FIGHT** ability.
 - **Inviolate Legions**（Reaction: Opponent declared an **ATTACK** ability）
+  - 使用者: A friendly **OSSIARCH BONEREAPERS** unit targeted by that **ATTACK** ability. Friendly **OSSIARCH BONEREAPERS** units can use this ability more than once per phase.
   - 効果: Spend 1 **relentless discipline** point. That unit has **WARD (5+)** against damage points inflicted by attacks made as part of that **ATTACK** ability.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Border Guards
@@ -43,6 +46,7 @@ Ossiarch Bonereapers armies can use the following abilities:
 ### Remorseless Conquerors
 
 - **Unfaltering Pace**（Reaction: You declared a **RUN** ability for a friendly **OSSIARCH BONEREAPERS** unit）
+  - 使用者: The unit using that **RUN** ability.
   - 効果: If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead.
 
 ### Ruthless Legion
@@ -77,7 +81,7 @@ Ossiarch Bonereapers armies can use the following abilities:
 - **Imperious Will**（Reaction: You declared a **FIGHT** ability for a non-**HERO OSSIARCH BONEREAPERS** unit wholly within 12" of this unit / 20pt）
   - 効果: Pick an enemy unit in combat with that non-**HERO** unit and that did not charge this turn to be the target. Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. This unit can use this ability more than once per phase but only once per **FIGHT** ability.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Relics of the Empire（出典: Death Battletome: Ossiarch Bonereapers）
@@ -117,7 +121,7 @@ Mortisan Refinements are unique enhancements that can be given to non-**HERO OSS
 - **Utterly Unquestioning**（Passive / 10pt）
   - 効果: Each time this unit uses a **RELENTLESS DISCIPLINE** ability, roll a dice as a reaction. On a 5+, subtract 1 from the number of **relentless discipline** points that must be spent to use that ability.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Horrors of the Necropolis

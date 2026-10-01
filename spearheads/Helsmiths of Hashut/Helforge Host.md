@@ -1,6 +1,6 @@
 # Spearhead: Helforge Host（Helsmiths of Hashut）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,19 +19,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 10 | 2+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Immolation Cannons | 8" | 5 | 2+ | 4+ | 1 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Horns and Pummelling Strikes | 3 | 4+ | 3+ | 1 | D3 | - |
 
@@ -48,13 +48,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 1 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Hashutite Spear | 2 | 3+ | 4+ | - | 1 | Anti-charge (+1 Rend) |
 
@@ -73,19 +73,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 8 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Torrent of Ruinous Energy | 30" | 4 | 3+ | 3+ | 1 | D3 | Anti-CAVALRY (+1 Rend), Anti-INFANTRY (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Artillerist Weapons | 3 | 4+ | 4+ | - | 1 | - |
 
@@ -105,13 +105,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Daemonflame Glaive | 5 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -122,12 +122,12 @@
 
 **キーワード:** Hero, Infantry
 
-## バトル特性（Helforge Host Battle Traits）
+## 戦闘特性（Helforge Host Battle Traits）
 
 - **Harness Daemonic Power**（Once Per Turn (Army), Your Hero Phase）
   - 効果: You must use this ability at the start of each of your hero phases. Remove all **daemonic power points** from each friendly unit. Then, gain a number of **daemonic power points** equal to the current battle round number plus 1. Then, allocate your **daemonic power points** to friendly units. Each unit can have a maximum of 3 **daemonic power points**. Then, all unallocated **daemonic power points** are lost. **Designer’s Note:** *Your units have abilities that become more powerful depending on how many daemonic power points they have. We recommend using coloured dice to track the number of points each unit has.*
 
-## レジメントアビリティ（Helforge Host Regiment Abilities）
+## 連隊アビリティ（Helforge Host Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

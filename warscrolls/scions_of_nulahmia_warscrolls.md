@@ -1,6 +1,6 @@
 # Scions of Nulahmia ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全8 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 12 | 4+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sanguinarch’s Stiletto | 5 | 3+ | 3+ | 1 | 2 | Crit (2 Hits) |
 | Spectral Host’s Blades | 10 | 4+ | 4+ | - | 1 | Companion |
@@ -34,7 +34,7 @@
 - **Wails of the Damned**（Passive）
   - 効果: Subtract 3 from the control scores of enemy units while they are within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -50,13 +50,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 12 | 4+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spectral Host’s Blades | 10 | 4+ | 4+ | - | 1 | Companion |
 | Matriarch’s Stiletto | 5 | 3+ | 3+ | 1 | 2 | Crit (2 Hits) |
@@ -72,7 +72,7 @@
   - 宣言: Pick up to 3 friendly **VAMPIRE** units wholly within 12" of this unit to be the targets.
   - 効果: Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -86,13 +86,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 2 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rotting Fangs and Claws | 2 | 4+ | 3+ | - | 1 | Companion |
 
@@ -113,13 +113,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 3 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Chiropteran Fangs | 3 | 4+ | 4+ | - | 2 | Companion |
 
@@ -142,13 +142,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 6 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ouboroth’s Godhusk Fangs | 3 | 4+ | 3+ | 2 | D3 | Companion |
 | Nulahmian Warglaive | 5 | 3+ | 3+ | 1 | 2 | Crit (2 Hits) |
@@ -163,7 +163,7 @@
 - **Allow Me to Remind You...**（Once Per Turn, Reaction: Opponent declared a command for a visible enemy unit within 18" of this unit / 詠唱/詠誦値 7）
   - 効果: Roll a dice. On a 5+, that command has no effect, it still counts as having been used and the command points spent to use it are still lost.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -181,13 +181,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 6 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Nulahmian Warglaive | 5 | 3+ | 3+ | 1 | 2 | Crit (2 Hits) |
 | Ouboroth’s Godhusk Fangs | 3 | 4+ | 3+ | 2 | D3 | Companion |
@@ -203,7 +203,7 @@
 - **Serpentine Agility**（Passive）
   - 効果: If the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -219,13 +219,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dynastic War-relic | 5 | 3+ | 3+ | 1 | 2 | Anti-HERO (+1 Rend), Crit (2 Hits) |
 
@@ -234,7 +234,7 @@
 - **Sanguine Blur**（Once Per Turn (Army), Your Hero Phase）
   - 効果: Roll a dice. On a 3+, remove this unit from the battlefield and set it up again on the battlefield more than 9" from all enemy non-**HERO** units and more than 3" from all enemy **HEROES**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
@@ -250,13 +250,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 7 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dynastic Cavalier Weapon | 5 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage) |
 | Nightmare’s Hooves and Teeth | 3 | 5+ | 3+ | - | 1 | Companion |
@@ -269,7 +269,7 @@
 - **'For Glory! For Blood!'**（Reaction: You declared a CHARGE ability for this unit）
   - 効果: You can re-roll the charge roll for that **CHARGE** ability. Then, before the charge move is made, you can pick a friendly **Blood Knights** unit that is not in combat, is wholly within 12" of this unit and has not used a **CHARGE** ability this turn to be the target. If this unit charges, then, immediately after the **CHARGE** ability used by this unit has been resolved, the target can immediately use the ‘Charge’ ability even if it is not your charge phase. In addition, you can re-roll charge rolls for the target this phase.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 

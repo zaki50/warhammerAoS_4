@@ -1,9 +1,9 @@
 # Court of the Godlings ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Court of the Godlings Battle Traits（出典: Army of Renown: Court of the Godlings）
@@ -37,7 +37,7 @@
   - 宣言: Pick a friendly **TWIN** that has been destroyed to be the target.
   - 効果: Set up a replacement unit identical to the target within 12" of this unit and more than 9" from all enemy units.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Court of the Godlings Artefact of Power（出典: Army of Renown: Court of the Godlings）
@@ -47,7 +47,7 @@
 - **The Triplet Trinket**（Passive）
   - 効果: While a friendly **TWIN** is within 3" of and visible to this unit, subtract 1 from hit rolls for attacks that target that **TWIN** and this unit. While 2 friendly **TWINS** are within 3" of and visible to this unit, subtract 1 from hit rolls and wound rolls for attacks that target those **TWINS** and this unit instead.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Court of the Godlings Manifestation Lore

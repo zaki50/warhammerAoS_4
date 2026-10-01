@@ -1,4 +1,4 @@
-# Spearhead: Khainite Shadow Coven（Daughters of Khaine）
+# Spearhead: カインの闇盟約団(Khainite Shadow Coven)（ドーター・オヴ・カイン(Daughters of Khaine)）
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
@@ -20,23 +20,23 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 6 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | ブラッドラックの槍(Bloodwrack Spear) | 5 | 3+ | 4+ | 1 | 2 | - |
 
 **アビリティ:**
 
-- **滅血の眼光(Exsanguinating Glare)**（Your Shooting Phase）
-  - 宣言: If this unit is in combat, pick an enemy unit in combat with it to be the target. Otherwise, pick a visible enemy unit within 12" of it to be the target.
-  - 効果: Roll a dice. On a 3+, inflict 1 mortal damage on the target. Then, if any enemy models were slain by that mortal damage, inflict an additional 1 mortal damage on the target.
+- **滅血の眼光(Exsanguinating Glare)**（自軍側遠隔フェイズ）
+  - 宣言: このユニットが近接戦闘中である場合、自身が近接戦闘中である敵ユニットを1個選択する。それ以外の場合、自身の12mv以内に一部でも入っており、かつ自身から視認状態である敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、選択された敵ユニットは1ポイントの致命的ダメージを受ける。その致命的ダメージによって1体以上の敵兵が撃破されていた場合、その敵ユニットは追加で1ポイントの致命的ダメージを受ける。
 
-**キーワード:** Hero, Wizard (1), Infantry, Ward (6+)
+**キーワード:** 英雄、魔術師（1）、歩兵、加護（6+）（Hero, Wizard (1), Infantry, Ward (6+)）
 
 ### ハグクィーン(Hag Queen)
 
@@ -44,23 +44,23 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | カインの刃(Blade of Khaine) | 5 | 3+ | 4+ | 1 | 2 | - |
 
 **アビリティ:**
 
-- **血の教唆(Bloody Incitement)**（Any Combat Phase）
-  - 宣言: Pick a visible friendly unit wholly within 12" of this unit to be the target.
-  - 効果: If this unit is in combat, the target’s melee weapons have **Crit (Auto-wound)** for the rest of the turn. If this unit is not in combat, roll a dice. On a 3+, the target’s melee weapons have **Crit (Auto-wound)** for the rest of the turn.
+- **血の教唆(Bloody Incitement)**（任意の近接フェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方ユニットを1個選択する。
+  - 効果: このユニットが近接戦闘中である場合、そのターン中、選択された味方ユニットが装備している近接武器は**クリティカル（自動ウーンズ）**を得る。 このユニットが近接戦闘中ではない場合、ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された味方ユニットが装備している近接武器は**クリティカル（自動ウーンズ）**を得る。
 
-**キーワード:** Hero, Priest (1), Infantry, Ward (6+)
+**キーワード:** 英雄、神官（1）、歩兵、加護（6+）（Hero, Priest (1), Infantry, Ward (6+)）
 
 ### カイナイト・シャドウストーカー(Khainite Shadowstalkers)
 
@@ -68,28 +68,28 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 1 | 5+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | 呪われた矢弾(Cursed Bolts and Missiles) | 10" | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | 殺人の刃(Blades of Murder) | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **アビリティ:**
 
-- **影への跳躍(Shadow Leap)**（Once Per Battle, Your Movement Phase）
-  - 効果: Remove this unit from the battlefield and set it up again on the battlefield more than 6" from all enemy units.
+- **影への跳躍(Shadow Leap)**（バトル中1回限り、自軍側移動フェイズ）
+  - 効果: このユニットを戦場から取り除き、あらゆる敵ユニットから6mvより遠く離れた戦場の位置に再配置する。
 
-**キーワード:** Infantry, Ward (6+)
+**キーワード:** 歩兵、加護（6+）（Infantry, Ward (6+)）
 
 ### シスター・オヴ・スローター(Sisters of Slaughter)
 
@@ -97,22 +97,22 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 1 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | クルイプラッシュ(Kruiplash) | 3 | 3+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **死の舞踏(Dance of Death)**（Once Per Turn (Army), Enemy Combat Phase）
-  - 効果: If this unit is in combat, it can move 2D6". It can move through the combat ranges of enemy units but must end that move in combat.
+- **死の舞踏(Dance of Death)**（各ターンにつき1回（アーミー）、敵軍側近接フェイズ）
+  - 効果: このユニットが近接戦闘中である場合、このユニットは2D6mv移動できる。その移動中、敵ユニットの近接範囲内を通り抜けることができるが、近接戦闘に突入するように移動を完了しなければならない。
 
-**キーワード:** Infantry, Reinforcements, Ward (6+)
+**キーワード:** 歩兵、増援、加護（6+）（Infantry, Reinforcements, Ward (6+)）
 
 ### スロータークィーン（コルドロン・オヴ・ブラッド搭乗）(Slaughter Queen on Cauldron of Blood)
 
@@ -120,52 +120,52 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 12 | 4+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | 祭壇守護者の刃(Shrine Guardians’ Blades) | 9 | 3+ | 4+ | 1 | 2 | - |
 
 **アビリティ:**
 
-- **聖なる激情(Consecrated Revulsion)**（Your Hero Phase）
-  - 宣言: Pick a visible friendly **INFANTRY** unit wholly within 12" of this unit to be the target.
-  - 効果: Roll a dice. On a 3+, add 1 to save rolls for the target until the start of your next turn.
+- **聖なる激情(Consecrated Revulsion)**（自軍側ヒーローフェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**歩兵**・ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された味方ユニットはセーブロールに+1の修正を受ける。
 
-**キーワード:** Hero, Priest (1), War Machine, Ward (6+)
+**キーワード:** 英雄、神官（1）、戦闘兵器、加護（6+）（Hero, Priest (1), War Machine, Ward (6+)）
 
-## バトル特性（Khainite Shadow Coven Battle Traits）
+## 戦闘特性（Khainite Shadow Coven Battle Traits）
 
-- **影の仮面(Shadowmasked)**（Once Per Turn, Any Charge Phase）
-  - 宣言: Pick a friendly **INFANTRY** unit that is in combat and did not charge this turn to be the target.
-  - 効果: Subtract 1 from hit rolls and wound rolls for combat attacks that target that friendly unit for the rest of the turn.
+- **影の仮面(Shadowmasked)**（各ターンにつき1回、任意の突撃フェイズ）
+  - 宣言: このターン中に突撃していない近接戦闘中である味方**歩兵**・ユニットを1個選択する。
+  - 効果: そのターン中、選択された味方ユニットを対象とするメレーアタックは、ヒットロールとウーンズロールに-1の修正を受ける。
 
-## レジメントアビリティ（Khainite Shadow Coven Regiment Abilities）
+## 連隊アビリティ（Khainite Shadow Coven Regiment Abilities）
 
-Pick 1 of the following regiment abilities.
+以下の連隊アビリティの中から1つを選択する。
 
-- **血涸れの一閃(Bleed Them Pale)**（Once Per Battle, Any Combat Phase）
-  - 宣言: Pick a friendly **INFANTRY** unit that is in combat and did not charge this turn to be the target.
-  - 効果: The target can move 6" but cannot end that move in combat.
-- **殺人の一撃(Murderous Strike)**（Passive）
-  - 効果: Add 1 to the Rend characteristic of melee weapons used by friendly **INFANTRY** units that charged in the same turn.
+- **血涸れの一閃(Bleed Them Pale)**（バトル中1回限り、任意の近接フェイズ）
+  - 宣言: このターン中に突撃していない近接戦闘中である味方**歩兵**・ユニットを1個選択する。
+  - 効果: 選択された味方ユニットは6mv移動できる。ただし、近接戦闘に突入するように移動を完了することはできない。
+- **殺人の一撃(Murderous Strike)**（パッシブ）
+  - 効果: 現在のターン中に突撃していた味方**歩兵**・ユニットが使用する近接武器は、【貫通値】に+1の修正を受ける。
 
 ## 強化（Khainite Shadow Coven Enhancements）
 
-Give your general 1 of the following enhancements.
+自軍側ジェネラルに、以下の強化の中から1つを付与する。
 
-- **影の化身(Shadow Avatar)**（Once Per Battle, Your Combat Phase）
-  - 効果: Add 1 to the Rend characteristic of your general’s melee weapons for the rest of the turn.
-- **熱烈な訓戒(Frenzied Exhortations)**（Your Hero Phase）
-  - 宣言: Pick a visible friendly unit wholly within 12" of your general to be the target.
-  - 効果: Roll a dice. On a 3+, add 1 to ward rolls for the target for the rest of the turn.
-- **煮え立つ血潮(Boiling Blood)**（Your Shooting Phase）
-  - 宣言: Pick a visible enemy unit within 12" of your general to be the target.
-  - 効果: Roll a dice. If the roll equals or exceeds the target’s Save characteristic, halve the target’s Move characteristic until the start of your next turn
-- **刃の突撃(Bladed Impact)**（Any Charge Phase）
-  - 宣言: If your general charged this phase, pick an enemy unit within 1" of them to be the target.
-  - 効果: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
+- **影の化身(Shadow Avatar)**（バトル中1回限り（アーミー）、自軍側近接フェイズ）
+  - 効果: そのターン中、自軍側ジェネラルが装備している近接武器は【貫通値】に+1の修正を受ける。
+- **熱烈な訓戒(Frenzied Exhortations)**（自軍側ヒーローフェイズ）
+  - 宣言: 自軍側ジェネラルの12mv以内に全体が入っており、かつ自軍側ジェネラルから視認状態である味方ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された味方ユニットは加護ロールに+1の修正を受ける。
+- **煮え立つ血潮(Boiling Blood)**（自軍側遠隔フェイズ）
+  - 宣言: 自軍側ジェネラルの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が選択された敵ユニットの【防御力】以上であれば、次の自軍側ターン開始時まで、その敵ユニットの【移動力】は半減する。
+- **刃の突撃(Bladed Impact)**（任意の突撃フェイズ）
+  - 宣言: 自軍側ジェネラルがこのフェイズ中に突撃していた場合、自身の1mv以内に一部でも入っている敵ユニットを1個選択する。
+  - 効果: D3を1個ロールする。ロール結果が2+であれば、選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。

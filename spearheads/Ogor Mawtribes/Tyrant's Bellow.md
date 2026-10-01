@@ -1,6 +1,6 @@
 # Spearhead: Tyrant's Bellow（Ogor Mawtribes）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -20,19 +20,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 9" | 9 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ironblaster Cannon | 18" | 2 | 4+ | 2+ | 2 | D3+3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rhinox's Sharp Horns | 2 | 4+ | 2+ | 1 | D3 | Companion |
 | Clubber | 2 | 4+ | 2+ | - | 2 | - |
@@ -50,19 +50,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 4 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Leadbelcher Gun | 15" | D3 | 4+ | 3+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bludgeoning Blow | 2 | 4+ | 2+ | - | 2 | - |
 
@@ -79,13 +79,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 9" | 6 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Mounrfang's Tusks | 4 | 4+ | 2+ | 1 | 2 | Companion |
 | Culling Clubs and Hackers | 3 | 4+ | 2+ | 1 | 2 | - |
@@ -103,13 +103,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 4 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ogor Weapons | 4 | 4+ | 2+ | 1 | 2 | - |
 
@@ -126,19 +126,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 8 | 4+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ogor Pistols | 10" | 2 | 4+ | 3+ | 1 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Beastskewer Glaive | 2 | 4+ | 2+ | 1 | 2 | Anti-MONSTER (+1 Rend) |
 | Thundermace | 3 | 4+ | 2+ | 2 | 3 | - |
@@ -151,12 +151,12 @@
 
 **キーワード:** Hero, Infantry
 
-## バトル特性（Tyrant's Bellow Battle Traits）
+## 戦闘特性（Tyrant's Bellow Battle Traits）
 
 - **Bellowing Arrival**（Your Movement Phase）
   - 効果: Set up this unit anywhere on the battlefield, within 1" of a battlefield edge and more than 6" from all enemy units.
 
-## レジメントアビリティ（Tyrant's Bellow Regiment Abilities）
+## 連隊アビリティ（Tyrant's Bellow Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

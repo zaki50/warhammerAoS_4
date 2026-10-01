@@ -1,6 +1,6 @@
 # Spearhead: Mortisan Elite（Ossiarch Bonereapers）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 4 | 3+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dread Halberd | 3 | 3+ | 3+ | 1 | 2 | - |
 
@@ -42,13 +42,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 6 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spirit Weapons | 3 | 3+ | 2+ | 2 | 3 | - |
 
@@ -65,13 +65,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ossified Talons | 3 | 4+ | 4+ | - | 2 | - |
 
@@ -89,13 +89,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 4 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stalker Blades | 4 | 3+ | 3+ | 2 | 1 | - |
 
@@ -106,7 +106,7 @@
 
 **キーワード:** Infantry, Ward (6+)
 
-## バトル特性（Mortisan Elite Battle Traits）
+## 戦闘特性（Mortisan Elite Battle Traits）
 
 - **Relentless Discipline**（Once Per Phase (Army)）
   - 宣言: Pick a friendly unit to be the target.
@@ -114,7 +114,7 @@
 - **Dread Descent**（Once Per Turn (Army), Your Movement Phase）
   - 効果: Set up this unit anywhere on the battlefield more than 6" from all enemy units.
 
-## レジメントアビリティ（Mortisan Elite Regiment Abilities）
+## 連隊アビリティ（Mortisan Elite Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

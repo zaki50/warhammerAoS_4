@@ -1,9 +1,9 @@
 # The Gardeners of Nurgle ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### The Gardeners of Nurgle Battle Traits（出典: Army of Renown: The Gardeners of Nurgle）
@@ -33,7 +33,7 @@
 - **Foetid Orchardist**（Passive）
   - 効果: Add 1 to hit rolls for this unit’s combat attacks while it is wholly within 7" of any friendly **Feculent Gnarlmaws**.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### The Gardeners of Nurgle Artefact of Power（出典: Army of Renown: The Gardeners of Nurgle）
@@ -43,7 +43,7 @@
 - **Stinking Sporeseed**（Once Per Battle, Your Movement Phase）
   - 効果: Set up a **Feculent Gnarlmaw** within 3" of this unit and more than 3" from all enemy units, objectives and other terrain features.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### The Gardeners of Nurgle Spell Lore

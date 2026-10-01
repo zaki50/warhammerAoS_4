@@ -1,9 +1,9 @@
 # Kharadron Overlords ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Kharadron Overlords Battle Traits（出典: Order Battletome: Kharadron Overlords）
@@ -24,7 +24,7 @@ Kharadron Overlords armies can use the following abilities:
 - **Transport Skyfarers**（Your Movement Phase, Reaction: You declared a non-CHARGE MOVE ability for a friendly SKYVESSEL）
   - 効果: Pick a number of units up to that **SKYVESSEL**’s Transport Capacity (see its warscroll) that are wholly within 6" of it and not in combat to be the targets. Units that have been transported this turn cannot be targets. Remove the targets from the battlefield. After the **SKYVESSEL** ends its move, you must set up each target unit on the battlefield, wholly within 6" of that **SKYVESSEL** and not in combat. Those units have been transported. A unit cannot use **CHARGE** abilities if it was transported in the same turn.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Endrineers Guild Expeditionary Force（20pt）
@@ -64,7 +64,7 @@ Kharadron Overlords armies can use the following abilities:
 - **Combat Grafter**（Once Per Battle, Any Combat Phase）
   - 効果: This unit can use 2 **FIGHT** abilities this phase. After the first is used, however, this unit has **STRIKE-LAST** for the rest of the phase.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Ingenious Innovations（出典: Scourge of Ghyran: Kharadron Overlords）

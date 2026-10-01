@@ -1,6 +1,6 @@
 # The Iron March ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全6 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 25 | 3+ | 10 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Godbreaker Cannon | 24" | 4 | 4+ | 2+ | 2 | 4 | - |
 | Breacher Cannon | 12" | 6 | 3+ | 3+ | 1 | 2 | Anti-INFANTRY (+1 Rend) |
@@ -29,7 +29,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Crushing Iron Feet（戦傷時） | 4 | 4+ | 2+ | 2 | 4 | Companion |
 
@@ -44,7 +44,7 @@
 - **Special Ammunition**（Once Per Turn (Army), Reaction: You declared a **SHOOT** ability for this unit）
   - 効果: If this unit is **under orders**, roll a dice. On a 3+, pick 1 of the following effects. ***Nullshot:*** Subtract 1 from ward rolls for damage points inflicted by attacks made with this unit’s **Godbreaker Cannon** this phase.&#x20; ***Heavy Shot:*** Add 1 to the Rend characteristic of this unit’s **Godbreaker Cannon** this phase. ***Grapeshot:*** After that **SHOOT** ability has been resolved, if all of the attacks made with this unit’s **Godbreaker Cannon** targeted the same enemy unit, inflict D3 mortal damage on each other enemy unit within that enemy unit’s combat range.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Freeguild Veteran*
 - 0-1 **THAUMATURGICAL SPECIALIST**
@@ -63,20 +63,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 25 | 3+ | 10 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Crew’s Leadshotters | 12" | 6 | 4+ | 3+ | 1 | D3 | Shoot in Combat |
 | Realmscorcher Flame Cannon | 18" | 6D6 | 2+ | 4+ | 1 | 1 | Anti-INFANTRY (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Crushing Iron Feet（戦傷時） | 4 | 4+ | 2+ | 2 | 4 | Companion |
 
@@ -95,7 +95,7 @@
 - **Overheating**（Passive）
   - 効果: Immediately after resolving this unit’s ‘Full Charge!’ ability, you must roll a number of dice equal to the number of **heat tokens** this unit has. For each 5+, allocate 1 damage point to this unit (ward rolls cannot be made for those damage points), then remove 1 of this unit’s **heat tokens**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Freeguild Veteran*
 - 0-1 **THAUMATURGICAL SPECIALIST**
@@ -112,13 +112,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Weapons of Gallantry | 2 | 3+ | 4+ | 1 | 1 | - |
 
@@ -141,13 +141,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 25 | 3+ | 10 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Crew’s Leadshotters | 12" | 6 | 4+ | 3+ | 1 | D3 | Shoot in Combat |
 | Realmscorcher Flame Cannon | 18" | 6D6 | 2+ | 4+ | 1 | 1 | Anti-INFANTRY (+1 Rend) |
@@ -155,7 +155,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Crushing Iron Feet（戦傷時） | 4 | 4+ | 2+ | 2 | 4 | Companion |
 
@@ -168,7 +168,7 @@
 - **Overheating**（Passive）
   - 効果: Immediately after resolving this unit’s ‘Power to Maximum!’ ability, you must roll a number of dice equal to the number of **heat tokens** this unit has. For each 5+, allocate 1 damage point to this unit (ward rolls cannot be made for those damage points), then remove 1 of this unit’s **heat tokens**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **Freeguild Gallants**
 
@@ -186,20 +186,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 25 | 3+ | 10 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Godbreaker Cannon | 24" | 4 | 4+ | 2+ | 2 | 4 | - |
 | Crew’s Leadshotters | 12" | 6 | 4+ | 3+ | 1 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Crushing Iron Feet（戦傷時） | 4 | 4+ | 2+ | 2 | 4 | Companion |
 
@@ -218,7 +218,7 @@
   - 宣言: Pick up to 1 friendly **IRON MARCH INFANTRY HERO** and up to 1 friendly non‑**HERO IRON MARCH INFANTRY** unit that have not been deployed.
   - 効果: Set up those units in reserve as this unit’s **passengers**. They have now been deployed.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **Freeguild Gallants**
 
@@ -236,13 +236,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Meteoric Warhammer | 4 | 4+ | 3+ | 1 | D3 | Crit (Auto-wound) |
 
@@ -252,7 +252,7 @@
   - 宣言: Pick an objective you control that this unit is contesting to be the target.
   - 効果: If there are no enemy units contesting the target objective, it is considered by you to be **consecrated**. Otherwise, roll a dice. On a 3+, the target objective is considered by you to be **consecrated**. While they are wholly within 6" of a **consecrated** objective and **under orders**: • Friendly non-**WAR MACHINE SIGMARITE** units have **WARD (5+)**. • Friendly **SIGMARITE WAR MACHINES** have **WARD (6+)**. If your opponent gains control of a **consecrated** objective, it is no longer **consecrated**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **WAR MACHINE** **SIGMARITE**
 - Any **SIGMARITE** **INFANTRY**

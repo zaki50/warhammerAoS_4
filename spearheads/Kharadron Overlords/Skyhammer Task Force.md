@@ -1,6 +1,6 @@
 # Spearhead: Skyhammer Task Force（Kharadron Overlords）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,19 +19,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 6 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Masterwork Volley Pistol | 10" | 3 | 3+ | 3+ | 1 | 2 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Skalfhammer | 3 | 3+ | 2+ | 1 | 3 | - |
 
@@ -49,13 +49,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 1 | 4+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Privateer Pistol | 10" | 2 | 4+ | 4+ | - | 1 | Shoot in Combat |
 | Aethermatic Volley Gun | 15" | 2D6 | 4+ | 4+ | - | 1 | - |
@@ -63,7 +63,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Skypike | 2 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
 | Gun Butt | 1 | 4+ | 5+ | - | 1 | - |
@@ -82,20 +82,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 15 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Aethershot Carbines | 12" | 4 | 3+ | 3+ | 1 | 2 | Shoot in Combat |
 | Heavy Skyhook（戦傷時） | 24" | 2 | 4+ | 3+ | 2 | D6 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Crew’s Boarding Weapons | 8 | 4+ | 4+ | - | 1 | - |
 
@@ -115,20 +115,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 2 | 4+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Aethermatic Volley Gun | 15" | 2D6 | 4+ | 4+ | - | 1 | - |
 | Vulcaniser Pistol | 10" | 3 | 3+ | 3+ | 1 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Skypike | 2 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
 | Gun Butt | 1 | 4+ | 5+ | - | 1 | - |
@@ -141,12 +141,13 @@
 
 **キーワード:** Infantry, Fly, Reinforcements
 
-## バトル特性（Skyhammer Task Force Battle Traits）
+## 戦闘特性（Skyhammer Task Force Battle Traits）
 
 - **Ply the Skies**（Reaction: You declared a non-CHARGE MOVE ability for an Arkanaut Frigate）
+  - 使用者: The **Arkanaut Frigate** that is using that **MOVE** ability.
   - 効果: Pick a friendly **INFANTRY** unit that is wholly within the combat range of that **Arkanaut Frigate** and not in combat to be transported. Remove that **INFANTRY** unit from the battlefield. Then, when the **Arkanaut Frigate** ends its move, set up the **INFANTRY** unit on the battlefield again, wholly within the combat range of the **Arkanaut Frigate** and not in combat. A unit cannot use **CHARGE** abilities if it was transported in the same turn.
 
-## レジメントアビリティ（Skyhammer Task Force Regiment Abilities）
+## 連隊アビリティ（Skyhammer Task Force Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

@@ -1,6 +1,6 @@
 # Spearhead: Bloodcrave Hunt（Soulblight Gravelords）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 3 | 3+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Templar Lance or Templar Blade | 3 | 3+ | 3+ | 1 | 1 | Charge (+1 Damage) |
 | Nightmare’s Hooves and Teeth | 3 | 5+ | 3+ | - | 1 | Companion |
@@ -43,13 +43,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 1 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ancient Weapon | 2 | 4+ | 4+ | - | 1 | - |
 
@@ -66,13 +66,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dynastic War-relic | 5 | 3+ | 3+ | 1 | 2 | - |
 
@@ -90,13 +90,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 4 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Murderous Fangs and Talons | 3 | 4+ | 3+ | 1 | 2 | Crit (2 Hits) |
 
@@ -107,14 +107,14 @@
 
 **キーワード:** Infantry, Vampire, Fly, Ward (6+)
 
-## バトル特性（Bloodcrave Hunt Battle Traits）
+## 戦闘特性（Bloodcrave Hunt Battle Traits）
 
 - **The Hunger**（Passive）
   - 効果: Each time a friendly **VAMPIRE** unit uses a **FIGHT** ability, after all of its attacks have been resolved, **Heal (X)** that **VAMPIRE** unit where **X** is the number of damage points allocated by those attacks.
 - **Swoop Down**（Your Movement Phase）
   - 効果: Set up this unit anywhere on the battlefield more than 6" from all enemy units.
 
-## レジメントアビリティ（Bloodcrave Hunt Regiment Abilities）
+## 連隊アビリティ（Bloodcrave Hunt Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

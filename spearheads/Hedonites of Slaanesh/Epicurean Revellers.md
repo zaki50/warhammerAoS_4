@@ -1,6 +1,6 @@
 # Spearhead: Epicurean Revellers（Hedonites of Slaanesh）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 1 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Piercing Claws | 2 | 3+ | 4+ | 1 | 1 | - |
 
@@ -42,13 +42,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 4 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Deadly Pincers and Barbed Stinger | 4 | 4+ | 3+ | 1 | D3 | - |
 
@@ -66,13 +66,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 14" | 3 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Agonising Claws | 3 | 3+ | 4+ | 1 | 1 | Anti-CAVALRY (+1 Rend) |
 | Steed’s Poisoned Tongue | 2 | 3+ | 4+ | - | 1 | Companion |
@@ -90,13 +90,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 3 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Thricefold Arsenal | 3 | 3+ | 3+ | 1 | 2 | - |
 
@@ -110,12 +110,12 @@
 
 **キーワード:** Infantry, Hero, Wizard, Ward (5+)
 
-## バトル特性（Epicurean Revellers Battle Traits）
+## 戦闘特性（Epicurean Revellers Battle Traits）
 
 - **Favour Most Fickle**（Passive）
   - 効果: The following effects apply based on the number of friendly units on the battlefield. These effects are not cumulative:&#x20; **• 5 or more units:** Add 2 to the Control characteristic of friendly units. **• 4 units:** Add 1 to hit rolls and wound rolls for friendly units’ combat attacks, including attacks made with **Companion** weapons. **• 3 units:** Add 1 to run rolls and charge rolls for friendly units. **• 2 units:** Friendly units have **WARD (5+)**. **• 1 unit:** Add 2 to the Attacks characteristic of friendly units’ melee weapons, including **Companion** weapons.
 
-## レジメントアビリティ（Epicurean Revellers Regiment Abilities）
+## 連隊アビリティ（Epicurean Revellers Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

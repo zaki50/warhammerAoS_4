@@ -1,6 +1,6 @@
 # Spearhead: Wallsmasher Stomp（Sons of Behemat）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -16,19 +16,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 12 | 5+ | 10 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Throwin’ Rocks | 12" | 1 | 5+ | 2+ | 2 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Mighty Kick | 1 | 4+ | 2+ | 2 | D3 | - |
 | Massive Club | 4 | 4+ | 2+ | 1 | 2 | - |
@@ -44,7 +44,7 @@
 
 **キーワード:** Monster, Reinforcements
 
-## バトル特性（Wallsmasher Stomp Battle Traits）
+## 戦闘特性（Wallsmasher Stomp Battle Traits）
 
 - **Bellowing Roar**（Any Combat Phase）
   - 宣言: Pick a friendly unit to use this ability, pick an enemy unit in combat with it to be the target, then roll a dice.
@@ -53,7 +53,7 @@
   - 宣言: Pick your general to use this ability, then pick another friendly unit wholly within 12" of them.
   - 効果: Add 1 to the Attacks characteristic of that unit’s **Throwin’ Rocks** this turn.
 
-## レジメントアビリティ（Wallsmasher Stomp Regiment Abilities）
+## 連隊アビリティ（Wallsmasher Stomp Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

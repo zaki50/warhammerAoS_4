@@ -1,6 +1,6 @@
 # Spearhead: Bleak Host（Maggotkin of Nurgle）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 2 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Plaguesword | 1 | 4+ | 3+ | - | 1 | Crit (Mortal) |
 
@@ -42,13 +42,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 8 | 4+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rot Fly’s Mouthparts and Sting | 6 | 4+ | 2+ | - | 1 | Companion |
 | Blighted Scythe | 3 | 3+ | 3+ | 2 | 1 | - |
@@ -67,13 +67,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 3 | 3+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Blighted Weapon | 4 | 3+ | 3+ | 1 | 1 | - |
 
@@ -91,19 +91,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 5 | 5+ | 2 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Disgusting Sneezes | 7" | D6 | 2+ | 4+ | - | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Distended Maw | 3 | 4+ | 3+ | 1 | 2 | - |
 
@@ -115,7 +115,7 @@
 
 **キーワード:** Hero, Infantry, Ward (5+)
 
-## バトル特性（Bleak Host Battle Traits）
+## 戦闘特性（Bleak Host Battle Traits）
 
 - **Nurgle's Embrace**（End of Any Turn）
   - 効果: Spend any number of your **disease points**. For each disease point you spend, pick an enemy unit that is in combat with any of your units and roll a dice. On a 5+, inflict 1 mortal damage on that unit (you can pick the same unit more than once).
@@ -124,7 +124,7 @@
 - **Diseased**（Passive）
   - 効果: Each time an attack made by a friendly model scores a critical hit, you receive 1 **disease point**, to a maximum of 7.
 
-## レジメントアビリティ（Bleak Host Regiment Abilities）
+## 連隊アビリティ（Bleak Host Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

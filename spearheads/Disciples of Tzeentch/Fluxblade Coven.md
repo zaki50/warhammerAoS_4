@@ -1,6 +1,6 @@
 # Spearhead: Fluxblade Coven（Disciples of Tzeentch）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -20,19 +20,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 9" | 2 | 5+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Wyrdflame | 12 | 3 | 3+ | 4+ | - | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Flaming Maws | 3 | 3+ | 4+ | - | 1 | - |
 
@@ -49,19 +49,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Sorcerous Bolts | 18" | 1 | 4+ | 3+ | - | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cursed Blade | 2 | 4+ | 4+ | - | 1 | - |
 
@@ -79,19 +79,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 6 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Tzeentchian Runestaff | 18" | 1 | 3+ | 4+ | - | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Disc’s Teeth and Horns | 2 | 4+ | 3+ | 1 | D3 | Companion |
 | Warpsteel Sword | 3 | 3+ | 4+ | - | D3 | - |
@@ -110,13 +110,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 14" | 3 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Lamprey Bite | 3 | 4+ | 3+ | 1 | 1 | - |
 
@@ -134,13 +134,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Savage Blade and Vicious Beak | 2 | 4+ | 3+ | - | 1 | - |
 
@@ -151,12 +151,12 @@
 
 **キーワード:** Infantry, Reinforcements
 
-## バトル特性（Fluxblade Coven Battle Traits）
+## 戦闘特性（Fluxblade Coven Battle Traits）
 
 - **Masters of Destiny**（Once per Battle, Start of the First Battle Round）
   - 効果: Roll 9 dice and put them to one side. These are your **destiny** **dice**. During the battle, instead of rolling the dice for 1 of the rolls from the list below, you can pick one of your **destiny** **dice** and use it as the roll. Once a destiny dice has been used, it is discarded. If you want to replace a roll that uses more than one D6, you must use the same number of **destiny dice** (e.g. you would need to use 2 **destiny dice** in place of a 2D6 casting roll). Rolls that are replaced count as unmodified rolls and cannot be re-rolled or modified unless noted. The following rolls can be replaced with **destiny dice**: • Casting rolls • Run rolls • Charge rolls • Hit rolls • Wound rolls • Save rolls – you must still modify the roll by the Rend characteristic of the attacking weapon.
 
-## レジメントアビリティ（Fluxblade Coven Regiment Abilities）
+## 連隊アビリティ（Fluxblade Coven Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

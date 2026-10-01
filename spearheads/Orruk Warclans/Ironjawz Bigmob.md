@@ -1,6 +1,6 @@
 # Spearhead: Ironjawz Bigmob（Orruk Warclans）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 2 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Choppa or Stikka | 2 | 4+ | 3+ | 1 | 1 | Anti-charge (+1 Rend) |
 
@@ -43,13 +43,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 3 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rager Weapons | 3 | 4+ | 2+ | 1 | 2 | - |
 
@@ -66,13 +66,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 3 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Brute Weapons | 3 | 4+ | 3+ | 1 | 2 | - |
 
@@ -89,13 +89,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 8 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Boss-choppa | 8 | 4+ | 2+ | 1 | 2 | - |
 
@@ -107,7 +107,7 @@
 
 **キーワード:** Hero, Infantry
 
-## バトル特性（Ironjawz Bigmob Battle Traits）
+## 戦闘特性（Ironjawz Bigmob Battle Traits）
 
 - **'Ere We Go!**（Your Movement Phase）
   - 効果: Set up this unit anywhere on the battlefield more than 6" from all enemy units.
@@ -115,7 +115,7 @@
   - 宣言: Pick a friendly unit that was not set up this turn to be the target.
   - 効果: The target can move up to 3". It can move into combat. If it was in combat at the start of the move, it must end that move in combat.
 
-## レジメントアビリティ（Ironjawz Bigmob Regiment Abilities）
+## 連隊アビリティ（Ironjawz Bigmob Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

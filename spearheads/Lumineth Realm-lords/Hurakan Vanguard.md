@@ -1,6 +1,6 @@
 # Spearhead: Hurakan Vanguard（Lumineth Realm-lords）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,19 +19,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 18" | 8 | 4+ | 5 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Bow of the Wind’s Vengeance | 15" | 4 | 2+ | 3+ | 2 | 2 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Swirling Shards | 6 | 2+ | 4+ | - | 1 | - |
 
@@ -51,19 +51,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 3 | 4+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Windcharger Bow | 12" | 3 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Windcharger Blade | 1 | 4+ | 4+ | - | 1 | - |
 | Treerunner’s Claws | 2 | 5+ | 3+ | - | 1 | Companion |
@@ -81,19 +81,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 5 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Windblast Vortex | 12" | 1 | 2+ | 3+ | 2 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Aspiragillum | 3 | 3+ | 4+ | 1 | D3 | - |
 
@@ -111,13 +111,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warden Pike and Blade | 2 | 3+ | 4+ | - | 1 | Anti-charge (+1 Rend), Crit (Mortal) |
 
@@ -128,7 +128,7 @@
 
 **キーワード:** Infantry, Reinforcements
 
-## バトル特性（Hurakan Vanguard Battle Traits）
+## 戦闘特性（Hurakan Vanguard Battle Traits）
 
 - **Storm Brewing**（Deployment Phase）
   - 宣言: Pick a battlefield edge to be the target.
@@ -137,9 +137,10 @@
   - 宣言: Pick a friendly unit that is not in combat to be the target.
   - 効果: The target can move D6" but must end that move closer to the **leeward** battlefield edge. It can pass through the combat ranges of enemy units but cannot end that move in combat.
 - **Gale Force**（Once Per Turn (Army), Reaction: You declared an **ATTACK** ability）
+  - 使用者: The unit using that **ATTACK** ability.
   - 効果: Add 1 to hit rolls for attacks made as part of that **ATTACK** ability if the target of that ability is closer to the **leeward** battlefield edge than the unit using this ability.
 
-## レジメントアビリティ（Hurakan Vanguard Regiment Abilities）
+## 連隊アビリティ（Hurakan Vanguard Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

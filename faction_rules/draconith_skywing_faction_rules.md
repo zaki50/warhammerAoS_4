@@ -1,9 +1,9 @@
 # Draconith Skywing ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Draconith Skywing Battle Traits（出典: Army of Renown: Draconith Skywing）
@@ -29,7 +29,7 @@
 - **Fearless Fliers**（End of Any Turn）
   - 効果: If this unit is not in combat, it can immediately make a D6" move and can end that move in combat.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Draconith Skywing Artefact of Power（出典: Army of Renown: Draconith Skywing）
@@ -39,7 +39,7 @@
 - **Celestium Ensign**（Once Per Battle (Army), End of Any Turn）
   - 効果: **Heal (3)** each friendly **DRACONITH SKYWING** unit wholly within 12" of this unit.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Draconith Skywing Manifestation Lore

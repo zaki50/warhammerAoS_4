@@ -1,9 +1,9 @@
 # Seraphon ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Seraphon Battle Traits（出典: Faction Pack: Seraphon）
@@ -25,7 +25,7 @@ Seraphon armies can use the following abilities:
   - 宣言: &#x20;You cannot use this ability in the first battle round. Pick an **ASTERISM** that you have prophesied. You cannot pick an **ASTERISM** that you have previously picked this battle. If you do not meet the condition below that corresponds to that Asterism, this ability has no effect. ***Itzl the Tamer:*** 3 or more enemy units have been destroyed. ***Quetzl the Preserver:*** There are no enemy units wholly within friendly territory. ***Sotek the Deliverer:*** The enemy general is in combat or has been destroyed. ***Tepok the Seer:*** There are any friendly **SLANN** units on the battlefield and no friendly **SLANN** units are in combat or have been destroyed.
   - 効果: Pick an **ASTERISM** ability to be prophesied. Its effects apply in addition to those of all other prophesied **ASTERISM** abilities.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Eternal Starhost
@@ -89,7 +89,7 @@ Seraphon armies can use the following abilities:
   - 宣言: Pick any number of friendly **SERAPHON** units wholly within 12" of this unit that have not used a **MOVE** ability this turn to be the targets.
   - 効果: This unit gains a number of **stored time points** equal to the number of targets picked.&#x20; Then, if this unit has 5 or more **stored time points**, you can pick up to 3 visible enemy units within 18" of it. In your opponent’s next turn, halve the Move characteristic of those enemy units. If you do so, this unit cannot use this ability again for the rest of the battle.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Treasures of the Old Ones（出典: Faction Pack: Seraphon）
@@ -131,7 +131,7 @@ Monstrous Traits are enhancements that can only be given to **MONSTERS**.
 - **Titan of the Land**（Passive）
   - 効果: This unit counts as a terrain piece for the purpose of picking targets for the friendly **Realmshaper Engine**’s ‘Power Unleashed’ ability. Do not inflict any mortal damage on this unit as part of that ability.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Lore of Celestial Manipulation

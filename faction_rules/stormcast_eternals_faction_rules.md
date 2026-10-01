@@ -1,9 +1,9 @@
 # Stormcast Eternals ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Stormcast Eternals Battle Traits（出典: Order Battletome: Stormcast Eternals）
@@ -23,7 +23,7 @@ Stormcast Eternals armies can use the following abilities:
   - 宣言: Pick a friendly non-**UNIQUE STORMCAST ETERNALS INFANTRY** or **CAVALRY** unit that started the battle with 2 or more models and that has been destroyed to be the target.
   - 効果: Set up a replacement unit with half the number of models from the target unit (rounding up) more than 9" from all enemy units.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Lightning Echelon
@@ -82,7 +82,7 @@ Stormcast Eternals armies can use the following abilities:
 - **Legendary Tenacity**（Passive）
   - 効果: The first time this unit would be destroyed, before removing it from play, roll a dice. On a 3+, this unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, **Heal (D3)** this unit.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Artefacts of the Tempest（出典: Order Battletome: Stormcast Eternals）
@@ -137,7 +137,7 @@ Scars of War are unique enhancements that can be given to non-**HERO** non-**BEA
 - **Pyrotechnic Souls**（Passive / 10pt）
   - 効果: When this unit is destroyed, gain 3 **rage dice**.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Lore of the Storm

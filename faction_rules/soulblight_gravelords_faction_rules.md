@@ -1,9 +1,9 @@
 # Soulblight Gravelords ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Soulblight Gravelords Battle Traits（出典: Death Battletome: Soulblight Gravelords）
@@ -28,7 +28,7 @@ Soulblight Gravelords armies can use the following abilities:
   - 宣言: Pick a friendly **DEATHRATTLE** or **DEADWALKERS** unit that has not been deployed.
   - 効果: Set up that unit in reserve **in the grave**. It has now been deployed. You cannot set up more friendly units **in the grave** than there are on the battlefield.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Bacchanal of Blood
@@ -108,7 +108,7 @@ Soulblight Gravelords armies can use the following abilities:
 - **Frightening Vitality**（Passive）
   - 効果: Each time an ability would heal exactly 1 or 2 of this unit’s damage points, heal 3 damage points instead.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Deathly Heirlooms（出典: Death Battletome: Soulblight Gravelords）
@@ -136,7 +136,7 @@ Origins of Terrifying Folk Tales are unique enhancements that can be given to no
 - **The Incarnadine Killers**（End of Any Turn / 10pt）
   - 効果: If this unit is not in combat and an enemy unit was destroyed by its combat attacks this turn, this unit can move up to D6". It can end that move in combat.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Lore of Undeath

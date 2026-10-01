@@ -1,6 +1,6 @@
 # Spearhead: Deathrattle Tomb Host（Soulblight Gravelords）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 1 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Wight Blade | 2 | 4+ | 3+ | 1 | 1 | Crit (Mortal) |
 
@@ -42,13 +42,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 3 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Skeletal Steed’s Hooves and Teeth | 2 | 5+ | 3+ | - | 1 | Companion |
 | Barrow Lance | 2 | 4+ | 3+ | 1 | 1 | Crit (Mortal), Charge (+1 Damage) |
@@ -66,13 +66,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 1 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ancient Weapon | 2 | 4+ | 4+ | - | 1 | - |
 
@@ -89,13 +89,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 5 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Baleful Tomb Blade | 5 | 4+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -107,7 +107,7 @@
 
 **キーワード:** Hero, Infantry, Ward (6+)
 
-## バトル特性（Deathrattle Tomb Host Battle Traits）
+## 戦闘特性（Deathrattle Tomb Host Battle Traits）
 
 - **The Rising Dead**（Once Per Battle (Army), Your Movement Phase）
   - 効果: Set up this unit anywhere on the battlefield wholly within 3" of a battlefield edge and more than 6" from all enemy units.
@@ -115,7 +115,7 @@
   - 宣言: Pick an enemy unit in combat with any friendly units to be the target.
   - 効果: Roll a dice. On a 3+, subtract 1 from the Rend characteristic of the target’s melee weapons until the start of your next turn.
 
-## レジメントアビリティ（Deathrattle Tomb Host Regiment Abilities）
+## 連隊アビリティ（Deathrattle Tomb Host Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

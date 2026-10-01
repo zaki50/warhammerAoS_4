@@ -1,6 +1,6 @@
 # Spearhead: Warglutt Marauders（Ogor Mawtribes）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 4 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Glutton Weapons | 4 | 4+ | 2+ | 1 | 2 | - |
 
@@ -42,13 +42,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 4 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Irongut Weapon | 3 | 4+ | 2+ | 2 | 3 | - |
 
@@ -65,13 +65,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 7 | 3+ | 3 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gutbiter Weapons | 3 | 4+ | 2+ | 2 | 3 | - |
 | Maulbeast's Horns and Fangs | 4 | 4+ | 2+ | 1 | 2 | Companion |
@@ -90,13 +90,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 8 | 4+ | 3 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Tyrant's Meatcleavers | 4 | 4+ | 2+ | 2 | 3 | - |
 
@@ -108,7 +108,7 @@
 
 **キーワード:** Hero, Infantry
 
-## バトル特性（Warglutt Marauders Battle Traits）
+## 戦闘特性（Warglutt Marauders Battle Traits）
 
 - **More Ogors, My Lord**（Your Movement Phase）
   - 効果: Set up this unit anywhere on the battlefield so that every model is within 1" of a battlefield edge and more than 6" from all enemy units.
@@ -116,7 +116,7 @@
   - 宣言: If an enemy unit was destroyed this turn, pick a friendly unit that used a **FIGHT** ability this turn to use this ability.
   - 効果: Pick 1 of the following effects to apply to that friendly unit for the rest of the battle: • ***Raw and Bloody Flesh***: Add 1 to hit rolls for that unit’s combat attacks if it charged in the same turn. • ***Exotic Giblets***: Subtract 1 from ward rolls for damage points inflicted by that unit’s combat attacks. • ***Steaming Brains***: Add 3 to that unit’s control score.
 
-## レジメントアビリティ（Warglutt Marauders Regiment Abilities）
+## 連隊アビリティ（Warglutt Marauders Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

@@ -1,9 +1,9 @@
 # Bonesplitterz ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Bonesplitterz Battle Traits（出典: Destruction Battletome: Bonesplitterz）
@@ -22,7 +22,7 @@ Bonesplitterz armies can use the following abilities:
   - 宣言: Pick up to 3 friendly **BONESPLITTERZ** units to be the targets.
   - 効果: For the rest of the battle, add 1 to the Attacks characteristic of each target’s melee weapons while it is in combat with an enemy unit that charged in the same turn, and so long as the target has not charged during the battle.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Brutal Rukk
@@ -60,7 +60,7 @@ Bonesplitterz armies can use the following abilities:
 - **One Wiv Da Beast**（Once Per Battle (Army), Any Hero Phase）
   - 効果: The next time this phase that this unit uses a **SPELL** ability, instead of making a casting roll for this unit, you can use a value of 6 for the roll that cannot be modified.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Boss Bones and Other Gubbinz（出典: Destruction Battletome: Bonesplitterz）
@@ -74,7 +74,7 @@ Bonesplitterz armies can use the following abilities:
 - **Dokk Juice**（Passive）
   - 効果: If this unit would be destroyed, before removing it from play, roll a dice. On a 3+, this unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, **Heal (1)** this unit. This unit cannot use this ability again for the rest of the battle.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Lore of the Savage Beast

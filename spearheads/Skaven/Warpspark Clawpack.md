@@ -1,6 +1,6 @@
 # Spearhead: Warpspark Clawpack（Skaven）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rusty Blade | 2 | 4+ | 5+ | - | 1 | - |
 
@@ -42,13 +42,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 6+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warpstone Staff | 3 | 4+ | 4+ | 1 | D3 | - |
 
@@ -69,20 +69,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 6 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ratling Cannons | 15" | 3D6 | 4+ | 3+ | 1 | 1 | - |
 | Windlaunchers | 15" | 3 | 4+ | 3+ | 2 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Clubbing Blows | 4 | 4+ | 2+ | - | 2 | - |
 | Shock Gauntlets | 4 | 4+ | 2+ | 1 | 2 | - |
@@ -100,19 +100,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 3" | 8 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Warp Lightning Blast | 20" | 2D6 | 4+ | ✹ | ✹ | ✹ | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Crew's Teeth and Knives | D6 | 4+ | 5+ | - | 1 | - |
 
@@ -123,19 +123,20 @@
 
 **キーワード:** War Machine
 
-## バトル特性（Warpspark Clawpack Battle Traits）
+## 戦闘特性（Warpspark Clawpack Battle Traits）
 
 - **Always Three Clawsteps Ahead**（Once Per Phase, Enemy Movement Phase）
   - 宣言: Pick a friendly unit that is not in combat.
   - 効果: That unit can use the ‘Normal Move’ ability as if it were your movement phase.
 
-## レジメントアビリティ（Warpspark Clawpack Regiment Abilities）
+## 連隊アビリティ（Warpspark Clawpack Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 
 - **Endless Swarm of Rats**（Passive）
   - 効果: When a friendly **Clanrats** unit uses its ‘Seething Swarm’ ability, you can return D6 slain models to that unit instead of D3.
 - **Warpstone-laced Armour**（Once Per Battle, Reaction: Opponent declared an ATTACK ability and targeted your Stormfiends unit）
+  - 使用者: Your **Stormfiends** unit.
   - 効果: Your **Stormfiends** unit has **WARD (5+)** for the rest of the turn.
 
 ## 強化（Warpspark Clawpack Enhancements）

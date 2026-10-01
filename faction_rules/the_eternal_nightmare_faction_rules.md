@@ -1,9 +1,9 @@
 # The Eternal Nightmare ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### The Eternal Nightmare Battle Traits（出典: Army of Renown: The Eternal Nightmare）
@@ -28,7 +28,7 @@
 - **Damned Vessel**（Passive）
   - 効果: Whenever you declare a **SPELL** ability for a friendly **Nagash** within 18" of this unit, you can measure the range and visibility of that **SPELL** ability from this unit instead of that **Nagash**.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### The Eternal Nightmare Artefact of Power（出典: Army of Renown: The Eternal Nightmare）
@@ -38,7 +38,7 @@
 - **The Seal of Nagash**（Once Per Battle, Your Hero Phase）
   - 効果: Allocate 3 damage points to this unit (ward rolls cannot be made for those damage points). Then, **Heal (3)** the friendly **Nagash.**
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### The Eternal Nightmare Manifestation Lore

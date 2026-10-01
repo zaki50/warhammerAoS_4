@@ -1,6 +1,6 @@
 # The Gardeners of Nurgle ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全17 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 7" | 8 | 5+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Filthy Claws and Slobbering Maw | 5 | 4+ | 3+ | 1 | D3 | Companion |
 
@@ -45,13 +45,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 6 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Blightblades | 4 | 3+ | 3+ | 1 | 3 | Crit (Mortal) |
 
@@ -65,7 +65,7 @@
 - **Entropy Endures**（Passive）
   - 効果: If this unit has 2 models and would be automatically destroyed, it is not automatically destroyed. Instead, 1 model in this unit is slain.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **DAEMON**
 
@@ -83,13 +83,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 7 | 4+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Mound of Nurglings | 10 | 5+ | 5+ | - | 1 | Companion |
 | Epidemius’s Balesword | 3 | 4+ | 3+ | 1 | D3 | - |
@@ -99,7 +99,7 @@
 - **Tallyman of Nurgle**（Your Hero Phase）
   - 効果: You gain a number of **tally points** equal to the current battle round number. During the battle round, you can spend your **tally points**. For each **tally point** you spend, you can re-roll 1 hit roll, 1 wound roll, 1 save roll or 1 ward roll for a friendly **MAGGOTKIN OF NURGLE** unit wholly within 12" of this unit. At the end of the battle round, any unspent **tally points** are lost.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Plague Scion*
 - Any **DAEMON**
@@ -116,13 +116,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 7 | 5+ | - | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Maggot-infested Mouth | 4 | 4+ | 3+ | 1 | D3 | - |
 
@@ -154,13 +154,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 14 | 4+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gathoblyt’s Fanged Maw | 4 | 4+ | 2+ | 2 | 3 | Crit (Mortal), Companion |
 | Gnarled Plague Staff | 3 | 3+ | 3+ | 1 | D3 | Crit (Auto-wound) |
@@ -178,7 +178,7 @@
 - **Annelid Engorgement**（End of Any Turn）
   - 効果: For each enemy unit that was in combat with this unit this turn and was destroyed this turn, this unit gains D3 **leech points** for the rest of the battle. Until the end of the next turn, add 1 to this unit’s Control characteristic for each **leech point** it currently has.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Plague Scion*
 - Any **MAGGOTKIN OF NURGLE**
@@ -195,13 +195,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 8 | 3+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Malady and Contagion | 7 | 3+ | 3+ | 1 | 3 | Crit (Auto-wound) |
 
@@ -219,7 +219,7 @@
   - 宣言: Pick each enemy unit that charged this turn and is in combat with this unit to be the targets.
   - 効果: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Plague Scion*
 - Any **MAGGOTKIN OF NURGLE**
@@ -236,13 +236,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 3 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gardening Tools | 1 | 4+ | 3+ | - | 1 | Crit (Mortal) |
 
@@ -270,19 +270,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 20 | 4+ | 5 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Noxious Bile | 7" | D3+3 | 3+ | 2+ | 2 | 2 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Colossal Blight Weapons（戦傷時） | 4 | 3+ | 2+ | 2 | 4 | - |
 
@@ -300,7 +300,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Colossal Blight Weapons** is 3.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Plague Scion*
 - Any **MAGGOTKIN OF NURGLE**
@@ -317,13 +317,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 8 | 4+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Lopping Shears | 3 | 3+ | 3+ | 1 | 2 | - |
 | Mulch's Slime-encrusted Jaws | 4 | 4+ | 3+ | 1 | D3 | Companion |
@@ -339,7 +339,7 @@
   - 宣言: Pick a friendly **Feculent Gnarlmaw** to be the target.
   - 効果: Remove the target from the battlefield and set it up again wholly within 12" of this unit and more than 3" from all enemy units, objectives and other terrain features.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **DAEMON**
 
@@ -353,13 +353,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 4 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Tiny Razor-sharp Teeth | 5 | 5+ | 5+ | - | 1 | Crit (Auto-wound) |
 
@@ -381,13 +381,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 5 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rot Fly's Mouthparts and Sting | 6 | 4+ | 3+ | - | 1 | Companion |
 | Noxious Plaguesword | 2 | 4+ | 3+ | - | 1 | Crit (Mortal) |
@@ -409,13 +409,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 2 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Plaguesword | 1 | 4+ | 3+ | - | 1 | Crit (Mortal) |
 
@@ -436,13 +436,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 5 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Corrupted Balesword | 3 | 4+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -451,7 +451,7 @@
 - **Captain of the Plague Legions**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly **Plaguebearers** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **DAEMON**
 
@@ -469,13 +469,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 22 | 4+ | 10 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fanged Maws | 4 | 3+ | 2+ | 2 | 2 | - |
 | Gnarlrod（戦傷時） | 5 | 3+ | 2+ | 1 | 3 | - |
@@ -493,7 +493,7 @@
 - **Bringer of Plenty**（Passive）
   - 効果: Add 1 to casting rolls for friendly **MAGGOTKIN OF NURGLE**  units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Plague Scion*
 - Any **MAGGOTKIN OF NURGLE**
@@ -510,13 +510,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 22 | 4+ | 10 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Host of Nurglings | 10 | 5+ | 5+ | - | 1 | Crit (Auto-wound), Companion |
 | Gnarlrod（戦傷時） | 5 | 3+ | 2+ | 1 | 3 | - |
@@ -537,7 +537,7 @@
 - **Bringer of Plenty**（Passive）
   - 効果: Add 1 to casting rolls for this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Plague Scion*
 - Any **MAGGOTKIN OF NURGLE**
@@ -556,13 +556,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 5 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Marotter | 3 | 4+ | 3+ | 1 | 2 | - |
 
@@ -572,7 +572,7 @@
   - 宣言: Pick a visible friendly **MAGGOTKIN OF NURGLE DAEMON** unit wholly within 12" of this unit or a visible enemy unit within 12" of this unit to be the target.
   - 効果: If you picked a friendly unit to be the target, roll a dice. If the roll equals or exceeds the target’s Control characteristic, add 2 to run rolls and charge rolls for the target until the start of your next turn. If you picked an enemy unit to be the target, roll a dice. If the roll equals or exceeds the target’s Control characteristic, until the start of your next turn, while this unit is on the battlefield, inflict D3 mortal damage on the target: • Each time the target ends a move further from this unit than it was at the start of the move, after the ability used by the target has been resolved. • Each time the target is removed from the battlefield and set up again on the battlefield further from this unit than it was before it was removed, after the ability used by the target has been resolved.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **DAEMON**
 
@@ -590,19 +590,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 5 | 5+ | 2 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Disgusting Sneezes | 7" | D6 | 2+ | 4+ | - | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Distended Maw | 3 | 4+ | 3+ | 1 | 2 | - |
 
@@ -615,7 +615,7 @@
   - 宣言: Pick an enemy **MONSTER** that had any damage points allocated to it this phase by this unit’s shooting attacks to be the target.
   - 効果: The target cannot use **RAMPAGE** abilities until the start of your next turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **DAEMON**
 

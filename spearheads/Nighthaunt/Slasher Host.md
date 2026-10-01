@@ -1,6 +1,6 @@
 # Spearhead: Slasher Host（Nighthaunt）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 1 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Malignant Weapon | 2 | 4+ | 5+ | - | 1 | Crit (Auto-wound) |
 
@@ -42,13 +42,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 1 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Slasher Scythe | 2 | 4+ | 3+ | 1 | 1 | Crit (Auto-wound) |
 
@@ -65,13 +65,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 5 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sword of Stolen Hours | 5 | 4+ | 3+ | 1 | 2 | Crit (Auto-wound) |
 
@@ -89,13 +89,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 3 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spectral Claws and Daggers | 6 | 4+ | 4+ | - | 1 | Crit (Auto-wound) |
 
@@ -106,7 +106,7 @@
 
 **キーワード:** Infantry, Fly, Ward (6+)
 
-## バトル特性（Slasher Host Battle Traits）
+## 戦闘特性（Slasher Host Battle Traits）
 
 - **Wave of Terror**（Any Charge Phase）
   - 宣言: Pick a friendly unit to use this ability if it charged this phase and the charge roll was 10+. Then, pick an enemy unit within 1" of it to be the target.
@@ -114,7 +114,7 @@
 - **Ethereal**（Passive）
   - 効果: Ignore all modifiers to save rolls for friendly units (positive and negative).
 
-## レジメントアビリティ（Slasher Host Regiment Abilities）
+## 連隊アビリティ（Slasher Host Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

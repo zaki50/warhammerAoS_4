@@ -1,6 +1,6 @@
 # Fyreslayers ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全26 ウォースクロール（Spearhead 版 3 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Brazier Axe | 5 | 3+ | 3+ | 1 | 2 | - |
 
@@ -31,7 +31,7 @@
   - 宣言: If any friendly units have been destroyed during the battle, pick a friendly **FYRESLAYERS INFANTRY** unit wholly within 12" of this unit to be the target.
   - 効果: Roll a dice. If the roll is equal to or less than the number of **FYRESLAYERS** units that have been destroyed during the battle, pick 1 of the following effects to apply until the start of your next turn: ***Grimnir’s Grit:*** The target has **WARD (5+)**. ***Grimnir’s Resolve:*** Add 2 to charge rolls for the target. ***Grimnir’s Vengeance:*** Add 1 to the Damage characteristic of the target’s melee weapons.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **FYRESLAYERS**
 
@@ -47,19 +47,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 2 | 6+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Magmapike | 12" | 2 | 4+ | 3+ | 1 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Magmapike | 1 | 3+ | 3+ | 1 | 1 | - |
 
@@ -80,13 +80,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Latchkey Grandaxe | 4 | 3+ | 3+ | 2 | 3 | - |
 
@@ -98,7 +98,7 @@
   - 宣言: Pick a friendly non-**HERO FYRESLAYERS INFANTRY** unit within this unit’s combat range to be the royal retinue.
   - 効果: For the rest of the battle, while the royal retinue is wholly within 6" of this unit, add 1 to hit rolls for attacks made by the royal retinue and this unit has **WARD (4+)**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Grimnir’s Chosen*
 - Any **FYRESLAYERS**
@@ -115,19 +115,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 14 | 4+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Roaring Fyrestream | 10" | 4 | 3+ | 3+ | 1 | D3 | Anti-INFANTRY (+1 Rend), Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Latchkey Grandaxe | 4 | 3+ | 3+ | 2 | 3 | - |
 | Magmadroth’s Blazing Maw | 2 | 4+ | 2+ | 2 | 3 | Companion |
@@ -145,7 +145,7 @@
 - **Warrior-Kings**（Once Per Battle (Army), Your Combat Phase）
   - 効果: For the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **FYRESLAYERS** units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Grimnir’s Chosen*
 - 0-1 *Vulcatrix’s Chosen*
@@ -165,13 +165,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Brazier Staff | 3 | 3+ | 3+ | 1 | 2 | - |
 
@@ -182,7 +182,7 @@
 - **Master of the Runes**（Reaction: You declared an UR-GOLD RUNE ability）
   - 効果: Remove 3 of this unit’s **magmic power tokens**. If you do so, apply the effect below that corresponds to the **UR‑GOLD RUNE** ability that was used: ***Rune of Fury:*** For the rest of the battle round, add 1 to wound rolls for combat attacks made by friendly **FYRESLAYERS** units while they have **STRIKE-FIRST**. ***Rune of Fiery Determination:*** Add 1 to save rolls for friendly **FYRESLAYERS** units for the rest of the battle round. ***Rune of Relentless Zeal:*** Add 1 to run rolls and charge rolls for friendly **FYRESLAYERS** units for the rest of the battle round. ***Rune of Searing Heat:*** Add 1 to the Rend characteristic of melee weapons used by friendly **FYRESLAYERS** units for the rest of the battle round. ***Rune of Farsight:*** Increase the range of the ‘Rune of Farsight’ ability to 16".
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **FYRESLAYERS**
 - 0-1 *Grimnir’s Chosen*
@@ -201,13 +201,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Latch-axe | 4 | 3+ | 3+ | 1 | 2 | - |
 
@@ -220,7 +220,7 @@
   - 宣言: Pick this unit if it is **underground**.
   - 効果: Set up this unit anywhere on the battlefield more than 9" from all enemy units. Then, set up the other units that were set up **underground** with it (if any) wholly within 6" of this unit and more than 9" from all enemy units.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **FYRESLAYERS**
 
@@ -238,19 +238,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 14 | 4+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Roaring Fyrestream | 10" | 4 | 3+ | 3+ | 1 | D3 | Anti-INFANTRY (+1 Rend), Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Latch-axe | 4 | 3+ | 3+ | 1 | 2 | - |
 | Magmadroth’s Blazing Maw | 2 | 4+ | 2+ | 2 | 3 | Companion |
@@ -269,7 +269,7 @@
 - **Volcanic Blood**（Passive）
   - 効果: If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **FYRESLAYERS**
 
@@ -287,13 +287,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ancestral Weapons | 5 | 3+ | 3+ | 1 | 2 | Anti-MONSTER (+1 Rend) |
 
@@ -304,7 +304,7 @@
 - **Fearless Charge**（Passive）
   - 効果: If this unit charged this turn, for the rest of the turn, add 1 to charge rolls for friendly **FYRESLAYERS INFANTRY** units while they are wholly within 18" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Grimnir’s Chosen*
 - Any **FYRESLAYERS**
@@ -323,19 +323,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 14 | 4+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Roaring Fyrestream | 10" | 4 | 3+ | 3+ | 1 | D3 | Anti-INFANTRY (+1 Rend), Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Magmadroth’s Blazing Maw | 2 | 4+ | 2+ | 2 | 3 | Companion |
 | Magmadroth’s Claws and Horns（戦傷時） | 6 | 4+ | 2+ | 1 | 2 | Companion |
@@ -353,7 +353,7 @@
   - 宣言: Pick an enemy **MONSTER** in combat with this unit to be the target.
   - 効果: If this unit has fewer damage points than the target, subtract 10 from the target’s control score for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Grimnir’s Chosen*
 - Any **FYRESLAYERS**
@@ -372,13 +372,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 5 | 5+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ancestral Battle-axe | 5 | 3+ | 3+ | 1 | 2 | - |
 
@@ -389,7 +389,7 @@
 - **Icon of Grimnir**（Passive）
   - 効果: Ignore negative modifiers to the control scores of friendly **FYRESLAYERS** units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **FYRESLAYERS**
 
@@ -407,13 +407,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Doomseeker Weapons | 5 | 3+ | 3+ | 1 | 2 | - |
 
@@ -425,7 +425,7 @@
 - **Runic Power**（Passive）
   - 効果: Add 1 to the Damage characteristic of this unit’s melee weapons while this unit has 1 damage point. Add 2 to the Damage characteristic of this unit’s melee weapons instead while this unit has 2 or more damage points.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **FYRESLAYERS**
 
@@ -443,13 +443,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 6 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fyre-rune Hammers | 5 | 3+ | 3+ | 2 | 2 | - |
 
@@ -462,7 +462,7 @@
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
   - 効果: Roll a number of dice equal to the target’s Health characteristic. For each 4+, inflict 1 mortal damage on the target.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **FYRESLAYERS**
 
@@ -480,13 +480,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fyrestorm Greataxe | 5 | 3+ | 3+ | 2 | 2 | - |
 
@@ -497,7 +497,7 @@
 - **Battle-fury**（Once Per Battle, Any Combat Phase）
   - 効果: If this unit is in combat, it can use 2 **FIGHT** abilities this phase. After the first is used, however, this unit has **STRIKE‑LAST** for the rest of the phase.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **FYRESLAYERS**
 
@@ -513,13 +513,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 2 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Berzerker Broadaxe | 2 | 3+ | 3+ | 1 | 2 | - |
 
@@ -540,13 +540,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 2 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Flamestrike Poleaxe | 2 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -570,7 +570,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 8 | 3+ | - | 6+ |
 
@@ -603,19 +603,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 10 | 5+ | 7+ | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Raging Torrents of Lava | 8" | 2 | 4+ | 3+ | 2 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Molten Claws | 6 | 4+ | 2+ | 1 | D3 | Crit (Mortal) |
 
@@ -637,7 +637,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 8 | 3+ | 7+ | 6+ |
 
@@ -659,19 +659,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 14 | 4+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Roaring Fyrestream | 10" | 4 | 3+ | 3+ | 1 | D3 | Anti-INFANTRY (+1 Rend), Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Magmadroth’s Blazing Maw | 2 | 4+ | 2+ | 2 | 3 | Companion |
 | Magmadroth’s Claws and Horns（戦傷時） | 6 | 4+ | 2+ | 1 | 2 | Companion |
@@ -689,7 +689,7 @@
   - 宣言: Pick a friendly **Auric Runefather** **on Magmadroth** on the battlefield to be the target.
   - 効果: Add 1 to the Damage characteristic of this unit’s melee weapons, including **Companion** weapons, while the target is in combat, damaged or destroyed.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Grimnir’s Chosen*
 - Any **FYRESLAYERS**
@@ -706,13 +706,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 2 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Vulkyn Weapons | 3 | 3+ | 3+ | 1 | 1 | Anti-MONSTER (+1 Rend) |
 | Emberteeth | 1 | 3+ | 3+ | - | 2 | Crit (Mortal), Companion |
@@ -738,19 +738,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 14 | 4+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Roaring Fyrestream | 10" | 4 | 3+ | 3+ | 1 | D3 | Anti-INFANTRY (+1 Rend), Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ancestral Weapons | 5 | 3+ | 3+ | 1 | 2 | Anti-MONSTER (+1 Rend) |
 | Magmadroth’s Blazing Maw | 2 | 4+ | 2+ | 2 | 3 | Companion |
@@ -769,7 +769,7 @@
   - 宣言: Pick a friendly **Auric Runefather on Magmadroth** on the battlefield to be the target.
   - 効果: Add 1 to the Damage characteristic of this unit’s melee weapons, including **Companion** weapons, while the target is in combat, damaged or destroyed.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Grimnir’s Chosen*
 - Any **FYRESLAYERS**
@@ -788,13 +788,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 3 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fyresteel Weapons | 2 | 4+ | 3+ | 1 | 1 | - |
 | Latchkey Grandaxe | 4 | 3+ | 3+ | 2 | 3 | - |
@@ -820,13 +820,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 2 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fyresteel Weapons | 2 | 4+ | 3+ | 1 | 1 | - |
 
@@ -845,13 +845,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 2 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fyresteel Weapons | 2 | 4+ | 3+ | 1 | 1 | - |
 
@@ -870,13 +870,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 2 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Vulkyn Weapons | 3 | 3+ | 3+ | 1 | 1 | Anti-MONSTER (+1 Rend) |
 | Emberteeth | 1 | 3+ | 3+ | - | 2 | Crit (Mortal), Companion |
@@ -901,13 +901,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 5 | 6+ | 7+ | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Magma Blast | 18" | 8 | 4+ | 3+ | 1 | 1 | Crit (2 Hits) |
 

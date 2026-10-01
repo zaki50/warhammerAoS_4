@@ -1,6 +1,6 @@
 # Spearhead: Saga Axeband（Fyreslayers）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -18,13 +18,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 5 | 5+ | 5 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ancestral Battle-axe | 5 | 3+ | 3+ | 1 | 2 | - |
 
@@ -43,13 +43,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 2 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Flamestrike Poleaxe | 2 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -66,13 +66,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 2 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fyresteel Handaxes | 2 | 4+ | 3+ | 1 | 1 | Anti-charge (+1 Rend) |
 
@@ -83,13 +83,13 @@
 
 **キーワード:** Infantry, Ward (6+)
 
-## バトル特性（Saga Axeband Battle Traits）
+## 戦闘特性（Saga Axeband Battle Traits）
 
 - **Awaken the Runes**（Once Per Battle Round, Start of Your Turn）
   - 宣言: Pick 1 of the ur-gold runes from the **ur-gold runes** table, then make an **activation roll** of D6. Each urgold rune can only be activated once per battle.
   - 効果: On a 1-5, the rune’s **standard effect** applies. On a 6, the rune’s **enhanced effect** applies as well. The effects last until the start of your next turn.
 
-## レジメントアビリティ（Saga Axeband Regiment Abilities）
+## 連隊アビリティ（Saga Axeband Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

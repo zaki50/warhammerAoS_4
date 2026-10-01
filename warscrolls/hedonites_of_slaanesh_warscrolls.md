@@ -1,6 +1,6 @@
 # Hedonites of Slaanesh ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全42 ウォースクロール（Spearhead 版 8 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 12 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Steeds’ Poisoned Tongues | 8 | 3+ | 4+ | - | 1 | Companion |
 | Flensing Whips and Piercing Claws | 12 | 3+ | 4+ | 1 | 1 | - |
@@ -35,7 +35,7 @@
   - 宣言: Pick up to 3 visible friendly non‑**UNIQUE HEDONITES OF SLAANESH WAR MACHINES** wholly within 12" of this unit to be the targets.
   - 効果: Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn. This ability also affects **Companion** weapons.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Slaaneshi Beguiler*
 - Any **WAR MACHINE**
@@ -54,13 +54,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 8 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Steeds’ Poisoned Tongues | 4 | 3+ | 4+ | - | 1 | Companion |
 | Axle Blades | 4 | 4+ | 2+ | 2 | D3 | Anti-INFANTRY (+1 Rend), Companion |
@@ -77,7 +77,7 @@
 - **Threshing Doom**（Passive）
   - 効果: When this unit moves, it can pass through models in enemy **INFANTRY** units and can pass through the combat ranges of enemy **INFANTRY** units, but it cannot end a move in combat unless specified in the ability used.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Slaaneshi Beguiler*
 - Any **WAR MACHINE**
@@ -94,13 +94,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 8 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Flensing Whips and Piercing Claws | 6 | 3+ | 4+ | 1 | 1 | - |
 | Steeds’ Poisoned Tongues | 4 | 3+ | 4+ | - | 1 | Companion |
@@ -114,7 +114,7 @@
   - 宣言: Pick up to 3 friendly **Seeker Chariot** units wholly within 12" of this unit to be the targets.
   - 効果: Add 1 to charge rolls for this unit and the targets for the rest of the turn. In addition, for the rest of the turn, when this unit and the targets use the ‘Mutilating Blades’ ability, add 1 to the amount of mortal damage inflicted (if any).
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Slaaneshi Beguiler*
 - Any **WAR MACHINE**
@@ -129,19 +129,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 6+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Blissbarb Bow | 15" | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sybarite Blade | 1 | 3+ | 4+ | - | 1 | - |
 
@@ -163,19 +163,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 4 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Seeker Bow | 12" | 3 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Exalted Steed’s Poisoned Tongue | 3 | 3+ | 4+ | - | 1 | Companion |
 | Sybarite Blade | 1 | 3+ | 4+ | - | 1 | - |
@@ -197,13 +197,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 9" | 7 | 5+ | 2 | 4+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Piercing Claws and Coiled Tentacles | 7 | 3+ | 4+ | 1 | 2 | - |
 
@@ -216,7 +216,7 @@
   - 宣言: Pick a visible **MANIFESTATION** within 12" of this unit and that was not summoned this turn to be the target, then make a banishment roll of 2D6.
   - 効果: If the banishment roll equals or exceeds the banishment value on the target’s warscroll, it is banished and removed from play.&#x20; The next time a visible friendly unit wholly within 12" of this unit uses a **SUMMON** ability, roll an additional D6, to a maximum of 3, when making the casting roll for that ability.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Slaaneshi Beguiler*
 - Any **DAEMON**
@@ -233,13 +233,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 1 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Piercing Claws | 2 | 3+ | 4+ | 1 | 1 | Anti-INFANTRY (+1 Rend) |
 
@@ -260,13 +260,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 10 | 5+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Impaling Talons | 8 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage) |
 
@@ -282,7 +282,7 @@
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
   - 効果: Roll 2D6. If this unit charged this turn, add 2 to the roll. If the roll exceeds the target’s Health characteristic, 1 model in the target is automatically slain. If the target is a **MANIFESTATION** and the roll exceeds its banishment value, it is banished and removed from play.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **HEDONITES OF SLAANESH** **Synessa** or *Slaaneshi Beguiler*
 - Any **HEDONITES OF SLAANESH**
@@ -301,13 +301,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 6 | 5+ | 7+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Hooked Tongues | 8 | 3+ | 4+ | 1 | 1 | Crit (2 Hits) |
 
@@ -329,13 +329,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 9 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Steeds’ Poisoned Tongues | 8 | 3+ | 4+ | - | 1 | Companion |
 | Flensing Whips and Piercing Claws | 6 | 3+ | 4+ | 1 | 1 | - |
@@ -360,7 +360,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 10 | 4+ | - | 6+ |
 
@@ -387,13 +387,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 4 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Pincers and Tail Stinger | 4 | 4+ | 3+ | 1 | D3 | Anti-WIZARD (+1 Rend) |
 
@@ -419,19 +419,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 18 | 3+ | 5 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Leerstave of Loth’shar | 12" | 3 | 3+ | 3+ | 1 | 3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Kyazu's Greatblade and Mutants' Claws（戦傷時） | 6 | 3+ | 3+ | 1 | 3 | Crit (Mortal), Companion |
 | Glutos's Choking Tentacles | 2 | 4+ | 2+ | 2 | 3 | - |
@@ -449,7 +449,7 @@
 - **Paragon of Gluttony**（Start of Any Turn）
   - 効果: Pick 1 of the following delicacies for Glutos to savour. You cannot pick a delicacy that you picked in the previous turn. The effect applies for the rest of the turn: ***Heart of a Shadow Daemon***: While they are wholly within 12" of this unit, friendly non-**MONSTER** **HEDONITES OF SLAANESH** units are not visible to enemy units more than 12" from them. ***Blood of an Aelven Princeling***: Each time a friendly **HEDONITES OF SLAANESH** unit wholly within 12" of this unit uses a **RUN** ability, if you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead. ***Crushed Incarnate’s Core***: Add 1 to unbinding rolls and banishment rolls for this unit. ***Unspeakable Viscera***: Inflict D6 mortal damage on each other unit (friendly and enemy) within this unit’s combat range.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Dark Egotist*
 - Any **HEDONITES OF SLAANESH**
@@ -466,13 +466,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 7 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Flensing Whips and Piercing Claws | 6 | 3+ | 4+ | 1 | 1 | - |
 | Steeds’ Poisoned Tongues | 4 | 3+ | 4+ | - | 1 | Companion |
@@ -498,13 +498,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 3 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Steed’s Poisoned Tongue | 2 | 3+ | 4+ | - | 1 | Companion |
 | Claw-spear or Hellscourge | 3 | 3+ | 4+ | - | 1 | Anti-INFANTRY (+1 Rend), Charge (+1 Damage) |
@@ -528,13 +528,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Piercing Claw | 5 | 3+ | 4+ | 1 | 2 | - |
 
@@ -546,7 +546,7 @@
   - 宣言: Pick a visible enemy unit within 18" of this unit to be the enemy target. Then, you can pick another visible friendly **HEDONITES OF SLAANESH DAEMON** unit wholly within 12" of this unit to be the friendly target.
   - 効果: Roll a number of dice equal to the number of models in the enemy target unit. For each 6, inflict 1 mortal damage on the enemy target. Then, you can pick 1 of the following effects: • **Heal (X)** the friendly target, where **X** is the number of enemy models slain by this ability this phase. • Return a number of slain models to the friendly target unit with a total Health characteristic equal to or less than the number of enemy models slain by this ability this phase.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **DAEMON**
 
@@ -564,13 +564,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 16 | 4+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Elegant Greatblade（戦傷時） | 5 | 2+ | 3+ | 2 | 3 | - |
 | Impaling Claws | 2 | 3+ | 3+ | 2 | 4 | - |
@@ -591,7 +591,7 @@
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
   - 効果: Pick 1 of the following musks. Its effects apply for the rest of the turn. ***Alluring Musk***: • This unit’s weapons have **Crit (2 Hits)** for attacks that target that enemy unit. • Add 1 to hit rolls for attacks made by that enemy unit that target this unit. ***Psychotropic Musk***: • Subtract 1 from wound rolls for attacks made by that enemy unit that target this unit. • Subtract 1 from the Rend characteristic of this unit’s melee weapons.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Slaaneshi Beguiler*
 - Any **HEDONITES OF SLAANESH**
@@ -608,13 +608,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Exquisite Scimitar | 5 | 3+ | 4+ | 1 | 2 | - |
 
@@ -626,7 +626,7 @@
   - 宣言: If this unit has not used a **TEMPTATION** ability this turn, pick an enemy unit in combat with this unit to be the target.
   - 効果: Your opponent must decide whether the target will **accept** or **decline** this unit’s challenge: If they **accept**, for the rest of the turn, if this unit is in combat with the target when the target is picked to use a **FIGHT** ability, subtract 1 from hit rolls for the target’s attacks and all of the target’s attacks must target this unit. If they **decline**, for the rest of the turn: • The target has **STRIKE-LAST**. • Add 1 to the Damage characteristic of this unit’s melee weapons for attacks that target that enemy unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SYBARITE**
 
@@ -644,13 +644,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ceremonial Weapons | 5 | 3+ | 4+ | 2 | 2 | - |
 
@@ -662,7 +662,7 @@
   - 宣言: If this unit has not used a **TEMPTATION** ability this turn, pick a visible friendly **SYBARITE** unit wholly within 12" of this unit to be the target.
   - 効果: If the target is a **PARAGON**, apply the following effect to the target. Otherwise, roll a dice. On a 3+, apply the following effect to the target: • For the rest of the turn, while the target is wholly within 12" of this unit, add 1 to the Attacks characteristic of the target’s melee weapons.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SYBARITE**
 
@@ -680,13 +680,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Soulpiercer Mace | 5 | 3+ | 4+ | 2 | 2 | - |
 
@@ -698,7 +698,7 @@
 - **Share The Pain**（Passive）
   - 効果: This unit has **WARD (5+)** while it is in combat. In addition, each time you make a successful ward roll for this unit for a damage point inflicted by a combat attack, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **SYBARITE**
 
@@ -716,7 +716,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 6 | 5+ | 7+ | 6+ |
 
@@ -735,13 +735,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Wicked Scimitar | 3 | 3+ | 4+ | 1 | 1 | - |
 
@@ -763,19 +763,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 4 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Seeker Bow | 12" | 3 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Exalted Steed’s Poisoned Tongue | 3 | 3+ | 4+ | - | 1 | Companion |
 | Sybarite Blade | 1 | 3+ | 4+ | - | 1 | - |
@@ -800,13 +800,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Piercing Claw | 5 | 3+ | 4+ | 1 | 2 | - |
 
@@ -817,7 +817,7 @@
 - **Delightful Defeatism**（Passive）
   - 効果: Each time a visible enemy unit within 18" of this unit uses the ‘Rally’ command, your opponent must make 3 fewer rally rolls of D6.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **DAEMON**
 
@@ -833,13 +833,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 3 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Razor-sharp Claws and Gilded Weapons | 4 | 4+ | 3+ | 1 | 2 | Charge (+1 Damage) |
 
@@ -868,13 +868,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 9 | 4+ | 4 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Scourging Whip | 6 | 2+ | 4+ | 1 | 2 | - |
 | Axe of Dominion | 4 | 3+ | 3+ | 2 | 3 | - |
@@ -889,7 +889,7 @@
   - 宣言: Pick up to 1 visible friendly non-**HERO SYBARITE INFANTRY** unit and up to 1 visible friendly non-**HERO HEDONITES OF SLAANESH DAEMON INFANTRY** unit to be the targets, then make a casting roll of 2D6.
   - 効果: If you picked a **SYBARITE** target, subtract 1 from ward rolls for damage points inflicted by its combat attacks until the start of your next turn. If you picked a **DAEMON** target, it has **WARD (5+)** until the start of your next turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Slaaneshi Beguiler* or *Dark Egotist*
 - Any **HEDONITES OF SLAANESH**
@@ -908,13 +908,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 6 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Flensing Whips and Piercing Claws | 4 | 3+ | 4+ | 1 | 1 | - |
 | Steeds’ Poisoned Tongues | 4 | 3+ | 4+ | - | 1 | Companion |
@@ -937,13 +937,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 14" | 3 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Agonising Claws | 3 | 3+ | 4+ | 1 | 1 | Anti-CAVALRY (+1 Rend) |
 | Steed’s Poisoned Tongue | 2 | 3+ | 4+ | - | 1 | Companion |
@@ -965,13 +965,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 16 | 4+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Soulpiercer（戦傷時） | 6 | 2+ | 3+ | 2 | 3 | Anti-HERO (+1 Rend) |
 | Impaling Claws | 2 | 3+ | 3+ | 2 | 4 | - |
@@ -991,7 +991,7 @@
   - 宣言: Pick a visible friendly **HEDONITES OF SLAANESH** unit wholly within 12" of this unit to be the target, then make a casting roll of 2D6. Add 1 to the casting roll if this unit is the target.&#x20;
   - 効果: The target has **STRIKE-FIRST** for the rest of the turn.&#x20;
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Slaaneshi Beguiler*
 - Any **HEDONITES OF SLAANESH**
@@ -1008,13 +1008,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Haze Staff | 3 | 3+ | 4+ | 1 | D3 | - |
 
@@ -1026,7 +1026,7 @@
   - 宣言: If this unit is a **PARAGON**, pick a visible enemy unit within 12" of it to be the target, then make a casting roll of 2D6.
   - 効果: Until the start of your next turn, subtract 1 from save rolls for the target.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Dark Egotist*
 - Any **SYBARITE**
@@ -1045,13 +1045,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 7 | 3+ | 2 | 4+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Shardslash | 6 | 2+ | 3+ | 2 | 2 | Crit (2 Hits) |
 
@@ -1065,7 +1065,7 @@
 - **Paragon of Vainglory**（Passive）
   - 効果: If this unit charged this turn and the unmodified charge roll was 6+ , for the rest of the turn: • This unit has **STRIKE-FIRST**. • The Attacks characteristic of this unit’s **Shardslash** is equal to the unmodified charge roll. • Melee weapons, including **Companion** weapons, used by other friendly **HEDONITES OF SLAANESH** units have **Crit (2 Hits)** while they are wholly within 12" of and visible to this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Dark Egotist*
 - Any **HEDONITES OF SLAANESH**
@@ -1082,13 +1082,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 8" | 3 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Razor-sharp Claws and Gilded Weapons | 4 | 4+ | 3+ | 1 | 2 | Anti-INFANTRY (+1 Rend) |
 
@@ -1112,13 +1112,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 4 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Slickblade Glaive | 3 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage) |
 | Exalted Steed’s Poisoned Tongue | 3 | 3+ | 4+ | - | 1 | Companion |
@@ -1140,13 +1140,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 9 | 4+ | 4 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Scourging Whip | 6 | 2+ | 4+ | 1 | 2 | - |
 | Axe of Dominion | 4 | 3+ | 3+ | 2 | 3 | - |
@@ -1161,7 +1161,7 @@
 - **Violent Offerings**（End of Any Turn）
   - 効果: If any damage points were allocated this turn by this unit’s combat attacks to an enemy **WIZARD**, **PRIEST**, **UNIQUE** unit or unit with an artefact of power, and that enemy unit has been destroyed, add 1 to this unit’s power level for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Slaaneshi Beguiler* or *Dark Egotist*
 - Any **HEDONITES OF SLAANESH**
@@ -1176,13 +1176,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Merciless Weapons | 3 | 3+ | 4+ | 1 | 1 | - |
 
@@ -1205,19 +1205,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 10 | 5+ | 5 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Staff of Slaanesh | 18" | 3 | 3+ | 3+ | 1 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Unraveller’s Talons | 5 | 3+ | 3+ | 2 | 2 | - |
 
@@ -1233,7 +1233,7 @@
   - 宣言: Pick a visible enemy **WIZARD** or **PRIEST** within 18" of this unit to be the target.
   - 効果: Roll a dice. If the roll is higher than the target’s power level, for the rest of the battle round, while the target is within 18" of this unit: • Subtract 1 from casting rolls and chanting rolls for enemy units while they are within 18" of this unit. • Add 1 to this unit’s power level.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **HEDONITES OF SLAANESH** **Dexcessa** or *Slaaneshi Beguiler*
 - Any **HEDONITES OF SLAANESH**
@@ -1252,13 +1252,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 3 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Weapons of Excess | 3 | 3+ | 4+ | 1 | 2 | - |
 
@@ -1286,13 +1286,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 5 | 5+ | 2 | 4+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Razor-edged Claws | 6 | 3+ | 4+ | 1 | 2 | - |
 
@@ -1303,7 +1303,7 @@
 - **The Endless Dance**（Any Movement Phase）
   - 効果: Pick 1 of the following effects: ***The Dance of Dreaming***: Pick a visible enemy unit within 6" of this unit to be the target. For the rest of the turn, if the unmodified hit roll for an attack made by that enemy unit that targets this unit is 1-4, the attack fails and the attack sequence ends. ***The Pavane of Slaanesh***: This unit can move 2D3". It can move through the combat ranges of enemy units and can end that move in combat. ***The Waltz of Lethargy***: Pick a visible enemy unit within 6" of this unit to be the target. For the rest of the turn, the target cannot use commands while it is in combat with this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **DAEMON**
 
@@ -1321,13 +1321,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 3 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Carnal Blades and Wicked Claws | 3 | 3+ | 3+ | 1 | 2 | - |
 
@@ -1354,13 +1354,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 3 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Thricefold Arsenal | 3 | 3+ | 4+ | 1 | 2 | Crit (2 Hits) |
 
@@ -1372,7 +1372,7 @@
 - **Thricefold Court**（Once Per Turn (Army), Start of Any Turn）
   - 効果: Pick 1 of the following effects that you did not pick in the previous turn. The effect applies for the rest of the turn: ***Sins of Soul***: While an enemy **WIZARD** or **PRIEST** is visible to this unit, add 1 to this unit’s power level. ***Sins of Flesh***: This unit’s attacks score critical hits on unmodifed hit rolls of 5+. ***Sins of Mind***: Each time a visible friendly **HEDONITES OF SLAANESH** unit wholly within 12" of this unit uses the ‘Rally’ command, you receive 3 additional rally points.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Slaaneshi Beguiler*
 - Any **HEDONITES OF SLAANESH**
@@ -1393,13 +1393,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ravaging Claws | 6 | 3+ | 4+ | 1 | 2 | - |
 
@@ -1410,7 +1410,7 @@
 - **Lithe and Swift**（Passive）
   - 効果: Add 1 to the Attacks characteristic of this unit’s **Ravaging Claws** for the rest of the turn if this unit charged in the same turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **DAEMON**
 
@@ -1428,13 +1428,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 6 | 5+ | 7+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rending Wheels | 6 | 4+ | 2+ | 2 | 1 | Charge (+1 Damage) |
 

@@ -1,9 +1,9 @@
 # Lumineth Realm-lords ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Lumineth Realm-lords Battle Traits（出典: Order Battletome: Lumineth Realm-lords）
@@ -13,7 +13,7 @@ Lumineth Realm‑lords armies can use the following abilities:
 - **Depict Rune**（Once Per Battle Round (Army), Start of Battle Round）
   - 効果: Pick 1 of the following runes to depict on your **battle scripture**. The effect and conditional enhanced effects of that rune last for the rest of the battle round. Each rune remains on your **battle scripture** for the rest of the battle or until it is removed or replaced by another ability. **Varinor, Rune of Strength:** Pick up to 2 friendly **LUMINETH REALM-LORDS** units for each instance of this rune depicted on your **battle scripture** to be the targets. Add 1 to run rolls and charge rolls for each target. In addition, the following enhanced effects apply: • While **Ydriliqi, Rune of the River** is depicted on your **battle scripture**, add 1 to wound rolls for each target’s combat attacks. • While **Oreali, Rune of the Wind** is depicted on your **battle scripture**, each target can use **SHOOT** and/or **CHARGE** abilities even if it used a **RETREAT** ability in the same turn. **Alaithi, Rune of the Mountain**: Pick up to 2 friendly **LUMINETH REALM-LORDS** units for each instance of this rune depicted on your **battle scripture** to be the targets. Each target has **WARD (5+)**. In addition, the following enhanced effects apply: • While **Varinor, Rune of Strength** is depicted on your **battle scripture**, the targets’ melee weapons have **Anti-charge (+1 Rend)**. • While **Ydriliqi, Rune of the River** is depicted on your **battle scripture**, subtract 1 from wound rolls for attacks made by enemy units while they are in combat with any of the targets. **Ydriliqi, Rune of the River**: Pick up to 2 friendly **LUMINETH REALM-LORDS** units for each instance of this rune depicted on your **battle scripture** to be the targets. Subtract 2 from charge rolls for enemy units while they are within 12" of any of the targets. In addition, the following enhanced effects apply: • While **Alaithi, Rune of the Mountain** is depicted on your **battle scripture**, ignore negative modifiers to hit rolls and wound rolls for attacks made by the targets. • If **Oreali, Rune of the Wind** is depicted on your **battle scripture**, each target can immediately move up to 3". They can pass through the combat ranges of enemy units and can end that move in combat. **Oreali, Rune of the Wind**: Pick up to 2 friendly **LUMINETH REALM-LORDS** units for each instance of this rune depicted on your **battle scripture** to be the targets. Subtract 1 from hit rolls for attacks made by enemy units while they are in combat with any of the targets. In addition, the following enhanced effects apply: • While **Varinor, Rune of Strength** is depicted on your battle scripture, add 4" to each target’s Move characteristic. • While **Alaithi, Rune of the Mountain** is depicted on your **battle scripture**, add 5 to each target’s control score. **Thalari, Rune of the Zenith**: Add 2 to casting rolls for friendly **LUMINETH REALM-LORDS** units. In addition, if you have 4 or more unique runes depicted on your **battle scripture**, add 4" to the Move characteristic of friendly **LUMINETH REALM-LORDS** units and friendly **LUMINETH REALM-LORDS** units’ attacks score critical hits on unmodified hit rolls of 5+. **Designer’s Note:** *We recommend noting the runes you have inscribed in each battle round on a piece of paper to keep track of which are currently depicted on your **battle scripture.** Feel free to note them by type (Strength, River, Mountain etc.), by initial (each has a different first letter) or, if you are feeling particularly adventurous, you can try your hand at aelven calligraphy and learn to draw each rune!*
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Aelementor Guardians（10pt）
@@ -77,7 +77,7 @@ Lumineth Realm‑lords armies can use the following abilities:
 - **Dispassionate Soul**（Once Per Battle, End of Your Turn）
   - 効果: If this unit is in combat with an enemy **HERO**, reduce your opponent’s **fury level** by **X**, where **X** is the number of unique runes depicted on your battle scripture.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Heirlooms of Hysh（出典: Order Battletome: Lumineth Realm-lords）
@@ -106,7 +106,7 @@ Flawless Manoeuvres are unique enhancements that can be given to non‐**HERO** 
 - **Dazzling Phalanx**（Reaction: Opponent declared a **CHARGE** ability for a unit within 9" of and visible to this unit / 10pt）
   - 効果: Spend 1 **rage dice**. If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, for the rest of the turn, add 1 to wound rolls for this unit’s combat attacks that target the enemy unit using that **CHARGE** ability.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Lore of Hysh

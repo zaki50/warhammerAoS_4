@@ -1,9 +1,9 @@
 # The Equinox Feast ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### The Equinox Feast Battle Traits（出典: Army of Renown: The Equinox Feast）
@@ -30,7 +30,7 @@
 - **Lord of Revelries**（Passive）
   - 効果: Ignore the first damage point that would be allocated to this unit in each phase.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### The Equinox Feast Artefact of Power（出典: Army of Renown: The Equinox Feast）
@@ -41,7 +41,7 @@
   - 宣言: Pick a friendly **EQUINOX FEAST** unit that has been destroyed to be the target. This unit can use this ability if it has been destroyed, but if it does, this unit must be the target.
   - 効果: Set up a replacement unit identical to the target wholly within 6" of a friendly **EQUINOX FEAST** unit and more than 9" from all enemy units.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### The Equinox Feast Manifestation Lore

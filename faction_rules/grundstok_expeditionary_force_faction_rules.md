@@ -1,9 +1,9 @@
 # Grundstok Expeditionary Force ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Grundstok Expeditionary Force Battle Traits（出典: Army of Renown: Grundstok Expeditionary Force）
@@ -17,6 +17,7 @@
   - 宣言: Pick an enemy unit to be the target.
   - 効果: Subtract 1 from the control score of that unit for each damage point allocated to it this turn by a shooting attack made by a friendly **EXPEDITIONARY FORCE** unit, to a maximum of 10 damage points.
 - **Transport Skyfarers**（Reaction: You declared a non-CHARGE MOVE ability for a friendly SKYVESSEL）
+  - 使用者: The **SKYVESSEL** using that **MOVE** ability.
   - 効果: Pick a number of units up to that **SKYVESSEL**’s Transport Capacity (see its warscroll) that are wholly within 6" of it to be the targets. Units that have been transported this turn cannot be targets. Remove the targets from the battlefield. After the **SKYVESSEL** ends its move, you must set up each target unit on the battlefield, wholly within 6" of that **SKYVESSEL** and not in combat. Those units have been transported. A unit cannot use **CHARGE** abilities if it was transported in the same turn.
 
 ## 英雄特性
@@ -29,7 +30,7 @@
 - **Entrenchment Expert**（Reaction: You declared the ‘All-out Defence’ command for a friendly unit wholly within 12" of this HERO）
   - 効果: That friendly unit has **WARD (5+)** for the rest of the turn.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Grundstok Expeditionary Force Artefact of Power（出典: Army of Renown: Grundstok Expeditionary Force）

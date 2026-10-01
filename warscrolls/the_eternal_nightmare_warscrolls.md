@@ -1,6 +1,6 @@
 # The Eternal Nightmare ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全22 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -13,13 +13,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 2 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Tomb Greatblade | 2 | 3+ | 3+ | 1 | 1 | Crit (Auto-wound) |
 
@@ -40,13 +40,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 5 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cairnoch Scythe | 5 | 4+ | 3+ | 2 | 2 | Crit (Auto-wound) |
 
@@ -56,7 +56,7 @@
   - 宣言: Pick a visible friendly **Grimghast Reapers** unit wholly within 12" of this unit to be the target.
   - 効果: Add 1 to wound rolls for the target’s combat attacks for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Black Coach**
 - Any **INFANTRY**
@@ -75,19 +75,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 3 | 6+ | 2 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ghastflails | 12" | 2 | 4+ | 3+ | 2 | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ghastflails | 2 | 4+ | 3+ | 2 | 1 | Crit (Auto-wound) |
 
@@ -108,13 +108,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 1 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Malignant Weapon | 2 | 4+ | 5+ | - | 1 | Crit (Auto-wound) |
 
@@ -134,19 +134,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 2 | 6+ | 1 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Soulhunter’s Crossbow | 16" | 2 | 4+ | 3+ | 1 | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Wicked Sidearm | 1 | 4+ | 4+ | - | 1 | Crit (Auto-wound) |
 
@@ -166,13 +166,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 2 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Scythed Limbs | 3 | 4+ | 4+ | 1 | 1 | Crit (Auto-wound) |
 
@@ -191,13 +191,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 2 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Hunter’s Glaive | 2 | 4+ | 3+ | 1 | 1 | Charge (+1 Damage), Crit (Auto-wound) |
 
@@ -216,13 +216,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 2 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Slasher Scythe | 2 | 4+ | 3+ | 1 | 1 | Anti-INFANTRY (+1 Rend), Crit (Auto-wound) |
 
@@ -244,13 +244,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 5 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Chill Blade | 3 | 4+ | 3+ | 1 | 2 | Crit (Auto-wound) |
 
@@ -260,7 +260,7 @@
   - 宣言: Pick a visible friendly **NIGHTHAUNT** unit wholly within 12" of this unit to be the target.
   - 効果: Roll a dice. On a 3+, add 1 to wound rolls for the target's attacks for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Black Coach**
 - Any **INFANTRY**
@@ -279,13 +279,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 5 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Sword of Stolen Hours | 5 | 4+ | 3+ | 1 | 2 | Crit (Auto-wound) |
 
@@ -296,7 +296,7 @@
 - **Stolen Hours**（Passive）
   - 効果: Each time this unit uses a **FIGHT** ability, after that **FIGHT** ability has been resolved, **Heal (X)** this unit, where **X** is the number of damage points allocated to enemy units by combat attacks made as part of that **FIGHT** ability.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Cursed Soul*
 - Any **NIGHTHAUNT**
@@ -313,19 +313,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 6 | 5+ | 2 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Phantasmal Torture | 12" | 4 | 3+ | 3+ | 2 | 1 | Crit (Auto-wound), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Talons and Flensing Knives | 4 | 4+ | 3+ | 1 | 2 | Crit (Auto-wound) |
 
@@ -334,7 +334,7 @@
 - **Empowered Through Excruciation**（Passive）
   - 効果: Ignore the first damage point that would be allocated to each friendly **NIGHTHAUNT** unit wholly within 12" of this unit in each phase.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Black Coach**
 - Any **INFANTRY**
@@ -353,13 +353,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 5 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Decapitating Greataxe | 5 | 3+ | 3+ | 2 | 2 | Anti-HERO (+1 Rend), Crit (Auto-wound) |
 
@@ -372,7 +372,7 @@
   - 宣言: Pick an enemy **INFANTRY** or **CAVALRY HERO** that had any damage points allocated to it this turn by this unit's attacks to be the target.
   - 効果: Roll a dice. Add 1 to the roll if the target is a **SENTENCED** unit. On a 5+, the target is automatically destroyed.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Black Coach**
 - Any **INFANTRY**
@@ -391,19 +391,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 5 | 5+ | 2 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hurled Vial | 10" | 1 | 3+ | 3+ | 2 | D6 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Culler's Sickle | 3 | 4+ | 3+ | 1 | D3 | Crit (Auto-wound) |
 
@@ -413,7 +413,7 @@
   - 宣言: Pick an enemy unit within 10" of this unit to be the target.
   - 効果: If this unit’s shooting attacks inflicted damage on the target this turn, apply 1 of the following effects. Otherwise, roll a dice. On a 3+, apply 1 of the following effects: ***Phantasmal Solvent:*** If the target has a Move characteristic of'-', inflict 6 mortal damage on the target. ***Acidic Fug:*** Inflict D3 mortal damage on the target. ***Fling Concoctions:*** Add 1 to the Attacks characteristic of this unit's Hurled Vial this phase but all attacks made by this unit this phase must target that enemy unit. ***Choking Vapours:*** If the target is a **WIZARD**, subtract 1 from its power level until the start of your next turn. ***Fear-laced Hallucinogen:*** If the target is a **PRIEST**, remove D3 ritual points from it. ***Unholy Prescription:*** Ward rolls cannot be made for the target for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Black Coach**
 - Any **INFANTRY**
@@ -430,13 +430,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 2 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Chill Dagger | 2 | 4+ | 3+ | 1 | D3 | Anti-WIZARD (+1 Rend), Crit (Auto-wound) |
 
@@ -457,13 +457,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 18 | 3+ | 10 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Zefet-nebtar, the Mortis Blade | 4 | 3+ | 3+ | 2 | 3 | - |
 | Alakanash, the Staff of Power | 4 | 3+ | 3+ | 2 | D6 | - |
@@ -484,7 +484,7 @@
   - 宣言: This unit can cast this spell more than once per phase. Pick a visible unit wholly within 18" of this unit that has not been picked to be the target of this spell this turn to be the target, then make a casting roll of 2D6.
   - 効果: If the target is an enemy unit, inflict D3 mortal damage on it. If the target is a friendly **DEATH** unit, pick 1 of the following effects: • Return a number of slain models to the target unit with a combined Health characteristic of up to 3. • If the target was not set up this turn and is not in combat, it can move up to 3". It cannot move into combat.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Cursed Soul*
 - Any **NIGHTHAUNT**
@@ -501,7 +501,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 8 | 5+ | - | 5+ |
 
@@ -532,19 +532,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 2 | 6+ | 1 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Gout of Balefire | 10" | 2 | 2+ | 4+ | 1 | 1 | Crit (Auto-wound), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Flaming Weapons | 2 | 4+ | 4+ | - | 1 | Crit (Auto-wound) |
 
@@ -564,13 +564,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 3 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spectral Claws and Daggers | 6 | 4+ | 4+ | - | 1 | Crit (Auto-wound) |
 
@@ -594,13 +594,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 5 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Malicious Quill | 3 | 4+ | 4+ | - | 1 | Crit (Auto-wound) |
 
@@ -612,7 +612,7 @@
   - 宣言: Pick a visible enemy unit within 18" of this unit to be the target.
   - 効果: Roll a dice. On a 3+, inflict 1 mortal damage on the target and the target has the **SENTENCED** keyword for the rest of the battle.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Black Coach**
 - Any **INFANTRY**
@@ -629,13 +629,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 3 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spectral Claws and Daggers | 6 | 4+ | 4+ | - | 1 | Crit (Auto-wound) |
 
@@ -656,13 +656,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 5 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Shacklegheist Chains | 5 | 4+ | 3+ | 1 | 2 | Crit (Auto-wound) |
 
@@ -671,7 +671,7 @@
 - **Captured Soul Energy**（Passive）
   - 効果: Each time a friendly **NIGHTHAUNT** unit wholly within 12" of this unit uses the 'Rally' command, you can make 3 additional rally rolls of D6.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Black Coach**
 - Any **INFANTRY**
@@ -690,19 +690,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 5 | 5+ | 2 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Piercing Scream | 10" | 2 | 4+ | 3+ | 2 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ancient Chill Dagger | 3 | 4+ | 3+ | 2 | D3 | Crit (Auto-wound) |
 
@@ -714,7 +714,7 @@
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
   - 効果: Inflict D3 mortal damage on the target. If any models in the target unit are slain by this ability, the target cannot use commands for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Black Coach**
 - Any **INFANTRY**

@@ -1,6 +1,6 @@
 # Idoneth Deepkin ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全27 ウォースクロール（Spearhead 版 5 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 6 | 6+ | 6+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Freezing Grasp | 4 | 4+ | 2+ | 1 | D3 | - |
 
@@ -45,20 +45,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 8 | 4+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Razorshell Harpoon | 18" | 2 | 3+ | 2+ | 1 | 3 | Anti-MONSTER (+1 Rend) |
 | Retarius Net Launcher | 18" | 2 | 3+ | 2+ | 1 | 3 | Anti-CAVALRY (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Allopex’s Ferocious Bite | 3 | 4+ | 2+ | 2 | 2 | Anti-MONSTER (+1 Rend), Companion |
 | Barbed Hooks and Blades | 4 | 3+ | 4+ | 1 | 1 | - |
@@ -83,13 +83,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 4 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Helsabre | 3 | 3+ | 4+ | 1 | 1 | - |
 | Fangmora’s Fangs and Lashing Tail | 3 | 4+ | 3+ | 1 | D3 | Companion |
@@ -114,13 +114,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 7 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Akhelian Royal Weapons | 5 | 3+ | 4+ | 1 | 2 | Charge (+1 Damage) |
 | Deepmare’s Fangs, Talons and Lashing Tails | 4 | 4+ | 3+ | 1 | 2 | Companion |
@@ -133,7 +133,7 @@
   - 宣言: If this unit charged this phase, pick an enemy unit within 1" of it to be the target.
   - 効果: Roll a D3. On a 2+: • Inflict an amount of mortal damage on the target equal to the roll. • Add 1 to the Rend characteristic of this unit’s **Akhelian Royal Weapons** for attacks that target that enemy unit for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Akhelian Raidmaster* or *Isharann Emissary*
 - Any **IDONETH DEEPKIN**
@@ -150,19 +150,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 16 | 3+ | 5 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Razorshell Harpoon Launchers | 18" | 4 | 3+ | 2+ | 1 | 3 | Anti-MONSTER (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Leviadon’s Scythed Fins and Crushing Jaws（戦傷時） | 7 | 4+ | 2+ | 2 | 3 | Crit (Mortal), Companion |
 | Crew’s Spears and Harpoons | 4 | 3+ | 4+ | 1 | 1 | - |
@@ -187,13 +187,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 4 | 4+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Voltspear | 2 | 3+ | 4+ | 1 | 1 | Anti-CAVALRY (+1 Rend), Charge (+1 Damage) |
 | Fangmora’s Fangs and Lashing Tail | 3 | 4+ | 3+ | 1 | D3 | Companion |
@@ -216,13 +216,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Esoteric Weapons | 6 | 3+ | 4+ | 1 | 2 | - |
 
@@ -233,7 +233,7 @@
 - **Thrallmaster**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly **NAMARTI THRALLS** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **IDONETH DEEPKIN**
 
@@ -251,13 +251,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cephanyr’s Tentacles | 6 | 4+ | 3+ | - | 1 | Companion |
 | Lanmari Weapons | 2 | 3+ | 4+ | 1 | 1 | - |
@@ -286,19 +286,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 12 | 3+ | 5 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Blasts of Abyssal Energy | 12" | 3 | 3+ | 3+ | 2 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Psi-trident and Deep‑sea Sceptre | 7 | 3+ | 3+ | 1 | D3 | - |
 
@@ -315,7 +315,7 @@
   - 宣言: If this unit has not charged this turn, pick an enemy unit in combat with it to be the target.
   - 効果: Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Isharann Emissary*
 - Any **IDONETH DEEPKIN**
@@ -332,13 +332,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 12 | 3+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spear of Repressed Fury and Crulhook | 7 | 3+ | 2+ | 2 | 2 | Charge (+1 Damage) |
 
@@ -352,7 +352,7 @@
   - 宣言: Pick an enemy **HERO** in combat with this unit to be the target.
   - 効果: Roll a dice. On a 3+, the target has **STRIKE‑LAST** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Isharann Emissary*
 - Any **IDONETH DEEPKIN**
@@ -369,19 +369,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 2 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Riptide Harpoon | 8" | 1 | 3+ | 4+ | 1 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Soulraid Weapons | 2 | 3+ | 4+ | 1 | 1 | - |
 
@@ -409,7 +409,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 7 | 4+ | - |
 
@@ -442,13 +442,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 7" | 6 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Tidal Glaive | 5 | 3+ | 3+ | 1 | 2 | Charge (+1 Damage) |
 
@@ -460,7 +460,7 @@
   - 宣言: Pick this unit and up to 1 friendly **IDONETH DEEPKIN** unit within this unit’s combat range to be the targets.
   - 効果: For the rest of the turn, add 1 to the number of dice rolled when making charge rolls for the targets, to a maximum of 3.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **IDONETH DEEPKIN**
 
@@ -478,13 +478,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 7" | 6 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Maelstrom Blades | 7 | 3+ | 4+ | 1 | 2 | - |
 
@@ -495,7 +495,7 @@
 - **Storm of Blades**（Once Per Battle, Any Combat Phase）
   - 効果: This unit can use 2 **FIGHT** abilities this phase. After the first is used, however, this unit has **STRIKE-LAST** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **IDONETH DEEPKIN**
 
@@ -513,13 +513,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 12 | 4+ | 9+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Crushing Maw and Scything Waves | 6 | 4+ | 2+ | 1 | 3 | Anti-FACTION TERRAIN (+1 Rend) |
 
@@ -544,13 +544,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rakerdart’s Serrated Bill | 3 | 4+ | 4+ | 1 | 1 | Companion |
 | Talúnhook | 4 | 3+ | 4+ | 1 | 2 | - |
@@ -564,7 +564,7 @@
   - 宣言: Pick an enemy **HERO** in combat with this unit to be the target.
   - 効果: Roll 2D6. If the roll exceeds the target’s Health characteristic, it is automatically destroyed.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Isharann Emissary*
 - Any **NAMARTI**
@@ -583,13 +583,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Abyssal Touch | 4 | 3+ | 4+ | - | D3 | - |
 
@@ -598,7 +598,7 @@
 - **Finder of Ways**（Reaction: You declared the ‘Unpredictable Tide’ ability or the ‘Steed of Tides’ ability）
   - 効果: Instead of setting up the targets as described in the ability used, set them up on the battlefield wholly within 12" of this unit and more than 7" from all enemy units.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Isharann Emissary*
 - Any **NAMARTI**
@@ -617,13 +617,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Pelagic Staff | 4 | 3+ | 4+ | 1 | D3 | - |
 
@@ -633,7 +633,7 @@
   - 宣言: Make an Isharann ritual roll of D6.
   - 効果: On a 3+, pick 1 of the following effects to apply until the start of your next turn: ***Creeping Mist:*** Friendly **IDONETH DEEPKIN** units cannot be targeted by shooting attacks unless the attacking model is within 12" of them. ***Surging Stream:*** Add 1 to run rolls and charge rolls for friendly **IDONETH DEEPKIN** units. ***Spiteful Riptide:*** Each time an enemy unit uses a **RETREAT** ability, after the effect of that ability has been resolved, inflict D3 mortal damage on that unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Isharann Emissary*
 - Any **NAMARTI**
@@ -652,13 +652,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Meloch’s Tentacles and Weapons | 8 | 4+ | 4+ | 1 | 1 | Companion |
 
@@ -672,7 +672,7 @@
 - **Fount of Willpower**（Once Per Turn, Reaction: You declared a **SPELL** ability for a friendly **ISHARANN** unit wholly within 12" of this unit）
   - 効果: Remove 1 of this unit’s **soul-quota tokens**. Then, you can re‑roll the casting roll.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **IDONETH DEEPKIN**
 
@@ -688,19 +688,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 6 | 5+ | 2 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Riptide Blast | 18" | 3 | 2+ | 4+ | 1 | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Staff of the Abyss | 3 | 3+ | 4+ | 1 | D3 | - |
 | Dark Shoal’s Ferocious Bites | 5 | 4+ | 3+ | 1 | 1 | Companion |
@@ -714,7 +714,7 @@
   - 宣言: Pick up to 3 friendly **IDONETH DEEPKIN** units wholly within 12" of this unit to be the targets.
   - 効果: For the rest of the turn, add 1 to the Attacks characteristic of the targets’ **Companion** weapons.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Isharann Emissary*
 - Any **IDONETH DEEPKIN**
@@ -729,19 +729,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 7" | 1 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Whisperbow | 12" | 2 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Keening Blade | 1 | 3+ | 4+ | - | 1 | - |
 
@@ -760,13 +760,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Lanmari | 2 | 3+ | 4+ | 1 | 1 | Anti-INFANTRY (+1 Rend), Anti-MONSTER (+1 Rend) |
 
@@ -787,13 +787,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Pelagic Staff | 4 | 3+ | 4+ | 1 | D3 | - |
 
@@ -803,7 +803,7 @@
   - 宣言: Pick a visible friendly **IDONETH DEEPKIN** unit wholly within 12" of this unit to be the target.
   - 効果: If the target is **NAMARTI**, pick 1 of the following effects to apply until the start of your next turn. Otherwise, make an Isharann ritual roll of D6. On a 3+, pick 1 of the following effects to apply until the start of your next turn. ***Torrent of Blows***: Pick 1 of the target’s melee weapons. That weapon has **Crit (2 Hits)**. ***Protection of the Waves***: While this unit is within 3" of and visible to the target, both units have **WARD (5+)**. ***Frenzy of the Ethersea***: For each unmodified hit roll of 1 for a combat attack that targets that friendly unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Isharann Emissary*
 - Any **NAMARTI**
@@ -820,19 +820,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 7" | 1 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Whisperbow | 12" | 2 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Keening Blade | 1 | 3+ | 4+ | - | 1 | - |
 
@@ -855,13 +855,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Esoteric Weapons | 6 | 3+ | 4+ | 1 | 2 | - |
 
@@ -873,7 +873,7 @@
 - **Way of the Vortex**（Passive）
   - 効果: Subtract 1 from the Rend characteristic of weapons used for attacks that target this unit and friendly **NAMARTI** units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **NAMARTI**
 
@@ -889,13 +889,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 1 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Lanmari | 2 | 3+ | 4+ | 1 | 1 | Anti-INFANTRY (+1 Rend), Anti-MONSTER (+1 Rend) |
 
@@ -919,13 +919,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 8 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Uasall’s Fangs, Talons and Lashing Tails | 4 | 4+ | 3+ | 1 | 2 | Companion |
 | The Astra Solus | 6 | 2+ | 3+ | 1 | 2 | Charge (+1 Damage) |
@@ -940,7 +940,7 @@
 - **Cealith, the High King's Shield**（Passive）
   - 効果: This unit has **WARD (3+)** against mortal damage inflicted by **SPELL** abilities, **PRAYER** abilities or abilities used by **MANIFESTATIONS**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Akhelian Raidmaster* or *Isharann Emissary*
 - Any **IDONETH DEEPKIN**

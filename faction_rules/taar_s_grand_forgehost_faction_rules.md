@@ -1,9 +1,9 @@
 # Taar's Grand Forgehost ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Taar's Grand Forgehost Battle Traits（出典: Army of Renown: Taar's Grand Forgehost）
@@ -26,7 +26,7 @@
 - **Ruthless Overseer**（Passive）
   - 効果: Each time a friendly **GRAND FORGEHOST** unit wholly within 12" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Taar's Grand Forgehost Artefact of Power（出典: Army of Renown: Taar's Grand Forgehost）
@@ -36,7 +36,7 @@
 - **Talisman of Obsidian**（Passive）
   - 効果: Subtract 1 from hit rolls for attacks that target this unit.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Taar's Grand Forgehost Prayer Lore

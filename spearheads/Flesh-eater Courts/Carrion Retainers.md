@@ -1,6 +1,6 @@
 # Spearhead: Carrion Retainers（Flesh-eater Courts）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 6 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gory Talons and Fangs | 5 | 3+ | 3+ | 1 | 2 | - |
 
@@ -43,13 +43,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 1 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cursed Weapon | 3 | 4+ | 4+ | 1 | 1 | - |
 
@@ -66,13 +66,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 4 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Grisly Lance | 2 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage) |
 | Nightshrieker’s Claws and Teeth | 3 | 4+ | 3+ | 1 | 2 | Companion |
@@ -90,13 +90,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 8 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dagger-like Fangs | 1 | 3+ | 2+ | 2 | 3 | - |
 | Immense Claws | 7 | 4+ | 3+ | 1 | 2 | - |
@@ -108,7 +108,7 @@
 
 **キーワード:** Hero, Infantry, Ward (6+)
 
-## バトル特性（Carrion Retainers Battle Traits）
+## 戦闘特性（Carrion Retainers Battle Traits）
 
 - **Feeding Frenzy**（Passive）
   - 効果: Add 1 to the Attacks characteristic of melee weapons used by friendly units while they are wholly within 12" of any friendly **HEROES** that have 6 **noble deeds points**.
@@ -118,7 +118,7 @@
   - 宣言: Pick a friendly **HERO** with any **noble deeds points** to use this ability.
   - 効果: Spend any number of that **HERO**’s **noble deeds points** as follows: Pick a friendly **Cryptguard** unit within 9" of this unit and spend 1 **noble deeds point** to return 1 model to that unit. Pick a friendly **Morbheg Knights** unit within 9" of this unit and spend 2 **noble deeds points** to return 1 model to that unit.
 
-## レジメントアビリティ（Carrion Retainers Regiment Abiities）
+## 連隊アビリティ（Carrion Retainers Regiment Abiities）
 
 Pick 1 of the following regiment abilities.
 

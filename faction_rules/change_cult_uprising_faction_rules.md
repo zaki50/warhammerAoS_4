@@ -1,9 +1,9 @@
 # Change-Cult Uprising ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Change-Cult Uprising Battle Traits（出典: Army of Renown: Change-Cult Uprising）
@@ -34,7 +34,7 @@
   - 宣言: Pick a terrain feature within 18" of this unit, then pick a friendly non-**HERO CHANGE-CULT** unit that is **masked by illusion** or that has been destroyed to be the target.
   - 効果: If you picked a unit that is **masked by illusion**, set it up wholly within 3" of that terrain feature and more than 6" from all enemy units. If you picked a unit that has been destroyed, set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 3" of that terrain feature and more than 6" from all enemy units. **Designer’s Note:** *Units can be set up in reserve masked by illusion using the Fatemaster’s ‘Long in the Planning’ ability.*
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Change-Cult Uprising Artefact of Power（出典: Army of Renown: Change-Cult Uprising）
@@ -44,7 +44,7 @@
 - **Spell-Eater Pendant**（Passive）
   - 効果: Each time this unit unbinds a spell or banishes an enemy **MANIFESTATION**, gain 1 **fate point**.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Change-Cult Uprising Manifestation Lore

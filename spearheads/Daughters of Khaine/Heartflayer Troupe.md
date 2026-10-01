@@ -1,4 +1,4 @@
-# Spearhead: Heartflayer Troupe（Daughters of Khaine）
+# Spearhead: Heartflayer Troupe（ドーター・オヴ・カイン(Daughters of Khaine)）
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
@@ -19,19 +19,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 2 | 5+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| 心臓探しの弓(Heartseeker Bow) | 18" | 3 | 3+ | 4+ | 1 | 1 | Crit (Auto-wound) |
+| 心臓探しの弓(Heartseeker Bow) | 18" | 3 | 3+ | 4+ | 1 | 1 | クリティカル（自動ウーンズ）(Crit (Auto-wound)) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | シアンラー(Scianlar) | 2 | 3+ | 4+ | - | 1 | - |
 
@@ -40,7 +40,7 @@
 - **心臓探しの弓(Heartseekers)**（Passive）
   - 効果: Shooting attacks made by this unit score critical hits on unmodified hit rolls of 5+ if this unit did not use a **MOVE** ability in the same turn.
 
-**キーワード:** Infantry, Ward (6+)
+**キーワード:** 歩兵、加護（6+）（Infantry, Ward (6+)）
 
 ### ドゥームファイア・ウォーロック(Doomfire Warlocks)
 
@@ -48,22 +48,22 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 14" | 3 | 5+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | ドゥームファイア・クロスボウ(Doomfire Crossbow) | 10" | 2 | 3+ | 4+ | - | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | 呪われし曲刀(Cursed Scimitar) | 2 | 3+ | 4+ | 1 | 1 | - |
-| ダークスティードの猛烈な噛みつき(Dark Steed’s Vicious Bite) | 2 | 5+ | 3+ | - | 1 | Companion |
+| ダークスティードの猛烈な噛みつき(Dark Steed’s Vicious Bite) | 2 | 5+ | 3+ | - | 1 | 随行者(Companion) |
 
 **アビリティ:**
 
@@ -71,7 +71,7 @@
   - 宣言: Pick a visible enemy unit within 12" of this unit to be the target, then make a casting roll of 2D6.
   - 効果: On a 6+, inflict D3 mortal damage on the target.
 
-**キーワード:** Cavalry, Ward (6+)
+**キーワード:** Cavalry、加護（6+）（Cavalry, Ward (6+)）
 
 ### メルサイ・アイアンスケイル(Melusai Ironscale)
 
@@ -79,19 +79,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 6 | 5+ | 2 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | ケルドリサイス(Keldrisaíth) | 12" | 2 | 3+ | 3+ | 1 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | ケルドリサイス(Keldrisaíth) | 6 | 3+ | 4+ | 1 | 2 | - |
 
@@ -104,7 +104,7 @@
   - 宣言: Pick a friendly unit wholly within 12" of this unit to be the target. You cannot pick this unit.
   - 効果: Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.
 
-**キーワード:** Hero, Infantry, Ward (6+)
+**キーワード:** 英雄、歩兵、加護（6+）（Hero, Infantry, Ward (6+)）
 
 ### ウィッチアエルフ(Witch Aelves)
 
@@ -112,27 +112,27 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 1 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| シアンサ二刀流(Paired Sciansá) | 3 | 3+ | 4+ | - | 1 | Crit (Auto-wound) |
+| シアンサ二刀流(Paired Sciansá) | 3 | 3+ | 4+ | - | 1 | クリティカル（自動ウーンズ）(Crit (Auto-wound)) |
 
 **アビリティ:**
 
-- **熱烈なる感情(Frenzied Fervour)**（Passive）
-  - 効果: Add 1 to the Rend characteristic of this unit’s melee weapons if it charged in the same turn.
+- **熱烈なる感情(Frenzied Fervour)**（パッシブ）
+  - 効果: このユニットが現在のターン中に突撃していた場合、このユニットが装備している近接武器は【貫通値】に+1の修正を受ける。
 
-**キーワード:** Infantry, Reinforcements, Ward (6+)
+**キーワード:** 歩兵、増援、加護（6+）（Infantry, Reinforcements, Ward (6+)）
 
-## バトル特性（Heartflayer Troupe Battle Traits）
+## 戦闘特性（Heartflayer Troupe Battle Traits）
 
 
-## レジメントアビリティ（Heartflayer Troupe Regiment Abilities）
+## 連隊アビリティ（Heartflayer Troupe Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

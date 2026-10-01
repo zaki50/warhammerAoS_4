@@ -1,9 +1,9 @@
 # Beastclaw Alfrostun ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Beastclaw Alfrostun Battle Traits（出典: Army of Renown: Beastclaw Alfrostun）
@@ -31,7 +31,7 @@
 - **Hard-Bitten Chieftain**（Passive）
   - 効果: Other than the **Companion** ability, weapon abilities for attacks that target this unit made by enemy units that charged in the same turn have no effect.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Beastclaw Alfrostun Artefact of Power（出典: Army of Renown: Beastclaw Alfrostun）
@@ -41,7 +41,7 @@
 - **Alvagr Rune-Tokens**（Once Per Battle (Army), Your Hero Phase）
   - 効果: Until the start of your next turn, add 2 to chanting rolls for friendly **ALFROSTUN** units while they are wholly within 12" of this unit.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Beastclaw Alfrostun Prayer Lore

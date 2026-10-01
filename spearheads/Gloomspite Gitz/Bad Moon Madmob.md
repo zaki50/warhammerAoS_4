@@ -1,6 +1,6 @@
 # Spearhead: Bad Moon Madmob（Gloomspite Gitz）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Moon-slicer | 5 | 4+ | 4+ | 1 | D3 | - |
 
@@ -43,13 +43,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stabba | 2 | 4+ | 5+ | - | 1 | - |
 
@@ -67,19 +67,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 4+ | 2 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Throwin’ Boulders | 10" | 1 | 5+ | 2+ | 2 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Massive Stone Maul | 2 | 4+ | 2+ | 2 | 3 | - |
 
@@ -96,13 +96,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | D6+8" | 2 | 6+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Squig’s Fang-filled Gob | 3 | 4+ | 3+ | 1 | 1 | Companion |
 | Slitta | 2 | 4+ | 5+ | - | 1 | - |
@@ -115,7 +115,7 @@
 
 **キーワード:** Cavalry, Fly
 
-## バトル特性（Bad Moon Madmob Battle Traits）
+## 戦闘特性（Bad Moon Madmob Battle Traits）
 
 - **Squigalanche**（Your Movement Phase）
   - 効果: Set up this unit wholly within your territory, wholly within 3" of a battlefield edge and more than 6" from all enemy units.
@@ -123,7 +123,7 @@
   - 宣言: Pick a territory (either friendly territory or enemy territory) to be **under the Light of the Bad Moon**. If both players can use this ability, the players roll off and the winner picks a territory to be under the Light of the Bad Moon. The territory picked remains under the Light of the Bad Moon in the first and second battle rounds. In the third and fourth battle rounds, the other territory is under the Light of the Bad Moon.
   - 効果: While a friendly unit is wholly within the territory that is **under the Light of the Bad Moon**, the appropriate effect below applies to it: ***Frothing Zealots:*** If the unit is a **Moonclan Stabbas** unit, add 3 to its control score. ***Lunar Squigs:*** If the unit is a **Squig Hoppers** unit, no mortal damage is inflicted on it when it uses **Retreat** abilities. ***Moonlit Hide:*** If the unit is a **Rockgut Troggoths** unit, add 1 to save rolls for it.
 
-## レジメントアビリティ（Bad Moon Madmob Regiment Abilities）
+## 連隊アビリティ（Bad Moon Madmob Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

@@ -1,6 +1,6 @@
 # Spearhead: Darkoath Raiders（Slaves to Darkness）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 3 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fellrider Blades | 2 | 4+ | 3+ | - | 1 | Charge (+1 Damage) |
 | Warsteed’s Hooves | 2 | 5+ | 3+ | - | 1 | Companion |
@@ -43,13 +43,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Raider Weapons | 2 | 4+ | 3+ | - | 1 | - |
 
@@ -66,13 +66,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Darkoath Weapons | 2 | 4+ | 3+ | - | 1 | Crit (Mortal) |
 
@@ -89,13 +89,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rune-etched Axe | 5 | 4+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -107,12 +107,12 @@
 
 **キーワード:** Hero, Infantry, Ward (5+)
 
-## バトル特性（Darkoath Raiders Battle Traits）
+## 戦闘特性（Darkoath Raiders Battle Traits）
 
 - **Oaths of Darkness**（Once Per Turn (Army), Your Hero Phase）
   - 効果: You can reveal 1 **battle tactic card** in your hand to your opponent. If you do so, that **battle tactic card becomes your oath** for the rest of the turn. While this **battle tactic card is your oath**, you can still use the command on it, or attempt to score the battle tactic on it, as normal. If you score the battle tactic on your oath this turn, your oath is **fulfilled.** Instead of discarding the card, it is placed to one side but you can still use the command on it. Once you do so, the card is discarded as normal. Fulfilled oaths placed to one side in this way do not count towards the 3 battle tactic cards you can have in your hand. If you use the command on your oath before it is scored, it is discarded as normal. At the end of the turn, if the oath is still in your hand and that oath has not been fulfilled, it ceases to be your oath.
 
-## レジメントアビリティ（Darkoath Raiders Regiment Abilities）
+## 連隊アビリティ（Darkoath Raiders Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

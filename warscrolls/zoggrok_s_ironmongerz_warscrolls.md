@@ -1,6 +1,6 @@
 # Zoggrok's Ironmongerz ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全13 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Boss-hacka and Choppa | 7 | 4+ | 3+ | 1 | 2 | - |
 
@@ -32,7 +32,7 @@
 - **Iron-fisted Commander**（Passive）
   - 効果: If a friendly **Ardboyz** unit wholly within 12" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **INFANTRY**
 
@@ -48,13 +48,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 2 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Choppa or Stikka | 2 | 4+ | 3+ | 1 | 1 | Anti-charge (+1 Rend) |
 
@@ -76,7 +76,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 12 | 4+ | - |
 
@@ -110,13 +110,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 3 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rager Weapons | 3 | 4+ | 2+ | 1 | 2 | Anti-MONSTER (+1 Rend) |
 
@@ -137,13 +137,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 3 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Brute Weapons | 3 | 4+ | 3+ | 1 | 2 | Anti-INFANTRY (+1 Rend) |
 | Gore-choppa | 3 | 4+ | 3+ | 2 | 3 | - |
@@ -167,13 +167,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 8 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Boss-choppa | 8 | 4+ | 2+ | 1 | 2 | - |
 
@@ -184,7 +184,7 @@
 - **Lead Da Brutes**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly **BRUTE** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Headstompa*
 - Any **IRONJAWZ**
@@ -201,13 +201,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 3 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Brute Weapons | 3 | 4+ | 3+ | 1 | 2 | Anti-INFANTRY (+1 Rend) |
 | Gore-choppa | 3 | 4+ | 3+ | 2 | 3 | - |
@@ -233,13 +233,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 8 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Boss-choppa | 8 | 4+ | 2+ | 1 | 2 | - |
 
@@ -251,7 +251,7 @@
 - **You Ain't Gonna Show Me Up**（Once Per Turn (Army), End of Any Turn）
   - 効果: If this unit used a **FIGHT** ability this turn, spend 1 **rage dice**. If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, add 1 to the Damage characteristic of this unit’s **Boss-choppa** for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Headstompa*
 - Any **IRONJAWZ**
@@ -268,13 +268,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 3 | 5+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Chain-smasha | 6 | 4+ | 3+ | 1 | 1 | Anti-INFANTRY (+1 Rend) |
 
@@ -298,13 +298,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 6 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gorkstikk and Morkstikk | 6 | 4+ | 3+ | - | D3 | - |
 
@@ -313,7 +313,7 @@
 - **Rhythm of Destruction**（End of Any Turn）
   - 効果: If any enemy models were slain this turn by this unit’s combat attacks, give this unit D3 ritual points.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **IRONJAWZ**
 
@@ -329,13 +329,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 3 | 5+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Chain-smasha | 6 | 4+ | 3+ | 1 | 1 | Anti-INFANTRY (+1 Rend) |
 
@@ -356,19 +356,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 6 | 6+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Green Puke | 10" | 4 | 2+ | 4+ | - | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Waaagh! Staff | 3 | 4+ | 3+ | 1 | D3 | - |
 
@@ -377,7 +377,7 @@
 - **Brutal Power**（Passive）
   - 効果: Add 1 to this unit’s power level while there are any friendly **IRONJAWZ** units that have 10 or more models wholly within 12" of it.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **IRONJAWZ**
 
@@ -395,13 +395,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 7 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Grunta-tongs | 4 | 4+ | 3+ | - | 1 | - |
 | Ward-smashing Choppa | 2 | 4+ | 2+ | 2 | 3 | - |
@@ -417,7 +417,7 @@
 - **Klonk**（Passive）
   - 効果: **Klonk** is a token. You can re-roll forgin’ rolls for this unit while this unit’s **Klonk** is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove this unit’s **Klonk** from the battlefield after the **ATTACK** ability has been resolved (the damage point is still inflicted).
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **IRONJAWZ**
 

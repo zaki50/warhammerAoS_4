@@ -1,9 +1,9 @@
 # Gorechosen Champions ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Gorechosen Champions Battle Traits（出典: Army of Renown: Gorechosen Champions）
@@ -30,7 +30,7 @@
 - **Crowned in Butchery**（Passive）
   - 効果: Add 20 to this unit's control score while it is in combat.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Gorechosen Champions Artefacts of Power（出典: Army of Renown: Gorechosen Champions）
@@ -45,7 +45,7 @@
 - **Bloodmist Skull**（Passive）
   - 効果: This unit has **WARD (3+)** against damage inflicted by shooting attacks.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Gorechosen Champions Manifestation Lore

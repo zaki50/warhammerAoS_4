@@ -1,6 +1,6 @@
 # Spearhead: Bubonic Cell（Maggotkin of Nurgle）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 7" | 8 | 5+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Filthy Claws and Slobbering Maw | 5 | 4+ | 3+ | 1 | D3 | Companion |
 
@@ -43,13 +43,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 4 | 6+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Tiny Razor-sharp Teeth | 5 | 5+ | 5+ | - | 1 | Crit (Auto-wound) |
 
@@ -66,13 +66,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 6 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rotwood Staff | 3 | 4+ | 3+ | 1 | D3 | - |
 
@@ -90,19 +90,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 1 | 6+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Contagion Blowpipes | 12" | 2 | 4+ | 3+ | - | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bilewood Weapons | 2 | 4+ | 4+ | - | 1 | - |
 
@@ -113,7 +113,7 @@
 
 **キーワード:** Infantry, Ward (6+), Reinforcements
 
-## バトル特性（Bubonic Cell Battle Traits）
+## 戦闘特性（Bubonic Cell Battle Traits）
 
 - **Numberless Pests**（Passive）
   - 効果: Subtract 1 from hit rolls for attacks that target friendly units.
@@ -124,7 +124,7 @@
 - **Burgeoning Filth**（Passive）
   - 効果: Subtract 3 from the control scores of enemy units while they are in combat with any friendly units.
 
-## レジメントアビリティ（Bubonic Cell Regiment Abilities）
+## 連隊アビリティ（Bubonic Cell Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

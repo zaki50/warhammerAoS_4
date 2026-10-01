@@ -1,9 +1,9 @@
 # Ironjawz ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Ironjawz Battle Traits（出典: Ironjawz）
@@ -17,7 +17,7 @@ Ironjawz armies can use the following abilities:
   - 宣言: Pick a friendly **IRONJAWZ HERO** to be the target. You cannot pick the same **HERO** to be the target of this ability more than once per battle.
   - 効果: For the rest of the turn, the following effects apply to friendly **IRONJAWZ** units while they are wholly within 18" of the target: • Add 1 to charge rolls for those units. • Add 1 to the Attacks characteristic of those units’ melee weapons.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Bigsnikkaz
@@ -66,7 +66,7 @@ Ironjawz armies can use the following abilities:
   - 宣言: If this unit charged this turn, pick an enemy unit within 1" of it to be the target.
   - 効果: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If this unit’s unmodified charge roll this turn was 8+, roll a D6 instead of a D3.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Da Boss's Hoard（出典: Ironjawz）
@@ -120,7 +120,7 @@ Monstrous Traits are enhancements that can only be given to **MONSTERS**.
   - 宣言: If this unit charged this turn, pick an enemy unit in combat with it to be the target.
   - 効果: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any models are slain by this ability, after those models are removed from the battlefield, if this unit is still in combat, this unit can immediately use this ability again.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Lore of the Weird

@@ -1,9 +1,9 @@
 # The Magnate's Crew ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### The Magnate's Crew Battle Traits（出典: Army of Renown: The Magnate's Crew）
@@ -38,7 +38,7 @@
 - **Flanking Fire**（Passive）
   - 効果: Add 1 to hit rolls for shooting attacks made by friendly **MAGNATE’S CREW SKYVESSELS** that target an enemy unit in combat with this unit.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### The Magnate's Crew Artefacts of Power（出典: Army of Renown: The Magnate's Crew）

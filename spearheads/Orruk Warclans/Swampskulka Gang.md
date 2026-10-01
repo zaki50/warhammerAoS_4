@@ -1,6 +1,6 @@
 # Spearhead: Swampskulka Gang（Orruk Warclans）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -20,19 +20,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Beast-skewer Bolts | 24" | 2 | 4+ | 2+ | 2 | D6 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Jaggedy Blades | 2 | 4+ | 3+ | - | 1 | Crit (Mortal) |
 
@@ -49,13 +49,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Wicked Hacka | 2 | 4+ | 3+ | - | 1 | Crit (Mortal) |
 
@@ -72,13 +72,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 10 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gnashtoof’s Bone-crushing Fangs | 5 | 4+ | 3+ | 1 | 2 | Companion |
 | Jagged Boss-stikka | 4 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
@@ -97,19 +97,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Man-skewer Crossbow | 18" | 2 | 4+ | 3+ | 1 | 2 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Jaggedy Blade | 1 | 4+ | 3+ | - | 1 | Crit (Mortal) |
 
@@ -126,13 +126,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Murknob Cleaver | 4 | 4+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -144,13 +144,13 @@
 
 **キーワード:** Hero, Infantry
 
-## バトル特性（Swampskulka Gang Battle Traits）
+## 戦闘特性（Swampskulka Gang Battle Traits）
 
 - **Kruleboyz Waaagh!**（Once Per Battle, Any Combat Phase）
   - 宣言: Pick your general to use this ability, then pick another friendly unit wholly within 12" of them to be the target.
   - 効果: Your general and the target have **STRIKE-FIRST** this phase.
 
-## レジメントアビリティ（Swampskulka Gang Regiment Abilities）
+## 連隊アビリティ（Swampskulka Gang Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

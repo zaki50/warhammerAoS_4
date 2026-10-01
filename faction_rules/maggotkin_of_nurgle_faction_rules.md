@@ -1,9 +1,9 @@
 # Maggotkin of Nurgle ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Maggotkin of Nurgle Battle Traits（出典: Chaos Battletome: Maggotkin of Nurgle）
@@ -26,7 +26,7 @@ Maggotkin of Nurgle armies can use the following abilities:
 - **Desperate Remedies**（Passive）
   - 効果: If an ability would heal or return slain models to a **DISEASED** enemy unit, that ability does not heal or return any slain models to it. Instead, it no longer has the **DISEASED** keyword.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Affliction Cyst
@@ -79,7 +79,7 @@ Maggotkin of Nurgle armies can use the following abilities:
   - 宣言: If this unit charged this turn, pick an enemy unit in combat with it to be the target.
   - 効果: The target has the **DISEASED** keyword.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Boons of Nurgle（出典: Chaos Battletome: Maggotkin of Nurgle）
@@ -111,7 +111,7 @@ Plaguefather’s Poxes are unique enhancements that can be given to non-**HERO M
 - **The Weeping Flux**（Passive / 10pt）
   - 効果: Each time a model in this unit is slain by a combat attack, roll a number of dice equal to this unit’s Health characteristic. For each 6, inflict 1 mortal damage on the attacking unit.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Bendictions of Sickness

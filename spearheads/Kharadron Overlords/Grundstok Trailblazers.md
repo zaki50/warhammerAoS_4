@@ -1,6 +1,6 @@
 # Spearhead: Grundstok Trailblazers（Kharadron Overlords）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,20 +19,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 8 | 3+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Dirigible Suit Weapon Battery | 12" | 6 | 3+ | 3+ | 1 | 1 | - |
 | Aethercannon | 18" | 1 | 3+ | 3+ | 2 | 3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Upgraded Aethermatic Saw | 4 | 3+ | 3+ | 2 | 2 | - |
 
@@ -50,13 +50,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 2 | 3+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Rapid-fire Rivet Gun | 10" | 3 | 3+ | 4+ | 1 | 1 | Shoot in Combat |
 | Skyrigger Heavy Weapon | 15" | 1 | 4+ | 3+ | 1 | D3 | Anti-MONSTER (+1 Rend) |
@@ -64,7 +64,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Aethermatic Saw | 3 | 4+ | 3+ | 1 | 2 | Anti-charge (+1 Rend) |
 | Gun Butt | 1 | 4+ | 5+ | - | 1 | - |
@@ -82,19 +82,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 14" | 10 | 2+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Sky Ordnance | 15" | 3 | 4+ | 3+ | 2 | 3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Boarding Weapons | 4 | 4+ | 4+ | - | 1 | - |
 
@@ -112,13 +112,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 2 | 3+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Aetheric Fumigator or Decksweeper | 10" | 5 | 3+ | 4+ | - | 1 | Shoot in Combat |
 | Aethershot Rifle | 18" | 2 | 3+ | 4+ | 1 | 1 | - |
@@ -126,7 +126,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gun Butt | 1 | 4+ | 5+ | - | 1 | - |
 
@@ -138,12 +138,12 @@
 
 **キーワード:** Infantry, Reinforcements
 
-## バトル特性（Grundstok Trailblazers Battle Traits）
+## 戦闘特性（Grundstok Trailblazers Battle Traits）
 
 - **Gunhauler Escort**（Passive）
   - 効果: Subtract 1 from hit rolls for attacks that target friendly **KHARADRON OVERLORDS INFANTRY** units while they are wholly within 6" of a friendly **Grundstok Gunhauler**.
 
-## レジメントアビリティ（Grundstok Trailblazers Regiment Abilities）
+## 連隊アビリティ（Grundstok Trailblazers Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

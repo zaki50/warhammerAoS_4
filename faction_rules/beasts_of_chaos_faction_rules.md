@@ -1,9 +1,9 @@
 # Beasts of Chaos ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Beasts of Chaos Battle Traits（出典: Chaos Battletome: Beasts of Chaos）
@@ -19,7 +19,7 @@ Beasts of Chaos armies can use the following abilities:
   - 宣言: Pick a friendly **BEASTS OF CHAOS** unit that has not been deployed.
   - 効果: Set up that unit in reserve **in ambush**. It has now been deployed. **Designer’s Note:** *Any number of friendly **BEASTS OF CHAOS** units can start the battle in reserve – even your entire Beasts of Chaos army!*
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Almighty Beastherd（Legends）
@@ -59,7 +59,7 @@ Beasts of Chaos armies can use the following abilities:
 - **Propagator of Ruin**（Passive）
   - 効果: While this unit is on the battlefield, you can use the ‘Rituals of Ruin’ ability twice per turn in your hero phase instead of once per turn. You cannot pick the same effect more than once per turn.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Anarchic Relics（出典: Chaos Battletome: Beasts of Chaos）
@@ -75,7 +75,7 @@ Beasts of Chaos armies can use the following abilities:
   - 宣言: Pick a friendly non-**UNIQUE BEASTS OF CHAOS INFANTRY** or **CAVALRY** unit that started the battle with 2 or more models and that has been destroyed to be the target.
   - 効果: Roll a dice. On a 4+, set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12" of a battlefield edge and more than 9" from all enemy units.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Bestial Manifestations

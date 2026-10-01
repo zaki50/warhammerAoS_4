@@ -1,6 +1,6 @@
 # Spearhead: Crixxit's Kill-Pack（Skaven）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 7" | 5 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Weeping Blade | 5 | 3+ | 4+ | 1 | D3 | Anti-HERO (+1 Rend), Crit (Mortal) |
 
@@ -42,13 +42,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 7" | 6 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | The Blades of Thirteen Cuts | 13 | 2+ | 4+ | 1 | 1 | Crit (Mortal) |
 
@@ -66,13 +66,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 7" | 1 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Eshin Specialist Blades | 3 | 3+ | 4+ | 1 | 1 | Crit (Mortal) |
 
@@ -90,19 +90,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 7" | 1 | 6+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Slings and Poisoned Stars | 10" | 2 | 4+ | 4+ | - | 1 | Crit (Auto-wound), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Poisoned Blades | 2 | 4+ | 5+ | - | 1 | Crit (Mortal) |
 
@@ -114,13 +114,13 @@
 
 **キーワード:** Infantry, Reinforcements, Ward (6+)
 
-## バトル特性（Crixxit's Kill-Pack Battle Traits）
+## 戦闘特性（Crixxit's Kill-Pack Battle Traits）
 
 - **Cloaked in Shadow**（Once Per Turn (Army), Any Combat Phase）
   - 宣言: Pick a friendly **HERO** to use this ability. Then, pick a different friendly unit that has 2 or more models to be the target.
   - 効果: Make a **shadow-travel roll** of D6. On a 3+, remove the **HERO** using this ability from the battlefield and set them up again wholly within 6" of the target. They can be set up in combat with any enemy units that are already in combat.
 
-## レジメントアビリティ（Crixxit's Kill-Pack Regiment Abilities）
+## 連隊アビリティ（Crixxit's Kill-Pack Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

@@ -1,6 +1,6 @@
 # Mawseeker Gollop ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全8 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 8 | 5+ | 3 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Butcher's Tools | 4 | 4+ | 2+ | 2 | 3 | - |
 
@@ -33,7 +33,7 @@
 - **More Meat for the Pot**（Once Per Battle (Army), End of Any Turn）
   - 効果: If any damage points were allocated to an enemy unit this turn by this unit’s combat attacks or by combat attacks made by a **MANIFESTATION** summoned by this unit, and that enemy unit has been destroyed, add 1 to this unit’s power level for the rest of the battle.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MAW NOMAD**
 - Any **INFANTRY**
@@ -50,13 +50,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 4 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cleaver's Tools | 4 | 4+ | 2+ | 2 | 3 | - |
 
@@ -77,13 +77,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 5 | 6+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Clubs, Claws and Jaws | 5 | 4+ | 2+ | 1 | 2 | Anti-INFANTRY (+1 Rend) |
 
@@ -110,7 +110,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 6 | 5+ | - |
 
@@ -143,13 +143,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 4 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gutseer's Tools | 3 | 4+ | 2+ | 2 | 3 | - |
 
@@ -172,13 +172,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 12 | 4+ | - | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ever-hungry Pit | 2D6 | 4+ | 2+ | 1 | 1 | Crit (Mortal) |
 
@@ -212,13 +212,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 18 | 4+ | 10 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Redd's Ladle | 5 | 4+ | 2+ | 2 | 3 | - |
 | Mawseeker Acolytes' Blades and Gorger's Claws（戦傷時） | 8 | 4+ | 2+ | 2 | 2 | - |
@@ -236,7 +236,7 @@
   - 宣言: Pick a visible friendly **OGOR MAWTRIBES** unit wholly within 12" of this unit to be the target, then make a casting roll of 2D6.
   - 効果: If the target is not in combat, it can move up to D3+3" but must end that move no further from the nearest enemy unit that is visible to it. It cannot move into combat during any part of that move. If the target is in combat, inflict D3 mortal damage on each enemy unit in combat with the target, then **Heal (D3)** the target. If the target is a **MAWSEEKERS** unit, instead inflict 3 mortal damage on each enemy unit in combat with the target, then **Heal (3)** the target.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MAW NOMAD**
 - Any **OGOR MAWTRIBES**
@@ -253,13 +253,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 8 | 5+ | 3 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stump Blades | 2D6 | 4+ | 2+ | 1 | 1 | - |
 
@@ -271,10 +271,10 @@
 - **Fill the Pot**（Passive）
   - 効果: &#x20;This unit’s cauldron is either **filled with grisly remains** or **empty**. It starts the battle **empty**. If an enemy unit that was in combat with this unit this turn is destroyed and this unit’s cauldron is **empty**, it becomes **filled with grisly remains**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **MAWSEEKERS**
 
-**キーワード:** Hero, Wizard (1), Infantry, Ward (6+),Destruction, Ogor Mawtribes, Ogor, Mawseekers
+**キーワード:** Hero, Wizard (1), Infantry, Ward (6+), Destruction, Ogor Mawtribes, Ogor, Mawseekers
 
 **ノート:** This **HERO** can join an eligible regiment as a *Maw Nomad*. This unit will move to Warhammer Legends on 1 June 2027.

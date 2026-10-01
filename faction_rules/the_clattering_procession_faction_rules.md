@@ -1,9 +1,9 @@
 # The Clattering Procession ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### The Clattering Procession Battle Traits（出典: Army of Renown: The Clattering Procession）
@@ -31,7 +31,7 @@
   - 宣言: Pick up to 3 friendly **CLATTERING PROCESSION** units wholly within 12" of this unit to be the targets.
   - 効果: For the rest of the turn, the targets can use **CHARGE** abilities even if they used a **RETREAT** ability in the same turn.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### The Clattering Procession Artefact of Power（出典: Army of Renown: The Clattering Procession）
@@ -41,7 +41,7 @@
 - **Talisman of the Nadir**（Reaction: Opponent declared a SPELL ability）
   - 効果: If a friendly **CLATTERING PROCESSION** unit wholly within 12" of this unit was picked to be the target of that spell, this unit can use the 'Unbind' ability as if it had **WIZARD (1).** Add 1 to the unbinding roll for that ability.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### The Clattering Procession Manifestation Lore

@@ -1,9 +1,9 @@
 # Sylvaneth ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Sylvaneth Battle Traits（出典: Order Battletome: Sylvaneth）
@@ -27,7 +27,7 @@ Sylvaneth armies can use the following abilities:
   - 宣言: Pick an enemy unit within the **creeping overgrowth** to be the target.
   - 効果: For the rest of the turn, the first time your opponent declares a command for the target while it is not wholly within 12" of a **HERO** in their army, unless your opponent spends 1 additional command point to use that command, the command has no effect, it still counts as being used and the command points spent to use the command are still lost.
 
-## バトルフォーメーション
+## 戦闘陣形
 
 
 ### Followers of Kurnoth
@@ -79,7 +79,7 @@ Sylvaneth armies can use the following abilities:
   - 宣言: This unit can only use this ability if it is wholly within the **creeping overgrowth**. Pick this unit and up to 1 other friendly **SYLVANETH** unit within this unit’s combat range to be the targets.
   - 効果: Remove the targets from the battlefield and set them up again wholly within the **creeping overgrowth** and more than 9" from all enemy units.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Relics of Nature（出典: Order Battletome: Sylvaneth）
@@ -131,7 +131,7 @@ Aspects of the Deepwoods are unique enhancements that can only be given to non-*
 - **Aspect of Heartwood**（Once Per Battle, Reaction: You declared the ‘Endless Growth’ ability / 10pt）
   - 効果: If this unit is wholly within the **creeping overgrowth**, for each target of that ability that is wholly within 12" of this unit, you can pick 1 of the following effects: •  When resolving that ability, roll a D6 for the target instead of a D3. If, as a result of another ability, you would **Heal (3)** the target instead of rolling a dice, **Heal (6)** the target instead. •  If the target is **KURNOTHI**, instead of rolling a D3 and picking 1 of the effects of that ability to apply to it, you can return 1 slain model to the target unit.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Lore of the Deepwood

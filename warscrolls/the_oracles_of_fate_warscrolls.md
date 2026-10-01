@@ -1,6 +1,6 @@
 # The Oracles of Fate ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全17 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -13,19 +13,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 1 | 6+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Arcane Flames | 12" | 2 | 4+ | 4+ | - | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spiteful Talons | 2 | 4+ | 4+ | - | 1 | - |
 
@@ -50,19 +50,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 8 | 5+ | 2 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Wyrdflame Blast | 16" | 4 | 2+ | 4+ | - | D3 | Anti-INFANTRY (+1 Rend), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Flaming Maws and Blue Horrors’ Jabs | 6 | 4+ | 3+ | - | 1 | - |
 | Screamers’ Lamprey Bites | 6 | 4+ | 4+ | 1 | 1 | Charge (+1 Damage), Companion |
@@ -85,13 +85,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 6+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Staff of Change and Ritual Dagger | 3 | 4+ | 3+ | 1 | D3 | - |
 
@@ -103,7 +103,7 @@
 - **Locus of Command**（Passive）
   - 効果: Each time a friendly **DISCIPLES OF TZEENTCH DAEMON** unit wholly within 12" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **DAEMON**
 
@@ -121,19 +121,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 2 | 6+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Warping Wyrdfire | 12" | 2 | 4+ | 4+ | - | 1 | Anti-UNIQUE (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Daemonic Talons | 2 | 4+ | 5+ | - | 1 | - |
 
@@ -160,19 +160,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 9" | 5 | 5+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Wyrdflame Blast | 16" | 4 | 2+ | 4+ | - | D3 | Anti-INFANTRY (+1 Rend), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Flaming Maws | 3 | 3+ | 4+ | - | 1 | - |
 
@@ -197,13 +197,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 10 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Staff of Change and Ritual Dagger | 3 | 4+ | 3+ | 1 | D3 | - |
 | Screamers’ Lamprey Bites | 6 | 4+ | 4+ | 1 | 1 | Charge (+1 Damage), Companion |
@@ -216,7 +216,7 @@
   - 宣言: Pick a visible friendly **DISCIPLES OF TZEENTCH** unit wholly within 12" of this unit to be the target.
   - 効果: If the target is destroyed this turn, before removing it from play, gain 1 **fate point**.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Tzeentchian Deceiver*
 - Any **DAEMON**
@@ -231,19 +231,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 9" | 2 | 5+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Warping Flames | 12" | 3 | 2+ | 4+ | - | D3 | Anti-INFANTRY (+1 Rend), Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Flaming Maws | 3 | 3+ | 4+ | - | 1 | - |
 
@@ -268,19 +268,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 14" | 6 | 4+ | 2 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Iridescent Flames | 12" | 3 | 4+ | 4+ | 1 | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Staff of Change and Ritual Dagger | 3 | 4+ | 3+ | 1 | D3 | - |
 | Disc’s Teeth and Horns | 2 | 4+ | 3+ | 1 | D3 | Companion |
@@ -290,7 +290,7 @@
 - **Arcane Tome**（Once Per Turn (Army), Reaction: You declared a SPELL ability for this unit）
   - 効果: Re-roll 1 of the dice in the casting roll.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **DAEMON**
 
@@ -306,19 +306,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 5+ | 2 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Changestaff | 12" | 3 | 4+ | 3+ | 1 | D3 | Crit (Mortal) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warptongue Blade | 3 | 3+ | 3+ | 1 | 2 | - |
 
@@ -333,7 +333,7 @@
   - 宣言: Pick an objective you do not control and that you controlled earlier in the battle to be the target.
   - 効果: You control the target objective.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Tzeentchian Deceiver*
 - Any **DISCIPLES OF TZEENTCH**
@@ -350,19 +350,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 14" | 7 | 5+ | 2 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Changestaff | 12" | 3 | 4+ | 3+ | 1 | D3 | Crit (Mortal) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Disc’s Teeth and Horns | 2 | 4+ | 3+ | 1 | D3 | Companion |
 | Warptongue Blade | 3 | 3+ | 3+ | 1 | 2 | - |
@@ -378,7 +378,7 @@
 - **Masters of the Silver Towers**（Passive）
   - 効果: Enemy units cannot end a charge move within 1/2" of a friendly **Argent Shard** that is wholly within 12" of this unit and was set up on the battlefield in the same turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Tzeentchian Deceiver*
 - Any **DISCIPLES OF TZEENTCH**
@@ -395,13 +395,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 16 | 5+ | 5 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Staff of Tomorrow | 4 | 3+ | 2+ | 1 | D3 | - |
 | Curved Beaks | 5 | 4+ | 3+ | 1 | 2 | - |
@@ -420,7 +420,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, subtract 1 from its power level.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Tzeentchian Deceiver*
 - 0-1 *Arcanite Cabalist*
@@ -438,19 +438,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 14 | 5+ | 5 | 5+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Storm of Wyrdfire | 18" | 5 | 3+ | 3+ | - | D3 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Eldritch Weapons | 6 | 4+ | 3+ | 1 | 3 | - |
 
@@ -467,7 +467,7 @@
 - **Locus of Impossibility**（Passive）
   - 効果: Add 1 to casting rolls for this unit. In addition, subtract 1 from hit rolls for attacks that target friendly **DISCIPLES OF TZEENTCH DAEMON** units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Tzeentchian Deceiver*
 - 0-1 *Arcanite Cabalist*
@@ -483,19 +483,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 2 | 5+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Arcane Flames | 12" | 2 | 4+ | 4+ | - | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Taloned Hands | 2 | 4+ | 4+ | - | 1 | - |
 
@@ -514,13 +514,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 14" | 3 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Lamprey Bite | 3 | 4+ | 4+ | 1 | 1 | Charge (+1 Damage), Companion |
 
@@ -544,13 +544,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 14" | 3 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Lamprey Bite | 3 | 4+ | 4+ | 1 | 1 | Charge (+1 Damage), Companion |
 
@@ -574,13 +574,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 14" | 5 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Disc’s Teeth and Horns | 2 | 4+ | 3+ | 1 | D3 | Companion |
 | Sharpened Quills | 2 | 5+ | 5+ | - | 1 | - |
@@ -593,7 +593,7 @@
   - 宣言: Pick a friendly unit within this unit’s combat range to be the target, then make a casting roll of 2D6.
   - 効果: Until the start of your next turn: • This unit has **WARD (4+)**. • Each time you make an unmodified ward roll of 1-3 for this unit, allocate 1 damage point to the target.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Tzeentchian Deceiver*
 - Any **DAEMON**
@@ -610,13 +610,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 6 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | The Trickster’s Staff | 3 | 3+ | 3+ | 1 | D3 | - |
 
@@ -631,7 +631,7 @@
   - 宣言: This unit can only use this ability if it is **masked by illusion**. Pick a model in a friendly **DISCIPLES OF TZEENTCH** unit to be the target.
   - 効果: This unit can immediately use a **SPELL** ability. When it does so, measure the range and visibility of that **SPELL** ability from the target. The target is treated as the caster for the purpose of other abilities such as ‘Unbind’.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **DAEMON**
 

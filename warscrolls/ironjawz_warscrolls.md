@@ -1,6 +1,6 @@
 # Ironjawz ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全26 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 6 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Boss-hacka and Choppa | 7 | 4+ | 3+ | 1 | 2 | - |
 
@@ -32,7 +32,7 @@
 - **Iron-fisted Commander**（Passive）
   - 効果: If a friendly **Ardboyz** unit wholly within 12" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **INFANTRY**
 
@@ -48,13 +48,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 2 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Choppa or Stikka | 2 | 4+ | 3+ | 1 | 1 | Anti-charge (+1 Rend) |
 
@@ -76,7 +76,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 12 | 4+ | - |
 
@@ -110,13 +110,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 3 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rager Weapons | 3 | 4+ | 2+ | 1 | 2 | Anti-MONSTER (+1 Rend) |
 
@@ -137,13 +137,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 3 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Brute Weapons | 3 | 4+ | 3+ | 1 | 2 | Anti-INFANTRY (+1 Rend) |
 | Gore-choppa | 3 | 4+ | 3+ | 2 | 3 | - |
@@ -167,7 +167,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 8 | 4+ | 7+ | 6+ |
 
@@ -191,19 +191,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 20 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Bigteef’s Roar | 8" | 6 | 2+ | 3+ | - | 1 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Bigteef’s Fists and Tail（戦傷時） | 8 | 4+ | 2+ | 1 | 3 | Anti-MONSTER (+1 Rend), Companion |
 | Smasha and Kunnin’ | 8 | 3+ | 2+ | 1 | 2 | Anti-HERO (+1 Rend) |
@@ -220,7 +220,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of **Bigteef’s Fists and Tail** is 6.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Headstompa*
 - 0-1 *Tusk Wrangler*
@@ -236,13 +236,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 9" | 5 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Choppa or Hacka | 4 | 4+ | 3+ | 1 | 1 | Anti-CAVALRY (+1 Rend) |
 | Grunta's Tusks | 4 | 4+ | 2+ | - | 1 | Charge (+1 Damage), Companion |
@@ -265,13 +265,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 6 | 5+ | 7+ | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Toxic Gas | 5 | 2+ | 4+ | 1 | D3 | - |
 
@@ -293,13 +293,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 3 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ardboy Weapons | 2 | 4+ | 3+ | 1 | 1 | Anti-charge (+1 Rend) |
 
@@ -324,13 +324,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 18 | 4+ | 15 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Tuskbreaker | 3 | 4+ | 2+ | 2 | D3 | Crit (2 Hits) |
 | Hooves of Wrack and Ruin | 6 | 3+ | 2+ | 1 | 2 | - |
@@ -349,7 +349,7 @@
 - **Rampaging Destruction**（Once Per Turn (Army), Any Charge Phase） ［Rampage］
   - 効果: If this unit charged this phase, pick 1 of the following effects: • Roll a dice for each enemy unit within 1" of this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll. • Pick an enemy **MONSTER** in combat with this unit and roll 2D6. On a 7, this ability has no effect. Otherwise, inflict an amount of mortal damage on that unit equal to the results on the dice used for the 2D6 roll multiplied together. For example, a 2D6 roll of 2 and 6 would inflict 12 mortal damage (2 × 6).
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **KRULEBOYZ**
 - Any **IRONJAWZ**
@@ -370,13 +370,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 12 | 4+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Maw-grunta’s Trotters | 4 | 5+ | 2+ | - | D3 | Companion |
 | Maw-grunta’s Tusks | 5 | 4+ | 2+ | 2 | 2 | Companion |
@@ -402,13 +402,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 12 | 3+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Maw-grunta’s Tusks | 5 | 4+ | 2+ | 2 | 2 | Companion |
 | Kill-choppas | 4 | 4+ | 3+ | 1 | 1 | - |
@@ -434,13 +434,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 8 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Boss-choppa | 8 | 4+ | 2+ | 1 | 2 | - |
 
@@ -451,7 +451,7 @@
 - **Lead Da Brutes**（Reaction: You declared a FIGHT ability for this unit）
   - 効果: Pick a friendly **BRUTE** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Headstompa*
 - Any **IRONJAWZ**
@@ -470,19 +470,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 18 | 3+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Maw-krusha’s Roar | 8" | 6 | 2+ | 3+ | - | 1 | Shoot in Combat, Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Boss-choppa or Boss-hacka | 8 | 4+ | 2+ | 1 | 2 | Anti-INFANTRY (+1 Rend) |
 | Maw-krusha’s Fists and Tail（戦傷時） | 8 | 4+ | 2+ | 1 | 3 | Anti-INFANTRY (+1 Rend), Companion |
@@ -496,7 +496,7 @@
 - **Battle Damaged**（Passive）
   - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Maw-krusha’s Fists and Tail** is 5.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Headstompa*
 - 0-1 *Tusk Wrangler*
@@ -514,13 +514,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 3 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Krusha Weapons | 3 | 4+ | 3+ | 1 | 2 | Anti-MONSTER (+1 Rend) |
 
@@ -545,7 +545,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 8 | 5+ | 7+ | 6+ |
 
@@ -566,13 +566,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 3 | 3+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Brute Weapons | 3 | 4+ | 3+ | 1 | 2 | Anti-INFANTRY (+1 Rend) |
 | Gore-choppa | 3 | 4+ | 3+ | 2 | 3 | - |
@@ -598,13 +598,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 8 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Boss-choppa | 8 | 4+ | 2+ | 1 | 2 | - |
 
@@ -616,7 +616,7 @@
 - **You Ain't Gonna Show Me Up**（Once Per Turn (Army), End of Any Turn）
   - 効果: If this unit used a **FIGHT** ability this turn, spend 1 **rage dice**. If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, add 1 to the Damage characteristic of this unit’s **Boss-choppa** for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Headstompa*
 - Any **IRONJAWZ**
@@ -633,13 +633,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 9" | 5 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Grunta's Tusks | 3 | 4+ | 2+ | 1 | 1 | Charge (+1 Damage), Companion |
 | Choppa or Hacka | 3 | 4+ | 3+ | 1 | 1 | Charge (+1 Damage) |
@@ -661,13 +661,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 3 | 5+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Chain-smasha | 6 | 4+ | 3+ | 1 | 1 | Anti-INFANTRY (+1 Rend) |
 
@@ -691,13 +691,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 14 | 3+ | 5 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Maw-grunta’s Trotters | 4 | 5+ | 2+ | - | D3 | Companion |
 | Pig-hacka | 7 | 4+ | 3+ | 1 | 2 | - |
@@ -714,7 +714,7 @@
 - **Unstoppable Momentum**（Passive）
   - 効果: Each time this unit has charged as a result of using a **CHARGE** ability, it gains 1 **momentum point**. Each time it uses a **RUN** ability, it gains 2 **momentum points.** It can have a maximum of 3 **momentum points** at once. Add the number of **momentum points** this unit has to the Damage characteristic of its **Maw-grunta’s Tusks.** At the end of each battle round, subtract 1 from its **momentum points**, to a minimum of 0.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Headstompa*
 - Any **IRONJAWZ**
@@ -733,13 +733,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 6 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gorkstikk and Morkstikk | 6 | 4+ | 3+ | - | D3 | - |
 
@@ -748,7 +748,7 @@
 - **Rhythm of Destruction**（End of Any Turn）
   - 効果: If any enemy models were slain this turn by this unit’s combat attacks, give this unit D3 ritual points.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **IRONJAWZ**
 
@@ -764,13 +764,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 3 | 5+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Chain-smasha | 6 | 4+ | 3+ | 1 | 1 | Anti-INFANTRY (+1 Rend) |
 
@@ -791,19 +791,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 6 | 6+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Green Puke | 10" | 4 | 2+ | 4+ | - | D3 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Waaagh! Staff | 3 | 4+ | 3+ | 1 | D3 | - |
 
@@ -812,7 +812,7 @@
 - **Brutal Power**（Passive）
   - 効果: Add 1 to this unit’s power level while there are any friendly **IRONJAWZ** units that have 10 or more models wholly within 12" of it.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **IRONJAWZ**
 
@@ -830,13 +830,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 4" | 7 | 3+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Grunta-tongs | 4 | 4+ | 3+ | - | 1 | - |
 | Ward-smashing Choppa | 2 | 4+ | 2+ | 2 | 3 | - |
@@ -852,7 +852,7 @@
 - **Klonk**（Passive）
   - 効果: **Klonk** is a token. You can re-roll forgin’ rolls for this unit while this unit’s **Klonk** is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove this unit’s **Klonk** from the battlefield after the **ATTACK** ability has been resolved (the damage point is still inflicted).
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **IRONJAWZ**
 

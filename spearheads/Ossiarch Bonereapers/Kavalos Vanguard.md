@@ -1,6 +1,6 @@
 # Spearhead: Kavalos Vanguard（Ossiarch Bonereapers）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -17,13 +17,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 7 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Commander’s Blade | 5 | 3+ | 4+ | 1 | 2 | Charge (+1 Damage) |
 | Kavalos Steed’s Hooves, Teeth and Barbed Tails | 4 | 5+ | 3+ | - | 1 | Companion |
@@ -42,13 +42,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 7" | 1 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cohort Weapons | 2 | 3+ | 4+ | 1 | 1 | - |
 
@@ -59,7 +59,7 @@
 
 **キーワード:** Beast, Ward (6+), Reinforcements
 
-## バトル特性（Kavalos Vanguard Battle Traits）
+## 戦闘特性（Kavalos Vanguard Battle Traits）
 
 - **Calculated Feint**（Passive）
   - 効果: No mortal damage is inflicted on friendly **CAVALRY** units by **RETREAT** abilities.
@@ -67,7 +67,7 @@
   - 宣言: Pick a friendly unit to be the target.
   - 効果: For the rest of the turn, the target can pass across enemy models as if it had **FLY.**
 
-## レジメントアビリティ（Kavalos Vanguard Regiment Abilities）
+## 連隊アビリティ（Kavalos Vanguard Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

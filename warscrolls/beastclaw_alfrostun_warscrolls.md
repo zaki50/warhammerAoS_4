@@ -1,6 +1,6 @@
 # Beastclaw Alfrostun ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全19 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,19 +15,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 8 | 5+ | 3 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Skullshatter Crossbow and Impaling Spear | 15" | 4 | 4+ | 3+ | 1 | D3+1 | Anti-MONSTER (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Hacker-axe and Meatblade | 5 | 4+ | 2+ | 1 | 2 | Anti-MONSTER (+1 Rend) |
 
@@ -39,7 +39,7 @@
   - 宣言: Pick an enemy unit that had any damage points allocated to it this turn by this unit’s shooting attacks to be the target.
   - 効果: For the rest of the phase, add 1 to hit rolls for shooting attacks made by friendly **BEASTCLAW** units that target that enemy unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BEASTCLAW**
 - Any **INFANTRY**
@@ -56,13 +56,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 9" | 3 | 6+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Tusks and Claws | 3 | 4+ | 3+ | 1 | 1 | Companion |
 
@@ -89,13 +89,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 15 | 4+ | 10 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stonehorn’s Rock-hard Horns and Hooves（戦傷時） | 7 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
 | Frost Spear | 4 | 4+ | 2+ | 2 | 2 | Charge (+1 Damage) |
@@ -112,7 +112,7 @@
 - **Enraged Roar**（Passive）
   - 効果: While this unit is damaged, add 1 to the Attacks characteristic of **Companion** weapons used by other friendly **OGOR MAWTRIBES** units while they are within this unit’s combat range.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MAW NOMAD**
 - Any **OGOR MAWTRIBES**
@@ -129,19 +129,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 15 | 4+ | 10 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ice Blast | 12" | 1 | 4+ | 2+ | 1 | D3+2 | Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Frost Spear | 4 | 4+ | 2+ | 2 | 2 | Charge (+1 Damage) |
 | Thundertusk’s Colossal Tusks（戦傷時） | 3 | 4+ | 2+ | 1 | 5 | Anti-INFANTRY (+1 Rend), Companion |
@@ -157,7 +157,7 @@
   - 宣言: Pick a visible friendly **OGOR MAWTRIBES** unit wholly within 12" of this unit to be the target.
   - 効果: Roll a dice. On a 3+, for the rest of the turn, the target can still use **SHOOT** and/or **CHARGE** abilities even if it used a **RETREAT** or **RUN** ability in the same turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MAW NOMAD**
 - Any **OGOR MAWTRIBES**
@@ -174,7 +174,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 6 | 5+ | - |
 
@@ -209,19 +209,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 7 | 5+ | 5 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Trap Launcher | 12" | 2 | 4+ | 3+ | 1 | D3 | Anti-INFANTRY (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Hunting Knife | 5 | 4+ | 2+ | - | 2 | - |
 
@@ -249,19 +249,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 4 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hunter's Crossbow | 15" | 3 | 4+ | 3+ | 1 | 2 | Anti-MONSTER (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Skinning Blades | 2 | 4+ | 2+ | 1 | 1 | Anti-CAVALRY (+1 Rend), Anti-MONSTER (+1 Rend) |
 | Sabrefang's Tusks and Claws | 4 | 4+ | 3+ | 1 | 1 | Companion |
@@ -288,19 +288,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 14 | 4+ | 10 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Chaintrap, Harpoon Launcher or Blood Vulture | 15" | 1 | 4+ | 3+ | 1 | 3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Huskard's Punches and Kicks | 4 | 4+ | 2+ | 1 | 1 | - |
 | Stonehorn's Rock-hard Horns and Hooves（戦傷時） | 7 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
@@ -315,7 +315,7 @@
   - 宣言: Pick a friendly **OGOR MAWTRIBES** unit within this unit’s combat range to be the target or pick an enemy unit in combat with this unit to be the target.
   - 効果: Roll a dice. Add 2 to the roll if this unit charged this turn. On a 4+: •  If the target is a friendly unit, its **Companion** weapons have **Crit (2 Hits)** for the rest of the turn. •  If the target is an enemy unit, subtract 1 from hit rolls for the target’s attacks for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MAW NOMAD**
 - Any **OGOR MAWTRIBES**
@@ -332,20 +332,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 14 | 4+ | 10 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ice Blast | 12" | 1 | 4+ | 2+ | 1 | D3+2 | Companion |
 | Chaintrap, Harpoon Launcher or Blood Vulture | 15" | 1 | 4+ | 3+ | 1 | 3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Huskard's Punches and Kicks | 4 | 4+ | 2+ | 1 | 1 | - |
 | Thundertusk’s Colossal Tusks（戦傷時） | 3 | 4+ | 2+ | 1 | 5 | Anti-INFANTRY (+1 Rend), Companion |
@@ -361,7 +361,7 @@
   - 宣言: Pick a visible enemy unit to be the target.
   - 効果: Roll a dice. If the roll is equal to or less than the number of damage points allocated to the target by attacks made with this unit’s **Ice Blast** this phase, subtract 1 from the Damage characteristic of the target’s weapons until the start of your next turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MAW NOMAD**
 - Any **OGOR MAWTRIBES**
@@ -378,19 +378,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 7 | 5+ | 3 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Great Throwing Spear and Crossbow | 12" | 2 | 4+ | 3+ | - | D3 | Anti-MONSTER (+1 Rend) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Culling Club | 4 | 4+ | 2+ | - | 2 | Anti-MONSTER (+1 Rend) |
 
@@ -403,7 +403,7 @@
   - 宣言: Pick this unit and up to 2 friendly **Frost Sabres** units if those units have not been deployed.
   - 効果: Set up those units in reserve **outflanking the prey**. They have now been deployed.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BEASTCLAW**
 
@@ -419,13 +419,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 4 | 6+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Claws and Ice‑encrusted Weapons | 3 | 4+ | 3+ | 1 | 2 | - |
 
@@ -448,19 +448,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 6" | 8 | 5+ | 3 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Mantrap Launcher | 15" | 4 | 3+ | 3+ | 1 | D3 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Mantrapper's Hunting Knife | 4 | 4+ | 2+ | 1 | 2 | - |
 
@@ -475,7 +475,7 @@
 - **Mantrapper's Accomplices**（Passive）
   - 効果: This unit’s **Sabrefang**, **Gnoblars** and **Trap** are **Mantrapper accomplice** tokens. After setting up this unit on the battlefield for the first time, place all its tokens next to it. If an enemy unit is destroyed or removed from the battlefield while any of this unit’s **Mantrapper accomplices** are next to it, remove those **Mantrapper accomplices** from the battlefield.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **BEASTCLAW**
 - Any **INFANTRY**
@@ -492,19 +492,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 7 | 4+ | 3 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hunter Crossbow and Blood Vulture | 15" | 3 | 4+ | 3+ | 1 | 2 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Punches and Kicks | 4 | 4+ | 2+ | 1 | 1 | - |
 | Maulbeast's Horns and Fangs | 4 | 4+ | 2+ | 1 | 2 | Charge (+1 Damage), Companion |
@@ -526,13 +526,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | - | 12 | 4+ | - | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ever-hungry Pit | 2D6 | 4+ | 2+ | 1 | 1 | Crit (Mortal) |
 
@@ -564,13 +564,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 9" | 6 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Mournfang’s Tusks | 4 | 4+ | 2+ | 1 | 1 | Charge (+1 Damage), Companion |
 | Mournfang Rider Weapon | 3 | 4+ | 2+ | 1 | 2 | Anti-CAVALRY (+1 Rend) |
@@ -594,19 +594,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 15 | 4+ | 10 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ice Blast | 12" | 1 | 4+ | 2+ | 1 | D3+2 | Companion |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Frost Spear | 4 | 4+ | 2+ | 2 | 2 | Charge (+1 Damage) |
 | Thundertusk’s Colossal Tusks（戦傷時） | 3 | 4+ | 2+ | 1 | 5 | Anti-INFANTRY (+1 Rend), Companion |
@@ -620,7 +620,7 @@
 - **Cold Fury**（Reaction: You declared the ‘Eruption of Fury’ ability for this unit）
   - 効果: When resolving attacks as part of that ability: • For each unmodified hit roll of 6, inflict an additional 3 mortal damage on each enemy unit in combat with this unit instead of D3. • For each unmodified hit roll of 1, allocate 1 mortal damage to this unit instead of D3 (ward rolls cannot be made for that damage point.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **MAW NOMAD**
 - Any **OGOR MAWTRIBES**
@@ -639,13 +639,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 14 | 4+ | 10 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Blood Vulture | 24" | 1 | 2+ | 3+ | - | 1 | - |
 | Harpoon Launcher | 18" | 1 | 4+ | 3+ | 1 | D3 | - |
@@ -654,7 +654,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Punches and Kicks | 3 | 4+ | 2+ | - | 1 | - |
 | Thundertusk’s Colossal Tusks（戦傷時） | 3 | 4+ | 2+ | 1 | 5 | Anti-INFANTRY (+1 Rend), Companion |
@@ -668,7 +668,7 @@
 - **Everwinter's Ire**（Once Per Turn (Army), Start of Any Turn）
   - 効果: For the rest of the turn: •  While your opponent’s **fury level** is equal to or up to 2 levels below your **fury level**, add 1 to chanting rolls for this unit. •  While your opponent’s **fury level** is 3 or more levels below your **fury level**, add 2 to chanting rolls for this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - Any **OGOR MAWTRIBES**
 
@@ -688,19 +688,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 14 | 4+ | 10 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Chaintrap, Harpoon Launcher or Blood Vulture | 15" | 1 | 4+ | 3+ | 1 | 3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stonehorn’s Rock-hard Horns and Hooves（戦傷時） | 7 | 4+ | 2+ | 2 | 3 | Charge (+1 Damage), Companion |
 | Punches and Kicks | 4 | 4+ | 2+ | 1 | 1 | - |
@@ -727,20 +727,20 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 10" | 14 | 4+ | 10 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Ice Blast | 12" | 1 | 4+ | 2+ | 1 | D3+2 | Companion |
 | Chaintrap, Harpoon Launcher or Blood Vulture | 15" | 1 | 4+ | 3+ | 1 | 3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Thundertusk’s Colossal Tusks（戦傷時） | 3 | 4+ | 2+ | 1 | 5 | Anti-INFANTRY (+1 Rend), Companion |
 | Punches and Kicks | 4 | 4+ | 2+ | 1 | 1 | - |

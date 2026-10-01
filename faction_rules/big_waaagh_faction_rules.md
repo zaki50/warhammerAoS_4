@@ -1,9 +1,9 @@
 # Big Waaagh! ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Big Waaagh! Battle Traits（出典: Army of Renown: Big Waaagh!）
@@ -39,7 +39,7 @@
   - 宣言: You can use this ability if this unit has the **POWER OF THE WAAAGH!** keyword and a friendly unit has not used a **BRUTAL KUNNIN’** ability this turn.
   - 効果: For the rest of the battle round, friendly **BIG WAAAGH!** units’ melee weapons have **CRIT (2 HITS)** while they are wholly within 12" of this unit.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Big Waaagh! Artefact of Power（出典: Army of Renown: Big Waaagh!）
@@ -49,7 +49,7 @@
 - **Da Sneaky Stab-slab**（Passive）
   - 効果: Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Big Waaagh! Manifestation Lore

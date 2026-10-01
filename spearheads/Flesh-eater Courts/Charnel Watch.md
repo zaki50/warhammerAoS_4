@@ -1,6 +1,6 @@
 # Spearhead: Charnel Watch（Flesh-eater Courts）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
@@ -19,13 +19,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 7 | 5+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gory Talons and Fangs | 5 | 3+ | 3+ | 1 | 2 | - |
 
@@ -43,19 +43,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 4 | 5+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Death Scream | 10" | 4 | 4+ | 3+ | 2 | 1 | Shoot in Combat |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Piercing Talons | 4 | 4+ | 3+ | 1 | 1 | - |
 
@@ -73,13 +73,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 7" | 4 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Club and Septic Talons | 4 | 4+ | 3+ | 1 | 2 | - |
 
@@ -97,13 +97,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 1 | 6+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Beastflayer Weapons | 3 | 4+ | 4+ | - | 1 | - |
 
@@ -114,7 +114,7 @@
 
 **キーワード:** Infantry, Serfs, Ward (6+)
 
-## バトル特性（Charel Guard Battle Traits）
+## 戦闘特性（Charel Guard Battle Traits）
 
 - **Delusions and Madness**（Once Per Battle Round (Army), Start of Battle Round）
   - 宣言: You must use this ability at the start of each battle round. If it is the first battle round, pick a **DELUSION**. Otherwise, make a delusion roll by rolling a D6.
@@ -125,7 +125,7 @@
 - **Delusion of the Knightly Host**（Passive）
   - 効果: While you believe this **DELUSION**, if the unmodified charge roll for a friendly **HERO** or **KNIGHTS** unit is 8+, add 1 to hit rolls for that unit’s combat attacks for the rest of the turn.
 
-## レジメントアビリティ（Charnel Throne Regiment Abilities）
+## 連隊アビリティ（Charnel Throne Regiment Abilities）
 
 Pick 1 of the following regiment abilities.
 

@@ -1,9 +1,9 @@
 # The First Phalanx of Ionrach ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### First Phalanx of Ionrach Battle Traits（出典: Army of Renown: The First Phalanx of Ionrach）
@@ -32,7 +32,7 @@
 - **Prodigy of the Asydrzor**（Once Per Battle, Reaction: You declared an **ASYDRAZOR** ability for a friendly FIRST PHALANX unit wholly within 12" of this unit）
   - 効果: No **asydrazor points** are spent to use that ability.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### First Phalanx of Ionrach Artefact of Power（出典: Army of Renown: The First Phalanx of Ionrach）

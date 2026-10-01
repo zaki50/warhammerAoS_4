@@ -1,9 +1,9 @@
 # Ruination Brotherhood ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Ruination Brotherhood Battle Traits（出典: Army of Renown: Ruination Brotherhood）
@@ -30,7 +30,7 @@
 - **Corven Lord**（Passive）
   - 効果: If this unit has the 'Ruination Chamber', ability, it can use that ability once per turn regardless of whether another friendly unit has used it during the same turn.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Ruination Brotherhood Artefact of Power（出典: Army of Renown: Ruination Brotherhood）
@@ -40,7 +40,7 @@
 - **Hallowed Scrolls**（Passive）
   - 効果: If this unit is **INFANTRY**, it has **WARD (5+)**. Otherwise, it has **WARD (6+)**.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Ruination Brotherhood Prayer Lore

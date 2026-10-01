@@ -1,9 +1,9 @@
 # Zainthar Kai ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### Zainthar Kai Battle Traits（出典: Army of Renown: Zainthar Kai）
@@ -30,7 +30,7 @@
   - 宣言: Pick a visible enemy unit within 12" of this unit to be the target.
   - 効果: Roll a D3. On a 2+: • Inflict an amount of mortal damage on the target equal to the roll. • Halve the target’s Move characteristic until the start of your next turn.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### Zainthar Kai Artefact of Power（出典: Army of Renown: Zainthar Kai）
@@ -40,7 +40,7 @@
 - **Amulet of the Bladed Queen**（Passive）
   - 効果: This unit has **WARD (5+)**. Add 1 to save rolls for this unit.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### Zainthar Kai Manifestation Lore

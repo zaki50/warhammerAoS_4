@@ -1,9 +1,9 @@
 # The Null Myriad ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
-## バトル特性
+## 戦闘特性
 
 
 ### The Null Myriad Battle Traits（出典: Army of Renown: The Null Myriad）
@@ -26,7 +26,7 @@
 - **Aura of Enervation**（Passive）
   - 効果: Subtract 1 from wound rolls for shooting attacks that target friendly **NULL MYRIAD** units while they are wholly within 12" of this unit.
 
-## アーティファクト・オブ・パワー
+## 神器
 
 
 ### The Null Myriad Artefact of Power（出典: Army of Renown: The Null Myriad）
@@ -37,7 +37,7 @@
   - 宣言: Pick a visible enemy unit within 12" of this unit to be the target.
   - 効果: Roll a dice. On a 3+, add 1 to hit rolls for combat attacks made by friendly **NULL MYRIAD** units that target that unit for the rest of the turn.
 
-## ロア（呪文・祈祷・顕現）
+## 伝承（呪文・奇蹟・顕現）
 
 
 ### The Null Myriad Manifestation Lore

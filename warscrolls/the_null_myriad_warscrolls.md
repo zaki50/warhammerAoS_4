@@ -1,6 +1,6 @@
 # The Null Myriad ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全16 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,7 +15,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 12" | 14 | 3+ | 5 | 6+ |
 
@@ -23,7 +23,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Razarak’s Ebon Claws（戦傷時） | 5 | 4+ | 2+ | 3 | 3 | Companion |
 | Zefet-kar and Khenash-an | 4 | 3+ | 4+ | 1 | D3 | - |
@@ -43,7 +43,7 @@
 - **The Staff of Spirits**（Passive）
   - 効果: Add 1 to casting rolls for this unit. Each time this unit successfully casts a spell, **Heal (1)** this unit after that **SPELL** ability has been resolved.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Legion Subcommander*
 - 0-1 **MORTISAN VIZIER**
@@ -61,13 +61,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 13 | 4+ | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Almighty Obsidian Blade | 2 | 4+ | 2+ | 2 | 3 | - |
 
@@ -93,13 +93,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 4 | 3+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dread Halberd | 3 | 3+ | 3+ | 1 | 2 | - |
 
@@ -119,13 +119,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 6 | 3+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spirit Weapons | 3 | 3+ | 2+ | 2 | 3 | Anti-MONSTER (+1 Rend), Crit (2 Hits) |
 
@@ -147,13 +147,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 10" | 6 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Spirit Weapons | 3 | 3+ | 2+ | 2 | 3 | Anti-MONSTER (+1 Rend), Crit (2 Hits) |
 
@@ -172,13 +172,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 1 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Nadirite Weapons | 2 | 3+ | 4+ | - | 1 | Anti-CAVALRY (+1 Rend) |
 
@@ -197,19 +197,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 1 | 5+ | 1 | 6+ |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Osseous Bow | 18" | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Nadirite Dagger | 1 | 3+ | 4+ | - | 1 | - |
 
@@ -232,13 +232,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 2 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Reaper's Blades | 3 | 3+ | 4+ | 1 | 1 | Anti-HERO (+1 Rend) |
 
@@ -263,7 +263,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 4+ | 2 | 6+ |
 
@@ -271,7 +271,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ossified Talons | 3 | 4+ | 4+ | - | D3 | - |
 
@@ -283,7 +283,7 @@
   - 宣言: If this unit is not in combat, pick a friendly **Mortek Guard** or **Mortek Triaxes** unit that has been destroyed to be the target.
   - 効果: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12" of this unit and not in combat.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Gothizzar Harvester**
 - Any **INFANTRY**
@@ -302,7 +302,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 4+ | 2 | 6+ |
 
@@ -310,7 +310,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ossified Talons | 3 | 4+ | 4+ | - | D3 | - |
 
@@ -320,7 +320,7 @@
   - 宣言: Pick a visible friendly **Mortek Crawler, Gothizzar Harvester, Morghast Archai** or **Morghast Harbingers** unit wholly within 12" of this unit to be the target.
   - 効果: Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s weapons until the start of your next turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Gothizzar Harvester**
 - 0-1 **Mortek Crawler**
@@ -340,7 +340,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 6 | 4+ | 2 | 6+ |
 
@@ -348,7 +348,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Soulmason’s Staff | 3 | 4+ | 4+ | - | D3 | - |
 
@@ -358,7 +358,7 @@
   - 宣言: Pick a visible friendly **OSSIARCH BONEREAPERS** unit wholly within 12" of the caster to be the target, then make a casting roll of 2D6.
   - 効果: The target has **STRIKE-FIRST** for the rest of the turn.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Gothizzar Harvester**
 - Any **INFANTRY**
@@ -377,7 +377,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 4+ | 2 | 6+ |
 
@@ -385,7 +385,7 @@
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Soulreaper Scythe | 4 | 3+ | 4+ | 2 | D3 | Crit (2 Hits) |
 
@@ -397,7 +397,7 @@
 - **Soulreaper**（Passive）
   - 効果: Subtract 1 from wound rolls for combat attacks made by enemy units while they are in combat with this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Gothizzar Harvester**
 - Any **INFANTRY**
@@ -414,13 +414,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 7" | 4 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Stalker Blades | 4 | 3+ | 3+ | 2 | 1 | - |
 
@@ -440,13 +440,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 6" | 2 | 5+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Reaper's Blades | 3 | 3+ | 4+ | 1 | 1 | Anti-HERO (+1 Rend) |
 
@@ -470,13 +470,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 4" | 1 | 4+ | 1 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Nadirite Blade or Spear | 2 | 3+ | 4+ | - | 1 | Anti-CAVALRY (+1 Rend), Crit (2 Hits) |
 
@@ -499,13 +499,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 4+ | 2 | 6+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Ossified Talons | 3 | 4+ | 4+ | - | 2 | Crit (2 Hits) |
 
@@ -517,7 +517,7 @@
   - 宣言: If this unit is not in combat, pick a friendly **Mortek Guard** unit that has been destroyed to be the target.
   - 効果: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12" of this unit and more than 9" from all enemy units.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 **Gothizzar Harvester**
 - Any **INFANTRY**

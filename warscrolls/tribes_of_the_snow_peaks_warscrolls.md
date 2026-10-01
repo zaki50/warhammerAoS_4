@@ -1,6 +1,6 @@
 # Tribes of the Snow Peaks ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-24
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 全13 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -15,13 +15,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 5 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Cursed Broadsword | 5 | 4+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -32,7 +32,7 @@
 - **Oath of Murder**（Once Per Battle, End of Any Turn）
   - 効果: If this unit destroyed an enemy **HERO** or **MONSTER** this turn, this unit has **STRIKE-FIRST** for the rest of the battle.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Oathsworn*
 - 0-1 **MONSTER**
@@ -52,13 +52,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 7 | 4+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Darkoath Cursed Weapon | 5 | 4+ | 3+ | 1 | 2 | Crit (Mortal) |
 | Warsteed’s Hooves | 2 | 5+ | 3+ | - | 1 | Companion |
@@ -70,7 +70,7 @@
 - **Cavalry Warleader**（Passive）
   - 効果: You can re-roll charge rolls for friendly **DARKOATH CAVALRY** units while they are wholly within 12" of this unit.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Oathsworn*
 - 0-1 **MONSTER**
@@ -88,19 +88,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 3 | 5+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Marauder Javelin | 10" | 1 | 4+ | 3+ | - | D3 | - |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Fellrider Blades | 2 | 4+ | 3+ | - | 1 | Charge (+1 Damage) |
 | Marauder Javelin | 2 | 4+ | 4+ | 1 | 1 | - |
@@ -125,13 +125,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Raider Weapons | 2 | 4+ | 3+ | - | 1 | - |
 
@@ -152,13 +152,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 1 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Darkoath Weapons | 2 | 4+ | 3+ | - | 1 | Crit (Mortal) |
 
@@ -179,13 +179,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 5" | 5 | 5+ | 2 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Rune-etched Axe | 5 | 4+ | 3+ | 1 | 2 | Crit (Mortal) |
 
@@ -197,7 +197,7 @@
   - 宣言: Pick an objective that this unit is contesting.
   - 効果: Roll a dice. On a 3+, for the rest of the turn, friendly **DARKOATH** units have **WARD (5+)** while they are contesting that objective.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - 0-1 *Oathsworn*
 - 0-1 **MONSTER**
@@ -217,13 +217,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control | Ward |
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
 |---|---|---|---|---|
 | 8" | 9 | 5+ | 1 | 5+ |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Razor-sharp Claws | 6 | 4+ | 3+ | 1 | 2 | Companion |
 | Flesh-tearing Maw | 3 | 3+ | 3+ | 2 | D3 | Companion |
@@ -249,19 +249,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 6+ | 1 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Hunting Bow | 20" | 2 | 4+ | 4+ | - | 1 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Godsworn Weapons | 2 | 4+ | 3+ | - | 1 | Crit (Mortal) |
 
@@ -288,13 +288,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 6 | 5+ | 2 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Dual Axes | 10 | 4+ | 3+ | 1 | 1 | Crit (Mortal) |
 
@@ -307,7 +307,7 @@
   - 宣言: This unit can only use this ability if it is in combat with an enemy **HERO**.
   - 効果: This unit can use 2 **FIGHT** abilities this phase. After the first is used, however, this unit has **STRIKE-LAST** for the rest of the turn. When using the second **FIGHT** ability, this unit must pick an enemy **HERO** to be the target of all of its attacks.
 
-**レジメントオプション:**
+**連隊オプション:**
 
 - **Singri Brand** (required)
 - **The Oathsworn Kin** (required)
@@ -325,7 +325,7 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | - | 12 | 4+ | - |
 
@@ -359,19 +359,19 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 12" | 4 | 5+ | 2 |
 
-**射撃武器:**
+**遠隔武器:**
 
-| 武器 | 射程 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
 | Singri’s Warbow | 18" | 2 | 3+ | 3+ | 1 | D3 | Crit (Auto-wound) |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Warsteed’s Hooves | 2 | 5+ | 3+ | - | 1 | Companion |
 | Brand Ancestral Knife | 3 | 4+ | 3+ | 1 | 1 | - |
@@ -397,13 +397,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 2 | 6+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gnarlspirit Weapons | 3 | 4+ | 3+ | 1 | 1 | Crit (Mortal) |
 
@@ -430,13 +430,13 @@
 
 **ステータス:**
 
-| Move | Health | Save | Control |
+| 移動力 | 体力 | 防御力 | 確保力 |
 |---|---|---|---|
 | 5" | 3 | 5+ | 1 |
 
 **近接武器:**
 
-| 武器 | A | Hit | Wnd | Rnd | D | アビリティ |
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Gnarled Staff | 3 | 4+ | 4+ | - | D3 | - |
 | Heavy Darkoath Weapon | 4 | 4+ | 3+ | - | 2 | Crit (Mortal) |
