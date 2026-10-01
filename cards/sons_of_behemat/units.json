@@ -1,0 +1,3306 @@
+{
+ "meta": {
+  "slug": "sons_of_behemat",
+  "kind": "faction",
+  "faction_en": "Sons of Behemat",
+  "faction_ja": null,
+  "faction_slug": "sons_of_behemat",
+  "alliance": "Destruction",
+  "title_en": "Sons of Behemat",
+  "title_ja": null,
+  "data_version": 483
+ },
+ "units": [
+  {
+   "id": "2aa9d188-e538-4c34-a5ac-02c8e618cd0a",
+   "name": {
+    "ja": "Ancient Ghyrochs",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "8\""
+    ],
+    [
+     "体力",
+     "Health",
+     "7"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 0,
+   "models": 2,
+   "base": "105 x 70mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Mighty Horns and Hooves",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "2+",
+      "2",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Charge (+1 Damage)",
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Beast",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit has a maximum control score of 1."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Wellspring of Life Energy",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "End of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "**Heal (3)** this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Beast",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Sons of Behemat",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit can only be taken in **Ma Maegran’s** regiment.\nThis unit cannot be reinforced.",
+   "wargear": null
+  },
+  {
+   "id": "e925305f-1075-44ed-87d6-bc80d8891e77",
+   "name": {
+    "ja": "Beast-smasher Mega-Gargant",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "25"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "10"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 380,
+   "models": 1,
+   "base": "130mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Menhir Club: Calamitous Sweep（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "16",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Auto-wound)"
+     ]
+    },
+    {
+     "ja": "Almighty Stomp",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "2+",
+      "2",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Menhir Club: Crushing Blow（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "2",
+      "4"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Leader of the Pack",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Reaction: You declared a FIGHT ability for this unit"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick another visible friendly **SONS OF BEHEMAT** unit wholly within 12\" of this unit to be the target and make a rampage roll of D6. Add 1 to the roll if the target is **LITTLE**. On a 3+, the target's melee weapons have **Crit (2 Hits)** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Menhir Club",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Each time this unit uses a **FIGHT** ability, pick either the **Calamitous Sweep** or **Crushing Blow** weapon characteristics for all the attacks it makes with its **Menhir Club**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 15 or more damage points, the Attacks characteristic of its **Menhir Club** is 11 for **Calamitous Sweep** and 4 for **Crushing Blow**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Primal Aura",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a rampage roll of D6. Add 1 to the roll for each other friendly **BIG** or **LITTLE** unit that is in combat and within this unit's combat range. On a 3+, subtract 1 from ward rolls for damage points inflicted by abilities used by this unit for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Sons of Behemat",
+     ""
+    ],
+    [
+     "Big",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Eager Lout*",
+    "Any **SONS OF BEHEMAT**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as an *Eager Lout*.",
+   "wargear": null
+  },
+  {
+   "id": "d9e0de81-57f6-4f8a-a5e6-bb844b6fdac6",
+   "name": {
+    "ja": "Boss-Stompers",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "8\""
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 370,
+   "models": 3,
+   "base": "90mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Stomper's Clubs",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "7",
+      "4+",
+      "2+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "'Eadbutt",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "4+",
+      "2+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Quit Hogging Da Fun!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Reaction: You declared a FIGHT ability for this unit in the enemy combat phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick a visible friendly **BIG** unit that has not used a **FIGHT** ability this turn and is wholly within 12\" of this unit to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Sons of Behemat",
+     ""
+    ],
+    [
+     "Little",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit cannot be reinforced.",
+   "wargear": null
+  },
+  {
+   "id": "38291d18-140f-44dd-950a-2115e3bfa811",
+   "name": {
+    "ja": "Gatebreaker Mega-Gargant",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "25"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "10"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 400,
+   "models": 1,
+   "base": "130mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Hurled Boulder",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "1",
+      "3+",
+      "2+",
+      "2",
+      "4"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Almighty Stomp",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "2+",
+      "2",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Fortcrusha Flail: Calamitous Sweep（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "16",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Auto-wound)"
+     ]
+    },
+    {
+     "ja": "Fortcrusha Flail: Crushing Blow（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "2",
+      "4"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 15 or more damage points, the Attacks characteristic of its **Fortcrusha Flail** is 11 for **Calamitous Sweep** and 4 for **Crushing Blow**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Fortcrusha Flail",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Each time this unit uses a **FIGHT** ability, pick either the **Calamitous Sweep** or **Crushing Blow** weapon characteristics for all the attacks it makes with its **Fortcrusha Flail**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Primal Reckoning",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Battle (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the turn, add 1 to the Attacks characteristic of this unit's **Fortcrusha Flail: Crushing Blow** for each friendly **SONS OF BEHEMAT** unit that has been destroyed this battle, to a maximum of 10."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Rip It Up and Chuck It",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Shooting Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a terrain feature within 3\" of this unit that is not **uprooted**, then pick a friendly **SONS OF BEHEMAT** unit within 3\" of that terrain feature to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a rampage roll of D6. On a 3+:\n\n• If the target is another **BIG** unit, excluding **Gatebreaker Mega-Gargants**, it is armed with a **Hurled Boulder** for the rest of the turn (see the weapon profile on this unit's warscroll. Modifiers to this unit's ranged weapons or shooting attacks do not apply to the target).\n\n• If the target is a **Gatebreaker Mega-Gargant** or a **LITTLE** unit, add 1 to the Attacks characteristic of its ranged weapons for the rest of the turn.\n\n• That terrain feature is **uprooted** for the rest of the battle. If it is **FACTION TERRAIN**, inflict an amount of mortal damage on it equal to the rampage roll."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Sons of Behemat",
+     ""
+    ],
+    [
+     "Big",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Eager Lout*",
+    "Any **SONS OF BEHEMAT**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as an *Eager Lout*.",
+   "wargear": null
+  },
+  {
+   "id": "f9fcfc8f-a3c5-451f-a1cb-d9ab4c99b497",
+   "name": {
+    "ja": "King Brodd",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "28"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "10"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 430,
+   "models": 1,
+   "base": "130mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Obelisk of Tor Crania: Calamitous Sweep（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "20",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Auto-wound)"
+     ]
+    },
+    {
+     "ja": "Obelisk of Tor Crania: Crushing Blow（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "2",
+      "5"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Almighty Stomp",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "2+",
+      "2",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 15 or more damage points, the Attacks characteristic o f this unit's **Obelisk of Tor Crania** is 13 for **Calamitous Sweep** and 4 for **Crushing Blow**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Obelisk of Tor Crania",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Each time this unit uses a **FIGHT** ability, pick either the **Calamitous Sweep** or **Crushing Blow** weapon characteristics for all the attacks it makes with its **Obelisk of Tor Crania**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Power of Behemat",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible friendly **SONS OF BEHEMAT MONSTER** unit wholly within 12\" of this unit to be the target, then make a chanting roll of D6."
+      },
+      "effect": {
+       "ja": "",
+       "en": "If the chanting roll was 7+, you can pick another eligible unit to be a second target. Add 1 to the Rend characteristic of each target's melee weapons for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Prayer",
+     "cast": 4,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Court of Creepers",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy **HERO** or **MONSTER** in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. Add 1 to the roll if this unit charged this turn. On a 3+:\n\n• Add 1 to hit rolls for this unit's combat attacks that target that enemy unit for the rest of the turn.\n• The target cannot use **RAMPAGE** abilities for the rest of the turn.\n• The target no longer has any artefacts of power."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Set 'Em Up, Then Knock 'Em Down",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible enemy unit within 18\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "If there are 3 or more friendly **BIG** or **LITTLE** models in combat with the target, apply the effect below. Otherwise, make a rampage roll of D6. On a 3+, apply the effect below.\n\nFor the rest of the turn, subtract 1 from hit rolls for the target's combat attacks while it is in combat with 2 or more friendly **BIG** or **LITTLE** models."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Warmaster",
+     ""
+    ],
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Priest (1)",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Sons of Behemat",
+     ""
+    ],
+    [
+     "Big",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Eager Lout*",
+    "Any **SONS OF BEHEMAT**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "0cab2df5-e2bc-47e7-9906-a835e2b6d1f3",
+   "name": {
+    "ja": "Kragnos, the End of Empires",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "18"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "15"
+    ]
+   ],
+   "ward": "5+",
+   "additional": [],
+   "points": 580,
+   "models": 1,
+   "base": "130mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Hooves of Wrack and Ruin",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "3+",
+      "2+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "The Dread Mace（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "3+",
+      "2+",
+      "3",
+      "4"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Tuskbreaker",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "2+",
+      "2",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (2 Hits)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Rampaging Destruction",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit charged this phase, pick 1 of the following effects:\n\n• Roll a dice for each enemy unit within 1\" of this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.\n• Pick an enemy **MONSTER** in combat with this unit and roll 2D6. On a 7, this ability has no effect. Otherwise, inflict an amount of mortal damage on that unit equal to the results on the dice used for the 2D6 roll multiplied together. For example, a 2D6 roll of 2 and 6 would inflict 12 mortal damage (2 × 6)."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Avatar of Destruction",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points)."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "The End of Empires",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the turn, add 1 to the number of dice rolled when making charge rolls for friendly **DESTRUCTION** units while they are wholly within 12\" of this unit, to a maximum of 3."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 10 or more damage points, the Attacks characteristic of **The Dread Mace** is 4 and this unit has a Control characteristic of 10."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "The Shield Inviolate",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Reaction: Opponent declared a SPELL ability"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit was picked to be the target of that spell, roll a dice. On a 3+, ignore the effect of that spell on this unit. This unit can use this ability more than once per phase but only once per **SPELL** ability."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Warmaster",
+     ""
+    ],
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Ward (5+)",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Sons of Behemat",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **SONS OF BEHEMAT**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "61259ddb-24c9-4ce5-aafc-ac9cbbfd7a36",
+   "name": {
+    "ja": "Kraken-eater Mega-Gargant",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "25"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "10"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 370,
+   "models": 1,
+   "base": "130mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Almighty Stomp",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "2+",
+      "2",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Shipwrecka Warclub: Calamitous Sweep（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "16",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Auto-wound)"
+     ]
+    },
+    {
+     "ja": "Shipwrecka Warclub: Crushing Blow（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "2",
+      "4"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 15 or more damage points, the Attacks characteristic of its **Shipwrecka Warclub** is 11 for **Calamitous Sweep** and 4 for **Crushing Blow**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Shipwrecka Warclub",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Each time this unit uses a **FIGHT** ability, pick either the **Calamitous Sweep** or **Crushing Blow** weapon characteristics for all the attacks it makes with its **Shipwrecka Warclub**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Get Orf Me Land!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Deployment Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an objective or terrain feature on the battlefield to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the battle, the target is this unit's **loot hoard**. While the unit that used this ability is contesting its **loot hoard**, add 10 to its control score. While the unit that used this ability is not contesting its **loot hoard**, add 2 to the Attacks characteristic of its **Almighty Stomp.**"
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Greedy Show-Offs",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick another visible friendly **BIG** or **LITTLE** unit wholly within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit is contesting its **loot hoard**, apply the effect below. Otherwise, make a rampage roll of D6. On a 3+, apply the effect below.\n\nAdd 1 to charge rolls for the target for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Sons of Behemat",
+     ""
+    ],
+    [
+     "Big",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Eager Lout*",
+    "Any **SONS OF BEHEMAT**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as an *Eager Lout*.",
+   "wargear": null
+  },
+  {
+   "id": "51a4d27f-367f-4b2f-8acd-e8947d9274c3",
+   "name": {
+    "ja": "Ma Maegran, Chooser Of The Mighty",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "8\""
+    ],
+    [
+     "体力",
+     "Health",
+     "15"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "10"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 370,
+   "models": 1,
+   "base": "90mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Spear of Krum Kalda（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "2+",
+      "2",
+      "4"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 10 or more damage points, the Attacks characteristic of its **Spear of Krum Kalda** is 3."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Creepy Cantrips",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible friendly **SONS OF BEHEMAT MONSTER** unit wholly within 18\" of this unit to be the target, then make a casting roll of 2D6."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Until the start of your next turn, add 1 to rampage rolls for the target and add 1 to hit rolls for the target's combat attacks."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Spell",
+     "cast": 6,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "The Wandering Witch",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit is wholly within 12\" of another friendly **SONS OF BEHEMAT MONSTER** unit, this unit is not visible to enemy units more than 12\" away from it."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Shepherdess",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible friendly **Ancient Ghyrochs** unit wholly within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "If the target is within this unit's combat range, pick 1 of the effects below. Otherwise, make a rampage roll of D6. On a 3+, pick 1 of the effects below.\n\n***Gore their Guts!***: If the target is in combat, add 1 to the Damage characteristic of the target's **Mighty Horns and Hooves** for the rest of the turn.\n\n***Ghyroch Rush***: If the target is not in combat, it can move 3\". It can move into combat.\n\n***Reservoirs of Jade Energy***: Add 1 to this unit's casting power level until the start of your next turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Chooser of the Mighty",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Battle, Any Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick another visible friendly **LITTLE** unit wholly within 12\" of this unit to be mighty."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick 1 of the following effects:\n\n• For the rest of the turn, each time you make an unmodified wound roll of 6 for a combat attack made by the mighty unit, inflict 1 mortal damage on the target of the attack after the **FIGHT** ability has been resolved.\n\n• Pick a point on the battlefield within 1\" of the **mighty** unit, then pick a friendly non-**UNIQUE BIG** unit that has been destroyed to be the target. Set up a replacement unit identical to the target within 1\" of that point, then allocate 10 damage points to it (ward rolls cannot be made for those damage points). The replacement unit can only be set up in combat with units that the **mighty** unit was in combat with when it was picked to be **mighty**. Then, 1 model in the **mighty** unit is slain."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Sons of Behemat",
+     ""
+    ],
+    [
+     "Little",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "**Ancient Ghyrochs** (required)",
+    "0-1 *Eager Lout*",
+    "Any **SONS OF BEHEMAT**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "3b2e13bf-f060-47ed-821f-206a4ab8c87b",
+   "name": {
+    "ja": "Mancrusher Gargant",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "8\""
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 140,
+   "models": 1,
+   "base": "90 x 52mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Throwin' Rocks",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "1",
+      "4+",
+      "2+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "’Eadbutt",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "4+",
+      "2+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Gigantic Weapon",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "4+",
+      "2+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Bet You Can't...",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Battle (Army), Deployment Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick each friendly Mancrusher Gargant on the battlefield to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick 1 of the following effects:\n***...Kill the Big Eads***: For the rest of the battle, add 1 to the Attacks characteristic of each target's melee weapons while they are in combat with any enemy **HEROES** or **MONSTERS**.\n\n***...Get There Before Me!***: Up to 3 of the targets can each use the Normal Move' ability as if it were your movement phase.\n\n***...Grab That!***: Add 5 to each target's control score for the rest of the battle."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Excitable Followers",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit is wholly within 12\" of a visible friendly **SONS OF BEHEMAT HERO**, this unit can use 2 **FIGHT** abilities this phase. After the first is used, however, this unit has **STRIKE-LAST** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": 1,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Sons of Behemat",
+     ""
+    ],
+    [
+     "Little",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "c7d8081a-859c-450f-bd7e-46fe69fe4e0f",
+   "name": {
+    "ja": "Rock-hurlers",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "8\""
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 380,
+   "models": 3,
+   "base": "90mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Hurlin' Rocks",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "3",
+      "4+",
+      "2+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Massive Clubs and Rocks",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "2+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "'Eadbutt",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "4+",
+      "2+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Drop, Toss or Roll",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Shooting Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick 1 of the following effects to apply for the rest of the turn:\n\n***Drop***: This unit's ranged weapons have **Shoot in Combat** and this unit can use the Covering Fire command even if it is in combat.\n\n***Toss***: Add 6\" to the Range characteristic of this unit's ranged weapons.\n\n***Roll***: Add 1 to hit rolls for this unit's shooting attacks."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Sons of Behemat",
+     ""
+    ],
+    [
+     "Little",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit cannot be reinforced.",
+   "wargear": null
+  },
+  {
+   "id": "eb4c77e3-9c55-462e-a0c8-4591735e6478",
+   "name": {
+    "ja": "Scourge of Aqshy: Gatebreaker Mega-Gargant",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "25"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "10"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 490,
+   "models": 1,
+   "base": "130mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Hurled Boulder",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "1",
+      "3+",
+      "2+",
+      "2",
+      "4"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Fortcrusha Flail: Crushing Blow（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "2",
+      "4"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Almighty Stomp",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "2+",
+      "2",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Fortcrusha Flail: Calamitous Sweep（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "16",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Auto-wound)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Fortcrusha Flail",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Each time this unit uses a **FIGHT** ability, pick either the **Calamitous Sweep** or **Crushing Blow** weapon characteristics for all the attacks it makes with its **Fortcrusha Flail**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "It's Goin' Down",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Battle (Army), Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Until the start of your next turn:\n\n• This unit has a Move characteristic of 4D6\".\n• While this unit is within 1\" of a terrain feature, the Attacks characteristic of its **Hurled Boulder** is D6 instead of 1."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 15 or more damage points, the Attacks characteristic of its **Fortcrusha Flail** is 11 for **Calamitous Sweep** and 4 for **Crushing Blow**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Off in a Huff",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "You and your opponent must roll off. Each player adds their **fury level** to their roll. Then, this unit can move a distance up to its Move characteristic. It can move through the combat ranges of enemy units, but it cannot end that move in combat unless you won the roll-off."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Core, Move",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Sons of Behemat",
+     ""
+    ],
+    [
+     "Big",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Eager Lout*",
+    "Any **SONS OF BEHEMAT**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as an *Eager Lout*. This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "4150aa9f-fb31-4371-90d4-c3c1d675febb",
+   "name": {
+    "ja": "Scourge of Aqshy: Mancrusher Gargant",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "8\""
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "10"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 120,
+   "models": 1,
+   "base": "90 x 52mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Throwin’ Rocks",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "1",
+      "5+",
+      "2+",
+      "2",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "’Eadbutt",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "4+",
+      "2+",
+      "2",
+      "4"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Mighty Kick",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "4+",
+      "2+",
+      "2",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Massive Club",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "2+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Statue Tossing",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Shooting Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the turn, the Damage characteristic of this unit’s **Throwin’ Rocks** is 3 instead of D3.\n\nThen, you can spend up to 3 **rage dice**. If you do:\n\n•  For each **rage dice** spent, add 2 to the Attacks characteristic of this unit’s **Throwin’ Rocks** for the rest of the turn.\n•  If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Sons of Behemat",
+     ""
+    ],
+    [
+     "Little",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "cab91b4f-395a-452c-bcec-eb227ee6b9fe",
+   "name": {
+    "ja": "Scourge of Ghyran Kraken-eater Mega-Gargant",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "35"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "20"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 430,
+   "models": 1,
+   "base": "130mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Hurled Debris",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "24\"",
+      "3",
+      "4+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Spine-shattering Stomp",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "2+",
+      "2",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)"
+     ]
+    },
+    {
+     "ja": "Shipwrecka Warclub（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "2+",
+      "2",
+      "5"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Death Grip",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "4+",
+      "2+",
+      "2",
+      "D6"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-HERO (+1 Rend)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Longshanks",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit can pass through models in non-**MONSTER** units and parts of terrain features that are less than 4\" tall."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Emerge From The Deep",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick this unit if it is **beneath the waves**."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units and wholly within 9\" of a battlefield edge."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 15 or more damage points, the Attacks characteristic of its **Shipwrecka Warclub** is 3 and this unit has a Control characteristic of 10."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Sons of Behemat",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points)."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Lurking Beneath The Waves",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Battle (Army), Deployment Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick this unit if it has not been deployed."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Set up this unit in reserve **beneath the waves**. It has now been deployed."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Sons of Behemat",
+     ""
+    ],
+    [
+     "Mega-Gargant",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Eager Lout*",
+    "Any **SONS OF BEHEMAT**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as an *Eager Lout*.\nThis unit is legal for Matched Play for battles fought using the *General’s Handbook 2025-26* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "3f708e33-9d2c-4796-9c35-10e51d9e441f",
+   "name": {
+    "ja": "Warstomper Mega-Gargant",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "25"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "10"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 390,
+   "models": 1,
+   "base": "130mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Titanic Boulderclub: Calamitous Sweep（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "16",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Auto-wound)"
+     ]
+    },
+    {
+     "ja": "Almighty Stomp",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "2+",
+      "2",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Titanic Boulderclub: Crushing Blow（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "2",
+      "4"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 15 or more damage points, the Attacks characteristic of its **Titanic Boulderclub** is 11 for **Calamitous Sweep** and 4 for **Crushing Blow.**"
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Titanic Boulderclub",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Each time this unit uses a **FIGHT** ability, pick either the **Calamitous Sweep** or **Crushing Blow** weapon characteristics for all the attacks it makes with its **Titanic Boulderclub**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Almightier Stompin'",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit charged this turn, pick an enemy unit in combat with it to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a rampage roll of D3. For the rest of the turn, add the roll to the Attacks characteristic of this unit's **Almighty Stomp**, but all of this unit's attacks made with that weapon must target the target unit.\n\nIf any models are slain by those attacks, for the rest of the turn, enemy units have a maximum control score of 1 while they are in combat with this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Don't Stomp Those, Stomp Them!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick another visible friendly **BIG** or **LITTLE** unit wholly within 12\" of this unit and that has not been set up this turn to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "The target can move 2D6\". It can pass through and end that move within the combat ranges of enemy units that it was in combat with at the start of the move, but not those of other enemy units. It does not have to end the move in combat."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Sons of Behemat",
+     ""
+    ],
+    [
+     "Big",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Eager Lout*",
+    "Any **SONS OF BEHEMAT**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as an *Eager Lout*.",
+   "wargear": null
+  }
+ ]
+}

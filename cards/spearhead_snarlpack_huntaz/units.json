@@ -1,0 +1,552 @@
+{
+ "meta": {
+  "slug": "spearhead_snarlpack_huntaz",
+  "kind": "spearhead",
+  "faction_en": "Gloomspite Gitz",
+  "faction_ja": null,
+  "faction_slug": "gloomspite_gitz",
+  "alliance": null,
+  "title_en": "Snarlpack Huntaz",
+  "title_ja": null,
+  "data_version": 483
+ },
+ "units": [
+  {
+   "id": "5cdc809d-6b4f-4348-bec8-393139ffec57",
+   "name": {
+    "ja": "Snarlboss",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "Use model",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Snarlfang’s Slavering Jaws",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "3+",
+      "-",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    },
+    {
+     "ja": "Boss Loppa",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "4+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Great Snarlin' Howl",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick this unit and another friendly unit within this unit’s combat range to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+, add 1 to the Rend characteristic and the Attacks characteristic of the targets’ **Companion** melee weapons for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Cavalry",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "8c73b457-5714-4fa7-a53d-c9df6fa7d5b5",
+   "name": {
+    "ja": "Snarlpack Cavalry",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": null,
+   "models": 3,
+   "base": "75 × 42mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Pointy Skewas",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "5+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Charge (+1 Damage)"
+     ]
+    },
+    {
+     "ja": "Giant Snarlfang’s Jaws",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "3+",
+      "-",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Frazzleburned Scrap",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit has **STRIKE FIRST** if it charged in the same turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Cavalry",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "8b88d12e-de20-44f5-baa8-f52d413cd04c",
+   "name": {
+    "ja": "Sunsteala Wheelas",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "105 × 70mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "Grot Bow",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "15\"",
+      "2",
+      "4+",
+      "5+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Wheela Slicers and Stabbin’ Stikka",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Snarlfangs’ Slavering Jaws",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "3+",
+      "-",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Careening Destruction",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit can move a distance up to its Move characteristic. It can pass through other models and the combat ranges of enemy units, but it cannot end that move in combat. Then, pick up to 1 enemy **INFANTRY** unit that this unit passed across during that move to be the target. Inflict D3 mortal damage on the target.\n\n**Designer’s Note:** *This unit can use this ability even if it is in combat.*"
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Core, Move",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "War Machine",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "e13c1736-312e-423b-82c1-a3f54c5910d7",
+   "name": {
+    "ja": "Wolfgit Retinue",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": null,
+   "models": 2,
+   "base": "Use model",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Grot Bow",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "15\"",
+      "2",
+      "4+",
+      "5+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Snarlfang’s Slavering Jaws",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "3+",
+      "-",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    },
+    {
+     "ja": "Stabbin’ Stikka",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "5+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "I Got Dis, Boss",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While a friendly **Snarlboss** is within this unit’s combat range, both this unit and that **Snarlboss** have **WARD (5+)**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Cavalry",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "***1 model is armed with a Grot Bow and Snarlfang’s Slavering Jaws, and 1 model is armed with a Stabbin’ Stikka and Snarlfang’s Slavering Jaws.***"
+   }
+  }
+ ]
+}

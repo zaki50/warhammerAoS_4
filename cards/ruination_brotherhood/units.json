@@ -1,0 +1,6213 @@
+{
+ "meta": {
+  "slug": "ruination_brotherhood",
+  "kind": "faction",
+  "faction_en": "Ruination Brotherhood",
+  "faction_ja": null,
+  "faction_slug": "ruination_brotherhood",
+  "alliance": "Order",
+  "title_en": "Ruination Brotherhood",
+  "title_ja": null,
+  "data_version": 483
+ },
+ "units": [
+  {
+   "id": "decb191d-a30f-4745-81ff-4d5af41e4ce4",
+   "name": {
+    "ja": "Annihilators",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "2+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 130,
+   "models": 3,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Meteoric Hammer",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Blazing Impact",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit was set up this turn using the ‘Scions of the Storm’ ability, pick up to 3 enemy units within 10\" of it to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Brace for Impact",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice for each model in this unit. If any of the rolls are a 6, the target has **STRIKE-LAST** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "43c2ca4c-7c6a-4bf0-824b-24994dd43017",
+   "name": {
+    "ja": "Annihilators with Meteoric Grandhammers",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 180,
+   "models": 3,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Meteoric Grandhammer",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "2+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Force of a Falling Star",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit charged this phase and the unmodified charge roll was 8+, pick an enemy unit within 1\" of it to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "The target has **STRIKE-LAST** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Blazing Impact",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit was set up this turn using the ‘Scions of the Storm’ ability, pick up to 3 enemy units within 10\" of it to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "3f1d4705-bd85-4776-88b2-34e0fd2ac255",
+   "name": {
+    "ja": "Decimators",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 240,
+   "models": 5,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Decimator Thunderaxe",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (2 Hits)"
+     ]
+    },
+    {
+     "ja": "Starsoul Mace",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "3+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Decimating Blow",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to the Damage characteristic of this unit’s **Decimator Thunderaxes** if the target unit has 10 or more models."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "***Each model in this unit is armed with a Decimator Thunderaxe.***\n\n***• 2/5 models can replace their Decimator Thunderaxe with a Starsoul Mace.***"
+   }
+  },
+  {
+   "id": "349d6e60-62bf-42d4-937c-73ff41b53465",
+   "name": {
+    "ja": "Domitan’s Stormcoven",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 210,
+   "models": 3,
+   "base": "40mm [3]",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Azyrite Bolts",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "2",
+      "3+",
+      "4+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Valedictor Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Aethershock",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible unit within 12\" of the caster to be the target, then make a casting roll of 2D6."
+      },
+      "effect": {
+       "ja": "",
+       "en": "If the target is a friendly unit, it has **STRIKE-FIRST** for the rest of the turn. If the target is an enemy unit, it has **STRIKE-LAST** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Spell",
+     "cast": 7,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Gather the Aether",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to this unit’s power level while it is contesting an objective."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit cannot be reinforced.",
+   "wargear": {
+    "ja": "",
+    "en": "***Each model in this unit is armed with Azyrite Bolts and Valedictor Weapons. The models in this unit are:***\n\n• ***Domitan, Eye of the Storm***\n• ***Leona Stratosi***\n• ***Sarpon, the Cyclone***"
+   }
+  },
+  {
+   "id": "1d91d816-e8af-431e-adb3-e71202e26dc7",
+   "name": {
+    "ja": "Ionus Cryptborn, Warden of Lost Souls",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "16"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 340,
+   "models": 1,
+   "base": "100mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Spirit-scouring Flames",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "9",
+      "2+",
+      "4+",
+      "2",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat",
+      "Companion"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Soulbreaker",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Cthorak’s Ancient Claws（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Spirit-scouring Flames",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Shooting Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s **Spirit‑scouring Flames** to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "The target has the **SOULBURNED** keyword for the rest of the battle."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Soulburned",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Shooting Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "This unit can use this ability even if it has been destroyed. Pick any number of **SOULBURNED** enemy units to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Ruination Chamber",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Reaction: This unit was picked as the target of a non-**CORE** ability"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 10 or more damage points, the Attacks characteristic of **Cthorak’s Ancient Claws** is 4."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Lightning Tempest",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible enemy unit within 12\" of this unit to be struck by lightning, then make a chanting roll of D6."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Inflict D3 mortal damage on that unit, then roll a dice. On a 1-2, the sequence ends. On a 3+, pick another enemy unit within 3\" of that unit to be struck by lightning and inflict D3 mortal damage on it. If the chanting roll was 10+, you can pick another enemy unit within 6\" of that unit instead of 3\". Keep rolling dice in this way until the sequence ends or there are no other enemy units eligible to be struck by lightning. A unit cannot be struck by lightning more than once per turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Prayer",
+     "cast": 5,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Warmaster",
+     ""
+    ],
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Priest (2)",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Ruination Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Stormcast Exemplar*",
+    "Any **STORMCAST ETERNALS**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "cbdb0c2f-9ee7-4aed-a63b-2b21c503fc97",
+   "name": {
+    "ja": "Iridan the Witness",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 260,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Axe of the Final Threshold",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "3+",
+      "2",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    },
+    {
+     "ja": "Ariax’s Talons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "2",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (2 Hits)",
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Prayer of the Witness",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Make a chanting roll of D6."
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the turn, each time a friendly **RUINATION CHAMBER** unit uses a **FIGHT** ability while it is wholly within 18\" of this unit, after that ability has been resolved:\n\n• **Heal (D3)** that unit. If the chanting roll was 8+, **Heal (3)** that unit instead.\n• That unit has **WARD (6+)** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Prayer",
+     "cast": 4,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Ruination Chamber",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Reaction: This unit was picked as the target of a non-Core ability"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Dark Flight",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), End of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. If the roll exceeds the target’s Health characteristic:\n\n• 1 model in the target unit is slain.\n• This unit can immediately use the ‘Retreat’ ability without any mortal damage being inflicted upon it."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Priest (1)",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Ruination Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Stormcast Exemplar*",
+    "Any **STORMCAST ETERNALS**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "dde745cb-fb20-4e47-9228-38486857f1ea",
+   "name": {
+    "ja": "Judicators with Boltstorm Crossbows",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 160,
+   "models": 5,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "Boltstorm Crossbow",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "15\"",
+      "3",
+      "3+",
+      "3+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)"
+     ]
+    },
+    {
+     "ja": "Thunderbolt Crossbow",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "15\"",
+      "3",
+      "3+",
+      "3+",
+      "-",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Storm Gladius",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Hail of Bolts",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Shooting Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible enemy **INFANTRY** unit that does not have **FLY** and that had any models slain this phase by this unit’s shooting attacks to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+, until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "***Each model in this unit is armed with a Boltstorm Crossbow and Storm Gladius.***\n\n***• 1/5 models can replace their Boltstorm Crossbow with a Thunderbolt Crossbow.***"
+   }
+  },
+  {
+   "id": "a1b4ec96-dea2-4ad9-acb8-f90bd303c610",
+   "name": {
+    "ja": "Judicators with Skybolt Bows",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 140,
+   "models": 5,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "Shockbolt Bow",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "D3+3",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-MONSTER (+1 Rend)"
+     ]
+    },
+    {
+     "ja": "Skybolt Bow",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "2",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Auto-wound)"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Storm Gladius",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Subduing Shots",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Shooting Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible enemy **MONSTER** that had any damage points allocated to it this phase by this unit’s shooting attacks to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+, the target cannot use **RAMPAGE** abilities until the start of your next turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "***Each model in this unit is armed with a Skybolt Bow and Storm Gladius.***\n\n***• 1/5 models can replace their Skybolt Bow with a Shockbolt Bow.***"
+   }
+  },
+  {
+   "id": "5ec7c345-70a2-436d-a324-c950cc039df3",
+   "name": {
+    "ja": "Knight-Azyros",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 100,
+   "models": 1,
+   "base": "50mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Star-blessed Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Light in the Dark",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), End of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly **Prosecutors** unit wholly within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+, pick 1 of the following effects:\n\n• If the target is in combat, the target can immediately use the 'Retreat' ability as if it were your movement phase without any mortal damage being inflicted on it.\n• If the target is not in combat, the target can immediately use the 'Normal Move' ability as if it were your movement phase."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Ruination Chamber",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Reaction: This unit was picked as the target of a non-CORE ability"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "The Light of Sigmar",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+, pick 1 of the following effects:\n\n• For the rest of the turn, subtract 1 from hit rolls for attacks made by enemy units while they are in combat with this unit.\n• **Heal (D3)** each friendly **STORMCAST ETERNALS** unit within this unit's combat range."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Ruination Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 **WARRIOR CHAMBER**",
+    "Any **RUINATION CHAMBER**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Stormcast Exemplar*.",
+   "wargear": null
+  },
+  {
+   "id": "bdfe3607-4e70-4225-9d1a-57bf067b247f",
+   "name": {
+    "ja": "Knight-Questor",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 100,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Questor Warblade",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-HERO (+1 Rend)",
+      "Crit (Mortal)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "His Will Be Done",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit is contesting a questmarked objective:\n\n• Add 3 to this unit’s control score.\n• This unit has **WARD (5+)**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Ordained Quest",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Battle (Army), Deployment Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick an objective wholly outside friendly territory. That objective is considered by you to be questmarked."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Heroic Retribution",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Reaction: You declared a FIGHT ability for this unit"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick a friendly **Questor Soulsworn** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 **Questor Soulsworn**",
+    "0-1 **Gryph-hounds**",
+    "Any **RUINATION CHAMBER**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Stormcast Exemplar*.",
+   "wargear": null
+  },
+  {
+   "id": "f87c5429-39f0-4ad1-be18-ccefd6f292e6",
+   "name": {
+    "ja": "Liberators",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 90,
+   "models": 5,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Warhammer",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    },
+    {
+     "ja": "Grandhammer",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Stalwart Defenders",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 3 to this unit’s control score while it is contesting an objective wholly within friendly territory."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "***Each model in this unit is armed with a Warhammer.***\n\n• ***1/5 models can replace their Warhammer with a Grandhammer.***\n• ***The champion cannot replace their weapon.***"
+   }
+  },
+  {
+   "id": "065aeebf-2cc6-4169-8fae-bcd931be7808",
+   "name": {
+    "ja": "Lord-Terminos",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 140,
+   "models": 1,
+   "base": "40mm [1], 25mm [1]",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "The Blade Terminos",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "2+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Memorian",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit’s **Memorian** is a token. Add 3 to the control scores of friendly **RUINATION CHAMBER** units wholly within 12\" of this unit while its **Memorian** is on the battlefield.\n\nIf you make an unmodified save roll of 1 for this unit, remove its **Memorian** from the battlefield after the **ATTACK** ability has been resolved (the damage point is still inflicted)."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Earn an Honourable Death",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Reaction: You declared a FIGHT ability for this unit"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick a friendly non-**HERO RUINATION CHAMBER INFANTRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Ruination Chamber",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Reaction: This unit was picked as the target of a non-CORE ability"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Ruination Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Stormcast Exemplar*",
+    "0-1 **Gryph-hounds**",
+    "Any **RUINATION CHAMBER**",
+    "Any **WARRIOR CHAMBER**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Stormcast Exemplar*.",
+   "wargear": null
+  },
+  {
+   "id": "b9179f2b-580f-426d-bed1-3c142bfd5a3a",
+   "name": {
+    "ja": "Lord-Veritant",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 110,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Judgement Blade",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-PRIEST (+1 Rend)",
+      "Anti-WIZARD (+1 Rend)"
+     ]
+    },
+    {
+     "ja": "Staff of Abjuration",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "3+",
+      "3+",
+      "1",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Ruination Chamber",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Reaction: This unit was picked as the target of a non-CORE ability"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Staff of Abjuration",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit can use **UNBIND** abilities as if it had **WIZARD (1)**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Sense Unholy Sorcery",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit’s **Gryph-crow** is a token. Subtract 1 from casting rolls and chanting rolls for enemy units within 12\" of this unit while its **Gryph-crow** is on the battlefield.\n\nIf you make an unmodified save roll of 1 for this unit, remove its **Gryph-crow** from the battlefield after the **ATTACK** ability has been resolved (the damage point is still inflicted)."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Priest (1)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Ruination Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Stormcast Exemplar*",
+    "0-1 **Gryph-hounds**",
+    "Any **RUINATION CHAMBER**",
+    "Any **WARRIOR CHAMBER**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Stormcast Exemplar*.",
+   "wargear": null
+  },
+  {
+   "id": "b2754d35-7fd4-4b9a-b199-57e2f92e0acf",
+   "name": {
+    "ja": "Lord-Vigilant on Gryph-Stalker",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "8"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 120,
+   "models": 1,
+   "base": "90 x 52mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Hallowed Greataxe",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "2",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Gryph-stalker’s Beak and Talons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Deliver Judgement",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Battle (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly non-**HERO RUINATION CHAMBER** unit wholly within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "The target can use 2 **FIGHT** abilities this phase. After the first is used, however, the target has **STRIKE-LAST** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Ruination Chamber",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Reaction: This unit was picked as the target of a non-CORE ability"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Cavalry",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Ruination Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Stormcast Exemplar*",
+    "0-1 **Gryph-hounds**",
+    "Any **RUINATION CHAMBER**",
+    "Any **WARRIOR CHAMBER**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "59da7bc2-5209-479d-a8c5-6d5ad81ff702",
+   "name": {
+    "ja": "Lord-Vigilant on Morrgryph",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 160,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Morrgryph's Talons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "2",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    },
+    {
+     "ja": "Hallowed Glaive",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Charge (+1 Damage)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Vice-Like Grip",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy non-**MONSTER HERO** in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll 2D6. If the result exceeds the target's Health characteristic, for the rest of the turn:\n\n• The target has **STRIKE-LAST**.\n• The target cannot use commands."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Direct The Assault",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly non-**HERO RUINATION CHAMBER** unit wholly within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the turn, while the target is wholly within 12\" of this unit, add 5 to the target's control score."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Ruination Chamber",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Reaction: This unit was picked as the target of a non-CORE ability"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Ruination Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **RUINATION CHAMBER**",
+    "Any **WARRIOR CHAMBER**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "b3e56935-76f1-454a-bbea-f3c36186e94a",
+   "name": {
+    "ja": "Praetors",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 120,
+   "models": 3,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Soulguard’s Halberd",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Soul-bonded",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Deployment Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick a friendly **STORMCAST ETERNALS HERO** to be this unit’s soul-bonded charge for the rest of the battle. This unit can use this ability while it is in reserve."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Soul-forged Guardians",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit’s soul-bonded charge is within this unit’s combat range, both this unit and that soul-bonded charge have **WARD (5+)**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "a83d9383-c0f0-48aa-b240-6a2daf2b86cf",
+   "name": {
+    "ja": "Prosecutors",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 150,
+   "models": 3,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "Stormcall Javelin",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "1",
+      "3+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Stormcall Javelin",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Charge (+1 Damage)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Ruination Chamber",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Reaction: This unit was picked as the target of a non-CORE ability"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Heralds of Righteousness",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Dispersed Formation",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit has a coherency range of 2\"."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Ruination Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "839d194a-72e1-475f-8deb-f31690067c8f",
+   "name": {
+    "ja": "Protectors",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 220,
+   "models": 5,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Starsoul Mace",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "3+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    },
+    {
+     "ja": "Protector Stormstrike Glaive",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Shield of the Storm",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While any friendly **STORMCAST ETERNALS INFANTRY HEROES** are within this unit’s combat range, both this unit and those friendly units have **WARD (5+)**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "***Each model in this unit is armed with a Protector Stormstrike Glaive.***\n\n***• 2/5 models can replace their Protector Stormstrike Glaive with a Starsoul Mace.***"
+   }
+  },
+  {
+   "id": "a7cf4bfd-f2e2-4cc0-83f7-f55a0d4ac46d",
+   "name": {
+    "ja": "Questor Soulsworn",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 210,
+   "models": 6,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Questor Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "His Will Be Done",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit is contesting a questmarked objective:\n\n• Add 3 to this unit’s control score.\n• This unit has **WARD (5+)**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Ordained Quest",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Battle (Army), Deployment Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick an objective wholly outside friendly territory. That objective is considered by you to be questmarked."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Relictor Soulguide",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Battle, Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "You can pick a friendly **Knight‑Questor** within this unit’s combat range to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units. Then, if you picked a target, remove it from the battlefield and set it up again within this unit’s combat range and more than 9\" from all enemy units."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Core",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit cannot be reinforced.",
+   "wargear": null
+  },
+  {
+   "id": "cbb17e01-3470-448a-9d60-c48fddf16d00",
+   "name": {
+    "ja": "Reclusians",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 140,
+   "models": 3,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Rune-blessed Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Ruination Chamber",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Reaction: This unit was picked as the target of a non-CORE ability"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Memorian Descendants",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit’s **Memorians** are tokens. There are 2 **Memorians** for every 3 models in this unit. While any of this unit’s **Memorians** are on the battlefield, add 1 to this unit’s resistance rolls when using the ‘Ruination Chamber’ ability.\n\nEach time you make an unmodified save roll of 1 for this unit, remove 1 of its **Memorians** from the battlefield after the **ATTACK** ability has been resolved (the damage point is still inflicted)."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Ruination Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "8dfb861a-8ae8-4d44-8a56-ad11c2f8de66",
+   "name": {
+    "ja": "Retributors",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 170,
+   "models": 5,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Retributor Lightning Hammer",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    },
+    {
+     "ja": "Starsoul Mace",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "3+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Crushing Counter-blow",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit is damaged or if any models in this unit were slain this turn, add 1 to hit rolls for this unit’s attacks for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "***Each model in this unit is armed with a Retributor Lightning Hammer.***\n\n***• 2/5 models can replace their Retributor Lightning Hammer with a Starsoul Mace.***"
+   }
+  },
+  {
+   "id": "61f1d11e-26de-498a-bb8d-2022b98793e6",
+   "name": {
+    "ja": "Scourge of Aqshy: Iridan the Witness",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 320,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Axe of the Final Threshold",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    },
+    {
+     "ja": "Ariax’s Plunging Talons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "2",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Charge (+1 Damage)",
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Demands of the Witness",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible friendly **RUINATION CHAMBER** unit wholly within 12\" of this unit to be the target, then make a chanting roll of D6."
+      },
+      "effect": {
+       "ja": "",
+       "en": "If the chanting roll was 7+, you can pick another eligible unit to be a second target. Until the start of your next turn, add 1 to the Rend characteristic of each target’s melee weapons."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Prayer",
+     "cast": 3,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "The Flames of Hope",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "You can re-roll resistance rolls for friendly **RUINATION CHAMBER** units while they are wholly within 12\" of this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "On Wings of Death",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "&#x20;If the target charged this turn, apply the effects below. Otherwise, roll a dice. On a 3+, apply the effects below:\n\n• You can remove this unit from the battlefield and set it up again within 1\" of the target.\n• Subtract 1 from hit rolls for the target’s attacks for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Guardian of the Final Threshold",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Reaction: This unit was picked to be the target of a non-**CORE** ability"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a resistance roll of D6. On a 3+, that ability has no effect on this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Priest (1)",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Ruination Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Stormcast Exemplar*",
+    "Any **STORMCAST ETERNALS**"
+   ],
+   "notes_en": "This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "83096780-d186-40d9-a132-5ac6f1c0d1c2",
+   "name": {
+    "ja": "Scourge of Aqshy: Stormstrike Palladors",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 210,
+   "models": 3,
+   "base": "90 x 52mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Gryph-charger’s Talons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    },
+    {
+     "ja": "Stormstrike Lance or Blade",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)",
+      "Charge (+1 Damage)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Lightning Quick",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "No mortal damage is inflicted on this unit by **RETREAT** abilities."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Shock Cavalry",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit charged this turn, pick an enemy unit in combat with both of the following units to be the target:\n• This unit.\n• A friendly unit that did not charge this turn."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to the Damage characteristic of this unit’s melee weapons for attacks that target that enemy unit for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Cavalry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Musician (1/3)",
+     ""
+    ],
+    [
+     "Standard Bearer (1/3)",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "19394c8b-efdd-4e53-a31c-a732cb049f68",
+   "name": {
+    "ja": "Scourge of Ghyran Iridan the Witness",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 320,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Axe of the Final Threshold",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    },
+    {
+     "ja": "Ariax’s Plunging Talons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "2",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Charge (+1 Damage)",
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Guardian of the Final Threshold",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn, Reaction: This unit was picked to be the target of a non-CORE ability"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a resistance roll of D6. On a 3+, that ability has no effect on this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Demands of the Witness",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible friendly **RUINATION CHAMBER** unit wholly within 12\" of this unit to be the target, then make a chanting roll of D6."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Until the start of your next turn, add 1 to the Rend characteristic of the target’s melee weapons. If the chanting roll was 7+, you can pick another eligible unit to be a second target."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Prayer",
+     "cast": 3,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "The Flames of Hope",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "You can re-roll resistance rolls for friendly **RUINATION CHAMBER** units while they are wholly within 12\" of this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "On Wings of Death",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Effect: Roll a dice. On a 3+:\n\n• You can remove this unit from the battlefield and set it up again on the battlefield within 1\" of the target.\n\n• If the target charged this turn, subtract 1 from hit rolls for the target’s attacks for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Priest (1)",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Ruination Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Stormcast Exemplar*",
+    "Any **STORMCAST ETERNALS**"
+   ],
+   "notes_en": "This unit is legal for Matched Play for battles fought using the *General’s Handbook 2025-26* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "35de0f98-46f6-4502-a1e5-74c674861fbd",
+   "name": {
+    "ja": "Steelheart’s Champions",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 110,
+   "models": 3,
+   "base": "40mm [3]",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Heavens-wrought Weapon",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Stalwart Defenders",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 3 to this unit’s control score while it is contesting an objective wholly within friendly territory."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Heroic Guard",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to save rolls for this unit while it is in combat with any enemy units that charged in the same turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit cannot be reinforced.",
+   "wargear": {
+    "ja": "",
+    "en": "***Each model in this unit is armed with a Heavens-wrought Weapon. The models in this unit are:***\n\n• ***Severin Steelheart** (champion)*\n• ***Obryn the Bold***\n• ***Angharad Brightshield***"
+   }
+  },
+  {
+   "id": "b747e25a-4793-42c7-8c33-e3a71969f1c1",
+   "name": {
+    "ja": "Stormcoven",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 210,
+   "models": 3,
+   "base": "40mm [3]",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Azyrite Bolts",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "2",
+      "3+",
+      "4+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Valedictor Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Gather the Aether",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to this unit’s power level while it is contesting an objective."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Aethershock",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible unit within 12\" of the caster to be the target, then make a casting roll of 2D6."
+      },
+      "effect": {
+       "ja": "",
+       "en": "If the target is a friendly unit, it has **STRIKE-FIRST** for the rest of the turn. If the target is an enemy unit, it has **STRIKE-LAST** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Spell",
+     "cast": 7,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit cannot be reinforced.",
+   "wargear": null
+  },
+  {
+   "id": "42be728a-4144-43b7-8081-02fed9a7c6e3",
+   "name": {
+    "ja": "Stormreach Portal",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "-"
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "-"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 20,
+   "models": 1,
+   "base": "Use model",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Step Into The Storm",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly non-**MONSTER STORMCAST ETERNALS** unit that is not in combat and is wholly within 6\" of this terrain feature to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [
+    {
+     "name": {
+      "ja": "Cover",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": ""
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This rule varies depending on the battlepack selected for your army:\n\n**General's Handbook 2024-25**\nSubtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword.\n\n**General's Handbook 2025-26**\nSubtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword.\n\n**General's Handbook 2026-27**\nSubtract 1 from hit rolls for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit charged this turn or has the **FLY** keyword."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Impassable",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": ""
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This rule varies depending on the battlepack selected for your army:\n\n**General's Handbook 2024-25**\nModels cannot move across, be set up on or end moves on any part of this terrain feature.\n\n**General's Handbook 2025-26**\nModels cannot move across, be set up on or end moves on any part of this terrain feature.\n\n**General's Handbook 2026-27**\nModels cannot move across, be set up on or end moves on any part of this terrain feature."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "keywords": [
+    [
+     "Faction Terrain",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**"
+   }
+  },
+  {
+   "id": "ee00a259-3000-41fc-9419-83304d39f74a",
+   "name": {
+    "ja": "Stormstrike Chariot",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "10"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 110,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Great Stormbow",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "2",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)",
+      "Crit (2 Hits)"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Stormstrike Axe",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Charge (+1 Damage)"
+     ]
+    },
+    {
+     "ja": "Gryph-chargers’ Razor Beaks",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    },
+    {
+     "ja": "Tempestuous Spear",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "3+",
+      "2",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Azyr Unleashed",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Celestial Blaze",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "When this unit uses the ‘Power Through’ command, inflict an additional D3 mortal damage on the target and add D6\" to the distance this unit can move as part of that ability."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "War Machine",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "***This unit is armed with a Stormstrike Axe, Gryph-chargers’ Razor Beaks and 1 of the following options:***\n\n• ***Tempestuous Spear***\n• ***Great Stormbow***"
+   }
+  },
+  {
+   "id": "631433dd-d20d-46ba-a2ff-486ce855ff3c",
+   "name": {
+    "ja": "Stormstrike Palladors",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 180,
+   "models": 3,
+   "base": "90 x 52mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Gryph-charger’s Talons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    },
+    {
+     "ja": "Stormstrike Lance or Blade",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)",
+      "Charge (+1 Damage)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Ride for Vengeance",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If any friendly **WARRIOR CHAMBER** units have been destroyed this battle:\n\n• You can re-roll charge rolls for this unit.\n• This unit has **STRIKE-FIRST** if it charged in the same turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Cavalry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Musician (1/3)",
+     ""
+    ],
+    [
+     "Standard Bearer (1/3)",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "a09bfbf5-12d9-48c0-9499-c33027eac299",
+   "name": {
+    "ja": "Tornus the Redeemed",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "8"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 140,
+   "models": 1,
+   "base": "50mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Hallowed Greatspear",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "1",
+      "3+",
+      "3+",
+      "2",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (2 Hits)"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Hallowed Greatspear",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "2",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (2 Hits)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Ruination Chamber",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Reaction: This unit was picked as the target of a non-CORE ability"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "The Light of Sigmar",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+, pick 1 of the following effects:\n\n• For the rest of the turn, subtract 1 from hit rolls for attacks made by enemy units while they are in combat with this unit.\n• **Heal (D3)** each friendly **STORMCAST ETERNALS** unit within this unit’s combat range."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Herald of Redemption",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If a friendly **RUINATION CHAMBER** unit wholly within 12\" of this unit uses the ‘Rally’ command, you receive 3 additional rally points."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Ruination Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Stormcast Exemplar*",
+    "Any **STORMCAST ETERNALS**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "2264fabb-b004-402c-97ca-8875630d3b13",
+   "name": {
+    "ja": "Vanquishers",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 90,
+   "models": 5,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Celestial Greatsword",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Lightning Strikes",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to the Damage characteristic of this unit’s **Celestial Greatswords** for attacks that target an enemy unit that has 5 or more models."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Musician (1/5)",
+     ""
+    ],
+    [
+     "Standard Bearer (1/5)",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "9dd47092-9f8d-4ee4-a7cf-b5b9b984ce1d",
+   "name": {
+    "ja": "Vigilors",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 140,
+   "models": 5,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "Stormcaller Bow",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "2",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Stormblade",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Navigators of the Storm",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If an enemy unit had any damage points allocated to it this turn by this unit’s shooting attacks, add 1 to hit rolls for attacks made by friendly **STORMCAST ETERNALS** units that target that unit for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "f751485e-8a2a-4b36-a492-a664c568a15e",
+   "name": {
+    "ja": "Vindictors",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 90,
+   "models": 5,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Stormspear",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-charge (+1 Rend)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Hold the Shieldwall",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit did not charge this turn and is in combat with an enemy unit that charged this turn, roll a dice. On a 4+, this unit has **STRIKE-FIRST** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Standard Bearer (1/5)",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "cae7039b-344f-408e-9504-75550ceb8228",
+   "name": {
+    "ja": "Xandire's Truthseekers",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 130,
+   "models": 3,
+   "base": "40mm [3], 25mm [1]",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Stormcaller Bow",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "2",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Great Hammer",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Mortal)",
+      "Anti-MONSTER (+1 Rend)"
+     ]
+    },
+    {
+     "ja": "Truthseeker Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Taros",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit’s **Taros** is a token. After setting up this unit on the battlefield for the first time, place **Taros** next to it."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Harrying Aetherwing",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Shooting Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If any attacks made with this unit’s **Stormcaller Bow** scored a critical hit this phase, pick an enemy unit targeted by those attacks to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Until the start of your next turn, place **Taros** next to the target. While **Taros** is placed next to an enemy unit, that enemy unit cannot use commands."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Stormcast Eternals",
+     ""
+    ],
+    [
+     "Warrior Chamber",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit cannot be reinforced.",
+   "wargear": {
+    "ja": "",
+    "en": "***The models in this unit are:***\n\n• ***Calthia Xandire** (champion, armed with Truthseeker Weapons)*\n• ***Dhoraz Giant-fell** (armed with a Great Hammer)*\n• ***Luxa Stormrider** (armed with Truthseeker Weapons and a Stormcaller Bow)*"
+   }
+  }
+ ]
+}

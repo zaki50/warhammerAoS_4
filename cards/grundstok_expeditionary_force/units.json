@@ -1,0 +1,2326 @@
+{
+ "meta": {
+  "slug": "grundstok_expeditionary_force",
+  "kind": "faction",
+  "faction_en": "Grundstok Expeditionary Force",
+  "faction_ja": null,
+  "faction_slug": "grundstok_expeditionary_force",
+  "alliance": "Order",
+  "title_en": "Grundstok Expeditionary Force",
+  "title_ja": null,
+  "data_version": 483
+ },
+ "units": [
+  {
+   "id": "bbc5d5bd-f3d1-4af7-ad07-ac3ce5e2d84b",
+   "name": {
+    "ja": "Aether-Khemist",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 100,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Atmospheric Anatomiser",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "8\"",
+      "3D6",
+      "4+",
+      "4+",
+      "2",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Heavy Instruments",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "4+",
+      "-",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Atmospheric Isolation",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Subtract 1 from charge rolls for enemy units within 9\" of this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Aetheric Augmentation",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Shooting Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly **Arkanaut Company** unit wholly within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s ranged weapons for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyfarer",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 **SKYVESSEL**",
+    "Any **INFANTRY**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Guild Officer*.",
+   "wargear": null
+  },
+  {
+   "id": "192cec08-120e-470d-a5ff-d2d9dcfc5ba0",
+   "name": {
+    "ja": "Aetheric Navigator",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 120,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Ranging Pistol",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "2",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Zephyrscope",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "4+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Aethersight",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit can use **UNBIND** abilities as if it had **WIZARD (1)**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Read the Winds",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly **SKYVESSEL** or **AUTO-ENDRIN** within this unit’s combat range and that is not in combat to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units. Then, if the target is a **SKYVESSEL**, you can remove this unit from the battlefield and set it up again on the battlefield wholly within 6\" of the target and more than 9\" from all enemy units."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyfarer",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 **SKYVESSEL**",
+    "Any **INFANTRY**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Guild Officer*.",
+   "wargear": null
+  },
+  {
+   "id": "3f3b6948-0a43-4498-be02-6549b9a736d4",
+   "name": {
+    "ja": "Arkanaut Admiral",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 130,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Masterwork Volley Pistol",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Skalfhammer",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "3+",
+      "1",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Bring Every Gun to Bear!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Shooting Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly **SKYVESSEL** wholly within 24\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the turn, add 1 to the Attacks characteristic of the target’s ranged weapons."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "The Admiral's Flagship",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Shooting Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly **FLAGSHIP** wholly within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the phase, each time the target uses a **SHOOT** ability, you can re-roll 1 of the hit rolls made for that ability."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyfarer",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Guild Officer*",
+    "Any **KHARADRON OVERLORDS**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "64956390-cbe0-441c-864e-409fdfe2edf7",
+   "name": {
+    "ja": "Auto-Endrin",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "-"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Nullifier Auto-Endrin",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "**Once Per Turn (Army), Any Combat Phase**"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit is a **Nullifier Auto-Endrin** and is in combat with any enemy **MANIFESTATIONS**, pick each enemy **MANIFESTATION** in combat with it to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a **banishment roll** of 3D6 for each target. If the banishment roll equals or exceeds the **banishment value** on the **MANIFESTATION**’s warscroll, it is banished and removed from play. Then, remove this unit from the battlefield."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Expendable Munitions",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "The following apply to this unit:\n\n•  This unit has a maximum control score of ‘-’.\n•  When this unit is destroyed or removed from the battlefield, it does not count as being destroyed for the purposes of other rules (such as scoring battle tactics).\n•  This unit cannot be picked to be the target of or be affected by any non-**CORE** abilities used by other friendly units unless the ability specifies **AUTO-ENDRIN**.\n•  Ignore this unit for the purposes of friendly and enemy battle tactics."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Grudgeblast Auto-Endrin",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit is a **Grudgeblast Auto-Endrin** and is in combat, pick each enemy unit in combat with it to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Then, remove this unit from the battlefield."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Stuncloud Auto-Endrin",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit is a **Stuncloud Auto-Endrin** and is in combat, pick each enemy unit in combat with it to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice for each target. If the roll is equal to or lower than that target’s Health characteristic, subtract 10 from the control score of that target for the rest of the turn. Then, remove this unit from the battlefield."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "War Machine",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Auto-Endrin",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "***This unit comprises 1 of the following: Nullifier Auto-Endrin, Stuncloud Auto-Endrin or Grudgeblast Auto-Endrin.***"
+   }
+  },
+  {
+   "id": "6535cd82-be00-4332-a502-f13d4bebaa8c",
+   "name": {
+    "ja": "Codewright",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 80,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Aethershot Pistol",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "2",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Battletome",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "4+",
+      "-",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Advisory Role",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick up to 3 visible friendly **SKYFARERS** units to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice for each target. On a 3+, pick 1 of the following effects to apply to that target for the rest of the turn:\n\n***Seek New Prospects:*** Add 5 to the target’s control score.\n\n***Don’t Argue with the Wind:*** Add 1 to run rolls and charge rolls for the target.\n\n***There’s No Trading With Some People:*** The target can use a **RETREAT** ability and still use **SHOOT** abilities later in the turn. In addition, no mortal damage is inflicted on the target by **RETREAT** abilities."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyfarer",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 **SKYVESSEL**",
+    "Any **INFANTRY**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Guild Officer*.",
+   "wargear": null
+  },
+  {
+   "id": "07cbe8f9-0a4e-478b-91f6-8db663d85250",
+   "name": {
+    "ja": "Endrinmaster with Dirigible Suit",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "8"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 140,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Dirigible Suit Weapon Battery",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "6",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    },
+    {
+     "ja": "Aethercannon",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "1",
+      "3+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Upgraded Aethermatic Saw",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "3+",
+      "2",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Combat Engineers",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick this unit and up to 1 friendly **Endrinriggers** unit wholly within 12\" of this unit to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the turn, combat attacks made by the targets against enemy units that charged this turn have **Crit (2 Hits)**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Mobile Repairs",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly **SKYVESSEL** or **Zontari Endrin Dock** within this unit’s combat range to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 2+, **Heal (3)** the target."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyfarer",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 **SKYVESSEL**",
+    "Any **INFANTRY**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Guild Officer*.",
+   "wargear": null
+  },
+  {
+   "id": "5e6bf0f4-94c9-4614-8b36-9107e9dec75f",
+   "name": {
+    "ja": "Endrinmaster with Endrinharness",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 150,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Aethermight Hammer",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "2+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "'Aye Aye, Captain!'",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly **SKYVESSEL** within this unit’s combat range to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the turn:\n\n•  The target can use a **RETREAT** or **RUN** ability and still use **SHOOT** abilities later in the turn.\n•  No mortal damage is inflicted on the target by **RETREAT** abilities."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Mobile Repairs",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly **SKYVESSEL** or **Zontari Endrin Dock** within this unit’s combat range to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 2+, **Heal (3)** the target."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyfarer",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 **SKYVESSEL**",
+    "Any **INFANTRY**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Guild Officer*.",
+   "wargear": null
+  },
+  {
+   "id": "f7649c54-6e2e-40e3-a7b0-24e730151406",
+   "name": {
+    "ja": "Grundstok Gunhauler",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "14\""
+    ],
+    [
+     "体力",
+     "Health",
+     "10"
+    ],
+    [
+     "防御力",
+     "Save",
+     "2+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 140,
+   "models": 1,
+   "base": "105 x 70mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Sky Ordnance",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "15\"",
+      "3",
+      "4+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Boarding Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Aethershot Overwatch",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Long-line Slings",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "When you use the ‘Transport Skyfarers’ ability for this unit, you can pick units in combat to be targets."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Transport Capacity",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit can transport 1 friendly **KHARADRON OVERLORDS INFANTRY** unit with a model count of up to 5 (see Battle Traits)."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Light Bomb Racks",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit that does not have **FLY** and that this unit passed across this phase to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll 4 dice. For each 4+, inflict 1 mortal damage on the target."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "War Machine",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyvessel",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "f9716be2-d268-49a0-ae1a-d5ccf5884111",
+   "name": {
+    "ja": "Grundstok Thunderers",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 130,
+   "models": 5,
+   "base": "32mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "Grundstok Mortar or Aethercannon",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "2",
+      "4+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Aethershot Rifle",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "2",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Aetheric Fumigator or Decksweeper",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "5",
+      "3+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Gun Butt",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "4+",
+      "5+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Specialist Grundstok Ammunition",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Shooting Phase, Reaction: You declared a SHOOT ability for this unit"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick **Shieldbreaker** ammunition or **Thunderdrakk** ammunition."
+      },
+      "effect": {
+       "ja": "",
+       "en": "If all of the attacks made for that **SHOOT** ability target the same enemy unit, after that **SHOOT** ability has been resolved, roll a dice and add the number of damage points allocated to the target by that **SHOOT** ability. If the roll is higher than the target’s Control characteristic, apply the following effect to the target based on the ammunition type picked:\n\n***Shieldbreaker:*** Ward rolls cannot be made for the target until the start of your next turn.\n\n***Thunderdrakk:*** That target has a maximum control score of 1 until the start of your next turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Standard Bearer (1/5)",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyfarer",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "• ***Each model in this unit is armed with an Aethershot Rifle and Gun Butt.***\n• ***2/5 models can replace their Aethershot Rifle with an Aetheric Fumigator or Decksweeper.***\n• ***2/5 models can replace their Aethershot Rifle with a Grundstok Mortar or Aethercannon.***\n• ***The champion cannot replace their Aethershot Rifle.***"
+   }
+  },
+  {
+   "id": "956a137c-970f-44c9-9b5c-331c64600627",
+   "name": {
+    "ja": "Scourge of Ghyran Codewright",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 100,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Aethershot Pistol",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "2",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Battletome",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "4+",
+      "-",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Alright, Listen Up",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit is wholly within 12\" of a friendly non-**HERO KHARADRON OVERLORDS** unit, pick a visible enemy unit within 18\" of this unit to be the target. Then, choose to spend either 3 or 6 **vexed points**."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick 1 of the following effects to apply to the target for the rest of the turn:\n\n• ***Do you see how fast they are going?!***: If you spent 3 **vexed points**, subtract D3 from the target’s Move characteristic. If you spent 6 **vexed points**, halve the target’s Move characteristic.\n• ***Those weapons are against regulation!***: If you spent 3 **vexed points**, subtract 1 from wound rolls for the target’s combat attacks. If you spent 6 **vexed points**, subtract 1 from the Rend characteristic of the target’s melee weapons and subtract 1 from wound rolls for the target’s combat attacks."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "I'm Watching You",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Give this unit D3 **vexed points**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyfarer",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 **SKYVESSEL**",
+    "Any **INFANTRY**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Guild Officer*.\nThis unit is legal for Matched Play for battles fought using the *General’s Handbook 2025-26* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "c508cc75-30e6-4e7d-8ccd-7955f3c2f13a",
+   "name": {
+    "ja": "Scourge of Ghyran Grundstok Gunhauler",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "14\""
+    ],
+    [
+     "体力",
+     "Health",
+     "10"
+    ],
+    [
+     "防御力",
+     "Save",
+     "2+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 170,
+   "models": 1,
+   "base": "105 x 70mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "Sky Ordnance",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "15\"",
+      "3",
+      "4+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Bombs and Boarding Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "4+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Fighter Vessel",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Shooting Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit used a **SHOOT** ability this phase, this unit can move D6\". It cannot end that move in combat."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Attack Squadron",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit is wholly within 12\" of any other friendly **Grundstok Gunhaulers**, it can use **SHOOT** abilities even if it used the ‘Run’ ability in the same turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Transport Capacity",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit cannot transport any friendly units."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "War Machine",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyvessel",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit is legal for Matched Play for battles fought using the *General’s Handbook 2025-26* battlepack.\nThis unit can be reinforced even though it has a minimum unit size of 1.",
+   "wargear": null
+  },
+  {
+   "id": "8cbe4460-a3ae-4285-9ca6-a748f35c4d08",
+   "name": {
+    "ja": "Zontari Endrin Dock",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "-"
+    ],
+    [
+     "体力",
+     "Health",
+     "10"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "-"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 20,
+   "models": 1,
+   "base": "80mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Endrinworks Outpost",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly **AUTO-ENDRIN** or replacement **AUTO‑ENDRIN** that has been removed from the battlefield to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a manufacturing roll of D6. Add 1 to the roll if there is a friendly **Endrinmaster with Dirigible Suit** or **Endrinmaster with Endrinharness** within 3\" of this terrain feature. On a 4+, set up a replacement **AUTO-ENDRIN** on the battlefield, wholly within 6\" of this terrain feature and more than 3\" from all enemy units."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Repair Routines",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly **SKYVESSEL** within 3\" of this terrain feature to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a repair roll of D6. Add 1 to the roll if there is a friendly **Endrinmaster with Dirigible Suit** or **Endrinmaster with Endrinharness** within 3\" of this terrain feature. On a 4+, **Heal (3)** the target."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Release The Auto-Endrins",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Deployment Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Set up a friendly **Nullifier Auto‑Endrin**, **Stuncloud Auto‑Endrin** and **Grudgeblast Auto‑Endrin** (see the Auto-Endrin warscroll) on the battlefield within friendly territory, wholly within 6\" of this terrain feature and more than 9\" from all enemy units."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [
+    {
+     "name": {
+      "ja": "Cover",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": ""
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This rule varies depending on the battlepack selected for your army:\n\n**General's Handbook 2024-25**\nSubtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword.\n\n**General's Handbook 2025-26**\nSubtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword.\n\n**General's Handbook 2026-27**\nSubtract 1 from hit rolls for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit charged this turn or has the **FLY** keyword."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Impassable",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": ""
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This rule varies depending on the battlepack selected for your army:\n\n**General's Handbook 2024-25**\nModels cannot move across, be set up on or end moves on any part of this terrain feature.\n\n**General's Handbook 2025-26**\nModels cannot move across, be set up on or end moves on any part of this terrain feature.\n\n**General's Handbook 2026-27**\nModels cannot move across, be set up on or end moves on any part of this terrain feature."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "keywords": [
+    [
+     "Faction Terrain",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  }
+ ]
+}

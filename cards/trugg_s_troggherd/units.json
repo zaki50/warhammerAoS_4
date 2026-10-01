@@ -1,0 +1,1113 @@
+{
+ "meta": {
+  "slug": "trugg_s_troggherd",
+  "kind": "faction",
+  "faction_en": "Trugg's Troggherd",
+  "faction_ja": null,
+  "faction_slug": "trugg_s_troggherd",
+  "alliance": "Destruction",
+  "title_en": "Trugg's Troggherd",
+  "title_ja": null,
+  "data_version": 483
+ },
+ "units": [
+  {
+   "id": "8ceb42a6-44fd-4c16-86f1-5f5eb7a25528",
+   "name": {
+    "ja": "Dankhold Troggboss",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 200,
+   "models": 1,
+   "base": "60mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Boulder Club",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "4+",
+      "2+",
+      "2",
+      "D6"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Greater Regeneration",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Start of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "**Heal (D6)** this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Magical Resistance",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Reaction: Opponent declared a SPELL ability"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Shepherd of Destruction",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 4+, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **TROGGOTH** units while they are wholly within 12\" of this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Gloomspite Gitz",
+     ""
+    ],
+    [
+     "Troggoth",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **TROGGOTH**"
+   ],
+   "notes_en": "This **HERO** can join **Trugg**’s regiment.",
+   "wargear": null
+  },
+  {
+   "id": "e5592983-cf34-45df-a386-943cf625ad51",
+   "name": {
+    "ja": "Dankhold Troggoth",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "10"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 140,
+   "models": 1,
+   "base": "60mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Colossal Boulder Club",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "2+",
+      "2",
+      "D3+3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Wade and Smash",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit can move 6\" but must end that move in combat. Then, roll a D3 for each enemy unit within 1\" of this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Regeneration",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Start of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "**Heal (D3)** this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Magical Resistance",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Reaction: Opponent declared a SPELL ability"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Gloomspite Gitz",
+     ""
+    ],
+    [
+     "Troggoth",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "6c1567f7-a431-4c2e-b60b-3dc3350a6926",
+   "name": {
+    "ja": "Fellwater Troggoths",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 160,
+   "models": 3,
+   "base": "50mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "Noxious Vomit",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6\"",
+      "D3",
+      "2+",
+      "3+",
+      "2",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Spiked Club",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Regeneration",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Start of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "**Heal (D3)** this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Noxious Vomit",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If any damage points are allocated to an enemy unit by attacks made with this unit’s **Noxious Vomit**, that unit is **drenched in vomit** until the start of your next turn.\n\nWhile a unit is **drenched in vomit**:\n• Subtract 1 from save rolls for that unit.\n• Ignore positive modifiers to save rolls for that unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Gloomspite Gitz",
+     ""
+    ],
+    [
+     "Troggoth",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "71331eb7-f410-400d-a7f1-02cc6e88b9e8",
+   "name": {
+    "ja": "Rockgut Troggoths",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "5+",
+   "additional": [],
+   "points": 170,
+   "models": 3,
+   "base": "50mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "Throwin’ Boulders",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "1",
+      "5+",
+      "2+",
+      "2",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Stone Maul or Craggy Hands",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "2+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Regeneration",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Start of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "**Heal (D3)** this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Ward (5+)",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Gloomspite Gitz",
+     ""
+    ],
+    [
+     "Troggoth",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "17f69e00-2087-4341-aba1-3a9f360f4aff",
+   "name": {
+    "ja": "Scourge of Aqshy: Fellwater Troggoths",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 160,
+   "models": 3,
+   "base": "50mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "Noxious Vomit",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6\"",
+      "D3",
+      "2+",
+      "3+",
+      "2",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Spiked Club",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Regeneration",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Start of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "**Heal (D3)** this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Gut-Wrenching Stench",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. You can spend up to 3 **rage dice**. If you do:\n\n• Add **X** to the roll, where **X** is the number of **rage dice** spent.\n\n• If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7.\n\nThen, on a 5+, the target has **STRIKE-LAST** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Gloomspite Gitz",
+     ""
+    ],
+    [
+     "Troggoth",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "1e5aab14-8309-4c5d-b423-63b5571b4b9a",
+   "name": {
+    "ja": "Trugg, the Troggoth King",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "16"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 340,
+   "models": 1,
+   "base": "100mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Ironshell Club",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "2+",
+      "3",
+      "4"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Mighty Antlers",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "2+",
+      "2",
+      "D3+3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 10 or more damage points, when it uses the 'Malfunctioning Leystone' ability, roll 1 dice instead of 3."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Crushing Grip",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit within 1\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. If the roll equals or exceeds the target’s Health characteristic, 1 model in the target unit is slain."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Malfunctioning Leystone",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll 3 dice. You must pick 1 of those dice and apply the effect that corresponds to its value. Effects 2-6 persist until the start of your next turn.\n\n***1 - Glyph of Shyish:*** Inflict D3 mortal damage on this unit.\n\n***2 -  Glyph of Ghur:*** Add 1 to the Attacks characteristic of melee weapons used by friendly **TROGGOTH** units while they are wholly within 12\" of this unit.\n\n***3 -  Glyph of Aqshy:*** Add 1 to the Rend characteristic of melee weapons used by friendly **TROGGOTH** units while they are wholly within 12\" of this unit.\n\n***4 - Glyph of Hysh:*** This unit can use **UNBIND** abilities as if it had **WIZARD (1)**.\n\n***5 - Glyph of Ulgu:*** Subtract 1 from hit rolls for shooting attacks that target friendly **TROGGOTH** units while they are wholly within 12\" of this unit.\n\n***6 - Glyph of Chamon:*** This unit has **WARD (5+)**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Greater Regeneration",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Start of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "**Heal (D6)** this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Warmaster",
+     ""
+    ],
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Gloomspite Gitz",
+     ""
+    ],
+    [
+     "Troggoth",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 **Dankhold Troggboss**",
+    "Any **GLOOMSPITE GITZ**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  }
+ ]
+}

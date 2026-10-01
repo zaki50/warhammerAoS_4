@@ -1,0 +1,497 @@
+{
+ "meta": {
+  "slug": "spearhead_bloodcrave_hunt",
+  "kind": "spearhead",
+  "faction_en": "Soulblight Gravelords",
+  "faction_ja": null,
+  "faction_slug": "soulblight_gravelords",
+  "alliance": null,
+  "title_en": "Bloodcrave Hunt",
+  "title_ja": null,
+  "data_version": 483
+ },
+ "units": [
+  {
+   "id": "b350ab4a-d6d7-46a0-be15-58ec7c61d3aa",
+   "name": {
+    "ja": "Blood Knights",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 5,
+   "base": "75 x 42mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Templar Lance or Templar Blade",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Charge (+1 Damage)"
+     ]
+    },
+    {
+     "ja": "Nightmare’s Hooves and Teeth",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "5+",
+      "3+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Riders of Ruin",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Models in this unit can pass across enemy **INFANTRY** models as if this unit had **FLY**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Cavalry",
+     ""
+    ],
+    [
+     "Vampire",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "4e019d5d-6e0b-4ac0-8230-b23dac956253",
+   "name": {
+    "ja": "Deathrattle Skeletons",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "1"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 10,
+   "base": "25mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Ancient Weapon",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Skeleton Legion",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "For each slain model from this unit, make a **legion roll** of D6. For each 6, return 1 slain model to this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "523da7b2-22bc-4183-a1f9-44321bf4a403",
+   "name": {
+    "ja": "Vampire Lord",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Dynastic War-relic",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Vile Transference",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible enemy unit within 6\" of this unit to be the target, then make a casting roll of 2D6."
+      },
+      "effect": {
+       "ja": "",
+       "en": "On a 6+, roll a number of dice equal to the target’s Health characteristic. For each 5+, inflict 1 mortal damage on the target and **Heal (1)** this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Wizard",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Vampire",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "13c07acd-6816-4dfc-ba28-5262a99947da",
+   "name": {
+    "ja": "Vargheists",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "4"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 3,
+   "base": "50mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Murderous Fangs and Talons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (2 Hits)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "The Scent of Gore",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to wound rolls for attacks made by this unit that target a damaged unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Vampire",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  }
+ ]
+}

@@ -1,0 +1,2602 @@
+{
+ "meta": {
+  "slug": "the_equinox_feast",
+  "kind": "faction",
+  "faction_en": "The Equinox Feast",
+  "faction_ja": null,
+  "faction_slug": "the_equinox_feast",
+  "alliance": "Death",
+  "title_en": "The Equinox Feast",
+  "title_ja": null,
+  "data_version": 483
+ },
+ "units": [
+  {
+   "id": "1af9ac8d-ca5f-4bfd-83af-768af774b845",
+   "name": {
+    "ja": "Abhorrant Archregent",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 120,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Gory Talons and Fangs",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Musicians, Play!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While you believe this **DELUSION**, subtract 1 from hit rolls for shooting attacks that target friendly **FLESH‑EATER COURTS** units while they are wholly within 12\" of a friendly **FLESH‑EATER COURTS HERO**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Delusion",
+     "cast": 6,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Countless Servants",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly **SERFS** or **KNIGHTS** unit wholly within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+:\n\n• If the target is a **SERFS** unit, you can return up to 3 slain models to that unit.\n• If the target is a **KNIGHTS** unit, you can return 1 slain model to that unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Death",
+     ""
+    ],
+    [
+     "Flesh-eater Courts",
+     ""
+    ],
+    [
+     "Abhorrant",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Royal Attendant*",
+    "Any **FLESH-EATER COURTS**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Royal Attendant*.",
+   "wargear": null
+  },
+  {
+   "id": "087a9bd7-52f2-48a6-9702-5796722c414c",
+   "name": {
+    "ja": "Abhorrant Cardinal",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 130,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Cursed Crosier",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "3+",
+      "-",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Banishing Liturgy",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While you believe this **DELUSION**:\n\n•  Add 2 to banishment rolls for friendly **FLESH‑EATER COURTS** units.\n•  Friendly **FLESH‑EATER COURTS** units have **WARD (4+)** against damage points inflicted by **SPELL** abilities, **PRAYER** abilities and abilities used by **MANIFESTATIONS**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Delusion",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Insular Contemplations",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit is more than 6\" from all enemy units, add 1 to chanting rolls for this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Priest (1)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Death",
+     ""
+    ],
+    [
+     "Flesh-eater Courts",
+     ""
+    ],
+    [
+     "Abhorrant",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Royal Attendant*",
+    "0-1 **KNIGHTS**",
+    "0-1 **BEAST**",
+    "Any **SERFS**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Royal Attendant*.",
+   "wargear": null
+  },
+  {
+   "id": "819fb0fe-7da6-40da-8399-d13b10c70c6d",
+   "name": {
+    "ja": "Abhorrant Ghoul King",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 100,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Bloodstained Talons and Fangs",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-HERO (+1 Rend)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Code of Honour",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While you believe this **DELUSION**, add 1 to the Damage characteristic of melee weapons used by friendly non-**UNIQUE FLESH‑EATER COURTS HEROES** for attacks that target an enemy **HERO**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Delusion",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Vassals, to Arms!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Reaction: You declared a FIGHT ability for this unit"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick a friendly **SERFS** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to wound rolls for the target’s attacks for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Death",
+     ""
+    ],
+    [
+     "Flesh-eater Courts",
+     ""
+    ],
+    [
+     "Abhorrant",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Royal Attendant*",
+    "Any **FLESH-EATER COURTS**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Royal Attendant*.",
+   "wargear": null
+  },
+  {
+   "id": "6a0c2b81-091f-469f-bb1e-b8b75f28e46e",
+   "name": {
+    "ja": "Abhorrant Gorewarden",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "7"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 140,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Gory Talons and Fangs",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Trespassers!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick this unit if it is **patrolling the borders**, then pick an enemy unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Set up this unit more than 6\" from the target and more than 9\" from all other enemy units. Then, set up the units that were **patrolling the borders** with this unit wholly within 12\" of this unit and more than 9\" from all enemy units."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Lord of the Marches",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Deployment Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick this unit and up to 2 friendly **FLESH‑EATER COURTS** units in this unit’s regiment that have not been deployed to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Set up the target units in reserve **patrolling the borders**. They have now been deployed."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Deploy",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Defenders of the Kingdom",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While you believe this **DELUSION** and this unit is on the battlefield, add 1 to charge rolls for friendly **FLESH‑EATER COURTS** units while they are wholly within 12\" of a friendly **FLESH‑EATER COURTS HERO**. Add 2 to charge rolls instead if they were also set up in the same turn.\n\nWhen using the ‘A Kingdom Deluded’ ability, you can pick this **DELUSION** even if this unit is **patrolling the borders**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Delusion",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Death",
+     ""
+    ],
+    [
+     "Flesh-eater Courts",
+     ""
+    ],
+    [
+     "Abhorrant",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Royal Attendant*",
+    "0-1 **BEAST**",
+    "0-1 **SERFS**",
+    "Any **KNIGHTS**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Royal Attendant*.",
+   "wargear": null
+  },
+  {
+   "id": "5ff15ac4-4688-438e-8a5b-55d55949db1c",
+   "name": {
+    "ja": "Charnel Throne",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "-"
+    ],
+    [
+     "体力",
+     "Health",
+     "10"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "-"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 10,
+   "models": 1,
+   "base": "Use model",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Duty Calls",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this terrain feature has a Steward that was not placed on it this turn, set up the Steward on the battlefield wholly within 6\" of this terrain feature and not in combat. That unit is no longer the Steward."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Ruler of All They Survey",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this terrain feature has a Steward, pick a visible friendly non-**HERO FLESH-EATER COURTS** unit that is not in combat to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "The target can move D3\". If the target was set up this turn, it can move D6\" instead. It cannot move into combat during that move."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Steward of the Realm",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this terrain feature has a Steward:\n\n• The Steward cannot use **MOVE** abilities.\n• Instead of measuring range or visibility to the Steward, measure to this terrain feature instead.\n• All attacks that would target the Steward target this terrain feature instead.\n• If this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the Steward. Then, set up the Steward on the battlefield within 3\" of this terrain feature and not in combat. That unit is no longer the Steward. If it is not possible to set up the Steward, it is slain."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Reigning Champion",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this terrain feature does not have a Steward, pick a friendly **FLESH‐EATER COURTS INFANTRY HERO** within 3\" of it and not in combat to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Place the target on this terrain feature. The target is now the Steward (see ‘Steward of the Realm’)."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [
+    {
+     "name": {
+      "ja": "Impassable",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": ""
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This rule varies depending on the battlepack selected for your army:\n\n**General's Handbook 2024-25**\nModels cannot move across, be set up on or end moves on any part of this terrain feature.\n\n**General's Handbook 2025-26**\nModels cannot move across, be set up on or end moves on any part of this terrain feature.\n\n**General's Handbook 2026-27**\nModels cannot move across, be set up on or end moves on any part of this terrain feature."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Cover",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": ""
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This rule varies depending on the battlepack selected for your army:\n\n**General's Handbook 2024-25**\nSubtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword.\n\n**General's Handbook 2025-26**\nSubtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword.\n\n**General's Handbook 2026-27**\nSubtract 1 from hit rolls for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit charged this turn or has the **FLY** keyword."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "keywords": [
+    [
+     "Faction Terrain",
+     ""
+    ],
+    [
+     "Death",
+     ""
+    ],
+    [
+     "Flesh-eater Courts",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**"
+   }
+  },
+  {
+   "id": "dc8b8acb-5116-4b54-a129-e6aab51b5c19",
+   "name": {
+    "ja": "Crypt Ghouls",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "1"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 140,
+   "models": 20,
+   "base": "25mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Sharpened Teeth and Filthy Claws",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Auto-wound)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Royal Approval",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to the Rend characteristic of this unit’s melee weapons while it is wholly within 12\" of any friendly **NOBLES** or **ABHORRANTS**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Death",
+     ""
+    ],
+    [
+     "Flesh-eater Courts",
+     ""
+    ],
+    [
+     "Serfs",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "242ee180-b0fa-400b-a902-9bdecaf2f2b1",
+   "name": {
+    "ja": "Cryptguard",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "1"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 120,
+   "models": 10,
+   "base": "25mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Cursed Weapon",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-charge (+1 Rend)",
+      "Crit (Auto-wound)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Royal Bodyguard",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While any friendly non-**MONSTER** **FLESH-EATER COURTS HEROES** are wholly within this unit’s combat range, both this unit and those **HEROES** have **WARD (5+)**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Elite Guardians",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit is in combat with any enemy units that charged this turn, roll a dice. On a 3+, for the rest of the turn, this unit has **STRIKE‑FIRST** but ward rolls cannot be made for it."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Musician (1/10)",
+     ""
+    ],
+    [
+     "Standard Bearer (1/10)",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Death",
+     ""
+    ],
+    [
+     "Flesh-eater Courts",
+     ""
+    ],
+    [
+     "Serfs",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "3603186e-48f6-4469-8429-861720f3ec30",
+   "name": {
+    "ja": "High Falconer Felgryn",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 120,
+   "models": 1,
+   "base": "32mm [1], 28.5mm [1]",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Carrion Flock",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "1",
+      "4+",
+      "4+",
+      "-",
+      "D6"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat",
+      "Companion"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Filthy Talons and Fangs",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Be Mine Eyes",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "This unit’s **Grype** is a token. If this unit’s **Grype** is not next to an enemy unit, pick an enemy unit within 18\" of this unit and not in combat to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Place this unit’s **Grype** next to the target. If the target is destroyed while this unit’s **Grype** is next to it, remove this unit’s **Grype** from the battlefield."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Sir Felgryn is Abroad!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While you believe this **DELUSION**, subtract 10 from the control scores of enemy units while they are in combat with any friendly **SERFS** units or any friendly non-**HERO FLESH‑EATER COURTS MONSTER** or **BEAST** units."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Delusion",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Winged Reconnoitrer",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit’s **Grype** is next to an enemy unit, ward rolls cannot be made for damage points inflicted on that enemy unit by combat attacks made by this unit and friendly **SERFS** units."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Death",
+     ""
+    ],
+    [
+     "Flesh‑eater Courts",
+     ""
+    ],
+    [
+     "Abhorrant",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 **MONSTER**",
+    "Any **BEAST**",
+    "Any **SERFS**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Royal Attendant*.",
+   "wargear": null
+  },
+  {
+   "id": "3f276093-3e0e-4590-a118-a7ed99428b7d",
+   "name": {
+    "ja": "Marrowscroll Herald",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 90,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Bone Scythe",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "4+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "The King's Entreaty",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Enemy Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible enemy unit within 6\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+, your opponent must decide whether the target will accept or reject the entreaty offered by this unit.\n\n***Accept:*** The target has the **INFECTED** keyword for the rest of the battle.\n***Reject:*** The target has **STRIKE-LAST** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Infected",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Reaction: Opponent declared a command, SPELL ability or PRAYER ability for an INFECTED unit"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 5+:\n\n•  If they declared a command, that command has no effect, it still counts as having been used and the command points spent to use the command are still lost.\n•  If they declared a **SPELL** or **PRAYER** ability, that spell or prayer fails.\n\nThis reaction can be used more than once per phase but only once per command, **SPELL** ability or **PRAYER** ability."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Death",
+     ""
+    ],
+    [
+     "Flesh-eater Courts",
+     ""
+    ],
+    [
+     "Noble",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 **BEAST**",
+    "Any **SERFS**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Royal Attendant*.",
+   "wargear": null
+  },
+  {
+   "id": "8a8565e7-6988-4e92-af56-87bdac702374",
+   "name": {
+    "ja": "Royal Beastflayers",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "1"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 120,
+   "models": 10,
+   "base": "40mm [2], 32mm [2], 28.5mm [3], 25mm [3]",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Beastflayer Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-BEAST (+1 Rend)",
+      "Anti-MONSTER (+1 Rend)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Hunter's Instincts",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Enemy **MONSTERS** cannot use **RAMPAGE** abilities while they are in combat with this unit.\nIn addition, subtract 1 from the Damage characteristic of melee weapons used by enemy **MONSTERS** and **BEAST** units while they are in combat with this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion (1/10)",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Death",
+     ""
+    ],
+    [
+     "Flesh-eater Courts",
+     ""
+    ],
+    [
+     "Serfs",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "0bb16c55-bccc-4de2-9917-620d6114bd8c",
+   "name": {
+    "ja": "Royal Decapitator",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 100,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Headsman’s Axe",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Off With Their Head!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Reaction: You declared a FIGHT ability for this unit"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Immediately after that **FIGHT** ability has been resolved, pick an enemy **INFANTRY HERO** in combat with this unit to be the target. Roll 2D6. If the roll exceeds the target’s Health characteristic, it is automatically destroyed."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Executioner's Entourage",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Reaction: You declared a FIGHT ability for this unit"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick a friendly **SERFS** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, the target’s melee weapons have **Crit (2 Hits)** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Death",
+     ""
+    ],
+    [
+     "Flesh-eater Courts",
+     ""
+    ],
+    [
+     "Noble",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 **BEAST**",
+    "Any **SERFS**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Royal Attendant*.",
+   "wargear": null
+  },
+  {
+   "id": "de18fd8d-f991-4444-83ba-fc397e5dc617",
+   "name": {
+    "ja": "Scourge of Aqshy: Royal Decapitator",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 100,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Headsman’s Axe",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Heads on Pikes",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), End of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If any damage points were allocated to an enemy **HERO** by this unit’s combat attacks this turn and that enemy **HERO** has been destroyed, pick an objective or terrain feature within 6\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Spend 1 **rage dice**. If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, for the rest of the turn, subtract 5 from the control scores of enemy units while they are contesting the target objective or terrain feature."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Executioner and Enforcer",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick another friendly **FLESH-EATER COURTS INFANTRY** unit within this unit’s combat range to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "1 model in the target unit is automatically slain. Then, until the start of your next turn, ignore the first damage point that would be allocated to each visible friendly **FLESH-EATER COURTS** unit in each phase while it is wholly within 12\" of this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Death",
+     ""
+    ],
+    [
+     "Flesh-eater Courts",
+     ""
+    ],
+    [
+     "Noble",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 **BEAST**",
+    "Any **SERFS**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Royal Attendant*.\n\nThis unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "13031ecd-a3b6-403c-8f4f-b72b82928261",
+   "name": {
+    "ja": "Scourge of Ghyran Abhorrant Gorewarden",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "7"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 130,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Gory Talons and Fangs",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Swooping Descent",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), End of Enemy Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Remove this unit from the battlefield, then set it up again more than 9\" from all enemy units and either:\n• Wholly within 6\" of the edge of the battlefield, or\n• Within 3\" of an objective you do not control."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Glorious Charge",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit is within the combat range of a friendly Knights unit and has charged this turn, this unit has **WARD (5+)** and its **Gory Talons and Fangs** have **Charge (+1 Damage)**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Death",
+     ""
+    ],
+    [
+     "Flesh-eater Courts",
+     ""
+    ],
+    [
+     "Abhorrant",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Royal Attendant*",
+    "0-1 **BEAST**",
+    "0-1 **SERFS**",
+    "Any **KNIGHTS**"
+   ],
+   "notes_en": "This unit is legal for Matched Play for battles fought using the *General’s Handbook 2025-26* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "e57557be-8ea4-441f-b18e-1938ac204db4",
+   "name": {
+    "ja": "The Grymwatch",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "1"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 80,
+   "models": 7,
+   "base": "32mm [2], 25mm [5]",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Knightly Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Auto-wound)",
+      "Anti-MONSTER (+1 Rend)"
+     ]
+    },
+    {
+     "ja": "Great Halberd",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Auto-wound)",
+      "Anti-MONSTER (+1 Rend)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Quest to Slay the Monster",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the turn, while this unit is in combat with any enemy **MONSTER** or **BEAST** units, it has **STRIKE-FIRST**. However, for the rest of the turn, while it is in combat with any enemy **MONSTER** or **BEAST** units, all of this unit’s combat attacks must target an enemy **MONSTER** or **BEAST** unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Death",
+     ""
+    ],
+    [
+     "Flesh-eater Courts",
+     ""
+    ],
+    [
+     "Serfs",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit cannot be reinforced.",
+   "wargear": {
+    "ja": "",
+    "en": "***The models in this unit are:***\n\n• ***Duke Crakmarrow** (champion, armed with a Great Halberd)*\n• ***Gristlewel** (armed with Knightly Weapons)*\n• ***Valreek the Tracker** (armed with Knightly Weapons)*\n• ***The Royal Butcher** (armed with Knightly Weapons)*\n• ***Master Talon** (armed with Knightly Weapons)*\n• ***The Night’s Herald** (armed with Knightly Weapons)*\n• ***The Duke’s Harriers** (armed with Knightly Weapons)*"
+   }
+  },
+  {
+   "id": "6bc6f1e0-191a-4a8c-8a51-5211dff1af11",
+   "name": {
+    "ja": "The Skinnerkin",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 80,
+   "models": 5,
+   "base": "32mm [1], 25mm [4]",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Butchering Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Auto-wound)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Prime Cuts",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Each time a combat attack made by this unit scores a critical hit, give 1 **prime cut point** to this unit, to a maximum of 6."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Dinner is Served",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "End of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly **FLESH-EATER COURTS HERO** wholly within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "**Heal (X)** the target, where **X** is the number of **prime cut points** this unit has. Then, reset this unit’s **prime cut points** to 0."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Death",
+     ""
+    ],
+    [
+     "Flesh-eater Courts",
+     ""
+    ],
+    [
+     "Serfs",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit cannot be reinforced.",
+   "wargear": {
+    "ja": "",
+    "en": "***Each model in this unit is armed with Butchering Weapons. The models in this unit are:***\n\n• ***Gristla Tenderhooke** (champion)*\n• ***The Carnskyr***\n• ***Seddrik the Chain***\n• ***Young Master Kretch***\n• ***Flensemaster Pewdrig***"
+   }
+  }
+ ]
+}

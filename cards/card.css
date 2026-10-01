@@ -1,0 +1,188 @@
+@page { size: A4 portrait; margin: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #fff; }
+body {
+  font-family: "Noto Sans CJK JP", "Noto Sans JP", sans-serif;
+  color: #10200a; -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+
+.sheet { width:210mm; height:297mm; page-break-after:always; display:flex;
+  flex-direction:column; overflow:hidden; background:#fff; }
+.sheet:last-child { page-break-after:auto; }
+
+.card { width:210mm; height:148.5mm; padding:4.5mm 5.5mm 3.5mm; display:flex;
+  flex-direction:column; overflow:hidden; position:relative; background:#fff; }
+.card:first-child::after { content:""; position:absolute; left:0; right:0; bottom:0;
+  border-bottom:.3mm dashed #b9c9ab; }
+
+/* ---------- ユニット画像（表面の背景） ----------
+   cards/bannerImages/wm/<datasheet id>.jpg を表面の背景に敷く。ヘッダも武器表も
+   パネルも不透明なので、実際に見えるのはユニット名より下の余白。
+   薄さ (透かし) と上端のフェードは画像そのものに焼き込んである
+   (cards/watermarks.js)。CSS で opacity / mask を使うと PDF に透明度が残り、
+   ビューアによっては背景が表示されないため。 */
+.card.front > .bg { position:absolute; inset:0; z-index:0;
+  background-size:100% auto; background-position:center bottom; background-repeat:no-repeat; }
+.card.front > .head, .card.front > .stats, .card.front > .body,
+.card.front > .foot { position:relative; z-index:1; }
+/* 文字の載る塊には白を敷いて、画像が透けすぎないようにする */
+.card.front .wt, .card.front .wrules, .card.front .foot { background:rgba(255,255,255,.5); }
+.card.front .wrules { padding:.3em .5em; border-radius:.8mm; }
+
+/* ---------- header ---------- */
+.head { background:linear-gradient(100deg,var(--dk) 0%,var(--dk2) 48%,var(--mid) 100%);
+  color:#fff; padding:1.5mm 4mm 1.6mm; position:relative; overflow:hidden;
+  clip-path:polygon(0 0,100% 0,100% 100%,2.5mm 100%); border-left:1.6mm solid var(--lt); }
+.head::before { content:""; position:absolute; inset:0;
+  background:repeating-linear-gradient(115deg,rgba(255,255,255,.055) 0 2mm,rgba(255,255,255,0) 2mm 6mm); }
+.hname { font-size:6mm; font-weight:900; line-height:1.12; position:relative;
+  text-shadow:0 .4mm .6mm rgba(0,0,0,.45); }
+.hname .en { font-size:2.7mm; font-weight:600; opacity:.75; margin-left:2.4mm; letter-spacing:.04em; }
+.hsub { font-size:2.7mm; opacity:.93; margin-top:.5mm; position:relative; }
+.back .hname { font-size:5mm; }
+.hcorner { position:absolute; top:1.2mm; right:3mm; font-size:2.2mm; font-weight:600; opacity:.8;
+  letter-spacing:.04em; }   /* 裏面右上: 生成に使った dump.json の data_version */
+/* レジェンド (公式トーナメントでは使えないデータシート)。名前欄の右端に出す */
+.hlgd { position:absolute; right:3mm; bottom:1.6mm; font-size:3mm; font-weight:900; color:#f4e3b4;
+  border:.4mm solid rgba(244,227,180,.75); border-radius:1mm; padding:.3mm 1.8mm; line-height:1.15;
+  letter-spacing:.06em; text-align:center; background:rgba(0,0,0,.22); }
+.hlgd i { display:block; font-style:normal; font-size:1.9mm; font-weight:600; opacity:.8;
+  letter-spacing:.04em; }
+.back .hlgd { bottom:1.2mm; }
+
+/* ---------- stats ---------- */
+.stats { display:flex; align-items:flex-start; gap:3mm; padding:1.8mm 1mm 1.8mm 2mm; flex-wrap:wrap; }
+.sl { font-size:2.1mm; font-weight:700; color:var(--dk2); letter-spacing:.04em; }
+.sl i { font-style:normal; font-size:1.75mm; color:var(--en); margin-left:.5mm; }
+.sv { width:10.5mm; height:7.6mm; margin-top:.4mm; display:flex; align-items:center;
+  justify-content:center; font-size:4.5mm; font-weight:900; color:var(--dk);
+  background:#fff; border:.55mm solid var(--dk2); border-radius:1.2mm;
+  box-shadow:inset 0 -1.4mm 0 rgba(46,97,32,.13); }
+.stats-multi { gap:4mm; padding:1.2mm 1mm 1.2mm 2mm; flex-wrap:nowrap; }
+.stats-multi .stt + .stt { border-left:.3mm solid var(--line); padding-left:3mm; }
+.stt { border-collapse:separate; border-spacing:1.2mm .6mm; margin:-.6mm 0 -.6mm -1.2mm; }
+.stt th { padding:0; text-align:center; vertical-align:bottom; }
+.stt td { padding:0; }
+.stt .sname { font-size:2.3mm; font-weight:700; color:var(--dk2); max-width:50mm; line-height:1.1;
+  padding-right:1.5mm; }
+.stt .sv { width:9mm; height:6mm; margin-top:0; font-size:3.8mm; border-width:.45mm; border-radius:1mm;
+  box-shadow:inset 0 -1mm 0 rgba(46,97,32,.13); }
+.stt .sl { display:inline-block; line-height:1; }
+.inv { display:flex; align-items:center; gap:1.2mm; margin-left:auto; padding:0 1mm;
+  border-left:.4mm solid var(--line); }
+.inv span { font-size:2.1mm; font-weight:700; color:var(--dk2); line-height:1.15; text-align:right; }
+.inv span i { display:block; font-style:normal; font-size:1.8mm; color:var(--en); }
+.inv b { font-size:5mm; font-weight:900; color:#fff; background:var(--mid);
+  border-radius:1.2mm; padding:.5mm 1.8mm; }
+.inv .invnote { font-style:normal; font-size:2mm; line-height:1.15; color:var(--dk2); max-width:30mm; }
+
+/* ---------- body ---------- */
+.body { flex:1; display:flex; gap:2.6mm; min-height:0; }
+.colL { flex:1 1 0; min-width:0; overflow:hidden; }
+.colR { flex:0 0 66mm; overflow:hidden; }
+.body2 { flex-direction:column; gap:0; }
+.cols { display:flex; gap:2.6mm; flex:0 1 auto; min-height:0; overflow:hidden; }
+.cols .colL { flex:1 1 0; }
+.cols .colR { flex:0 0 72mm; }
+
+/* ---------- 本文（段の font-size を JS が縮めるので中は em 指定） ---------- */
+.colL, .colR, .cols { font-size: 2.5mm; }
+
+/* ---------- weapon tables ---------- */
+.wt { width:100%; border-collapse:collapse; margin-bottom:.72em; table-layout:fixed; }
+.wt th, .wt td { padding:.3em .32em; font-size:1.02em; line-height:1.2; }
+.wt thead th { background:var(--dk2); color:#fff; font-weight:800; font-size:.96em;
+  text-align:center; white-space:nowrap; border-right:.2mm solid rgba(255,255,255,.2); }
+.wt thead th i { font-style:normal; font-weight:600; font-size:.74em; opacity:.72; margin-left:.25em; }
+.wt thead th.wh { text-align:left; font-size:1.2em; }
+.wt thead th.wh i { font-size:.7em; }
+.wt thead th:last-child { border-right:none; }
+.wi { display:inline-block; color:var(--lt); margin-right:.45em; font-size:1.12em; }
+.wt td { text-align:center; font-weight:700; border-bottom:.2mm solid var(--line); }
+.wt td.wn { text-align:left; font-weight:600; }
+.wt td.wn .en-n { display:inline; font-size:.82em; color:var(--en); font-weight:400; margin-left:.45em; }
+.wt td.wn .wa { font-size:.82em; font-weight:700; color:var(--mid); margin-left:.3em; }
+.wt td.wn .en-n .wa { font-weight:400; color:var(--en); font-size:1em; }
+.wt tbody tr:nth-child(even) td { background:var(--row); }
+.wt tr.wg td.wn { background:var(--panel); border-bottom:none; padding-bottom:.1em; }
+.wrules { margin:-.3em 0 .72em; padding:0 .32em; font-size:.92em; }
+.wrules .abgrp { margin-bottom:.25em; }
+.wt tr.wsel td { text-align:left; font-size:.8em; font-weight:400; color:var(--dk2); padding:.1em .32em .3em 1.3em; }
+.wt tr.wsel td .sel { font-weight:400; }
+.wt td.wn .prof { display:inline-block; width:1em; color:var(--mid); font-weight:400; }
+.wt thead th:nth-child(1), .wt td:nth-child(1) { width:auto; }
+.wt thead th:nth-child(2), .wt td:nth-child(2) { width:10mm; }
+.wt thead th:nth-child(n+3), .wt td:nth-child(n+3) { width:8mm; }
+
+/* ---------- panels ---------- */
+.panel { border:.3mm solid var(--line); margin-bottom:.72em; background:var(--panel);
+  border-radius:.8mm; overflow:hidden; }
+.ph { background:var(--dk2); color:#fff; font-weight:800; font-size:1.2em; padding:.3em .68em; }
+.ph i { font-style:normal; font-weight:600; font-size:.7em; opacity:.72; margin-left:.6em; }
+.pc { padding:.5em .8em .58em; }
+.pc p { font-size:1em; line-height:1.36; margin-bottom:.28em; text-align:justify; }
+.pc b { color:var(--dk); font-weight:800; }
+.abgrp { margin-bottom:.48em; }
+.pc.two { column-count:2; column-gap:1.4em; column-rule:.2mm solid var(--line); }
+.pc.two .abgrp { break-inside:avoid; }
+.abgrp:last-child { margin-bottom:0; }
+.en-b { font-size:.88em !important; color:var(--en); line-height:1.3 !important;
+  margin-bottom:.18em !important; }
+.en-n { font-size:.84em; color:var(--en); font-weight:400; }
+ul.sub, ul.bul { margin:.08em 0 .24em 1.3em; }
+ul.sub li, ul.bul li { font-size:.98em; line-height:1.32; margin-bottom:.14em; }
+ul.sub li .en-b { display:block; }
+p.gear { font-size:.98em; color:#28351f; }
+p.tag { font-size:1.06em; }
+p.contd { font-size:.92em; font-weight:700; color:var(--mid); text-align:right; margin-top:.3em; }
+
+/* corrections + translator notes */
+s { color:#9a5b3c; text-decoration:line-through; text-decoration-thickness:.25mm; }
+ins { color:#8a3b12; font-weight:800; text-decoration:none;
+  background:rgba(255,214,150,.55); padding:0 .12em; border-radius:.4mm; }
+.own { font-size:.86em; font-weight:800; color:#fff; background:#c2701b;
+  border:.25mm solid #8a4c0d; border-radius:.6mm; padding:.06em .44em; margin-right:.45em;
+  letter-spacing:.06em; vertical-align:.12em; white-space:nowrap;
+  box-shadow:0 .2mm .3mm rgba(0,0,0,.25); }
+p.note { font-size:.86em !important; color:#8a3b12; line-height:1.3 !important;
+  border-left:.6mm solid #d9a05b; padding-left:.55em; margin:.2em 0 .24em; }
+p.note b { color:#8a3b12; }
+
+/* ---------- memo ---------- */
+.memo { flex:1 1 auto; min-height:0; margin-top:2mm; border:.3mm dashed #b3c4a2;
+  border-radius:.8mm; padding:1.2mm 2.5mm 1.8mm; display:flex; flex-direction:column; overflow:hidden; }
+.memoh { font-size:2.4mm; font-weight:800; color:#7d9268; letter-spacing:.1em; }
+.memol { flex:1 1 0; min-height:0; border-bottom:.2mm dotted #cdd9c0; }
+.memol:last-child { border-bottom:none; }
+
+/* ---------- footer ---------- */
+.foot { display:flex; align-items:center; gap:2mm; border-top:.5mm solid var(--dk2);
+  padding-top:1mm; margin-top:1mm; }
+.kw { flex:1; font-size:2.45mm; line-height:1.28; }
+.fkw { width:46mm; font-size:2.45mm; line-height:1.28; }
+.fkw span { font-weight:800; font-size:2.9mm; }
+.foot b { font-weight:800; color:var(--dk); }
+.badge { width:10.5mm; height:10.5mm; flex:0 0 10.5mm; }
+.badge svg { width:100%; height:100%; }
+
+/* ---------- AoS 用の追加 ---------- */
+/* 能力値: 移動力・体力・防御力・確保力 (と追加特性) を横に並べる */
+.stats .st { display:flex; flex-direction:column; align-items:center; }
+.stats .st .sl { white-space:nowrap; }
+/* 見出しのタグ (レジェンド・スピアヘッド) を右下に並べる */
+.htags { position:absolute; right:3mm; bottom:1.6mm; display:flex; gap:1.2mm; }
+.htags .hlgd { position:static; }
+.back .htags { bottom:1.2mm; }
+/* アビリティ: 名前の後ろのタイミング (書籍のフェイズ帯に当たる) とキーワード */
+.tmg { display:inline-block; font-size:.82em; font-weight:700; color:#fff; background:var(--mid);
+  border-radius:.6mm; padding:.04em .5em; margin-left:.3em; vertical-align:.08em; }
+.tmg:empty { display:none; }
+.akw { font-size:.84em; font-weight:700; color:var(--mid); margin-left:.3em; }
+.lbl { font-weight:800; color:var(--dk2); }
+.none { font-size:1em; color:var(--en); padding:.5em; }
+.pc p.abh { text-align:left; }
+/* 武器表の見出し: AoS の用語 (回数・ヒット・ウーンズ・貫通・ダメージ) は長いので、英語を下の行に出して列幅を確保する */
+.wt thead th:not(.wh) { font-size:.78em; white-space:normal; line-height:1.05; padding:.25em .1em; }
+.wt thead th:not(.wh) i { display:block; margin-left:0; font-size:.8em; }
+.wt thead th:nth-child(2), .wt td:nth-child(2) { width:9mm; }
+.wt thead th:nth-child(n+3), .wt td:nth-child(n+3) { width:9mm; }

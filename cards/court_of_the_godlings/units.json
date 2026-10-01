@@ -1,0 +1,3024 @@
+{
+ "meta": {
+  "slug": "court_of_the_godlings",
+  "kind": "faction",
+  "faction_en": "Court of the Godlings",
+  "faction_ja": null,
+  "faction_slug": "court_of_the_godlings",
+  "alliance": "Chaos",
+  "title_en": "Court of the Godlings",
+  "title_ja": null,
+  "data_version": 483
+ },
+ "units": [
+  {
+   "id": "8f2774bf-3948-485c-aab0-c5b6c2db2b75",
+   "name": {
+    "ja": "Bladebringer, Herald on Exalted Chariot",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 130,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Steeds’ Poisoned Tongues",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "8",
+      "3+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    },
+    {
+     "ja": "Flensing Whips and Piercing Claws",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Mutilating Blades",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Soulgorgers",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick up to 3 visible friendly non‑**UNIQUE HEDONITES OF SLAANESH WAR MACHINES** wholly within 12\" of this unit to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn. This ability also affects **Companion** weapons."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "War Machine",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Hedonites of Slaanesh",
+     ""
+    ],
+    [
+     "Daemon",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Slaaneshi Beguiler*",
+    "Any **WAR MACHINE**"
+   ],
+   "notes_en": "This unit will move to Warhammer Legends on 1 June 2027.",
+   "wargear": null
+  },
+  {
+   "id": "50177fdc-4741-4e65-ac0b-00acfc876585",
+   "name": {
+    "ja": "Bladebringer, Herald on Hellflayer",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "8"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 140,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Steeds’ Poisoned Tongues",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    },
+    {
+     "ja": "Axle Blades",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "2+",
+      "2",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)",
+      "Companion"
+     ]
+    },
+    {
+     "ja": "Flensing Whips and Piercing Claws",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "8",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Slavering For Sensation",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick up to 2 friendly **Hellflayer** units wholly within 12\" of this unit to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 2\" to the Move characteristic of this unit and each target for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Soulscent",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick up to 3 enemy units that this unit passed across this phase to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any models are slain by this ability, this unit has **WARD (5+)** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Threshing Doom",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "When this unit moves, it can pass through models in enemy **INFANTRY** units and can pass through the combat ranges of enemy **INFANTRY** units, but it cannot end a move in combat unless specified in the ability used."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "War Machine",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Hedonites of Slaanesh",
+     ""
+    ],
+    [
+     "Daemon",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Slaaneshi Beguiler*",
+    "Any **WAR MACHINE**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "c7de1d6e-0055-4ae5-b7cb-d47ce2cc520e",
+   "name": {
+    "ja": "Bladebringer, Herald on Seeker Chariot",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "8"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 130,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Flensing Whips and Piercing Claws",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Steeds’ Poisoned Tongues",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Mutilating Blades",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Thrillseeking Cavalcade",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick up to 3 friendly **Seeker Chariot** units wholly within 12\" of this unit to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to charge rolls for this unit and the targets for the rest of the turn. In addition, for the rest of the turn, when this unit and the targets use the ‘Mutilating Blades’ ability, add 1 to the amount of mortal damage inflicted (if any)."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "War Machine",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Hedonites of Slaanesh",
+     ""
+    ],
+    [
+     "Daemon",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Slaaneshi Beguiler*",
+    "Any **WAR MACHINE**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "3da7996e-f5c7-4b74-b8b3-291d0ebfd11d",
+   "name": {
+    "ja": "Contorted Epitome",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "9\""
+    ],
+    [
+     "体力",
+     "Health",
+     "7"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "4+",
+   "additional": [],
+   "points": 150,
+   "models": 1,
+   "base": "75 x 42mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Piercing Claws and Coiled Tentacles",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "7",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "The Mirror's Depths",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Enemy Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible enemy unit within 18\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "If the target is within 6\" of this unit, the target is **gazing into eternity** until the start of your next turn. Otherwise, roll a dice. On a 3+, the target is **gazing into eternity** until the start of your next turn.&#x20;\n\nWhile the target is **gazing into eternity**, it must end all moves no further from this unit than it was at the start of the move and it cannot be removed from the battlefield by an ability that would allow it to be set up again on the battlefield.&#x20;\n\n**Designer’s Note:** *This includes pile-in moves.*"
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Swallow Energy",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), End of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible **MANIFESTATION** within 12\" of this unit and that was not summoned this turn to be the target, then make a banishment roll of 2D6."
+      },
+      "effect": {
+       "ja": "",
+       "en": "If the banishment roll equals or exceeds the banishment value on the target’s warscroll, it is banished and removed from play.&#x20;\n\nThe next time a visible friendly unit wholly within 12\" of this unit uses a **SUMMON** ability, roll an additional D6, to a maximum of 3, when making the casting roll for that ability."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Banish",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Ward (4+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Hedonites of Slaanesh",
+     ""
+    ],
+    [
+     "Daemon",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Slaaneshi Beguiler*",
+    "Any **DAEMON**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Slaaneshi Beguiler*.",
+   "wargear": null
+  },
+  {
+   "id": "d3f93b24-23b7-4a07-8649-61bb4c4b508e",
+   "name": {
+    "ja": "Daemonettes",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "1"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 100,
+   "models": 10,
+   "base": "25mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Piercing Claws",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Lithe and Swift",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit charged this turn, it can move D3+3\". It can pass through enemy models and the combat ranges of enemy units but must end that move within ½\" of a visible enemy unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Musician (1/10)",
+     ""
+    ],
+    [
+     "Standard Bearer (1/10)",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Hedonites of Slaanesh",
+     ""
+    ],
+    [
+     "Daemon",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "ce0c4210-8817-4d94-bcd9-fd7e42286261",
+   "name": {
+    "ja": "Dexcessa, the Talon of Slaanesh",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "10"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": "5+",
+   "additional": [],
+   "points": 260,
+   "models": 1,
+   "base": "105 x 70mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Impaling Talons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "8",
+      "3+",
+      "3+",
+      "2",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Charge (+1 Damage)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Joyous Battle Fury",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "End of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If any enemy models were slain by this unit’s combat attacks this turn, **Heal (D3)** this unit and add 1 to the Attacks characteristic of this unit’s **Impaling Talons** for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Fleeting Dance of Death",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit can use **CHARGE** abilities even if it is in combat."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "You! Amuse Us!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Reaction: You declared a FIGHT ability for this unit"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick a friendly **PARAGON** that has not used a **FIGHT** ability this turn and is within this unit’s combat range and visible to this unit to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Redolence of Violence",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), End of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll 2D6. If this unit charged this turn, add 2 to the roll. If the roll exceeds the target’s Health characteristic, 1 model in the target is automatically slain. If the target is a **MANIFESTATION** and the roll exceeds its banishment value, it is banished and removed from play."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Ward (5+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Hedonites of Slaanesh",
+     ""
+    ],
+    [
+     "Daemon",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 **HEDONITES OF SLAANESH** **Synessa** or *Slaaneshi Beguiler*",
+    "Any **HEDONITES OF SLAANESH**"
+   ],
+   "notes_en": "This **HERO** can join **Synessa**’s regiment.",
+   "wargear": null
+  },
+  {
+   "id": "ec51f039-f179-4603-875d-8366adbd1a5b",
+   "name": {
+    "ja": "Fane of Slaanesh",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "-"
+    ],
+    [
+     "体力",
+     "Health",
+     "10"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "-"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "Use Model",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Damned Conduit",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible enemy unit within 18\" of this terrain feature to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+, until the start of your next turn, while the target is within **X\"** of this terrain feature, the target’s weapons have the **Companion** weapon ability, where **X** is determined by the current battle round as follows:\n\n**Battle Round - X**\n1 - 9\"\n2 - 12\"\n3 - 15\"\n4 - 18\"\n5 - 21\""
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [
+    {
+     "name": {
+      "ja": "Impassable",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": ""
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This rule varies depending on the battlepack selected for your army:\n\n**General's Handbook 2024-25**\nModels cannot move across, be set up on or end moves on any part of this terrain feature.\n\n**General's Handbook 2025-26**\nModels cannot move across, be set up on or end moves on any part of this terrain feature.\n\n**General's Handbook 2026-27**\nModels cannot move across, be set up on or end moves on any part of this terrain feature."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Cover",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": ""
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This rule varies depending on the battlepack selected for your army:\n\n**General's Handbook 2024-25**\nSubtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword.\n\n**General's Handbook 2025-26**\nSubtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword.\n\n**General's Handbook 2026-27**\nSubtract 1 from hit rolls for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit charged this turn or has the **FLY** keyword."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "keywords": [
+    [
+     "Faction Terrain",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Hedonites of Slaanesh",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**"
+   }
+  },
+  {
+   "id": "8bd67d97-8378-4901-83e5-df1400c64b73",
+   "name": {
+    "ja": "Fiends",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "4"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 150,
+   "models": 3,
+   "base": "75 x 42mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Pincers and Tail Stinger",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-WIZARD (+1 Rend)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Arcane Disruption",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Subtract 1 from casting rolls and unbinding rolls for enemy **WIZARDS** while they are within 12\" of this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Beast",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit has a maximum control score of 1."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Disharmonious Song",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), End of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick each visible enemy unit within 6\" of this unit that did not use a **CHARGE** or **FIGHT** ability this turn to be a target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a D3 for each target. You can re-roll the dice if the target is a **WIZARD** or **PRIEST**. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Beast",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Hedonites of Slaanesh",
+     ""
+    ],
+    [
+     "Daemon",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "f82fe231-56bf-4359-a2ac-b4a8a96b7577",
+   "name": {
+    "ja": "Hellflayer",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "7"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 130,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Flensing Whips and Piercing Claws",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Steeds’ Poisoned Tongues",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    },
+    {
+     "ja": "Axle Blades",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "2+",
+      "2",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)",
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Threshing Doom",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "When this unit moves, it can pass through models in enemy **INFANTRY** units and can pass through the combat ranges of enemy **INFANTRY** units, but it cannot end a move in combat unless specified in the ability used."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Soulscent",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick up to 3 enemy units that this unit passed across this phase to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any models are slain by this ability, this unit has **WARD (5+)** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "War Machine",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Hedonites of Slaanesh",
+     ""
+    ],
+    [
+     "Daemon",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit will move to Warhammer Legends on 1 June 2027.",
+   "wargear": null
+  },
+  {
+   "id": "8165beac-086a-4d74-9ffc-1950de76ae98",
+   "name": {
+    "ja": "Infernal Enrapturess, Herald of Slaanesh",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 100,
+   "models": 1,
+   "base": "60 x 35mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Piercing Claw",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Spell-Shredding Symphony",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit can use **UNBIND** and **BANISH** abilities as if it had **WIZARD (1)**. In addition, each time this unit successfully unbinds a spell, inflict D3 mortal damage on the caster and each time this unit successfully banishes a **MANIFESTATION**, inflict D3 mortal damage on the unit that summoned that **MANIFESTATION**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Maestros of Discordance",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible enemy unit within 18\" of this unit to be the enemy target. Then, you can pick another visible friendly **HEDONITES OF SLAANESH DAEMON** unit wholly within 12\" of this unit to be the friendly target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a number of dice equal to the number of models in the enemy target unit. For each 6, inflict 1 mortal damage on the enemy target.\n\nThen, you can pick 1 of the following effects:\n• **Heal (X)** the friendly target, where **X** is the number of enemy models slain by this ability this phase.\n• Return a number of slain models to the friendly target unit with a total Health characteristic equal to or less than the number of enemy models slain by this ability this phase."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Hedonites of Slaanesh",
+     ""
+    ],
+    [
+     "Daemon",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **DAEMON**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Slaaneshi Beguiler*.",
+   "wargear": null
+  },
+  {
+   "id": "4a1fdbe8-6cff-4e17-8d4b-a53249a68dec",
+   "name": {
+    "ja": "Keeper of Secrets",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "16"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": "5+",
+   "additional": [],
+   "points": 410,
+   "models": 1,
+   "base": "100mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Elegant Greatblade（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "2+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Impaling Claws",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "3+",
+      "2",
+      "4"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 10 or more damage points, the Attacks characteristic of its **Elegant Greatblade** is 3."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Supernatural Grace",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit can use **CHARGE** abilities even if it used a **RETREAT** ability in the same turn. In addition, no mortal damage is inflicted on this unit by **RETREAT** abilities."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Locus of Slaanesh",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly non-**HERO HEDONITES OF SLAANESH DAEMON** unit that started the battle with 3 or more models and has been destroyed to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": 1,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Cacophonic Choir",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick any number of visible enemy units within 12\" of this unit to be the targets, then make a casting roll of 2D6. Subtract 1 from the casting roll for each target you picked after the first."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Inflict D3 mortal damage on each target."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Spell",
+     "cast": 6,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Dark Temptations",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick 1 of the following musks. Its effects apply for the rest of the turn.\n\n***Alluring Musk***:\n• This unit’s weapons have **Crit (2 Hits)** for attacks that target that enemy unit.\n• Add 1 to hit rolls for attacks made by that enemy unit that target this unit.\n\n***Psychotropic Musk***:\n• Subtract 1 from wound rolls for attacks made by that enemy unit that target this unit.\n• Subtract 1 from the Rend characteristic of this unit’s melee weapons."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Wizard (2)",
+     ""
+    ],
+    [
+     "Ward (5+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Hedonites of Slaanesh",
+     ""
+    ],
+    [
+     "Daemon",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Slaaneshi Beguiler*",
+    "Any **HEDONITES OF SLAANESH**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "0a2a07a3-6bb7-4e26-b7fd-ec0fb3008fac",
+   "name": {
+    "ja": "Scourge of Aqshy: Infernal Enrapturess, Herald of Slaanesh",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 80,
+   "models": 1,
+   "base": "60 x 35mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Piercing Claw",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Like Nails on a Chalkboard",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Reaction: Opponent declared the 'Eruption of Fury' ability for a unit within 12\" of and visible to this unit."
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "You and your opponent must roll off. If you roll higher, pick a unit (friendly or enemy) other than the enemy unit using the ‘Eruption of Fury’ ability within that enemy unit’s combat range. That unit is now the target of that ‘Eruption of Fury’ ability. Your opponent must spend as many **rage dice** as possible as part of that ability, to a maximum of 3."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Delightful Defeatism",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Each time a visible enemy unit within 18\" of this unit uses the ‘Rally’ command, your opponent must make 3 fewer rally rolls of D6."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Hedonites of Slaanesh",
+     ""
+    ],
+    [
+     "Daemon",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **DAEMON**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Slaaneshi Beguiler*.\n\nThis unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "1344ea60-d3b1-49e6-9701-d7a174fa1ac5",
+   "name": {
+    "ja": "Seekers",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "14\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 130,
+   "models": 5,
+   "base": "60 x 35mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Agonising Claws",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-CAVALRY (+1 Rend)"
+     ]
+    },
+    {
+     "ja": "Steed’s Poisoned Tongue",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Quicksilver Speed",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), End of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit charged this turn and has not used the ‘Power Through’ command this turn, it can immediately use the ‘Normal Move’ ability as if it were your movement phase."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Cavalry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Musician (1/5)",
+     ""
+    ],
+    [
+     "Standard Bearer (1/5)",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Hedonites of Slaanesh",
+     ""
+    ],
+    [
+     "Daemon",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "60359f6a-81c2-478c-9bfb-fe4604674f99",
+   "name": {
+    "ja": "Synessa, the Voice of Slaanesh",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "10"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": "5+",
+   "additional": [],
+   "points": 220,
+   "models": 1,
+   "base": "105 x 70mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Staff of Slaanesh",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Unraveller’s Talons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "2",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Whispers of Desire",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6."
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the turn, subtract 1 from the Attacks characteristic of the target’s melee weapons."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Spell",
+     "cast": 7,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Enthralling Splendour",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit with a lower Control characteristic than this unit, that charged this turn and is in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Subtract 1 from wound rolls for the target’s attacks for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Arcane Seductor",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Start of Battle Round"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible enemy **WIZARD** or **PRIEST** within 18\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. If the roll is higher than the target’s power level, for the rest of the battle round, while the target is within 18\" of this unit:\n• Subtract 1 from casting rolls and chanting rolls for enemy units while they are within 18\" of this unit.\n• Add 1 to this unit’s power level."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Ward (5+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Hedonites of Slaanesh",
+     ""
+    ],
+    [
+     "Daemon",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 **HEDONITES OF SLAANESH** **Dexcessa** or *Slaaneshi Beguiler*",
+    "Any **HEDONITES OF SLAANESH**"
+   ],
+   "notes_en": "This **HERO** can join **Dexcessa**’s regiment.",
+   "wargear": null
+  },
+  {
+   "id": "35b12ebf-fe11-45ff-922e-af02fcdcdd69",
+   "name": {
+    "ja": "Thricefold Discord",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "5+",
+   "additional": [],
+   "points": 190,
+   "models": 3,
+   "base": "40mm [1], 28.5mm [2]",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Thricefold Arsenal",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (2 Hits)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Gifts of Pain and Pleasure",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick either a visible friendly **HEDONITES OF SLAANESH INFANTRY** unit wholly within 12\" of this unit or a visible enemy unit wholly within 12\" of this unit to be the target. Then, make a casting roll of 2D6."
+      },
+      "effect": {
+       "ja": "",
+       "en": "If the target is a friendly unit, add 2\" to its Move characteristic until the start of your next turn. If the target is an enemy unit, inflict **X** mortal damage on it, then **Heal (X)** this unit. **X** is equal to the number of models in this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Spell",
+     "cast": 7,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Thricefold Court",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Start of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick 1 of the following effects that you did not pick in the previous turn. The effect applies for the rest of the turn:\n\n***Sins of Soul***: While an enemy **WIZARD** or **PRIEST** is visible to this unit, add 1 to this unit’s power level.\n\n***Sins of Flesh***: This unit’s attacks score critical hits on unmodifed hit rolls of 5+.\n\n***Sins of Mind***: Each time a visible friendly **HEDONITES OF SLAANESH** unit wholly within 12\" of this unit uses the ‘Rally’ command, you receive 3 additional rally points."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Ward (5+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Hedonites of Slaanesh",
+     ""
+    ],
+    [
+     "Daemon",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Slaaneshi Beguiler*",
+    "Any **HEDONITES OF SLAANESH**"
+   ],
+   "notes_en": "This unit cannot be reinforced.",
+   "wargear": {
+    "ja": "",
+    "en": "***Each model in this unit is armed with Carnal Blades and Wicked Claws. The models in this unit are:***\n\n• ***Vexmor, the Excessively Indolent** (champion)*\n• ***Vashtiss the Coiled***\n• ***Lascivyr, the Bladed Blessing***"
+   }
+  },
+  {
+   "id": "d0b5c190-35e7-44c3-9a64-c4f3d6c8d7f3",
+   "name": {
+    "ja": "Viceleader, Herald of Slaanesh",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 140,
+   "models": 1,
+   "base": "25mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Ravaging Claws",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Lust For Violence",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Reaction: You declared a FIGHT ability for this unit"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick a friendly **Daemonettes** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Lithe and Swift",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to the Attacks characteristic of this unit’s **Ravaging Claws** for the rest of the turn if this unit charged in the same turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Hedonites of Slaanesh",
+     ""
+    ],
+    [
+     "Daemon",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **DAEMON**"
+   ],
+   "notes_en": "This **Hero** can join an eligible regiment as a *Slaaneshi Beguiler*",
+   "wargear": null
+  }
+ ]
+}

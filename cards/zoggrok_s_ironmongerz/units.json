@@ -1,0 +1,2033 @@
+{
+ "meta": {
+  "slug": "zoggrok_s_ironmongerz",
+  "kind": "faction",
+  "faction_en": "Zoggrok's Ironmongerz",
+  "faction_ja": null,
+  "faction_slug": "zoggrok_s_ironmongerz",
+  "alliance": "Destruction",
+  "title_en": "Zoggrok's Ironmongerz",
+  "title_ja": null,
+  "data_version": 483
+ },
+ "units": [
+  {
+   "id": "9465a078-0397-483a-ae45-9eceefac4c3d",
+   "name": {
+    "ja": "Ardboy Big Boss",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 90,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Boss-hacka and Choppa",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "7",
+      "4+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Get Bashin'!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to shield bash rolls for friendly **Ardboyz** units while they are wholly within 12\" of this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Iron-fisted Commander",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If a friendly **Ardboyz** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Ironjawz",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **INFANTRY**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Headstompa*.",
+   "wargear": null
+  },
+  {
+   "id": "595b7d56-c353-451e-b087-19a2c569d1e6",
+   "name": {
+    "ja": "Ardboyz",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 160,
+   "models": 10,
+   "base": "32mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Choppa or Stikka",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-charge (+1 Rend)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Shield Bash",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit within 1\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a shield bash roll of D6 for each model in this unit that is within 3\" of the target. For each 6+, inflict 1 mortal damage on the target."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Standard Bearer (1/10)",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Ironjawz",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "5b5a6929-f44b-4ac7-83d8-e557a67bc41d",
+   "name": {
+    "ja": "Bossrokk Tower",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "-"
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "-"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "100mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [],
+   "abilities": [
+    {
+     "name": {
+      "ja": "I'm Off!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this terrain feature has a Shouty Boss that was not placed on it this turn, set up the Shouty Boss on the battlefield wholly within 6\" of this terrain feature and not in combat. That unit is no longer a Shouty Boss."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Man Da Tower!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this terrain feature has a Shouty Boss:\n\n• The Shouty Boss cannot use **MOVE** abilities.\n\n• Instead of measuring range or visibility to and from the Shouty Boss, measure to and from this terrain feature instead.\n\n• All attacks that would target the Shouty Boss target this terrain feature instead.\n\n• If this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the Shouty Boss. Then, set up the Shouty Boss on the battlefield within 3\" of this terrain feature and not in combat.That unit is no longer the Shouty Boss. If it is not possible to set up the Shouty Boss, it is slain."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Aggressively Bossy",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn, Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible enemy unit within 18\" of this terrain feature to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. Add 1 to the roll if this terrain feature has a Shouty Boss. On a 4+, pick 1 of the following effects to apply to the target until the start of your next turn:\n\n***Dat’s Ours, Ya Git!:*** Subtract 3 from the target’s control score.\n\n***Zog Off Wiv Ya Magic!:*** Subtract 1 from casting rolls and/or chanting rolls for the target.\n\n***Oi! Hold It!:*** Subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Up We Go!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "**Your Hero Phase**"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this terrain feature does not have a Shouty Boss, pick a friendly **IRONJAWZ INFANTRY HERO** that is not in combat and is within 3\" of it to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Place the target on this terrain feature. The target is now a Shouty Boss (see ‘Man da Tower!’)."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [
+    {
+     "name": {
+      "ja": "Cover",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": ""
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This rule varies depending on the battlepack selected for your army:\n\n**General's Handbook 2024-25**\nSubtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword.\n\n**General's Handbook 2025-26**\nSubtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword.\n\n**General's Handbook 2026-27**\nSubtract 1 from hit rolls for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit charged this turn or has the **FLY** keyword."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Impassable",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": ""
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This rule varies depending on the battlepack selected for your army:\n\n**General's Handbook 2024-25**\nModels cannot move across, be set up on or end moves on any part of this terrain feature.\n\n**General's Handbook 2025-26**\nModels cannot move across, be set up on or end moves on any part of this terrain feature.\n\n**General's Handbook 2026-27**\nModels cannot move across, be set up on or end moves on any part of this terrain feature."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "keywords": [
+    [
+     "Faction Terrain",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Ironjawz",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n**Cover, Impassable**"
+   }
+  },
+  {
+   "id": "ad7d1453-b00f-43d6-aff9-346efb9d7281",
+   "name": {
+    "ja": "Brute Ragerz",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 100,
+   "models": 3,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Rager Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "2+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-MONSTER (+1 Rend)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Unleashed Rage",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit has **STRIKE-FIRST** if it charged in the same turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Berserkers",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit can use a **RUN** ability and still use **CHARGE** abilities later in the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Ironjawz",
+     ""
+    ],
+    [
+     "Brute",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "3241dc87-b1e8-47b3-be26-4e09809d12dc",
+   "name": {
+    "ja": "Brutes",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 160,
+   "models": 5,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Brute Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)"
+     ]
+    },
+    {
+     "ja": "Gore-choppa",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "You Messin'?",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Enemy units with a Health characteristic of 1 or 2 cannot contest objectives while they are in combat with this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Ironjawz",
+     ""
+    ],
+    [
+     "Brute",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "***Each model in this unit is armed with Brute Weapons.***\n\n• ***1/5 models can replace their Brute Weapons with a Gore-choppa.***\n• ***The champion cannot replace their weapons.***"
+   }
+  },
+  {
+   "id": "be783899-1a5b-470f-a1a7-cae4e07c0415",
+   "name": {
+    "ja": "Megaboss",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "8"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 120,
+   "models": 1,
+   "base": "60mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Boss-choppa",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "8",
+      "4+",
+      "2+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Strength From Victory",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "End of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If any damage points were allocated to an enemy unit by this unit’s combat attacks this turn and that enemy unit has been destroyed, give this unit a **Waaagh! token**, to a maximum of 3.\n\nUntil the end of the next turn, add 1 to the Attacks characteristic of this unit’s weapons for each **Waaagh! token** it has."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Lead Da Brutes",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Reaction: You declared a FIGHT ability for this unit"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick a friendly **BRUTE** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Ironjawz",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Headstompa*",
+    "Any **IRONJAWZ**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Headstompa*.",
+   "wargear": null
+  },
+  {
+   "id": "0ead6496-74fc-4ab3-9946-54d0e17cc942",
+   "name": {
+    "ja": "Scourge of Aqshy: Brutes",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 170,
+   "models": 5,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Brute Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)"
+     ]
+    },
+    {
+     "ja": "Gore-choppa",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "You Call Dat a Punch?",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Reaction: Opponent declared an ATTACK ability that targeted this unit"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the turn, add 1 to hit rolls and wound rolls for this unit’s combat attacks that target that enemy unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Ironjawz",
+     ""
+    ],
+    [
+     "Brute",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit is legal for Matched Play for battles fought using the *General's Handbook 2026-27* battlepack.",
+   "wargear": {
+    "ja": "",
+    "en": "***Each model in this unit is armed with Brute Weapons.***\n\n• ***1/5 models can replace their Brute Weapons with a Gore-choppa.***\n• ***The champion cannot replace their weapons.***"
+   }
+  },
+  {
+   "id": "79195c79-2d0b-467b-b709-035fbb4867d6",
+   "name": {
+    "ja": "Scourge of Aqshy: Megaboss",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "8"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 150,
+   "models": 1,
+   "base": "60mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Boss-choppa",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "8",
+      "4+",
+      "2+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Get in There and Wallop 'Em!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Battle Round (Army), Any Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly **IRONJAWZ** unit wholly within 12\" of this unit and that was not set up this turn to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the turn, when you use the ‘Mighty Destroyers’ ability, you can pick that friendly unit to be a second target."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "You Ain't Gonna Show Me Up",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), End of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit used a **FIGHT** ability this turn, spend 1 **rage dice**. If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7.\nThen, add 1 to the Damage characteristic of this unit’s **Boss-choppa** for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Ironjawz",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Headstompa*",
+    "Any **IRONJAWZ**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Headstompa*.\n\nThis unit is legal for Matched Play for battles fought using the *General's Handbook 2026-27* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "b5ac5cba-2b1e-467f-bc44-4e6d062eb2da",
+   "name": {
+    "ja": "Scourge of Ghyran Weirdbrute Wrekkaz",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "5+",
+   "additional": [],
+   "points": 90,
+   "models": 3,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Chain-smasha",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Propa Wonky",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit is in combat, pick a friendly **IRONJAWZ** unit wholly within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to hit rolls for the target’s combat attacks for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Ward (5+)",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Ironjawz",
+     ""
+    ],
+    [
+     "Brute",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit is legal for Matched Play for battles fought using the *General’s Handbook 2025-26* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "ee8c4f6b-ef97-4e62-b06d-1c6c56991a6a",
+   "name": {
+    "ja": "Warchanter",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 110,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Gorkstikk and Morkstikk",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "3+",
+      "-",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Rhythm of Destruction",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "End of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If any enemy models were slain this turn by this unit’s combat attacks, give this unit D3 ritual points."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Priest (1)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Ironjawz",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **IRONJAWZ**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Headstompa*.",
+   "wargear": null
+  },
+  {
+   "id": "62beea52-da1f-4448-9cf6-c032d6c69bb1",
+   "name": {
+    "ja": "Weirdbrute Wrekkaz",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "5+",
+   "additional": [],
+   "points": 90,
+   "models": 3,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Chain-smasha",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Berserkers",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit can use a **RUN** ability and still use **CHARGE** abilities later in the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Ward (5+)",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Ironjawz",
+     ""
+    ],
+    [
+     "Brute",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "7d4290a7-bc12-4140-96c2-6f2b034def1a",
+   "name": {
+    "ja": "Weirdnob Shaman",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 110,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Green Puke",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "4",
+      "2+",
+      "4+",
+      "-",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Waaagh! Staff",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Brutal Power",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to this unit’s power level while there are any friendly **IRONJAWZ** units that have 10 or more models wholly within 12\" of it."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Ironjawz",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **IRONJAWZ**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Headstompa*.",
+   "wargear": null
+  },
+  {
+   "id": "354b6244-b8cc-4548-8413-47c532e49810",
+   "name": {
+    "ja": "Zoggrok Anvilsmasha",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "7"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 160,
+   "models": 1,
+   "base": "50mm [1], 25mm [1]",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Grunta-tongs",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "3+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Ward-smashing Choppa",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "2+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Skull-crushing Basha",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "4+",
+      "2+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Ward-smashing Choppa",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If an attack made with this unit’s **Ward-smashing Choppa** scores a hit, the target has the **WARD‑SMASHED** keyword for the rest of the battle. Ward rolls cannot be made for a **WARD-SMASHED** unit even if this unit has been destroyed."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Power of Da Great Green God",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible friendly **IRONJAWZ INFANTRY** unit wholly within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a forgin’ roll of D6. Add 1 to the roll if this unit is armed with **Grunta-tongs**. On a 4+, the target’s melee weapons have **Crit (Mortal)** until the start of your next turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Klonk",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "**Klonk** is a token. You can re-roll forgin’ rolls for this unit while this unit’s **Klonk** is on the battlefield. \n\nIf you make an unmodified save roll of 1 for this unit, remove this unit’s **Klonk** from the battlefield after the **ATTACK** ability has been resolved (the damage point is still inflicted)."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Destruction",
+     ""
+    ],
+    [
+     "Ironjawz",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **IRONJAWZ**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Headstompa*.",
+   "wargear": {
+    "ja": "",
+    "en": "***This unit is armed with a Skull-crushing Basha and 1 of the following options:***\n• ***Ward-smashing Choppa***\n• ***Grunta-tongs***"
+   }
+  }
+ ]
+}

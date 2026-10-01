@@ -1,0 +1,2319 @@
+{
+ "meta": {
+  "slug": "change_cult_uprising",
+  "kind": "faction",
+  "faction_en": "Change-Cult Uprising",
+  "faction_ja": null,
+  "faction_slug": "change_cult_uprising",
+  "alliance": "Chaos",
+  "title_en": "Change-Cult Uprising",
+  "title_ja": null,
+  "data_version": 483
+ },
+ "units": [
+  {
+   "id": "6228571b-9096-47fb-ac09-0d16170ab165",
+   "name": {
+    "ja": "Argent Shard",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "-"
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "-"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "80mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Sorcerous Duplication",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick 1 of the following effects:\n\n• If there is only 1 friendly **Argent Shard** on the battlefield, set up another **Argent Shard** wholly within 12\" of this terrain feature, more than 1\" from all other terrain features, more than 3\" from all objectives and more than 9\" from all enemy units.\n\n• Remove this terrain feature from the battlefield and set it up again on the battlefield more than 1\" from all other terrain features, more than 3\" from all objectives and more than 9\" from all enemy units."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Magical Focus",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "The next time a friendly **DISCIPLES OF TZEENTCH** unit uses a **SPELL** ability this phase, when picking targets for that spell, you can measure range and visibility from this terrain feature instead of from the caster, and your opponent can measure range and visibility to this terrain feature instead of to the caster for the purposes of the ‘Unbind’ ability."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [
+    {
+     "name": {
+      "ja": "Cover",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": ""
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This rule varies depending on the battlepack selected for your army:\n\n**General's Handbook 2024-25**\nSubtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword.\n\n**General's Handbook 2025-26**\nSubtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword.\n\n**General's Handbook 2026-27**\nSubtract 1 from hit rolls for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit charged this turn or has the **FLY** keyword."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Impassable",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": ""
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This rule varies depending on the battlepack selected for your army:\n\n**General's Handbook 2024-25**\nModels cannot move across, be set up on or end moves on any part of this terrain feature.\n\n**General's Handbook 2025-26**\nModels cannot move across, be set up on or end moves on any part of this terrain feature.\n\n**General's Handbook 2026-27**\nModels cannot move across, be set up on or end moves on any part of this terrain feature."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "keywords": [
+    [
+     "Faction Terrain",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Disciples of Tzeentch",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n**Cover, Impassable**"
+   }
+  },
+  {
+   "id": "4d912826-d753-4f74-9709-c874a006916b",
+   "name": {
+    "ja": "Curseling, Eye of Tzeentch",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 170,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Hurled Arcane Energy",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "D6",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Staff of Tzeentch and Blazing Sword",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "With Spell and Sword",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit is in combat, it can use a non-**SUMMON SPELL** ability as if it were your hero phase, as if that ability had the **UNLIMITED** keyword and as if this unit had not cast any spells this turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Armour-Bane Curse",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible enemy unit within 12\" of this unit to be the target. Then, make a casting roll of 2D6."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Subtract 1 from save rolls for combat attacks that target that unit until the start of your next turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Spell",
+     "cast": 6,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Wizard (2)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Disciples of Tzeentch",
+     ""
+    ],
+    [
+     "Arcanite",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 **Chaos Spawn of Tzeentch**",
+    "Any **ARCANITE**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as an *Arcanite Cabalist*.",
+   "wargear": null
+  },
+  {
+   "id": "9c0b2060-e298-4c86-86b2-77fd6a7dd4c6",
+   "name": {
+    "ja": "Eyes of the Nine",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 100,
+   "models": 5,
+   "base": "32mm [4], 25mm [2]",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Mighty Sorcerous Bolt",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "1",
+      "4+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Mighty Sorcerous Bolt",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Vortemis the All-seeing",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit’s **Vortemis the All-seeing** is on the battlefield, it has **WIZARD (1)**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Brimstone Horror",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit’s **Brimstone Horror** is a token. When this unit’s **Blue Horror** is slain, place this unit’s **Brimstone Horror** on the battlefield. Add 1 to the Damage characteristic of this unit’s **Mighty Sorcerous Bolt** while its **Brimstone Horror** is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove this unit’s **Brimstone Horror** from the battlefield."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Disciples of Tzeentch",
+     ""
+    ],
+    [
+     "Arcanite",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit cannot be reinforced.",
+   "wargear": {
+    "ja": "",
+    "en": "***Each model in this unit is armed with a Mighty Sorcerous Bolt and Arcanite Weapons. The models in this unit are:***\n\n• ***Vortemis the All-seeing** (champion)*\n• ***K’charik***\n• ***Narvia***\n• ***Turosh***\n• ***Blue Horror***"
+   }
+  },
+  {
+   "id": "4b3036b0-88bc-4dc6-83c3-362a6cb66c16",
+   "name": {
+    "ja": "Fatemaster",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 150,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Cursewrought Glaive",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "4+",
+      "2",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Long in the Planning",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Enemy Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Spend 2 **fate points**. Then, pick a visible friendly Arcanite unit wholly within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the turn, the first time an enemy unit ends a charge move within 3\" of the target, you can remove the target from the battlefield and set it up in reserve **masked by illusion**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Bound Retinue",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "This unit can only use this ability if it is **masked by illusion**. Pick up to 1 other friendly unit that is **masked by illusion** to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Set up this unit on the battlefield more than 9\" from all enemy units. Then, set up the target wholly within 6\" of this unit and more than 9\" from all enemy units."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Disciples of Tzeentch",
+     ""
+    ],
+    [
+     "Arcanite",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 **Chaos Spawn of Tzeentch**",
+    "Any **ARCANITE**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as an *Arcanite Cabalist*.",
+   "wargear": null
+  },
+  {
+   "id": "942af9c1-09f6-4a69-b07b-fbf3617d45a4",
+   "name": {
+    "ja": "Fatemaster on Disc of Tzeentch",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "14\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 160,
+   "models": 1,
+   "base": "60mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Disc’s Teeth and Horns",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    },
+    {
+     "ja": "Fireglaive of Tzeentch",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Lord of Fate",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to wound rolls for attacks made by friendly **ARCANITE** units while they are wholly within 12\" of this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Soulbound Shield",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Reaction: Opponent declared a SPELL ability"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit. This unit can use this ability more than once per phase but only once per **SPELL** ability."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Cavalry",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Disciples of Tzeentch",
+     ""
+    ],
+    [
+     "Arcanite",
+     ""
+    ],
+    [
+     "Disc of Tzeentch",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 **Chaos Spawn of Tzeentch**",
+    "0-1 *Arcanite Cabalist*",
+    "Any **ARCANITE**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "ce07b17c-97c6-41dd-bd4e-13dc95b7236a",
+   "name": {
+    "ja": "Jade Obelisk",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "1"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 100,
+   "models": 9,
+   "base": "32mm [5], 28.5mm [5]",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Mason’s Tools",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-FACTION TERRAIN (+1 Rend)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Silver Monoliths",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Subtract 1 from the Rend characteristic of weapons used for attacks that target this unit while it is wholly within 12\" of a friendly **Argent Shard**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Idolarc",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit’s **Idolarc** is a token. After setting up this unit on the battlefield for the first time, place its **Idolarc** next to it."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Chosen by the Stone",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Shooting Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit has any models carrying an **Antithete Bow**, pick a visible enemy unit within 18\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+, place the **Idolarcs** of all other friendly **Jade Obelisk** units next to their respective units. Then, place this unit’s **Idolarc** next to the target.\n\nWhile a friendly **Idolarc** is next to an enemy unit, subtract 1\" from that enemy unit’s Move characteristic for each **fate point** you have. This ability cannot reduce an enemy unit’s Move characteristic below half its unmodified value."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion (1/9)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Disciples of Tzeentch",
+     ""
+    ],
+    [
+     "Arcanite",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "***Each model in this unit is armed with Passive Mason’s Tools.***\n***•  4/9 models can carry an Antithete Bow.***\n***•  The champion cannot carry an Antithete Bow.***"
+   }
+  },
+  {
+   "id": "4fe31d19-ffd3-4311-98a3-a1b38a6f6e3c",
+   "name": {
+    "ja": "Kairic Acolytes",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "1"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 90,
+   "models": 10,
+   "base": "32mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Kairic Blades",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Driven by Destiny",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Enemy Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit is more than 6\" from all enemy units, it can move **X**\", where **X** is the number of **fate points** you have. It cannot move into combat during any part of that move."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Move",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Disciples of Tzeentch",
+     ""
+    ],
+    [
+     "Arcanite",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "f73e36e8-bcaa-4fc6-8135-527557144371",
+   "name": {
+    "ja": "Magister",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 140,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Tzeentchian Runestaff",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "1",
+      "3+",
+      "4+",
+      "-",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Warpsteel Sword",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "4+",
+      "-",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Spellmaster",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Reaction: You declared a **SPELL** ability for a **WIZARD** within 30\" of this unit and the casting roll equalled or exceeded the spell’s casting value and that spell has not been unbound"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make an unbinding roll of 2D6. If the roll exceeds the casting roll for the spell, the spell is unbound and its effect is not resolved.\n\nIf the spell is unbound, add 1 to casting rolls for this unit for the rest of the phase."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Unbind",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Imbued With Arcane Fire",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible friendly **ARCANITE** unit wholly within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "&#x20;The target’s melee weapons have **Crit (Mortal)** until the start of your next turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": 1,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Disciples of Tzeentch",
+     ""
+    ],
+    [
+     "Arcanite",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **ARCANITE**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as an *Arcanite Cabalist*.",
+   "wargear": null
+  },
+  {
+   "id": "0fdf0d65-6a73-49d9-84ef-9ccdd5f637ad",
+   "name": {
+    "ja": "Magister on Disc of Tzeentch",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "14\""
+    ],
+    [
+     "体力",
+     "Health",
+     "7"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 150,
+   "models": 1,
+   "base": "50mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Tzeentchian Runestaff",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "1",
+      "3+",
+      "4+",
+      "-",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Disc’s Teeth and Horns",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    },
+    {
+     "ja": "Warpsteel Sword",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "4+",
+      "-",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Spellmaster",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Reaction: You declared a **SPELL** ability for a **WIZARD** within 30\" of this unit and the casting roll equalled or exceeded the spell’s casting value and that spell has not been unbound"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make an unbinding roll of 2D6. If the roll exceeds the casting roll for the spell, the spell is unbound and its effect is not resolved.\n\nIf the spell is unbound, add 1 to casting rolls for this unit for the rest of the phase."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Unbind",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Fates Converge",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While you have 6 or more **fate points**, add 1 to the Attacks characteristic of melee weapons used by friendly **ARCANITE** units while they are wholly within 12\" of this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Cavalry",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Disciples of Tzeentch",
+     ""
+    ],
+    [
+     "Arcanite",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Arcanite Cabalist*",
+    "Any **ARCANITE**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "b39ac7a4-4e74-4235-9b74-75dd423c4965",
+   "name": {
+    "ja": "Ogroid Thaumaturge",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "8"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 120,
+   "models": 1,
+   "base": "50mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Thaumaturge Staff",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "3",
+      "3+",
+      "4+",
+      "-",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Great Horns and Cloven Hooves",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Charge (+1 Damage)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Thaumaturge Hunger",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Reaction: Opponent declared a **SPELL** ability for a unit within 30\" of this unit"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit can move 6\". It can move into combat and must end that move closer to the caster. If this unit was in combat at the start of the move, it must end that move in combat."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Move",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Arcane Absorption",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "End of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If any damage points were allocated to an enemy **WIZARD** or **PRIEST** by this unit’s attacks this turn and that enemy unit has been destroyed:\n\n• **Heal (7)** this unit.\n• Add 1 to this unit’s power level for the rest of the battle.\n\nThis unit can be affected by this ability multiple times and the effects are cumulative."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Disciples of Tzeentch",
+     ""
+    ],
+    [
+     "Arcanite",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **ARCANITE**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as an *Arcanite Cabalist*.",
+   "wargear": null
+  },
+  {
+   "id": "38fdb9ff-4661-44e2-806a-b297c4a2089a",
+   "name": {
+    "ja": "Scourge of Aqshy: Ogroid Thaumaturge",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "8"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 140,
+   "models": 1,
+   "base": "50mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Thaumaturge Staff",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "3",
+      "3+",
+      "4+",
+      "-",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Great Horns and Cloven Hooves",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Charge (+1 Damage)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Wrath of the Thaumaturge",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit is not in combat, pick a friendly **ARCANITE** unit in combat to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Remove this unit from the battlefield and set it up again within 1\" of the target and in combat. This unit has charged."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Core, Charge",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Soul-Deep Devotion",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit is within a friendly non‐**HERO ARCANITE** unit’s combat range:\n\n• This unit has **WARD (4+)**.\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly non-**HERO ARCANITE** unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points)."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Disciples of Tzeentch",
+     ""
+    ],
+    [
+     "Arcanite",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **ARCANITE**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as an *Arcanite Cabalist*.\n\nThis unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "48c03385-ca91-4e67-868e-e3ff257e2043",
+   "name": {
+    "ja": "Scourge of Ghyran Kairic Acolytes",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "1"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 110,
+   "models": 10,
+   "base": "32mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Cursed Blades and Glaives",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "3+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Vulcharc",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Shooting Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible enemy unit within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the turn, add 1 to the Rend characteristic of melee weapons used by friendly **Kairic Acolytes** units for attacks that target that enemy unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Empowered By Magic",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to the Damage characteristic of this unit’s melee weapons while this unit is wholly within 12\" of any **MANIFESTATIONS** (friendly or enemy)."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Disciples of Tzeentch",
+     ""
+    ],
+    [
+     "Arcanite",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit is legal for Matched Play for battles fought using the *General’s Handbook 2025-26* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "9bb733f0-0d97-4e55-a26a-9fadb0647f82",
+   "name": {
+    "ja": "Scourge of Ghyran Ogroid Thaumaturge",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "8"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 140,
+   "models": 1,
+   "base": "50mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Thaumaturge Staff",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "3",
+      "3+",
+      "4+",
+      "-",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Great Horns and Cloven Hooves",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Charge (+1 Damage)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Soul-Deep Devotion",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit is within a friendly non-**HERO ARCANITE** unit’s combat range:\n\n• This unit has **WARD (4+)**.\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly non-**HERO ARCANITE** unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points)."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Wrath of the Thaumaturge",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit is not in combat, pick a friendly **ARCANITE** unit in combat to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Remove this unit from the battlefield and set it up again within 1\" of the target and in combat. This unit has charged."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Core, Charge",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Disciples of Tzeentch",
+     ""
+    ],
+    [
+     "Arcanite",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **ARCANITE**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as an *Arcanite Cabalist*.\nThis unit is legal for Matched Play for battles fought using the *General’s Handbook 2025-26* battlepack.",
+   "wargear": null
+  }
+ ]
+}

@@ -1,0 +1,3004 @@
+{
+ "meta": {
+  "slug": "the_magnate_s_crew",
+  "kind": "faction",
+  "faction_en": "The Magnate's Crew",
+  "faction_ja": null,
+  "faction_slug": "the_magnate_s_crew",
+  "alliance": "Order",
+  "title_en": "The Magnate's Crew",
+  "title_ja": null,
+  "data_version": 483
+ },
+ "units": [
+  {
+   "id": "63544303-dde1-484f-9f97-42a13717cecf",
+   "name": {
+    "ja": "Arkanaut Frigate",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "14"
+    ],
+    [
+     "防御力",
+     "Save",
+     "2+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 280,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Heavy Sky Ordnance（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "24\"",
+      "4",
+      "4+",
+      "2+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Boarding Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "8",
+      "4+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Medium Bomb Racks",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit that does not have **FLY** and that this unit passed across this phase to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll 6 dice. For each 4+, inflict 1 mortal damage on the target."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Incoming!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 10 or more damage points, the Attacks characteristic of its **Heavy Sky Ordnance** is 3."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Transport Capacity",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit can transport up to 2 friendly **KHARADRON OVERLORDS INFANTRY** units with a combined model count of up to 12 (see Battle Traits)."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Assault Boat",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "This unit cannot use this ability if it is in combat or has used a **RUN** or **RETREAT** ability this turn. Pick a number of units up to its Transport Capacity that are wholly within 6\" of it, that are not in combat and that have not charged this turn to be the targets. Then, make a charge roll of 2D6."
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit can move a distance up to the value of the charge roll and must end the move within ½\" of a visible enemy unit. If it does so:\n\n• Remove the targets from the battlefield and set them up again wholly within this unit’s combat range. The targets can be set up in combat.\n• This unit and the targets have charged, and the targets cannot use another **CORE** ability this phase.\n• Pick up to 1 of the targets to have **STRIKE-FIRST** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Core, Charge, Move",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "War Machine",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyvessel",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "2f29cd63-4fc2-4100-9fb1-34da1cdc4586",
+   "name": {
+    "ja": "Arkanaut Ironclad",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "18"
+    ],
+    [
+     "防御力",
+     "Save",
+     "2+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 430,
+   "models": 1,
+   "base": "170 x 105mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Aethershock Torpedoes",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "6",
+      "4+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Great Sky Ordnance（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "24\"",
+      "6",
+      "4+",
+      "2+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Boarding Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "8",
+      "4+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 10 or more damage points, the Attacks characteristic of its **Great Sky Ordnance** is 4."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Transport Capacity",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit can transport up to 3 friendly **KHARADRON OVERLORDS INFANTRY** units with a combined model count of up to 22 (see Battle Traits)."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Heavy Bomb Racks",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit that does not have **FLY** and that this unit passed across this phase to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll 10 dice. For each 4+, inflict 1 mortal damage on the target."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Incoming!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "War Machine",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyvessel",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "816d2c52-aacc-4f1d-bf50-320665911b97",
+   "name": {
+    "ja": "Arkanaut Ironclad (Hero)",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "18"
+    ],
+    [
+     "防御力",
+     "Save",
+     "2+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 450,
+   "models": 1,
+   "base": "170 x 105mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Great Sky Ordnance（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "24\"",
+      "6",
+      "4+",
+      "2+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Aethershock Torpedoes",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "6",
+      "4+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Boarding Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "8",
+      "4+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Transport Capacity",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit can transport up to 3 friendly **KHARADRON OVERLORDS INFANTRY** units with a combined model count of up to 22 (see Battle Traits)."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 10 or more damage points, the Attacks characteristic of its **Great Sky Ordnance** is 4."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Heavy Bomb Racks",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit that does not have **FLY** and that this unit passed across this phase to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll 10 dice. For each 4+, inflict 1 mortal damage on the target."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Incoming!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "War Machine",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyvessel",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **THE MAGNATE'S CREW**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "8ac98757-e26f-44a3-a880-afa9856b5abc",
+   "name": {
+    "ja": "Brokk Grungsson, Lord-Magnate of Barak-Nar",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "8"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 260,
+   "models": 1,
+   "base": "50mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "The Magnate’s Charter",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "6",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    },
+    {
+     "ja": "Grungsson’s Boast",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "1",
+      "3+",
+      "2+",
+      "2",
+      "D3+3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Brokk’s Aethermatic Saw",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "2",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (2 Hits)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "First Rule of Grungsson",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick up to 2 other friendly **SKYFARER** units within this unit’s combat range to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Command the Fleet",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Battle, Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick up to 3 visible friendly **SKYVESSELS** wholly within 24\" of this unit that are not in combat to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Each target can use a **RUN** ability and still use **SHOOT** and/or **CHARGE** abilities later in the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Moustache-mounted Aetherblasters",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "End of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Warmaster",
+     ""
+    ],
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyfarer",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Guild Officer*",
+    "Any **KHARADRON OVERLORDS**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "07cbe8f9-0a4e-478b-91f6-8db663d85250",
+   "name": {
+    "ja": "Endrinmaster with Dirigible Suit",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "8"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 140,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Dirigible Suit Weapon Battery",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "6",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    },
+    {
+     "ja": "Aethercannon",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "1",
+      "3+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Upgraded Aethermatic Saw",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "3+",
+      "2",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Combat Engineers",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick this unit and up to 1 friendly **Endrinriggers** unit wholly within 12\" of this unit to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the turn, combat attacks made by the targets against enemy units that charged this turn have **Crit (2 Hits)**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Mobile Repairs",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly **SKYVESSEL** or **Zontari Endrin Dock** within this unit’s combat range to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 2+, **Heal (3)** the target."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyfarer",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 **SKYVESSEL**",
+    "Any **INFANTRY**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Guild Officer*.",
+   "wargear": null
+  },
+  {
+   "id": "8ca78e4c-498f-49c9-8307-da965ba05027",
+   "name": {
+    "ja": "Endrinriggers",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 90,
+   "models": 3,
+   "base": "32mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "Aethermatic Volley Gun",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "15\"",
+      "2D6",
+      "4+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (2 Hits)"
+     ]
+    },
+    {
+     "ja": "Skyrigger Heavy Weapon",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "15\"",
+      "1",
+      "4+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-MONSTER (+1 Rend)"
+     ]
+    },
+    {
+     "ja": "Rapid-fire Rivet Gun",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "3",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Aethermatic Saw",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-charge (+1 Rend)"
+     ]
+    },
+    {
+     "ja": "Gun Butt",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "4+",
+      "5+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Emergency Field Repairs",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "End of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly **SKYVESSEL** or **Zontari Endrin Dock** within this unit’s combat range to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Make a field repairs roll of D6 for each model in this unit. For each 4-5, **Heal (1)** the target. For each 6, **Heal (2)** the target."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyfarer",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "• ***Each model in this unit is armed with a Rapid-fire Rivet Gun and Aethermatic Saw.***\n• ***1/3 models can replace their weapons with an Aethermatic Volley Gun and Gun Butt.***\n• ***1/3 models can replace their weapons with a Skyrigger Heavy Weapon (Grapnel Launcher, Skyhook or Drill Launcher) and Gun Butt.***\n• ***The champion cannot replace their weapons.***"
+   }
+  },
+  {
+   "id": "f7649c54-6e2e-40e3-a7b0-24e730151406",
+   "name": {
+    "ja": "Grundstok Gunhauler",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "14\""
+    ],
+    [
+     "体力",
+     "Health",
+     "10"
+    ],
+    [
+     "防御力",
+     "Save",
+     "2+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 140,
+   "models": 1,
+   "base": "105 x 70mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Sky Ordnance",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "15\"",
+      "3",
+      "4+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Boarding Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Aethershot Overwatch",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Long-line Slings",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "When you use the ‘Transport Skyfarers’ ability for this unit, you can pick units in combat to be targets."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Transport Capacity",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit can transport 1 friendly **KHARADRON OVERLORDS INFANTRY** unit with a model count of up to 5 (see Battle Traits)."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Light Bomb Racks",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit that does not have **FLY** and that this unit passed across this phase to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll 4 dice. For each 4+, inflict 1 mortal damage on the target."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "War Machine",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyvessel",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "8a7f7063-8cf5-4f74-b835-5021503615c8",
+   "name": {
+    "ja": "Null-Khemist",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "8"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 120,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Null-gas Extinguisher",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "8\"",
+      "3D6",
+      "2+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Prospecting Clamp",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Nullsuit",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Double the Damage characteristic of this unit’s weapons for attacks that target **PRIESTS**, **WIZARDS** or **MANIFESTATIONS**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Protection of the Void",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While they are wholly within 12\" of this unit, friendly **SKYFARER** units have **WARD (5+)** against mortal damage inflicted by **SPELL** abilities, **PRAYER** abilities and abilities used by **MANIFESTATIONS**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyfarer",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Guild Officer*",
+    "0-1 **SKYVESSEL**",
+    "Any **INFANTRY**"
+   ],
+   "notes_en": "This Hero can join an eligible regiment as a *Guild Officer*.",
+   "wargear": null
+  },
+  {
+   "id": "c9b14826-b526-4859-a401-e5bc0db455b2",
+   "name": {
+    "ja": "Scourge of Aqshy: Endrinriggers",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 120,
+   "models": 3,
+   "base": "32mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "Aethermatic Volley Gun",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "15\"",
+      "2D6",
+      "4+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (2 Hits)"
+     ]
+    },
+    {
+     "ja": "Skyrigger Heavy Weapon",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "15\"",
+      "1",
+      "4+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-MONSTER (+1 Rend)"
+     ]
+    },
+    {
+     "ja": "Rapid-fire Rivet Gun",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "3",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Aethermatic Saw",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-charge (+1 Rend)"
+     ]
+    },
+    {
+     "ja": "Gun Butt",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "4+",
+      "5+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "We're Working Here!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Until the start of your next turn, if this unit has not charged in the same turn, the following cumulative effects apply depending on your **fury level**.\n\n**1+ *Irked***: This unit’s **Aethermatic Saws** have **Crit (Auto-wound)**.\n**4+ *Exasperated***: This unit has **WARD (5+)**.\n**7 *Incensed***: Add 1 to the Damage characteristic of this unit’s melee weapons."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyfarer",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit is legal for Matched Play for battles fought using the *General's Handbook 2026-27* battlepack.",
+   "wargear": {
+    "ja": "",
+    "en": "• ***Each model in this unit is armed with a Rapid-fire Rivet Gun and Aethermatic Saw.***\n• ***1/3 models can replace their weapons with an Aethermatic Volley Gun and Gun Butt.***\n• ***1/3 models can replace their weapons with a Skyrigger Heavy Weapon (Grapnel Launcher, Skyhook or Drill Launcher) and Gun Butt.***\n• ***The champion cannot replace their weapons.***"
+   }
+  },
+  {
+   "id": "a6079f54-ded9-43db-a4c4-596866515613",
+   "name": {
+    "ja": "Scourge of Aqshy: Null-Khemist",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "8"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 160,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Null-gas Extinguisher",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "8\"",
+      "3D6",
+      "2+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Prospecting Clamp",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Customised Nullsuit",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "• This unit can use **UNBIND** and **BANISH** abilities as if it had **WIZARD (1)**.\n• Add 1 to the number of dice rolled when making unbinding rolls and banishment rolls for this unit, to a maximum of 3."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Diligent Researcher",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Each time your opponent spends any **rage dice** as part of the ‘Eruption of Fury’ ability, after that ability has been resolved, if this unit is not in combat, it can move up to **X**D6\", where **X** is the number of **rage dice** spent. It cannot end that move in combat."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyfarer",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Guild Officer*",
+    "0-1 **SKYVESSEL**",
+    "Any **INFANTRY**"
+   ],
+   "notes_en": "This Hero can join an eligible regiment as a *Guild Officer*.\n\nThis unit is legal for Matched Play for battles fought using the *General's Handbook 2026-27* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "c508cc75-30e6-4e7d-8ccd-7955f3c2f13a",
+   "name": {
+    "ja": "Scourge of Ghyran Grundstok Gunhauler",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "14\""
+    ],
+    [
+     "体力",
+     "Health",
+     "10"
+    ],
+    [
+     "防御力",
+     "Save",
+     "2+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 170,
+   "models": 1,
+   "base": "105 x 70mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "Sky Ordnance",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "15\"",
+      "3",
+      "4+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Bombs and Boarding Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "4+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Fighter Vessel",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Shooting Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit used a **SHOOT** ability this phase, this unit can move D6\". It cannot end that move in combat."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Attack Squadron",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit is wholly within 12\" of any other friendly **Grundstok Gunhaulers**, it can use **SHOOT** abilities even if it used the ‘Run’ ability in the same turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Transport Capacity",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit cannot transport any friendly units."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "War Machine",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyvessel",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit is legal for Matched Play for battles fought using the *General’s Handbook 2025-26* battlepack.\nThis unit can be reinforced even though it has a minimum unit size of 1.",
+   "wargear": null
+  },
+  {
+   "id": "c45a3efb-3821-4ac1-a734-c1d235c6668f",
+   "name": {
+    "ja": "Skywardens",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 130,
+   "models": 3,
+   "base": "32mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "Skyrigger Heavy Weapon",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "15\"",
+      "1",
+      "4+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-MONSTER (+1 Rend)"
+     ]
+    },
+    {
+     "ja": "Aethermatic Volley Gun",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "15\"",
+      "2D6",
+      "4+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (2 Hits)"
+     ]
+    },
+    {
+     "ja": "Vulcaniser Pistol",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Skywarden's Skypike",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Charge (+1 Damage)"
+     ]
+    },
+    {
+     "ja": "Gun Butt",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "4+",
+      "5+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Timed Charges",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), End of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a D3. On a 2+:\n\n• Inflict an amount of mortal damage on the target equal to the roll.\n• This unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyfarer",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "• ***Each model in this unit is armed with a Vulcaniser Pistol and Skywarden’s Skypike.***\n• ***1/3 models can replace their weapons with an Aethermatic Volley Gun and Gun Butt.***\n• ***1/3 models can replace their weapons with a Skyrigger Heavy Weapon (Grapnel Launcher, Skyhook or Drill Launcher) and Gun Butt.***\n• ***The champion cannot replace their weapons.***"
+   }
+  },
+  {
+   "id": "36ac62dd-b650-4b0e-a21e-150882498848",
+   "name": {
+    "ja": "Vongrim Harpoon Crew",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 120,
+   "models": 5,
+   "base": "32mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "Skydrake Harpoon or Firearm",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "2",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-MONSTER (+1 Rend)"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Pioneer Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Light Endrinpacks",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit is in combat, it can move 2D6\" but must end that move in combat."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyfarer",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "c2499cdc-a0cc-42f0-95b8-9aad087957bf",
+   "name": {
+    "ja": "Vongrim Salvagers",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 110,
+   "models": 5,
+   "base": "32mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "Privateer Pistol",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "2",
+      "4+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Vongrim Cutlass",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (2 Hits)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Spotter's Flaregun",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an objective within 9\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+, apply the following effects for the rest of the turn:\n\n• Add 1 to hit rolls for combat attacks made by friendly **SKYFARER** units that target a unit that is contesting the target objective.\n• Add 1 to the Rend characteristic of melee weapons used by friendly **Vongrim Salvagers** and **Vongrim Harpoon Crew** units for attacks that target a unit that is contesting the target objective."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Kharadron Overlords",
+     ""
+    ],
+    [
+     "Duardin",
+     ""
+    ],
+    [
+     "Skyfarer",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  }
+ ]
+}

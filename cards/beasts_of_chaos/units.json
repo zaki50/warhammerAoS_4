@@ -1,0 +1,4022 @@
+{
+ "meta": {
+  "slug": "beasts_of_chaos",
+  "kind": "faction",
+  "faction_en": "Beasts of Chaos",
+  "faction_ja": null,
+  "faction_slug": "beasts_of_chaos",
+  "alliance": "Chaos",
+  "title_en": "Beasts of Chaos",
+  "title_ja": null,
+  "data_version": 483
+ },
+ "units": [
+  {
+   "id": "e59912bc-a831-403d-b42c-b89ae1ecebf5",
+   "name": {
+    "ja": "Beastlord",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 150,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Paired Man-ripper Axes",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-HERO (+1 Rend)",
+      "Crit (2 Hits)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Call of Battle",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Reaction: You declared a FIGHT ability for this unit"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick a friendly non-**HERO BRAYHERD INFANTRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Hatred of Heroes",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit is in combat with any enemy **HEROES**, add 1 to hit rolls and wound rolls for combat attacks made by friendly **BEASTS OF CHAOS** units wholly within 12\" of this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ],
+    [
+     "Brayherd",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Herd Alpha*",
+    "Any **BEASTS OF CHAOS**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Herd Alpha*.",
+   "wargear": null
+  },
+  {
+   "id": "57cd4b17-7f17-4ceb-8a22-ce7fb114db9d",
+   "name": {
+    "ja": "Beasts of Chaos Chaos Spawn",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "2D6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 70,
+   "models": 1,
+   "base": "50mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Freakish Mutations",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2D6",
+      "5+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (2 Hits)",
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Beast",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit has a maximum control score of 1."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Beast",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "887fc79d-10ac-49fa-a621-dac2b9e0dd9d",
+   "name": {
+    "ja": "Bestigors",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 220,
+   "models": 10,
+   "base": "32mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Despoiler Axe",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (2 Hits)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Despoilers",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Reaction: Opponent declared the ‘All-out Defence’ command for a unit within 6\" of this unit"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit’s attacks score critical hits on unmodified hit rolls of 5+ for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Ferocious Advance",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Subtract 1 from wound rolls for shooting attacks that target this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Musician (1/10)",
+     ""
+    ],
+    [
+     "Standard Bearer (1/10)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ],
+    [
+     "Brayherd",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "3c24a98f-6201-4abd-9ae9-0639904d4ade",
+   "name": {
+    "ja": "Bullgors",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "4"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 170,
+   "models": 3,
+   "base": "50mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Man-splitter Axes",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "2+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Iron-capped Horns",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "5+",
+      "3+",
+      "-",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Charge (+1 Damage)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Warherd Charge",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice for each model in this unit. For each 2+, inflict 1 mortal damage on the target."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Musician (1/3)",
+     ""
+    ],
+    [
+     "Standard Bearer (1/3)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ],
+    [
+     "Warherd",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "827583e3-0316-4eb9-a9c5-51e2575571e4",
+   "name": {
+    "ja": "Centigors",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 170,
+   "models": 5,
+   "base": "60 x 35mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "Gutpiercer Spear",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "8\"",
+      "1",
+      "4+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Clawed Forelimbs",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "5+",
+      "3+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Gutpiercer Spear",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-CAVALRY (+1 Rend)",
+      "Charge (+1 Damage)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Drunken Revelry",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit can use this ability if it is not in combat. It has **WARD (4+)** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Cavalry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Musician (1/5)",
+     ""
+    ],
+    [
+     "Standard Bearer (1/5)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ],
+    [
+     "Brayherd",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "bdf541cd-3d06-482b-a93c-7ec77a1cd732",
+   "name": {
+    "ja": "Chaos Gargant",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "8\""
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 140,
+   "models": 1,
+   "base": "90 x 52mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Throwin’ Rocks",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "1",
+      "5+",
+      "2+",
+      "2",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Mighty Kick",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "4+",
+      "2+",
+      "2",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Massive Club",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "2+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "’Eadbutt",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "4+",
+      "2+",
+      "2",
+      "4"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Timberrrrr!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "When this unit is destroyed, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of this unit. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Whipped Into A Frenzy",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit is within 6\" of any friendly **BEASTS OF CHAOS HEROES**, add 1 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "ccf6c172-b215-464f-a897-fe3df354bdc3",
+   "name": {
+    "ja": "Chaos Warhounds",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 130,
+   "models": 10,
+   "base": "60 x 35mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Canine Jaws",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "3+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Beast",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit has a maximum control score of 1."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Outrunners of Chaos",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Reaction: You declared a CHARGE ability for this unit"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Change one of the dice in the charge roll to a 4."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Beast",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "be6c98ce-a57c-4115-a208-845220283835",
+   "name": {
+    "ja": "Chimera",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 200,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Brimstone Breath",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "6",
+      "2+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat",
+      "Companion"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Mauling Claws",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "-",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (2 Hits)",
+      "Companion"
+     ]
+    },
+    {
+     "ja": "Chimeric Heads",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Thricefold Savagery",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll 3 dice. For each 4+, add 1 to the Attacks characteristic of this unit’s **Chimeric Heads** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "91bfc67a-f2d1-4edf-8dc9-fbbc3f5a0493",
+   "name": {
+    "ja": "Cockatrice",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "8"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 150,
+   "models": 1,
+   "base": "60mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Stabbing Beak and Talons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "4+",
+      "2+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Petrifying Gaze",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army,) Your Shooting Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible enemy unit within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice for each model in the target unit. For each 6, inflict 1 mortal damage on the target. If any damage points are allocated to the target by this ability, the target has **STRIKE-LAST** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Beast",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit has a maximum control score of 1."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Beast",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "9739b383-a1cb-4575-a324-0f5974820ed0",
+   "name": {
+    "ja": "Cygor",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "8\""
+    ],
+    [
+     "体力",
+     "Health",
+     "15"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 170,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Desecrated Boulder",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "15\"",
+      "1",
+      "4+",
+      "2+",
+      "2",
+      "D3+3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Massive Horns（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-MANIFESTATION (+1 Rend)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 10 or more damage points, the Attacks characteristic of its **Massive Horns** is 4."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Soul-eater",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit can use **UNBIND** abilities as if it had **WIZARD (1)**. Each time this unit unbinds a spell, inflict D3 mortal damage on the caster."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Consume Endless Spell",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an **ENDLESS SPELL** within 9\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll 2D6. If the roll exceeds the target’s Banishment characteristic:\n\n• The target is banished.\n• **Heal (X)** this unit, where **X** is an amount equal to the roll."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ],
+    [
+     "Warherd",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "8f972c56-74cc-48c9-ba96-df7e61b4618e",
+   "name": {
+    "ja": "Doomblast Dirgehorn",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "-"
+    ],
+    [
+     "体力",
+     "Health",
+     "7"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "7+"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Louder and Louder",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Start of Battle Round"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Increase the range of this **MANIFESTATION**’s ‘Booming Cacophony’ ability by 6\". This effect can be applied multiple times to this **MANIFESTATION** and is cumulative. If this **MANIFESTATION** is removed from play, this effect no longer applies."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Booming Cacophony",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "When this **MANIFESTATION** is set up, the range of this ability is 6\". Subtract 1 from wound rolls for attacks made by enemy units while they are within range of this **MANIFESTATION**’s ability."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Manifestation",
+     ""
+    ],
+    [
+     "Endless Spell",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "3b32ed7d-8da1-494d-88b7-733a1adad5b5",
+   "name": {
+    "ja": "Doombull",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "8"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 170,
+   "models": 1,
+   "base": "50mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Slaughterer’s Axe",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "2+",
+      "1",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Alphabeast Horns",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "2+",
+      "-",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Charge (+1 Damage)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Alpha Charge",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Slaughterer's Call",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly **WARHERD** unit that is not in combat and is wholly within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the turn, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ],
+    [
+     "Warherd",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Herd Alpha*",
+    "Any **BEASTS OF CHAOS**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Herd Alpha*.",
+   "wargear": null
+  },
+  {
+   "id": "26ca1d2f-b514-4a4c-991e-7d41df2c0952",
+   "name": {
+    "ja": "Dragon Ogor Shaggoth",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "8\""
+    ],
+    [
+     "体力",
+     "Health",
+     "10"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 220,
+   "models": 1,
+   "base": "90 x 52mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Crackling Bolts",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "2D6",
+      "4+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (2 Hits)",
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Storm-forged Axe",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "3+",
+      "2+",
+      "1",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Beneath The Tempest",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), End of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick each enemy unit in combat with this unit to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 2+, **Heal (X)** this unit, where **X** is an amount equal to the roll. Then, roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Scion of the Primordial Storm",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Reaction: Opponent declared a SPELL ability"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit or a friendly **Dragon Ogors** unit wholly within 12\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit or that friendly unit. This unit can use this ability more than once per phase but only once per **SPELL** ability."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ],
+    [
+     "Thunderscorn",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Herd Alpha*",
+    "Any **BEASTS OF CHAOS**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "88dd030a-55b0-43ba-8509-b5b6a09de53b",
+   "name": {
+    "ja": "Dragon Ogors",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "8\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 200,
+   "models": 3,
+   "base": "90 x 52mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Storm-forged Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "2+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    },
+    {
+     "ja": "Raking Foreclaws",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "5+",
+      "3+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Speed Of An Avalanche",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit did not charge this turn and is in combat with an enemy unit that charged this turn, roll a dice. On a 4+, this unit has **STRIKE-FIRST** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Cavalry",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ],
+    [
+     "Thunderscorn",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "39adfcf8-2ecd-414c-a580-be178b063de2",
+   "name": {
+    "ja": "Ghorgon",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "8\""
+    ],
+    [
+     "体力",
+     "Health",
+     "15"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 180,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Huge Slavering Maw",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "2+",
+      "1",
+      "D6"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Butchering Blades（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "7",
+      "4+",
+      "2+",
+      "1",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Swallow Whole",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. If the roll exceeds the target’s Health characteristic:\n\n• 1 model in the target unit is slain.\n• **Heal (X)** this unit, where **X** is an amount equal to the roll."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 10 or more damage points, the Attacks characteristic of its **Butchering Blades** is 4."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ],
+    [
+     "Warherd",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "fe371ba5-6a45-4b99-ad9e-6458b2fe69a6",
+   "name": {
+    "ja": "Gors",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "1"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 100,
+   "models": 10,
+   "base": "32mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Hacking Blades",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "3+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (2 Hits)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Gor Stampede",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit charged this phase, pick an enemy non-**HERO INFANTRY** unit that has fewer models than this unit and is within 1\" of it to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+, the target has **STRIKE-LAST** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Musician (1/10)",
+     ""
+    ],
+    [
+     "Standard Bearer (1/10)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ],
+    [
+     "Brayherd",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "c9e31bcb-cf94-466a-881c-007280a69b9f",
+   "name": {
+    "ja": "Grashrak's Despoilers",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "8\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 100,
+   "models": 6,
+   "base": "32mm [2], 25mm [4]",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Despoiler Shortbow",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "15\"",
+      "2",
+      "4+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Despoiler Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Grashrak Fellhoof",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit’s **Grashrak Fellhoof** is on the battlefield, it has **WIZARD (1)**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Violent Despoilers",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to hit rolls for this unit’s attacks while it is wholly outside friendly territory."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ],
+    [
+     "Brayherd",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit cannot be reinforced.",
+   "wargear": {
+    "ja": "",
+    "en": "***Each model in this unit is armed with Despoiler Weapons. The models in this unit are:***\n\n• ***Grashrak Fellhoof** (champion)*\n• ***Draknar***\n• ***Murghoth Half-horn***\n• ***Korsh ‘the Sneak’***\n• ***Ushkor** (also armed with a Despoiler Shortbow)*\n• ***Gnarl** (also armed with a Despoiler Shortbow)*"
+   }
+  },
+  {
+   "id": "06807378-996c-40e2-beac-ca4d0c9637c6",
+   "name": {
+    "ja": "Great Bray-Shaman",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 140,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Fetish Staff",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "3+",
+      "-",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Infuse With Bestial Vigour",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly **BEASTS OF CHAOS** unit wholly within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the turn, the target can use a **RUN** ability and still use **CHARGE** abilities later in the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Wizard (1)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ],
+    [
+     "Brayherd",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Herd Alpha*",
+    "0-1 **BEAST**",
+    "Any **BRAYHERD**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "68be013b-c898-4554-ab00-aaeda347acde",
+   "name": {
+    "ja": "Herdstone",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "-"
+    ],
+    [
+     "体力",
+     "Health",
+     "14"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "-"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "Use model",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Entropic Lodestone",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "From the second battle round onwards, add 1 to the Rend characteristic of melee weapons used by friendly **BEASTS OF CHAOS** units while they are wholly within 24\" of this terrain feature.\n\nIf this terrain feature is wholly within 18\" of the centre of the battlefield, this ability affects all friendly **BEASTS OF CHAOS** units on the battlefield instead of those wholly within 24\" of it."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [
+    {
+     "name": {
+      "ja": "Unstable",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": ""
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This rule varies depending on the battlepack selected for your army:\n\n**General's Handbook 2024-25**\nModels **can** move across but **cannot** be set up on or end any type of move on any part of this terrain feature that is more than 1\" tall.\n\n**General's Handbook 2025-26**\nModels **can** move across but **cannot** be set up on or end any type of move on any part of this terrain feature that is more than 1\" tall.\n\n**General's Handbook 2026-27**\nModels can move across but cannot be set up on or end any type of move on any part of this terrain feature that is more than 1\" tall."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Cover",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": ""
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This rule varies depending on the battlepack selected for your army:\n\n**General's Handbook 2024-25**\nSubtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword.\n\n**General's Handbook 2025-26**\nSubtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword.\n\n**General's Handbook 2026-27**\nSubtract 1 from hit rolls for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit charged this turn or has the **FLY** keyword."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "keywords": [
+    [
+     "Faction Terrain",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):\n\nCover, Unstable"
+   }
+  },
+  {
+   "id": "bb9d34e3-a61e-4256-b96f-d80f5fdeb3da",
+   "name": {
+    "ja": "Jabberslythe",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 190,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Slythey Tongue",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "8\"",
+      "3",
+      "4+",
+      "2+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat",
+      "Companion"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Vorpal Claws and Tail",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Aura of Madness",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Roll a D3. On a 2+, pick up to a number of enemy units equal to the roll that are within 9\" of this unit to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the turn, each time the unmodified hit roll for a combat attack made by the target is 1, inflict 1 mortal damage on the target after the **FIGHT** ability has been resolved."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Monster",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "1ab21e97-0c46-4b88-9d12-e72be2ab4421",
+   "name": {
+    "ja": "Ravening Direflock",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "16\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "7+"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 3,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Murderous Beaks",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "5+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Multiple Parts",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "When a number of damage points equal to this **MANIFESTATION**’s Health characteristic are allocated to it, this **MANIFESTATION** is destroyed and all of its parts are removed from play.\n\nEach time this **MANIFESTATION** moves, each of its parts must end within 1\" of at least 1 other part.\n\nEach part of this **MANIFESTATION** is armed with **Murderous Beaks**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Harbingers of Dark Omens",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Subtract 5 from the control scores of enemy units while they are within 12\" of this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Manifestation",
+     ""
+    ],
+    [
+     "Endless Spell",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "65d30710-6611-49b8-aa88-23078e3a4132",
+   "name": {
+    "ja": "Razorgor",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "4"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 70,
+   "models": 1,
+   "base": "75 x 42mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Large Tusks and Hooves",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "4+",
+      "2+",
+      "-",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Charge (+1 Damage)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Beast",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit has a maximum control score of 1."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Feed On Mangled Remains",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Each time this unit uses a **FIGHT** ability, after that **FIGHT** ability has been resolved, **Heal (D3)** this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Beast",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "929baa4a-5cb6-48d5-874b-8b06d2290a66",
+   "name": {
+    "ja": "Tuskgor Chariots",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "7"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 110,
+   "models": 1,
+   "base": "105 x 70mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Despoiler Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (2 Hits)"
+     ]
+    },
+    {
+     "ja": "Tuskgors’ Iron-hard Tusks",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "5+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Tuskgor Charge",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "War Machine",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ],
+    [
+     "Brayherd",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "921f823c-54c5-4e65-8618-de8dce820642",
+   "name": {
+    "ja": "Ungor Raiders",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "1"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 90,
+   "models": 10,
+   "base": "25mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "Raider Bow",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "2",
+      "4+",
+      "5+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Jagged Shank",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "4+",
+      "5+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (2 Hits)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Hidden Volley",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit is in reserve **in ambush**, pick a non-**HERO** enemy unit within 12\" of a battlefield edge to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a number of dice equal to the number of models in this unit. For each 6, inflict 1 mortal damage on the target. Then, in your next movement phase, set up this unit on the battlefield using the ‘Beastherd Ambush’ ability. If it is not possible to do so, it is destroyed."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Musician (1/10)",
+     ""
+    ],
+    [
+     "Standard Bearer (1/10)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ],
+    [
+     "Brayherd",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "07aa3af7-d5b4-4ddd-ae51-69805fd8efed",
+   "name": {
+    "ja": "Ungors",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "1"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 90,
+   "models": 10,
+   "base": "25mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Gnarled Weapon",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "5+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (2 Hits)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Fleet of Hoof",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit is in combat, roll a dice. On a 3+, this unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Musician (1/10)",
+     ""
+    ],
+    [
+     "Standard Bearer (1/10)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ],
+    [
+     "Brayherd",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "70ec6a85-e44d-4bb5-a916-5a417094375f",
+   "name": {
+    "ja": "Wildfire Taurus",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "10"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "8+"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "105 x 70mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Taurine Horns",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "2",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Charge (+1 Damage)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Trail of Destruction",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a number of dice equal to the unmodified charge roll. For each 4+, inflict 1 mortal damage on the target. If any damage points are allocated to the target by this ability, the target has **STRIKE-LAST** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Manifestation",
+     ""
+    ],
+    [
+     "Endless Spell",
+     ""
+    ],
+    [
+     "Fly",
+     ""
+    ],
+    [
+     "Ward (6+)",
+     ""
+    ],
+    [
+     "Chaos",
+     ""
+    ],
+    [
+     "Beasts of Chaos",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  }
+ ]
+}

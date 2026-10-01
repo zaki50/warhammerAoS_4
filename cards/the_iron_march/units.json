@@ -1,0 +1,1436 @@
+{
+ "meta": {
+  "slug": "the_iron_march",
+  "kind": "faction",
+  "faction_en": "The Iron March",
+  "faction_ja": null,
+  "faction_slug": "the_iron_march",
+  "alliance": "Order",
+  "title_en": "The Iron March",
+  "title_ja": null,
+  "data_version": 483
+ },
+ "units": [
+  {
+   "id": "0c632405-8a16-4429-8437-11e6dfdcca1c",
+   "name": {
+    "ja": "Cannonade Cogfort",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "25"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "10"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 530,
+   "models": 1,
+   "base": "160mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Godbreaker Cannon",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "24\"",
+      "4",
+      "4+",
+      "2+",
+      "2",
+      "4"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Breacher Cannon",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "6",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)"
+     ]
+    },
+    {
+     "ja": "Crew’s Leadshotters",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "6",
+      "4+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Crushing Iron Feet（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "2+",
+      "2",
+      "4"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 10 or more damage points:\n• The Attacks characteristic of its **Crushing Iron Feet** is 3.\n• It has a Control characteristic of 5."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Full Power!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick 1 or more of the following effects. For each effect you pick, give this unit a number of **heat tokens** equal to the number beside it.\n\n***1 Launch Countermeasures!:*** Until the start of your next turn, subtract 1 from hit rolls for shooting attacks that target other friendly **SIGMARITE** units while they are wholly within 12\" of this unit and are **under orders**.\n\n***2 Full Throttle!:*** For the rest of the turn, this unit’s Move characteristic is 10\".\n\n***3 Calculate Firing Solution!:*** For the rest of the turn, each time this unit uses a **SHOOT** ability, you can re‑roll 1 hit roll and 1 wound roll for shooting attacks made with this unit’s **Godbreaker Cannon**.\n\n***6 Get Us Out of Here!:*** For the rest of the turn, this unit can use **SHOOT** abilities even if it used a **RETREAT** ability in the same turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Overheating",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Immediately after resolving this unit’s ‘Full Power!’ ability, you must roll a number of dice equal to the number of **heat tokens** this unit has. For each 5+, allocate 1 damage point to this unit (ward rolls cannot be made for those damage points), then remove 1 of this unit’s **heat tokens**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Special Ammunition",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Reaction: You declared a **SHOOT** ability for this unit"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit is **under orders**, roll a dice. On a 3+, pick 1 of the following effects.\n\n***Nullshot:*** Subtract 1 from ward rolls for damage points inflicted by attacks made with this unit’s **Godbreaker Cannon** this phase.&#x20;\n\n***Heavy Shot:*** Add 1 to the Rend characteristic of this unit’s **Godbreaker Cannon** this phase.\n\n***Grapeshot:*** After that **SHOOT** ability has been resolved, if all of the attacks made with this unit’s **Godbreaker Cannon** targeted the same enemy unit, inflict D3 mortal damage on each other enemy unit within that enemy unit’s combat range."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "War Machine",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Cities of Sigmar",
+     ""
+    ],
+    [
+     "Sigmarite",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Freeguild Veteran*",
+    "0-1 **THAUMATURGICAL SPECIALIST**",
+    "Any **SIGMARITE**",
+    "Any **ALLIES OF THE FREE CITIES**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "9d0a2d00-22f4-49b3-9c66-af03cefb4b93",
+   "name": {
+    "ja": "Conqueror Cogfort",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "25"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "10"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 420,
+   "models": 1,
+   "base": "160mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Crew’s Leadshotters",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "6",
+      "4+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    },
+    {
+     "ja": "Realmscorcher Flame Cannon",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "6D6",
+      "2+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Crushing Iron Feet（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "2+",
+      "2",
+      "4"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 10 or more damage points:\n• The Attacks characteristic of its **Crushing Iron Feet** is 3.\n• It has a Control characteristic of 5."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "All Aboard!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Deployment Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick up to 1 friendly **SIGMARITE INFANTRY HERO** and up to 1 friendly non‑**HERO SIGMARITE INFANTRY** unit that have not been deployed."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Set up those units in reserve as this unit’s **passengers**. They have now been deployed."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Deploy",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Full Charge!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick 1 or more of the following effects. For each effect you pick, give this unit a number of **heat tokens** equal to the number beside it.\n\n***1 Breaching Assist!:*** If this unit uses the ‘Sally Forth’ ability this turn, melee weapons used by the targets of that ability have **Charge (+1 Damage)** for the rest of the turn.\n\n***2 Full Throttle!:*** For the rest of the turn, this unit’s Move characteristic is 10\".\n\n***3 Repel Boarders!:*** For the rest of the turn, add 2 to the Attacks characteristic of this unit’s **Crew’s Leadshotters** and **Crushing Iron Feet**.\n\n***4 Disengage Safeties!:*** For the rest of the turn, the Attacks characteristic of this unit’s **Realmscorcher Flame Cannon** is 22.\n\n***6 Get Us Out of Here!:*** For the rest of the turn, this unit can use **SHOOT** abilities even if it used a **RETREAT** ability in the same turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Sally Forth",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Battle, Any Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit has not used a **RUN** ability this turn, pick this unit’s **passengers** to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Set up each target wholly within 6\" of this unit and either not in combat or within ½\" of an enemy unit. If a target is set up in combat, it has charged. Then, if this unit is not **under orders**, this unit and the targets are **under orders** for the rest of the battle round."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Overheating",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Immediately after resolving this unit’s ‘Full Charge!’ ability, you must roll a number of dice equal to the number of **heat tokens** this unit has. For each 5+, allocate 1 damage point to this unit (ward rolls cannot be made for those damage points), then remove 1 of this unit’s **heat tokens**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "War Machine",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Cities of Sigmar",
+     ""
+    ],
+    [
+     "Sigmarite",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Freeguild Veteran*",
+    "0-1 **THAUMATURGICAL SPECIALIST**",
+    "Any **SIGMARITE**",
+    "Any **ALLIES OF THE FREE CITIES**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "b2be8814-df70-49a3-8185-f2fa0fae5ed1",
+   "name": {
+    "ja": "Freeguild Gallants",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 110,
+   "models": 5,
+   "base": "28.5mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Weapons of Gallantry",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Break Them Upon the Walls",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit is **under orders**, the melee weapons of other visible friendly **SIGMARITE** units, excluding **Freeguild Gallants** units, have **Anti-charge (+1 Rend)** while they are wholly within 12\" of this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Not One Step Back",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit has not charged this turn, add 1 to the Attacks characteristic and Damage characteristic of this unit’s melee weapons."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Champion",
+     ""
+    ],
+    [
+     "Standard Bearer (1/5)",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Cities of Sigmar",
+     ""
+    ],
+    [
+     "Sigmarite",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "ac2d7ce0-1c3c-4dd8-9aba-8452998572d7",
+   "name": {
+    "ja": "Immolator Cogfort",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "25"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "10"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 510,
+   "models": 1,
+   "base": "160mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Crew’s Leadshotters",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "6",
+      "4+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    },
+    {
+     "ja": "Realmscorcher Flame Cannon",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "6D6",
+      "2+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)"
+     ]
+    },
+    {
+     "ja": "Breacher Cannon",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "6",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Crushing Iron Feet（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "2+",
+      "2",
+      "4"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 10 or more damage points:\n• The Attacks characteristic of its **Crushing Iron Feet** is 3.\n• It has a Control characteristic of 5."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Power to Maximum!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick 1 or more of the following effects to apply for the rest of the turn. For each effect you pick, give this unit a number of **heat tokens** equal to the number beside it.\n\n***1 Load Triple Shot!:*** This unit’s **Breacher Cannon** has **Crit (2 Hits)**.\n\n***1 Go, Go, Go!:*** When making charge rolls for this unit, add 1 to the number of dice rolled, to a maximum of 3, then remove 1 dice of your choice and use the remaining dice as the charge roll.\n\n***2 Get Us In There!:*** This unit’s **Crushing Iron Feet** have **Charge (+1 Damage)**.\n\n***3 Load Chain Shot!:*** Each time this unit uses a **SHOOT** ability, after that ability has been resolved, if any enemy models were slain by attacks made with this unit’s **Breacher Cannon**, for each model slain by those attacks, inflict 1 mortal damage on that model’s unit.\n\n***4 Disengage Safeties!:*** The Attacks characteristic of this unit’s **Realmscorcher Flame Cannon** is 22."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Overheating",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Immediately after resolving this unit’s ‘Power to Maximum!’ ability, you must roll a number of dice equal to the number of **heat tokens** this unit has. For each 5+, allocate 1 damage point to this unit (ward rolls cannot be made for those damage points), then remove 1 of this unit’s **heat tokens**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "War Machine",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Cities of Sigmar",
+     ""
+    ],
+    [
+     "Sigmarite",
+     ""
+    ],
+    [
+     "Iron March",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **Freeguild Gallants**"
+   ],
+   "notes_en": "This unit can only be taken in an Iron March Army of Renown",
+   "wargear": null
+  },
+  {
+   "id": "9a7c8d54-7536-43f4-9621-f5f15955dbc9",
+   "name": {
+    "ja": "Linebreaker Cogfort",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "25"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "10"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 450,
+   "models": 1,
+   "base": "160mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Godbreaker Cannon",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "24\"",
+      "4",
+      "4+",
+      "2+",
+      "2",
+      "4"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Crew’s Leadshotters",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "6",
+      "4+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Crushing Iron Feet（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "2+",
+      "2",
+      "4"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Battle Damaged",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 10 or more damage points:\n• The Attacks characteristic of its **Crushing Iron Feet** is 3.\n• It has a Control characteristic of 5."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Overheating",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Immediately after resolving this unit’s ‘Output to Maximum!’ ability, you must roll a number of dice equal to the number of **heat tokens** this unit has. For each 5+, allocate 1 damage point to this unit (ward rolls cannot be made for those damage points), then remove 1 of this unit’s **heat tokens**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Venture Forth",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Battle, Any Charge Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit has not used a Run ability this turn, pick this unit’s **passengers** to be the targets."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Set up each target wholly within 6\" of this unit and either not in combat or within ½\" of an enemy unit. If a target is set up in combat, it has charged. Then, if this unit is not **under orders**, this unit and the targets are **under orders** for the rest of the battle round."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Output to Maximum!",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick 1 or more of the following effects to apply for the rest of the turn. For each effect you pick, give this unit a number of **heat tokens** equal to the number beside it.\n\n***1 Trample Them to Dust!:*** This unit’s **Crushing Iron Feet** have **ANTI‑MONSTER (+1 Rend)**.\n\n***1 Go, Go, Go!:*** When making charge rolls for this unit, add 1 to the number of dice rolled, to a maximum of 3, then remove 1 dice of your choice and use the remaining dice as the charge roll.\n\n***2 Get Us In There!:*** This unit’s **Crushing Iron Feet** have **Charge (+1 Damage)**.\n\n***2 Load Heavy Shot!:*** Add 1 to the Rend characteristic of this unit’s **Godbreaker Cannon**, but all of this unit’s attacks made with that weapon this turn must target the same enemy unit.\n\n***2 Full Throttle!:*** This unit’s Move characteristic is 10\"."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Ride to Glory",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Deployment Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick up to 1 friendly **IRON MARCH INFANTRY HERO** and up to 1 friendly non‑**HERO IRON MARCH INFANTRY** unit that have not been deployed."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Set up those units in reserve as this unit’s **passengers**. They have now been deployed."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Deploy",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "War Machine",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Cities of Sigmar",
+     ""
+    ],
+    [
+     "Sigmarite",
+     ""
+    ],
+    [
+     "Iron March",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **Freeguild Gallants**"
+   ],
+   "notes_en": "This unit can only be taken in an Iron March Army of Renown",
+   "wargear": null
+  },
+  {
+   "id": "074fccaf-31e5-4a57-8654-0cce5f31f748",
+   "name": {
+    "ja": "Mallus Forgepriest",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "5\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": 130,
+   "models": 1,
+   "base": "28.5mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Meteoric Warhammer",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Crit (Auto-wound)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Consecrate the Land",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an objective you control that this unit is contesting to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "If there are no enemy units contesting the target objective, it is considered by you to be **consecrated**. Otherwise, roll a dice. On a 3+, the target objective is considered by you to be **consecrated**.\n\nWhile they are wholly within 6\" of a **consecrated** objective and **under orders**:\n• Friendly non-**WAR MACHINE SIGMARITE** units have **WARD (5+)**.\n• Friendly **SIGMARITE WAR MACHINES** have **WARD (6+)**.\n\nIf your opponent gains control of a **consecrated** objective, it is no longer **consecrated**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Hero",
+     ""
+    ],
+    [
+     "Priest (1)",
+     ""
+    ],
+    [
+     "Infantry",
+     ""
+    ],
+    [
+     "Order",
+     ""
+    ],
+    [
+     "Cities of Sigmar",
+     ""
+    ],
+    [
+     "Sigmarite",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 **WAR MACHINE** **SIGMARITE**",
+    "Any **SIGMARITE** **INFANTRY**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Thaumaturgical Specialist*.",
+   "wargear": null
+  }
+ ]
+}

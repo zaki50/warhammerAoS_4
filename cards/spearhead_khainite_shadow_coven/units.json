@@ -1,0 +1,626 @@
+{
+ "meta": {
+  "slug": "spearhead_khainite_shadow_coven",
+  "kind": "spearhead",
+  "faction_en": "Daughters of Khaine",
+  "faction_ja": "ドーター・オヴ・カイン",
+  "faction_slug": "daughters_of_khaine",
+  "alliance": null,
+  "title_en": "Khainite Shadow Coven",
+  "title_ja": "カインの闇盟約団",
+  "data_version": 483
+ },
+ "units": [
+  {
+   "id": "e83005ba-ab27-47e9-917a-80247d287a5f",
+   "name": {
+    "ja": "ブラッドラック・メデューサ",
+    "en": "Bloodwrack Medusa",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "8\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "ブラッドラックの槍",
+     "en": "Bloodwrack Spear",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "滅血の眼光",
+      "en": "Exsanguinating Glare",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "自軍側遠隔フェイズ",
+       "en": "Your Shooting Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットが近接戦闘中である場合、自身が近接戦闘中である敵ユニットを1個選択する。それ以外の場合、自身の12mv以内に一部でも入っており、かつ自身から視認状態である敵ユニットを1個選択する。",
+       "en": "If this unit is in combat, pick an enemy unit in combat with it to be the target. Otherwise, pick a visible enemy unit within 12\" of it to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "ダイスを1個ロールする。ロール結果が3+であれば、選択された敵ユニットは1ポイントの致命的ダメージを受ける。その致命的ダメージによって1体以上の敵兵が撃破されていた場合、その敵ユニットは追加で1ポイントの致命的ダメージを受ける。",
+       "en": "Roll a dice. On a 3+, inflict 1 mortal damage on the target. Then, if any enemy models were slain by that mortal damage, inflict an additional 1 mortal damage on the target.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "魔術師（1）",
+     "Wizard (1)"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "3196ba48-ea01-4958-a82c-bcc6c2fe248b",
+   "name": {
+    "ja": "ハグクィーン",
+    "en": "Hag Queen",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "25mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "カインの刃",
+     "en": "Blade of Khaine",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "血の教唆",
+      "en": "Bloody Incitement",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "任意の近接フェイズ",
+       "en": "Any Combat Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方ユニットを1個選択する。",
+       "en": "Pick a visible friendly unit wholly within 12\" of this unit to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットが近接戦闘中である場合、そのターン中、選択された味方ユニットが装備している近接武器は**クリティカル（自動ウーンズ）**を得る。\nこのユニットが近接戦闘中ではない場合、ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された味方ユニットが装備している近接武器は**クリティカル（自動ウーンズ）**を得る。",
+       "en": "If this unit is in combat, the target’s melee weapons have **Crit (Auto-wound)** for the rest of the turn.\n\nIf this unit is not in combat, roll a dice. On a 3+, the target’s melee weapons have **Crit (Auto-wound)** for the rest of the turn.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "神官（1）",
+     "Priest (1)"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "bfb0a970-f03a-44a4-b686-0c0101462881",
+   "name": {
+    "ja": "カイナイト・シャドウストーカー",
+    "en": "Khainite Shadowstalkers",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "1"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 9,
+   "base": "40mm [1], 28.5mm [8]",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "呪われた矢弾",
+     "en": "Cursed Bolts and Missiles",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "2",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "殺人の刃",
+     "en": "Blades of Murder",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "影への跳躍",
+      "en": "Shadow Leap",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "バトル中1回限り、自軍側移動フェイズ",
+       "en": "Once Per Battle, Your Movement Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットを戦場から取り除き、あらゆる敵ユニットから6mvより遠く離れた戦場の位置に再配置する。",
+       "en": "Remove this unit from the battlefield and set it up again on the battlefield more than 6\" from all enemy units.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "d359fd1a-14ac-41a6-9942-efcdb3ce5fb4",
+   "name": {
+    "ja": "シスター・オヴ・スローター",
+    "en": "Sisters of Slaughter",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "1"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 10,
+   "base": "25mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "クルイプラッシュ",
+     "en": "Kruiplash",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "死の舞踏",
+      "en": "Dance of Death",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、敵軍側近接フェイズ",
+       "en": "Once Per Turn (Army), Enemy Combat Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットが近接戦闘中である場合、このユニットは2D6mv移動できる。その移動中、敵ユニットの近接範囲内を通り抜けることができるが、近接戦闘に突入するように移動を完了しなければならない。",
+       "en": "If this unit is in combat, it can move 2D6\". It can move through the combat ranges of enemy units but must end that move in combat.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "増援",
+     "Reinforcements"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "7f3514b7-d0c5-47e4-8dc1-1df252f383ad",
+   "name": {
+    "ja": "スロータークィーン（コルドロン・オヴ・ブラッド搭乗）",
+    "en": "Slaughter Queen on Cauldron of Blood",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "祭壇守護者の刃",
+     "en": "Shrine Guardians’ Blades",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "9",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "聖なる激情",
+      "en": "Consecrated Revulsion",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "自軍側ヒーローフェイズ",
+       "en": "Your Hero Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**歩兵**・ユニットを1個選択する。",
+       "en": "Pick a visible friendly **INFANTRY** unit wholly within 12\" of this unit to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された味方ユニットはセーブロールに+1の修正を受ける。",
+       "en": "Roll a dice. On a 3+, add 1 to save rolls for the target until the start of your next turn.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "神官（1）",
+     "Priest (1)"
+    ],
+    [
+     "戦闘兵器",
+     "War Machine"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  }
+ ]
+}

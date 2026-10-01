@@ -44,6 +44,7 @@ bash $SKILL -s 46221FDAP000JD
 - `--no-fetch` … dump.json の取得をスキップし、既存 `dump.json` から再生成のみ行う
 - `--fetch-only` … dump.json の取得だけ行い、再生成しない
 - `-s, --serial <serial>` … `fetch-dump` に渡す adb serial（端末が複数のとき）
+- `--no-cards` … ウォースクロールカード（`cards/`）の再生成を省く
 
 ## 処理内容
 
@@ -65,6 +66,7 @@ bash $SKILL -s 46221FDAP000JD
 7. **訳ファイルの確認** … `check-translations` を走らせ、`official_translations/` /
    `own_translations/` のうち参照されなくなった訳（ユニットの削除・改名など）を表示する。
    表示だけで失敗扱いにはしないので、出ていたら訳ファイルを直す。
+8. **ウォースクロールカード** … `cards/make.py --all` で全組の HTML と PDF（Dropbox）を作り直し、`--check` ではみ出しを確認する（`cards/README.md`）
 
 AoS の dump.json は英語のみのため、40k 版のような言語方針（`--lang`）は無い。
 

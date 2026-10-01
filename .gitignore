@@ -8,3 +8,8 @@ apk_archive/
 # Python バイトコード
 __pycache__/
 *.pyc
+
+# ウォースクロールカード: 画像 (GW の著作物・大容量) と PDF はリポジトリに入れない
+cards/bannerImages/
+cards/rowImages/
+cards/**/*.pdf

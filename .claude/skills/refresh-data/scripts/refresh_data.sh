@@ -8,6 +8,7 @@
 #   refresh_data.sh --no-fetch      # dump.json 取得をスキップし再生成のみ
 #   refresh_data.sh --fetch-only    # dump.json 取得のみ (再生成しない)
 #   refresh_data.sh -s <serial>     # fetch-dump に adb serial を渡す (端末が複数のとき)
+#   refresh_data.sh --no-cards      # ウォースクロールカード (cards/) の再生成を省く
 set -euo pipefail
 
 # --- リポジトリルートを自身の位置から導出 ---
@@ -16,13 +17,14 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 ROOT="$(cd "$SCRIPT_DIR/../../../.." && pwd)"
 cd "$ROOT"
 
-FETCH=1; REGEN=1; SERIAL=""
+FETCH=1; REGEN=1; CARDS=1; SERIAL=""
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --no-fetch)   FETCH=0; shift;;
     --fetch-only) REGEN=0; shift;;
+    --no-cards)   CARDS=0; shift;;
     -s|--serial)  SERIAL="$2"; shift 2;;
-    -h|--help)    sed -n '2,10p' "$0" | sed 's/^# \{0,1\}//'; exit 0;;
+    -h|--help)    sed -n '2,11p' "$0" | sed 's/^# \{0,1\}//'; exit 0;;
     *) echo "不明な引数: $1" >&2; exit 1;;
   esac
 done
@@ -108,5 +110,12 @@ fi
 echo "=== 訳ファイルの確認 (check-translations) ==="
 python3 .claude/skills/check-translations/scripts/check_translations.py --dump dump.json \
   | sed 's/^/  /' || echo "  NG(ct)"
+
+# --- 8. ウォースクロールカード (cards/。HTML と Dropbox の PDF) ---
+if [[ $CARDS -eq 1 ]]; then
+  echo "=== ウォースクロールカード (cards/make.py --all) ==="
+  python3 cards/make.py --all 2>&1 | tail -2 | sed 's/^/  /' || echo "  NG(cards)"
+  python3 cards/make.py --check 2>&1 | tail -1 | sed 's/^/  /' || echo "  NG(cards check)"
+fi
 
 echo "=== 完了 ==="

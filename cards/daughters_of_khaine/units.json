@@ -1,0 +1,5766 @@
+{
+ "meta": {
+  "slug": "daughters_of_khaine",
+  "kind": "faction",
+  "faction_en": "Daughters of Khaine",
+  "faction_ja": "ドーター・オヴ・カイン",
+  "faction_slug": "daughters_of_khaine",
+  "alliance": "Order",
+  "title_en": "Daughters of Khaine",
+  "title_ja": null,
+  "data_version": 483
+ },
+ "units": [
+  {
+   "id": "0ab7faae-95d2-4e7f-9d2d-66683a02876f",
+   "name": {
+    "ja": "カインの化身",
+    "en": "Avatar of Khaine",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "7"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "7+"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "血塗れの手を持つ神の刃",
+     "en": "Blade of the Bloody‑Handed God",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "殺戮神の化身",
+      "en": "Lord of Murder Incarnate",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "この**顕現**は自身があたかもユニットであるかのように、『カインの祝福』アビリティの効果を受ける。",
+       "en": "This **MANIFESTATION** is affected by the ‘Blessings of Khaine’ ability as if it were a unit.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "カインの憤怒",
+      "en": "Wrath of Khaine",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "この**顕現**が装備している近接武器は、【攻撃回数】に**X**の修正を受ける。Xの値は、このバトル中に使用した『カインの祝福』アビリティの回数に等しい（最大値3）。",
+       "en": "Add **X** to the Attacks characteristic of this **MANIFESTATION**’s melee weapons, where **X** is the number of times you have used the ‘Blessings of Khaine’ ability this battle, to a maximum of 3.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "顕現",
+     "Manifestation"
+    ],
+    [
+     "永久呪文",
+     "Endless Spell"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "11f165d4-5077-4145-927a-2a276f02b68f",
+   "name": {
+    "ja": "血刃乱舞",
+    "en": "Bladewind",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "7"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "7+"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "50mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "刃ありし大渦",
+     "en": "Bladed Vortex",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "9",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "この世ならざる切れ味",
+      "en": "Unnatural Edge",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "任意の近接フェイズ",
+       "en": "Any Combat Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "この**顕現**がこのターン中に突撃していた場合、この顕現と近接戦闘中である敵ユニットを1個選択する。",
+       "en": "If this **MANIFESTATION** charged this turn, pick an enemy unit in combat with it to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このフェイズ中、この**顕現**のメレーアタックによって選択された敵ユニットに1ポイント以上のダメージが割り振られた場合、以降バトル終了時まで、その敵ユニットは加護ロールができなくなる。",
+       "en": "If any damage points are allocated to the target this phase by this **MANIFESTATION’**&#x73; combat attacks, ward rolls cannot be made for the target for the rest of the battle.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "顕現",
+     "Manifestation"
+    ],
+    [
+     "永久呪文",
+     "Endless Spell"
+    ],
+    [
+     "飛行",
+     "Fly"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "524a9b9c-6586-4ddc-aaf5-f329e665631d",
+   "name": {
+    "ja": "ブラッドハグ",
+    "en": "Blood Hags",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "1"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 150,
+   "models": 10,
+   "base": "28.5mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "キライチ",
+     "en": "Ki’raich",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "1",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "ヴァルスライ",
+     "en": "Valthrai",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "嗜虐の番人",
+      "en": "Wicked Wardens",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットが味方**ハグクィーン（コルドロン・オヴ・ブラッド搭乗）**または**スロータークィーン（コルドロン・オヴ・ブラッド搭乗）**、**闇供物の祭壇**のいずれかの12mv以内に全体が入っている間、このユニットが装備している近接武器は**対突撃（+1貫通値）**を得る。",
+       "en": "While this unit is wholly within 12\" of a friendly **Hag Queen on Cauldron of Blood**, **Slaughter Queen on Cauldron of Blood** or **Shrine of Dark Tribute**, this unit’s melee weapons have **Anti‑charge (+1 Rend)**.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "鮮血の供物",
+      "en": "Crimson Offerings",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、リアクション：自軍側が『カインの祝福』アビリティを宣言",
+       "en": "Once Per Turn (Army), Reaction: You declared the ‘Blessings of Khaine’ ability",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このターン中、このユニットのメレーアタックによって敵ユニットが全滅していた場合、そのアビリティを解決するとき、祝福を1つではなく2つ選択してもよい。",
+       "en": "If an enemy unit was destroyed by this unit’s combat attacks this turn, when resolving that ability, you can pick 2 blessings instead of 1.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "豪傑",
+     "Champion (1/10)"
+    ],
+    [
+     "旗手（1/10）",
+     "Standard Bearer (1/10)"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ],
+    [
+     "アエルフ",
+     "Aelf"
+    ]
+   ],
+   "keyword_fix": {
+    "Champion (1/10)": [
+     [
+      "豪傑",
+      "豪傑（1/10）"
+     ]
+    ]
+   },
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "4a08f646-90ee-4861-ac36-b7878e428e66",
+   "name": {
+    "ja": "ブラッドシスター",
+    "en": "Blood Sisters",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "8\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 170,
+   "models": 5,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "心臓片の薙刀",
+     "en": "Heartshard Glaive",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [
+      "クリティカル（致命的）"
+     ],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "結晶化",
+      "en": "Crystal Touch",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+       "en": "Once Per Turn (Army), Any Combat Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットと近接戦闘中である敵**歩兵**または**騎兵**・ユニットを1個選択する。",
+       "en": "Pick an enemy **INFANTRY** or **CAVALRY** unit in combat with this unit to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "ダイスを1個ロールする。ロール結果が選択された敵ユニットの【体力】以下である場合、そのターン中、選択された敵ユニットは『**後手効果**』を得る。",
+       "en": "Roll a dice. If the roll is equal to or less than the target’s Health characteristic, the target has **STRIKE-LAST** for the rest of the turn.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "豪傑",
+     "Champion"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "67a433df-9943-46e3-ad0a-2f9ac9937851",
+   "name": {
+    "ja": "ブラッドストーカー",
+    "en": "Blood Stalkers",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "8\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 150,
+   "models": 5,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "心臓探しの弓",
+     "en": "Heartseeker Bow",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "3",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [
+      "クリティカル（自動ウーンズ）"
+     ],
+     "abil_en": [
+      "Crit (Auto-wound)"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "シアンラー",
+     "en": "Scianlar",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "逆刺の矢じり",
+      "en": "Barbed Arrows",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、リアクション：このユニットが『遠隔攻撃』アビリティを宣言",
+       "en": "Once Per Turn (Army), Reaction: You declared a **SHOOT** ability for this unit",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "その『**遠隔攻撃**』アビリティが解決された直後に、このユニットのすべての攻撃が同一の敵ユニットを対象にしていた場合、ダイスを1個ロールする。このターン中に自身以外の味方**ブラッドストーカー**・ユニットが1個でも、そのレンジアタックのすべての攻撃の対象に、その敵ユニットを選んでいたならば、そのロールは+1の修正を受ける。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された敵ユニットが用いる突撃ロールのダイス個数は1減算される（この効果により、ロールするダイスが1個を下回ることはない）。",
+       "en": "After that **SHOOT** ability has been resolved, if all of this unit’s attacks targeted the same enemy unit, roll a dice. Add 1 to the roll if any other friendly **Blood Stalkers** units picked that enemy unit to be the target of all of their shooting attacks this turn. On a 3+, until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "豪傑",
+     "Champion"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "540409a3-c2c0-46d6-9f00-7364193fa7d1",
+   "name": {
+    "ja": "ブラッドラック・メデューサ",
+    "en": "Bloodwrack Medusa",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "8\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 140,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "ブラッドラック・スピア",
+     "en": "Bloodwrack Spear and Whisperclaw",
+     "own": false,
+     "fix": [
+      [
+       "ブラッドラック・スピア",
+       "ブラッドラック・スピアとウィスパークロウ"
+      ]
+     ],
+     "note": [
+      "英語版の武器名は Bloodwrack Spear and Whisperclaw。日本語版（書籍 p.65、陣営パックのメデューサのページも同じ）は「ウィスパークロウ」が抜けている。ブラッドラック・シュラインの旧データシート（陣営パック）では「ブラッドラック・スピアとウィスパークロウ」だった。"
+     ],
+     "v": [
+      "5",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [
+      "クリティカル（致命的）"
+     ],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "滅血の眼光",
+      "en": "Exsanguinating Glare",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+       "en": "Once Per Turn (Army), Your Shooting Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットが近接戦闘中である場合、このユニットと近接戦闘中である敵ユニットを1個選択する。このユニットが近接戦闘中ではない場合、自身の12mv以内に一部でも入っており、かつ自身から視認状態である敵ユニットを1個選択する。",
+       "en": "If this unit is in combat, pick an enemy unit in combat with it to be the target. If this unit is not in combat, pick a visible enemy unit within 12\" of it to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "D3を1個ロールする。ロール結果が2+であれば、選択された敵ユニットはロール結果に等しい数の致命的ダメージを受ける。その致命的ダメージによって1体以上の敵兵が撃破された場合、敵ユニットは自身の【体力】に等しい数の致命的ダメージを受ける。",
+       "en": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Then, if any enemy models were slain by that mortal damage, inflict an amount of mortal damage on the target equal to its Health characteristic.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "魔力の共鳴",
+      "en": "Arcane Resonance",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットが『**召喚**』アビリティを使用する際、このユニットは詠唱ロールに+1の修正を受ける。さらに、このユニットは追放ロールに+1の修正を受ける。",
+       "en": "Add 1 to casting rolls for this unit when it uses a **SUMMON** ability and add 1 to banishment rolls for this unit.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "高位",
+     "kw_en": "Exalted",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "魔術師（1）",
+     "Wizard (1)"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any non-**AELF**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "3065234d-3c32-427c-8683-0ba62ae8292c",
+   "name": {
+    "ja": "ブラッドラック・シュライン",
+    "en": "Bloodwrack Shrine",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 270,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "ブラッドラックの視線",
+     "en": "Bloodwrack Stare",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "15\"",
+      "4",
+      "3+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [
+      "クリティカル（2ヒット）",
+      "近接射撃"
+     ],
+     "abil_en": [
+      "Crit (2 Hits)",
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "祭壇守護者の刃",
+     "en": "Shrine Guardians’ Blades",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "9",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "血痙鎖縛",
+      "en": "Agonising Spasms",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "リアクション：このユニットが『遠隔攻撃』アビリティを宣言",
+       "en": "Reaction: You declared a **SHOOT** ability for this unit",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "その『**遠隔攻撃**』アビリティが解決された直後に、このユニット『**遠隔攻撃**』アビリティのすべての攻撃が同じ敵ユニットを対象にしており、それらの攻撃によって1体以上の敵兵が撃破された場合、ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、その敵ユニットは最大1の確保スコアを持つ。",
+       "en": "After that **SHOOT** ability has been resolved, if all of this unit’s attacks made as part of that **SHOOT** ability targeted the same enemy unit and any enemy models were slain by those attacks, roll a dice. On a 3+, that enemy unit has a maximum control score of 1 for the rest of the turn.",
+       "fix": [
+        [
+         "このユニット『**遠隔攻撃**』",
+         "このユニットの『**遠隔攻撃**』"
+        ]
+       ]
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": [
+      "書籍 p.64 の「このユニット『遠隔攻撃』」は「の」が抜けている（誤植）。"
+     ]
+    },
+    {
+     "name": {
+      "ja": "殺戮の才",
+      "en": "Born of Slaughter",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "自軍側ヒーローフェイズ",
+       "en": "Your Hero Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "戦場に配置されている味方**アヴァター・オヴ・カイン**の個数が、戦場に配置されている味方**ブラッドラック・シュライン**の個数よりも少ない場合、2D6の詠唱ロールをする。",
+       "en": "If there are fewer friendly **Avatars of Khaine** on the battlefield than there are friendly **Bloodwrack Shrines** on the battlefield, make a casting roll of 2D6.",
+       "fix": [
+        [
+         "**アヴァター・オヴ・カイン**",
+         "**カインの化身**"
+        ]
+       ]
+      },
+      "effect": {
+       "ja": "詠唱者の12mv以内に全体が入るように、かつ詠唱者から視認状態になるように、なおかつあらゆる敵ユニットから9mvより遠く離れた位置に**カインの化身**を1個配置する。",
+       "en": "Set up an **Avatar of Khaine** wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "呪文、召喚",
+     "kw_en": "Summon, Spell",
+     "cast": 6,
+     "cp": null,
+     "note": [
+      "書籍 p.64 は宣言で「アヴァター・オヴ・カイン」、効果とユニット名では「カインの化身」と書いており、同じユニットの名前が揺れている（「アヴァター・オヴ・カイン」は書籍 p.73 のルビ）。"
+     ]
+    },
+    {
+     "name": {
+      "ja": "苦痛のオーラ",
+      "en": "Aura of Agony",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+       "en": "Once Per Turn (Army), Your Hero Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "次の自軍側ターン開始時まで、\n• このユニットの12mv以内に一部でも入るように敵**顕現**を配置することはできない。\n• 効果:このユニットは『**呪文**』や『**奇蹟**』アビリティ、そして『**顕現**』が使用するアビリティから与えられる致命的ダメージに対して**加護（4+）**を持つ。",
+       "en": "Until the start of your next turn:\n\n• Enemy **MANIFESTATIONS** cannot be set up within 12\" of this unit.\n• This unit has **WARD (4+)** against mortal damage inflicted by **SPELL** abilities, **PRAYER** abilities and abilities used by **MANIFESTATIONS**.",
+       "fix": [
+        [
+         "• 効果:このユニットは",
+         "• このユニットは"
+        ]
+       ]
+      }
+     },
+     "own": false,
+     "kw_ja": "高位",
+     "kw_en": "Exalted",
+     "cast": null,
+     "cp": null,
+     "note": [
+      "書籍 p.64 の 2 つ目の項目の先頭にある「効果:」は余分（誤植）。"
+     ]
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "戦闘兵器",
+     "War Machine"
+    ],
+    [
+     "魔術師（2）",
+     "Wizard (2)"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any non-**AELF**",
+    "0-1 *Coven Matriarch*"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "a99a117d-e816-4a4c-8dca-0e4e6060c196",
+   "name": {
+    "ja": "血荒らしの毒蛇",
+    "en": "Bloodwrack Viper",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "9\""
+    ],
+    [
+     "体力",
+     "Health",
+     "10"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "7+"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "100mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "牙の一撃",
+     "en": "Fanged Strikes",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "4+",
+      "2+",
+      "1",
+      "3"
+     ],
+     "abil_ja": [
+      "対英雄（+1貫通値）",
+      "クリティカル（致命的）"
+     ],
+     "abil_en": [
+      "Anti-HERO (+1 Rend)",
+      "Crit (Mortal)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "圧倒するとぐろ",
+      "en": "Crushing Coils",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "任意の近接フェイズ",
+       "en": "Any Combat Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "この**顕現**と近接戦闘中である敵**英雄**または**大型獣**を1体選択する。",
+       "en": "Pick an enemy **HERO** or **MONSTER** in combat with this **MANIFESTATION** to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、その敵ユニットは『**後手効果**』を得る。",
+       "en": "Roll a dice. On a 3+, the target has **STRIKE-LAST** for the rest of the turn.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "蜷局の一噛み",
+      "en": "Bind and Bite",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットのメレーアタックは、『**後手効果**』を有する敵に対して、修正前の出目4+のヒットロールでクリティカルヒットする。",
+       "en": "This unit’s combat attacks score critical hits on unmodified hit rolls of 4+ if the target of those attacks has **STRIKE-LAST**.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "顕現",
+     "Manifestation"
+    ],
+    [
+     "永久呪文",
+     "Endless Spell"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "8b0179b0-5f7f-441a-865d-83bc6f228291",
+   "name": {
+    "ja": "ドゥームファイア・ウォーロック",
+    "en": "Doomfire Warlocks",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "14\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 150,
+   "models": 5,
+   "base": "60 x 35mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "ドゥームファイア・クロスボウ",
+     "en": "Doomfire Crossbow",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "2",
+      "3+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "呪われし曲刀",
+     "en": "Cursed Scimitar",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "ダークスティードの猛烈な噛みつき",
+     "en": "Dark Steed’s Vicious Bite",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "5+",
+      "3+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [
+      "随行者"
+     ],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "超絶駆動",
+      "en": "Outmanoeuvre",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "When this unit uses the ‘Redeploy’ command, if you roll a 1-3 when determining the distance this unit can move, you can use a value of 4 instead."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "魔術師（1）",
+     "Wizard (1)"
+    ],
+    [
+     "Cavalry",
+     ""
+    ],
+    [
+     "豪傑",
+     "Champion"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ],
+    [
+     "アエルフ",
+     "Aelf"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit will move to Warhammer Legends on 1 June 2027.",
+   "wargear": null
+  },
+  {
+   "id": "ec73d083-ac64-4464-ade6-0f99612ae413",
+   "name": {
+    "ja": "Gryselle’s Arenai",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 70,
+   "models": 5,
+   "base": "32mm [1], 28.5mm [4]",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Gladiatorial Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [
+      "クリティカル（自動ウーンズ）"
+     ],
+     "abil_en": [
+      "Crit (Auto-wound)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Acrobatic Bloodshed",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the turn, while this unit is in combat with the target, its combat attacks must target that enemy unit. In addition, if any of this unit’s attacks score a critical hit on the target this phase, the target has **STRIKE-LAST** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "固有",
+     "Unique"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "豪傑",
+     "Champion"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ],
+    [
+     "アエルフ",
+     "Aelf"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit cannot be reinforced.",
+   "wargear": {
+    "ja": "",
+    "en": "***Each model in this unit is armed with Gladiatorial Weapons. The models in this unit are:***\n\n• ***Gryselle, the Slaughterer** (champion)*\n• ***Thrialla, the Lash***\n• ***Retaria, the Entangler***\n• ***Kalexis, the Silvered Blur***\n• ***Traxya, the Aegis***"
+   }
+  },
+  {
+   "id": "3ed9f7f5-e1a1-4d50-ad9f-be3e34b58cd0",
+   "name": {
+    "ja": "ハグクィーン",
+    "en": "Hag Queen",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 120,
+   "models": 1,
+   "base": "25mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "カインの刃",
+     "en": "Blade of Khaine",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "血の教義",
+      "en": "Catechisms of Violence",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+       "en": "Once Per Turn (Army), Any Combat Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このターン中、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**ドーター・オヴ・カイン**・ユニットが**『近接攻撃』**アビリティを使用するたびに、そのアビリティが解決された直後に、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**ドーター・オヴ・カイン・神官**を1体選択する。その**神官**は1儀式ポイントを獲得する。",
+       "en": "For the rest of the turn, each time a visible friendly **DAUGHTERS OF KHAINE** unit wholly within 12\" of this unit uses a **FIGHT** ability, after that ability has been resolved, you can pick a visible friendly **DAUGHTERS OF KHAINE PRIEST** wholly within 12\" of this unit. That **PRIEST** gains 1 ritual point.",
+       "fix": [
+        [
+         "神官**を1体選択する",
+         "神官**を1体選択してもよい"
+        ]
+       ]
+      }
+     },
+     "own": false,
+     "kw_ja": "高位",
+     "kw_en": "Exalted",
+     "cast": null,
+     "cp": null,
+     "note": [
+      "英語版は「選択してもよい」（you can pick）。日本語版（書籍 p.61）は「選択する」で、選択が必須のように読める。"
+     ]
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "神官（1）",
+     "Priest (1)"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ],
+    [
+     "アエルフ",
+     "Aelf"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Coven Matriarch*",
+    "Any **AELF**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Coven Matriarch*.",
+   "wargear": null
+  },
+  {
+   "id": "a1bcdfee-596c-4dbb-b9e0-a66de62fa841",
+   "name": {
+    "ja": "ハグクィーン（コルドロン・オヴ・ブラッド搭乗）",
+    "en": "Hag Queen on Cauldron of Blood",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 280,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "祭壇守護者の刃",
+     "en": "Shrine Guardians’ Blades",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "9",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "化身の剣",
+     "en": "Avatar’s Sword",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [
+      "随行者"
+     ],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "荒ぶる偶像",
+      "en": "Roaring Idol",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+       "en": "Once Per Turn (Army), Your Hero Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットの12mv以内に全体が入っている味方**ドーター・オヴ・カイン・顕現**を1個選択する。",
+       "en": "Pick a friendly **DAUGHTERS OF KHAINE MANIFESTATION** wholly within 12\" of this unit to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、敵ユニットは使用する**『追放』**アビリティの対象として、選択された味方顕現を選ぶことはできない。",
+       "en": "Roll a dice. On a 3+, the target cannot be picked to be the target of **BANISH** abilities used by enemy units until the start of your next turn.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "憤然とした反撥",
+      "en": "Wrathful Repulsion",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+       "en": "Once Per Turn (Army), Any Combat Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態であり、なおかつこのターン中に突撃していた敵ユニットと近接戦闘中である味方**ドーター・オヴ・カイン**・ユニットを1個選択する。1個以上の味方**スロータークィーン**（**コルドロン・オヴ・ブラッド搭乗**）が戦場に配置されている場合、選択可能な味方ユニットをもう1個選択してもよい。",
+       "en": "Pick a visible friendly **DAUGHTERS OF KHAINE** unit that is wholly within 12\" of this unit and is in combat with an enemy unit that charged this turn to be the target. If there are any friendly **Slaughter Queens on Cauldrons of Blood** on the battlefield, you can pick another eligible unit to be a second target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "そのターン中、選択された味方ユニットは**加護（5+）**を持つ。",
+       "en": "The targets have **WARD (5+)** for the rest of the turn.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "高位",
+     "kw_en": "Exalted",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "神官（1）",
+     "Priest (1)"
+    ],
+    [
+     "戦闘兵器",
+     "War Machine"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ],
+    [
+     "アエルフ",
+     "Aelf"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Coven Matriarch*",
+    "Any **AELF**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "4cefa477-9922-4ebf-b454-2ccea8ae55e3",
+   "name": {
+    "ja": "憤怒の心臓",
+    "en": "Heart of Fury",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "-"
+    ],
+    [
+     "体力",
+     "Health",
+     "7"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "7+"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "50mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [],
+   "abilities": [
+    {
+     "name": {
+      "ja": "殺戮神の力の座",
+      "en": "Locus of the Murder God",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "味方**ドーター・オヴ・カイン・歩兵**・ユニットがこの**顕現**の12mv以内に全体が入っている間、その味方ユニットを対象とする攻撃はウーンズロールに-1の修正を受ける。",
+       "en": "Subtract 1 from wound rolls for attacks that target friendly **DAUGHTERS OF KHAINE INFANTRY** units while they are wholly within 12\" of this **MANIFESTATION**.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "顕現",
+     "Manifestation"
+    ],
+    [
+     "永久呪文",
+     "Endless Spell"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "0db86c49-6caf-4db9-8dfa-5a3a6a924fa6",
+   "name": {
+    "ja": "ハイ・グラディアトリックス",
+    "en": "High Gladiatrix",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 120,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "有棘の鞭と剣闘士の剣",
+     "en": "Barbed Whip and Gladiatrix’s Blade",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "虐殺の模範",
+      "en": "Paragon of Slaughter",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+       "en": "Once Per Turn (Army), Your Hero Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**ドーター・オヴ・カイン・歩兵**・ユニットを1個選択する。",
+       "en": "Pick a visible friendly **DAUGHTERS OF KHAINE INFANTRY** unit wholly within 12\" of this unit to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットが近接戦闘中である場合、そのターン中、選択された味方ユニットが装備している近接武器は【貫通値】に+1の修正を受ける。\nこのユニットが近接戦闘中ではない場合、ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された味方ユニットが装備している近接武器は【貫通値】に+1の修正を受ける。",
+       "en": "If this unit is in combat, add 1 to the Rend characteristic of the target’s melee weapons for the rest of the turn.\n\nIf this unit is not in combat, roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s melee weapons for the rest of the turn.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "高位",
+     "kw_en": "Exalted",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ],
+    [
+     "アエルフ",
+     "Aelf"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **AELF**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Coven Matriarch*.",
+   "wargear": null
+  },
+  {
+   "id": "b786beea-9634-4a2a-b458-1f63b8a6c0f6",
+   "name": {
+    "ja": "カイナイト・シャドウストーカー",
+    "en": "Khainite Shadowstalkers",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "1"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 130,
+   "models": 9,
+   "base": "40mm [1], 28.5mm [8]",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "呪われた矢弾",
+     "en": "Cursed Bolts and Missiles",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "2",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "殺人の刃",
+     "en": "Blades of Murder",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "影への跳躍",
+      "en": "Shadow Leap",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、自軍側移動フェイズ",
+       "en": "Once Per Turn (Army), Your Movement Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットを戦場から取り除き、あらゆる敵ユニットから9mvより遠く離れた戦場の位置に再配置する。",
+       "en": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "豪傑（1/9）",
+     "Champion (1/9)"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ],
+    [
+     "アエルフ",
+     "Aelf"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "d0a92d1b-ff4a-408a-9830-274b5b6df642",
+   "name": {
+    "ja": "キネライ・ハートレンダー",
+    "en": "Khinerai Heartrenders",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 100,
+   "models": 5,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "鉤付き投げ槍",
+     "en": "Barbed Javelin",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "2",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "鉤付き投げ槍",
+     "en": "Barbed Javelin",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "3+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "まず彼方より攻めよ",
+      "en": "Fire and Flight",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、リアクション：このユニットが『遠隔攻撃』アビリティを宣言",
+       "en": "Once Per Turn (Army), Reaction: You declared a **SHOOT** ability for this unit",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "その『**遠隔攻撃**』アビリティが解決された直後に、このユニットは2D6mv移動してもよい。その移動中、このユニットは近接戦闘に突入することはできない。",
+       "en": "After that **SHOOT** ability has been resolved, this unit can move 2D6\". It cannot move into combat during any part of that move.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "豪傑",
+     "Champion"
+    ],
+    [
+     "飛行",
+     "Fly"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "fe64f838-308a-4019-8bc3-8e3315f5aa9d",
+   "name": {
+    "ja": "キネライ・ライフテイカー",
+    "en": "Khinerai Lifetakers",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 110,
+   "models": 5,
+   "base": "40mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "鉤付き鎌",
+     "en": "Barbed Sickle",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "攻め立て、逃げよ",
+      "en": "Fight and Flight",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+       "en": "Once Per Turn (Army), Any Combat Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットが近接戦闘中である場合、自身は12mv移動できる。その移動中、敵ユニットの近接範囲内を通り抜けることができるが、近接戦闘に突入するように移動を完了することはできない。その後、このユニットが移動中に通り抜けた各敵ユニットに、それぞれD3を1個ロールする。ロール結果が2+であれば、ロール対象の敵ユニットは、ロール結果に等しい数の致命的ダメージを受ける。",
+       "en": "If this unit is in combat, it can move 12\". It can pass through the combat ranges of enemy units but cannot end that move in combat. Then, roll a D3 for each enemy unit that this unit passed across during that move. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "コア、アタック、近接攻撃",
+     "kw_en": "Core, Attack, Fight",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "豪傑",
+     "Champion"
+    ],
+    [
+     "飛行",
+     "Fly"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "7fe8c55b-8560-45f5-9391-739db8f51892",
+   "name": {
+    "ja": "Knives of the Crone",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 220,
+   "models": 4,
+   "base": "28.5mm [3], 32mm [1]",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Aelven Crossbow",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "3",
+      "3+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [
+      "クリティカル（自動ウーンズ）"
+     ],
+     "abil_en": [
+      "Crit (Auto-wound)"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Haruspicy Blades",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "4+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Rituals of Prophecy",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll 6 dice:\n\n• For each 1, add 1 to the Attacks characteristic of this unit’s melee weapons until the start of your next turn.\n• For each 3, add 1\" to this unit’s Move characteristic until the start of your next turn.\n• If any of the rolls are a 6, add 1 to save rolls for this unit until the start of your next turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "固有",
+     "Unique"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ],
+    [
+     "アエルフ",
+     "Aelf"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit cannot be reinforced.",
+   "wargear": {
+    "ja": "",
+    "en": "*Each model in this unit is armed with Haruspicy Blades. The models in this unit are:*\n\n*• Kaerna Vix (champion)*\n*• Tazari*\n*• Krieta, Wing of the Crone*\n*• Azphel, the Hag’s Eye (also armed with an Aelven Crossbow)*"
+   }
+  },
+  {
+   "id": "a2ce3a48-67b7-47ff-8ae4-b087952cbe4f",
+   "name": {
+    "ja": "老婆の預言者クレトゥサ",
+    "en": "Krethusa the Croneseer",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "5+",
+   "additional": [],
+   "points": 220,
+   "models": 1,
+   "base": "60mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "モライ＝ヘグの杖",
+     "en": "Staff of Morai-Heg",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "4+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "破滅の預言",
+      "en": "Omens of Doom",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "自軍側ヒーローフェイズ",
+       "en": "Your Hero Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "D6の祈願ロールをする。",
+       "en": "Make a chanting roll of D6.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "以下のいずれかを1つ選択する。祈願ロールが10＋であった場合、1つではなく2つまで選択する：\n**流罪の預言：**このユニットから18mv以内に一部でも入っており、かつこのユニットから視認状態である敵**魔術師**または**神官**を1体選択する。次の自軍側ターン開始時まで、選択された敵ユニットのパワーレベルは-1の修正を受ける。\n**闇翼の預言：**このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**ドーター・オヴ・カイン・歩兵**・ユニットを1個選択する。選択された味方ユニットは、あたかも自軍側移動フェイズ中かのように、ただちに『通常移動』アビリティを使用できる。その味方ユニットは、このターン中に**『全力移動』**アビリティを使用したものとしてみなされる。\n**無益の預言：**このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。次の自軍側ターン開始時まで、選択された敵ユニットの攻撃はクリティカルヒットが発生しない（通常のヒットとして扱う）。",
+       "en": "Pick 1 of the following effects. If the chanting roll was 10+, pick up to 2 different effects instead.\n\n**Prophecy of Exile**: Pick a visible enemy **WIZARD** or **PRIEST** within 18\" of this unit. Subtract 1 from that unit’s power level until the start of your next turn.\n\n**Prophecy of Dark Wings:** Pick a visible friendly **DAUGHTERS OF KHAINE INFANTRY** unit wholly within 12\" of this unit. That unit can immediately use the ‘Normal Move’ ability as if it were your movement phase and counts as having used a **RUN** ability this turn.\n\n**Prophecy of Futile Endeavours:** Pick a visible enemy unit within 12\" of this unit. Until the start of your next turn, that unit’s attacks cannot score critical hits (treat them as regular hits instead).",
+       "fix": [
+        [
+         "10＋",
+         "10+"
+        ],
+        [
+         "1つではなく2つまで選択する",
+         "1つではなく異なる効果を2つまで選択する"
+        ]
+       ]
+      }
+     },
+     "own": false,
+     "kw_ja": "奇蹟",
+     "kw_en": "Prayer",
+     "cast": 4,
+     "cp": null,
+     "note": [
+      "書籍 p.60 の「10＋」は ＋ が全角（他の箇所は半角の「+」）。",
+      "英語版は「異なる効果を 2 つまで」（different）。日本語版（書籍 p.60）は「異なる」が抜けていて、同じ効果を 2 回選べるようにも読める。"
+     ]
+    },
+    {
+     "name": {
+      "ja": "老婆の預言者",
+      "en": "The Croneseer",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "自軍が血の儀式を1回執り行うたびに、そのユニットを全滅させたアビリティが解決された直後に、このユニットに1**預言トークン**を付与する。\n• このユニットが2個以上の**預言トークン**を所持する間、敵ユニットはこのユニットを対象にレンジアタックや**『呪文』**アビリティを使用することはできない。\n• このユニットが3個以上の**預言トークン**を所持する間、このユニットは祈願ロールにおける修正前の出目1をリロールできる。\n• このユニットが4個以上の**預言トークン**を所持する間、このユニットを対象とする攻撃のヒットロールで修正前の出目1-4が出た場合、その攻撃は失敗し、攻撃手順を終了する。",
+       "en": "Each time you perform a blood rite, immediately after the ability that destroyed a unit has been resolved, give this unit 1 **prophecy token**.\n\n• While this unit has 2 or more **prophecy tokens**, this unit cannot be picked to be the target of shooting attacks or **SPELL** abilities used by enemy units.\n\n• While this unit has 3 or more **prophecy tokens**, you can re-roll unmodified chanting rolls of 1 for this unit.\n\n• While this unit has 4 or more **prophecy tokens**, if the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "固有",
+     "Unique"
+    ],
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "神官（2）",
+     "Priest (2)"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "飛行",
+     "Fly"
+    ],
+    [
+     "加護（5+）",
+     "Ward (5+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ],
+    [
+     "アエルフ",
+     "Aelf"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Coven Matriarch*",
+    "Any **AELF**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "269863d4-5a2a-4627-b410-44d30a6489f1",
+   "name": {
+    "ja": "Maleneth Witchblade",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 170,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "Poisoned Throwing Knives",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "3",
+      "2+",
+      "4+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [
+      "クリティカル（自動ウーンズ）",
+      "近接射撃"
+     ],
+     "abil_en": [
+      "Crit (Auto-wound)",
+      "Shoot in Combat"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Deadly Blades",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "2+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [
+      "対英雄（+1貫通値）"
+     ],
+     "abil_en": [
+      "Anti-HERO (+1 Rend)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Strike From the Shadows",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick this unit if it is **in hiding**. Then, pick a friendly **INFANTRY** unit that has 5 or more models to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+, set up this unit anywhere on the battlefield wholly within 6\" of the target. If you do so, this unit must be set up in combat and has **STRIKE-FIRST** for the rest of the turn. On a failed roll, this unit remains **in hiding** but you automatically pass the roll the next time you use this ability."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Vial of Secrets",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Hidden Agent",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Deployment Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit has not been deployed, set up this unit in reserve **in hiding**. It has now been deployed."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Deploy",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "固有",
+     "Unique"
+    ],
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ],
+    [
+     "アエルフ",
+     "Aelf"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **DAUGHTERS OF KHAINE** **AELF**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "6b4292db-8363-4a0b-a356-d439220062cc",
+   "name": {
+    "ja": "メルサイ・アイアンスケイル",
+    "en": "Melusai Ironscale",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "8\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 100,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "ケルドリサイス",
+     "en": "Keldrisaíth",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [
+      "クリティカル（致命的）"
+     ],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "アイアンスケイルの憤怒",
+      "en": "Ironscale's Fury",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+       "en": "Once Per Turn (Army), Any Combat Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットの近接範囲内に一部でも入っている各味方ドーター・オヴ・カイン・ユニットを選択する。",
+       "en": "Pick each friendly **DAUGHTERS OF KHAINE** unit within this unit's combat range to be the targets.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このフェイズ中、選択された味方ユニット内の兵１体がメレーアタックによって戦死するたび、ダイスを1個ロールする。そのユニットがブラッドシスターまたはブラッドストーカーならば、代わりに2個ロールする。ロール結果で5+が出るたび、攻撃側ユニットは1ポイントの致命的ダメージを受ける。",
+       "en": "For the rest of the phase, each time a model in a target unit is slain by a combat attack, roll a dice. If that unit is a **Blood Sisters** or **Blood Stalkers** unit, roll 2 dice instead. For each 5+, inflict 1 mortal damage on the attacking unit.",
+       "fix": [
+        [
+         "兵１体",
+         "兵1体"
+        ]
+       ]
+      }
+     },
+     "own": false,
+     "kw_ja": "高位",
+     "kw_en": "Exalted",
+     "cast": null,
+     "cp": null,
+     "note": [
+      "ルール・アップデート（2026年9月）の日本語文の「兵１体」は数字が全角（他の箇所は半角）。"
+     ]
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any non-**AELF**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Coven Matriarch*.",
+   "wargear": null
+  },
+  {
+   "id": "1e5cf14e-daa0-4746-a36e-cc69730e7f76",
+   "name": {
+    "ja": "モラスィ＝カイン",
+    "en": "Morathi-Khaine",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "4+",
+   "additional": [],
+   "points": 770,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "ハートレンダーと刃ある翼",
+     "en": "Heartrender and Bladed Wings",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "4+",
+      "2",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "神々しい母君",
+      "en": "Divine Matriarch",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "自軍側ヒーローフェイズ",
+       "en": "Your Hero Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**ドーター・オヴ・カイン・神官**または**魔術師**を1体選択する。",
+       "en": "Pick a visible friendly **DAUGHTERS OF KHAINE PRIEST** or **WIZARD** wholly within 12\" of this unit to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "次の自軍側ターン開始時まで、選択された味方ユニットは詠唱ロールと祈願ロールに+1の修正を受ける。",
+       "en": "Add 1 to casting rolls and chanting rolls for the target until the start of your next turn.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "呪力の狂瀾",
+      "en": "Surge of Hatred",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "自軍側ヒーローフェイズ",
+       "en": "Your Hero Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットの12mv以内に全体が入っており、かつ近接戦闘中である味方**影の女王**か、もしくはこのユニットの12mv以内に全体が入っており、かつこのユニットから視認状態であり、なおかつ近接戦闘中である**英雄**でない味方**ドーター・オヴ・カイン**・ユニットを1個選択し、2D6の詠唱ロールをする。",
+       "en": "Pick either a friendly **Shadow Queen** wholly within 12\" of this unit and in combat or a visible friendly non-**HERO DAUGHTERS OF KHAINE** unit wholly within 12\" of this unit and in combat to be the target, then make a casting roll of 2D6.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "選択されたのが味方**影の女王**である場合、その**影の女王**はあたかも自軍側近接フェイズ中かのように、ただちに**『近接攻撃』**アビリティを1回使用できる。それ以外の場合、選択された味方ユニットと近接戦闘中である各敵ユニットは、それぞれD3ポイントの致命的ダメージを受ける。",
+       "en": "If the target is a friendly **Shadow Queen**, it can immediately use a **FIGHT** ability as if it were your combat phase. Otherwise, inflict D3 mortal damage on each enemy unit in combat with the target.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "呪文",
+     "kw_en": "Spell",
+     "cast": 7,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "カインの鉄心臓",
+      "en": "The Iron Heart of Khaine",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "自軍が血の儀式を1回執り行うたびに、そのユニットを全滅させたアビリティが解決された直後に、以下の中から効果を1つ選択する。\n• 次の自軍側ターン開始時まで、このユニットの近接範囲内に一部でも入っている敵ユニットだけが、このユニットを視認できる状態にある。\n• このユニットもしくは**影の女王**を**回復（D6）**する。\n• 味方影の女王は、このフェイズ中すでに該当のアビリティやその他の『コア』アビリティを使用していたとしても、自軍側移動フェイズかのように直ちに『通常移動』または『退却』アビリティを使用できる。\n• このユニットを戦場から取り除き、あらゆる敵ユニットから9mvより遠く離れた戦場の位置に再配置する。\n• このターン中、このユニットの【確保力】は5になり、味方**影の女王**の【確保力】は15になる。\nデザイナーズノート：『カインの鉄の心臓』アビリティによって影の女王が退却した場合、その影の女王は同じ近接フェイズ中に続けて『近接攻撃』アビリティを使用することはできない。",
+       "en": "Each time you perform a blood rite, immediately after the ability that destroyed a unit has been resolved, pick 1 of the following effects:\n\n• Until the start of your next turn, this unit is only visible to enemy units while those units are within its combat range.\n• **Heal (D6)** this unit or a friendly Shadow Queen.\n• A friendly **Shadow Queen** can immediately use the ‘Normal Move’ or ‘Retreat’ ability as if it was your movement phase even if it has already used that ability or another **CORE** ability this phase.\n• Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.\n• For the rest of the turn, set this unit’s Control characteristic to 5 and a friendly **Shadow Queen’s** Control characteristic to 15.\n\n**Designer’s Note:** *If the Shadow Queen retreats with the ‘Iron Heart of Khaine’ ability, she cannot subsequently use the ‘Fight’ ability in the same combat phase.*",
+       "fix": [
+        [
+         "このユニットもしくは**影の女王**",
+         "このユニットもしくは味方**影の女王**"
+        ],
+        [
+         "『カインの鉄の心臓』",
+         "『カインの鉄心臓』"
+        ]
+       ]
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": [
+      "英語版は「味方の」影の女王（a friendly Shadow Queen）。日本語版（書籍 p.59）は「味方」が抜けている。",
+      "ルール・アップデート（2026年9月）のデザイナーズノートは『カインの鉄の心臓』と書いているが、アビリティ名は書籍では「カインの鉄心臓」。"
+     ]
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "総大将",
+     "Warmaster"
+    ],
+    [
+     "固有",
+     "Unique"
+    ],
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "魔術師（3）",
+     "Wizard (3)"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（4+）",
+     "Ward (4+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ],
+    [
+     "アエルフ",
+     "Aelf"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "**The Shadow Queen** (required)",
+    "0-1 *Coven Matriarch*",
+    "Any **DAUGHTERS OF KHAINE**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "19565626-7ff8-4121-b457-f633cf1605ae",
+   "name": {
+    "ja": "Morgwaeth's Blade-coven",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 120,
+   "models": 5,
+   "base": "32mm [4], 40mm [1]",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "心臓探しの弓",
+     "en": "Heartseeker Bow",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "18\"",
+      "3",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [
+      "クリティカル（自動ウーンズ）"
+     ],
+     "abil_en": [
+      "Crit (Auto-wound)"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Sacrificial Weapons",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [
+      "クリティカル（自動ウーンズ）"
+     ],
+     "abil_en": [
+      "Crit (Auto-wound)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "ウィッチブリュー",
+      "en": "Witchbrew",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly **DAUGHTERS OF KHAINE** unit wholly within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+, the target has **WARD (5+)** for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Morgwaeth the Bloodied",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit’s **Morgwaeth the Bloodied** is on the battlefield, it has **PRIEST (1)**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "固有",
+     "Unique"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "豪傑",
+     "Champion"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ],
+    [
+     "アエルフ",
+     "Aelf"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit cannot be reinforced.",
+   "wargear": {
+    "ja": "",
+    "en": "***Each model in this unit is armed with Sacrificial Weapons. The models in this unit are:***\n\n• ***Morgwaeth the Bloodied** (champion)*\n• ***Khamyss***\n• ***Kyrssa***\n• ***Lethyr***\n• ***Kyrae** (also armed with a Heartseeker Bow)*"
+   }
+  },
+  {
+   "id": "94192a22-7019-458a-87a1-129a2b587ce5",
+   "name": {
+    "ja": "アキュシーの禍事 カイナイト・シャドウストーカー",
+    "en": "Scourge of Aqshy: Khainite Shadowstalkers",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "1"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 120,
+   "models": 9,
+   "base": "40mm [1], 28.5mm [8]",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "呪われた矢弾",
+     "en": "Cursed Bolts and Missiles",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "2",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "殺人の刃",
+     "en": "Blades of Murder",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "4+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "影の投げ縄",
+      "en": "Shadow Lariat",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), End of Any Turn"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit is not in combat, pick a visible enemy **INFANTRY** or **CAVALRY HERO** that has no more than 1 model and is within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "If the target is more than 3\" from all other enemy units, apply the effect below. Otherwise, roll a dice. On a 3+, apply the effect below.\n\nYour opponent must remove the target from the battlefield and set it up again in combat with this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "豪傑（1/9）",
+     "Champion (1/9)"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ],
+    [
+     "アエルフ",
+     "Aelf"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "d431d6d7-063e-4f99-b012-928df51f0bcd",
+   "name": {
+    "ja": "アキュシーの禍事 メルサイ・アイアンスケイル",
+    "en": "Scourge of Aqshy: Melusai Ironscale",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "8\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 150,
+   "models": 1,
+   "base": "40mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "ケルドリサイス",
+     "en": "Keldrisaíth",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [
+      "クリティカル（致命的）"
+     ],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "狂乱の虐殺",
+      "en": "Frenzied Slaughter",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible friendly **DAUGHTERS OF KHAINE** unit wholly within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. If this unit is in combat, you can re-roll the dice. If the roll is lower than your **fury level**, add 1 to the Attacks characteristic of weapons used by this unit and the target until the start of your next turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Exalted",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any non-**AELF**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Coven Matriarch*.\nThis unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "13cda594-8151-46b7-be61-e526419f6f8d",
+   "name": {
+    "ja": "グューランの禍事 ブラッドラック・シュライン",
+    "en": "Scourge of Ghyran Bloodwrack Shrine",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 250,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "ブラッドラックの視線",
+     "en": "Bloodwrack Stare",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "15\"",
+      "4",
+      "3+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [
+      "近接射撃",
+      "クリティカル（2ヒット）"
+     ],
+     "abil_en": [
+      "Shoot in Combat",
+      "Crit (2 Hits)"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Medusa's Spear and Shrinekeeper's Goadstaves",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "8",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "繰り返す断末魔",
+      "en": "Reflected Agony",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Make a casting roll of 2D6."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Until the start of your next turn, enemy units and enemy **MANIFESTATIONS** cannot be set up within 12\" of this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Spell",
+     "cast": 5,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "ブラッドラックの睥睨",
+      "en": "Wracking Gaze",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Shooting Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible enemy unit within 15\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. If the roll is equal to or less than that enemy unit’s Health characteristic, for the rest of the phase, you can re-roll failed hit rolls for attacks made by this unit that target that enemy unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "戦闘兵器",
+     "War Machine"
+    ],
+    [
+     "魔術師（2）",
+     "Wizard (2)"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ],
+    [
+     "Melusai",
+     ""
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Coven Matriarch*",
+    "Any **DAUGHTERS OF KHAINE**"
+   ],
+   "notes_en": "This unit is legal for Matched Play for battles fought using the *General’s Handbook 2025-26* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "1858e80a-8f47-476a-8595-9d010dc29b8c",
+   "name": {
+    "ja": "グューランの禍事 老婆の預言者クレトゥサ",
+    "en": "Scourge of Ghyran Krethusa the Croneseer",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 260,
+   "models": 1,
+   "base": "60mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "モライ＝ヘグの杖",
+     "en": "Staff of Morai-Heg",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "4+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [
+      "クリティカル（自動ウーンズ）"
+     ],
+     "abil_en": [
+      "Crit (Auto-wound)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "予言の力",
+      "en": "Gift of Foresight",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Battle, Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly non-**UNIQUE DAUGHTERS OF KHAINE AELF INFANTRY** or **CAVALRY** unit that has been destroyed to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 9\" of a battlefield edge and more than 9\" from all enemy units."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": 1,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "鮮血の儀式",
+      "en": "Blood Ritual",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible friendly **DAUGHTERS OF KHAINE AELF INFANTRY** or **CAVALRY** unit wholly within 12\" of this unit to be the target. Then, make a chanting roll of D6."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick 1 of the following effects to apply until the start of your next turn:\n\n***Prophecy of Tyranny:*** Enemy units cannot use commands while they are in combat with the target.\n\n***Prophecy of Shelter:*** Other than the **COMPANION** ability, weapon abilities used by enemy units while they are in combat with the target have no effect.\n\n***Prophecy of Retribution:*** Subtract 1 from ward rolls made for damage points inflicted by the target’s combat attacks.\n\nIf the chanting roll was 9+, all of the above effects apply."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Prayer",
+     "cast": 3,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "預言者クレトゥサ",
+      "en": "The Croneseer",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Enemy Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Give this unit D3 ritual points."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "固有",
+     "Unique"
+    ],
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "神官（2）",
+     "Priest (2)"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "飛行",
+     "Fly"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ],
+    [
+     "アエルフ",
+     "Aelf"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Coven Matriarch*",
+    "Any **AELF**"
+   ],
+   "notes_en": "This unit is legal for Matched Play for battles fought using the *General’s Handbook 2025-26* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "b034912e-45d5-40a1-a1da-f00bf7d4a60a",
+   "name": {
+    "ja": "闇供物の祭壇",
+    "en": "Shrine of Dark Tribute",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "-"
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "-"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 20,
+   "models": 1,
+   "base": "130mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [],
+   "abilities": [
+    {
+     "name": {
+      "ja": "殺戮の呼び声",
+      "en": "Call to Murder",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "自軍側ヒーローフェイズ",
+       "en": "Your Hero Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "『カインの祝福』から**有効化**されている祝福を1つ選択する。選択された祝福の**有効化**は解除される。その後、解除されたばかりではない**有効化**されていない祝福を1つ選択する。その祝福は**有効化**された状態になる。\nデザイナーズ・ノート：このアビリティを使用するとき、『カインの祝福』アビリティを使用したとみなされるわけではない。",
+       "en": "Pick a blessing from the ‘Blessings of Khaine’ ability that is **active**. That blessing is no longer **active**. Then, pick a blessing that is not **active**. That blessing is now **active**.\n\n**Designer’s Note:** *When you use this ability, you are not using the ‘Blessings of Khaine’ ability.*",
+       "fix": [
+        [
+         "解除されたばかりではない",
+         ""
+        ]
+       ]
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": [
+      "英語版は「有効化されていない祝福を1つ選ぶ」だけで、いま解除した祝福を選び直すことを禁じていない。日本語版（書籍 p.75）の「解除されたばかりではない」は英語に無い条件。"
+     ]
+    },
+    {
+     "name": {
+      "ja": "暗黒の交わり",
+      "en": "In Dark Communion",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "自軍側ヒーローフェイズ",
+       "en": "Your Hero Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "この特殊地形の3mv以内に一部でも入っている味方**ドーター・オヴ・カイン・魔術師**または**神官**を1体選択する。",
+       "en": "Pick a friendly **DAUGHTERS OF KHAINE WIZARD** or **PRIEST** within 3\" of this terrain feature to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "この特殊地形がこのアビリティを再び使用するか、あるいはこの特殊地形が戦場から取り除かれるまで（どちらか早い方）、選択された味方ユニットは**闇の霊体**状態になる。その味方ユニットが**闇の霊体**状態である間、各ターン中、その味方ユニットは詠唱ロールを1回もしくは、祈願ロールを1回リロールできる。",
+       "en": "The target is in **dark communion** until this terrain feature uses this ability again or until this terrain feature is removed from the battlefield, whichever comes first. While the target is in **dark communion**, you can re-roll 1 casting roll or 1 chanting roll for the target each turn.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [
+    {
+     "name": {
+      "ja": "遮蔽物",
+      "en": "Cover",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": ""
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This rule varies depending on the battlepack selected for your army:\n\n**General's Handbook 2024-25**\nSubtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword.\n\n**General's Handbook 2025-26**\nSubtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword.\n\n**General's Handbook 2026-27**\nSubtract 1 from hit rolls for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit charged this turn or has the **FLY** keyword."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "通り抜け不可能",
+      "en": "Impassable",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": ""
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This rule varies depending on the battlepack selected for your army:\n\n**General's Handbook 2024-25**\nModels cannot move across, be set up on or end moves on any part of this terrain feature.\n\n**General's Handbook 2025-26**\nModels cannot move across, be set up on or end moves on any part of this terrain feature.\n\n**General's Handbook 2026-27**\nModels cannot move across, be set up on or end moves on any part of this terrain feature."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "keywords": [
+    [
+     "陣営地形",
+     "Faction Terrain"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "以下の共通特殊地形アビリティが、この特殊地形に適用される（特殊地形、1.2）：遮蔽物、通り抜け不可能",
+    "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover, Impassable**"
+   }
+  },
+  {
+   "id": "72acef0c-9814-42fb-9a02-f9fd91503287",
+   "name": {
+    "ja": "シスター・オヴ・スローター",
+    "en": "Sisters of Slaughter",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "1"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 110,
+   "models": 10,
+   "base": "25mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "クルイプラッシュ",
+     "en": "Kruiplash",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "死の舞踏",
+      "en": "Dance of Death",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+       "en": "Once Per Turn (Army), Any Combat Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットと近接戦闘中であり、かつこのターン中に突撃していた敵ユニットを1個選択する。",
+       "en": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "そのターン中、選択された敵ユニットのメレーアタックは、ヒットロールとウーンズロールに-1の修正を受ける。",
+       "en": "Subtract 1 from hit rolls and wound rolls for the target’s combat attacks for the rest of the turn.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "豪傑",
+     "Champion"
+    ],
+    [
+     "楽士（1/5）",
+     "Musician (1/5)"
+    ],
+    [
+     "旗手（1/5）",
+     "Standard Bearer (1/5)"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ],
+    [
+     "アエルフ",
+     "Aelf"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "069f7b0f-81c7-4755-a2e4-daf8bdd2be54",
+   "name": {
+    "ja": "スロータークィーン",
+    "en": "Slaughter Queen",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 130,
+   "models": 1,
+   "base": "25mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "死の剣とカインの刃",
+     "en": "Deathsword and Blade of Khaine",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "狂剣の武人",
+      "en": "Fanatical Blademaster",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+       "en": "Once Per Turn (Army), Your Hero Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**ドーター・オヴ・カイン**・ユニットを1個選択する。",
+       "en": "Pick a visible friendly **DAUGHTERS OF KHAINE** unit wholly within 12\" of this unit to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "ダイスを1個ロールする。ロール結果が3+であれば、『カインの祝福』アビリティから**有効化**されていない祝福を1つ選択する。選択された祝福は、次の自軍側ターン開始時まで、あたかも**有効化**されているかのように効果を発揮する。このバトル中に『カインの祝福』アビリティを3回以上使用している場合、祝福を1つではなく2つ選択してもよい。",
+       "en": "Roll a dice. On a 3+, pick a blessing from the ‘Blessings of Khaine’ ability that is not **active**. The effect of that blessing applies to the target until the start of your next turn as if it were **active**. If you have used the ‘Blessings of Khaine’ ability 3 or more times this battle, you can pick 2 blessings instead of 1.",
+       "fix": [
+        [
+         "選択された祝福は、次の自軍側ターン開始時まで、あたかも**有効化**されているかのように効果を発揮する。",
+         "選択された祝福の効果は、次の自軍側ターン開始時まで、あたかも**有効化**されているかのように選択された味方ユニットに適用される。"
+        ]
+       ]
+      }
+     },
+     "own": false,
+     "kw_ja": "高位",
+     "kw_en": "Exalted",
+     "cast": null,
+     "cp": null,
+     "note": [
+      "英語版では祝福の効果は対象ユニットにだけ適用される。日本語版（書籍 p.61）は対象の限定が抜けていて、祝福そのものが有効化されて全ユニットにかかるように読める。"
+     ]
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "神官（1）",
+     "Priest (1)"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ],
+    [
+     "アエルフ",
+     "Aelf"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Coven Matriarch*",
+    "Any **AELF**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as a *Coven Matriarch*.",
+   "wargear": null
+  },
+  {
+   "id": "3791bb68-e9c9-4e6c-aa89-cca76393464e",
+   "name": {
+    "ja": "スロータークィーン（コルドロン・オヴ・ブラッド搭乗）",
+    "en": "Slaughter Queen on Cauldron of Blood",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "12"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 300,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "化身の剣",
+     "en": "Avatar’s Sword",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [
+      "随行者"
+     ],
+     "abil_en": [
+      "Companion"
+     ]
+    },
+    {
+     "ja": "祭壇守護者の刃",
+     "en": "Shrine Guardians’ Blades",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "9",
+      "3+",
+      "4+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "聖なる激情",
+      "en": "Consecrated Revulsion",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**ドーター・オヴ・カイン・歩兵**・ユニットは、その加護ロールに+1の修正を受ける。",
+       "en": "Add 1 to save rolls for visible friendly **DAUGHTERS OF KHAINE INFANTRY** units while they are wholly within 12\" of this unit.",
+       "fix": [
+        [
+         "その加護ロールに",
+         "そのセーブロールに"
+        ]
+       ]
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": [
+      "英語版はセーブロール（save rolls）に+1。日本語版（書籍 p.62）の「加護ロール」は誤り（スピアヘッド版 p.82 は正しく「セーブロール」）。"
+     ]
+    },
+    {
+     "name": {
+      "ja": "虐殺の印",
+      "en": "Icon of Slaughter",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットの12mv以内に全体が入っている味方**ドーター・オヴ・カイン**・ユニットが『再集結』指揮アビリティを使用する際、D6の再集結ロールを追加で3回実行できる。加えて、指揮アビリティが使用されたときに味方**ハグクィーン**（**コルドロン・オヴ・ブラッド搭乗**）が戦場に配置されていた場合、自軍は追加で3再集結ポイントを得る。",
+       "en": "Each time a friendly **DAUGHTERS OF KHAINE** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6. In addition, if there are any friendly **Hag Queens on Cauldrons of Blood** on the battlefield when that command is used, you receive D3 additional rally points.",
+       "fix": [
+        [
+         "追加で3再集結ポイント",
+         "追加でD3再集結ポイント"
+        ]
+       ]
+      }
+     },
+     "own": false,
+     "kw_ja": "高位",
+     "kw_en": "Exalted",
+     "cast": null,
+     "cp": null,
+     "note": [
+      "英語版は「D3 再集結ポイント」。日本語版（書籍 p.62）の「3再集結ポイント」は誤り。"
+     ]
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "神官（1）",
+     "Priest (1)"
+    ],
+    [
+     "戦闘兵器",
+     "War Machine"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ],
+    [
+     "アエルフ",
+     "Aelf"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Coven Matriarch*",
+    "Any **AELF**"
+   ],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "49995beb-db17-497a-9a86-0c3431a07d69",
+   "name": {
+    "ja": "The Shadeborn",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 80,
+   "models": 4,
+   "base": "40mm [1], 28.5mm [3]",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "呪われし飛び道具",
+     "en": "Cursed Missiles",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "1",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "シャドウストーカー・ブレイド",
+     "en": "Shadowstalker Blades",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "影への跳躍",
+      "en": "Shadow Leap",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Mask of Shadowed Mirrors",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+, the target cannot use commands for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "固有",
+     "Unique"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "豪傑",
+     "Champion"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ],
+    [
+     "アエルフ",
+     "Aelf"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit cannot be reinforced.",
+   "wargear": {
+    "ja": "",
+    "en": "***Each model in this unit is armed with Cursed Missiles and Shadowstalker Blades. The models in this unit are:***\n\n• ***Slythael Shadestalker** (champion)*\n• ***Drusylla Vyserax***\n• ***Sylarc Greyblood***\n• ***Valyssa Umbrael***"
+   }
+  },
+  {
+   "id": "ffe6c741-1db8-46f2-8be1-d1ba0932b62a",
+   "name": {
+    "ja": "影の女王",
+    "en": "The Shadow Queen",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "12\""
+    ],
+    [
+     "体力",
+     "Health",
+     "15"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "10"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 0,
+   "models": 1,
+   "base": "100mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "猛毒の尾",
+     "en": "Envenomed Tail",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "3+",
+      "3+",
+      "2",
+      "6"
+     ],
+     "abil_ja": [
+      "クリティカル（致命的）"
+     ],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    },
+    {
+     "ja": "ハートレンダー（戦傷時）",
+     "en": "Heartrender (battle damaged)",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "8",
+      "3+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [
+      "クリティカル（致命的）"
+     ],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "二つの体、一つの魂",
+      "en": "Two Bodies, One Soul",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "バトル中1回限り（アーミー）、自軍側ヒーローフェイズ",
+       "en": "Once Per Battle (Army), Your Hero Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットは、すでに全滅している場合でも、このアビリティを使用できる。このバトル中に3回以上『カインの祝福』を使用している場合、全滅した味方**モラスィ＝カイン**または**影の女王**を選択する。",
+       "en": "This unit can use this ability even if it has been destroyed. If you have used the Blessings of Khaine ability 3 or more times this battle, pick a friendly **Morathi-Khaine** or **Shadow Queen** that has been destroyed to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "味方**モラスィ＝カイン**あるいは**影の女王**の3mv以内に一部でも入るように、選択されたユニットと同一の代替ユニットを1個配置する。",
+       "en": "Set up a replacement unit identical to the target within 3\" of a friendly **Morathi-Khaine** or **Shadow Queen**.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "女王の蜷局",
+      "en": "Coils of the Shadow Queen",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+       "en": "Once Per Turn (Army), Any Combat Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "1個以上の敵ユニットが**締め付けられた**状態である場合、その**締め付けられた**状態は解除される。このユニットと近接戦闘中である敵**英雄**または**大型獣**を1体選択する。",
+       "en": "If any enemy units are **constricted**, they are no longer **constricted**. Pick an enemy **HERO** or **MONSTER** in combat with this unit to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "ダイスを1個ロールする。ロール結果が3+であれば、選択された敵ユニットがこのユニットと近接戦闘中である間、次の自軍側ターン開始時まで、その敵ユニットは**締め付けられた**状態になる。\nこのユニットのメレーアタックは**締め付けられた**状態にある敵ユニットに対して、修正前の出目5+のヒットロールでクリティカルヒットする。",
+       "en": "Roll a dice. On a 3+, until the start of your next turn, the target is **constricted** while it is in combat with this unit.\n\nThis unit’s combat attacks that target a **constricted** enemy unit score critical hits on unmodified hit rolls of 5+.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "蹂躙",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "バトルダメージ",
+      "en": "Battle Damaged",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットが10ポイント以上のダメージを受けている場合、自身が装備している**ハートレンダー**の【攻撃回数】は5になる。",
+       "en": "While this unit has 10 or more damage points, the Attacks characteristic of its **Heartrender** is 5.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "大蛇の冠",
+      "en": "Crown of Serpents",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "任意の近接フェイズ",
+       "en": "Any Combat Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+       "en": "Pick an enemy unit in combat with this unit to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "ダイスを5個ロールする。選択された敵ユニットが**締め付けられた**状態である場合、各ロールは+2の修正を受ける。ロール結果で5+が出るたびに、以下の中から効果を1つ選択する。同じ効果を選択できるのは、各ターンにつき1回だけである。\n• このターン中、その敵ユニットのメレーアタックはヒットロールに-1の修正を受ける。\n• このターン中、その敵ユニットのメレーアタックはウーンズロールに-1の修正を受ける。\n• このターン中、その敵ユニットが装備している近接武器の【ダメージ量】をランダムに決定する際、そのロールは修正前の出目1として扱われる。\n• その敵ユニットは、D3ポイントの致命的ダメージを受ける。\n• このターン中、その敵ユニットは回復ができない。また、その敵ユニット内の撃破された兵を復帰させることができない。",
+       "en": "Roll 5 dice. Add 2 to each roll if the target is **constricted**. For each 5+, pick 1 of the following effects. You cannot pick the same effect more than once per turn.\n\n• Subtract 1 from hit rolls for the target's combat attacks for the rest of the turn.\n• Subtract 1 from wound rolls for the target's combat attacks for the rest of the turn.\n• Random characteristic rolls for the Damage characteristic of the target's melee weapons are treated as unmodified rolls of 1 for the rest of the turn.\n• Inflict D3 mortal damage on the target.\n• The target cannot be healed or have slain models returned to it for the rest of the turn.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "固有",
+     "Unique"
+    ],
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "大型獣",
+     "Monster"
+    ],
+    [
+     "飛行",
+     "Fly"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit can only be taken in **Morathi‐Khaine**’s regiment.",
+   "wargear": null
+  },
+  {
+   "id": "be713319-1c8e-43d7-ad4c-a92514666730",
+   "name": {
+    "ja": "ウィッチアエルフ",
+    "en": "Witch Aelves",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "1"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 120,
+   "models": 10,
+   "base": "25mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "シアンサ",
+     "en": "Sciansá",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "熱烈なる感情",
+      "en": "Frenzied Fervour",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットが現在のターン中に突撃していた場合、このユニットが装備している近接武器は【貫通値】に+1の修正を受ける。",
+       "en": "Add 1 to the Rend characteristic of this unit’s melee weapons if it charged in the same turn.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "豪傑",
+     "Champion"
+    ],
+    [
+     "楽士（1/5）",
+     "Musician (1/5)"
+    ],
+    [
+     "旗手（1/5）",
+     "Standard Bearer (1/5)"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "ドーター・オヴ・カイン",
+     "Daughters of Khaine"
+    ],
+    [
+     "アエルフ",
+     "Aelf"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  }
+ ]
+}

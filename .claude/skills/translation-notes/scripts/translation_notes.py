@@ -26,6 +26,46 @@ def norm(s):
     return re.sub(r"\s+", "", s)
 
 
+def fix_parts(old, new):
+    """訂正 (誤訳箇所 old → 修正後 new) を表示用の区間 [(種別, 文字列), ...] に分ける (40k と同じ)。
+    種別は keep (そのまま) / del (取り消し線) / ins (挿入)。old 側の区間は本文中でこの順に並ぶ。
+    共通の前後は keep、食い違う真ん中だけを del/ins にする。new が old に含まれれば削除だけ、
+    old が new に含まれれば挿入だけになる。"""
+    if not new:
+        return [("del", old)]
+    if not old:
+        return [("ins", new)]
+    if old == new:
+        return [("keep", old)]
+    head = 0
+    while head < len(old) and head < len(new) and old[head] == new[head]:
+        head += 1
+    tail = 0
+    while (tail < len(old) - head and tail < len(new) - head
+           and old[len(old) - 1 - tail] == new[len(new) - 1 - tail]):
+        tail += 1
+    if head or tail:
+        mid = fix_parts(old[head:len(old) - tail], new[head:len(new) - tail])
+        return (([("keep", old[:head])] if head else [])
+                + mid
+                + ([("keep", old[len(old) - tail:])] if tail else []))
+    i = old.find(new)
+    if i >= 0:
+        out = []
+        if old[:i]: out.append(("del", old[:i]))
+        out.append(("keep", new))
+        if old[i + len(new):]: out.append(("del", old[i + len(new):]))
+        return out
+    j = new.find(old)
+    if j >= 0:
+        out = []
+        if new[:j]: out.append(("ins", new[:j]))
+        out.append(("keep", old))
+        if new[j + len(old):]: out.append(("ins", new[j + len(old):]))
+        return out
+    return [("del", old), ("ins", new)]
+
+
 def notes_path(dump_path):
     return os.path.join(os.path.dirname(os.path.abspath(dump_path)), "translation_notes.json")
 

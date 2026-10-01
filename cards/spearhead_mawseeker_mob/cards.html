@@ -1,0 +1,334 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><title>Mawseeker Mob ウォースクロールカード</title><style>@page { size: A4 portrait; margin: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #fff; }
+body {
+  font-family: "Noto Sans CJK JP", "Noto Sans JP", sans-serif;
+  color: #10200a; -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+
+.sheet { width:210mm; height:297mm; page-break-after:always; display:flex;
+  flex-direction:column; overflow:hidden; background:#fff; }
+.sheet:last-child { page-break-after:auto; }
+
+.card { width:210mm; height:148.5mm; padding:4.5mm 5.5mm 3.5mm; display:flex;
+  flex-direction:column; overflow:hidden; position:relative; background:#fff; }
+.card:first-child::after { content:""; position:absolute; left:0; right:0; bottom:0;
+  border-bottom:.3mm dashed #b9c9ab; }
+
+/* ---------- ユニット画像（表面の背景） ----------
+   cards/bannerImages/wm/<datasheet id>.jpg を表面の背景に敷く。ヘッダも武器表も
+   パネルも不透明なので、実際に見えるのはユニット名より下の余白。
+   薄さ (透かし) と上端のフェードは画像そのものに焼き込んである
+   (cards/watermarks.js)。CSS で opacity / mask を使うと PDF に透明度が残り、
+   ビューアによっては背景が表示されないため。 */
+.card.front > .bg { position:absolute; inset:0; z-index:0;
+  background-size:100% auto; background-position:center bottom; background-repeat:no-repeat; }
+.card.front > .head, .card.front > .stats, .card.front > .body,
+.card.front > .foot { position:relative; z-index:1; }
+/* 文字の載る塊には白を敷いて、画像が透けすぎないようにする */
+.card.front .wt, .card.front .wrules, .card.front .foot { background:rgba(255,255,255,.5); }
+.card.front .wrules { padding:.3em .5em; border-radius:.8mm; }
+
+/* ---------- header ---------- */
+.head { background:linear-gradient(100deg,var(--dk) 0%,var(--dk2) 48%,var(--mid) 100%);
+  color:#fff; padding:1.5mm 4mm 1.6mm; position:relative; overflow:hidden;
+  clip-path:polygon(0 0,100% 0,100% 100%,2.5mm 100%); border-left:1.6mm solid var(--lt); }
+.head::before { content:""; position:absolute; inset:0;
+  background:repeating-linear-gradient(115deg,rgba(255,255,255,.055) 0 2mm,rgba(255,255,255,0) 2mm 6mm); }
+.hname { font-size:6mm; font-weight:900; line-height:1.12; position:relative;
+  text-shadow:0 .4mm .6mm rgba(0,0,0,.45); }
+.hname .en { font-size:2.7mm; font-weight:600; opacity:.75; margin-left:2.4mm; letter-spacing:.04em; }
+.hsub { font-size:2.7mm; opacity:.93; margin-top:.5mm; position:relative; }
+.back .hname { font-size:5mm; }
+.hcorner { position:absolute; top:1.2mm; right:3mm; font-size:2.2mm; font-weight:600; opacity:.8;
+  letter-spacing:.04em; }   /* 裏面右上: 生成に使った dump.json の data_version */
+/* レジェンド (公式トーナメントでは使えないデータシート)。名前欄の右端に出す */
+.hlgd { position:absolute; right:3mm; bottom:1.6mm; font-size:3mm; font-weight:900; color:#f4e3b4;
+  border:.4mm solid rgba(244,227,180,.75); border-radius:1mm; padding:.3mm 1.8mm; line-height:1.15;
+  letter-spacing:.06em; text-align:center; background:rgba(0,0,0,.22); }
+.hlgd i { display:block; font-style:normal; font-size:1.9mm; font-weight:600; opacity:.8;
+  letter-spacing:.04em; }
+.back .hlgd { bottom:1.2mm; }
+
+/* ---------- stats ---------- */
+.stats { display:flex; align-items:flex-start; gap:3mm; padding:1.8mm 1mm 1.8mm 2mm; flex-wrap:wrap; }
+.sl { font-size:2.1mm; font-weight:700; color:var(--dk2); letter-spacing:.04em; }
+.sl i { font-style:normal; font-size:1.75mm; color:var(--en); margin-left:.5mm; }
+.sv { width:10.5mm; height:7.6mm; margin-top:.4mm; display:flex; align-items:center;
+  justify-content:center; font-size:4.5mm; font-weight:900; color:var(--dk);
+  background:#fff; border:.55mm solid var(--dk2); border-radius:1.2mm;
+  box-shadow:inset 0 -1.4mm 0 rgba(46,97,32,.13); }
+.stats-multi { gap:4mm; padding:1.2mm 1mm 1.2mm 2mm; flex-wrap:nowrap; }
+.stats-multi .stt + .stt { border-left:.3mm solid var(--line); padding-left:3mm; }
+.stt { border-collapse:separate; border-spacing:1.2mm .6mm; margin:-.6mm 0 -.6mm -1.2mm; }
+.stt th { padding:0; text-align:center; vertical-align:bottom; }
+.stt td { padding:0; }
+.stt .sname { font-size:2.3mm; font-weight:700; color:var(--dk2); max-width:50mm; line-height:1.1;
+  padding-right:1.5mm; }
+.stt .sv { width:9mm; height:6mm; margin-top:0; font-size:3.8mm; border-width:.45mm; border-radius:1mm;
+  box-shadow:inset 0 -1mm 0 rgba(46,97,32,.13); }
+.stt .sl { display:inline-block; line-height:1; }
+.inv { display:flex; align-items:center; gap:1.2mm; margin-left:auto; padding:0 1mm;
+  border-left:.4mm solid var(--line); }
+.inv span { font-size:2.1mm; font-weight:700; color:var(--dk2); line-height:1.15; text-align:right; }
+.inv span i { display:block; font-style:normal; font-size:1.8mm; color:var(--en); }
+.inv b { font-size:5mm; font-weight:900; color:#fff; background:var(--mid);
+  border-radius:1.2mm; padding:.5mm 1.8mm; }
+.inv .invnote { font-style:normal; font-size:2mm; line-height:1.15; color:var(--dk2); max-width:30mm; }
+
+/* ---------- body ---------- */
+.body { flex:1; display:flex; gap:2.6mm; min-height:0; }
+.colL { flex:1 1 0; min-width:0; overflow:hidden; }
+.colR { flex:0 0 66mm; overflow:hidden; }
+.body2 { flex-direction:column; gap:0; }
+.cols { display:flex; gap:2.6mm; flex:0 1 auto; min-height:0; overflow:hidden; }
+.cols .colL { flex:1 1 0; }
+.cols .colR { flex:0 0 72mm; }
+
+/* ---------- 本文（段の font-size を JS が縮めるので中は em 指定） ---------- */
+.colL, .colR, .cols { font-size: 2.5mm; }
+
+/* ---------- weapon tables ---------- */
+.wt { width:100%; border-collapse:collapse; margin-bottom:.72em; table-layout:fixed; }
+.wt th, .wt td { padding:.3em .32em; font-size:1.02em; line-height:1.2; }
+.wt thead th { background:var(--dk2); color:#fff; font-weight:800; font-size:.96em;
+  text-align:center; white-space:nowrap; border-right:.2mm solid rgba(255,255,255,.2); }
+.wt thead th i { font-style:normal; font-weight:600; font-size:.74em; opacity:.72; margin-left:.25em; }
+.wt thead th.wh { text-align:left; font-size:1.2em; }
+.wt thead th.wh i { font-size:.7em; }
+.wt thead th:last-child { border-right:none; }
+.wi { display:inline-block; color:var(--lt); margin-right:.45em; font-size:1.12em; }
+.wt td { text-align:center; font-weight:700; border-bottom:.2mm solid var(--line); }
+.wt td.wn { text-align:left; font-weight:600; }
+.wt td.wn .en-n { display:inline; font-size:.82em; color:var(--en); font-weight:400; margin-left:.45em; }
+.wt td.wn .wa { font-size:.82em; font-weight:700; color:var(--mid); margin-left:.3em; }
+.wt td.wn .en-n .wa { font-weight:400; color:var(--en); font-size:1em; }
+.wt tbody tr:nth-child(even) td { background:var(--row); }
+.wt tr.wg td.wn { background:var(--panel); border-bottom:none; padding-bottom:.1em; }
+.wrules { margin:-.3em 0 .72em; padding:0 .32em; font-size:.92em; }
+.wrules .abgrp { margin-bottom:.25em; }
+.wt tr.wsel td { text-align:left; font-size:.8em; font-weight:400; color:var(--dk2); padding:.1em .32em .3em 1.3em; }
+.wt tr.wsel td .sel { font-weight:400; }
+.wt td.wn .prof { display:inline-block; width:1em; color:var(--mid); font-weight:400; }
+.wt thead th:nth-child(1), .wt td:nth-child(1) { width:auto; }
+.wt thead th:nth-child(2), .wt td:nth-child(2) { width:10mm; }
+.wt thead th:nth-child(n+3), .wt td:nth-child(n+3) { width:8mm; }
+
+/* ---------- panels ---------- */
+.panel { border:.3mm solid var(--line); margin-bottom:.72em; background:var(--panel);
+  border-radius:.8mm; overflow:hidden; }
+.ph { background:var(--dk2); color:#fff; font-weight:800; font-size:1.2em; padding:.3em .68em; }
+.ph i { font-style:normal; font-weight:600; font-size:.7em; opacity:.72; margin-left:.6em; }
+.pc { padding:.5em .8em .58em; }
+.pc p { font-size:1em; line-height:1.36; margin-bottom:.28em; text-align:justify; }
+.pc b { color:var(--dk); font-weight:800; }
+.abgrp { margin-bottom:.48em; }
+.pc.two { column-count:2; column-gap:1.4em; column-rule:.2mm solid var(--line); }
+.pc.two .abgrp { break-inside:avoid; }
+.abgrp:last-child { margin-bottom:0; }
+.en-b { font-size:.88em !important; color:var(--en); line-height:1.3 !important;
+  margin-bottom:.18em !important; }
+.en-n { font-size:.84em; color:var(--en); font-weight:400; }
+ul.sub, ul.bul { margin:.08em 0 .24em 1.3em; }
+ul.sub li, ul.bul li { font-size:.98em; line-height:1.32; margin-bottom:.14em; }
+ul.sub li .en-b { display:block; }
+p.gear { font-size:.98em; color:#28351f; }
+p.tag { font-size:1.06em; }
+p.contd { font-size:.92em; font-weight:700; color:var(--mid); text-align:right; margin-top:.3em; }
+
+/* corrections + translator notes */
+s { color:#9a5b3c; text-decoration:line-through; text-decoration-thickness:.25mm; }
+ins { color:#8a3b12; font-weight:800; text-decoration:none;
+  background:rgba(255,214,150,.55); padding:0 .12em; border-radius:.4mm; }
+.own { font-size:.86em; font-weight:800; color:#fff; background:#c2701b;
+  border:.25mm solid #8a4c0d; border-radius:.6mm; padding:.06em .44em; margin-right:.45em;
+  letter-spacing:.06em; vertical-align:.12em; white-space:nowrap;
+  box-shadow:0 .2mm .3mm rgba(0,0,0,.25); }
+p.note { font-size:.86em !important; color:#8a3b12; line-height:1.3 !important;
+  border-left:.6mm solid #d9a05b; padding-left:.55em; margin:.2em 0 .24em; }
+p.note b { color:#8a3b12; }
+
+/* ---------- memo ---------- */
+.memo { flex:1 1 auto; min-height:0; margin-top:2mm; border:.3mm dashed #b3c4a2;
+  border-radius:.8mm; padding:1.2mm 2.5mm 1.8mm; display:flex; flex-direction:column; overflow:hidden; }
+.memoh { font-size:2.4mm; font-weight:800; color:#7d9268; letter-spacing:.1em; }
+.memol { flex:1 1 0; min-height:0; border-bottom:.2mm dotted #cdd9c0; }
+.memol:last-child { border-bottom:none; }
+
+/* ---------- footer ---------- */
+.foot { display:flex; align-items:center; gap:2mm; border-top:.5mm solid var(--dk2);
+  padding-top:1mm; margin-top:1mm; }
+.kw { flex:1; font-size:2.45mm; line-height:1.28; }
+.fkw { width:46mm; font-size:2.45mm; line-height:1.28; }
+.fkw span { font-weight:800; font-size:2.9mm; }
+.foot b { font-weight:800; color:var(--dk); }
+.badge { width:10.5mm; height:10.5mm; flex:0 0 10.5mm; }
+.badge svg { width:100%; height:100%; }
+
+/* ---------- AoS 用の追加 ---------- */
+/* 能力値: 移動力・体力・防御力・確保力 (と追加特性) を横に並べる */
+.stats .st { display:flex; flex-direction:column; align-items:center; }
+.stats .st .sl { white-space:nowrap; }
+/* 見出しのタグ (レジェンド・スピアヘッド) を右下に並べる */
+.htags { position:absolute; right:3mm; bottom:1.6mm; display:flex; gap:1.2mm; }
+.htags .hlgd { position:static; }
+.back .htags { bottom:1.2mm; }
+/* アビリティ: 名前の後ろのタイミング (書籍のフェイズ帯に当たる) とキーワード */
+.tmg { display:inline-block; font-size:.82em; font-weight:700; color:#fff; background:var(--mid);
+  border-radius:.6mm; padding:.04em .5em; margin-left:.3em; vertical-align:.08em; }
+.tmg:empty { display:none; }
+.akw { font-size:.84em; font-weight:700; color:var(--mid); margin-left:.3em; }
+.lbl { font-weight:800; color:var(--dk2); }
+.none { font-size:1em; color:var(--en); padding:.5em; }
+.pc p.abh { text-align:left; }
+/* 武器表の見出し: AoS の用語 (回数・ヒット・ウーンズ・貫通・ダメージ) は長いので、英語を下の行に出して列幅を確保する */
+.wt thead th:not(.wh) { font-size:.78em; white-space:normal; line-height:1.05; padding:.25em .1em; }
+.wt thead th:not(.wh) i { display:block; margin-left:0; font-size:.8em; }
+.wt thead th:nth-child(2), .wt td:nth-child(2) { width:9mm; }
+.wt thead th:nth-child(n+3), .wt td:nth-child(n+3) { width:9mm; }
+
+:root{--dk:#1f2a24;--dk2:#31443a;--mid:#3f5a4c;--lt:#9cc3a8;--line:#a9b5ae;--panel:#f0f2f1;--row:#e2e6e4;--en:#626a66;}
+</style></head><body><div class="sheet"><div class="card front" data-i="0"><div class="bg" style="background-image:url(../bannerImages/wm/da6e787f-32f7-40dc-9dd1-4ee372f2f95b.jpg)"></div><div class="head"><div class="hname">Butcher</div><div class="htags"><div class="hlgd">スピアヘッド<i>Spearhead</i></div></div></div><div class="stats"><div class="st"><span class="sl">移動力<i>Move</i></span><span class="sv">6&quot;</span></div><div class="st"><span class="sl">体力<i>Health</i></span><span class="sv">8</span></div><div class="st"><span class="sl">防御力<i>Save</i></span><span class="sv">5+</span></div><div class="st"><span class="sl">確保力<i>Control</i></span><span class="sv">3</span></div><div class="inv"><span>加護<i>Ward</i></span><b>6+</b></div></div><div class="body"><div class="colL fit"><table class="wt"><thead><tr><th class="wh"><span class="wi">⚔</span>近接武器<i>Melee Weapons</i></th><th>回数<i>Atk</i></th><th>ヒット<i>Hit</i></th><th>ウーンズ<i>Wnd</i></th><th>貫通<i>Rnd</i></th><th>ダメージ<i>Dmg</i></th></tr></thead><tbody><tr><td class="wn">Butcher&#x27;s Tools</td><td>4</td><td>4+</td><td>2+</td><td>2</td><td>3</td></tr></tbody></table></div><div class="colR"><div class="panel" id="ab0"><div class="ph">アビリティ<i>Abilities</i></div><div class="pc"><div class="abgrp"><p class="ab abh"><b>Rust-Maw：</b><span class="tmg">Your Hero Phase</span></p><p class="ab"><span class="lbl">宣言：</span>Pick a visible enemy unit within 12&quot; of this unit to be the target. Then, make a casting roll of 2D6.</p><p class="ab"><span class="lbl">効果：</span>On a 6+, until the start of your next turn, subtract 1 from the Rend characteristic of the target’s melee weapons.</p></div><div class="abgrp"><p class="ab abh"><b>Butcher&#x27;s Cauldron：</b><span class="tmg">Reaction: You declared the &#x27;Rust-maw&#x27; ability</span></p><p class="ab"><span class="lbl">効果：</span>If this unit’s Butcher’s Cauldron is <b>full</b>, roll a D3. On a 1, this unit’s Butcher’s Cauldron becomes <b>empty</b>. On a 2+, you can add 2 to the casting roll.</p></div></div></div></div></div><div class="foot"><div class="kw"><b>キーワード / Keywords：</b>Hero、Wizard、Infantry、Ward (6+)</div><div class="badge"><svg viewBox="0 0 64 64"><path d="M32 3 60 32 32 61 4 32Z" fill="none" stroke="var(--dk)" stroke-width="3"/><path d="M32 9 55 32 32 55 9 32Z" fill="var(--dk)"/><path d="M32 16 40 32 32 48 24 32Z" fill="var(--lt)"/></svg></div><div class="fkw"><b>陣営 / Faction：</b><br><span>OGOR MAWTRIBES</span></div></div></div><div class="card front" data-i="1"><div class="bg" style="background-image:url(../bannerImages/wm/26c9b5d9-09e7-46c9-b18c-7337c7ada2d0.jpg)"></div><div class="head"><div class="hname">Cleavers</div><div class="htags"><div class="hlgd">スピアヘッド<i>Spearhead</i></div></div></div><div class="stats"><div class="st"><span class="sl">移動力<i>Move</i></span><span class="sv">6&quot;</span></div><div class="st"><span class="sl">体力<i>Health</i></span><span class="sv">4</span></div><div class="st"><span class="sl">防御力<i>Save</i></span><span class="sv">5+</span></div><div class="st"><span class="sl">確保力<i>Control</i></span><span class="sv">2</span></div><div class="inv"><span>加護<i>Ward</i></span><b>6+</b></div></div><div class="body"><div class="colL fit"><table class="wt"><thead><tr><th class="wh"><span class="wi">⚔</span>近接武器<i>Melee Weapons</i></th><th>回数<i>Atk</i></th><th>ヒット<i>Hit</i></th><th>ウーンズ<i>Wnd</i></th><th>貫通<i>Rnd</i></th><th>ダメージ<i>Dmg</i></th></tr></thead><tbody><tr><td class="wn">Cleaver&#x27;s Tools</td><td>4</td><td>4+</td><td>2+</td><td>2</td><td>3</td></tr></tbody></table></div><div class="colR"><div class="panel" id="ab1"><div class="ph">アビリティ<i>Abilities</i></div><div class="pc"><div class="abgrp"><p class="ab abh"><b>A Taste for the Arcane：</b><span class="tmg">Passive</span></p><p class="ab"><span class="lbl">効果：</span>This unit’s melee weapons have <b>Crit (2 Hits)</b> while it is in combat with an enemy <b>WIZARD</b> or <b>PRIEST</b>.</p></div></div></div></div></div><div class="foot"><div class="kw"><b>キーワード / Keywords：</b>Infantry、Ward (6+)</div><div class="badge"><svg viewBox="0 0 64 64"><path d="M32 3 60 32 32 61 4 32Z" fill="none" stroke="var(--dk)" stroke-width="3"/><path d="M32 9 55 32 32 55 9 32Z" fill="var(--dk)"/><path d="M32 16 40 32 32 48 24 32Z" fill="var(--lt)"/></svg></div><div class="fkw"><b>陣営 / Faction：</b><br><span>OGOR MAWTRIBES</span></div></div></div></div><div class="sheet"><div class="card back" data-i="0"><div class="head"><div class="hname">Butcher</div><div class="hsub"><b>モデル数：</b>1　/　<b>ベースサイズ：</b>50mm　/　<b>増援不可</b></div><div class="htags"><div class="hlgd">スピアヘッド<i>Spearhead</i></div></div><div class="hcorner">data_version 483</div></div><div class="body body2"><div class="cols fit"><div class="colL"><div class="panel spill" id="sp0"><div class="ph">アビリティ（つづき）<i>Abilities (cont.)</i></div><div class="pc" id="spc0"></div></div></div><div class="colR"></div></div><div class="memo"><div class="memoh">メモ / MEMO</div><div class="memol"></div><div class="memol"></div><div class="memol"></div><div class="memol"></div><div class="memol"></div><div class="memol"></div></div></div><div class="foot"><div class="kw"><b>キーワード / Keywords：</b>Hero、Wizard、Infantry、Ward (6+)</div><div class="badge"><svg viewBox="0 0 64 64"><path d="M32 3 60 32 32 61 4 32Z" fill="none" stroke="var(--dk)" stroke-width="3"/><path d="M32 9 55 32 32 55 9 32Z" fill="var(--dk)"/><path d="M32 16 40 32 32 48 24 32Z" fill="var(--lt)"/></svg></div><div class="fkw"><b>陣営 / Faction：</b><br><span>OGOR MAWTRIBES</span></div></div></div><div class="card back" data-i="1"><div class="head"><div class="hname">Cleavers</div><div class="hsub"><b>モデル数：</b>3　/　<b>ベースサイズ：</b>40mm</div><div class="htags"><div class="hlgd">スピアヘッド<i>Spearhead</i></div></div><div class="hcorner">data_version 483</div></div><div class="body body2"><div class="cols fit"><div class="colL"><div class="panel spill" id="sp1"><div class="ph">アビリティ（つづき）<i>Abilities (cont.)</i></div><div class="pc" id="spc1"></div></div></div><div class="colR"></div></div><div class="memo"><div class="memoh">メモ / MEMO</div><div class="memol"></div><div class="memol"></div><div class="memol"></div><div class="memol"></div><div class="memol"></div><div class="memol"></div></div></div><div class="foot"><div class="kw"><b>キーワード / Keywords：</b>Infantry、Ward (6+)</div><div class="badge"><svg viewBox="0 0 64 64"><path d="M32 3 60 32 32 61 4 32Z" fill="none" stroke="var(--dk)" stroke-width="3"/><path d="M32 9 55 32 32 55 9 32Z" fill="var(--dk)"/><path d="M32 16 40 32 32 48 24 32Z" fill="var(--lt)"/></svg></div><div class="fkw"><b>陣営 / Faction：</b><br><span>OGOR MAWTRIBES</span></div></div></div></div><div class="sheet"><div class="card front" data-i="2"><div class="bg" style="background-image:url(../bannerImages/wm/f9924c3a-8734-420a-b639-e5cfc14686da.jpg)"></div><div class="head"><div class="hname">Gorger Mawpack</div><div class="htags"><div class="hlgd">スピアヘッド<i>Spearhead</i></div></div></div><div class="stats"><div class="st"><span class="sl">移動力<i>Move</i></span><span class="sv">6&quot;</span></div><div class="st"><span class="sl">体力<i>Health</i></span><span class="sv">5</span></div><div class="st"><span class="sl">防御力<i>Save</i></span><span class="sv">6+</span></div><div class="st"><span class="sl">確保力<i>Control</i></span><span class="sv">2</span></div><div class="inv"><span>加護<i>Ward</i></span><b>6+</b></div></div><div class="body"><div class="colL fit"><table class="wt"><thead><tr><th class="wh"><span class="wi">⚔</span>近接武器<i>Melee Weapons</i></th><th>回数<i>Atk</i></th><th>ヒット<i>Hit</i></th><th>ウーンズ<i>Wnd</i></th><th>貫通<i>Rnd</i></th><th>ダメージ<i>Dmg</i></th></tr></thead><tbody><tr><td class="wn">Clubs, Claws and Jaws</td><td>5</td><td>4+</td><td>2+</td><td>1</td><td>2</td></tr></tbody></table></div><div class="colR"><div class="panel" id="ab2"><div class="ph">アビリティ<i>Abilities</i></div><div class="pc"><div class="abgrp"><p class="ab abh"><b>Bestial Hunger：</b><span class="tmg">Passive</span></p><p class="ab"><span class="lbl">効果：</span>In your charge phase, if this unit is not in combat and there are any enemy units within 12&quot; of it, this unit must use the ‘Charge’ ability, and if the charge roll would allow it to end the move within ½&quot; of a visible enemy unit, it must do so.</p></div></div></div></div></div><div class="foot"><div class="kw"><b>キーワード / Keywords：</b>Infantry、Ward (6+)</div><div class="badge"><svg viewBox="0 0 64 64"><path d="M32 3 60 32 32 61 4 32Z" fill="none" stroke="var(--dk)" stroke-width="3"/><path d="M32 9 55 32 32 55 9 32Z" fill="var(--dk)"/><path d="M32 16 40 32 32 48 24 32Z" fill="var(--lt)"/></svg></div><div class="fkw"><b>陣営 / Faction：</b><br><span>OGOR MAWTRIBES</span></div></div></div><div class="card front" data-i="3"><div class="bg" style="background-image:url(../bannerImages/wm/7a679bf6-1b98-471c-9133-e61adbff6f16.jpg)"></div><div class="head"><div class="hname">Gutseers</div><div class="htags"><div class="hlgd">スピアヘッド<i>Spearhead</i></div></div></div><div class="stats"><div class="st"><span class="sl">移動力<i>Move</i></span><span class="sv">6&quot;</span></div><div class="st"><span class="sl">体力<i>Health</i></span><span class="sv">4</span></div><div class="st"><span class="sl">防御力<i>Save</i></span><span class="sv">5+</span></div><div class="st"><span class="sl">確保力<i>Control</i></span><span class="sv">2</span></div><div class="inv"><span>加護<i>Ward</i></span><b>6+</b></div></div><div class="body"><div class="colL fit"><table class="wt"><thead><tr><th class="wh"><span class="wi">⚔</span>近接武器<i>Melee Weapons</i></th><th>回数<i>Atk</i></th><th>ヒット<i>Hit</i></th><th>ウーンズ<i>Wnd</i></th><th>貫通<i>Rnd</i></th><th>ダメージ<i>Dmg</i></th></tr></thead><tbody><tr><td class="wn">Gutseer&#x27;s Tools</td><td>3</td><td>4+</td><td>2+</td><td>2</td><td>3</td></tr></tbody></table></div><div class="colR"><div class="panel" id="ab3"><div class="ph">アビリティ<i>Abilities</i></div><div class="pc"><div class="abgrp"><p class="ab abh"><b>Conduits of Gut Magic：</b><span class="tmg">Once Per Turn (Army), Any Hero Phase</span></p><p class="ab"><span class="lbl">効果：</span>The next time the ‘Rust-maw’ ability is used by your general, measure the range and visibility of that ability from this unit instead of your general.</p></div></div></div></div></div><div class="foot"><div class="kw"><b>キーワード / Keywords：</b>Infantry、Ward (6+)</div><div class="badge"><svg viewBox="0 0 64 64"><path d="M32 3 60 32 32 61 4 32Z" fill="none" stroke="var(--dk)" stroke-width="3"/><path d="M32 9 55 32 32 55 9 32Z" fill="var(--dk)"/><path d="M32 16 40 32 32 48 24 32Z" fill="var(--lt)"/></svg></div><div class="fkw"><b>陣営 / Faction：</b><br><span>OGOR MAWTRIBES</span></div></div></div></div><div class="sheet"><div class="card back" data-i="2"><div class="head"><div class="hname">Gorger Mawpack</div><div class="hsub"><b>モデル数：</b>5　/　<b>ベースサイズ：</b>50mm　/　<b>増援不可</b></div><div class="htags"><div class="hlgd">スピアヘッド<i>Spearhead</i></div></div><div class="hcorner">data_version 483</div></div><div class="body body2"><div class="cols fit"><div class="colL"><div class="panel spill" id="sp2"><div class="ph">アビリティ（つづき）<i>Abilities (cont.)</i></div><div class="pc" id="spc2"></div></div></div><div class="colR"><div class="panel movable"><div class="ph">備考<i>Notes</i></div><div class="pc"><p class="ab">This unit cannot be reinforced.</p></div></div></div></div><div class="memo"><div class="memoh">メモ / MEMO</div><div class="memol"></div><div class="memol"></div><div class="memol"></div><div class="memol"></div><div class="memol"></div><div class="memol"></div></div></div><div class="foot"><div class="kw"><b>キーワード / Keywords：</b>Infantry、Ward (6+)</div><div class="badge"><svg viewBox="0 0 64 64"><path d="M32 3 60 32 32 61 4 32Z" fill="none" stroke="var(--dk)" stroke-width="3"/><path d="M32 9 55 32 32 55 9 32Z" fill="var(--dk)"/><path d="M32 16 40 32 32 48 24 32Z" fill="var(--lt)"/></svg></div><div class="fkw"><b>陣営 / Faction：</b><br><span>OGOR MAWTRIBES</span></div></div></div><div class="card back" data-i="3"><div class="head"><div class="hname">Gutseers</div><div class="hsub"><b>モデル数：</b>3　/　<b>ベースサイズ：</b>40mm</div><div class="htags"><div class="hlgd">スピアヘッド<i>Spearhead</i></div></div><div class="hcorner">data_version 483</div></div><div class="body body2"><div class="cols fit"><div class="colL"><div class="panel spill" id="sp3"><div class="ph">アビリティ（つづき）<i>Abilities (cont.)</i></div><div class="pc" id="spc3"></div></div></div><div class="colR"></div></div><div class="memo"><div class="memoh">メモ / MEMO</div><div class="memol"></div><div class="memol"></div><div class="memol"></div><div class="memol"></div><div class="memol"></div><div class="memol"></div></div></div><div class="foot"><div class="kw"><b>キーワード / Keywords：</b>Infantry、Ward (6+)</div><div class="badge"><svg viewBox="0 0 64 64"><path d="M32 3 60 32 32 61 4 32Z" fill="none" stroke="var(--dk)" stroke-width="3"/><path d="M32 9 55 32 32 55 9 32Z" fill="var(--dk)"/><path d="M32 16 40 32 32 48 24 32Z" fill="var(--lt)"/></svg></div><div class="fkw"><b>陣営 / Faction：</b><br><span>OGOR MAWTRIBES</span></div></div></div></div><script>// カードに収まるように段の幅と文字サイズを調整し、溢れたアビリティを裏面へ送る。
+function fits(e){ return e.scrollHeight <= e.clientHeight + 0.6; }
+
+var BASE_MM = 2.5;   // card.css の .colL/.colR/.cols と合わせること
+// el の文字サイズを floor（1.0 に対する比）まで二分探索で縮める。
+// check を渡すとそれで収まりを判定する（既定は el 自身）。
+// el は要素か要素の配列（配列なら全部に同じサイズを当てる。.colL/.colR は各自 font-size を
+// mm で持っているので、親の .cols を縮めても効かない）。
+function shrink(el, floor, check){
+  var els = Array.isArray(el) ? el : [el];
+  check = check || function(){ return els.every(fits); };
+  var lo = floor, hi = 1.0, best = floor;
+  function set(x){ els.forEach(function(e){ e.style.fontSize = (x * BASE_MM).toFixed(3) + 'mm'; }); }
+  function ok(x){ set(x); return check(); }
+  if (ok(1.0)) { set(1.0); return 1; }
+  for (var i = 0; i < 14; i++){
+    var m = (lo + hi) / 2;
+    if (ok(m)) { best = m; lo = m; } else { hi = m; }
+  }
+  set(best);
+  return best;
+}
+
+document.querySelectorAll('.card.front').forEach(function(card){
+  var i = card.dataset.i;
+  var L = card.querySelector('.colL'), R = card.querySelector('.colR');
+  var abox = document.getElementById('ab' + i);
+  var pc = abox ? abox.querySelector('.pc') : null;
+  var spill = document.getElementById('sp' + i), spc = document.getElementById('spc' + i);
+  var moved = 0;
+
+  // 右段（アビリティ）から末尾のブロックを裏面へ送る
+  function spillUntilFits(){
+    if (!pc || !spc) return;
+    while (!fits(R)){
+      var blocks = pc.querySelectorAll(':scope > .abgrp');
+      if (blocks.length <= 1) break;
+      spc.insertBefore(blocks[blocks.length - 1], spc.firstChild);
+      moved++;
+    }
+  }
+
+  // 1) アビリティが入りきるまで右段を広げる（左段が溢れない範囲で）
+  var wide = ['66mm', '74mm', '82mm', '90mm'], best = wide[0];
+  for (var k = 0; k < wide.length; k++){
+    R.style.flexBasis = wide[k]; best = wide[k];
+    if (fits(R)) break;
+    if (!fits(L)) break;
+  }
+  R.style.flexBasis = best;
+
+  // 2) 左段（武器表）が溢れるなら、まず文字を少し縮めて収まるか試す
+  if (!fits(L)) shrink(L, 0.78);
+
+  // 3) それでも溢れるなら、右段を狭めて幅を回す。
+  //    狭めた分あふれるアビリティは裏面へ送る。
+  if (!fits(L)){
+    var narrow = ['62mm', '58mm', '54mm', '50mm', '46mm'];
+    for (var j = 0; j < narrow.length; j++){
+      R.style.flexBasis = narrow[j];
+      spillUntilFits();
+      if (fits(L)) break;
+    }
+  }
+
+  // 4) それでも入らない分は裏面へ
+  spillUntilFits();
+
+  if (moved){
+    var m = document.createElement('p');
+    m.className = 'contd';
+    m.textContent = '→ つづきは裏面へ / continued on the back';
+    pc.appendChild(m);
+  } else if (spill){
+    spill.remove();
+  }
+  shrink(L, 0.5); shrink(R, 0.5);
+});
+
+// 裏面: .cols 自体は overflow:hidden の段に阻まれて溢れを検出できないので、両段で判定する。
+// 文字を縮める前に、段の幅の配分・パネルの段間移動・オプション欄の 2 段組みで収めることを試みる。
+document.querySelectorAll('.card.back').forEach(function(c){
+  var cols = c.querySelector('.cols'), L = cols.querySelector('.colL'), R = cols.querySelector('.colR');
+  var opt = L.querySelector(':scope > .panel.wargear > .pc');   // ウォーギア・オプション欄（無いユニットは欄ごと省略）
+  function both(){ return fits(L) && fits(R); }
+  function set(x){ [L, R].forEach(function(e){ e.style.fontSize = (x * BASE_MM).toFixed(3) + 'mm'; }); }
+
+  // from 段の末尾のパネル (sel) を、to 段が溢れない範囲で to 段の末尾へ移す
+  function moveTo(from, to, sel){
+    var mv = Array.prototype.slice.call(from.querySelectorAll(':scope > ' + sel));
+    for (var j = mv.length - 1; j >= 0 && !fits(from); j--){
+      var nxt = mv[j].nextSibling;
+      to.appendChild(mv[j]);
+      if (!fits(to)) { from.insertBefore(mv[j], nxt); break; }
+    }
+  }
+  function layout(){
+    // 1) 右段（ユニット構成・合流先）が溢れるなら、左段が溢れない範囲で右段を広げる
+    R.style.flexBasis = '72mm';
+    if (opt) opt.classList.remove('two');
+    if (!fits(R)){
+      var wide = ['84mm', '96mm', '108mm', '120mm'], best = '72mm';
+      for (var k = 0; k < wide.length; k++){
+        R.style.flexBasis = wide[k];
+        if (!fits(L)) { R.style.flexBasis = best; break; }
+        best = wide[k];
+        if (fits(R)) break;
+      }
+    }
+    // 2) それでも溢れるなら、合流先・ポイント補足のパネルを左段の末尾へ
+    if (!fits(R)) moveTo(R, L, '.panel.movable');
+    // 3) 左段（ウォーギア・オプション）が溢れるなら、右段が収まる範囲で右段を狭めて幅を回し、
+    //    表面から送られたアビリティを右段の末尾へ移し、最後にオプション欄を 2 段組みにする
+    if (!fits(L) && fits(R)){
+      var narrow = ['64mm', '56mm', '48mm'], prev = R.style.flexBasis;
+      for (var n = 0; n < narrow.length && !fits(L); n++){
+        R.style.flexBasis = narrow[n];
+        if (!fits(R)) { R.style.flexBasis = prev; break; }
+        prev = narrow[n];
+      }
+    }
+    if (!fits(L)) moveTo(L, R, '.panel.spill');
+    if (!fits(L) && opt){
+      opt.classList.add('two');
+      if (fits(L)) moveTo(L, R, '.panel.spill');
+    }
+    return both();
+  }
+  // 左段が空（オプションも裏送りのアビリティも無い）なら右段を全幅に
+  if (!L.children.length){
+    L.remove(); R.style.flex = '1 1 auto';
+    shrink([R], 0.5, function(){ return fits(R); });
+  } else {
+    // 文字サイズを少しずつ落としながら、収まる配置を探す
+    var scales = [1.0, 0.92, 0.85, 0.78, 0.72, 0.66, 0.6], done = false;
+    for (var i = 0; i < scales.length && !done; i++){ set(scales[i]); done = layout(); }
+    if (!done) shrink([L, R], 0.5, both);
+  }
+
+  var m = c.querySelector('.memo');
+  if (m && m.getBoundingClientRect().height < 55) m.remove();
+});
+document.body.dataset.ready = '1';
+</script></body></html>
