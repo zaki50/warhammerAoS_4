@@ -1,4 +1,4 @@
-# Grundstok Expeditionary Force ウォースクロール一覧
+# グランドストック遠征軍(Grundstok Expeditionary Force) ウォースクロール一覧
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
@@ -7,7 +7,7 @@
 
 ---
 
-## Aether-Khemist
+## エーテル・ケミスト(Aether-Khemist)
 
 **ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -23,34 +23,34 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Atmospheric Anatomiser | 8" | 3D6 | 4+ | 4+ | 2 | 1 | Shoot in Combat |
+| 大気組成分析器(Atmospheric Anatomiser) | 8" | 3D6 | 4+ | 4+ | 2 | 1 | 近接射撃(Shoot in Combat) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Heavy Instruments | 3 | 4+ | 4+ | - | D3 | - |
+| 重器具(Heavy Instruments) | 3 | 4+ | 4+ | - | D3 | - |
 
 **アビリティ:**
 
-- **Atmospheric Isolation**（Passive）
-  - 効果: Subtract 1 from charge rolls for enemy units within 9" of this unit.
-- **Aetheric Augmentation**（Once Per Turn (Army), Your Shooting Phase）
-  - 宣言: Pick a friendly **Arkanaut Company** unit wholly within 12" of this unit to be the target.
-  - 効果: Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s ranged weapons for the rest of the turn.
+- **大気からの隔絶(Atmospheric Isolation)**（パッシブ）
+  - 効果: このユニットの9mv以内に一部でも入っている敵ユニットは、その突撃ロールに-1の修正を受ける。
+- **エーテル強化(Aetheric Augmentation)**（各ターンにつき1回（アーミー）、自軍側遠隔フェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っている味方**アルカノート・カンパニー**・ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された味方ユニットが装備している遠隔武器の【貫通値】は+1の修正を受ける。
 
 **連隊オプション:**
 
 - 0-1 **SKYVESSEL**
 - Any **INFANTRY**
 
-**キーワード:** Hero, Infantry, Order, Kharadron Overlords, Duardin, Skyfarer
+**キーワード:** 英雄、歩兵、秩序の大同盟、カラドロン・オーヴァーロード、ドゥアーディン、飛行船員（Hero, Infantry, Order, Kharadron Overlords, Duardin, Skyfarer）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Guild Officer*.
 
 ---
 
-## Aetheric Navigator
+## エーテリック・ナヴィゲイター(Aetheric Navigator)
 
 **ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -66,34 +66,34 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Ranging Pistol | 10" | 2 | 3+ | 3+ | 1 | 1 | Shoot in Combat |
+| レンジングピストル(Ranging Pistol) | 10" | 2 | 3+ | 3+ | 1 | 1 | 近接射撃(Shoot in Combat) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Zephyrscope | 3 | 3+ | 4+ | 1 | D3 | - |
+| 風読鏡(Zephyrscope) | 3 | 3+ | 4+ | 1 | D3 | - |
 
 **アビリティ:**
 
-- **Aethersight**（Passive）
-  - 効果: This unit can use **UNBIND** abilities as if it had **WIZARD (1)**.
-- **Read the Winds**（Once Per Turn (Army), Your Movement Phase）
-  - 宣言: Pick a friendly **SKYVESSEL** or **AUTO-ENDRIN** within this unit’s combat range and that is not in combat to be the target.
-  - 効果: Remove the target from the battlefield and set it up again on the battlefield more than 9" from all enemy units. Then, if the target is a **SKYVESSEL**, you can remove this unit from the battlefield and set it up again on the battlefield wholly within 6" of the target and more than 9" from all enemy units.
+- **エーテル眼(Aethersight)**（パッシブ）
+  - 効果: このユニットは、自身があたかも**魔術師（1）**であるかのように『**打ち消し**』アビリティを使用できる。
+- **風読み(Read the Winds)**（各ターンにつき1回（アーミー）、自軍側移動フェイズ）
+  - 宣言: このユニットの近接範囲内に一部でも入っている、近接戦闘中ではない味方**飛行艦**または**オートエンドリン**を1個選択する。
+  - 効果: 選択された飛行艦あるいはオートエンドリンを戦場から取り除き、あらゆる敵ユニットから9mvより遠く離れた戦場の位置に再配置する。その後、それが**飛行艦**であった場合は、このユニットを戦場から取り除き、その飛行艦から6mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に再配置してもよい。
 
 **連隊オプション:**
 
 - 0-1 **SKYVESSEL**
 - Any **INFANTRY**
 
-**キーワード:** Hero, Infantry, Order, Kharadron Overlords, Duardin, Skyfarer
+**キーワード:** 英雄、歩兵、秩序の大同盟、カラドロン・オーヴァーロード、ドゥアーディン、飛行船員（Hero, Infantry, Order, Kharadron Overlords, Duardin, Skyfarer）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Guild Officer*.
 
 ---
 
-## Arkanaut Admiral
+## アルカノート・アドミラル(Arkanaut Admiral)
 
 **ポイント:** 130pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -109,33 +109,33 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Masterwork Volley Pistol | 10" | 3 | 3+ | 3+ | 1 | 2 | Shoot in Combat |
+| 傑作ヴォレイピストル(Masterwork Volley Pistol) | 10" | 3 | 3+ | 3+ | 1 | 2 | 近接射撃(Shoot in Combat) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Skalfhammer | 4 | 3+ | 3+ | 1 | 3 | - |
+| スカルフハンマー(Skalfhammer) | 4 | 3+ | 3+ | 1 | 3 | - |
 
 **アビリティ:**
 
-- **Bring Every Gun to Bear!**（Once Per Turn (Army), Your Shooting Phase）
-  - 宣言: Pick a friendly **SKYVESSEL** wholly within 24" of this unit to be the target.
-  - 効果: For the rest of the turn, add 1 to the Attacks characteristic of the target’s ranged weapons.
-- **The Admiral's Flagship**（Once Per Turn (Army), Your Shooting Phase）
-  - 宣言: Pick a friendly **FLAGSHIP** wholly within 12" of this unit to be the target.
-  - 効果: For the rest of the phase, each time the target uses a **SHOOT** ability, you can re-roll 1 of the hit rolls made for that ability.
+- **「全砲、発射！」(Bring Every Gun to Bear!)**（各ターンにつき1回（アーミー）、自軍側遠隔フェイズ）
+  - 宣言: このユニットの24mv以内に全体が入っている味方**飛行艦**を1個選択する。
+  - 効果: そのターン中、選択された味方飛行艦が装備している遠隔武器の【攻撃回数】は+1の修正を受ける。
+- **提督の旗艦(The Admiral's Flagship)**（各ターンにつき1回（アーミー）、自軍側遠隔フェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っている味方**旗艦**を1個選択する。
+  - 効果: そのフェイズ中、選択された旗艦が『**遠隔攻撃**』アビリティを使用する際、そのアビリティによるヒットロールを1個リロールできる。
 
 **連隊オプション:**
 
 - 0-1 *Guild Officer*
 - Any **KHARADRON OVERLORDS**
 
-**キーワード:** Hero, Infantry, Order, Kharadron Overlords, Duardin, Skyfarer
+**キーワード:** 英雄、歩兵、秩序の大同盟、カラドロン・オーヴァーロード、ドゥアーディン、飛行船員（Hero, Infantry, Order, Kharadron Overlords, Duardin, Skyfarer）
 
 ---
 
-## Auto-Endrin
+## オートエンドリン(Auto-Endrin)
 
 **モデル数:** 1 / **ベースサイズ:** 40mm
 
@@ -149,25 +149,25 @@
 
 **アビリティ:**
 
-- **Nullifier Auto-Endrin**（**Once Per Turn (Army), Any Combat Phase**）
-  - 宣言: If this unit is a **Nullifier Auto-Endrin** and is in combat with any enemy **MANIFESTATIONS**, pick each enemy **MANIFESTATION** in combat with it to be the targets.
-  - 効果: Make a **banishment roll** of 3D6 for each target. If the banishment roll equals or exceeds the **banishment value** on the **MANIFESTATION**’s warscroll, it is banished and removed from play. Then, remove this unit from the battlefield.
-- **Expendable Munitions**（Passive）
-  - 効果: The following apply to this unit: •  This unit has a maximum control score of ‘-’. •  When this unit is destroyed or removed from the battlefield, it does not count as being destroyed for the purposes of other rules (such as scoring battle tactics). •  This unit cannot be picked to be the target of or be affected by any non-**CORE** abilities used by other friendly units unless the ability specifies **AUTO-ENDRIN**. •  Ignore this unit for the purposes of friendly and enemy battle tactics.
-- **Grudgeblast Auto-Endrin**（Once Per Turn (Army), Any Combat Phase）
-  - 宣言: If this unit is a **Grudgeblast Auto-Endrin** and is in combat, pick each enemy unit in combat with it to be the targets.
-  - 効果: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Then, remove this unit from the battlefield.
-- **Stuncloud Auto-Endrin**（Once Per Turn (Army), Any Combat Phase）
-  - 宣言: If this unit is a **Stuncloud Auto-Endrin** and is in combat, pick each enemy unit in combat with it to be the targets.
-  - 効果: Roll a dice for each target. If the roll is equal to or lower than that target’s Health characteristic, subtract 10 from the control score of that target for the rest of the turn. Then, remove this unit from the battlefield.
+- **ナルファイアー・オートエンドリン(Nullifier Auto-Endrin)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 宣言: このユニットが**ナルファイアー・オートエンドリン**であり、かつ1個以上の敵**顕現**と近接戦闘中である場合、このユニットと近接戦闘中である各敵**顕現**を選択する。
+  - 効果: 各顕現に対して、それぞれ3D6の**追放ロール**をする。追放ロールの結果が、その**顕現**のウォースクロールに記載されている**【追放値】**以上であれば、そのロール対象の顕現は追放され、ゲームから取り除かれる。その後、このユニットは戦場から取り除かれる。
+- **使い捨て兵器(Expendable Munitions)**（パッシブ）
+  - 効果: このユニットに下記が適用される。 • このユニットは最大「-」の確保スコアを持つ。 • このユニットが全滅するとき、あるいは戦場から取り除かれるとき、他のルール上、このユニットは全滅したとカウントされない（戦術目標の達成など）。 • アビリティに**オートエンドリン**が指定されていない限り、このユニットは他の味方ユニットが使用する**『コア』**アビリティ以外の対象として選択されたりすることも、そのアビリティの効果を受けたりすることもできない。 • 味方や敵の戦術目標において、このユニットを無視する。
+- **グラッジブラスト・オートエンドリン(Grudgeblast Auto-Endrin)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 宣言: このユニットが**グラッジブラスト・オートエンドリン**であり、かつ近接戦闘中である場合、このユニットと近接戦闘中である各敵ユニットを選択する。
+  - 効果: 各敵ユニットに対して、それぞれD3を1個ロールする。ロール結果が2+であれば、ロール対象の敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。その後、このユニットは戦場から取り除かれる。
+- **スタンクラウド・オートエンドリン(Stuncloud Auto-Endrin)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 宣言: このユニットが**スタンクラウド・オートエンドリン**であり、かつ近接戦闘中である場合、このユニットと近接戦闘中である各敵ユニットを選択する。
+  - 効果: 各敵ユニットに対して、それぞれダイスを1個ロールする。ロール結果がその敵ユニットの【体力】以下である場合、そのターン中、ロール対象の確保スコアは-10の修正を受ける。その後、このユニットは戦場から取り除かれる。
 
-**装備オプション:** ***This unit comprises 1 of the following: Nullifier Auto-Endrin, Stuncloud Auto-Endrin or Grudgeblast Auto-Endrin.***
+**装備オプション:** このユニットは、以下のいずれかで構成される：ナルファイアー・オートエンドリン、スタンクラウド・オートエンドリン、グラッジブラスト・オートエンドリン。
 
-**キーワード:** War Machine, Fly, Order, Kharadron Overlords, Auto-Endrin
+**キーワード:** 戦闘兵器、飛行、秩序の大同盟、カラドロン・オーヴァーロード、オートエンドリン（War Machine, Fly, Order, Kharadron Overlords, Auto-Endrin）
 
 ---
 
-## Codewright
+## コードライト(Codewright)
 
 **ポイント:** 80pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -183,32 +183,32 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Aethershot Pistol | 10" | 2 | 3+ | 3+ | 1 | 1 | Shoot in Combat |
+| エーテルショット・ピストル(Aethershot Pistol) | 10" | 2 | 3+ | 3+ | 1 | 1 | 近接射撃(Shoot in Combat) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Battletome | 3 | 4+ | 4+ | - | D3 | - |
+| バトルトーム(Battletome) | 3 | 4+ | 4+ | - | D3 | - |
 
 **アビリティ:**
 
-- **Advisory Role**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: Pick up to 3 visible friendly **SKYFARERS** units to be the targets.
-  - 効果: Roll a dice for each target. On a 3+, pick 1 of the following effects to apply to that target for the rest of the turn: ***Seek New Prospects:*** Add 5 to the target’s control score. ***Don’t Argue with the Wind:*** Add 1 to run rolls and charge rolls for the target. ***There’s No Trading With Some People:*** The target can use a **RETREAT** ability and still use **SHOOT** abilities later in the turn. In addition, no mortal damage is inflicted on the target by **RETREAT** abilities.
+- **顧問の助言(Advisory Role)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: 自身から視認状態である味方**飛行船員**・ユニットを最大3個まで選択する。
+  - 効果: 選択された各味方ユニットに対して、それぞれダイスを1個ロールする。ロール結果が3+であれば、そのターン中に、ロール対象に適用される効果を以下から1つ選択する： **未知の探求：**その味方ユニットの確保スコアは+5の修正を受ける。 **風に抗うな：**その味方ユニットの全力移動ロールと突撃ロールは+1の修正を受ける。 **相手によっては取引すべからず：**その味方ユニットは『**退却**』アビリティを使用していたとしても、そのターン中に『**遠隔攻撃**』アビリティを使用できる。さらに、その味方ユニットは『**退却**』アビリティを使用して致命的ダメージを受けない。
 
 **連隊オプション:**
 
 - 0-1 **SKYVESSEL**
 - Any **INFANTRY**
 
-**キーワード:** Hero, Infantry, Order, Kharadron Overlords, Duardin, Skyfarer
+**キーワード:** 英雄、歩兵、秩序の大同盟、カラドロン・オーヴァーロード、ドゥアーディン、飛行船員（Hero, Infantry, Order, Kharadron Overlords, Duardin, Skyfarer）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Guild Officer*.
 
 ---
 
-## Endrinmaster with Dirigible Suit
+## エンドリンマスター（可導気球スーツ装備）(Endrinmaster with Dirigible Suit)
 
 **ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
@@ -224,36 +224,36 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Dirigible Suit Weapon Battery | 12" | 6 | 3+ | 3+ | 1 | 1 | Shoot in Combat |
-| Aethercannon | 18" | 1 | 3+ | 3+ | 2 | 3 | - |
+| 可導気球スーツ砲(Dirigible Suit Weapon Battery) | 12" | 6 | 3+ | 3+ | 1 | 1 | 近接射撃(Shoot in Combat) |
+| エーテルキャノン(Aethercannon) | 18" | 1 | 3+ | 3+ | 2 | 3 | - |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Upgraded Aethermatic Saw | 4 | 3+ | 3+ | 2 | 2 | - |
+| 強化型エーテル駆動式の鋸(Upgraded Aethermatic Saw) | 4 | 3+ | 3+ | 2 | 2 | - |
 
 **アビリティ:**
 
-- **Combat Engineers**（Once Per Turn (Army), Any Combat Phase）
-  - 宣言: Pick this unit and up to 1 friendly **Endrinriggers** unit wholly within 12" of this unit to be the targets.
-  - 効果: For the rest of the turn, combat attacks made by the targets against enemy units that charged this turn have **Crit (2 Hits)**.
-- **Mobile Repairs**（Your Hero Phase）
-  - 宣言: Pick a friendly **SKYVESSEL** or **Zontari Endrin Dock** within this unit’s combat range to be the target.
-  - 効果: Roll a dice. On a 2+, **Heal (3)** the target.
+- **戦闘工兵員(Combat Engineers)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 宣言: このユニットと、このユニットの12mv以内に全体が入っている他の味方**エンドリン・リガー**・ユニットを最大1個まで選択する。
+  - 効果: そのターン中、このユニットと選択された味方ユニットのメレーアタックは、このターン中に突撃を実行している敵ユニットに対して**クリティカル（2ヒット）**を持つ。
+- **可搬式補修機器(Mobile Repairs)**（自軍側ヒーローフェイズ）
+  - 宣言: このユニットの近接範囲内に一部でも入っている味方**飛行艦**または**ゾンターリ・エンドリン船渠**を1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が2+であれば、選択された飛行艦あるいは船渠を**回復（3）**する。
 
 **連隊オプション:**
 
 - 0-1 **SKYVESSEL**
 - Any **INFANTRY**
 
-**キーワード:** Hero, Infantry, Fly, Order, Kharadron Overlords, Duardin, Skyfarer
+**キーワード:** 英雄、歩兵、飛行、秩序の大同盟、カラドロン・オーヴァーロード、ドゥアーディン、飛行船員（Hero, Infantry, Fly, Order, Kharadron Overlords, Duardin, Skyfarer）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Guild Officer*.
 
 ---
 
-## Endrinmaster with Endrinharness
+## エンドリンマスター（エンドリンハーネス装備）(Endrinmaster with Endrinharness)
 
 **ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -269,29 +269,29 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Aethermight Hammer | 3 | 4+ | 2+ | 2 | 3 | - |
+| エーテルマイト・ハンマー(Aethermight Hammer) | 3 | 4+ | 2+ | 2 | 3 | - |
 
 **アビリティ:**
 
-- **'Aye Aye, Captain!'**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: Pick a friendly **SKYVESSEL** within this unit’s combat range to be the target.
-  - 効果: For the rest of the turn: •  The target can use a **RETREAT** or **RUN** ability and still use **SHOOT** abilities later in the turn. •  No mortal damage is inflicted on the target by **RETREAT** abilities.
-- **Mobile Repairs**（Your Hero Phase）
-  - 宣言: Pick a friendly **SKYVESSEL** or **Zontari Endrin Dock** within this unit’s combat range to be the target.
-  - 効果: Roll a dice. On a 2+, **Heal (3)** the target.
+- **「合点でさ、船長！」('Aye Aye, Captain!')**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: このユニットの近接範囲内に一部でも入っている味方**飛行艦**を1個選択する。
+  - 効果: そのターン中、 • 選択された味方飛行艦は『**退却**』または『**全力移動**』アビリティを使用していたとしても、そのターン中に『**遠隔攻撃**』アビリティを使用できる。 • 選択された味方飛行艦は『**退却**』アビリティによる致命的ダメージを受けない。
+- **可搬式補修機器(Mobile Repairs)**（自軍側ヒーローフェイズ）
+  - 宣言: このユニットの近接範囲内に一部でも入っている味方**飛行艦**または**ゾンターリ・エンドリン船渠**を1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が2+であれば、選択された飛行艦あるいは船渠を**回復（3）**する。
 
 **連隊オプション:**
 
 - 0-1 **SKYVESSEL**
 - Any **INFANTRY**
 
-**キーワード:** Hero, Infantry, Order, Kharadron Overlords, Duardin, Skyfarer
+**キーワード:** 英雄、歩兵、秩序の大同盟、カラドロン・オーヴァーロード、ドゥアーディン、飛行船員（Hero, Infantry, Order, Kharadron Overlords, Duardin, Skyfarer）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Guild Officer*.
 
 ---
 
-## Grundstok Gunhauler
+## グランドストック・ガンハウラー(Grundstok Gunhauler)
 
 **ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
 
@@ -307,32 +307,32 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Sky Ordnance | 15" | 3 | 4+ | 3+ | 2 | 3 | - |
+| スカイ兵器(Sky Ordnance) | 15" | 3 | 4+ | 3+ | 2 | 3 | - |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Boarding Weapons | 4 | 4+ | 4+ | - | 1 | - |
+| 移乗武装(Boarding Weapons) | 4 | 4+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Aethershot Overwatch**（Once Per Turn (Army), Any Combat Phase）
-  - 宣言: Pick an enemy unit that charged this turn and is in combat with this unit to be the target.
-  - 効果: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
-- **Long-line Slings**（Passive）
-  - 効果: When you use the ‘Transport Skyfarers’ ability for this unit, you can pick units in combat to be targets.
-- **Transport Capacity**（Passive）
-  - 効果: This unit can transport 1 friendly **KHARADRON OVERLORDS INFANTRY** unit with a model count of up to 5 (see Battle Traits).
-- **Light Bomb Racks**（Your Movement Phase）
-  - 宣言: Pick an enemy unit that does not have **FLY** and that this unit passed across this phase to be the target.
-  - 効果: Roll 4 dice. For each 4+, inflict 1 mortal damage on the target.
+- **エーテルショットの警戒射撃(Aethershot Overwatch)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 宣言: このユニットと近接戦闘中であり、かつこのターン中に突撃を実行している敵ユニットを1個選択する。
+  - 効果: D3を1個ロールする。ロール結果が2+であれば、選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。
+- **帆桁の吊り鎖(Long-line Slings)**（パッシブ）
+  - 効果: このユニットが『空挺戦士の輸送』アビリティを使用するとき、近接戦闘中である味方ユニットを選択できる。
+- **輸送枠(Transport Capacity)**（パッシブ）
+  - 効果: このユニットは最大1個までの味方**カラドロン・オーヴァーロード・歩兵**・ユニット、兵5体（戦闘特性参照）までの輸送枠を持つ。
+- **小型爆弾ラック(Light Bomb Racks)**（自軍側移動フェイズ）
+  - 宣言: このフェイズ中、このユニットが通り抜けた**飛行**を持っていない敵ユニットを1個選択する。
+  - 効果: ダイスを4個ロールする。ロール結果で4+が出るたびに、選択された敵ユニットは1ポイントの致命的ダメージを受ける。
 
-**キーワード:** War Machine, Fly, Order, Kharadron Overlords, Duardin, Skyvessel
+**キーワード:** 戦闘兵器、飛行、秩序の大同盟、カラドロン・オーヴァーロード、ドゥアーディン、飛行艦（War Machine, Fly, Order, Kharadron Overlords, Duardin, Skyvessel）
 
 ---
 
-## Grundstok Thunderers
+## グランドストック・サンダラー(Grundstok Thunderers)
 
 **ポイント:** 130pt / **モデル数:** 5 / **ベースサイズ:** 32mm
 
@@ -346,29 +346,29 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Grundstok Mortar or Aethercannon | 18" | 2 | 4+ | 3+ | 1 | 2 | - |
-| Aethershot Rifle | 18" | 2 | 3+ | 4+ | 1 | 1 | - |
-| Aetheric Fumigator or Decksweeper | 10" | 5 | 3+ | 4+ | - | 1 | Shoot in Combat |
+| グランドストック迫撃砲またはエーテルキャノン(Grundstok Mortar or Aethercannon) | 18" | 2 | 4+ | 3+ | 1 | 2 | - |
+| エーテルショット・ライフル(Aethershot Rifle) | 18" | 2 | 3+ | 4+ | 1 | 1 | - |
+| エーテリック・フュミゲイターまたはデッキスイーパー(Aetheric Fumigator or Decksweeper) | 10" | 5 | 3+ | 4+ | - | 1 | 近接射撃(Shoot in Combat) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Gun Butt | 1 | 4+ | 5+ | - | 1 | - |
+| 銃床(Gun Butt) | 1 | 4+ | 5+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Specialist Grundstok Ammunition**（Once Per Turn (Army), Your Shooting Phase, Reaction: You declared a SHOOT ability for this unit）
-  - 宣言: Pick **Shieldbreaker** ammunition or **Thunderdrakk** ammunition.
-  - 効果: If all of the attacks made for that **SHOOT** ability target the same enemy unit, after that **SHOOT** ability has been resolved, roll a dice and add the number of damage points allocated to the target by that **SHOOT** ability. If the roll is higher than the target’s Control characteristic, apply the following effect to the target based on the ammunition type picked: ***Shieldbreaker:*** Ward rolls cannot be made for the target until the start of your next turn. ***Thunderdrakk:*** That target has a maximum control score of 1 until the start of your next turn.
+- **特殊グランドストック弾(Specialist Grundstok Ammunition)**（各ターンにつき1回（アーミー）、自軍側遠隔フェイズ、リアクション：このユニットが『遠隔攻撃』アビリティを宣言）
+  - 宣言: **シールドブレイカー**弾もしくは**サンダードラック**弾を選択する。
+  - 効果: その**『遠隔攻撃』**アビリティによるすべての攻撃が同一の敵ユニットを対象にしている場合、その**『遠隔攻撃』**アビリティが解決された直後に、ダイスを1個ロールする。ロールにその**『遠隔攻撃』**アビリティによって敵ユニットが受けたダメージの数を加算する。ロール結果がその敵ユニットの【確保力】を上回る場合、選んだ弾薬タイプに応じて、次の効果を敵ユニットに適用する。 **シールドブレイカー**：次の自軍側ターン開始時まで、その敵ユニットは加護ロールを実行できない。 **サンダードラック**：次の自軍側ターン開始時まで、その敵ユニットの最大確保スコアは1である。
 
-**装備オプション:** • ***Each model in this unit is armed with an Aethershot Rifle and Gun Butt.*** • ***2/5 models can replace their Aethershot Rifle with an Aetheric Fumigator or Decksweeper.*** • ***2/5 models can replace their Aethershot Rifle with a Grundstok Mortar or Aethercannon.*** • ***The champion cannot replace their Aethershot Rifle.***
+**装備オプション:** • このユニットの各兵は、エーテルショット・ライフルと大型銃床を装備している。 • 2/5の兵は、エーテルショット・ライフルをエーテリック・フュミゲイターもしくはデッキスイーパーに交換できる。 • 2/5の兵は、エーテルショット・ライフルをグランドストック迫撃砲もしくはエーテルキャノンに交換できる。 • 豪傑は装備しているエーテルショット・ライフルを交換できない。
 
-**キーワード:** Infantry, Champion, Standard Bearer (1/5), Order, Kharadron Overlords, Duardin, Skyfarer
+**キーワード:** 歩兵、豪傑、旗手（1/5）、秩序の大同盟、カラドロン・オーヴァーロード、ドゥアーディン、飛行船員（Infantry, Champion, Standard Bearer (1/5), Order, Kharadron Overlords, Duardin, Skyfarer）
 
 ---
 
-## Scourge of Ghyran Codewright
+## グューランの禍事 コードライト(Scourge of Ghyran Codewright)
 
 **ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -384,34 +384,34 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Aethershot Pistol | 10" | 2 | 3+ | 3+ | 1 | 1 | Shoot in Combat |
+| エーテルショット・ピストル(Aethershot Pistol) | 10" | 2 | 3+ | 3+ | 1 | 1 | 近接射撃(Shoot in Combat) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Battletome | 3 | 4+ | 4+ | - | D3 | - |
+| バトルトーム(Battletome) | 3 | 4+ | 4+ | - | D3 | - |
 
 **アビリティ:**
 
-- **Alright, Listen Up**（Once Per Turn (Army), Any Hero Phase）
-  - 宣言: If this unit is wholly within 12" of a friendly non-**HERO KHARADRON OVERLORDS** unit, pick a visible enemy unit within 18" of this unit to be the target. Then, choose to spend either 3 or 6 **vexed points**.
-  - 効果: Pick 1 of the following effects to apply to the target for the rest of the turn: • ***Do you see how fast they are going?!***: If you spent 3 **vexed points**, subtract D3 from the target’s Move characteristic. If you spent 6 **vexed points**, halve the target’s Move characteristic. • ***Those weapons are against regulation!***: If you spent 3 **vexed points**, subtract 1 from wound rolls for the target’s combat attacks. If you spent 6 **vexed points**, subtract 1 from the Rend characteristic of the target’s melee weapons and subtract 1 from wound rolls for the target’s combat attacks.
-- **I'm Watching You**（Any Hero Phase）
-  - 効果: Give this unit D3 **vexed points**.
+- **よぉし、よく聞けよ(Alright, Listen Up)**（各ターンにつき1回（アーミー）、任意のヒーローフェイズ）
+  - 宣言: このユニットが英雄でない味方**カラドロン・オーヴァーロード**・ユニットの12mv以内に全体が入っている場合、このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。その後、**議論ポイント**を3ポイントまたは6ポイント消費する。
+  - 効果: 以下の効果から1つを選択し、選択された敵ユニットにそのターン終了時まで適用する。 • **連中が逃げ惑う様を見たか！？：**3**議論ポイント**を消費している場合、選択された敵ユニットの【移動力】は-D3の修正を受ける。6**議論ポイント**を消費しているならば、選択された敵ユニットの【移動力】は半減する。 • **その武器は掟に反しとる！：**3**議論ポイント**を消費している場合、選択された敵ユニットのメレーアタックはウーンズロールに-1の修正を受ける。6**議論ポイント**を消費しているならば、選択された敵ユニットの近接武器は【貫通値】に-1の修正を受け、そのメレーアタックはウーンズロールに-1の修正を受ける。
+- **見張ってるぞ(I'm Watching You)**（任意のヒーローフェイズ）
+  - 効果: このユニットはD3**議論ポイント**を獲得する。
 
 **連隊オプション:**
 
 - 0-1 **SKYVESSEL**
 - Any **INFANTRY**
 
-**キーワード:** Hero, Infantry, Order, Kharadron Overlords, Duardin, Skyfarer
+**キーワード:** 英雄、歩兵、秩序の大同盟、カラドロン・オーヴァーロード、ドゥアーディン、飛行船員（Hero, Infantry, Order, Kharadron Overlords, Duardin, Skyfarer）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Guild Officer*. This unit is legal for Matched Play for battles fought using the *General’s Handbook 2025-26* battlepack.
 
 ---
 
-## Scourge of Ghyran Grundstok Gunhauler
+## グューランの禍事 グランドストック・ガンハウラー(Scourge of Ghyran Grundstok Gunhauler)
 
 **ポイント:** 170pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
 
@@ -425,30 +425,30 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Sky Ordnance | 15" | 3 | 4+ | 3+ | 2 | 3 | - |
+| スカイ兵器(Sky Ordnance) | 15" | 3 | 4+ | 3+ | 2 | 3 | - |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Bombs and Boarding Weapons | 4 | 4+ | 4+ | 1 | D3 | - |
+| 爆弾と移乗攻撃用武器(Bombs and Boarding Weapons) | 4 | 4+ | 4+ | 1 | D3 | - |
 
 **アビリティ:**
 
-- **Fighter Vessel**（Any Shooting Phase）
-  - 効果: If this unit used a **SHOOT** ability this phase, this unit can move D6". It cannot end that move in combat.
-- **Attack Squadron**（Passive）
-  - 効果: While this unit is wholly within 12" of any other friendly **Grundstok Gunhaulers**, it can use **SHOOT** abilities even if it used the ‘Run’ ability in the same turn.
-- **Transport Capacity**（Passive）
-  - 効果: This unit cannot transport any friendly units.
+- **攻勢航空機(Fighter Vessel)**（任意の遠隔フェイズ）
+  - 効果: このフェイズ中、このユニットが『**遠隔攻撃**』アビリティを使用していた場合、このユニットはD6mv移動してもよい。その移動は、近接戦闘に突入するように完了することはできない。
+- **攻撃部隊(Attack Squadron)**（パッシブ）
+  - 効果: このユニットが自身以外の味方**グランドストック・ガンハウラー**の12mv以内に全体が入っている間、このユニットはそのターン中に『全力移動』アビリティを使用していたとしても『**遠隔攻撃**』アビリティを使用できる。
+- **輸送枠(Transport Capacity)**（パッシブ）
+  - 効果: このユニットはいかなる味方ユニットも輸送できない。
 
-**キーワード:** War Machine, Fly, Order, Kharadron Overlords, Duardin, Skyvessel
+**キーワード:** 戦闘兵器、飛行、秩序の大同盟、カラドロン・オーヴァーロード、ドゥアーディン、飛行艦（War Machine, Fly, Order, Kharadron Overlords, Duardin, Skyvessel）
 
 **ノート:** This unit is legal for Matched Play for battles fought using the *General’s Handbook 2025-26* battlepack. This unit can be reinforced even though it has a minimum unit size of 1.
 
 ---
 
-## Zontari Endrin Dock
+## ゾンターリ・エンドリン船渠(Zontari Endrin Dock)
 
 **ポイント:** 20pt / **モデル数:** 1 / **ベースサイズ:** 80mm
 
@@ -462,18 +462,18 @@
 
 **アビリティ:**
 
-- **Endrinworks Outpost**（Your Hero Phase）
-  - 宣言: Pick a friendly **AUTO-ENDRIN** or replacement **AUTO‑ENDRIN** that has been removed from the battlefield to be the target.
-  - 効果: Make a manufacturing roll of D6. Add 1 to the roll if there is a friendly **Endrinmaster with Dirigible Suit** or **Endrinmaster with Endrinharness** within 3" of this terrain feature. On a 4+, set up a replacement **AUTO-ENDRIN** on the battlefield, wholly within 6" of this terrain feature and more than 3" from all enemy units.
-- **Repair Routines**（Your Hero Phase）
-  - 宣言: Pick a friendly **SKYVESSEL** within 3" of this terrain feature to be the target.
-  - 効果: Make a repair roll of D6. Add 1 to the roll if there is a friendly **Endrinmaster with Dirigible Suit** or **Endrinmaster with Endrinharness** within 3" of this terrain feature. On a 4+, **Heal (3)** the target.
-- **Release The Auto-Endrins**（Deployment Phase）
-  - 効果: Set up a friendly **Nullifier Auto‑Endrin**, **Stuncloud Auto‑Endrin** and **Grudgeblast Auto‑Endrin** (see the Auto-Endrin warscroll) on the battlefield within friendly territory, wholly within 6" of this terrain feature and more than 9" from all enemy units.
+- **エンドリン前哨部隊(Endrinworks Outpost)**（自軍側ヒーローフェイズ）
+  - 宣言: 味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリンを1個選択する。
+  - 効果: D6の製造ロールを1個する。味方エンドリンマスター（可導気球スーツ装備）またはエンドリン・マスター（エンドリンハーネス装備）がこの特殊地形の3mv以内に一部でも入っている場合、その製造ロールは+1の修正を受ける。ロール結果が4+であれば、この特殊地形の6mv以内に全体が入るように、かつあらゆる敵ユニットから3mvより遠く離れた戦場の位置に、代替のオートエンドリンを1個配置する。
+- **修理ルーチン(Repair Routines)**（自軍側ヒーローフェイズ）
+  - 宣言: この特殊地形の3mv以内に一部でも入っている味方**飛行艦**を1個選択する。
+  - 効果: D6の修理ロールを1個する。味方**エンドリンマスター（可導気球スーツ装備）**または**エンドリン・マスター（エンドリンハーネス装備）**がこの特殊地形の3mv以内に一部でも入っている場合、その修理ロールは+1の修正を受ける。ロール結果が4+であれば、選択された味方飛行艦を**回復（3）**する。
+- **オートエンドリン出撃(Release The Auto-Endrins)**（初期配置フェイズ）
+  - 効果: 味方**ナルファイアー・オートエンドリン**1個、**スタンクラウド・オートエンドリン**1個、**グラッジブラスト・オートエンドリン**1個（オートエンドリンのウォースクロール参照）を自軍側陣地内に一部でも入るように、かつこの特殊地形の6mv以内に全体が入るように、なおかつあらゆる敵ユニットから9mvより遠く離れている戦場の位置に配置する。
 
 **地形ルール:**
 
-- **Cover:** This rule varies depending on the battlepack selected for your army: **General's Handbook 2024-25** Subtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword. **General's Handbook 2025-26** Subtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword. **General's Handbook 2026-27** Subtract 1 from hit rolls for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit charged this turn or has the **FLY** keyword.
-- **Impassable:** This rule varies depending on the battlepack selected for your army: **General's Handbook 2024-25** Models cannot move across, be set up on or end moves on any part of this terrain feature. **General's Handbook 2025-26** Models cannot move across, be set up on or end moves on any part of this terrain feature. **General's Handbook 2026-27** Models cannot move across, be set up on or end moves on any part of this terrain feature.
+- **遮蔽物(Cover):** This rule varies depending on the battlepack selected for your army: **General's Handbook 2024-25** Subtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword. **General's Handbook 2025-26** Subtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword. **General's Handbook 2026-27** Subtract 1 from hit rolls for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit charged this turn or has the **FLY** keyword.
+- **通り抜け不可能(Impassable):** This rule varies depending on the battlepack selected for your army: **General's Handbook 2024-25** Models cannot move across, be set up on or end moves on any part of this terrain feature. **General's Handbook 2025-26** Models cannot move across, be set up on or end moves on any part of this terrain feature. **General's Handbook 2026-27** Models cannot move across, be set up on or end moves on any part of this terrain feature.
 
-**キーワード:** Faction Terrain, Fly, Order, Kharadron Overlords
+**キーワード:** 陣営地形、飛行、秩序の大同盟、カラドロン・オーヴァーロード（Faction Terrain, Fly, Order, Kharadron Overlords）

@@ -1,19 +1,19 @@
-# Spearhead: Grundstok Trailblazers（Kharadron Overlords）
+# Spearhead: グランドストック・トレイルブレイザー(Grundstok Trailblazers)（カラドロン・オーヴァーロード(Kharadron Overlords)）
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
 
-- Endrinmaster with Dirigible Suit（1体）
-- Endrinriggers（3体）
-- Grundstok Gunhauler（1体）
-- Grundstok Thunderers（5体）
+- エンドリンマスター（可導気球スーツ装備）(Endrinmaster with Dirigible Suit)（1体）
+- エンドリン・リガー(Endrinriggers)（3体）
+- グランドストック・ガンハウラー(Grundstok Gunhauler)（1体）
+- グランドストック・サンダラー(Grundstok Thunderers)（5体）
 
 ## ユニット詳細
 
 
-### Endrinmaster with Dirigible Suit
+### エンドリンマスター（可導気球スーツ装備）(Endrinmaster with Dirigible Suit)
 
 **モデル数:** 1 / **ベースサイズ:** 40mm
 
@@ -27,24 +27,24 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Dirigible Suit Weapon Battery | 12" | 6 | 3+ | 3+ | 1 | 1 | - |
-| Aethercannon | 18" | 1 | 3+ | 3+ | 2 | 3 | - |
+| 可導気球スーツ砲(Dirigible Suit Weapon Battery) | 12" | 6 | 3+ | 3+ | 1 | 1 | - |
+| エーテルキャノン(Aethercannon) | 18" | 1 | 3+ | 3+ | 2 | 3 | - |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Upgraded Aethermatic Saw | 4 | 3+ | 3+ | 2 | 2 | - |
+| 強化型エーテル駆動式の鋸(Upgraded Aethermatic Saw) | 4 | 3+ | 3+ | 2 | 2 | - |
 
 **アビリティ:**
 
-- **Endrinmaster Extraordinaire**（Your Hero Phase）
-  - 宣言: Pick a friendly unit with the **FLY** keyword that is wholly within 12" of this unit to be the target.
-  - 効果: Roll a D3. On a 2+, **Heal (X)** the target where **X** is equal to the roll.
+- **非凡なエンドリンマスター(Endrinmaster Extraordinaire)**（自軍側ヒーローフェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っている**飛行**・キーワードを持つ味方ユニットを1個選択する。
+  - 効果: D3を1個ロールする。ロール結果が2+であれば、選択された味方ユニットを**回復**（X）する。**X**の値は、そのロール結果に等しい。
 
-**キーワード:** Hero, Infantry, Fly
+**キーワード:** 英雄、歩兵、飛行（Hero, Infantry, Fly）
 
-### Endrinriggers
+### エンドリン・リガー(Endrinriggers)
 
 **モデル数:** 3 / **ベースサイズ:** 32mm
 
@@ -58,25 +58,25 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Rapid-fire Rivet Gun | 10" | 3 | 3+ | 4+ | 1 | 1 | Shoot in Combat |
-| Skyrigger Heavy Weapon | 15" | 1 | 4+ | 3+ | 1 | D3 | Anti-MONSTER (+1 Rend) |
-| Aethermatic Volley Gun | 15" | 2D6 | 4+ | 4+ | - | 1 | Crit (2 Hits) |
+| ラピッドファイア・リベットガン(Rapid-fire Rivet Gun) | 10" | 3 | 3+ | 4+ | 1 | 1 | 近接射撃(Shoot in Combat) |
+| スカイリガーの重火器(Skyrigger Heavy Weapon) | 15" | 1 | 4+ | 3+ | 1 | D3 | 対大型獣（+1貫通値）(Anti-MONSTER (+1 Rend)) |
+| エーテル駆動式ヴォレイガン(Aethermatic Volley Gun) | 15" | 2D6 | 4+ | 4+ | - | 1 | クリティカル（2ヒット）(Crit (2 Hits)) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Aethermatic Saw | 3 | 4+ | 3+ | 1 | 2 | Anti-charge (+1 Rend) |
-| Gun Butt | 1 | 4+ | 5+ | - | 1 | - |
+| エーテル駆動式の鋸(Aethermatic Saw) | 3 | 4+ | 3+ | 1 | 2 | 対突撃（貫通値+1）(Anti-charge (+1 Rend)) |
+| 銃床(Gun Butt) | 1 | 4+ | 5+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Cloudweaving Skyfarers**（Enemy Movement Phase）
-  - 効果: Roll a dice. On a 3+, this unit can use the ‘Normal Move’ ability as if it were your movement phase.
+- **クラウドウイービング飛行船員(Cloudweaving Skyfarers)**（敵軍側移動フェイズ）
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、このユニットはあたかも自軍側移動フェイズ中かのように、ただちに『通常移動』アビリティを1回使用できる。
 
-**キーワード:** Infantry, Fly, Reinforcements
+**キーワード:** 歩兵、飛行、増援（Infantry, Fly, Reinforcements）
 
-### Grundstok Gunhauler
+### グランドストック・ガンハウラー(Grundstok Gunhauler)
 
 **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
 
@@ -90,23 +90,23 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Sky Ordnance | 15" | 3 | 4+ | 3+ | 2 | 3 | - |
+| スカイ兵器(Sky Ordnance) | 15" | 3 | 4+ | 3+ | 2 | 3 | - |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Boarding Weapons | 4 | 4+ | 4+ | - | 1 | - |
+| 移乗武装(Boarding Weapons) | 4 | 4+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Gunhauler Overwatch**（Any Combat Phase）
-  - 宣言: Pick an enemy unit that charged this turn and is in combat with this unit to be the target.
-  - 効果: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
+- **ガンハウラーの援護射撃(Gunhauler Overwatch)**（任意の近接フェイズ）
+  - 宣言: このユニットと近接戦闘中であり、かつこのターン中に突撃を実行している敵ユニットを1個選択する。
+  - 効果: D3を1個ロールする。ロール結果が2+であれば、選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。
 
-**キーワード:** War Machine, Fly
+**キーワード:** 戦闘兵器、飛行（War Machine, Fly）
 
-### Grundstok Thunderers
+### グランドストック・サンダラー(Grundstok Thunderers)
 
 **モデル数:** 5 / **ベースサイズ:** 32mm
 
@@ -120,49 +120,49 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Aetheric Fumigator or Decksweeper | 10" | 5 | 3+ | 4+ | - | 1 | Shoot in Combat |
-| Aethershot Rifle | 18" | 2 | 3+ | 4+ | 1 | 1 | - |
-| Grundstok Mortar or Aethercannon | 18" | 2 | 4+ | 3+ | 1 | 2 | - |
+| エーテリック・フュミゲイターまたはデッキスイーパー(Aetheric Fumigator or Decksweeper) | 10" | 5 | 3+ | 4+ | - | 1 | 近接射撃(Shoot in Combat) |
+| エーテルショット・ライフル(Aethershot Rifle) | 18" | 2 | 3+ | 4+ | 1 | 1 | - |
+| グランドストック迫撃砲またはエーテルキャノン(Grundstok Mortar or Aethercannon) | 18" | 2 | 4+ | 3+ | 1 | 2 | - |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Gun Butt | 1 | 4+ | 5+ | - | 1 | - |
+| 銃床(Gun Butt) | 1 | 4+ | 5+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Bewilderblast Rounds**（Once Per Battle (Army), Any Shooting Phase）
-  - 宣言: Pick an enemy unit that had any damage points allocated to it this phase by this unit’s shooting attacks to be the target.
-  - 効果: Subtract D6 from the target’s control score for the rest of the turn.
+- **ビウィルダーブラスト弾(Bewilderblast Rounds)**（バトル中1回限り（アーミー）、任意の遠隔フェイズ）
+  - 宣言: このフェイズ中、このユニットのレンジアタックによって1ポイント以上のダメージを割り振られている敵ユニットを1個選択する。
+  - 効果: そのターン中、選択された敵ユニットの確保スコアは-D6の修正を受ける。
 
-**キーワード:** Infantry, Reinforcements
+**キーワード:** 歩兵、増援（Infantry, Reinforcements）
 
 ## 戦闘特性（Grundstok Trailblazers Battle Traits）
 
-- **Gunhauler Escort**（Passive）
-  - 効果: Subtract 1 from hit rolls for attacks that target friendly **KHARADRON OVERLORDS INFANTRY** units while they are wholly within 6" of a friendly **Grundstok Gunhauler**.
+- **ガンハウラー護衛兵(Gunhauler Escort)**（パッシブ）
+  - 効果: 味方**カラドロン・オーヴァーロード・歩兵**・ユニットが味方グランドストック・ガンハウラーの6mv以内に全体が入っている間、その味方歩兵ユニットを対象とした攻撃は、ヒットロールに-1の修正を受ける。
 
 ## 連隊アビリティ（Grundstok Trailblazers Regiment Abilities）
 
-Pick 1 of the following regiment abilities.
+以下の連隊アビリティの中から1つを選択する。
 
-- **Rapid Relocation**（Once Per Battle (Army), Your Movement Phase）
-  - 宣言: Pick a friendly unit with **FLY** to be the target.
-  - 効果: Remove the target from the battlefield and set it up again anywhere on the battlefield more than 6" from all enemy units. The target cannot use **CHARGE** abilities this turn.
-- **Propeller Downdraught**（Passive）
-  - 効果: Subtract 1 from charge rolls for enemy units while they are within 9" of a friendly **Grundstok Gunhauler**.
+- **急速配置転換(Rapid Relocation)**（バトル中1回限り（アーミー）、自軍側移動フェイズ）
+  - 宣言: **飛行**を持つ味方ユニットを1個選択する。
+  - 効果: 選択された味方ユニットを戦場から取り除き、あらゆる敵ユニットから6mvより遠く離れた戦場の位置に再配置する。このターン中、その味方ユニットは『**突撃**』アビリティを使用できない。
+- **プロペラ下降気流(Propeller Downdraught)**（パッシブ）
+  - 効果: 敵ユニットが味方**グランドストック・ガンハウラー**の9mv以内に一部でも入っている場合、その敵ユニットの突撃ロールは-1の修正を受ける。
 
 ## 強化（Grundstok Trailblazers Enhancements）
 
-Give your general 1 of the following enhancements.
+自軍のジェネラルに、以下の強化の中から1つを付与する。
 
-- **Emergency Fuel Injection Pods**（Once Per Battle (Army), Any Combat Phase）
-  - 効果: Your general has **STRIKE-FIRST** for the rest of the turn.
-- **Celestium-burst Bomblets**（Any Combat Phase）
-  - 宣言: Pick an enemy unit in combat with your general to be the target.
-  - 効果: Roll a dice. On a 3+, ward rolls cannot be made for the target for the rest of the turn.
-- **Prospector and Pioneer**（Passive）
-  - 効果: Add 2 to your general’s control score.
-- **Extraction Fail-safes**（Passive）
-  - 効果: Subtract 1 from the number of damage points inflicted on this unit when it uses a **RETREAT** ability.
+- **緊急燃料噴射ポッド(Emergency Fuel Injection Pods)**（バトル中1回限り（アーミー）、任意の近接フェイズ）
+  - 効果: そのターン中、自軍側ジェネラルは『**先手効果**』を得る。
+- **天空鉄の炸裂小型爆弾(Celestium-burst Bomblets)**（任意の近接フェイズ）
+  - 宣言: このジェネラルと近接戦闘中である敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットは加護ロールをすることができない。
+- **探鉱開拓者(Prospector and Pioneer)**（パッシブ）
+  - 効果: 自軍側ジェネラルの確保スコアは+2の修正を受ける。
+- **防護対抗装置(Extraction Fail-safes)**（パッシブ）
+  - 効果: このユニットが『**退却**』アビリティを使用するとき、このユニットが受けるダメージは-1の修正を受ける。

@@ -3,19 +3,19 @@
   "slug": "spearhead_skyhammer_task_force",
   "kind": "spearhead",
   "faction_en": "Kharadron Overlords",
-  "faction_ja": null,
+  "faction_ja": "カラドロン・オーヴァーロード",
   "faction_slug": "kharadron_overlords",
   "alliance": null,
   "title_en": "Skyhammer Task Force",
-  "title_ja": null,
+  "title_ja": "スカイハンマー機動艇旅団",
   "data_version": 483
  },
  "units": [
   {
    "id": "27ae68b4-9e68-4c2c-bc90-5a91e26fe9ff",
    "name": {
-    "ja": "Arkanaut Admiral",
-    "en": "",
+    "ja": "アルカノート・アドミラル",
+    "en": "Arkanaut Admiral",
     "own": false,
     "fix": [],
     "note": []
@@ -52,8 +52,8 @@
    "reinforce": true,
    "ranged": [
     {
-     "ja": "Masterwork Volley Pistol",
-     "en": "",
+     "ja": "傑作ヴォレイピストル",
+     "en": "Masterwork Volley Pistol",
      "own": false,
      "fix": [],
      "note": [],
@@ -65,7 +65,9 @@
       "1",
       "2"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "近接射撃"
+     ],
      "abil_en": [
       "Shoot in Combat"
      ]
@@ -73,8 +75,8 @@
    ],
    "melee": [
     {
-     "ja": "Skalfhammer",
-     "en": "",
+     "ja": "スカルフハンマー",
+     "en": "Skalfhammer",
      "own": false,
      "fix": [],
      "note": [],
@@ -92,28 +94,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Always Take What You Are Owed",
-      "en": "",
+      "ja": "貸しは常に取り立てよ",
+      "en": "Always Take What You Are Owed",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Your Hero Phase"
+       "ja": "自軍側ヒーローフェイズ",
+       "en": "Your Hero Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick a friendly **Arkanaut Company** unit wholly within 12\" of this unit to be the target."
+       "ja": "このユニットの12mv以内に全体が入っている味方**アルカノート・カンパニー**・ユニットを1個選択する。",
+       "en": "Pick a friendly **Arkanaut Company** unit wholly within 12\" of this unit to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Add D6 to the target’s control score until the start of your next turn."
+       "ja": "次の自軍側ターン開始時まで、選択された味方ユニットの確保スコアは+D6の修正を受ける。",
+       "en": "Add D6 to the target’s control score until the start of your next turn.",
+       "fix": []
       }
      },
      "own": false,
@@ -127,12 +133,12 @@
    "terrain": [],
    "keywords": [
     [
-     "Hero",
-     ""
+     "英雄",
+     "Hero"
     ],
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ]
    ],
    "keyword_fix": {},
@@ -143,8 +149,8 @@
   {
    "id": "ff6043b8-100b-4b04-82a7-f3a40a107567",
    "name": {
-    "ja": "Arkanaut Company",
-    "en": "",
+    "ja": "アルカノート・カンパニー",
+    "en": "Arkanaut Company",
     "own": false,
     "fix": [],
     "note": []
@@ -181,8 +187,8 @@
    "reinforce": true,
    "ranged": [
     {
-     "ja": "Privateer Pistol",
-     "en": "",
+     "ja": "プライヴェーティア・ピストル",
+     "en": "Privateer Pistol",
      "own": false,
      "fix": [],
      "note": [],
@@ -194,14 +200,16 @@
       "-",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "近接射撃"
+     ],
      "abil_en": [
       "Shoot in Combat"
      ]
     },
     {
-     "ja": "Aethermatic Volley Gun",
-     "en": "",
+     "ja": "エーテル駆動式ヴォレイガン",
+     "en": "Aethermatic Volley Gun",
      "own": false,
      "fix": [],
      "note": [],
@@ -217,8 +225,8 @@
      "abil_en": []
     },
     {
-     "ja": "Light Skyhook",
-     "en": "",
+     "ja": "ライト・スカイフック",
+     "en": "Light Skyhook",
      "own": false,
      "fix": [],
      "note": [],
@@ -236,8 +244,8 @@
    ],
    "melee": [
     {
-     "ja": "Skypike",
-     "en": "",
+     "ja": "スカイパイク",
+     "en": "Skypike",
      "own": false,
      "fix": [],
      "note": [],
@@ -248,14 +256,16 @@
       "1",
       "2"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "クリティカル（致命的）"
+     ],
      "abil_en": [
       "Crit (Mortal)"
      ]
     },
     {
-     "ja": "Gun Butt",
-     "en": "",
+     "ja": "銃床",
+     "en": "Gun Butt",
      "own": false,
      "fix": [],
      "note": [],
@@ -270,8 +280,8 @@
      "abil_en": []
     },
     {
-     "ja": "Arkanaut Cutter",
-     "en": "",
+     "ja": "アルカノート・カッター",
+     "en": "Arkanaut Cutter",
      "own": false,
      "fix": [],
      "note": [],
@@ -289,28 +299,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Glory-Seekers",
-      "en": "",
+      "ja": "栄光の追求者",
+      "en": "Glory-Seekers",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Add 1 to hit rolls for attacks made by this unit that target a unit contesting an objective."
+       "ja": "作戦目標を争奪している敵ユニットに対して、このユニットの攻撃はヒットロールに+1の修正を受ける。",
+       "en": "Add 1 to hit rolls for attacks made by this unit that target a unit contesting an objective.",
+       "fix": []
       }
      },
      "own": false,
@@ -324,19 +338,19 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Reinforcements",
-     ""
+     "増援",
+     "Reinforcements"
     ]
    ],
    "keyword_fix": {},
    "regiment": [],
    "notes_en": "",
    "wargear": {
-    "ja": "",
+    "ja": "• このユニット内の各兵は、プライヴェーティア・ピストルとアルカノートの携帯武器を装備している。\n• 2/10の兵は、装備しているプライヴェーティア・ピストルをプライヴェーティア重火器（エーテル駆動式ヴォレイガンまたはライト・スカイフック）に交換できる。\n• 1/10の兵は、装備している両方の武器をスカイパイクに交換できる。\n• 豪傑は装備している武器を交換できない。",
     "en": "***One unit has 4 Arkanauts armed with a Privateer Pistol and Arkanaut Cutter, and 1 Arkanaut armed with a Skypike.***\n\n***The other unit has 3 Arkanauts armed with a Privateer Pistol and Arkanaut Cutter, 1 Arkanaut armed with an Aethermatic Volley Gun and Gun Butt, and 1 Arkanaut armed with a Light Skyhook and Gun Butt.***",
     "fix": []
    }
@@ -344,8 +358,8 @@
   {
    "id": "4092e17a-0589-423f-81e0-bba5a9cdab67",
    "name": {
-    "ja": "Arkanaut Frigate",
-    "en": "",
+    "ja": "アルカノート・フリゲート",
+    "en": "Arkanaut Frigate",
     "own": false,
     "fix": [],
     "note": []
@@ -382,8 +396,8 @@
    "reinforce": true,
    "ranged": [
     {
-     "ja": "Aethershot Carbines",
-     "en": "",
+     "ja": "エーテルショット・カービン",
+     "en": "Aethershot Carbines",
      "own": false,
      "fix": [],
      "note": [],
@@ -395,14 +409,16 @@
       "1",
       "2"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "近接射撃"
+     ],
      "abil_en": [
       "Shoot in Combat"
      ]
     },
     {
-     "ja": "Heavy Skyhook（戦傷時）",
-     "en": "",
+     "ja": "ヘヴィスカイフック（戦傷時）",
+     "en": "Heavy Skyhook (battle damaged)",
      "own": false,
      "fix": [],
      "note": [],
@@ -420,8 +436,8 @@
    ],
    "melee": [
     {
-     "ja": "Crew’s Boarding Weapons",
-     "en": "",
+     "ja": "操縦者の移乗用武装",
+     "en": "Crew’s Boarding Weapons",
      "own": false,
      "fix": [],
      "note": [],
@@ -439,28 +455,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Bomb Racks",
-      "en": "",
+      "ja": "爆弾ラック",
+      "en": "Bomb Racks",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Battle, Your Movement Phase"
+       "ja": "バトル中1回限り、自軍側移動フェイズ",
+       "en": "Once Per Battle, Your Movement Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick an enemy unit that this unit passed across this phase to be the target."
+       "ja": "このフェイズ中、このユニットが通り抜けた敵ユニットを1個選択する。",
+       "en": "Pick an enemy unit that this unit passed across this phase to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Inflict D3+1 mortal damage on the target."
+       "ja": "その敵ユニットはD3+1ポイントの致命的ダメージを受ける。",
+       "en": "Inflict D3+1 mortal damage on the target.",
+       "fix": []
       }
      },
      "own": false,
@@ -472,28 +492,32 @@
     },
     {
      "name": {
-      "ja": "Battle Damaged",
-      "en": "",
+      "ja": "バトルダメージ",
+      "en": "Battle Damaged",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "While this unit has 10 or more damage points, the Attacks characteristic of its **Heavy Skyhook** is 1."
+       "ja": "このユニットが10ポイント以上のダメージを受けている場合、自身が装備している**ヘヴィスカイフック**の【攻撃回数】は1になる。",
+       "en": "While this unit has 10 or more damage points, the Attacks characteristic of its **Heavy Skyhook** is 1.",
+       "fix": []
       }
      },
      "own": false,
@@ -507,12 +531,12 @@
    "terrain": [],
    "keywords": [
     [
-     "War Machine",
-     ""
+     "戦闘兵器",
+     "War Machine"
     ],
     [
-     "Fly",
-     ""
+     "飛行",
+     "Fly"
     ]
    ],
    "keyword_fix": {},
@@ -523,8 +547,8 @@
   {
    "id": "0b4da5ad-827c-42dd-abc5-5485fd394640",
    "name": {
-    "ja": "Skywardens",
-    "en": "",
+    "ja": "スカイウォーデン",
+    "en": "Skywardens",
     "own": false,
     "fix": [],
     "note": []
@@ -561,8 +585,8 @@
    "reinforce": true,
    "ranged": [
     {
-     "ja": "Aethermatic Volley Gun",
-     "en": "",
+     "ja": "エーテル駆動式ヴォレイガン",
+     "en": "Aethermatic Volley Gun",
      "own": false,
      "fix": [],
      "note": [],
@@ -578,8 +602,8 @@
      "abil_en": []
     },
     {
-     "ja": "Vulcaniser Pistol",
-     "en": "",
+     "ja": "ヴァルカナイザー・ピストル",
+     "en": "Vulcaniser Pistol",
      "own": false,
      "fix": [],
      "note": [],
@@ -591,7 +615,9 @@
       "1",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "近接射撃"
+     ],
      "abil_en": [
       "Shoot in Combat"
      ]
@@ -599,8 +625,8 @@
    ],
    "melee": [
     {
-     "ja": "Skypike",
-     "en": "",
+     "ja": "スカイパイク",
+     "en": "Skypike",
      "own": false,
      "fix": [],
      "note": [],
@@ -611,14 +637,16 @@
       "1",
       "2"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "クリティカル（致命的）"
+     ],
      "abil_en": [
       "Crit (Mortal)"
      ]
     },
     {
-     "ja": "Gun Butt",
-     "en": "",
+     "ja": "銃床",
+     "en": "Gun Butt",
      "own": false,
      "fix": [],
      "note": [],
@@ -636,28 +664,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Timed Charges",
-      "en": "",
+      "ja": "時限式爆薬",
+      "en": "Timed Charges",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "End of Any Turn"
+       "ja": "任意のターン終了時",
+       "en": "End of Any Turn",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick an enemy unit in combat with this unit to be the target, then roll a dice."
+       "ja": "このユニットが近接戦闘中である場合、このユニットと近接戦闘中である敵ユニットを1個選択し、ダイスを1個ロールする。",
+       "en": "Pick an enemy unit in combat with this unit to be the target, then roll a dice.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "On a 2+, inflict 1 mortal damage on the target, and this unit can immediately use the ‘Retreat’ ability without any mortal damage being inflicted on it."
+       "ja": "ロール結果が2+であれば、選択された敵ユニットは1ポイントの致命的ダメージを受ける。また、このユニットは致命的ダメージを受けることなく、ただちに『退却』アビリティを使用できる。",
+       "en": "On a 2+, inflict 1 mortal damage on the target, and this unit can immediately use the ‘Retreat’ ability without any mortal damage being inflicted on it.",
+       "fix": []
       }
      },
      "own": false,
@@ -671,23 +703,23 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Fly",
-     ""
+     "飛行",
+     "Fly"
     ],
     [
-     "Reinforcements",
-     ""
+     "増援",
+     "Reinforcements"
     ]
    ],
    "keyword_fix": {},
    "regiment": [],
    "notes_en": "",
    "wargear": {
-    "ja": "",
+    "ja": "• このユニットの各兵は、ヴァルカナイザー・ピストルとスカイウォーデン・スカイパイクを装備している。\n• 1/3の兵は、装備している武器をエーテル駆動式ヴォレイガンと銃床に交換できる。\n• 1/3の兵は、装備している武器をスカイリガーの重火器（グラップネルランチャー、スカイフック、ドリルランチャー）と銃床に交換できる。\n• 豪傑は装備している武器を交換できない。",
     "en": "***This unit has 2 Skywardens armed with a Vulcaniser Pistol and Skypike, and 1 Skywarden armed with an Aethermatic Volley Gun and Gun Butt.***",
     "fix": []
    }

@@ -1,19 +1,19 @@
-# Spearhead: Skyhammer Task Force（Kharadron Overlords）
+# Spearhead: スカイハンマー機動艇旅団(Skyhammer Task Force)（カラドロン・オーヴァーロード(Kharadron Overlords)）
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
 
-- Arkanaut Admiral（1体）
-- Arkanaut Company（5体）
-- Arkanaut Frigate（1体）
-- Skywardens（3体）
+- アルカノート・アドミラル(Arkanaut Admiral)（1体）
+- アルカノート・カンパニー(Arkanaut Company)（5体）
+- アルカノート・フリゲート(Arkanaut Frigate)（1体）
+- スカイウォーデン(Skywardens)（3体）
 
 ## ユニット詳細
 
 
-### Arkanaut Admiral
+### アルカノート・アドミラル(Arkanaut Admiral)
 
 **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -27,23 +27,23 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Masterwork Volley Pistol | 10" | 3 | 3+ | 3+ | 1 | 2 | Shoot in Combat |
+| 傑作ヴォレイピストル(Masterwork Volley Pistol) | 10" | 3 | 3+ | 3+ | 1 | 2 | 近接射撃(Shoot in Combat) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Skalfhammer | 3 | 3+ | 2+ | 1 | 3 | - |
+| スカルフハンマー(Skalfhammer) | 3 | 3+ | 2+ | 1 | 3 | - |
 
 **アビリティ:**
 
-- **Always Take What You Are Owed**（Your Hero Phase）
-  - 宣言: Pick a friendly **Arkanaut Company** unit wholly within 12" of this unit to be the target.
-  - 効果: Add D6 to the target’s control score until the start of your next turn.
+- **貸しは常に取り立てよ(Always Take What You Are Owed)**（自軍側ヒーローフェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っている味方**アルカノート・カンパニー**・ユニットを1個選択する。
+  - 効果: 次の自軍側ターン開始時まで、選択された味方ユニットの確保スコアは+D6の修正を受ける。
 
-**キーワード:** Hero, Infantry
+**キーワード:** 英雄、歩兵（Hero, Infantry）
 
-### Arkanaut Company
+### アルカノート・カンパニー(Arkanaut Company)
 
 **モデル数:** 5 / **ベースサイズ:** 25mm
 
@@ -57,26 +57,26 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Privateer Pistol | 10" | 2 | 4+ | 4+ | - | 1 | Shoot in Combat |
-| Aethermatic Volley Gun | 15" | 2D6 | 4+ | 4+ | - | 1 | - |
-| Light Skyhook | 15" | 1 | 4+ | 3+ | 2 | D3 | - |
+| プライヴェーティア・ピストル(Privateer Pistol) | 10" | 2 | 4+ | 4+ | - | 1 | 近接射撃(Shoot in Combat) |
+| エーテル駆動式ヴォレイガン(Aethermatic Volley Gun) | 15" | 2D6 | 4+ | 4+ | - | 1 | - |
+| ライト・スカイフック(Light Skyhook) | 15" | 1 | 4+ | 3+ | 2 | D3 | - |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Skypike | 2 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
-| Gun Butt | 1 | 4+ | 5+ | - | 1 | - |
-| Arkanaut Cutter | 2 | 4+ | 4+ | - | 1 | - |
+| スカイパイク(Skypike) | 2 | 3+ | 3+ | 1 | 2 | クリティカル（致命的）(Crit (Mortal)) |
+| 銃床(Gun Butt) | 1 | 4+ | 5+ | - | 1 | - |
+| アルカノート・カッター(Arkanaut Cutter) | 2 | 4+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Glory-Seekers**（Passive）
-  - 効果: Add 1 to hit rolls for attacks made by this unit that target a unit contesting an objective.
+- **栄光の追求者(Glory-Seekers)**（パッシブ）
+  - 効果: 作戦目標を争奪している敵ユニットに対して、このユニットの攻撃はヒットロールに+1の修正を受ける。
 
-**キーワード:** Infantry, Reinforcements
+**キーワード:** 歩兵、増援（Infantry, Reinforcements）
 
-### Arkanaut Frigate
+### アルカノート・フリゲート(Arkanaut Frigate)
 
 **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
@@ -90,26 +90,26 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Aethershot Carbines | 12" | 4 | 3+ | 3+ | 1 | 2 | Shoot in Combat |
-| Heavy Skyhook（戦傷時） | 24" | 2 | 4+ | 3+ | 2 | D6 | - |
+| エーテルショット・カービン(Aethershot Carbines) | 12" | 4 | 3+ | 3+ | 1 | 2 | 近接射撃(Shoot in Combat) |
+| ヘヴィスカイフック(Heavy Skyhook)（戦傷時） | 24" | 2 | 4+ | 3+ | 2 | D6 | - |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Crew’s Boarding Weapons | 8 | 4+ | 4+ | - | 1 | - |
+| 操縦者の移乗用武装(Crew’s Boarding Weapons) | 8 | 4+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Bomb Racks**（Once Per Battle, Your Movement Phase）
-  - 宣言: Pick an enemy unit that this unit passed across this phase to be the target.
-  - 効果: Inflict D3+1 mortal damage on the target.
-- **Battle Damaged**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Heavy Skyhook** is 1.
+- **爆弾ラック(Bomb Racks)**（バトル中1回限り、自軍側移動フェイズ）
+  - 宣言: このフェイズ中、このユニットが通り抜けた敵ユニットを1個選択する。
+  - 効果: その敵ユニットはD3+1ポイントの致命的ダメージを受ける。
+- **バトルダメージ(Battle Damaged)**（パッシブ）
+  - 効果: このユニットが10ポイント以上のダメージを受けている場合、自身が装備している**ヘヴィスカイフック**の【攻撃回数】は1になる。
 
-**キーワード:** War Machine, Fly
+**キーワード:** 戦闘兵器、飛行（War Machine, Fly）
 
-### Skywardens
+### スカイウォーデン(Skywardens)
 
 **モデル数:** 3 / **ベースサイズ:** 32mm
 
@@ -123,51 +123,51 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Aethermatic Volley Gun | 15" | 2D6 | 4+ | 4+ | - | 1 | - |
-| Vulcaniser Pistol | 10" | 3 | 3+ | 3+ | 1 | 1 | Shoot in Combat |
+| エーテル駆動式ヴォレイガン(Aethermatic Volley Gun) | 15" | 2D6 | 4+ | 4+ | - | 1 | - |
+| ヴァルカナイザー・ピストル(Vulcaniser Pistol) | 10" | 3 | 3+ | 3+ | 1 | 1 | 近接射撃(Shoot in Combat) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Skypike | 2 | 3+ | 3+ | 1 | 2 | Crit (Mortal) |
-| Gun Butt | 1 | 4+ | 5+ | - | 1 | - |
+| スカイパイク(Skypike) | 2 | 3+ | 3+ | 1 | 2 | クリティカル（致命的）(Crit (Mortal)) |
+| 銃床(Gun Butt) | 1 | 4+ | 5+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Timed Charges**（End of Any Turn）
-  - 宣言: Pick an enemy unit in combat with this unit to be the target, then roll a dice.
-  - 効果: On a 2+, inflict 1 mortal damage on the target, and this unit can immediately use the ‘Retreat’ ability without any mortal damage being inflicted on it.
+- **時限式爆薬(Timed Charges)**（任意のターン終了時）
+  - 宣言: このユニットが近接戦闘中である場合、このユニットと近接戦闘中である敵ユニットを1個選択し、ダイスを1個ロールする。
+  - 効果: ロール結果が2+であれば、選択された敵ユニットは1ポイントの致命的ダメージを受ける。また、このユニットは致命的ダメージを受けることなく、ただちに『退却』アビリティを使用できる。
 
-**キーワード:** Infantry, Fly, Reinforcements
+**キーワード:** 歩兵、飛行、増援（Infantry, Fly, Reinforcements）
 
 ## 戦闘特性（Skyhammer Task Force Battle Traits）
 
-- **Ply the Skies**（Reaction: You declared a non-CHARGE MOVE ability for an Arkanaut Frigate）
-  - 使用者: The **Arkanaut Frigate** that is using that **MOVE** ability.
-  - 効果: Pick a friendly **INFANTRY** unit that is wholly within the combat range of that **Arkanaut Frigate** and not in combat to be transported. Remove that **INFANTRY** unit from the battlefield. Then, when the **Arkanaut Frigate** ends its move, set up the **INFANTRY** unit on the battlefield again, wholly within the combat range of the **Arkanaut Frigate** and not in combat. A unit cannot use **CHARGE** abilities if it was transported in the same turn.
+- **空の覇権(Ply the Skies)**（リアクション：自軍側がアルカノート・フリゲートで突撃ではない『移動』アビリティを宣言）
+  - 使用者: その『**移動**』アビリティを使用している**アルカノート・フリゲート**。
+  - 効果: その**アルカノート・フリゲート**の近接範囲内に全体が入っており、かつ近接戦闘中ではない味方**歩兵**・ユニットを1個選択し、そのユニットを**輸送**する。選択された味方**歩兵**・ユニットを戦場から取り除く。次に、その**アルカノート・フリゲート**が移動を完了したとき、戦場から取り除かれたその味方**歩兵**・ユニットを**アルカノート・フリゲート**の近接範囲内に全体が入っており、かつ近接戦闘に突入しない戦場の位置に再配置する。輸送されたユニットは、現在のターン中に『**突撃**』アビリティを使用できない。
 
 ## 連隊アビリティ（Skyhammer Task Force Regiment Abilities）
 
-Pick 1 of the following regiment abilities.
+以下の連隊アビリティの中から1つを選択する。
 
-- **Disengage**（Once Per Battle, Your Movement Phase）
-  - 宣言: Pick a friendly **Arkanaut Frigate** to use this ability.
-  - 効果: If that unit uses a **RETREAT** ability this phase, no mortal damage is inflicted on it and it can still use **SHOOT** abilities later in the turn.
-- **Assault Boat**（Once Per Battle, Your Movement Phase）
-  - 宣言: Pick a friendly unit that was **transported** this turn to use this ability.
-  - 効果: That unit can still use **CHARGE** abilities later in the turn.
+- **離脱(Disengage)**（バトル中1回限り、自軍側移動フェイズ）
+  - 宣言: 味方**アルカノート・フリゲート**を1個選択し、このアビリティを使用する。
+  - 効果: このフェイズ中、選択された味方ユニットが『**退却**』アビリティを使用する場合、その味方ユニットは致命的ダメージを受けない、かつそのターン中の後半に『**遠隔攻撃**』アビリティを使用できる。
+- **強襲艇(Assault Boat)**（バトル中1回限り、自軍側移動フェイズ）
+  - 宣言: このターン中に**輸送された**味方ユニットを1個選択する、このアビリティを使用する。
+  - 効果: 選択された味方ユニットは、そのターン中の後半に『**突撃**』アビリティを使用できる。
 
 ## 強化（Skyhammer Task Force Enhancements）
 
-Give your general 1 of the following enhancements.
+自軍のジェネラルに、以下の強化の中から1つを付与する。
 
-- **There's No Reward Without Risk**（Once Per Battle, Reaction: You declared a CHARGE ability for a unit wholly within 12" of your general）
-  - 効果: You can re-roll the charge roll for that **CHARGE** ability.
-- **Masterwrought Armour**（Passive）
-  - 効果: Your general has **WARD (6+)**.
-- **Leave No Duardin Behind**（Once Per Battle, Your Hero Phase）
-  - 宣言: Pick a friendly **Arkanaut Company** unit wholly within 12" of your general and roll a dice for each slain model from that unit.
-  - 効果: For each 4+, you can return 1 slain model to that unit.
-- **Flask of Vintage Gorogna**（Once Per Battle, Any Hero Phase）
-  - 効果: **Heal (D6)** your general.
+- **虎穴に入らずんば虎子を得ず(There's No Reward Without Risk)**（バトル中1回限り、リアクション：自軍側ジェネラルの12mv以内に全体が入っているユニットで『突撃』アビリティを宣言）
+  - 効果: その『**突撃**』アビリティの突撃ロールをリロールできる。
+- **名匠細工の鎧(Masterwrought Armour)**（パッシブ）
+  - 効果: 自軍側ジェネラルは**加護**（6+）を持つ。
+- **ドゥアーディンを置き去りにしてはならぬ(Leave No Duardin Behind)**（バトル中1回限り、自軍側ヒーローフェイズ）
+  - 宣言: 自軍側ジェネラルの12mv以内に全体が入っている味方**アルカノート・カンパニー**・ユニットを1個選択し、その味方ユニット内の撃破されている各兵に対して、それぞれダイスを1個ロールする。
+  - 効果: ロール結果で4+が出るたびに、選択された味方ユニットに撃破された兵1体を**復帰**させることができる。
+- **由緒あるゴローニャの瓶(Flask of Vintage Gorogna)**（バトル中1回限り、任意のヒーローフェイズ）
+  - 効果: 自軍側ジェネラルを**回復**（D6）する。

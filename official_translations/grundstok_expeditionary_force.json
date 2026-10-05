@@ -1,0 +1,293 @@
+{
+ "_faction": "グランドストック遠征軍 (Grundstok Expeditionary Force)",
+ "_source": [
+  "名高き軍勢 2026年9月 pp.5–6（グランドストック遠征軍）＋同英語版 p.5。日本語版はテキスト層が崩れるので 200dpi の画像で読んだ。2026年3月・2026年7月版（＋英語版）はテキスト層で照合（日付以外同文）",
+  "ユニット（ウォースクロール）の訳は official_translations/kharadron_overlords.json（書籍 pp.54–67 とルール・アップデート 2026年9月）から写した"
+ ],
+ "_notes": [
+  "名高き軍勢 2026年3月・7月・9月の日本語版は日付以外同文、英語版もレイアウト以外同文。最新の 2026年9月版を採った。",
+  "group_names は the_lance_of_ossia の先例どおり、表に名前が無いので見出しの「戦闘特性」「英雄特性」「神器」。group_texts は見出し下の「（**英雄**のみ）」。",
+  "faction_name は表題「グランドストック遠征軍」。",
+  "Transport Skyfarers の timing「リアクション：味方飛行艦が突撃ではない移動アビリティを宣言」はバナー内のため太字の判別ができず太字なし。used_by の「『移動』アビリティ」「飛行艦」は紙面で太字。",
+  "Aetheric Nullifier の timing は紙面どおり文末に「した。」がある（他のリアクションと書き方が違う）。",
+  "ユニットの訳は担当外（lookups_grundstok_expeditionary_force.json の unit_names 等は kharadron_overlords 側の訳を写す想定）。"
+ ],
+ "unit_names": {
+  "Aether-Khemist": "エーテル・ケミスト",
+  "Aetheric Navigator": "エーテリック・ナヴィゲイター",
+  "Arkanaut Admiral": "アルカノート・アドミラル",
+  "Auto-Endrin": "オートエンドリン",
+  "Codewright": "コードライト",
+  "Endrinmaster with Dirigible Suit": "エンドリンマスター（可導気球スーツ装備）",
+  "Endrinmaster with Endrinharness": "エンドリンマスター（エンドリンハーネス装備）",
+  "Grundstok Gunhauler": "グランドストック・ガンハウラー",
+  "Grundstok Thunderers": "グランドストック・サンダラー",
+  "Scourge of Ghyran Codewright": "グューランの禍事 コードライト",
+  "Scourge of Ghyran Grundstok Gunhauler": "グューランの禍事 グランドストック・ガンハウラー",
+  "Zontari Endrin Dock": "ゾンターリ・エンドリン船渠"
+ },
+ "weapon_names": {
+  "Aethercannon": "エーテルキャノン",
+  "Aetheric Fumigator or Decksweeper": "エーテリック・フュミゲイターまたはデッキスイーパー",
+  "Aethermight Hammer": "エーテルマイト・ハンマー",
+  "Aethershot Pistol": "エーテルショット・ピストル",
+  "Aethershot Rifle": "エーテルショット・ライフル",
+  "Atmospheric Anatomiser": "大気組成分析器",
+  "Battletome": "バトルトーム",
+  "Boarding Weapons": "移乗武装",
+  "Dirigible Suit Weapon Battery": "可導気球スーツ砲",
+  "Grundstok Mortar or Aethercannon": "グランドストック迫撃砲またはエーテルキャノン",
+  "Gun Butt": "銃床",
+  "Heavy Instruments": "重器具",
+  "Masterwork Volley Pistol": "傑作ヴォレイピストル",
+  "Ranging Pistol": "レンジングピストル",
+  "Scourge of Ghyran Codewright|Aethershot Pistol": "エーテルショット・ピストル",
+  "Scourge of Ghyran Codewright|Battletome": "バトルトーム",
+  "Scourge of Ghyran Grundstok Gunhauler|Bombs and Boarding Weapons": "爆弾と移乗攻撃用武器",
+  "Scourge of Ghyran Grundstok Gunhauler|Sky Ordnance": "スカイ兵器",
+  "Skalfhammer": "スカルフハンマー",
+  "Sky Ordnance": "スカイ兵器",
+  "Upgraded Aethermatic Saw": "強化型エーテル駆動式の鋸",
+  "Zephyrscope": "風読鏡"
+ },
+ "weapon_ability_names": {
+  "Shoot in Combat": "近接射撃"
+ },
+ "keyword_names": {
+  "Auto-Endrin": "オートエンドリン",
+  "Champion": "豪傑",
+  "Duardin": "ドゥアーディン",
+  "Faction Terrain": "陣営地形",
+  "Fly": "飛行",
+  "Hero": "英雄",
+  "Infantry": "歩兵",
+  "Kharadron Overlords": "カラドロン・オーヴァーロード",
+  "Order": "秩序の大同盟",
+  "Scourge of Ghyran Codewright|Duardin": "ドゥアーディン",
+  "Scourge of Ghyran Codewright|Hero": "英雄",
+  "Scourge of Ghyran Codewright|Infantry": "歩兵",
+  "Scourge of Ghyran Codewright|Kharadron Overlords": "カラドロン・オーヴァーロード",
+  "Scourge of Ghyran Codewright|Order": "秩序の大同盟",
+  "Scourge of Ghyran Codewright|Skyfarer": "飛行船員",
+  "Scourge of Ghyran Grundstok Gunhauler|Duardin": "ドゥアーディン",
+  "Scourge of Ghyran Grundstok Gunhauler|Fly": "飛行",
+  "Scourge of Ghyran Grundstok Gunhauler|Kharadron Overlords": "カラドロン・オーヴァーロード",
+  "Scourge of Ghyran Grundstok Gunhauler|Order": "秩序の大同盟",
+  "Scourge of Ghyran Grundstok Gunhauler|Skyvessel": "飛行艦",
+  "Scourge of Ghyran Grundstok Gunhauler|War Machine": "戦闘兵器",
+  "Skyfarer": "飛行船員",
+  "Skyvessel": "飛行艦",
+  "Standard Bearer (1/5)": "旗手（1/5）",
+  "War Machine": "戦闘兵器"
+ },
+ "ability_names": {
+  "'Aye Aye, Captain!'": "「合点でさ、船長！」",
+  "Advisory Role": "顧問の助言",
+  "Aetheric Augmentation": "エーテル強化",
+  "Aetheric Nullifier": "エーテル無力化装置",
+  "Aethershot Overwatch": "エーテルショットの警戒射撃",
+  "Aethersight": "エーテル眼",
+  "Atmospheric Isolation": "大気からの隔絶",
+  "Bring Every Gun to Bear!": "「全砲、発射！」",
+  "Combat Engineers": "戦闘工兵員",
+  "Cover": "遮蔽物",
+  "Endrinworks Outpost": "エンドリン前哨部隊",
+  "Entrenchment Expert": "塹壕の達人",
+  "Expendable Munitions": "使い捨て兵器",
+  "Grudgeblast Auto-Endrin": "グラッジブラスト・オートエンドリン",
+  "Grudgefire Rounds": "グラッジファイア弾",
+  "Gun Butt Low Blow": "銃床打撃",
+  "Impassable": "通り抜け不可能",
+  "Light Bomb Racks": "小型爆弾ラック",
+  "Long-line Slings": "帆桁の吊り鎖",
+  "Mobile Repairs": "可搬式補修機器",
+  "No Safe Haven": "安全な避難場所など無い",
+  "Nullifier Auto-Endrin": "ナルファイアー・オートエンドリン",
+  "Read the Winds": "風読み",
+  "Release The Auto-Endrins": "オートエンドリン出撃",
+  "Repair Routines": "修理ルーチン",
+  "Scourge of Ghyran Codewright|Alright, Listen Up": "よぉし、よく聞けよ",
+  "Scourge of Ghyran Codewright|I'm Watching You": "見張ってるぞ",
+  "Scourge of Ghyran Grundstok Gunhauler|Attack Squadron": "攻撃部隊",
+  "Scourge of Ghyran Grundstok Gunhauler|Fighter Vessel": "攻勢航空機",
+  "Scourge of Ghyran Grundstok Gunhauler|Transport Capacity": "輸送枠",
+  "Specialist Grundstok Ammunition": "特殊グランドストック弾",
+  "Stuncloud Auto-Endrin": "スタンクラウド・オートエンドリン",
+  "The Admiral's Flagship": "提督の旗艦",
+  "Transport Capacity": "輸送枠",
+  "Transport Skyfarers": "空挺戦士の輸送"
+ },
+ "ability_texts": {
+  "Aether-Khemist|Aetheric Augmentation": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+   "declare": "このユニットの12mv以内に全体が入っている味方**アルカノート・カンパニー**・ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された味方ユニットが装備している遠隔武器の【貫通値】は+1の修正を受ける。"
+  },
+  "Aether-Khemist|Atmospheric Isolation": {
+   "timing": "パッシブ",
+   "effect": "このユニットの9mv以内に一部でも入っている敵ユニットは、その突撃ロールに-1の修正を受ける。"
+  },
+  "Aetheric Navigator|Aethersight": {
+   "timing": "パッシブ",
+   "effect": "このユニットは、自身があたかも**魔術師（1）**であるかのように『**打ち消し**』アビリティを使用できる。"
+  },
+  "Aetheric Navigator|Read the Winds": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側移動フェイズ",
+   "declare": "このユニットの近接範囲内に一部でも入っている、近接戦闘中ではない味方**飛行艦**または**オートエンドリン**を1個選択する。",
+   "effect": "選択された飛行艦あるいはオートエンドリンを戦場から取り除き、あらゆる敵ユニットから9mvより遠く離れた戦場の位置に再配置する。その後、それが**飛行艦**であった場合は、このユニットを戦場から取り除き、その飛行艦から6mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に再配置してもよい。"
+  },
+  "Aetheric Nullifier": {
+   "timing": "リアクション：装備者の9mv以内にいる顕現に対して、対戦相手が『遠隔攻撃』あるいは『近接攻撃』アビリティを宣言した。",
+   "effect": "2D6をロールする。そのロール結果が、選択された**顕現**のウォースクロールに示されている【追放値】以上であれば、その顕現は追放されてゲームから取り除かれる。このアビリティの対象として同一の**顕現**を選択できるのは、各フェイズにつき1回だけである。"
+  },
+  "Arkanaut Admiral|Bring Every Gun to Bear!": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+   "declare": "このユニットの24mv以内に全体が入っている味方**飛行艦**を1個選択する。",
+   "effect": "そのターン中、選択された味方飛行艦が装備している遠隔武器の【攻撃回数】は+1の修正を受ける。"
+  },
+  "Arkanaut Admiral|The Admiral's Flagship": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+   "declare": "このユニットの12mv以内に全体が入っている味方**旗艦**を1個選択する。",
+   "effect": "そのフェイズ中、選択された旗艦が『**遠隔攻撃**』アビリティを使用する際、そのアビリティによるヒットロールを1個リロールできる。"
+  },
+  "Auto-Endrin|Expendable Munitions": {
+   "timing": "パッシブ",
+   "effect": "このユニットに下記が適用される。\n• このユニットは最大「-」の確保スコアを持つ。\n• このユニットが全滅するとき、あるいは戦場から取り除かれるとき、他のルール上、このユニットは全滅したとカウントされない（戦術目標の達成など）。\n• アビリティに**オートエンドリン**が指定されていない限り、このユニットは他の味方ユニットが使用する**『コア』**アビリティ以外の対象として選択されたりすることも、そのアビリティの効果を受けたりすることもできない。\n• 味方や敵の戦術目標において、このユニットを無視する。"
+  },
+  "Auto-Endrin|Grudgeblast Auto-Endrin": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "各敵ユニットに対して、それぞれD3を1個ロールする。ロール結果が2+であれば、ロール対象の敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。その後、このユニットは戦場から取り除かれる。",
+   "declare": "このユニットが**グラッジブラスト・オートエンドリン**であり、かつ近接戦闘中である場合、このユニットと近接戦闘中である各敵ユニットを選択する。"
+  },
+  "Auto-Endrin|Nullifier Auto-Endrin": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "各顕現に対して、それぞれ3D6の**追放ロール**をする。追放ロールの結果が、その**顕現**のウォースクロールに記載されている**【追放値】**以上であれば、そのロール対象の顕現は追放され、ゲームから取り除かれる。その後、このユニットは戦場から取り除かれる。",
+   "declare": "このユニットが**ナルファイアー・オートエンドリン**であり、かつ1個以上の敵**顕現**と近接戦闘中である場合、このユニットと近接戦闘中である各敵**顕現**を選択する。"
+  },
+  "Auto-Endrin|Stuncloud Auto-Endrin": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "各敵ユニットに対して、それぞれダイスを1個ロールする。ロール結果がその敵ユニットの【体力】以下である場合、そのターン中、ロール対象の確保スコアは-10の修正を受ける。その後、このユニットは戦場から取り除かれる。",
+   "declare": "このユニットが**スタンクラウド・オートエンドリン**であり、かつ近接戦闘中である場合、このユニットと近接戦闘中である各敵ユニットを選択する。"
+  },
+  "Codewright|Advisory Role": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "自身から視認状態である味方**飛行船員**・ユニットを最大3個まで選択する。",
+   "effect": "選択された各味方ユニットに対して、それぞれダイスを1個ロールする。ロール結果が3+であれば、そのターン中に、ロール対象に適用される効果を以下から1つ選択する：\n**未知の探求：**その味方ユニットの確保スコアは+5の修正を受ける。\n**風に抗うな：**その味方ユニットの全力移動ロールと突撃ロールは+1の修正を受ける。\n**相手によっては取引すべからず：**その味方ユニットは『**退却**』アビリティを使用していたとしても、そのターン中に『**遠隔攻撃**』アビリティを使用できる。さらに、その味方ユニットは『**退却**』アビリティを使用して致命的ダメージを受けない。"
+  },
+  "Endrinmaster with Dirigible Suit|Combat Engineers": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと、このユニットの12mv以内に全体が入っている他の味方**エンドリン・リガー**・ユニットを最大1個まで選択する。",
+   "effect": "そのターン中、このユニットと選択された味方ユニットのメレーアタックは、このターン中に突撃を実行している敵ユニットに対して**クリティカル（2ヒット）**を持つ。"
+  },
+  "Endrinmaster with Dirigible Suit|Mobile Repairs": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの近接範囲内に一部でも入っている味方**飛行艦**または**ゾンターリ・エンドリン船渠**を1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が2+であれば、選択された飛行艦あるいは船渠を**回復（3）**する。"
+  },
+  "Endrinmaster with Endrinharness|'Aye Aye, Captain!'": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "このユニットの近接範囲内に一部でも入っている味方**飛行艦**を1個選択する。",
+   "effect": "そのターン中、\n• 選択された味方飛行艦は『**退却**』または『**全力移動**』アビリティを使用していたとしても、そのターン中に『**遠隔攻撃**』アビリティを使用できる。\n• 選択された味方飛行艦は『**退却**』アビリティによる致命的ダメージを受けない。"
+  },
+  "Endrinmaster with Endrinharness|Mobile Repairs": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの近接範囲内に一部でも入っている味方**飛行艦**または**ゾンターリ・エンドリン船渠**を1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が2+であれば、選択された飛行艦あるいは船渠を**回復（3）**する。"
+  },
+  "Entrenchment Expert": {
+   "timing": "リアクション：この英雄の12mv以内に全体が入っている味方ユニットに対して『全力防御』の指揮アビリティを宣言",
+   "effect": "そのターン終了時まで、選択された味方ユニットは**加護（5+）**を持つ。"
+  },
+  "Grudgefire Rounds": {
+   "timing": "各ターンにつき1回（アーミー）、任意の遠隔フェイズ",
+   "declare": "味方**遠征軍・歩兵**・ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、選択された味方ユニットの遠隔武器を1個選択する。そのフェイズ中、選択された武器の【攻撃回数】は+1の修正を受ける。"
+  },
+  "Grundstok Gunhauler|Aethershot Overwatch": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中であり、かつこのターン中に突撃を実行している敵ユニットを1個選択する。",
+   "effect": "D3を1個ロールする。ロール結果が2+であれば、選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。"
+  },
+  "Grundstok Gunhauler|Light Bomb Racks": {
+   "timing": "自軍側移動フェイズ",
+   "declare": "このフェイズ中、このユニットが通り抜けた**飛行**を持っていない敵ユニットを1個選択する。",
+   "effect": "ダイスを4個ロールする。ロール結果で4+が出るたびに、選択された敵ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Grundstok Gunhauler|Long-line Slings": {
+   "timing": "パッシブ",
+   "effect": "このユニットが『空挺戦士の輸送』アビリティを使用するとき、近接戦闘中である味方ユニットを選択できる。"
+  },
+  "Grundstok Gunhauler|Transport Capacity": {
+   "timing": "パッシブ",
+   "effect": "このユニットは最大1個までの味方**カラドロン・オーヴァーロード・歩兵**・ユニット、兵5体（戦闘特性参照）までの輸送枠を持つ。"
+  },
+  "Grundstok Thunderers|Specialist Grundstok Ammunition": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ、リアクション：このユニットが『遠隔攻撃』アビリティを宣言",
+   "declare": "**シールドブレイカー**弾もしくは**サンダードラック**弾を選択する。",
+   "effect": "その**『遠隔攻撃』**アビリティによるすべての攻撃が同一の敵ユニットを対象にしている場合、その**『遠隔攻撃』**アビリティが解決された直後に、ダイスを1個ロールする。ロールにその**『遠隔攻撃』**アビリティによって敵ユニットが受けたダメージの数を加算する。ロール結果がその敵ユニットの【確保力】を上回る場合、選んだ弾薬タイプに応じて、次の効果を敵ユニットに適用する。\n**シールドブレイカー**：次の自軍側ターン開始時まで、その敵ユニットは加護ロールを実行できない。\n**サンダードラック**：次の自軍側ターン開始時まで、その敵ユニットの最大確保スコアは1である。"
+  },
+  "Gun Butt Low Blow": {
+   "timing": "パッシブ",
+   "effect": "味方**遠征軍・歩兵**・ユニットは、自軍が確保している作戦目標を争奪している間、そのユニットの近接武器は**クリティカル（致命的）**を得る。"
+  },
+  "No Safe Haven": {
+   "timing": "任意のターン終了時",
+   "declare": "敵ユニットを1個選択する。",
+   "effect": "このターン中、選択された敵ユニットに対して味方**遠征軍**・ユニットによるレンジアタックのダメージが1ポイント割り振られるたびに、その敵ユニットの確保スコアは1ポイント減少する。この効果は最大10ポイントのダメージまで適用される。"
+  },
+  "Scourge of Ghyran Codewright|Alright, Listen Up": {
+   "timing": "各ターンにつき1回（アーミー）、任意のヒーローフェイズ",
+   "declare": "このユニットが英雄でない味方**カラドロン・オーヴァーロード**・ユニットの12mv以内に全体が入っている場合、このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。その後、**議論ポイント**を3ポイントまたは6ポイント消費する。",
+   "effect": "以下の効果から1つを選択し、選択された敵ユニットにそのターン終了時まで適用する。\n• **連中が逃げ惑う様を見たか！？：**3**議論ポイント**を消費している場合、選択された敵ユニットの【移動力】は-D3の修正を受ける。6**議論ポイント**を消費しているならば、選択された敵ユニットの【移動力】は半減する。\n• **その武器は掟に反しとる！：**3**議論ポイント**を消費している場合、選択された敵ユニットのメレーアタックはウーンズロールに-1の修正を受ける。6**議論ポイント**を消費しているならば、選択された敵ユニットの近接武器は【貫通値】に-1の修正を受け、そのメレーアタックはウーンズロールに-1の修正を受ける。"
+  },
+  "Scourge of Ghyran Codewright|I'm Watching You": {
+   "timing": "任意のヒーローフェイズ",
+   "effect": "このユニットはD3**議論ポイント**を獲得する。"
+  },
+  "Scourge of Ghyran Grundstok Gunhauler|Attack Squadron": {
+   "timing": "パッシブ",
+   "effect": "このユニットが自身以外の味方**グランドストック・ガンハウラー**の12mv以内に全体が入っている間、このユニットはそのターン中に『全力移動』アビリティを使用していたとしても『**遠隔攻撃**』アビリティを使用できる。"
+  },
+  "Scourge of Ghyran Grundstok Gunhauler|Fighter Vessel": {
+   "timing": "任意の遠隔フェイズ",
+   "effect": "このフェイズ中、このユニットが『**遠隔攻撃**』アビリティを使用していた場合、このユニットはD6mv移動してもよい。その移動は、近接戦闘に突入するように完了することはできない。"
+  },
+  "Scourge of Ghyran Grundstok Gunhauler|Transport Capacity": {
+   "timing": "パッシブ",
+   "effect": "このユニットはいかなる味方ユニットも輸送できない。"
+  },
+  "Transport Skyfarers": {
+   "timing": "リアクション：味方飛行艦が突撃ではない移動アビリティを宣言",
+   "used_by": "その『**移動**』アビリティを使用している**飛行艦**。",
+   "effect": "その**飛行艦**の輸送枠に示される最大の数まで（ウォースクロール参照）、その飛行艦から6mv以内に全体が入っている味方ユニットを任意に選択できる。このターン中にすでに輸送されたユニットを選択することはできない。\n選択された味方ユニットを戦場から取り除く。その**飛行艦**が移動を完了した後、その**飛行艦**の6mv以内に全体が入るように、戦場から取り除いた各味方ユニットを近接戦闘に突入しないように配置しなければならない。それらの味方ユニットは輸送されたものとみなされる。現在のターン中に輸送されたユニットは、そのターン中に『**突撃**』アビリティを使用することはできない。"
+  },
+  "Zontari Endrin Dock|Endrinworks Outpost": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリンを1個選択する。",
+   "effect": "D6の製造ロールを1個する。味方エンドリンマスター（可導気球スーツ装備）またはエンドリン・マスター（エンドリンハーネス装備）がこの特殊地形の3mv以内に一部でも入っている場合、その製造ロールは+1の修正を受ける。ロール結果が4+であれば、この特殊地形の6mv以内に全体が入るように、かつあらゆる敵ユニットから3mvより遠く離れた戦場の位置に、代替のオートエンドリンを1個配置する。"
+  },
+  "Zontari Endrin Dock|Release The Auto-Endrins": {
+   "timing": "初期配置フェイズ",
+   "effect": "味方**ナルファイアー・オートエンドリン**1個、**スタンクラウド・オートエンドリン**1個、**グラッジブラスト・オートエンドリン**1個（オートエンドリンのウォースクロール参照）を自軍側陣地内に一部でも入るように、かつこの特殊地形の6mv以内に全体が入るように、なおかつあらゆる敵ユニットから9mvより遠く離れている戦場の位置に配置する。"
+  },
+  "Zontari Endrin Dock|Repair Routines": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この特殊地形の3mv以内に一部でも入っている味方**飛行艦**を1個選択する。",
+   "effect": "D6の修理ロールを1個する。味方**エンドリンマスター（可導気球スーツ装備）**または**エンドリン・マスター（エンドリンハーネス装備）**がこの特殊地形の3mv以内に一部でも入っている場合、その修理ロールは+1の修正を受ける。ロール結果が4+であれば、選択された味方飛行艦を**回復（3）**する。"
+  }
+ },
+ "group_names": {
+  "Grundstok Expeditionary Force Artefact of Power": "神器",
+  "Grundstok Expeditionary Force Battle Traits": "戦闘特性",
+  "Grundstok Expeditionary Force Heroic Trait": "英雄特性"
+ },
+ "group_texts": {
+  "Grundstok Expeditionary Force Artefact of Power": "（**英雄**のみ）",
+  "Grundstok Expeditionary Force Heroic Trait": "（**英雄**のみ）"
+ },
+ "wargear_option_texts": {
+  "Auto-Endrin": "このユニットは、以下のいずれかで構成される：ナルファイアー・オートエンドリン、スタンクラウド・オートエンドリン、グラッジブラスト・オートエンドリン。",
+  "Grundstok Thunderers": "• このユニットの各兵は、エーテルショット・ライフルと大型銃床を装備している。\n• 2/5の兵は、エーテルショット・ライフルをエーテリック・フュミゲイターもしくはデッキスイーパーに交換できる。\n• 2/5の兵は、エーテルショット・ライフルをグランドストック迫撃砲もしくはエーテルキャノンに交換できる。\n• 豪傑は装備しているエーテルショット・ライフルを交換できない。"
+ },
+ "faction_name": "グランドストック遠征軍"
+}

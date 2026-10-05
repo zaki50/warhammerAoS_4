@@ -1,4 +1,4 @@
-# Grundstok Expeditionary Force ファクションルール
+# グランドストック遠征軍(Grundstok Expeditionary Force) ファクションルール
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
@@ -6,36 +6,36 @@
 ## 戦闘特性
 
 
-### Grundstok Expeditionary Force Battle Traits（出典: Army of Renown: Grundstok Expeditionary Force）
+### 戦闘特性(Grundstok Expeditionary Force Battle Traits)（出典: Army of Renown: Grundstok Expeditionary Force）
 
-- **Gun Butt Low Blow**（Passive）
-  - 効果: While a friendly **EXPEDITIONARY FORCE INFANTRY** unit is contesting an objective that you control, its melee weapons have **Crit (Mortal)**.
-- **Grudgefire Rounds**（Once Per Turn (Army), Any Shooting Phase）
-  - 宣言: Pick a friendly **EXPEDITIONARY FORCE INFANTRY** unit to be the target.
-  - 効果: Roll a dice. On a 3+, pick 1 of the target’s ranged weapons. Add 1 to the Attacks characteristic of that weapon for the rest of the phase.
-- **No Safe Haven**（End of Any Turn）
-  - 宣言: Pick an enemy unit to be the target.
-  - 効果: Subtract 1 from the control score of that unit for each damage point allocated to it this turn by a shooting attack made by a friendly **EXPEDITIONARY FORCE** unit, to a maximum of 10 damage points.
-- **Transport Skyfarers**（Reaction: You declared a non-CHARGE MOVE ability for a friendly SKYVESSEL）
-  - 使用者: The **SKYVESSEL** using that **MOVE** ability.
-  - 効果: Pick a number of units up to that **SKYVESSEL**’s Transport Capacity (see its warscroll) that are wholly within 6" of it to be the targets. Units that have been transported this turn cannot be targets. Remove the targets from the battlefield. After the **SKYVESSEL** ends its move, you must set up each target unit on the battlefield, wholly within 6" of that **SKYVESSEL** and not in combat. Those units have been transported. A unit cannot use **CHARGE** abilities if it was transported in the same turn.
+- **銃床打撃(Gun Butt Low Blow)**（パッシブ）
+  - 効果: 味方**遠征軍・歩兵**・ユニットは、自軍が確保している作戦目標を争奪している間、そのユニットの近接武器は**クリティカル（致命的）**を得る。
+- **グラッジファイア弾(Grudgefire Rounds)**（各ターンにつき1回（アーミー）、任意の遠隔フェイズ）
+  - 宣言: 味方**遠征軍・歩兵**・ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、選択された味方ユニットの遠隔武器を1個選択する。そのフェイズ中、選択された武器の【攻撃回数】は+1の修正を受ける。
+- **安全な避難場所など無い(No Safe Haven)**（任意のターン終了時）
+  - 宣言: 敵ユニットを1個選択する。
+  - 効果: このターン中、選択された敵ユニットに対して味方**遠征軍**・ユニットによるレンジアタックのダメージが1ポイント割り振られるたびに、その敵ユニットの確保スコアは1ポイント減少する。この効果は最大10ポイントのダメージまで適用される。
+- **空挺戦士の輸送(Transport Skyfarers)**（リアクション：味方飛行艦が突撃ではない移動アビリティを宣言）
+  - 使用者: その『**移動**』アビリティを使用している**飛行艦**。
+  - 効果: その**飛行艦**の輸送枠に示される最大の数まで（ウォースクロール参照）、その飛行艦から6mv以内に全体が入っている味方ユニットを任意に選択できる。このターン中にすでに輸送されたユニットを選択することはできない。 選択された味方ユニットを戦場から取り除く。その**飛行艦**が移動を完了した後、その**飛行艦**の6mv以内に全体が入るように、戦場から取り除いた各味方ユニットを近接戦闘に突入しないように配置しなければならない。それらの味方ユニットは輸送されたものとみなされる。現在のターン中に輸送されたユニットは、そのターン中に『**突撃**』アビリティを使用することはできない。
 
 ## 英雄特性
 
 
-### Grundstok Expeditionary Force Heroic Trait（出典: Army of Renown: Grundstok Expeditionary Force）
+### 英雄特性(Grundstok Expeditionary Force Heroic Trait)（出典: Army of Renown: Grundstok Expeditionary Force）
 
-**HERO** only
+（**英雄**のみ）
 
-- **Entrenchment Expert**（Reaction: You declared the ‘All-out Defence’ command for a friendly unit wholly within 12" of this HERO）
-  - 効果: That friendly unit has **WARD (5+)** for the rest of the turn.
+- **塹壕の達人(Entrenchment Expert)**（リアクション：この英雄の12mv以内に全体が入っている味方ユニットに対して『全力防御』の指揮アビリティを宣言）
+  - 効果: そのターン終了時まで、選択された味方ユニットは**加護（5+）**を持つ。
 
 ## 神器
 
 
-### Grundstok Expeditionary Force Artefact of Power（出典: Army of Renown: Grundstok Expeditionary Force）
+### 神器(Grundstok Expeditionary Force Artefact of Power)（出典: Army of Renown: Grundstok Expeditionary Force）
 
-**HERO** only
+（**英雄**のみ）
 
-- **Aetheric Nullifier**（Reaction: Opponent declared a SHOOT or FIGHT ability for a MANIFESTATION within 9" of the bearer）
-  - 効果: Roll 2D6. If the roll equals or exceeds the banishment value listed on the **MANIFESTATION**’s warscroll, it is banished and removed from play. You cannot pick the same **MANIFESTATION** to be the target of this ability more than once per phase.
+- **エーテル無力化装置(Aetheric Nullifier)**（リアクション：装備者の9mv以内にいる顕現に対して、対戦相手が『遠隔攻撃』あるいは『近接攻撃』アビリティを宣言した。）
+  - 効果: 2D6をロールする。そのロール結果が、選択された**顕現**のウォースクロールに示されている【追放値】以上であれば、その顕現は追放されてゲームから取り除かれる。このアビリティの対象として同一の**顕現**を選択できるのは、各フェイズにつき1回だけである。

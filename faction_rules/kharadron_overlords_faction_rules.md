@@ -1,4 +1,4 @@
-# Kharadron Overlords ファクションルール
+# カラドロン・オーヴァーロード(Kharadron Overlords) ファクションルール
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
@@ -6,145 +6,145 @@
 ## 戦闘特性
 
 
-### Kharadron Overlords Battle Traits（出典: Order Battletome: Kharadron Overlords）
+### 戦闘特性(Kharadron Overlords Battle Traits)（出典: Order Battletome: Kharadron Overlords）
 
-Kharadron Overlords armies can use the following abilities:
+カラドロン・オーヴァーロードのアーミーは以下のアビリティを使用できる：
 
-- **Skyvessel Cover**（Passive）
-  - 効果: Subtract 1 from hit rolls for attacks that target friendly **KHARADRON OVERLORDS INFANTRY** units that have not charged in the same turn while they are wholly within 6" of a friendly **Arkanaut Ironclad** or **Arkanaut Frigate** that has not charged in the same turn.
-- **Flying High**（Once Per Battle (Army), Deployment Phase）
-  - 宣言: Pick a friendly **SKYVESSEL** that is in a regiment from which no units have been deployed, then pick a number of units up to its Transport Capacity (see its warscroll) that are in its regiment.
-  - 効果: Set up all of those units in reserve **in the clouds**. They have now been deployed.
-- **The Flagship**（Once Per Battle (Army), Deployment Phase）
-  - 宣言: Pick a friendly **SKYVESSEL** to be the target. The target can be in reserve.
-  - 効果: The target has the **FLAGSHIP** keyword for the rest of the battle. If the target does not have a Great Endrinwork, give the target 1 Great Endrinwork. **Designer’s Note:** *This Great Endrinwork is given to the unit during the deployment phase, not during army composition.*
-- **Descend from the Clouds**（Your Movement Phase）
-  - 宣言: Pick a friendly **SKYVESSEL in the clouds** to use this ability.
-  - 効果: Set up that **SKYVESSEL** anywhere on the battlefield more than 9" from all enemy units. Then, set up all other units that were set up **in the clouds** with that **SKYVESSEL** wholly within 6" of it and more than 9" from all enemy units.
-- **Transport Skyfarers**（Your Movement Phase, Reaction: You declared a non-CHARGE MOVE ability for a friendly SKYVESSEL）
-  - 効果: Pick a number of units up to that **SKYVESSEL**’s Transport Capacity (see its warscroll) that are wholly within 6" of it and not in combat to be the targets. Units that have been transported this turn cannot be targets. Remove the targets from the battlefield. After the **SKYVESSEL** ends its move, you must set up each target unit on the battlefield, wholly within 6" of that **SKYVESSEL** and not in combat. Those units have been transported. A unit cannot use **CHARGE** abilities if it was transported in the same turn.
+- **飛行艦の庇護(Skyvessel Cover)**（パッシブ）
+  - 効果: 現在のターン中に突撃していない味方**カラドロン・オーヴァーロード・歩兵**・ユニットが、現在のターン中に突撃していない味方**アルカノート・アイアンクラッド**または**アルカノート・フリゲート**の6mv以内に全体が入っている場合、その味方歩兵・ユニットを対象とする攻撃はヒットロールに-1の修正を受ける。
+- **高く舞え(Flying High)**（バトル中1回限り（アーミー）、初期配置フェイズ）
+  - 宣言: ユニットがまだ1個も初期配置されていない連隊に属する味方**飛行艦**を1個選択する。その後、その連隊内から、最大でその輸送枠（ウォースクロール参照）に示される個数までのユニットを選択する。
+  - 効果: 選択されたすべての味方ユニットを**雲の中**に予備戦力として配置する。これらのユニットは配置されたものとみなされる。
+- **旗艦(The Flagship)**（バトル中1回限り（アーミー）、初期配置フェイズ）
+  - 宣言: 味方**飛行艦**を1個選択する。それは予備戦力にいるものでもよい。
+  - 効果: このバトル中、選択された飛行艦は**旗艦**のキーワードを獲得する。選択されたユニットが傑作エンドリン機関を有していない場合、傑作エンドリン機関を1個与える。 デザイナーズノート：この傑作エンドリン機関は、アーミー編成中ではなく、初期配置フェイズ中にこのユニットに対して与えられるものである。
+- **雲からの急降下(Descend from the Clouds)**（自軍側移動フェイズ）
+  - 宣言: **雲の中に配置されている味方飛行艦**を1個選択し、このアビリティを使用する。
+  - 効果: あらゆる敵ユニットから9mvより遠く離れている戦場の任意の位置に、選択された味方**飛行艦**を配置する。次に、その**飛行艦**の6mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に、**雲の中**に配置されていた他のすべてのユニットを配置する。
+- **空挺戦士の輸送(Transport Skyfarers)**（自軍側移動フェイズ、リアクション：味方飛行艦が突撃ではない『移動』アビリティを宣言）
+  - 効果: その**飛行艦**の輸送枠（ウォースクロール参照）に示される個数まで、その飛行艦から6mv以内に全体が入っている近接戦闘中ではない味方ユニットを選択する。このターン中にすでに輸送されたユニットを選択することはできない。 選択された味方ユニットを戦場から取り除く。その**飛行艦**が移動を完了した後、その**飛行艦**の6mv以内に全体が入るように、かつ近接戦闘に突入しないように、戦場から取り除いた各味方ユニットを戦場に配置しなければならない。それらの味方ユニットは輸送されたものとみなされる。ユニットがターン中に輸送されていた場合、そのユニットは同じターン中に**『突撃』**アビリティを使用できない。
 
 ## 戦闘陣形
 
 
-### Endrineers Guild Expeditionary Force（20pt）
+### エンドリニア・ギルド遠征部隊(Endrineers Guild Expeditionary Force)（20pt）
 
-- **Special Procurement**（Once Per Battle (Army), Deployment Phase）
-  - 宣言: Pick a friendly non-**UNIQUE KHARADRON OVERLORDS HERO** that does not have an artefact of power. The target can be in reserve.
-  - 効果: Give that **HERO** 1 artefact of power from the ‘Inventions of the Sky-ports’ or the ‘Ingenious Innovations. **Designer’s Note:** *This artefact of power is given to the unit during the deployment phase, not during army composition.*
+- **特殊な軍事調達(Special Procurement)**（バトル中1回限り（アーミー）、初期配置フェイズ）
+  - 宣言: 神器を所持しておらず、固有でもない味方**カラドロン・オーヴァーロード・英雄**を1体選択する。それは予備戦力にいるものでもよい。
+  - 効果: 選択された英雄に、「浮遊港の発明」または「独創的発明」の中から神器を1個与える。 デザイナーズ・ノート：この神器は、アーミー編成中ではなく初期配置フェイズ中にユニットに付与される。
 
-### Pioneers and Scavengers（10pt）
+### 開拓者と漁り屋(Pioneers and Scavengers)（10pt）
 
-- **Gritty Fortune-hunters**（Passive）
-  - 効果: Friendly **Vongrim Harpoon Crew** and **Vongrim Salvagers** units have **WARD** **(6+)** while they are contesting an objective.
+- **気骨ある財宝ハンター(Gritty Fortune-hunters)**（パッシブ）
+  - 効果: 味方**フォングリムの銛打ち衆**と**フォングリム・サルヴェイジャー**・ユニットは、作戦目標を争奪している間、**加護（6+）**を持つ。
 
-### Rapid Redeployment Squadron
+### 即応部隊(Rapid Redeployment Squadron)
 
-- **Extra Rappel Anchors**（Passive）
-  - 効果: Friendly **Grundstok Gunhaulers** can transport up to 2 friendly **KHARADRON OVERLORDS INFANTRY** units instead of 1 and with a combined model count of up to 6 instead of 5 (see Kharadron Overlords Battle Traits).
+- **追加懸垂降下アンカー(Extra Rappel Anchors)**（パッシブ）
+  - 効果: 味方グランドストック・ガンハウラー・は、1個ではなく最大2個までの味方カラドロン・オーヴァーロード・歩兵・ユニットを輸送できる。その輸送できる合計の最大兵数は、5体ではなく6体までとなる（戦闘特性を参照）。
 
-### Veteran Ground Troops
+### 古参陸戦部隊(Veteran Ground Troops)
 
-- **Entrenched Crews**（Once Per Turn (Army), Start of Battle Round）
-  - 宣言: Pick up to 3 friendly **Arkanaut Company** units to be the targets.
-  - 効果: For the rest of the battle round, if the target has not been set up this battle round and while it has not moved this turn, subtract 1 from the Rend characteristic of attacks that target that unit.
+- **防衛体制を固めた乗組員(Entrenched Crews)**（各ターンにつき1回（アーミー）、任意のバトルラウンド開始時）
+  - 宣言: 味方**アルカノート・カンパニー**・ユニットを最大3個まで選択する。
+  - 効果: このバトルラウンド中、選択されたユニットがこのバトルラウンド中に配置されたばかりではなく、このターン中に移動していない場合、そのユニットを対象とする攻撃の【貫通値】は-1の修正を受ける。
 
 ## 英雄特性
 
 
-### Lords of the Sky-fleets（出典: Order Battletome: Kharadron Overlords）
+### 飛空船団の将校(Lords of the Sky-fleets)（出典: Order Battletome: Kharadron Overlords）
 
-**HERO** only
+（**英雄**のみ）
 
-- **Shrewd Opportunist**（Deployment Phase / 10pt）
-  - 宣言: Pick this unit and up to 2 other friendly **KHARADRON OVERLORDS** non-**HERO INFANTRY** units to be the targets.
-  - 効果: Each target can immediately use the ‘Normal Move’ ability as if it were your movement phase.
-- **Bold As Brass**（Passive）
-  - 効果: Add 5 to this unit’s control score.
-- **Combat Grafter**（Once Per Battle, Any Combat Phase）
-  - 効果: This unit can use 2 **FIGHT** abilities this phase. After the first is used, however, this unit has **STRIKE-LAST** for the rest of the phase.
+- **狡猾な機会主義者(Shrewd Opportunist)**（初期配置フェイズ / 10pt）
+  - 宣言: このユニットと、**英雄**ではない他の味方**カラドロン・オーヴァーロード・歩兵**・ユニットを最大2個まで選択する。
+  - 効果: 選択された各味方ユニットは、あたかも自軍側移動フェイズ中であるかのようにそれぞれ『通常移動』アビリティを1回使用できる。
+- **輝かしき大胆さ(Bold As Brass)**（パッシブ）
+  - 効果: このユニットの確保スコアは+5の修正を受ける。
+- **戦闘屋(Combat Grafter)**（バトル中1回限り、任意の近接フェイズ）
+  - 効果: このフェイズ中、このユニットは**『近接攻撃』**アビリティを2回使用できる。ただし、1回目が使用された後、このユニットはそのフェイズ終了時まで**『後手効果』**を得る。
 
 ## 神器
 
 
-### Ingenious Innovations（出典: Scourge of Ghyran: Kharadron Overlords）
+### 独創的発明(Ingenious Innovations)（出典: Scourge of Ghyran: Kharadron Overlords）
 
-**Hero** only
+（**英雄**のみ）
 
-- **Emberstone Flare**（Once Per Battle, Your Movement Phase）
-  - 宣言: Pick a friendly **KHARADRON OVERLORDS** unit that has **FLY** and is not in combat to be the target.
-  - 効果: Remove the target from the battlefield and set it up again wholly within 9" of this unit and more than 9" from all enemy units.
-- **Karst-Bana Aether-Powered Combat Rig**（Passive）
-  - 効果: This unit has **WARD (5+)**. In addition, add 1 to the Attacks characteristic of this unit’s melee weapons.
-- **Spell in a Bottle**（Once Per Battle, Your Hero Phase）
-  - 効果: This unit can use a **SUMMON** ability from the manifestation lore you picked during army composition as if it had **WIZARD (1)**. Instead of making a casting roll for that **SUMMON** ability, the casting roll is 7 and cannot be modified. That **SUMMON** ability cannot be unbound.
+- **熾火石の信号弾(Emberstone Flare)**（バトル中1回限り、自軍側移動フェイズ）
+  - 宣言: **飛行**を持ち、かつ近接戦闘中ではない味方**カラドロン・オーバーロード**・ユニットを1個選択する。
+  - 効果: 選択された味方ユニットを戦場から取り除き、このユニットの9mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた戦場の位置に再配置する。
+- **カルスト＝バナ・エーテル駆動式戦闘服(Karst-Bana Aether-Powered Combat Rig)**（パッシブ）
+  - 効果: このユニットは**加護（5+）**を持つ。さらに、このユニットの近接武器は【攻撃回数】に+1の修正を受ける。
+- **瓶詰め魔法(Spell in a Bottle)**（バトル中1回限り、自軍側ヒーローフェイズ）
+  - 効果: このユニットはあたかも**魔術師（1）**であるかのように、自軍側のアーミー編成中に選択した顕現伝承から『**召喚**』アビリティを使用できる。この『**召喚**』アビリティでは詠唱ロールをする代わりに、修正できない詠唱ロール結果7を使用する。この『**召喚**』アビリティは打ち消されない。
 
-### Ingenious Innovations（出典: Scourge of Aqshy: Kharadron Overlords）
+### 独創的発明(Ingenious Innovations)（出典: Scourge of Aqshy: Kharadron Overlords）
 
-**HERO** only&#x20;
+（**英雄**のみ）
 
-- **Persistent Drillbill**（Your Hero Phase）
-  - 宣言: Pick a visible enemy unit within 12" of this unit to be the target.
-  - 効果: Roll a D3. On a 2+: • Inflict an amount of mortal damage on the target equal to the roll. • If the target unit’s starting size was 1, subtract 1 from hit rolls for the target’s attacks until the start of your next turn.
-- **Experimental Aether-Powered Ejector Rig**（Once Per Battle, Any Combat Phase）
-  - 効果: Remove this unit from the battlefield and set it up again wholly within 3" of a friendly **SKYVESSEL** or **Zontari Endrin Dock** and more than 9" from all enemy units.
-- **Heat-Seeking Auto-Endrin**（Your Movement Phase）
-  - 宣言: Pick a visible enemy unit within 18" of this unit to be the target.
-  - 効果: Until the start of your next turn, subtract your opponent’s **fury level** from the target’s control score. ***Designer’s Note**: Use your opponent’s fury level at the point the unit’s control score is determined.*
+- **執拗なるドリルビル(Persistent Drillbill)**（自軍側ヒーローフェイズ）
+  - 宣言: このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。
+  - 効果: D3を1個ロールする。ロール結果が2+であれば： • 選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。 • 対象ユニットの初期兵数が1体だった場合、対象ユニットのメレーアタックは、次の自軍側ターン開始時までヒットロールに-1の修正を受ける。
+- **試作エーテル駆動式射出装置(Experimental Aether-Powered Ejector Rig)**（バトル中1回限り、任意の近接フェイズ）
+  - 効果: このユニットを戦場から取り除き、味方**飛行艦**または**ゾンターリ・エンドリン船渠**の3mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に再配置する。
+- **熱追尾式オートエンドリン(Heat-Seeking Auto-Endrin)**（自軍側移動フェイズ）
+  - 宣言: このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。
+  - 効果: 次の自軍側ターン開始時まで、選択された敵ユニットの確保力は-「対戦相手の**憤激レベル**」の修正を受ける。 デザイナーズ・ノート：そのユニットの確保スコアを決定する時点での、対戦相手の憤激レベルを参照すること。
 
-### Inventions of the Sky-Ports（出典: Order Battletome: Kharadron Overlords）
+### 浮遊港の発明(Inventions of the Sky-Ports)（出典: Order Battletome: Kharadron Overlords）
 
-**HERO** only
+（**英雄**のみ）
 
-- **Voidstone Orb**（Once Per Battle, Reaction: Opponent declared a SPELL ability for a WIZARD within 30" of this unit）
-  - 効果: That spell is unbound.
-- **Celestium Burst Grenade**（Once Per Battle, Your Shooting Phase / 10pt）
-  - 宣言: Pick a visible enemy unit within 12" of this unit to be the target.
-  - 効果: Ward rolls cannot be made for the target for the rest of the turn.
-- **Blazebeard and Sons Bamboozling Flakgun**（Once Per Turn, Reaction: Opponent declared a CHARGE ability for a unit within 12" of this unit / 10pt）
-  - 効果: Pick 1 dice in that charge roll. Then, make a **bamboozling flak roll** of D6. If the roll equals or exceeds the value on the dice, remove that dice from the charge roll.
+- **虚空石のオーブ(Voidstone Orb)**（バトル中1回限り、リアクション：このユニットの30mv以内に一部でも入っている敵魔術師が『呪文』アビリティを宣言）
+  - 効果: その呪文は打ち消される。
+- **天空鉄のバーストグレネード(Celestium Burst Grenade)**（バトル中1回限り、自軍側遠隔フェイズ / 10pt）
+  - 宣言: このユニットから12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。
+  - 効果: そのターン中、選択された敵ユニットは加護ロールを実行できない。
+- **ブレイズビアード・アンド・サンズ社製バンブーズル対空砲(Blazebeard and Sons Bamboozling Flakgun)**（Once Per Turn, Reaction: Opponent declared a CHARGE ability for a unit within 12" of this unit / 10pt）
+  - 効果: その突撃ロールにおけるダイスを1個選択する。その後、**バンブーズル対空砲ロール**としてD6を1個ロールする。ロール結果が選択したダイスの出目以上であれば、選択したダイスを突撃ロールから取り除く。
 
 ## その他の強化
 
 
-### Artycle References（出典: Scourge of Aqshy: Kharadron Overlords）
+### カラドロン法典条項(Artycle References)（出典: Scourge of Aqshy: Kharadron Overlords）
 
-Artycle References are unique enhancements that can be given to non-**HERO KHARADRON OVERLORDS** **INFANTRY** units. A unit can only have 1 Artycle Reference.
+カラドロン法典条項は、**英雄**でない**カラドロン・オーヴァーロード・歩兵**ユニットを対象とする、固有の強化である。1個のユニットは、『カラドロン法典条項』を1個だけ持つことができる。
 
-- **Artycle 15, Point 4**（Passive / 10pt）
-  - 効果: • Add 1 to hit rolls for this unit’s combat attacks that target an enemy unit that has **FLY**. • Add 1 to wound rolls for this unit’s combat attacks that target an enemy unit that does not have **FLY**.
-- **Artycle 20, Amendment 2**（Once Per Battle, Enemy Charge Phase / 10pt）
-  - 宣言: If this unit has not charged this turn, pick an enemy unit that charged this turn and is in combat with this unit to be the target.
-  - 効果: The target’s attacks cannot score critical hits for the rest of the turn (treat them as regular hits instead).
-- **Artycle 25, Point 6**（Passive / 10pt）
-  - 効果: Friendly **KHARADRON OVERLORDS HEROES** have **WARD (5+)** while they are within this unit’s combat range.
+- **カラドロン法典 法規15、第4項(Artycle 15, Point 4)**（パッシブ / 10pt）
+  - 効果: • **飛行**を持つ敵ユニットを対象とするこのユニットのメレーアタックは、ヒットロールに+1の修正を受ける。 • **飛行**を持たない敵ユニットを対象とするこのユニットのメレーアタックは、ウーンズロールに+1の修正を受ける。
+- **カラドロン法典 法規20、第2修正項(Artycle 20, Amendment 2)**（バトル中1回限り、敵軍側突撃フェイズ / 10pt）
+  - 宣言: このユニットがこのターン中に突撃を実行していない場合、このユニットと近接戦闘中かつ、このターン中に突撃を実行している敵ユニットを1個選択する。
+  - 効果: そのターン中、その敵ユニットの攻撃からはクリティカルヒットが発生しない（通常のヒットとして扱う）。
+- **カラドロン法典 法規25、第6項(Artycle 25, Point 6)**（パッシブ / 10pt）
+  - 効果: 味方**カラドロン・オーヴァーロード・英雄**ユニットが、このユニットの近接戦闘範囲内に一部でも入っている間、その味方英雄は**加護（5+）**を持つ。
 
-### Great Endrinworks（出典: Order Battletome: Kharadron Overlords）
+### 傑作エンドリン機関(Great Endrinworks)（出典: Order Battletome: Kharadron Overlords）
 
-Great Endrinworks are a special type of enhancement for **SKYVESSELS**. During army composition, when you add enhancements, you can pick 1 Great Endrinwork and give it to a **SKYVESSEL** on your army roster.
+傑作エンドリン機関は、**飛行艦**のための特殊な強化である。アーミー編成中に強化を追加する際、傑作エンドリン機関を1つ選択し、自軍のアーミーロスター内にいる**飛行艦**1個に与えてもよい。
 
-- **Hegsson Solutions 'Old Reliable' Hullplates**（Passive）
-  - 効果: This unit has **WARD (5+)** against damage inflicted by **SHOOT** abilities.
-- **Gruksson Wide-bore Cylinders**（Passive）
-  - 効果: Add 2" to this unit’s Move characteristic.
-- **Coalbeard's Collapsible Bombrack**（Passive）
-  - 効果: Add 1 to each dice roll when using this unit’s ‘Heavy Bomb Racks’, ‘Medium Bomb Racks’ or ‘Light Bomb Racks’ ability.
-- **Tracer-fire Rounds**（Your Shooting Phase, Reaction: You declared a Shoot ability for this unit）
-  - 効果: If all of the attacks target the same enemy unit, ignore negative modifiers to hit rolls for those attacks.
-- **Grandiose Fuselage**（Passive）
-  - 効果: Add 5 to this unit’s Control characteristic.
-- **Nullstone Galvanisation**（End of Any Turn）
-  - 効果: Inflict D6 mortal damage on each enemy **MANIFESTATION** within this unit’s combat range.
+- **ヘグソン・ソリューション社製“オールド・リライアブル”装甲板(Hegsson Solutions 'Old Reliable' Hullplates)**（パッシブ）
+  - 効果: このユニットは**『遠隔攻撃』**アビリティによるダメージに対して**加護（5+）**を持つ。
+- **グルックソン広口径シリンダー(Gruksson Wide-bore Cylinders)**（パッシブ）
+  - 効果: このユニットの【移動力】は+2mvの修正を受ける。
+- **コールビアード社製折りたたみ式爆弾架(Coalbeard's Collapsible Bombrack)**（パッシブ）
+  - 効果: このユニットの『大型爆弾ラック』『中型爆弾ラック』『小型爆弾ラック』アビリティを使用する際、各ダイスロールは+1の修正を受ける。
+- **曳光弾(Tracer-fire Rounds)**（自軍側遠隔フェイズ、リアクション：このユニットが『遠隔攻撃』アビリティを宣言）
+  - 効果: すべての攻撃が同一の敵ユニットを対象としている場合、それらの攻撃に対するヒットロールのマイナス修正を無視する。
+- **堂々たる艦(Grandiose Fuselage)**（パッシブ）
+  - 効果: このユニットの【確保力】は+5の修正を受ける。
+- **虚無石メッキ仕上げ(Nullstone Galvanisation)**（任意のターン終了時）
+  - 効果: このユニットの近接範囲内にいる各敵**顕現**に、D6ポイントの致命的ダメージを与える。
 
-### Great Endrinworks（出典: Scourge of Ghyran: Kharadron Overlords）
+### 傑作エンドリン機関(Great Endrinworks)（出典: Scourge of Ghyran: Kharadron Overlords）
 
-Great Endrinworks are a special type of enhancement for **SKYVESSELS**. During army composition, when you add enhancements, you can pick 1 Great Endrinwork and give it to a **SKYVESSEL** on your army roster.
+傑作エンドリン機関は、**飛行艦**のための特殊な強化である。アーミー編成中に強化を追加する際、傑作エンドリン機関を1つ選択し、自軍のアーミーロスター内にいる**飛行艦**1個に与えてもよい。
 
-- **Zonbarcorp 'Dealbreaker' Battle Ram**（Any Charge Phase）
-  - 宣言: If this unit charged this phase, pick an enemy unit in combat with it to be the target.
-  - 効果: Roll a number of dice equal to the unmodified charge roll. For each 4+, inflict 1 mortal damage on the target.
-- **Voidstone Repulser Vents**（Reaction: A friendly unit within 12" of this unit was picked to be the target of an enemy SPELL ability）
-  - 効果: Roll a dice. On a 4+: • Ignore the effect of that spell on that friendly unit. • Inflict D3 mortal damage on the caster. This unit can use this ability more than once per phase but you can only roll once for each friendly unit per spell cast.
-- **Blazebeard and Sons Ejector Pod**（Once Per Battle, Any Combat Phase）
-  - 宣言: If this unit is in combat, pick a visible friendly **KHARADRON OVERLORDS HERO** wholly within 6" of this unit to be the target.
-  - 効果: Remove the target from the battlefield, then set it up again wholly within 18" of this unit and more than 9" from all enemy units.
+- **ゾンバーコープ社製“契約破り”破城鎚(Zonbarcorp 'Dealbreaker' Battle Ram)**（任意の突撃フェイズ）
+  - 宣言: このユニットが現在のフェイズ中に突撃を実行している場合、このユニットと近接戦闘中である敵ユニットを1個選択する。
+  - 効果: 修正前の突撃ロール結果と等しい数のダイスをロールする。ロール結果で4+が出るたびに、選択された敵ユニットは1ポイントの致命的ダメージを受ける。
+- **虚無石リパルサー排気口(Voidstone Repulser Vents)**（リアクション：このユニットの12mv以内に一部でも入っている味方ユニット1個が、敵『呪文』アビリティの対象として選択された時）
+  - 効果: ダイスを1個ロールする。ロール結果が4+であれば、 • その味方ユニットに対する呪文の効果は無効化される。 • 詠唱者は、D3ポイントの致命的ダメージを受ける。 このユニットは、各フェイズ中にこのアビリティを2回以上使用できる。ただし、詠唱される呪文ごとに、それぞれの味方ユニットに対してロールできるのは1回だけである。
+- **ブレイズビアード＆サンズ社製脱出ポッド(Blazebeard and Sons Ejector Pod)**（バトル中1回限り、任意の近接フェイズ）
+  - 宣言: このユニットが近接戦闘中である場合、このユニットの6mv以内に全体が入っており、かつこのユニットから視認状態である味方**カラドロン・オーヴァーロード・英雄**・ユニットを1体選択する。
+  - 効果: 選択された味方英雄を戦場から取り除き、このユニットの18mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に再配置する。

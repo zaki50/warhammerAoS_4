@@ -3,19 +3,19 @@
   "slug": "spearhead_grundstok_trailblazers",
   "kind": "spearhead",
   "faction_en": "Kharadron Overlords",
-  "faction_ja": null,
+  "faction_ja": "カラドロン・オーヴァーロード",
   "faction_slug": "kharadron_overlords",
   "alliance": null,
   "title_en": "Grundstok Trailblazers",
-  "title_ja": null,
+  "title_ja": "グランドストック・トレイルブレイザー",
   "data_version": 483
  },
  "units": [
   {
    "id": "b89e232e-b4c4-424d-a314-67e78af1ce86",
    "name": {
-    "ja": "Endrinmaster with Dirigible Suit",
-    "en": "",
+    "ja": "エンドリンマスター（可導気球スーツ装備）",
+    "en": "Endrinmaster with Dirigible Suit",
     "own": false,
     "fix": [],
     "note": []
@@ -52,8 +52,8 @@
    "reinforce": false,
    "ranged": [
     {
-     "ja": "Dirigible Suit Weapon Battery",
-     "en": "",
+     "ja": "可導気球スーツ砲",
+     "en": "Dirigible Suit Weapon Battery",
      "own": false,
      "fix": [],
      "note": [],
@@ -69,8 +69,8 @@
      "abil_en": []
     },
     {
-     "ja": "Aethercannon",
-     "en": "",
+     "ja": "エーテルキャノン",
+     "en": "Aethercannon",
      "own": false,
      "fix": [],
      "note": [],
@@ -88,8 +88,8 @@
    ],
    "melee": [
     {
-     "ja": "Upgraded Aethermatic Saw",
-     "en": "",
+     "ja": "強化型エーテル駆動式の鋸",
+     "en": "Upgraded Aethermatic Saw",
      "own": false,
      "fix": [],
      "note": [],
@@ -107,28 +107,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Endrinmaster Extraordinaire",
-      "en": "",
+      "ja": "非凡なエンドリンマスター",
+      "en": "Endrinmaster Extraordinaire",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Your Hero Phase"
+       "ja": "自軍側ヒーローフェイズ",
+       "en": "Your Hero Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick a friendly unit with the **FLY** keyword that is wholly within 12\" of this unit to be the target."
+       "ja": "このユニットの12mv以内に全体が入っている**飛行**・キーワードを持つ味方ユニットを1個選択する。",
+       "en": "Pick a friendly unit with the **FLY** keyword that is wholly within 12\" of this unit to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Roll a D3. On a 2+, **Heal (X)** the target where **X** is equal to the roll."
+       "ja": "D3を1個ロールする。ロール結果が2+であれば、選択された味方ユニットを**回復**（X）する。**X**の値は、そのロール結果に等しい。",
+       "en": "Roll a D3. On a 2+, **Heal (X)** the target where **X** is equal to the roll.",
+       "fix": []
       }
      },
      "own": false,
@@ -142,16 +146,16 @@
    "terrain": [],
    "keywords": [
     [
-     "Hero",
-     ""
+     "英雄",
+     "Hero"
     ],
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Fly",
-     ""
+     "飛行",
+     "Fly"
     ]
    ],
    "keyword_fix": {},
@@ -162,8 +166,8 @@
   {
    "id": "ac96676a-e52c-4688-9f87-b88195deac9e",
    "name": {
-    "ja": "Endrinriggers",
-    "en": "",
+    "ja": "エンドリン・リガー",
+    "en": "Endrinriggers",
     "own": false,
     "fix": [],
     "note": []
@@ -200,8 +204,8 @@
    "reinforce": true,
    "ranged": [
     {
-     "ja": "Rapid-fire Rivet Gun",
-     "en": "",
+     "ja": "ラピッドファイア・リベットガン",
+     "en": "Rapid-fire Rivet Gun",
      "own": false,
      "fix": [],
      "note": [],
@@ -213,14 +217,16 @@
       "1",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "近接射撃"
+     ],
      "abil_en": [
       "Shoot in Combat"
      ]
     },
     {
-     "ja": "Skyrigger Heavy Weapon",
-     "en": "",
+     "ja": "スカイリガーの重火器",
+     "en": "Skyrigger Heavy Weapon",
      "own": false,
      "fix": [],
      "note": [],
@@ -232,14 +238,16 @@
       "1",
       "D3"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "対大型獣（+1貫通値）"
+     ],
      "abil_en": [
       "Anti-MONSTER (+1 Rend)"
      ]
     },
     {
-     "ja": "Aethermatic Volley Gun",
-     "en": "",
+     "ja": "エーテル駆動式ヴォレイガン",
+     "en": "Aethermatic Volley Gun",
      "own": false,
      "fix": [],
      "note": [],
@@ -251,7 +259,9 @@
       "-",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "クリティカル（2ヒット）"
+     ],
      "abil_en": [
       "Crit (2 Hits)"
      ]
@@ -259,8 +269,8 @@
    ],
    "melee": [
     {
-     "ja": "Aethermatic Saw",
-     "en": "",
+     "ja": "エーテル駆動式の鋸",
+     "en": "Aethermatic Saw",
      "own": false,
      "fix": [],
      "note": [],
@@ -271,14 +281,16 @@
       "1",
       "2"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "対突撃（貫通値+1）"
+     ],
      "abil_en": [
       "Anti-charge (+1 Rend)"
      ]
     },
     {
-     "ja": "Gun Butt",
-     "en": "",
+     "ja": "銃床",
+     "en": "Gun Butt",
      "own": false,
      "fix": [],
      "note": [],
@@ -296,28 +308,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Cloudweaving Skyfarers",
-      "en": "",
+      "ja": "クラウドウイービング飛行船員",
+      "en": "Cloudweaving Skyfarers",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Enemy Movement Phase"
+       "ja": "敵軍側移動フェイズ",
+       "en": "Enemy Movement Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Roll a dice. On a 3+, this unit can use the ‘Normal Move’ ability as if it were your movement phase."
+       "ja": "ダイスを1個ロールする。ロール結果が3+であれば、このユニットはあたかも自軍側移動フェイズ中かのように、ただちに『通常移動』アビリティを1回使用できる。",
+       "en": "Roll a dice. On a 3+, this unit can use the ‘Normal Move’ ability as if it were your movement phase.",
+       "fix": []
       }
      },
      "own": false,
@@ -331,23 +347,23 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Fly",
-     ""
+     "飛行",
+     "Fly"
     ],
     [
-     "Reinforcements",
-     ""
+     "増援",
+     "Reinforcements"
     ]
    ],
    "keyword_fix": {},
    "regiment": [],
    "notes_en": "",
    "wargear": {
-    "ja": "",
+    "ja": "• このユニット内の各兵は、ラピッドファイア・リベットガンとエーテル駆動式の鋸を装備している。\n• 1/3の兵は、装備している武器をエーテル駆動式ヴォレイガンと銃床に交換できる。\n• 1/3の兵は、装備している武器をスカイリガーの重火器（グラップネルランチャー、スカイフック、ドリルランチャー）と銃床に交換できる。\n• 豪傑は装備している武器を交換できない。",
     "en": "***•  1 model is armed with a Rapid Fire Rivet Gun and Aethermatic Saw.***\n***•  1 model is armed with an Aethermatic Volley Gun and Gun Butt.***\n***•  1 model is armed with a Skyrigger Heavy Weapon (Grapnel Launcher, Skyhook or Drill Launcher) and Gun Butt.***",
     "fix": []
    }
@@ -355,8 +371,8 @@
   {
    "id": "20a75006-611b-457e-ad51-3cc5eabaad5b",
    "name": {
-    "ja": "Grundstok Gunhauler",
-    "en": "",
+    "ja": "グランドストック・ガンハウラー",
+    "en": "Grundstok Gunhauler",
     "own": false,
     "fix": [],
     "note": []
@@ -393,8 +409,8 @@
    "reinforce": false,
    "ranged": [
     {
-     "ja": "Sky Ordnance",
-     "en": "",
+     "ja": "スカイ兵器",
+     "en": "Sky Ordnance",
      "own": false,
      "fix": [],
      "note": [],
@@ -412,8 +428,8 @@
    ],
    "melee": [
     {
-     "ja": "Boarding Weapons",
-     "en": "",
+     "ja": "移乗武装",
+     "en": "Boarding Weapons",
      "own": false,
      "fix": [],
      "note": [],
@@ -431,28 +447,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Gunhauler Overwatch",
-      "en": "",
+      "ja": "ガンハウラーの援護射撃",
+      "en": "Gunhauler Overwatch",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Any Combat Phase"
+       "ja": "任意の近接フェイズ",
+       "en": "Any Combat Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target."
+       "ja": "このユニットと近接戦闘中であり、かつこのターン中に突撃を実行している敵ユニットを1個選択する。",
+       "en": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+       "ja": "D3を1個ロールする。ロール結果が2+であれば、選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。",
+       "en": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+       "fix": []
       }
      },
      "own": false,
@@ -466,12 +486,12 @@
    "terrain": [],
    "keywords": [
     [
-     "War Machine",
-     ""
+     "戦闘兵器",
+     "War Machine"
     ],
     [
-     "Fly",
-     ""
+     "飛行",
+     "Fly"
     ]
    ],
    "keyword_fix": {},
@@ -482,8 +502,8 @@
   {
    "id": "8fa23dcd-5c27-430b-b5a6-16f6b9465a38",
    "name": {
-    "ja": "Grundstok Thunderers",
-    "en": "",
+    "ja": "グランドストック・サンダラー",
+    "en": "Grundstok Thunderers",
     "own": false,
     "fix": [],
     "note": []
@@ -520,8 +540,8 @@
    "reinforce": false,
    "ranged": [
     {
-     "ja": "Aetheric Fumigator or Decksweeper",
-     "en": "",
+     "ja": "エーテリック・フュミゲイターまたはデッキスイーパー",
+     "en": "Aetheric Fumigator or Decksweeper",
      "own": false,
      "fix": [],
      "note": [],
@@ -533,14 +553,16 @@
       "-",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "近接射撃"
+     ],
      "abil_en": [
       "Shoot in Combat"
      ]
     },
     {
-     "ja": "Aethershot Rifle",
-     "en": "",
+     "ja": "エーテルショット・ライフル",
+     "en": "Aethershot Rifle",
      "own": false,
      "fix": [],
      "note": [],
@@ -556,8 +578,8 @@
      "abil_en": []
     },
     {
-     "ja": "Grundstok Mortar or Aethercannon",
-     "en": "",
+     "ja": "グランドストック迫撃砲またはエーテルキャノン",
+     "en": "Grundstok Mortar or Aethercannon",
      "own": false,
      "fix": [],
      "note": [],
@@ -575,8 +597,8 @@
    ],
    "melee": [
     {
-     "ja": "Gun Butt",
-     "en": "",
+     "ja": "銃床",
+     "en": "Gun Butt",
      "own": false,
      "fix": [],
      "note": [],
@@ -594,28 +616,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Bewilderblast Rounds",
-      "en": "",
+      "ja": "ビウィルダーブラスト弾",
+      "en": "Bewilderblast Rounds",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Battle (Army), Any Shooting Phase"
+       "ja": "バトル中1回限り（アーミー）、任意の遠隔フェイズ",
+       "en": "Once Per Battle (Army), Any Shooting Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick an enemy unit that had any damage points allocated to it this phase by this unit’s shooting attacks to be the target."
+       "ja": "このフェイズ中、このユニットのレンジアタックによって1ポイント以上のダメージを割り振られている敵ユニットを1個選択する。",
+       "en": "Pick an enemy unit that had any damage points allocated to it this phase by this unit’s shooting attacks to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Subtract D6 from the target’s control score for the rest of the turn."
+       "ja": "そのターン中、選択された敵ユニットの確保スコアは-D6の修正を受ける。",
+       "en": "Subtract D6 from the target’s control score for the rest of the turn.",
+       "fix": []
       }
      },
      "own": false,
@@ -629,19 +655,19 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Reinforcements",
-     ""
+     "増援",
+     "Reinforcements"
     ]
    ],
    "keyword_fix": {},
    "regiment": [],
    "notes_en": "",
    "wargear": {
-    "ja": "",
+    "ja": "• このユニットの各兵は、エーテルショット・ライフルと大型銃床を装備している。\n• 2/5の兵は、エーテルショット・ライフルをエーテリック・フュミゲイターもしくはデッキスイーパーに交換できる。\n• 2/5の兵は、エーテルショット・ライフルをグランドストック迫撃砲もしくはエーテルキャノンに交換できる。\n• 豪傑は装備しているエーテルショット・ライフルを交換できない。",
     "en": "***•  1 model is armed with an Aethershot Rifle.***\n***•  1 model is armed with an Aetheric Fumigator.***\n***•  1 model is armed with a Decksweeper.***\n***•  1 model is armed with a Grundstok Mortar.***\n***•  1 model is armed with an Aethercannon.***\n***•  Every model is also armed with a Gun Butt.***",
     "fix": []
    }

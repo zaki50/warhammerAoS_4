@@ -3,7 +3,7 @@
   "slug": "pioneer_outpost",
   "kind": "faction",
   "faction_en": "Pioneer Outpost",
-  "faction_ja": null,
+  "faction_ja": "開拓前哨地駐屯部隊",
   "faction_slug": "pioneer_outpost",
   "alliance": "Order",
   "title_en": "Pioneer Outpost",
@@ -14,8 +14,8 @@
   {
    "id": "192cec08-120e-470d-a5ff-d2d9dcfc5ba0",
    "name": {
-    "ja": "Aetheric Navigator",
-    "en": "",
+    "ja": "エーテリック・ナヴィゲイター",
+    "en": "Aetheric Navigator",
     "own": false,
     "fix": [],
     "note": []
@@ -52,8 +52,8 @@
    "reinforce": false,
    "ranged": [
     {
-     "ja": "Ranging Pistol",
-     "en": "",
+     "ja": "レンジングピストル",
+     "en": "Ranging Pistol",
      "own": false,
      "fix": [],
      "note": [],
@@ -65,7 +65,9 @@
       "1",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "近接射撃"
+     ],
      "abil_en": [
       "Shoot in Combat"
      ]
@@ -73,8 +75,8 @@
    ],
    "melee": [
     {
-     "ja": "Zephyrscope",
-     "en": "",
+     "ja": "風読鏡",
+     "en": "Zephyrscope",
      "own": false,
      "fix": [],
      "note": [],
@@ -92,28 +94,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Aethersight",
-      "en": "",
+      "ja": "エーテル眼",
+      "en": "Aethersight",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "This unit can use **UNBIND** abilities as if it had **WIZARD (1)**."
+       "ja": "このユニットは、自身があたかも**魔術師（1）**であるかのように『**打ち消し**』アビリティを使用できる。",
+       "en": "This unit can use **UNBIND** abilities as if it had **WIZARD (1)**.",
+       "fix": []
       }
      },
      "own": false,
@@ -125,28 +131,32 @@
     },
     {
      "name": {
-      "ja": "Read the Winds",
-      "en": "",
+      "ja": "風読み",
+      "en": "Read the Winds",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Your Movement Phase"
+       "ja": "各ターンにつき1回（アーミー）、自軍側移動フェイズ",
+       "en": "Once Per Turn (Army), Your Movement Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick a friendly **SKYVESSEL** or **AUTO-ENDRIN** within this unit’s combat range and that is not in combat to be the target."
+       "ja": "このユニットの近接範囲内に一部でも入っている、近接戦闘中ではない味方**飛行艦**または**オートエンドリン**を1個選択する。",
+       "en": "Pick a friendly **SKYVESSEL** or **AUTO-ENDRIN** within this unit’s combat range and that is not in combat to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units. Then, if the target is a **SKYVESSEL**, you can remove this unit from the battlefield and set it up again on the battlefield wholly within 6\" of the target and more than 9\" from all enemy units."
+       "ja": "選択された飛行艦あるいはオートエンドリンを戦場から取り除き、あらゆる敵ユニットから9mvより遠く離れた戦場の位置に再配置する。その後、それが**飛行艦**であった場合は、このユニットを戦場から取り除き、その飛行艦から6mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に再配置してもよい。",
+       "en": "Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units. Then, if the target is a **SKYVESSEL**, you can remove this unit from the battlefield and set it up again on the battlefield wholly within 6\" of the target and more than 9\" from all enemy units.",
+       "fix": []
       }
      },
      "own": false,
@@ -160,28 +170,28 @@
    "terrain": [],
    "keywords": [
     [
-     "Hero",
-     ""
+     "英雄",
+     "Hero"
     ],
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Order",
-     ""
+     "秩序の大同盟",
+     "Order"
     ],
     [
-     "Kharadron Overlords",
-     ""
+     "カラドロン・オーヴァーロード",
+     "Kharadron Overlords"
     ],
     [
-     "Duardin",
-     ""
+     "ドゥアーディン",
+     "Duardin"
     ],
     [
-     "Skyfarer",
-     ""
+     "飛行船員",
+     "Skyfarer"
     ]
    ],
    "keyword_fix": {},
@@ -195,8 +205,8 @@
   {
    "id": "3f3b6948-0a43-4498-be02-6549b9a736d4",
    "name": {
-    "ja": "Arkanaut Admiral",
-    "en": "",
+    "ja": "アルカノート・アドミラル",
+    "en": "Arkanaut Admiral",
     "own": false,
     "fix": [],
     "note": []
@@ -233,8 +243,8 @@
    "reinforce": false,
    "ranged": [
     {
-     "ja": "Masterwork Volley Pistol",
-     "en": "",
+     "ja": "傑作ヴォレイピストル",
+     "en": "Masterwork Volley Pistol",
      "own": false,
      "fix": [],
      "note": [],
@@ -246,7 +256,9 @@
       "1",
       "2"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "近接射撃"
+     ],
      "abil_en": [
       "Shoot in Combat"
      ]
@@ -254,8 +266,8 @@
    ],
    "melee": [
     {
-     "ja": "Skalfhammer",
-     "en": "",
+     "ja": "スカルフハンマー",
+     "en": "Skalfhammer",
      "own": false,
      "fix": [],
      "note": [],
@@ -273,28 +285,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Bring Every Gun to Bear!",
-      "en": "",
+      "ja": "「全砲、発射！」",
+      "en": "Bring Every Gun to Bear!",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Your Shooting Phase"
+       "ja": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+       "en": "Once Per Turn (Army), Your Shooting Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick a friendly **SKYVESSEL** wholly within 24\" of this unit to be the target."
+       "ja": "このユニットの24mv以内に全体が入っている味方**飛行艦**を1個選択する。",
+       "en": "Pick a friendly **SKYVESSEL** wholly within 24\" of this unit to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "For the rest of the turn, add 1 to the Attacks characteristic of the target’s ranged weapons."
+       "ja": "そのターン中、選択された味方飛行艦が装備している遠隔武器の【攻撃回数】は+1の修正を受ける。",
+       "en": "For the rest of the turn, add 1 to the Attacks characteristic of the target’s ranged weapons.",
+       "fix": []
       }
      },
      "own": false,
@@ -306,28 +322,32 @@
     },
     {
      "name": {
-      "ja": "The Admiral's Flagship",
-      "en": "",
+      "ja": "提督の旗艦",
+      "en": "The Admiral's Flagship",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Your Shooting Phase"
+       "ja": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+       "en": "Once Per Turn (Army), Your Shooting Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick a friendly **FLAGSHIP** wholly within 12\" of this unit to be the target."
+       "ja": "このユニットの12mv以内に全体が入っている味方**旗艦**を1個選択する。",
+       "en": "Pick a friendly **FLAGSHIP** wholly within 12\" of this unit to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "For the rest of the phase, each time the target uses a **SHOOT** ability, you can re-roll 1 of the hit rolls made for that ability."
+       "ja": "そのフェイズ中、選択された旗艦が『**遠隔攻撃**』アビリティを使用する際、そのアビリティによるヒットロールを1個リロールできる。",
+       "en": "For the rest of the phase, each time the target uses a **SHOOT** ability, you can re-roll 1 of the hit rolls made for that ability.",
+       "fix": []
       }
      },
      "own": false,
@@ -341,28 +361,28 @@
    "terrain": [],
    "keywords": [
     [
-     "Hero",
-     ""
+     "英雄",
+     "Hero"
     ],
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Order",
-     ""
+     "秩序の大同盟",
+     "Order"
     ],
     [
-     "Kharadron Overlords",
-     ""
+     "カラドロン・オーヴァーロード",
+     "Kharadron Overlords"
     ],
     [
-     "Duardin",
-     ""
+     "ドゥアーディン",
+     "Duardin"
     ],
     [
-     "Skyfarer",
-     ""
+     "飛行船員",
+     "Skyfarer"
     ]
    ],
    "keyword_fix": {},
@@ -376,8 +396,8 @@
   {
    "id": "b48fb213-fe18-4f10-bd97-17781fedadc9",
    "name": {
-    "ja": "Arkanaut Company",
-    "en": "",
+    "ja": "アルカノート・カンパニー",
+    "en": "Arkanaut Company",
     "own": false,
     "fix": [],
     "note": []
@@ -414,8 +434,8 @@
    "reinforce": true,
    "ranged": [
     {
-     "ja": "Privateer Pistol",
-     "en": "",
+     "ja": "プライヴェーティア・ピストル",
+     "en": "Privateer Pistol",
      "own": false,
      "fix": [],
      "note": [],
@@ -427,14 +447,16 @@
       "-",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "近接射撃"
+     ],
      "abil_en": [
       "Shoot in Combat"
      ]
     },
     {
-     "ja": "Privateer Heavy Weapon",
-     "en": "",
+     "ja": "プライヴェーティア重火器",
+     "en": "Privateer Heavy Weapon",
      "own": false,
      "fix": [],
      "note": [],
@@ -452,8 +474,8 @@
    ],
    "melee": [
     {
-     "ja": "Skypike",
-     "en": "",
+     "ja": "スカイパイク",
+     "en": "Skypike",
      "own": false,
      "fix": [],
      "note": [],
@@ -464,14 +486,16 @@
       "1",
       "2"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "突撃（+1ダメージ量）"
+     ],
      "abil_en": [
       "Charge (+1 Damage)"
      ]
     },
     {
-     "ja": "Arkanaut Hand Weapon",
-     "en": "",
+     "ja": "アルカノートの携帯武器",
+     "en": "Arkanaut Hand Weapon",
      "own": false,
      "fix": [],
      "note": [],
@@ -489,28 +513,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Grizzled Buccaneers",
-      "en": "",
+      "ja": "白髭混じりの海賊",
+      "en": "Grizzled Buccaneers",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Any Charge Phase"
+       "ja": "各ターンにつき1回（アーミー）、任意の突撃フェイズ",
+       "en": "Once Per Turn (Army), Any Charge Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target."
+       "ja": "このユニットと近接戦闘中であり、かつこのターン中に突撃を実行している敵ユニットを1個選択する。",
+       "en": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Roll a dice. On a 3+:\n•  This unit can immediately use a **SHOOT** ability as if it were your shooting phase but all of its attacks must target the target enemy unit.\n•  For the rest of the phase, this unit’s **Privateer Heavy Weapons** have **Shoot in Combat**."
+       "ja": "ダイスを1個ロールする。ロール結果が3+であれば、\n• このユニットはあたかも自軍側遠隔フェイズ中であるかのように、ただちに**『遠隔攻撃』**アビリティを使用できる。ただし、すべての攻撃は、選択された敵ユニットが対象でなければならない。\n• そのフェイズ中、このユニットが装備している**プライヴェーティア重火器**は**近接射撃**を得る。",
+       "en": "Roll a dice. On a 3+:\n•  This unit can immediately use a **SHOOT** ability as if it were your shooting phase but all of its attacks must target the target enemy unit.\n•  For the rest of the phase, this unit’s **Privateer Heavy Weapons** have **Shoot in Combat**.",
+       "fix": []
       }
      },
      "own": false,
@@ -524,35 +552,35 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Champion",
-     ""
+     "豪傑",
+     "Champion"
     ],
     [
-     "Order",
-     ""
+     "秩序の大同盟",
+     "Order"
     ],
     [
-     "Kharadron Overlords",
-     ""
+     "カラドロン・オーヴァーロード",
+     "Kharadron Overlords"
     ],
     [
-     "Duardin",
-     ""
+     "ドゥアーディン",
+     "Duardin"
     ],
     [
-     "Skyfarer",
-     ""
+     "飛行船員",
+     "Skyfarer"
     ]
    ],
    "keyword_fix": {},
    "regiment": [],
    "notes_en": "",
    "wargear": {
-    "ja": "",
+    "ja": "• このユニット内の各兵は、プライヴェーティア・ピストルとアルカノートの携帯武器を装備している。\n• 2/10の兵は、装備しているプライヴェーティア・ピストルをプライヴェーティア重火器（エーテル駆動式ヴォレイガンまたはライト・スカイフック）に交換できる。\n• 1/10の兵は、装備している両方の武器をスカイパイクに交換できる。\n• 豪傑は装備している武器を交換できない。",
     "en": "• ***Each model in this unit is armed with a Privateer Pistol and Arkanaut Hand Weapon.***\n• ***2/10 models can replace their Privateer Pistol with a Privateer Heavy Weapon (Aethermatic Volley Gun or Light Skyhook).***\n• ***1/10 models can replace both their weapons with a Skypike.***&#x20;\n• ***The champion cannot replace their weapons.***",
     "fix": []
    }
@@ -560,8 +588,8 @@
   {
    "id": "64956390-cbe0-441c-864e-409fdfe2edf7",
    "name": {
-    "ja": "Auto-Endrin",
-    "en": "",
+    "ja": "オートエンドリン",
+    "en": "Auto-Endrin",
     "own": false,
     "fix": [],
     "note": []
@@ -601,28 +629,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Nullifier Auto-Endrin",
-      "en": "",
+      "ja": "ナルファイアー・オートエンドリン",
+      "en": "Nullifier Auto-Endrin",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "**Once Per Turn (Army), Any Combat Phase**"
+       "ja": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+       "en": "**Once Per Turn (Army), Any Combat Phase**",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "If this unit is a **Nullifier Auto-Endrin** and is in combat with any enemy **MANIFESTATIONS**, pick each enemy **MANIFESTATION** in combat with it to be the targets."
+       "ja": "このユニットが**ナルファイアー・オートエンドリン**であり、かつ1個以上の敵**顕現**と近接戦闘中である場合、このユニットと近接戦闘中である各敵**顕現**を選択する。",
+       "en": "If this unit is a **Nullifier Auto-Endrin** and is in combat with any enemy **MANIFESTATIONS**, pick each enemy **MANIFESTATION** in combat with it to be the targets.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Make a **banishment roll** of 3D6 for each target. If the banishment roll equals or exceeds the **banishment value** on the **MANIFESTATION**’s warscroll, it is banished and removed from play. Then, remove this unit from the battlefield."
+       "ja": "各顕現に対して、それぞれ3D6の**追放ロール**をする。追放ロールの結果が、その**顕現**のウォースクロールに記載されている**【追放値】**以上であれば、そのロール対象の顕現は追放され、ゲームから取り除かれる。その後、このユニットは戦場から取り除かれる。",
+       "en": "Make a **banishment roll** of 3D6 for each target. If the banishment roll equals or exceeds the **banishment value** on the **MANIFESTATION**’s warscroll, it is banished and removed from play. Then, remove this unit from the battlefield.",
+       "fix": []
       }
      },
      "own": false,
@@ -634,28 +666,32 @@
     },
     {
      "name": {
-      "ja": "Expendable Munitions",
-      "en": "",
+      "ja": "使い捨て兵器",
+      "en": "Expendable Munitions",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "The following apply to this unit:\n\n•  This unit has a maximum control score of ‘-’.\n•  When this unit is destroyed or removed from the battlefield, it does not count as being destroyed for the purposes of other rules (such as scoring battle tactics).\n•  This unit cannot be picked to be the target of or be affected by any non-**CORE** abilities used by other friendly units unless the ability specifies **AUTO-ENDRIN**.\n•  Ignore this unit for the purposes of friendly and enemy battle tactics."
+       "ja": "このユニットに下記が適用される。\n• このユニットは最大「-」の確保スコアを持つ。\n• このユニットが全滅するとき、あるいは戦場から取り除かれるとき、他のルール上、このユニットは全滅したとカウントされない（戦術目標の達成など）。\n• アビリティに**オートエンドリン**が指定されていない限り、このユニットは他の味方ユニットが使用する**『コア』**アビリティ以外の対象として選択されたりすることも、そのアビリティの効果を受けたりすることもできない。\n• 味方や敵の戦術目標において、このユニットを無視する。",
+       "en": "The following apply to this unit:\n\n•  This unit has a maximum control score of ‘-’.\n•  When this unit is destroyed or removed from the battlefield, it does not count as being destroyed for the purposes of other rules (such as scoring battle tactics).\n•  This unit cannot be picked to be the target of or be affected by any non-**CORE** abilities used by other friendly units unless the ability specifies **AUTO-ENDRIN**.\n•  Ignore this unit for the purposes of friendly and enemy battle tactics.",
+       "fix": []
       }
      },
      "own": false,
@@ -667,28 +703,32 @@
     },
     {
      "name": {
-      "ja": "Grudgeblast Auto-Endrin",
-      "en": "",
+      "ja": "グラッジブラスト・オートエンドリン",
+      "en": "Grudgeblast Auto-Endrin",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Any Combat Phase"
+       "ja": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+       "en": "Once Per Turn (Army), Any Combat Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "If this unit is a **Grudgeblast Auto-Endrin** and is in combat, pick each enemy unit in combat with it to be the targets."
+       "ja": "このユニットが**グラッジブラスト・オートエンドリン**であり、かつ近接戦闘中である場合、このユニットと近接戦闘中である各敵ユニットを選択する。",
+       "en": "If this unit is a **Grudgeblast Auto-Endrin** and is in combat, pick each enemy unit in combat with it to be the targets.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Then, remove this unit from the battlefield."
+       "ja": "各敵ユニットに対して、それぞれD3を1個ロールする。ロール結果が2+であれば、ロール対象の敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。その後、このユニットは戦場から取り除かれる。",
+       "en": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Then, remove this unit from the battlefield.",
+       "fix": []
       }
      },
      "own": false,
@@ -700,28 +740,32 @@
     },
     {
      "name": {
-      "ja": "Stuncloud Auto-Endrin",
-      "en": "",
+      "ja": "スタンクラウド・オートエンドリン",
+      "en": "Stuncloud Auto-Endrin",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Any Combat Phase"
+       "ja": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+       "en": "Once Per Turn (Army), Any Combat Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "If this unit is a **Stuncloud Auto-Endrin** and is in combat, pick each enemy unit in combat with it to be the targets."
+       "ja": "このユニットが**スタンクラウド・オートエンドリン**であり、かつ近接戦闘中である場合、このユニットと近接戦闘中である各敵ユニットを選択する。",
+       "en": "If this unit is a **Stuncloud Auto-Endrin** and is in combat, pick each enemy unit in combat with it to be the targets.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Roll a dice for each target. If the roll is equal to or lower than that target’s Health characteristic, subtract 10 from the control score of that target for the rest of the turn. Then, remove this unit from the battlefield."
+       "ja": "各敵ユニットに対して、それぞれダイスを1個ロールする。ロール結果がその敵ユニットの【体力】以下である場合、そのターン中、ロール対象の確保スコアは-10の修正を受ける。その後、このユニットは戦場から取り除かれる。",
+       "en": "Roll a dice for each target. If the roll is equal to or lower than that target’s Health characteristic, subtract 10 from the control score of that target for the rest of the turn. Then, remove this unit from the battlefield.",
+       "fix": []
       }
      },
      "own": false,
@@ -735,31 +779,31 @@
    "terrain": [],
    "keywords": [
     [
-     "War Machine",
-     ""
+     "戦闘兵器",
+     "War Machine"
     ],
     [
-     "Fly",
-     ""
+     "飛行",
+     "Fly"
     ],
     [
-     "Order",
-     ""
+     "秩序の大同盟",
+     "Order"
     ],
     [
-     "Kharadron Overlords",
-     ""
+     "カラドロン・オーヴァーロード",
+     "Kharadron Overlords"
     ],
     [
-     "Auto-Endrin",
-     ""
+     "オートエンドリン",
+     "Auto-Endrin"
     ]
    ],
    "keyword_fix": {},
    "regiment": [],
    "notes_en": "",
    "wargear": {
-    "ja": "",
+    "ja": "このユニットは、以下のいずれかで構成される：ナルファイアー・オートエンドリン、スタンクラウド・オートエンドリン、グラッジブラスト・オートエンドリン。",
     "en": "***This unit comprises 1 of the following: Nullifier Auto-Endrin, Stuncloud Auto-Endrin or Grudgeblast Auto-Endrin.***",
     "fix": []
    }
@@ -767,8 +811,8 @@
   {
    "id": "5e6bf0f4-94c9-4614-8b36-9107e9dec75f",
    "name": {
-    "ja": "Endrinmaster with Endrinharness",
-    "en": "",
+    "ja": "エンドリンマスター（エンドリンハーネス装備）",
+    "en": "Endrinmaster with Endrinharness",
     "own": false,
     "fix": [],
     "note": []
@@ -806,8 +850,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Aethermight Hammer",
-     "en": "",
+     "ja": "エーテルマイト・ハンマー",
+     "en": "Aethermight Hammer",
      "own": false,
      "fix": [],
      "note": [],
@@ -825,28 +869,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "'Aye Aye, Captain!'",
-      "en": "",
+      "ja": "「合点でさ、船長！」",
+      "en": "'Aye Aye, Captain!'",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Your Hero Phase"
+       "ja": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+       "en": "Once Per Turn (Army), Your Hero Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick a friendly **SKYVESSEL** within this unit’s combat range to be the target."
+       "ja": "このユニットの近接範囲内に一部でも入っている味方**飛行艦**を1個選択する。",
+       "en": "Pick a friendly **SKYVESSEL** within this unit’s combat range to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "For the rest of the turn:\n\n•  The target can use a **RETREAT** or **RUN** ability and still use **SHOOT** abilities later in the turn.\n•  No mortal damage is inflicted on the target by **RETREAT** abilities."
+       "ja": "そのターン中、\n• 選択された味方飛行艦は『**退却**』または『**全力移動**』アビリティを使用していたとしても、そのターン中に『**遠隔攻撃**』アビリティを使用できる。\n• 選択された味方飛行艦は『**退却**』アビリティによる致命的ダメージを受けない。",
+       "en": "For the rest of the turn:\n\n•  The target can use a **RETREAT** or **RUN** ability and still use **SHOOT** abilities later in the turn.\n•  No mortal damage is inflicted on the target by **RETREAT** abilities.",
+       "fix": []
       }
      },
      "own": false,
@@ -858,28 +906,32 @@
     },
     {
      "name": {
-      "ja": "Mobile Repairs",
-      "en": "",
+      "ja": "可搬式補修機器",
+      "en": "Mobile Repairs",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Your Hero Phase"
+       "ja": "自軍側ヒーローフェイズ",
+       "en": "Your Hero Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick a friendly **SKYVESSEL** or **Zontari Endrin Dock** within this unit’s combat range to be the target."
+       "ja": "このユニットの近接範囲内に一部でも入っている味方**飛行艦**または**ゾンターリ・エンドリン船渠**を1個選択する。",
+       "en": "Pick a friendly **SKYVESSEL** or **Zontari Endrin Dock** within this unit’s combat range to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Roll a dice. On a 2+, **Heal (3)** the target."
+       "ja": "ダイスを1個ロールする。ロール結果が2+であれば、選択された飛行艦あるいは船渠を**回復（3）**する。",
+       "en": "Roll a dice. On a 2+, **Heal (3)** the target.",
+       "fix": []
       }
      },
      "own": false,
@@ -893,28 +945,28 @@
    "terrain": [],
    "keywords": [
     [
-     "Hero",
-     ""
+     "英雄",
+     "Hero"
     ],
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Order",
-     ""
+     "秩序の大同盟",
+     "Order"
     ],
     [
-     "Kharadron Overlords",
-     ""
+     "カラドロン・オーヴァーロード",
+     "Kharadron Overlords"
     ],
     [
-     "Duardin",
-     ""
+     "ドゥアーディン",
+     "Duardin"
     ],
     [
-     "Skyfarer",
-     ""
+     "飛行船員",
+     "Skyfarer"
     ]
    ],
    "keyword_fix": {},
@@ -928,8 +980,8 @@
   {
    "id": "8ca78e4c-498f-49c9-8307-da965ba05027",
    "name": {
-    "ja": "Endrinriggers",
-    "en": "",
+    "ja": "エンドリン・リガー",
+    "en": "Endrinriggers",
     "own": false,
     "fix": [],
     "note": []
@@ -966,8 +1018,8 @@
    "reinforce": true,
    "ranged": [
     {
-     "ja": "Aethermatic Volley Gun",
-     "en": "",
+     "ja": "エーテル駆動式ヴォレイガン",
+     "en": "Aethermatic Volley Gun",
      "own": false,
      "fix": [],
      "note": [],
@@ -979,14 +1031,16 @@
       "-",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "クリティカル（2ヒット）"
+     ],
      "abil_en": [
       "Crit (2 Hits)"
      ]
     },
     {
-     "ja": "Skyrigger Heavy Weapon",
-     "en": "",
+     "ja": "スカイリガーの重火器",
+     "en": "Skyrigger Heavy Weapon",
      "own": false,
      "fix": [],
      "note": [],
@@ -998,14 +1052,16 @@
       "1",
       "D3"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "対大型獣（+1貫通値）"
+     ],
      "abil_en": [
       "Anti-MONSTER (+1 Rend)"
      ]
     },
     {
-     "ja": "Rapid-fire Rivet Gun",
-     "en": "",
+     "ja": "ラピッドファイア・リベットガン",
+     "en": "Rapid-fire Rivet Gun",
      "own": false,
      "fix": [],
      "note": [],
@@ -1017,7 +1073,9 @@
       "1",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "近接射撃"
+     ],
      "abil_en": [
       "Shoot in Combat"
      ]
@@ -1025,8 +1083,8 @@
    ],
    "melee": [
     {
-     "ja": "Aethermatic Saw",
-     "en": "",
+     "ja": "エーテル駆動式の鋸",
+     "en": "Aethermatic Saw",
      "own": false,
      "fix": [],
      "note": [],
@@ -1037,14 +1095,16 @@
       "1",
       "2"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "対突撃（貫通値+1）"
+     ],
      "abil_en": [
       "Anti-charge (+1 Rend)"
      ]
     },
     {
-     "ja": "Gun Butt",
-     "en": "",
+     "ja": "銃床",
+     "en": "Gun Butt",
      "own": false,
      "fix": [],
      "note": [],
@@ -1062,28 +1122,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Emergency Field Repairs",
-      "en": "",
+      "ja": "緊急野戦修理",
+      "en": "Emergency Field Repairs",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "End of Any Turn"
+       "ja": "任意のターン終了時",
+       "en": "End of Any Turn",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick a friendly **SKYVESSEL** or **Zontari Endrin Dock** within this unit’s combat range to be the target."
+       "ja": "このユニットの近接範囲内に一部でも入っている味方**飛行艦**または**ゾンターリ・エンドリン船渠**を1個選択する。",
+       "en": "Pick a friendly **SKYVESSEL** or **Zontari Endrin Dock** within this unit’s combat range to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Make a field repairs roll of D6 for each model in this unit. For each 4-5, **Heal (1)** the target. For each 6, **Heal (2)** the target."
+       "ja": "このユニット内にいる兵ごとに、それぞれD6の修理ロールを1個する。ロール結果で4-5が出るたびに、選択された味方飛行艦あるいは船渠を**回復（1）**する。ロール結果で6が出るたびに、選択された味方飛行艦あるいは船渠を**回復（2）**する。",
+       "en": "Make a field repairs roll of D6 for each model in this unit. For each 4-5, **Heal (1)** the target. For each 6, **Heal (2)** the target.",
+       "fix": []
       }
      },
      "own": false,
@@ -1097,39 +1161,39 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Champion",
-     ""
+     "豪傑",
+     "Champion"
     ],
     [
-     "Fly",
-     ""
+     "飛行",
+     "Fly"
     ],
     [
-     "Order",
-     ""
+     "秩序の大同盟",
+     "Order"
     ],
     [
-     "Kharadron Overlords",
-     ""
+     "カラドロン・オーヴァーロード",
+     "Kharadron Overlords"
     ],
     [
-     "Duardin",
-     ""
+     "ドゥアーディン",
+     "Duardin"
     ],
     [
-     "Skyfarer",
-     ""
+     "飛行船員",
+     "Skyfarer"
     ]
    ],
    "keyword_fix": {},
    "regiment": [],
    "notes_en": "",
    "wargear": {
-    "ja": "",
+    "ja": "• このユニット内の各兵は、ラピッドファイア・リベットガンとエーテル駆動式の鋸を装備している。\n• 1/3の兵は、装備している武器をエーテル駆動式ヴォレイガンと銃床に交換できる。\n• 1/3の兵は、装備している武器をスカイリガーの重火器（グラップネルランチャー、スカイフック、ドリルランチャー）と銃床に交換できる。\n• 豪傑は装備している武器を交換できない。",
     "en": "• ***Each model in this unit is armed with a Rapid-fire Rivet Gun and Aethermatic Saw.***\n• ***1/3 models can replace their weapons with an Aethermatic Volley Gun and Gun Butt.***\n• ***1/3 models can replace their weapons with a Skyrigger Heavy Weapon (Grapnel Launcher, Skyhook or Drill Launcher) and Gun Butt.***\n• ***The champion cannot replace their weapons.***",
     "fix": []
    }
@@ -1137,8 +1201,8 @@
   {
    "id": "f7649c54-6e2e-40e3-a7b0-24e730151406",
    "name": {
-    "ja": "Grundstok Gunhauler",
-    "en": "",
+    "ja": "グランドストック・ガンハウラー",
+    "en": "Grundstok Gunhauler",
     "own": false,
     "fix": [],
     "note": []
@@ -1175,8 +1239,8 @@
    "reinforce": false,
    "ranged": [
     {
-     "ja": "Sky Ordnance",
-     "en": "",
+     "ja": "スカイ兵器",
+     "en": "Sky Ordnance",
      "own": false,
      "fix": [],
      "note": [],
@@ -1194,8 +1258,8 @@
    ],
    "melee": [
     {
-     "ja": "Boarding Weapons",
-     "en": "",
+     "ja": "移乗武装",
+     "en": "Boarding Weapons",
      "own": false,
      "fix": [],
      "note": [],
@@ -1213,28 +1277,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Aethershot Overwatch",
-      "en": "",
+      "ja": "エーテルショットの警戒射撃",
+      "en": "Aethershot Overwatch",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Any Combat Phase"
+       "ja": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+       "en": "Once Per Turn (Army), Any Combat Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target."
+       "ja": "このユニットと近接戦闘中であり、かつこのターン中に突撃を実行している敵ユニットを1個選択する。",
+       "en": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+       "ja": "D3を1個ロールする。ロール結果が2+であれば、選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。",
+       "en": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+       "fix": []
       }
      },
      "own": false,
@@ -1246,28 +1314,32 @@
     },
     {
      "name": {
-      "ja": "Long-line Slings",
-      "en": "",
+      "ja": "帆桁の吊り鎖",
+      "en": "Long-line Slings",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "When you use the ‘Transport Skyfarers’ ability for this unit, you can pick units in combat to be targets."
+       "ja": "このユニットが『空挺戦士の輸送』アビリティを使用するとき、近接戦闘中である味方ユニットを選択できる。",
+       "en": "When you use the ‘Transport Skyfarers’ ability for this unit, you can pick units in combat to be targets.",
+       "fix": []
       }
      },
      "own": false,
@@ -1279,28 +1351,32 @@
     },
     {
      "name": {
-      "ja": "Transport Capacity",
-      "en": "",
+      "ja": "輸送枠",
+      "en": "Transport Capacity",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "This unit can transport 1 friendly **KHARADRON OVERLORDS INFANTRY** unit with a model count of up to 5 (see Battle Traits)."
+       "ja": "このユニットは最大1個までの味方**カラドロン・オーヴァーロード・歩兵**・ユニット、兵5体（戦闘特性参照）までの輸送枠を持つ。",
+       "en": "This unit can transport 1 friendly **KHARADRON OVERLORDS INFANTRY** unit with a model count of up to 5 (see Battle Traits).",
+       "fix": []
       }
      },
      "own": false,
@@ -1312,28 +1388,32 @@
     },
     {
      "name": {
-      "ja": "Light Bomb Racks",
-      "en": "",
+      "ja": "小型爆弾ラック",
+      "en": "Light Bomb Racks",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Your Movement Phase"
+       "ja": "自軍側移動フェイズ",
+       "en": "Your Movement Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick an enemy unit that does not have **FLY** and that this unit passed across this phase to be the target."
+       "ja": "このフェイズ中、このユニットが通り抜けた**飛行**を持っていない敵ユニットを1個選択する。",
+       "en": "Pick an enemy unit that does not have **FLY** and that this unit passed across this phase to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Roll 4 dice. For each 4+, inflict 1 mortal damage on the target."
+       "ja": "ダイスを4個ロールする。ロール結果で4+が出るたびに、選択された敵ユニットは1ポイントの致命的ダメージを受ける。",
+       "en": "Roll 4 dice. For each 4+, inflict 1 mortal damage on the target.",
+       "fix": []
       }
      },
      "own": false,
@@ -1347,28 +1427,28 @@
    "terrain": [],
    "keywords": [
     [
-     "War Machine",
-     ""
+     "戦闘兵器",
+     "War Machine"
     ],
     [
-     "Fly",
-     ""
+     "飛行",
+     "Fly"
     ],
     [
-     "Order",
-     ""
+     "秩序の大同盟",
+     "Order"
     ],
     [
-     "Kharadron Overlords",
-     ""
+     "カラドロン・オーヴァーロード",
+     "Kharadron Overlords"
     ],
     [
-     "Duardin",
-     ""
+     "ドゥアーディン",
+     "Duardin"
     ],
     [
-     "Skyvessel",
-     ""
+     "飛行艦",
+     "Skyvessel"
     ]
    ],
    "keyword_fix": {},
@@ -1379,8 +1459,8 @@
   {
    "id": "f9716be2-d268-49a0-ae1a-d5ccf5884111",
    "name": {
-    "ja": "Grundstok Thunderers",
-    "en": "",
+    "ja": "グランドストック・サンダラー",
+    "en": "Grundstok Thunderers",
     "own": false,
     "fix": [],
     "note": []
@@ -1417,8 +1497,8 @@
    "reinforce": true,
    "ranged": [
     {
-     "ja": "Grundstok Mortar or Aethercannon",
-     "en": "",
+     "ja": "グランドストック迫撃砲またはエーテルキャノン",
+     "en": "Grundstok Mortar or Aethercannon",
      "own": false,
      "fix": [],
      "note": [],
@@ -1434,8 +1514,8 @@
      "abil_en": []
     },
     {
-     "ja": "Aethershot Rifle",
-     "en": "",
+     "ja": "エーテルショット・ライフル",
+     "en": "Aethershot Rifle",
      "own": false,
      "fix": [],
      "note": [],
@@ -1451,8 +1531,8 @@
      "abil_en": []
     },
     {
-     "ja": "Aetheric Fumigator or Decksweeper",
-     "en": "",
+     "ja": "エーテリック・フュミゲイターまたはデッキスイーパー",
+     "en": "Aetheric Fumigator or Decksweeper",
      "own": false,
      "fix": [],
      "note": [],
@@ -1464,7 +1544,9 @@
       "-",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "近接射撃"
+     ],
      "abil_en": [
       "Shoot in Combat"
      ]
@@ -1472,8 +1554,8 @@
    ],
    "melee": [
     {
-     "ja": "Gun Butt",
-     "en": "",
+     "ja": "銃床",
+     "en": "Gun Butt",
      "own": false,
      "fix": [],
      "note": [],
@@ -1491,28 +1573,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Specialist Grundstok Ammunition",
-      "en": "",
+      "ja": "特殊グランドストック弾",
+      "en": "Specialist Grundstok Ammunition",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Your Shooting Phase, Reaction: You declared a SHOOT ability for this unit"
+       "ja": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ、リアクション：このユニットが『遠隔攻撃』アビリティを宣言",
+       "en": "Once Per Turn (Army), Your Shooting Phase, Reaction: You declared a SHOOT ability for this unit",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick **Shieldbreaker** ammunition or **Thunderdrakk** ammunition."
+       "ja": "**シールドブレイカー**弾もしくは**サンダードラック**弾を選択する。",
+       "en": "Pick **Shieldbreaker** ammunition or **Thunderdrakk** ammunition.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "If all of the attacks made for that **SHOOT** ability target the same enemy unit, after that **SHOOT** ability has been resolved, roll a dice and add the number of damage points allocated to the target by that **SHOOT** ability. If the roll is higher than the target’s Control characteristic, apply the following effect to the target based on the ammunition type picked:\n\n***Shieldbreaker:*** Ward rolls cannot be made for the target until the start of your next turn.\n\n***Thunderdrakk:*** That target has a maximum control score of 1 until the start of your next turn."
+       "ja": "その**『遠隔攻撃』**アビリティによるすべての攻撃が同一の敵ユニットを対象にしている場合、その**『遠隔攻撃』**アビリティが解決された直後に、ダイスを1個ロールする。ロールにその**『遠隔攻撃』**アビリティによって敵ユニットが受けたダメージの数を加算する。ロール結果がその敵ユニットの【確保力】を上回る場合、選んだ弾薬タイプに応じて、次の効果を敵ユニットに適用する。\n**シールドブレイカー**：次の自軍側ターン開始時まで、その敵ユニットは加護ロールを実行できない。\n**サンダードラック**：次の自軍側ターン開始時まで、その敵ユニットの最大確保スコアは1である。",
+       "en": "If all of the attacks made for that **SHOOT** ability target the same enemy unit, after that **SHOOT** ability has been resolved, roll a dice and add the number of damage points allocated to the target by that **SHOOT** ability. If the roll is higher than the target’s Control characteristic, apply the following effect to the target based on the ammunition type picked:\n\n***Shieldbreaker:*** Ward rolls cannot be made for the target until the start of your next turn.\n\n***Thunderdrakk:*** That target has a maximum control score of 1 until the start of your next turn.",
+       "fix": []
       }
      },
      "own": false,
@@ -1526,39 +1612,39 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Champion",
-     ""
+     "豪傑",
+     "Champion"
     ],
     [
-     "Standard Bearer (1/5)",
-     ""
+     "旗手（1/5）",
+     "Standard Bearer (1/5)"
     ],
     [
-     "Order",
-     ""
+     "秩序の大同盟",
+     "Order"
     ],
     [
-     "Kharadron Overlords",
-     ""
+     "カラドロン・オーヴァーロード",
+     "Kharadron Overlords"
     ],
     [
-     "Duardin",
-     ""
+     "ドゥアーディン",
+     "Duardin"
     ],
     [
-     "Skyfarer",
-     ""
+     "飛行船員",
+     "Skyfarer"
     ]
    ],
    "keyword_fix": {},
    "regiment": [],
    "notes_en": "",
    "wargear": {
-    "ja": "",
+    "ja": "• このユニットの各兵は、エーテルショット・ライフルと大型銃床を装備している。\n• 2/5の兵は、エーテルショット・ライフルをエーテリック・フュミゲイターもしくはデッキスイーパーに交換できる。\n• 2/5の兵は、エーテルショット・ライフルをグランドストック迫撃砲もしくはエーテルキャノンに交換できる。\n• 豪傑は装備しているエーテルショット・ライフルを交換できない。",
     "en": "• ***Each model in this unit is armed with an Aethershot Rifle and Gun Butt.***\n• ***2/5 models can replace their Aethershot Rifle with an Aetheric Fumigator or Decksweeper.***\n• ***2/5 models can replace their Aethershot Rifle with a Grundstok Mortar or Aethercannon.***\n• ***The champion cannot replace their Aethershot Rifle.***",
     "fix": []
    }
@@ -1566,8 +1652,8 @@
   {
    "id": "c9b14826-b526-4859-a401-e5bc0db455b2",
    "name": {
-    "ja": "Scourge of Aqshy: Endrinriggers",
-    "en": "",
+    "ja": "アキュシーの禍事 エンドリン・リガー",
+    "en": "Scourge of Aqshy: Endrinriggers",
     "own": false,
     "fix": [],
     "note": []
@@ -1604,8 +1690,8 @@
    "reinforce": true,
    "ranged": [
     {
-     "ja": "Aethermatic Volley Gun",
-     "en": "",
+     "ja": "エーテル駆動式ヴォレイガン",
+     "en": "Aethermatic Volley Gun",
      "own": false,
      "fix": [],
      "note": [],
@@ -1617,14 +1703,16 @@
       "-",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "クリティカル（2ヒット）"
+     ],
      "abil_en": [
       "Crit (2 Hits)"
      ]
     },
     {
-     "ja": "Skyrigger Heavy Weapon",
-     "en": "",
+     "ja": "スカイリガーの重火器",
+     "en": "Skyrigger Heavy Weapon",
      "own": false,
      "fix": [],
      "note": [],
@@ -1636,14 +1724,16 @@
       "1",
       "D3"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "対大型獣（+1貫通値）"
+     ],
      "abil_en": [
       "Anti-MONSTER (+1 Rend)"
      ]
     },
     {
-     "ja": "Rapid-fire Rivet Gun",
-     "en": "",
+     "ja": "ラピッドファイア・リベットガン",
+     "en": "Rapid-fire Rivet Gun",
      "own": false,
      "fix": [],
      "note": [],
@@ -1655,7 +1745,9 @@
       "1",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "近接射撃"
+     ],
      "abil_en": [
       "Shoot in Combat"
      ]
@@ -1663,8 +1755,8 @@
    ],
    "melee": [
     {
-     "ja": "Aethermatic Saw",
-     "en": "",
+     "ja": "エーテル駆動式の鋸",
+     "en": "Aethermatic Saw",
      "own": false,
      "fix": [],
      "note": [],
@@ -1675,14 +1767,16 @@
       "1",
       "2"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "対突撃（貫通値+1）"
+     ],
      "abil_en": [
       "Anti-charge (+1 Rend)"
      ]
     },
     {
-     "ja": "Gun Butt",
-     "en": "",
+     "ja": "銃床",
+     "en": "Gun Butt",
      "own": false,
      "fix": [],
      "note": [],
@@ -1700,28 +1794,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "We're Working Here!",
-      "en": "",
+      "ja": "こっちは作業中だ！",
+      "en": "We're Working Here!",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Your Hero Phase"
+       "ja": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+       "en": "Once Per Turn (Army), Your Hero Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Until the start of your next turn, if this unit has not charged in the same turn, the following cumulative effects apply depending on your **fury level**.\n\n**1+ *Irked***: This unit’s **Aethermatic Saws** have **Crit (Auto-wound)**.\n**4+ *Exasperated***: This unit has **WARD (5+)**.\n**7 *Incensed***: Add 1 to the Damage characteristic of this unit’s melee weapons."
+       "ja": "このユニットがこのターン中に突撃していない場合、次の自軍側ターン開始時まで、自軍側の**憤激レベル**に応じて、以下の効果を適用する。これらの効果は累積して適用される。\n1+ **苛立ち：**このユニットの**エーテル駆動式チェーンソー**は、**クリティカル（自動ウーンズ）**を得る。\n4+ **怒り心頭**このユニットは**加護（5+）**を持つ。\n7 **怒髪衝天：**このユニットが装備している近接武器の【ダメージ値】は+1の修正を受ける。",
+       "en": "Until the start of your next turn, if this unit has not charged in the same turn, the following cumulative effects apply depending on your **fury level**.\n\n**1+ *Irked***: This unit’s **Aethermatic Saws** have **Crit (Auto-wound)**.\n**4+ *Exasperated***: This unit has **WARD (5+)**.\n**7 *Incensed***: Add 1 to the Damage characteristic of this unit’s melee weapons.",
+       "fix": []
       }
      },
      "own": false,
@@ -1735,39 +1833,39 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Champion",
-     ""
+     "豪傑",
+     "Champion"
     ],
     [
-     "Fly",
-     ""
+     "飛行",
+     "Fly"
     ],
     [
-     "Order",
-     ""
+     "秩序の大同盟",
+     "Order"
     ],
     [
-     "Kharadron Overlords",
-     ""
+     "カラドロン・オーヴァーロード",
+     "Kharadron Overlords"
     ],
     [
-     "Duardin",
-     ""
+     "ドゥアーディン",
+     "Duardin"
     ],
     [
-     "Skyfarer",
-     ""
+     "飛行船員",
+     "Skyfarer"
     ]
    ],
    "keyword_fix": {},
    "regiment": [],
    "notes_en": "This unit is legal for Matched Play for battles fought using the *General's Handbook 2026-27* battlepack.",
    "wargear": {
-    "ja": "",
+    "ja": "このユニット内の各兵は、ラピッドファイア・リベットガンとエーテル駆動式の鋸を装備している。\n• 1/3の兵は、装備している武器をエーテル駆動式ヴォレイガンと銃床に交換できる。\n• 1/3の兵は、装備している武器をスカイリガーの重火器（グラップネルランチャー、スカイフック、ドリルランチャー）と銃床に交換できる。\n• 豪傑は装備している武器を交換できない。",
     "en": "• ***Each model in this unit is armed with a Rapid-fire Rivet Gun and Aethermatic Saw.***\n• ***1/3 models can replace their weapons with an Aethermatic Volley Gun and Gun Butt.***\n• ***1/3 models can replace their weapons with a Skyrigger Heavy Weapon (Grapnel Launcher, Skyhook or Drill Launcher) and Gun Butt.***\n• ***The champion cannot replace their weapons.***",
     "fix": []
    }
@@ -1775,8 +1873,8 @@
   {
    "id": "c508cc75-30e6-4e7d-8ccd-7955f3c2f13a",
    "name": {
-    "ja": "Scourge of Ghyran Grundstok Gunhauler",
-    "en": "",
+    "ja": "グューランの禍事 グランドストック・ガンハウラー",
+    "en": "Scourge of Ghyran Grundstok Gunhauler",
     "own": false,
     "fix": [],
     "note": []
@@ -1813,8 +1911,8 @@
    "reinforce": true,
    "ranged": [
     {
-     "ja": "Sky Ordnance",
-     "en": "",
+     "ja": "スカイ兵器",
+     "en": "Sky Ordnance",
      "own": false,
      "fix": [],
      "note": [],
@@ -1832,8 +1930,8 @@
    ],
    "melee": [
     {
-     "ja": "Bombs and Boarding Weapons",
-     "en": "",
+     "ja": "爆弾と移乗攻撃用武器",
+     "en": "Bombs and Boarding Weapons",
      "own": false,
      "fix": [],
      "note": [],
@@ -1851,28 +1949,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Fighter Vessel",
-      "en": "",
+      "ja": "攻勢航空機",
+      "en": "Fighter Vessel",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Any Shooting Phase"
+       "ja": "任意の遠隔フェイズ",
+       "en": "Any Shooting Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "If this unit used a **SHOOT** ability this phase, this unit can move D6\". It cannot end that move in combat."
+       "ja": "このフェイズ中、このユニットが『**遠隔攻撃**』アビリティを使用していた場合、このユニットはD6mv移動してもよい。その移動は、近接戦闘に突入するように完了することはできない。",
+       "en": "If this unit used a **SHOOT** ability this phase, this unit can move D6\". It cannot end that move in combat.",
+       "fix": []
       }
      },
      "own": false,
@@ -1884,28 +1986,32 @@
     },
     {
      "name": {
-      "ja": "Attack Squadron",
-      "en": "",
+      "ja": "攻撃部隊",
+      "en": "Attack Squadron",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "While this unit is wholly within 12\" of any other friendly **Grundstok Gunhaulers**, it can use **SHOOT** abilities even if it used the ‘Run’ ability in the same turn."
+       "ja": "このユニットが自身以外の味方**グランドストック・ガンハウラー**の12mv以内に全体が入っている間、このユニットはそのターン中に『全力移動』アビリティを使用していたとしても『**遠隔攻撃**』アビリティを使用できる。",
+       "en": "While this unit is wholly within 12\" of any other friendly **Grundstok Gunhaulers**, it can use **SHOOT** abilities even if it used the ‘Run’ ability in the same turn.",
+       "fix": []
       }
      },
      "own": false,
@@ -1917,28 +2023,32 @@
     },
     {
      "name": {
-      "ja": "Transport Capacity",
-      "en": "",
+      "ja": "輸送枠",
+      "en": "Transport Capacity",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "This unit cannot transport any friendly units."
+       "ja": "このユニットはいかなる味方ユニットも輸送できない。",
+       "en": "This unit cannot transport any friendly units.",
+       "fix": []
       }
      },
      "own": false,
@@ -1952,28 +2062,28 @@
    "terrain": [],
    "keywords": [
     [
-     "War Machine",
-     ""
+     "戦闘兵器",
+     "War Machine"
     ],
     [
-     "Fly",
-     ""
+     "飛行",
+     "Fly"
     ],
     [
-     "Order",
-     ""
+     "秩序の大同盟",
+     "Order"
     ],
     [
-     "Kharadron Overlords",
-     ""
+     "カラドロン・オーヴァーロード",
+     "Kharadron Overlords"
     ],
     [
-     "Duardin",
-     ""
+     "ドゥアーディン",
+     "Duardin"
     ],
     [
-     "Skyvessel",
-     ""
+     "飛行艦",
+     "Skyvessel"
     ]
    ],
    "keyword_fix": {},
@@ -1984,8 +2094,8 @@
   {
    "id": "c45a3efb-3821-4ac1-a734-c1d235c6668f",
    "name": {
-    "ja": "Skywardens",
-    "en": "",
+    "ja": "スカイウォーデン",
+    "en": "Skywardens",
     "own": false,
     "fix": [],
     "note": []
@@ -2022,8 +2132,8 @@
    "reinforce": true,
    "ranged": [
     {
-     "ja": "Skyrigger Heavy Weapon",
-     "en": "",
+     "ja": "スカイリガーの重火器",
+     "en": "Skyrigger Heavy Weapon",
      "own": false,
      "fix": [],
      "note": [],
@@ -2035,14 +2145,16 @@
       "1",
       "D3"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "対大型獣（+1貫通値）"
+     ],
      "abil_en": [
       "Anti-MONSTER (+1 Rend)"
      ]
     },
     {
-     "ja": "Aethermatic Volley Gun",
-     "en": "",
+     "ja": "エーテル駆動式ヴォレイガン",
+     "en": "Aethermatic Volley Gun",
      "own": false,
      "fix": [],
      "note": [],
@@ -2054,14 +2166,16 @@
       "-",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "クリティカル（2ヒット）"
+     ],
      "abil_en": [
       "Crit (2 Hits)"
      ]
     },
     {
-     "ja": "Vulcaniser Pistol",
-     "en": "",
+     "ja": "ヴァルカナイザー・ピストル",
+     "en": "Vulcaniser Pistol",
      "own": false,
      "fix": [],
      "note": [],
@@ -2073,7 +2187,9 @@
       "1",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "近接射撃"
+     ],
      "abil_en": [
       "Shoot in Combat"
      ]
@@ -2081,8 +2197,8 @@
    ],
    "melee": [
     {
-     "ja": "Skywarden's Skypike",
-     "en": "",
+     "ja": "スカイウォーデンのスカイパイク",
+     "en": "Skywarden's Skypike",
      "own": false,
      "fix": [],
      "note": [],
@@ -2093,14 +2209,16 @@
       "1",
       "2"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "突撃（+1ダメージ量）"
+     ],
      "abil_en": [
       "Charge (+1 Damage)"
      ]
     },
     {
-     "ja": "Gun Butt",
-     "en": "",
+     "ja": "銃床",
+     "en": "Gun Butt",
      "own": false,
      "fix": [],
      "note": [],
@@ -2118,28 +2236,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Timed Charges",
-      "en": "",
+      "ja": "時限式爆薬",
+      "en": "Timed Charges",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), End of Any Turn"
+       "ja": "各ターンにつき1回限り（アーミー）、任意のターン終了時",
+       "en": "Once Per Turn (Army), End of Any Turn",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick an enemy unit in combat with this unit to be the target."
+       "ja": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+       "en": "Pick an enemy unit in combat with this unit to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Roll a D3. On a 2+:\n\n• Inflict an amount of mortal damage on the target equal to the roll.\n• This unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it."
+       "ja": "D3を1個ロールする。ロール結果が2+であれば、\n• ロール対象の敵ユニットは、ロール結果に等しい数の致命的ダメージを受ける。\n• あたかも自軍側移動フェイズ中であるかのように、このユニットは致命的ダメージを受けることなく、ただちに『退却』アビリティを使用できる。",
+       "en": "Roll a D3. On a 2+:\n\n• Inflict an amount of mortal damage on the target equal to the roll.\n• This unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.",
+       "fix": []
       }
      },
      "own": false,
@@ -2153,39 +2275,39 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Champion",
-     ""
+     "豪傑",
+     "Champion"
     ],
     [
-     "Fly",
-     ""
+     "飛行",
+     "Fly"
     ],
     [
-     "Order",
-     ""
+     "秩序の大同盟",
+     "Order"
     ],
     [
-     "Kharadron Overlords",
-     ""
+     "カラドロン・オーヴァーロード",
+     "Kharadron Overlords"
     ],
     [
-     "Duardin",
-     ""
+     "ドゥアーディン",
+     "Duardin"
     ],
     [
-     "Skyfarer",
-     ""
+     "飛行船員",
+     "Skyfarer"
     ]
    ],
    "keyword_fix": {},
    "regiment": [],
    "notes_en": "",
    "wargear": {
-    "ja": "",
+    "ja": "• このユニットの各兵は、ヴァルカナイザー・ピストルとスカイウォーデン・スカイパイクを装備している。\n• 1/3の兵は、装備している武器をエーテル駆動式ヴォレイガンと銃床に交換できる。\n• 1/3の兵は、装備している武器をスカイリガーの重火器（グラップネルランチャー、スカイフック、ドリルランチャー）と銃床に交換できる。\n• 豪傑は装備している武器を交換できない。",
     "en": "• ***Each model in this unit is armed with a Vulcaniser Pistol and Skywarden’s Skypike.***\n• ***1/3 models can replace their weapons with an Aethermatic Volley Gun and Gun Butt.***\n• ***1/3 models can replace their weapons with a Skyrigger Heavy Weapon (Grapnel Launcher, Skyhook or Drill Launcher) and Gun Butt.***\n• ***The champion cannot replace their weapons.***",
     "fix": []
    }
@@ -2193,8 +2315,8 @@
   {
    "id": "9cc0ddc4-be32-41a9-ae9f-28a19ad5e48c",
    "name": {
-    "ja": "Thundrik's Profiteers",
-    "en": "",
+    "ja": "サンドリック武装商隊",
+    "en": "Thundrik's Profiteers",
     "own": false,
     "fix": [],
     "note": []
@@ -2231,8 +2353,8 @@
    "reinforce": false,
    "ranged": [
     {
-     "ja": "Aethermatic Anatomiser",
-     "en": "",
+     "ja": "エーテルマティック・アナトマイザー",
+     "en": "Aethermatic Anatomiser",
      "own": false,
      "fix": [],
      "note": [],
@@ -2244,14 +2366,16 @@
       "2",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "近接射撃"
+     ],
      "abil_en": [
       "Shoot in Combat"
      ]
     },
     {
-     "ja": "Aethermatic Firearms",
-     "en": "",
+     "ja": "エーテルマティック・ファイアアーム",
+     "en": "Aethermatic Firearms",
      "own": false,
      "fix": [],
      "note": [],
@@ -2269,8 +2393,8 @@
    ],
    "melee": [
     {
-     "ja": "Arkanaut Cutter",
-     "en": "",
+     "ja": "アルカノート・カッター",
+     "en": "Arkanaut Cutter",
      "own": false,
      "fix": [],
      "note": [],
@@ -2285,8 +2409,8 @@
      "abil_en": []
     },
     {
-     "ja": "Skypike",
-     "en": "",
+     "ja": "スカイパイク",
+     "en": "Skypike",
      "own": false,
      "fix": [],
      "note": [],
@@ -2297,7 +2421,9 @@
       "1",
       "2"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "クリティカル（致命的）"
+     ],
      "abil_en": [
       "Crit (Mortal)"
      ]
@@ -2306,28 +2432,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Aethermatic Anatomiser",
-      "en": "",
+      "ja": "エーテルマティック・アナトマイザー",
+      "en": "Aethermatic Anatomiser",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Your Shooting Phase"
+       "ja": "自軍側遠隔フェイズ",
+       "en": "Your Shooting Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "If this unit’s **Bjorgen Thundrik** is on the battlefield, pick an objective within 12\" of this unit to be the target."
+       "ja": "このユニットの**ビョルゲン・サンドリック**が戦場に配置されている場合、このユニットの12mv以内に一部でも入っている作戦目標を1個選択する。",
+       "en": "If this unit’s **Bjorgen Thundrik** is on the battlefield, pick an objective within 12\" of this unit to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Roll a dice. On a 3+:\n• If the target is controlled by either player, that player loses control of that objective.\n• The target cannot be contested until the start of your next turn."
+       "ja": "ダイスを1個ロールする。ロール結果が3+であれば：\n• その作戦目標がいずれかのプレイヤーによって確保されていれば、そのプレイヤーはその作戦目標の確保を失う。\n• 次の自軍側ターン開始時まで、その作戦目標は争奪できなくなる。",
+       "en": "Roll a dice. On a 3+:\n• If the target is controlled by either player, that player loses control of that objective.\n• The target cannot be contested until the start of your next turn.",
+       "fix": []
       }
      },
      "own": false,
@@ -2341,35 +2471,35 @@
    "terrain": [],
    "keywords": [
     [
-     "Unique",
-     ""
+     "固有",
+     "Unique"
     ],
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Order",
-     ""
+     "秩序の大同盟",
+     "Order"
     ],
     [
-     "Kharadron Overlords",
-     ""
+     "カラドロン・オーヴァーロード",
+     "Kharadron Overlords"
     ],
     [
-     "Duardin",
-     ""
+     "ドゥアーディン",
+     "Duardin"
     ],
     [
-     "Skyfarer",
-     ""
+     "飛行船員",
+     "Skyfarer"
     ]
    ],
    "keyword_fix": {},
    "regiment": [],
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
-    "ja": "",
+    "ja": "このユニット内の兵は以下の通り：\n• ビョルゲン・サンドリック（エーテルマティック・アナトマイザー、アルカノート・カッターを装備している）\n• カズガン・ドレイクスキュワー（エーテルマティック・ファイアアーム、スカイパイクを装備している）\n• デッドアイ・ルンド（エーテルマティック・ファイアアーム、アルカノート・カッターを装備している）\n• エンリク・アイアンヘイル（エーテルマティック・ファイアアーム、アルカノート・カッターを装備している）\n• ガロッド・アレンセン（エーテルマティック・ファイアアーム、アルカノート・カッターを装備している）",
     "en": "***The models in this unit are:***\n\n• ***Bjorgen Thundrik** (armed with an Aethermatic Anatomiser and an Arkanaut Cutter)*\n• ***Khazgan Drakkskewer** (armed with Aethermatic Firearms and a Skypike)*\n• ***Dead-Eye Lund** (armed with Aethermatic Firearms and an Arkanaut Cutter)*\n• ***Enrik Ironhail** (armed with Aethermatic Firearms and an Arkanaut Cutter)*\n• ***Garodd Alensen** (armed with Aethermatic Firearms and an Arkanaut Cutter)*",
     "fix": []
    }
@@ -2377,8 +2507,8 @@
   {
    "id": "36ac62dd-b650-4b0e-a21e-150882498848",
    "name": {
-    "ja": "Vongrim Harpoon Crew",
-    "en": "",
+    "ja": "フォングリムの銛打ち衆",
+    "en": "Vongrim Harpoon Crew",
     "own": false,
     "fix": [],
     "note": []
@@ -2415,8 +2545,8 @@
    "reinforce": true,
    "ranged": [
     {
-     "ja": "Skydrake Harpoon or Firearm",
-     "en": "",
+     "ja": "スカイドレイク・ハープーンまたは小火器",
+     "en": "Skydrake Harpoon or Firearm",
      "own": false,
      "fix": [],
      "note": [],
@@ -2428,7 +2558,9 @@
       "1",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "対大型獣（+1貫通値）"
+     ],
      "abil_en": [
       "Anti-MONSTER (+1 Rend)"
      ]
@@ -2436,8 +2568,8 @@
    ],
    "melee": [
     {
-     "ja": "Pioneer Weapons",
-     "en": "",
+     "ja": "工兵戎具",
+     "en": "Pioneer Weapons",
      "own": false,
      "fix": [],
      "note": [],
@@ -2455,28 +2587,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Light Endrinpacks",
-      "en": "",
+      "ja": "軽量型エンドリンパック",
+      "en": "Light Endrinpacks",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Any Combat Phase"
+       "ja": "各ターンにつき1回限り（アーミー）、任意の近接フェイズ",
+       "en": "Once Per Turn (Army), Any Combat Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "If this unit is in combat, it can move 2D6\" but must end that move in combat."
+       "ja": "このユニットが近接戦闘中である場合、このユニットは2D6mvの移動を1回実行できる。その際、近接戦闘に突入するように移動を完了しなければならない。",
+       "en": "If this unit is in combat, it can move 2D6\" but must end that move in combat.",
+       "fix": []
       }
      },
      "own": false,
@@ -2490,32 +2626,32 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Champion",
-     ""
+     "豪傑",
+     "Champion"
     ],
     [
-     "Fly",
-     ""
+     "飛行",
+     "Fly"
     ],
     [
-     "Order",
-     ""
+     "秩序の大同盟",
+     "Order"
     ],
     [
-     "Kharadron Overlords",
-     ""
+     "カラドロン・オーヴァーロード",
+     "Kharadron Overlords"
     ],
     [
-     "Duardin",
-     ""
+     "ドゥアーディン",
+     "Duardin"
     ],
     [
-     "Skyfarer",
-     ""
+     "飛行船員",
+     "Skyfarer"
     ]
    ],
    "keyword_fix": {},
@@ -2526,8 +2662,8 @@
   {
    "id": "c2499cdc-a0cc-42f0-95b8-9aad087957bf",
    "name": {
-    "ja": "Vongrim Salvagers",
-    "en": "",
+    "ja": "フォングリム・サルヴェイジャー",
+    "en": "Vongrim Salvagers",
     "own": false,
     "fix": [],
     "note": []
@@ -2564,8 +2700,8 @@
    "reinforce": true,
    "ranged": [
     {
-     "ja": "Privateer Pistol",
-     "en": "",
+     "ja": "プライヴェーティア・ピストル",
+     "en": "Privateer Pistol",
      "own": false,
      "fix": [],
      "note": [],
@@ -2577,7 +2713,9 @@
       "-",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "近接射撃"
+     ],
      "abil_en": [
       "Shoot in Combat"
      ]
@@ -2585,8 +2723,8 @@
    ],
    "melee": [
     {
-     "ja": "Vongrim Cutlass",
-     "en": "",
+     "ja": "フォングリム舶刀",
+     "en": "Vongrim Cutlass",
      "own": false,
      "fix": [],
      "note": [],
@@ -2597,7 +2735,9 @@
       "1",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "クリティカル（2ヒット）"
+     ],
      "abil_en": [
       "Crit (2 Hits)"
      ]
@@ -2606,28 +2746,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Spotter's Flaregun",
-      "en": "",
+      "ja": "偵察兵の信号弾",
+      "en": "Spotter's Flaregun",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Any Combat Phase"
+       "ja": "各ターンにつき1回限り（アーミー）、任意の近接フェイズ",
+       "en": "Once Per Turn (Army), Any Combat Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick an objective within 9\" of this unit to be the target."
+       "ja": "このユニットの9mv以内に一部でも入っている作戦目標を1個選択する。",
+       "en": "Pick an objective within 9\" of this unit to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Roll a dice. On a 3+, apply the following effects for the rest of the turn:\n\n• Add 1 to hit rolls for combat attacks made by friendly **SKYFARER** units that target a unit that is contesting the target objective.\n• Add 1 to the Rend characteristic of melee weapons used by friendly **Vongrim Salvagers** and **Vongrim Harpoon Crew** units for attacks that target a unit that is contesting the target objective."
+       "ja": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、以下の効果が適用される：\n• 選択された作戦目標を争奪中であるユニットを対象にした味方**飛行船員**・ユニットのメレーアタックは、ヒットロールに+1の修正を受ける。\n• 味方**ヴォングリム・サルヴェイジャー**および**ヴォングリムの銛打ち衆**・ユニットは、選択された作戦目標を争奪中のユニットを対象として攻撃する際、近接武器の【貫通値】に+1の修正を受ける。",
+       "en": "Roll a dice. On a 3+, apply the following effects for the rest of the turn:\n\n• Add 1 to hit rolls for combat attacks made by friendly **SKYFARER** units that target a unit that is contesting the target objective.\n• Add 1 to the Rend characteristic of melee weapons used by friendly **Vongrim Salvagers** and **Vongrim Harpoon Crew** units for attacks that target a unit that is contesting the target objective.",
+       "fix": []
       }
      },
      "own": false,
@@ -2641,32 +2785,32 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Champion",
-     ""
+     "豪傑",
+     "Champion"
     ],
     [
-     "Fly",
-     ""
+     "飛行",
+     "Fly"
     ],
     [
-     "Order",
-     ""
+     "秩序の大同盟",
+     "Order"
     ],
     [
-     "Kharadron Overlords",
-     ""
+     "カラドロン・オーヴァーロード",
+     "Kharadron Overlords"
     ],
     [
-     "Duardin",
-     ""
+     "ドゥアーディン",
+     "Duardin"
     ],
     [
-     "Skyfarer",
-     ""
+     "飛行船員",
+     "Skyfarer"
     ]
    ],
    "keyword_fix": {},
@@ -2677,8 +2821,8 @@
   {
    "id": "8cbe4460-a3ae-4285-9ca6-a748f35c4d08",
    "name": {
-    "ja": "Zontari Endrin Dock",
-    "en": "",
+    "ja": "ゾンターリ・エンドリン船渠",
+    "en": "Zontari Endrin Dock",
     "own": false,
     "fix": [],
     "note": []
@@ -2718,28 +2862,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Endrinworks Outpost",
-      "en": "",
+      "ja": "エンドリン前哨部隊",
+      "en": "Endrinworks Outpost",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Your Hero Phase"
+       "ja": "自軍側ヒーローフェイズ",
+       "en": "Your Hero Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick a friendly **AUTO-ENDRIN** or replacement **AUTO‑ENDRIN** that has been removed from the battlefield to be the target."
+       "ja": "味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリンを1個選択する。",
+       "en": "Pick a friendly **AUTO-ENDRIN** or replacement **AUTO‑ENDRIN** that has been removed from the battlefield to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Make a manufacturing roll of D6. Add 1 to the roll if there is a friendly **Endrinmaster with Dirigible Suit** or **Endrinmaster with Endrinharness** within 3\" of this terrain feature. On a 4+, set up a replacement **AUTO-ENDRIN** on the battlefield, wholly within 6\" of this terrain feature and more than 3\" from all enemy units."
+       "ja": "D6の製造ロールを1個する。味方エンドリンマスター（可導気球スーツ装備）またはエンドリン・マスター（エンドリンハーネス装備）がこの特殊地形の3mv以内に一部でも入っている場合、その製造ロールは+1の修正を受ける。ロール結果が4+であれば、この特殊地形の6mv以内に全体が入るように、かつあらゆる敵ユニットから3mvより遠く離れた戦場の位置に、代替のオートエンドリンを1個配置する。",
+       "en": "Make a manufacturing roll of D6. Add 1 to the roll if there is a friendly **Endrinmaster with Dirigible Suit** or **Endrinmaster with Endrinharness** within 3\" of this terrain feature. On a 4+, set up a replacement **AUTO-ENDRIN** on the battlefield, wholly within 6\" of this terrain feature and more than 3\" from all enemy units.",
+       "fix": []
       }
      },
      "own": false,
@@ -2751,28 +2899,32 @@
     },
     {
      "name": {
-      "ja": "Repair Routines",
-      "en": "",
+      "ja": "修理ルーチン",
+      "en": "Repair Routines",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Your Hero Phase"
+       "ja": "自軍側ヒーローフェイズ",
+       "en": "Your Hero Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick a friendly **SKYVESSEL** within 3\" of this terrain feature to be the target."
+       "ja": "この特殊地形の3mv以内に一部でも入っている味方**飛行艦**を1個選択する。",
+       "en": "Pick a friendly **SKYVESSEL** within 3\" of this terrain feature to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Make a repair roll of D6. Add 1 to the roll if there is a friendly **Endrinmaster with Dirigible Suit** or **Endrinmaster with Endrinharness** within 3\" of this terrain feature. On a 4+, **Heal (3)** the target."
+       "ja": "D6の修理ロールを1個する。味方**エンドリンマスター（可導気球スーツ装備）**または**エンドリン・マスター（エンドリンハーネス装備）**がこの特殊地形の3mv以内に一部でも入っている場合、その修理ロールは+1の修正を受ける。ロール結果が4+であれば、選択された味方飛行艦を**回復（3）**する。",
+       "en": "Make a repair roll of D6. Add 1 to the roll if there is a friendly **Endrinmaster with Dirigible Suit** or **Endrinmaster with Endrinharness** within 3\" of this terrain feature. On a 4+, **Heal (3)** the target.",
+       "fix": []
       }
      },
      "own": false,
@@ -2784,28 +2936,32 @@
     },
     {
      "name": {
-      "ja": "Release The Auto-Endrins",
-      "en": "",
+      "ja": "オートエンドリン出撃",
+      "en": "Release The Auto-Endrins",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Deployment Phase"
+       "ja": "初期配置フェイズ",
+       "en": "Deployment Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Set up a friendly **Nullifier Auto‑Endrin**, **Stuncloud Auto‑Endrin** and **Grudgeblast Auto‑Endrin** (see the Auto-Endrin warscroll) on the battlefield within friendly territory, wholly within 6\" of this terrain feature and more than 9\" from all enemy units."
+       "ja": "味方**ナルファイアー・オートエンドリン**1個、**スタンクラウド・オートエンドリン**1個、**グラッジブラスト・オートエンドリン**1個（オートエンドリンのウォースクロール参照）を自軍側陣地内に一部でも入るように、かつこの特殊地形の6mv以内に全体が入るように、なおかつあらゆる敵ユニットから9mvより遠く離れている戦場の位置に配置する。",
+       "en": "Set up a friendly **Nullifier Auto‑Endrin**, **Stuncloud Auto‑Endrin** and **Grudgeblast Auto‑Endrin** (see the Auto-Endrin warscroll) on the battlefield within friendly territory, wholly within 6\" of this terrain feature and more than 9\" from all enemy units.",
+       "fix": []
       }
      },
      "own": false,
@@ -2819,8 +2975,8 @@
    "terrain": [
     {
      "name": {
-      "ja": "Cover",
-      "en": "",
+      "ja": "遮蔽物",
+      "en": "Cover",
       "own": false,
       "fix": [],
       "note": []
@@ -2852,8 +3008,8 @@
     },
     {
      "name": {
-      "ja": "Impassable",
-      "en": "",
+      "ja": "通り抜け不可能",
+      "en": "Impassable",
       "own": false,
       "fix": [],
       "note": []
@@ -2886,20 +3042,20 @@
    ],
    "keywords": [
     [
-     "Faction Terrain",
-     ""
+     "陣営地形",
+     "Faction Terrain"
     ],
     [
-     "Fly",
-     ""
+     "飛行",
+     "Fly"
     ],
     [
-     "Order",
-     ""
+     "秩序の大同盟",
+     "Order"
     ],
     [
-     "Kharadron Overlords",
-     ""
+     "カラドロン・オーヴァーロード",
+     "Kharadron Overlords"
     ]
    ],
    "keyword_fix": {},

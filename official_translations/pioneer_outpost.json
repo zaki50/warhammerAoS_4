@@ -1,0 +1,356 @@
+{
+ "_faction": "開拓前哨地駐屯部隊 (Pioneer Outpost)",
+ "_source": [
+  "バトルトーム：カラドロン・オーヴァーロード 日本語版（スキャン）pp.84–85（名高き軍勢：開拓前哨地駐屯部隊。p.84 戦闘特性 4件、p.85 戦闘特性表の続き 2件・英雄特性・神器）",
+  "ユニット（ウォースクロール）の訳は official_translations/kharadron_overlords.json（書籍 pp.54–67 とルール・アップデート 2026年9月）から写した"
+ ],
+ "_notes": [
+  "p.84 の見出しは『戦闘特性』、p.85 は『戦闘特性表』（続き）。英雄特性・神器の表には固有名が無く、見出し『英雄特性』『神器』の下に『（英雄のみ）』とあるだけなので、group_names は見出しをそのまま採った。Battle Traits は先例どおり『戦闘特性』。Battle Traits の前置き文は md に無い（書籍にも無い）。",
+  "faction_name は表題『開拓前哨地駐屯部隊』（p.49・p.84 とも同じ）。p.84 では開拓兵（PIONEER）キーワードを獲得するとある。キーワード Pioneer → 開拓兵、Code → 掟、Zontari Endrin Dock → ゾンターリ・エンドリン船渠、Endrinworks Outpost → 『エンドリン前哨部隊』（ウォースクロール側との照合用）。",
+  "『掟』アビリティ5件（債務履行・積極的接収・投資回収・敵対的買収・市場独占）はキーワード欄が『掟』なので keywords に入れた。宣言中の『掟』は『』ごと太字（書籍どおり **『掟』**）。",
+  "投資回収の効果の『歩兵ではない』の『歩兵』は太字でない（書籍どおり）。陣営地形も太字でない。",
+  "p.85 縄張りを守る開拓者の背景文の『躊躇』に『ためら』のルビ、ロックバスター爆弾の『飛礫』に『つぶて』のルビ（背景文なので訳には載せていない）。",
+  "p.84 右上の付箋（手書き）はユーザーのメモで無視した。ユニット（ウォースクロール）の訳は対象外。",
+  "Thorgsson's Universal Automaton Actuator の英語 timing は md で『PAssive』（英語側の表記ゆれ）。書籍は『パッシブ』。"
+ ],
+ "unit_names": {
+  "Aetheric Navigator": "エーテリック・ナヴィゲイター",
+  "Arkanaut Admiral": "アルカノート・アドミラル",
+  "Arkanaut Company": "アルカノート・カンパニー",
+  "Auto-Endrin": "オートエンドリン",
+  "Endrinmaster with Endrinharness": "エンドリンマスター（エンドリンハーネス装備）",
+  "Endrinriggers": "エンドリン・リガー",
+  "Grundstok Gunhauler": "グランドストック・ガンハウラー",
+  "Grundstok Thunderers": "グランドストック・サンダラー",
+  "Scourge of Aqshy: Endrinriggers": "アキュシーの禍事 エンドリン・リガー",
+  "Scourge of Ghyran Grundstok Gunhauler": "グューランの禍事 グランドストック・ガンハウラー",
+  "Skywardens": "スカイウォーデン",
+  "Thundrik's Profiteers": "サンドリック武装商隊",
+  "Vongrim Harpoon Crew": "フォングリムの銛打ち衆",
+  "Vongrim Salvagers": "フォングリム・サルヴェイジャー",
+  "Zontari Endrin Dock": "ゾンターリ・エンドリン船渠"
+ },
+ "weapon_names": {
+  "Aetheric Fumigator or Decksweeper": "エーテリック・フュミゲイターまたはデッキスイーパー",
+  "Aethermatic Saw": "エーテル駆動式の鋸",
+  "Aethermatic Volley Gun": "エーテル駆動式ヴォレイガン",
+  "Aethermight Hammer": "エーテルマイト・ハンマー",
+  "Aethershot Rifle": "エーテルショット・ライフル",
+  "Arkanaut Hand Weapon": "アルカノートの携帯武器",
+  "Boarding Weapons": "移乗武装",
+  "Grundstok Mortar or Aethercannon": "グランドストック迫撃砲またはエーテルキャノン",
+  "Gun Butt": "銃床",
+  "Masterwork Volley Pistol": "傑作ヴォレイピストル",
+  "Pioneer Weapons": "工兵戎具",
+  "Privateer Heavy Weapon": "プライヴェーティア重火器",
+  "Privateer Pistol": "プライヴェーティア・ピストル",
+  "Ranging Pistol": "レンジングピストル",
+  "Rapid-fire Rivet Gun": "ラピッドファイア・リベットガン",
+  "Scourge of Aqshy: Endrinriggers|Aethermatic Saw": "エーテル駆動式の鋸",
+  "Scourge of Aqshy: Endrinriggers|Aethermatic Volley Gun": "エーテル駆動式ヴォレイガン",
+  "Scourge of Aqshy: Endrinriggers|Gun Butt": "銃床",
+  "Scourge of Aqshy: Endrinriggers|Rapid-fire Rivet Gun": "ラピッドファイア・リベットガン",
+  "Scourge of Aqshy: Endrinriggers|Skyrigger Heavy Weapon": "スカイリガーの重火器",
+  "Scourge of Ghyran Grundstok Gunhauler|Bombs and Boarding Weapons": "爆弾と移乗攻撃用武器",
+  "Scourge of Ghyran Grundstok Gunhauler|Sky Ordnance": "スカイ兵器",
+  "Skalfhammer": "スカルフハンマー",
+  "Sky Ordnance": "スカイ兵器",
+  "Skydrake Harpoon or Firearm": "スカイドレイク・ハープーンまたは小火器",
+  "Skypike": "スカイパイク",
+  "Skyrigger Heavy Weapon": "スカイリガーの重火器",
+  "Skywarden's Skypike": "スカイウォーデンのスカイパイク",
+  "Thundrik's Profiteers|Aethermatic Anatomiser": "エーテルマティック・アナトマイザー",
+  "Thundrik's Profiteers|Aethermatic Firearms": "エーテルマティック・ファイアアーム",
+  "Thundrik's Profiteers|Arkanaut Cutter": "アルカノート・カッター",
+  "Thundrik's Profiteers|Skypike": "スカイパイク",
+  "Vongrim Cutlass": "フォングリム舶刀",
+  "Vulcaniser Pistol": "ヴァルカナイザー・ピストル",
+  "Zephyrscope": "風読鏡"
+ },
+ "weapon_ability_names": {
+  "Anti-MONSTER (+1 Rend)": "対大型獣（+1貫通値）",
+  "Anti-charge (+1 Rend)": "対突撃（貫通値+1）",
+  "Charge (+1 Damage)": "突撃（+1ダメージ量）",
+  "Crit (2 Hits)": "クリティカル（2ヒット）",
+  "Crit (Mortal)": "クリティカル（致命的）",
+  "Shoot in Combat": "近接射撃"
+ },
+ "keyword_names": {
+  "Auto-Endrin": "オートエンドリン",
+  "Champion": "豪傑",
+  "Duardin": "ドゥアーディン",
+  "Faction Terrain": "陣営地形",
+  "Fly": "飛行",
+  "Hero": "英雄",
+  "Infantry": "歩兵",
+  "Kharadron Overlords": "カラドロン・オーヴァーロード",
+  "Order": "秩序の大同盟",
+  "Scourge of Aqshy: Endrinriggers|Champion": "豪傑",
+  "Scourge of Aqshy: Endrinriggers|Duardin": "ドゥアーディン",
+  "Scourge of Aqshy: Endrinriggers|Fly": "飛行",
+  "Scourge of Aqshy: Endrinriggers|Infantry": "歩兵",
+  "Scourge of Aqshy: Endrinriggers|Kharadron Overlords": "カラドロン・オーヴァーロード",
+  "Scourge of Aqshy: Endrinriggers|Order": "秩序の大同盟",
+  "Scourge of Aqshy: Endrinriggers|Skyfarer": "飛行船員",
+  "Scourge of Ghyran Grundstok Gunhauler|Duardin": "ドゥアーディン",
+  "Scourge of Ghyran Grundstok Gunhauler|Fly": "飛行",
+  "Scourge of Ghyran Grundstok Gunhauler|Kharadron Overlords": "カラドロン・オーヴァーロード",
+  "Scourge of Ghyran Grundstok Gunhauler|Order": "秩序の大同盟",
+  "Scourge of Ghyran Grundstok Gunhauler|Skyvessel": "飛行艦",
+  "Scourge of Ghyran Grundstok Gunhauler|War Machine": "戦闘兵器",
+  "Skyfarer": "飛行船員",
+  "Skyvessel": "飛行艦",
+  "Standard Bearer (1/5)": "旗手（1/5）",
+  "Thundrik's Profiteers|Duardin": "ドゥアーディン",
+  "Thundrik's Profiteers|Infantry": "歩兵",
+  "Thundrik's Profiteers|Kharadron Overlords": "カラドロン・オーヴァーロード",
+  "Thundrik's Profiteers|Order": "秩序の大同盟",
+  "Thundrik's Profiteers|Skyfarer": "飛行船員",
+  "Thundrik's Profiteers|Unique": "固有",
+  "War Machine": "戦闘兵器"
+ },
+ "ability_names": {
+  "'Aye Aye, Captain!'": "「合点でさ、船長！」",
+  "Aethershot Overwatch": "エーテルショットの警戒射撃",
+  "Aethersight": "エーテル眼",
+  "Aggressive Acquisitions": "積極的接収",
+  "Bring Every Gun to Bear!": "「全砲、発射！」",
+  "Copper Fingers": "銅の指",
+  "Cover": "遮蔽物",
+  "Emergency Field Repairs": "緊急野戦修理",
+  "Endrinworks Outpost": "エンドリン前哨部隊",
+  "Expendable Munitions": "使い捨て兵器",
+  "Grizzled Buccaneers": "白髭混じりの海賊",
+  "Grudgeblast Auto-Endrin": "グラッジブラスト・オートエンドリン",
+  "Hostile Takeover": "敵対的買収",
+  "Impassable": "通り抜け不可能",
+  "Initial Investment": "初期投資",
+  "Light Bomb Racks": "小型爆弾ラック",
+  "Light Endrinpacks": "軽量型エンドリンパック",
+  "Long-line Slings": "帆桁の吊り鎖",
+  "Market Dominance": "市場独占",
+  "Mobile Repairs": "可搬式補修機器",
+  "Nullifier Auto-Endrin": "ナルファイアー・オートエンドリン",
+  "Read the Winds": "風読み",
+  "Release The Auto-Endrins": "オートエンドリン出撃",
+  "Repair Routines": "修理ルーチン",
+  "Rockbuster Charges": "ロックバスター爆弾",
+  "Scourge of Aqshy: Endrinriggers|We're Working Here!": "こっちは作業中だ！",
+  "Scourge of Ghyran Grundstok Gunhauler|Attack Squadron": "攻撃部隊",
+  "Scourge of Ghyran Grundstok Gunhauler|Fighter Vessel": "攻勢航空機",
+  "Scourge of Ghyran Grundstok Gunhauler|Transport Capacity": "輸送枠",
+  "Secure Investments": "投資回収",
+  "Settling Accounts": "債務履行",
+  "Specialist Grundstok Ammunition": "特殊グランドストック弾",
+  "Spotter's Flaregun": "偵察兵の信号弾",
+  "Stuncloud Auto-Endrin": "スタンクラウド・オートエンドリン",
+  "Territorial Trailblazer": "縄張りを守る開拓者",
+  "The Admiral's Flagship": "提督の旗艦",
+  "Thorgsson's Universal Automaton Actuator": "ソーグソン式汎用オートマトン駆動装置",
+  "Thundrik's Profiteers|Aethermatic Anatomiser": "エーテルマティック・アナトマイザー",
+  "Timed Charges": "時限式爆薬",
+  "Transport Capacity": "輸送枠"
+ },
+ "ability_texts": {
+  "Aetheric Navigator|Aethersight": {
+   "timing": "パッシブ",
+   "effect": "このユニットは、自身があたかも**魔術師（1）**であるかのように『**打ち消し**』アビリティを使用できる。"
+  },
+  "Aetheric Navigator|Read the Winds": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側移動フェイズ",
+   "declare": "このユニットの近接範囲内に一部でも入っている、近接戦闘中ではない味方**飛行艦**または**オートエンドリン**を1個選択する。",
+   "effect": "選択された飛行艦あるいはオートエンドリンを戦場から取り除き、あらゆる敵ユニットから9mvより遠く離れた戦場の位置に再配置する。その後、それが**飛行艦**であった場合は、このユニットを戦場から取り除き、その飛行艦から6mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に再配置してもよい。"
+  },
+  "Aggressive Acquisitions": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "declare": "自軍がこのターン中にまだいかなる**『掟』**アビリティも使用しておらず、かつ味方**開拓兵**・ユニットが戦場の各大区画に配置されている場合に限り、このアビリティを使用できる。この条件における「各大区画に配置されているユニット」は、他の大区画から6mvより遠く離れており、かつ近接戦闘中ではないものでなければならない。",
+   "effect": "以降バトル終了時まで、自軍側陣地内や自軍が確保している作戦目標の9mv以内に一部でも入るように、対戦相手はその敵ユニットを配置することはできない。",
+   "keywords": "掟"
+  },
+  "Arkanaut Admiral|Bring Every Gun to Bear!": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+   "declare": "このユニットの24mv以内に全体が入っている味方**飛行艦**を1個選択する。",
+   "effect": "そのターン中、選択された味方飛行艦が装備している遠隔武器の【攻撃回数】は+1の修正を受ける。"
+  },
+  "Arkanaut Admiral|The Admiral's Flagship": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+   "declare": "このユニットの12mv以内に全体が入っている味方**旗艦**を1個選択する。",
+   "effect": "そのフェイズ中、選択された旗艦が『**遠隔攻撃**』アビリティを使用する際、そのアビリティによるヒットロールを1個リロールできる。"
+  },
+  "Arkanaut Company|Grizzled Buccaneers": {
+   "declare": "このユニットと近接戦闘中であり、かつこのターン中に突撃を実行している敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、\n• このユニットはあたかも自軍側遠隔フェイズ中であるかのように、ただちに**『遠隔攻撃』**アビリティを使用できる。ただし、すべての攻撃は、選択された敵ユニットが対象でなければならない。\n• そのフェイズ中、このユニットが装備している**プライヴェーティア重火器**は**近接射撃**を得る。",
+   "timing": "各ターンにつき1回（アーミー）、任意の突撃フェイズ"
+  },
+  "Auto-Endrin|Expendable Munitions": {
+   "timing": "パッシブ",
+   "effect": "このユニットに下記が適用される。\n• このユニットは最大「-」の確保スコアを持つ。\n• このユニットが全滅するとき、あるいは戦場から取り除かれるとき、他のルール上、このユニットは全滅したとカウントされない（戦術目標の達成など）。\n• アビリティに**オートエンドリン**が指定されていない限り、このユニットは他の味方ユニットが使用する**『コア』**アビリティ以外の対象として選択されたりすることも、そのアビリティの効果を受けたりすることもできない。\n• 味方や敵の戦術目標において、このユニットを無視する。"
+  },
+  "Auto-Endrin|Grudgeblast Auto-Endrin": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "各敵ユニットに対して、それぞれD3を1個ロールする。ロール結果が2+であれば、ロール対象の敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。その後、このユニットは戦場から取り除かれる。",
+   "declare": "このユニットが**グラッジブラスト・オートエンドリン**であり、かつ近接戦闘中である場合、このユニットと近接戦闘中である各敵ユニットを選択する。"
+  },
+  "Auto-Endrin|Nullifier Auto-Endrin": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "各顕現に対して、それぞれ3D6の**追放ロール**をする。追放ロールの結果が、その**顕現**のウォースクロールに記載されている**【追放値】**以上であれば、そのロール対象の顕現は追放され、ゲームから取り除かれる。その後、このユニットは戦場から取り除かれる。",
+   "declare": "このユニットが**ナルファイアー・オートエンドリン**であり、かつ1個以上の敵**顕現**と近接戦闘中である場合、このユニットと近接戦闘中である各敵**顕現**を選択する。"
+  },
+  "Auto-Endrin|Stuncloud Auto-Endrin": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "各敵ユニットに対して、それぞれダイスを1個ロールする。ロール結果がその敵ユニットの【体力】以下である場合、そのターン中、ロール対象の確保スコアは-10の修正を受ける。その後、このユニットは戦場から取り除かれる。",
+   "declare": "このユニットが**スタンクラウド・オートエンドリン**であり、かつ近接戦闘中である場合、このユニットと近接戦闘中である各敵ユニットを選択する。"
+  },
+  "Copper Fingers": {
+   "timing": "バトル中1回限り、リアクション：自軍がゾンターリ・エンドリン船渠の『エンドリン前哨部隊』アビリティを宣言",
+   "effect": "このユニットがその**ゾンターリ・エンドリン船渠**の9mv以内に全体が入っている場合、『エンドリン前哨部隊』アビリティの効果を解決する代わりに、その**ゾンターリ・エンドリン船渠**から6mv以内に全体が入るように、かつあらゆる敵ユニットから3mvより遠く離れた戦場の位置に、代替の**オートエンドリン**を1個配置する。"
+  },
+  "Endrinmaster with Endrinharness|'Aye Aye, Captain!'": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "このユニットの近接範囲内に一部でも入っている味方**飛行艦**を1個選択する。",
+   "effect": "そのターン中、\n• 選択された味方飛行艦は『**退却**』または『**全力移動**』アビリティを使用していたとしても、そのターン中に『**遠隔攻撃**』アビリティを使用できる。\n• 選択された味方飛行艦は『**退却**』アビリティによる致命的ダメージを受けない。"
+  },
+  "Endrinmaster with Endrinharness|Mobile Repairs": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの近接範囲内に一部でも入っている味方**飛行艦**または**ゾンターリ・エンドリン船渠**を1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が2+であれば、選択された飛行艦あるいは船渠を**回復（3）**する。"
+  },
+  "Endrinriggers|Emergency Field Repairs": {
+   "timing": "任意のターン終了時",
+   "declare": "このユニットの近接範囲内に一部でも入っている味方**飛行艦**または**ゾンターリ・エンドリン船渠**を1個選択する。",
+   "effect": "このユニット内にいる兵ごとに、それぞれD6の修理ロールを1個する。ロール結果で4-5が出るたびに、選択された味方飛行艦あるいは船渠を**回復（1）**する。ロール結果で6が出るたびに、選択された味方飛行艦あるいは船渠を**回復（2）**する。"
+  },
+  "Grundstok Gunhauler|Aethershot Overwatch": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中であり、かつこのターン中に突撃を実行している敵ユニットを1個選択する。",
+   "effect": "D3を1個ロールする。ロール結果が2+であれば、選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。"
+  },
+  "Grundstok Gunhauler|Light Bomb Racks": {
+   "timing": "自軍側移動フェイズ",
+   "declare": "このフェイズ中、このユニットが通り抜けた**飛行**を持っていない敵ユニットを1個選択する。",
+   "effect": "ダイスを4個ロールする。ロール結果で4+が出るたびに、選択された敵ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Grundstok Gunhauler|Long-line Slings": {
+   "timing": "パッシブ",
+   "effect": "このユニットが『空挺戦士の輸送』アビリティを使用するとき、近接戦闘中である味方ユニットを選択できる。"
+  },
+  "Grundstok Gunhauler|Transport Capacity": {
+   "timing": "パッシブ",
+   "effect": "このユニットは最大1個までの味方**カラドロン・オーヴァーロード・歩兵**・ユニット、兵5体（戦闘特性参照）までの輸送枠を持つ。"
+  },
+  "Grundstok Thunderers|Specialist Grundstok Ammunition": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ、リアクション：このユニットが『遠隔攻撃』アビリティを宣言",
+   "declare": "**シールドブレイカー**弾もしくは**サンダードラック**弾を選択する。",
+   "effect": "その**『遠隔攻撃』**アビリティによるすべての攻撃が同一の敵ユニットを対象にしている場合、その**『遠隔攻撃』**アビリティが解決された直後に、ダイスを1個ロールする。ロールにその**『遠隔攻撃』**アビリティによって敵ユニットが受けたダメージの数を加算する。ロール結果がその敵ユニットの【確保力】を上回る場合、選んだ弾薬タイプに応じて、次の効果を敵ユニットに適用する。\n**シールドブレイカー**：次の自軍側ターン開始時まで、その敵ユニットは加護ロールを実行できない。\n**サンダードラック**：次の自軍側ターン開始時まで、その敵ユニットの最大確保スコアは1である。"
+  },
+  "Hostile Takeover": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "declare": "自軍がこのターン中にまだいかなる**『掟』**アビリティも使用しておらず、かつこのターン中に敵**英雄**が味方**開拓兵**・ユニットのレンジアタックによって全滅していた場合に限り、このアビリティを使用できる。",
+   "effect": "以降バトル終了時まで、味方**開拓兵**・ユニットと味方陣営地形を対象とするレンジアタックは、ヒットロールに-1の修正を受ける。",
+   "keywords": "掟"
+  },
+  "Initial Investment": {
+   "timing": "各ターンにつき1回（アーミー）、任意のヒーローフェイズ",
+   "effect": "各味方**オートエンドリン**は2D6mv移動できるが、近接戦闘に突入するように移動を完了することはできない。"
+  },
+  "Market Dominance": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "declare": "自軍がこのターン中にまだいかなる**『掟』**アビリティも使用しておらず、かつ敵軍側陣地内に全体が入っていない作戦目標を自軍がすべて確保している場合、このアビリティを使用できる。",
+   "effect": "以降バトル終了時まで、自軍が**ゾンターリ・エンドリン船渠**の『エンドリン前哨部隊』アビリティを使用する際、自軍は製造ロールにおいてロール結果4+ではなく3+で、代替の**オートエンドリン**を1個配置できる。",
+   "keywords": "掟"
+  },
+  "Rockbuster Charges": {
+   "timing": "自軍側移動フェイズ",
+   "declare": "このユニットがこのターン中に通り抜けた特殊地形を1個選択する。その特殊地形の1mv以内に一部でも入っている各敵ユニットを選択して、このアビリティを使用する。",
+   "effect": "選択された各敵ユニットは、それぞれD3ポイントの致命的ダメージを受ける。"
+  },
+  "Scourge of Aqshy: Endrinriggers|We're Working Here!": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "effect": "このユニットがこのターン中に突撃していない場合、次の自軍側ターン開始時まで、自軍側の**憤激レベル**に応じて、以下の効果を適用する。これらの効果は累積して適用される。\n1+ **苛立ち：**このユニットの**エーテル駆動式チェーンソー**は、**クリティカル（自動ウーンズ）**を得る。\n4+ **怒り心頭**このユニットは**加護（5+）**を持つ。\n7 **怒髪衝天：**このユニットが装備している近接武器の【ダメージ値】は+1の修正を受ける。"
+  },
+  "Scourge of Ghyran Grundstok Gunhauler|Attack Squadron": {
+   "timing": "パッシブ",
+   "effect": "このユニットが自身以外の味方**グランドストック・ガンハウラー**の12mv以内に全体が入っている間、このユニットはそのターン中に『全力移動』アビリティを使用していたとしても『**遠隔攻撃**』アビリティを使用できる。"
+  },
+  "Scourge of Ghyran Grundstok Gunhauler|Fighter Vessel": {
+   "timing": "任意の遠隔フェイズ",
+   "effect": "このフェイズ中、このユニットが『**遠隔攻撃**』アビリティを使用していた場合、このユニットはD6mv移動してもよい。その移動は、近接戦闘に突入するように完了することはできない。"
+  },
+  "Scourge of Ghyran Grundstok Gunhauler|Transport Capacity": {
+   "timing": "パッシブ",
+   "effect": "このユニットはいかなる味方ユニットも輸送できない。"
+  },
+  "Secure Investments": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "declare": "自軍がこのターン中にまだいかなる**『掟』**アビリティも使用しておらず、かつこのターン中に味方**ゾンターリ・エンドリン船渠**の3mv以内に一部でも入っていた敵ユニットが、このターン中に1個でも全滅している場合に限り、このアビリティを使用できる。",
+   "effect": "以降バトル終了時まで、歩兵ではない味方**開拓兵**・ユニットと陣営地形を対象とするメレーアタックの【貫通値】を無視する。",
+   "keywords": "掟"
+  },
+  "Settling Accounts": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "declare": "自軍がこのターン中にまだいかなる**『掟』**アビリティも使用しておらず、かつこのターン中に敵ユニットによって味方**オートエンドリン**が1個全滅している場合に限り、このアビリティを使用できる。",
+   "effect": "以降バトル終了時まで、味方**オートエンドリン**が1個戦場から取り除かれるたび、取り除かれる直前に、その**オートエンドリン**の3mv以内に一部でも入っている各敵ユニットに対して、それぞれD3ポイントの致命的ダメージを与える。",
+   "keywords": "掟"
+  },
+  "Skywardens|Timed Charges": {
+   "declare": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "D3を1個ロールする。ロール結果が2+であれば、\n• ロール対象の敵ユニットは、ロール結果に等しい数の致命的ダメージを受ける。\n• あたかも自軍側移動フェイズ中であるかのように、このユニットは致命的ダメージを受けることなく、ただちに『退却』アビリティを使用できる。",
+   "timing": "各ターンにつき1回限り（アーミー）、任意のターン終了時"
+  },
+  "Territorial Trailblazer": {
+   "timing": "パッシブ",
+   "effect": "このユニットと近接戦闘中である敵ユニットの確保スコアは-3の修正を受ける。"
+  },
+  "Thorgsson's Universal Automaton Actuator": {
+   "timing": "パッシブ",
+   "effect": "味方**オートエンドリン**がこのユニットの6mv以内に全体が入っている間、そのオートエンドリンの【移動力】は+6mvの修正を受ける。"
+  },
+  "Thundrik's Profiteers|Aethermatic Anatomiser": {
+   "timing": "自軍側遠隔フェイズ",
+   "declare": "このユニットの**ビョルゲン・サンドリック**が戦場に配置されている場合、このユニットの12mv以内に一部でも入っている作戦目標を1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば：\n• その作戦目標がいずれかのプレイヤーによって確保されていれば、そのプレイヤーはその作戦目標の確保を失う。\n• 次の自軍側ターン開始時まで、その作戦目標は争奪できなくなる。"
+  },
+  "Vongrim Harpoon Crew|Light Endrinpacks": {
+   "effect": "このユニットが近接戦闘中である場合、このユニットは2D6mvの移動を1回実行できる。その際、近接戦闘に突入するように移動を完了しなければならない。",
+   "timing": "各ターンにつき1回限り（アーミー）、任意の近接フェイズ"
+  },
+  "Vongrim Salvagers|Spotter's Flaregun": {
+   "declare": "このユニットの9mv以内に一部でも入っている作戦目標を1個選択する。",
+   "timing": "各ターンにつき1回限り（アーミー）、任意の近接フェイズ",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、以下の効果が適用される：\n• 選択された作戦目標を争奪中であるユニットを対象にした味方**飛行船員**・ユニットのメレーアタックは、ヒットロールに+1の修正を受ける。\n• 味方**ヴォングリム・サルヴェイジャー**および**ヴォングリムの銛打ち衆**・ユニットは、選択された作戦目標を争奪中のユニットを対象として攻撃する際、近接武器の【貫通値】に+1の修正を受ける。"
+  },
+  "Zontari Endrin Dock|Endrinworks Outpost": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリンを1個選択する。",
+   "effect": "D6の製造ロールを1個する。味方エンドリンマスター（可導気球スーツ装備）またはエンドリン・マスター（エンドリンハーネス装備）がこの特殊地形の3mv以内に一部でも入っている場合、その製造ロールは+1の修正を受ける。ロール結果が4+であれば、この特殊地形の6mv以内に全体が入るように、かつあらゆる敵ユニットから3mvより遠く離れた戦場の位置に、代替のオートエンドリンを1個配置する。"
+  },
+  "Zontari Endrin Dock|Release The Auto-Endrins": {
+   "timing": "初期配置フェイズ",
+   "effect": "味方**ナルファイアー・オートエンドリン**1個、**スタンクラウド・オートエンドリン**1個、**グラッジブラスト・オートエンドリン**1個（オートエンドリンのウォースクロール参照）を自軍側陣地内に一部でも入るように、かつこの特殊地形の6mv以内に全体が入るように、なおかつあらゆる敵ユニットから9mvより遠く離れている戦場の位置に配置する。"
+  },
+  "Zontari Endrin Dock|Repair Routines": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この特殊地形の3mv以内に一部でも入っている味方**飛行艦**を1個選択する。",
+   "effect": "D6の修理ロールを1個する。味方**エンドリンマスター（可導気球スーツ装備）**または**エンドリン・マスター（エンドリンハーネス装備）**がこの特殊地形の3mv以内に一部でも入っている場合、その修理ロールは+1の修正を受ける。ロール結果が4+であれば、選択された味方飛行艦を**回復（3）**する。"
+  }
+ },
+ "group_names": {
+  "Pioneer Outpost Artefacts of Power": "神器",
+  "Pioneer Outpost Battle Traits": "戦闘特性",
+  "Pioneer Outpost Heroic Traits": "英雄特性"
+ },
+ "group_texts": {
+  "Pioneer Outpost Artefacts of Power": "（**英雄**のみ）",
+  "Pioneer Outpost Heroic Traits": "（**英雄**のみ）"
+ },
+ "wargear_option_texts": {
+  "Arkanaut Company": "• このユニット内の各兵は、プライヴェーティア・ピストルとアルカノートの携帯武器を装備している。\n• 2/10の兵は、装備しているプライヴェーティア・ピストルをプライヴェーティア重火器（エーテル駆動式ヴォレイガンまたはライト・スカイフック）に交換できる。\n• 1/10の兵は、装備している両方の武器をスカイパイクに交換できる。\n• 豪傑は装備している武器を交換できない。",
+  "Auto-Endrin": "このユニットは、以下のいずれかで構成される：ナルファイアー・オートエンドリン、スタンクラウド・オートエンドリン、グラッジブラスト・オートエンドリン。",
+  "Endrinriggers": "• このユニット内の各兵は、ラピッドファイア・リベットガンとエーテル駆動式の鋸を装備している。\n• 1/3の兵は、装備している武器をエーテル駆動式ヴォレイガンと銃床に交換できる。\n• 1/3の兵は、装備している武器をスカイリガーの重火器（グラップネルランチャー、スカイフック、ドリルランチャー）と銃床に交換できる。\n• 豪傑は装備している武器を交換できない。",
+  "Grundstok Thunderers": "• このユニットの各兵は、エーテルショット・ライフルと大型銃床を装備している。\n• 2/5の兵は、エーテルショット・ライフルをエーテリック・フュミゲイターもしくはデッキスイーパーに交換できる。\n• 2/5の兵は、エーテルショット・ライフルをグランドストック迫撃砲もしくはエーテルキャノンに交換できる。\n• 豪傑は装備しているエーテルショット・ライフルを交換できない。",
+  "Scourge of Aqshy: Endrinriggers": "このユニット内の各兵は、ラピッドファイア・リベットガンとエーテル駆動式の鋸を装備している。\n• 1/3の兵は、装備している武器をエーテル駆動式ヴォレイガンと銃床に交換できる。\n• 1/3の兵は、装備している武器をスカイリガーの重火器（グラップネルランチャー、スカイフック、ドリルランチャー）と銃床に交換できる。\n• 豪傑は装備している武器を交換できない。",
+  "Skywardens": "• このユニットの各兵は、ヴァルカナイザー・ピストルとスカイウォーデン・スカイパイクを装備している。\n• 1/3の兵は、装備している武器をエーテル駆動式ヴォレイガンと銃床に交換できる。\n• 1/3の兵は、装備している武器をスカイリガーの重火器（グラップネルランチャー、スカイフック、ドリルランチャー）と銃床に交換できる。\n• 豪傑は装備している武器を交換できない。",
+  "Thundrik's Profiteers": "このユニット内の兵は以下の通り：\n• ビョルゲン・サンドリック（エーテルマティック・アナトマイザー、アルカノート・カッターを装備している）\n• カズガン・ドレイクスキュワー（エーテルマティック・ファイアアーム、スカイパイクを装備している）\n• デッドアイ・ルンド（エーテルマティック・ファイアアーム、アルカノート・カッターを装備している）\n• エンリク・アイアンヘイル（エーテルマティック・ファイアアーム、アルカノート・カッターを装備している）\n• ガロッド・アレンセン（エーテルマティック・ファイアアーム、アルカノート・カッターを装備している）"
+ },
+ "faction_name": "開拓前哨地駐屯部隊"
+}

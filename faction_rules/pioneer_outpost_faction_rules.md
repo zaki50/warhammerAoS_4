@@ -1,4 +1,4 @@
-# Pioneer Outpost ファクションルール
+# 開拓前哨地駐屯部隊(Pioneer Outpost) ファクションルール
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
@@ -6,47 +6,47 @@
 ## 戦闘特性
 
 
-### Pioneer Outpost Battle Traits（出典: Army of Renown: Pioneer Outpost）
+### 戦闘特性(Pioneer Outpost Battle Traits)（出典: Army of Renown: Pioneer Outpost）
 
-- **Initial Investment**（Once Per Turn (Army), Any Hero Phase）
-  - 効果: Each friendly **AUTO-ENDRIN** can move 2D6" but cannot finish that move in combat.
-- **Settling Accounts**（Once Per Turn (Army), End of Any Turn）
-  - 宣言: You can only use this ability if you have not used any **CODE** abilities this turn and if a friendly **AUTO-ENDRIN** was destroyed this turn by an enemy unit.
-  - 効果: For the rest of the battle, each time a friendly **AUTO-ENDRIN** is removed from the battlefield, before removing it, inflict D3 mortal damage on each enemy unit within 3" of that **AUTO-ENDRIN**.
-- **Aggressive Acquisitions**（Once Per Turn (Army), End of Any Turn）
-  - 宣言: You can only use this ability if you have not used any **CODE** abilities this turn and if there is a friendly **PIONEER** unit in each large quarter of the battlefield. Each of those units must be more than 6" from all other large quarters of the battlefield and not in combat.
-  - 効果: For the rest of the battle, enemy units cannot be set up within your territory or within 9" of an objective that you control.
-- **Secure Investments**（Once Per Turn (Army), End of Any Turn）
-  - 宣言: You can only use this ability if you have not used any **CODE** abilities this turn and if any enemy units that were within 3" of your **Zontari Endrin Dock** this turn were destroyed this turn.
-  - 効果: For the rest of the battle, ignore the Rend characteristic of combat attacks that target friendly non-**INFANTRY PIONEER** units or friendly faction terrain features.
-- **Hostile Takeover**（Once Per Turn (Army), End of Any Turn）
-  - 宣言: You can only use this ability if you have not used any **CODE** abilities this turn and if an enemy **HERO** was destroyed by shooting attacks made by a friendly **PIONEER** unit this turn.
-  - 効果: For the rest of the battle, subtract 1 from hit rolls for shooting attacks that target friendly **PIONEER** units or friendly faction terrain features.
-- **Market Dominance**（Once Per Turn (Army), End of Any Turn）
-  - 宣言: You can only use this ability if you have not used any **CODE** abilities this turn and if you control every objective that is not wholly within enemy territory.
-  - 効果: For the rest of the battle, each time you use your **Zontari Endrin Dock**’s ‘Endrinworks Outpost’ ability, you can set up a replacement **AUTO-ENDRIN** on a manufacturing roll of 3+ instead of 4+.
+- **初期投資(Initial Investment)**（各ターンにつき1回（アーミー）、任意のヒーローフェイズ）
+  - 効果: 各味方**オートエンドリン**は2D6mv移動できるが、近接戦闘に突入するように移動を完了することはできない。
+- **債務履行(Settling Accounts)**（各ターンにつき1回（アーミー）、任意のターン終了時）
+  - 宣言: 自軍がこのターン中にまだいかなる**『掟』**アビリティも使用しておらず、かつこのターン中に敵ユニットによって味方**オートエンドリン**が1個全滅している場合に限り、このアビリティを使用できる。
+  - 効果: 以降バトル終了時まで、味方**オートエンドリン**が1個戦場から取り除かれるたび、取り除かれる直前に、その**オートエンドリン**の3mv以内に一部でも入っている各敵ユニットに対して、それぞれD3ポイントの致命的ダメージを与える。
+- **積極的接収(Aggressive Acquisitions)**（各ターンにつき1回（アーミー）、任意のターン終了時）
+  - 宣言: 自軍がこのターン中にまだいかなる**『掟』**アビリティも使用しておらず、かつ味方**開拓兵**・ユニットが戦場の各大区画に配置されている場合に限り、このアビリティを使用できる。この条件における「各大区画に配置されているユニット」は、他の大区画から6mvより遠く離れており、かつ近接戦闘中ではないものでなければならない。
+  - 効果: 以降バトル終了時まで、自軍側陣地内や自軍が確保している作戦目標の9mv以内に一部でも入るように、対戦相手はその敵ユニットを配置することはできない。
+- **投資回収(Secure Investments)**（各ターンにつき1回（アーミー）、任意のターン終了時）
+  - 宣言: 自軍がこのターン中にまだいかなる**『掟』**アビリティも使用しておらず、かつこのターン中に味方**ゾンターリ・エンドリン船渠**の3mv以内に一部でも入っていた敵ユニットが、このターン中に1個でも全滅している場合に限り、このアビリティを使用できる。
+  - 効果: 以降バトル終了時まで、歩兵ではない味方**開拓兵**・ユニットと陣営地形を対象とするメレーアタックの【貫通値】を無視する。
+- **敵対的買収(Hostile Takeover)**（各ターンにつき1回（アーミー）、任意のターン終了時）
+  - 宣言: 自軍がこのターン中にまだいかなる**『掟』**アビリティも使用しておらず、かつこのターン中に敵**英雄**が味方**開拓兵**・ユニットのレンジアタックによって全滅していた場合に限り、このアビリティを使用できる。
+  - 効果: 以降バトル終了時まで、味方**開拓兵**・ユニットと味方陣営地形を対象とするレンジアタックは、ヒットロールに-1の修正を受ける。
+- **市場独占(Market Dominance)**（各ターンにつき1回（アーミー）、任意のターン終了時）
+  - 宣言: 自軍がこのターン中にまだいかなる**『掟』**アビリティも使用しておらず、かつ敵軍側陣地内に全体が入っていない作戦目標を自軍がすべて確保している場合、このアビリティを使用できる。
+  - 効果: 以降バトル終了時まで、自軍が**ゾンターリ・エンドリン船渠**の『エンドリン前哨部隊』アビリティを使用する際、自軍は製造ロールにおいてロール結果4+ではなく3+で、代替の**オートエンドリン**を1個配置できる。
 
 ## 英雄特性
 
 
-### Pioneer Outpost Heroic Traits（出典: Army of Renown: Pioneer Outpost）
+### 英雄特性(Pioneer Outpost Heroic Traits)（出典: Army of Renown: Pioneer Outpost）
 
-**HERO** only
+（**英雄**のみ）
 
-- **Copper Fingers**（Once Per Battle, Reaction: You declared the ‘Endrinworks Outpost’ ability for a Zontari Endrin Dock）
-  - 効果: If this unit is wholly within 9" of that **Zontari Endrin Dock**, instead of resolving the effect of the ‘Endrinworks Outpost’ ability, set up a replacement **AUTO-ENDRIN** on the battlefield, wholly within 6" of that **Zontari Endrin Dock** and more than 3" from all enemy units.
-- **Territorial Trailblazer**（Passive）
-  - 効果: Subtract 3 from the control scores of enemy units while they are in combat with this unit.
+- **銅の指(Copper Fingers)**（バトル中1回限り、リアクション：自軍がゾンターリ・エンドリン船渠の『エンドリン前哨部隊』アビリティを宣言）
+  - 効果: このユニットがその**ゾンターリ・エンドリン船渠**の9mv以内に全体が入っている場合、『エンドリン前哨部隊』アビリティの効果を解決する代わりに、その**ゾンターリ・エンドリン船渠**から6mv以内に全体が入るように、かつあらゆる敵ユニットから3mvより遠く離れた戦場の位置に、代替の**オートエンドリン**を1個配置する。
+- **縄張りを守る開拓者(Territorial Trailblazer)**（パッシブ）
+  - 効果: このユニットと近接戦闘中である敵ユニットの確保スコアは-3の修正を受ける。
 
 ## 神器
 
 
-### Pioneer Outpost Artefacts of Power（出典: Army of Renown: Pioneer Outpost）
+### 神器(Pioneer Outpost Artefacts of Power)（出典: Army of Renown: Pioneer Outpost）
 
-**HERO** only
+（**英雄**のみ）
 
-- **Rockbuster Charges**（Your Movement Phase）
-  - 宣言: Pick a terrain feature that this unit passed across this turn. Each enemy unit within 1" of that terrain feature is a target.
-  - 効果: Inflict D3 mortal damage on each target.
-- **Thorgsson's Universal Automaton Actuator**（PAssive）
-  - 効果: Add 6" to the Move characteristic of friendly **AUTO-ENDRINS** while they are wholly within 6" of this unit.
+- **ロックバスター爆弾(Rockbuster Charges)**（自軍側移動フェイズ）
+  - 宣言: このユニットがこのターン中に通り抜けた特殊地形を1個選択する。その特殊地形の1mv以内に一部でも入っている各敵ユニットを選択して、このアビリティを使用する。
+  - 効果: 選択された各敵ユニットは、それぞれD3ポイントの致命的ダメージを受ける。
+- **ソーグソン式汎用オートマトン駆動装置(Thorgsson's Universal Automaton Actuator)**（パッシブ）
+  - 効果: 味方**オートエンドリン**がこのユニットの6mv以内に全体が入っている間、そのオートエンドリンの【移動力】は+6mvの修正を受ける。
