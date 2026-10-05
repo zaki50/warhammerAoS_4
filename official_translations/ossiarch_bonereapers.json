@@ -1,0 +1,1072 @@
+{
+ "_faction": "オシアーク・ボーンリーパー (Ossiarch Bonereapers)",
+ "_source": [
+  "バトルトーム：オシアーク・ボーンリーパー 日本語版（スキャン）pp.48-55（ルール・陣営ルール）、p.98（ルール・リファレンス。照合と『不死の精鋭』の採用元）。エラッタ: ルール・アップデート 2026年9月（日本語版）p.63",
+  "バトルトーム：オシアーク・ボーンリーパー 日本語版 pp.56–65（ウォースクロール前半。Dropbox: BattleTombPages/OssiarchBonereapers/OssiarchBonereapers_056〜065_Warscrolls.png のスキャン）。p.56 ナガッシュ、p.57 カタクロス、p.58 黒のアーカン、p.59 アーク＝カヴァロス・ザンドトス／ヴォクモーティアン、p.60 リージュ＝カヴァロス／リージュ＝カヴァロス（ウォーチャリオット搭乗）、p.61 リージュ＝モーテク（右半分は設定文）、p.62 モーティザン・ボーンシェイパー／ソウルリーパー、p.63 ソウルメイソン／オシフェクター、p.64 カヴァロス・ウォーチャリオット／カヴァロス・デスライダー、p.65 モーテク・ガード（右半分は設定文）",
+  "バトルトーム：オシアーク・ボーンリーパー 日本語版 pp.66–75（ウォースクロール後半。Dropbox: BattleTombPages/OssiarchBonereapers/OssiarchBonereapers_066〜075_Warscrolls.png のスキャン）。p.66 テラティック・コホート／モーテク・トライアクス、p.67 モーティス・リーパー（右半分は設定文）、p.68 イモーティス・ガード／ネクロポリス・ストーカー、p.69 モルガスト・アルカイ／モルガスト・ハービンジャー、p.70 ゴシザール・ハーヴェスター、p.71 モーテク・クロウラー、p.72 骨税の金切り魔／魂泥棒の猛禽、p.73 悪夢の捕食者、p.74 骨税献納所、p.75 は写真のみで訳の対象なし",
+  "グューランの禍事 オシアーク・ボーンリーパー 2026年4月（PDF 2頁。p.2 ウォースクロール 2件：モーティザン・ボーンシェイパー／モーテク・ガード）＋同英語版。2025年5月版（＋英語版）は照合のみ",
+  "アキュシーの禍事 オシアーク・ボーンリーパー 2026年7月（PDF 2頁。p.1 大いなる神器「帝国の至宝」・モーティザン改良術、p.2 ウォースクロール 2件：ヴォクモーティアン／モーティス・リーパー）＋同英語版",
+  "レジェンド・ウォースクロール 2026年7月 p.38（カイナンの収穫隊）＋同英語版 p.37。同 p.51（Thanatek's Tithe）は日本語版 PDF でも英語のまま",
+  "レジェンドのコンペンディウム 2024年11月・2025年4月・2025年4月末（old/。カイナンの収穫隊の旧版の確認のみ。Thanatek's Tithe はどれにも無い）",
+  "名高き連隊 オシアークボーンリーパー 2026年2月（骨税の先触れ。対象外）",
+  "名前の照合用にバトルトーム目次 p.2（BattleTombPages/OssiarchBonereapers/text）と p.53・p.59 のスキャン",
+  {
+   "Kavalos Vanguard": "バトルトーム：オシアーク・ボーンリーパー（日本語版）pp.80-83（書き起こし text/OssiarchBonereapers_080〜083_Spearhead.md と画像）、スピアヘッド/オシアーク・ボーンリーパー カヴァロスヴァンガード 202602.pdf（pp.2-4）と(英語)版",
+   "Tithe-reaper Echelon": "スピアヘッド/オシアーク・ボーンリーパー 骨税狩りの梯団(タイスリーパー・エシュロン) 202602.pdf（pp.2-4）と(英語)版",
+   "Mortisan Elite": "スピアヘッド/オシアーク・ボーンリーパー モーティザン精鋭部隊 202506.pdf（pp.2-4）と(英語)版",
+   "errata": "バトルプロフィール＆ルールアップデート/ルール・アップデート 202506〜202609（日英）、ルール・アップデート・エラッタ 202606（スピアヘッドの改訂なし）"
+  },
+  "ルール・アップデート 2026年9月（エラッタ。日本語版 pp.63ほか、日本語版のみの訂正 p.88）。書籍より新しいので本文に適用",
+  "バトルプロフィール オシアーク・ボーンリーパー 2026年3月（名前の照合）",
+  "グューランの禍事 オシアーク・ボーンリーパー 2026年4月（戦闘陣形 2 つ・死霊神秘術の伝承）"
+ ],
+ "_notes": [
+  "ルール・アップデート 2026年9月（新規。日本語版 p.63『以下のアビリティにおいて、その効果の第二文を削除する』）を適用し、悔悟なき行進/感情なき退却/苛烈なる殲滅/無情なる強襲/けがれなき兵団の効果から第二文「選択された味方ユニットが増強ユニットかつ初期兵数の半分より多い状態ならば、代わりに2無慈悲なる規律ポイントを消費する。」を削除した（現行英語 md と一致）。書籍の元の文は _outdated_texts に残した。",
+  "Imperious Will（傲岸なる意志）: 最終文をルール・アップデート（日本語版 2026年9月 p.63）の訳「このユニットは、各フェイズ中にこのアビリティを2回以上使用できる。ただし、『近接攻撃』アビリティごとに1回だけである。」に差し替えた（英語 2026年4月から同じエラッタ。PDF の字間の空白は詰めた。エラッタ文は太字情報なし）。書籍の元の文は _outdated_texts。",
+  "Immortal Elite（不死の精鋭）: p.50 は宣言が「味方オシアーク・ボーンリーパー・英雄が戦場に配置されていない場合、自軍はこのアビリティを使用しなければならない」と英語（if there are any … on the battlefield）と逆の誤訳。同じ書籍の p.98（ルール・リファレンス）が「戦場に1個以上配置されている場合」と正しいので、宣言・効果とも p.98 の文を採った（p.50 の効果は「…ポイントを自軍は獲得する。バトルラウンド終了時、…」と言い回しが少し違う）。",
+  "他の戦闘特性は p.50 の文を採った。p.98 は「このフェイズ中に、」「その『アタック』アビリティの攻撃によって」「加護（5+）を持つ」「使用者: その『近接攻撃』アビリティを使用しているユニット1個」など言い回しが少し違うだけでルールは同じ。p.98 の無情なる強襲のタイミング欄は『』なしの「無慈悲なる規律アビリティ」。",
+  "呪文・顕現の名前は p.54-55 の見出しを採った。p.98 の表では「ナディライト武器強化」「葬送の炎」「悪夢の捕食者を召喚」「魂泥棒の猛禽の召喚」と表記が揺れる。p.55 の見出しも「悪夢の捕食者の召喚」と「骨税の金切り魔を召喚」「魂泥棒の猛禽を召喚」で不統一（書籍どおり）。",
+  "背景文（イタリック相当の太字の短文）は載せていない。半角数字・記号と全角文字の間の組版上の隙間は詰めた。timing は装飾（太字）なしで書いた。",
+  "Empower Nadirite Weapons の効果は書籍で段落が分かれている（最終文「味方オシアーク・ボーンリーパー・ユニットは、…複数回受けることができる。」）ので \\n で区切った。",
+  "group_names: 戦闘陣形の見出しは書籍 p.51、英雄特性表「骨税徴収吏の吹き込み（英雄のみ）」p.52、神器表「帝国の至宝（英雄のみ）」p.53、伝承「オッシア魔術の呪文伝承」p.54、「死都の恐怖」p.55。Battle Traits のグループ名は DoK/HoH にならい「戦闘特性」。Relics of the Empire は書籍とアキュシーの禍事版で同じキーなので、禍事側の訳と食い違えば親で判断が必要。",
+  "書籍に無いもの: 戦闘陣形 Hekatos Drillmasters（Disciplined Hekatoi）と Tithe Guards（Plentiful Bone）、呪文伝承 Lore of Necrotheurgy（Bolster Creation / Invigorate the Ranks / Soul-Claim）。書籍 p.48 は「4つの戦闘陣形」と書いており、書籍刊行後に追加されたもの。_unread に挙げた。",
+  "ページ上部の黄色い付箋（p.54-55 の「0」）はユーザーの書き込みなので無視した。",
+  "Nadirite Wedge の宣言は「オシアーク・ボーンリーパー・」の中黒まで太字（書籍どおり **オシアーク・ボーンリーパー・**ユニット）。Imperious Will の効果中、2つ目の「英雄でないユニット」の英雄は太字でない（書籍どおり）。",
+  "keyword_names は本文の太字から（英雄・歩兵・オシアーク・ボーンリーパー）。本文の「魔術師」「無慈悲なる規律」は数値付きキーワード（Wizard (1) / Relentless Discipline (N)）の対応をウォースクロール側で確認すること（「無慈悲なる規律（N）」になるはず）。",
+  "対象: pp.56–65 のウォースクロール 15 件（Nagash / Katakros / Arkhan / Arch-Kavalos Zandtos / Vokmortian / Liege-Kavalos / Liege-Kavalos on War Chariot / Liege-Mortek / Mortisan Boneshaper / Soulreaper / Soulmason / Ossifector / Kavalos War Chariot / Kavalos Deathriders / Mortek Guard）。p.61 右・p.65 右は設定文（訳の対象外）。黒塗りはこの範囲に無い。ページ上部の黄色い付箋（ポイント）はユーザーのメモで無視した。",
+  "サブネーム付きのユニット名は先例（老婆の預言者クレトゥサ、筆頭魔瘴鍛治師ウラク・タール）にならい、書籍の小見出しを前に付けた: Nagash → 「不死者の至高なる主ナガッシュ」（表題「ナガッシュ」、小見出し「不死者の至高なる主」）、Katakros → 「死都の御使カタクロス」（小見出しは“死都の御使”と引用符付き。引用符は外した）、Vokmortian → 「骨税長官ヴォクモーティアン」（小見出し“骨税長官”）、Arkhan the Black → 「聖晩餐の御使、黒のアーカン」（表題「黒のアーカン」に小見出し“聖晩餐の御使”。表題自体が「黒の」を含むので読点で区切った。親の判断で「黒のアーカン」だけ、または区切り無しにしてもよい）。",
+  "Liege-Kavalos on War Chariot は表題「リージュ＝カヴァロス」の下に「（ウォーチャリオット搭乗）」とあるので、DoK の「ハグクィーン（コルドロン・オヴ・ブラッド搭乗）」と同じ形でつないだ。Kavalos War Chariot の表題は「カヴァロス／ウォーチャリオット」の 2 行組みで、設定文の表記「カヴァロス・ウォーチャリオット」に合わせて・でつないだ。",
+  "Battle Damaged は Nagash と Arkhan が「バトルダメージ」、Katakros は「割れゆく指令」と訳が違うので、ability_names も 3 件ともユニット指定キーにした（名前だけのキーは置いていない。他ページのユニットの Battle Damaged は別担当）。",
+  "Supreme Lord of the Bonereaper Legions（Katakros）と Pinning Attacks（Kavalos War Chariot）は、書籍の効果が現行の英語とルールとして違う旧版。timing と declare だけ ability_texts に入れ、書籍の効果文は _outdated_texts に書籍どおり残した（Supreme Lord の declare には誤植あり、_book_issues 参照）。",
+  "武器名は担当範囲内で同名異訳が無いので名前だけのキーにした。Commander's Blade は dump 上 ' と ’ の 2 表記（Liege-Kavalos は ’、ウォーチャリオット搭乗は '）があるので両方のキーに同じ訳「指揮官の刃」を入れた。Gaze of Death / Staff of Retribution は名前だけのキーなのでアキュシーの禍事版ヴォクモーティアンにも当たる（禍事版のユニット名・アビリティは担当外）。",
+  "Nagash の武器名は書籍どおり引用符付き（“力の杖”アラカナッシュ、“死の刃”ゼフェト＝ネブタール）。＝は全角。",
+  "Arkhan の Battle Damaged は書籍が【回数】（他の箇所は【攻撃回数】）。書籍どおり。",
+  "Still Their Breath! の「突撃（+1ダメージ量）」は書籍で「突撃」だけ太字に見えるので **突撃**（+1ダメージ量）とした。",
+  "Clinical Efficiency の箇条書き 1 行目は書籍で句点なし（「…+1の修正を受ける」）。書籍どおり。書籍の「遠隔武器(あれば)」は半角括弧に見えるが全角（）にした。冒頭の『アタック』は太字に見えないので太字なし。",
+  "Master of Cavalry の効果 1 文目の『近接攻撃』は太字でなく、以降の『近接攻撃』は太字。書籍どおり。",
+  "The Doom of Traitors のデザイナーズノートは効果の後に「デザイナーズノート：…」の行として入れた（魔術師・神官は書籍で太字）。",
+  "Supreme Lord of the Undead の宣言は「**英雄**でも**固有**でもない」（英雄・固有が太字）。",
+  "Curse of Years は書籍の組みどおり、箇条書き 2 項目の後の段落・最後の段落を \\n で区切った。",
+  "書籍の「加護（6 +）」（p.58、p.64 デスライダー）のような字間は詰めた。keyword_names は各ウォースクロール下部のキーワード欄から（Death → 死の大同盟）。",
+  "書籍のルビ（訳には載せていない）: 骨の組立て師（ボーンシェイパー、Boneshaper のフレーバー文中）、戦車輓獣（ばんじゅう、p.60・p.64 の武器名）。",
+  "Mortarch of Sacrament・Shields of the Legion のタイミング欄の『呪文』『アタック』や味方ユニット名は、先例（DoK・ハシュット）にならい timing では太字にしていない。",
+  "担当範囲のウォースクロール 13 件: Teratic Cohort / Mortek Triaxes / Mortis Reapers / Immortis Guard / Necropolis Stalkers / Morghast Archai / Morghast Harbingers / Gothizzar Harvester / Mortek Crawler / 顕現 3 件（Bone-tithe Shrieker / Soulstealer Carrion / Nightmare Predator）/ 陣営地形 Bone-tithe Nexus。いずれも英語 md の同名ウォースクロールと武器・数値・アビリティが一致（ポイントの付箋はユーザーの書き込みで不使用）。",
+  "書籍の文が現行の英語とルールとして違う旧版のものは見つからなかった（_outdated_texts なし）。誤訳と思われるものは ability_texts に書籍どおり載せ、_book_issues に挙げた。",
+  "Mortis Reapers|No Escaping the Tithe: 宣言と効果の「■■地形」の 2 か所が黒く塗りつぶされている（付箋「■部は『特殊』」はユーザーの書き込みで不使用）。改訂の印なので宣言・効果は載せず timing のみ。塗られていない部分: 宣言「このユニットの6mv以内に一部でも入っている敵がいない場合、このユニットの3mv以内に一部でも入っている■■地形を1個選択する。」効果「このユニットを戦場から取り除き、選択された■■地形の3mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に再配置する。」",
+  "Bone-tithe Nexus|Deadly Aura の X の表は書籍では表組み（見出し「バトルラウンド数／X」、値は 9\" 12\" 15\" 18\" 21\"）。英語 md の 1 行表記（Battle Round - X 1 - 9\" …）に合わせ、本文の後に「バトルラウンド数 - X」「1 - 9\"」… を \\n 区切りで並べた。",
+  "Bone-tithe Nexus の wargear_option_texts は表題下の一文「以下の共通特殊地形アビリティが…：遮蔽物、不安定」（ドーター・オヴ・カインの Shrine of Dark Tribute と同じ扱い）。Cover／Unstable の ability_names はこの一文から採った（遮蔽物・不安定）。本文はコアルールで書籍に無いので英語のまま。",
+  "Gothizzar Harvester|Repair Construct の宣言は書籍で「味方」も含めて「**味方オシアーク・ボーンリーパー**」と太字。Mortek Crawler|Deathly Barrage の「**モーテク・クロウラー・ユニット**」も「ユニット」まで太字に見えるので書籍どおりにした。",
+  "Bone Cage の「満載」「空っぽ」は書籍で太字（状態名）。",
+  "keyword_names: 獣兵、豪傑（1/8）、加護（6+）、歩兵、豪傑、飛行、戦闘兵器、顕現、永久呪文、陣営地形、死の大同盟、オシアーク・ボーンリーパーはキーワード欄から。英語 md の Gothizzar Harvester には Monster が無く、書籍も「戦闘兵器、加護（6+）」で一致。",
+  "weapon_ability_names: 対英雄（+1貫通値）（p.67）、対大型獣（+1貫通値）・クリティカル（2ヒット）（p.69, p.71）、近接射撃（p.72）。書籍では「対**英雄**」「対**大型獣**」のキーワード部分が太字だが、ヘルスミスの先例に合わせて太字なしで載せた。",
+  "Spirit Weapons（精霊たちの武器）は Morghast Archai / Morghast Harbingers で同じ訳なので名前だけのキー。Reaper's Blades（刈り取る刃）は名前だけのキーなので Scourge of Aqshy: Mortis Reapers にも当たる（禍事版は担当外で未確認）。",
+  "Mortek Crawler の Cursed Stele は英語 md のタイミングが「Once Per Turn {Army)」と誤植されているが、訳のキーは名前なので影響なし。",
+  "lookups にある Immortis Guard|Soulbound Protectors / Morghast Archai|Heralds of Nagash / Necropolis Stalkers|Switch Aspects は英語 md の通常版ウォースクロールに無く（スピアヘッド版等のもの）、書籍 pp.66–75 にも無い。",
+  "禍事版のユニット名はヘルスミス・オヴ・ハシュット／ドーター・オヴ・カインの先例どおり「グューランの禍事 …」「アキュシーの禍事 …」と前置きした（PDF の表題はユニット名だけで、上に「ウォースクロール：グューランの禍事」「ウォースクロール：アキュシーの禍事」とある）。",
+  "グューランの禍事 モーティザン・ボーンシェイパー: PDF の表題は「モーティザン」「ボーンシェイパー」の 2 行で中黒が無い。本文中・書籍目次の表記「モーティザン・ボーンシェイパー」に合わせて中黒でつないだ。",
+  "アキュシーの禍事 ヴォクモーティアン: PDF の表題は「ヴォクモーティアン」の下に副題「“骨税長官”」（書籍 p.59 の通常版と同じ組み）。書籍目次の表記「骨税長官ヴォクモーティアン」に倣い「アキュシーの禍事 骨税長官ヴォクモーティアン」とした。通常版 Vokmortian, Master of the Bone-tithe の訳（書籍担当）と前置き以外を揃えること。",
+  "グューランの禍事: 2025年5月版と2026年4月版はモーテク・ガードの『軍団の盾』のリアクション条件だけが違う（2025年5月「…戦争兵器または大型獣、モーティザン・ユニットが…選択された時」＝旧英語 War Machine, Monster or Mortisan、2026年4月「…戦争兵器または魔術師が…選択された」＝現行英語 War Machine or Wizard）。現行英語と合う2026年4月版を採った。それ以外の本文・キーワードは両版同じ。",
+  "禍事版の武器名・アビリティ名・キーワードはすべてユニット指定キー（\"ユニット英語名|…\"）にした（通常版の書籍訳と衝突させないため）。Death キーワードはグューラン・アキュシーとも「死の大同盟」と印刷。",
+  "禍事版の War Machine はこの PDF でも「戦争兵器」（書籍の本文と同じ）。",
+  "Nadirite Blade or Spear は PDF で「ナディライトの剣と槍」（or が「と」）。武器名なのでそのまま採った。",
+  "Relics of the Empire（アキュシーの禍事）: 表の名前は「帝国の至宝（**英雄**のみ）」で、書籍 p.53 の神器表と同じ名前。md では同じ group_names / group_texts キーを共有するので書籍と同じ値（帝国の至宝 / （**英雄**のみ））を入れた。見出しの上に「大いなる神器」「この陣営は使用可能な他の神器の表からではなく、この表から神器を選択してもよい。」とある。",
+  "古きオッシアの軍旗のタイミング帯は「オシアーク・ボーンリーパーユニット」と中黒が無い。紙面どおり。本文の「**英雄でない**」は「でない」まで太字で印刷されているので紙面どおりにした。",
+  "モーティザン改良術の前置き文は紙面で 2 行に分かれた 2 文。1 つの文字列に続けた。「英雄でないオシアーク・ボーンリーパー」が太字。",
+  "永続強化武器の「近接武器(随行者武器も含む)」の括弧は半角気味に組まれているが、規則どおり全角の（）にした。",
+  "アキュシーの禍事 ヴォクモーティアン『骨税長官』の『骨税を支払う：』『オシアークの正当な取り分を拒絶する：』は DoK の祝福の書き方に倣い「**…：**」とした。",
+  "カイナンの収穫隊は レジェンド・ウォースクロール 2026年7月 p.38 を採った。レジェンドのコンペンディウム 2025年4月末以前の版は『ミール・カイナン』の効果が「魔術師（1）を有する」だけの旧ルールで、現行英語（WIZARD (1), RELENTLESS DISCIPLINE (2) と『不死の精鋭』）と合うのは 2026年7月版。",
+  "カイナンの収穫隊『ミール・カイナン』: 画像では「魔術師(1)無慈悲なる規律(2)」の間の読点が見えにくいが、テキスト層には「、」があるので「**魔術師（1）**、**無慈悲なる規律（2）**」とした。",
+  "カイナンの収穫隊の装備オプション文: 兵の名前は太字ではなく（英語版は太字）、紙面どおり太字にしていない。",
+  "Thanatek's Tithe (Legends) は日本語版の資料が見つからない（レジェンド・ウォースクロール 2026年7月の日本語版 PDF でも p.51 が英語のまま、レジェンドのコンペンディウム各版・陣営パック 2024年7月にも無い）。_unread に挙げた。",
+  "名高き連隊 オシアークボーンリーパー 2026年2月は名高き連隊「骨税の先触れ」（Heralds of the Bone-tithe。フレッシュイーター・コート／ナイトホーント／ソウルブライト・グレイヴロード用）で、オシアーク・ボーンリーパーの md には出てこないので対象外。",
+  "担当範囲 3（書籍 pp.56–75 に無いユニット）: lookups の unit_names 34 件のうち、禍事版 4 件と Legends 2 件を除く 28 件はすべて書籍目次 p.2 のウォースクロール一覧（pp.56–74）にある。追加で拾うべきユニットは無かった。",
+  "ウォースクロールのタイミング帯（リアクション文など）は DoK の先例どおり太字にしていない。",
+  "Kavalos Vanguard は書籍 pp.80-83 とスピアヘッド PDF（2026年2月）が同文（照合済み）。現行英語との食い違い（Cold Savagery の【攻撃回数】、Signal the Advance の「ダイスを1個ロールする。」の欠落）は両方に共通。太字は書籍の書き起こし（p.81-82）と PDF の画像で確認した。",
+  "Kavalos Vanguard の編成: 書籍・PDF（日英とも）はリージュ＝カヴァロス、カヴァロス・デスライダー5体×2、テラティック・コホート8体。現行 md（dump.json 483）はリージュ＝カヴァロスとテラティック・コホートだけで、デスライダーが載っていない。デスライダーのスピアヘッド版（Kavalos Blade=カヴァロスの刃 / Wheel About=回頭）は md に出ないので訳を入れていない（Kavalos Deathriders の Spearhead キーは Tithe-reaper Echelon 版 Deathrider Wedge のもの）。",
+  "ルール・アップデート（2025年6月〜2026年9月、日英）とルール・アップデート・エラッタ 2026年6月を確認したが、3 つのスピアヘッドへの改訂は無い。毎号の Gothizzar Harvester『骨の収穫』・Immortis Guard『魂を捧げし守護者』の改訂は陣営パック（通常版ウォースクロール）の項で、スピアヘッド版には当たらない（現行英語 md のスピアヘッド版もエラッタ前の文のまま）。",
+  "ルビ（載せていない）: カヴァロス先遣隊（「先遣隊」にヴァンガード）、骨税狩りの梯団（タイスリーパー・エシュロン）、破片嵐（シャードストーム）。",
+  "ability_names / weapon_names / unit_names は名前だけのキーにした。通常版ウォースクロールと英語名が同じもの（Signal the Advance, Bone-deep Savagery, Deathrider Wedge, Nadirite Assault, Reknit Construct, Drain Vitality, Bone Harvest, Repair Construct, Refined Creations, Soulbound Protectors, Switch Aspects, Heralds of Nagash, Relentless Discipline（戦闘特性）, Murderous Blade 等、武器 Commander’s Blade, Nadirite Spear, Kavalos Steed’s Hooves and Teeth, Death’s Head Maw, Soulcrusher Bludgeons, Ossified Hooves and Tail, Ossified Talons, Dread Halberd, Stalker Blades, Spirit Weapons, Soulreaper Scythe, Cohort Weapons）は、通常版の訳と違えばマージ時に「ユニット|名前」キーへの振り分けが必要。スピアヘッド版の名前は Tithe-reaper Echelon / Mortisan Elite がバトルトームとは別訳者らしく（例: 骨化せし〜、魂刈りの鎌）、通常版（書籍）と食い違う可能性が高い。",
+  "Kavalos Steed’s Hooves, Teeth and Barbed Tails は書籍・PDF とも「カヴァロス騎乗獣の蹄、歯、」で改行して「そして有棘の尻尾」と続くので、つないで「カヴァロス騎乗獣の蹄、歯、そして有棘の尻尾」とした。",
+  "Wizard: スピアヘッド版のキーワード欄は英語 md も (1) なしの Wizard。日本語も「魔術師」。",
+  "Tithe-reaper Echelon の戦闘特性『支隊の到着』の前に「予備支隊」（自軍のモーテク・ガード・ユニット1個は、初期配置フェイズ中に配置されない。代わりに、第3バトルラウンド以降、そのユニットは以下のアビリティを使用できる：）、Mortisan Elite の『恐怖の降下』の前に「ナガッシュの先触れ」（初期配置フェイズ中、自軍に属する1個のモルガスト・アルカイ・ユニットは初期配置されない。代わりに第2バトルラウンド以降、そのユニットは以下のアビリティを使用できる：）の前置きがあるが、dump.json にこれに当たる group_texts が無い（lookups に無い）ので載せていない。Tithe-reaper Echelon の「オシアークの君命」（Ossiarch Commands）の説明箱も同様。",
+  "Tithe-reaper Echelon / Mortisan Elite の強化の前置き文は「自軍のジェネラルに、…」、Kavalos Vanguard は「自軍側ジェネラルに、…」（資料どおり）。",
+  "太字: Tithe-reaper Echelon / Mortisan Elite の PDF は画像（220dpi）で確認。『骨の収穫』の「近接戦闘中である」、『死の乗り手の楔陣』の「突撃」、『無情な再起』の「復帰」は紙面で太字なのでそのまま。『殺戮の刃』（Kavalos）の「クリティカル（2ヒット）」は太字でない（紙面どおり）、『創造物の修復』の「回復（D3）」も太字でない。括弧は全角に揃えた（紙面は「クリティカル(2ヒット)」「回復(X)」など半角）。",
+  "Marrowpact の「回復（X）」の X と「X とする」の X は紙面で太字（英語も Heal (X) / X が太字）。",
+  "『比類なき統一性』『無慈悲なる規律』本文中の『無慈悲なる規律』は紙面で太字でない。",
+  "Death’s Head Maw は「死者の胃袋」（PDF どおり。Maw の訳としては意訳）。",
+  "最新のルール・アップデート 202609 のオシアーク・ボーンリーパーのエラッタは計10項目: 戦闘特性5件（第2文削除）、英雄特性『傲岸なる意志』、モーテク・ガード『兵団の盾』、名高き軍勢ナル・ミリアッドのロスター、カタクロス『ボーンリーパー兵団の大元帥』（✹新規）、カヴァロス・ウォーチャリオット『足止め攻撃』、リージュ＝モーテク『冷厳なる効率』。加えて日本語版エラッタ1件（モーティス・リーパー『骨税から逃れられる者なし』）。",
+  "履歴: 202605(英語)で 傲岸なる意志・兵団の盾・ナル・ミリアッド。202606(英語)/202607 でカヴァロス・ウォーチャリオット・リージュ＝モーテクを追加。202609 で戦闘特性5件・カタクロスを追加（202608 までは無し）。いずれも 202609 に引き継がれている。",
+  "戦闘特性の “Remove the second line” は書籍 p.50 各効果の第2文「選択された味方ユニットが増強ユニットかつ初期兵数の半分より多い状態ならば、代わりに2無慈悲なる規律ポイントを消費する。」の削除。カタクロスは「その味方ユニットが増強ユニットかつ初期兵数の半分以上ならば、追加で1無慈悲なる規律ポイントを消費する。」の削除。",
+  "現行英語 md（アプリ data_version 483）にはすべての英語エラッタが反映済み。",
+  "202602(英語)「陣営パック」節のオシアーク項目（Vokmortian『Voice of Nagash』、Gothizzar Harvester『Bone Harvest』、Morghast Archai『Ebon-wrought Armour』、Morghast Harbingers の Fly）はバトルトーム発売前の陣営パック向けで、202605 以降のバトルトーム節には引き継がれていない（バトルトームで置き換え済み）。202605/202606 の英語版のみの号の内容はすべて 202607〜202609 に引き継がれている（他のデジタル版の Scourge of Ghyran モーテク・ガードは 202608 から消えた）。",
+  "FAQ（ナガッシュの声、霊炎の火鉢、死櫃、死の気配、古きオッシアの軍旗）は文の変更ではないので _errata に入れていない。訳名だけ _crosscheck.rules_update_names に記録。",
+  "エラッタの日本語文は PDF テキスト（pdftotext）から取り、半角/全角間の空白を除去。PDF の太字は判別できないため、太字は書籍の慣例（キーワード・アビリティ参照の太字）に合わせて付けた。",
+  "バトルプロフィール 202603 日本語版はユニット名に書籍と異なる表記がある: リージュ＝カヴァロス（ウォーチャリオット騎乗）［書籍 p.60 は「搭乗」］、カヴァロス・ウォーチャリオットの行が誤って「リージュ＝カヴァロス（ウォーチャリオット騎乗）」・関連キーワード「歩兵」になっている、名高き連隊名「骨税徴収の先触れ」［書籍目次は「骨税の先触れ」］、「カラフェットの攻囲破り」［書籍目次は「カラフテットの攻囲破り」］。陣形・英雄特性・神器の表の上の見出しが「名高き連隊」になっている（誤植）。ヴォクモーティアンのポイントが英語140・日本語150で異なる（対象外だが記録）。ヘカトス調練団のポイント欄が空。",
+  "_crosscheck.unit_names の Kavalos War Chariot はバトルプロフィール日本語版の誤記をそのまま写したもの。採用しないこと（書籍は「カヴァロス・ウォーチャリオット」）。",
+  "ルール・アップデート 2026年9月の日本語訳を適用: 戦闘特性 5 件（無慈悲なる規律の増強ユニット追加消費の文を削除）、Imperious Will（最終文）、Mortek Guard|Shields of the Legion（効果）、Katakros|Supreme Lord of the Bonereaper Legions（効果）、Kavalos War Chariot|Pinning Attacks（効果）、Liege-Mortek|Clinical Efficiency（タイミング。エラッタの文言どおり「『近接攻撃』を宣言」）、Mortis Reapers|No Escaping the Tithe（宣言・効果。日本語版のみの訂正で、書籍の黒塗り箇所が「特殊地形」）。書籍の旧版の文は使っていない。",
+  "Empower Nadirite Weapons: 書籍 p.54 は「ナディライト武器の強化」、スピアヘッド（カヴァロス先遣隊ほか）PDF は「ナディライト武器強化」。名前のキーは通常版とスピアヘッド版で分けられないので書籍を採った。",
+  "Deathrider Wedge: 書籍は「デスライダー楔陣」、スピアヘッド 骨税狩りの梯団（2026年2月）は「死の乗り手の楔陣」。同じ理由で書籍を採った。",
+  "Scourge of Ghyran Mortek Guard|Shields of the Legion: グューランの禍事 2026年4月版を採った（タイミングが現行英語と一致。2025年5月版は旧対象）。末尾の語句が重複している（紙面どおり）。ルール・アップデート 2026年5〜7月の同項目の改訂は 2026年4月版で反映済み。",
+  "戦闘陣形 Tithe Guards / Hekatos Drillmasters と呪文伝承 Lore of Necrotheurgy は書籍に無く、グューランの禍事 オシアーク・ボーンリーパー 2026年4月（PDF テキスト層）から採った。太字は書籍の書き方に合わせて補った（PDF のテキスト層では判別できない）。",
+  "Thanatek's Tithe (Legends): 日本語版レジェンド・ウォースクロール 2026年7月でも p.51 が英語のまま。ほかの資料にも日本語版が無いので英語のまま。"
+ ],
+ "unit_names": {
+  "Arch-Kavalos Zandtos": "アーク＝カヴァロス・ザンドトス",
+  "Arkhan the Black, Mortarch of Sacrament": "聖晩餐の御使、黒のアーカン",
+  "Bone-tithe Nexus": "骨税献納所",
+  "Bone-tithe Shrieker": "骨税の金切り魔",
+  "Gothizzar Harvester": "ゴシザール・ハーヴェスター",
+  "Immortis Guard": "イモーティス・ガード",
+  "Kainan's Reapers": "カイナンの収穫隊",
+  "Katakros, Mortarch of the Necropolis": "死都の御使カタクロス",
+  "Kavalos Deathriders": "カヴァロス・デスライダー",
+  "Kavalos War Chariot": "カヴァロス・ウォーチャリオット",
+  "Liege-Kavalos": "リージュ＝カヴァロス",
+  "Liege-Kavalos on War Chariot": "リージュ＝カヴァロス（ウォーチャリオット搭乗）",
+  "Liege-Mortek": "リージュ＝モーテク",
+  "Morghast Archai": "モルガスト・アルカイ",
+  "Morghast Harbingers": "モルガスト・ハービンジャー",
+  "Mortek Crawler": "モーテク・クロウラー",
+  "Mortek Guard": "モーテク・ガード",
+  "Mortek Triaxes": "モーテク・トライアクス",
+  "Mortis Reapers": "モーティス・リーパー",
+  "Mortisan Boneshaper": "モーティザン・ボーンシェイパー",
+  "Mortisan Ossifector": "モーティザン・オシフェクター",
+  "Mortisan Soulmason": "モーティザン・ソウルメイソン",
+  "Mortisan Soulreaper": "モーティザン・ソウルリーパー",
+  "Nagash, Supreme Lord of the Undead": "不死者の至高なる主ナガッシュ",
+  "Necropolis Stalkers": "ネクロポリス・ストーカー",
+  "Nightmare Predator": "悪夢の捕食者",
+  "Scourge of Aqshy: Mortis Reapers": "アキュシーの禍事 モーティス・リーパー",
+  "Scourge of Aqshy: Vokmortian, Master of the Bone-tithe": "アキュシーの禍事 骨税長官ヴォクモーティアン",
+  "Scourge of Ghyran Mortek Guard": "グューランの禍事 モーテク・ガード",
+  "Scourge of Ghyran Mortisan Boneshaper": "グューランの禍事 モーティザン・ボーンシェイパー",
+  "Soulstealer Carrion": "魂泥棒の猛禽",
+  "Teratic Cohort": "テラティック・コホート",
+  "Vokmortian, Master of the Bone-tithe": "骨税長官ヴォクモーティアン"
+ },
+ "weapon_names": {
+  "Alakanash, the Staff of Power": "“力の杖”アラカナッシュ",
+  "Almighty Obsidian Blade": "強大なる黒曜石の刃",
+  "Attendants’ Crawler Tools": "従者の這い回る工具",
+  "Chariot Steeds' Fangs and Claws": "戦車輓獣の鉤爪と蹄",
+  "Charioteers' Weapons": "戦車乗りの武器",
+  "Cohort Weapons": "コホートの武器",
+  "Commander's Blade": "指揮官の刃",
+  "Commander's Weapon": "指揮官の武器",
+  "Commander’s Blade": "指揮官の刃",
+  "Death’s Head Maw": "死者の胃袋",
+  "Dread Catapult": "ドレッドカタパルト",
+  "Dread Halberd": "ドレッド・ハルバード",
+  "Gaze of Death": "死の睥睨",
+  "Inda-Khaat": "インダ＝ハート",
+  "Kainan's Reapers|Nadirite Weapon": "ナディライトの武器",
+  "Kainan's Reapers|Soulreaper Axe": "魂刈りの斧",
+  "Kavalos Blades": "カヴァロス・ブレイド",
+  "Kavalos Steed’s Hooves and Teeth": "カヴァロス騎乗獣の蹄と歯",
+  "Kavalos Steed’s Hooves, Teeth and Barbed Tails": "カヴァロス騎乗獣の蹄、歯、そして有棘の尻尾",
+  "Lacerating Claws": "切り裂きの爪",
+  "Nadirite Dagger": "ナディライトの短刀",
+  "Nadirite Spear": "ナディライト・スピア",
+  "Nadirite Weapons": "ナディライトの刃",
+  "Osseous Bow": "骨弓",
+  "Ossified Hooves and Tail": "骨化せし蹄と尾",
+  "Ossified Talons": "骨化せし鉤爪",
+  "Razarak’s Ebon Claws": "ラザラックの黒檀の鉤爪",
+  "Reaper's Blades": "刈り取る刃",
+  "Retinue Blades": "従者の剣",
+  "Scourge of Aqshy: Mortis Reapers|Reaper's Blades": "刈り取る刃",
+  "Scourge of Aqshy: Vokmortian, Master of the Bone-tithe|Gaze of Death": "死の睥睨",
+  "Scourge of Aqshy: Vokmortian, Master of the Bone-tithe|Staff of Retribution": "報いの杖",
+  "Scourge of Ghyran Mortek Guard|Nadirite Blade or Spear": "ナディライトの剣と槍",
+  "Scourge of Ghyran Mortisan Boneshaper|Ossified Talons": "骨化せし鉤爪",
+  "Soul-rending Shriek": "貫魂の叫び",
+  "Soulcrusher Bludgeons": "魂砕きの棍棒",
+  "Soulcrusher Weapons": "魂砕きの兵器",
+  "Soulmason’s Staff": "魂細工師の杖",
+  "Soulreaper Scythe": "魂刈りの鎌",
+  "Spectral Claws and Beak": "霊体の爪とくちばし",
+  "Spirit Weapons": "精霊たちの武器",
+  "Staff of Retribution": "報いの杖",
+  "Stalker Blades": "ストーカーブレイド",
+  "The Dark Lance": "昏き槍",
+  "The Shield Immortis": "不死の盾",
+  "Zefet-kar and Khenash-an": "ゼフェト＝カールとヘナッシュ＝アン",
+  "Zefet-nebtar, the Mortis Blade": "“死の刃”ゼフェト＝ネブタール"
+ },
+ "weapon_ability_names": {
+  "Anti-CAVALRY (+1 Rend)": "対騎兵（+1貫通値）",
+  "Anti-HERO (+1 Rend)": "対英雄（+1貫通値）",
+  "Anti-MONSTER (+1 Rend)": "対大型獣（+1貫通値）",
+  "Anti-charge (+1 Rend)": "対突撃（+1貫通値）",
+  "Charge (+1 Damage)": "突撃（+1ダメージ量）",
+  "Companion": "随行者",
+  "Crit (2 Hits)": "クリティカル（2ヒット）",
+  "Shoot in Combat": "近接射撃"
+ },
+ "keyword_names": {
+  "Beast": "獣兵",
+  "Cavalry": "騎兵",
+  "Champion": "豪傑",
+  "Champion (1/8)": "豪傑（1/8）",
+  "Death": "死の大同盟",
+  "Endless Spell": "永久呪文",
+  "Faction Terrain": "陣営地形",
+  "Fly": "飛行",
+  "Hero": "英雄",
+  "Infantry": "歩兵",
+  "Kainan's Reapers|Death": "死の大同盟",
+  "Kainan's Reapers|Infantry": "歩兵",
+  "Kainan's Reapers|Mortisan": "モーティザン",
+  "Kainan's Reapers|Ossiarch Bonereapers": "オシアーク・ボーンリーパー",
+  "Kainan's Reapers|Unique": "固有",
+  "Kainan's Reapers|Ward (6+)": "加護（6+）",
+  "Manifestation": "顕現",
+  "Monster": "大型獣",
+  "Ossiarch Bonereapers": "オシアーク・ボーンリーパー",
+  "Reinforcements": "増援",
+  "Relentless Discipline (10)": "無慈悲なる規律（10）",
+  "Relentless Discipline (2)": "無慈悲なる規律（2）",
+  "Relentless Discipline (3)": "無慈悲なる規律（3）",
+  "Relentless Discipline (5)": "無慈悲なる規律（5）",
+  "Relentless Discipline (6)": "無慈悲なる規律（6）",
+  "Relentless Discipline (7)": "無慈悲なる規律（7）",
+  "Scourge of Aqshy: Mortis Reapers|Champion": "豪傑",
+  "Scourge of Aqshy: Mortis Reapers|Death": "死の大同盟",
+  "Scourge of Aqshy: Mortis Reapers|Infantry": "歩兵",
+  "Scourge of Aqshy: Mortis Reapers|Ossiarch Bonereapers": "オシアーク・ボーンリーパー",
+  "Scourge of Aqshy: Mortis Reapers|Ward (6+)": "加護（6+）",
+  "Scourge of Aqshy: Vokmortian, Master of the Bone-tithe|Death": "死の大同盟",
+  "Scourge of Aqshy: Vokmortian, Master of the Bone-tithe|Hero": "英雄",
+  "Scourge of Aqshy: Vokmortian, Master of the Bone-tithe|Infantry": "歩兵",
+  "Scourge of Aqshy: Vokmortian, Master of the Bone-tithe|Ossiarch Bonereapers": "オシアーク・ボーンリーパー",
+  "Scourge of Aqshy: Vokmortian, Master of the Bone-tithe|Relentless Discipline (2)": "無慈悲なる規律（2）",
+  "Scourge of Aqshy: Vokmortian, Master of the Bone-tithe|Unique": "固有",
+  "Scourge of Aqshy: Vokmortian, Master of the Bone-tithe|Ward (6+)": "加護（6+）",
+  "Scourge of Aqshy: Vokmortian, Master of the Bone-tithe|Wizard (2)": "魔術師（2）",
+  "Scourge of Ghyran Mortek Guard|Champion": "豪傑",
+  "Scourge of Ghyran Mortek Guard|Death": "死の大同盟",
+  "Scourge of Ghyran Mortek Guard|Infantry": "歩兵",
+  "Scourge of Ghyran Mortek Guard|Ossiarch Bonereapers": "オシアーク・ボーンリーパー",
+  "Scourge of Ghyran Mortek Guard|Standard Bearer (1/10)": "旗手（1/10）",
+  "Scourge of Ghyran Mortek Guard|Ward (6+)": "加護（6+）",
+  "Scourge of Ghyran Mortisan Boneshaper|Death": "死の大同盟",
+  "Scourge of Ghyran Mortisan Boneshaper|Hero": "英雄",
+  "Scourge of Ghyran Mortisan Boneshaper|Infantry": "歩兵",
+  "Scourge of Ghyran Mortisan Boneshaper|Mortisan": "モーティザン",
+  "Scourge of Ghyran Mortisan Boneshaper|Ossiarch Bonereapers": "オシアーク・ボーンリーパー",
+  "Scourge of Ghyran Mortisan Boneshaper|Ward (6+)": "加護（6+）",
+  "Scourge of Ghyran Mortisan Boneshaper|Wizard (1)": "魔術師（1）",
+  "Standard Bearer (1/10)": "旗手（1/10）",
+  "Standard Bearer (1/5)": "旗手（1/5）",
+  "Unique": "固有",
+  "War Machine": "戦闘兵器",
+  "Ward (5+)": "加護（5+）",
+  "Ward (6+)": "加護（6+）",
+  "Warmaster": "総大将",
+  "Wizard": "魔術師",
+  "Wizard (1)": "魔術師（1）",
+  "Wizard (2)": "魔術師（2）",
+  "Wizard (3)": "魔術師（3）",
+  "Wizard (9)": "魔術師（9）"
+ },
+ "ability_names": {
+  "Amulet of Gnosis": "霊知の護符",
+  "Arkhan the Black, Mortarch of Sacrament|Battle Damaged": "バトルダメージ",
+  "Atavistic Nightmares": "原初の悪夢",
+  "Aviarch Sentry": "猛禽の番鳥",
+  "Aviarch Spymaster": "アヴィアーク・スパイマスター",
+  "Balefire Braziers": "霊炎の火鉢",
+  "Banner of Old Ossia": "古きオッシアの軍旗",
+  "Beast": "獣兵",
+  "Blade of the Nadir": "天底の刃",
+  "Bolster Creation": "作成強化",
+  "Bone Cage": "骨の檻",
+  "Bone Harvest": "骨の収穫",
+  "Bone-deep Savagery": "骨の髄からの獰猛性",
+  "Boneshaper": "骨の組立て師",
+  "Calculated Feint": "計算尽くの陽動",
+  "Clinical Efficiency": "冷厳なる効率",
+  "Cold Savagery": "冷ややかなる獰猛性",
+  "Contingent Arrival": "支隊の到着",
+  "Cover": "遮蔽物",
+  "Curse of Years": "歳月の呪い",
+  "Cursed Flames": "呪われし炎",
+  "Cursed Stele": "呪われし墓石",
+  "Deadly Aura": "死の気配",
+  "Death Incarnate": "死の化身",
+  "Deathly Barrage": "死の爆撃",
+  "Deathrider Commander": "デスライダー指揮官",
+  "Deathrider Wedge": "デスライダー楔陣",
+  "Discharge Armour": "魔力の放出",
+  "Disciplined Hekatoi": "整然なるヘカトイ",
+  "Drain Vitality": "生命力の吸収",
+  "Dread Descent": "恐怖の降下",
+  "Ebon-wrought Armour": "黒檀色の甲冑",
+  "Elongated Tibias": "伸長された脛骨",
+  "Empower Nadirite Weapons": "ナディライト武器の強化",
+  "Feigned Retreat": "偽装退却",
+  "Fourfold Slayers": "四重の殺戮者",
+  "Grim Sentinels": "陰鬱なる歩哨",
+  "Grind Them to Dust": "塵となるまで粉砕せよ",
+  "Hand of Dust": "塵の手",
+  "Harbingers of Death": "死のハービンジャー",
+  "Helm of Tyranny": "暴政の兜",
+  "Heralds of Nagash": "ナガッシュの先触れ",
+  "Hunters Unleashed": "狩人の解放",
+  "Immaculate Defender": "けがれなき防衛者",
+  "Immaculate Generalship": "完全無欠なる指揮官",
+  "Immolating Flames": "葬送の火",
+  "Immortal Bulwark": "不死身の防壁",
+  "Immortal Elite": "不死の精鋭",
+  "Impassive Retreat": "感情なき退却",
+  "Imperious Commander": "傲岸なる指揮官",
+  "Imperious Will": "傲岸なる意志",
+  "Inpenetrable Ranks": "強固な隊列",
+  "Invigorate the Ranks": "戦列の活性化",
+  "Inviolate Legions": "けがれなき兵団",
+  "Invocation of Nagash": "ナガッシュの死霊呪文",
+  "Kainan's Reapers|Mir Kainan": "ミール・カイナン",
+  "Kainan's Reapers|Nadirite Bow": "ナディライトの弓",
+  "Katakros, Mortarch of the Necropolis|Battle Damaged": "割れゆく指令",
+  "Kavalos Lance": "カヴァロス楔陣",
+  "Legion Quartermaster": "軍団補給官",
+  "Lode of Saturation": "浸潤の鉱脈",
+  "Manufactured Mind": "造られし意識",
+  "Marrowpact": "骨髄の契り",
+  "Master of Cavalry": "騎兵の熟達者",
+  "Masterful Charioteer": "熟練の戦車乗り",
+  "Mend Constructs": "創造物の修復",
+  "Mighty Archaeossian": "古代の力",
+  "Mortal Contract": "死の契約",
+  "Mortarch of Sacrament": "聖晩餐の御使",
+  "Mortarch of the Necropolis": "死都の御使",
+  "Murderous Blade": "殺戮の刃",
+  "Murderous Drive": "殺戮の衝動",
+  "Nadirite Assault": "ナディライトの強襲",
+  "Nadirite Wedge": "ナディライト突撃陣",
+  "Nagash, Supreme Lord of the Undead|Battle Damaged": "バトルダメージ",
+  "Necrocaches": "死櫃",
+  "Necrotic Blast": "死霊波",
+  "No Escape": "脱出不可能",
+  "No Escaping the Tithe": "骨税から逃れられる者なし",
+  "Peerless Cohesion": "比類なき統一性",
+  "Perpetually Empowered Weapons": "永続強化武器",
+  "Pinning Attacks": "足止め攻撃",
+  "Pitiless Assault": "無情なる強襲",
+  "Plentiful Bone": "豊富な骨の備蓄",
+  "Re-form Ranks": "隊列を整えよ",
+  "Refined Creations": "洗練されし創造物",
+  "Reinforced Constructs": "強化構造体",
+  "Reknit Construct": "無情な再起",
+  "Relentless Discipline": "無慈悲なる規律",
+  "Remorseless March": "悔悟なき行進",
+  "Repair Construct": "再修復",
+  "Ruthless Extermination": "苛烈なる殲滅",
+  "Scarabaean Cloak": "スカラベの外套",
+  "Scourge of Aqshy: Mortis Reapers|Terminate Their Command": "奴らの指揮を断て",
+  "Scourge of Aqshy: Mortis Reapers|The Coldness of Death": "死の凍気",
+  "Scourge of Aqshy: Vokmortian, Master of the Bone-tithe|Cowed Into Inaction": "戦意を折る威圧",
+  "Scourge of Aqshy: Vokmortian, Master of the Bone-tithe|Master of the Bone-Tithe": "骨税長官",
+  "Scourge of Ghyran Mortek Guard|Shields of the Legion": "軍団の盾",
+  "Scourge of Ghyran Mortisan Boneshaper|Boneshaper": "骨の組立て師",
+  "Scourge of Ghyran Mortisan Boneshaper|Legion Quartermaster": "軍団補給官",
+  "Scything Assault": "斬り裂く襲撃",
+  "Shard Storm": "破片嵐",
+  "Shard of Necris": "ネクリスの欠片",
+  "Shields of the Legion": "兵団の盾",
+  "Signal the Advance": "進軍命令",
+  "Silent Empire": "静寂の帝国",
+  "Soul-Claim": "魂奪い",
+  "Soul-guide": "魂の導き",
+  "Soulbound Protectors": "魂を捧げし守護者",
+  "Soulreaper": "ソウルリーパー",
+  "Soulweb Gem": "魂網の秘宝",
+  "Still Their Breath!": "息の根を止めろ！",
+  "Summon Bone-tithe Shrieker": "骨税の金切り魔を召喚",
+  "Summon Nightmare Predator": "悪夢の捕食者の召喚",
+  "Summon Soulstealer Carrion": "魂泥棒の猛禽を召喚",
+  "Supreme Lord of the Bonereaper Legions": "ボーンリーパー兵団の大元帥",
+  "Supreme Lord of the Undead": "不死者の至高なる主",
+  "Switch Aspects": "相の変更",
+  "The Doom of Traitors": "大逆者の運命",
+  "The Staff of Power": "力の杖",
+  "The Staff of Spirits": "魂の杖",
+  "Unfaltering Pace": "揺るぎなき歩調",
+  "Unstable": "不安定",
+  "Unstoppable Charge": "阻止不能な突撃",
+  "Unstoppable Commander": "負け知らずの指揮官",
+  "Utterly Unquestioning": "完全なる忠誠",
+  "Voice of Nagash": "ナガッシュの声",
+  "You Dare?!": "不遜なり！"
+ },
+ "ability_texts": {
+  "Amulet of Gnosis": {
+   "timing": "パッシブ",
+   "effect": "このユニットの12mvに全体が入っている味方**オシアーク・ボーンリーパー**・ユニットは、『**退却**』アビリティによる致命的ダメージを受けない。"
+  },
+  "Arch-Kavalos Zandtos|Still Their Breath!": {
+   "timing": "任意の近接フェイズ",
+   "declare": "このユニットの12mv以内に全体が入っている英雄でない味方**オシアーク・ボーンリーパー・騎兵**・ユニットを1個選択する。",
+   "effect": "1**無慈悲なる規律**ポイントを消費する。このユニットが近接戦闘中ならば、**無慈悲なる規律**ポイントは消費しない。このターン中、その味方ユニットの近接武器は**突撃**（+1ダメージ量）を得る。",
+   "keywords": "無慈悲なる規律"
+  },
+  "Arch-Kavalos Zandtos|Unstoppable Charge": {
+   "timing": "バトル中1回限り、任意の近接フェイズ",
+   "declare": "このユニットがこのターン中に突撃していた場合、このユニットと近接戦闘中である各敵ユニットを選択する。",
+   "effect": "そのターン中、選択された各敵ユニットは『**後手効果**』を得る。"
+  },
+  "Arkhan the Black, Mortarch of Sacrament|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**ラザラックの黒檀の鉤爪**の【回数】は3となる。"
+  },
+  "Arkhan the Black, Mortarch of Sacrament|Curse of Years": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "ダイスを10個ロールする。ロール結果で出目6が出るたびに、\n• その敵ユニットに1**死霊萎縮**ポイントを付与する。\n• 追加でダイスを1個ロールする。\nこの追加のダイスで5+が出るたび、先述の箇条書き項目を両方繰り返す。その後、4+と3+の出目でも同様の手順を処理する。最後に、2+の出目ごとにその敵ユニットに1**死霊萎縮**ポイントを付与する（追加のダイスはロールしない）。\nいずれかのロール後、その敵ユニットが**死霊萎縮**ポイントを8点以上有する場合、その敵ユニットは自動的に全滅する。それ以外の場合、最後のロールをした後、その敵ユニットは、自身が有している**死霊萎縮**ポイントと等しい数の致命的ダメージを受ける。その後、その**死霊萎縮**ポイントは失われる。",
+   "keywords": "呪文"
+  },
+  "Arkhan the Black, Mortarch of Sacrament|Mortarch of Sacrament": {
+   "timing": "各ターンにつき1回（アーミー）、リアクション：このユニットの18mv以内に一部でも入っている敵軍側ユニットが『呪文』アビリティを宣言",
+   "effect": "2D6をロールする。ロール結果が呪文の詠唱ロールを上回る場合、その呪文は打ち消され、打ち消された呪文の効果は解決されない。さらに、次の自軍側ターン開始時まで、敵軍側ユニットはその『**呪文**』アビリティを使用できなくなる。"
+  },
+  "Arkhan the Black, Mortarch of Sacrament|The Doom of Traitors": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットがこのターン中に突撃していた場合、このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "D3を1個ロールする。選択された敵ユニットが**魔術師**または**神官**の場合、ロールは+1の修正を受ける。ロール結果が2+であれば、そのフェイズ中、このユニットの**ラザラックの黒檀の鉤爪**の【攻撃回数】は、そのロール結果と等しい数のプラス修正を受ける。ただし、このユニットが選択された敵ユニットと近接戦闘中である場合、この武器によるすべての攻撃は、その敵ユニットを対象としなければならない。\nデザイナーズノート：選択する敵ユニットが**魔術師**または**神官**である場合、このアビリティは失敗しない。しかしながら、【攻撃回数】のプラス修正の値を決定するためにロールする必要がある。",
+   "keywords": "蹂躙"
+  },
+  "Arkhan the Black, Mortarch of Sacrament|The Staff of Spirits": {
+   "timing": "パッシブ",
+   "effect": "このユニットの詠唱ロールは+1の修正を受ける。このユニットが呪文の詠唱を成功させるたびに、その『**呪文**』アビリティを解決した直後に、このユニットを**回復（1）**する。"
+  },
+  "Banner of Old Ossia": {
+   "timing": "リアクション：このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方オシアーク・ボーンリーパーユニットを対象に、自軍側が『再集結』アビリティを宣言",
+   "effect": "その指揮コマンド解決時、以下の方法で再集結ポイントを消費できる：\n• 消費した再集結ポイントごとに、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である**英雄でない**他の味方**オシアーク・ボーンリーパー**・ユニットを**回復（1）**する。\n• このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**オシアーク・ボーンリーパー**・ユニット1個に対して、そのユニット内の撃破されている兵1体を復帰させるめに、そのユニットの【体力】に等しい数までの再集結ポイントを消費できる。"
+  },
+  "Blade of the Nadir": {
+   "timing": "初期配置フェイズ",
+   "effect": "このユニットの**随行者**でない近接武器を1個選択する。以降バトル終了時まで、選択された武器によるメレーアタックで修正前の出目6が出た場合、その『**近接攻撃**』アビリティを解決した直後に、攻撃対象はD3ポイントの致命的ダメージを受ける。"
+  },
+  "Bolster Creation": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に全体が入っており、かつその魔術師から視認状態である味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、各フェイズごとに選択された味方ユニットに割り当てられる最初の1ポイントのダメージを無効化する。",
+   "keywords": "呪文、無制限"
+  },
+  "Bone-tithe Nexus|Deadly Aura": {
+   "timing": "パッシブ",
+   "effect": "この陣営地形のXmv以内に一部でも入るように敵ユニットを配置することはできない。Xの値は、以下に示されるように現在のバトルラウンドに応じた数となる。\nバトルラウンド数 - X\n1 - 9\"\n2 - 12\"\n3 - 15\"\n4 - 18\"\n5 - 21\""
+  },
+  "Bone-tithe Shrieker|No Escape": {
+   "timing": "パッシブ",
+   "effect": "この**顕現**の12mv以内に一部でも入っている敵ユニットの加護ロールは-1の修正を受ける。"
+  },
+  "Disciplined Hekatoi": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "**英雄**でも**飛行**でもない味方**オシアーク・ボーンリーパー・歩兵**・ユニットを1個選択する。",
+   "effect": "以下の効果から1つを選択し、次の自軍側ターン開始時まで適用する。\n• 選択された味方ユニットは**加護（5+）**を持つ。\n• 選択された味方ユニットは、突撃ロールに+1の修正を受ける。\n• 選択された味方ユニットのメレーアタックは、ウーンズロールに+1の修正を受ける。\n• 選択された味方ユニットが装備している近接武器は**対突撃（+1貫通値）**を得る。"
+  },
+  "Drain Vitality": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に一部でも入っており、かつその魔術師から視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、選択された敵ユニットの攻撃のヒットロールは-1の修正を受ける。また、その敵ユニットのセーブロールは-1の修正を受ける。",
+   "keywords": "呪文"
+  },
+  "Elongated Tibias": {
+   "timing": "パッシブ",
+   "effect": "このユニットの突撃ロールは+1の修正を受ける。"
+  },
+  "Empower Nadirite Weapons": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に全体が入っており、かつその魔術師から視認状態である味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、選択された味方ユニットの近接武器は**クリティカル（2ヒット）**を得る。選択された味方ユニットの**随行者**でないすべての近接武器が、このアビリティの対象として選択された時点で**クリティカル（2ヒット）**を有する場合、代わりに次の自軍側ターン開始時まで、選択された味方ユニットのメレーアタックは、修正前の出目5+でクリティカルヒットとなる。\n味方**オシアーク・ボーンリーパー**・ユニットは、このアビリティの効果を複数回受けることができる。",
+   "keywords": "呪文、無制限"
+  },
+  "Gothizzar Harvester|Bone Cage": {
+   "timing": "パッシブ",
+   "effect": "このユニットは**満載**か**空っぽ**、どちらかの状態である。**満載**状態でバトルを開始する。"
+  },
+  "Gothizzar Harvester|Bone Harvest": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "effect": "このバトル中に全滅した各敵ユニットに対して、それぞれダイスを1個ロールする。このターン中、このユニットが『**近接攻撃**』アビリティを使用していた場合、各ロールは+1の修正を受ける。ロール結果4+がひとつでも出たならば、このユニットは**満載**状態となる。"
+  },
+  "Gothizzar Harvester|Repair Construct": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "このユニットが**満載**状態である場合、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である**味方オシアーク・ボーンリーパー**・ユニットを1個選択する。",
+   "effect": "選択された味方ユニット内の撃破されている兵1体を復帰させる。その味方ユニットの【体力】が1ならば、代わりに撃破されている兵3体を復帰させる。その後、このユニットは**空っぽ**状態となる。"
+  },
+  "Grim Sentinels": {
+   "timing": "パッシブ",
+   "effect": "味方**オシアーク・ボーンリーパー**・ユニットが中立地帯に全体が入っていたり、あるいは敵軍側陣地と自軍側陣地の両方から6mv以内に全体が入っている場合、その味方ユニットが使用する近接武器は**対突撃（+1貫通値）**を得る。"
+  },
+  "Immaculate Defender": {
+   "timing": "パッシブ",
+   "effect": "近接フェイズ中、このユニットの12mv以内に全体が入っている各味方**オシアーク・ボーンリーパー・歩兵**・ユニットは、自身に割り振られる最初の1ポイントのダメージを無視する。"
+  },
+  "Immolating Flames": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に全体が入っており、かつその魔術師から視認状態である味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、選択された味方ユニット内にいる兵1体がメレーアタックによって撃破され、かつその兵が攻撃側ユニットと近接戦闘中であった場合、選択された味方ユニットの【体力】に等しい個数のダイスをロールする。ロール結果で5+が出るたび、その『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。",
+   "keywords": "呪文"
+  },
+  "Immortal Elite": {
+   "timing": "各バトルラウンドにつき1回（アーミー）、バトルラウンドの開始時",
+   "declare": "味方**オシアーク・ボーンリーパー・英雄**が戦場に1個以上配置されている場合、このアビリティを使用しなければならない。味方**オシアーク・ボーンリーパー・英雄**を1体選択する。",
+   "effect": "選択された味方ユニットの**無慈悲なる規律**・キーワードに付随する数値と同じ数の**無慈悲なる規律**ポイントを獲得する。バトルラウンド終了時に、未使用の**無慈悲なる規律**ポイントは失われる。"
+  },
+  "Immortis Guard|Immortal Bulwark": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中であり、かつこのターン中に突撃していた敵ユニットを1個選択する。",
+   "effect": "そのターン中、**随行者**の武器アビリティを除いて、選択された敵ユニットのメレーアタックは、武器アビリティの効果を発揮しない。"
+  },
+  "Impassive Retreat": {
+   "timing": "自軍側移動フェイズ",
+   "declare": "このフェイズ中、『**無慈悲なる規律**』アビリティを使用していない味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、このアビリティを使用する。",
+   "effect": "1**無慈悲なる規律**ポイントを消費する。その味方ユニットは、現在のターン中に『**退却**』アビリティを使用していたとしても、そのターン中に『**突撃**』アビリティを使用できる。",
+   "keywords": "無慈悲なる規律"
+  },
+  "Imperious Will": {
+   "timing": "リアクション：このユニットの12mv以内に全体が入っている英雄でない自軍側オシアーク・ボーンリーパー・ユニットが『近接攻撃』アビリティを宣言",
+   "effect": "その**英雄**でないユニットがこのターン中に突撃していない場合、その英雄でないユニットと近接戦闘中である敵ユニットを1個選択し、D3を1個ロールする。ロール結果が2+であれば、選択された敵ユニットはロール結果に等しい数の致命的ダメージを受ける。このユニットは、各フェイズ中にこのアビリティを2回以上使用できる。ただし、『近接攻撃』アビリティごとに1回だけである。"
+  },
+  "Invigorate the Ranks": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に全体が入っており、かつその魔術師から視認状態である味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、選択された味方ユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。",
+   "keywords": "呪文"
+  },
+  "Inviolate Legions": {
+   "timing": "リアクション：敵軍側が『アタック』アビリティを宣言",
+   "used_by": "その『**アタック**』アビリティの対象となった味方**オシアーク・ボーンリーパー**・ユニット1個。味方**オシアーク・ボーンリーパー**・ユニットは、フェイズ中2回以上このアビリティを使用できる。",
+   "effect": "1**無慈悲なる規律**ポイントを消費する。その味方ユニットは、その『**アタック**』アビリティによって与えられるダメージに対して、**加護（5+）**を得る。",
+   "keywords": "無慈悲なる規律"
+  },
+  "Kainan's Reapers|Mir Kainan": {
+   "timing": "パッシブ",
+   "effect": "このユニット内にいるミール・カイナンが戦場に配置されている間、このユニットは**魔術師（1）**、**無慈悲なる規律（2）**を有しており、あたかも**英雄**・キーワードを持つかのように『不死の精鋭』の対象として選択することができる。"
+  },
+  "Kainan's Reapers|Nadirite Bow": {
+   "timing": "自軍側遠隔フェイズ",
+   "declare": "このユニットの**ノーヘム**が戦場に配置されている場合、このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態にある敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が4+であれば、選択された敵ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Katakros, Mortarch of the Necropolis|Aviarch Spymaster": {
+   "timing": "任意のヒーローフェイズ",
+   "declare": "このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットは指揮アビリティを使用できない。"
+  },
+  "Katakros, Mortarch of the Necropolis|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットの**無慈悲なる規律**・キーワードに付随する数値は4となる。"
+  },
+  "Katakros, Mortarch of the Necropolis|Mortarch of the Necropolis": {
+   "timing": "パッシブ",
+   "effect": "このターン中に**無慈悲なる規律**アビリティを使用しており、かつこのユニットから視認状態である味方**オシアーク・ボーンリーパー**・ユニットは、確保スコアに+3の修正を受ける。"
+  },
+  "Katakros, Mortarch of the Necropolis|Supreme Lord of the Bonereaper Legions": {
+   "timing": "任意の近接フェイズ",
+   "declare": "このユニットが近接攻撃中ではない場合、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である、まだこのフェイズ中に『**無慈悲なる規律**』アビリティを使用していない近接戦闘中である味方**オシアーク・ボーンリーパー**・ユニットを1個選択する。",
+   "effect": "選択された味方ユニットの【体力】に等しい数の**無慈悲なる規律**ポイントを消費する。その味方ユニットは、このフェイズ中『**近接攻撃**』アビリティを2回使用できる。ただし1回目の使用後、その味方ユニットはそのターン中『**後手効果**』を得る。さらに、その味方ユニットはそのフェイズ中、『**無慈悲なる規律**』アビリティを使用できなくなる。"
+  },
+  "Katakros, Mortarch of the Necropolis|You Dare?!": {
+   "timing": "バトル中1回限り、任意のターン開始時",
+   "declare": "このユニットは、バトル開始時の初期アーミーのユニットのうち半数以上が全滅している場合に限り、このアビリティを使用できる。",
+   "effect": "このバトルラウンド終了時まで、\n• このユニットが装備している**インダ＝ハート**の【攻撃回数】は+5の修正を受ける。\n• このユニットが装備している**不死の盾**の【攻撃回数】は+3の修正を受ける。\n• このユニットは、『ボーンリーパー兵団の大元帥』アビリティを使用できない。"
+  },
+  "Kavalos Deathriders|Deathrider Wedge": {
+   "timing": "任意の近接フェイズ",
+   "declare": "このユニットがこのターン中に突撃していた場合、このユニットと近接戦闘中である敵ユニットを1個選択する。その後、このユニットの近接範囲に一部でも入っている味方**リージュ＝カヴァロス**を1個選択してもよい。",
+   "effect": "選択された敵ユニットはD3ポイントの致命的ダメージを受ける。味方ユニットも選択していたならば、その敵ユニットは追加でD3ポイントの致命的ダメージを受ける。その後、このユニットと選択された味方ユニット（もしあれば）は、それぞれ10mv移動してもよい。その移動の際、敵ユニットの近接範囲を通り抜けることができるが、近接戦闘に突入するように移動を完了することはできない。",
+   "keywords": "コア、アタック、近接攻撃"
+  },
+  "Kavalos War Chariot|Pinning Attacks": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+   "declare": "このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。",
+   "effect": "このユニットが味方**リージュ＝カヴァロス（ウォーチャリオット騎乗）**の12mv以内に全体が入っている場合、以下の効果を適用する。それ以外ならば、ダイスを1個ロールする。ロール結果が3+であれば、以下の効果を適用する。\n• 選択された敵ユニットは1ポイントの致命的ダメージを受ける。\n• 選択された敵ユニットは、そのターン中に接敵移動をすることができない。"
+  },
+  "Kavalos War Chariot|Scything Assault": {
+   "timing": "任意の近接フェイズ",
+   "declare": "このユニットがこのターン中に突撃していた場合、このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "選択された敵ユニットはD3ポイントの致命的ダメージを受ける。その後、このユニットを戦場から取り除き、その敵ユニットの1mv以内に一部でも入るように再配置してもよい。",
+   "keywords": "コア、アタック、近接攻撃"
+  },
+  "Liege-Kavalos on War Chariot|Grind Them to Dust": {
+   "timing": "各ターンにつき1回（アーミー）、任意の移動フェイズ",
+   "declare": "このユニットが近接戦闘中である場合、このユニットを選択する。さらに、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である近接戦闘中の味方**カヴァロス・ウォーチャリオット**・ユニットを最大2個まで選択する。",
+   "effect": "選択された各味方ユニットは、\n• 接敵移動を1回実行する。\n• その後、選択された味方ユニットと近接戦闘中である敵ユニットを1個選択し、D3を1個ロールする。ロール結果が2+であれば、その敵ユニットはロール結果に等しい数の致命的ダメージを受ける。"
+  },
+  "Liege-Kavalos on War Chariot|Masterful Charioteer": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットがこのターン中に突撃しており、かつ近接戦闘中である場合、このユニットを選択する。さらに、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である、このターン中に突撃していた近接戦闘中の味方**カヴァロス・ウォーチャリオット**を最大2個まで選択する。",
+   "effect": "そのターン中、選択された各味方ユニットは**加護（5+）**を持つ。"
+  },
+  "Liege-Kavalos|Deathrider Commander": {
+   "timing": "パッシブ",
+   "effect": "このユニットと、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である各**カヴァロス・デスライダー**・ユニットは、『デスライダー楔陣』アビリティを使用する際に10mvではなく12mv移動できる。"
+  },
+  "Liege-Kavalos|Master of Cavalry": {
+   "timing": "リアクション：このユニットが『近接攻撃』アビリティを宣言",
+   "effect": "このターン中に『近接攻撃』アビリティを使用しておらず、かつこのユニットの近接範囲内に一部でも入っている味方**カヴァロス＝デスライダー**・ユニットを1個選択する。このユニットが使用した『**近接攻撃**』アビリティを解決した直後に、選択された味方ユニットはただちに『**近接攻撃**』アビリティを使用できる。その味方ユニットが『**近接攻撃**』アビリティを使用した場合、そのターン中、その味方ユニットによるメレーアタックのヒットロールは+1の修正を受ける。"
+  },
+  "Liege-Mortek|Clinical Efficiency": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ、リアクション：このユニットが『近接攻撃』を宣言",
+   "effect": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である、このフェイズ中に『アタック』アビリティを使用していない味方**モーテク・ガード**または**モーテク・トライアクス**、**モーテク・クロウラー**・ユニットのいずれかを1個選択する。このユニットによる『**近接攻撃**』アビリティを解決した直後に、選択された味方ユニットはあたかも自軍側遠隔フェイズであるかのように『**遠隔攻撃**』アビリティを解決するか、もしくは『**近接攻撃**』アビリティを使用してもよい。使用する場合、\n• そのターン中、選択された味方ユニットの攻撃はヒットロールに+1の修正を受ける\n• 選択された味方ユニットの遠隔武器（あれば）は、そのターン中**近接射撃**を得る。\n• 選択された味方ユニットが近接戦闘中ではなく、『**遠隔攻撃**』アビリティを使用する場合、そのすべてのレンジアタックは、このユニットと近接戦闘中であるユニットを対象にしなければならない。"
+  },
+  "Manufactured Mind": {
+   "timing": "バトル中1回限り、バトルラウンドの開始時",
+   "effect": "このバトルラウンド中、『不死の精鋭』アビリティの対象として味方**オシアーク・ボーンリーパー・英雄**を1体選ぶとき、全滅した味方**オシアーク・ボーンリーパー・英雄**を1体選択できる。"
+  },
+  "Morghast Archai|Discharge Armour": {
+   "timing": "各ターンにつき1回（アーミー）、任意のヒーローフェイズ",
+   "declare": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**オシアーク・ボーンリーパー・魔術師**・ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された味方ユニットの詠唱ロールは+1の修正を受ける。"
+  },
+  "Morghast Archai|Ebon-wrought Armour": {
+   "timing": "パッシブ",
+   "effect": "このユニットは『**呪文**』や『**奇蹟**』アビリティ、そして『**顕現**』が使用するアビリティから与えられるダメージに対して**加護（3+）**を持つ。"
+  },
+  "Morghast Harbingers|Harbingers of Death": {
+   "timing": "パッシブ",
+   "effect": "このユニットが突撃ロールをする場合、突撃ロールに用いられるダイス個数は1加算される（ダイス個数は最大3個まで）。"
+  },
+  "Mortek Crawler|Cursed Stele": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+   "effect": "そのターン中、\n• このユニットの遠隔武器は**対陣営地形（+1貫通値）**を得る。\n• このユニットが陣営地形を攻撃対象にする際、このユニットが装備している遠隔武器の【ダメージ量】は+1の修正を受ける。"
+  },
+  "Mortek Crawler|Deathly Barrage": {
+   "timing": "各ターンにつき1回（アーミー）、リアクション：このユニットが『遠隔攻撃』アビリティを宣言",
+   "effect": "その『**遠隔攻撃**』が解決された直後に、このユニットのすべての攻撃が同一の敵ユニットを対象としていた場合、ダイスを1個ロールする。このユニットが味方**モーティザン・オシフェクター**の12mv以内に全体が入っているならば、ロールは+1の修正を受ける。また、他の味方**モーテク・クロウラー・ユニット**が1個でも、このターン中に自身のすべてのレンジアタックの対象としてその敵ユニットを選択していたのであれば、ロールは+1の修正を受ける。ロール結果が4+であれば、その敵ユニットはこのターン中『**後手効果**』を得る。"
+  },
+  "Mortek Guard|Shields of the Legion": {
+   "timing": "各フェイズにつき1回（アーミー）、リアクション：このユニットの近接範囲内に一部でも入っており、かつこのユニットから視認状態であるオシアーク・ボーンリーパー・ユニットを対象に敵軍側が『アタック』アビリティを宣言",
+   "effect": "このユニットの近接範囲内に一部でも入っている味方**オシアーク・ボーンリーパー**を対象とする『**アタック**』アビリティに使用される武器は、【貫通値】に-1の修正を受ける。"
+  },
+  "Mortek Triaxes|Atavistic Nightmares": {
+   "timing": "パッシブ",
+   "effect": "このユニットの**霊炎の火鉢**が敵ユニットの横にある間、その敵ユニットの近接範囲内に一部でも入っている敵ユニットは、その確保スコアに-3の修正を受ける。\nこのユニットの**霊炎の火鉢**が1個でも横にある敵ユニットは、自身に回復や撃破された兵を復帰させるアビリティを使用する際、そのアビリティは回復や撃破された兵の復帰をしない。代わりに、自身の横にある**霊炎の火鉢**を、このユニットの横に配置する。"
+  },
+  "Mortek Triaxes|Balefire Braziers": {
+   "timing": "パッシブ",
+   "effect": "このユニットの**霊炎の火鉢**はトークンである。ユニット内の兵10体ごとに、**霊炎の火鉢**は2個存在する。このユニットを初めて戦場に配置した直後に、その横に**霊炎の火鉢**を配置する。"
+  },
+  "Mortek Triaxes|Cursed Flames": {
+   "timing": "各ターンにつき1回（アーミー）、リアクション：このユニットが『遠隔攻撃』アビリティを宣言",
+   "effect": "その『**遠隔攻撃**』アビリティを解決した直後に、そのすべての攻撃が同一の敵ユニットを対象にしており、かつこのユニットが自身の横に**霊炎の火鉢**を1個以上有している場合、それら**霊炎の火鉢**のうち1個を、その敵ユニットの横に配置する。"
+  },
+  "Mortis Reapers|Necrocaches": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "declare": "このユニットと近接戦闘中である各敵ユニットを選択する。",
+   "effect": "各敵ユニットに対して、それぞれD3を1個ロールする。ロール結果が2+であれば、ロール対象の敵ユニットは、ロール結果に等しい数の致命的ダメージを受ける。その後、このユニットは6mv移動してもよい。その移動中、敵ユニットの近接範囲内を通り抜けることができるが、近接戦闘に突入するように移動を完了することはできない。"
+  },
+  "Mortis Reapers|No Escaping the Tithe": {
+   "timing": "各ターンにつき1回（アーミー）、任意の移動フェイズ",
+   "declare": "このユニットの6mv以内に一部でも入っている敵がいない場合、このユニットの3mv以内に一部でも入っている特殊地形を1個選択する。",
+   "effect": "このユニットを戦場から取り除き、選択された特殊地形の3mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に再配置する。"
+  },
+  "Mortisan Boneshaper|Boneshaper": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットが近接戦闘中ではない場合、全滅した味方**モーテク・ガード**または**モーテク・トライアクス**・ユニットを1個選択する。",
+   "effect": "このユニットの12mv以内に全体が入るように、かつ近接戦闘に突入しないように、選択された味方ユニットの兵数の半分（端数切り上げ）で構成された代替ユニットを1個配置する。"
+  },
+  "Mortisan Boneshaper|Legion Quartermaster": {
+   "timing": "パッシブ",
+   "effect": "このユニットの12mv以内に全体が入っている英雄でない味方**オシアーク・ボーンリーパー**・ユニットが『再集結』指揮アビリティを使用する際、自軍はD6の再集結ロールを追加で3回実行できる。"
+  },
+  "Mortisan Ossifector|Refined Creations": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**モーテク・クロウラー**または**ゴシザール・ハーヴェスター**、**モルガスト・アルカイ**、**モルガスト・ハービンジャー**・ユニットのいずれかを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された味方ユニットが装備している武器の【貫通値】は+1の修正を受ける。"
+  },
+  "Mortisan Soulmason|Soul-guide": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "詠唱者の12mv以内に全体が入っており、かつ詠唱者から視認状態である味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "そのターン中、選択された味方ユニットは『**先手効果**』を得る。",
+   "keywords": "呪文"
+  },
+  "Mortisan Soulreaper|Necrotic Blast": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中である各敵ユニットを選択する。",
+   "effect": "選択された各敵ユニットに対して、それぞれD3を1個ロールする。ロール結果が2+であれば、その敵ユニットはロール結果に等しい数の致命的ダメージを受ける。このアビリティを解決した直後に、このターン中に、このアビリティによって割り振られたダメージの合計と同じ数の**無慈悲なる規律**ポイントを自軍は獲得する。"
+  },
+  "Mortisan Soulreaper|Soulreaper": {
+   "timing": "パッシブ",
+   "effect": "このユニットと近接戦闘中である敵ユニットのメレーアタックは、ウーンズロールに-1の修正を受ける。"
+  },
+  "Nadirite Wedge": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このターン中に突撃した味方**オシアーク・ボーンリーパー・**ユニットを1個選択し、このアビリティを使用する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、このユニットが装備している近接武器（**随行者**武器も含む）は**クリティカル（2ヒット）**を得る。"
+  },
+  "Nagash, Supreme Lord of the Undead|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、自身のパワーレベルは3ポイント低下する。"
+  },
+  "Nagash, Supreme Lord of the Undead|Hand of Dust": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "declare": "このユニットと近接戦闘中であり、かつこのユニットから視認状態である敵**英雄**または**大型獣**を1体選択する。",
+   "effect": "アビリティを使用したプレイヤーは、左右どちらかの手に（あるいは適切な容器2つのどちらかに）ダイスを1つ隠す。対戦相手のプレイヤーは、アビリティを使用したプレイヤーの左右の手（あるいは2つの容器）のどちらかを選ぶ。ダイスが隠れている方が選ばれた場合、このアビリティは何の効果も発揮しない。ダイスが無い方が選ばれたら、選択された敵は自動的に全滅する。",
+   "keywords": "蹂躙"
+  },
+  "Nagash, Supreme Lord of the Undead|Invocation of Nagash": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットは、各フェイズにつき2回以上この呪文を詠唱できる。このユニットの18mv以内に全体が入っており、かつこのユニットから視認状態で、このターン中にこの呪文の対象としてまだ選択されていないユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "敵ユニットが選択された場合、その敵ユニットはD3ポイントの致命的ダメージを受ける。味方**死の大同盟**・ユニットが選択されたならば、以下の効果の中から1つを選択する。\n• その味方ユニット内の撃破されている兵を、その味方ユニットに復帰させる（復帰する兵の【体力】合計が最大3までになるように）。\n• 次の自軍側ターン開始時まで、選択された味方ユニットは**加護（5+）**を持つ。",
+   "keywords": "呪文"
+  },
+  "Nagash, Supreme Lord of the Undead|Supreme Lord of the Undead": {
+   "timing": "バトル中1回限り、自軍側ヒーローフェイズ",
+   "declare": "全滅している**英雄**でも**固有**でもない味方**死の大同盟**・ユニットを1個選択する。",
+   "effect": "このユニットの12mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に、選択された味方ユニットと同一の代替ユニットを1個配置する。"
+  },
+  "Nagash, Supreme Lord of the Undead|The Staff of Power": {
+   "timing": "パッシブ",
+   "effect": "このユニットがこのターン中に呪文を暴発させていない間、このユニットの詠唱ロールは+2の修正を受ける。このユニットが呪文を暴発させたとしても、このユニットはこのターンにこれ以上呪文を詠唱できないという制限を無視する。"
+  },
+  "Necropolis Stalkers|Fourfold Slayers": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "選択された敵ユニット内にいる兵の数と等しい個数のダイスをロールする。ロール結果で6が出るたびに、その敵ユニットは1ポイントの致命的ダメージを受ける。選択された敵ユニットに3体以上の兵がいる場合、代わりにロール結果で5+が出るたびに、その敵ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Nightmare Predator|Death Incarnate": {
+   "timing": "任意のターン終了時",
+   "effect": "このターン中、この**顕現**が全滅または追放されており、召喚者であったユニットが戦場に配置されている場合、ダイスを1個ロールする。このターン中、この**顕現**のメレーアタックによって敵兵が1体でも撃破されている場合、ロールは+1の修正を受ける。ロール結果が4+であれば、召喚者であったユニットの12mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に、この**顕現**を再配置する。その召喚者であったユニットが、この**顕現**を召喚したことになる。"
+  },
+  "Perpetually Empowered Weapons": {
+   "timing": "パッシブ",
+   "effect": "このユニットが装備している近接武器（**随行者**武器も含む）は**クリティカル（2ヒット）**を得る。"
+  },
+  "Pitiless Assault": {
+   "timing": "リアクション：このフェイズ中に『無慈悲なる規律』アビリティを使用していない自軍側ユニットが『近接攻撃』アビリティを宣言",
+   "used_by": "その『**近接攻撃**』アビリティを使用するユニット。",
+   "effect": "1**無慈悲なる規律**ポイントを消費する。その『**近接攻撃**』アビリティによる攻撃は、ウーンズロールに+1の修正を受ける。",
+   "keywords": "無慈悲なる規律"
+  },
+  "Plentiful Bone": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "**固有**でない味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。その後、選択された魔術師から12mv以内に全体が入っており、かつ視認状態である**飛行**でない味方**オシアーク・ボーンリーパー**・ユニットを最大3個まで選択する。",
+   "effect": "選択された各味方ユニットに対して、それぞれD3を1個ロールする。ロール結果が2+であれば、\n• ロール対象が損傷状態である場合、そのロール対象を**回復（X）**する。Xの値は、そのロール結果に等しい値である。\n• その味方ユニットが損傷状態ではない場合、そのユニット内の撃破されている兵を復帰させる（復帰する兵の【体力】合計が最大でそのロール結果に等しい値までになるように）。"
+  },
+  "Remorseless March": {
+   "timing": "自軍側移動フェイズ",
+   "declare": "このフェイズ中、『**無慈悲なる規律**』アビリティを使用していない味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、このアビリティを使用する。",
+   "effect": "1**無慈悲なる規律**ポイントを消費する。このフェイズ中、その味方ユニットの【移動力】は+3mvの修正を受ける。そのターン中、その味方ユニットは『**全力移動**』アビリティを使用できない。",
+   "keywords": "無慈悲なる規律"
+  },
+  "Ruthless Extermination": {
+   "timing": "各ターンにつき1回（アーミー）、リアクション：このフェイズ中に『無慈悲なる規律』アビリティを使用していない自軍側ユニットが『遠隔攻撃』アビリティを宣言",
+   "used_by": "その『**遠隔攻撃**』アビリティを使用するユニット。",
+   "effect": "1**無慈悲なる規律**ポイントを消費する。その『**遠隔攻撃**』アビリティの攻撃によって与えられるダメージに対して、加護ロールは-1の修正を受ける。",
+   "keywords": "無慈悲なる規律"
+  },
+  "Scarabaean Cloak": {
+   "timing": "バトル中1回限り、自軍側移動フェイズ",
+   "effect": "このユニットを戦場から取り除き、あらゆる敵ユニットから9mvより遠く離れた戦場の位置に再配置する。"
+  },
+  "Scourge of Aqshy: Mortis Reapers|Terminate Their Command": {
+   "timing": "各ターンにつき1回（アーミー）、任意の突撃フェイズ",
+   "declare": "このユニットが近接戦闘中である場合、このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵**英雄**を1個選択する。",
+   "effect": "選択された敵ユニットが他のすべての敵ユニットから3mvより遠く離れている場合、以下の効果を適用する。それ以外の場合、ダイスを1個ロールする。ロール結果が3+の場合、以下の効果を適用する。\nこのユニットを戦場から取り除き、選択された敵ユニットの1mv以内に一部でも入るように再配置する。"
+  },
+  "Scourge of Aqshy: Mortis Reapers|The Coldness of Death": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "effect": "このターン中に、このユニットのメレーアタックにより敵**英雄**が撃破されていた場合、対戦相手の**激憤レベル**は0に減少する。"
+  },
+  "Scourge of Aqshy: Vokmortian, Master of the Bone-tithe|Cowed Into Inaction": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵**英雄**を1個選択し、2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、選択された敵ユニットの近接範囲内の敵ユニットが指揮アビリティを使用するたびに、敵軍側はその指揮アビリティを使用するために**憤激ダイス**を1個消費しなければ、その指揮アビリティは効果を発揮しない。追加の憤激ダイスを消費しなかった場合も、指揮アビリティは依然として使用されたものとみなされ、その指揮アビリティを使用するために消費した指揮ポイントも失われる。",
+   "keywords": "呪文"
+  },
+  "Scourge of Aqshy: Vokmortian, Master of the Bone-tithe|Master of the Bone-Tithe": {
+   "timing": "自軍側ヒーローフェイズ",
+   "effect": "敵軍側は、以下の効果から1つを選択しなければならない。\n**骨税を支払う：**敵軍側は、戦場にいる自軍ユニットを1個選択する。その時、**顕現**あるいは特殊地形を選択することはできない。その後：\n• 選択された敵ユニットはD6ポイントの致命的ダメージを受ける。\n• 次の自軍側ターン開始時まで、選択された敵ユニットは回復ができない。また、その敵ユニット内の撃破された兵を復帰させることができない。\n**オシアークの正当な取り分を拒絶する：**以下の効果から1個選択する：\n• 自軍側は**無慈悲なる規律**ポイントを4ポイント獲得する。\n• 自軍側が確保していない作戦目標を1個選択する。そのターン中、選択された作戦目標を争奪している味方**オシアーク・ボーンリーパー**・ユニットは、確保スコアに+5の修正を受ける。\n• そのターン中、このユニットの**死の睥睨**の【攻撃回数】は+2の修正を受け、【射程距離】は+6mvの修正を受ける。"
+  },
+  "Scourge of Ghyran Mortek Guard|Shields of the Legion": {
+   "timing": "各フェイズにつき1回（アーミー）、リアクション：このユニットの近接範囲内に一部でも入っている1個の味方オシアーク・ボーンリーパー・戦争兵器または魔術師が『アタック』アビリティの対象として選択されたが『アタック』アビリティの対象として選択された",
+   "effect": "そのフェイズ中、その味方ユニットを攻撃対象とする武器の【貫通値】は-1の修正を受ける。"
+  },
+  "Scourge of Ghyran Mortisan Boneshaper|Boneshaper": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットが近接戦闘中ではない場合、全滅している味方**モーテク・ガード**・ユニットを1個選択する。",
+   "effect": "このユニットの12mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に、選択された味方ユニットの兵数の半分（端数切り上げ）で構成された代替ユニットを配置する。"
+  },
+  "Scourge of Ghyran Mortisan Boneshaper|Legion Quartermaster": {
+   "timing": "パッシブ",
+   "effect": "このユニットの12mv以内に全体が入っている英雄でない味方**オシアーク・ボーンリーパー**・ユニットが『再集結』指揮アビリティを使用する際、自軍はD6の再集結ロールを追加で3回実行できる。"
+  },
+  "Shard of Necris": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象とする攻撃において、このユニットが現在のターン中に突撃しておらず、かつ修正前のヒットロールで出目1-4が出たならば、その攻撃は失敗し、攻撃手順を終了する。"
+  },
+  "Silent Empire": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された敵ユニットが中立地帯や自軍側陣地内に一部でも入っている間、その敵ユニットの最大確保スコアは1となる。"
+  },
+  "Soul-Claim": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。次に、選択された魔術師の18mv以内に一部でも入っており、かつその魔術師から視認状態である敵ユニットを1個選択する。その後、選択された魔術師の12mv以内に全体が入っており、かつその魔術師から視認状態である味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "選択された敵ユニットはD3ポイントの致命的ダメージを受ける。このアビリティによって1体以上の兵が撃破された場合、以下から効果を1つ選択する。\n• 選択された味方ユニットを**回復（3）**する。\n• 選択された味方ユニット内の撃破されている兵を、その味方ユニットに復帰させる（復帰する兵の【体力】合計が最大3までになるように）。",
+   "keywords": "呪文"
+  },
+  "Soulstealer Carrion|Aviarch Sentry": {
+   "timing": "パッシブ",
+   "effect": "敵ユニットがこの**顕現**の6mv以内に一部でも入っている間、その敵ユニットの確保スコアは-10の修正を受ける。"
+  },
+  "Soulweb Gem": {
+   "timing": "バトル中1回限り、任意のターン終了時",
+   "declare": "このアビリティは、このユニットが現在のターン中に全滅していた場合にのみ使用できる。",
+   "effect": "このユニットと同一の代替ユニット1個を、自軍側陣地に全体が入るように、かつ近接戦闘に突入しないように配置する。その後、その代替ユニットの【体力】から、1減算したポイントのダメージをこのユニットに割り振る（それらのダメージに対して加護ロールはできない）。"
+  },
+  "Spearhead|Calculated Feint": {
+   "timing": "パッシブ",
+   "effect": "味方**騎兵**ユニットは、**『退却』**アビリティによる致命的ダメージを受けない。"
+  },
+  "Spearhead|Cold Savagery": {
+   "timing": "任意の近接フェイズ",
+   "declare": "自軍側ジェネラルがこのターン中に突撃しておらず、かつ近接戦闘中である場合、自軍側ジェネラルの12mv以内に全体が入っており、かつ自軍側ジェネラルから視認状態である味方ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された味方ユニットが装備している近接武器（**『随行者』**武器を含む）の【攻撃回数】は+1の修正を受ける。"
+  },
+  "Spearhead|Contingent Arrival": {
+   "timing": "自軍側移動フェイズ",
+   "effect": "このユニットを戦場端の3mv以内に全体が入るように、かつあらゆる敵ユニットから6mvより遠く離れている戦場の任意の位置に配置する。",
+   "keywords": "コア"
+  },
+  "Spearhead|Dread Descent": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側移動フェイズ",
+   "effect": "あらゆる敵ユニットから6mvより遠く離れた戦場の任意の位置に、このユニットを配置する。"
+  },
+  "Spearhead|Empower Nadirite Weapons": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "自軍側ジェネラルの12mv以内に全体が入っており、かつそのジェネラルから視認状態である味方**モーテク・ガード**・ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "ロール結果が5+であれば、次の自軍側ターン開始時まで、選択された味方ユニットが装備している近接武器の【貫通値】は+1の修正を受ける。"
+  },
+  "Spearhead|Feigned Retreat": {
+   "timing": "バトル中1回限り、自軍側移動フェイズ",
+   "effect": "味方ユニットは現在のターン中に**『退却』**アビリティを使用していたとしても、そのターン中に**『突撃』**アビリティを使用できる。"
+  },
+  "Spearhead|Gothizzar Harvester|Bone Harvest": {
+   "timing": "パッシブ",
+   "effect": "このユニットと**近接戦闘中である**敵兵が撃破されるたびに、このユニットは1**骨税ポイント**を獲得する。このユニットは最大6**骨税ポイント**まで、骨税ポイントを獲得できる。"
+  },
+  "Spearhead|Gothizzar Harvester|Repair Construct": {
+   "timing": "任意のターン終了時",
+   "declare": "このユニットの6mv以内に一部でも入っている味方**モーテク・ガード**・ユニットを1個選択する。次に、このユニットが持っている**骨税ポイント**ごとに、それぞれダイスを1個ロールする。",
+   "effect": "ロール結果で4+が出るたびに、選択された味方ユニットに兵1体を復帰させることができる。最後に、このユニットの**骨税ポイント**を0にリセット。"
+  },
+  "Spearhead|Helm of Tyranny": {
+   "timing": "バトル中1回限り、自軍側ターン終了時",
+   "declare": "自軍側ジェネラルの12mv以内に一部でも入っている敵ユニットを1個選択し、ダイスを1個ロールする。",
+   "effect": "ロール結果が3+であれば、そのターン中、選択された敵ユニットの確保スコアは-3の修正を受ける。"
+  },
+  "Spearhead|Immaculate Generalship": {
+   "timing": "パッシブ",
+   "effect": "自軍の**規律ロール**は+1の修正を受ける。"
+  },
+  "Spearhead|Immortis Guard|Soulbound Protectors": {
+   "timing": "パッシブ",
+   "effect": "自軍側ジェネラルがこのユニットの近接範囲内に一部でも入っている間、そのジェネラルは**加護（5+）**を持つ。"
+  },
+  "Spearhead|Imperious Commander": {
+   "timing": "自軍側移動フェイズ",
+   "declare": "自軍側ジェネラルの12mv以内に全体が入っており、かつ自軍側ジェネラルから視認状態である味方ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された味方ユニットの【移動力】は+2mvの修正を受ける。"
+  },
+  "Spearhead|Inpenetrable Ranks": {
+   "timing": "バトル中1回限り、任意の近接フェイズ",
+   "declare": "味方ユニットを1個選択し、このアビリティを使用する。",
+   "effect": "そのフェイズの終了時まで、選択された味方ユニットの加護ロールは+1の修正を受ける。",
+   "keywords": "オシアークの君命"
+  },
+  "Spearhead|Kavalos Deathriders|Deathrider Wedge": {
+   "timing": "自軍側突撃フェイズ",
+   "effect": "このフェイズ中、以下の効果が適用される：\n• このユニット内の兵は、あたかも自身が**飛行**を有するかのように、敵**歩兵**・兵を通り抜けることができる。\n• このユニットが**突撃**を実行した直後、このユニットの移動経路上にいた敵ユニットを1個選択し、ダイスを1個ロール。ロール結果が2+であれば、選択された敵ユニットはD3ポイントの致命的ダメージを受ける。",
+   "keywords": "オシアークの君命"
+  },
+  "Spearhead|Kavalos Lance": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "味方ユニットを1個選択する。",
+   "effect": "このターン中、その味方ユニットはあたかも**飛行**を持つかのように敵兵を通り抜けることができる。"
+  },
+  "Spearhead|Liege-Kavalos|Signal the Advance": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方ユニットを1個選択する。",
+   "effect": "ロール結果が3+であれば、そのターン中、選択された味方ユニットの突撃ロールは+1の修正を受ける。"
+  },
+  "Spearhead|Lode of Saturation": {
+   "timing": "パッシブ",
+   "effect": "このジェネラルを対象とするメレーアタックにおいて用いられる近接武器は、【貫通値】に-1の修正を受ける。"
+  },
+  "Spearhead|Marrowpact": {
+   "timing": "パッシブ",
+   "effect": "自軍側ジェネラルが**『近接攻撃』**アビリティを使用する際、すべての攻撃が解決された後、自軍側ジェネラルを**回復（X）**する。それらの攻撃によって割り振られたダメージの合計を**X**とする。"
+  },
+  "Spearhead|Mend Constructs": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "自軍側ジェネラルの12mv以内に全体が入っており、かつそのジェネラルから視認状態である味方ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "ロール結果が6+であれば、選択された味方ユニットを回復（D3）する。"
+  },
+  "Spearhead|Mighty Archaeossian": {
+   "timing": "パッシブ",
+   "effect": "自軍側ジェネラルは**加護（5+）**を持つ。"
+  },
+  "Spearhead|Morghast Archai|Heralds of Nagash": {
+   "timing": "パッシブ",
+   "effect": "このユニットが自軍側ジェネラルの12mv以内に全体が入っていない間、このユニットによる規律ロールは+1の修正を受ける。"
+  },
+  "Spearhead|Mortek Guard|Nadirite Assault": {
+   "timing": "任意の近接フェイズ",
+   "effect": "そのフェイズの終了時まで、このユニットが装備している近接武器は**クリティカル（2ヒット）**を得る。",
+   "keywords": "オシアークの君命"
+  },
+  "Spearhead|Mortisan Ossifector|Refined Creations": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "ロール結果が5+であれば、次の自軍側ターン開始時まで、選択された味方ユニットが装備している近接武器は**クリティカル（2ヒット）**を得る。"
+  },
+  "Spearhead|Mortisan Soulreaper|Drain Vitality": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "ロール結果が6+であれば、次の自軍側ターン開始時まで、選択された敵ユニットによる攻撃のヒットロールは-1の修正を受ける。"
+  },
+  "Spearhead|Mortisan Soulreaper|Reknit Construct": {
+   "timing": "自軍側移動フェイズ",
+   "declare": "このユニットの12mv以内に全体が入っており、かつ近接戦闘中ではない味方ユニットを1個選択する。",
+   "effect": "選択された味方ユニットを**回復（D3）**する。選択された味方ユニットが損傷状態ではない場合、その味方ユニットを回復する代わりに【体力】の合計がD3以下になる数の撃破された兵を**復帰**させることができる。",
+   "keywords": "オシアークの君命"
+  },
+  "Spearhead|Murderous Blade": {
+   "timing": "パッシブ",
+   "effect": "自軍側ジェネラルの**指揮官の刃**はクリティカル（2ヒット）を得る。"
+  },
+  "Spearhead|Murderous Drive": {
+   "timing": "パッシブ",
+   "effect": "自軍側ジェネラルの**魂刈りの鎌**は**クリティカル（2ヒット）**を持つ。"
+  },
+  "Spearhead|Necropolis Stalkers|Switch Aspects": {
+   "timing": "任意の近接フェイズ",
+   "effect": "このターン中に適用される効果を以下の中から1個選択する。\n**受け流しの相：**このユニットを対象とするメレーアタックは、ヒットロールに-1の修正を受ける。\n**破壊の相：**このユニットのメレーアタックによるダメージに対して、加護ロールを実行することはできない。"
+  },
+  "Spearhead|Peerless Cohesion": {
+   "timing": "各ターンにつき1回（アーミー）、リアクション：『無慈悲なる規律』アビリティを宣言",
+   "effect": "このフェイズ中、自軍は2回目となる『無慈悲なる規律』アビリティを使用してもよい。ただし、1回目に選択したものと異なる味方ユニットを選択しなければならない。"
+  },
+  "Spearhead|Re-form Ranks": {
+   "timing": "バトル中1回限り、自軍側移動フェイズ",
+   "declare": "近接戦闘中である味方**モーテク・ガード**・ユニットを1個選択し、このアビリティを使用する。",
+   "effect": "このフェイズ中、選択された味方ユニットは**『退却』**アビリティを使用した場合に、致命的ダメージを受けない。",
+   "keywords": "オシアークの君命"
+  },
+  "Spearhead|Reinforced Constructs": {
+   "timing": "バトル中1回限り、任意の近接フェイズ",
+   "declare": "味方ユニットを1個選択する。",
+   "effect": "そのターン中、選択された味方ユニットは**加護（5+）**を持つ。"
+  },
+  "Spearhead|Relentless Discipline": {
+   "timing": "各フェイズにつき1回（アーミー）",
+   "declare": "味方ユニット1個を選択する。",
+   "effect": "D6の**規律ロール**をする。選択された味方ユニットが自軍側ジェネラルの12mv以内に全体が入っている場合、その規律ロールは+1の修正を受ける。ロール結果が4+であれば、以下の効果から1つを選択する：\n• **自軍側移動フェイズ：**そのフェイズ中、その味方ユニットの【移動力】は+2mvの修正を受ける。\n• **自軍側突撃フェイズ：**そのフェイズ中、その味方ユニットの突撃ロールは+1の修正を受ける。\n• **任意の近接フェイズ：**そのフェイズ中、その味方ユニットのメレーアタックはウーンズロールに+1の修正を受ける\n• **任意の近接フェイズ：**そのフェイズ中、その味方ユニットは**加護（5+）**を持つ。"
+  },
+  "Spearhead|Shard Storm": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "自軍側ジェネラルの12mv以内に一部でも入っており、かつこのジェネラルから視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "ロール結果が7+であれば、選択された敵ユニット内にいる兵数と同じ個数のダイスをロールする。そのロール結果で5+が出るたび、その敵ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Spearhead|Teratic Cohort|Bone-deep Savagery": {
+   "timing": "任意の移動フェイズ",
+   "effect": "このユニットは3mv移動できる。また近接戦闘に突入するように移動できる場合、そうしなければならない。その味方ユニットが移動開始時に近接戦闘中であった場合、近接戦闘に突入するように移動を完了しなければならない。",
+   "keywords": "コア、移動"
+  },
+  "Spearhead|Unstoppable Commander": {
+   "timing": "自軍側移動フェイズ",
+   "declare": "自軍側ジェネラルの12mv以内に全体が入っている味方**モーテク・ガード**・ユニットを1個選択し、ダイスを1個ロールする。",
+   "effect": "ロール結果が2+であれば、このフェイズ中、その味方ユニットの【移動力】は+3mvの修正を受ける。"
+  },
+  "Summon Bone-tithe Shrieker": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "戦場に味方**骨税の金切り魔**が1個も存在しない場合、この呪文を唱える際に味方**オシアーク・ボーンリーパー・魔術師**を1体選択し、2D6の詠唱ロールをする。",
+   "effect": "詠唱者の12mv以内に全体が入るように、かつ詠唱者から視認状態になるように、なおかつあらゆる敵ユニットから9mvより遠く離れた位置に**骨税の金切り魔**を1個配置する。",
+   "keywords": "呪文、召喚"
+  },
+  "Summon Nightmare Predator": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "戦場に味方**悪夢の捕食者**が1個も存在しない場合、この呪文を唱える際に味方**オシアーク・ボーンリーパー・魔術師**を1体選択し、2D6の詠唱ロールをする。",
+   "effect": "詠唱者の12mv以内に全体が入るように、かつ詠唱者から視認状態になるように、なおかつあらゆる敵ユニットから9mvより遠く離れた位置に**悪夢の捕食者**を1個配置する。",
+   "keywords": "呪文、召喚"
+  },
+  "Summon Soulstealer Carrion": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "戦場に味方**魂泥棒の猛禽**が1個も存在しない場合、この呪文を唱える際に味方**オシアーク・ボーンリーパー・魔術師**を1体選択し、2D6の詠唱ロールをする。",
+   "effect": "詠唱者の12mv以内に全体が入るように、かつ詠唱者から視認状態になるように、なおかつあらゆる敵ユニットから9mvより遠く離れた位置に**魂泥棒の猛禽**を1個配置する。",
+   "keywords": "呪文、召喚"
+  },
+  "Teratic Cohort|Beast": {
+   "timing": "パッシブ",
+   "effect": "このユニットは最大1の確保スコアを持つ。"
+  },
+  "Teratic Cohort|Bone-deep Savagery": {
+   "timing": "各ターンにつき1回（アーミー）、任意のヒーローフェイズ",
+   "effect": "このユニットは3mv移動できる。また近接戦闘に突入するように移動できる場合、そうしなければならない。その味方ユニットが移動開始時に近接戦闘中であった場合、近接戦闘に突入するように移動を完了しなければならない。"
+  },
+  "Teratic Cohort|Hunters Unleashed": {
+   "timing": "初期配置フェイズ",
+   "effect": "このユニットは、あたかも自軍側移動フェイズ中かのように『通常移動』アビリティを1回使用できる。"
+  },
+  "Unfaltering Pace": {
+   "timing": "リアクション：味方オシアーク・ボーンリーパー・ユニット1個が『全力移動』アビリティを宣言",
+   "used_by": "その『**全力移動**』アビリティを使用するユニット。",
+   "effect": "このユニットの移動距離を決定する際、ロール結果が1-3であれば、代わりに4の値を用いてもよい。"
+  },
+  "Utterly Unquestioning": {
+   "timing": "パッシブ",
+   "effect": "このユニットが**無慈悲なる規律**アビリティを使用するたびに、リアクションとしてダイスを1個ロールする。ロール結果が5+であった場合、そのアビリティに必要な**無慈悲なる規律**ポイントは1ポイント減算される。"
+  },
+  "Vokmortian, Master of the Bone-tithe|Mortal Contract": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、選択された敵ユニットが『**コア**』アビリティを使用するたびに、リアクションとしてD3を1個ロールする。ロール結果が2+であれば、その敵ユニットはロール結果に等しい数の致命的ダメージを受ける。このアビリティによって敵ユニットが全滅した場合、その敵ユニットの『**コア**』アビリティの効果は解決されない。",
+   "keywords": "呪文"
+  },
+  "Vokmortian, Master of the Bone-tithe|Voice of Nagash": {
+   "timing": "敵軍側ヒーローフェイズ",
+   "declare": "このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。",
+   "effect": "このターン中、選択された敵ユニットは、他の敵ユニットが使用する『**コア**』でないアビリティの対象として選択できず、その効果を受けることもできない。"
+  }
+ },
+ "group_names": {
+  "Border Guards": "境界防衛軍",
+  "Hekatos Drillmasters": "ヘカトス調練団",
+  "Horrors of the Necropolis": "死都の恐怖",
+  "Imbuements of the Tithe-Reapers": "骨税徴収吏の吹き込み",
+  "Kavalos Vanguard": "カヴァロス先遣隊",
+  "Lore of Necrotheurgy": "死霊神秘術の伝承",
+  "Lore of Ossian Sorcery": "オッシア魔術の呪文伝承",
+  "Mortisan Elite": "モーティザン精鋭部隊",
+  "Mortisan Refinements": "モーティザン改良術",
+  "Ossiarch Bonereapers Battle Traits": "戦闘特性",
+  "Relics of the Empire": "帝国の至宝",
+  "Remorseless Conquerors": "無慈悲なる征服者",
+  "Ruthless Legion": "苛烈なる兵団",
+  "The Inevitable Empire": "やがて来たるべき帝国",
+  "Tithe Guards": "骨税の守り手",
+  "Tithe-reaper Echelon": "骨税狩りの梯団"
+ },
+ "group_texts": {
+  "Imbuements of the Tithe-Reapers": "（**英雄**のみ）",
+  "Kavalos Vanguard Enhancements": "自軍側ジェネラルに、以下の強化の中から1つを付与する。",
+  "Kavalos Vanguard Regiment Abilities": "以下の連隊アビリティの中から1つを選択する。",
+  "Mortisan Elite Enhancements": "自軍のジェネラルに、以下の強化の中から1つを付与する。",
+  "Mortisan Elite Regiment Abilities": "以下の連隊アビリティの中から1つを選択する。",
+  "Mortisan Refinements": "『モーティザン改良術』は**英雄でないオシアーク・ボーンリーパー**・ユニットに付与できる固有の強化である。1個のユニットは『モーティザン改良術』を1個だけ持つことができる。",
+  "Ossiarch Bonereapers Battle Traits": "オシアーク・ボーンリーパーのアーミーは、以下のアビリティを使用できる：",
+  "Relics of the Empire": "（**英雄**のみ）",
+  "Tithe-reaper Echelon Enhancements": "自軍のジェネラルに、以下の強化の中から1つを付与する。",
+  "Tithe-reaper Echelon Regiment Abilities": "以下の連隊アビリティの中から1つを選択する。"
+ },
+ "wargear_option_texts": {
+  "Bone-tithe Nexus": "以下の共通特殊地形アビリティが、この特殊地形に適用される（特殊地形、1.2）：遮蔽物、不安定",
+  "Kainan's Reapers": "このユニット内の兵は以下の通り：\n• ミール・カイナン（魂刈りの斧を装備している）\n• ミール・カイナン（ナディライトの武器を装備している）\n• カルー（ナディライトの武器を装備している）\n• セーニャ（ナディライトの武器を装備している）\n• ハコール（ナディライトの武器を装備している）\n• ノーヘム（ナディライトの武器を装備している）"
+ },
+ "faction_name": "オシアーク・ボーンリーパー"
+}

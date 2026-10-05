@@ -1,4 +1,4 @@
-# Ossiarch Bonereapers ウォースクロール一覧
+# オシアーク・ボーンリーパー(Ossiarch Bonereapers) ウォースクロール一覧
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
@@ -7,7 +7,7 @@
 
 ---
 
-## Arch-Kavalos Zandtos
+## アーク＝カヴァロス・ザンドトス(Arch-Kavalos Zandtos)
 
 **ポイント:** 220pt / **モデル数:** 1 / **ベースサイズ:** 80mm
 
@@ -25,30 +25,30 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| The Dark Lance | 5 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage) |
-| Kavalos Steed’s Hooves, Teeth and Barbed Tails | 4 | 5+ | 3+ | - | 1 | Companion |
+| 昏き槍(The Dark Lance) | 5 | 3+ | 3+ | 2 | 2 | 突撃（+1ダメージ量）(Charge (+1 Damage)) |
+| カヴァロス騎乗獣の蹄、歯、そして有棘の尻尾(Kavalos Steed’s Hooves, Teeth and Barbed Tails) | 4 | 5+ | 3+ | - | 1 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Still Their Breath!**（Any Combat Phase） ［Relentless Discipline］
-  - 宣言: Pick a friendly **non-HERO OSSIARCH BONEREAPERS CAVALRY** unit wholly within 12" of this unit to be the target.
-  - 効果: Spend 1 **relentless discipline** point. If this unit is in combat, no **relentless discipline** points are spent. The target's melee weapons have **Charge (+ 1 Damage)** for the rest of the turn.
-- **Unstoppable Charge**（Once Per Battle, Any Combat Phase）
-  - 宣言: If this unit charged this turn, pick each enemy unit in combat with it to be the targets.
-  - 効果: The targets have **STRIKE-LAST** for the rest of the turn.
+- **息の根を止めろ！(Still Their Breath!)**（任意の近接フェイズ） ［無慈悲なる規律］
+  - 宣言: このユニットの12mv以内に全体が入っている英雄でない味方**オシアーク・ボーンリーパー・騎兵**・ユニットを1個選択する。
+  - 効果: 1**無慈悲なる規律**ポイントを消費する。このユニットが近接戦闘中ならば、**無慈悲なる規律**ポイントは消費しない。このターン中、その味方ユニットの近接武器は**突撃**（+1ダメージ量）を得る。
+- **阻止不能な突撃(Unstoppable Charge)**（バトル中1回限り、任意の近接フェイズ）
+  - 宣言: このユニットがこのターン中に突撃していた場合、このユニットと近接戦闘中である各敵ユニットを選択する。
+  - 効果: そのターン中、選択された各敵ユニットは『**後手効果**』を得る。
 
 **連隊オプション:**
 
 - 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
-**キーワード:** Unique, Hero, Cavalry, Ward (6+), Relentless Discipline (7), Death, Ossiarch Bonereapers
+**キーワード:** 固有、英雄、騎兵、加護（6+）、無慈悲なる規律（7）、死の大同盟、オシアーク・ボーンリーパー（Unique, Hero, Cavalry, Ward (6+), Relentless Discipline (7), Death, Ossiarch Bonereapers）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Legion Subcommander*.
 
 ---
 
-## Arkhan the Black, Mortarch of Sacrament
+## 聖晩餐の御使、黒のアーカン(Arkhan the Black, Mortarch of Sacrament)
 
 **ポイント:** 430pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
@@ -66,23 +66,23 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Razarak’s Ebon Claws（戦傷時） | 5 | 4+ | 2+ | 3 | 3 | Companion |
-| Zefet-kar and Khenash-an | 4 | 3+ | 4+ | 1 | D3 | - |
+| ラザラックの黒檀の鉤爪(Razarak’s Ebon Claws)（戦傷時） | 5 | 4+ | 2+ | 3 | 3 | 随行者(Companion) |
+| ゼフェト＝カールとヘナッシュ＝アン(Zefet-kar and Khenash-an) | 4 | 3+ | 4+ | 1 | D3 | - |
 
 **アビリティ:**
 
-- **Battle Damaged**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of **Razarak’s Ebon Claws** is 3.
-- **Mortarch of Sacrament**（Once Per Turn, Reaction: Opponent declared a **SPELL** ability for a unit within 18" of this unit）
-  - 効果: Roll 2D6. If the roll exceeds the casting roll for the spell, then the spell is unbound, its effect is not resolved and that **SPELL** ability cannot be used by enemy units until the start of your next turn.
-- **Curse of Years**（Your Hero Phase / 詠唱/詠誦値 7） ［Spell］
-  - 宣言: Pick a visible enemy unit within 12" of this unit to be the target, then make a casting roll of 2D6.
-  - 効果: Roll 10 dice. For each 6: • Give the target 1 **necrotic withering** point. • Roll an extra dice. For each 5+ on those extra dice, repeat the above bullet points, Then, do the same for each 4+ and then each 3+. Finally, for each 2+, give the target 1 **necrotic withering** point (do not roll any extra dice). After a roll, if the target has 8 or more **necrotic withering** points, it is automatically destroyed. Otherwise, after the last roll, inflict an amount of mortal damage on the target equal to the number of **necrotic withering** points it has. Then, those **necrotic withering** points are lost.
-- **The Doom of Traitors**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
-  - 宣言: If this unit charged this turn, pick an enemy unit in combat with it to be the target.
-  - 効果: Roll a D3. Add 1 to the roll if the target is a **WIZARD** or **PRIEST.** On a 2+, add an amount equal to the roll to the Attacks characteristic of this unit's **Razarak's Ebon Claws** for the rest of the phase, but while this unit is in combat with the target, all attacks made with that weapon this phase must target that enemy unit. **Designer's Note:** *If the target is a* **WIZARD** *or* **PRIEST,** *this ability cannot fail; however, you still need to roll to determine the number of extra attacks it generates.*
-- **The Staff of Spirits**（Passive）
-  - 効果: Add 1 to casting rolls for this unit. Each time this unit successfully casts a spell, **Heal (1)** this unit after that **SPELL** ability has been resolved.
+- **バトルダメージ(Battle Damaged)**（パッシブ）
+  - 効果: このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**ラザラックの黒檀の鉤爪**の【==攻撃==回数】は3となる。
+- **聖晩餐の御使(Mortarch of Sacrament)**（各ターンにつき1回~~（アーミー）~~、リアクション：このユニットの18mv以内に一部でも入っている敵軍側ユニットが『呪文』アビリティを宣言）
+  - 効果: 2D6をロールする。ロール結果が呪文の詠唱ロールを上回る場合、その呪文は打ち消され、打ち消された呪文の効果は解決されない。さらに、次の自軍側ターン開始時まで、敵軍側ユニットはその『**呪文**』アビリティを使用できなくなる。
+- **歳月の呪い(Curse of Years)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 7） ［呪文］
+  - 宣言: このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: ダイスを10個ロールする。ロール結果で出目6が出るたびに、 • その敵ユニットに1**死霊萎縮**ポイントを付与する。 • 追加でダイスを1個ロールする。 この追加のダイスで5+が出るたび、先述の箇条書き項目を両方繰り返す。その後、4+と3+の出目でも同様の手順を処理する。最後に、2+の出目ごとにその敵ユニットに1**死霊萎縮**ポイントを付与する（追加のダイスはロールしない）。 いずれかのロール後、その敵ユニットが**死霊萎縮**ポイントを8点以上有する場合、その敵ユニットは自動的に全滅する。それ以外の場合、最後のロールをした後、その敵ユニットは、自身が有している**死霊萎縮**ポイントと等しい数の致命的ダメージを受ける。その後、その**死霊萎縮**ポイントは失われる。
+- **大逆者の運命(The Doom of Traitors)**（各ターンにつき1回（アーミー）、任意の近接フェイズ） ［蹂躙］
+  - 宣言: このユニットがこのターン中に突撃していた場合、このユニットと近接戦闘中である敵ユニットを1個選択する。
+  - 効果: D3を1個ロールする。選択された敵ユニットが**魔術師**または**神官**の場合、ロールは+1の修正を受ける。ロール結果が2+であれば、そのフェイズ中、このユニットの**ラザラックの黒檀の鉤爪**の【攻撃回数】は、そのロール結果と等しい数のプラス修正を受ける。ただし、このユニットが選択された敵ユニットと近接戦闘中である場合、この武器によるすべての攻撃は、その敵ユニットを対象としなければならない。 デザイナーズノート：選択する敵ユニットが**魔術師**または**神官**である場合、このアビリティは失敗しない。しかしながら、【攻撃回数】のプラス修正の値を決定するためにロールする必要がある。
+- **魂の杖(The Staff of Spirits)**（パッシブ）
+  - 効果: このユニットの詠唱ロールは+1の修正を受ける。このユニットが呪文の詠唱を成功させるたびに、その『**呪文**』アビリティを解決した直後に、このユニットを**回復（1）**する。
 
 **連隊オプション:**
 
@@ -90,11 +90,11 @@
 - 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
-**キーワード:** Warmaster, Unique, Hero, Monster, Wizard (3), Fly, Ward (6+), Relentless Discipline (3), Death, Ossiarch Bonereapers
+**キーワード:** 総大将、固有、英雄、大型獣、魔術師（3）、飛行、加護（6+）、無慈悲なる規律（3）、死の大同盟、オシアーク・ボーンリーパー（Warmaster, Unique, Hero, Monster, Wizard (3), Fly, Ward (6+), Relentless Discipline (3), Death, Ossiarch Bonereapers）
 
 ---
 
-## Bone-tithe Nexus
+## 骨税献納所(Bone-tithe Nexus)
 
 **モデル数:** 1 / **ベースサイズ:** Use model
 
@@ -110,25 +110,25 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Almighty Obsidian Blade | 2 | 4+ | 2+ | 2 | 3 | - |
+| 強大なる黒曜石の刃(Almighty Obsidian Blade) | 2 | 4+ | 2+ | 2 | 3 | - |
 
 **アビリティ:**
 
-- **Deadly Aura**（Passive）
-  - 効果: Enemy units cannot be set up within **X**" of this terrain feature, where **X** is determined by the current battle round, as follows: Battle Round - **X** 1 - 9" 2 - 12" 3 - 15" 4 - 18" 5 - 21"
+- **死の気配(Deadly Aura)**（パッシブ）
+  - 効果: この陣営地形のXmv以内に一部でも入るように敵ユニットを配置することはできない。Xの値は、以下に示されるように現在のバトルラウンドに応じた数となる。 バトルラウンド数 - X 1 - 9" 2 - 12" 3 - 15" 4 - 18" 5 - 21"
 
 **地形ルール:**
 
-- **Unstable:** This rule varies depending on the battlepack selected for your army: **General's Handbook 2024-25** Models **can** move across but **cannot** be set up on or end any type of move on any part of this terrain feature that is more than 1" tall. **General's Handbook 2025-26** Models **can** move across but **cannot** be set up on or end any type of move on any part of this terrain feature that is more than 1" tall. **General's Handbook 2026-27** Models can move across but cannot be set up on or end any type of move on any part of this terrain feature that is more than 1" tall.
-- **Cover:** This rule varies depending on the battlepack selected for your army: **General's Handbook 2024-25** Subtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword. **General's Handbook 2025-26** Subtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword. **General's Handbook 2026-27** Subtract 1 from hit rolls for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit charged this turn or has the **FLY** keyword.
+- **不安定(Unstable):** This rule varies depending on the battlepack selected for your army: **General's Handbook 2024-25** Models **can** move across but **cannot** be set up on or end any type of move on any part of this terrain feature that is more than 1" tall. **General's Handbook 2025-26** Models **can** move across but **cannot** be set up on or end any type of move on any part of this terrain feature that is more than 1" tall. **General's Handbook 2026-27** Models can move across but cannot be set up on or end any type of move on any part of this terrain feature that is more than 1" tall.
+- **遮蔽物(Cover):** This rule varies depending on the battlepack selected for your army: **General's Handbook 2024-25** Subtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword. **General's Handbook 2025-26** Subtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword. **General's Handbook 2026-27** Subtract 1 from hit rolls for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit charged this turn or has the **FLY** keyword.
 
-**装備オプション:** **The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):** **Cover, Unstable**
+**装備オプション:** 以下の共通特殊地形アビリティが、この特殊地形に適用される（特殊地形、1.2）：遮蔽物、不安定
 
-**キーワード:** Faction Terrain, Death, Ossiarch Bonereapers
+**キーワード:** 陣営地形、死の大同盟、オシアーク・ボーンリーパー（Faction Terrain, Death, Ossiarch Bonereapers）
 
 ---
 
-## Bone-tithe Shrieker
+## 骨税の金切り魔(Bone-tithe Shrieker)
 
 **モデル数:** 1 / **ベースサイズ:** 90 x 52mm
 
@@ -144,24 +144,24 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Soul-rending Shriek | 12" | 4 | 3+ | 4+ | 1 | D3 | Shoot in Combat |
+| 貫魂の叫び(Soul-rending Shriek) | 12" | 4 | 3+ | 4+ | 1 | D3 | 近接射撃(Shoot in Combat) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Soul-rending Shriek | 4 | 3+ | 4+ | 1 | D3 | - |
+| 貫魂の叫び(Soul-rending Shriek) | 4 | 3+ | 4+ | 1 | D3 | - |
 
 **アビリティ:**
 
-- **No Escape**（Passive）
-  - 効果: Subtract 1 from ward rolls for enemy units while they are within 12" of this **MANIFESTATION**.
+- **脱出不可能(No Escape)**（パッシブ）
+  - 効果: この**顕現**の12mv以内に一部でも入っている敵ユニットの加護ロールは-1の修正を受ける。
 
-**キーワード:** Manifestation, Endless Spell, Fly, Ward (6+), Death, Ossiarch Bonereapers
+**キーワード:** 顕現、永久呪文、飛行、加護（6+）、死の大同盟、オシアーク・ボーンリーパー（Manifestation, Endless Spell, Fly, Ward (6+), Death, Ossiarch Bonereapers）
 
 ---
 
-## Gothizzar Harvester
+## ゴシザール・ハーヴェスター(Gothizzar Harvester)
 
 **ポイント:** 180pt / **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
 
@@ -177,23 +177,23 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Soulcrusher Weapons | 6 | 4+ | 2+ | 2 | 3 | - |
+| 魂砕きの兵器(Soulcrusher Weapons) | 6 | 4+ | 2+ | 2 | 3 | - |
 
 **アビリティ:**
 
-- **Bone Harvest**（Once Per Turn (Army), End of Any Turn）
-  - 効果: Roll a dice for each enemy unit that has been destroyed this battle. Add 1 to each roll if this unit used a **FIGHT** ability this turn. If any of the rolls are a 4+, this unit is **full.**
-- **Repair Construct**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: If this unit is **full,** pick a visible friendly **OSSIARCH BONEREAPERS** unit wholly within 12" of this unit to be the target.
-  - 効果: Return 1 slain model to the target unit. If the target has a Health characteristic of 1 return 3 slain models to it instead. Then, this unit is **empty.**
-- **Bone Cage**（Passive）
-  - 効果: This unit is either **full** or **empty.** It starts the battle **full.**
+- **骨の収穫(Bone Harvest)**（各ターンにつき1回（アーミー）、任意のターン終了時）
+  - 効果: このバトル中に全滅した各敵ユニットに対して、それぞれダイスを1個ロールする。このターン中、このユニットが『**近接攻撃**』アビリティを使用していた場合、各ロールは+1の修正を受ける。ロール結果4+がひとつでも出たならば、このユニットは**満載**状態となる。
+- **再修復(Repair Construct)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: このユニットが**満載**状態である場合、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である**味方オシアーク・ボーンリーパー**・ユニットを1個選択する。
+  - 効果: 選択された味方ユニット内の撃破されている兵1体を復帰させる。その味方ユニットの【体力】が1ならば、代わりに撃破されている兵3体を復帰させる。その後、このユニットは**空っぽ**状態となる。
+- **骨の檻(Bone Cage)**（パッシブ）
+  - 効果: このユニットは**満載**か**空っぽ**、どちらかの状態である。**満載**状態でバトルを開始する。
 
-**キーワード:** War Machine, Ward (6+), Death, Ossiarch Bonereapers
+**キーワード:** 戦闘兵器、加護（6+）、死の大同盟、オシアーク・ボーンリーパー（War Machine, Ward (6+), Death, Ossiarch Bonereapers）
 
 ---
 
-## Immortis Guard
+## イモーティス・ガード(Immortis Guard)
 
 **ポイント:** 150pt / **モデル数:** 3 / **ベースサイズ:** 50mm
 
@@ -207,19 +207,19 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Dread Halberd | 3 | 3+ | 3+ | 1 | 2 | - |
+| ドレッド・ハルバード(Dread Halberd) | 3 | 3+ | 3+ | 1 | 2 | - |
 
 **アビリティ:**
 
-- **Immortal Bulwark**（Once Per Turn (Army), Any Combat Phase）
-  - 宣言: Pick an enemy unit in combat with this unit and that charged this turn to be the target.
-  - 効果: Other than the **Companion** weapon ability, weapon abilities for the target's combat attacks have no effect for the rest of the turn.
+- **不死身の防壁(Immortal Bulwark)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 宣言: このユニットと近接戦闘中であり、かつこのターン中に突撃していた敵ユニットを1個選択する。
+  - 効果: そのターン中、**随行者**の武器アビリティを除いて、選択された敵ユニットのメレーアタックは、武器アビリティの効果を発揮しない。
 
-**キーワード:** Infantry, Ward (6+), Death, Ossiarch Bonereapers
+**キーワード:** 歩兵、加護（6+）、死の大同盟、オシアーク・ボーンリーパー（Infantry, Ward (6+), Death, Ossiarch Bonereapers）
 
 ---
 
-## Kainan's Reapers (Legends)
+## カイナンの収穫隊(Kainan's Reapers) (Legends)
 
 **ポイント:** 140pt / **モデル数:** 6 / **ベースサイズ:** 40mm [1], 25mm [5]
 
@@ -235,26 +235,29 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Nadirite Weapon | 3 | 3+ | 4+ | - | 1 | Anti-charge (+1 Rend) |
-| Soulreaper Axe | 4 | 3+ | 3+ | 2 | 2 | Anti-charge (+1 Rend) |
+| ナディライトの武器(Nadirite Weapon) | 3 | 3+ | 4+ | - | 1 | 対突撃（+1貫通値）(Anti-charge (+1 Rend)) |
+| 魂刈りの斧(Soulreaper Axe) | 4 | 3+ | 3+ | 2 | 2 | 対突撃（+1貫通値）(Anti-charge (+1 Rend)) |
 
 **アビリティ:**
 
-- **Nadirite Bow**（Your Shooting Phase）
-  - 宣言: If this unit’s **Nohem** is on the battlefield, pick a visible enemy unit within 18" of this unit to be the target.
-  - 効果: Roll a dice. On a 4+, inflict 1 mortal damage on the target.
-- **Mir Kainan**（Passive）
-  - 効果: While this unit’s **Mir Kainan** is on the battlefield, it has **WIZARD (1)**, **RELENTLESS DISCIPLINE (2)** and can be picked as the target of the ‘Immortal Elite’ ability as if it had the **HERO** keyword.
+- **ナディライトの弓(Nadirite Bow)**（自軍側遠隔フェイズ）
+  - 宣言: このユニットの**ノーヘム**が戦場に配置されている場合、このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態にある敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が4+であれば、選択された敵ユニットは1ポイントの致命的ダメージを受ける。
+- **ミール・カイナン(Mir Kainan)**（パッシブ）
+  - 効果: このユニット内にいるミール・カイナンが戦場に配置されている間、このユニットは**魔術師（1）**、**無慈悲なる規律（2）**を有しており、あたかも**英雄**・キーワードを持つかのように『不死の精鋭』の対象として選択することができる。
 
-**装備オプション:** ***The models in this unit are:*** • ***Mir Kainan** (armed with a Soulreaper Axe)* • ***Binar Khenta** (armed with a Nadirite Weapon)* • ***Karu** (armed with a Nadirite Weapon)* • ***Senha** (armed with a Nadirite Weapon)* • ***Hakor** (armed with a Nadirite Weapon)* • ***Nohem** (armed with a Nadirite Weapon)*
+**装備オプション:** このユニット内の兵は以下の通り： • ミール・カイナン（魂刈りの斧を装備している） • ミール・カイナン（ナディライトの武器を装備している） • カルー（ナディライトの武器を装備している） • セーニャ（ナディライトの武器を装備している） • ハコール（ナディライトの武器を装備している） • ノーヘム（ナディライトの武器を装備している）
 
-**キーワード:** Unique, Infantry, Ward (6+), Death, Ossiarch Bonereapers, Mortisan
+> [!warning] 訳注
+> 英語版の 2 体目は Binar Khenta。日本語版（レジェンド・ウォースクロール 2026年7月 p.38）は 1 体目と同じ「ミール・カイナン」を繰り返している（誤植）。Binar Khenta の公式の日本語表記は未確認。
+
+**キーワード:** 固有、歩兵、加護（6+）、死の大同盟、オシアーク・ボーンリーパー、モーティザン（Unique, Infantry, Ward (6+), Death, Ossiarch Bonereapers, Mortisan）
 
 **ノート:** This unit cannot be reinforced.
 
 ---
 
-## Katakros, Mortarch of the Necropolis
+## 死都の御使カタクロス(Katakros, Mortarch of the Necropolis)
 
 **ポイント:** 450pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
@@ -272,25 +275,25 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| The Shield Immortis | 3 | 3+ | 3+ | 2 | 2 | - |
-| Inda-Khaat | 3 | 3+ | 3+ | 2 | 3 | Crit (2 Hits) |
-| Retinue Blades | 10 | 3+ | 4+ | 1 | 1 | - |
+| 不死の盾(The Shield Immortis) | 3 | 3+ | 3+ | 2 | 2 | - |
+| インダ＝ハート(Inda-Khaat) | 3 | 3+ | 3+ | 2 | 3 | クリティカル（2ヒット）(Crit (2 Hits)) |
+| 従者の剣(Retinue Blades) | 10 | 3+ | 4+ | 1 | 1 | - |
 
 **アビリティ:**
 
-- **Aviarch Spymaster**（Any Hero Phase）
-  - 宣言: Pick a visible enemy unit within 18" of this unit to be the target.
-  - 効果: Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.
-- **You Dare?!**（Once Per Battle, Start of Any Turn）
-  - 宣言: This unit can only use this ability if at least half of the units from your starting army have been destroyed.
-  - 効果: For the rest of the battle round: • Add 5 to the Attacks characteristic of this unit's **Inda-Khaat**. • Add 3 to the Attacks characteristic of this unit's **The Shield Immortis**. • This unit cannot use the 'Supreme Lord of the Bonereaper Legions' ability.
-- **Battle Damaged**（Passive）
-  - 効果: While this unit has 10 or more damage points, the number after its **RELENTLESS DISCIPLINE** keyword is 4.
-- **Mortarch of the Necropolis**（Passive）
-  - 効果: Add 3 to the control scores of visible friendly **OSSIARCH BONEREAPERS** units that have used any **RELENTLESS DISCIPLINE** abilities this turn.
-- **Supreme Lord of the Bonereaper Legions**（Any Combat Phase）
-  - 宣言: If this unit is not in combat, pick a visible friendly **OSSIARCH BONEREAPERS** unit wholly within 12" of this unit that is in combat and has not used a **RELENTLESS DISCIPLINE** ability this phase to be the target.
-  - 効果: Spend a number of **relentless discipline** points equal to the target's Health characteristic. The target can use 2 **FIGHT** abilities this phase. After the first is used, however, the target has **STRIKE-LAST** for the rest of the turn. In addition, the target cannot use **RELENTLESS DISCIPLINE** abilities for the rest of the phase.
+- **アヴィアーク・スパイマスター(Aviarch Spymaster)**（任意のヒーローフェイズ）
+  - 宣言: このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットは指揮アビリティを使用できない。
+- **不遜なり！(You Dare?!)**（バトル中1回限り、任意のターン開始時）
+  - 宣言: このユニットは、バトル開始時の初期アーミーのユニットのうち半数以上が全滅している場合に限り、このアビリティを使用できる。
+  - 効果: このバトルラウンド終了時まで、 • このユニットが装備している**インダ＝ハート**の【攻撃回数】は+5の修正を受ける。 • このユニットが装備している**不死の盾**の【攻撃回数】は+3の修正を受ける。 • このユニットは、『ボーンリーパー兵団の大元帥』アビリティを使用できない。
+- **割れゆく指令(Battle Damaged)**（パッシブ）
+  - 効果: このユニットが10ポイント以上のダメージを受けている場合、このユニットの**無慈悲なる規律**・キーワードに付随する数値は4となる。
+- **死都の御使(Mortarch of the Necropolis)**（パッシブ）
+  - 効果: このターン中に**無慈悲なる規律**アビリティを使用しており、かつこのユニットから視認状態である味方**オシアーク・ボーンリーパー**・ユニットは、確保スコアに+3の修正を受ける。
+- **ボーンリーパー兵団の大元帥(Supreme Lord of the Bonereaper Legions)**（任意の近接フェイズ）
+  - 宣言: このユニットが近接~~攻撃~~==戦闘==中ではない場合、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である、まだこのフェイズ中に『**無慈悲なる規律**』アビリティを使用していない近接戦闘中である味方**オシアーク・ボーンリーパー**・ユニットを1個選択する。
+  - 効果: 選択された味方ユニットの【体力】に等しい数の**無慈悲なる規律**ポイントを消費する。その味方ユニットは、このフェイズ中『**近接攻撃**』アビリティを2回使用できる。ただし1回目の使用後、その味方ユニットはそのターン中『**後手効果**』を得る。さらに、その味方ユニットはそのフェイズ中、『**無慈悲なる規律**』アビリティを使用できなくなる。
 
 **連隊オプション:**
 
@@ -298,11 +301,11 @@
 - 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
-**キーワード:** Warmaster, Unique, Hero, Infantry, Ward (6+), Relentless Discipline (10), Death, Ossiarch Bonereapers
+**キーワード:** 総大将、固有、英雄、歩兵、加護（6+）、無慈悲なる規律（10）、死の大同盟、オシアーク・ボーンリーパー（Warmaster, Unique, Hero, Infantry, Ward (6+), Relentless Discipline (10), Death, Ossiarch Bonereapers）
 
 ---
 
-## Kavalos Deathriders
+## カヴァロス・デスライダー(Kavalos Deathriders)
 
 **ポイント:** 160pt / **モデル数:** 5 / **ベースサイズ:** 60 x 35mm
 
@@ -316,20 +319,20 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Kavalos Blades | 3 | 3+ | 4+ | 1 | 1 | - |
-| Kavalos Steed’s Hooves and Teeth | 2 | 5+ | 3+ | - | 1 | Companion |
+| カヴァロス・ブレイド(Kavalos Blades) | 3 | 3+ | 4+ | 1 | 1 | - |
+| カヴァロス騎乗獣の蹄と歯(Kavalos Steed’s Hooves and Teeth) | 2 | 5+ | 3+ | - | 1 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Deathrider Wedge**（Any Combat Phase） ［Core, Attack, Fight］
-  - 宣言: If this unit charged this turn, pick an enemy unit in combat with it to be the enemy target. Then, you can pick a friendly **Liege-Kavalos** within this unit's combat range to be the friendly target.
-  - 効果: Inflict D3 mortal damage on the enemy target. Inflict an additional D3 mortal damage on the enemy target if you picked a friendly target. Then, this unit and the friendly target (if any) can move 10". They can move through the combat ranges of enemy units but cannot end that move in combat.
+- **デスライダー楔陣(Deathrider Wedge)**（任意の近接フェイズ） ［コア、アタック、近接攻撃］
+  - 宣言: このユニットがこのターン中に突撃していた場合、このユニットと近接戦闘中である敵ユニットを1個選択する。その後、このユニットの近接範囲に一部でも入っている味方**リージュ＝カヴァロス**を1個選択してもよい。
+  - 効果: 選択された敵ユニットはD3ポイントの致命的ダメージを受ける。味方ユニットも選択していたならば、その敵ユニットは追加でD3ポイントの致命的ダメージを受ける。その後、このユニットと選択された味方ユニット（もしあれば）は、それぞれ10mv移動してもよい。その移動の際、敵ユニットの近接範囲を通り抜けることができるが、近接戦闘に突入するように移動を完了することはできない。
 
-**キーワード:** Cavalry, Champion, Standard Bearer (1/5), Ward (6+), Death, Ossiarch Bonereapers
+**キーワード:** 騎兵、豪傑、旗手（1/5）、加護（6+）、死の大同盟、オシアーク・ボーンリーパー（Cavalry, Champion, Standard Bearer (1/5), Ward (6+), Death, Ossiarch Bonereapers）
 
 ---
 
-## Kavalos War Chariot
+## カヴァロス・ウォーチャリオット(Kavalos War Chariot)
 
 **ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 120 × 92mm
 
@@ -345,23 +348,23 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Charioteers' Weapons | 4 | 3+ | 4+ | 1 | 1 | - |
-| Chariot Steeds' Fangs and Claws | 6 | 5+ | 3+ | - | 1 | Companion |
+| 戦車乗りの武器(Charioteers' Weapons) | 4 | 3+ | 4+ | 1 | 1 | - |
+| 戦車輓獣の鉤爪と蹄(Chariot Steeds' Fangs and Claws) | 6 | 5+ | 3+ | - | 1 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Scything Assault**（Any Combat Phase） ［Core, Attack, Fight］
-  - 宣言: If this unit charged this turn, pick an enemy unit in combat with it to be the target.
-  - 効果: Inflict D3 mortal damage on the target. Then, you can remove this unit from the battlefield and set it up again within 1" of the target.
-- **Pinning Attacks**（Once Per Turn (Army), Your Shooting Phase）
-  - 宣言: Pick a visible enemy unit within 18" of this unit to be the target.
-  - 効果: If this unit is wholly within 12" of a friendly **Liege-Kavalos on War Chariot**, apply the effect below. Otherwise, roll a dice. On a 3+, apply the effect below. • Inflict 1 mortal damage on the target. • The target cannot make pile-in moves for the rest of the turn.
+- **斬り裂く襲撃(Scything Assault)**（任意の近接フェイズ） ［コア、アタック、近接攻撃］
+  - 宣言: このユニットがこのターン中に突撃していた場合、このユニットと近接戦闘中である敵ユニットを1個選択する。
+  - 効果: 選択された敵ユニットはD3ポイントの致命的ダメージを受ける。その後、このユニットを戦場から取り除き、その敵ユニットの1mv以内に一部でも入るように再配置してもよい。
+- **足止め攻撃(Pinning Attacks)**（各ターンにつき1回（アーミー）、自軍側遠隔フェイズ）
+  - 宣言: このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。
+  - 効果: このユニットが味方**リージュ＝カヴァロス（ウォーチャリオット~~騎~~==搭==乗）**の12mv以内に全体が入っている場合、以下の効果を適用する。それ以外ならば、ダイスを1個ロールする。ロール結果が3+であれば、以下の効果を適用する。 • 選択された敵ユニットは1ポイントの致命的ダメージを受ける。 • 選択された敵ユニットは、そのターン中に接敵移動をすることができない。
 
-**キーワード:** War Machine, Ward (6+), Death, Ossiarch Bonereapers
+**キーワード:** 戦闘兵器、加護（6+）、死の大同盟、オシアーク・ボーンリーパー（War Machine, Ward (6+), Death, Ossiarch Bonereapers）
 
 ---
 
-## Liege-Kavalos
+## リージュ＝カヴァロス(Liege-Kavalos)
 
 **ポイント:** 180pt / **モデル数:** 1 / **ベースサイズ:** 80mm
 
@@ -379,28 +382,28 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Kavalos Steed’s Hooves, Teeth and Barbed Tails | 4 | 5+ | 3+ | - | 1 | Companion |
-| Commander’s Blade | 5 | 3+ | 4+ | 1 | 2 | Charge (+1 Damage) |
+| カヴァロス騎乗獣の蹄、歯、そして有棘の尻尾(Kavalos Steed’s Hooves, Teeth and Barbed Tails) | 4 | 5+ | 3+ | - | 1 | 随行者(Companion) |
+| 指揮官の刃(Commander’s Blade) | 5 | 3+ | 4+ | 1 | 2 | 突撃（+1ダメージ量）(Charge (+1 Damage)) |
 
 **アビリティ:**
 
-- **Deathrider Commander**（Passive）
-  - 効果: This unit and visible friendly **Kavalos Deathriders** units wholly within 12" of this unit can move 12" instead of 10" when they use the 'Deathrider Wedge' ability.
-- **Master of Cavalry**（Reaction: You declared a **FIGHT** ability for this unit）
-  - 効果: Pick a friendly **Kavalos Deathriders** unit that has not used a **FIGHT** ability this turn and is within this unit's combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target's combat attacks for the rest of the turn.
+- **デスライダー指揮官(Deathrider Commander)**（パッシブ）
+  - 効果: このユニットと、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である各==味方==**カヴァロス・デスライダー**・ユニットは、『デスライダー楔陣』アビリティを使用する際に10mvではなく12mv移動できる。
+- **騎兵の熟達者(Master of Cavalry)**（リアクション：このユニットが『近接攻撃』アビリティを宣言）
+  - 効果: このターン中に『近接攻撃』アビリティを使用しておらず、かつこのユニットの近接範囲内に一部でも入っている味方**カヴァロス~~＝~~==・==デスライダー**・ユニットを1個選択する。このユニットが使用した『**近接攻撃**』アビリティを解決した直後に、選択された味方ユニットはただちに『**近接攻撃**』アビリティを使用できる。その味方ユニットが『**近接攻撃**』アビリティを使用した場合、そのターン中、その味方ユニットによるメレーアタックのヒットロールは+1の修正を受ける。
 
 **連隊オプション:**
 
 - 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
-**キーワード:** Hero, Cavalry, Ward (6+), Relentless Discipline (6), Death, Ossiarch Bonereapers
+**キーワード:** 英雄、騎兵、加護（6+）、無慈悲なる規律（6）、死の大同盟、オシアーク・ボーンリーパー（Hero, Cavalry, Ward (6+), Relentless Discipline (6), Death, Ossiarch Bonereapers）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Legion Subcommander*.
 
 ---
 
-## Liege-Kavalos on War Chariot
+## リージュ＝カヴァロス（ウォーチャリオット搭乗）(Liege-Kavalos on War Chariot)
 
 **ポイント:** 180pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
@@ -418,30 +421,30 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Commander's Blade | 5 | 3+ | 4+ | 1 | 2 | Charge (+1 Damage) |
-| Chariot Steeds' Fangs and Claws | 6 | 5+ | 3+ | - | 1 | Companion |
+| 指揮官の刃(Commander's Blade) | 5 | 3+ | 4+ | 1 | 2 | 突撃（+1ダメージ量）(Charge (+1 Damage)) |
+| 戦車輓獣の鉤爪と蹄(Chariot Steeds' Fangs and Claws) | 6 | 5+ | 3+ | - | 1 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Grind Them to Dust**（Once Per Turn (Army), Any Movement Phase）
-  - 宣言: If this unit is in combat, pick this unit and up to 2 visible friendly **Kavalos War Chariots** wholly within 12" of this unit and in combat to be the targets.
-  - 効果: For each target: • Make a pile-in move. • Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.
-- **Masterful Charioteer**（Once Per Turn (Army), Any Combat Phase）
-  - 宣言: If this unit is in combat and has charged this turn, pick this unit and up to 2 visible friendly **Kavalos War Chariots** that have charged this turn, that are wholly within 12" of this unit and that are in combat to be the targets.
-  - 効果: Each target has **WARD (5+)** for the rest of the turn.
+- **塵となるまで粉砕せよ(Grind Them to Dust)**（各ターンにつき1回（アーミー）、任意の移動フェイズ）
+  - 宣言: このユニットが近接戦闘中である場合、このユニットを選択する。さらに、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である近接戦闘中の味方**カヴァロス・ウォーチャリオット**・ユニットを最大2個まで選択する。
+  - 効果: 選択された各味方ユニットは、 • 接敵移動を1回実行する。 • その後、選択された味方ユニットと近接戦闘中である敵ユニットを1個選択し、D3を1個ロールする。ロール結果が2+であれば、その敵ユニットはロール結果に等しい数の致命的ダメージを受ける。
+- **熟練の戦車乗り(Masterful Charioteer)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 宣言: このユニットがこのターン中に突撃しており、かつ近接戦闘中である場合、このユニットを選択する。さらに、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である、このターン中に突撃していた近接戦闘中の味方**カヴァロス・ウォーチャリオット**を最大2個まで選択する。
+  - 効果: そのターン中、選択された各味方ユニットは**加護（5+）**を持つ。
 
 **連隊オプション:**
 
 - 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
-**キーワード:** Hero, War Machine, Ward (6+), Relentless Discipline (6), Death, Ossiarch Bonereapers
+**キーワード:** 英雄、戦闘兵器、加護（6+）、無慈悲なる規律（6）、死の大同盟、オシアーク・ボーンリーパー（Hero, War Machine, Ward (6+), Relentless Discipline (6), Death, Ossiarch Bonereapers）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Legion Subcommander*.
 
 ---
 
-## Liege-Mortek
+## リージュ＝モーテク(Liege-Mortek)
 
 **ポイント:** 120pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -459,12 +462,12 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Commander's Weapon | 5 | 3+ | 4+ | 1 | 2 | - |
+| 指揮官の武器(Commander's Weapon) | 5 | 3+ | 4+ | 1 | 2 | - |
 
 **アビリティ:**
 
-- **Clinical Efficiency**（Once Per Turn (Army), Any Combat Phase, Reaction: You declared a **FIGHT** ability for this unit.）
-  - 効果: Pick a visible friendly **Mortek Guard, Mortek Triaxes** or **Mortek Crawler** unit that has not used an **ATTACK** ability this phase and is wholly within 12" of this unit to be the target. Immediately after the **FIGHT** ability used by this unit has been resolved, the target can be picked to use either a **SHOOT** ability as if it were your shooting phase or a **FIGHT** ability. If it is picked to do so: • Add 1 to hit rolls for the target's attacks for the rest of the turn. • The target's ranged weapons (if any) have **Shoot in Combat** for the rest of the turn. • If the target uses a **SHOOT** ability and is not in combat, all of its shooting attacks must target units in combat with this unit.
+- **冷厳なる効率(Clinical Efficiency)**（各ターンにつき1回（アーミー）、任意の近接フェイズ、リアクション：このユニットが『近接攻撃』を宣言）
+  - 効果: このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である、このフェイズ中に『アタック』アビリティを使用していない味方**モーテク・ガード**または**モーテク・トライアクス**、**モーテク・クロウラー**・ユニットのいずれかを1個選択する。このユニットによる『**近接攻撃**』アビリティを解決した直後に、選択された味方ユニットはあたかも自軍側遠隔フェイズであるかのように『**遠隔攻撃**』アビリティを解決するか、もしくは『**近接攻撃**』アビリティを使用してもよい。使用する場合、 • そのターン中、選択された味方ユニットの攻撃はヒットロールに+1の修正を受ける • 選択された味方ユニットの遠隔武器（あれば）は、そのターン中**近接射撃**を得る。 • 選択された味方ユニットが近接戦闘中ではなく、『**遠隔攻撃**』アビリティを使用する場合、そのすべてのレンジアタックは、このユニットと近接戦闘中であるユニットを対象にしなければならない。
 
 **連隊オプション:**
 
@@ -472,13 +475,13 @@
 - 0-1 **MORTISAN VIZIER**
 - Any **INFANTRY**
 
-**キーワード:** Hero, Infantry, Ward (6+), Relentless Discipline (5), Death, Ossiarch Bonereapers
+**キーワード:** 英雄、歩兵、加護（6+）、無慈悲なる規律（5）、死の大同盟、オシアーク・ボーンリーパー（Hero, Infantry, Ward (6+), Relentless Discipline (5), Death, Ossiarch Bonereapers）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Legion Subcommander*.
 
 ---
 
-## Morghast Archai
+## モルガスト・アルカイ(Morghast Archai)
 
 **ポイント:** 240pt / **モデル数:** 2 / **ベースサイズ:** 60mm
 
@@ -492,21 +495,21 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Spirit Weapons | 3 | 3+ | 2+ | 2 | 3 | Anti-MONSTER (+1 Rend), Crit (2 Hits) |
+| 精霊たちの武器(Spirit Weapons) | 3 | 3+ | 2+ | 2 | 3 | 対大型獣（+1貫通値）(Anti-MONSTER (+1 Rend)), クリティカル（2ヒット）(Crit (2 Hits)) |
 
 **アビリティ:**
 
-- **Discharge Armour**（Once Per Turn (Army), Any Hero Phase）
-  - 宣言: Pick a visible friendly **OSSIARCH BONEREAPERS WIZARD** wholly within 12" of this unit to be the target.
-  - 効果: Roll a dice. On a 3+, add 1 to casting rolls for the target for the rest of the turn.
-- **Ebon-wrought Armour**（Passive）
-  - 効果: This unit has **WARD (3+)** against damage points inflicted by **SPELL** abilities, **PRAYER** abilities and abilities used by **MANIFESTATIONS**.
+- **魔力の放出(Discharge Armour)**（各ターンにつき1回（アーミー）、任意のヒーローフェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**オシアーク・ボーンリーパー・魔術師**・ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された味方ユニットの詠唱ロールは+1の修正を受ける。
+- **黒檀色の甲冑(Ebon-wrought Armour)**（パッシブ）
+  - 効果: このユニットは『**呪文**』や『**奇蹟**』アビリティ、そして『**顕現**』が使用するアビリティから与えられるダメージに対して**加護（3+）**を持つ。
 
-**キーワード:** Infantry, Fly, Ward (6+), Death, Ossiarch Bonereapers
+**キーワード:** 歩兵、飛行、加護（6+）、死の大同盟、オシアーク・ボーンリーパー（Infantry, Fly, Ward (6+), Death, Ossiarch Bonereapers）
 
 ---
 
-## Morghast Harbingers
+## モルガスト・ハービンジャー(Morghast Harbingers)
 
 **ポイント:** 230pt / **モデル数:** 2 / **ベースサイズ:** 60mm
 
@@ -520,18 +523,18 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Spirit Weapons | 3 | 3+ | 2+ | 2 | 3 | Anti-MONSTER (+1 Rend), Crit (2 Hits) |
+| 精霊たちの武器(Spirit Weapons) | 3 | 3+ | 2+ | 2 | 3 | 対大型獣（+1貫通値）(Anti-MONSTER (+1 Rend)), クリティカル（2ヒット）(Crit (2 Hits)) |
 
 **アビリティ:**
 
-- **Harbingers of Death**（Passive）
-  - 効果: Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.
+- **死のハービンジャー(Harbingers of Death)**（パッシブ）
+  - 効果: このユニットが突撃ロールをする場合、突撃ロールに用いられるダイス個数は1加算される（ダイス個数は最大3個まで）。
 
-**キーワード:** Infantry, Fly, Ward (6+), Death, Ossiarch Bonereapers
+**キーワード:** 歩兵、飛行、加護（6+）、死の大同盟、オシアーク・ボーンリーパー（Infantry, Fly, Ward (6+), Death, Ossiarch Bonereapers）
 
 ---
 
-## Mortek Crawler
+## モーテク・クロウラー(Mortek Crawler)
 
 **ポイント:** 250pt / **モデル数:** 1 / **ベースサイズ:** 170 x 105mm
 
@@ -547,26 +550,26 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Dread Catapult | 24" | 4 | 4+ | 2+ | 1 | D3+2 | Crit (2 Hits) |
+| ドレッドカタパルト(Dread Catapult) | 24" | 4 | 4+ | 2+ | 1 | D3+2 | クリティカル（2ヒット）(Crit (2 Hits)) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Attendants’ Crawler Tools | 6 | 4+ | 4+ | - | 1 | - |
+| 従者の這い回る工具(Attendants’ Crawler Tools) | 6 | 4+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Cursed Stele**（Once Per Turn {Army), Your Shooting Phase）
-  - 効果: For the rest of the turn: • This unit's ranged weapons have **Anti-FACTION TERRAIN (+1 Rend).** • Add 1 to the Damage characteristic of this unit's ranged weapons for attacks that target faction terrain features.
-- **Deathly Barrage**（Once Per Turn (Army), Reaction: You declared a **SHOOT** ability for this unit）
-  - 効果: After that **SHOOT** ability has been resolved, if all of this unit's attacks targeted the same enemy unit, roll a dice. Add 1 to the roll if this unit is wholly within 12" of a friendly **Mortisan Ossifector**, and add 1 to the roll if any other friendly **Mortek Crawlers** picked that enemy unit to be the target of all of their shooting attacks this turn. On a 4+, the target has **STRIKE-LAST** for the rest of the turn.
+- **呪われし墓石(Cursed Stele)**（各ターンにつき1回（アーミー）、自軍側遠隔フェイズ）
+  - 効果: そのターン中、 • このユニットの遠隔武器は**対陣営地形（+1貫通値）**を得る。 • このユニットが陣営地形を攻撃対象にする際、このユニットが装備している遠隔武器の【ダメージ量】は+1の修正を受ける。
+- **死の爆撃(Deathly Barrage)**（各ターンにつき1回（アーミー）、リアクション：このユニットが『遠隔攻撃』アビリティを宣言）
+  - 効果: その『**遠隔攻撃**』が解決された直後に、このユニットのすべての攻撃が同一の敵ユニットを対象としていた場合、ダイスを1個ロールする。このユニットが味方**モーティザン・オシフェクター**の12mv以内に全体が入っているならば、ロールは+1の修正を受ける。また、他の味方**モーテク・クロウラー・ユニット**が1個でも、このターン中に自身のすべてのレンジアタックの対象としてその敵ユニットを選択していたのであれば、ロールは+1の修正を受ける。ロール結果が4+であれば、その敵ユニットはこのターン中『**後手効果**』を得る。
 
-**キーワード:** War Machine, Ward (6+), Death, Ossiarch Bonereapers
+**キーワード:** 戦闘兵器、加護（6+）、死の大同盟、オシアーク・ボーンリーパー（War Machine, Ward (6+), Death, Ossiarch Bonereapers）
 
 ---
 
-## Mortek Guard
+## モーテク・ガード(Mortek Guard)
 
 **ポイント:** 100pt / **モデル数:** 10 / **ベースサイズ:** 25mm
 
@@ -580,18 +583,18 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Nadirite Weapons | 2 | 3+ | 4+ | - | 1 | Anti-CAVALRY (+1 Rend) |
+| ナディライトの刃(Nadirite Weapons) | 2 | 3+ | 4+ | - | 1 | 対騎兵（+1貫通値）(Anti-CAVALRY (+1 Rend)) |
 
 **アビリティ:**
 
-- **Shields of the Legion**（Once Per Phase (Army), Reaction: Opponent declared an **ATTACK** ability that targeted a visible **OSSIARCH BONEREAPERS** unit within this unit's combat range）
-  - 効果: Subtract 1 from the Rend characteristic of weapons used for attacks made as part of that **ATTACK** ability that target any friendly **OSSIARCH BONEREAPERS** units within this unit’s combat range.
+- **兵団の盾(Shields of the Legion)**（各フェイズにつき1回（アーミー）、リアクション：このユニットの近接範囲内に一部でも入っており、かつこのユニットから視認状態であるオシアーク・ボーンリーパー・ユニットを対象に敵軍側が『アタック』アビリティを宣言）
+  - 効果: このユニットの近接範囲内に一部でも入っている味方**オシアーク・ボーンリーパー**を対象とする『**アタック**』アビリティに使用される武器は、【貫通値】に-1の修正を受ける。
 
-**キーワード:** Infantry, Champion, Standard Bearer (1/10), Ward (6+), Death, Ossiarch Bonereapers
+**キーワード:** 歩兵、豪傑、旗手（1/10）、加護（6+）、死の大同盟、オシアーク・ボーンリーパー（Infantry, Champion, Standard Bearer (1/10), Ward (6+), Death, Ossiarch Bonereapers）
 
 ---
 
-## Mortek Triaxes
+## モーテク・トライアクス(Mortek Triaxes)
 
 **ポイント:** 130pt / **モデル数:** 10 / **ベースサイズ:** 25mm
 
@@ -605,28 +608,28 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Osseous Bow | 18" | 2 | 3+ | 4+ | 1 | 1 | - |
+| 骨弓(Osseous Bow) | 18" | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Nadirite Dagger | 1 | 3+ | 4+ | - | 1 | - |
+| ナディライトの短刀(Nadirite Dagger) | 1 | 3+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Atavistic Nightmares**（Passive）
-  - 効果: While any of this unit's **Balefire Braziers** are next to an enemy unit, subtract 3 from the control scores of enemy units within that enemy unit's combat range. If an ability would heal or return slain models to an enemy unit while any of this unit's **Balefire Braziers** are next to it, that ability does not heal or return any slain models to it. Instead, place those **Balefire Braziers** next to this unit.
-- **Balefire Braziers**（Passive）
-  - 効果: This unit's **Balefire Braziers** are tokens. There are 2 **Balefire Braziers** for every 10 models in this unit. After setting up this unit on the battlefield for the first time, place its **Balefire Braziers** next to it.
-- **Cursed Flames**（Once Per Turn (Army), Reaction: You declared a **SHOOT** ability for this unit）
-  - 効果: After that **SHOOT** ability has been resolved, if all of this unit's attacks targeted the same enemy unit and this unit has any **Balefire Braziers** next to it, place 1 of those **Balefire Braziers** next to that enemy unit.
+- **原初の悪夢(Atavistic Nightmares)**（パッシブ）
+  - 効果: このユニットの**霊炎の火鉢**が敵ユニットの横にある間、その敵ユニットの近接範囲内に一部でも入っている敵ユニットは、その確保スコアに-3の修正を受ける。 このユニットの**霊炎の火鉢**が1個でも横にある~~敵ユニットは、自身に回復や撃破された兵を復帰させるアビリティを使用する際~~==敵ユニットに対して、回復や撃破された兵を復帰させるアビリティが使用される際==、そのアビリティは回復や撃破された兵の復帰をしない。代わりに、~~自身~~==その敵ユニット==の横にある**霊炎の火鉢**を、このユニットの横に配置する。
+- **霊炎の火鉢(Balefire Braziers)**（パッシブ）
+  - 効果: このユニットの**霊炎の火鉢**はトークンである。ユニット内の兵10体ごとに、**霊炎の火鉢**は2個存在する。このユニットを初めて戦場に配置した直後に、その横に**霊炎の火鉢**を配置する。
+- **呪われし炎(Cursed Flames)**（各ターンにつき1回（アーミー）、リアクション：このユニットが『遠隔攻撃』アビリティを宣言）
+  - 効果: その『**遠隔攻撃**』アビリティを解決した直後に、そのすべての攻撃が同一の敵ユニットを対象にしており、かつこのユニットが自身の横に**霊炎の火鉢**を1個以上有している場合、それら**霊炎の火鉢**のうち1個を、その敵ユニットの横に配置する。
 
-**キーワード:** Infantry, Champion, Ward (6+), Death, Ossiarch Bonereapers
+**キーワード:** 歩兵、豪傑、加護（6+）、死の大同盟、オシアーク・ボーンリーパー（Infantry, Champion, Ward (6+), Death, Ossiarch Bonereapers）
 
 ---
 
-## Mortis Reapers
+## モーティス・リーパー(Mortis Reapers)
 
 **ポイント:** 110pt / **モデル数:** 5 / **ベースサイズ:** 32mm
 
@@ -640,22 +643,22 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Reaper's Blades | 3 | 3+ | 4+ | 1 | 1 | Anti-HERO (+1 Rend) |
+| 刈り取る刃(Reaper's Blades) | 3 | 3+ | 4+ | 1 | 1 | 対英雄（+1貫通値）(Anti-HERO (+1 Rend)) |
 
 **アビリティ:**
 
-- **Necrocaches**（Once Per Turn (Army), End of Any Turn）
-  - 宣言: Pick each enemy unit in combat with this unit to be the targets.
-  - 効果: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Then, this unit can move 6". It can move through the combat ranges of enemy units but cannot end that move in combat.
-- **No Escaping the Tithe**（Once Per Turn (Army), Any Movement Phase）
-  - 宣言: If there are no enemy units within 6" of this unit, pick a terrain feature within 3" of this unit to be the target.
-  - 効果: Remove this unit from the battlefield and set it up again wholly within 3" of the target and more than 9" from all enemy units.
+- **死櫃(Necrocaches)**（各ターンにつき1回（アーミー）、任意のターン終了時）
+  - 宣言: このユニットと近接戦闘中である各敵ユニットを選択する。
+  - 効果: 各敵ユニットに対して、それぞれD3を1個ロールする。ロール結果が2+であれば、ロール対象の敵ユニットは、ロール結果に等しい数の致命的ダメージを受ける。その後、このユニットは6mv移動してもよい。その移動中、敵ユニットの近接範囲内を通り抜けることができるが、近接戦闘に突入するように移動を完了することはできない。
+- **骨税から逃れられる者なし(No Escaping the Tithe)**（各ターンにつき1回（アーミー）、任意の移動フェイズ）
+  - 宣言: このユニットの6mv以内に一部でも入っている敵がいない場合、このユニットの3mv以内に一部でも入っている特殊地形を1個選択する。
+  - 効果: このユニットを戦場から取り除き、選択された特殊地形の3mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に再配置する。
 
-**キーワード:** Infantry, Champion, Ward (6+), Death, Ossiarch Bonereapers
+**キーワード:** 歩兵、豪傑、加護（6+）、死の大同盟、オシアーク・ボーンリーパー（Infantry, Champion, Ward (6+), Death, Ossiarch Bonereapers）
 
 ---
 
-## Mortisan Boneshaper
+## モーティザン・ボーンシェイパー(Mortisan Boneshaper)
 
 **ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -673,28 +676,28 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Ossified Talons | 3 | 4+ | 4+ | - | D3 | - |
+| 骨化せし鉤爪(Ossified Talons) | 3 | 4+ | 4+ | - | D3 | - |
 
 **アビリティ:**
 
-- **Legion Quartermaster**（Passive）
-  - 効果: Each time a friendly **non-HERO OSSIARCH BONEREAPERS** unit wholly within 12" of this unit uses the 'Rally' command, you can make 3 additional rally rolls of D6.
-- **Boneshaper**（Your Hero Phase / CP 1）
-  - 宣言: If this unit is not in combat, pick a friendly **Mortek Guard** or **Mortek Triaxes** unit that has been destroyed to be the target.
-  - 効果: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12" of this unit and not in combat.
+- **軍団補給官(Legion Quartermaster)**（パッシブ）
+  - 効果: このユニットの12mv以内に全体が入っている英雄でない味方**オシアーク・ボーンリーパー**・ユニットが『再集結』指揮アビリティを使用する際、自軍はD6の再集結ロールを追加で3回実行できる。
+- **骨の組立て師(Boneshaper)**（自軍側ヒーローフェイズ / CP 1）
+  - 宣言: このユニットが近接戦闘中ではない場合、全滅した味方**モーテク・ガード**または**モーテク・トライアクス**・ユニットを1個選択する。
+  - 効果: このユニットの12mv以内に全体が入るように、かつ近接戦闘に突入しないように、選択された味方ユニットの兵数の半分（端数切り上げ）で構成された代替ユニットを1個配置する。
 
 **連隊オプション:**
 
 - 0-1 **Gothizzar Harvester**
 - Any **INFANTRY**
 
-**キーワード:** Hero, Wizard (1), Infantry, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers
+**キーワード:** 英雄、魔術師（1）、歩兵、加護（6+）、無慈悲なる規律（2）、死の大同盟、オシアーク・ボーンリーパー（Hero, Wizard (1), Infantry, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Mortisan Vizier*.
 
 ---
 
-## Mortisan Ossifector
+## モーティザン・オシフェクター(Mortisan Ossifector)
 
 **ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -712,13 +715,13 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Ossified Talons | 3 | 4+ | 4+ | - | D3 | - |
+| 骨化せし鉤爪(Ossified Talons) | 3 | 4+ | 4+ | - | D3 | - |
 
 **アビリティ:**
 
-- **Refined Creations**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: Pick a visible friendly **Mortek Crawler, Gothizzar Harvester, Morghast Archai** or **Morghast Harbingers** unit wholly within 12" of this unit to be the target.
-  - 効果: Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s weapons until the start of your next turn.
+- **洗練されし創造物(Refined Creations)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**モーテク・クロウラー**または**ゴシザール・ハーヴェスター**、**モルガスト・アルカイ**、**モルガスト・ハービンジャー**・ユニットのいずれかを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された味方ユニットが装備している武器の【貫通値】は+1の修正を受ける。
 
 **連隊オプション:**
 
@@ -726,13 +729,13 @@
 - 0-1 **Mortek Crawler**
 - Any **INFANTRY**
 
-**キーワード:** Hero, Wizard (1), Infantry, Fly, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers
+**キーワード:** 英雄、魔術師（1）、歩兵、飛行、加護（6+）、無慈悲なる規律（2）、死の大同盟、オシアーク・ボーンリーパー（Hero, Wizard (1), Infantry, Fly, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Mortisan Vizier*.
 
 ---
 
-## Mortisan Soulmason
+## モーティザン・ソウルメイソン(Mortisan Soulmason)
 
 **ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
@@ -750,26 +753,26 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Soulmason’s Staff | 3 | 4+ | 4+ | - | D3 | - |
+| 魂細工師の杖(Soulmason’s Staff) | 3 | 4+ | 4+ | - | D3 | - |
 
 **アビリティ:**
 
-- **Soul-guide**（Your Hero Phase / 詠唱/詠誦値 7） ［Spell］
-  - 宣言: Pick a visible friendly **OSSIARCH BONEREAPERS** unit wholly within 12" of the caster to be the target, then make a casting roll of 2D6.
-  - 効果: The target has **STRIKE-FIRST** for the rest of the turn.
+- **魂の導き(Soul-guide)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 7） ［呪文］
+  - 宣言: 詠唱者の12mv以内に全体が入っており、かつ詠唱者から視認状態である味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: そのターン中、選択された味方ユニットは『**先手効果**』を得る。
 
 **連隊オプション:**
 
 - 0-1 **Gothizzar Harvester**
 - Any **INFANTRY**
 
-**キーワード:** Hero, Wizard (2), Infantry, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers
+**キーワード:** 英雄、魔術師（2）、歩兵、加護（6+）、無慈悲なる規律（2）、死の大同盟、オシアーク・ボーンリーパー（Hero, Wizard (2), Infantry, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Mortisan Vizier*.
 
 ---
 
-## Mortisan Soulreaper
+## モーティザン・ソウルリーパー(Mortisan Soulreaper)
 
 **ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -787,28 +790,28 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Soulreaper Scythe | 4 | 3+ | 4+ | 2 | D3 | Crit (2 Hits) |
+| 魂刈りの鎌(Soulreaper Scythe) | 4 | 3+ | 4+ | 2 | D3 | クリティカル（2ヒット）(Crit (2 Hits)) |
 
 **アビリティ:**
 
-- **Necrotic Blast**（Once Per Turn (Army), Any Combat Phase）
-  - 宣言: Pick each enemy unit in combat with this unit to be the targets.
-  - 効果: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. After this ability has been resolved, you gain a number of **relentless discipline** points equal to the number of total damage points allocated by this ability this turn.
-- **Soulreaper**（Passive）
-  - 効果: Subtract 1 from wound rolls for combat attacks made by enemy units while they are in combat with this unit.
+- **死霊波(Necrotic Blast)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 宣言: このユニットと近接戦闘中である各敵ユニットを選択する。
+  - 効果: 選択された各敵ユニットに対して、それぞれD3を1個ロールする。ロール結果が2+であれば、その敵ユニットはロール結果に等しい数の致命的ダメージを受ける。このアビリティを解決した直後に、このターン中に、このアビリティによって割り振られたダメージの合計と同じ数の**無慈悲なる規律**ポイントを自軍は獲得する。
+- **ソウルリーパー(Soulreaper)**（パッシブ）
+  - 効果: このユニットと近接戦闘中である敵ユニットのメレーアタックは、ウーンズロールに-1の修正を受ける。
 
 **連隊オプション:**
 
 - 0-1 **Gothizzar Harvester**
 - Any **INFANTRY**
 
-**キーワード:** Hero, Wizard (1), Infantry, Fly, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers
+**キーワード:** 英雄、魔術師（1）、歩兵、飛行、加護（6+）、無慈悲なる規律（2）、死の大同盟、オシアーク・ボーンリーパー（Hero, Wizard (1), Infantry, Fly, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Mortisan Vizier*.
 
 ---
 
-## Nagash, Supreme Lord of the Undead
+## 不死者の至高なる主ナガッシュ(Nagash, Supreme Lord of the Undead)
 
 **ポイント:** 790pt / **モデル数:** 1 / **ベースサイズ:** 130mm
 
@@ -826,24 +829,24 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Alakanash, the Staff of Power | 4 | 3+ | 3+ | 2 | D6 | - |
-| Zefet-nebtar, the Mortis Blade | 4 | 3+ | 3+ | 2 | 3 | - |
+| “力の杖”アラカナッシュ(Alakanash, the Staff of Power) | 4 | 3+ | 3+ | 2 | D6 | - |
+| “死の刃”ゼフェト＝ネブタール(Zefet-nebtar, the Mortis Blade) | 4 | 3+ | 3+ | 2 | 3 | - |
 
 **アビリティ:**
 
-- **Hand of Dust**（Once Per Turn (Army), End of Any Turn） ［Rampage］
-  - 宣言: Pick a visible enemy **HERO** or **MONSTER** in combat with this unit to be the target.
-  - 効果: Hide a dice in one of your hands or under one of two appropriate containers. Your opponent must pick one of your hands or containers. If they pick the one hiding the dice, this ability has no effect. If they pick the empty one, the target is automatically destroyed.
-- **Battle Damaged**（Passive）
-  - 効果: While this unit has 10 or more damage points, subtract 3 from its power level.
-- **Supreme Lord of the Undead**（Once Per Battle, Your Hero Phase）
-  - 宣言: Pick a friendly non-**HERO** non-**UNIQUE DEATH** unit that has been destroyed to be the target.
-  - 効果: Set up a replacement unit identical to the target wholly within 12" of this unit and more than 9" from all enemy units.
-- **The Staff of Power**（Passive）
-  - 効果: Add 2 to casting rolls for this unit while it has not miscast any spells this turn. If this unit miscasts a spell, ignore the restriction that would stop this unit from casting any more spells this turn.
-- **Invocation of Nagash**（Your Hero Phase / 詠唱/詠誦値 7） ［Spell］
-  - 宣言: This unit can cast this spell more than once per phase. Pick a visible unit wholly within 18" of this unit that has not been picked to be the target of this spell this turn to be the target, then make a casting roll of 2D6.
-  - 効果: If the target is an enemy unit, inflict D3 mortal damage on it. If the target is a friendly **DEATH** unit, pick 1 of the following effects: • Return a number of slain models to the target unit with a combined Health characteristic of up to 3. • The target has **WARD (5+)** until the start of your next turn.
+- **塵の手(Hand of Dust)**（各ターンにつき1回（アーミー）、任意のターン終了時） ［蹂躙］
+  - 宣言: このユニットと近接戦闘中であり、かつこのユニットから視認状態である敵**英雄**または**大型獣**を1体選択する。
+  - 効果: アビリティを使用したプレイヤーは、左右どちらかの手に（あるいは適切な容器2つのどちらかに）ダイスを1つ隠す。対戦相手のプレイヤーは、アビリティを使用したプレイヤーの左右の手（あるいは2つの容器）のどちらかを選ぶ。ダイスが隠れている方が選ばれた場合、このアビリティは何の効果も発揮しない。ダイスが無い方が選ばれたら、選択された敵は自動的に全滅する。
+- **バトルダメージ(Battle Damaged)**（パッシブ）
+  - 効果: このユニットが10ポイント以上のダメージを受けている場合、自身のパワーレベルは3ポイント低下する。
+- **不死者の至高なる主(Supreme Lord of the Undead)**（バトル中1回限り、自軍側ヒーローフェイズ）
+  - 宣言: 全滅している**英雄**でも**固有**でもない味方**死の大同盟**・ユニットを1個選択する。
+  - 効果: このユニットの12mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に、選択された味方ユニットと同一の代替ユニットを1個配置する。
+- **力の杖(The Staff of Power)**（パッシブ）
+  - 効果: このユニットがこのターン中に呪文を暴発させていない間、このユニットの詠唱ロールは+2の修正を受ける。このユニットが呪文を暴発させたとしても、このユニットはこのターンにこれ以上呪文を詠唱できないという制限を無視する。
+- **ナガッシュの死霊呪文(Invocation of Nagash)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 7） ［呪文］
+  - 宣言: このユニットは、各フェイズにつき2回以上この呪文を詠唱できる。このユニットの18mv以内に全体が入っており、かつこのユニットから視認状態で、このターン中にこの呪文の対象としてまだ選択されていないユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: 敵ユニットが選択された場合、その敵ユニットはD3ポイントの致命的ダメージを受ける。味方**死の大同盟**・ユニットが選択されたならば、以下の効果の中から1つを選択する。 • その味方ユニット内の撃破されている兵を、その味方ユニットに復帰させる（復帰する兵の【体力】合計が最大3までになるように）。 • 次の自軍側ターン開始時まで、選択された味方ユニットは**加護（5+）**を持つ。
 
 **連隊オプション:**
 
@@ -851,11 +854,11 @@
 - 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
-**キーワード:** Warmaster, Unique, Hero, Monster, Wizard (9), Fly, Ward (5+), Relentless Discipline (3), Death, Ossiarch Bonereapers
+**キーワード:** 総大将、固有、英雄、大型獣、魔術師（9）、飛行、加護（5+）、無慈悲なる規律（3）、死の大同盟、オシアーク・ボーンリーパー（Warmaster, Unique, Hero, Monster, Wizard (9), Fly, Ward (5+), Relentless Discipline (3), Death, Ossiarch Bonereapers）
 
 ---
 
-## Necropolis Stalkers
+## ネクロポリス・ストーカー(Necropolis Stalkers)
 
 **ポイント:** 120pt / **モデル数:** 3 / **ベースサイズ:** 50mm
 
@@ -869,19 +872,19 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Stalker Blades | 4 | 3+ | 3+ | 2 | 1 | - |
+| ストーカーブレイド(Stalker Blades) | 4 | 3+ | 3+ | 2 | 1 | - |
 
 **アビリティ:**
 
-- **Fourfold Slayers**（Once Per Turn (Army), Any Combat Phase）
-  - 宣言: Pick an enemy unit in combat with this unit to be the target.
-  - 効果: Roll a number of dice equal to the number of models in the target unit. For each 6, inflict 1 mortal damage on the target. If this unit has 3 or more models, inflict 1 mortal damage on the target for each 5+ instead.
+- **四重の殺戮者(Fourfold Slayers)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 宣言: このユニットと近接戦闘中である敵ユニットを1個選択する。
+  - 効果: 選択された敵ユニット内にいる兵の数と等しい個数のダイスをロールする。ロール結果で6が出るたびに、その敵ユニットは1ポイントの致命的ダメージを受ける。~~選択された敵~~==この==ユニットに3体以上の兵がいる場合、代わりにロール結果で5+が出るたびに、その敵ユニットは1ポイントの致命的ダメージを受ける。
 
-**キーワード:** Infantry, Ward (6+), Death, Ossiarch Bonereapers
+**キーワード:** 歩兵、加護（6+）、死の大同盟、オシアーク・ボーンリーパー（Infantry, Ward (6+), Death, Ossiarch Bonereapers）
 
 ---
 
-## Nightmare Predator
+## 悪夢の捕食者(Nightmare Predator)
 
 **モデル数:** 1 / **ベースサイズ:** 60mm
 
@@ -897,18 +900,18 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Lacerating Claws | 6 | 4+ | 2+ | 2 | 2 | - |
+| 切り裂きの爪(Lacerating Claws) | 6 | 4+ | 2+ | 2 | 2 | - |
 
 **アビリティ:**
 
-- **Death Incarnate**（End of Any Turn）
-  - 効果: If this **MANIFESTATION** was destroyed or banished this turn and the unit that summoned it is on the battlefield, roll a dice. Add 1 to the roll if any enemy models were slain by this **MANIFESTATION'S** combat attacks this turn. On a 4+, set up this **MANIFESTATION** again, wholly within 12" of the unit that summoned it and more than 9" from all enemy units. That unit has summoned that **MANIFESTATION.**
+- **死の化身(Death Incarnate)**（任意のターン終了時）
+  - 効果: このターン中、この**顕現**が全滅または追放されており、召喚者であったユニットが戦場に配置されている場合、ダイスを1個ロールする。このターン中、この**顕現**のメレーアタックによって敵兵が1体でも撃破されている場合、ロールは+1の修正を受ける。ロール結果が4+であれば、召喚者であったユニットの12mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に、この**顕現**を再配置する。その召喚者であったユニットが、この**顕現**を召喚したことになる。
 
-**キーワード:** Manifestation, Endless Spell, Fly, Ward (6+), Death, Ossiarch Bonereapers
+**キーワード:** 顕現、永久呪文、飛行、加護（6+）、死の大同盟、オシアーク・ボーンリーパー（Manifestation, Endless Spell, Fly, Ward (6+), Death, Ossiarch Bonereapers）
 
 ---
 
-## Scourge of Aqshy: Mortis Reapers
+## アキュシーの禍事 モーティス・リーパー(Scourge of Aqshy: Mortis Reapers)
 
 **ポイント:** 90pt / **モデル数:** 5 / **ベースサイズ:** 32mm
 
@@ -922,23 +925,23 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Reaper's Blades | 3 | 3+ | 4+ | 1 | 1 | Anti-HERO (+1 Rend) |
+| 刈り取る刃(Reaper's Blades) | 3 | 3+ | 4+ | 1 | 1 | 対英雄（+1貫通値）(Anti-HERO (+1 Rend)) |
 
 **アビリティ:**
 
-- **The Coldness of Death**（Once Per Turn (Army), End of Any Turn）
-  - 効果: If an enemy **HERO** was destroyed by this unit’s combat attacks this turn, your opponent must reduce their **fury level** to 0.
-- **Terminate Their Command**（Once Per Turn (Army), Any Charge Phase）
-  - 宣言: If this unit is in combat, pick a visible enemy **HERO** within 12" of this unit to be the target.
-  - 効果: If the target is more than 3" from all other enemy units, apply the effect below. Otherwise, roll a dice. On a 3+, apply the effect below. Remove this unit from the battlefield and set it up again within 1" of the target.
+- **死の凍気(The Coldness of Death)**（各ターンにつき1回（アーミー）、任意のターン終了時）
+  - 効果: このターン中に、このユニットのメレーアタックにより敵**英雄**が撃破されていた場合、対戦相手の**~~激憤レベル~~==憤激レベル==**は0に減少する。
+- **奴らの指揮を断て(Terminate Their Command)**（各ターンにつき1回（アーミー）、任意の突撃フェイズ）
+  - 宣言: このユニットが近接戦闘中である場合、このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵**英雄**を1個選択する。
+  - 効果: 選択された敵ユニットが他のすべての敵ユニットから3mvより遠く離れている場合、以下の効果を適用する。それ以外の場合、ダイスを1個ロールする。ロール結果が3+の場合、以下の効果を適用する。 このユニットを戦場から取り除き、選択された敵ユニットの1mv以内に一部でも入るように再配置する。
 
-**キーワード:** Infantry, Champion, Ward (6+), Death, Ossiarch Bonereapers
+**キーワード:** 歩兵、豪傑、加護（6+）、死の大同盟、オシアーク・ボーンリーパー（Infantry, Champion, Ward (6+), Death, Ossiarch Bonereapers）
 
 **ノート:** This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
 
 ---
 
-## Scourge of Aqshy: Vokmortian, Master of the Bone-tithe
+## アキュシーの禍事 骨税長官ヴォクモーティアン(Scourge of Aqshy: Vokmortian, Master of the Bone-tithe)
 
 **ポイント:** 180pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
@@ -956,21 +959,21 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Gaze of Death | 12" | 1 | 3+ | 2+ | 1 | D6 | - |
+| 死の睥睨(Gaze of Death) | 12" | 1 | 3+ | 2+ | 1 | D6 | - |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Staff of Retribution | 3 | 4+ | 3+ | 1 | D3 | - |
+| 報いの杖(Staff of Retribution) | 3 | 4+ | 3+ | 1 | D3 | - |
 
 **アビリティ:**
 
-- **Cowed Into Inaction**（Your Hero Phase / 詠唱/詠誦値 7） ［Spell］
-  - 宣言: Pick a visible enemy **HERO** within 18" of this unit to be the target, then make a casting roll of 2D6.
-  - 効果: Until the start of your next turn, each time an enemy unit within the target’s combat range uses a command, unless your opponent spends 1 **rage dice** to use that command, the command has no effect, it still counts as having been used and the command points spent to use it are lost.
-- **Master of the Bone-Tithe**（Your Hero Phase）
-  - 効果: Your opponent must pick 1 of the following effects: ***Pay the Tithe:*** Your opponent must pick a unit in their army on the battlefield to be the target. They cannot pick a **MANIFESTATION** Or terrain feature. Then: • Inflict D6 mortal damage on the target. • Until the start of your next turn, the target cannot be healed, have slain models returned to it or be replaced. ***Deny the Ossiarchs their Rightful Due:*** Pick 1 of the following effects: • You gain 4 **relentless discipline** points. • Pick an objective you do not control. For the rest of the turn, add 5 to the control scores of friendly **OSSIARCH BONEREAPERS** units while they are contesting that objective. • For the rest of the turn, add 2 to the Attacks characteristic and add 6" to the Range characteristic of this unit's **Gaze of Death**.
+- **戦意を折る威圧(Cowed Into Inaction)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 7） ［呪文］
+  - 宣言: このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵**英雄**を1個選択し、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、選択された敵ユニットの近接範囲内の敵ユニットが指揮アビリティを使用するたびに、敵軍側はその指揮アビリティを使用するために**憤激ダイス**を1個消費しなければ、その指揮アビリティは効果を発揮しない。追加の憤激ダイスを消費しなかった場合も、指揮アビリティは依然として使用されたものとみなされ、その指揮アビリティを使用するために消費した指揮ポイントも失われる。
+- **骨税長官(Master of the Bone-Tithe)**（自軍側ヒーローフェイズ）
+  - 効果: 敵軍側は、以下の効果から1つを選択しなければならない。 **骨税を支払う：**敵軍側は、戦場にいる自軍ユニットを1個選択する。その時、**顕現**あるいは特殊地形を選択することはできない。その後： • 選択された敵ユニットはD6ポイントの致命的ダメージを受ける。 • 次の自軍側ターン開始時まで、選択された敵ユニットは回復ができない。また、その敵ユニット内の撃破された兵を復帰させること~~が~~==も、代替ユニットに置き換えることも==できない。 **オシアークの正当な取り分を拒絶する：**以下の効果から1個選択する： • 自軍側は**無慈悲なる規律**ポイントを4ポイント獲得する。 • 自軍側が確保していない作戦目標を1個選択する。そのターン中、選択された作戦目標を争奪している味方**オシアーク・ボーンリーパー**・ユニットは、確保スコアに+5の修正を受ける。 • そのターン中、このユニットの**死の睥睨**の【攻撃回数】は+2の修正を受け、【射程距離】は+6mvの修正を受ける。
 
 **連隊オプション:**
 
@@ -978,13 +981,13 @@
 - 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
-**キーワード:** Unique, Hero, Wizard (2), Infantry, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers
+**キーワード:** 固有、英雄、魔術師（2）、歩兵、加護（6+）、無慈悲なる規律（2）、死の大同盟、オシアーク・ボーンリーパー（Unique, Hero, Wizard (2), Infantry, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers）
 
 **ノート:** This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
 
 ---
 
-## Scourge of Ghyran Mortek Guard
+## グューランの禍事 モーテク・ガード(Scourge of Ghyran Mortek Guard)
 
 **ポイント:** 100pt / **モデル数:** 10 / **ベースサイズ:** 25mm
 
@@ -998,20 +1001,20 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Nadirite Blade or Spear | 2 | 3+ | 4+ | - | 1 | Anti-CAVALRY (+1 Rend), Crit (2 Hits) |
+| ナディライトの剣と槍(Nadirite Blade or Spear) | 2 | 3+ | 4+ | - | 1 | 対騎兵（+1貫通値）(Anti-CAVALRY (+1 Rend)), クリティカル（2ヒット）(Crit (2 Hits)) |
 
 **アビリティ:**
 
-- **Shields of the Legion**（Once Per Phase (Army), Reaction: A friendly **OSSIARCH BONEREAPERS WAR MACHINE** or **WIZARD** within this unit’s combat range was targeted by an **ATTACK** ability.）
-  - 効果: For the rest of the phase, subtract 1 from the Rend characteristic of weapons used for attacks that target that friendly unit.
+- **軍団の盾(Shields of the Legion)**（各フェイズにつき1回（アーミー）、リアクション：このユニットの近接範囲内に一部でも入っている1個の味方オシアーク・ボーンリーパー・戦争兵器または魔術師が『アタック』アビリティの対象として~~選択されたが『アタック』アビリティの対象として選択された~~==選択された==）
+  - 効果: そのフェイズ中、その味方ユニットを攻撃対象とする武器の【貫通値】は-1の修正を受ける。
 
-**キーワード:** Infantry, Champion, Standard Bearer (1/10), Ward (6+), Death, Ossiarch Bonereapers
+**キーワード:** 歩兵、豪傑、旗手（1/10）、加護（6+）、死の大同盟、オシアーク・ボーンリーパー（Infantry, Champion, Standard Bearer (1/10), Ward (6+), Death, Ossiarch Bonereapers）
 
 **ノート:** This unit is legal for Matched Play for battles fought using the *General’s Handbook 2025-26* battlepack.
 
 ---
 
-## Scourge of Ghyran Mortisan Boneshaper
+## グューランの禍事 モーティザン・ボーンシェイパー(Scourge of Ghyran Mortisan Boneshaper)
 
 **ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -1027,28 +1030,28 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Ossified Talons | 3 | 4+ | 4+ | - | 2 | Crit (2 Hits) |
+| 骨化せし鉤爪(Ossified Talons) | 3 | 4+ | 4+ | - | 2 | クリティカル（2ヒット）(Crit (2 Hits)) |
 
 **アビリティ:**
 
-- **Legion Quartermaster**（Passive）
-  - 効果: Each time a friendly non-**HERO OSSIARCH BONEREAPERS** unit wholly within 12" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.
-- **Boneshaper**（Your Hero Phase / CP 1）
-  - 宣言: If this unit is not in combat, pick a friendly **Mortek Guard** unit that has been destroyed to be the target.
-  - 効果: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12" of this unit and more than 9" from all enemy units.
+- **軍団補給官(Legion Quartermaster)**（パッシブ）
+  - 効果: このユニットの12mv以内に全体が入っている英雄でない味方**オシアーク・ボーンリーパー**・ユニットが『再集結』指揮アビリティを使用する際、自軍はD6の再集結ロールを追加で3回実行できる。
+- **骨の組立て師(Boneshaper)**（自軍側ヒーローフェイズ / CP 1）
+  - 宣言: このユニットが近接戦闘中ではない場合、全滅している味方**モーテク・ガード**・ユニットを1個選択する。
+  - 効果: このユニットの12mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に、選択された味方ユニットの兵数の半分（端数切り上げ）で構成された代替ユニットを配置する。
 
 **連隊オプション:**
 
 - 0-1 **Gothizzar Harvester**
 - Any **INFANTRY**
 
-**キーワード:** Hero, Wizard (1), Infantry, Ward (6+), Death, Ossiarch Bonereapers, Mortisan
+**キーワード:** 英雄、魔術師（1）、歩兵、加護（6+）、死の大同盟、オシアーク・ボーンリーパー、モーティザン（Hero, Wizard (1), Infantry, Ward (6+), Death, Ossiarch Bonereapers, Mortisan）
 
 **ノート:** This unit is legal for Matched Play for battles fought using the *General’s Handbook 2025-26* battlepack.
 
 ---
 
-## Soulstealer Carrion
+## 魂泥棒の猛禽(Soulstealer Carrion)
 
 **モデル数:** 1 / **ベースサイズ:** 60mm
 
@@ -1064,18 +1067,18 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Spectral Claws and Beak | 6 | 4+ | 2+ | 1 | D3 | - |
+| 霊体の爪とくちばし(Spectral Claws and Beak) | 6 | 4+ | 2+ | 1 | D3 | - |
 
 **アビリティ:**
 
-- **Aviarch Sentry**（Passive）
-  - 効果: Subtract 10 from the control scores of enemy units while they are within 6" of this **MANIFESTATION**.
+- **猛禽の番鳥(Aviarch Sentry)**（パッシブ）
+  - 効果: 敵ユニットがこの**顕現**の6mv以内に一部でも入っている間、その敵ユニットの確保スコアは-10の修正を受ける。
 
-**キーワード:** Manifestation, Endless Spell, Fly, Ward (6+), Death, Ossiarch Bonereapers
+**キーワード:** 顕現、永久呪文、飛行、加護（6+）、死の大同盟、オシアーク・ボーンリーパー（Manifestation, Endless Spell, Fly, Ward (6+), Death, Ossiarch Bonereapers）
 
 ---
 
-## Teratic Cohort
+## テラティック・コホート(Teratic Cohort)
 
 **ポイント:** 90pt / **モデル数:** 8 / **ベースサイズ:** 60 x 35mm [1], 32mm [2], 28.5mm [5]
 
@@ -1089,18 +1092,18 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Cohort Weapons | 2 | 3+ | 4+ | 1 | 1 | - |
+| コホートの武器(Cohort Weapons) | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **アビリティ:**
 
-- **Bone-deep Savagery**（Once Per Turn (Army), Any Hero Phase）
-  - 効果: This unit can move 3 ". If it can move into combat, it must. If it was in combat at the start of the move, it must end that move in combat.
-- **Hunters Unleashed**（Deployment Phase）
-  - 効果: This unit can use the 'Normal Move' ability as if it were your movement phase.
-- **Beast**（Passive）
-  - 効果: This unit has a maximum control score of 1.
+- **骨の髄からの獰猛性(Bone-deep Savagery)**（各ターンにつき1回（アーミー）、任意のヒーローフェイズ）
+  - 効果: このユニットは3mv移動できる。また近接戦闘に突入するように移動できる場合、そうしなければならない。~~その味方~~==この==ユニットが移動開始時に近接戦闘中であった場合、近接戦闘に突入するように移動を完了しなければならない。
+- **狩人の解放(Hunters Unleashed)**（初期配置フェイズ）
+  - 効果: このユニットは、あたかも自軍側移動フェイズ中かのように『通常移動』アビリティを1回使用できる。
+- **獣兵(Beast)**（パッシブ）
+  - 効果: このユニットは最大1の確保スコアを持つ。
 
-**キーワード:** Beast, Champion (1/8), Ward (6+), Death, Ossiarch Bonereapers
+**キーワード:** 獣兵、豪傑（1/8）、加護（6+）、死の大同盟、オシアーク・ボーンリーパー（Beast, Champion (1/8), Ward (6+), Death, Ossiarch Bonereapers）
 
 ---
 
@@ -1131,13 +1134,13 @@
 - **Seeker of Truebone**（Passive）
   - 効果: This unit can be picked to be the target of the ‘Immortal Elite’ ability as if it had the **HERO** keyword. Each time a visible enemy unit within 12" of this unit is destroyed, roll a dice. On a 3+, this unit gains 1 **portion of truebone**. Each time a visible friendly non-**BEAST OSSIARCH BONEREAPERS** unit wholly within 12" of this unit is destroyed, this unit gains 1 **portion of truebone**.
 
-**キーワード:** Unique, Infantry, Wizard (1), Ward (6+), Relentless Discipline (2) Death, Ossiarch Bonereapers
+**キーワード:** 固有、歩兵、魔術師（1）、加護（6+）、Relentless Discipline (2) Death、オシアーク・ボーンリーパー（Unique, Infantry, Wizard (1), Ward (6+), Relentless Discipline (2) Death, Ossiarch Bonereapers）
 
 **ノート:** This unit cannot be reinforced.
 
 ---
 
-## Vokmortian, Master of the Bone-tithe
+## 骨税長官ヴォクモーティアン(Vokmortian, Master of the Bone-tithe)
 
 **ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
@@ -1155,22 +1158,22 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Gaze of Death | 12" | 1 | 3+ | 2+ | 1 | D6 | - |
+| 死の睥睨(Gaze of Death) | 12" | 1 | 3+ | 2+ | 1 | D6 | - |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Staff of Retribution | 3 | 4+ | 3+ | 1 | D3 | - |
+| 報いの杖(Staff of Retribution) | 3 | 4+ | 3+ | 1 | D3 | - |
 
 **アビリティ:**
 
-- **Voice of Nagash**（Enemy Hero Phase / CP 1）
-  - 宣言: Pick a visible enemy unit within 12" of this unit to be the target.
-  - 効果: The target cannot be picked to be the target of or be affected by any **non-CORE** abilities used by other enemy units for the rest of the turn.
-- **Mortal Contract**（Your Hero Phase / 詠唱/詠誦値 6） ［Spell］
-  - 宣言: Pick a visible enemy unit within 18" of this unit to be the target, then make a casting roll of 2D6.
-  - 効果: Until the start of your next turn, each time the target is picked to use a **CORE** ability, roll a D3 as a reaction. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If the target is destroyed by this ability, do not resolve the effect of that **CORE** ability.
+- **ナガッシュの声(Voice of Nagash)**（敵軍側ヒーローフェイズ / CP 1）
+  - 宣言: このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。
+  - 効果: このターン中、選択された敵ユニットは、他の敵ユニットが使用する『**コア**』でないアビリティの対象として選択できず、その効果を受けることもできない。
+- **死の契約(Mortal Contract)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6） ［呪文］
+  - 宣言: このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、選択された敵ユニットが『**コア**』アビリティを使用するたびに、リアクションとしてD3を1個ロールする。ロール結果が2+であれば、その敵ユニットはロール結果に等しい数の致命的ダメージを受ける。このアビリティによって敵ユニットが全滅した場合、その敵ユニットの『**コア**』アビリティの効果は解決されない。
 
 **連隊オプション:**
 
@@ -1178,4 +1181,4 @@
 - 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
-**キーワード:** Unique, Hero, Wizard (2), Infantry, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers
+**キーワード:** 固有、英雄、魔術師（2）、歩兵、加護（6+）、無慈悲なる規律（2）、死の大同盟、オシアーク・ボーンリーパー（Unique, Hero, Wizard (2), Infantry, Ward (6+), Relentless Discipline (2), Death, Ossiarch Bonereapers）

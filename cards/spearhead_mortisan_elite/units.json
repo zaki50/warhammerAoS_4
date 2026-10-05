@@ -3,19 +3,19 @@
   "slug": "spearhead_mortisan_elite",
   "kind": "spearhead",
   "faction_en": "Ossiarch Bonereapers",
-  "faction_ja": null,
+  "faction_ja": "オシアーク・ボーンリーパー",
   "faction_slug": "ossiarch_bonereapers",
   "alliance": null,
   "title_en": "Mortisan Elite",
-  "title_ja": null,
+  "title_ja": "モーティザン精鋭部隊",
   "data_version": 483
  },
  "units": [
   {
    "id": "b24ac784-4b47-4928-8e07-b79626561bb7",
    "name": {
-    "ja": "Immortis Guard",
-    "en": "",
+    "ja": "イモーティス・ガード",
+    "en": "Immortis Guard",
     "own": false,
     "fix": [],
     "note": []
@@ -53,8 +53,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Dread Halberd",
-     "en": "",
+     "ja": "ドレッド・ハルバード",
+     "en": "Dread Halberd",
      "own": false,
      "fix": [],
      "note": [],
@@ -72,28 +72,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Soulbound Protectors",
-      "en": "",
+      "ja": "魂を捧げし守護者",
+      "en": "Soulbound Protectors",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Your general has **WARD (5+)** while they are within this unit's combat range."
+       "ja": "自軍側ジェネラルがこのユニットの近接範囲内に一部でも入っている間、そのジェネラルは**加護（5+）**を持つ。",
+       "en": "Your general has **WARD (5+)** while they are within this unit's combat range.",
+       "fix": []
       }
      },
      "own": false,
@@ -107,12 +111,12 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ]
    ],
    "keyword_fix": {},
@@ -123,8 +127,8 @@
   {
    "id": "ec728274-fc08-49cd-b5e6-6dccdd94796d",
    "name": {
-    "ja": "Morghast Archai",
-    "en": "",
+    "ja": "モルガスト・アルカイ",
+    "en": "Morghast Archai",
     "own": false,
     "fix": [],
     "note": []
@@ -162,8 +166,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Spirit Weapons",
-     "en": "",
+     "ja": "精霊たちの武器",
+     "en": "Spirit Weapons",
      "own": false,
      "fix": [],
      "note": [],
@@ -181,28 +185,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Heralds of Nagash",
-      "en": "",
+      "ja": "ナガッシュの先触れ",
+      "en": "Heralds of Nagash",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Add 1 to discipline rolls for this unit while it is not wholly within 12\" of your general."
+       "ja": "このユニットが自軍側ジェネラルの12mv以内に全体が入っていない間、このユニットによる規律ロールは+1の修正を受ける。",
+       "en": "Add 1 to discipline rolls for this unit while it is not wholly within 12\" of your general.",
+       "fix": []
       }
      },
      "own": false,
@@ -216,16 +224,16 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Fly",
-     ""
+     "飛行",
+     "Fly"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ]
    ],
    "keyword_fix": {},
@@ -236,8 +244,8 @@
   {
    "id": "79912375-0e19-436c-951f-f10983c8a00b",
    "name": {
-    "ja": "Mortisan Ossifector",
-    "en": "",
+    "ja": "モーティザン・オシフェクター",
+    "en": "Mortisan Ossifector",
     "own": false,
     "fix": [],
     "note": []
@@ -275,8 +283,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Ossified Talons",
-     "en": "",
+     "ja": "骨化せし鉤爪",
+     "en": "Ossified Talons",
      "own": false,
      "fix": [],
      "note": [],
@@ -294,28 +302,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Refined Creations",
-      "en": "",
+      "ja": "洗練されし創造物",
+      "en": "Refined Creations",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Your Hero Phase"
+       "ja": "自軍側ヒーローフェイズ",
+       "en": "Your Hero Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick a visible friendly unit wholly within 12\" of this unit to be the target, then make a casting roll of 2D6."
+       "ja": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方ユニットを1個選択し、2D6の詠唱ロールをする。",
+       "en": "Pick a visible friendly unit wholly within 12\" of this unit to be the target, then make a casting roll of 2D6.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "On a 5+, the target's melee weapons have **Crit (2 Hits)** until the start of your next turn."
+       "ja": "ロール結果が5+であれば、次の自軍側ターン開始時まで、選択された味方ユニットが装備している近接武器は**クリティカル（2ヒット）**を得る。",
+       "en": "On a 5+, the target's melee weapons have **Crit (2 Hits)** until the start of your next turn.",
+       "fix": []
       }
      },
      "own": false,
@@ -329,20 +341,20 @@
    "terrain": [],
    "keywords": [
     [
-     "Hero",
-     ""
+     "英雄",
+     "Hero"
     ],
     [
-     "Wizard",
-     ""
+     "魔術師",
+     "Wizard"
     ],
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ]
    ],
    "keyword_fix": {},
@@ -353,8 +365,8 @@
   {
    "id": "1adc6649-1a9d-45a1-8363-8069a9de9da3",
    "name": {
-    "ja": "Necropolis Stalkers",
-    "en": "",
+    "ja": "ネクロポリス・ストーカー",
+    "en": "Necropolis Stalkers",
     "own": false,
     "fix": [],
     "note": []
@@ -392,8 +404,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Stalker Blades",
-     "en": "",
+     "ja": "ストーカーブレイド",
+     "en": "Stalker Blades",
      "own": false,
      "fix": [],
      "note": [],
@@ -411,28 +423,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Switch Aspects",
-      "en": "",
+      "ja": "相の変更",
+      "en": "Switch Aspects",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Any Combat Phase"
+       "ja": "任意の近接フェイズ",
+       "en": "Any Combat Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Pick 1 of the following effects to apply for the rest of the turn:\n\n***Blade-parry Aspect:*** Subtract l from hit rolls for combat attacks that target this unit.\n\n***Destroyer Aspect:*** Ward rolls cannot be made for damage points inflicted by this unit's combat attacks."
+       "ja": "このターン中に適用される効果を以下の中から1個選択する。\n**受け流しの相：**このユニットを対象とするメレーアタックは、ヒットロールに-1の修正を受ける。\n**破壊の相：**このユニットのメレーアタックによるダメージに対して、加護ロールを実行することはできない。",
+       "en": "Pick 1 of the following effects to apply for the rest of the turn:\n\n***Blade-parry Aspect:*** Subtract l from hit rolls for combat attacks that target this unit.\n\n***Destroyer Aspect:*** Ward rolls cannot be made for damage points inflicted by this unit's combat attacks.",
+       "fix": []
       }
      },
      "own": false,
@@ -446,12 +462,12 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ]
    ],
    "keyword_fix": {},

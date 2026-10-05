@@ -1,4 +1,4 @@
-# The Lance of Ossia ウォースクロール一覧
+# オッシアの槍(The Lance of Ossia) ウォースクロール一覧
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
@@ -7,7 +7,7 @@
 
 ---
 
-## Arch-Kavalos Zandtos
+## アーク＝カヴァロス・ザンドトス(Arch-Kavalos Zandtos)
 
 **ポイント:** 220pt / **モデル数:** 1 / **ベースサイズ:** 80mm
 
@@ -25,30 +25,30 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| The Dark Lance | 5 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage) |
-| Kavalos Steed’s Hooves, Teeth and Barbed Tails | 4 | 5+ | 3+ | - | 1 | Companion |
+| 昏き槍(The Dark Lance) | 5 | 3+ | 3+ | 2 | 2 | 突撃（+1ダメージ量）(Charge (+1 Damage)) |
+| カヴァロス騎乗獣の蹄、歯、そして有棘の尻尾(Kavalos Steed’s Hooves, Teeth and Barbed Tails) | 4 | 5+ | 3+ | - | 1 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Still Their Breath!**（Any Combat Phase） ［Relentless Discipline］
-  - 宣言: Pick a friendly **non-HERO OSSIARCH BONEREAPERS CAVALRY** unit wholly within 12" of this unit to be the target.
-  - 効果: Spend 1 **relentless discipline** point. If this unit is in combat, no **relentless discipline** points are spent. The target's melee weapons have **Charge (+ 1 Damage)** for the rest of the turn.
-- **Unstoppable Charge**（Once Per Battle, Any Combat Phase）
-  - 宣言: If this unit charged this turn, pick each enemy unit in combat with it to be the targets.
-  - 効果: The targets have **STRIKE-LAST** for the rest of the turn.
+- **息の根を止めろ！(Still Their Breath!)**（任意の近接フェイズ） ［無慈悲なる規律］
+  - 宣言: このユニットの12mv以内に全体が入っている英雄でない味方**オシアーク・ボーンリーパー・騎兵**・ユニットを1個選択する。
+  - 効果: 1**無慈悲なる規律**ポイントを消費する。このユニットが近接戦闘中ならば、**無慈悲なる規律**ポイントは消費しない。このターン中、その味方ユニットの近接武器は**突撃**（+1ダメージ量）を得る。
+- **阻止不能な突撃(Unstoppable Charge)**（バトル中1回限り、任意の近接フェイズ）
+  - 宣言: このユニットがこのターン中に突撃していた場合、このユニットと近接戦闘中である各敵ユニットを選択する。
+  - 効果: そのターン中、選択された各敵ユニットは『**後手効果**』を得る。
 
 **連隊オプション:**
 
 - 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
-**キーワード:** Unique, Hero, Cavalry, Ward (6+), Relentless Discipline (7), Death, Ossiarch Bonereapers
+**キーワード:** 固有、英雄、騎兵、加護（6+）、無慈悲なる規律（7）、死の大同盟、オシアーク・ボーンリーパー（Unique, Hero, Cavalry, Ward (6+), Relentless Discipline (7), Death, Ossiarch Bonereapers）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Legion Subcommander*.
 
 ---
 
-## Kavalos Deathriders
+## カヴァロス・デスライダー(Kavalos Deathriders)
 
 **ポイント:** 160pt / **モデル数:** 5 / **ベースサイズ:** 60 x 35mm
 
@@ -62,20 +62,20 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Kavalos Blades | 3 | 3+ | 4+ | 1 | 1 | - |
-| Kavalos Steed’s Hooves and Teeth | 2 | 5+ | 3+ | - | 1 | Companion |
+| カヴァロス・ブレイド(Kavalos Blades) | 3 | 3+ | 4+ | 1 | 1 | - |
+| カヴァロス騎乗獣の蹄と歯(Kavalos Steed’s Hooves and Teeth) | 2 | 5+ | 3+ | - | 1 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Deathrider Wedge**（Any Combat Phase） ［Core, Attack, Fight］
-  - 宣言: If this unit charged this turn, pick an enemy unit in combat with it to be the enemy target. Then, you can pick a friendly **Liege-Kavalos** within this unit's combat range to be the friendly target.
-  - 効果: Inflict D3 mortal damage on the enemy target. Inflict an additional D3 mortal damage on the enemy target if you picked a friendly target. Then, this unit and the friendly target (if any) can move 10". They can move through the combat ranges of enemy units but cannot end that move in combat.
+- **デスライダー楔陣(Deathrider Wedge)**（任意の近接フェイズ） ［コア、アタック、近接攻撃］
+  - 宣言: このユニットがこのターン中に突撃していた場合、このユニットと近接戦闘中である敵ユニットを1個選択する。その後、このユニットの近接範囲に一部でも入っている味方**リージュ＝カヴァロス**を1個選択してもよい。
+  - 効果: 選択された敵ユニットはD3ポイントの致命的ダメージを受ける。味方ユニットも選択していたならば、その敵ユニットは追加でD3ポイントの致命的ダメージを受ける。その後、このユニットと選択された味方ユニット（もしあれば）は、それぞれ10mv移動してもよい。その移動の際、敵ユニットの近接範囲を通り抜けることができるが、近接戦闘に突入するように移動を完了することはできない。
 
-**キーワード:** Cavalry, Champion, Standard Bearer (1/5), Ward (6+), Death, Ossiarch Bonereapers
+**キーワード:** 騎兵、豪傑、旗手（1/5）、加護（6+）、死の大同盟、オシアーク・ボーンリーパー（Cavalry, Champion, Standard Bearer (1/5), Ward (6+), Death, Ossiarch Bonereapers）
 
 ---
 
-## Kavalos War Chariot
+## カヴァロス・ウォーチャリオット(Kavalos War Chariot)
 
 **ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 120 × 92mm
 
@@ -91,23 +91,23 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Charioteers' Weapons | 4 | 3+ | 4+ | 1 | 1 | - |
-| Chariot Steeds' Fangs and Claws | 6 | 5+ | 3+ | - | 1 | Companion |
+| 戦車乗りの武器(Charioteers' Weapons) | 4 | 3+ | 4+ | 1 | 1 | - |
+| 戦車輓獣の鉤爪と蹄(Chariot Steeds' Fangs and Claws) | 6 | 5+ | 3+ | - | 1 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Scything Assault**（Any Combat Phase） ［Core, Attack, Fight］
-  - 宣言: If this unit charged this turn, pick an enemy unit in combat with it to be the target.
-  - 効果: Inflict D3 mortal damage on the target. Then, you can remove this unit from the battlefield and set it up again within 1" of the target.
-- **Pinning Attacks**（Once Per Turn (Army), Your Shooting Phase）
-  - 宣言: Pick a visible enemy unit within 18" of this unit to be the target.
-  - 効果: If this unit is wholly within 12" of a friendly **Liege-Kavalos on War Chariot**, apply the effect below. Otherwise, roll a dice. On a 3+, apply the effect below. • Inflict 1 mortal damage on the target. • The target cannot make pile-in moves for the rest of the turn.
+- **斬り裂く襲撃(Scything Assault)**（任意の近接フェイズ） ［コア、アタック、近接攻撃］
+  - 宣言: このユニットがこのターン中に突撃していた場合、このユニットと近接戦闘中である敵ユニットを1個選択する。
+  - 効果: 選択された敵ユニットはD3ポイントの致命的ダメージを受ける。その後、このユニットを戦場から取り除き、その敵ユニットの1mv以内に一部でも入るように再配置してもよい。
+- **足止め攻撃(Pinning Attacks)**（各ターンにつき1回（アーミー）、自軍側遠隔フェイズ）
+  - 宣言: このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。
+  - 効果: このユニットが味方**リージュ＝カヴァロス（ウォーチャリオット~~騎~~==搭==乗）**の12mv以内に全体が入っている場合、以下の効果を適用する。それ以外ならば、ダイスを1個ロールする。ロール結果が3+であれば、以下の効果を適用する。 • 選択された敵ユニットは1ポイントの致命的ダメージを受ける。 • 選択された敵ユニットは、そのターン中に接敵移動をすることができない。
 
-**キーワード:** War Machine, Ward (6+), Death, Ossiarch Bonereapers
+**キーワード:** 戦闘兵器、加護（6+）、死の大同盟、オシアーク・ボーンリーパー（War Machine, Ward (6+), Death, Ossiarch Bonereapers）
 
 ---
 
-## Liege-Kavalos
+## リージュ＝カヴァロス(Liege-Kavalos)
 
 **ポイント:** 180pt / **モデル数:** 1 / **ベースサイズ:** 80mm
 
@@ -125,28 +125,28 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Kavalos Steed’s Hooves, Teeth and Barbed Tails | 4 | 5+ | 3+ | - | 1 | Companion |
-| Commander’s Blade | 5 | 3+ | 4+ | 1 | 2 | Charge (+1 Damage) |
+| カヴァロス騎乗獣の蹄、歯、そして有棘の尻尾(Kavalos Steed’s Hooves, Teeth and Barbed Tails) | 4 | 5+ | 3+ | - | 1 | 随行者(Companion) |
+| 指揮官の刃(Commander’s Blade) | 5 | 3+ | 4+ | 1 | 2 | 突撃（+1ダメージ量）(Charge (+1 Damage)) |
 
 **アビリティ:**
 
-- **Deathrider Commander**（Passive）
-  - 効果: This unit and visible friendly **Kavalos Deathriders** units wholly within 12" of this unit can move 12" instead of 10" when they use the 'Deathrider Wedge' ability.
-- **Master of Cavalry**（Reaction: You declared a **FIGHT** ability for this unit）
-  - 効果: Pick a friendly **Kavalos Deathriders** unit that has not used a **FIGHT** ability this turn and is within this unit's combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target's combat attacks for the rest of the turn.
+- **デスライダー指揮官(Deathrider Commander)**（パッシブ）
+  - 効果: このユニットと、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である各==味方==**カヴァロス・デスライダー**・ユニットは、『デスライダー楔陣』アビリティを使用する際に10mvではなく12mv移動できる。
+- **騎兵の熟達者(Master of Cavalry)**（リアクション：このユニットが『近接攻撃』アビリティを宣言）
+  - 効果: このターン中に『近接攻撃』アビリティを使用しておらず、かつこのユニットの近接範囲内に一部でも入っている味方**カヴァロス~~＝~~==・==デスライダー**・ユニットを1個選択する。このユニットが使用した『**近接攻撃**』アビリティを解決した直後に、選択された味方ユニットはただちに『**近接攻撃**』アビリティを使用できる。その味方ユニットが『**近接攻撃**』アビリティを使用した場合、そのターン中、その味方ユニットによるメレーアタックのヒットロールは+1の修正を受ける。
 
 **連隊オプション:**
 
 - 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
-**キーワード:** Hero, Cavalry, Ward (6+), Relentless Discipline (6), Death, Ossiarch Bonereapers
+**キーワード:** 英雄、騎兵、加護（6+）、無慈悲なる規律（6）、死の大同盟、オシアーク・ボーンリーパー（Hero, Cavalry, Ward (6+), Relentless Discipline (6), Death, Ossiarch Bonereapers）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Legion Subcommander*.
 
 ---
 
-## Liege-Kavalos on War Chariot
+## リージュ＝カヴァロス（ウォーチャリオット搭乗）(Liege-Kavalos on War Chariot)
 
 **ポイント:** 180pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
@@ -164,23 +164,23 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Commander's Blade | 5 | 3+ | 4+ | 1 | 2 | Charge (+1 Damage) |
-| Chariot Steeds' Fangs and Claws | 6 | 5+ | 3+ | - | 1 | Companion |
+| 指揮官の刃(Commander's Blade) | 5 | 3+ | 4+ | 1 | 2 | 突撃（+1ダメージ量）(Charge (+1 Damage)) |
+| 戦車輓獣の鉤爪と蹄(Chariot Steeds' Fangs and Claws) | 6 | 5+ | 3+ | - | 1 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Grind Them to Dust**（Once Per Turn (Army), Any Movement Phase）
-  - 宣言: If this unit is in combat, pick this unit and up to 2 visible friendly **Kavalos War Chariots** wholly within 12" of this unit and in combat to be the targets.
-  - 効果: For each target: • Make a pile-in move. • Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.
-- **Masterful Charioteer**（Once Per Turn (Army), Any Combat Phase）
-  - 宣言: If this unit is in combat and has charged this turn, pick this unit and up to 2 visible friendly **Kavalos War Chariots** that have charged this turn, that are wholly within 12" of this unit and that are in combat to be the targets.
-  - 効果: Each target has **WARD (5+)** for the rest of the turn.
+- **塵となるまで粉砕せよ(Grind Them to Dust)**（各ターンにつき1回（アーミー）、任意の移動フェイズ）
+  - 宣言: このユニットが近接戦闘中である場合、このユニットを選択する。さらに、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である近接戦闘中の味方**カヴァロス・ウォーチャリオット**・ユニットを最大2個まで選択する。
+  - 効果: 選択された各味方ユニットは、 • 接敵移動を1回実行する。 • その後、選択された味方ユニットと近接戦闘中である敵ユニットを1個選択し、D3を1個ロールする。ロール結果が2+であれば、その敵ユニットはロール結果に等しい数の致命的ダメージを受ける。
+- **熟練の戦車乗り(Masterful Charioteer)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 宣言: このユニットがこのターン中に突撃しており、かつ近接戦闘中である場合、このユニットを選択する。さらに、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である、このターン中に突撃していた近接戦闘中の味方**カヴァロス・ウォーチャリオット**を最大2個まで選択する。
+  - 効果: そのターン中、選択された各味方ユニットは**加護（5+）**を持つ。
 
 **連隊オプション:**
 
 - 0-1 **MORTISAN VIZIER**
 - Any **OSSIARCH BONEREAPERS**
 
-**キーワード:** Hero, War Machine, Ward (6+), Relentless Discipline (6), Death, Ossiarch Bonereapers
+**キーワード:** 英雄、戦闘兵器、加護（6+）、無慈悲なる規律（6）、死の大同盟、オシアーク・ボーンリーパー（Hero, War Machine, Ward (6+), Relentless Discipline (6), Death, Ossiarch Bonereapers）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Legion Subcommander*.

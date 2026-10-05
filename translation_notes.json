@@ -931,6 +931,556 @@
    "fix_ja": {
     "父なる牡牛神": "父なる雄牛神"
    }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Amulet of Gnosis",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "1dad7480-c3f4-445c-a391-a1165ccbec19",
+   "en_field": "effect",
+   "name": "Amulet of Gnosis",
+   "ja": "このユニットの12mvに全体が入っている",
+   "en": "wholly within 12\" of this unit",
+   "note": "書籍 p.53 の「12mvに全体が入っている」は「以内」が抜けている（誤植）。英語版どおり「12mv以内に全体が入っている」。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "12mvに全体が入っている": "12mv以内に全体が入っている"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Arkhan the Black, Mortarch of Sacrament|Battle Damaged",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "205f7872-65c7-40eb-895e-dfd360d3632b",
+   "en_field": "effect",
+   "name": "Battle Damaged",
+   "ja": "**ラザラックの黒檀の鉤爪**の【回数】",
+   "en": "the Attacks characteristic of **Razarak’s Ebon Claws**",
+   "note": "英語版は Attacks characteristic。書籍 p.58 は「【回数】」と書いているが、同じ書籍の他の箇所（同じ黒のアーカンの『裏切り者の破滅』、p.87 ほか）は「【攻撃回数】」で、特性値の名前が揺れている（ルールの内容は英語と同じ）。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "【回数】": "【攻撃回数】"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Arkhan the Black, Mortarch of Sacrament|Mortarch of Sacrament",
+   "tr_field": "timing",
+   "table": "warscroll_ability",
+   "id": "49b2343a-1c62-4668-8aa2-dc2cb99d4842",
+   "en_field": "phaseDetails",
+   "name": "Mortarch of Sacrament",
+   "ja": "各ターンにつき1回（アーミー）",
+   "en": "Once Per Turn, Reaction:",
+   "note": "英語版のタイミングは「各ターンにつき1回」で「（アーミー）」が無い。日本語版（書籍 p.58）の「（アーミー）」は余分。黒のアーカンは固有ユニットなので実際の使える回数は変わらない。",
+   "issue": "E. タイミングの誤り",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "各ターンにつき1回（アーミー）": "各ターンにつき1回"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Banner of Old Ossia",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "0e0f099e-ff66-4c6b-a967-c2d5bf7dee2d",
+   "en_field": "effect",
+   "name": "Banner of Old Ossia",
+   "ja": "復帰させるめに",
+   "en": "to return a slain model to a visible friendly **OSSIARCH BONEREAPERS** unit",
+   "note": "アキュシーの禍事（2026年7月）の「させるめに」は「させるために」の脱字（誤植）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "復帰させるめに": "復帰させるために"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Blade of the Nadir",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "ce9ce16c-73bc-48d7-96f8-cc71f0a93cfa",
+   "en_field": "effect",
+   "name": "Blade of the Nadir",
+   "ja": "メレーアタックで修正前の出目6が出た場合",
+   "en": "each time you make an unmodified wound roll of 6 for a combat attack",
+   "note": "英語版は修正前のウーンズロール（wound roll）の出目6。日本語版（書籍 p.53）は「修正前の出目6」でロールの種類が抜けており、ヒットロールの6で発動するようにも読める。ウーンズロールで6が出たときに D3 の致命的ダメージを与えるのが正しい。",
+   "issue": "J. ロールの種類の欠落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "メレーアタックで修正前の出目6": "メレーアタックで修正前のウーンズロールの出目6"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Disciplined Hekatoi",
+   "tr_field": "effect",
+   "table": "battle_formation_rule",
+   "id": "01dcb32a-24ad-4cad-a29c-88283e51738a",
+   "en_field": "effect",
+   "name": "Disciplined Hekatoi",
+   "ja": "選択された味方ユニットのメレーアタックは、ウーンズロールに+1の修正を受ける。",
+   "en": "Add 1 to wound rolls for the target’s attacks.",
+   "note": "英語版の 3 つ目の効果は対象の攻撃（the target’s attacks）すべてのウーンズロールに+1で、攻撃種別を限っていない。日本語版（グューランの禍事 2026年4月）は「メレーアタック」に限っており、レンジアタックには掛からないように読める（現在の対象になる歩兵に遠隔武器を持つものは見当たらないので、実際の差はほぼ無い）。",
+   "issue": "I. 英語に無い条件",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "選択された味方ユニットのメレーアタックは、ウーンズロール": "選択された味方ユニットの攻撃は、ウーンズロール"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Imperious Will",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "ccb608d9-c712-4279-beae-bd09f3c86581",
+   "en_field": "effect",
+   "name": "Imperious Will",
+   "ja": "その**英雄**でないユニットがこのターン中に突撃していない場合、その英雄でないユニットと近接戦闘中である敵ユニット",
+   "en": "Pick an enemy unit in combat with that non-**HERO** unit and that did not charge this turn to be the target.",
+   "note": "英語版で「このターン中に突撃していない」のは対象の敵ユニット（その英雄でないユニットと近接戦闘中で、このターンに突撃していない敵ユニットを選ぶ）。日本語版（書籍 p.52）は味方の英雄でないユニットの条件にしていて、突撃してきた敵も対象にでき、逆に突撃した味方では使えないように読める。",
+   "issue": "F. 効果を得る側の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "その**英雄**でないユニットがこのターン中に突撃していない場合、その英雄でないユニットと近接戦闘中である敵ユニット": "その**英雄**でないユニットと近接戦闘中であり、かつこのターン中に突撃していない敵ユニット"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Katakros, Mortarch of the Necropolis|Supreme Lord of the Bonereaper Legions",
+   "tr_field": "declare",
+   "table": "warscroll_ability",
+   "id": "8327e93c-b664-4ffd-9bf0-34a30ad0cc7b",
+   "en_field": "declare",
+   "name": "Supreme Lord of the Bonereaper Legions",
+   "ja": "このユニットが近接攻撃中ではない場合",
+   "en": "If this unit is not in combat",
+   "note": "英語版は not in combat（近接戦闘中ではない）。書籍 p.57 の「近接攻撃中」は「近接戦闘中」の誤植（同じ文の後半は「近接戦闘中である味方…」）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "近接攻撃中ではない": "近接戦闘中ではない"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Necropolis Stalkers|Fourfold Slayers",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "3585c99c-b3e7-4e7f-ba35-cffa1fc98194",
+   "en_field": "effect",
+   "name": "Fourfold Slayers",
+   "ja": "選択された敵ユニットに3体以上の兵がいる場合",
+   "en": "If this unit has 3 or more models",
+   "note": "英語版は「このユニット（ネクロポリス・ストーカー）に3体以上の兵がいる場合」に5+ごとに致命的ダメージ。日本語版（書籍 p.68）の「選択された敵ユニットに3体以上の兵がいる場合」は、兵数を見るユニットを取り違えている。ストーカーが3体以上いれば、敵の兵数に関わらず5+で数える。",
+   "issue": "F. 効果を得る側の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "選択された敵ユニットに3体以上の兵がいる場合": "このユニットに3体以上の兵がいる場合"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Mortek Triaxes|Atavistic Nightmares",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "54d0d61b-1718-4b84-9e0c-7ea64b4d8a95",
+   "en_field": "effect",
+   "name": "Atavistic Nightmares",
+   "ja": "敵ユニットは、自身に回復や撃破された兵を復帰させるアビリティを使用する際",
+   "en": "If an ability would heal or return slain models to an enemy unit",
+   "note": "英語版は「アビリティがその敵ユニットを回復する／兵を復帰させる場合」で、誰が使うアビリティかを問わない。日本語版（書籍 p.66）の「敵ユニットは、自身に…アビリティを使用する際」は、その敵ユニット自身が使うアビリティに限っている。他の敵ユニット（英雄の呪文・奇蹟など）がそのユニットを回復・復帰させる場合も打ち消し、火鉢をこのユニットの横に戻す。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "敵ユニットは、自身に回復や撃破された兵を復帰させるアビリティを使用する際": "敵ユニットに対して、回復や撃破された兵を復帰させるアビリティが使用される際",
+    "代わりに、自身の横にある": "代わりに、その敵ユニットの横にある"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Liege-Kavalos|Deathrider Commander",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "54a0ed85-3bdf-4f8a-a000-c97e7c98cc7c",
+   "en_field": "effect",
+   "name": "Deathrider Commander",
+   "ja": "かつこのユニットから視認状態である各**カヴァロス・デスライダー**・ユニット",
+   "en": "visible friendly **Kavalos Deathriders** units",
+   "note": "英語版は「味方の」カヴァロス・デスライダー（visible friendly Kavalos Deathriders）。日本語版（書籍 p.60）は「味方」が抜けている。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "かつこのユニットから視認状態である各**カヴァロス・デスライダー**": "かつこのユニットから視認状態である各味方**カヴァロス・デスライダー**"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Liege-Kavalos|Master of Cavalry",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "741f9634-49ae-4ac2-a03a-377b25450ff8",
+   "en_field": "effect",
+   "name": "Master of Cavalry",
+   "ja": "味方**カヴァロス＝デスライダー**・ユニット",
+   "en": "a friendly **Kavalos Deathriders** unit",
+   "note": "書籍 p.60 の「カヴァロス＝デスライダー」は誤植。ユニット名は「カヴァロス・デスライダー」（＝ではなく・。同じページの『デスライダー指揮官』やウォースクロール表題も「カヴァロス・デスライダー」）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**カヴァロス＝デスライダー**": "**カヴァロス・デスライダー**"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Kavalos War Chariot|Pinning Attacks",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "75cd33d2-ffce-4e80-97db-b36bdaa8a154",
+   "en_field": "effect",
+   "name": "Pinning Attacks",
+   "ja": "**リージュ＝カヴァロス（ウォーチャリオット騎乗）**",
+   "en": "**Liege-Kavalos on War Chariot**",
+   "note": "ルール・アップデート 2026年9月（日本語版）の「リージュ＝カヴァロス（ウォーチャリオット騎乗）」は、書籍のウォースクロール名「リージュ＝カヴァロス（ウォーチャリオット搭乗）」と表記が違う。同じユニットを指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "ウォーチャリオット騎乗": "ウォーチャリオット搭乗"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Ghyran Mortek Guard|Shields of the Legion",
+   "tr_field": "timing",
+   "table": "warscroll_ability",
+   "id": "d09ab79b-f1a3-4cde-9932-2405cfd0e4e9",
+   "en_field": "phaseDetails",
+   "name": "Shields of the Legion",
+   "ja": "選択されたが『アタック』アビリティの対象として選択された",
+   "en": "was targeted by an **ATTACK** ability.",
+   "note": "英語版は「…魔術師が『アタック』アビリティの対象として選択された」。日本語版（グューランの禍事 2026年4月 p.2）はタイミング帯の末尾に「が『アタック』アビリティの対象として選択された」が重複して残っている（改訂時の消し忘れ）。ルール上の意味は変わらない。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "選択されたが『アタック』アビリティの対象として選択された": "選択された"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Vokmortian, Master of the Bone-tithe|Master of the Bone-Tithe",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "a56919ee-2afa-4fe5-b36f-636d8fc0cd4b",
+   "en_field": "effect",
+   "name": "Master of the Bone-Tithe",
+   "ja": "選択された敵ユニットは回復ができない。また、その敵ユニット内の撃破された兵を復帰させることができない。",
+   "en": "the target cannot be healed, have slain models returned to it or be replaced.",
+   "note": "英語版は「回復できず、撃破された兵を復帰させられず、代替ユニットに置き換えることもできない（or be replaced）」。日本語版（アキュシーの禍事 2026年7月 p.2）は「代替ユニットに置き換えることもできない」が抜けている。次の自軍側ターン開始時まで、対象が全滅しても代替ユニットの配置（再配置系アビリティ）はできない。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "撃破された兵を復帰させることができない。": "撃破された兵を復帰させることも、代替ユニットに置き換えることもできない。"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Mortis Reapers|The Coldness of Death",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "c8835443-6ca8-46e2-97dc-adfe962a9056",
+   "en_field": "effect",
+   "name": "The Coldness of Death",
+   "ja": "対戦相手の**激憤レベル**は0に減少する",
+   "en": "your opponent must reduce their **fury level** to 0",
+   "note": "fury level は、ヘルスミス・オヴ・ハシュットの訳（アキュシーの禍事）では「憤激レベル」、同じ PDF のヴォクモーティアンの rage dice も「憤激ダイス」。日本語版（アキュシーの禍事 2026年7月 p.2）のここだけ「激憤レベル」と字順が逆。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "激憤レベル": "憤激レベル"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Soul-Claim",
+   "tr_field": "declare",
+   "table": "lore_ability",
+   "id": "81539afe-150a-421a-b7b6-e28d7c28bb10",
+   "en_field": "declare",
+   "name": "Soul-Claim",
+   "ja": "味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "en": "Then, you can pick a visible friendly **OSSIARCH BONEREAPERS** unit wholly within 12\" of that **WIZARD** to be a friendly target.",
+   "note": "英語版は味方の対象を「選択してもよい」（you can pick）。日本語版（グューランの禍事 2026年4月）は「選択し」で、味方ユニットの選択が必須のように読める。味方の対象を選ばずに（敵へのダメージだけを狙って）唱えてよい。",
+   "issue": "C. 任意と必須の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "ユニットを1個選択し、2D6の詠唱ロールをする": "ユニットを1個選択してもよい。最後に、2D6の詠唱ロールをする"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Spearhead|Cold Savagery",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "5cfa0e54-e447-42b2-9d7c-93f9048c4cf4",
+   "en_field": "effect",
+   "name": "Cold Savagery",
+   "ja": "【攻撃回数】は+1の修正を受ける",
+   "en": "add 1 to the Rend characteristic of the target's melee weapons",
+   "note": "英語版は【貫通値】に+1（Rend characteristic）。日本語版（書籍 p.81、カヴァロス先遣隊 PDF 2026年2月とも）の【攻撃回数】は誤り。近接武器の【貫通値】を+1する。",
+   "issue": "P. 特性値の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "【攻撃回数】は+1の修正を受ける": "【貫通値】は+1の修正を受ける"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Spearhead|Liege-Kavalos|Signal the Advance",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "2096207f-0001-4018-8969-afbe93a6bf85",
+   "en_field": "effect",
+   "name": "Signal the Advance",
+   "ja": "ロール結果が3+であれば",
+   "en": "Roll a dice. On a 3+,",
+   "note": "英語版は「ダイスを1個ロールする。3+であれば…」。日本語版（書籍 p.82、カヴァロス先遣隊 PDF 2026年2月とも）は「ダイスを1個ロールする。」が抜けていて、何のロール結果か分からない。ダイスを1個ロールし、3+で突撃ロール+1。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "ロール結果が3+であれば": "ダイスを1個ロールする。ロール結果が3+であれば"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Spearhead|Kavalos Deathriders|Deathrider Wedge",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "c2404dae-4866-4e01-b530-7485128593b7",
+   "en_field": "effect",
+   "name": "Deathrider Wedge",
+   "ja": "移動経路上にいた敵ユニットを1個選択し、ダイスを1個ロール。",
+   "en": "you can pick an enemy unit that it passed across and roll a dice.",
+   "note": "英語版は「通り抜けた敵ユニットを1個選択してもよい」（you can pick）。日本語版（骨税狩りの梯団 PDF 2026年2月）は「選択し」で必須のように読める。",
+   "issue": "C. 任意と必須の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "敵ユニットを1個選択し、ダイスを1個ロール。": "敵ユニットを1個選択してもよい。そうした場合、ダイスを1個ロール。"
+   }
+  },
+  {
+   "faction": "the_lance_of_ossia",
+   "tr_section": "ability_texts",
+   "tr_key": "Fury of Zandtos",
+   "tr_field": "declare",
+   "table": "ability",
+   "id": "9acbe6dd-f24b-4e1c-9799-5c0964d6a2bb",
+   "en_field": "declare",
+   "name": "Fury of Zandtos",
+   "ja": "このフェイズ中、『**無慈悲なる規律**』アビリティを使用していない味方**オッシアの槍**・ユニット",
+   "en": "that charged this turn and that has not used a **RELENTLESS DISCIPLINE** ability this phase",
+   "note": "英語版は「このターン中に突撃し、かつこのフェイズ中に無慈悲なる規律アビリティを使用していない」味方オッシアの槍ユニット（that charged this turn and that has not used …）。日本語版（書籍 p.93）は「このターン中に突撃した」条件が抜けていて、突撃していないユニットにも使えるように読める。このターンに突撃したユニットだけを選べる。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "このフェイズ中、『**無慈悲なる規律**』": "このターン中に突撃しており、かつこのフェイズ中、『**無慈悲なる規律**』"
+   }
+  },
+  {
+   "faction": "the_lance_of_ossia",
+   "tr_section": "ability_texts",
+   "tr_key": "Blood-smeared Hooves",
+   "tr_field": "declare",
+   "table": "ability",
+   "id": "603dfc46-e069-4403-a711-a52fc78f8ed6",
+   "en_field": "declare",
+   "name": "Blood-smeared Hooves",
+   "ja": "このフェイズ中、『**無慈悲なる規律**』アビリティを使用していない味方**オッシアの槍**・ユニット",
+   "en": "that charged this turn and has not used a **RELENTLESS DISCIPLINE** ability this phase",
+   "note": "英語版は「このターン中に突撃し、かつこのフェイズ中に無慈悲なる規律アビリティを使用していない」味方オッシアの槍ユニット（that charged this turn and has not used …）。日本語版（書籍 p.93）は「このターン中に突撃した」条件が抜けていて、突撃していないユニットにも使えるように読める。このターンに突撃したユニットだけを選べる。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "このフェイズ中、『**無慈悲なる規律**』": "このターン中に突撃しており、かつこのフェイズ中、『**無慈悲なる規律**』"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Teratic Cohort|Bone-deep Savagery",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "50af6bcf-a0d1-4c25-aaaf-112bfcbdd2be",
+   "en_field": "effect",
+   "name": "Bone-deep Savagery",
+   "ja": "その味方ユニットが移動開始時に",
+   "en": "If it was in combat at the start of the move",
+   "note": "英語版の it はこのユニット自身。日本語版（書籍 p.66）の「その味方ユニット」は指す先が無い（他のアビリティの文からの流用と思われる）。ルール上の意味は同じで、このユニットが移動開始時に近接戦闘中なら近接戦闘中で移動を終えなければならない。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "その味方ユニットが移動開始時": "このユニットが移動開始時"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Spearhead|Teratic Cohort|Bone-deep Savagery",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "65273d9d-443f-4205-93c1-f055a464e01e",
+   "en_field": "effect",
+   "name": "Bone-deep Savagery",
+   "ja": "その味方ユニットが移動開始時に",
+   "en": "If it was in combat at the start of the move",
+   "note": "英語版の it はこのユニット自身。日本語版（書籍 p.82（スピアヘッド「カヴァロスヴァンガード」PDF 2026年2月も同文））の「その味方ユニット」は指す先が無い（他のアビリティの文からの流用と思われる）。ルール上の意味は同じで、このユニットが移動開始時に近接戦闘中なら近接戦闘中で移動を終えなければならない。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "その味方ユニットが移動開始時": "このユニットが移動開始時"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "ability_texts",
+   "tr_key": "Spearhead|Relentless Discipline",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "08dfd234-96bc-4f3e-8182-bfa05703c56f",
+   "en_field": "effect",
+   "name": "Relentless Discipline",
+   "ja": "ウーンズロールに+1の修正を受ける\n•",
+   "en": "Add 1 to wound rolls for combat attacks made by the target for the rest of the phase.",
+   "note": "日本語版（スピアヘッド「モーティザン精鋭部隊」PDF 2025年6月）の 3 つ目の項目は末尾に句点が無い（他の項目にはある）。誤植でルール上の影響は無い。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "ウーンズロールに+1の修正を受ける\n": "ウーンズロールに+1の修正を受ける。\n"
+   }
+  },
+  {
+   "faction": "ossiarch_bonereapers",
+   "tr_section": "wargear_option_texts",
+   "tr_key": "Kainan's Reapers",
+   "tr_field": null,
+   "table": "warscroll",
+   "id": "f0506744-005c-43ac-86cb-a962d3e73be8",
+   "en_field": "wargearOptionsText",
+   "name": "Kainan's Reapers",
+   "ja": "• ミール・カイナン（ナディライトの武器を装備している）",
+   "en": "Binar Khenta",
+   "note": "英語版の 2 体目は Binar Khenta。日本語版（レジェンド・ウォースクロール 2026年7月 p.38）は 1 体目と同じ「ミール・カイナン」を繰り返している（誤植）。Binar Khenta の公式の日本語表記は未確認。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": null
+  },
+  {
+   "faction": "the_lance_of_ossia",
+   "tr_section": "ability_texts",
+   "tr_key": "Liege-Kavalos|Deathrider Commander",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "54a0ed85-3bdf-4f8a-a000-c97e7c98cc7c",
+   "en_field": "effect",
+   "name": "Deathrider Commander",
+   "ja": "かつこのユニットから視認状態である各**カヴァロス・デスライダー**・ユニット",
+   "en": "visible friendly **Kavalos Deathriders** units",
+   "note": "英語版は「味方の」カヴァロス・デスライダー（visible friendly Kavalos Deathriders）。日本語版（書籍 p.60）は「味方」が抜けている。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "かつこのユニットから視認状態である各**カヴァロス・デスライダー**": "かつこのユニットから視認状態である各味方**カヴァロス・デスライダー**"
+   }
+  },
+  {
+   "faction": "the_lance_of_ossia",
+   "tr_section": "ability_texts",
+   "tr_key": "Liege-Kavalos|Master of Cavalry",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "741f9634-49ae-4ac2-a03a-377b25450ff8",
+   "en_field": "effect",
+   "name": "Master of Cavalry",
+   "ja": "味方**カヴァロス＝デスライダー**・ユニット",
+   "en": "a friendly **Kavalos Deathriders** unit",
+   "note": "書籍 p.60 の「カヴァロス＝デスライダー」は誤植。ユニット名は「カヴァロス・デスライダー」（＝ではなく・。同じページの『デスライダー指揮官』やウォースクロール表題も「カヴァロス・デスライダー」）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**カヴァロス＝デスライダー**": "**カヴァロス・デスライダー**"
+   }
+  },
+  {
+   "faction": "the_lance_of_ossia",
+   "tr_section": "ability_texts",
+   "tr_key": "Kavalos War Chariot|Pinning Attacks",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "75cd33d2-ffce-4e80-97db-b36bdaa8a154",
+   "en_field": "effect",
+   "name": "Pinning Attacks",
+   "ja": "**リージュ＝カヴァロス（ウォーチャリオット騎乗）**",
+   "en": "**Liege-Kavalos on War Chariot**",
+   "note": "ルール・アップデート 2026年9月（日本語版）の「リージュ＝カヴァロス（ウォーチャリオット騎乗）」は、書籍のウォースクロール名「リージュ＝カヴァロス（ウォーチャリオット搭乗）」と表記が違う。同じユニットを指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "ウォーチャリオット騎乗": "ウォーチャリオット搭乗"
+   }
   }
  ]
 }

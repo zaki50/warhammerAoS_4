@@ -1,4 +1,4 @@
-# The Lance of Ossia ファクションルール
+# オッシアの槍(The Lance of Ossia) ファクションルール
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
@@ -6,42 +6,42 @@
 ## 戦闘特性
 
 
-### The Lance of Ossia Battle Traits（出典: Army of Renown: The Lance of Ossia）
+### 戦闘特性(The Lance of Ossia Battle Traits)（出典: Army of Renown: The Lance of Ossia）
 
-- **Praetorian Elite**（Once Per Battle Round (Army), Start of Battle Round）
-  - 宣言: You must use this ability if there are any friendly **LANCE OF OSSIA HEROES** on the battlefield. Pick a friendly **LANCE OF OSSIA HERO** to be the target.
-  - 効果: You gain a number of **relentless discipline** points equal to the number shown after the target's **RELENTLESS DISCIPLINE** keyword. At the end of the battle round, any unspent **relentless discipline** points are lost.
-- **Kavalos Lance**（Passive）
-  - 効果: When a friendly **LANCE OF OSSIA** unit uses the 'Power Through' command, the target does not have to have a lower Health characteristic than that friendly unit.
-- **Vengeful Outriders**（Your Movement Phase）
-  - 宣言: Pick a friendly **LANCE OF OSSIA** unit that has not used a **RELENTLESS DISCIPLINE** ability this phase to be the target
-  - 効果: Spend 1 **relentless discipline** point. If the target is reinforced and has more than half of its starting models, spend 2 **relentless discipline** points instead. Add 2" to the target's Move characteristic for the rest of the phase.
-- **Silent Menace**（Your Movement Phase）
-  - 宣言: Pick a friendly **LANCE OF OSSIA** unit that has not used a **RELENTLESS DISCIPLINE** ability this phase to use this ability, then pick a visible enemy unit within 12" of it to be the target.
-  - 効果: Spend 1 **relentless discipline** point. If the target is reinforced and has more than half of its starting models, spend 2 **relentless discipline** points instead. The target cannot use the 'Redeploy' command for the rest of the turn.
-- **Fury of Zandtos**（Any Charge Phase）
-  - 宣言: Pick a friendly **LANCE OF OSSIA** unit that charged this turn and that has not used a **RELENTLESS DISCIPLINE** ability this phase to be the target.
-  - 効果: Spend 1 **relentless discipline** point. If the target is reinforced and has more than half of its starting models, spend 2 **relentless discipline** points instead. The target's melee weapons, including **Companion** weapons, have **Crit (2 Hits)** for the rest of the turn.
-- **Blood-smeared Hooves**（Any Combat Phase）
-  - 宣言: Pick a friendly **LANCE OF OSSIA** unit that charged this turn and has not used a **RELENTLESS DISCIPLINE** ability this phase to be the target.
-  - 効果: Spend 1 **relentless discipline** point. If the target is reinforced and has more than half of its starting models, spend 2 **relentless discipline** points instead. Add 1 to the Rend characteristic of the target's weapons, including **Companion** weapons, for the rest of the turn.
+- **精鋭護衛部隊(Praetorian Elite)**（各バトルラウンドにつき1回（アーミー）、バトルラウンドの開始時）
+  - 宣言: 味方**オッシアの槍・英雄**が戦場に1体以上配置されている場合、このアビリティを使用しなければならない。味方**オッシアの槍・英雄**を1体選択する。
+  - 効果: 選択された味方ユニットの**無慈悲なる規律**・キーワードに付随する数値と同じ数の**無慈悲なる規律**ポイントを獲得する。バトルラウンド終了時に、未使用の**無慈悲なる規律**ポイントは失われる。
+- **カヴァロス楔陣(Kavalos Lance)**（パッシブ）
+  - 効果: 味方**オッシアの槍**・ユニットが『強行突破』指揮アビリティを使用する場合、選択された敵ユニットはその味方ユニットより低い【体力】を持っている必要がない。
+- **復讐の騎行戦力(Vengeful Outriders)**（自軍側移動フェイズ）
+  - 宣言: このフェイズ中、『**無慈悲なる規律**』アビリティを使用していない味方**オッシアの槍**・ユニットを1個選択し、このアビリティを使用する
+  - 効果: 1**無慈悲なる規律**ポイントを消費する。選択された味方ユニットが増強ユニットかつ初期兵数の半分より多い状態ならば、代わりに2**無慈悲なる規律**ポイントを消費する。そのフェイズ中、その味方ユニットの【移動力】は+2mvの修正を受ける。
+- **静かなる脅威(Silent Menace)**（自軍側移動フェイズ）
+  - 宣言: このフェイズ中、『**無慈悲なる規律**』アビリティを使用していない味方**オッシアの槍**・ユニットを1個選択し、このアビリティを使用する。その後、その味方ユニットの12mv以内に一部でも入っており、かつその味方ユニットから視認状態である敵ユニットを1個選択する。
+  - 効果: 1**無慈悲なる規律**ポイントを消費する。選択された敵ユニットが増強ユニットかつ初期兵数の半分より多い状態ならば、代わりに2**無慈悲なる規律**ポイントを消費する。そのターン中、その敵ユニットは『再配置』指揮アビリティを使用できない。
+- **ザンドトスの憤怒(Fury of Zandtos)**（任意の突撃フェイズ）
+  - 宣言: この==ターン中に突撃しており、かつこの==フェイズ中、『**無慈悲なる規律**』アビリティを使用していない味方**オッシアの槍**・ユニットを1個選択し、このアビリティを使用する
+  - 効果: 1**無慈悲なる規律**ポイントを消費する。選択された味方ユニットが増強ユニットかつ初期兵数の半分より多い状態ならば、代わりに2**無慈悲なる規律**ポイントを消費する。そのターン中、その味方ユニットの近接武器（**随行者**を含む）は**クリティカル（2ヒット）**を得る。
+- **血塗られし蹄(Blood-smeared Hooves)**（任意の近接フェイズ）
+  - 宣言: この==ターン中に突撃しており、かつこの==フェイズ中、『**無慈悲なる規律**』アビリティを使用していない味方**オッシアの槍**・ユニットを1個選択し、このアビリティを使用する
+  - 効果: 1**無慈悲なる規律**ポイントを消費する。選択された味方ユニットが増強ユニットかつ初期兵数の半分より多い状態ならば、代わりに2**無慈悲なる規律**ポイントを消費する。そのターン中、その味方ユニットの武器（**随行者**武器を含む）の【貫通値】は+1の修正を受ける。
 
 ## 英雄特性
 
 
-### The Lance of Ossia Heroic Trait（出典: Army of Renown: The Lance of Ossia）
+### 英雄特性(The Lance of Ossia Heroic Trait)（出典: Army of Renown: The Lance of Ossia）
 
-(**HERO** only)
+（**英雄**のみ）
 
-- **Prevailing Tactician**（Your Hero Phase）
-  - 効果: If a friendly **Arch-Kavalos Zandtos** is not wholly within 12" of this unit, you gain 2 **relentless discipline** points.
+- **優勢なる戦術家(Prevailing Tactician)**（自軍側ヒーローフェイズ）
+  - 効果: 味方**アーク＝カヴァロス・ザンドトス**が、このユニットの12mv以内に全体が入っていない場合、自軍は2**無慈悲なる規律**ポイントを獲得する。
 
 ## 神器
 
 
-### The Lance of Ossia Artefact of Power（出典: Army of Renown: The Lance of Ossia）
+### 神器(The Lance of Ossia Artefact of Power)（出典: Army of Renown: The Lance of Ossia）
 
-(**HERO** only)
+（**英雄**のみ）
 
-- **Helm of Tyranny**（Passive）
-  - 効果: Subtract 3 from the control scores of enemy units while they are within 12" of this unit.
+- **暴政の兜(Helm of Tyranny)**（パッシブ）
+  - 効果: このユニットの12mv以内に一部でも入っている敵ユニットは、確保スコアに-3の修正を受ける。

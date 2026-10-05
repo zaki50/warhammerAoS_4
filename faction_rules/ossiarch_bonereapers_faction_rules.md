@@ -1,4 +1,4 @@
-# Ossiarch Bonereapers ファクションルール
+# オシアーク・ボーンリーパー(Ossiarch Bonereapers) ファクションルール
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
@@ -6,156 +6,156 @@
 ## 戦闘特性
 
 
-### Ossiarch Bonereapers Battle Traits（出典: Death Battletome: Ossiarch Bonereapers）
+### 戦闘特性(Ossiarch Bonereapers Battle Traits)（出典: Death Battletome: Ossiarch Bonereapers）
 
-Ossiarch Bonereapers armies can use the following abilities:
+オシアーク・ボーンリーパーのアーミーは、以下のアビリティを使用できる：
 
-- **Immortal Elite**（Per Battle Round (Army), Start of Battle Round）
-  - 宣言: You must use this ability if there are any friendly **OSSIARCH BONEREAPERS HEROES** on the battlefield. Pick a friendly **OSSIARCH BONEREAPERS HERO** to be the target.
-  - 効果: You gain a number of **relentless discipline** points equal to the number after the target's **RELENTLESS DISCIPLINE** keyword. At the end of the battle round, any unspent **relentless discipline** points are lost.
-- **Remorseless March**（Your Movement Phase）
-  - 宣言: Pick a friendly **OSSIARCH BONEREAPERS** unit that has not used a **RELENTLESS DISCIPLINE** ability this phase to use this ability.
-  - 効果: Spend 1 **relentless discipline** point. Add 3" to the Move characteristic of that unit for the rest of the phase. That unit cannot use **RUN** abilities for the rest of the turn.
-- **Impassive Retreat**（Your Movement Phase）
-  - 宣言: Pick a friendly **OSSIARCH BONEREAPERS** unit that has not used a **RELENTLESS DISCIPLINE** ability this phase to use this ability.
-  - 効果: Spend 1 **relentless discipline** point. For the rest of the turn, that unit can use **CHARGE** abilities even if it used a **RETREAT** ability in the same turn.
-- **Ruthless Extermination**（Once Per Turn (Army), Reaction: You declared a **SHOOT** ability for a unit that has not used a **RELENTLESS DISCIPLINE** ability this phase）
-  - 使用者: The unit using that **SHOOT** ability.
-  - 効果: Spend 1 **relentless discipline** point. Subtract l from ward rolls for damage points inflicted by attacks made as part of that **SHOOT** ability.
-- **Pitiless Assault**（Reaction: You declared a **FIGHT** ability for a unit that has not used a **RELENTLESS DISCIPLINE** ability this phase）
-  - 使用者: The unit using that **FIGHT** ability.
-  - 効果: Spend 1 **relentless discipline** point. Add 1 to wound rolls for attacks made as part of that **FIGHT** ability.
-- **Inviolate Legions**（Reaction: Opponent declared an **ATTACK** ability）
-  - 使用者: A friendly **OSSIARCH BONEREAPERS** unit targeted by that **ATTACK** ability. Friendly **OSSIARCH BONEREAPERS** units can use this ability more than once per phase.
-  - 効果: Spend 1 **relentless discipline** point. That unit has **WARD (5+)** against damage points inflicted by attacks made as part of that **ATTACK** ability.
+- **不死の精鋭(Immortal Elite)**（各バトルラウンドにつき1回（アーミー）、バトルラウンドの開始時）
+  - 宣言: 味方**オシアーク・ボーンリーパー・英雄**が戦場に1個以上配置されている場合、このアビリティを使用しなければならない。味方**オシアーク・ボーンリーパー・英雄**を1体選択する。
+  - 効果: 選択された味方ユニットの**無慈悲なる規律**・キーワードに付随する数値と同じ数の**無慈悲なる規律**ポイントを獲得する。バトルラウンド終了時に、未使用の**無慈悲なる規律**ポイントは失われる。
+- **悔悟なき行進(Remorseless March)**（自軍側移動フェイズ）
+  - 宣言: このフェイズ中、『**無慈悲なる規律**』アビリティを使用していない味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、このアビリティを使用する。
+  - 効果: 1**無慈悲なる規律**ポイントを消費する。このフェイズ中、その味方ユニットの【移動力】は+3mvの修正を受ける。そのターン中、その味方ユニットは『**全力移動**』アビリティを使用できない。
+- **感情なき退却(Impassive Retreat)**（自軍側移動フェイズ）
+  - 宣言: このフェイズ中、『**無慈悲なる規律**』アビリティを使用していない味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、このアビリティを使用する。
+  - 効果: 1**無慈悲なる規律**ポイントを消費する。その味方ユニットは、現在のターン中に『**退却**』アビリティを使用していたとしても、そのターン中に『**突撃**』アビリティを使用できる。
+- **苛烈なる殲滅(Ruthless Extermination)**（各ターンにつき1回（アーミー）、リアクション：このフェイズ中に『無慈悲なる規律』アビリティを使用していない自軍側ユニットが『遠隔攻撃』アビリティを宣言）
+  - 使用者: その『**遠隔攻撃**』アビリティを使用するユニット。
+  - 効果: 1**無慈悲なる規律**ポイントを消費する。その『**遠隔攻撃**』アビリティの攻撃によって与えられるダメージに対して、加護ロールは-1の修正を受ける。
+- **無情なる強襲(Pitiless Assault)**（リアクション：このフェイズ中に『無慈悲なる規律』アビリティを使用していない自軍側ユニットが『近接攻撃』アビリティを宣言）
+  - 使用者: その『**近接攻撃**』アビリティを使用するユニット。
+  - 効果: 1**無慈悲なる規律**ポイントを消費する。その『**近接攻撃**』アビリティによる攻撃は、ウーンズロールに+1の修正を受ける。
+- **けがれなき兵団(Inviolate Legions)**（リアクション：敵軍側が『アタック』アビリティを宣言）
+  - 使用者: その『**アタック**』アビリティの対象となった味方**オシアーク・ボーンリーパー**・ユニット1個。味方**オシアーク・ボーンリーパー**・ユニットは、フェイズ中2回以上このアビリティを使用できる。
+  - 効果: 1**無慈悲なる規律**ポイントを消費する。その味方ユニットは、その『**アタック**』アビリティによって与えられるダメージに対して、**加護（5+）**を得る。
 
 ## 戦闘陣形
 
 
-### Border Guards
+### 境界防衛軍(Border Guards)
 
-- **Grim Sentinels**（Passive）
-  - 効果: Melee weapons used by friendly **OSSIARCH BONEREAPERS** units have **Anti-charge (+1 Rend)** while they are wholly within neutral territory or wholly within 6" of both enemy and friendly territory.
+- **陰鬱なる歩哨(Grim Sentinels)**（パッシブ）
+  - 効果: 味方**オシアーク・ボーンリーパー**・ユニットが中立地帯に全体が入っていたり、あるいは敵軍側陣地と自軍側陣地の両方から6mv以内に全体が入っている場合、その味方ユニットが使用する近接武器は**対突撃（+1貫通値）**を得る。
 
-### Hekatos Drillmasters
+### ヘカトス調練団(Hekatos Drillmasters)
 
-- **Disciplined Hekatoi**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: Pick a friendly non-**HERO** non-**FLY OSSIARCH BONEREAPERS INFANTRY** unit to be the target.
-  - 効果: Pick 1 of the following effects to apply until the start of your next turn: • The target has **WARD (5+)**. • Add 1 to charge rolls for the target. • Add 1 to wound rolls for the target’s attacks. • The target’s melee weapons have **Anti-charge (+1 Rend)**.
+- **整然なるヘカトイ(Disciplined Hekatoi)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: **英雄**でも**飛行**でもない味方**オシアーク・ボーンリーパー・歩兵**・ユニットを1個選択する。
+  - 効果: 以下の効果から1つを選択し、次の自軍側ターン開始時まで適用する。 • 選択された味方ユニットは**加護（5+）**を持つ。 • 選択された味方ユニットは、突撃ロールに+1の修正を受ける。 • 選択された味方ユニットの~~メレーアタック~~==攻撃==は、ウーンズロールに+1の修正を受ける。 • 選択された味方ユニットが装備している近接武器は**対突撃（+1貫通値）**を得る。
 
-### Remorseless Conquerors
+### 無慈悲なる征服者(Remorseless Conquerors)
 
-- **Unfaltering Pace**（Reaction: You declared a **RUN** ability for a friendly **OSSIARCH BONEREAPERS** unit）
-  - 使用者: The unit using that **RUN** ability.
-  - 効果: If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead.
+- **揺るぎなき歩調(Unfaltering Pace)**（リアクション：味方オシアーク・ボーンリーパー・ユニット1個が『全力移動』アビリティを宣言）
+  - 使用者: その『**全力移動**』アビリティを使用するユニット。
+  - 効果: このユニットの移動距離を決定する際、ロール結果が1-3であれば、代わりに4の値を用いてもよい。
 
-### Ruthless Legion
+### 苛烈なる兵団(Ruthless Legion)
 
-- **Nadirite Wedge**（Once Per Turn (Army), Any Combat Phase）
-  - 宣言: Pick a friendly **OSSIARCH BONEREAPERS** unit that charged this turn to use this ability.
-  - 効果: Roll a dice. On a 3+, this unit's melee weapons, including **Companion** weapons, have **Crit (2 Hits)** for the rest of the turn.
+- **ナディライト突撃陣(Nadirite Wedge)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 宣言: このターン中に突撃した味方**オシアーク・ボーンリーパー・**ユニットを1個選択し、このアビリティを使用する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、このユニットが装備している近接武器（**随行者**武器も含む）は**クリティカル（2ヒット）**を得る。
 
-### The Inevitable Empire
+### やがて来たるべき帝国(The Inevitable Empire)
 
-- **Silent Empire**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: Pick an enemy unit to be the target.
-  - 効果: Roll a dice. On a 3+, until the start of your next turn, the target has a maximum control score of 1 while it is within neutral territory or your territory.
+- **静寂の帝国(Silent Empire)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: 敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された敵ユニットが中立地帯や自軍側陣地内に一部でも入っている間、その敵ユニットの最大確保スコアは1となる。
 
-### Tithe Guards
+### 骨税の守り手(Tithe Guards)
 
-- **Plentiful Bone**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: Pick a friendly non-**UNIQUE OSSIARCH BONEREAPERS WIZARD** to use this ability, then pick up to 3 visible friendly non-**FLY OSSIARCH BONEREAPERS** units wholly within 12" of that **WIZARD** to be the targets.
-  - 効果: Roll a D3 for each target. On a 2+: • If the target is damaged, **Heal (X)** the target where **X** is an amount equal to the roll. • If the target is not damaged, return a number of slain models to it with a combined Health characteristic equal to or less than the roll.
+- **豊富な骨の備蓄(Plentiful Bone)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: **固有**でない味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。その後、選択された魔術師から12mv以内に全体が入っており、かつ視認状態である**飛行**でない味方**オシアーク・ボーンリーパー**・ユニットを最大3個まで選択する。
+  - 効果: 選択された各味方ユニットに対して、それぞれD3を1個ロールする。ロール結果が2+であれば、 • ロール対象が損傷状態である場合、そのロール対象を**回復（X）**する。Xの値は、そのロール結果に等しい値である。 • その味方ユニットが損傷状態ではない場合、そのユニット内の撃破されている兵を復帰させる（復帰する兵の【体力】合計が最大でそのロール結果に等しい値までになるように）。
 
 ## 英雄特性
 
 
-### Imbuements of the Tithe-Reapers（出典: Death Battletome: Ossiarch Bonereapers）
+### 骨税徴収吏の吹き込み(Imbuements of the Tithe-Reapers)（出典: Death Battletome: Ossiarch Bonereapers）
 
-**HERO** only
+（**英雄**のみ）
 
-- **Manufactured Mind**（Once Per Battle, Start of Battle Round）
-  - 効果: When picking a friendly **OSSIARCH BONEREAPERS HERO** to be the target of the 'Immortal Elite' ability this battle round, you can pick a friendly **OSSIARCH BONEREAPERS HERO** that has been destroyed.
-- **Immaculate Defender**（Passive）
-  - 効果: Ignore the first damage point allocated to each friendly **OSSIARCH BONEREAPERS INFANTRY** unit in the combat phase while they are wholly within 12" of this unit.
-- **Imperious Will**（Reaction: You declared a **FIGHT** ability for a non-**HERO OSSIARCH BONEREAPERS** unit wholly within 12" of this unit / 20pt）
-  - 効果: Pick an enemy unit in combat with that non-**HERO** unit and that did not charge this turn to be the target. Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. This unit can use this ability more than once per phase but only once per **FIGHT** ability.
+- **造られし意識(Manufactured Mind)**（バトル中1回限り、バトルラウンドの開始時）
+  - 効果: このバトルラウンド中、『不死の精鋭』アビリティの対象として味方**オシアーク・ボーンリーパー・英雄**を1体選ぶとき、全滅した味方**オシアーク・ボーンリーパー・英雄**を1体選択できる。
+- **けがれなき防衛者(Immaculate Defender)**（パッシブ）
+  - 効果: 近接フェイズ中、このユニットの12mv以内に全体が入っている各味方**オシアーク・ボーンリーパー・歩兵**・ユニットは、自身に割り振られる最初の1ポイントのダメージを無視する。
+- **傲岸なる意志(Imperious Will)**（リアクション：このユニットの12mv以内に全体が入っている英雄でない自軍側オシアーク・ボーンリーパー・ユニットが『近接攻撃』アビリティを宣言 / 20pt）
+  - 効果: ~~その**英雄**でないユニットがこのターン中に突撃していない場合、その英雄でないユニットと近接戦闘中である敵ユニット~~==その英雄でないユニットと近接戦闘中であり、かつこのターン中に突撃していない敵ユニット==を1個選択し、D3を1個ロールする。ロール結果が2+であれば、選択された敵ユニットはロール結果に等しい数の致命的ダメージを受ける。このユニットは、各フェイズ中にこのアビリティを2回以上使用できる。ただし、『近接攻撃』アビリティごとに1回だけである。
 
 ## 神器
 
 
-### Relics of the Empire（出典: Death Battletome: Ossiarch Bonereapers）
+### 帝国の至宝(Relics of the Empire)（出典: Death Battletome: Ossiarch Bonereapers）
 
-**HERO** only
+（**英雄**のみ）
 
-- **Shard of Necris**（**Passive**）
-  - 効果: If the unmodified hit roll for an attack that targets this unit is 1-4 and this unit did not charge in the same turn, the attack fails and the attack sequence ends.
-- **Blade of the Nadir**（Deployment Phase）
-  - 効果: Pick 1 of this unit's non-**Companion** melee weapons. For the rest of the battle, each time you make an unmodified wound roll of 6 for a combat attack made with that weapon, inflict D3 mortal damage on the target of the attack after the **FIGHT** ability has been resolved.
-- **Amulet of Gnosis**（Passive）
-  - 効果: No mortal damage is inflicted on friendly **OSSIARCH B0NEREAPERS** units by **RETREAT** abilities while they are wholly within 12" of this unit.
+- **ネクリスの欠片(Shard of Necris)**（パッシブ）
+  - 効果: このユニットを対象とする攻撃において、このユニットが現在のターン中に突撃しておらず、かつ修正前のヒットロールで出目1-4が出たならば、その攻撃は失敗し、攻撃手順を終了する。
+- **天底の刃(Blade of the Nadir)**（初期配置フェイズ）
+  - 効果: このユニットの**随行者**でない近接武器を1個選択する。以降バトル終了時まで、選択された武器によるメレーアタックで修正前の==ウーンズロールの==出目6が出た場合、その『**近接攻撃**』アビリティを解決した直後に、攻撃対象はD3ポイントの致命的ダメージを受ける。
+- **霊知の護符(Amulet of Gnosis)**（パッシブ）
+  - 効果: このユニットの12mv==以内==に全体が入っている味方**オシアーク・ボーンリーパー**・ユニットは、『**退却**』アビリティによる致命的ダメージを受けない。
 
-### Relics of the Empire（出典: Scourge of Aqshy: Ossiarch Bonereapers）
+### 帝国の至宝(Relics of the Empire)（出典: Scourge of Aqshy: Ossiarch Bonereapers）
 
-**HERO** only
+（**英雄**のみ）
 
-- **Banner of Old Ossia**（Reaction: You declared the ‘Rally’ command for a visible **OSSIARCH BONEREAPERS** unit wholly within 12" of this unit）
-  - 効果: When resolving that command, you can spend rally points in the following additional ways: •  For each rally point spent, **Heal (1)** another visible friendly non-**HERO OSSIARCH BONEREAPERS** unit wholly within 12" of this unit. •  You can spend a number of rally points equal to the Health characteristic of that unit to return a slain model to a visible friendly **OSSIARCH BONEREAPERS** unit wholly within 12" of this unit.
-- **Scarabaean Cloak**（Once Per Battle, Your Movement Phase）
-  - 効果: Remove this unit from the battlefield and set it up again on the battlefield more than 9" from all enemy units.
-- **Soulweb Gem**（Once Per Battle, End of Any Turn）
-  - 宣言: This unit can only use this ability if it was destroyed this turn.
-  - 効果: Set up a replacement unit identical to this unit on the battlefield wholly within friendly territory and not in combat. Then, allocate a number of damage points to the replacement unit equal to its Health characteristic minus 1 (ward rolls cannot be made for those damage points).
+- **古きオッシアの軍旗(Banner of Old Ossia)**（リアクション：このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方オシアーク・ボーンリーパーユニットを対象に、自軍側が『再集結』アビリティを宣言）
+  - 効果: その指揮コマンド解決時、以下の方法で再集結ポイントを消費できる： • 消費した再集結ポイントごとに、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である**英雄でない**他の味方**オシアーク・ボーンリーパー**・ユニットを**回復（1）**する。 • このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**オシアーク・ボーンリーパー**・ユニット1個に対して、そのユニット内の撃破されている兵1体を復帰させる==た==めに、そのユニットの【体力】に等しい数までの再集結ポイントを消費できる。
+- **スカラベの外套(Scarabaean Cloak)**（バトル中1回限り、自軍側移動フェイズ）
+  - 効果: このユニットを戦場から取り除き、あらゆる敵ユニットから9mvより遠く離れた戦場の位置に再配置する。
+- **魂網の秘宝(Soulweb Gem)**（バトル中1回限り、任意のターン終了時）
+  - 宣言: このアビリティは、このユニットが現在のターン中に全滅していた場合にのみ使用できる。
+  - 効果: このユニットと同一の代替ユニット1個を、自軍側陣地に全体が入るように、かつ近接戦闘に突入しないように配置する。その後、その代替ユニットの【体力】から、1減算したポイントのダメージをこのユニットに割り振る（それらのダメージに対して加護ロールはできない）。
 
 ## その他の強化
 
 
-### Mortisan Refinements（出典: Scourge of Aqshy: Ossiarch Bonereapers）
+### モーティザン改良術(Mortisan Refinements)（出典: Scourge of Aqshy: Ossiarch Bonereapers）
 
-Mortisan Refinements are unique enhancements that can be given to non-**HERO OSSIARCH BONEREAPERS** units.  A unit can only have 1 Mortisan Refinement.
+『モーティザン改良術』は**英雄でないオシアーク・ボーンリーパー**・ユニットに付与できる固有の強化である。1個のユニットは『モーティザン改良術』を1個だけ持つことができる。
 
-- **Perpetually Empowered Weapons**（Passive / 10pt）
-  - 効果: This unit’s melee weapons, including **Companion** weapons, have **Crit (2 Hits)**.
-- **Elongated Tibias**（Passive / 10pt）
-  - 効果: Add 1 to charge rolls for this unit.
-- **Utterly Unquestioning**（Passive / 10pt）
-  - 効果: Each time this unit uses a **RELENTLESS DISCIPLINE** ability, roll a dice as a reaction. On a 5+, subtract 1 from the number of **relentless discipline** points that must be spent to use that ability.
+- **永続強化武器(Perpetually Empowered Weapons)**（パッシブ / 10pt）
+  - 効果: このユニットが装備している近接武器（**随行者**武器も含む）は**クリティカル（2ヒット）**を得る。
+- **伸長された脛骨(Elongated Tibias)**（パッシブ / 10pt）
+  - 効果: このユニットの突撃ロールは+1の修正を受ける。
+- **完全なる忠誠(Utterly Unquestioning)**（パッシブ / 10pt）
+  - 効果: このユニットが**無慈悲なる規律**アビリティを使用するたびに、リアクションとしてダイスを1個ロールする。ロール結果が5+であった場合、そのアビリティに必要な**無慈悲なる規律**ポイントは1ポイント減算される。
 
 ## 伝承（呪文・奇蹟・顕現）
 
 
-### Horrors of the Necropolis
+### 死都の恐怖(Horrors of the Necropolis)
 
-- **Summon Bone-tithe Shrieker**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: If there is not a friendly **Bone‑tithe Shrieker** on the battlefield, pick a friendly **OSSIARCH BONEREAPERS WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: Set up a **Bone-tithe Shrieker** wholly within 12" of the caster, visible to them and more than 9" from all enemy units.
-- **Summon Nightmare Predator**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: If there is not a friendly **Nightmare Predator** on the battlefield, pick a friendly **OSSIARCH BONEREAPERS WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: Set up a **Nightmare Predator** wholly within 12" of the caster, visible to them and more than 9" from all enemy units.
-- **Summon Soulstealer Carrion**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: If there is not a friendly **Soulstealer Carrion** on the battlefield, pick a friendly **OSSIARCH BONEREAPERS WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: Set up a **Soulstealer Carrion** wholly within 12" of the caster, visible to them and more than 9" from all enemy units.
+- **骨税の金切り魔を召喚(Summon Bone-tithe Shrieker)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: 戦場に味方**骨税の金切り魔**が1個も存在しない場合、この呪文を唱える際に味方**オシアーク・ボーンリーパー・魔術師**を1体選択し、2D6の詠唱ロールをする。
+  - 効果: 詠唱者の12mv以内に全体が入るように、かつ詠唱者から視認状態になるように、なおかつあらゆる敵ユニットから9mvより遠く離れた位置に**骨税の金切り魔**を1個配置する。
+- **悪夢の捕食者の召喚(Summon Nightmare Predator)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: 戦場に味方**悪夢の捕食者**が1個も存在しない場合、この呪文を唱える際に味方**オシアーク・ボーンリーパー・魔術師**を1体選択し、2D6の詠唱ロールをする。
+  - 効果: 詠唱者の12mv以内に全体が入るように、かつ詠唱者から視認状態になるように、なおかつあらゆる敵ユニットから9mvより遠く離れた位置に**悪夢の捕食者**を1個配置する。
+- **魂泥棒の猛禽を召喚(Summon Soulstealer Carrion)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: 戦場に味方**魂泥棒の猛禽**が1個も存在しない場合、この呪文を唱える際に味方**オシアーク・ボーンリーパー・魔術師**を1体選択し、2D6の詠唱ロールをする。
+  - 効果: 詠唱者の12mv以内に全体が入るように、かつ詠唱者から視認状態になるように、なおかつあらゆる敵ユニットから9mvより遠く離れた位置に**魂泥棒の猛禽**を1個配置する。
 
-### Lore of Necrotheurgy
+### 死霊神秘術の伝承(Lore of Necrotheurgy)
 
-- **Bolster Creation**（Your Hero Phase / 詠唱/詠誦値 5）
-  - 宣言: Pick a friendly **OSSIARCH BONEREAPERS WIZARD** to cast this spell, pick a visible friendly **OSSIARCH BONEREAPERS** unit wholly within 12" of them to be the target, then make a casting roll of 2D6.
-  - 効果: Until the start of your next turn, ignore the first damage point allocated to the target in each phase.
-- **Invigorate the Ranks**（Your Hero Phase / 詠唱/詠誦値 5）
-  - 宣言: Pick a friendly **OSSIARCH BONEREAPERS WIZARD** to cast this spell, pick a visible friendly **OSSIARCH BONEREAPERS** unit wholly within 12" of them to be the target, then make a casting roll of 2D6.
-  - 効果: Add 1 to the Attacks characteristic of the target’s melee weapons until the start of your next turn.
-- **Soul-Claim**（Your Hero Phase / 詠唱/詠誦値 5）
-  - 宣言: Pick a friendly **OSSIARCH BONEREAPERS WIZARD** to cast this spell, then pick a visible enemy unit within 18" of them to be the enemy target. Then, you can pick a visible friendly **OSSIARCH BONEREAPERS** unit wholly within 12" of that **WIZARD** to be a friendly target. Then, make a casting roll of 2D6.
-  - 効果: Inflict D3 mortal damage on the enemy target. If any models are slain by this ability, pick 1 of the following: • **Heal (3)** the friendly target. • Return a number of slain models to the friendly target with a combined Health characteristic of up to 3.
+- **作成強化(Bolster Creation)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 5）
+  - 宣言: この呪文を詠唱する際に、味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に全体が入っており、かつその魔術師から視認状態である味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、各フェイズごとに選択された味方ユニットに割り当てられる最初の1ポイントのダメージを無効化する。
+- **戦列の活性化(Invigorate the Ranks)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 5）
+  - 宣言: この呪文を詠唱する際に、味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に全体が入っており、かつその魔術師から視認状態である味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、選択された味方ユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。
+- **魂奪い(Soul-Claim)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 5）
+  - 宣言: この呪文を詠唱する際に、味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。次に、選択された魔術師の18mv以内に一部でも入っており、かつその魔術師から視認状態である敵ユニットを1個選択する。その後、選択された魔術師の12mv以内に全体が入っており、かつその魔術師から視認状態である味方**オシアーク・ボーンリーパー**・ユニットを1個選択し==てもよい。最後に==、2D6の詠唱ロールをする。
+  - 効果: 選択された敵ユニットはD3ポイントの致命的ダメージを受ける。このアビリティによって1体以上の兵が撃破された場合、以下から効果を1つ選択する。 • 選択された味方ユニットを**回復（3）**する。 • 選択された味方ユニット内の撃破されている兵を、その味方ユニットに復帰させる（復帰する兵の【体力】合計が最大3までになるように）。
 
-### Lore of Ossian Sorcery
+### オッシア魔術の呪文伝承(Lore of Ossian Sorcery)
 
-- **Empower Nadirite Weapons**（Your Hero Phase / 詠唱/詠誦値 5）
-  - 宣言: Pick a friendly **OSSIARCH BONEREAPERS WIZARD** to cast this spell, pick a visible friendly **OSSIARCH BONEREAPERS** unit wholly within 12" of them to be the target, then make a casting roll of 2D6.
-  - 効果: The target's melee weapons have **Crit (2 Hits)** until the start of your next turn. If all of the target's non-**Companion** melee weapons had **Crit (2 Hits)** when they were picked to be the target of this ability, the target's combat attacks score critical hits on unmodified hit rolls of 5+ until the start of your next turn instead. Friendly **OSSIARCH BONEREAPERS** units can be affected by this ability multiple times.
-- **Immolating Flames**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: Pick a friendly **OSSIARCH BONEREAPERS WIZARD** to cast this spell, pick a visible friendly **OSSIARCH BONEREAPERS** unit wholly within 12" of them to be the target, then make a casting roll of 2D6.
-  - 効果: Until the start of your next turn, each time a model in the target unit is slain by a combat attack and that model was in combat with the attacking unit, roll a number of dice equal to the target's Health characteristic. For each 5+, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.
-- **Drain Vitality**（Your Hero Phase / 詠唱/詠誦値 7）
-  - 宣言: Pick a friendly **OSSIARCH BONEREAPERS WIZARD** to cast this spell, pick a visible enemy unit within 12" of them to be the target, then make a casting roll of 2D6.
-  - 効果: Until the start of your next turn, subtract 1 from hit rolls for the target’s attacks and subtract 1 from save rolls for the target.
+- **ナディライト武器の強化(Empower Nadirite Weapons)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 5）
+  - 宣言: この呪文を詠唱する際に、味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に全体が入っており、かつその魔術師から視認状態である味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、選択された味方ユニットの近接武器は**クリティカル（2ヒット）**を得る。選択された味方ユニットの**随行者**でないすべての近接武器が、このアビリティの対象として選択された時点で**クリティカル（2ヒット）**を有する場合、代わりに次の自軍側ターン開始時まで、選択された味方ユニットのメレーアタックは、修正前の出目5+でクリティカルヒットとなる。 味方**オシアーク・ボーンリーパー**・ユニットは、このアビリティの効果を複数回受けることができる。
+- **葬送の火(Immolating Flames)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: この呪文を詠唱する際に、味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に全体が入っており、かつその魔術師から視認状態である味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、選択された味方ユニット内にいる兵1体がメレーアタックによって撃破され、かつその兵が攻撃側ユニットと近接戦闘中であった場合、選択された味方ユニットの【体力】に等しい個数のダイスをロールする。ロール結果で5+が出るたび、その『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。
+- **生命力の吸収(Drain Vitality)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 7）
+  - 宣言: この呪文を詠唱する際に、味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に一部でも入っており、かつその魔術師から視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、選択された敵ユニットの攻撃のヒットロールは-1の修正を受ける。また、その敵ユニットのセーブロールは-1の修正を受ける。

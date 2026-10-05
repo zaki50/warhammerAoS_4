@@ -1,19 +1,19 @@
-# Spearhead: Tithe-reaper Echelon（Ossiarch Bonereapers）
+# Spearhead: 骨税狩りの梯団(Tithe-reaper Echelon)（オシアーク・ボーンリーパー(Ossiarch Bonereapers)）
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
 
-- Gothizzar Harvester（1体）
-- Kavalos Deathriders（5体）
-- Mortek Guard（10体）
-- Mortisan Soulreaper（1体）
+- ゴシザール・ハーヴェスター(Gothizzar Harvester)（1体）
+- カヴァロス・デスライダー(Kavalos Deathriders)（5体）
+- モーテク・ガード(Mortek Guard)（10体）
+- モーティザン・ソウルリーパー(Mortisan Soulreaper)（1体）
 
 ## ユニット詳細
 
 
-### Gothizzar Harvester
+### ゴシザール・ハーヴェスター(Gothizzar Harvester)
 
 **モデル数:** 1 / **ベースサイズ:** 105 x 70mm
 
@@ -27,26 +27,26 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Death’s Head Maw | 12" | 4 | 4+ | 4+ | 1 | 1 | - |
+| 死者の胃袋(Death’s Head Maw) | 12" | 4 | 4+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Ossified Hooves and Tail | 4 | 4+ | 3+ | 1 | 2 | - |
-| Soulcrusher Bludgeons | 6 | 4+ | 2+ | 2 | 2 | - |
+| 骨化せし蹄と尾(Ossified Hooves and Tail) | 4 | 4+ | 3+ | 1 | 2 | - |
+| 魂砕きの棍棒(Soulcrusher Bludgeons) | 6 | 4+ | 2+ | 2 | 2 | - |
 
 **アビリティ:**
 
-- **Bone Harvest**（Passive）
-  - 効果: Each time an enemy model in combat with this unit is slain, this unit gains 1 **bone-tithe point**. It can never have more than 6 **bone-tithe points**.
-- **Repair Construct**（End of Any Turn）
-  - 宣言: Pick a friendly **Mortek Guard** unit within 6" of this unit to be the target. Then, roll a dice for each **bone-tithe** **point** this unit has.
-  - 効果: For each 4+, you can return 1 slain model to the target unit. Then, reset this unit’s **bone-tithe points** to 0.
+- **骨の収穫(Bone Harvest)**（パッシブ）
+  - 効果: このユニットと**近接戦闘中である**敵兵が撃破されるたびに、このユニットは1**骨税ポイント**を獲得する。このユニットは最大6**骨税ポイント**まで、骨税ポイントを獲得できる。
+- **再修復(Repair Construct)**（任意のターン終了時）
+  - 宣言: このユニットの6mv以内に一部でも入っている味方**モーテク・ガード**・ユニットを1個選択する。次に、このユニットが持っている**骨税ポイント**ごとに、それぞれダイスを1個ロールする。
+  - 効果: ロール結果で4+が出るたびに、選択された味方ユニットに兵1体を復帰させることができる。最後に、このユニットの**骨税ポイント**を0にリセット。
 
-**キーワード:** Monster, Ward (6+)
+**キーワード:** 大型獣、加護（6+）（Monster, Ward (6+)）
 
-### Kavalos Deathriders
+### カヴァロス・デスライダー(Kavalos Deathriders)
 
 **モデル数:** 5 / **ベースサイズ:** 60 x 35mm
 
@@ -60,17 +60,17 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Kavalos Steed’s Hooves and Teeth | 2 | 5+ | 3+ | - | 1 | Companion |
-| Nadirite Spear | 3 | 3+ | 4+ | 1 | 1 | Charge (+1 Damage) |
+| カヴァロス騎乗獣の蹄と歯(Kavalos Steed’s Hooves and Teeth) | 2 | 5+ | 3+ | - | 1 | 随行者(Companion) |
+| ナディライト・スピア(Nadirite Spear) | 3 | 3+ | 4+ | 1 | 1 | 突撃（+1ダメージ量）(Charge (+1 Damage)) |
 
 **アビリティ:**
 
-- **Deathrider Wedge**（Your Charge Phase） ［Ossiarch Command］
-  - 効果: The following effects apply this phase: • Models in this unit can pass across enemy **INFANTRY** models as if this unit had **FLY**. • After this unit has charged, you can pick an enemy unit that it passed across and roll a dice. On a 2+, inflict D3 mortal damage on that enemy unit.
+- **デスライダー楔陣(Deathrider Wedge)**（自軍側突撃フェイズ） ［オシアークの君命］
+  - 効果: このフェイズ中、以下の効果が適用される： • このユニット内の兵は、あたかも自身が**飛行**を有するかのように、敵**歩兵**・兵を通り抜けることができる。 • このユニットが**突撃**を実行した直後、このユニットの移動経路上にいた敵ユニットを1個選択し==てもよい。そうした場合==、ダイスを1個ロール。ロール結果が2+であれば、選択された敵ユニットはD3ポイントの致命的ダメージを受ける。
 
-**キーワード:** Cavalry, Ward (6+)
+**キーワード:** 騎兵、加護（6+）（Cavalry, Ward (6+)）
 
-### Mortek Guard
+### モーテク・ガード(Mortek Guard)
 
 **モデル数:** 10 / **ベースサイズ:** 25mm
 
@@ -84,16 +84,16 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Nadirite Spear | 2 | 3+ | 4+ | - | 1 | Anti-charge (+1 Rend) |
+| ナディライト・スピア(Nadirite Spear) | 2 | 3+ | 4+ | - | 1 | 対突撃（+1貫通値）(Anti-charge (+1 Rend)) |
 
 **アビリティ:**
 
-- **Nadirite Assault**（Any Combat Phase） ［Ossiarch Command］
-  - 効果: Until the end of the phase, this unit’s melee weapons have **Crit (2 Hits)**.
+- **ナディライトの強襲(Nadirite Assault)**（任意の近接フェイズ） ［オシアークの君命］
+  - 効果: そのフェイズの終了時まで、このユニットが装備している近接武器は**クリティカル（2ヒット）**を得る。
 
-**キーワード:** Infantry, Ward (6+)
+**キーワード:** 歩兵、加護（6+）（Infantry, Ward (6+)）
 
-### Mortisan Soulreaper
+### モーティザン・ソウルリーパー(Mortisan Soulreaper)
 
 **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -107,46 +107,46 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Soulreaper Scythe | 3 | 4+ | 3+ | 2 | 2 | - |
+| 魂刈りの鎌(Soulreaper Scythe) | 3 | 4+ | 3+ | 2 | 2 | - |
 
 **アビリティ:**
 
-- **Reknit Construct**（Your Movement Phase） ［Ossiarch Command］
-  - 宣言: Pick a friendly unit wholly within 12" of this unit and that is not in combat to be the target.
-  - 効果: **Heal (D3)** the target. If the target unit is not damaged, you can instead return a number of slain models to it that have a combined Health characteristic of D3 or less.
-- **Drain Vitality**（Your Hero Phase）
-  - 宣言: Pick a visible enemy unit within 18" of this unit to be the target, then make a casting roll of 2D6.
-  - 効果: On a 6+, subtract 1 from hit rolls for attacks made by the target unit until the start of your next turn.
+- **無情な再起(Reknit Construct)**（自軍側移動フェイズ） ［オシアークの君命］
+  - 宣言: このユニットの12mv以内に全体が入っており、かつ近接戦闘中ではない味方ユニットを1個選択する。
+  - 効果: 選択された味方ユニットを**回復（D3）**する。選択された味方ユニットが損傷状態ではない場合、その味方ユニットを回復する代わりに【体力】の合計がD3以下になる数の撃破された兵を**復帰**させることができる。
+- **生命力の吸収(Drain Vitality)**（自軍側ヒーローフェイズ）
+  - 宣言: このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: ロール結果が6+であれば、次の自軍側ターン開始時まで、選択された敵ユニットによる攻撃のヒットロールは-1の修正を受ける。
 
-**キーワード:** Hero, Wizard, Infantry, Ward (6+)
+**キーワード:** 英雄、魔術師、歩兵、加護（6+）（Hero, Wizard, Infantry, Ward (6+)）
 
 ## 戦闘特性（Tithe-reaper Echelon Battle Traits）
 
-- **Contingent Arrival**（Your Movement Phase）
-  - 効果: Set up this unit anywhere on the battlefield wholly within 3" of a battlefield edge and more than 6" from all enemy units.
+- **支隊の到着(Contingent Arrival)**（自軍側移動フェイズ） ［コア］
+  - 効果: このユニットを戦場端の3mv以内に全体が入るように、かつあらゆる敵ユニットから6mvより遠く離れている戦場の任意の位置に配置する。
 
 ## 連隊アビリティ（Tithe-reaper Echelon Regiment Abilities）
 
-Pick 1 of the following regiment abilities.
+以下の連隊アビリティの中から1つを選択する。
 
-- **Re-form Ranks**（Once Per Battle, Your Movement Phase）
-  - 宣言: Pick a friendly **Mortek Guard** unit in combat to use this ability.
-  - 効果: That unit can use a **RETREAT** ability this phase without any mortal damage being inflicted on it.
-- **Inpenetrable Ranks**（Once Per Battle, Any Combat Phase）
-  - 宣言: Pick a friendly unit to use this ability.
-  - 効果: Until the end of the phase, add 1 to ward rolls for that unit.
+- **隊列を整えよ(Re-form Ranks)**（バトル中1回限り、自軍側移動フェイズ） ［オシアークの君命］
+  - 宣言: 近接戦闘中である味方**モーテク・ガード**・ユニットを1個選択し、このアビリティを使用する。
+  - 効果: このフェイズ中、選択された味方ユニットは**『退却』**アビリティを使用した場合に、致命的ダメージを受けない。
+- **強固な隊列(Inpenetrable Ranks)**（バトル中1回限り、任意の近接フェイズ） ［オシアークの君命］
+  - 宣言: 味方ユニットを1個選択し、このアビリティを使用する。
+  - 効果: そのフェイズの終了時まで、選択された味方ユニットの加護ロールは+1の修正を受ける。
 
 ## 強化（Tithe-reaper Echelon Enhancements）
 
-Give your general 1 of the following enhancements.
+自軍のジェネラルに、以下の強化の中から1つを付与する。
 
-- **Marrowpact**（Passive）
-  - 効果: Each time your general uses a **FIGHT** ability, after all of their attacks have been resolved, **Heal (X)** your general where **X** is the number of damage points allocated by those attacks.
-- **Empower Nadirite Weapons**（Your Hero Phase）
-  - 宣言: Pick a visible friendly **Mortek Guard** unit wholly within 12" of your general, then make a casting roll of 2D6.
-  - 効果: On a 5+, until the start of your next turn, add 1 to the Rend characteristic of that unit’s melee weapons.
-- **Unstoppable Commander**（Your Movement Phase）
-  - 宣言: Pick a friendly **Mortek Guard** unit wholly within 12" your general, then roll a dice.
-  - 効果: On a 2+, add 3" to that unit’s Move characteristic this phase.
-- **Murderous Drive**（Passive）
-  - 効果: Your general’s **Soulreaper Scythe** has **Crit (2 Hits)**.
+- **骨髄の契り(Marrowpact)**（パッシブ）
+  - 効果: 自軍側ジェネラルが**『近接攻撃』**アビリティを使用する際、すべての攻撃が解決された後、自軍側ジェネラルを**回復（X）**する。それらの攻撃によって割り振られたダメージの合計を**X**とする。
+- **ナディライト武器の強化(Empower Nadirite Weapons)**（自軍側ヒーローフェイズ）
+  - 宣言: 自軍側ジェネラルの12mv以内に全体が入っており、かつそのジェネラルから視認状態である味方**モーテク・ガード**・ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: ロール結果が5+であれば、次の自軍側ターン開始時まで、選択された味方ユニットが装備している近接武器の【貫通値】は+1の修正を受ける。
+- **負け知らずの指揮官(Unstoppable Commander)**（自軍側移動フェイズ）
+  - 宣言: 自軍側ジェネラルの12mv以内に全体が入っている味方**モーテク・ガード**・ユニットを1個選択し、ダイスを1個ロールする。
+  - 効果: ロール結果が2+であれば、このフェイズ中、その味方ユニットの【移動力】は+3mvの修正を受ける。
+- **殺戮の衝動(Murderous Drive)**（パッシブ）
+  - 効果: 自軍側ジェネラルの**魂刈りの鎌**は**クリティカル（2ヒット）**を持つ。

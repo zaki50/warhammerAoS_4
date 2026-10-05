@@ -1,17 +1,17 @@
-# Spearhead: Kavalos Vanguard（Ossiarch Bonereapers）
+# Spearhead: カヴァロス先遣隊(Kavalos Vanguard)（オシアーク・ボーンリーパー(Ossiarch Bonereapers)）
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
 
-- Liege-Kavalos（1体）
-- Teratic Cohort（8体）
+- リージュ＝カヴァロス(Liege-Kavalos)（1体）
+- テラティック・コホート(Teratic Cohort)（8体）
 
 ## ユニット詳細
 
 
-### Liege-Kavalos
+### リージュ＝カヴァロス(Liege-Kavalos)
 
 **モデル数:** 1 / **ベースサイズ:** 80mm
 
@@ -25,18 +25,18 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Commander’s Blade | 5 | 3+ | 4+ | 1 | 2 | Charge (+1 Damage) |
-| Kavalos Steed’s Hooves, Teeth and Barbed Tails | 4 | 5+ | 3+ | - | 1 | Companion |
+| 指揮官の刃(Commander’s Blade) | 5 | 3+ | 4+ | 1 | 2 | 突撃（+1ダメージ量）(Charge (+1 Damage)) |
+| カヴァロス騎乗獣の蹄、歯、そして有棘の尻尾(Kavalos Steed’s Hooves, Teeth and Barbed Tails) | 4 | 5+ | 3+ | - | 1 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Signal the Advance**（Your Hero Phase）
-  - 宣言: Pick a visible friendly unit wholly within 12" of this unit to be the target.
-  - 効果: Roll a dice. On a 3+, add 1 to charge rolls for the target for the rest of the turn.
+- **進軍命令(Signal the Advance)**（自軍側ヒーローフェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方ユニットを1個選択する。
+  - 効果: ==ダイスを1個ロールする。==ロール結果が3+であれば、そのターン中、選択された味方ユニットの突撃ロールは+1の修正を受ける。
 
-**キーワード:** Hero, Cavalry, Ward (6+)
+**キーワード:** 英雄、騎兵、加護（6+）（Hero, Cavalry, Ward (6+)）
 
-### Teratic Cohort
+### テラティック・コホート(Teratic Cohort)
 
 **モデル数:** 8 / **ベースサイズ:** 60 x 35mm [1], 32mm [2], 28.5mm [5]
 
@@ -50,44 +50,44 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Cohort Weapons | 2 | 3+ | 4+ | 1 | 1 | - |
+| コホートの武器(Cohort Weapons) | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **アビリティ:**
 
-- **Bone-deep Savagery**（Any Movement Phase） ［Core, Move］
-  - 効果: This unit can move 3". If it can move into combat, it must. If it was in combat at the start of the move, it must end that move in combat.
+- **骨の髄からの獰猛性(Bone-deep Savagery)**（任意の移動フェイズ） ［コア、移動］
+  - 効果: このユニットは3mv移動できる。また近接戦闘に突入するように移動できる場合、そうしなければならない。~~その味方~~==この==ユニットが移動開始時に近接戦闘中であった場合、近接戦闘に突入するように移動を完了しなければならない。
 
-**キーワード:** Beast, Ward (6+), Reinforcements
+**キーワード:** 獣兵、加護（6+）、増援（Beast, Ward (6+), Reinforcements）
 
 ## 戦闘特性（Kavalos Vanguard Battle Traits）
 
-- **Calculated Feint**（Passive）
-  - 効果: No mortal damage is inflicted on friendly **CAVALRY** units by **RETREAT** abilities.
-- **Kavalos Lance**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: Pick a friendly unit to be the target.
-  - 効果: For the rest of the turn, the target can pass across enemy models as if it had **FLY.**
+- **計算尽くの陽動(Calculated Feint)**（パッシブ）
+  - 効果: 味方**騎兵**ユニットは、**『退却』**アビリティによる致命的ダメージを受けない。
+- **カヴァロス楔陣(Kavalos Lance)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: 味方ユニットを1個選択する。
+  - 効果: このターン中、その味方ユニットはあたかも**飛行**を持つかのように敵兵を通り抜けることができる。
 
 ## 連隊アビリティ（Kavalos Vanguard Regiment Abilities）
 
-Pick 1 of the following regiment abilities.
+以下の連隊アビリティの中から1つを選択する。
 
-- **Feigned Retreat**（Once Per Battle, Your Movement Phase）
-  - 効果: For the rest of the turn, friendly units can use **CHARGE** abilities even if they used a **RETREAT** ability in the same turn.
-- **Reinforced Constructs**（Once Per Battle, Any Combat Phase）
-  - 宣言: Pick a friendly unit to be the target.
-  - 効果: The target has **WARD (5+)** for the rest of the turn.
+- **偽装退却(Feigned Retreat)**（バトル中1回限り、自軍側移動フェイズ）
+  - 効果: 味方ユニットは現在のターン中に**『退却』**アビリティを使用していたとしても、そのターン中に**『突撃』**アビリティを使用できる。
+- **強化構造体(Reinforced Constructs)**（バトル中1回限り、任意の近接フェイズ）
+  - 宣言: 味方ユニットを1個選択する。
+  - 効果: そのターン中、選択された味方ユニットは**加護（5+）**を持つ。
 
 ## 強化（Kavalos Vanguard Enhancements）
 
-Give your general 1 of the following enhancements.
+自軍側ジェネラルに、以下の強化の中から1つを付与する。
 
-- **Mighty Archaeossian**（Passive）
-  - 効果: Your general has **WARD (5+).**
-- **Murderous Blade**（Passive）
-  - 効果: Your general's **Commander's Blade** has **Crit (2 Hits).**
-- **Imperious Commander**（Your Movement Phase）
-  - 宣言: Pick a visible friendly unit wholly within 12" of your general to be the target.
-  - 効果: Roll a dice. On a 3+, add 2" to the target's Move characteristic for the rest of the turn.
-- **Cold Savagery**（Any Combat Phase）
-  - 宣言: If your general has not charged this turn and is in combat, pick a visible friendly unit wholly within 12" of them to be the target.
-  - 効果: Roll a dice. On a 3+, add 1 to the Rend characteristic of the target's melee weapons, including **Companion** weapons, for the rest of the turn.
+- **古代の力(Mighty Archaeossian)**（パッシブ）
+  - 効果: 自軍側ジェネラルは**加護（5+）**を持つ。
+- **殺戮の刃(Murderous Blade)**（パッシブ）
+  - 効果: 自軍側ジェネラルの**指揮官の刃**はクリティカル（2ヒット）を得る。
+- **傲岸なる指揮官(Imperious Commander)**（自軍側移動フェイズ）
+  - 宣言: 自軍側ジェネラルの12mv以内に全体が入っており、かつ自軍側ジェネラルから視認状態である味方ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された味方ユニットの【移動力】は+2mvの修正を受ける。
+- **冷ややかなる獰猛性(Cold Savagery)**（任意の近接フェイズ）
+  - 宣言: 自軍側ジェネラルがこのターン中に突撃しておらず、かつ近接戦闘中である場合、自軍側ジェネラルの12mv以内に全体が入っており、かつ自軍側ジェネラルから視認状態である味方ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された味方ユニットが装備している近接武器（**『随行者』**武器を含む）の【~~攻撃回数~~==貫通値==】は+1の修正を受ける。

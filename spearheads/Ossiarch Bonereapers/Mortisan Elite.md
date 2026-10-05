@@ -1,19 +1,19 @@
-# Spearhead: Mortisan Elite（Ossiarch Bonereapers）
+# Spearhead: モーティザン精鋭部隊(Mortisan Elite)（オシアーク・ボーンリーパー(Ossiarch Bonereapers)）
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
 
-- Immortis Guard（3体）
-- Morghast Archai（2体）
-- Mortisan Ossifector（1体）
-- Necropolis Stalkers（3体）
+- イモーティス・ガード(Immortis Guard)（3体）
+- モルガスト・アルカイ(Morghast Archai)（2体）
+- モーティザン・オシフェクター(Mortisan Ossifector)（1体）
+- ネクロポリス・ストーカー(Necropolis Stalkers)（3体）
 
 ## ユニット詳細
 
 
-### Immortis Guard
+### イモーティス・ガード(Immortis Guard)
 
 **モデル数:** 3 / **ベースサイズ:** 50mm
 
@@ -27,16 +27,16 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Dread Halberd | 3 | 3+ | 3+ | 1 | 2 | - |
+| ドレッド・ハルバード(Dread Halberd) | 3 | 3+ | 3+ | 1 | 2 | - |
 
 **アビリティ:**
 
-- **Soulbound Protectors**（Passive）
-  - 効果: Your general has **WARD (5+)** while they are within this unit's combat range.
+- **魂を捧げし守護者(Soulbound Protectors)**（パッシブ）
+  - 効果: 自軍側ジェネラルがこのユニットの近接範囲内に一部でも入っている間、そのジェネラルは**加護（5+）**を持つ。
 
-**キーワード:** Infantry, Ward (6+)
+**キーワード:** 歩兵、加護（6+）（Infantry, Ward (6+)）
 
-### Morghast Archai
+### モルガスト・アルカイ(Morghast Archai)
 
 **モデル数:** 2 / **ベースサイズ:** 60mm
 
@@ -50,16 +50,16 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Spirit Weapons | 3 | 3+ | 2+ | 2 | 3 | - |
+| 精霊たちの武器(Spirit Weapons) | 3 | 3+ | 2+ | 2 | 3 | - |
 
 **アビリティ:**
 
-- **Heralds of Nagash**（Passive）
-  - 効果: Add 1 to discipline rolls for this unit while it is not wholly within 12" of your general.
+- **ナガッシュの先触れ(Heralds of Nagash)**（パッシブ）
+  - 効果: このユニットが自軍側ジェネラルの12mv以内に全体が入っていない間、このユニットによる規律ロールは+1の修正を受ける。
 
-**キーワード:** Infantry, Fly, Ward (6+)
+**キーワード:** 歩兵、飛行、加護（6+）（Infantry, Fly, Ward (6+)）
 
-### Mortisan Ossifector
+### モーティザン・オシフェクター(Mortisan Ossifector)
 
 **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -73,17 +73,17 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Ossified Talons | 3 | 4+ | 4+ | - | 2 | - |
+| 骨化せし鉤爪(Ossified Talons) | 3 | 4+ | 4+ | - | 2 | - |
 
 **アビリティ:**
 
-- **Refined Creations**（Your Hero Phase）
-  - 宣言: Pick a visible friendly unit wholly within 12" of this unit to be the target, then make a casting roll of 2D6.
-  - 効果: On a 5+, the target's melee weapons have **Crit (2 Hits)** until the start of your next turn.
+- **洗練されし創造物(Refined Creations)**（自軍側ヒーローフェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: ロール結果が5+であれば、次の自軍側ターン開始時まで、選択された味方ユニットが装備している近接武器は**クリティカル（2ヒット）**を得る。
 
-**キーワード:** Hero, Wizard, Infantry, Ward (6+)
+**キーワード:** 英雄、魔術師、歩兵、加護（6+）（Hero, Wizard, Infantry, Ward (6+)）
 
-### Necropolis Stalkers
+### ネクロポリス・ストーカー(Necropolis Stalkers)
 
 **モデル数:** 3 / **ベースサイズ:** 50mm
 
@@ -97,44 +97,44 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Stalker Blades | 4 | 3+ | 3+ | 2 | 1 | - |
+| ストーカーブレイド(Stalker Blades) | 4 | 3+ | 3+ | 2 | 1 | - |
 
 **アビリティ:**
 
-- **Switch Aspects**（Any Combat Phase）
-  - 効果: Pick 1 of the following effects to apply for the rest of the turn: ***Blade-parry Aspect:*** Subtract l from hit rolls for combat attacks that target this unit. ***Destroyer Aspect:*** Ward rolls cannot be made for damage points inflicted by this unit's combat attacks.
+- **相の変更(Switch Aspects)**（任意の近接フェイズ）
+  - 効果: このターン中に適用される効果を以下の中から1個選択する。 **受け流しの相：**このユニットを対象とするメレーアタックは、ヒットロールに-1の修正を受ける。 **破壊の相：**このユニットのメレーアタックによるダメージに対して、加護ロールを実行することはできない。
 
-**キーワード:** Infantry, Ward (6+)
+**キーワード:** 歩兵、加護（6+）（Infantry, Ward (6+)）
 
 ## 戦闘特性（Mortisan Elite Battle Traits）
 
-- **Relentless Discipline**（Once Per Phase (Army)）
-  - 宣言: Pick a friendly unit to be the target.
-  - 効果: Make a **discipline roll** of D6. Add I to the roll if the target is wholly within 12" of your general. On a 4+, pick 1 of the effects below: • **Your Movement Phase:** Add 2" to the target's Move characteristic for the rest of the phase. • **Your Charge Phase:** Add 1 to charge rolls for the target for the rest of the phase. • **Any Combat Phase:** Add 1 to wound rolls for combat attacks made by the target for the rest of the phase. • **Any Combat Phase:** The target has **WARD (5+)** for the rest of the phase.
-- **Dread Descent**（Once Per Turn (Army), Your Movement Phase）
-  - 効果: Set up this unit anywhere on the battlefield more than 6" from all enemy units.
+- **無慈悲なる規律(Relentless Discipline)**（各フェイズにつき1回（アーミー））
+  - 宣言: 味方ユニット1個を選択する。
+  - 効果: D6の**規律ロール**をする。選択された味方ユニットが自軍側ジェネラルの12mv以内に全体が入っている場合、その規律ロールは+1の修正を受ける。ロール結果が4+であれば、以下の効果から1つを選択する： • **自軍側移動フェイズ：**そのフェイズ中、その味方ユニットの【移動力】は+2mvの修正を受ける。 • **自軍側突撃フェイズ：**そのフェイズ中、その味方ユニットの突撃ロールは+1の修正を受ける。 • **任意の近接フェイズ：**そのフェイズ中、その味方ユニットのメレーアタックはウーンズロールに+1の修正を受ける==。== • **任意の近接フェイズ：**そのフェイズ中、その味方ユニットは**加護（5+）**を持つ。
+- **恐怖の降下(Dread Descent)**（各ターンにつき1回（アーミー）、自軍側移動フェイズ）
+  - 効果: あらゆる敵ユニットから6mvより遠く離れた戦場の任意の位置に、このユニットを配置する。
 
 ## 連隊アビリティ（Mortisan Elite Regiment Abilities）
 
-Pick 1 of the following regiment abilities.
+以下の連隊アビリティの中から1つを選択する。
 
-- **Immaculate Generalship**（Passive）
-  - 効果: Add 1 to **discipline rolls** you make.
-- **Peerless Cohesion**（Once Per Turn (Army), Reaction: You declared the 'Relentless Discipline' ability）
-  - 効果: You can use the 'Relentless Discipline' ability for a second time this phase but you must pick a different target to the one you picked the first time.
+- **完全無欠なる指揮官(Immaculate Generalship)**（パッシブ）
+  - 効果: 自軍の**規律ロール**は+1の修正を受ける。
+- **比類なき統一性(Peerless Cohesion)**（各ターンにつき1回（アーミー）、リアクション：『無慈悲なる規律』アビリティを宣言）
+  - 効果: このフェイズ中、自軍は2回目となる『無慈悲なる規律』アビリティを使用してもよい。ただし、1回目に選択したものと異なる味方ユニットを選択しなければならない。
 
 ## 強化（Mortisan Elite Enhancements）
 
-Give your general 1 of the following enhancements.
+自軍のジェネラルに、以下の強化の中から1つを付与する。
 
-- **Mend Constructs**（Your Hero Phase）
-  - 宣言: Pick a visible friendly unit wholly within 12" of your general to be the target, then make a casting roll of 2D6.
-  - 効果: On a 6+, **Heal (D3)** the target.
-- **Helm of Tyranny**（Once Per Battle, End of Your Turn）
-  - 宣言: Pick an enemy unit within 12" of your general to be the target and roll a dice.
-  - 効果: On a 3+, subtract 3 from the control score of the target for the rest of the turn.
-- **Lode of Saturation**（Passive）
-  - 効果: Subtract 1 from the Rend characteristic of melee weapons used for combat attacks that target this general.
-- **Shard Storm**（Your Hero Phase）
-  - 宣言: Pick a visible enemy unit within 12" of your general to be the target, then make a casting roll of 2D6.
-  - 効果: On a 7+, roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target.
+- **創造物の修復(Mend Constructs)**（自軍側ヒーローフェイズ）
+  - 宣言: 自軍側ジェネラルの12mv以内に全体が入っており、かつそのジェネラルから視認状態である味方ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: ロール結果が6+であれば、選択された味方ユニットを回復（D3）する。
+- **暴政の兜(Helm of Tyranny)**（バトル中1回限り、自軍側ターン終了時）
+  - 宣言: 自軍側ジェネラルの12mv以内に一部でも入っている敵ユニットを1個選択し、ダイスを1個ロールする。
+  - 効果: ロール結果が3+であれば、そのターン中、選択された敵ユニットの確保スコアは-3の修正を受ける。
+- **浸潤の鉱脈(Lode of Saturation)**（パッシブ）
+  - 効果: このジェネラルを対象とするメレーアタックにおいて用いられる近接武器は、【貫通値】に-1の修正を受ける。
+- **破片嵐(Shard Storm)**（自軍側ヒーローフェイズ）
+  - 宣言: 自軍側ジェネラルの12mv以内に一部でも入っており、かつこのジェネラルから視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: ロール結果が7+であれば、選択された敵ユニット内にいる兵数と同じ個数のダイスをロールする。そのロール結果で5+が出るたび、その敵ユニットは1ポイントの致命的ダメージを受ける。
