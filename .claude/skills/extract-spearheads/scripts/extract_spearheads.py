@@ -128,7 +128,7 @@ def render_ability_lines(a, kw_names=None, indent="  ", tr=None, unit=None, spea
     return lines
 
 
-def render_warscroll(w, ix, out, tr):
+def render_warscroll(w, ix, out, tr, sp_name=True):
     wid = w["id"]
     unit = w["name"]
     out.append("\n### %s\n" % tr.unit(w))
@@ -200,7 +200,7 @@ def render_warscroll(w, ix, out, tr):
             kws = [ix["keyword"].get(r["keywordId"])
                    for r in ix["wakw_by_ability"].get(a["id"], [])]
             out.extend(render_ability_lines(a, [k for k in kws if k], tr=tr, unit=unit,
-                                            spearhead=True))
+                                            spearhead=sp_name))
 
     if w.get("referenceKeywords"):
         out.append("\n**キーワード:** %s" % tr.keywords(w["referenceKeywords"], unit))
@@ -276,7 +276,7 @@ def build_one(dump_path, sp, d, ix, data_version, ab_by_group):
             out.append("- %s%s" % (tr.unit(w), "（%s体）" % mc if mc else ""))
         out.append("\n## ユニット詳細\n")
         for w in units:
-            render_warscroll(w, ix, out, tr)
+            render_warscroll(w, ix, out, tr, sp["name"])
 
     order = {t: i for i, (t, _) in enumerate(GROUP_SECTION)}
     titles = dict(GROUP_SECTION)
@@ -288,7 +288,7 @@ def build_one(dump_path, sp, d, ix, data_version, ab_by_group):
         if g.get("restrictionText"):
             out.append("%s\n" % clean(tr.group_text(g["name"], g["restrictionText"])))
         for a in ab_by_group.get(g["id"], []):
-            out.extend(render_ability_lines(a, tr=tr, spearhead=True))
+            out.extend(render_ability_lines(a, tr=tr, spearhead=sp["name"]))
     return "\n".join(out) + "\n"
 
 

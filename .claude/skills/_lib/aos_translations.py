@@ -206,7 +206,14 @@ class Translations:
 
     @staticmethod
     def text_keys(en, unit=None, spearhead=False):
-        """ability_texts を引くキーの候補 (具体的なものから順)。"""
+        """ability_texts を引くキーの候補 (具体的なものから順)。spearhead に Spearhead 名 (文字列) を渡すと、
+        同じユニット・同じ名前でも Spearhead ごとに本文が違うとき用の "Spearhead|Spearhead名|…" を最初に引く。"""
+        named = (["Spearhead|%s|%s|%s" % (spearhead, unit, en) if unit else "Spearhead|%s|%s" % (spearhead, en)]
+                 if isinstance(spearhead, str) else [])
+        return named + Translations._text_keys(en, unit, spearhead)
+
+    @staticmethod
+    def _text_keys(en, unit=None, spearhead=False):
         if unit:
             # ウォースクロールのアビリティはユニット指定のキーだけで引く。名前だけのキーに落とすと、
             # 同じ名前で中身の違う別ユニット (Legends・禍事版) やファクションルールの本文が当たってしまう

@@ -145,7 +145,8 @@ class Dump:
         meta = {'slug': s['slug'], 'kind': s['kind'], 'faction_en': s['faction'], 'faction_ja': L.faction_name(),
                 'faction_slug': L.slug, 'alliance': alliance, 'title_en': s['title'], 'title_ja': title_ja,
                 'data_version': self.data_version}
-        return {'meta': meta, 'units': [self.unit(w, L) for w in s['units']]}
+        return {'meta': meta, 'units': [self.unit(w, L, s['title'] if s['kind'] == 'spearhead' else None)
+                                        for w in s['units']]}
 
     @staticmethod
     def pair(L, section, keys, en):
@@ -156,9 +157,9 @@ class Dump:
             return {'ja': ja, 'en': en, 'own': own, 'fix': fix, 'note': note}
         return {'ja': en, 'en': '', 'own': False, 'fix': [], 'note': []}
 
-    def unit(self, w, L):
+    def unit(self, w, L, sp_name=None):
         name, sub = w['name'], w.get('subname')
-        sp = bool(w.get('isSpearhead'))
+        sp = sp_name or bool(w.get('isSpearhead'))
         nm = self.pair(L, 'unit_names', [name], name)
         if sub:
             nm['ja'] += '、' + sub if nm['en'] else ', ' + sub
@@ -193,9 +194,10 @@ class Dump:
                 pairs, _ = L.fixes('keyword_names', key)
                 if pairs:
                     kfix[k] = pairs
-        wg_ja, _, wg_key = L.get('wargear_option_texts', [name])
+        # Spearhead 版の装備は通常版と中身が違うので、通常版の訳に落とさない
+        wg_ja, _, wg_key = L.get('wargear_option_texts', ['Spearhead|%s' % name] if sp else [name])
         return {
-            'id': w['id'], 'name': nm, 'legends': bool(w.get('isLegends')), 'spearhead': sp,
+            'id': w['id'], 'name': nm, 'legends': bool(w.get('isLegends')), 'spearhead': bool(sp),
             'stats': [['移動力', 'Move', w.get('move')], ['体力', 'Health', w.get('health')],
                       ['防御力', 'Save', w.get('save')], ['確保力', 'Control', w.get('control')]],
             'ward': w.get('wardSave'),
