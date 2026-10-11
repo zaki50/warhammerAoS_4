@@ -1,4 +1,4 @@
-# Scions of Nulahmia ファクションルール
+# ヌラーミアの御子(Scions of Nulahmia) ファクションルール
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
@@ -6,53 +6,53 @@
 ## 戦闘特性
 
 
-### Scions of Nulahmia Battle Traits（出典: Army of Renown: Scions of Nulahmia）
+### 戦闘特性(Scions of Nulahmia Battle Traits)（出典: Army of Renown: Scions of Nulahmia）
 
-- **Recruitment Drive**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: You can only use this ability if you have not used any **EXQUISITE PLOT** abilities this turn. Pick a friendly unit to be the **hunter** and an enemy unit with 5 or more models to be the target.
-  - 効果: For the rest of the turn, add 1 to hit rolls for the **hunter**’s combat attacks that target that enemy unit. In addition, if the target is destroyed this turn by the **hunter**, add 1 to the Attacks characteristic of the **hunter**’s melee weapons for the rest of the battle.
-- **Seek Worthy Blood**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: You can only use this ability if you have not used any **EXQUISITE PLOT** abilities this turn. Pick a friendly unit to be the target.
-  - 効果: For the rest of the turn, the target’s weapons have **Anti-HERO (+1 Rend)**. In addition, if the target destroys any enemy **HEROES** this turn, the target’s weapons have **Anti-HERO (+1 Rend)** for the rest of the battle.
-- **The Queen's Prize**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: You can only use this ability if you have not used any **EXQUISITE PLOT** abilities this turn. Pick a friendly unit to be the target.
-  - 効果: For the rest of the turn, add 5 to the target’s control score. In addition, at the end of this turn, after determining control of objectives, if the target is contesting an objective that you control and that was controlled by your opponent at the start of this turn, add 5 to the target’s control score for the rest of the battle.
-- **Thaumic Realignment**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: You can only use this ability if you have not used any **EXQUISITE PLOT** abilities this turn. Pick a friendly **WIZARD** to be the target.
-  - 効果: For the rest of the turn, add 1 to casting rolls for the target. In addition, at the end of this turn, if the target successfully cast any spells this turn, add 1 to its power level for the rest of the battle.
+- **徴募(Recruitment Drive)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: 自軍がこのターン中に『**絶妙な陰謀**』アビリティを使用していない場合にのみ、このアビリティを使用できる。味方ユニット1個を『**狩人**』として選択し、5体以上の兵を含む敵ユニットを1個選択する。
+  - 効果: そのターン中、選択された敵ユニットを攻撃対象とする『**狩人**』のメレーアタックは、ヒットロールに+1の修正を受ける。さらに、そのターン中に選択された敵ユニットが『**狩人**』によって全滅させられた場合、以降バトル終了時まで、『**狩人**』が装備している近接武器の【攻撃回数】は+1の修正を受ける。
+- **貴き吸血(Seek Worthy Blood)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: 自軍がこのターン中に『**絶妙な陰謀**』アビリティを使用していない場合にのみ、このアビリティを使用できる。このアビリティを使用する際に、味方ユニットを1個選択する。
+  - 効果: そのターン中、選択された味方ユニットが装備している武器は**対英雄（+1貫通値）**を得る。さらに、その味方ユニットが現在のターン中に1体以上の敵**英雄**を全滅させた場合、その味方ユニットが装備している武器は以降バトル終了時まで**対英雄（+1貫通値）**を得る。
+- **女王の獲物(The Queen's Prize)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: 自軍がこのターン中に『**絶妙な陰謀**』アビリティを使用していない場合にのみ、このアビリティを使用できる。このアビリティを使用する際に、味方ユニットを1個選択する。
+  - 効果: そのターン中、選択された味方ユニットの確保スコアは+5の修正を受ける。 さらに、そのターン終了時、作戦目標を確保しているプレイヤーを決定した後、そのターン開始時に対戦相手が確保していた作戦目標を、選択された味方ユニットが現在確保しており争奪中である場合、以降バトル終了時まで、その味方ユニットの確保スコアは+5の修正を受ける。
+- **妖力調整(Thaumic Realignment)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: 自軍がこのターン中に『**絶妙な陰謀**』アビリティを使用していない場合にのみ、このアビリティを使用できる。このアビリティを使用する際に、味方**魔術師**を1体選択する。
+  - 効果: そのターン中、選択された味方**魔術師**の詠唱ロールは+1の修正を受ける。さらに、その~~味方**魔術師**が現在~~==ターン終了時、その味方魔術師がこ==のターン中に1つ以上の呪文の詠唱に成功させた場合、以降バトル終了時まで、その味方**魔術師**のパワーレベルは+1の修正を受ける。
 
 ## 英雄特性
 
 
-### Scions of Nulahmia Heroic Trait（出典: Army of Renown: Scions of Nulahmia）
+### 英雄特性(Scions of Nulahmia Heroic Trait)（出典: Army of Renown: Scions of Nulahmia）
 
-**HERO** only
+（**英雄**のみ）
 
-- **Keeper of the Royal Menagerie**（Your Hero Phase）
-  - 宣言: Pick a friendly **Dire Wolves** or **Fell Bats** unit that has been destroyed to be the target.
-  - 効果: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12" of this unit and more than 9" from all enemy units.
+- **宮廷動物園の番人(Keeper of the Royal Menagerie)**（自軍側ヒーローフェイズ）
+  - 宣言: 全滅している味方**ダイアウルフ**または**フェルバット**・ユニットを1個選択する。
+  - 効果: このユニットの12mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に、選択された味方ユニットの兵数の半分（端数切り上げ）で構成された代替ユニットを1個配置する。
 
 ## 神器
 
 
-### Scions of Nulahmia Artefact of Power（出典: Army of Renown: Scions of Nulahmia）
+### 神器(Scions of Nulahmia Artefact of Power)（出典: Army of Renown: Scions of Nulahmia）
 
-**HERO** only
+（**英雄**のみ）
 
-- **Amulet of Leeches**（Passive）
-  - 効果: While this unit is within the combat range of a friendly **Dire** **Wolves** or **Fell Bats** unit: • This unit has **WARD (5+)**. • Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly **Dire Wolves** or **Fell** **Bats** unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).
+- **吸気の護符(Amulet of Leeches)**（パッシブ）
+  - 効果: このユニットが味方**ダイアウルフ**または**フェルバット**・ユニットの近接範囲内に一部でも入っている間、以下の効果が適用される。 • このユニットは**加護（5+）**を持つ。 • このユニットが加護ロールを成功させるたびに、このユニットに対する攻撃手順が解決された直後、このユニットの近接範囲内に一部が入っている味方**ダイアウルフ**もしくは**フェルバット**・ユニットに1ポイントのダメージを割り振る（そのダメージに対して加護ロールはできない）。
 
 ## 伝承（呪文・奇蹟・顕現）
 
 
-### Scions of Nulahmia Spell Lore
+### 呪文伝承(Scions of Nulahmia Spell Lore)
 
-- **Invocation of Nulahmia**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: Pick a friendly **SCIONS OF NULAHMIA WIZARD** to cast this spell, pick a visible friendly **Dire Wolves** or **Fell Bats** unit wholly within 18" of them to be the target, then make a casting roll of 2D6.
-  - 効果: You can return 1 slain model to that unit.
-- **Scarlet Thirst**（Your Hero Phase / 詠唱/詠誦値 7）
-  - 宣言: Pick a friendly **SCIONS OF NULAHMIA WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: For the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **SCIONS OF NULAHMIA Vampire** units while they are wholly within 12" of the caster.
-- **Thrall Drain**（Your Hero Phase / 詠唱/詠誦値 7）
-  - 宣言: Pick a friendly **SCIONS OF NULAHMIA WIZARD** to cast this spell, pick a friendly unit wholly within 12" of them to be the target, then make a casting roll of 2D6.
-  - 効果: D3 models in the target are slain. Then, remove all damage points from the caster.
+- **ヌラーミアの呼び声(Invocation of Nulahmia)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: この呪文を詠唱する際に、味方**ヌラーミアの御子・魔術師**を1体選択する。その後、選択された魔術師の18mv以内に全体が入っており、かつその魔術師から視認状態である味方**ダイアウルフ**または**フェルバット**・ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: 選択された味方ユニットは、撃破された兵1体を復帰させることができる。
+- **真紅の渇き(Scarlet Thirst)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 7）
+  - 宣言: この呪文を詠唱する際に、味方**ヌラーミアの御子・魔術師==を==**1体選択し、2D6の詠唱ロールをする。
+  - 効果: そのターン中、詠唱者の12mv以内に全体が入っている味方**ヌラーミアの御子・ヴァンパイア**・ユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。
+- **従僕からの収奪(Thrall Drain)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 7）
+  - 宣言: この呪文を詠唱する際に、味方**ヌラーミアの御子・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に全体が入っている味方ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: 選択された味方ユニット内の兵D3体が撃破される。その後、詠唱者が受けていたダメージをすべて取り除く。

@@ -1481,6 +1481,1414 @@
    "fix_ja": {
     "ウォーチャリオット騎乗": "ウォーチャリオット搭乗"
    }
+  },
+  {
+   "faction": "kharadron_overlords",
+   "tr_section": "ability_texts",
+   "tr_key": "Emberstone Flare",
+   "tr_field": "declare",
+   "table": "ability",
+   "id": "04b41eb1-c850-437c-a998-5fcf1594ed1b",
+   "en_field": "declare",
+   "name": "Emberstone Flare",
+   "ja": "味方**カラドロン・オーバーロード**・ユニット",
+   "en": "a friendly **KHARADRON OVERLORDS** unit",
+   "note": "英語版は KHARADRON OVERLORDS。日本語版（グューランの禍事 2025年9月）の「カラドロン・オーバーロード」は誤植。陣営名・キーワードは書籍や同じ PDF の他の箇所ではすべて「カラドロン・オーヴァーロード」（ヴァ）。ルール上の意味は変わらない。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**カラドロン・オーバーロード**": "**カラドロン・オーヴァーロード**"
+   }
+  },
+  {
+   "faction": "kharadron_overlords",
+   "tr_section": "ability_texts",
+   "tr_key": "Artycle 25, Point 6",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "52401bf0-dfaa-46a2-ac7e-ce297e570504",
+   "en_field": "effect",
+   "name": "Artycle 25, Point 6",
+   "ja": "このユニットの近接戦闘範囲内に一部でも入っている",
+   "en": "within this unit’s combat range",
+   "note": "英語版は combat range。日本語版（アキュシーの禍事 2026年6月）は「近接戦闘範囲」と書いているが、書籍・他の訳（同じファクションの他の 10 箇所、他ファクション）はすべて「近接範囲」で、同じ用語の訳が揺れている（ルールの内容は英語と同じ）。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "近接戦闘範囲内": "近接範囲内"
+   }
+  },
+  {
+   "faction": "kharadron_overlords",
+   "tr_section": "ability_texts",
+   "tr_key": "Heat-Seeking Auto-Endrin",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "9453a4b2-0732-4134-abd1-9dc8a5cee4ad",
+   "en_field": "effect",
+   "name": "Heat-Seeking Auto-Endrin",
+   "ja": "選択された敵ユニットの確保力は-「対戦相手の**憤激レベル**」の修正を受ける",
+   "en": "subtract your opponent’s **fury level** from the target’s control score",
+   "note": "英語版は対象の「確保スコア」（control score）から対戦相手の憤激レベルを引く。日本語版（アキュシーの禍事 2026年6月）の「確保力」は特性値の【確保力】と読め、兵1体ごとに引くことになってしまう（同じ文のデザイナーズ・ノートは正しく「確保スコア」）。ユニットの確保スコアから1回だけ引く。",
+   "issue": "P. 特性値の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "選択された敵ユニットの確保力は": "選択された敵ユニットの確保スコアは"
+   }
+  },
+  {
+   "faction": "kharadron_overlords",
+   "tr_section": "ability_texts",
+   "tr_key": "Persistent Drillbill",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "2119b0d4-d0a9-40d5-9922-7f3ed78eca37",
+   "en_field": "effect",
+   "name": "Persistent Drillbill",
+   "ja": "対象ユニットのメレーアタックは、次の自軍側ターン開始時までヒットロールに-1の修正を受ける。",
+   "en": "subtract 1 from hit rolls for the target’s attacks until the start of your next turn",
+   "note": "英語版は対象の攻撃全般（the target’s attacks）のヒットロールに-1。日本語版（アキュシーの禍事 2026年6月）は「メレーアタック」（近接攻撃）に限定していて、遠隔攻撃にも-1が掛かることが読み取れない。",
+   "issue": "I. 英語に無い条件",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "対象ユニットのメレーアタックは": "対象ユニットの攻撃は"
+   }
+  },
+  {
+   "faction": "kharadron_overlords",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Endrinriggers|We're Working Here!",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "cb0c2b61-bfb4-40b7-a54a-fd45802cc654",
+   "en_field": "effect",
+   "name": "We're Working Here!",
+   "ja": "このユニットの**エーテル駆動式チェーンソー**は",
+   "en": "This unit’s **Aethermatic Saws** have",
+   "note": "英語版は Aethermatic Saws。同じウォースクロール（アキュシーの禍事 2026年6月）の武器表では「エーテル駆動式の鋸」で、日本語版の「エーテル駆動式チェーンソー」は名称が食い違う（同じ武器を指す）。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**エーテル駆動式チェーンソー**": "**エーテル駆動式の鋸**"
+   }
+  },
+  {
+   "faction": "kharadron_overlords",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Endrinriggers|We're Working Here!",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "cb0c2b61-bfb4-40b7-a54a-fd45802cc654",
+   "en_field": "effect",
+   "name": "We're Working Here!",
+   "ja": "4+ **怒り心頭**このユニットは",
+   "en": "**4+ *Exasperated***: This unit has",
+   "note": "日本語版（アキュシーの禍事 2026年6月）は他の 2 行（苛立ち：／怒髪衝天：）にあるコロンが「怒り心頭」の後ろに無い。ルールへの影響は無い。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**怒り心頭**": "**怒り心頭：**"
+   }
+  },
+  {
+   "faction": "kharadron_overlords",
+   "tr_section": "ability_texts",
+   "tr_key": "Extra Rappel Anchors",
+   "tr_field": "effect",
+   "table": "battle_formation_rule",
+   "id": "6fcde92c-e0cc-4507-aeba-35f8568c1cbf",
+   "en_field": "effect",
+   "name": "Extra Rappel Anchors",
+   "ja": "味方グランドストック・ガンハウラー・は",
+   "en": "Friendly **Grundstok Gunhaulers** can transport",
+   "note": "日本語版（ルール・アップデート 2026年9月）の「ガンハウラー・は」は余分な中黒が入った誤植。ルールへの影響は無い。",
+   "issue": "Y. 書籍・エラッタの誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "ガンハウラー・は": "ガンハウラーは"
+   }
+  },
+  {
+   "faction": "kharadron_overlords",
+   "tr_section": "ability_texts",
+   "tr_key": "Spearhead|Assault Boat",
+   "tr_field": "declare",
+   "table": "ability",
+   "id": "a517ed5d-baf3-4354-afa9-3553b9576ec7",
+   "en_field": "declare",
+   "name": "Assault Boat",
+   "ja": "1個選択する、このアビリティを使用する。",
+   "en": "Pick a friendly unit that was **transported** this turn to use this ability.",
+   "note": "日本語版（スピアヘッド スカイハンマー機動艇旅団 2025年11月）の「1個選択する、このアビリティを使用する」は文のつなぎの誤植で、「1個選択し、」が正しい。意味は英語どおり。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "1個選択する、": "1個選択し、"
+   }
+  },
+  {
+   "faction": "kharadron_overlords",
+   "tr_section": "ability_texts",
+   "tr_key": "Zontari Endrin Dock|Endrinworks Outpost",
+   "tr_field": "declare",
+   "table": "warscroll_ability",
+   "id": "1eb0460c-38a2-46a2-9fdb-8e483baaa166",
+   "en_field": "declare",
+   "name": "Endrinworks Outpost",
+   "ja": "味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリンを1個選択する。",
+   "en": "Pick a friendly **AUTO-ENDRIN** or replacement **AUTO‑ENDRIN** that has been removed from the battlefield",
+   "note": "英語版は「戦場から取り除かれた（味方オートエンドリンまたは代替のオートエンドリン）」を選ぶ。改訂前の書籍 p.66 も「戦場から取り除かれた味方オートエンドリンを1個選択する」で、エラッタは代替のオートエンドリンも対象に加えただけ。日本語版（ルール・アップデート 2026年9月）の「味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリン」は「戦場から取り除かれた」が代替のほうにしか掛からず、戦場にいるオートエンドリンも選べるように読める。選べるのは戦場から取り除かれたもの（元のオートエンドリンでも代替でも）だけ。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリンを1個選択する。": "戦場から取り除かれた味方オートエンドリンまたは代替のオートエンドリンを1個選択する。"
+   }
+  },
+  {
+   "faction": "kharadron_overlords",
+   "tr_section": "ability_texts",
+   "tr_key": "Zontari Endrin Dock|Endrinworks Outpost",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "1eb0460c-38a2-46a2-9fdb-8e483baaa166",
+   "en_field": "effect",
+   "name": "Endrinworks Outpost",
+   "ja": "エンドリン・マスター（エンドリンハーネス装備）",
+   "en": "**Endrinmaster with Endrinharness**",
+   "note": "英語版は Endrinmaster with Endrinharness。日本語版（ルール・アップデート 2026年9月）の「エンドリン・マスター（エンドリンハーネス装備）」は、ユニット名「エンドリンマスター（エンドリンハーネス装備）」（書籍・バトルプロフィール）と表記が違い、同じ文の「エンドリンマスター（可導気球スーツ装備）」とも揃っていない。同じユニットを指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "エンドリン・マスター（エンドリンハーネス装備）": "エンドリンマスター（エンドリンハーネス装備）"
+   }
+  },
+  {
+   "faction": "kharadron_overlords",
+   "tr_section": "ability_texts",
+   "tr_key": "Zontari Endrin Dock|Repair Routines",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "53f75dec-851c-4dbb-931a-18e1f0ad0d66",
+   "en_field": "effect",
+   "name": "Repair Routines",
+   "ja": "**エンドリン・マスター（エンドリンハーネス装備）**",
+   "en": "**Endrinmaster with Endrinharness**",
+   "note": "英語版は Endrinmaster with Endrinharness。日本語版（書籍 p.66）の「エンドリン・マスター（エンドリンハーネス装備）」は、ユニット名「エンドリンマスター（エンドリンハーネス装備）」と表記が違い、同じ文の「エンドリンマスター（可導気球スーツ装備）」とも揃っていない。同じユニットを指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**エンドリン・マスター（エンドリンハーネス装備）**": "**エンドリンマスター（エンドリンハーネス装備）**"
+   }
+  },
+  {
+   "faction": "kharadron_overlords",
+   "tr_section": "ability_texts",
+   "tr_key": "Vongrim Salvagers|Spotter's Flaregun",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "d4cb70c2-be9a-4ce8-8bf9-3df527e4a4a8",
+   "en_field": "effect",
+   "name": "Spotter's Flaregun",
+   "ja": "味方**ヴォングリム・サルヴェイジャー**および**ヴォングリムの銛打ち衆**・ユニット",
+   "en": "friendly **Vongrim Salvagers** and **Vongrim Harpoon Crew** units",
+   "note": "英語版は Vongrim Salvagers / Vongrim Harpoon Crew。日本語版（ルール・アップデート 2026年9月）の「ヴォングリム・サルヴェイジャー」「ヴォングリムの銛打ち衆」は、ユニット名「フォングリム・サルヴェイジャー」「フォングリムの銛打ち衆」（書籍 p.60・バトルプロフィール）と表記が違う。同じユニットを指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**ヴォングリム・サルヴェイジャー**": "**フォングリム・サルヴェイジャー**",
+    "**ヴォングリムの銛打ち衆**": "**フォングリムの銛打ち衆**"
+   }
+  },
+  {
+   "faction": "kharadron_overlords",
+   "tr_section": "wargear_option_texts",
+   "tr_key": "Grundstok Thunderers",
+   "tr_field": null,
+   "table": "warscroll",
+   "id": "f9716be2-d268-49a0-ae1a-d5ccf5884111",
+   "en_field": "wargearOptionsText",
+   "name": "Grundstok Thunderers",
+   "ja": "エーテルショット・ライフルと大型銃床を装備している",
+   "en": "armed with an Aethershot Rifle and Gun Butt",
+   "note": "英語版は Gun Butt。日本語版（書籍 p.64）の装備文の「大型銃床」は、同じウォースクロールの武器表の名前「銃床」と違う（「大型銃床」という武器は無い）。同じ武器を指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "大型銃床": "銃床"
+   }
+  },
+  {
+   "faction": "kharadron_overlords",
+   "tr_section": "wargear_option_texts",
+   "tr_key": "Skywardens",
+   "tr_field": null,
+   "table": "warscroll",
+   "id": "c45a3efb-3821-4ac1-a734-c1d235c6668f",
+   "en_field": "wargearOptionsText",
+   "name": "Skywardens",
+   "ja": "ヴァルカナイザー・ピストルとスカイウォーデン・スカイパイクを装備している",
+   "en": "armed with a Vulcaniser Pistol and Skywarden’s Skypike",
+   "note": "英語版は Skywarden’s Skypike。日本語版（書籍 p.65）の装備文の「スカイウォーデン・スカイパイク」は、同じウォースクロールの武器表の名前「スカイウォーデンのスカイパイク」と表記が違う。同じ武器を指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "スカイウォーデン・スカイパイク": "スカイウォーデンのスカイパイク"
+   }
+  },
+  {
+   "faction": "kharadron_overlords",
+   "tr_section": "wargear_option_texts",
+   "tr_key": "Scourge of Aqshy: Endrinriggers",
+   "tr_field": null,
+   "table": "warscroll",
+   "id": "c9b14826-b526-4859-a401-e5bc0db455b2",
+   "en_field": "wargearOptionsText",
+   "name": "Scourge of Aqshy: Endrinriggers",
+   "ja": "このユニット内の各兵は、ラピッドファイア・リベットガンとエーテル駆動式の鋸を装備している。",
+   "en": "• ***Each model in this unit is armed with a Rapid-fire Rivet Gun and Aethermatic Saw.***",
+   "note": "英語版は 4 項目とも箇条書き。日本語版（アキュシーの禍事 2026年6月 p.2）は 1 つ目の項目の先頭に「•」が無い（他の 3 項目にはある）。誤植でルール上の影響は無い。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "このユニット内の各兵は、ラピッドファイア・リベットガンとエーテル駆動式の鋸を装備している。": "• このユニット内の各兵は、ラピッドファイア・リベットガンとエーテル駆動式の鋸を装備している。"
+   }
+  },
+  {
+   "faction": "pioneer_outpost",
+   "tr_section": "ability_texts",
+   "tr_key": "Aggressive Acquisitions",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "21134575-a526-4843-a209-1eeb359268f1",
+   "en_field": "effect",
+   "name": "Aggressive Acquisitions",
+   "ja": "対戦相手はその敵ユニットを配置することはできない",
+   "en": "enemy units cannot be set up within your territory",
+   "note": "英語版は単に「敵ユニット」（enemy units）。日本語版（書籍 p.84）の「その敵ユニット」の「その」は指す先が無い。ルール上の意味は同じで、以降バトル終了時まで、敵ユニットは自軍側陣地内や自軍が確保している作戦目標の9mv以内に配置できない。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "対戦相手はその敵ユニットを": "対戦相手は敵ユニットを"
+   }
+  },
+  {
+   "faction": "pioneer_outpost",
+   "tr_section": "ability_texts",
+   "tr_key": "Secure Investments",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "114d1601-3d29-4ede-9269-2824479d63a8",
+   "en_field": "effect",
+   "name": "Secure Investments",
+   "ja": "歩兵ではない味方**開拓兵**・ユニットと陣営地形を対象とする",
+   "en": "target friendly non-**INFANTRY PIONEER** units or friendly faction terrain features",
+   "note": "英語版は「味方の陣営地形（friendly faction terrain features）」。日本語版（書籍 p.84）の「陣営地形」には「味方」が無く、敵の陣営地形を対象とするメレーアタックの【貫通値】まで無視するように読める（同じ書籍 p.85 の敵対的買収は「味方陣営地形」）。味方の陣営地形を対象とする攻撃だけが対象。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "と陣営地形を対象とする": "と味方陣営地形を対象とする"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Amulet of Graves",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "ebc38a05-3731-46f4-8d69-6ddb9ae0a352",
+   "en_field": "effect",
+   "name": "Amulet of Graves",
+   "ja": "戦場に配置されている**呪われた墓**が2個以下である場合",
+   "en": "If there are fewer than 3 friendly **Cursed Sepulchres** on the battlefield",
+   "note": "英語版は「戦場にある味方の呪われた墓が3個未満（fewer than 3 friendly）」。日本語版（書籍 p.69）は「味方」が無く、敵の呪われた墓も数えるように読める。数えるのは味方の呪われた墓だけ。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "戦場に配置されている**呪われた墓**が2個以下": "戦場に配置されている味方の**呪われた墓**が2個以下"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Barrow Knights|Knights of the King",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "3bfbffa7-9505-401d-a566-d83c3ddd1b4b",
+   "en_field": "effect",
+   "name": "Knights of the King",
+   "ja": "このユニットの近接範囲内に全体が入っている場合",
+   "en": "are within this unit’s combat range",
+   "note": "英語版は「このユニットの近接範囲内にいる（within）」で、一部でも入っていればよい。日本語版（書籍 p.92）の「全体が入っている」は wholly within の訳で、条件が厳しすぎる（同じ形のバロウガード『王の守護者』は「一部でも入っている」）。味方デスラトル・騎兵・英雄が一部でも近接範囲内に入っていれば両者が加護（5+）を持つ。",
+   "issue": "N. 範囲（全体が／一部でも）の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "近接範囲内に全体が入っている場合": "近接範囲内に一部でも入っている場合"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Coven Throne|Scrying Pool",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "1fdbf537-4c73-40be-b446-562c0a733e08",
+   "en_field": "effect",
+   "name": "Scrying Pool",
+   "ja": "現在のフェイズ中にまだ『再配置』指揮アビリティを使用していない",
+   "en": "that has not used a command this phase",
+   "note": "英語版は「このフェイズ中に指揮アビリティを使用していない（has not used a command this phase）」ユニット。日本語版（書籍 p.88）は「『再配置』指揮アビリティを使用していない」に限定しており、このフェイズに別の指揮アビリティ（全力防御など）を使ったユニットも選べるように読める。どの指揮アビリティも使っていないユニットだけ選べる。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "まだ『再配置』指揮アビリティを使用していない": "まだ指揮アビリティを使用していない"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Ancient Burial Sites",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "110c98b3-311d-465f-9145-8d00e523327f",
+   "en_field": "effect",
+   "name": "Ancient Burial Sites",
+   "ja": "追加の**呪われた墓**を戦場に2個配置できる",
+   "en": "you can set up up to 2 additional **Cursed Sepulchres** on the battlefield",
+   "note": "英語版は「最大2個まで（up to 2）」追加で配置できる。日本語版（書籍 p.66）の「2個配置できる」は上限の「最大」が無く、2個まとめて配置するかしないかの二択に読める。1個だけ配置してもよい。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "追加の**呪われた墓**を戦場に2個配置できる": "追加の**呪われた墓**を戦場に最大2個まで配置できる"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Deadwalker Zombies|Mindless Ferocity",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "28fb8b0e-42cb-4d23-871d-5b083ec8b43f",
+   "en_field": "effect",
+   "name": "Mindless Ferocity",
+   "ja": "メレーアタックよって撃破される",
+   "en": "slain by a combat attack",
+   "note": "英語版は「slain by a combat attack」。日本語版（書籍 p.94）の「メレーアタックよって」は「に」が抜けている（誤植。ルールの意味は同じ）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "メレーアタックよって": "メレーアタックによって"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Dragged Down and Torn Apart",
+   "tr_field": "declare",
+   "table": "battle_formation_rule",
+   "id": "cecab426-a4fe-4118-9e0d-78c171ffddab",
+   "en_field": "declare",
+   "name": "Dragged Down and Torn Apart",
+   "ja": "味方**デッドウォーカー**・ユニットを最大3個まで選択する。",
+   "en": "Pick up to 3 friendly **DEADWALKERS** units in combat to be the targets.",
+   "note": "英語版は「近接戦闘中の（in combat）味方デッドウォーカー・ユニットを最大3個」。日本語版（書籍 p.68）の「味方**デッドウォーカー**・ユニットを最大3個まで選択する」には「近接戦闘中である」が無く、近接戦闘中でないユニットも選べるように読める。陣営パック 2024年10月・12月の英語版にも in combat があり、ルール・アップデートでの改訂も無いので訳抜け。近接戦闘中のデッドウォーカー・ユニットだけを選ぶ。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "味方**デッドウォーカー**・ユニットを最大3個": "近接戦闘中である味方**デッドウォーカー**・ユニットを最大3個"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Gorslav the Gravekeeper|Arise! Arise!",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "020e10a0-71fa-4011-8275-34f060afa9ab",
+   "en_field": "effect",
+   "name": "Arise! Arise!",
+   "ja": "全滅したユニットと同じ構成のユニットを",
+   "en": "set up the replacement unit",
+   "note": "英語版は「the replacement unit」（『無尽の軍団』で配置する代替ユニット＝対象ユニットの兵数の半分（端数切り上げ）のユニット）。日本語版（バトルトーム・サプリメント ソウルブライト・グレイヴロード）の「全滅したユニットと同じ構成のユニット」は、全滅前と同じ兵数で配置するように読める。サプリメント英語版も「the replacement unit」。変わるのは配置位置だけで、兵数は『無尽の軍団』どおり半分。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "全滅したユニットと同じ構成のユニットを": "代替ユニットを"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Mannfred von Carstein, Mortarch of Night|The Sword of Unholy Power",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "f56f2c68-2e01-4d20-bfa6-b83d034caaf5",
+   "en_field": "effect",
+   "name": "The Sword of Unholy Power",
+   "ja": "味方**デスラトル**と**デスウォーカー**・ユニット",
+   "en": "friendly **DEATHRATTLE** and **DEADWALKERS** units",
+   "note": "英語版は「DEADWALKERS」。日本語版（書籍 p.75）の「**デスウォーカー**」はキーワード名の誤植で、正しくは「**デッドウォーカー**」（他のページの訳はすべて「デッドウォーカー」）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**デスウォーカー**": "**デッドウォーカー**"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Nagash, Supreme Lord of the Undead|The Staff of Power",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "a9f8c1f7-f4ef-42a7-9809-f3e72381e2bc",
+   "en_field": "effect",
+   "name": "The Staff of Power",
+   "ja": "このユニットが呪文を暴発させとしても",
+   "en": "If this unit miscasts a spell",
+   "note": "英語版は「If this unit miscasts a spell」。日本語版（書籍 p.72）の「暴発させとしても」は「た」の脱字で、「暴発させたとしても」が正しい。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "暴発させとしても": "暴発させたとしても"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Necromancer|Vanhel's Danse Macabre",
+   "tr_field": "declare",
+   "table": "warscroll_ability",
+   "id": "799759c3-0aad-4d57-8ecf-2305eb8f0d5a",
+   "en_field": "declare",
+   "name": "Vanhel's Danse Macabre",
+   "ja": "**デスウォーカー**",
+   "en": "**DEADWALKERS**",
+   "note": "英語版は「**DEADWALKERS**」。日本語版（書籍 p.93。ルール・アップデート 2026年9月でも未訂正）の「**デスウォーカー**」は誤りで、キーワードは「**デッドウォーカー**」（同じウォースクロールの『アンデッドの下僕』でも「デッドウォーカー」）。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**デスウォーカー**": "**デッドウォーカー**"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Revenant Draconith|Red Ruin",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "9776c64c-6af5-413e-ae46-deb639e566e4",
+   "en_field": "effect",
+   "name": "Red Ruin",
+   "ja": "以下の効果をそれぞれ解決する、",
+   "en": "resolve the following effects:",
+   "note": "英語版は「resolve the following effects:」。日本語版（書籍 p.85）は文末が読点「、」で終わっており、箇条書きの前のコロン（または句点）の誤植。ルール上の違いは無い。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "それぞれ解決する、": "それぞれ解決する："
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Revenant Draconith|Volatile Animus",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "f95a2f63-dd0e-40d8-801f-1d6097dd65a0",
+   "en_field": "effect",
+   "name": "Volatile Animus",
+   "ja": "このターン中に『**近接攻撃**』アビリティを使用している敵ユニット",
+   "en": "that target an enemy unit that used a **FIGHT** ability this phase",
+   "note": "英語版は「that target an enemy unit that used a **FIGHT** ability this phase」（このフェイズ中に）。日本語版（アキュシーの禍事 2026年9月）の「このターン中に」は誤り。報復の構えのヒットロール+1は、このフェイズ中に『近接攻撃』アビリティを使用した敵ユニットを対象とする攻撃だけに適用される（もう一方の『抑えざる獰猛性』は「このフェイズ中に」で正しい）。",
+   "issue": "E. タイミングの誤り",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "このターン中に『**近接攻撃**』アビリティを使用している": "このフェイズ中に『**近接攻撃**』アビリティを使用している"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Vengorian Lord|Nightmare's Miasma",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "b29d6eaf-36d1-4ab7-a528-a203d12f0d67",
+   "en_field": "effect",
+   "name": "Nightmare's Miasma",
+   "ja": "【貫通地】",
+   "en": "Rend characteristic",
+   "note": "英語版は「Rend characteristic」。日本語版（アキュシーの禍事 2026年9月）の「【貫通地】」は「【貫通値】」の誤植。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "【貫通地】": "【貫通値】"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Ghyran Corpse Cart|Necromantic Goad",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "2b2b68de-c728-4b2c-b2ab-690fc7811037",
+   "en_field": "effect",
+   "name": "Necromantic Goad",
+   "ja": "その移動中、このユニットは近接戦闘に突入することができる。",
+   "en": "It can move into combat.",
+   "note": "英語版は「The target can move up to 3\". It can move into combat.」で、近接戦闘に突入できるのは移動する選択された味方ユニット（the target）。日本語版（グューランの禍事 2025年9月）の「このユニットは」はコープスカート自身を指すことになり誤り。",
+   "issue": "F. 効果を得る側の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "その移動中、このユニットは": "その移動中、選択された味方ユニットは"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Sekhar, Fang of Nulahmia|Death's Construction",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "c89329c2-0ae6-4f60-9f06-58449fdcc521",
+   "en_field": "effect",
+   "name": "Death's Construction",
+   "ja": "選択された敵ユニットがこのユニットの6mv以内に全体が入っている間、その敵ユニットは味方**ソウルブライト・グレイヴロード**・ユニットを",
+   "en": "while they are wholly within 6\" of this unit, friendly **SOULBLIGHT GRAVELORDS** units cannot be picked to be the target of abilities used by the target",
+   "note": "英語版は「このユニットの6mv以内に全体が入っている味方ソウルブライト・グレイヴロード・ユニットは、対象の敵ユニットが使う『近接攻撃』以外のアビリティの対象に選べない」（they は後続の friendly units を指し、守られるのはセカールの周囲の味方）。日本語版（書籍 p.79）は「選択された敵ユニットがこのユニットの6mv以内に全体が入っている間」と、6mv以内に全体が入っている必要があるのを敵ユニットにしている。敵の位置ではなく、味方ユニットがセカールの6mv以内に全体が入っているかで判定する。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "選択された敵ユニットがこのユニットの6mv以内に全体が入っている間、その敵ユニットは味方**ソウルブライト・グレイヴロード**・ユニットを": "このユニットの6mv以内に全体が入っている味方**ソウルブライト・グレイヴロード**・ユニットを、選択された敵ユニットが"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Sekhar, Fang of Nulahmia|Serpentine Agility",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "f8163711-f691-40bd-be71-29eec6fbb9c4",
+   "en_field": "effect",
+   "name": "Serpentine Agility",
+   "ja": "このユニットを対象とするメレーアタックにおいて",
+   "en": "If the unmodified hit roll for an attack that targets this unit is 1-4",
+   "note": "英語版は「このユニットを対象とする攻撃（an attack）」で、近接・遠隔を問わない（陣営パック 2024年の英語も an attack）。日本語版（書籍 p.79）の「メレーアタック」は英語に無い限定で、遠隔攻撃にも適用されるのが正しい。",
+   "issue": "I. 英語に無い条件",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "このユニットを対象とするメレーアタックにおいて": "このユニットを対象とする攻撃において"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Sekhar, Fang of Nulahmia|The Time-Swallower's Maw",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "5de0cbae-96e4-427a-adeb-6c8d1e5e302e",
+   "en_field": "effect",
+   "name": "The Time-Swallower's Maw",
+   "ja": "その【移動力】からロール結果を減算した数",
+   "en": "equal to the difference between the roll and its Move characteristic",
+   "note": "英語版は「ロールと【移動力】の差」に等しい致命的ダメージ（ロールが【移動力】を上回るときだけなので、ロール結果−【移動力】）。日本語版（書籍 p.79）の「【移動力】からロール結果を減算した数」は引き算の向きが逆で、常に負の値になる。",
+   "issue": "Q. 計算の向きの誤り",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "その【移動力】からロール結果を減算した数": "ロール結果からその【移動力】を減算した数"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Spearhead|Bloodcrave Hunt|Deathrattle Skeletons|Skeleton Legion",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "9daf52ff-70e9-4a57-84de-a1bf331aa611",
+   "en_field": "effect",
+   "name": "Skeleton Legion",
+   "ja": "このユニット内の兵1体が撃破されるたびに、D6の**兵団ロール**を1個ロールする。",
+   "en": "For each slain model from this unit, make a **legion roll** of D6.",
+   "note": "英語版は（自軍側近接フェイズに）「このユニットの撃破されている兵1体につき」D6 の兵団ロールを1個ずつ行う。日本語版（ルール・アップデート 2026年9月。スピアヘッド PDF 2026年4月も同文）の「兵1体が撃破されるたびに」は、兵が撃破された時点ごとに振るトリガーのように読め、それ以前（例えば射撃フェイズ）に撃破された兵の分を振れないように読める。近接フェイズの使用時点で撃破されている兵の数だけ振るのが正しい。",
+   "issue": "E. タイミングの誤り",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "このユニット内の兵1体が撃破されるたびに": "このユニットの撃破されている兵1体につき"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Spearhead|Deathmarch",
+   "tr_field": "declare",
+   "table": "ability",
+   "id": "f2897c1f-fc71-4be5-8b81-cc5327bd9bce",
+   "en_field": "declare",
+   "name": "Deathmarch",
+   "ja": "味方ニット",
+   "en": "Pick a friendly non-**HERO** unit that is not in combat to be the target.",
+   "note": "英語版は「味方ユニット」（friendly … unit）。日本語版（書籍 p.105・スピアヘッド PDF とも）の「味方ニット」は「ユ」の脱字。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "味方ニット": "味方ユニット"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Spearhead|Grave-sand Shard",
+   "tr_field": "timing",
+   "table": "ability",
+   "id": "aa4008eb-603f-49b8-a189-9e581a6646f3",
+   "en_field": "phaseDetails",
+   "name": "Grave-sand Shard",
+   "ja": "『骨の兵団』アビリティ",
+   "en": "the ‘Skeleton Legion’ ability",
+   "note": "英語版は『Skeleton Legion』。日本語版（スピアヘッド 吸血族の狩り PDF 2026年4月）の『骨の兵団』は、デスラトル・スケルトンのアビリティ名の訳『骸骨の兵団』（書籍 p.107・ルール・アップデート 2026年9月）と違う。名前の表記揺れで、指しているのは『骸骨の兵団』。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "『骨の兵団』": "『骸骨の兵団』"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Spearhead|Grave-sand Shard",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "aa4008eb-603f-49b8-a189-9e581a6646f3",
+   "en_field": "effect",
+   "name": "Grave-sand Shard",
+   "ja": "**軍団ロール**",
+   "en": "**legion roll**",
+   "note": "英語版は legion roll。日本語版（スピアヘッド 吸血族の狩り PDF 2026年4月）の「軍団ロール」は、同じスピアヘッドの『骸骨の兵団』本文（ルール・アップデート 2026年9月・PDF）の「兵団ロール」と表記が違う。同じロールなので「兵団ロール」にそろえる。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**軍団ロール**": "**兵団ロール**"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "The Exiled Dead|Unfeeling Fortitude",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "d1684fc5-06fe-4e5d-baee-6cabc7611963",
+   "en_field": "effect",
+   "name": "Unfeeling Fortitude",
+   "ja": "選択された味方ユニットは**加護（5+）**を持つ",
+   "en": "this unit has **WARD (5+)** until the start of your next turn",
+   "note": "英語版は「このユニットは加護（5+）を持つ」で、宣言（対象の選択）の無いアビリティ。日本語版（レジェンド・ウォースクロール 2026年7月 pp.38–40）の「選択された味方ユニットは」は、選択の手順が無いのに対象を取るように読める。加護を得るのは追放されし亡者自身。",
+   "issue": "F. 効果を得る側の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "選択された味方ユニットは**加護（5+）**を持つ": "このユニットは**加護（5+）**を持つ"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "The Incarnadine Killers",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "7d0cbbc4-c7a8-4c94-9f98-927a91344a04",
+   "en_field": "effect",
+   "name": "The Incarnadine Killers",
+   "ja": "その移動を近接戦闘に突入するように終了することはできない。",
+   "en": "It can end that move in combat.",
+   "note": "英語版は「その移動を近接戦闘に突入して終えてもよい」（It can end that move in combat.）。日本語版（アキュシーの禍事 2026年9月 p.1、英雄特性表『悍ましき恐怖譚の起源』）の「終了することはできない」は肯定と否定が逆。D6mv の移動を近接戦闘中で終えてよい。",
+   "issue": "R. 肯定と否定の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "その移動を近接戦闘に突入するように終了することはできない。": "その移動を近接戦闘に突入するように終了してもよい。"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "The Never-Dead",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "f11521b1-58ac-4207-9ecf-daaef5e73e0d",
+   "en_field": "effect",
+   "name": "The Never-Dead",
+   "ja": "1増加する（最大7まで）\nその後",
+   "en": "to a maximum of 7.",
+   "note": "日本語版（アキュシーの禍事 2026年9月 p.1）の「（最大7まで）」の後に句点が無い（誤植）。ルール上の影響は無い。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "（最大7まで）\nその後": "（最大7まで）。\nその後"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "The Sons of Velmorn|Rise Again",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "dbd2dafd-54bd-4cfd-a7b3-5b60f94c911c",
+   "en_field": "effect",
+   "name": "Rise Again",
+   "ja": "このユニット内にいる兵が撃破されるたびにダイスを1個ロールする",
+   "en": "roll a dice for each slain model from this unit",
+   "note": "英語版は「このユニットの撃破されている兵 1 体ごとにダイスを 1 個ロールする」（roll a dice for each slain model from this unit）で、任意の近接フェイズにその時点で撃破されている兵の数だけロールする。日本語版（レジェンド・ウォースクロール 2026年7月 p.40）の「兵が撃破されるたびに」は兵が撃破される時点で都度ロールするように読め、タイミングと対象（近接フェイズ以外で撃破されていた兵も含む）が違う。",
+   "issue": "E. タイミングの誤り",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "このユニット内にいる兵が撃破されるたびにダイスを1個ロールする": "このユニットの撃破されている兵1体につきダイスを1個ロールする"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Zondara's Gravebreakers|Wrest From the Realms",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "9cf626fd-dc0f-4ee1-a040-de5397fdf973",
+   "en_field": "effect",
+   "name": "Wrest From the Realms",
+   "ja": "復帰させルコとができる",
+   "en": "You can return D3 slain models to this unit.",
+   "note": "日本語版（レジェンド・ウォースクロール 2026年7月 p.40）の「復帰させルコとができる」は「復帰させることができる」の誤植。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "復帰させルコとができる": "復帰させることができる"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_texts",
+   "tr_key": "Vampire Lord on Nightmare Steed|Strike At The Heart",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "0af409fe-06f1-4c90-9366-c05caf2321fd",
+   "en_field": "effect",
+   "name": "Strike At The Heart",
+   "ja": "このユニットが装備している**テンプル騎士の武器**",
+   "en": "Add 1 to the Rend characteristic of that unit’s **Templar Weapons**",
+   "note": "英語版は「そのユニットの（that unit’s）テンプル騎士の武器」で、宣言で選択した味方ブラッドナイト・ユニットの武器の【貫通値】+1。日本語版（書籍 p.84）の「このユニットが装備している」はヴァンパイア・ロード自身を指し、効果を得る側が違う（ヴァンパイア・ロードはテンプル騎士の武器を持たない）。",
+   "issue": "F. 効果を得る側の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "このユニットが装備している**テンプル騎士の武器**": "選択された味方ユニットが装備している**テンプル騎士の武器**"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "wargear_option_texts",
+   "tr_key": "Askurgan Trueblades",
+   "tr_field": null,
+   "table": "warscroll",
+   "id": "cac22534-0692-4bdc-8cf7-e28820a7a88a",
+   "en_field": "wargearOptionsText",
+   "name": "Askurgan Trueblades",
+   "ja": "アスカルガンの武器を装備している",
+   "en": "Askurgan Weapons",
+   "note": "英語版の武器は Askurgan Weapons。武器表の名前やユニット名・豪傑名（アスクルガン・エグゼンプラー）は「アスクルガン」なのに、日本語版（書籍 p.87）の装備オプション文だけ 2 か所が「アスカルガン」になっている。同じ武器を指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "アスカルガン": "アスクルガン"
+   }
+  },
+  {
+   "faction": "barrow_legion",
+   "tr_section": "ability_texts",
+   "tr_key": "All to Dust",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "3103fc26-30b0-4b8b-98cc-8926db120c57",
+   "en_field": "effect",
+   "name": "All to Dust",
+   "ja": "味方**呪いの墓**",
+   "en": "a friendly **Cursed Sepulchre**",
+   "note": "英語版は Cursed Sepulchre。日本語版（書籍 p.118）のここでは「呪いの墓」だが、同じページの『国王たる霊廟』『無尽蔵の骸骨団』や陣営地形のウォースクロール名（p.66・p.98）は「呪われた墓」。同じ特殊地形を指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**呪いの墓**": "**呪われた墓**"
+   }
+  },
+  {
+   "faction": "barrow_legion",
+   "tr_section": "ability_texts",
+   "tr_key": "Grave Sentinels",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "eb2e7d8c-77cd-478a-862c-3b21d79f3b15",
+   "en_field": "effect",
+   "name": "Grave Sentinels",
+   "ja": "味方**呪いの墓**",
+   "en": "a friendly **Cursed Sepulchre**",
+   "note": "英語版は Cursed Sepulchre。日本語版（書籍 p.118）のここでは「呪いの墓」だが、同じページの『国王たる霊廟』『無尽蔵の骸骨団』や陣営地形のウォースクロール名（p.66・p.98）は「呪われた墓」。同じ特殊地形を指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**呪いの墓**": "**呪われた墓**"
+   }
+  },
+  {
+   "faction": "scions_of_nulahmia",
+   "tr_section": "ability_texts",
+   "tr_key": "Scarlet Thirst",
+   "tr_field": "declare",
+   "table": "lore_ability",
+   "id": "9e74995f-8b48-41e6-ab5c-596d3ab0d3f6",
+   "en_field": "declare",
+   "name": "Scarlet Thirst",
+   "ja": "**ヌラーミアの御子・魔術師**1体選択し",
+   "en": "Pick a friendly **SCIONS OF NULAHMIA WIZARD** to cast this spell",
+   "note": "名高き軍勢 2026年9月 p.16 の「魔術師1体選択し」は「を」が抜けている（誤植）。",
+   "issue": "Y. 書籍・エラッタの誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**ヌラーミアの御子・魔術師**1体選択し": "**ヌラーミアの御子・魔術師**を1体選択し"
+   }
+  },
+  {
+   "faction": "scions_of_nulahmia",
+   "tr_section": "ability_texts",
+   "tr_key": "Thaumic Realignment",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "be0e91a6-b4f0-44cd-b854-7b9e2a0793c2",
+   "en_field": "effect",
+   "name": "Thaumic Realignment",
+   "ja": "さらに、その味方**魔術師**が現在のターン中に1つ以上の呪文の詠唱に成功させた場合、以降バトル終了時まで",
+   "en": "In addition, at the end of this turn, if the target successfully cast any spells this turn, add 1 to its power level for the rest of the battle.",
+   "note": "英語版は「このターン終了時に、このターン中に呪文の詠唱に成功していたら」パワーレベル+1（at the end of this turn）。日本語版（名高き軍勢 2026年9月 p.15）は「ターン終了時」が抜けていて、詠唱に成功した時点ですぐパワーレベルが上がり、同じターン中に追加の呪文を詠唱できるように読める。パワーレベル+1はターン終了時から適用する。",
+   "issue": "E. タイミングの誤り",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "さらに、その味方**魔術師**が現在のターン中に": "さらに、そのターン終了時、その味方**魔術師**がこのターン中に"
+   }
+  },
+  {
+   "faction": "soulblight_gravelords",
+   "tr_section": "ability_names",
+   "tr_key": "First of the Vyrkos",
+   "tr_field": null,
+   "table": "warscroll_ability",
+   "id": "5642f001-0126-4290-8304-6c91ee9d328e",
+   "en_field": "name",
+   "name": "First of the Vyrkos",
+   "ja": "ヴァーコスの拳",
+   "en": "First of the Vyrkos",
+   "note": "英語版は First of the Vyrkos（ヴァーコスの第一人者）。日本語版（書籍 p.82）のアビリティ名「ヴァーコスの拳」は First を Fist（拳）と取り違えている。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "ヴァーコスの拳": "ヴァーコスの筆頭"
+   }
+  },
+  {
+   "faction": "pioneer_outpost",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Endrinriggers|We're Working Here!",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "cb0c2b61-bfb4-40b7-a54a-fd45802cc654",
+   "en_field": "effect",
+   "name": "We're Working Here!",
+   "ja": "このユニットの**エーテル駆動式チェーンソー**は",
+   "en": "This unit’s **Aethermatic Saws** have",
+   "note": "英語版は Aethermatic Saws。同じウォースクロール（アキュシーの禍事 2026年6月）の武器表では「エーテル駆動式の鋸」で、日本語版の「エーテル駆動式チェーンソー」は名称が食い違う（同じ武器を指す）。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**エーテル駆動式チェーンソー**": "**エーテル駆動式の鋸**"
+   }
+  },
+  {
+   "faction": "pioneer_outpost",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Endrinriggers|We're Working Here!",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "cb0c2b61-bfb4-40b7-a54a-fd45802cc654",
+   "en_field": "effect",
+   "name": "We're Working Here!",
+   "ja": "4+ **怒り心頭**このユニットは",
+   "en": "**4+ *Exasperated***: This unit has",
+   "note": "日本語版（アキュシーの禍事 2026年6月）は他の 2 行（苛立ち：／怒髪衝天：）にあるコロンが「怒り心頭」の後ろに無い。ルールへの影響は無い。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**怒り心頭**": "**怒り心頭：**"
+   }
+  },
+  {
+   "faction": "pioneer_outpost",
+   "tr_section": "ability_texts",
+   "tr_key": "Zontari Endrin Dock|Endrinworks Outpost",
+   "tr_field": "declare",
+   "table": "warscroll_ability",
+   "id": "1eb0460c-38a2-46a2-9fdb-8e483baaa166",
+   "en_field": "declare",
+   "name": "Endrinworks Outpost",
+   "ja": "味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリンを1個選択する。",
+   "en": "Pick a friendly **AUTO-ENDRIN** or replacement **AUTO‑ENDRIN** that has been removed from the battlefield",
+   "note": "英語版は「戦場から取り除かれた（味方オートエンドリンまたは代替のオートエンドリン）」を選ぶ。改訂前の書籍 p.66 も「戦場から取り除かれた味方オートエンドリンを1個選択する」で、エラッタは代替のオートエンドリンも対象に加えただけ。日本語版（ルール・アップデート 2026年9月）の「味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリン」は「戦場から取り除かれた」が代替のほうにしか掛からず、戦場にいるオートエンドリンも選べるように読める。選べるのは戦場から取り除かれたもの（元のオートエンドリンでも代替でも）だけ。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリンを1個選択する。": "戦場から取り除かれた味方オートエンドリンまたは代替のオートエンドリンを1個選択する。"
+   }
+  },
+  {
+   "faction": "grundstok_expeditionary_force",
+   "tr_section": "ability_texts",
+   "tr_key": "Zontari Endrin Dock|Endrinworks Outpost",
+   "tr_field": "declare",
+   "table": "warscroll_ability",
+   "id": "1eb0460c-38a2-46a2-9fdb-8e483baaa166",
+   "en_field": "declare",
+   "name": "Endrinworks Outpost",
+   "ja": "味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリンを1個選択する。",
+   "en": "Pick a friendly **AUTO-ENDRIN** or replacement **AUTO‑ENDRIN** that has been removed from the battlefield",
+   "note": "英語版は「戦場から取り除かれた（味方オートエンドリンまたは代替のオートエンドリン）」を選ぶ。改訂前の書籍 p.66 も「戦場から取り除かれた味方オートエンドリンを1個選択する」で、エラッタは代替のオートエンドリンも対象に加えただけ。日本語版（ルール・アップデート 2026年9月）の「味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリン」は「戦場から取り除かれた」が代替のほうにしか掛からず、戦場にいるオートエンドリンも選べるように読める。選べるのは戦場から取り除かれたもの（元のオートエンドリンでも代替でも）だけ。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリンを1個選択する。": "戦場から取り除かれた味方オートエンドリンまたは代替のオートエンドリンを1個選択する。"
+   }
+  },
+  {
+   "faction": "pioneer_outpost",
+   "tr_section": "ability_texts",
+   "tr_key": "Zontari Endrin Dock|Endrinworks Outpost",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "1eb0460c-38a2-46a2-9fdb-8e483baaa166",
+   "en_field": "effect",
+   "name": "Endrinworks Outpost",
+   "ja": "エンドリン・マスター（エンドリンハーネス装備）",
+   "en": "**Endrinmaster with Endrinharness**",
+   "note": "英語版は Endrinmaster with Endrinharness。日本語版（ルール・アップデート 2026年9月）の「エンドリン・マスター（エンドリンハーネス装備）」は、ユニット名「エンドリンマスター（エンドリンハーネス装備）」（書籍・バトルプロフィール）と表記が違い、同じ文の「エンドリンマスター（可導気球スーツ装備）」とも揃っていない。同じユニットを指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "エンドリン・マスター（エンドリンハーネス装備）": "エンドリンマスター（エンドリンハーネス装備）"
+   }
+  },
+  {
+   "faction": "grundstok_expeditionary_force",
+   "tr_section": "ability_texts",
+   "tr_key": "Zontari Endrin Dock|Endrinworks Outpost",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "1eb0460c-38a2-46a2-9fdb-8e483baaa166",
+   "en_field": "effect",
+   "name": "Endrinworks Outpost",
+   "ja": "エンドリン・マスター（エンドリンハーネス装備）",
+   "en": "**Endrinmaster with Endrinharness**",
+   "note": "英語版は Endrinmaster with Endrinharness。日本語版（ルール・アップデート 2026年9月）の「エンドリン・マスター（エンドリンハーネス装備）」は、ユニット名「エンドリンマスター（エンドリンハーネス装備）」（書籍・バトルプロフィール）と表記が違い、同じ文の「エンドリンマスター（可導気球スーツ装備）」とも揃っていない。同じユニットを指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "エンドリン・マスター（エンドリンハーネス装備）": "エンドリンマスター（エンドリンハーネス装備）"
+   }
+  },
+  {
+   "faction": "pioneer_outpost",
+   "tr_section": "ability_texts",
+   "tr_key": "Zontari Endrin Dock|Repair Routines",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "53f75dec-851c-4dbb-931a-18e1f0ad0d66",
+   "en_field": "effect",
+   "name": "Repair Routines",
+   "ja": "**エンドリン・マスター（エンドリンハーネス装備）**",
+   "en": "**Endrinmaster with Endrinharness**",
+   "note": "英語版は Endrinmaster with Endrinharness。日本語版（書籍 p.66）の「エンドリン・マスター（エンドリンハーネス装備）」は、ユニット名「エンドリンマスター（エンドリンハーネス装備）」と表記が違い、同じ文の「エンドリンマスター（可導気球スーツ装備）」とも揃っていない。同じユニットを指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**エンドリン・マスター（エンドリンハーネス装備）**": "**エンドリンマスター（エンドリンハーネス装備）**"
+   }
+  },
+  {
+   "faction": "grundstok_expeditionary_force",
+   "tr_section": "ability_texts",
+   "tr_key": "Zontari Endrin Dock|Repair Routines",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "53f75dec-851c-4dbb-931a-18e1f0ad0d66",
+   "en_field": "effect",
+   "name": "Repair Routines",
+   "ja": "**エンドリン・マスター（エンドリンハーネス装備）**",
+   "en": "**Endrinmaster with Endrinharness**",
+   "note": "英語版は Endrinmaster with Endrinharness。日本語版（書籍 p.66）の「エンドリン・マスター（エンドリンハーネス装備）」は、ユニット名「エンドリンマスター（エンドリンハーネス装備）」と表記が違い、同じ文の「エンドリンマスター（可導気球スーツ装備）」とも揃っていない。同じユニットを指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**エンドリン・マスター（エンドリンハーネス装備）**": "**エンドリンマスター（エンドリンハーネス装備）**"
+   }
+  },
+  {
+   "faction": "pioneer_outpost",
+   "tr_section": "ability_texts",
+   "tr_key": "Vongrim Salvagers|Spotter's Flaregun",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "d4cb70c2-be9a-4ce8-8bf9-3df527e4a4a8",
+   "en_field": "effect",
+   "name": "Spotter's Flaregun",
+   "ja": "味方**ヴォングリム・サルヴェイジャー**および**ヴォングリムの銛打ち衆**・ユニット",
+   "en": "friendly **Vongrim Salvagers** and **Vongrim Harpoon Crew** units",
+   "note": "英語版は Vongrim Salvagers / Vongrim Harpoon Crew。日本語版（ルール・アップデート 2026年9月）の「ヴォングリム・サルヴェイジャー」「ヴォングリムの銛打ち衆」は、ユニット名「フォングリム・サルヴェイジャー」「フォングリムの銛打ち衆」（書籍 p.60・バトルプロフィール）と表記が違う。同じユニットを指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "**ヴォングリム・サルヴェイジャー**": "**フォングリム・サルヴェイジャー**",
+    "**ヴォングリムの銛打ち衆**": "**フォングリムの銛打ち衆**"
+   }
+  },
+  {
+   "faction": "pioneer_outpost",
+   "tr_section": "wargear_option_texts",
+   "tr_key": "Grundstok Thunderers",
+   "tr_field": null,
+   "table": "warscroll",
+   "id": "f9716be2-d268-49a0-ae1a-d5ccf5884111",
+   "en_field": "wargearOptionsText",
+   "name": "Grundstok Thunderers",
+   "ja": "エーテルショット・ライフルと大型銃床を装備している",
+   "en": "armed with an Aethershot Rifle and Gun Butt",
+   "note": "英語版は Gun Butt。日本語版（書籍 p.64）の装備文の「大型銃床」は、同じウォースクロールの武器表の名前「銃床」と違う（「大型銃床」という武器は無い）。同じ武器を指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "大型銃床": "銃床"
+   }
+  },
+  {
+   "faction": "grundstok_expeditionary_force",
+   "tr_section": "wargear_option_texts",
+   "tr_key": "Grundstok Thunderers",
+   "tr_field": null,
+   "table": "warscroll",
+   "id": "f9716be2-d268-49a0-ae1a-d5ccf5884111",
+   "en_field": "wargearOptionsText",
+   "name": "Grundstok Thunderers",
+   "ja": "エーテルショット・ライフルと大型銃床を装備している",
+   "en": "armed with an Aethershot Rifle and Gun Butt",
+   "note": "英語版は Gun Butt。日本語版（書籍 p.64）の装備文の「大型銃床」は、同じウォースクロールの武器表の名前「銃床」と違う（「大型銃床」という武器は無い）。同じ武器を指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "大型銃床": "銃床"
+   }
+  },
+  {
+   "faction": "pioneer_outpost",
+   "tr_section": "wargear_option_texts",
+   "tr_key": "Skywardens",
+   "tr_field": null,
+   "table": "warscroll",
+   "id": "c45a3efb-3821-4ac1-a734-c1d235c6668f",
+   "en_field": "wargearOptionsText",
+   "name": "Skywardens",
+   "ja": "ヴァルカナイザー・ピストルとスカイウォーデン・スカイパイクを装備している",
+   "en": "armed with a Vulcaniser Pistol and Skywarden’s Skypike",
+   "note": "英語版は Skywarden’s Skypike。日本語版（書籍 p.65）の装備文の「スカイウォーデン・スカイパイク」は、同じウォースクロールの武器表の名前「スカイウォーデンのスカイパイク」と表記が違う。同じ武器を指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "スカイウォーデン・スカイパイク": "スカイウォーデンのスカイパイク"
+   }
+  },
+  {
+   "faction": "pioneer_outpost",
+   "tr_section": "wargear_option_texts",
+   "tr_key": "Scourge of Aqshy: Endrinriggers",
+   "tr_field": null,
+   "table": "warscroll",
+   "id": "c9b14826-b526-4859-a401-e5bc0db455b2",
+   "en_field": "wargearOptionsText",
+   "name": "Scourge of Aqshy: Endrinriggers",
+   "ja": "このユニット内の各兵は、ラピッドファイア・リベットガンとエーテル駆動式の鋸を装備している。",
+   "en": "• ***Each model in this unit is armed with a Rapid-fire Rivet Gun and Aethermatic Saw.***",
+   "note": "英語版は 4 項目とも箇条書き。日本語版（アキュシーの禍事 2026年6月 p.2）は 1 つ目の項目の先頭に「•」が無い（他の 3 項目にはある）。誤植でルール上の影響は無い。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "このユニット内の各兵は、ラピッドファイア・リベットガンとエーテル駆動式の鋸を装備している。": "• このユニット内の各兵は、ラピッドファイア・リベットガンとエーテル駆動式の鋸を装備している。"
+   }
+  },
+  {
+   "faction": "barrow_legion",
+   "tr_section": "ability_texts",
+   "tr_key": "Barrow Knights|Knights of the King",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "3bfbffa7-9505-401d-a566-d83c3ddd1b4b",
+   "en_field": "effect",
+   "name": "Knights of the King",
+   "ja": "このユニットの近接範囲内に全体が入っている場合",
+   "en": "are within this unit’s combat range",
+   "note": "英語版は「このユニットの近接範囲内にいる（within）」で、一部でも入っていればよい。日本語版（書籍 p.92）の「全体が入っている」は wholly within の訳で、条件が厳しすぎる（同じ形のバロウガード『王の守護者』は「一部でも入っている」）。味方デスラトル・騎兵・英雄が一部でも近接範囲内に入っていれば両者が加護（5+）を持つ。",
+   "issue": "N. 範囲（全体が／一部でも）の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "近接範囲内に全体が入っている場合": "近接範囲内に一部でも入っている場合"
+   }
+  },
+  {
+   "faction": "scions_of_nulahmia",
+   "tr_section": "ability_texts",
+   "tr_key": "Coven Throne|Scrying Pool",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "1fdbf537-4c73-40be-b446-562c0a733e08",
+   "en_field": "effect",
+   "name": "Scrying Pool",
+   "ja": "現在のフェイズ中にまだ『再配置』指揮アビリティを使用していない",
+   "en": "that has not used a command this phase",
+   "note": "英語版は「このフェイズ中に指揮アビリティを使用していない（has not used a command this phase）」ユニット。日本語版（書籍 p.88）は「『再配置』指揮アビリティを使用していない」に限定しており、このフェイズに別の指揮アビリティ（全力防御など）を使ったユニットも選べるように読める。どの指揮アビリティも使っていないユニットだけ選べる。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "まだ『再配置』指揮アビリティを使用していない": "まだ指揮アビリティを使用していない"
+   }
+  },
+  {
+   "faction": "knights_of_the_crimson_keep",
+   "tr_section": "ability_texts",
+   "tr_key": "Revenant Draconith|Red Ruin",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "9776c64c-6af5-413e-ae46-deb639e566e4",
+   "en_field": "effect",
+   "name": "Red Ruin",
+   "ja": "以下の効果をそれぞれ解決する、",
+   "en": "resolve the following effects:",
+   "note": "英語版は「resolve the following effects:」。日本語版（書籍 p.85）は文末が読点「、」で終わっており、箇条書きの前のコロン（または句点）の誤植。ルール上の違いは無い。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "それぞれ解決する、": "それぞれ解決する："
+   }
+  },
+  {
+   "faction": "knights_of_the_crimson_keep",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Revenant Draconith|Volatile Animus",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "f95a2f63-dd0e-40d8-801f-1d6097dd65a0",
+   "en_field": "effect",
+   "name": "Volatile Animus",
+   "ja": "このターン中に『**近接攻撃**』アビリティを使用している敵ユニット",
+   "en": "that target an enemy unit that used a **FIGHT** ability this phase",
+   "note": "英語版は「that target an enemy unit that used a **FIGHT** ability this phase」（このフェイズ中に）。日本語版（アキュシーの禍事 2026年9月）の「このターン中に」は誤り。報復の構えのヒットロール+1は、このフェイズ中に『近接攻撃』アビリティを使用した敵ユニットを対象とする攻撃だけに適用される（もう一方の『抑えざる獰猛性』は「このフェイズ中に」で正しい）。",
+   "issue": "E. タイミングの誤り",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "このターン中に『**近接攻撃**』アビリティを使用している": "このフェイズ中に『**近接攻撃**』アビリティを使用している"
+   }
+  },
+  {
+   "faction": "scions_of_nulahmia",
+   "tr_section": "ability_texts",
+   "tr_key": "Sekhar, Fang of Nulahmia|Death's Construction",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "c89329c2-0ae6-4f60-9f06-58449fdcc521",
+   "en_field": "effect",
+   "name": "Death's Construction",
+   "ja": "選択された敵ユニットがこのユニットの6mv以内に全体が入っている間、その敵ユニットは味方**ソウルブライト・グレイヴロード**・ユニットを",
+   "en": "while they are wholly within 6\" of this unit, friendly **SOULBLIGHT GRAVELORDS** units cannot be picked to be the target of abilities used by the target",
+   "note": "英語版は「このユニットの6mv以内に全体が入っている味方ソウルブライト・グレイヴロード・ユニットは、対象の敵ユニットが使う『近接攻撃』以外のアビリティの対象に選べない」（they は後続の friendly units を指し、守られるのはセカールの周囲の味方）。日本語版（書籍 p.79）は「選択された敵ユニットがこのユニットの6mv以内に全体が入っている間」と、6mv以内に全体が入っている必要があるのを敵ユニットにしている。敵の位置ではなく、味方ユニットがセカールの6mv以内に全体が入っているかで判定する。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "選択された敵ユニットがこのユニットの6mv以内に全体が入っている間、その敵ユニットは味方**ソウルブライト・グレイヴロード**・ユニットを": "このユニットの6mv以内に全体が入っている味方**ソウルブライト・グレイヴロード**・ユニットを、選択された敵ユニットが"
+   }
+  },
+  {
+   "faction": "scions_of_nulahmia",
+   "tr_section": "ability_texts",
+   "tr_key": "Sekhar, Fang of Nulahmia|Serpentine Agility",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "f8163711-f691-40bd-be71-29eec6fbb9c4",
+   "en_field": "effect",
+   "name": "Serpentine Agility",
+   "ja": "このユニットを対象とするメレーアタックにおいて",
+   "en": "If the unmodified hit roll for an attack that targets this unit is 1-4",
+   "note": "英語版は「このユニットを対象とする攻撃（an attack）」で、近接・遠隔を問わない（陣営パック 2024年の英語も an attack）。日本語版（書籍 p.79）の「メレーアタック」は英語に無い限定で、遠隔攻撃にも適用されるのが正しい。",
+   "issue": "I. 英語に無い条件",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "このユニットを対象とするメレーアタックにおいて": "このユニットを対象とする攻撃において"
+   }
+  },
+  {
+   "faction": "scions_of_nulahmia",
+   "tr_section": "ability_texts",
+   "tr_key": "Sekhar, Fang of Nulahmia|The Time-Swallower's Maw",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "5de0cbae-96e4-427a-adeb-6c8d1e5e302e",
+   "en_field": "effect",
+   "name": "The Time-Swallower's Maw",
+   "ja": "その【移動力】からロール結果を減算した数",
+   "en": "equal to the difference between the roll and its Move characteristic",
+   "note": "英語版は「ロールと【移動力】の差」に等しい致命的ダメージ（ロールが【移動力】を上回るときだけなので、ロール結果−【移動力】）。日本語版（書籍 p.79）の「【移動力】からロール結果を減算した数」は引き算の向きが逆で、常に負の値になる。",
+   "issue": "Q. 計算の向きの誤り",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "その【移動力】からロール結果を減算した数": "ロール結果からその【移動力】を減算した数"
+   }
+  },
+  {
+   "faction": "barrow_legion",
+   "tr_section": "ability_texts",
+   "tr_key": "The Sons of Velmorn|Rise Again",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "dbd2dafd-54bd-4cfd-a7b3-5b60f94c911c",
+   "en_field": "effect",
+   "name": "Rise Again",
+   "ja": "このユニット内にいる兵が撃破されるたびにダイスを1個ロールする",
+   "en": "roll a dice for each slain model from this unit",
+   "note": "英語版は「このユニットの撃破されている兵 1 体ごとにダイスを 1 個ロールする」（roll a dice for each slain model from this unit）で、任意の近接フェイズにその時点で撃破されている兵の数だけロールする。日本語版（レジェンド・ウォースクロール 2026年7月 p.40）の「兵が撃破されるたびに」は兵が撃破される時点で都度ロールするように読め、タイミングと対象（近接フェイズ以外で撃破されていた兵も含む）が違う。",
+   "issue": "E. タイミングの誤り",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "このユニット内にいる兵が撃破されるたびにダイスを1個ロールする": "このユニットの撃破されている兵1体につきダイスを1個ロールする"
+   }
+  },
+  {
+   "faction": "knights_of_the_crimson_keep",
+   "tr_section": "ability_texts",
+   "tr_key": "Vampire Lord on Nightmare Steed|Strike At The Heart",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "0af409fe-06f1-4c90-9366-c05caf2321fd",
+   "en_field": "effect",
+   "name": "Strike At The Heart",
+   "ja": "このユニットが装備している**テンプル騎士の武器**",
+   "en": "Add 1 to the Rend characteristic of that unit’s **Templar Weapons**",
+   "note": "英語版は「そのユニットの（that unit’s）テンプル騎士の武器」で、宣言で選択した味方ブラッドナイト・ユニットの武器の【貫通値】+1。日本語版（書籍 p.84）の「このユニットが装備している」はヴァンパイア・ロード自身を指し、効果を得る側が違う（ヴァンパイア・ロードはテンプル騎士の武器を持たない）。",
+   "issue": "F. 効果を得る側の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "このユニットが装備している**テンプル騎士の武器**": "選択された味方ユニットが装備している**テンプル騎士の武器**"
+   }
+  },
+  {
+   "faction": "scions_of_nulahmia",
+   "tr_section": "ability_texts",
+   "tr_key": "Vampire Lord on Nightmare Steed|Strike At The Heart",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "0af409fe-06f1-4c90-9366-c05caf2321fd",
+   "en_field": "effect",
+   "name": "Strike At The Heart",
+   "ja": "このユニットが装備している**テンプル騎士の武器**",
+   "en": "Add 1 to the Rend characteristic of that unit’s **Templar Weapons**",
+   "note": "英語版は「そのユニットの（that unit’s）テンプル騎士の武器」で、宣言で選択した味方ブラッドナイト・ユニットの武器の【貫通値】+1。日本語版（書籍 p.84）の「このユニットが装備している」はヴァンパイア・ロード自身を指し、効果を得る側が違う（ヴァンパイア・ロードはテンプル騎士の武器を持たない）。",
+   "issue": "F. 効果を得る側の取り違え",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "このユニットが装備している**テンプル騎士の武器**": "選択された味方ユニットが装備している**テンプル騎士の武器**"
+   }
+  },
+  {
+   "faction": "kharadron_overlords",
+   "tr_section": "ability_names",
+   "tr_key": "Moustache-mounted Aetherblasters",
+   "tr_field": null,
+   "table": "warscroll_ability",
+   "id": "cbc9ddb6-9722-428c-ba46-dc4d08bf4810",
+   "en_field": "name",
+   "name": "Moustache-mounted Aetherblasters",
+   "ja": "口ひげ内臓式エーテルブラスター",
+   "en": "Moustache-mounted Aetherblasters",
+   "note": "日本語版（書籍）のアビリティ名「口ひげ内臓式エーテルブラスター」の「内臓」は「内蔵」の誤り。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 483,
+   "fix_ja": {
+    "口ひげ内臓式エーテルブラスター": "口ひげ内蔵式エーテルブラスター"
+   }
   }
  ]
 }

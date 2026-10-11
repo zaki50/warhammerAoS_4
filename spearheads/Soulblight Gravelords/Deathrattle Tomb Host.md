@@ -1,19 +1,19 @@
-# Spearhead: Deathrattle Tomb Host（Soulblight Gravelords）
+# Spearhead: デスラトル墳墓隊(Deathrattle Tomb Host)（ソウルブライト・グレイヴロード(Soulblight Gravelords)）
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
 
-- Barrow Guard（10体）
-- Barrow Knights（5体）
-- Deathrattle Skeletons（10体）
-- Wight King（1体）
+- バロウガード(Barrow Guard)（10体）
+- バロウナイト(Barrow Knights)（5体）
+- デスラトル・スケルトン(Deathrattle Skeletons)（10体）
+- ワイトキング(Wight King)（1体）
 
 ## ユニット詳細
 
 
-### Barrow Guard
+### バロウガード(Barrow Guard)
 
 **モデル数:** 10 / **ベースサイズ:** 28.5mm
 
@@ -27,16 +27,16 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Wight Blade | 2 | 4+ | 3+ | 1 | 1 | Crit (Mortal) |
+| ワイトブレイド(Wight Blade) | 2 | 4+ | 3+ | 1 | 1 | クリティカル（致命的）(Crit (Mortal)) |
 
 **アビリティ:**
 
-- **Guardians of the King**（Passive）
-  - 効果: While your general is within this unit’s combat range, both this unit and your general have **WARD (5+)**.
+- **王の守護者(Guardians of the King)**（パッシブ）
+  - 効果: 自軍側ジェネラルがこのユニットの近接範囲内に一部でも入っている場合、このユニットとそのジェネラルは**加護（5+）**を持つ。
 
-**キーワード:** Infantry, Ward (6+)
+**キーワード:** 歩兵、加護（6+）（Infantry, Ward (6+)）
 
-### Barrow Knights
+### バロウナイト(Barrow Knights)
 
 **モデル数:** 5 / **ベースサイズ:** 60 × 35mm
 
@@ -50,17 +50,17 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Skeletal Steed’s Hooves and Teeth | 2 | 5+ | 3+ | - | 1 | Companion |
-| Barrow Lance | 2 | 4+ | 3+ | 1 | 1 | Crit (Mortal), Charge (+1 Damage) |
+| スケルタル・スティードの蹄と歯(Skeletal Steed’s Hooves and Teeth) | 2 | 5+ | 3+ | - | 1 | 随行者(Companion) |
+| バロウランス(Barrow Lance) | 2 | 4+ | 3+ | 1 | 1 | クリティカル（致命的）(Crit (Mortal)), 突撃（+1ダメージ量）(Charge (+1 Damage)) |
 
 **アビリティ:**
 
-- **Cursed To Rise Once More**（End of Your Turn）
-  - 効果: You can return 1 slain model to this unit.
+- **再起の呪い(Cursed To Rise Once More)**（自軍側ターン終了時）
+  - 効果: このユニットに撃破されている兵1体を復帰させることができる。
 
-**キーワード:** Cavalry, Ward (6+)
+**キーワード:** 騎兵、加護（6+）（Cavalry, Ward (6+)）
 
-### Deathrattle Skeletons
+### デスラトル・スケルトン(Deathrattle Skeletons)
 
 **モデル数:** 10 / **ベースサイズ:** 25mm
 
@@ -74,16 +74,16 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Ancient Weapon | 2 | 4+ | 4+ | - | 1 | - |
+| 古代の武器(Ancient Weapon) | 2 | 4+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Skeleton Legion**（End of Any Turn）
-  - 効果: You can return D3 slain models to this unit.
+- **骸骨の兵団(Skeleton Legion)**（任意のターン終了時）
+  - 効果: このユニットに撃破されている兵をD3体復帰させることができる。
 
-**キーワード:** Infantry, Ward (6+)
+**キーワード:** 歩兵、加護（6+）（Infantry, Ward (6+)）
 
-### Wight King
+### ワイトキング(Wight King)
 
 **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -97,45 +97,45 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Baleful Tomb Blade | 5 | 4+ | 3+ | 1 | 2 | Crit (Mortal) |
+| ベイルフル・トゥームブレイド(Baleful Tomb Blade) | 5 | 4+ | 3+ | 1 | 2 | クリティカル（致命的）(Crit (Mortal)) |
 
 **アビリティ:**
 
-- **King of Shambling Bones**（Your Hero Phase）
-  - 宣言: Pick a friendly unit wholly within 12" of this unit to be the target.
-  - 効果: Roll a dice. On a 2+, add 1 to hit rolls for combat attacks made by the target for the rest of the turn.
+- **骸骨の将(King of Shambling Bones)**（自軍側ヒーローフェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っている味方ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が2+であれば、そのターン中、選択された味方ユニットのメレーアタックのヒットロールは+1の修正を受ける。
 
-**キーワード:** Hero, Infantry, Ward (6+)
+**キーワード:** 英雄、歩兵、加護（6+）（Hero, Infantry, Ward (6+)）
 
 ## 戦闘特性（Deathrattle Tomb Host Battle Traits）
 
-- **The Rising Dead**（Once Per Battle (Army), Your Movement Phase）
-  - 効果: Set up this unit anywhere on the battlefield wholly within 3" of a battlefield edge and more than 6" from all enemy units.
-- **Aura of Antiquity**（Once Per Turn (Army), Your Combat Phase）
-  - 宣言: Pick an enemy unit in combat with any friendly units to be the target.
-  - 効果: Roll a dice. On a 3+, subtract 1 from the Rend characteristic of the target’s melee weapons until the start of your next turn.
+- **起き上がる死者(The Rising Dead)**（バトル中1回限り（アーミー）、自軍側移動フェイズ）
+  - 効果: 戦場端の3mv以内に全体が入るように、かつあらゆる敵ユニットから6mvより遠く離れた戦場の任意の位置に、このユニットを配置する。
+- **古代の霊気(Aura of Antiquity)**（各ターンにつき1回（アーミー）、自軍側近接フェイズ）
+  - 宣言: 味方ユニットと近接戦闘中である敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された敵ユニットが装備している近接武器の【貫通値】は-1の修正を受ける。
 
 ## 連隊アビリティ（Deathrattle Tomb Host Regiment Abilities）
 
-Pick 1 of the following regiment abilities.
+以下の連隊アビリティの中から1つを選択する。
 
-- **Overwhelming Hordes**（Passive）
-  - 効果: Add 1 to wound rolls for combat attacks made by friendly non-**HERO** units that target a unit that has fewer models than the attacking unit.
-- **Deathmarch**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: Pick a friendly non-**HERO** unit that is not in combat to be the target.
-  - 効果: For the rest of the turn, add 1" to the target’s Move characteristic and add 3 to its control score.
+- **押し寄せる大群(Overwhelming Hordes)**（パッシブ）
+  - 効果: 攻撃側ユニットの兵数より少ない兵数を持つユニットを対象に攻撃する場合、**英雄**ではない味方ユニットのメレーアタックはウーンズロールに+1の修正を受ける。
+- **死の行進(Deathmarch)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: 近接戦闘中ではない**英雄**ではない味方==ユ==ニットを1個選択する。
+  - 効果: そのターン中、選択された味方ユニットの【移動力】は+1mvの修正を受ける。さらに、その味方ユニットの確保スコアは+3の修正を受ける。
 
 ## 強化（Deathrattle Tomb Host Enhancements）
 
-Give your general 1 of the following enhancements.
+自軍のジェネラルに、以下の強化の中から1つを付与する。
 
-- **Propelled by Hate**（Your Charge Phase）
-  - 宣言: Pick another friendly unit wholly within 12" of your general to be the target.
-  - 効果: You can re-roll charge rolls for the target for the rest of the turn.
-- **Soul-drain Pendant**（Once Per Battle, Any Combat Phase）
-  - 宣言: Pick an enemy unit in combat with your general to be the target.
-  - 効果: Roll a dice. On a 2+, the target has **STRIKE‑LAST** for the rest of the turn.
-- **Stolen Animus**（Passive）
-  - 効果: Each time your general scores a critical hit, **Heal (2)** your general after the **ATTACK** ability has been resolved.
-- **Shyishan Blade**（Passive）
-  - 効果: The Rend characteristic of your general’s **Baleful Tomb Blade** is 2.
+- **憎悪に駆られて(Propelled by Hate)**（自軍側突撃フェイズ）
+  - 宣言: 自軍側ジェネラルの12mv以内に全体が入っているジェネラル以外の味方ユニットを1個選択する。
+  - 効果: そのターン中、選択された味方ユニットは突撃ロールをリロールできる。
+- **魂を奪いしペンダント(Soul-drain Pendant)**（バトル中1回限り、任意の近接フェイズ）
+  - 宣言: このジェネラルと近接戦闘中である敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が2+であれば、そのターン中、選択された敵ユニットは『**後手効果**』を得る。
+- **奪われた魂(Stolen Animus)**（パッシブ）
+  - 効果: 自軍側ジェネラルがクリティカルヒットを出した際、その『**アタック**』アビリティを解決した直後に、自軍側ジェネラルを回復（2）する。
+- **シャイシュの刃(Shyishan Blade)**（パッシブ）
+  - 効果: 自軍側ジェネラルが装備しているベイルフル・トゥームブレイドの【貫通値】は2になる。

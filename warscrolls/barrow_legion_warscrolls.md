@@ -1,4 +1,4 @@
-# Barrow Legion ウォースクロール一覧
+# 墳墓軍団(Barrow Legion) ウォースクロール一覧
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
@@ -7,7 +7,7 @@
 
 ---
 
-## Barrow Guard
+## バロウガード(Barrow Guard)
 
 **ポイント:** 130pt / **モデル数:** 10 / **ベースサイズ:** 28.5mm
 
@@ -21,18 +21,18 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Wight Blade | 2 | 3+ | 3+ | 1 | 1 | Crit (Mortal) |
+| ワイトブレイド(Wight Blade) | 2 | 3+ | 3+ | 1 | 1 | クリティカル（致命的）(Crit (Mortal)) |
 
 **アビリティ:**
 
-- **Guardians of the King**（Passive）
-  - 効果: While any friendly **SOULBLIGHT GRAVELORDS INFANTRY HEROES** are within this unit’s combat range, both this unit and those friendly units have **WARD (5+)**.
+- **王の守護者(Guardians of the King)**（パッシブ）
+  - 効果: 1個以上の味方**ソウルブライト・グレイヴロード・歩兵・英雄**が、このユニットの近接範囲内に一部でも入っている場合、このユニットとそれらの味方ユニットはいずれも**加護（5+）**を持つ。
 
-**キーワード:** Infantry, Champion, Musician (1/5), Standard Bearer (1/5), Ward (6+), Death, Soulblight Gravelords, Deathrattle
+**キーワード:** 歩兵、豪傑、楽士（1/5）、旗手（1/5）、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、デスラトル（Infantry, Champion, Musician (1/5), Standard Bearer (1/5), Ward (6+), Death, Soulblight Gravelords, Deathrattle）
 
 ---
 
-## Barrow Knights
+## バロウナイト(Barrow Knights)
 
 **ポイント:** 190pt / **モデル数:** 5 / **ベースサイズ:** 60 × 35mm
 
@@ -46,21 +46,21 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Barrow Lance | 2 | 4+ | 3+ | 1 | 1 | Crit (Mortal), Charge (+1 Damage) |
-| Skeletal Steed’s Hooves and Teeth | 2 | 5+ | 3+ | - | 1 | Companion |
+| バロウランス(Barrow Lance) | 2 | 4+ | 3+ | 1 | 1 | クリティカル（致命的）(Crit (Mortal)), 突撃（+1ダメージ量）(Charge (+1 Damage)) |
+| スケルタル・スティードの蹄と歯(Skeletal Steed’s Hooves and Teeth) | 2 | 5+ | 3+ | - | 1 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Knights of the King**（Passive）
-  - 効果: While any friendly **DEATHRATTLE CAVALRY HEROES** are within this unit’s combat range, both this unit and those friendly units have **WARD (5+)**.
-- **Cursed To Rise Once More**（Once Per Turn (Army), End of Any Turn）
-  - 効果: You can return 1 slain model to this unit.
+- **王の騎士(Knights of the King)**（パッシブ）
+  - 効果: 1個以上の味方**デスラトル・騎兵・英雄**が、このユニットの近接範囲内に~~全体が~~==一部でも==入っている場合、このユニットとそれらの味方ユニットは**加護（5+）**を持つ。
+- **再起の呪い(Cursed To Rise Once More)**（各ターンにつき1回（アーミー）、任意のターン終了時）
+  - 効果: このユニットに撃破されている兵1体を復帰させることができる。
 
-**キーワード:** Cavalry, Champion, Musician (1/5), Standard Bearer (1/5), Ward (6+), Death, Soulblight Gravelords, Deathrattle
+**キーワード:** 騎兵、豪傑、楽士（1/5）、旗手（1/5）、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、デスラトル（Cavalry, Champion, Musician (1/5), Standard Bearer (1/5), Ward (6+), Death, Soulblight Gravelords, Deathrattle）
 
 ---
 
-## Cursed Sepulchre
+## 呪われた墓(Cursed Sepulchre)
 
 **モデル数:** 1
 
@@ -74,23 +74,23 @@
 
 **アビリティ:**
 
-- **Leeching Soil**（Passive）
-  - 効果: Each time a model (friendly or enemy) is slain while it is within 9" of this terrain feature, **Heal (1)** this terrain feature.
-- **Locus of Shyish**（Passive）
-  - 効果: Each time a friendly **SOULBLIGHT GRAVELORDS WIZARD** casts a **SUMMON SPELL** from the ‘Manifestations of the Grave’ lore, you can measure the range and visibility from this terrain feature instead.
+- **吸血の大地(Leeching Soil)**（パッシブ）
+  - 効果: この特殊地形の9mv以内に一部でも入っている兵（敵味方問わず）が撃破されるたびに、この特殊地形を**回復（1）**する。
+- **シャイシュの根源(Locus of Shyish)**（パッシブ）
+  - 効果: 味方**ソウルブライト・グレイヴロード・魔術師**が「死地の顕現」から**『召喚呪文』**を詠唱する際、この特殊地形から距離と視認状態を判定してもよい。
 
 **地形ルール:**
 
 - **Cover:** This rule varies depending on the battlepack selected for your army: **General's Handbook 2024-25** Subtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword. **General's Handbook 2025-26** Subtract 1 from **hit rolls** for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit **charged** this turn or has the **FLY** keyword. **General's Handbook 2026-27** Subtract 1 from hit rolls for attacks that target a unit that is behind or wholly on this terrain feature, unless that unit charged this turn or has the **FLY** keyword.
 - **Impassable:** This rule varies depending on the battlepack selected for your army: **General's Handbook 2024-25** Models cannot move across, be set up on or end moves on any part of this terrain feature. **General's Handbook 2025-26** Models cannot move across, be set up on or end moves on any part of this terrain feature. **General's Handbook 2026-27** Models cannot move across, be set up on or end moves on any part of this terrain feature.
 
-**装備オプション:** **The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):** **Cover, Impassable**
+**装備オプション:** 以下の共通の特殊地形アビリティが、この特殊地形に適用される（特殊地形、1.2）：遮蔽物、通り抜け不可能
 
-**キーワード:** Faction Terrain, Ward (6+), Death, Soulblight Gravelords
+**キーワード:** 陣営地形、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード（Faction Terrain, Ward (6+), Death, Soulblight Gravelords）
 
 ---
 
-## Deathrattle Skeletons
+## デスラトル・スケルトン(Deathrattle Skeletons)
 
 **ポイント:** 90pt / **モデル数:** 10 / **ベースサイズ:** 25mm
 
@@ -104,18 +104,18 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Ancient Weapon | 2 | 4+ | 4+ | - | 1 | - |
+| 古代の武器(Ancient Weapon) | 2 | 4+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Skeleton Legion**（End of Any Turn）
-  - 効果: You can return D3 slain models to this unit.
+- **骸骨の兵団(Skeleton Legion)**（任意のターン終了時）
+  - 効果: このユニットに撃破されている兵をD3体復帰させることができる。
 
-**キーワード:** Infantry, Champion, Standard Bearer (1/10), Ward (6+), Death, Soulblight Gravelords, Deathrattle
+**キーワード:** 歩兵、豪傑、旗手（1/10）、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、デスラトル（Infantry, Champion, Standard Bearer (1/10), Ward (6+), Death, Soulblight Gravelords, Deathrattle）
 
 ---
 
-## The Sepulchral Guard (Legends)
+## 墳墓の守り手(The Sepulchral Guard) (Legends)
 
 **ポイント:** 110pt / **モデル数:** 7 / **ベースサイズ:** 25mm [7]
 
@@ -131,22 +131,22 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Ancient Weapon | 2 | 4+ | 4+ | - | 1 | Crit (2 Hits) |
+| 古代の武器(Ancient Weapon) | 2 | 4+ | 4+ | - | 1 | クリティカル（2ヒット）(Crit (2 Hits)) |
 
 **アビリティ:**
 
-- **Restless Dead**（End of Any Turn）
-  - 効果: You can return D3 slain models to this unit.
+- **安息なき死者(Restless Dead)**（任意のターン終了時）
+  - 効果: このユニットに撃破されている兵をD3体復帰させることができる。
 
-**装備オプション:** ***Each model in this unit is armed with an Ancient Weapon. The models in this unit are:*** • ***The Sepulchral Warden** (champion)* • ***The Champion*** • ***The Harvester*** • ***The Prince of Dust*** • ***The Inevitable Petitioner*** • ***The Zealous Petitioner*** • ***The Rising Petitioner***
+**装備オプション:** このユニット内の各兵は、古代の武器を装備している。 このユニット内の兵は以下の通り： • “墳墓総監”（豪傑） • “勇士” • “刈り取る者” • “塵の王子” • 不可避なる嘆願者 • 熱狂せる嘆願者 • 立ち上がりし嘆願者
 
-**キーワード:** Unique, Infantry, Champion, Ward (6+), Death, Soulblight Gravelords, Deathrattle
+**キーワード:** 固有、歩兵、豪傑、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、デスラトル（Unique, Infantry, Champion, Ward (6+), Death, Soulblight Gravelords, Deathrattle）
 
 **ノート:** This unit cannot be reinforced.
 
 ---
 
-## The Sons of Velmorn (Legends)
+## ヴェルモーンの子ら(The Sons of Velmorn) (Legends)
 
 **ポイント:** 130pt / **モデル数:** 5 / **ベースサイズ:** 40mm [1], 32mm [1], 25mm [3]
 
@@ -162,22 +162,22 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Royal Weapons | 3 | 4+ | 3+ | 1 | 1 | Crit (Mortal) |
+| ロイヤルウェポン(Royal Weapons) | 3 | 4+ | 3+ | 1 | 1 | クリティカル（致命的）(Crit (Mortal)) |
 
 **アビリティ:**
 
-- **Rise Again**（Any Combat Phase）
-  - 効果: If this unit’s **King Morlak Velmorn** is on the battlefield, roll a dice for each slain model from this unit. On a 4+, you can return 1 slain model to this unit.
+- **再起(Rise Again)**（任意の近接フェイズ）
+  - 効果: このユニットの**モーラック・ヴェルモーン王**が戦場に配置されている場合、このユニット~~内にいる兵が撃破されるたびに~~==の撃破されている兵1体につき==ダイスを1個ロールする。ロール結果が4+であれば、このユニットに撃破された兵を1体復帰させることができる。
 
-**装備オプション:** ***Each model in this unit is armed with Royal Weapons. The models in this unit are:*** • ***King Morlak Velmorn** (champion)* • ***Sir Jedran Falseborn*** • ***Helmar the Hewer*** • ***Marshal Faulk Velmorn*** • ***Thain, Fourth-and-last***
+**装備オプション:** このユニットの各兵はロイヤルウェポンを装備している。このユニット内の兵は以下の通り： • モーラック・ヴェルモーン王（豪傑） • サー・ジェドラン・フォルスボーン • “切断者”ヘルマー • ファウルク・ヴェルモーン元帥 • “末子四弟の”サイン
 
-**キーワード:** Unique, Infantry, Champion, Ward (6+), Death, Soulblight Gravelords, Deathrattle
+**キーワード:** 固有、歩兵、豪傑、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、デスラトル（Unique, Infantry, Champion, Ward (6+), Death, Soulblight Gravelords, Deathrattle）
 
 **ノート:** This unit cannot be reinforced.
 
 ---
 
-## Watch Captain Halgrim (Legends)
+## 監視隊長ハルグリム(Watch Captain Halgrim) (Legends)
 
 **ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -193,26 +193,26 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Cursed Halberd and Sabre | 4 | 4+ | 3+ | 2 | 2 | Crit (Mortal) |
+| 呪われしハルバードとサーベル(Cursed Halberd and Sabre) | 4 | 4+ | 3+ | 2 | 2 | クリティカル（致命的）(Crit (Mortal)) |
 
 **アビリティ:**
 
-- **Disciplined Advance**（Passive）
-  - 効果: Each time you make a run roll for a friendly **Deathrattle Skeletons** unit wholly within 12" of this unit, you can change that roll to a 4.
-- **Echoes of the Watch**（Reaction: You declared a FIGHT ability for this unit）
-  - 効果: Pick a friendly **Deathrattle Skeletons** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved.
+- **規律ある前進(Disciplined Advance)**（パッシブ）
+  - 効果: このユニットの12mv以内に全体が入っている味方**デスラトル・スケルトン**・ユニットが全力移動ロールをする際、そのロールのダイスを出目4に変更できる。
+- **歩哨の名残(Echoes of the Watch)**（リアクション：このユニットが『近接攻撃』アビリティを宣言）
+  - 効果: このターン中に『近接攻撃』アビリティを使用しておらず、かつこのユニットの近接範囲内に一部でも入っている味方**デスラトル・スケルトン**・ユニットを1個選択する。このユニットによる『**近接攻撃**』アビリティを解決した直後に、選択された味方ユニットはただちに『**近接攻撃**』アビリティを使用できる。
 
 **連隊オプション:**
 
 - Any **DEATHRATTLE**
 
-**キーワード:** Unique, Hero, Infantry, Ward (6+), Death, Soulblight Gravelords, Deathrattle
+**キーワード:** 固有、英雄、歩兵、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、デスラトル（Unique, Hero, Infantry, Ward (6+), Death, Soulblight Gravelords, Deathrattle）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Vyrkos Retainer.*
 
 ---
 
-## Wight King
+## ワイトキング(Wight King)
 
 **ポイント:** 80pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -228,27 +228,27 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Baleful Tomb Blade | 5 | 4+ | 3+ | 1 | 2 | Crit (Mortal) |
+| ベイルフル・トゥームブレイド(Baleful Tomb Blade) | 5 | 4+ | 3+ | 1 | 2 | クリティカル（致命的）(Crit (Mortal)) |
 
 **アビリティ:**
 
-- **King of Shambling Bones**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: Pick a friendly **DEATHRATTLE** unit within this unit’s combat range to be the target.
-  - 効果: Roll a dice. On a 3+, the target’s melee weapons have **Crit (2 Hits)** for the rest of the turn.
-- **Ancient Strategies**（Reaction: You declared a FIGHT ability for this unit）
-  - 効果: Pick a friendly non-**HERO DEATHRATTLE INFANTRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.
+- **骸骨の将(King of Shambling Bones)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: このユニットの近接範囲内に一部でも入っている味方**デスラトル**・ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された味方ユニットが装備している近接武器は**クリティカル（2ヒット）**を得る。
+- **太古の軍略(Ancient Strategies)**（リアクション：このユニットが『近接攻撃』アビリティを宣言）
+  - 効果: このターン中に**『近接攻撃』**アビリティを使用しておらず、かつこのユニットの近接範囲内に一部でも入っている**英雄**ではない味方**デスラトル・歩兵**・ユニットを1個選択する。このユニットが使用した**『近接攻撃』**アビリティを解決した直後に、選択された味方ユニットはただちに**『近接攻撃』**アビリティを使用できる。その味方ユニットが『近接攻撃』アビリティを使用した場合、そのターン中、その味方ユニットによる攻撃のヒットロールは+1の修正を受ける。
 
 **連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
-**キーワード:** Hero, Infantry, Ward (6+), Death, Soulblight Gravelords, Deathrattle
+**キーワード:** 英雄、歩兵、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、デスラトル（Hero, Infantry, Ward (6+), Death, Soulblight Gravelords, Deathrattle）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Deathrattle Overseer*.
 
 ---
 
-## Wight King on Skeletal Steed
+## ワイトキング（スケルタル・スティード騎乗）(Wight King on Skeletal Steed)
 
 **ポイント:** 180pt / **モデル数:** 1 / **ベースサイズ:** 80mm
 
@@ -264,29 +264,29 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| King's Relic Weapon | 5 | 4+ | 3+ | 1 | 2 | Charge (+1 Damage), Crit (Mortal) |
-| Skeletal Steed’s Hooves and Teeth | 2 | 5+ | 3+ | - | 1 | Companion |
+| 王の遺物(King's Relic Weapon) | 5 | 4+ | 3+ | 1 | 2 | 突撃（+1ダメージ量）(Charge (+1 Damage)), クリティカル（致命的）(Crit (Mortal)) |
+| スケルタル・スティードの蹄と歯(Skeletal Steed’s Hooves and Teeth) | 2 | 5+ | 3+ | - | 1 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Ancient Barrow Curse**（Passive）
-  - 効果: If an attack made with this unit’s **King’s Relic Weapon** scores a critical hit, the target unit becomes **cursed** for the rest of the battle. Subtract 1 from save rolls for **cursed** units even if this unit has been destroyed. **Designer’s Note**: *Multiple enemy units can become cursed by this ability but the same enemy unit cannot become cursed more than once.*
-- **Immortal Conqueror**（Your Hero Phase）
-  - 宣言: Pick an objective or terrain feature within enemy territory.
-  - 効果: For the rest of the turn, add 1 to hit rolls for attacks made by friendly **DEATHRATTLE** units while they are wholly within 6" of that objective or terrain feature.
+- **古代墳墓の呪い(Ancient Barrow Curse)**（パッシブ）
+  - 効果: このユニットが装備している**王の遺物**でクリティカルヒットが出た場合、以降バトル終了時まで、その攻撃対象は**呪われた**状態になる。このユニットが全滅していたとしても、呪われた状態にあるユニットはセーブロールに-1の修正を受ける。 デザイナーズ・ノート：このアビリティは1個以上の敵ユニットを「呪われた」状態にすることができるが、同一の敵ユニットが「呪われた」状態になるのは1回だけである。
+- **不死なる支配者(Immortal Conqueror)**（自軍側ヒーローフェイズ）
+  - 宣言: 敵軍側陣地内にある作戦目標または特殊地形を1個選択する。
+  - 効果: そのターン中、選択された作戦目標または特殊地形の6mv以内に全体が入っている味方**デスラトル**・ユニットの攻撃は、ヒットロールに+1の修正を受ける。
 
 **連隊オプション:**
 
 - 0-1 *Deathrattle Overseer*
 - Any **SOULBLIGHT GRAVELORDS**
 
-**キーワード:** Hero, Cavalry, Ward (6+), Death, Soulblight Gravelords, Deathrattle
+**キーワード:** 英雄、騎兵、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、デスラトル（Hero, Cavalry, Ward (6+), Death, Soulblight Gravelords, Deathrattle）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Deathrattle Overseer*.
 
 ---
 
-## Wight Lord on Skeletal Steed
+## ワイトロード（スケルタル・スティード騎乗）(Wight Lord on Skeletal Steed)
 
 **ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 80mm
 
@@ -302,20 +302,20 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Skeletal Steed’s Hooves and Teeth | 2 | 5+ | 3+ | - | 1 | Companion |
-| Lord's Tomb Blade | 4 | 4+ | 3+ | 1 | 2 | Charge (+1 Damage), Crit (Mortal) |
+| スケルタル・スティードの蹄と歯(Skeletal Steed’s Hooves and Teeth) | 2 | 5+ | 3+ | - | 1 | 随行者(Companion) |
+| 領主のトゥームブレイド(Lord's Tomb Blade) | 4 | 4+ | 3+ | 1 | 2 | 突撃（+1ダメージ量）(Charge (+1 Damage)), クリティカル（致命的）(Crit (Mortal)) |
 
 **アビリティ:**
 
-- **Royal Companions**（Reaction: You declared a Fight ability for this unit）
-  - 効果: Pick a friendly non-**HERO DEATHRATTLE CAVALRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved.
-- **Lord of Trampling Bones**（Passive）
-  - 効果: Add 1 to charge rolls for friendly **DEATHRATTLE CAVALRY** units while they are wholly within 12" of this unit.
+- **親衛隊(Royal Companions)**（リアクション：このユニットが『近接攻撃』アビリティを宣言）
+  - 効果: このターン中に**『近接攻撃』**アビリティを使用しておらず、かつこのユニットの近接範囲内に一部でも入っている**英雄**ではない味方**デスラトル・騎兵**・ユニットを1個選択する。このユニットが使用した**『近接攻撃』**アビリティを解決した直後に、選択された味方ユニットはただちに**『近接攻撃』**アビリティを使用できる。
+- **骨砕きの主(Lord of Trampling Bones)**（パッシブ）
+  - 効果: このユニットの12mv以内に全体が入っている味方**デスラトル・騎兵**・ユニットの突撃ロールは+1の修正を受ける。
 
 **連隊オプション:**
 
 - Any **DEATHRATTLE**
 
-**キーワード:** Hero, Cavalry, Ward (6+), Death, Soulblight Gravelords, Deathrattle
+**キーワード:** 英雄、騎兵、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、デスラトル（Hero, Cavalry, Ward (6+), Death, Soulblight Gravelords, Deathrattle）
 
 **ノート:** This **HERO** can join an eligible regiment as a *Deathrattle Overseer*.

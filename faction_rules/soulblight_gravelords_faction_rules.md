@@ -1,4 +1,4 @@
-# Soulblight Gravelords ファクションルール
+# ソウルブライト・グレイヴロード(Soulblight Gravelords) ファクションルール
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
@@ -6,159 +6,159 @@
 ## 戦闘特性
 
 
-### Soulblight Gravelords Battle Traits（出典: Death Battletome: Soulblight Gravelords）
+### 戦闘特性(Soulblight Gravelords Battle Traits)（出典: Death Battletome: Soulblight Gravelords）
 
-Soulblight Gravelords armies can use the following abilities:
+ソウルブライト・グレイヴロードのアーミーは以下のアビリティを使用できる：
 
-- **Ancient Burial Sites**（Once Per Battle (Army), Deployment Phase）
-  - 効果: If there is a friendly **Cursed Sepulchre** on the battlefield, you can set up up to 2 additional **Cursed Sepulchres** on the battlefield. The first must be set up more than 3" from all units, objectives and other terrain features. The second must be set up wholly outside enemy territory and more than 3" from all units, objectives and other terrain features. **Designer’s Note**: *The original* **Cursed Sepulchre** *is set up in Step 1 of the deployment phase using the ‘Deploy Faction Terrain’ ability. This ability allows you to set up a second and third such terrain feature and is used in Step 3 of the deployment phase, after armies have been deployed.*
-- **The Rising Dead**（Your Movement Phase）
-  - 宣言: Pick a friendly unit that is **in the grave**.
-  - 効果: Set up that unit wholly within 6" of a friendly **Cursed Sepulchre** and more than 9" from all enemy units, or wholly within 6" of the edge of the battlefield, wholly within friendly territory and more than 9" from all enemy units.
-- **Deathly Invocation**（Once Per Turn (Army), Any Hero Phase）
-  - 宣言: Pick a friendly **SOULBLIGHT GRAVELORDS HERO** to use this ability, then pick up to 3 friendly **DEATHRATTLE** or **DEADWALKERS** units wholly within 12" of that **HERO** to be the targets.
-  - 効果: For each target: • If the target is damaged, **Heal (3)** the target. • If the target is not damaged, return a number of slain models to it with a combined Health characteristic of up to 3.
-- **Endless Legions**（Once Per Battle Round (Army), Any Movement Phase）
-  - 宣言: Pick a friendly non-**UNIQUE DEATHRATTLE** or **DEADWALKERS** unit that started the battle with 2 or more models and that has been destroyed to be the target.
-  - 効果: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12" of a friendly **SOULBLIGHT GRAVELORDS HERO** or wholly within 6" of a friendly **Cursed Sepulchre**. It must be set up more than 9" from all enemy units. If it is your movement phase, you can set up the replacement unit more than 3" from all enemy units instead of more than 9", but if you set it up within 9" of any enemy units, it cannot use **CHARGE** abilities this turn.
-- **The Hunger**（Once Per Turn (Army), End of Any Turn）
-  - 宣言: Pick each friendly **VAMPIRE** unit that used a **FIGHT** ability this turn to be the targets.
-  - 効果: **Heal (D3)** each target. **Heal (2D3)** the target instead if it destroyed an enemy unit this turn using a **FIGHT** ability.
-- **The Unquiet Dead**（Deployment Phase）
-  - 宣言: Pick a friendly **DEATHRATTLE** or **DEADWALKERS** unit that has not been deployed.
-  - 効果: Set up that unit in reserve **in the grave**. It has now been deployed. You cannot set up more friendly units **in the grave** than there are on the battlefield.
+- **古代の埋葬地(Ancient Burial Sites)**（バトル中1回限り（アーミー）、初期配置フェイズ）
+  - 効果: 戦場に味方の**呪われた墓**が1個配置されている場合、追加の**呪われた墓**を戦場に==最大==2個==まで==配置できる。1つ目はあらゆるユニット、作戦目標、他の特殊地形から3mvより遠く離れた位置に配置されなければならない。2つ目は敵軍側陣地外に全体が入るように、かつあらゆるユニット、作戦目標、他の特殊地形から3mvより遠く離れた位置に配置されなければならない。 デザイナーズ・ノート：最初の呪われた墓は、初期配置フェイズのステップ1において『陣営地形の配置』アビリティを用いて配置される。アーミーの初期配置が完了した後、このアビリティを使用することで、初期配置フェイズのステップ3において追加である1つ目と2つ目の特殊地形を配置することができる。
+- **起き上がる死者(The Rising Dead)**（自軍側移動フェイズ）
+  - 宣言: **墓の中**にいる味方ユニットを1個選択する。
+  - 効果: 味方の**呪われた墓**の6mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた戦場の位置に、選択された味方ユニットを配置する。あるいは戦場端から6mv以内に全体が入るように、かつ自軍側陣地内に全体が入っており、なおかつあらゆる敵ユニットから9mvより遠く離れた位置に、選択された味方ユニットを配置する。
+- **死の祈り(Deathly Invocation)**（各ターンにつき1回（アーミー）、任意のヒーローフェイズ）
+  - 宣言: このアビリティを使用する際に、味方**ソウルブライト・グレイヴロード・英雄**を1体選択する。その後、選択された**英雄**の12mv以内に全体が入っている味方**デスラトル**または**デッドウォーカー**・ユニットを最大3個まで選択する。
+  - 効果: 選択された各味方ユニットは、 • 選択された味方ユニットが損傷状態である場合、その味方ユニットを**回復**（3）する。 • 選択された味方ユニットが損傷状態ではない場合、そのユニットに撃破された兵を復帰させる（復帰する兵の【体力】合計が最大3までになるように）。
+- **無尽蔵の軍団(Endless Legions)**（各バトルラウンドにつき1回（アーミー）、任意の移動フェイズ）
+  - 宣言: バトル開始時における兵数が2体以上であり、かつ現在全滅している**固有**ではない味方**デスラトル**または**デッドウォーカー**・ユニットを1個選択する。
+  - 効果: 味方**ソウルブライト・グレイヴロード・英雄**の12mv以内に全体が入るように、または味方**呪われた墓**の6mv以内に全体が入るように、選択された味方ユニットの兵数の半分（端数切り上げ）で構成された代替ユニットを配置する。その配置する場所は、あらゆる敵ユニットから9mvより遠く離れた位置でなければならない。 自軍側移動フェイズ中である場合、その代替ユニットをあらゆる敵ユニットから（9mvではなく）3mvより遠く離れた戦場の位置に配置してもよい。ただし、あらゆる敵ユニットから3mvより遠く離れており、かつ9mv以内に一部でも入るように配置されたならば、この代替ユニットはこのターン中に**『突撃』**アビリティを使用できない。
+- **血の餓え(The Hunger)**（各ターンにつき1回（アーミー）、任意のターン終了時）
+  - 宣言: このターン中に**『近接攻撃』**アビリティを実行している味方**ヴァンパイア**・ユニットをすべて選択する。
+  - 効果: 選択された各味方ユニットをそれぞれ**回復**（D3）する。そのターン中に**『近接攻撃』**アビリティを使用して敵ユニットを全滅させている味方ユニットは、代わりに**回復（2D3）**する。
+- **安らがぬ死者(The Unquiet Dead)**（初期配置フェイズ）
+  - 宣言: 初期配置されていない味方**デスラトル**または**デッドウォーカー**・ユニットを1個選択する。
+  - 効果: 選択された味方ユニットを予備戦力として**墓の中**に配置する。その味方ユニットは初期配置されたものとみなされる。**墓の中**に配置されている味方ユニットの数は、戦場に配置されている味方ユニットの数を上回ってはならない。
 
 ## 戦闘陣形
 
 
-### Bacchanal of Blood
+### 血の饗宴(Bacchanal of Blood)
 
-- **Aristocracy of the Night**（Passive）
-  - 効果: Add 1 to casting rolls for friendly **VAMPIRE** units that are not in combat and add 1 to wound rolls for combat attacks made by friendly **VAMPIRE** units that charged in the same turn.
+- **深き夜の貴族(Aristocracy of the Night)**（パッシブ）
+  - 効果: 近接戦闘中でない味方**ヴァンパイア**・ユニットは詠唱ロールに+1の修正を受ける。現在のターン中に突撃を実行している味方**ヴァンパイア**・ユニットは、そのメレーアタックのウーンズロールに+1の修正を受ける。
 
-### Cryptmasters
+### 霊廟の守衛(Cryptmasters)
 
-- **Unholy Site**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: Pick a friendly **Cursed Sepulchre** to be the target.
-  - 効果: The target has **WARD (4+)** until the start of your next turn.
+- **不浄な地(Unholy Site)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: 味方**呪われた墓**を1個選択する。
+  - 効果: 次の自軍側ターン開始時まで、選択された味方呪われた墓は**加護（4+）**を持つ。
 
-### Deathmarch
+### 死の行進(Deathmarch)
 
-- **Tide of Bones and Blades**（Passive）
-  - 効果: Add 1 to the Rend characteristic of melee weapons used by friendly **DEATHRATTLE** units that charged in the same turn for attacks that target a unit that has fewer models than the attacking unit.
+- **押し寄せる骸骨と剣(Tide of Bones and Blades)**（パッシブ）
+  - 効果: 現在のターン中に突撃を実行している味方**デスラトル**・ユニットは、自身の兵数が攻撃対象であるユニットの兵数よりも多い場合、その使用する近接武器の【貫通値】に+1の修正を受ける。
 
-### Deathstench Drove
+### 死臭の車列(Deathstench Drove)
 
-- **Dragged Down and Torn Apart**（Once Per Turn (Army), End of Any Turn）
-  - 宣言: Pick up to 3 friendly **DEADWALKERS** units in combat to be the targets.
-  - 効果: For each target: • Make a pile-in move. • Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.
+- **引きずり倒して八つ裂き(Dragged Down and Torn Apart)**（各ターンにつき1回（アーミー）、任意のターン終了時）
+  - 宣言: ==近接戦闘中である==味方**デッドウォーカー**・ユニットを最大3個まで選択する。
+  - 効果: 選択された各味方ユニットは、 • 接敵移動を1回実行する。 • その後、選択された味方ユニットと近接戦闘中である敵ユニットを1個選択し、D3を1個ロールする。ロール結果が2+であれば、その敵ユニットはロール結果に等しい数の致命的ダメージを受ける。
 
-### Legion of Shyish
+### シャイシュの兵団(Legion of Shyish)
 
-- **Horror Unending**（Passive）
-  - 効果: You can pick 1 additional target when using the ‘Deathly Invocation’ ability.
+- **終わりなき恐怖(Horror Unending)**（パッシブ）
+  - 効果: 『死の祈り』アビリティを使用する際、追加のユニットを1個選択できる。
 
-### Legions of Ulfenkarn（Legends）
+### ウルフェンカーンの軍団(Legions of Ulfenkarn)（Legends）
 
-- **Wardens of the Wolf**（Passive）
-  - 効果: Each time 1 or more slain models are returned to a friendly **SOULBLIGHT GRAVELORDS INFANTRY** or **BEASTS** unit wholly within 12" of a friendly **Belladamma Volga, Radukar the Wolf, Radukar the Beast, Ivya Volga, Lady Annika, Kritza, Torgillius the Chamberlain, Gorslav the Gravekeeper or Watch Captain Halgrim**, add 1 to the number of slain models returned to that unit.
+- **“餓狼王”の番人(Wardens of the Wolf)**（パッシブ）
+  - 効果: 味方**ベラダンマ・ヴォルガ**または**“餓狼王”ラドゥカール**、**“野獣”ラドゥカール**、**イヴヤ・ヴォルガ**、**レディ・アンニカ**、**クリッツァ**、**“侍従”トーギリウス**、**“墓守”ゴルスラフ**、**監視隊長ハルグリム**の12mv以内に全体が入っている味方**ソウルブライト・グレイヴロード・歩兵**あるいは**獣兵**・ユニットに、撃破された兵が1体以上復帰する場合、そのユニットに復帰する兵の数は+1の修正を受ける。
 
-### Skinshifters
+### 呪われた肌変わり(Skinshifters)
 
-- **The Speed of Death**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: Pick a friendly **INFANTRY VAMPIRE HERO** to be the target.
-  - 効果: The target can move up to 12" and has **FLY** when it does so. It cannot end that move in combat.
+- **死の跳躍(The Speed of Death)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: 味方**歩兵・ヴァンパイア・英雄**を1体選択する。
+  - 効果: 選択された味方英雄は12mvまで移動できる。また、その移動の際に**飛行**を得る。この移動は、近接戦闘に突入するように完了することはできない。
 
 ## 英雄特性
 
 
-### The Cursed Bloodlines（出典: Death Battletome: Soulblight Gravelords）
+### 呪われし血脈(The Cursed Bloodlines)（出典: Death Battletome: Soulblight Gravelords）
 
-**HERO** only
+（**英雄**のみ）
 
-- **Unbending Will**（Your Hero Phase）
-  - 宣言: Pick a friendly **DEATHRATTLE** or **DEADWALKERS** unit that has 2 or more models and is wholly within 12" of this unit to be the target.
-  - 効果: Add D6 to the target’s control score for the rest of the turn.
-- **Lash of the Sire**（Your Hero Phase / 20pt）
-  - 宣言: Pick another friendly **SOULBLIGHT GRAVELORDS** unit within this unit’s combat range to be the target.
-  - 効果: Roll a dice. On a 2+: •  If the target is not in combat, it can move D6" but cannot move into combat during any part of that move. •  If the target is in combat, it can make a pile‑in move.
-- **Unhinged Rampager**（Passive）
-  - 効果: You can re-roll charge rolls for this unit in your charge phase.
+- **曲がらぬ意志(Unbending Will)**（自軍側ヒーローフェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っており、かつ兵数が2体以上である味方**デスラトル**または**デッドウォーカー**・ユニットを1個選択する。
+  - 効果: そのターン中、選択された味方ユニットの確保スコアは+D6の修正を受ける。
+- **父祖の鞭(Lash of the Sire)**（自軍側ヒーローフェイズ / 20pt）
+  - 宣言: このユニットの近接範囲内に一部でも入っている自身以外の味方**ソウルブライト・グレイヴロード**・ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が2+であれば、 • 選択された味方ユニットが近接戦闘中ではない場合、その味方ユニットはD6mv移動できる。ただし、その移動中に近接戦闘に突入するような移動を実行できない。 • 選択された味方ユニットが近接戦闘中である場合、その味方ユニットは接敵移動を1回実行できる。
+- **度を越した暴虐(Unhinged Rampager)**（パッシブ）
+  - 効果: 自軍側突撃フェイズ中、このユニットは突撃ロールをリロールできる。
 
-### The Cursed Bloodlines（出典: Scourge of Aqshy: Soulblight Gravelords）
+### 呪われし血脈(The Cursed Bloodlines)（出典: Scourge of Aqshy: Soulblight Gravelords）
 
-**HERO** only
+（**英雄**のみ）
 
-- **Immortal Ego**（Passive）
-  - 効果: Each phase, you can re-roll 1 hit roll, 1 wound roll and 1 save roll for this unit.
-- **Furious Endings**（Passive）
-  - 効果: Each time a **MANIFESTATION** within 12" of this unit is removed from play, gain 1 **rage dice**.
-- **Eternal Thrall**（Deployment Phase）
-  - 宣言: Pick another friendly non-**UNIQUE SOULBLIGHT GRAVELORDS INFANTRY HERO** to be the target.
-  - 効果: For the rest of the battle, while the target is on the battlefield: • If this unit is a **Necromancer**, add 1 to this unit’s power level. • If this unit is a **VAMPIRE**, add 1 to unbinding rolls for this unit. • If this unit is **DEATHRATTLE**, ignore the first damage point that would be allocated to this unit in each phase.
+- **不滅の自我(Immortal Ego)**（パッシブ）
+  - 効果: 各フェイズ中、このユニットはヒットロール1個とウーンズロール1個、セーブロール1個をリロールできる。
+- **憤怒の終焉(Furious Endings)**（パッシブ）
+  - 効果: このユニットから12mv以内に一部でも入っている**顕現**がゲームから取り除かれた場合、**憤激ダイス**を1個獲得する。
+- **永遠の隷従者(Eternal Thrall)**（初期配置フェイズ）
+  - 宣言: 自身以外の**固有でない味方ソウルブライト・グレイヴロード・歩兵・英雄**を1個選択する。
+  - 効果: 以降そのバトル中、選択された味方ユニットが戦場にいる間： • このユニットが**ネクロマンサー**である場合、このユニットのパワーレベルは+1の修正を受ける。 • このユニットが**ヴァンパイア**である場合、このユニットの打ち消しロールは+1の修正を受ける。 • このユニットが**デスラトル**である場合、各フェイズ中、このユニットに割り振られる最初の1ポイントのダメージは無視される。
 
-### Undying Tyrants（出典: Scourge of Ghyran: Soulblight Gravelords）
+### 不死の暴君(Undying Tyrants)（出典: Scourge of Ghyran: Soulblight Gravelords）
 
-**HERO** only
+（**英雄**のみ）
 
-- **Immortal Ego**（Passive）
-  - 効果: Each phase, you can re-roll 1 hit roll, 1 wound roll and 1 save roll for this unit.
-- **A Wastrel and a Vagabond**（Passive）
-  - 効果: While a friendly **Deadwalker Zombies** or **Deathrattle Skeletons** unit is wholly within 12" of this unit: • Add 2 to run rolls for that unit. • Add 3" to the distance that unit can move when it piles in.
-- **Frightening Vitality**（Passive）
-  - 効果: Each time an ability would heal exactly 1 or 2 of this unit’s damage points, heal 3 damage points instead.
+- **不滅の自我(Immortal Ego)**（パッシブ）
+  - 効果: 各フェイズ中、このユニットはヒットロール1個とウーンズロール1個、セーブロール1個をリロールできる。
+- **ろくでなしと流浪者(A Wastrel and a Vagabond)**（パッシブ）
+  - 効果: 味方**デッドウォーカー・ゾンビ**または**デスラトル・スケルトン**・ユニットがこのユニットの12mv以内に全体が入っている間、 • その味方ユニットの全力移動ロールは+2の修正を受ける。 • その味方ユニットが接敵移動をする際、その移動距離は+3mvの修正を受ける。
+- **震撼する生命力(Frightening Vitality)**（パッシブ）
+  - 効果: このユニットが受けているダメージを丁度1ポイントまたは2ポイント回復する場合、代わりに3ポイントのダメージを回復する。
 
 ## 神器
 
 
-### Deathly Heirlooms（出典: Death Battletome: Soulblight Gravelords）
+### 死の家宝(Deathly Heirlooms)（出典: Death Battletome: Soulblight Gravelords）
 
-**HERO** only
+（**英雄**のみ）
 
-- **Shard of Night**（Passive）
-  - 効果: Ignore modifiers to save rolls for shooting attacks that target this unit (positive and negative).
-- **Terminus Clock**（Your Hero Phase）
-  - 効果: Roll a dice. On a 3+, until the start of your next turn, subtract 1 from casting rolls for enemy **WIZARDS** while they are within 18" of this unit.
-- **Amulet of Graves**（Once Per Battle, Your Hero Phase）
-  - 効果: If there are fewer than 3 friendly **Cursed Sepulchres** on the battlefield, set up a **Cursed Sepulchre** on the battlefield more than 9" from all enemy units, more than 1" from all friendly units and more than 3" from all objectives and other terrain features.
+- **夜の破片(Shard of Night)**（パッシブ）
+  - 効果: このユニットを対象とするレンジアタックのセーブロールは、すべてのプラス修正とマイナス修正を無視する。
+- **終焉の時計(Terminus Clock)**（自軍側ヒーローフェイズ）
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、このユニットの18mv以内に一部でも入っている敵**魔術師**の詠唱ロールは-1の修正を受ける。
+- **墳墓の呪術具(Amulet of Graves)**（バトル中1回限り、自軍側ヒーローフェイズ）
+  - 効果: 戦場に配置されている==味方の==**呪われた墓**が2個以下である場合、あらゆる敵ユニットから9mvより遠く離れており、かつ味方ユニットから1mvより遠く離れており、なおかつあらゆる作戦目標と他の特殊地形から3mvより遠く離れた戦場の位置に**呪われた墓**を1個配置する。
 
 ## その他の強化
 
 
-### Origins of Terrifying Folk Tales（出典: Scourge of Aqshy: Soulblight Gravelords）
+### 悍ましき恐怖譚の起源(Origins of Terrifying Folk Tales)（出典: Scourge of Aqshy: Soulblight Gravelords）
 
-Origins of Terrifying Folk Tales are unique enhancements that can be given to non-**HERO SOULBLIGHT GRAVELORDS INFANTRY** units. A unit can only have 1 Origin of Terrifying Folk Tales
+『悍ましき恐怖譚の起源』は、**英雄でないソウルブライト・グレイヴロード・歩兵**・ユニットに与えることのできる固有強化である。 1個のユニットは、『悍ましき恐怖譚の起源』を1個だけ持つことができる。
 
-- **The Empty Graveyard**（Deployment Phase / 10pt）
-  - 効果: Remove this unit from the battlefield and set it up again more than 9" from all enemy units and either wholly within 7" of a terrain feature or wholly within 7" of the battlefield edge. This unit cannot use **MOVE** abilities in the first turn of the first battle round.
-- **The Never-Dead**（Any Hero Phase / 20pt）
-  - 効果: Spend 1 **rage dice**. If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, for the rest of the turn, each time you make an unmodified save roll of 5+ for an attack that targets this unit, the attack fails and the attack sequence ends
-- **The Incarnadine Killers**（End of Any Turn / 10pt）
-  - 効果: If this unit is not in combat and an enemy unit was destroyed by its combat attacks this turn, this unit can move up to D6". It can end that move in combat.
+- **空ろなる墓所(The Empty Graveyard)**（初期配置フェイズ / 10pt）
+  - 効果: このユニットを戦場から取り除き、あらゆる敵ユニットから9mvより遠く離れ、かつ特殊地形の7mv以内に全体が入るように、または、戦場端から7mv以内に全体が入るように再配置する。第1バトルラウンド中の第1ターン中、このユニットは『**移動**』アビリティを使用できない。
+- **死にえぬ者たち(The Never-Dead)**（任意のヒーローフェイズ / 20pt）
+  - 効果: **憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）==。== その後、そのターン中、このユニットを対象とする攻撃のセーブロールで修正前の出目5+が出た場合、その攻撃は失敗し、攻撃手順を終了する。
+- **血染めの殺戮者(The Incarnadine Killers)**（任意のターン終了時 / 10pt）
+  - 効果: このユニットが近接戦闘中ではなく、かつこのターン中に、このユニットのメレーアタックにより敵ユニットが撃破されている場合、このユニットはD6mv移動できる。その移動を近接戦闘に突入するように終了~~することはできな~~==してもよ==い。
 
 ## 伝承（呪文・奇蹟・顕現）
 
 
-### Lore of Undeath
+### 不死の伝承(Lore of Undeath)
 
-- **Prison of Grief**（Your Hero Phase / 詠唱/詠誦値 7）
-  - 宣言: Pick a friendly **SOULBLIGHT GRAVELORDS WIZARD** to cast this spell, pick a visible enemy unit within 12" of them to be the target, then make a casting roll of 2D6.
-  - 効果: The target has **STRIKE-LAST** until the start of your next turn.
-- **Vile Transference**（Your Hero Phase / 詠唱/詠誦値 7）
-  - 宣言: Pick a friendly **SOULBLIGHT GRAVELORDS WIZARD** to cast this spell, pick a visible enemy unit within 18" of them to be the target, then make a casting roll of 2D6.
-  - 効果: Roll a number of dice equal to the number of models in the target unit. For each 6, inflict 1 mortal damage on that unit. If any enemy models were slain by this spell, **Heal (D3)** the caster.
-- **Waste Away**（Your Hero Phase / 詠唱/詠誦値 7）
-  - 宣言: Pick a friendly **SOULBLIGHT GRAVELORDS WIZARD** to cast this spell, pick a visible enemy unit within 12" of them to be the target, then make a casting roll of 2D6.
-  - 効果: For the rest of the turn, subtract 1 from the Damage characteristic of the target’s melee weapons.
+- **悲嘆の牢獄(Prison of Grief)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 7）
+  - 宣言: この呪文を詠唱する、味方**ソウルブライト・グレイヴロード・魔術師**を1個選択する。その後、選択された魔術師の12mv以内に一部でも入っており、かつその魔術師から視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、対象は**『後手効果』**を得る。
+- **邪悪なる生命転移(Vile Transference)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 7）
+  - 宣言: この呪文を詠唱する際に、味方**ソウルブライト・グレイヴロード・魔術師**を1体選択する。その後、選択された魔術師の18mv以内に一部でも入っており、かつその魔術師から視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: 選択された敵ユニット内にいる兵数と等しい数のダイスをロールする。ロール結果で6が出るたびに、その敵ユニットは1ポイントの致命的ダメージを受ける。この呪文によって1体以上の兵が撃破された場合、詠唱者を**回復**（D3）する。
+- **衰弱(Waste Away)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 7）
+  - 宣言: この呪文を詠唱する、味方**ソウルブライト・グレイヴロード・魔術師**を1個選択する。その後、選択された魔術師の12mv以内に一部でも入っており、かつその魔術師から視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: そのターン中、選択された敵ユニットが装備している近接武器の【ダメージ量】は-1の修正を受ける。
 
-### Manifestations of the Grave
+### 死地の顕現(Manifestations of the Grave)
 
-- **Summon Sanguine Swarm**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: If there is not a friendly **Sanguine Swarm** on the battlefield, pick a friendly **SOULBLIGHT GRAVELORDS WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: Set up a **Sanguine Swarm** wholly within 12" of and visible to the caster and more than 9" from all enemy units. A **Sanguine Swarm** spell has 2 parts that must be set up within 9" of each other.
-- **Summon Unholy Reliquary**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: If there is not a friendly **Unholy Reliquary** on the battlefield, pick a friendly **SOULBLIGHT GRAVELORDS WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: Set up an **Unholy Reliquary** wholly within 18" of the caster, visible to them and more than 3" from all enemy units.
-- **Summon Hand of Nagash**（Your Hero Phase / 詠唱/詠誦値 7）
-  - 宣言: If there is not a friendly **Hand of Nagash** on the battlefield, pick a friendly **SOULBLIGHT GRAVELORDS WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: Set up a **Hand of Nagash** wholly within 12" of and visible to the caster and more than 9" from all enemy units.
+- **吸血の群れを召喚(Summon Sanguine Swarm)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: 戦場に味方の**吸血の群れ**が1個も存在しない場合、この呪文を唱える際に味方**ソウルブライト・グレイヴロード・魔術師**を1体選択し、2D6の詠唱ロールをする。
+  - 効果: 詠唱者から12mv以内に全体が入るように、かつ詠唱者から視認状態になるように、あらゆる敵から9mvより遠く離れた位置に吸血の群れを1個配置する。吸血の群れを召喚の永久呪文は、2つのパーツで構成されており、それらは互いの9mv以内に一部が入るように配置されなければならない。
+- **罪咎の棺を召喚(Summon Unholy Reliquary)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: 戦場に味方の**罪咎の棺**が1個も存在しない場合、この呪文を唱える際に味方**ソウルブライト・グレイヴロード・魔術師**を1体選択し、2D6の詠唱ロールをする。
+  - 効果: 詠唱者から18mv以内に全体が入るように、かつ詠唱者から視認状態になるように、あらゆる敵から3mvより遠く離れた位置に罪咎の棺を1個配置する。
+- **ナガッシュの手を召喚(Summon Hand of Nagash)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 7）
+  - 宣言: 戦場に味方の**ナガッシュの手**が1個も存在しない場合、この呪文を唱える際に味方**ソウルブライト・グレイヴロード・魔術師**を1体選択し、2D6の詠唱ロールをする。
+  - 効果: 詠唱者から12mv以内に全体が入るように、かつ詠唱者から視認状態になるように、あらゆる敵から9mvより遠く離れた位置にナガッシュの手を1個配置する。

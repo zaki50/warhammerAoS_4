@@ -363,7 +363,7 @@
    "regiment": [],
    "notes_en": "",
    "wargear": {
-    "ja": "• このユニット内の各兵は、ラピッドファイア・リベットガンとエーテル駆動式の鋸を装備している。\n• 1/3の兵は、装備している武器をエーテル駆動式ヴォレイガンと銃床に交換できる。\n• 1/3の兵は、装備している武器をスカイリガーの重火器（グラップネルランチャー、スカイフック、ドリルランチャー）と銃床に交換できる。\n• 豪傑は装備している武器を交換できない。",
+    "ja": "",
     "en": "***•  1 model is armed with a Rapid Fire Rivet Gun and Aethermatic Saw.***\n***•  1 model is armed with an Aethermatic Volley Gun and Gun Butt.***\n***•  1 model is armed with a Skyrigger Heavy Weapon (Grapnel Launcher, Skyhook or Drill Launcher) and Gun Butt.***",
     "fix": []
    }
@@ -667,7 +667,7 @@
    "regiment": [],
    "notes_en": "",
    "wargear": {
-    "ja": "• このユニットの各兵は、エーテルショット・ライフルと大型銃床を装備している。\n• 2/5の兵は、エーテルショット・ライフルをエーテリック・フュミゲイターもしくはデッキスイーパーに交換できる。\n• 2/5の兵は、エーテルショット・ライフルをグランドストック迫撃砲もしくはエーテルキャノンに交換できる。\n• 豪傑は装備しているエーテルショット・ライフルを交換できない。",
+    "ja": "",
     "en": "***•  1 model is armed with an Aethershot Rifle.***\n***•  1 model is armed with an Aetheric Fumigator.***\n***•  1 model is armed with a Decksweeper.***\n***•  1 model is armed with a Grundstok Mortar.***\n***•  1 model is armed with an Aethercannon.***\n***•  Every model is also armed with a Gun Butt.***",
     "fix": []
    }

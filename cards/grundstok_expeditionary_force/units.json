@@ -1790,7 +1790,12 @@
    "wargear": {
     "ja": "• このユニットの各兵は、エーテルショット・ライフルと大型銃床を装備している。\n• 2/5の兵は、エーテルショット・ライフルをエーテリック・フュミゲイターもしくはデッキスイーパーに交換できる。\n• 2/5の兵は、エーテルショット・ライフルをグランドストック迫撃砲もしくはエーテルキャノンに交換できる。\n• 豪傑は装備しているエーテルショット・ライフルを交換できない。",
     "en": "• ***Each model in this unit is armed with an Aethershot Rifle and Gun Butt.***\n• ***2/5 models can replace their Aethershot Rifle with an Aetheric Fumigator or Decksweeper.***\n• ***2/5 models can replace their Aethershot Rifle with a Grundstok Mortar or Aethercannon.***\n• ***The champion cannot replace their Aethershot Rifle.***",
-    "fix": []
+    "fix": [
+     [
+      "大型銃床",
+      "銃床"
+     ]
+    ]
    }
   },
   {
@@ -2269,12 +2274,22 @@
       "declare": {
        "ja": "味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリンを1個選択する。",
        "en": "Pick a friendly **AUTO-ENDRIN** or replacement **AUTO‑ENDRIN** that has been removed from the battlefield to be the target.",
-       "fix": []
+       "fix": [
+        [
+         "味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリンを1個選択する。",
+         "戦場から取り除かれた味方オートエンドリンまたは代替のオートエンドリンを1個選択する。"
+        ]
+       ]
       },
       "effect": {
        "ja": "D6の製造ロールを1個する。味方エンドリンマスター（可導気球スーツ装備）またはエンドリン・マスター（エンドリンハーネス装備）がこの特殊地形の3mv以内に一部でも入っている場合、その製造ロールは+1の修正を受ける。ロール結果が4+であれば、この特殊地形の6mv以内に全体が入るように、かつあらゆる敵ユニットから3mvより遠く離れた戦場の位置に、代替のオートエンドリンを1個配置する。",
        "en": "Make a manufacturing roll of D6. Add 1 to the roll if there is a friendly **Endrinmaster with Dirigible Suit** or **Endrinmaster with Endrinharness** within 3\" of this terrain feature. On a 4+, set up a replacement **AUTO-ENDRIN** on the battlefield, wholly within 6\" of this terrain feature and more than 3\" from all enemy units.",
-       "fix": []
+       "fix": [
+        [
+         "エンドリン・マスター（エンドリンハーネス装備）",
+         "エンドリンマスター（エンドリンハーネス装備）"
+        ]
+       ]
       }
      },
      "own": false,
@@ -2282,7 +2297,10 @@
      "kw_en": "",
      "cast": null,
      "cp": null,
-     "note": []
+     "note": [
+      "英語版は「戦場から取り除かれた（味方オートエンドリンまたは代替のオートエンドリン）」を選ぶ。改訂前の書籍 p.66 も「戦場から取り除かれた味方オートエンドリンを1個選択する」で、エラッタは代替のオートエンドリンも対象に加えただけ。日本語版（ルール・アップデート 2026年9月）の「味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリン」は「戦場から取り除かれた」が代替のほうにしか掛からず、戦場にいるオートエンドリンも選べるように読める。選べるのは戦場から取り除かれたもの（元のオートエンドリンでも代替でも）だけ。",
+      "英語版は Endrinmaster with Endrinharness。日本語版（ルール・アップデート 2026年9月）の「エンドリン・マスター（エンドリンハーネス装備）」は、ユニット名「エンドリンマスター（エンドリンハーネス装備）」（書籍・バトルプロフィール）と表記が違い、同じ文の「エンドリンマスター（可導気球スーツ装備）」とも揃っていない。同じユニットを指す。"
+     ]
     },
     {
      "name": {
@@ -2311,7 +2329,12 @@
       "effect": {
        "ja": "D6の修理ロールを1個する。味方**エンドリンマスター（可導気球スーツ装備）**または**エンドリン・マスター（エンドリンハーネス装備）**がこの特殊地形の3mv以内に一部でも入っている場合、その修理ロールは+1の修正を受ける。ロール結果が4+であれば、選択された味方飛行艦を**回復（3）**する。",
        "en": "Make a repair roll of D6. Add 1 to the roll if there is a friendly **Endrinmaster with Dirigible Suit** or **Endrinmaster with Endrinharness** within 3\" of this terrain feature. On a 4+, **Heal (3)** the target.",
-       "fix": []
+       "fix": [
+        [
+         "**エンドリン・マスター（エンドリンハーネス装備）**",
+         "**エンドリンマスター（エンドリンハーネス装備）**"
+        ]
+       ]
       }
      },
      "own": false,
@@ -2319,7 +2342,9 @@
      "kw_en": "",
      "cast": null,
      "cp": null,
-     "note": []
+     "note": [
+      "英語版は Endrinmaster with Endrinharness。日本語版（書籍 p.66）の「エンドリン・マスター（エンドリンハーネス装備）」は、ユニット名「エンドリンマスター（エンドリンハーネス装備）」と表記が違い、同じ文の「エンドリンマスター（可導気球スーツ装備）」とも揃っていない。同じユニットを指す。"
+     ]
     },
     {
      "name": {

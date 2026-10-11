@@ -1,0 +1,245 @@
+{
+ "_faction": "真紅の城塞勲爵士団 (Knights of the Crimson Keep)",
+ "_source": [
+  "バトルトーム：ソウルブライト・グレイヴロード 日本語版（スキャン）pp.116-117（名高き軍勢 真紅の城塞勲爵士団）",
+  "同 p.65（名高き軍勢の紹介。ルビ）",
+  "ユニット（ウォースクロール）の訳は official_translations/soulblight_gravelords.json から写した"
+ ],
+ "_notes": [
+  "名前は書籍 p.116 の表題「真紅の城塞勲爵士団」（ルビ ナイツ・オヴ・クリムゾンキープ。ルビは載せていない）。",
+  "書籍の英雄特性・神器・呪文伝承・顕現伝承には表の名前が無く、見出し「英雄特性」「神器」「呪文伝承」「顕現伝承」だけ。戦闘特性も「戦闘特性」。オッシアの槍の先例どおり見出しを group_names にした。英雄特性・神器に「（英雄のみ）」の前置きは無い（group_texts なし）。",
+  "本文中のキーワード: Crimson Keep＝**クリムゾンキープ**（「アーミー内にいるすべてのユニットは、クリムゾンキープのキーワードを獲得する」p.116）。in the Crimson Keep＝**真紅の城塞**（太字、予備戦力の場所）。lookups の keyword_names に Crimson Keep は無いので載せていない。Blood Knights＝ブラッドナイト、Unholy Reliquary＝罪咎の棺、Rampage＝蹂躙、Companion＝随行者、Monster＝大型獣、Wizard＝魔術師。",
+  "Carve A Bloody Path: 書籍のタイミング帯は「自軍側突撃フェイズ」で、右上に指揮ポイント1のアイコン（英語 CP 1）。From A Quarter Unseen の本文では「『血みどろの道を刻む者』指揮アビリティ」と呼んでいる。効果は書籍どおり（「このターン中に『突撃』アビリティを使用しており、かつ近接戦闘中であるにもかかわらず」— 英語 even though it is in combat and even if it has already used a CHARGE ability。意味はほぼ同じなので訂正していない）。",
+  "Awakened Fury の宣言の対象は書籍で太字の「味方**クリムゾンキープ**・ユニット」（英語 md では Crimson Keep が太字でない）。効果の「**随行者**・近接武器」は「随行者」だけ太字。",
+  "Immortal Dedication（不死の献身）は効果がルールとして現行と違う（すべてリロール ↔ 1回リロール）ので ability_texts に入れず _outdated_texts に置いた。名前は採用。",
+  "Summon Unholy Reliquary（罪咎の棺を召喚）: 名高き軍勢版は現行の英語も『wholly within 18\" of the caster』だけなので、書籍の文をそのまま採った（本体の顕現伝承とは別ファイルのキー）。",
+  "Summon Unholy Reliquary の宣言は「この呪文を唱える際に」（本体 p.71 と同じ言い回し）。ほかの呪文は「詠唱する際に」。",
+  "ロスター・オプション（p.116、参考）: ヴァルドライ王子（編入される場合、自軍のジェネラルでなければならない）/ ヴァンパイアロード（ナイトメア騎乗）/ ブラッドナイト / レヴェナント・ドラコニス /『名高き連隊』も陣営地形も編入することはできない。（ユニット名の参考。担当外なので unit_names には載せていない）",
+  "背景文（各アビリティのイタリック導入文）は載せていない。半角数字・記号と全角文字の間の組版上の隙間は詰めた。",
+  "ルール・アップデート 2026年9月の日本語訳を適用: Prince Vhordrai|Trail of Crimson、From A Quarter Unseen"
+ ],
+ "unit_names": {
+  "Blood Knights": "ブラッドナイト",
+  "Fell Bats": "フェルバット",
+  "Prince Vhordrai": "ヴォルドライ王子",
+  "Revenant Draconith": "レヴェナント・ドラコニス",
+  "Scourge of Aqshy: Revenant Draconith": "アキュシーの禍事 レヴェナント・ドラコニス",
+  "Vampire Lord on Nightmare Steed": "ヴァンパイア・ロード（ナイトメア騎乗）"
+ },
+ "weapon_names": {
+  "Chiropteran Fangs": "蝙蝠のごとき牙",
+  "Draconic Claws": "竜の爪",
+  "Draconic Maw": "竜の顎",
+  "Dynastic Cavalier Weapon": "王家の騎馬武器",
+  "Nightmare’s Hooves and Teeth": "ナイトメアの蹄と歯",
+  "Pestilential Miasma": "悪疫のミアズマ",
+  "Scourge of Aqshy: Revenant Draconith|Draconic Claws": "竜の爪",
+  "Scourge of Aqshy: Revenant Draconith|Draconic Maw": "竜の顎",
+  "Scourge of Aqshy: Revenant Draconith|Pestilential Miasma": "悪疫のミアズマ",
+  "Shordemaire’s Claws": "ショルデマイアの爪",
+  "Shordemaire’s Maw": "ショルデマイアの顎",
+  "Shordemaire’s Miasma": "ショルデマイアの瘴気",
+  "Templar Weapon": "テンプル騎士の武器",
+  "The Bloodlance": "流血の槍"
+ },
+ "weapon_ability_names": {
+  "Anti-INFANTRY (+1 Rend)": "対歩兵（+1貫通値）",
+  "Charge (+1 Damage)": "突撃（+1ダメージ量）",
+  "Companion": "随行者",
+  "Shoot in Combat": "近接射撃"
+ },
+ "keyword_names": {
+  "Beast": "獣兵",
+  "Cavalry": "騎兵",
+  "Champion": "豪傑",
+  "Deadwalkers": "デッドウォーカー",
+  "Death": "死の大同盟",
+  "Fly": "飛行",
+  "Hero": "英雄",
+  "Monster": "大型獣",
+  "Scourge of Aqshy: Revenant Draconith|Death": "死の大同盟",
+  "Scourge of Aqshy: Revenant Draconith|Fly": "飛行",
+  "Scourge of Aqshy: Revenant Draconith|Monster": "大型獣",
+  "Scourge of Aqshy: Revenant Draconith|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Scourge of Aqshy: Revenant Draconith|Ward (6+)": "加護（6+）",
+  "Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Standard Bearer (1/5)": "旗手（1/5）",
+  "Unique": "固有",
+  "Vampire": "ヴァンパイア",
+  "Ward (6+)": "加護（6+）",
+  "Wizard (1)": "魔術師（1）"
+ },
+ "ability_names": {
+  "'For Glory! For Blood!'": "血と栄光の為に！",
+  "Awakened Fury": "覚醒した者の怒り",
+  "Beast": "獣兵",
+  "Blood Rampage": "猛り狂う血",
+  "Carve A Bloody Path": "血みどろの道を刻む者",
+  "Chalice of the Blood Dragon": "ブラッドドラゴンの杯",
+  "Death on Tattered Wings": "死を呼ぶ腐敗の翼",
+  "Deathly Gale": "死の風",
+  "Fleet and Fell": "恐るべき俊敏",
+  "From A Quarter Unseen": "死角からの罠",
+  "Immortal Dedication": "不死の献身",
+  "Loathsome Descent": "忌まわしき急襲",
+  "Prince Vhordrai|Battle Damaged": "バトルダメージ",
+  "Quickblood": "俊敏の血",
+  "Red Ruin": "紅き滅び",
+  "Revenant Draconith|Battle Damaged": "バトルダメージ",
+  "Riders of Ruin": "破滅の乗り手",
+  "Saint of Slaughter": "虐殺の聖者",
+  "Scourge of Aqshy: Revenant Draconith|Battle Damaged": "バトルダメージ",
+  "Scourge of Aqshy: Revenant Draconith|Brimming with Rancour": "満ちる怨恨",
+  "Scourge of Aqshy: Revenant Draconith|Volatile Animus": "揺らぐ怨魂",
+  "Siphon Strength": "生命の吸収",
+  "Strike At The Heart": "心臓部を討て",
+  "Summon Unholy Reliquary": "罪咎の棺を召喚",
+  "The Crimson Keep": "真紅の城塞",
+  "Trail of Crimson": "鮮血の跡",
+  "Trampled to Dust": "踏み砕く"
+ },
+ "ability_texts": {
+  "Awakened Fury": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**クリムゾンキープ・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に全体が入っており、かつその魔術師から視認状態である味方**クリムゾンキープ**・ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、選択された味方ユニットが装備している**随行者**・近接武器の【ダメージ量】は+1の修正を受ける。",
+   "keywords": "呪文"
+  },
+  "Blood Knights|Riders of Ruin": {
+   "timing": "パッシブ",
+   "effect": "このユニットが移動する際、敵**歩兵**・ユニットの兵を通り抜けることができ、また敵**歩兵**・ユニットの近接範囲内も通り抜けることができる。ただし、使用しているアビリティの説明に特に明記されていない限り、近接戦闘に突入する状態で移動を完了することはできない。"
+  },
+  "Blood Knights|Trampled to Dust": {
+   "timing": "任意の突撃フェイズ",
+   "declare": "このターン中にこのユニットが通り抜けた敵ユニットを1個選択する。",
+   "effect": "D3を1個ロールする。ロール結果が2+であれば、選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。"
+  },
+  "Blood Rampage": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このターン中に**『蹂躙』**アビリティを使用していない、近接戦闘中である味方**クリムゾンキープ・大型獣**を1個選択する。その後、選択された味方ユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "このユニットは2D6mvの移動を実行できる。このユニットは、選択された敵ユニットと近接戦闘に突入するように移動を完了しなければならない。その後、ダイスを1個ロールする。ロール結果が選択された敵ユニットの【体力】を上回る場合、その敵ユニット内にいる兵1体が撃破される。\nこのアビリティが解決された後、そのターン中、このユニットは**『蹂躙』**アビリティを使用することはできない。",
+   "keywords": "蹂躙"
+  },
+  "Carve A Bloody Path": {
+   "timing": "自軍側突撃フェイズ",
+   "declare": "近接戦闘中である味方**ブラッドナイト**・ユニットを1個選択し、このアビリティを使用する。",
+   "effect": "このターン中に**『突撃』**アビリティを使用しており、かつ近接戦闘中であるにもかかわらず、選択された味方ユニットは**『突撃』**アビリティを使用できる。"
+  },
+  "Chalice of the Blood Dragon": {
+   "timing": "バトル中1回限り、任意のターン終了時",
+   "effect": "このユニットを**回復**（3D3）する。"
+  },
+  "Deathly Gale": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**クリムゾンキープ・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に全体が入っており、かつその魔術師から視認状態である味方**クリムゾンキープ**・ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "そのターン中、選択された味方ユニットが突撃ロールをする場合、突撃ロールに用いられるダイス個数は1個増加する（ダイス個数は最大3個まで）。",
+   "keywords": "呪文"
+  },
+  "Fell Bats|Beast": {
+   "timing": "パッシブ",
+   "effect": "このユニットは最大1の確保スコアを得る。"
+  },
+  "Fell Bats|Fleet and Fell": {
+   "timing": "パッシブ",
+   "effect": "このユニットは現在のターン中に**『退却』**アビリティを使用していた場合でも**『突撃』**アビリティを使用できる。さらに、このユニットは**『退却』**アビリティを使用した際に致命的ダメージを受けない。"
+  },
+  "From A Quarter Unseen": {
+   "timing": "バトル中1回限り（アーミー）、任意の移動フェイズ",
+   "declare": "第1バトルラウンド中、このアビリティを使用することはできない。**真紅の城塞**に配置されている各味方ユニットを選択する。",
+   "effect": "戦場端から9mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に、選択された各味方ユニットを配置する。第3バトルラウンド以降にこのアビリティを使用してユニットを配置した場合、そのターン中、『血みどろの道を刻む者』指揮アビリティを使用した場合に指揮ポイントは消費されない。"
+  },
+  "Prince Vhordrai|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、自身が装備している**ショルデマイアの爪**の【攻撃回数】は5になる。"
+  },
+  "Prince Vhordrai|Quickblood": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、このユニットは**『先手効果』**を得る。",
+   "keywords": "呪文"
+  },
+  "Prince Vhordrai|Saint of Slaughter": {
+   "timing": "任意のターン終了時",
+   "declare": "このターン中に**『近接攻撃』**アビリティを使用してユニットを全滅させており、かつこのユニットの12mv以内に全体が入っている**大型獣**ではない味方ヴァンパイア・ユニットを1個選択する。",
+   "effect": "以降バトル終了時まで、選択された味方ユニットに適用される効果を以下の中から1つを選択する。\n• その味方ユニットの【移動力】は+2の修正を受ける。\n• その味方ユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。\n• その味方ユニットが装備している近接武器の【ダメージ量】は+1の修正を受ける。\n同一のユニットは、複数の効果を同時に得ることができる。ただし、各ユニットは、それぞれの効果を得ることができるのは1回だけである。"
+  },
+  "Prince Vhordrai|Trail of Crimson": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "ダイスを1個ロールする。ロール結果が4+であれば、選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。",
+   "keywords": "蹂躙",
+   "declare": "このユニットは近接戦闘中でなくとも、接敵移動を1回実行できる。その後、このユニットが近接戦闘中である場合、その近接戦闘中である敵ユニットを1個選択する。"
+  },
+  "Revenant Draconith|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットの竜の爪の【攻撃回数】は5になる。"
+  },
+  "Revenant Draconith|Death on Tattered Wings": {
+   "timing": "初期配置フェイズ",
+   "declare": "このユニットが初期配置されていない場合、このユニットを選択する。",
+   "effect": "このユニットを予備戦力として**戦場の上空**に配置する。そのユニットは初期配置されたものとみなされる。",
+   "keywords": "初期配置"
+  },
+  "Revenant Draconith|Loathsome Descent": {
+   "timing": "自軍側移動フェイズ",
+   "declare": "このユニットが**戦場の上空**にいる場合、このユニットを選択する。",
+   "effect": "あらゆる敵ユニットから9mvより遠く離れた戦場の任意の位置に、このユニットを配置する。"
+  },
+  "Revenant Draconith|Red Ruin": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "declare": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "D3を1個ロールする。ロール結果が2+であれば、以下の効果をそれぞれ解決する、\n• 選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。\n• このユニットを**回復（X）**する。Xの値は、このロール結果に等しい値である。\n• このユニットを戦場から取り除き、予備戦力として**戦場の上空**に配置してもよい。",
+   "keywords": "蹂躙"
+  },
+  "Scourge of Aqshy: Revenant Draconith|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**竜の爪**の【攻撃回数】は5になる。"
+  },
+  "Scourge of Aqshy: Revenant Draconith|Brimming with Rancour": {
+   "timing": "各ターンにつき1回（アーミー）、敵軍側ヒーローフェイズ",
+   "declare": "このユニットから視認状態である敵ユニットを1個選択する。",
+   "effect": "そのターン中、選択された敵ユニットは『**突撃**』ではない『**移動**』アビリティを使用する場合、このユニットのXmv以内に一部でも入るように移動を完了することができない。Xは自軍側の**憤激レベル**に等しい。",
+   "keywords": "蹂躙"
+  },
+  "Scourge of Aqshy: Revenant Draconith|Volatile Animus": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "**憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）その後、以下の効果から1つを選択する：\n**報復の構え：**そのターン中：\n• このユニットと近接戦闘中の敵ユニットの、ヒットロールとウーンズロールに対するすべてのプラス修正を無視する。\n• このユニットはセーブロールに+1の修正を受ける。\n• このターン中に『**近接攻撃**』アビリティを使用している敵ユニットを対象とするこのユニットの攻撃（**随行者**武器を含む）は、ヒットロールに+1の修正を受ける。\n**抑えざる獰猛性：**そのターン中：\n• このユニットの攻撃は、ヒットロールとウーンズロールに対するあらゆるマイナス修正を無視する。\n• このフェイズ中に『**近接攻撃**』アビリティを使用していない敵ユニットを対象とする、このユニットが装備している**随行者**近接武器の【貫通値】と【ダメージ量】は+1の修正を受ける。"
+  },
+  "Siphon Strength": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**クリムゾンキープ・魔術師**を1体選択する。その後、選択された魔術師の18mv以内に一部でも入っており、かつその魔術師から視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "選択された敵ユニットはD3ポイントの致命的ダメージを受ける。そのターン中、その詠唱者による攻撃のヒットロールは+1の修正を受ける。",
+   "keywords": "呪文、無制限"
+  },
+  "Summon Unholy Reliquary": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "戦場に味方の**罪咎の棺**が1個も存在しない場合、この呪文を唱える際に味方**クリムゾンキープ・魔術師**を1体選択し、2D6の詠唱ロールをする。",
+   "effect": "詠唱者の18mv以内に全体が入るように**罪咎の棺**を1個配置する。",
+   "keywords": "呪文、召喚"
+  },
+  "The Crimson Keep": {
+   "timing": "初期配置フェイズ",
+   "declare": "初期配置されていない味方**クリムゾンキープ**・ユニットを1個選択する。",
+   "effect": "選択された味方ユニットを予備戦力として**真紅の城塞**に配置する。その味方ユニットは初期配置されたものとみなされる。**真紅の城塞**に配置されている味方ユニットの数は、戦場に配置されている味方ユニットの数を上回ってはならない。",
+   "keywords": "初期配置"
+  },
+  "Vampire Lord on Nightmare Steed|'For Glory! For Blood!'": {
+   "timing": "リアクション：自軍側が『突撃』アビリティを宣言",
+   "effect": "宣言した**『突撃』**アビリティの突撃ロールをリロールできる。その後、突撃移動が実行される前に、現在のターン中に**『突撃』**アビリティを使用しておらず、かつこのユニットの12mv以内に全体が入っており、なおかつ近接戦闘中ではない味方**ブラッドナイト**・ユニットを1個選択してもよい。突撃を宣言したユニットが突撃を実行する際、そのユニットの**『突撃』**アビリティが解決された直後に、選択された味方ユニットは、自軍側突撃フェイズ中ではなくてもただちに『突撃』アビリティを使用できる。さらに、そのフェイズ中、その味方ユニットは突撃ロールをリロールできる。"
+  },
+  "Vampire Lord on Nightmare Steed|Strike At The Heart": {
+   "timing": "任意の近接フェイズ",
+   "declare": "このターン中に突撃を実行しており、かつこのユニットの12mv以内に全体が入っている味方**ブラッドナイト**・ユニットを1個選択する。",
+   "effect": "そのターン中、このユニットが装備している**テンプル騎士の武器**の【貫通値】は+1の修正を受ける。"
+  }
+ },
+ "group_names": {
+  "Knights of the Crimson Keep Artefact of Power": "神器",
+  "Knights of the Crimson Keep Battle Traits": "戦闘特性",
+  "Knights of the Crimson Keep Heroic Trait": "英雄特性",
+  "Knights of the Crimson Keep Manifestation Lore": "顕現伝承",
+  "Knights of the Crimson Keep Spell Lore": "呪文伝承"
+ },
+ "group_texts": {},
+ "wargear_option_texts": {},
+ "faction_name": "真紅の城塞勲爵士団"
+}

@@ -3,19 +3,19 @@
   "slug": "spearhead_bloodcrave_hunt",
   "kind": "spearhead",
   "faction_en": "Soulblight Gravelords",
-  "faction_ja": null,
+  "faction_ja": "ソウルブライト・グレイヴロード",
   "faction_slug": "soulblight_gravelords",
   "alliance": null,
   "title_en": "Bloodcrave Hunt",
-  "title_ja": null,
+  "title_ja": "吸血族の狩り",
   "data_version": 483
  },
  "units": [
   {
    "id": "b350ab4a-d6d7-46a0-be15-58ec7c61d3aa",
    "name": {
-    "ja": "Blood Knights",
-    "en": "",
+    "ja": "ブラッドナイト",
+    "en": "Blood Knights",
     "own": false,
     "fix": [],
     "note": []
@@ -53,8 +53,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Templar Lance or Templar Blade",
-     "en": "",
+     "ja": "騎士の槍または騎士の剣",
+     "en": "Templar Lance or Templar Blade",
      "own": false,
      "fix": [],
      "note": [],
@@ -65,14 +65,16 @@
       "1",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "突撃（+1ダメージ量）"
+     ],
      "abil_en": [
       "Charge (+1 Damage)"
      ]
     },
     {
-     "ja": "Nightmare’s Hooves and Teeth",
-     "en": "",
+     "ja": "ナイトメアの蹄と歯",
+     "en": "Nightmare’s Hooves and Teeth",
      "own": false,
      "fix": [],
      "note": [],
@@ -83,7 +85,9 @@
       "-",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "随行者"
+     ],
      "abil_en": [
       "Companion"
      ]
@@ -92,28 +96,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Riders of Ruin",
-      "en": "",
+      "ja": "破滅の乗り手",
+      "en": "Riders of Ruin",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Models in this unit can pass across enemy **INFANTRY** models as if this unit had **FLY**."
+       "ja": "このユニット内の兵は、あたかも自身が**飛行**を有するかのように、敵**歩兵**・兵を通り抜けることができる。",
+       "en": "Models in this unit can pass across enemy **INFANTRY** models as if this unit had **FLY**.",
+       "fix": []
       }
      },
      "own": false,
@@ -127,16 +135,16 @@
    "terrain": [],
    "keywords": [
     [
-     "Cavalry",
-     ""
+     "騎兵",
+     "Cavalry"
     ],
     [
-     "Vampire",
-     ""
+     "ヴァンパイア",
+     "Vampire"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ]
    ],
    "keyword_fix": {},
@@ -147,8 +155,8 @@
   {
    "id": "4e019d5d-6e0b-4ac0-8230-b23dac956253",
    "name": {
-    "ja": "Deathrattle Skeletons",
-    "en": "",
+    "ja": "デスラトル・スケルトン",
+    "en": "Deathrattle Skeletons",
     "own": false,
     "fix": [],
     "note": []
@@ -186,8 +194,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Ancient Weapon",
-     "en": "",
+     "ja": "古代の武器",
+     "en": "Ancient Weapon",
      "own": false,
      "fix": [],
      "note": [],
@@ -205,28 +213,37 @@
    "abilities": [
     {
      "name": {
-      "ja": "Skeleton Legion",
-      "en": "",
+      "ja": "骸骨の兵団",
+      "en": "Skeleton Legion",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Your Combat Phase"
+       "ja": "自軍側近接フェイズ",
+       "en": "Your Combat Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "For each slain model from this unit, make a **legion roll** of D6. For each 6, return 1 slain model to this unit."
+       "ja": "このユニット内の兵1体が撃破されるたびに、D6の**兵団ロール**を1個ロールする。ロール結果で6が出るたびに、このユニット内の撃破された兵1体を復帰させる。",
+       "en": "For each slain model from this unit, make a **legion roll** of D6. For each 6, return 1 slain model to this unit.",
+       "fix": [
+        [
+         "このユニット内の兵1体が撃破されるたびに",
+         "このユニットの撃破されている兵1体につき"
+        ]
+       ]
       }
      },
      "own": false,
@@ -234,18 +251,20 @@
      "kw_en": "",
      "cast": null,
      "cp": null,
-     "note": []
+     "note": [
+      "英語版は（自軍側近接フェイズに）「このユニットの撃破されている兵1体につき」D6 の兵団ロールを1個ずつ行う。日本語版（ルール・アップデート 2026年9月。スピアヘッド PDF 2026年4月も同文）の「兵1体が撃破されるたびに」は、兵が撃破された時点ごとに振るトリガーのように読め、それ以前（例えば射撃フェイズ）に撃破された兵の分を振れないように読める。近接フェイズの使用時点で撃破されている兵の数だけ振るのが正しい。"
+     ]
     }
    ],
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ]
    ],
    "keyword_fix": {},
@@ -256,8 +275,8 @@
   {
    "id": "523da7b2-22bc-4183-a1f9-44321bf4a403",
    "name": {
-    "ja": "Vampire Lord",
-    "en": "",
+    "ja": "ヴァンパイア・ロード",
+    "en": "Vampire Lord",
     "own": false,
     "fix": [],
     "note": []
@@ -295,8 +314,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Dynastic War-relic",
-     "en": "",
+     "ja": "名家の戦遺物",
+     "en": "Dynastic War-relic",
      "own": false,
      "fix": [],
      "note": [],
@@ -314,28 +333,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Vile Transference",
-      "en": "",
+      "ja": "邪悪なる生命転移",
+      "en": "Vile Transference",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Your Hero Phase"
+       "ja": "自軍側ヒーローフェイズ",
+       "en": "Your Hero Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick a visible enemy unit within 6\" of this unit to be the target, then make a casting roll of 2D6."
+       "ja": "このユニットの6mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。",
+       "en": "Pick a visible enemy unit within 6\" of this unit to be the target, then make a casting roll of 2D6.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "On a 6+, roll a number of dice equal to the target’s Health characteristic. For each 5+, inflict 1 mortal damage on the target and **Heal (1)** this unit."
+       "ja": "ロール結果が6+であれば、選択された敵ユニットの【体力】と等しい数のダイスをロールする。ロール結果で5+が出るたびに、その敵ユニットは**1ポイントの致命的ダメージ**を受ける。そのたびに、このユニットを**回復（1）**する。",
+       "en": "On a 6+, roll a number of dice equal to the target’s Health characteristic. For each 5+, inflict 1 mortal damage on the target and **Heal (1)** this unit.",
+       "fix": []
       }
      },
      "own": false,
@@ -349,24 +372,24 @@
    "terrain": [],
    "keywords": [
     [
-     "Hero",
-     ""
+     "英雄",
+     "Hero"
     ],
     [
-     "Wizard",
-     ""
+     "魔術師",
+     "Wizard"
     ],
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Vampire",
-     ""
+     "ヴァンパイア",
+     "Vampire"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ]
    ],
    "keyword_fix": {},
@@ -377,8 +400,8 @@
   {
    "id": "13c07acd-6816-4dfc-ba28-5262a99947da",
    "name": {
-    "ja": "Vargheists",
-    "en": "",
+    "ja": "ヴァルガイスト",
+    "en": "Vargheists",
     "own": false,
     "fix": [],
     "note": []
@@ -416,8 +439,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Murderous Fangs and Talons",
-     "en": "",
+     "ja": "残忍なる爪と牙",
+     "en": "Murderous Fangs and Talons",
      "own": false,
      "fix": [],
      "note": [],
@@ -428,7 +451,9 @@
       "1",
       "2"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "クリティカル（2ヒット）"
+     ],
      "abil_en": [
       "Crit (2 Hits)"
      ]
@@ -437,28 +462,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "The Scent of Gore",
-      "en": "",
+      "ja": "流血の香り",
+      "en": "The Scent of Gore",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Add 1 to wound rolls for attacks made by this unit that target a damaged unit."
+       "ja": "このユニットが損傷状態であるユニットを攻撃目標として攻撃をする際、その攻撃のウーンズロールは+1の修正を受ける。",
+       "en": "Add 1 to wound rolls for attacks made by this unit that target a damaged unit.",
+       "fix": []
       }
      },
      "own": false,
@@ -472,20 +501,20 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Vampire",
-     ""
+     "ヴァンパイア",
+     "Vampire"
     ],
     [
-     "Fly",
-     ""
+     "飛行",
+     "Fly"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ]
    ],
    "keyword_fix": {},

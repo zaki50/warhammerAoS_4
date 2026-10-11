@@ -1,4 +1,4 @@
-# Knights of the Crimson Keep ウォースクロール一覧
+# 真紅の城塞勲爵士団(Knights of the Crimson Keep) ウォースクロール一覧
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
@@ -7,7 +7,7 @@
 
 ---
 
-## Blood Knights
+## ブラッドナイト(Blood Knights)
 
 **ポイント:** 210pt / **モデル数:** 5 / **ベースサイズ:** 75 × 42mm
 
@@ -21,22 +21,22 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Templar Weapon | 3 | 3+ | 3+ | 1 | 1 | Anti-INFANTRY (+1 Rend), Charge (+1 Damage) |
-| Nightmare’s Hooves and Teeth | 3 | 5+ | 3+ | - | 1 | Companion |
+| テンプル騎士の武器(Templar Weapon) | 3 | 3+ | 3+ | 1 | 1 | 対歩兵（+1貫通値）(Anti-INFANTRY (+1 Rend)), 突撃（+1ダメージ量）(Charge (+1 Damage)) |
+| ナイトメアの蹄と歯(Nightmare’s Hooves and Teeth) | 3 | 5+ | 3+ | - | 1 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Riders of Ruin**（Passive）
-  - 効果: When this unit moves, it can pass through models in enemy **INFANTRY** units and can pass through the combat ranges of enemy **INFANTRY** units, but it cannot end a move in combat unless specified in the ability used.
-- **Trampled to Dust**（Any Charge Phase）
-  - 宣言: Pick an enemy unit that this unit passed across this turn to be the target.
-  - 効果: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.
+- **破滅の乗り手(Riders of Ruin)**（パッシブ）
+  - 効果: このユニットが移動する際、敵**歩兵**・ユニットの兵を通り抜けることができ、また敵**歩兵**・ユニットの近接範囲内も通り抜けることができる。ただし、使用しているアビリティの説明に特に明記されていない限り、近接戦闘に突入する状態で移動を完了することはできない。
+- **踏み砕く(Trampled to Dust)**（任意の突撃フェイズ）
+  - 宣言: このターン中にこのユニットが通り抜けた敵ユニットを1個選択する。
+  - 効果: D3を1個ロールする。ロール結果が2+であれば、選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。
 
-**キーワード:** Cavalry, Champion, Standard Bearer (1/5), Ward (6+), Death, Soulblight Gravelords, Vampire
+**キーワード:** 騎兵、豪傑、旗手（1/5）、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、ヴァンパイア（Cavalry, Champion, Standard Bearer (1/5), Ward (6+), Death, Soulblight Gravelords, Vampire）
 
 ---
 
-## Fell Bats
+## フェルバット(Fell Bats)
 
 **ポイント:** 90pt / **モデル数:** 3 / **ベースサイズ:** 40mm
 
@@ -50,20 +50,20 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Chiropteran Fangs | 3 | 4+ | 4+ | - | 2 | Companion |
+| 蝙蝠のごとき牙(Chiropteran Fangs) | 3 | 4+ | 4+ | - | 2 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Fleet and Fell**（Passive）
-  - 効果: This unit can use **CHARGE** abilities even if it used a **RETREAT** ability in the same turn. In addition, no mortal damage is inflicted on this unit by **RETREAT** abilities.
-- **Beast**（Passive）
-  - 効果: This unit has a maximum control score of 1.
+- **恐るべき俊敏(Fleet and Fell)**（パッシブ）
+  - 効果: このユニットは現在のターン中に**『退却』**アビリティを使用していた場合でも**『突撃』**アビリティを使用できる。さらに、このユニットは**『退却』**アビリティを使用した際に致命的ダメージを受けない。
+- **獣兵(Beast)**（パッシブ）
+  - 効果: このユニットは最大1の確保スコアを得る。
 
-**キーワード:** Beast, Fly, Ward (6+), Death, Soulblight Gravelords, Deadwalkers
+**キーワード:** 獣兵、飛行、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、デッドウォーカー（Beast, Fly, Ward (6+), Death, Soulblight Gravelords, Deadwalkers）
 
 ---
 
-## Prince Vhordrai
+## ヴォルドライ王子(Prince Vhordrai)
 
 **ポイント:** 450pt / **モデル数:** 1 / **ベースサイズ:** 160mm
 
@@ -79,40 +79,40 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Shordemaire’s Miasma | 10" | D6 | 3+ | 3+ | 2 | 2 | Shoot in Combat, Companion |
+| ショルデマイアの瘴気(Shordemaire’s Miasma) | 10" | D6 | 3+ | 3+ | 2 | 2 | 近接射撃(Shoot in Combat), 随行者(Companion) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| The Bloodlance | 6 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage) |
-| Shordemaire’s Claws（戦傷時） | 7 | 4+ | 2+ | 1 | 2 | Companion |
-| Shordemaire’s Maw | 3 | 4+ | 2+ | 2 | 3 | Companion |
+| 流血の槍(The Bloodlance) | 6 | 3+ | 3+ | 2 | 2 | 突撃（+1ダメージ量）(Charge (+1 Damage)) |
+| ショルデマイアの爪(Shordemaire’s Claws)（戦傷時） | 7 | 4+ | 2+ | 1 | 2 | 随行者(Companion) |
+| ショルデマイアの顎(Shordemaire’s Maw) | 3 | 4+ | 2+ | 2 | 3 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Trail of Crimson**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
-  - 宣言: This unit can make a pile-in move (even if it is not in combat). Then, if this unit is in combat, pick an enemy unit in combat with it to be the target.
-  - 効果: Roll a dice. On a 4+, inflict an amount of mortal damage on the target equal to the roll.
-- **Saint of Slaughter**（End of Any Turn）
-  - 宣言: Pick a friendly non-**MONSTER VAMPIRE** unit that destroyed a unit this turn using a **FIGHT** ability and is wholly within 12" of this unit to be the target.
-  - 効果: Pick 1 of the following effects to apply for the rest of the battle: • Add 2" to the target’s Move characteristic. • Add 1 to the Attacks characteristic of the target’s melee weapons. • Add 1 to the Damage characteristic of the target’s melee weapons. More than 1 effect can apply to a unit at the same time; however, each effect can only be applied to a unit once.
-- **Quickblood**（Your Hero Phase / 詠唱/詠誦値 7） ［Spell］
-  - 宣言: Make a casting roll of 2D6.
-  - 効果: This unit has **STRIKE-FIRST** until the start of your next turn.
-- **Battle Damaged**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of **Shordemaire’s Claws** is 5.
+- **鮮血の跡(Trail of Crimson)**（各ターンにつき1回（アーミー）、任意の近接フェイズ） ［蹂躙］
+  - 宣言: このユニットは近接戦闘中でなくとも、接敵移動を1回実行できる。その後、このユニットが近接戦闘中である場合、その近接戦闘中である敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が4+であれば、選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。
+- **虐殺の聖者(Saint of Slaughter)**（任意のターン終了時）
+  - 宣言: このターン中に**『近接攻撃』**アビリティを使用してユニットを全滅させており、かつこのユニットの12mv以内に全体が入っている**大型獣**ではない味方ヴァンパイア・ユニットを1個選択する。
+  - 効果: 以降バトル終了時まで、選択された味方ユニットに適用される効果を以下の中から1つを選択する。 • その味方ユニットの【移動力】は+2の修正を受ける。 • その味方ユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。 • その味方ユニットが装備している近接武器の【ダメージ量】は+1の修正を受ける。 同一のユニットは、複数の効果を同時に得ることができる。ただし、各ユニットは、それぞれの効果を得ることができるのは1回だけである。
+- **俊敏の血(Quickblood)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 7） ［呪文］
+  - 宣言: 2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、このユニットは**『先手効果』**を得る。
+- **バトルダメージ(Battle Damaged)**（パッシブ）
+  - 効果: このユニットが10ポイント以上のダメージを受けている場合、自身が装備している**ショルデマイアの爪**の【攻撃回数】は5になる。
 
 **連隊オプション:**
 
 - 0-1 *Deathrattle Overseer*
 - Any **SOULBLIGHT GRAVELORDS**
 
-**キーワード:** Unique, Hero, Monster, Wizard (1), Fly, Ward (6+), Death, Soulblight Gravelords, Vampire
+**キーワード:** 固有、英雄、大型獣、魔術師（1）、飛行、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、ヴァンパイア（Unique, Hero, Monster, Wizard (1), Fly, Ward (6+), Death, Soulblight Gravelords, Vampire）
 
 ---
 
-## Revenant Draconith
+## レヴェナント・ドラコニス(Revenant Draconith)
 
 **ポイント:** 170pt / **モデル数:** 1 / **ベースサイズ:** 160mm
 
@@ -128,34 +128,34 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Pestilential Miasma | 10" | 5 | 3+ | 3+ | 1 | 2 | Shoot in Combat, Companion |
+| 悪疫のミアズマ(Pestilential Miasma) | 10" | 5 | 3+ | 3+ | 1 | 2 | 近接射撃(Shoot in Combat), 随行者(Companion) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Draconic Maw | 3 | 4+ | 2+ | 2 | 3 | Companion |
-| Draconic Claws | 7 | 4+ | 2+ | 1 | 2 | Companion |
+| 竜の顎(Draconic Maw) | 3 | 4+ | 2+ | 2 | 3 | 随行者(Companion) |
+| 竜の爪(Draconic Claws) | 7 | 4+ | 2+ | 1 | 2 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Death on Tattered Wings**（Deployment Phase） ［Deploy］
-  - 宣言: Pick this unit if it has not been deployed.
-  - 効果: Set up this unit in reserve **high above the battlefield**. It has now been deployed.
-- **Red Ruin**（Once Per Turn (Army), End of Any Turn） ［Rampage］
-  - 宣言: Pick an enemy unit in combat with this unit to be the target.
-  - 効果: Roll a D3. On a 2+, resolve the following effects: •  Inflict an amount of mortal damage on the target equal to the roll. •  **Heal (X)** this unit where **X** is an amount equal to the roll. •  This unit can be removed from the battlefield and set up in reserve **high above the battlefield**.
-- **Battle Damaged**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Draconic Claws** is 5.
-- **Loathsome Descent**（Your Movement Phase）
-  - 宣言: Pick this unit if it is **high above the battlefield**.
-  - 効果: Set up this unit anywhere on the battlefield more than 9" from all enemy units.
+- **死を呼ぶ腐敗の翼(Death on Tattered Wings)**（初期配置フェイズ） ［初期配置］
+  - 宣言: このユニットが初期配置されていない場合、このユニットを選択する。
+  - 効果: このユニットを予備戦力として**戦場の上空**に配置する。そのユニットは初期配置されたものとみなされる。
+- **紅き滅び(Red Ruin)**（各ターンにつき1回（アーミー）、任意のターン終了時） ［蹂躙］
+  - 宣言: このユニットと近接戦闘中である敵ユニットを1個選択する。
+  - 効果: D3を1個ロールする。ロール結果が2+であれば、以下の効果をそれぞれ解決する~~、~~==：== • 選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。 • このユニットを**回復（X）**する。Xの値は、このロール結果に等しい値である。 • このユニットを戦場から取り除き、予備戦力として**戦場の上空**に配置してもよい。
+- **バトルダメージ(Battle Damaged)**（パッシブ）
+  - 効果: このユニットが10ポイント以上のダメージを受けている場合、このユニットの竜の爪の【攻撃回数】は5になる。
+- **忌まわしき急襲(Loathsome Descent)**（自軍側移動フェイズ）
+  - 宣言: このユニットが**戦場の上空**にいる場合、このユニットを選択する。
+  - 効果: あらゆる敵ユニットから9mvより遠く離れた戦場の任意の位置に、このユニットを配置する。
 
-**キーワード:** Monster, Fly, Ward (6+), Death, Soulblight Gravelords
+**キーワード:** 大型獣、飛行、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード（Monster, Fly, Ward (6+), Death, Soulblight Gravelords）
 
 ---
 
-## Scourge of Aqshy: Revenant Draconith
+## アキュシーの禍事 レヴェナント・ドラコニス(Scourge of Aqshy: Revenant Draconith)
 
 **ポイント:** 290pt / **モデル数:** 1 / **ベースサイズ:** 160mm
 
@@ -171,32 +171,32 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Pestilential Miasma | 10" | 5 | 3+ | 3+ | 1 | 2 | Shoot in Combat, Companion |
+| 悪疫のミアズマ(Pestilential Miasma) | 10" | 5 | 3+ | 3+ | 1 | 2 | 近接射撃(Shoot in Combat), 随行者(Companion) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Draconic Maw | 3 | 4+ | 2+ | 2 | 3 | Companion |
-| Draconic Claws（戦傷時） | 7 | 4+ | 2+ | 1 | 2 | Companion |
+| 竜の顎(Draconic Maw) | 3 | 4+ | 2+ | 2 | 3 | 随行者(Companion) |
+| 竜の爪(Draconic Claws)（戦傷時） | 7 | 4+ | 2+ | 1 | 2 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Battle Damaged**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Draconic Claws** is 5.
-- **Brimming with Rancour**（Once Per Turn (Army), Enemy Hero Phase） ［Rampage］
-  - 宣言: Pick a visible enemy unit to be the target.
-  - 効果: For the rest of the turn, the target cannot end moves made as part of a non-**CHARGE MOVE** ability within **X**" of this unit, where **X** is equal to your current **fury level**.
-- **Volatile Animus**（Once Per Turn (Army), Any Combat Phase）
-  - 効果: Spend 1 **rage dice**. If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, pick 1 of the following effects: ***Retaliatory Posture***: For the rest of the turn: • Ignore positive modifiers to hit rolls and wound rolls for attacks made by enemy units while they are in combat with this unit. • Add 1 to save rolls for this unit. • Add 1 to hit rolls for this unit’s attacks, including attacks made with **Companion** weapons, that target an enemy unit that used a **FIGHT** ability this phase. ***Unrelenting Ferocity***: For the rest of the turn: • Ignore negative modifiers to hit rolls and wound rolls for this unit’s attacks. • Add 1 to the Rend and Damage characteristics of this unit’s **Companion** melee weapons for attacks that target an enemy unit that has not used a **FIGHT** ability this phase
+- **バトルダメージ(Battle Damaged)**（パッシブ）
+  - 効果: このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**竜の爪**の【攻撃回数】は5になる。
+- **満ちる怨恨(Brimming with Rancour)**（各ターンにつき1回（アーミー）、敵軍側ヒーローフェイズ） ［蹂躙］
+  - 宣言: このユニットから視認状態である敵ユニットを1個選択する。
+  - 効果: そのターン中、選択された敵ユニットは『**突撃**』ではない『**移動**』アビリティを使用する場合、このユニットのXmv以内に一部でも入るように移動を完了することができない。Xは自軍側の**憤激レベル**に等しい。
+- **揺らぐ怨魂(Volatile Animus)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 効果: **憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）その後、以下の効果から1つを選択する： **報復の構え：**そのターン中： • このユニットと近接戦闘中の敵ユニットの、ヒットロールとウーンズロールに対するすべてのプラス修正を無視する。 • このユニットはセーブロールに+1の修正を受ける。 • この~~ターン~~==フェイズ==中に『**近接攻撃**』アビリティを使用している敵ユニットを対象とするこのユニットの攻撃（**随行者**武器を含む）は、ヒットロールに+1の修正を受ける。 **抑えざる獰猛性：**そのターン中： • このユニットの攻撃は、ヒットロールとウーンズロールに対するあらゆるマイナス修正を無視する。 • このフェイズ中に『**近接攻撃**』アビリティを使用していない敵ユニットを対象とする、このユニットが装備している**随行者**近接武器の【貫通値】と【ダメージ量】は+1の修正を受ける。
 
-**キーワード:** Monster, Fly, Ward (6+), Death, Soulblight Gravelords
+**キーワード:** 大型獣、飛行、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード（Monster, Fly, Ward (6+), Death, Soulblight Gravelords）
 
 **ノート:** This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
 
 ---
 
-## Vampire Lord on Nightmare Steed
+## ヴァンパイア・ロード（ナイトメア騎乗）(Vampire Lord on Nightmare Steed)
 
 **ポイント:** 170pt / **モデル数:** 1 / **ベースサイズ:** 80mm
 
@@ -212,19 +212,19 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Dynastic Cavalier Weapon | 5 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage) |
-| Nightmare’s Hooves and Teeth | 3 | 5+ | 3+ | - | 1 | Companion |
+| 王家の騎馬武器(Dynastic Cavalier Weapon) | 5 | 3+ | 3+ | 2 | 2 | 突撃（+1ダメージ量）(Charge (+1 Damage)) |
+| ナイトメアの蹄と歯(Nightmare’s Hooves and Teeth) | 3 | 5+ | 3+ | - | 1 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Strike At The Heart**（Any Combat Phase）
-  - 宣言: Pick a friendly **Blood Knights** unit that charged this turn and is wholly within 12" of this unit to be the target.
-  - 効果: Add 1 to the Rend characteristic of that unit’s **Templar Weapons** for the rest of the turn.
-- **'For Glory! For Blood!'**（Reaction: You declared a CHARGE ability for this unit）
-  - 効果: You can re-roll the charge roll for that **CHARGE** ability. Then, before the charge move is made, you can pick a friendly **Blood Knights** unit that is not in combat, is wholly within 12" of this unit and has not used a **CHARGE** ability this turn to be the target. If this unit charges, then, immediately after the **CHARGE** ability used by this unit has been resolved, the target can immediately use the ‘Charge’ ability even if it is not your charge phase. In addition, you can re-roll charge rolls for the target this phase.
+- **心臓部を討て(Strike At The Heart)**（任意の近接フェイズ）
+  - 宣言: このターン中に突撃を実行しており、かつこのユニットの12mv以内に全体が入っている味方**ブラッドナイト**・ユニットを1個選択する。
+  - 効果: そのターン中、~~この~~==選択された味方==ユニットが装備している**テンプル騎士の武器**の【貫通値】は+1の修正を受ける。
+- **血と栄光の為に！('For Glory! For Blood!')**（リアクション：自軍側が『突撃』アビリティを宣言）
+  - 効果: 宣言した**『突撃』**アビリティの突撃ロールをリロールできる。その後、突撃移動が実行される前に、現在のターン中に**『突撃』**アビリティを使用しておらず、かつこのユニットの12mv以内に全体が入っており、なおかつ近接戦闘中ではない味方**ブラッドナイト**・ユニットを1個選択してもよい。突撃を宣言したユニットが突撃を実行する際、そのユニットの**『突撃』**アビリティが解決された直後に、選択された味方ユニットは、自軍側突撃フェイズ中ではなくてもただちに『突撃』アビリティを使用できる。さらに、そのフェイズ中、その味方ユニットは突撃ロールをリロールできる。
 
 **連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
-**キーワード:** Hero, Wizard (1), Cavalry, Ward (6+), Death, Soulblight Gravelords, Vampire
+**キーワード:** 英雄、魔術師（1）、騎兵、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、ヴァンパイア（Hero, Wizard (1), Cavalry, Ward (6+), Death, Soulblight Gravelords, Vampire）

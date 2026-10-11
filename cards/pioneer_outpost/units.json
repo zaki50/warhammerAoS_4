@@ -1646,7 +1646,12 @@
    "wargear": {
     "ja": "• このユニットの各兵は、エーテルショット・ライフルと大型銃床を装備している。\n• 2/5の兵は、エーテルショット・ライフルをエーテリック・フュミゲイターもしくはデッキスイーパーに交換できる。\n• 2/5の兵は、エーテルショット・ライフルをグランドストック迫撃砲もしくはエーテルキャノンに交換できる。\n• 豪傑は装備しているエーテルショット・ライフルを交換できない。",
     "en": "• ***Each model in this unit is armed with an Aethershot Rifle and Gun Butt.***\n• ***2/5 models can replace their Aethershot Rifle with an Aetheric Fumigator or Decksweeper.***\n• ***2/5 models can replace their Aethershot Rifle with a Grundstok Mortar or Aethercannon.***\n• ***The champion cannot replace their Aethershot Rifle.***",
-    "fix": []
+    "fix": [
+     [
+      "大型銃床",
+      "銃床"
+     ]
+    ]
    }
   },
   {
@@ -1819,7 +1824,16 @@
       "effect": {
        "ja": "このユニットがこのターン中に突撃していない場合、次の自軍側ターン開始時まで、自軍側の**憤激レベル**に応じて、以下の効果を適用する。これらの効果は累積して適用される。\n1+ **苛立ち：**このユニットの**エーテル駆動式チェーンソー**は、**クリティカル（自動ウーンズ）**を得る。\n4+ **怒り心頭**このユニットは**加護（5+）**を持つ。\n7 **怒髪衝天：**このユニットが装備している近接武器の【ダメージ値】は+1の修正を受ける。",
        "en": "Until the start of your next turn, if this unit has not charged in the same turn, the following cumulative effects apply depending on your **fury level**.\n\n**1+ *Irked***: This unit’s **Aethermatic Saws** have **Crit (Auto-wound)**.\n**4+ *Exasperated***: This unit has **WARD (5+)**.\n**7 *Incensed***: Add 1 to the Damage characteristic of this unit’s melee weapons.",
-       "fix": []
+       "fix": [
+        [
+         "**エーテル駆動式チェーンソー**",
+         "**エーテル駆動式の鋸**"
+        ],
+        [
+         "**怒り心頭**",
+         "**怒り心頭：**"
+        ]
+       ]
       }
      },
      "own": false,
@@ -1827,7 +1841,10 @@
      "kw_en": "",
      "cast": null,
      "cp": null,
-     "note": []
+     "note": [
+      "英語版は Aethermatic Saws。同じウォースクロール（アキュシーの禍事 2026年6月）の武器表では「エーテル駆動式の鋸」で、日本語版の「エーテル駆動式チェーンソー」は名称が食い違う（同じ武器を指す）。",
+      "日本語版（アキュシーの禍事 2026年6月）は他の 2 行（苛立ち：／怒髪衝天：）にあるコロンが「怒り心頭」の後ろに無い。ルールへの影響は無い。"
+     ]
     }
    ],
    "terrain": [],
@@ -1867,7 +1884,12 @@
    "wargear": {
     "ja": "このユニット内の各兵は、ラピッドファイア・リベットガンとエーテル駆動式の鋸を装備している。\n• 1/3の兵は、装備している武器をエーテル駆動式ヴォレイガンと銃床に交換できる。\n• 1/3の兵は、装備している武器をスカイリガーの重火器（グラップネルランチャー、スカイフック、ドリルランチャー）と銃床に交換できる。\n• 豪傑は装備している武器を交換できない。",
     "en": "• ***Each model in this unit is armed with a Rapid-fire Rivet Gun and Aethermatic Saw.***\n• ***1/3 models can replace their weapons with an Aethermatic Volley Gun and Gun Butt.***\n• ***1/3 models can replace their weapons with a Skyrigger Heavy Weapon (Grapnel Launcher, Skyhook or Drill Launcher) and Gun Butt.***\n• ***The champion cannot replace their weapons.***",
-    "fix": []
+    "fix": [
+     [
+      "このユニット内の各兵は、ラピッドファイア・リベットガンとエーテル駆動式の鋸を装備している。",
+      "• このユニット内の各兵は、ラピッドファイア・リベットガンとエーテル駆動式の鋸を装備している。"
+     ]
+    ]
    }
   },
   {
@@ -2309,7 +2331,12 @@
    "wargear": {
     "ja": "• このユニットの各兵は、ヴァルカナイザー・ピストルとスカイウォーデン・スカイパイクを装備している。\n• 1/3の兵は、装備している武器をエーテル駆動式ヴォレイガンと銃床に交換できる。\n• 1/3の兵は、装備している武器をスカイリガーの重火器（グラップネルランチャー、スカイフック、ドリルランチャー）と銃床に交換できる。\n• 豪傑は装備している武器を交換できない。",
     "en": "• ***Each model in this unit is armed with a Vulcaniser Pistol and Skywarden’s Skypike.***\n• ***1/3 models can replace their weapons with an Aethermatic Volley Gun and Gun Butt.***\n• ***1/3 models can replace their weapons with a Skyrigger Heavy Weapon (Grapnel Launcher, Skyhook or Drill Launcher) and Gun Butt.***\n• ***The champion cannot replace their weapons.***",
-    "fix": []
+    "fix": [
+     [
+      "スカイウォーデン・スカイパイク",
+      "スカイウォーデンのスカイパイク"
+     ]
+    ]
    }
   },
   {
@@ -2771,7 +2798,16 @@
       "effect": {
        "ja": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、以下の効果が適用される：\n• 選択された作戦目標を争奪中であるユニットを対象にした味方**飛行船員**・ユニットのメレーアタックは、ヒットロールに+1の修正を受ける。\n• 味方**ヴォングリム・サルヴェイジャー**および**ヴォングリムの銛打ち衆**・ユニットは、選択された作戦目標を争奪中のユニットを対象として攻撃する際、近接武器の【貫通値】に+1の修正を受ける。",
        "en": "Roll a dice. On a 3+, apply the following effects for the rest of the turn:\n\n• Add 1 to hit rolls for combat attacks made by friendly **SKYFARER** units that target a unit that is contesting the target objective.\n• Add 1 to the Rend characteristic of melee weapons used by friendly **Vongrim Salvagers** and **Vongrim Harpoon Crew** units for attacks that target a unit that is contesting the target objective.",
-       "fix": []
+       "fix": [
+        [
+         "**ヴォングリム・サルヴェイジャー**",
+         "**フォングリム・サルヴェイジャー**"
+        ],
+        [
+         "**ヴォングリムの銛打ち衆**",
+         "**フォングリムの銛打ち衆**"
+        ]
+       ]
       }
      },
      "own": false,
@@ -2779,7 +2815,9 @@
      "kw_en": "",
      "cast": null,
      "cp": null,
-     "note": []
+     "note": [
+      "英語版は Vongrim Salvagers / Vongrim Harpoon Crew。日本語版（ルール・アップデート 2026年9月）の「ヴォングリム・サルヴェイジャー」「ヴォングリムの銛打ち衆」は、ユニット名「フォングリム・サルヴェイジャー」「フォングリムの銛打ち衆」（書籍 p.60・バトルプロフィール）と表記が違う。同じユニットを指す。"
+     ]
     }
    ],
    "terrain": [],
@@ -2882,12 +2920,22 @@
       "declare": {
        "ja": "味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリンを1個選択する。",
        "en": "Pick a friendly **AUTO-ENDRIN** or replacement **AUTO‑ENDRIN** that has been removed from the battlefield to be the target.",
-       "fix": []
+       "fix": [
+        [
+         "味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリンを1個選択する。",
+         "戦場から取り除かれた味方オートエンドリンまたは代替のオートエンドリンを1個選択する。"
+        ]
+       ]
       },
       "effect": {
        "ja": "D6の製造ロールを1個する。味方エンドリンマスター（可導気球スーツ装備）またはエンドリン・マスター（エンドリンハーネス装備）がこの特殊地形の3mv以内に一部でも入っている場合、その製造ロールは+1の修正を受ける。ロール結果が4+であれば、この特殊地形の6mv以内に全体が入るように、かつあらゆる敵ユニットから3mvより遠く離れた戦場の位置に、代替のオートエンドリンを1個配置する。",
        "en": "Make a manufacturing roll of D6. Add 1 to the roll if there is a friendly **Endrinmaster with Dirigible Suit** or **Endrinmaster with Endrinharness** within 3\" of this terrain feature. On a 4+, set up a replacement **AUTO-ENDRIN** on the battlefield, wholly within 6\" of this terrain feature and more than 3\" from all enemy units.",
-       "fix": []
+       "fix": [
+        [
+         "エンドリン・マスター（エンドリンハーネス装備）",
+         "エンドリンマスター（エンドリンハーネス装備）"
+        ]
+       ]
       }
      },
      "own": false,
@@ -2895,7 +2943,10 @@
      "kw_en": "",
      "cast": null,
      "cp": null,
-     "note": []
+     "note": [
+      "英語版は「戦場から取り除かれた（味方オートエンドリンまたは代替のオートエンドリン）」を選ぶ。改訂前の書籍 p.66 も「戦場から取り除かれた味方オートエンドリンを1個選択する」で、エラッタは代替のオートエンドリンも対象に加えただけ。日本語版（ルール・アップデート 2026年9月）の「味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリン」は「戦場から取り除かれた」が代替のほうにしか掛からず、戦場にいるオートエンドリンも選べるように読める。選べるのは戦場から取り除かれたもの（元のオートエンドリンでも代替でも）だけ。",
+      "英語版は Endrinmaster with Endrinharness。日本語版（ルール・アップデート 2026年9月）の「エンドリン・マスター（エンドリンハーネス装備）」は、ユニット名「エンドリンマスター（エンドリンハーネス装備）」（書籍・バトルプロフィール）と表記が違い、同じ文の「エンドリンマスター（可導気球スーツ装備）」とも揃っていない。同じユニットを指す。"
+     ]
     },
     {
      "name": {
@@ -2924,7 +2975,12 @@
       "effect": {
        "ja": "D6の修理ロールを1個する。味方**エンドリンマスター（可導気球スーツ装備）**または**エンドリン・マスター（エンドリンハーネス装備）**がこの特殊地形の3mv以内に一部でも入っている場合、その修理ロールは+1の修正を受ける。ロール結果が4+であれば、選択された味方飛行艦を**回復（3）**する。",
        "en": "Make a repair roll of D6. Add 1 to the roll if there is a friendly **Endrinmaster with Dirigible Suit** or **Endrinmaster with Endrinharness** within 3\" of this terrain feature. On a 4+, **Heal (3)** the target.",
-       "fix": []
+       "fix": [
+        [
+         "**エンドリン・マスター（エンドリンハーネス装備）**",
+         "**エンドリンマスター（エンドリンハーネス装備）**"
+        ]
+       ]
       }
      },
      "own": false,
@@ -2932,7 +2988,9 @@
      "kw_en": "",
      "cast": null,
      "cp": null,
-     "note": []
+     "note": [
+      "英語版は Endrinmaster with Endrinharness。日本語版（書籍 p.66）の「エンドリン・マスター（エンドリンハーネス装備）」は、ユニット名「エンドリンマスター（エンドリンハーネス装備）」と表記が違い、同じ文の「エンドリンマスター（可導気球スーツ装備）」とも揃っていない。同じユニットを指す。"
+     ]
     },
     {
      "name": {

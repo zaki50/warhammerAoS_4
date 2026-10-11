@@ -350,7 +350,7 @@
    "regiment": [],
    "notes_en": "",
    "wargear": {
-    "ja": "• このユニット内の各兵は、プライヴェーティア・ピストルとアルカノートの携帯武器を装備している。\n• 2/10の兵は、装備しているプライヴェーティア・ピストルをプライヴェーティア重火器（エーテル駆動式ヴォレイガンまたはライト・スカイフック）に交換できる。\n• 1/10の兵は、装備している両方の武器をスカイパイクに交換できる。\n• 豪傑は装備している武器を交換できない。",
+    "ja": "",
     "en": "***One unit has 4 Arkanauts armed with a Privateer Pistol and Arkanaut Cutter, and 1 Arkanaut armed with a Skypike.***\n\n***The other unit has 3 Arkanauts armed with a Privateer Pistol and Arkanaut Cutter, 1 Arkanaut armed with an Aethermatic Volley Gun and Gun Butt, and 1 Arkanaut armed with a Light Skyhook and Gun Butt.***",
     "fix": []
    }
@@ -719,7 +719,7 @@
    "regiment": [],
    "notes_en": "",
    "wargear": {
-    "ja": "• このユニットの各兵は、ヴァルカナイザー・ピストルとスカイウォーデン・スカイパイクを装備している。\n• 1/3の兵は、装備している武器をエーテル駆動式ヴォレイガンと銃床に交換できる。\n• 1/3の兵は、装備している武器をスカイリガーの重火器（グラップネルランチャー、スカイフック、ドリルランチャー）と銃床に交換できる。\n• 豪傑は装備している武器を交換できない。",
+    "ja": "",
     "en": "***This unit has 2 Skywardens armed with a Vulcaniser Pistol and Skypike, and 1 Skywarden armed with an Aethermatic Volley Gun and Gun Butt.***",
     "fix": []
    }

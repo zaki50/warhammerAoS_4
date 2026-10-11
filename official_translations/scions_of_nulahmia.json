@@ -1,0 +1,253 @@
+{
+ "_faction": "ヌラーミアの御子 (Scions of Nulahmia)",
+ "_source": [
+  "名高き軍勢 2026年9月 pp.15–16（ヌラーミアの御子。p.15 ロスター・オプション・戦闘特性 4件、p.16 英雄特性・神器・呪文伝承 3件）＋同英語版 pp.15–16。日本語版はテキスト層が崩れるので 200dpi の画像で読んだ",
+  "ユニット（ウォースクロール）の訳は official_translations/soulblight_gravelords.json から写した"
+ ],
+ "_notes": [
+  "ユニット（ウォースクロール）の訳は依頼どおり入れていない（official_translations/soulblight_gravelords.json から写す想定）。名高き軍勢 2026年9月のロスター・オプションのユニット名表記は『“ヌラーミアの牙”セカール』『コヴン・スローン』『ブラッドシーカー・パランクィン』『ヴァンパイア・ロード』『ヴァンパイアロード（ナイトメア騎乗）』『ダイアウルフ』『フェルバット』（ヴァンパイア・ロードとヴァンパイアロードで中黒が揺れている）。",
+  "group_names は先例（オッシアの槍・グランドストック遠征軍）どおり見出しの『戦闘特性』『英雄特性』『神器』『呪文伝承』。group_texts は見出し下の『（**英雄**のみ）』。",
+  "戦闘特性 4 件のキーワード欄『絶妙な陰謀』（Exquisite Plot）は keywords に入れた（md には出ていないが PDF・英語版 PDF にある）。宣言中の『絶妙な陰謀』は『』ごと太字（『**絶妙な陰謀**』と書いた）。徴募の『狩人』（hunter）も同様。",
+  "ヌラーミアの呼び声のキーワード欄は『呪文、無制限』（英語版 Spell, Unlimited）。",
+  "宮廷動物園の番人の『（端数切り上げ）』は PDF では半角括弧風だが全角にした。",
+  "faction_name は PDF 見出しの『ヌラーミアの御子』。"
+ ],
+ "unit_names": {
+  "Bloodseeker Palanquin": "ブラッドシーカー・パランクィン",
+  "Coven Throne": "コヴン・スローン",
+  "Dire Wolves": "ダイアウルフ",
+  "Fell Bats": "フェルバット",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia": "グューランの禍事 “ヌラーミアの牙”セカール",
+  "Sekhar, Fang of Nulahmia": "ヌラーミアの牙セカール",
+  "Vampire Lord": "ヴァンパイア・ロード",
+  "Vampire Lord on Nightmare Steed": "ヴァンパイア・ロード（ナイトメア騎乗）"
+ },
+ "weapon_names": {
+  "Acolytes’ Poniards": "侍祭のポニャード",
+  "Bloodseeker Palanquin|Sanguinarch’s Stiletto": "サングィナークのスティレット",
+  "Bloodseeker Palanquin|Spectral Host’s Blades": "霊体群の刃",
+  "Chiropteran Fangs": "蝙蝠のごとき牙",
+  "Dynastic Cavalier Weapon": "王家の騎馬武器",
+  "Dynastic War-relic": "名家の戦遺物",
+  "Matriarch’s Stiletto": "家母長のスティレット",
+  "Nightmare’s Hooves and Teeth": "ナイトメアの蹄と歯",
+  "Nulahmian Warglaive": "ヌラーミアの戦槍",
+  "Ouboroth’s Godhusk Fangs": "ウボロスの神殻の牙",
+  "Rotting Fangs and Claws": "腐った爪と牙",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Nulahmian Warglaive": "ヌラーミアの戦槍",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Ouboroth’s Godhusk Fangs": "ウボロスの神殻の牙",
+  "Spectral Host’s Blades": "霊体群の刃"
+ },
+ "weapon_ability_names": {
+  "Anti-HERO (+1 Rend)": "対英雄（+1貫通値）",
+  "Charge (+1 Damage)": "突撃（+1ダメージ量）",
+  "Companion": "随行者",
+  "Crit (2 Hits)": "クリティカル（2ヒット）"
+ },
+ "keyword_names": {
+  "Beast": "獣兵",
+  "Bloodseeker Palanquin|Death": "死の大同盟",
+  "Bloodseeker Palanquin|Fly": "飛行",
+  "Bloodseeker Palanquin|Hero": "英雄",
+  "Bloodseeker Palanquin|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Bloodseeker Palanquin|Vampire": "ヴァンパイア",
+  "Bloodseeker Palanquin|War Machine": "戦闘兵器",
+  "Bloodseeker Palanquin|Ward (6+)": "加護（6+）",
+  "Bloodseeker Palanquin|Wizard (1)": "魔術師（1）",
+  "Cavalry": "騎兵",
+  "Champion (1/10)": "豪傑（1/10）",
+  "Deadwalkers": "デッドウォーカー",
+  "Death": "死の大同盟",
+  "Fly": "飛行",
+  "Hero": "英雄",
+  "Infantry": "歩兵",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Death": "死の大同盟",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Hero": "英雄",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Infantry": "歩兵",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Unique": "固有",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Vampire": "ヴァンパイア",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Ward (6+)": "加護（6+）",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Wizard (2)": "魔術師（2）",
+  "Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Unique": "固有",
+  "Vampire": "ヴァンパイア",
+  "War Machine": "戦闘兵器",
+  "Ward (6+)": "加護（6+）",
+  "Wizard (1)": "魔術師（1）",
+  "Wizard (2)": "魔術師（2）"
+ },
+ "ability_names": {
+  "'For Glory! For Blood!'": "血と栄光の為に！",
+  "A Promising Concoction": "良質な調合薬",
+  "Amulet of Leeches": "吸気の護符",
+  "Beast": "獣兵",
+  "Bloodseeker Palanquin|A Promising Concoction": "良質な調合薬",
+  "Bloodseeker Palanquin|Wails of the Damned": "呪われし者の嘆き",
+  "Death's Construction": "死の構築",
+  "Fleet and Fell": "恐るべき俊敏",
+  "Invocation of Nulahmia": "ヌラーミアの呼び声",
+  "Keeper of the Royal Menagerie": "宮廷動物園の番人",
+  "On The Hunt": "獲物を追うもの",
+  "Recruitment Drive": "徴募",
+  "Sanguine Blur": "鮮血の残像",
+  "Scarlet Thirst": "真紅の渇き",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Allow Me to Remind You...": "思い出させてあげよう……",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Irresistible Demand": "抗しがたい服従",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Lest You Forget...": "お忘れなきよう……",
+  "Scrying Pool": "占いの泉",
+  "Seek Worthy Blood": "貴き吸血",
+  "Serpentine Agility": "蛇の俊敏さ",
+  "Strike At The Heart": "心臓部を討て",
+  "Tactical Insight": "戦術的洞察",
+  "Thaumic Realignment": "妖力調整",
+  "The Queen's Prize": "女王の獲物",
+  "The Time-Swallower's Maw": "時喰らいの顎",
+  "Thrall Drain": "従僕からの収奪"
+ },
+ "ability_texts": {
+  "Amulet of Leeches": {
+   "timing": "パッシブ",
+   "effect": "このユニットが味方**ダイアウルフ**または**フェルバット**・ユニットの近接範囲内に一部でも入っている間、以下の効果が適用される。\n• このユニットは**加護（5+）**を持つ。\n• このユニットが加護ロールを成功させるたびに、このユニットに対する攻撃手順が解決された直後、このユニットの近接範囲内に一部が入っている味方**ダイアウルフ**もしくは**フェルバット**・ユニットに1ポイントのダメージを割り振る（そのダメージに対して加護ロールはできない）。"
+  },
+  "Bloodseeker Palanquin|A Promising Concoction": {
+   "timing": "バトル中1回限り（アーミー）、自軍側近接フェイズ",
+   "declare": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**ヴァンパイア**・ユニットを最大3個まで選択する。",
+   "effect": "そのターン中、選択された味方ユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。"
+  },
+  "Bloodseeker Palanquin|Wails of the Damned": {
+   "timing": "パッシブ",
+   "effect": "このユニットの12mv以内に一部でも入っている敵ユニットは、確保スコアに-3の修正を受ける。"
+  },
+  "Coven Throne|A Promising Concoction": {
+   "timing": "バトル中1回限り（アーミー）、自軍側近接フェイズ",
+   "declare": "このユニットの12mv以内に全体が入っている味方**ヴァンパイア**・ユニットを最大3個まで選択する。",
+   "effect": "そのターン中、選択された味方ユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。"
+  },
+  "Coven Throne|Scrying Pool": {
+   "timing": "パッシブ",
+   "effect": "このユニットの12mv以内に全体が入っている味方**ソウルブライト・グレイヴロード**・ユニットが『再配置』指揮アビリティを使用する際、このユニットの12mv以内に全体が入っており、現在のフェイズ中にまだ『再配置』指揮アビリティを使用していない他の味方**ソウルブライト・グレイヴロード**・ユニットを1個選択してもよい。一つ目の『再配置』指揮アビリティが解決された直後に、選択された味方ユニットはただちに『再配置』指揮アビリティを使用する（これは『指揮アビリティ、1.2』のルールに対する例外となる）。二つ目の指揮アビリティにおいて、指揮ポイントは消費されない。"
+  },
+  "Coven Throne|Tactical Insight": {
+   "timing": "パッシブ",
+   "effect": "このユニットの6mv以内に全体が入っている味方**デスラトル**と**デッドウォーカー**・ユニットは**加護（5+）**を持つ。"
+  },
+  "Dire Wolves|Beast": {
+   "timing": "パッシブ",
+   "effect": "このユニットは最大1の確保スコアを得る。"
+  },
+  "Dire Wolves|On The Hunt": {
+   "timing": "パッシブ",
+   "effect": "このユニットは**『全力移動』**アビリティを使用していたとしても、そのターンの後半に**『突撃』**アビリティを使用できる。"
+  },
+  "Fell Bats|Beast": {
+   "timing": "パッシブ",
+   "effect": "このユニットは最大1の確保スコアを得る。"
+  },
+  "Fell Bats|Fleet and Fell": {
+   "timing": "パッシブ",
+   "effect": "このユニットは現在のターン中に**『退却』**アビリティを使用していた場合でも**『突撃』**アビリティを使用できる。さらに、このユニットは**『退却』**アビリティを使用した際に致命的ダメージを受けない。"
+  },
+  "Invocation of Nulahmia": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**ヌラーミアの御子・魔術師**を1体選択する。その後、選択された魔術師の18mv以内に全体が入っており、かつその魔術師から視認状態である味方**ダイアウルフ**または**フェルバット**・ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "選択された味方ユニットは、撃破された兵1体を復帰させることができる。",
+   "keywords": "呪文、無制限"
+  },
+  "Keeper of the Royal Menagerie": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "全滅している味方**ダイアウルフ**または**フェルバット**・ユニットを1個選択する。",
+   "effect": "このユニットの12mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に、選択された味方ユニットの兵数の半分（端数切り上げ）で構成された代替ユニットを1個配置する。"
+  },
+  "Recruitment Drive": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "自軍がこのターン中に『**絶妙な陰謀**』アビリティを使用していない場合にのみ、このアビリティを使用できる。味方ユニット1個を『**狩人**』として選択し、5体以上の兵を含む敵ユニットを1個選択する。",
+   "effect": "そのターン中、選択された敵ユニットを攻撃対象とする『**狩人**』のメレーアタックは、ヒットロールに+1の修正を受ける。さらに、そのターン中に選択された敵ユニットが『**狩人**』によって全滅させられた場合、以降バトル終了時まで、『**狩人**』が装備している近接武器の【攻撃回数】は+1の修正を受ける。",
+   "keywords": "絶妙な陰謀"
+  },
+  "Scarlet Thirst": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**ヌラーミアの御子・魔術師**1体選択し、2D6の詠唱ロールをする。",
+   "effect": "そのターン中、詠唱者の12mv以内に全体が入っている味方**ヌラーミアの御子・ヴァンパイア**・ユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。",
+   "keywords": "呪文"
+  },
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Allow Me to Remind You...": {
+   "timing": "各ターンにつき1回、リアクション：敵軍側が、このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットに対して指揮アビリティを宣言",
+   "effect": "ダイスを1個ロールする。ロール結果が5+であれば、その指揮アビリティは効果を発揮せず、指揮アビリティは依然として使用されたものとみなされ、その指揮アビリティを使用するために消費した指揮ポイントも失われる。"
+  },
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Irresistible Demand": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵**英雄**を1体選択し、2D6の詠唱ロールをする。",
+   "effect": "選択された敵英雄の3mv以内に一部でも入っている自身以外の各敵ユニットは、それぞれD3ポイントの致命的ダメージを受ける。",
+   "keywords": "呪文"
+  },
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Lest You Forget...": {
+   "timing": "各バトルラウンドにつき1回、リアクション：このユニットの18mv以内に一部でも入っており、かつ視認状態である敵ユニットが『呪文』または『突撃』アビリティを宣言",
+   "effect": "そのアビリティの突撃ロールあるいは詠唱ロールからダイスを1個選択する。敵軍側は選択されたダイスをリロールしなければならない。"
+  },
+  "Seek Worthy Blood": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "自軍がこのターン中に『**絶妙な陰謀**』アビリティを使用していない場合にのみ、このアビリティを使用できる。このアビリティを使用する際に、味方ユニットを1個選択する。",
+   "effect": "そのターン中、選択された味方ユニットが装備している武器は**対英雄（+1貫通値）**を得る。さらに、その味方ユニットが現在のターン中に1体以上の敵**英雄**を全滅させた場合、その味方ユニットが装備している武器は以降バトル終了時まで**対英雄（+1貫通値）**を得る。",
+   "keywords": "絶妙な陰謀"
+  },
+  "Sekhar, Fang of Nulahmia|Death's Construction": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、選択された敵ユニットがこのユニットの6mv以内に全体が入っている間、その敵ユニットは味方**ソウルブライト・グレイヴロード**・ユニットをアビリティの対象として選択できるのは**『近接攻撃』**アビリティだけである。",
+   "keywords": "呪文"
+  },
+  "Sekhar, Fang of Nulahmia|Serpentine Agility": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象とするメレーアタックにおいて、修正前のヒットロールで出目1-4が出た場合、その攻撃は失敗し、攻撃手順を終了する。"
+  },
+  "Sekhar, Fang of Nulahmia|The Time-Swallower's Maw": {
+   "timing": "バトル中1回限り、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中である各敵ユニットを選択する。",
+   "effect": "以降バトル終了時まで、このユニットは『蛇の俊敏さ』アビリティを使用できない。選択された各敵ユニットに対して、それぞれ2D6をロールする。ロール結果がロール対象である敵ユニットの【移動力】を上回る場合、ロール対象の敵ユニットは、その【移動力】からロール結果を減算した数の致命的ダメージを受ける。"
+  },
+  "Thaumic Realignment": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "自軍がこのターン中に『**絶妙な陰謀**』アビリティを使用していない場合にのみ、このアビリティを使用できる。このアビリティを使用する際に、味方**魔術師**を1体選択する。",
+   "effect": "そのターン中、選択された味方**魔術師**の詠唱ロールは+1の修正を受ける。さらに、その味方**魔術師**が現在のターン中に1つ以上の呪文の詠唱に成功させた場合、以降バトル終了時まで、その味方**魔術師**のパワーレベルは+1の修正を受ける。",
+   "keywords": "絶妙な陰謀"
+  },
+  "The Queen's Prize": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "自軍がこのターン中に『**絶妙な陰謀**』アビリティを使用していない場合にのみ、このアビリティを使用できる。このアビリティを使用する際に、味方ユニットを1個選択する。",
+   "effect": "そのターン中、選択された味方ユニットの確保スコアは+5の修正を受ける。\nさらに、そのターン終了時、作戦目標を確保しているプレイヤーを決定した後、そのターン開始時に対戦相手が確保していた作戦目標を、選択された味方ユニットが現在確保しており争奪中である場合、以降バトル終了時まで、その味方ユニットの確保スコアは+5の修正を受ける。",
+   "keywords": "絶妙な陰謀"
+  },
+  "Thrall Drain": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**ヌラーミアの御子・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に全体が入っている味方ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "選択された味方ユニット内の兵D3体が撃破される。その後、詠唱者が受けていたダメージをすべて取り除く。",
+   "keywords": "呪文"
+  },
+  "Vampire Lord on Nightmare Steed|'For Glory! For Blood!'": {
+   "timing": "リアクション：自軍側が『突撃』アビリティを宣言",
+   "effect": "宣言した**『突撃』**アビリティの突撃ロールをリロールできる。その後、突撃移動が実行される前に、現在のターン中に**『突撃』**アビリティを使用しておらず、かつこのユニットの12mv以内に全体が入っており、なおかつ近接戦闘中ではない味方**ブラッドナイト**・ユニットを1個選択してもよい。突撃を宣言したユニットが突撃を実行する際、そのユニットの**『突撃』**アビリティが解決された直後に、選択された味方ユニットは、自軍側突撃フェイズ中ではなくてもただちに『突撃』アビリティを使用できる。さらに、そのフェイズ中、その味方ユニットは突撃ロールをリロールできる。"
+  },
+  "Vampire Lord on Nightmare Steed|Strike At The Heart": {
+   "timing": "任意の近接フェイズ",
+   "declare": "このターン中に突撃を実行しており、かつこのユニットの12mv以内に全体が入っている味方**ブラッドナイト**・ユニットを1個選択する。",
+   "effect": "そのターン中、このユニットが装備している**テンプル騎士の武器**の【貫通値】は+1の修正を受ける。"
+  },
+  "Vampire Lord|Sanguine Blur": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、このユニットを戦場から取り除き、**英雄**ではないあらゆる敵ユニットから9mvより遠く離れ、かつあらゆる敵**英雄**から3mvより遠く離れた戦場の位置に再配置する。"
+  }
+ },
+ "group_names": {
+  "Scions of Nulahmia Artefact of Power": "神器",
+  "Scions of Nulahmia Battle Traits": "戦闘特性",
+  "Scions of Nulahmia Heroic Trait": "英雄特性",
+  "Scions of Nulahmia Spell Lore": "呪文伝承"
+ },
+ "group_texts": {
+  "Scions of Nulahmia Artefact of Power": "（**英雄**のみ）",
+  "Scions of Nulahmia Heroic Trait": "（**英雄**のみ）"
+ },
+ "wargear_option_texts": {},
+ "faction_name": "ヌラーミアの御子"
+}

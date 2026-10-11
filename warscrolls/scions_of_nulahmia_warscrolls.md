@@ -1,4 +1,4 @@
-# Scions of Nulahmia ウォースクロール一覧
+# ヌラーミアの御子(Scions of Nulahmia) ウォースクロール一覧
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
@@ -7,7 +7,7 @@
 
 ---
 
-## Bloodseeker Palanquin (Legends)
+## ブラッドシーカー・パランクィン(Bloodseeker Palanquin) (Legends)
 
 **ポイント:** 220pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
@@ -23,26 +23,26 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Sanguinarch’s Stiletto | 5 | 3+ | 3+ | 1 | 2 | Crit (2 Hits) |
-| Spectral Host’s Blades | 10 | 4+ | 4+ | - | 1 | Companion |
+| サングィナークのスティレット(Sanguinarch’s Stiletto) | 5 | 3+ | 3+ | 1 | 2 | クリティカル（2ヒット）(Crit (2 Hits)) |
+| 霊体群の刃(Spectral Host’s Blades) | 10 | 4+ | 4+ | - | 1 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **A Promising Concoction**（Once Per Battle (Army), Your Combat Phase）
-  - 宣言: Pick up to 3 friendly **VAMPIRE** units wholly within 12" of this unit to be the targets.
-  - 効果: Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn.
-- **Wails of the Damned**（Passive）
-  - 効果: Subtract 3 from the control scores of enemy units while they are within 12" of this unit.
+- **良質な調合薬(A Promising Concoction)**（バトル中1回限り（アーミー）、自軍側近接フェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**ヴァンパイア**・ユニットを最大3個まで選択する。
+  - 効果: そのターン中、選択された味方ユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。
+- **呪われし者の嘆き(Wails of the Damned)**（パッシブ）
+  - 効果: このユニットの12mv以内に一部でも入っている敵ユニットは、確保スコアに-3の修正を受ける。
 
 **連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
-**キーワード:** Hero, War Machine, Wizard (1), Fly, Ward (6+), Death, Soulblight Gravelords, Vampire
+**キーワード:** 英雄、戦闘兵器、魔術師（1）、飛行、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、ヴァンパイア（Hero, War Machine, Wizard (1), Fly, Ward (6+), Death, Soulblight Gravelords, Vampire）
 
 ---
 
-## Coven Throne
+## コヴン・スローン(Coven Throne)
 
 **ポイント:** 210pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
@@ -58,29 +58,29 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Spectral Host’s Blades | 10 | 4+ | 4+ | - | 1 | Companion |
-| Matriarch’s Stiletto | 5 | 3+ | 3+ | 1 | 2 | Crit (2 Hits) |
-| Acolytes’ Poniards | 6 | 3+ | 3+ | 1 | 1 | - |
+| 霊体群の刃(Spectral Host’s Blades) | 10 | 4+ | 4+ | - | 1 | 随行者(Companion) |
+| 家母長のスティレット(Matriarch’s Stiletto) | 5 | 3+ | 3+ | 1 | 2 | クリティカル（2ヒット）(Crit (2 Hits)) |
+| 侍祭のポニャード(Acolytes’ Poniards) | 6 | 3+ | 3+ | 1 | 1 | - |
 
 **アビリティ:**
 
-- **Scrying Pool**（Passive）
-  - 効果: If a friendly **SOULBLIGHT GRAVELORDS** unit wholly within 12" of this unit uses the ‘Redeploy’ command, you can pick another friendly **SOULBLIGHT GRAVELORDS** unit wholly within 12" of this unit that has not used a command this phase to use the ‘Redeploy’ command immediately after the first has been resolved (this is an exception to Commands, 1.2). No command point is spent the second time that command is used.
-- **Tactical Insight**（Passive）
-  - 効果: Friendly **DEATHRATTLE** and **DEADWALKERS** units have **WARD (5+)** while they are wholly within 6" of this unit.
-- **A Promising Concoction**（Once Per Battle (Army), Your Combat Phase）
-  - 宣言: Pick up to 3 friendly **VAMPIRE** units wholly within 12" of this unit to be the targets.
-  - 効果: Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn.
+- **占いの泉(Scrying Pool)**（パッシブ）
+  - 効果: このユニットの12mv以内に全体が入っている味方**ソウルブライト・グレイヴロード**・ユニットが『再配置』指揮アビリティを使用する際、このユニットの12mv以内に全体が入っており、現在のフェイズ中にまだ~~『再配置』~~指揮アビリティを使用していない他の味方**ソウルブライト・グレイヴロード**・ユニットを1個選択してもよい。一つ目の『再配置』指揮アビリティが解決された直後に、選択された味方ユニットはただちに『再配置』指揮アビリティを使用する（これは『指揮アビリティ、1.2』のルールに対する例外となる）。二つ目の指揮アビリティにおいて、指揮ポイントは消費されない。
+- **戦術的洞察(Tactical Insight)**（パッシブ）
+  - 効果: このユニットの6mv以内に全体が入っている味方**デスラトル**と**デッドウォーカー**・ユニットは**加護（5+）**を持つ。
+- **良質な調合薬(A Promising Concoction)**（バトル中1回限り（アーミー）、自軍側近接フェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っている味方**ヴァンパイア**・ユニットを最大3個まで選択する。
+  - 効果: そのターン中、選択された味方ユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。
 
 **連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
-**キーワード:** Hero, War Machine, Wizard (1), Fly, Ward (6+), Death, Soulblight Gravelords, Vampire
+**キーワード:** 英雄、戦闘兵器、魔術師（1）、飛行、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、ヴァンパイア（Hero, War Machine, Wizard (1), Fly, Ward (6+), Death, Soulblight Gravelords, Vampire）
 
 ---
 
-## Dire Wolves
+## ダイアウルフ(Dire Wolves)
 
 **ポイント:** 150pt / **モデル数:** 10 / **ベースサイズ:** 60 x 35mm
 
@@ -94,20 +94,20 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Rotting Fangs and Claws | 2 | 4+ | 3+ | - | 1 | Companion |
+| 腐った爪と牙(Rotting Fangs and Claws) | 2 | 4+ | 3+ | - | 1 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **On The Hunt**（Passive）
-  - 効果: This unit can use a **RUN** ability and still use **CHARGE** abilities later in the turn.
-- **Beast**（Passive）
-  - 効果: This unit has a maximum control score of 1.
+- **獲物を追うもの(On The Hunt)**（パッシブ）
+  - 効果: このユニットは**『全力移動』**アビリティを使用していたとしても、そのターンの後半に**『突撃』**アビリティを使用できる。
+- **獣兵(Beast)**（パッシブ）
+  - 効果: このユニットは最大1の確保スコアを得る。
 
-**キーワード:** Beast, Champion (1/10), Ward (6+), Death, Soulblight Gravelords, Deadwalkers
+**キーワード:** 獣兵、豪傑（1/10）、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、デッドウォーカー（Beast, Champion (1/10), Ward (6+), Death, Soulblight Gravelords, Deadwalkers）
 
 ---
 
-## Fell Bats
+## フェルバット(Fell Bats)
 
 **ポイント:** 90pt / **モデル数:** 3 / **ベースサイズ:** 40mm
 
@@ -121,20 +121,20 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Chiropteran Fangs | 3 | 4+ | 4+ | - | 2 | Companion |
+| 蝙蝠のごとき牙(Chiropteran Fangs) | 3 | 4+ | 4+ | - | 2 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Fleet and Fell**（Passive）
-  - 効果: This unit can use **CHARGE** abilities even if it used a **RETREAT** ability in the same turn. In addition, no mortal damage is inflicted on this unit by **RETREAT** abilities.
-- **Beast**（Passive）
-  - 効果: This unit has a maximum control score of 1.
+- **恐るべき俊敏(Fleet and Fell)**（パッシブ）
+  - 効果: このユニットは現在のターン中に**『退却』**アビリティを使用していた場合でも**『突撃』**アビリティを使用できる。さらに、このユニットは**『退却』**アビリティを使用した際に致命的ダメージを受けない。
+- **獣兵(Beast)**（パッシブ）
+  - 効果: このユニットは最大1の確保スコアを得る。
 
-**キーワード:** Beast, Fly, Ward (6+), Death, Soulblight Gravelords, Deadwalkers
+**キーワード:** 獣兵、飛行、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、デッドウォーカー（Beast, Fly, Ward (6+), Death, Soulblight Gravelords, Deadwalkers）
 
 ---
 
-## Scourge of Ghyran Sekhar, Fang of Nulahmia
+## グューランの禍事 “ヌラーミアの牙”セカール(Scourge of Ghyran Sekhar, Fang of Nulahmia)
 
 **ポイント:** 190pt / **モデル数:** 1 / **ベースサイズ:** 60 x 35mm
 
@@ -150,30 +150,30 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Ouboroth’s Godhusk Fangs | 3 | 4+ | 3+ | 2 | D3 | Companion |
-| Nulahmian Warglaive | 5 | 3+ | 3+ | 1 | 2 | Crit (2 Hits) |
+| ウボロスの神殻の牙(Ouboroth’s Godhusk Fangs) | 3 | 4+ | 3+ | 2 | D3 | 随行者(Companion) |
+| ヌラーミアの戦槍(Nulahmian Warglaive) | 5 | 3+ | 3+ | 1 | 2 | クリティカル（2ヒット）(Crit (2 Hits)) |
 
 **アビリティ:**
 
-- **Irresistible Demand**（Your Hero Phase / 詠唱/詠誦値 6） ［Spell］
-  - 宣言: Pick a visible enemy **HERO** within 18" of this unit to be the target. Then, make a casting roll of 2D6.
-  - 効果: Inflict D3 mortal damage on each other enemy unit within 3" of the target.
-- **Lest You Forget...**（Once Per Battle Round, Reaction: Opponent declared a SPELL or CHARGE ability for a visible enemy unit within 18" of this unit）
-  - 効果: Pick 1 dice from the charge roll or casting roll for that ability. Your opponent must re-roll that dice.
-- **Allow Me to Remind You...**（Once Per Turn, Reaction: Opponent declared a command for a visible enemy unit within 18" of this unit / 詠唱/詠誦値 7）
-  - 効果: Roll a dice. On a 5+, that command has no effect, it still counts as having been used and the command points spent to use it are still lost.
+- **抗しがたい服従(Irresistible Demand)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6） ［呪文］
+  - 宣言: このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵**英雄**を1体選択し、2D6の詠唱ロールをする。
+  - 効果: 選択された敵英雄の3mv以内に一部でも入っている自身以外の各敵ユニットは、それぞれD3ポイントの致命的ダメージを受ける。
+- **お忘れなきよう……(Lest You Forget...)**（各バトルラウンドにつき1回、リアクション：このユニットの18mv以内に一部でも入っており、かつ視認状態である敵ユニットが『呪文』または『突撃』アビリティを宣言）
+  - 効果: そのアビリティの突撃ロールあるいは詠唱ロールからダイスを1個選択する。敵軍側は選択されたダイスをリロールしなければならない。
+- **思い出させてあげよう……(Allow Me to Remind You...)**（各ターンにつき1回、リアクション：敵軍側が、このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットに対して指揮アビリティを宣言 / 詠唱/詠誦値 7）
+  - 効果: ダイスを1個ロールする。ロール結果が5+であれば、その指揮アビリティは効果を発揮せず、指揮アビリティは依然として使用されたものとみなされ、その指揮アビリティを使用するために消費した指揮ポイントも失われる。
 
 **連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
-**キーワード:** Unique, Hero, Wizard (2), Infantry, Ward (6+), Death, Soulblight Gravelords, Vampire
+**キーワード:** 固有、英雄、魔術師（2）、歩兵、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、ヴァンパイア（Unique, Hero, Wizard (2), Infantry, Ward (6+), Death, Soulblight Gravelords, Vampire）
 
 **ノート:** This unit is legal for Matched Play for battles fought using the *General’s Handbook 2025-26* battlepack.
 
 ---
 
-## Sekhar, Fang of Nulahmia
+## ヌラーミアの牙セカール(Sekhar, Fang of Nulahmia)
 
 **ポイント:** 160pt / **モデル数:** 1 / **ベースサイズ:** 60 x 35mm
 
@@ -189,29 +189,29 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Nulahmian Warglaive | 5 | 3+ | 3+ | 1 | 2 | Crit (2 Hits) |
-| Ouboroth’s Godhusk Fangs | 3 | 4+ | 3+ | 2 | D3 | Companion |
+| ヌラーミアの戦槍(Nulahmian Warglaive) | 5 | 3+ | 3+ | 1 | 2 | クリティカル（2ヒット）(Crit (2 Hits)) |
+| ウボロスの神殻の牙(Ouboroth’s Godhusk Fangs) | 3 | 4+ | 3+ | 2 | D3 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **The Time-Swallower's Maw**（Once Per Battle, Any Combat Phase）
-  - 宣言: Pick each enemy unit in combat with this unit to be the targets.
-  - 効果: This unit cannot use the ‘Serpentine Agility’ ability for the rest of the battle. Roll 2D6 for each target. If the roll exceeds the target’s Move characteristic, inflict an amount of mortal damage on the target equal to the difference between the roll and its Move characteristic.
-- **Death's Construction**（Your Hero Phase / 詠唱/詠誦値 7） ［Spell］
-  - 宣言: Pick a visible enemy unit within 12" of this unit to be the target, then make a casting roll of 2D6.
-  - 効果: Until the start of your next turn, while they are wholly within 6" of this unit, friendly **SOULBLIGHT GRAVELORDS** units cannot be picked to be the target of abilities used by the target other than **FIGHT** abilities.
-- **Serpentine Agility**（Passive）
-  - 効果: If the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends.
+- **時喰らいの顎(The Time-Swallower's Maw)**（バトル中1回限り、任意の近接フェイズ）
+  - 宣言: このユニットと近接戦闘中である各敵ユニットを選択する。
+  - 効果: 以降バトル終了時まで、このユニットは『蛇の俊敏さ』アビリティを使用できない。選択された各敵ユニットに対して、それぞれ2D6をロールする。ロール結果がロール対象である敵ユニットの【移動力】を上回る場合、ロール対象の敵ユニットは、~~その【移動力】からロール結果~~==ロール結果からその【移動力】==を減算した数の致命的ダメージを受ける。
+- **死の構築(Death's Construction)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 7） ［呪文］
+  - 宣言: このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、~~選択された敵ユニットがこのユニットの6mv以内に全体が入っている間、その敵ユニットは味方**ソウルブライト・グレイヴロード**・ユニットを~~==このユニットの6mv以内に全体が入っている味方ソウルブライト・グレイヴロード・ユニットを、選択された敵ユニットが==アビリティの対象として選択できるのは**『近接攻撃』**アビリティだけである。
+- **蛇の俊敏さ(Serpentine Agility)**（パッシブ）
+  - 効果: このユニットを対象とする~~メレーアタック~~==攻撃==において、修正前のヒットロールで出目1-4が出た場合、その攻撃は失敗し、攻撃手順を終了する。
 
 **連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
-**キーワード:** Unique, Hero, Wizard (2), Infantry, Ward (6+), Death, Soulblight Gravelords, Vampire
+**キーワード:** 固有、英雄、魔術師（2）、歩兵、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、ヴァンパイア（Unique, Hero, Wizard (2), Infantry, Ward (6+), Death, Soulblight Gravelords, Vampire）
 
 ---
 
-## Vampire Lord
+## ヴァンパイア・ロード(Vampire Lord)
 
 **ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 40mm
 
@@ -227,22 +227,22 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Dynastic War-relic | 5 | 3+ | 3+ | 1 | 2 | Anti-HERO (+1 Rend), Crit (2 Hits) |
+| 名家の戦遺物(Dynastic War-relic) | 5 | 3+ | 3+ | 1 | 2 | 対英雄（+1貫通値）(Anti-HERO (+1 Rend)), クリティカル（2ヒット）(Crit (2 Hits)) |
 
 **アビリティ:**
 
-- **Sanguine Blur**（Once Per Turn (Army), Your Hero Phase）
-  - 効果: Roll a dice. On a 3+, remove this unit from the battlefield and set it up again on the battlefield more than 9" from all enemy non-**HERO** units and more than 3" from all enemy **HEROES**.
+- **鮮血の残像(Sanguine Blur)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、このユニットを戦場から取り除き、**英雄**ではないあらゆる敵ユニットから9mvより遠く離れ、かつあらゆる敵**英雄**から3mvより遠く離れた戦場の位置に再配置する。
 
 **連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
-**キーワード:** Hero, Wizard (1), Infantry, Ward (6+), Death, Soulblight Gravelords, Vampire
+**キーワード:** 英雄、魔術師（1）、歩兵、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、ヴァンパイア（Hero, Wizard (1), Infantry, Ward (6+), Death, Soulblight Gravelords, Vampire）
 
 ---
 
-## Vampire Lord on Nightmare Steed
+## ヴァンパイア・ロード（ナイトメア騎乗）(Vampire Lord on Nightmare Steed)
 
 **ポイント:** 170pt / **モデル数:** 1 / **ベースサイズ:** 80mm
 
@@ -258,19 +258,19 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Dynastic Cavalier Weapon | 5 | 3+ | 3+ | 2 | 2 | Charge (+1 Damage) |
-| Nightmare’s Hooves and Teeth | 3 | 5+ | 3+ | - | 1 | Companion |
+| 王家の騎馬武器(Dynastic Cavalier Weapon) | 5 | 3+ | 3+ | 2 | 2 | 突撃（+1ダメージ量）(Charge (+1 Damage)) |
+| ナイトメアの蹄と歯(Nightmare’s Hooves and Teeth) | 3 | 5+ | 3+ | - | 1 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Strike At The Heart**（Any Combat Phase）
-  - 宣言: Pick a friendly **Blood Knights** unit that charged this turn and is wholly within 12" of this unit to be the target.
-  - 効果: Add 1 to the Rend characteristic of that unit’s **Templar Weapons** for the rest of the turn.
-- **'For Glory! For Blood!'**（Reaction: You declared a CHARGE ability for this unit）
-  - 効果: You can re-roll the charge roll for that **CHARGE** ability. Then, before the charge move is made, you can pick a friendly **Blood Knights** unit that is not in combat, is wholly within 12" of this unit and has not used a **CHARGE** ability this turn to be the target. If this unit charges, then, immediately after the **CHARGE** ability used by this unit has been resolved, the target can immediately use the ‘Charge’ ability even if it is not your charge phase. In addition, you can re-roll charge rolls for the target this phase.
+- **心臓部を討て(Strike At The Heart)**（任意の近接フェイズ）
+  - 宣言: このターン中に突撃を実行しており、かつこのユニットの12mv以内に全体が入っている味方**ブラッドナイト**・ユニットを1個選択する。
+  - 効果: そのターン中、~~この~~==選択された味方==ユニットが装備している**テンプル騎士の武器**の【貫通値】は+1の修正を受ける。
+- **血と栄光の為に！('For Glory! For Blood!')**（リアクション：自軍側が『突撃』アビリティを宣言）
+  - 効果: 宣言した**『突撃』**アビリティの突撃ロールをリロールできる。その後、突撃移動が実行される前に、現在のターン中に**『突撃』**アビリティを使用しておらず、かつこのユニットの12mv以内に全体が入っており、なおかつ近接戦闘中ではない味方**ブラッドナイト**・ユニットを1個選択してもよい。突撃を宣言したユニットが突撃を実行する際、そのユニットの**『突撃』**アビリティが解決された直後に、選択された味方ユニットは、自軍側突撃フェイズ中ではなくてもただちに『突撃』アビリティを使用できる。さらに、そのフェイズ中、その味方ユニットは突撃ロールをリロールできる。
 
 **連隊オプション:**
 
 - Any **SOULBLIGHT GRAVELORDS**
 
-**キーワード:** Hero, Wizard (1), Cavalry, Ward (6+), Death, Soulblight Gravelords, Vampire
+**キーワード:** 英雄、魔術師（1）、騎兵、加護（6+）、死の大同盟、ソウルブライト・グレイヴロード、ヴァンパイア（Hero, Wizard (1), Cavalry, Ward (6+), Death, Soulblight Gravelords, Vampire）

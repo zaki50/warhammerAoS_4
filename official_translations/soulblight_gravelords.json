@@ -1,0 +1,1511 @@
+{
+ "_faction": "ソウルブライト・グレイヴロード (Soulblight Gravelords)",
+ "_source": [
+  "バトルトーム：ソウルブライト・グレイヴロード 日本語版（スキャン）pp.64-71（ルール・陣営ルール：戦闘特性 p.66、戦闘陣形 p.68、英雄特性・神器 p.69、呪文伝承 p.70、顕現伝承 p.71）",
+  "同 p.122（ルール・リファレンス。照合と、顕現伝承の旧版の効果文の採用元）",
+  "バトルトーム：ソウルブライト・グレイヴロード 日本語版 pp.72–85（ウォースクロール前半。Dropbox: BattleTombPages/SoulblightGravelords/SoulblightGravelords_072〜085_Warscrolls.png のスキャン）。p.81 は設定文と写真のみ",
+  "ルール・アップデート 2026年9月（英語版 p.70、ソウルブライト・グレイヴロードのエラッタ）: 改訂箇所の確認のみ（日本語訳は担当外）",
+  "陣営パック ソウルブライト・グレイヴロード 2024年12月（英語版、_old）: 旧版ルールの確認のみ",
+  "バトルトーム：ソウルブライト・グレイヴロード 日本語版 pp.86-99（Dropbox: BattleTombPages/SoulblightGravelords のスキャン）。p.93 右・p.99 は設定文（訳の対象外）",
+  "グューランの禍事 ソウルブライト・グレイヴロード 2025年9月（PDF 2頁。p.1 戦闘陣形 2件（霊廟の守衛／呪われた肌変わり）・英雄特性表『不死の暴君』、p.2 ウォースクロール 2件：“ヌラーミアの牙”セカール／コープスカート）＋同英語版。テキスト層で読み、太字は 200dpi の画像で確認",
+  "アキュシーの禍事 ソウルブライト・グレイヴロード 2026年9月（PDF 3頁。p.1 英雄特性表『呪われし血脈』・『悍ましき恐怖譚の起源』、p.2 レヴェナント・ドラコニス、p.3 ヴェンゴリアン・ロード）＋同英語版。old/ の 2026年7月版（日英）とはテキスト層で照合（違いはヴェンゴリアン・ロードの『狂乱の奔流』だけ）",
+  "バトルトーム・サプリメント ソウルブライト・グレイヴロード（日本語版・英語版 PDF 16頁）p.11 戦闘陣形『ウルフェンカーンの軍団』、pp.11–16 ウォースクロール 10件（“侍従”トーギリウス／監視隊長ハルグリム／“墓守”ゴルスラフ／ヴァーコス・ブラッドボーン／ヴァーグスカイア／コサルギ・ナイトガード／ブラッドシーカー・パランクィン／ヴァンパイア・ロード（ゾンビドラゴン騎乗）／カド・エゼキアル（虚ろの王）／テラーガイスト）。サプリメント自体に『ルール・アップデート（2025年5月版）』とある。200dpi の画像で太字を確認",
+  "レジェンド・ウォースクロール 2026年7月 日本語版 pp.38–40（英語版 pp.37–39）：紅の宮廷団／追放されし亡者／墳墓の守り手／ヴェルモーンの子ら／ゾンダラの墓砕き（p.38 左のカイナンの収穫隊はオシアーク）",
+  "名高き連隊 ソウルブライト・グレイヴロード 2026年3月（日英）：中身は名高き連隊『シュテルニエステ城の獣』『虚ろの王刃団』のルールだけで、現行 md に出てくるもの（キー）は無いので対象外",
+  "照合用: バトルトーム日本語版 p.2 目次（“ヌラーミアの牙”セカール、虚ろの王刃団カド・エゼキアル、ヴァンパイアロード（ナイトメア騎乗）などユニット名の表記）",
+  "デスラトル墳墓隊: バトルトーム：ソウルブライト・グレイヴロード 日本語版 pp.100-107（p.105 戦闘特性・連隊アビリティ・強化、pp.106-107 スピアヘッド・ウォースクロール）と スピアヘッド/ソウルブライト・グレイヴロード デスラトル墳墓隊 202604.pdf（本文は書籍と同文）。英語は同 (英語).pdf",
+  "ブラッドクレイヴ・ハント: スピアヘッド/ソウルブライト・グレイヴロード ブラッドクレイヴ・ハント 202604.pdf（pp.1-7）。英語は同 (英語).pdf",
+  "ルール・アップデート 2026年7月・8月・9月（日本語版。バトルトーム：ソウルブライト・グレイヴロードのエラッタ内「スピアヘッド、デスラトル墳墓隊」、スピアヘッド改訂ページ内「ソウルブライト・グレイヴロード – 吸血族の狩り」）、ルール・アップデート 2026年9月（英語）。エラッタ 2026年6月・ルール・アップデート 2026年4月も確認",
+  "名前の照合: 書籍の通常版ウォースクロール p.84（ヴァンパイア・ロード）、frag_ws2.json（pp.86-99）、frag_rules.json",
+  "ルール・アップデート 2026年9月（エラッタ。7月・8月号と同文）。書籍より新しいので本文に適用"
+ ],
+ "_notes": [
+  "書籍 p.64 の説明では戦闘陣形は「4つ」（シャイシュの兵団・血の饗宴・死臭の車列・死の行進）。現行の Cryptmasters / Skinshifters / Legions of Ulfenkarn（Legends）は書籍に無い（_unread）。",
+  "group_names: 戦闘特性は見出しの「戦闘特性」。英雄特性の表名「呪われし血脈（英雄のみ）」、神器の表名「死の家宝(英雄のみ)」は括弧部分を group_texts「（**英雄**のみ）」に分けた（「英雄」は書籍で太字）。The Cursed Bloodlines は Battletome 版と Scourge of Aqshy 版で同じ英語名なので、group_names/group_texts の訳は Scourge 版の見出しにもかかる（親で確認を）。",
+  "group_texts の戦闘特性前置き文は書籍 p.66 どおり末尾がコロン（「使用できる：」）。",
+  "Ancient Burial Sites のデザイナーズ・ノートは、スキャンでは本文全体が太字に近い書体で、書籍の太字（呪われた墓など）と区別がつかない。ヘルスミスの先例に合わせ、「デザイナーズ・ノート：」以下を太字なしで効果の末尾に \\n でつないだ。",
+  "回復の太字: 書籍は「**回復** (3)」「**回復** (D3)」のように括弧部分が太字でない箇所と、The Hunger 2文目の「**回復 (2D3)**」のように全体が太字の箇所がある。見たとおりに分けた。",
+  "Aristocracy of the Night の1つ目の「+1」は書籍では全角の「＋1」に見える（2つ目は半角）。半角に揃えた。",
+  "Endless Legions の効果は書籍で2段落（「自軍側移動フェイズ中である場合、…」から改段落）なので \\n で区切った。",
+  "Dragged Down and Torn Apart（死臭の車列）: 書籍の宣言は「味方**デッドウォーカー**・ユニットを最大3個まで選択する。」で、現行英語の in combat（近接戦闘中）に当たる語が無い。ルールとして違うので ability_texts に入れず _outdated_texts に置いた（2024年の英語版初版にも in combat があったなら訳抜け＝_book_issues 扱いが正しい。親で判断を）。名前（ability_names）は採用。",
+  "顕現伝承（p.71 死地の顕現）の3呪文は、効果欄がユーザーの貼った訂正紙片（ピンク）と黄色のテープで覆われており、書籍本来の効果文は読めない。紙片の文は使っていない。宣言と名前・キーワードは読めた。p.122 ルール・リファレンスの『効果の概要』に書籍本来の効果文と思われるもの（18mv）があり、いずれも現行の英語と違うので、宣言（p.71）＋効果（p.122）を _outdated_texts に置いた。ability_texts には入れていない。",
+  "p.122 ルール・リファレンスとの差: 呪文名「嘆きの牢獄」（p.70 は「悲嘆の牢獄」。p.70 を採用）。邪悪なる生命転移の概要に「その敵ユニットはD3ポイントの致命的ダメージを受ける。」が余計に入っている（p.70 の本文には無い。リファレンス側の誤り。p.70 を採用）。古代の埋葬地の概要「追加の呪われたを」（「墓」の脱字。リファレンス側）。",
+  "Prison of Grief / Waste Away の宣言は書籍どおり「この呪文を詠唱する、味方…魔術師を1個選択する」（Vile Transference は「詠唱する際に、…1体選択する」）。意味は変わらないので訂正していない。",
+  "顕現ユニット名（参考。unit_names は担当外）: Hand of Nagash＝ナガッシュの手、Unholy Reliquary＝罪咎の棺、Sanguine Swarm＝吸血の群れ（p.71・p.122）。Cursed Sepulchre＝呪われた墓（p.66）。in the grave＝墓の中（太字）。",
+  "keyword_names は本文中に出たキーワードのうち単独キーのものだけ載せた（ウォースクロール担当の訳と食い違えば書籍の他ページを優先して親で調整を）。",
+  "ルビ: 該当なし（pp.66-71 の規則部分）。p.65 に「墳墓隊（トゥームホスト）」「吸血族の狩り（ブラッドクレイヴ・ハント）」「真紅の城塞勲爵士団（ナイツ・オヴ・クリムゾンキープ）」「墳墓軍団（バロウ・レギオン）」「虚ろの王刃団（ブレイド・オヴ・ハロウキング）」のルビ。背景文（イタリックの導入文）は載せていない。",
+  "担当: バトルトーム「ソウルブライト・グレイヴロード」日本語版 pp.72–85（ウォースクロール前半）。p.81 は設定文と写真のみ。収録ユニット: p.72 ナガッシュ、p.73 ヴォルドライ王子、p.74 ネフェラタ、p.75 マンフレッド、p.76 ラウカ・ヴァイ、p.77 ヴェンゴリアン・ロード、p.78 虚ろの王刃団、p.79 セカール、p.80 餓狼王ラドゥカール／“野獣”ラドゥカール、p.82 イヴヤ・ヴォルガ／ベラダンマ・ヴォルガ、p.83 レディ・アンニカ／クリッツァ、p.84 ヴァンパイア・ロード（ナイトメア騎乗）／ヴァンパイア・ロード、p.85 レヴェナント・ドラコニス。",
+  "Radukar the Beast の『狩りの呼び声』(Call to the Hunt): 書籍の効果は対象が「味方デスラトル、デッドウォーカー、ヴァーコス・ブラッドボーン・ユニット」で、旧版（陣営パック 2024年12月の英語も Vyrkos Blood-born を含む）。現行の英語は Deathrattle と Deadwalkers だけ。ルールとして違うので effect は ability_texts に載せず _outdated_texts に書籍どおり残した（timing だけ載せた）。Radukar the Wolf の同名アビリティは書籍でも Blood-born を含まず現行と一致するので載せた。アビリティ名は両ユニットとも「狩りの呼び声」なので名前だけのキー。",
+  "Radukar the Beast のユニット名は書籍の表題どおり引用符付きの「“野獣”ラドゥカール」（引用符は表題の一部。ベラダンマの『ヴァーコスの拳』本文中でも「**“野獣”ラドゥカール**」）。Radukar the Wolf は表題「餓狼王ラドゥカール」（副題なし）。",
+  "Belladamma Volga の『殺戮の月の下で』(Under a Killing Moon): ルール・アップデート 2026年9月（英語 p.70）で効果の 1 つ目の箇条が「近接武器（随行者武器を含む）の【貫通値】+1」に改訂されている。書籍スキャンではその箇所（「近接武器」の上）にユーザーが「（『随行者』武器を含む）」と書いた紙片を貼っている（改訂の印。紙片の文は訳に使わない）。書籍の効果は旧版なので ability_texts には timing・declare・keywords だけ入れ、効果は _outdated_texts に書籍どおり残した。日本語のルール・アップデートの訳があれば効果を差し替えたい。",
+  "サブネーム付きのユニット名は先例（不死者の至高なる主ナガッシュ、死都の御使カタクロス）にならい書籍の副題を前に付けた: Ivya Volga, The Outcast → 追放されし者イヴヤ・ヴォルガ（表題「イヴヤ・ヴォルガ」、副題「追放されし者」）、Belladamma Volga, First of the Vyrkos → ヴァーコスの筆頭騎士ベラダンマ・ヴォルガ、Lady Annika, the Thirsting Blade → 渇きたる刃レディ・アンニカ、Kritza, the Rat Prince → 鼠の王子クリッツァ、Sekhar, Fang of Nulahmia → ヌラーミアの牙セカール（副題は“ヌラーミアの牙”と引用符付き。カタクロスの先例どおり引用符は外した）。ベラダンマの『ヴァーコスの拳』本文中では「イヴヤ・ヴォルガ」「レディ・アンニカ」「クリッツァ」と副題なしで呼んでいる。",
+  "Ivya Volga の『巨獣に死をもたらすもの』の効果は書籍で「敵**大型獣**ユニット」と「・」が無い。書籍どおり。",
+  "Vampire Lord on Nightmare Steed: 書籍の表題は「ヴァンパイア・ロード」、その下に副題「ナイトメア騎乗」。先例（ハグクィーン（コルドロン・オヴ・ブラッド搭乗）、ドミネイター・エンジン（破滅のメイス装備））にならい「ヴァンパイア・ロード（ナイトメア騎乗）」とした。",
+  "'For Glory! For Blood!'（血と栄光の為に！）: 書籍のアビリティ名に括弧・引用符は無い。効果文中の『突撃』は 1〜3 つ目が太字、4 つ目（「ただちに『突撃』アビリティを使用できる」）は太字でない。書籍どおり。timing の『突撃』は先例どおり太字にしていない。",
+  "Revenant Draconith: 武器名「竜の顎」に「あぎと」のルビ（載せていない）。Red Ruin の効果 1 文目は書籍で「…それぞれ解決する、」と読点で終わる（書籍どおり）。Battle Damaged の「竜の爪」は太字でない（書籍どおり）。武器名は名前だけのキーにしたのでアキュシーの禍事版 Revenant Draconith にも当たる（禍事版は担当外）。",
+  "Nagash（p.72）: 名前・武器名・アビリティ名・本文はオシアーク・ボーンリーパーの書籍の同じウォースクロール（official_translations/ossiarch_bonereapers.json）と同じ。違いは『力の杖』の効果の「暴発させとしても」（ソウルブライト版の脱字。_book_issues）と、『ナガッシュの死霊呪文』の箇条 2 つ（ソウルブライト版は「その味方ユニットに撃破された兵を復帰させる（…）」「その味方ユニットは**加護（5+）**を持つ」、OBR 版は「その味方ユニット内の撃破されている兵を、その味方ユニットに復帰させる（…）」「選択された味方ユニットは…」）。ソウルブライト版を書籍どおりに採った。ユニット名は表題「ナガッシュ」＋副題「不死者の至高なる主」を OBR の先例どおり「不死者の至高なる主ナガッシュ」とした。",
+  "Prince Vhordrai の『鮮血の跡』(Trail of Crimson): 宣言欄が黒く塗りつぶされ、横にユーザーの貼り紙（改訂文の印刷）がある。ルール・アップデート 2026年9月（英語 p.70）の宣言の改訂に当たる。宣言は載せず（_unread）、timing・effect・keywords だけ載せた（効果は現行英語と一致）。貼り紙の文は訳に使っていない。",
+  "Prince Vhordrai の『虐殺の聖者』の宣言で「味方ヴァンパイア・ユニット」の「ヴァンパイア」は太字になっていない（書籍どおり）。効果の「【移動力】は+2の修正」は書籍に mv が無い（書籍どおり）。",
+  "Neferata: ユニット名は表題「ネフェラタ」＋副題「血の御使」で「血の御使ネフェラタ」。アビリティ The Mortarch of Blood も「血の御使」。武器名は書籍どおり引用符付き・全角＝（“漆黒の短剣”アクメット＝ハール、“罰の杖”アケン＝セス）。『黄泉の捕食獣』の宣言では武器名を「**アクメット＝ハール**」とだけ書き、背景文では「“漆黒の短剣”」。『黄昏の誘惑』は書籍に「効果：」の見出しが無く本文だけ（effect に入れた）。キーワード欄の「加護（6 +）」は書籍で 6 と + の間に空きがあるように見えるが、keyword_names は「加護（6+）」で統一。",
+  "Mannfred: ユニット名は表題「マンフレッド・フォン・カーシュタイン」＋副題「夜の御使」で「夜の御使マンフレッド・フォン・カーシュタイン」。アビリティ The Mortarch of Night も「夜の御使」。『夜の御使』のタイミング欄の「ソウルブライト・グレイヴロード」は書籍では太字だが、先例どおり timing では太字にしていない。",
+  "Lauka Vai: ユニット名は表題「ラウカ・ヴァイ」＋副題「悪夢の母」で「悪夢の母ラウカ・ヴァイ」。『悪夢の瘴気』(Nightmare's Miasma) は名前だけのキーにした（Vengorian Lord／アキュシーの禍事版 Vengorian Lord にも同名アビリティがあり、本文はユニット指定キーなので当たらない。武器 Gore-drenched Talons「血肉にまみれた鉤爪」も名前だけのキーで Vengorian Lord に当たる。別担当で訳が違えばユニット指定キーに）。",
+  "Blades of the Hollow King: 表題「虚ろの王刃団」に「ブレイド・オヴ・ハロウキング」のルビ（載せていない）。装備オプション文は武器表の下の 3 行の箇条（太字かどうかは判別しにくいが、他の箇所と同じ本文扱いで太字なしにした）。『天罰か救済か』の宣言は書籍で「12mv以内に一部が入っており」（英語は within 12\"。意味は同じ）。アビリティ名・武器名（エゼキアルの大剣）は名前だけのキーにしたので、レジェンドの Cado Ezechiar, The Hollow King の同名アビリティ名・武器名にも当たる（本文は Blades のユニット指定キーのみ）。",
+  "各ページ上部のポイント値の付箋（780、470 など）はユーザーの書き込み。訳には関係しない。",
+  "武器名・アビリティ名は担当範囲内で同名異訳が無いので名前だけのキーにした（Battle Damaged だけはユニット指定キー。他ページのユニットに当たらないように）。Draconic Maw / Draconic Claws / Pestilential Miasma は名前だけのキーなので、Vampire Lord on Zombie Dragon（Legends）やアキュシーの禍事版 Revenant Draconith にも当たる。別担当で訳が違えばユニット指定キーにすること。",
+  "keyword_names: キーワード欄の「加護（6 +）」（ネフェラタ・マンフレッド・ラウカ・ヴァイ・ヴォルドライ）は書籍の組版で 6 と + の間に空きがあるように見えるが、「加護（6+）」で統一。括弧は全角に揃えた。",
+  "対象: pp.86-98 のウォースクロール 20 件（Blood Knights / Vargheists / Askurgan Trueblades / Coven Throne / Mortis Engine / Wight King on Skeletal Steed / Wight King / Wight Lord on Skeletal Steed / Deathrattle Skeletons / Barrow Knights / Barrow Guard / Necromancer / Corpse Cart / Deadwalker Zombies / Fell Bats / Dire Wolves / Hand of Nagash / Unholy Reliquary / Sanguine Swarm / Cursed Sepulchre）。p.93 右・p.99 は設定文。ページ上部の黄色い付箋（ポイント）は無視した。",
+  "英語名との対応: 「罪咎の棺」= Unholy Reliquary（Draw on Power / 能力値 8・5+・追放7+ が一致）、「呪われた墓」= Cursed Sepulchre（陣営地形）、「吸血の群れ」= Sanguine Swarm、「ナガッシュの手」= Hand of Nagash。",
+  "サブタイトル付きの表題「ワイトキング（スケルタル・スティード騎乗）」「ワイトロード（スケルタル・スティード騎乗）」は書籍の表題＋小見出しを全角括弧でつないだ（DoK・ハシュットの先例どおり）。",
+  "書籍の半角括弧（加護 (5+)、回復 (D3)、クリティカル (2 ヒット) など）は全角括弧に揃え、半角英数字と全角文字の間の空白は詰めた。箇条書きの「・」は「• 」にした。",
+  "アビリティ本文の冒頭にある設定文（「破滅の乗り手：ブラッドナイトは…」の部分）は載せていない（効果・宣言のみ）。",
+  "同じ英語名の武器は書籍でも同訳: Spectral Host’s Blades（霊体群の刃: コヴン・スローン / モーティスエンジン）、Skeletal Steed’s Hooves and Teeth（スケルタル・スティードの蹄と歯: ワイトキング騎乗 / ワイトロード騎乗 / バロウナイト）。Beast（獣兵）はフェルバットとダイアウルフで同文なので名前は共通キー、本文はユニット指定キー。",
+  "Leeching Bites（吸血の嚙みつき）は武器名とアビリティ名が同じ。「嚙」は書籍の字形（口偏に齒）に合わせた。Crude Weapon or Infectious Bite（粗雑な武器と感染性の嚙みつき）も同じ字。「鉤爪」も書籍の字形どおり。",
+  "Wight King on Skeletal Steed|Ancient Barrow Curse（古代墳墓の呪い）: 効果の 2 文目（「呪われた状態になる」の後ろ約 1 行）が黒塗りされ、ピンクの貼り紙で改訂文が貼られている。効果は載せず（英語のまま）、_unread に挙げた。黒塗りされていない部分: 「効果：このユニットが装備している**王の遺物**でクリティカルヒットが出た場合、以降バトル終了時まで、その攻撃対象は**呪われた**状態になる■■■」「デザイナーズ・ノート：このアビリティは1個以上の敵ユニットを「呪われた」状態にすることができるが、同一の敵ユニットが「呪われた」状態になるのは1回だけである。」（ルール・アップデートの日本語訳があれば差し替えたい）",
+  "Necromancer|Vanhel's Danse Macabre（ヴァンヘルの死の舞踏）: 効果欄が黒塗り＋貼り紙で隠されている。timing・宣言だけ載せ、効果は _unread に挙げた。指揮ポイント 1 のアイコン付き（スクリプトが別に出すので timing には入れていない）。",
+  "Barrow Knights|Cursed To Rise Once More（再起の呪い）: タイミング欄「任意のターン終了時」に「各ターンにつき1回アーミー」と書いた付箋が重ねて貼られている（現行の英語は Once Per Turn (Army), End of Any Turn）。改訂の印なので timing は載せず（英語のまま）、効果だけ載せた。",
+  "Vargheists|Death's Descent のキーワード欄「コア」は keywords に入れた。",
+  "Cursed Sepulchre|Locus of Shyish の「死地の顕現」は伝承 Manifestations of the Grave の書籍訳と思われる（伝承担当の訳と照合のこと）。Cover / Impassable（地形ルール）の本文は書籍に無い（共通ルール側）。",
+  "lookups にある Vargheists|The Scent of Gore は書籍のヴァルガイストのウォースクロールに無い（スピアヘッド版のアビリティと思われる）。ここでは扱っていない。",
+  "書籍の文が現行の英語とルールとして違う旧版のもの（_outdated_texts）は今回の範囲には無かった（改訂箇所はすべてユーザーの黒塗り・貼り紙で示されている）。",
+  "禍事版のユニット名は先例（KO／オシアーク／ハシュット／DoK）どおり『グューランの禍事 …』『アキュシーの禍事 …』と前置きした。PDF の表題は『ウォースクロール：グューランの禍事』の下にユニット名だけ。",
+  "Scourge of Ghyran Sekhar: PDF 表題は『セカール』＋副題『“ヌラーミアの牙”』の 2 段組。書籍目次（p.2）と名高き軍勢 2026年9月のロスター・オプションの表記『“ヌラーミアの牙”セカール』（引用符の後の空白は詰めた）に合わせ『グューランの禍事 “ヌラーミアの牙”セカール』とした。通常版 Sekhar の書籍訳（別担当）と表記が違えば親で合わせること。",
+  "Cado Ezechiar, The Hollow King（Legends）: サプリメント p.15 の表題は『カド・エゼキアル』＋副題『虚ろの王』。副題を前に置く先例（死都の御使カタクロス等）に合わせて『虚ろの王カド・エゼキアル』とした。書籍目次 p.78 の『虚ろの王刃団カド・エゼキアル』は Blades of the Hollow King（別ユニット）。",
+  "Vampire Lord on Zombie Dragon: サプリメントの表題は『ヴァンパイア・ロード』＋2段目『（ゾンビドラゴン騎乗）』。『ヴァンパイア・ロード（ゾンビドラゴン騎乗）』とした（書籍目次の Vampire Lord on Nightmare Steed は『ヴァンパイアロード（ナイトメア騎乗）』と中黒なし。揃えるかは親で判断）。",
+  "Draconic Maw『竜の顎』は禍事 PDF・サプリメントとも『顎』に『あぎと』のルビ（ルビは載せない）。",
+  "Legends・サプリメントの md では見出しに（Legends）が付くが、資料はバトルトーム・サプリメント（10件）とレジェンド・ウォースクロール 2026年7月（5件）。レジェンド・ウォースクロール 2026年7月にはサプリメントの 10 件は載っていない。",
+  "禍事版・Legends・サプリメントの武器名・アビリティ名・キーワードはすべてユニット指定キー（\"ユニット英語名|…\"）にした（lookups もユニット指定）。",
+  "キーワード: Death は『死の大同盟』、War Machine は『戦闘兵器』（禍事 PDF・サプリメントとも）、Beast は『獣兵』、Champion は『豪傑』、Monster は『大型獣』と印刷。",
+  "weapon_ability_names は担当資料の表記（クリティカル（2ヒット）等。PDF の『2 ヒット』の空白は詰めた）。名前だけのキーで書籍と共有するので、書籍側の訳と違えば書籍を優先。",
+  "Immortal Ego: グューラン（不死の暴君）は『不滅の自負心』、アキュシー（呪われし血脈）は『不滅の自我』と名前が違う。キーは 1 つ（名前だけ）なので新しいアキュシー 2026年9月の『不滅の自我』を採った。効果文は両者同文。",
+  "The Cursed Bloodlines は書籍の英雄特性表と禍事（アキュシー）の表が同じ group_names / group_texts キーを共有する。ここにはアキュシー版の名前『呪われし血脈』と前置き『（**英雄**のみ）』を入れた。書籍の表名と違えば書籍を優先し親で判断。",
+  "戦闘陣形 Cryptmasters（霊廟の守衛）／Skinshifters（呪われた肌変わり）はグューランの禍事が出典（書籍に無い）なので担当として入れた。Cryptmasters のアビリティは dump では Unholy Site、グューラン英語版 PDF では UNHALLOWED SITE（訳は『不浄な地』）。",
+  "Legions of Ulfenkarn（ウルフェンカーンの軍団）はサプリメント p.11 の戦闘陣形。アビリティ『“餓狼王”の番人』（Wardens of the Wolf）。英語 md の Belladamma Volga 以下のユニット名は日本語版で 1 人ずつ太字。",
+  "Origins of Terrifying Folk Tales の group_texts は PDF どおり 2 文を \\n で区切った（PDF ではセンタリングで 2 行）。",
+  "ヴェンゴリアン・ロード『狂乱の奔流』（Frenzied Surge）: アキュシー 2026年7月版は旧ルール（X+D3mv、このユニットと対象が同時に移動、キーワード『蹂躙』）。2026年9月版で現行の英語（このユニットが Xmv→その後対象が Xmv）に改められており、こちらを採った。ただし 2026年9月の日本語版のタイミングは『任意の近接フェイズ』のままで、英語版 2026年9月・md は Any Charge Phase（_book_issues）。",
+  "『狂乱の奔流』の効果では『憤激レベル』が太字になっていない（他のアビリティでは太字）。書籍どおり。",
+  "サプリメント（2025年5月のルール・アップデート反映）とアプリ（md）で文が違うもの: “墓守”ゴルスラフ『墓園の番人』の第2項は、サプリメント英語版も日本語版も『1 mortal damage を与える』だが md は『allocate 1 damage point』（_book_issues に版の違いとして挙げた）。ブラッドシーカー・パランクィン『良質な調合薬』の宣言はサプリメント英語版・日本語版とも『視認状態である（visible）』があり、md には visible が無い（アプリ側の省略。訳はそのまま入れた）。",
+  "立ち上がれ！（Arise! Arise!）のタイミングは末尾に句点『。』がある（書籍どおり）。",
+  "歩哨の名残（Echoes of the Watch）の効果: 最初の『近接攻撃』だけ太字でなく、2・3番目は太字（書籍どおり）。",
+  "ゾンダラの墓砕き『諸領域からの強奪』の表は先例（KO こっちは作業中だ！）に倣い『1 **残酷なる希望：**…』の形で \\n 区切りにした。",
+  "wargear_option_texts（Legends 5件）: 兵の名前は PDF では斜体（太字ではない）。オシアーク版の先例（Kainan's Reapers）どおり太字にしていない。紅の宮廷団の Prince Duvalle は兵の一覧で『デュバル公爵』、フレーバーでは『プリンス・デュヴァル』。墳墓の守り手の『“墳墓総監”』等は引用符の後の空白を詰めた。",
+  "サプリメント p.11 の『“侍従”トーギリウス』等、引用符の後の組版上の空白は詰めた。",
+  "スピアヘッド名: Deathrattle Tomb Host は書籍 p.100・PDF とも「デスラトル墳墓隊」（ルビ トゥームホスト）。Bloodcrave Hunt は PDF の表題が「吸血族の狩り」（ルビ ブラッドクレイヴ・ハント。PDF のファイル名はルビの方）、ルール・アップデート 2026年9月も「吸血族の狩り」。ルビは載せていない。",
+  "Spearhead の戦闘特性・連隊アビリティ・強化の見出しは md の固定ラベルなので group_names には入れず、前置き文だけ group_texts に入れた（強化はどちらも「自軍のジェネラルに、…」で、自軍側ではない）。",
+  "ルール・アップデート 2026年7月（8月・9月も同文。英語 2026年9月と一致）のエラッタを当てた: (1) King of Shambling Bones（骸骨の将）の宣言を「このユニットの12mv以内に全体が入っている味方ユニットを1個選択する。」に（書籍・PDF は「味方**デスラトル**・ユニット」。書籍スキャンでは「デスラトル・」が黒塗り）。(2) Aura of Antiquity（古代の霊気）のタイミングを「各ターンにつき1回（アーミー）、自軍側近接フェイズ」に（書籍・PDF は「…、任意の近接フェイズ」。書籍スキャンでは付箋で修正。エラッタの「１回」は全角数字なので半角にした）。(3) Cursed To Rise Once More（再起の呪い）のタイミングを「自軍側ターン終了時」に（PDF は既にこの文。書籍スキャンは付箋で覆われていて元の文は読めない）。同じエラッタ欄の右段「バロウナイト『再起の呪い』… 各ターンにつき1回（アーミー）、任意のターン終了時」は通常版ウォースクロールの改訂でスピアヘッド版には当たらない。",
+  "ルール・アップデート 2026年9月の『吸血族の狩り』の改訂（骸骨の兵団の全文差し替え、無尽の軍団の効果の差し替え）は、スピアヘッド PDF（2026年4月）の文と同文（照合済み）。PDF が既に改訂後の文。",
+  "Skeleton Legion（骸骨の兵団）のキー衝突: Deathrattle Skeletons のスピアヘッド版は 2 つのスピアヘッドで本文が違う（デスラトル墳墓隊: 任意のターン終了時・D3体復帰 ／ 吸血族の狩り: 自軍側近接フェイズ・兵団ロール）が、キーは Spearhead|Deathrattle Skeletons|Skeleton Legion の 1 つしかない（aos_translations.py にスピアヘッド名で分けるキーが無い）。ability_texts には入れず、両方の訳を _pending に置いた。墳墓隊版は通常版（frag_ws2 の Deathrattle Skeletons|Skeleton Legion）と同文なので、Spearhead キーが無ければ墳墓隊には正しい訳が当たるが、吸血族の狩りには通常版の訳（誤り）が当たる。マージ時に (a) キーを入れない（吸血族の狩りが誤った訳）、(b) Spearhead キーに吸血族の狩り版を入れる（墳墓隊が誤った訳）、(c) スクリプトにスピアヘッド名付きのキーを足す、のどれかを判断してほしい。名前（骸骨の兵団）は両方とも通常版と同じ。",
+  "Endless Legions: スピアヘッド（吸血族の狩り）の連隊アビリティは「無尽の軍団」、ファクションルール（frag_rules）は「無尽蔵の軍団」。ability_names は Spearhead 版を区別できないので ability_names には入れず、本文だけ Spearhead|Endless Legions に入れた。名前の寄せ方はマージ時に判断が必要。",
+  "その他のユニット名・武器名・アビリティ名は通常版（書籍 p.84 ヴァンパイア・ロード、frag_ws2 のワイトキング・バロウガード・バロウナイト・デスラトル・スケルトン・ブラッドナイト・ヴァルガイスト）とファクションルール（frag_rules の The Rising Dead=起き上がる死者、The Hunger=血の餓え、Vile Transference=邪悪なる生命転移、group の Deathmarch=死の行進）と同じ訳なので名前だけのキーにした。スピアヘッドにしか無いもの: 武器 Templar Lance or Templar Blade（騎士の槍または騎士の剣。通常版は Templar Weapon=テンプル騎士の武器で英語名が別）、アビリティ The Scent of Gore・Aura of Antiquity・Overwhelming Hordes・Deathmarch（アビリティとして）・Propelled by Hate・Soul-drain Pendant・Stolen Animus・Shyishan Blade・Swoop Down・Ruinous Chargers・Spirit Gale・Aura of Night・Cloud of Bats・Grave-sand Shard。",
+  "Swoop Down / Endless Legions / Cloud of Bats: PDF（日英とも）にはキーワード欄「コア」があるが、英語 md（dump.json）にはキーワードが出ていないので keywords は入れていない（入れると md に［コア］が足される）。",
+  "戦闘特性の前置き（墳墓隊『安らがぬ死者』The Unquiet Dead、吸血族の狩り『舞い降りる死』Death’s Descent）はスピアヘッド md に出ないので入れていない。参考: 吸血族の狩りの前置き Death’s Descent は「舞い降りる死」で、通常版ヴァルガイストのアビリティ Death's Descent（frag_ws2）は「死の急降下」と訳が違う。墳墓隊の『安らがぬ死者』はファクションルールの The Unquiet Dead（frag_rules）と同じ訳。",
+  "Wizard: スピアヘッド版ヴァンパイア・ロードのキーワードは英語も (1) なしの Wizard、日本語も「魔術師」。",
+  "太字は書籍（墳墓隊）・PDF（吸血族の狩り）の表記どおり。『』ごと太字のもの（『アタック』『後手効果』『近接攻撃』『突撃』）は『**…**』とした。書籍で太字でないもの（Stolen Animus の回復（2）、Shyishan Blade のベイルフル・トゥームブレイド）は太字にしていない。Vile Transference の「1ポイントの致命的ダメージ」は PDF で太字。",
+  "対象資料: ルール・アップデート 202609（最新、日英）。202608・202607・ルール・アップデート・エラッタ 202606・202604_2（日本語版エラッタ冊子）と 202604_2/202606/202606_2/202607/202608 英語版も照合。SBGT のバトルトーム・エラッタ（p70）の内容は 202607〜202609 で同一（並び順のみ違う）。202604_2 にはまだ『吸血の力』(Draw on Power) が無く、202606 以降に追加。",
+  "日本語版だけの訂正（各号の「日本語版エラッタ」ページ、エラッタ冊子 202604_2・202606）にソウルブライト・グレイヴロード関連の項目は無い（全日本語 PDF を検索して確認）。",
+  "すべての改訂は現行の英語 md（dump.json 由来）に反映済み。逆に md と合わない改訂は見つからなかった。",
+  "202607 にあった「ソウルブライト・グレイヴロード、英雄特性」（Frightening Vitality）は 202607 時点で取り消し線（削除）、202608 以降は掲載なし。原典に反映済みとみなし、改訂後の文を採った。",
+  "スピアヘッドの Skeleton Legion はキー \"Spearhead|Deathrattle Skeletons|Skeleton Legion\" がデスラトル墳墓隊と吸血族の狩りで衝突（本文が異なる）。親でどちらを採るか判断が必要（詳細は _errata の該当 note）。",
+  "エラッタの日本語は書籍と言い回しが合わない箇所がある（Under a Killing Moon、Impaling Talons の置換前引用）。合成方針は各 note に記載。",
+  "エラッタの日本語ではユニット名（吸血の群れ・ナガッシュの手・罪咎の棺）や『近接攻撃』『後手効果』が太字になっていない。エラッタどおり太字なしで写した（書籍の書式に合わせるなら太字化）。",
+  "ja_full はエラッタ反映後の完全なアビリティ本文（書籍の変わらない部分＋エラッタ）。ja は field に挙げた変更フィールドだけ。",
+  "バトルプロフィール照合は バトルプロフィール 202609（日英、p47-48・名高き連隊 p63 相当・レジェンド p72）を使用。旧版 ソウルブライト・グレイヴロード_202505 も確認（名称は同じ）。",
+  "バトルプロフィールの表記: 「ヴァンパイア・ロード（ナイトメア騎乗）」（書籍目次・真紅の城塞ロスター・ヌラーミアの御子のエラッタは「ヴァンパイアロード（ナイトメア騎乗）」と中黒なし）。異名は「“ヴァーコスの筆頭騎士” ベラダンマ・ヴォルガ」のように引用符の後に空白があるが詰めて記載。",
+  "lookups とバトルプロフィールの英語表記差: Cado Ezechiar, The Hollow King／Ivya Volga, The Outcast（lookups は大文字 The、BP は the）、Origins of Terrifying Folk Tales（BP は単数 Origin）。_crosscheck のキーは lookups に合わせた。",
+  "バトルプロフィールの英雄特性表は Scourge of Aqshy 版（Immortal Ego / Furious Endings / Eternal Thrall）を挙げるが、md の英雄特性は The Cursed Bloodlines（Scourge of Aqshy）と Undying Tyrants（Scourge of Ghyran）に分かれている。名前の訳はそのまま使える。",
+  "ルール・アップデート 2026年9月の日本語訳を適用（17 件）: Spearhead|Wight King|King of Shambling Bones、Spearhead|Aura of Antiquity、Spearhead|Barrow Knights|Cursed To Rise Once More、Summon Sanguine Swarm、Summon Hand of Nagash、Summon Unholy Reliquary、Prince Vhordrai|Trail of Crimson、Lauka Vai, Mother of Nightmares|Impaling Talons、Belladamma Volga, First of the Vyrkos|Under a Killing Moon、Necromancer|Vanhel's Danse Macabre、Wight King on Skeletal Steed|Ancient Barrow Curse、Barrow Knights|Cursed To Rise Once More、Unholy Reliquary|Draw on Power、Spearhead|Bloodcrave Hunt|Deathrattle Skeletons|Skeleton Legion、Spearhead|Endless Legions、Scourge of Aqshy: Vengorian Lord|Frenzied Surge、Frightening Vitality。書籍の旧版の文（黒塗り・貼り紙・付箋で覆われていた箇所を含む）は使っていない。",
+  "Skeleton Legion（デスラトル・スケルトン）: スピアヘッドごとに本文が違う（デスラトル墳墓隊は書籍 p.107、吸血族の狩りはルール・アップデート 2026年9月）ので、Spearhead 名付きのキー（Spearhead|<Spearhead名>|ユニット|名前）で分けた。",
+  "顕現伝承の 3 呪文: 宣言・タイミング・キーワードは書籍 p.71（現行の英語と一致）、効果はルール・アップデート 2026年9月。",
+  "Dragged Down and Torn Apart: 書籍 p.68 の宣言には現行の英語の「近接戦闘中である」（in combat）が無いが、ルール・アップデートに改訂は無いので訳抜けとして書籍どおり載せた（訳注の候補）。",
+  "Gorslav the Gravekeeper|Keeper of the Corpse-gardens: サプリメントの効果（1ポイントの致命的ダメージ）は旧版の文で、現行の英語（1ポイントのダメージを割り振る）とルールが違うので載せていない。"
+ ],
+ "unit_names": {
+  "Askurgan Trueblades": "アスクルガン・トゥルーブレイド",
+  "Barrow Guard": "バロウガード",
+  "Barrow Knights": "バロウナイト",
+  "Belladamma Volga, First of the Vyrkos": "ヴァーコスの筆頭騎士ベラダンマ・ヴォルガ",
+  "Blades of the Hollow King": "虚ろの王刃団",
+  "Blood Knights": "ブラッドナイト",
+  "Bloodseeker Palanquin": "ブラッドシーカー・パランクィン",
+  "Cado Ezechiar, The Hollow King": "虚ろの王カド・エゼキアル",
+  "Corpse Cart": "コープスカート",
+  "Coven Throne": "コヴン・スローン",
+  "Cursed Sepulchre": "呪われた墓",
+  "Deadwalker Zombies": "デッドウォーカー・ゾンビ",
+  "Deathrattle Skeletons": "デスラトル・スケルトン",
+  "Dire Wolves": "ダイアウルフ",
+  "Fell Bats": "フェルバット",
+  "Gorslav the Gravekeeper": "“墓守”ゴルスラフ",
+  "Hand of Nagash": "ナガッシュの手",
+  "Ivya Volga, The Outcast": "追放されし者イヴヤ・ヴォルガ",
+  "Kosargi Nightguard": "コサルギ・ナイトガード",
+  "Kritza, the Rat Prince": "鼠の王子クリッツァ",
+  "Lady Annika, the Thirsting Blade": "渇きたる刃レディ・アンニカ",
+  "Lauka Vai, Mother of Nightmares": "悪夢の母ラウカ・ヴァイ",
+  "Mannfred von Carstein, Mortarch of Night": "夜の御使マンフレッド・フォン・カーシュタイン",
+  "Mortis Engine": "モーティスエンジン",
+  "Nagash, Supreme Lord of the Undead": "不死者の至高なる主ナガッシュ",
+  "Necromancer": "ネクロマンサー",
+  "Neferata, Mortarch of Blood": "血の御使ネフェラタ",
+  "Prince Vhordrai": "ヴォルドライ王子",
+  "Radukar the Beast": "“野獣”ラドゥカール",
+  "Radukar the Wolf": "餓狼王ラドゥカール",
+  "Revenant Draconith": "レヴェナント・ドラコニス",
+  "Sanguine Swarm": "吸血の群れ",
+  "Scourge of Aqshy: Revenant Draconith": "アキュシーの禍事 レヴェナント・ドラコニス",
+  "Scourge of Aqshy: Vengorian Lord": "アキュシーの禍事 ヴェンゴリアン・ロード",
+  "Scourge of Ghyran Corpse Cart": "グューランの禍事 コープスカート",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia": "グューランの禍事 “ヌラーミアの牙”セカール",
+  "Sekhar, Fang of Nulahmia": "ヌラーミアの牙セカール",
+  "Terrorgheist": "テラーガイスト",
+  "The Crimson Court": "紅の宮廷団",
+  "The Exiled Dead": "追放されし亡者",
+  "The Sepulchral Guard": "墳墓の守り手",
+  "The Sons of Velmorn": "ヴェルモーンの子ら",
+  "Torgillius the Chamberlain": "“侍従”トーギリウス",
+  "Unholy Reliquary": "罪咎の棺",
+  "Vampire Lord": "ヴァンパイア・ロード",
+  "Vampire Lord on Nightmare Steed": "ヴァンパイア・ロード（ナイトメア騎乗）",
+  "Vampire Lord on Zombie Dragon": "ヴァンパイア・ロード（ゾンビドラゴン騎乗）",
+  "Vargheists": "ヴァルガイスト",
+  "Vargskyr": "ヴァーグスカイア",
+  "Vengorian Lord": "ヴェンゴリアン・ロード",
+  "Vyrkos Blood-born": "ヴァーコス・ブラッドボーン",
+  "Watch Captain Halgrim": "監視隊長ハルグリム",
+  "Wight King": "ワイトキング",
+  "Wight King on Skeletal Steed": "ワイトキング（スケルタル・スティード騎乗）",
+  "Wight Lord on Skeletal Steed": "ワイトロード（スケルタル・スティード騎乗）",
+  "Zondara's Gravebreakers": "ゾンダラの墓砕き"
+ },
+ "weapon_names": {
+  "Acolytes’ Poniards": "侍祭のポニャード",
+  "Aken-seth, the Staff of Pain": "“罰の杖”アケン＝セス",
+  "Akmet-har, the Dagger of Jet": "“漆黒の短剣”アクメット＝ハール",
+  "Alakanash, the Staff of Power": "“力の杖”アラカナッシュ",
+  "Ancient Weapon": "古代の武器",
+  "Ashigaroth’s Claws": "アシガロスの爪",
+  "Askurga Rapier": "アスクルガの刺突剣",
+  "Askurgan Weapons": "アスクルガンの武器",
+  "Baleful Tomb Blade": "ベイルフル・トゥームブレイド",
+  "Barrow Lance": "バロウランス",
+  "Bat Swarm’s Needling Fangs": "蝙蝠の群れの針のごとき牙",
+  "Blood-slick Claws": "血塗られた爪",
+  "Bloodseeker Palanquin|Sanguinarch’s Stiletto": "サングィナークのスティレット",
+  "Bloodseeker Palanquin|Spectral Host’s Blades": "霊体群の刃",
+  "Cado Ezechiar, The Hollow King|Ezechiarian Greatsword": "エゼキアルの大剣",
+  "Chiropteran Fangs": "蝙蝠のごとき牙",
+  "Corpsemaster’s Staff": "コープスマスターの杖",
+  "Corpsemaster’s Weapon": "コープスマスターの武器",
+  "Crude Weapon or Infectious Bite": "粗雑な武器と感染性の嚙みつき",
+  "Draconic Claws": "竜の爪",
+  "Draconic Maw": "竜の顎",
+  "Dynastic Cavalier Weapon": "王家の騎馬武器",
+  "Dynastic War-relic": "名家の戦遺物",
+  "Elongated Claws and Slavering Maw": "長い鉤爪と涎滴る顎",
+  "Ezechiarian Greatsword": "エゼキアルの大剣",
+  "Gheistvor, the Sword of Unholy Power": "“不浄なる力の剣”ガイストヴォール",
+  "Gnawblade": "節くれた刃",
+  "Gore-drenched Talons": "血肉にまみれた鉤爪",
+  "Gorslav the Gravekeeper|Gravekeeper’s Spade": "墓守の剣",
+  "Grasping Talon": "鷲づかみの爪",
+  "Heirloom Axe": "家宝の斧",
+  "Kennistrix’s Fangs": "ケニストリックスの牙",
+  "King's Relic Weapon": "王の遺物",
+  "Kosargi Nightguard|Kosargi Bardiche": "コサルギのバルディッシュ",
+  "Leeching Bites": "吸血の嚙みつき",
+  "Lord's Tomb Blade": "領主のトゥームブレイド",
+  "Lupine Fangs and Claws": "狼の爪と牙",
+  "Matriarch’s Stiletto": "家母長のスティレット",
+  "Mortis Staff": "死者の杖",
+  "Murderous Fangs and Talons": "残忍なる爪と牙",
+  "Nagadron’s Claws": "ナガドロンの爪",
+  "Nightmare Sabre": "悪夢のサーベル",
+  "Nightmare’s Hooves and Teeth": "ナイトメアの蹄と歯",
+  "Nulahmian Warglaive": "ヌラーミアの戦槍",
+  "Ouboroth’s Godhusk Fangs": "ウボロスの神殻の牙",
+  "Pestilential Miasma": "悪疫のミアズマ",
+  "Rotting Fangs and Claws": "腐った爪と牙",
+  "Scourge of Aqshy: Revenant Draconith|Draconic Claws": "竜の爪",
+  "Scourge of Aqshy: Revenant Draconith|Draconic Maw": "竜の顎",
+  "Scourge of Aqshy: Revenant Draconith|Pestilential Miasma": "悪疫のミアズマ",
+  "Scourge of Aqshy: Vengorian Lord|Gore-drenched Talons": "血肉にまみれた鉤爪",
+  "Scourge of Aqshy: Vengorian Lord|Nightmare Sabre": "悪夢のサーベル",
+  "Scourge of Ghyran Corpse Cart|Corpsemaster’s Tools and Zombies' Bites": "墓守の道具＆ゾンビの噛みつき",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Nulahmian Warglaive": "ヌラーミアの戦槍",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Ouboroth’s Godhusk Fangs": "ウボロスの神殻の牙",
+  "Shordemaire’s Claws": "ショルデマイアの爪",
+  "Shordemaire’s Maw": "ショルデマイアの顎",
+  "Shordemaire’s Miasma": "ショルデマイアの瘴気",
+  "Sissendra’s Twin Blades": "シセンドラの双剣",
+  "Skeletal Steed’s Hooves and Teeth": "スケルタル・スティードの蹄と歯",
+  "Spectral Host’s Blades": "霊体群の刃",
+  "Templar Lance or Templar Blade": "騎士の槍または騎士の剣",
+  "Templar Weapon": "テンプル騎士の武器",
+  "Terrorgheist|Death Shriek": "死の叫び",
+  "Terrorgheist|Fanged Maw": "牙ありし口",
+  "Terrorgheist|Skeletal Talons": "骸骨の爪",
+  "The Blade Proboscian": "ブレイド・プロボシアン",
+  "The Bloodlance": "流血の槍",
+  "The Crimson Court|Courtly Weapon": "宮廷人の武器",
+  "The Exiled Dead|Arco-electric Weapons": "電弧武器",
+  "The Sepulchral Guard|Ancient Weapon": "古代の武器",
+  "The Sons of Velmorn|Royal Weapons": "ロイヤルウェポン",
+  "Timeworn Scimitar": "時経たるシミター",
+  "Torgillius the Chamberlain|Familiars’ Fangs and Claws": "使い魔の爪と牙",
+  "Torgillius the Chamberlain|Necrotising Bolts": "壊死の矢弾",
+  "Vampire Lord on Zombie Dragon|Draconic Claws": "竜の爪",
+  "Vampire Lord on Zombie Dragon|Draconic Maw": "竜の顎",
+  "Vampire Lord on Zombie Dragon|Dynastic Weapon": "名家の武器",
+  "Vampire Lord on Zombie Dragon|Pestilential Breath": "悪疫の吐息",
+  "Vargskyr|Lacerating Fangs": "切り裂く牙",
+  "Vargskyr|Raking Talons": "引き裂く鉤爪",
+  "Vyrkos Barrow-blade": "ヴァーコスの墓剣",
+  "Vyrkos Blood-born|Piercing Blade": "串刺しの剣",
+  "Vyrkos Blood-born’s Piercing Blades": "ヴァーコス・ブラッドボーンの串刺しの剣",
+  "Watch Captain Halgrim|Cursed Halberd and Sabre": "呪われしハルバードとサーベル",
+  "Wight Blade": "ワイトブレイド",
+  "Zefet-nebtar, the Mortis Blade": "“死の刃”ゼフェト＝ネブタール",
+  "Zombies’ Rusty Blades": "ゾンビの錆びついた刃",
+  "Zondara's Gravebreakers|Graverobber’s Tools": "盗掘者の道具",
+  "Zondara's Gravebreakers|Rending Claws": "レンディングクロウ"
+ },
+ "weapon_ability_names": {
+  "Anti-HERO (+1 Rend)": "対英雄（+1貫通値）",
+  "Anti-INFANTRY (+1 Rend)": "対歩兵（+1貫通値）",
+  "Anti-MONSTER (+1 Rend)": "対大型獣（+1貫通値）",
+  "Charge (+1 Damage)": "突撃（+1ダメージ量）",
+  "Companion": "随行者",
+  "Crit (2 Hits)": "クリティカル（2ヒット）",
+  "Crit (Auto-wound)": "クリティカル（自動ウーンズ）",
+  "Crit (Mortal)": "クリティカル（致命的）",
+  "Shoot in Combat": "近接射撃"
+ },
+ "keyword_names": {
+  "Beast": "獣兵",
+  "Bloodseeker Palanquin|Death": "死の大同盟",
+  "Bloodseeker Palanquin|Fly": "飛行",
+  "Bloodseeker Palanquin|Hero": "英雄",
+  "Bloodseeker Palanquin|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Bloodseeker Palanquin|Vampire": "ヴァンパイア",
+  "Bloodseeker Palanquin|War Machine": "戦闘兵器",
+  "Bloodseeker Palanquin|Ward (6+)": "加護（6+）",
+  "Bloodseeker Palanquin|Wizard (1)": "魔術師（1）",
+  "Cado Ezechiar, The Hollow King|Death": "死の大同盟",
+  "Cado Ezechiar, The Hollow King|Hero": "英雄",
+  "Cado Ezechiar, The Hollow King|Infantry": "歩兵",
+  "Cado Ezechiar, The Hollow King|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Cado Ezechiar, The Hollow King|Unique": "固有",
+  "Cado Ezechiar, The Hollow King|Vampire": "ヴァンパイア",
+  "Cado Ezechiar, The Hollow King|Ward (6+)": "加護（6+）",
+  "Cado Ezechiar, The Hollow King|Wizard (1)": "魔術師（1）",
+  "Cavalry": "騎兵",
+  "Champion": "豪傑",
+  "Champion (1/10)": "豪傑（1/10）",
+  "Champion (1/8)": "豪傑（1/8）",
+  "Deadwalkers": "デッドウォーカー",
+  "Death": "死の大同盟",
+  "Deathrattle": "デスラトル",
+  "Endless Spell": "永久呪文",
+  "Faction Terrain": "陣営地形",
+  "Fly": "飛行",
+  "Gorslav the Gravekeeper|Deadwalkers": "デッドウォーカー",
+  "Gorslav the Gravekeeper|Death": "死の大同盟",
+  "Gorslav the Gravekeeper|Hero": "英雄",
+  "Gorslav the Gravekeeper|Infantry": "歩兵",
+  "Gorslav the Gravekeeper|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Gorslav the Gravekeeper|Unique": "固有",
+  "Gorslav the Gravekeeper|Ward (6+)": "加護（6+）",
+  "Hero": "英雄",
+  "Infantry": "歩兵",
+  "Kosargi Nightguard|Deadwalkers": "デッドウォーカー",
+  "Kosargi Nightguard|Death": "死の大同盟",
+  "Kosargi Nightguard|Infantry": "歩兵",
+  "Kosargi Nightguard|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Kosargi Nightguard|Ward (6+)": "加護（6+）",
+  "Manifestation": "顕現",
+  "Monster": "大型獣",
+  "Musician (1/5)": "楽士（1/5）",
+  "Scourge of Aqshy: Revenant Draconith|Death": "死の大同盟",
+  "Scourge of Aqshy: Revenant Draconith|Fly": "飛行",
+  "Scourge of Aqshy: Revenant Draconith|Monster": "大型獣",
+  "Scourge of Aqshy: Revenant Draconith|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Scourge of Aqshy: Revenant Draconith|Ward (6+)": "加護（6+）",
+  "Scourge of Aqshy: Vengorian Lord|Death": "死の大同盟",
+  "Scourge of Aqshy: Vengorian Lord|Fly": "飛行",
+  "Scourge of Aqshy: Vengorian Lord|Hero": "英雄",
+  "Scourge of Aqshy: Vengorian Lord|Monster": "大型獣",
+  "Scourge of Aqshy: Vengorian Lord|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Scourge of Aqshy: Vengorian Lord|Vampire": "ヴァンパイア",
+  "Scourge of Aqshy: Vengorian Lord|Ward (6+)": "加護（6+）",
+  "Scourge of Aqshy: Vengorian Lord|Wizard (1)": "魔術師（1）",
+  "Scourge of Ghyran Corpse Cart|Deadwalkers": "デッドウォーカー",
+  "Scourge of Ghyran Corpse Cart|Death": "死の大同盟",
+  "Scourge of Ghyran Corpse Cart|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Scourge of Ghyran Corpse Cart|War Machine": "戦闘兵器",
+  "Scourge of Ghyran Corpse Cart|Ward (6+)": "加護（6+）",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Death": "死の大同盟",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Hero": "英雄",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Infantry": "歩兵",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Unique": "固有",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Vampire": "ヴァンパイア",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Ward (6+)": "加護（6+）",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Wizard (2)": "魔術師（2）",
+  "Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Standard Bearer (1/10)": "旗手（1/10）",
+  "Standard Bearer (1/5)": "旗手（1/5）",
+  "Terrorgheist|Death": "死の大同盟",
+  "Terrorgheist|Fly": "飛行",
+  "Terrorgheist|Monster": "大型獣",
+  "Terrorgheist|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Terrorgheist|Ward (6+)": "加護（6+）",
+  "The Crimson Court|Champion": "豪傑",
+  "The Crimson Court|Death": "死の大同盟",
+  "The Crimson Court|Infantry": "歩兵",
+  "The Crimson Court|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "The Crimson Court|Unique": "固有",
+  "The Crimson Court|Vampire": "ヴァンパイア",
+  "The Crimson Court|Ward (6+)": "加護（6+）",
+  "The Crimson Court|Wizard (1)": "魔術師（1）",
+  "The Exiled Dead|Champion": "豪傑",
+  "The Exiled Dead|Deadwalkers": "デッドウォーカー",
+  "The Exiled Dead|Death": "死の大同盟",
+  "The Exiled Dead|Infantry": "歩兵",
+  "The Exiled Dead|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "The Exiled Dead|Unique": "固有",
+  "The Exiled Dead|Ward (6+)": "加護（6+）",
+  "The Sepulchral Guard|Champion": "豪傑",
+  "The Sepulchral Guard|Death": "死の大同盟",
+  "The Sepulchral Guard|Deathrattle": "デスラトル",
+  "The Sepulchral Guard|Infantry": "歩兵",
+  "The Sepulchral Guard|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "The Sepulchral Guard|Unique": "固有",
+  "The Sepulchral Guard|Ward (6+)": "加護（6+）",
+  "The Sons of Velmorn|Champion": "豪傑",
+  "The Sons of Velmorn|Death": "死の大同盟",
+  "The Sons of Velmorn|Deathrattle": "デスラトル",
+  "The Sons of Velmorn|Infantry": "歩兵",
+  "The Sons of Velmorn|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "The Sons of Velmorn|Unique": "固有",
+  "The Sons of Velmorn|Ward (6+)": "加護（6+）",
+  "Torgillius the Chamberlain|Death": "死の大同盟",
+  "Torgillius the Chamberlain|Hero": "英雄",
+  "Torgillius the Chamberlain|Infantry": "歩兵",
+  "Torgillius the Chamberlain|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Torgillius the Chamberlain|Unique": "固有",
+  "Torgillius the Chamberlain|Ward (6+)": "加護（6+）",
+  "Torgillius the Chamberlain|Wizard (1)": "魔術師（1）",
+  "Unique": "固有",
+  "Vampire": "ヴァンパイア",
+  "Vampire Lord on Zombie Dragon|Death": "死の大同盟",
+  "Vampire Lord on Zombie Dragon|Fly": "飛行",
+  "Vampire Lord on Zombie Dragon|Hero": "英雄",
+  "Vampire Lord on Zombie Dragon|Monster": "大型獣",
+  "Vampire Lord on Zombie Dragon|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Vampire Lord on Zombie Dragon|Vampire": "ヴァンパイア",
+  "Vampire Lord on Zombie Dragon|Ward (6+)": "加護（6+）",
+  "Vampire Lord on Zombie Dragon|Wizard (1)": "魔術師（1）",
+  "Vargskyr|Beast": "獣兵",
+  "Vargskyr|Death": "死の大同盟",
+  "Vargskyr|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Vargskyr|Vampire": "ヴァンパイア",
+  "Vargskyr|Ward (6+)": "加護（6+）",
+  "Vyrkos Blood-born|Death": "死の大同盟",
+  "Vyrkos Blood-born|Infantry": "歩兵",
+  "Vyrkos Blood-born|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Vyrkos Blood-born|Vampire": "ヴァンパイア",
+  "Vyrkos Blood-born|Ward (6+)": "加護（6+）",
+  "War Machine": "戦闘兵器",
+  "Ward (4+)": "加護（4+）",
+  "Ward (5+)": "加護（5+）",
+  "Ward (6+)": "加護（6+）",
+  "Warmaster": "総大将",
+  "Watch Captain Halgrim|Death": "死の大同盟",
+  "Watch Captain Halgrim|Deathrattle": "デスラトル",
+  "Watch Captain Halgrim|Hero": "英雄",
+  "Watch Captain Halgrim|Infantry": "歩兵",
+  "Watch Captain Halgrim|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Watch Captain Halgrim|Unique": "固有",
+  "Watch Captain Halgrim|Ward (6+)": "加護（6+）",
+  "Wizard": "魔術師",
+  "Wizard (1)": "魔術師（1）",
+  "Wizard (2)": "魔術師（2）",
+  "Wizard (9)": "魔術師（9）",
+  "Zondara's Gravebreakers|Champion": "豪傑",
+  "Zondara's Gravebreakers|Deadwalkers": "デッドウォーカー",
+  "Zondara's Gravebreakers|Death": "死の大同盟",
+  "Zondara's Gravebreakers|Infantry": "歩兵",
+  "Zondara's Gravebreakers|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Zondara's Gravebreakers|Unique": "固有",
+  "Zondara's Gravebreakers|Ward (6+)": "加護（6+）"
+ },
+ "ability_names": {
+  "'For Glory! For Blood!'": "血と栄光の為に！",
+  "A Promising Concoction": "良質な調合薬",
+  "A Wastrel and a Vagabond": "ろくでなしと流浪者",
+  "Amulet of Graves": "墳墓の呪術具",
+  "Ancient Barrow Curse": "古代墳墓の呪い",
+  "Ancient Burial Sites": "古代の埋葬地",
+  "Ancient Strategies": "太古の軍略",
+  "Aristocracy of the Night": "深き夜の貴族",
+  "Armour of the Night": "夜の鎧",
+  "Ashigaroth's Hunger": "アシガロスの飢え",
+  "Aura of Antiquity": "古代の霊気",
+  "Aura of Night": "朧夜の霊気",
+  "Aurelias": "アウレリアス",
+  "Beast": "獣兵",
+  "Behemoth's Bane": "巨獣に死をもたらすもの",
+  "Bloodseeker Palanquin|A Promising Concoction": "良質な調合薬",
+  "Bloodseeker Palanquin|Wails of the Damned": "呪われし者の嘆き",
+  "Cado Ezechiar, The Hollow King|Retribution or Salvation": "天罰か救済か",
+  "Cado Ezechiar, The Hollow King|The Court of the Lost": "失われた宮廷",
+  "Call to the Hunt": "狩りの呼び声",
+  "Chill Grasp": "絶望の手",
+  "Cloud of Bats": "蝙蝠の一群",
+  "Creed of the Askurga Renkai": "アスクルガ・レンカイの信念",
+  "Cursed To Rise Once More": "再起の呪い",
+  "Dark Mist": "暗黒の霧",
+  "Death on Tattered Wings": "死を呼ぶ腐敗の翼",
+  "Death's Construction": "死の構築",
+  "Death's Descent": "死の急降下",
+  "Deathly Invocation": "死の祈り",
+  "Deathmarch": "死の行進",
+  "Dragged Down and Torn Apart": "引きずり倒して八つ裂き",
+  "Draw on Power": "吸血の力",
+  "Endless Legions": "無尽蔵の軍団",
+  "Eternal Thrall": "永遠の隷従者",
+  "Festering Feast": "おぞましき祝宴",
+  "First of the Vyrkos": "ヴァーコスの拳",
+  "Fleet and Fell": "恐るべき俊敏",
+  "Frightening Vitality": "震撼する生命力",
+  "Furious Endings": "憤怒の終焉",
+  "Gorslav the Gravekeeper|Arise! Arise!": "立ち上がれ！",
+  "Gorslav the Gravekeeper|Keeper of the Corpse-gardens": "墓園の番人",
+  "Grave-sand Shard": "墓砂の破片",
+  "Guardians of the King": "王の守護者",
+  "Gut-wrenching Howl": "心を引き裂く雄叫び",
+  "Hand of Dust": "塵の手",
+  "Horror Unending": "終わりなき恐怖",
+  "Immortal Conqueror": "不死なる支配者",
+  "Immortal Ego": "不滅の自我",
+  "Impaling Talons": "貫きの鉤爪",
+  "Inescapable Reach": "逃れられぬ手",
+  "Invocation of Nagash": "ナガッシュの死霊呪文",
+  "King of Shambling Bones": "骸骨の将",
+  "Kiss of the Blade Proboscian": "ブレイド・プロボシアンの接吻",
+  "Knights of the King": "王の騎士",
+  "Kosargi Nightguard|A Pact Maintained": "守られし協定",
+  "Lash of the Sire": "父祖の鞭",
+  "Leeching Bites": "吸血の嚙みつき",
+  "Leeching Soil": "吸血の大地",
+  "Loathsome Descent": "忌まわしき急襲",
+  "Locus of Shyish": "シャイシュの根源",
+  "Locus of Undeath": "不死の力場",
+  "Lord of Trampling Bones": "骨砕きの主",
+  "Mannfred von Carstein, Mortarch of Night|Battle Damaged": "バトルダメージ",
+  "Master of the Pack": "群れの統率者",
+  "Mindless Ferocity": "知性なき獰猛",
+  "Multiple Parts": "マルチパーツ",
+  "Nagash, Supreme Lord of the Undead|Battle Damaged": "バトルダメージ",
+  "Neferata, Mortarch of Blood|Battle Damaged": "バトルダメージ",
+  "Nexus of Death Energy": "死霊魔力の結節点",
+  "Nightmare's Miasma": "悪夢の瘴気",
+  "On The Hunt": "獲物を追うもの",
+  "Overwhelming Hordes": "押し寄せる大群",
+  "Prince Vhordrai|Battle Damaged": "バトルダメージ",
+  "Prison of Grief": "悲嘆の牢獄",
+  "Propelled by Hate": "憎悪に駆られて",
+  "Quickblood": "俊敏の血",
+  "Red Ruin": "紅き滅び",
+  "Retribution or Salvation": "天罰か救済か",
+  "Revenant Draconith|Battle Damaged": "バトルダメージ",
+  "Riders of Ruin": "破滅の乗り手",
+  "Royal Companions": "親衛隊",
+  "Ruinous Chargers": "禍つ突撃隊",
+  "Saint of Slaughter": "虐殺の聖者",
+  "Sanguine Blur": "鮮血の残像",
+  "Scourge of Aqshy: Revenant Draconith|Battle Damaged": "バトルダメージ",
+  "Scourge of Aqshy: Revenant Draconith|Brimming with Rancour": "満ちる怨恨",
+  "Scourge of Aqshy: Revenant Draconith|Volatile Animus": "揺らぐ怨魂",
+  "Scourge of Aqshy: Vengorian Lord|Frenzied Surge": "狂乱の奔流",
+  "Scourge of Aqshy: Vengorian Lord|Indignant Outburst": "憤然たる噴出",
+  "Scourge of Aqshy: Vengorian Lord|Nightmare's Miasma": "悪夢の瘴気",
+  "Scourge of Ghyran Corpse Cart|Necromantic Goad": "死霊術の激励",
+  "Scourge of Ghyran Corpse Cart|Unholy Lodestone": "邪悪な指針",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Allow Me to Remind You...": "思い出させてあげよう……",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Irresistible Demand": "抗しがたい服従",
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Lest You Forget...": "お忘れなきよう……",
+  "Scrying Pool": "占いの泉",
+  "Scurrying Retreat": "分裂退却",
+  "Scything Talons": "薙ぎ払う鉤爪",
+  "Serpentine Agility": "蛇の俊敏さ",
+  "Shard of Night": "夜の破片",
+  "Shrieking Swarm": "金切り声を上げる群れ",
+  "Shyishan Blade": "シャイシュの刃",
+  "Skeleton Legion": "骸骨の兵団",
+  "Solia, The Tutor": "指南役ソリア",
+  "Soul-drain Pendant": "魂を奪いしペンダント",
+  "Spirit Gale": "霊気の突風",
+  "Starving Nightmare": "飢えたる悪夢",
+  "Stolen Animus": "奪われた魂",
+  "Strike At The Heart": "心臓部を討て",
+  "Summon Hand of Nagash": "ナガッシュの手を召喚",
+  "Summon Sanguine Swarm": "吸血の群れを召喚",
+  "Summon Unholy Reliquary": "罪咎の棺を召喚",
+  "Supernatural Speed": "超自然の速度",
+  "Supreme Lord of the Undead": "不死者の至高なる主",
+  "Swoop Down": "急降下",
+  "Tactical Insight": "戦術的洞察",
+  "Terminus Clock": "終焉の時計",
+  "Terrorgheist|Battle Damaged": "バトルダメージ",
+  "Terrorgheist|Gaping Maw": "丸呑み",
+  "Terrorgheist|Sonic Assault": "音波攻撃",
+  "The Adevore": "黄泉の捕食獣",
+  "The Beast Will Out": "野獣の露顕",
+  "The Crimson Court|Come Then, Amuse Us": "さぁ我々を楽しませてくれ",
+  "The Empty Graveyard": "空ろなる墓所",
+  "The Exiled Dead|Deintalos the Exile": "追放者ダインタロス",
+  "The Exiled Dead|Unfeeling Fortitude": "無情の耐久力",
+  "The Hunger": "血の餓え",
+  "The Incarnadine Killers": "血染めの殺戮者",
+  "The Mortarch of Blood": "血の御使",
+  "The Mortarch of Night": "夜の御使",
+  "The Never-Dead": "死にえぬ者たち",
+  "The Queen's Dictat": "女王の命令",
+  "The Reliquary": "遺骸箱",
+  "The Rising Dead": "起き上がる死者",
+  "The Scent of Gore": "流血の香り",
+  "The Sepulchral Guard|Restless Dead": "安息なき死者",
+  "The Sons of Velmorn|Rise Again": "再起",
+  "The Speed of Death": "死の跳躍",
+  "The Staff of Power": "力の杖",
+  "The Sword of Unholy Power": "不浄なる力の剣",
+  "The Time-Swallower's Maw": "時喰らいの顎",
+  "The Unquiet Dead": "安らがぬ死者",
+  "The Verminous Court": "害獣の廟堂",
+  "Tide of Bones and Blades": "押し寄せる骸骨と剣",
+  "Torgillius the Chamberlain|Failing Fortitude": "損なわれる頑健",
+  "Torgillius the Chamberlain|Trusted Lieutenant": "信頼されし副官",
+  "Total Dominance": "完全な支配",
+  "Trail of Crimson": "鮮血の跡",
+  "Trampled to Dust": "踏み砕く",
+  "Twilight's Allure": "黄昏の誘惑",
+  "Unbending Will": "曲がらぬ意志",
+  "Undead Minions": "アンデッドの下僕",
+  "Under a Killing Moon": "殺戮の月の下で",
+  "Unhinged Rampager": "度を越した暴虐",
+  "Unholy Site": "不浄な地",
+  "Vampire Lord on Zombie Dragon|Battle Damaged": "バトルダメージ",
+  "Vampire Lord on Zombie Dragon|Bloodthirsty Dominance": "残虐なる支配力",
+  "Vampire Lord on Zombie Dragon|That Which Should Not Be": "有り得べからざるもの",
+  "Vanhel's Danse Macabre": "ヴァンヘルの死の舞踏",
+  "Vargskyr|Beast": "獣兵",
+  "Vargskyr|Bounding Haste": "跳躍突撃",
+  "Vile Transference": "邪悪なる生命転移",
+  "Vyrkos Blood-born|Cling to the Shadows": "影に潜む者",
+  "Vyrkos Blood-born|Shadowfast": "影なる俊敏さ",
+  "Wardens of the Wolf": "“餓狼王”の番人",
+  "Waste Away": "衰弱",
+  "Watch Captain Halgrim|Disciplined Advance": "規律ある前進",
+  "Watch Captain Halgrim|Echoes of the Watch": "歩哨の名残",
+  "Wave of Power": "魔力の波動",
+  "Wind of Death": "死の風",
+  "Wolfguard": "狼の護衛",
+  "Zondara's Gravebreakers|Wrest From the Realms": "諸領域からの強奪",
+  "Zondara's Gravebreakers|Zondara Rivenheart": "“裂心の”ゾンダラ"
+ },
+ "ability_texts": {
+  "A Wastrel and a Vagabond": {
+   "timing": "パッシブ",
+   "effect": "味方**デッドウォーカー・ゾンビ**または**デスラトル・スケルトン**・ユニットがこのユニットの12mv以内に全体が入っている間、\n• その味方ユニットの全力移動ロールは+2の修正を受ける。\n• その味方ユニットが接敵移動をする際、その移動距離は+3mvの修正を受ける。"
+  },
+  "Amulet of Graves": {
+   "timing": "バトル中1回限り、自軍側ヒーローフェイズ",
+   "effect": "戦場に配置されている**呪われた墓**が2個以下である場合、あらゆる敵ユニットから9mvより遠く離れており、かつ味方ユニットから1mvより遠く離れており、なおかつあらゆる作戦目標と他の特殊地形から3mvより遠く離れた戦場の位置に**呪われた墓**を1個配置する。"
+  },
+  "Ancient Burial Sites": {
+   "timing": "バトル中1回限り（アーミー）、初期配置フェイズ",
+   "effect": "戦場に味方の**呪われた墓**が1個配置されている場合、追加の**呪われた墓**を戦場に2個配置できる。1つ目はあらゆるユニット、作戦目標、他の特殊地形から3mvより遠く離れた位置に配置されなければならない。2つ目は敵軍側陣地外に全体が入るように、かつあらゆるユニット、作戦目標、他の特殊地形から3mvより遠く離れた位置に配置されなければならない。\nデザイナーズ・ノート：最初の呪われた墓は、初期配置フェイズのステップ1において『陣営地形の配置』アビリティを用いて配置される。アーミーの初期配置が完了した後、このアビリティを使用することで、初期配置フェイズのステップ3において追加である1つ目と2つ目の特殊地形を配置することができる。"
+  },
+  "Aristocracy of the Night": {
+   "timing": "パッシブ",
+   "effect": "近接戦闘中でない味方**ヴァンパイア**・ユニットは詠唱ロールに+1の修正を受ける。現在のターン中に突撃を実行している味方**ヴァンパイア**・ユニットは、そのメレーアタックのウーンズロールに+1の修正を受ける。"
+  },
+  "Askurgan Trueblades|Creed of the Askurga Renkai": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象とする敵**大型獣**のメレーアタックは、ヒットロールに-1の修正を受ける。\n敵**大型獣**を対象とするこのユニットのメレーアタックは、ヒットロールに+1の修正を受ける。"
+  },
+  "Askurgan Trueblades|Gut-wrenching Howl": {
+   "timing": "任意の近接フェイズ",
+   "declare": "このユニット内にいる**カースブラッド**と近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が4+であれば、そのターン中、選択された敵ユニットは**『後手効果』**を得る。"
+  },
+  "Barrow Guard|Guardians of the King": {
+   "timing": "パッシブ",
+   "effect": "1個以上の味方**ソウルブライト・グレイヴロード・歩兵・英雄**が、このユニットの近接範囲内に一部でも入っている場合、このユニットとそれらの味方ユニットはいずれも**加護（5+）**を持つ。"
+  },
+  "Barrow Knights|Cursed To Rise Once More": {
+   "effect": "このユニットに撃破されている兵1体を復帰させることができる。",
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時"
+  },
+  "Barrow Knights|Knights of the King": {
+   "timing": "パッシブ",
+   "effect": "1個以上の味方**デスラトル・騎兵・英雄**が、このユニットの近接範囲内に全体が入っている場合、このユニットとそれらの味方ユニットは**加護（5+）**を持つ。"
+  },
+  "Belladamma Volga, First of the Vyrkos|First of the Vyrkos": {
+   "timing": "パッシブ",
+   "effect": "このユニットの18mv以内に全体が入っている味方**餓狼王ラドゥカール**、**“野獣”ラドゥカール**、**イヴヤ・ヴォルガ**、**レディ・アンニカ**、**クリッツァ**・ユニットの確保スコアは+3の修正を受ける。"
+  },
+  "Belladamma Volga, First of the Vyrkos|Under a Killing Moon": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの18mv以内に全体が入っており、かつこのユニットから視認状態である味方**ダイアウルフ**・ユニットを最大3個まで選択し、2D6の詠唱ロールをする。",
+   "keywords": "呪文",
+   "effect": "そのターン中、\n• 対象の近接武器（『**随行者**』武器を含む）の【貫通値】は+1の修正を受ける。\n• 選択された味方ユニットは『獣兵』アビリティの効果を無視できる。"
+  },
+  "Belladamma Volga, First of the Vyrkos|Wolfguard": {
+   "timing": "パッシブ",
+   "effect": "このユニットが味方**ダイアウルフ**・ユニットの近接範囲内に一部でも入っている場合、\n• このユニットは**加護（4+）**を持つ。\n• このユニットが加護ロールを成功させるたびに、このユニットに対するダメージ手順が解決された直後、このユニットの近接範囲内に一部が入っている味方**ダイアウルフ**・ユニットに1ポイントのダメージを割り振る（そのダメージに対して加護ロールは実行できない）。"
+  },
+  "Blades of the Hollow King|Aurelias": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットに属する**アウレリアス**が戦場に配置されている場合、このユニットはこのアビリティを使用できる。",
+   "effect": "そのターン中に適用される効果を以下の中から1つを選択する。\n• このユニットのパワーレベルは+1の修正を受ける。\n• このユニットが詠唱ロールをするたびに、そのうちのダイスを1個リロールできる。"
+  },
+  "Blades of the Hollow King|Retribution or Salvation": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットに属する**カド・エゼキアル**が戦場に配置されている場合、このユニットはこの呪文を詠唱できる。このユニットの12mv以内に一部が入っており、かつこのユニットから視認状態であるユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "敵ユニットが選択された場合、その敵ユニットはD3ポイントの致命的ダメージを受ける。味方**デスラトル**または**デッドウォーカー**・ユニットが選択されたならば、そのターン中、その味方ユニットを対象とするメレーアタックはウーンズロールに-1の修正を受ける。",
+   "keywords": "呪文"
+  },
+  "Blades of the Hollow King|Solia, The Tutor": {
+   "timing": "任意の近接フェイズ",
+   "declare": "このユニットに属する**カド・エゼキアル**が戦場に配置されている場合、このユニットはこのアビリティを使用できる。",
+   "effect": "そのターン中に適用される効果を以下の中から1つを選択する。\n• このユニットは**加護（5+）**を持つ。\n• このユニットの**エゼキアルの大剣**は**クリティカル（致命的）**を得る。"
+  },
+  "Blood Knights|Riders of Ruin": {
+   "timing": "パッシブ",
+   "effect": "このユニットが移動する際、敵**歩兵**・ユニットの兵を通り抜けることができ、また敵**歩兵**・ユニットの近接範囲内も通り抜けることができる。ただし、使用しているアビリティの説明に特に明記されていない限り、近接戦闘に突入する状態で移動を完了することはできない。"
+  },
+  "Blood Knights|Trampled to Dust": {
+   "timing": "任意の突撃フェイズ",
+   "declare": "このターン中にこのユニットが通り抜けた敵ユニットを1個選択する。",
+   "effect": "D3を1個ロールする。ロール結果が2+であれば、選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。"
+  },
+  "Bloodseeker Palanquin|A Promising Concoction": {
+   "timing": "バトル中1回限り（アーミー）、自軍側近接フェイズ",
+   "declare": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**ヴァンパイア**・ユニットを最大3個まで選択する。",
+   "effect": "そのターン中、選択された味方ユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。"
+  },
+  "Bloodseeker Palanquin|Wails of the Damned": {
+   "timing": "パッシブ",
+   "effect": "このユニットの12mv以内に一部でも入っている敵ユニットは、確保スコアに-3の修正を受ける。"
+  },
+  "Cado Ezechiar, The Hollow King|Retribution or Salvation": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態であるユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "選択されたユニットが敵ユニットである場合、それはD3ポイントの致命的ダメージを受ける。\n選択されたユニットが味方**デスラトル**または**デッドウォーカー**・ユニットならば、そのターン中、その味方ユニットを対象とするメレーアタックのウーンズロールは-1の修正を受ける。",
+   "keywords": "呪文"
+  },
+  "Cado Ezechiar, The Hollow King|The Court of the Lost": {
+   "timing": "自軍側ヒーローフェイズ",
+   "effect": "ダイスを1個ロールする。ロール結果が2+であれば、以下の効果の中から1個を選択し、次の自軍側ターン開始時まで適用する。\n• このユニットの【移動力】は12mvになる。\n• このユニットによる詠唱ロールと打ち消しロール、追放ロールは+1の修正を受ける。\n• このユニットの近接武器は**クリティカル（致命的）**を得る。"
+  },
+  "Corpse Cart|Locus of Undeath": {
+   "timing": "パッシブ",
+   "effect": "このユニットの12mv以内に全体が入っている自身以外の味方**デッドウォーカー**・ユニットの近接武器は**クリティカル（自動ウーンズ）**を得る。"
+  },
+  "Coven Throne|A Promising Concoction": {
+   "timing": "バトル中1回限り（アーミー）、自軍側近接フェイズ",
+   "declare": "このユニットの12mv以内に全体が入っている味方**ヴァンパイア**・ユニットを最大3個まで選択する。",
+   "effect": "そのターン中、選択された味方ユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。"
+  },
+  "Coven Throne|Scrying Pool": {
+   "timing": "パッシブ",
+   "effect": "このユニットの12mv以内に全体が入っている味方**ソウルブライト・グレイヴロード**・ユニットが『再配置』指揮アビリティを使用する際、このユニットの12mv以内に全体が入っており、現在のフェイズ中にまだ『再配置』指揮アビリティを使用していない他の味方**ソウルブライト・グレイヴロード**・ユニットを1個選択してもよい。一つ目の『再配置』指揮アビリティが解決された直後に、選択された味方ユニットはただちに『再配置』指揮アビリティを使用する（これは『指揮アビリティ、1.2』のルールに対する例外となる）。二つ目の指揮アビリティにおいて、指揮ポイントは消費されない。"
+  },
+  "Coven Throne|Tactical Insight": {
+   "timing": "パッシブ",
+   "effect": "このユニットの6mv以内に全体が入っている味方**デスラトル**と**デッドウォーカー**・ユニットは**加護（5+）**を持つ。"
+  },
+  "Cursed Sepulchre|Leeching Soil": {
+   "timing": "パッシブ",
+   "effect": "この特殊地形の9mv以内に一部でも入っている兵（敵味方問わず）が撃破されるたびに、この特殊地形を**回復（1）**する。"
+  },
+  "Cursed Sepulchre|Locus of Shyish": {
+   "timing": "パッシブ",
+   "effect": "味方**ソウルブライト・グレイヴロード・魔術師**が「死地の顕現」から**『召喚呪文』**を詠唱する際、この特殊地形から距離と視認状態を判定してもよい。"
+  },
+  "Deadwalker Zombies|Mindless Ferocity": {
+   "timing": "パッシブ",
+   "effect": "このユニット内の兵1体がメレーアタックよって撃破されるたび、撃破された兵が攻撃側ユニットと近接戦闘中であった場合、ダイスを1個ロールする。ロール結果が6+であれば、その**『近接攻撃』**アビリティの解決後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Deathly Invocation": {
+   "timing": "各ターンにつき1回（アーミー）、任意のヒーローフェイズ",
+   "declare": "このアビリティを使用する際に、味方**ソウルブライト・グレイヴロード・英雄**を1体選択する。その後、選択された**英雄**の12mv以内に全体が入っている味方**デスラトル**または**デッドウォーカー**・ユニットを最大3個まで選択する。",
+   "effect": "選択された各味方ユニットは、\n• 選択された味方ユニットが損傷状態である場合、その味方ユニットを**回復**（3）する。\n• 選択された味方ユニットが損傷状態ではない場合、そのユニットに撃破された兵を復帰させる（復帰する兵の【体力】合計が最大3までになるように）。"
+  },
+  "Deathrattle Skeletons|Skeleton Legion": {
+   "timing": "任意のターン終了時",
+   "effect": "このユニットに撃破されている兵をD3体復帰させることができる。"
+  },
+  "Dire Wolves|Beast": {
+   "timing": "パッシブ",
+   "effect": "このユニットは最大1の確保スコアを得る。"
+  },
+  "Dire Wolves|On The Hunt": {
+   "timing": "パッシブ",
+   "effect": "このユニットは**『全力移動』**アビリティを使用していたとしても、そのターンの後半に**『突撃』**アビリティを使用できる。"
+  },
+  "Dragged Down and Torn Apart": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "declare": "味方**デッドウォーカー**・ユニットを最大3個まで選択する。",
+   "effect": "選択された各味方ユニットは、\n• 接敵移動を1回実行する。\n• その後、選択された味方ユニットと近接戦闘中である敵ユニットを1個選択し、D3を1個ロールする。ロール結果が2+であれば、その敵ユニットはロール結果に等しい数の致命的ダメージを受ける。"
+  },
+  "Endless Legions": {
+   "timing": "各バトルラウンドにつき1回（アーミー）、任意の移動フェイズ",
+   "declare": "バトル開始時における兵数が2体以上であり、かつ現在全滅している**固有**ではない味方**デスラトル**または**デッドウォーカー**・ユニットを1個選択する。",
+   "effect": "味方**ソウルブライト・グレイヴロード・英雄**の12mv以内に全体が入るように、または味方**呪われた墓**の6mv以内に全体が入るように、選択された味方ユニットの兵数の半分（端数切り上げ）で構成された代替ユニットを配置する。その配置する場所は、あらゆる敵ユニットから9mvより遠く離れた位置でなければならない。\n自軍側移動フェイズ中である場合、その代替ユニットをあらゆる敵ユニットから（9mvではなく）3mvより遠く離れた戦場の位置に配置してもよい。ただし、あらゆる敵ユニットから3mvより遠く離れており、かつ9mv以内に一部でも入るように配置されたならば、この代替ユニットはこのターン中に**『突撃』**アビリティを使用できない。"
+  },
+  "Eternal Thrall": {
+   "timing": "初期配置フェイズ",
+   "declare": "自身以外の**固有でない味方ソウルブライト・グレイヴロード・歩兵・英雄**を1個選択する。",
+   "effect": "以降そのバトル中、選択された味方ユニットが戦場にいる間：\n• このユニットが**ネクロマンサー**である場合、このユニットのパワーレベルは+1の修正を受ける。\n• このユニットが**ヴァンパイア**である場合、このユニットの打ち消しロールは+1の修正を受ける。\n• このユニットが**デスラトル**である場合、各フェイズ中、このユニットに割り振られる最初の1ポイントのダメージは無視される。"
+  },
+  "Fell Bats|Beast": {
+   "timing": "パッシブ",
+   "effect": "このユニットは最大1の確保スコアを得る。"
+  },
+  "Fell Bats|Fleet and Fell": {
+   "timing": "パッシブ",
+   "effect": "このユニットは現在のターン中に**『退却』**アビリティを使用していた場合でも**『突撃』**アビリティを使用できる。さらに、このユニットは**『退却』**アビリティを使用した際に致命的ダメージを受けない。"
+  },
+  "Frightening Vitality": {
+   "timing": "パッシブ",
+   "effect": "このユニットが受けているダメージを丁度1ポイントまたは2ポイント回復する場合、代わりに3ポイントのダメージを回復する。"
+  },
+  "Furious Endings": {
+   "timing": "パッシブ",
+   "effect": "このユニットから12mv以内に一部でも入っている**顕現**がゲームから取り除かれた場合、**憤激ダイス**を1個獲得する。"
+  },
+  "Gorslav the Gravekeeper|Arise! Arise!": {
+   "timing": "バトル中1回限り、リアクション：自軍が『無尽の軍団』アビリティを宣言し、味方デッドウォーカー・ユニットを選択した時。",
+   "effect": "『無尽の軍団』アビリティの効果を解決する際、たとえ自軍側移動フェイズ中でなくとも、全滅したユニットと同じ構成のユニットを、「このユニットの12mv以内に全体が入っており、かつあらゆる敵ユニットから9mvより遠く離れた位置」に配置する代わりに、「このユニットの3mv以内に全体が入っており、かつあらゆる敵ユニットから3mvより遠く離れた位置」に配置してもよい。配置されたユニットはこのターン中に『**突撃**』アビリティを実行できる。"
+  },
+  "Gorslav the Gravekeeper|Keeper of the Corpse-gardens": {
+   "timing": "パッシブ"
+  },
+  "Hand of Nagash|Chill Grasp": {
+   "timing": "任意の近接フェイズ",
+   "declare": "この**顕現**と近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が4+であれば、次の効果が自軍側ターン開始時まで適用される：\n• 選択された敵ユニットがこの**顕現**の3mv以内に一部でも入っている場合、その敵ユニットは最大1の確保スコアを持つ（修正を加えることはできない）。\n• 選択された敵ユニットがこの**顕現**の3mv以内に一部でも入っている場合、その敵ユニットは**『移動』**アビリティを使用できない。"
+  },
+  "Hand of Nagash|Inescapable Reach": {
+   "timing": "自軍側移動フェイズ",
+   "declare": "この**顕現**がこのターン中に戦場に配置されたばかりではない場合、この顕現はこのアビリティを使用できる。",
+   "effect": "この**顕現**を戦場から取り除き、あらゆる敵ユニットから9mvより遠く離れた戦場の任意の位置に配置する。その後、D3を1個ロールする。ロール結果が2+であれば、この**顕現**はそのロール結果と等しい数の距離（mv）を移動できる。"
+  },
+  "Horror Unending": {
+   "timing": "パッシブ",
+   "effect": "『死の祈り』アビリティを使用する際、追加のユニットを1個選択できる。"
+  },
+  "Immortal Ego": {
+   "timing": "パッシブ",
+   "effect": "各フェイズ中、このユニットはヒットロール1個とウーンズロール1個、セーブロール1個をリロールできる。"
+  },
+  "Ivya Volga, The Outcast|Behemoth's Bane": {
+   "timing": "パッシブ",
+   "effect": "このユニットと近接戦闘中である敵**大型獣**ユニットが装備している近接武器の【攻撃回数】は-2の修正を受ける。"
+  },
+  "Ivya Volga, The Outcast|Shrieking Swarm": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象とする攻撃は、ヒットロールに-1の修正を受ける。"
+  },
+  "Ivya Volga, The Outcast|Total Dominance": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "2D6の詠唱ロールをする。",
+   "effect": "そのターン中、このユニットの12mv以内に一部でも入っている敵**大型獣**・ユニットの確保スコアは-5の修正を受ける。",
+   "keywords": "呪文"
+  },
+  "Kosargi Nightguard|A Pact Maintained": {
+   "timing": "パッシブ",
+   "effect": "味方の**“餓狼王”ラドゥカール**または**“野獣”ラドゥカール**・ユニットが、このユニットの近接範囲内に一部でも入っているならば、このユニットとその味方ユニットの両方は、**加護（5+）**を持つ。"
+  },
+  "Kritza, the Rat Prince|Scurrying Retreat": {
+   "timing": "任意の近接フェイズ",
+   "effect": "このユニットが近接戦闘中である場合、ダイスを1個ロールする。ロール結果が3+であれば、このユニットはあたかも自軍側移動フェイズ中であるかのように、致命的ダメージを受けることなくただちに『退却』アビリティを使用できる。"
+  },
+  "Kritza, the Rat Prince|The Verminous Court": {
+   "timing": "任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中である敵ユニットを1個選択する。その後、選択された敵ユニットが持っている神器を1つ選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、その敵ユニットは選択された神器を失う。"
+  },
+  "Lady Annika, the Thirsting Blade|Kiss of the Blade Proboscian": {
+   "timing": "任意のターン終了時",
+   "declare": "このターン中に、このユニットのメレーアタックによってダメージを受けた敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が2+であれば、以降バトル終了時まで、選択された敵ユニットのセーブロールは-1の修正を受ける。"
+  },
+  "Lady Annika, the Thirsting Blade|Starving Nightmare": {
+   "timing": "自軍側移動フェイズ",
+   "declare": "このユニットが**待ち伏せ**にいる場合、このユニットを選択する。",
+   "effect": "敵軍側陣地内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に、このユニットを配置する。"
+  },
+  "Lady Annika, the Thirsting Blade|Supernatural Speed": {
+   "timing": "初期配置フェイズ",
+   "declare": "このユニットが初期配置されていない場合、このユニットを選択する。",
+   "effect": "このユニットを予備戦力として**待ち伏せ**に配置する。そのユニットは初期配置されたものとみなされる。",
+   "keywords": "初期配置"
+  },
+  "Lash of the Sire": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの近接範囲内に一部でも入っている自身以外の味方**ソウルブライト・グレイヴロード**・ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が2+であれば、\n• 選択された味方ユニットが近接戦闘中ではない場合、その味方ユニットはD6mv移動できる。ただし、その移動中に近接戦闘に突入するような移動を実行できない。\n• 選択された味方ユニットが近接戦闘中である場合、その味方ユニットは接敵移動を1回実行できる。"
+  },
+  "Lauka Vai, Mother of Nightmares|Impaling Talons": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "ダイスを1個ロールする。ロール結果が選択された敵ユニットの【体力】以下である場合、その敵ユニットは、そのロール結果に等しい数の致命的なダメージを受ける。",
+   "keywords": "蹂躙",
+   "declare": "このユニットが現在のターン中に突撃を実行している場合、このユニットと近接戦闘中である敵ユニットを1個選択する。"
+  },
+  "Lauka Vai, Mother of Nightmares|Nightmare's Miasma": {
+   "timing": "パッシブ",
+   "effect": "このユニットと近接戦闘中である敵ユニットが装備している近接武器の【貫通値】は-1の修正を受ける。"
+  },
+  "Lauka Vai, Mother of Nightmares|The Queen's Dictat": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である**固有**ではない味方**ソウルブライト・グレイヴロード・大型獣**・ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "選択された味方ユニットが装備している近接武器を1つ選ぶ。その味方ユニットが**随行者**の近接武器を有する場合は、その武器を1つ選択しなければならない。そのターン中、選択された武器の【攻撃回数】は+D3の修正を受ける。",
+   "keywords": "呪文"
+  },
+  "Mannfred von Carstein, Mortarch of Night|Ashigaroth's Hunger": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "このユニットが現在のターン中に突撃を実行している場合、ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、このユニットは**『先手効果』**を得る。",
+   "keywords": "蹂躙"
+  },
+  "Mannfred von Carstein, Mortarch of Night|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、自身が装備している**アシガロスの爪**の【攻撃回数】は3になる。"
+  },
+  "Mannfred von Carstein, Mortarch of Night|The Mortarch of Night": {
+   "timing": "リアクション：このユニットの12mv以内に全体が入っている味方ソウルブライト・グレイヴロード・ユニットが『再配置』指揮アビリティを宣言",
+   "effect": "その『再配置』指揮アビリティを使用した味方ユニットは、そのアビリティを使用する際に近接戦闘に突入することができる。"
+  },
+  "Mannfred von Carstein, Mortarch of Night|The Sword of Unholy Power": {
+   "timing": "パッシブ",
+   "effect": "このユニットがこのターン中に1体以上の敵兵を撃破している場合、そのターン中、このユニットの12mv以内に全体が入っている味方**デスラトル**と**デスウォーカー**・ユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。"
+  },
+  "Mannfred von Carstein, Mortarch of Night|Wind of Death": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "詠唱者の18mv以内にある戦場の地点を選び、その地点から6mv以内に一部でも入っており、かつ詠唱者から視認状態である敵ユニットを最大3個まで選択する。その後、2D6の詠唱ロールをする。",
+   "effect": "選択された各敵ユニットに対して、それぞれD3を1個ロールする。ロール結果が2+であれば、ロール対象の敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。",
+   "keywords": "呪文"
+  },
+  "Mortis Engine|Nexus of Death Energy": {
+   "timing": "パッシブ",
+   "effect": "このユニットの12mv以内に全体が入っている味方**デスラトル**または**デッドウォーカー**・ユニットが、『死の祈り』アビリティの対象に選ばれたとき、その味方ユニットが回復するダメージ量または復帰する兵の【体力】合計は+D3の修正を受ける。"
+  },
+  "Mortis Engine|The Reliquary": {
+   "timing": "パッシブ",
+   "effect": "このユニットが初めて配置される際、その隣に**貯蔵エネルギー・ダイス**と称するD6を1個、出目1が上を向くように配置する。このユニットの12mv以内に一部でも入っている味方**ソウルブライト・グレイヴロード・魔術師**ユニットが呪文の詠唱に成功するたび、このユニットの隣に配置した**貯蔵エネルギー・ダイス**の出目を1増やす（最大で6まで増える）。"
+  },
+  "Mortis Engine|Wave of Power": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+   "declare": "このユニットの10mv以内に一部でも入っている敵ユニットを最大3個まで選択する。",
+   "effect": "選択された各敵ユニットに対して、それぞれダイスを1個ロールする。ロール結果が3+であれば、ロール対象の敵ユニットは、**貯蔵エネルギー・ダイス**の目に等しい数の致命的ダメージを受ける。その後、**貯蔵エネルギー・ダイス**の目は1に戻る。"
+  },
+  "Nagash, Supreme Lord of the Undead|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、自身のパワーレベルは3ポイント低下する。"
+  },
+  "Nagash, Supreme Lord of the Undead|Hand of Dust": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "declare": "このユニットと近接戦闘中であり、かつこのユニットから視認状態である敵**英雄**または**大型獣**を1体選択する。",
+   "effect": "アビリティを使用したプレイヤーは、左右どちらかの手に（あるいは適切な容器2つのどちらかに）ダイスを1つ隠す。対戦相手のプレイヤーは、アビリティを使用したプレイヤーの左右の手（あるいは2つの容器）のどちらかを選ぶ。ダイスが隠れている方が選ばれた場合、このアビリティは何の効果も発揮しない。ダイスが無い方が選ばれたら、選択された敵は自動的に全滅する。",
+   "keywords": "蹂躙"
+  },
+  "Nagash, Supreme Lord of the Undead|Invocation of Nagash": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットは、各フェイズにつき2回以上この呪文を詠唱できる。このユニットの18mv以内に全体が入っており、かつこのユニットから視認状態で、このターン中にこの呪文の対象としてまだ選択されていないユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "敵ユニットが選択された場合、その敵ユニットはD3ポイントの致命的ダメージを受ける。味方**死の大同盟**・ユニットが選択されたならば、以下の効果の中から1つを選択する。\n• その味方ユニットに撃破された兵を復帰させる（復帰する兵の【体力】合計が最大3までになるように）。\n• 次の自軍側ターン開始時まで、その味方ユニットは**加護（5+）**を持つ。",
+   "keywords": "呪文"
+  },
+  "Nagash, Supreme Lord of the Undead|Supreme Lord of the Undead": {
+   "timing": "バトル中1回限り、自軍側ヒーローフェイズ",
+   "declare": "全滅している**英雄**でも**固有**でもない味方**死の大同盟**・ユニットを1個選択する。",
+   "effect": "このユニットの12mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に、選択された味方ユニットと同一の代替ユニットを1個配置する。"
+  },
+  "Nagash, Supreme Lord of the Undead|The Staff of Power": {
+   "timing": "パッシブ",
+   "effect": "このユニットがこのターン中に呪文を暴発させていない間、このユニットの詠唱ロールは+2の修正を受ける。このユニットが呪文を暴発させとしても、このユニットはこのターンにこれ以上呪文を詠唱できないという制限を無視する。"
+  },
+  "Necromancer|Undead Minions": {
+   "timing": "パッシブ",
+   "effect": "このユニットが味方**デスラトル**または**デッドウォーカー**・ユニットの近接範囲内に一部でも入っている場合：\n• このユニットは**加護（4+）**を持つ。\n• このユニットが加護ロールを成功させるたびに、このユニットに対する攻撃手順が解決された直後に、このユニットの近接範囲内に一部が入っている味方**デスラトル**または**デッドウォーカー**・ユニットに1ポイントのダメージを割り振る（そのダメージに対して加護ロールは実行できない）。"
+  },
+  "Necromancer|Vanhel's Danse Macabre": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側近接フェイズ",
+   "declare": "このユニットの12mv以内に全体が入っている味方の**デスラトル**または**デスウォーカー**・ユニットを1個選択する。",
+   "effect": "このフェイズ中、選択された味方ユニットは『近接攻撃』アビリティを2回使用できる。ただし、1回目が使用された後、その味方ユニットは以降ターン終了時まで『後手効果』を得る。"
+  },
+  "Neferata, Mortarch of Blood|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、自身が装備している**ナガドロンの爪**の【攻撃回数】は3になる。"
+  },
+  "Neferata, Mortarch of Blood|Dark Mist": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である**大型獣**ではない味方**ソウルブライト・グレイヴロード**・ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、選択された味方ユニットのセーブロールは、すべてのプラス修正とマイナス修正を無視する。",
+   "keywords": "呪文"
+  },
+  "Neferata, Mortarch of Blood|The Adevore": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "declare": "このターン中に、このユニットが装備している**アクメット＝ハール**によってダメージを受けた敵**英雄**を1体選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が5+であれば、選択された敵英雄は自動的に全滅する。",
+   "keywords": "蹂躙"
+  },
+  "Neferata, Mortarch of Blood|The Mortarch of Blood": {
+   "timing": "初期配置フェイズ",
+   "declare": "味方**デスラトル・歩兵**または**デッドウォーカー・歩兵**・ユニットを最大3個まで選択する。",
+   "effect": "選択された各味方ユニットは、あたかも自軍側移動フェイズ中であるかのようにそれぞれ『通常移動』アビリティを1回使用できる。"
+  },
+  "Neferata, Mortarch of Blood|Twilight's Allure": {
+   "timing": "パッシブ",
+   "effect": "このユニットの6mv以内に全体が入っている味方**ソウルブライト・グレイヴロード**・ユニットに対するメレーアタックは、ヒットロールに-1の修正を与える。"
+  },
+  "Prince Vhordrai|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、自身が装備している**ショルデマイアの爪**の【攻撃回数】は5になる。"
+  },
+  "Prince Vhordrai|Quickblood": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、このユニットは**『先手効果』**を得る。",
+   "keywords": "呪文"
+  },
+  "Prince Vhordrai|Saint of Slaughter": {
+   "timing": "任意のターン終了時",
+   "declare": "このターン中に**『近接攻撃』**アビリティを使用してユニットを全滅させており、かつこのユニットの12mv以内に全体が入っている**大型獣**ではない味方ヴァンパイア・ユニットを1個選択する。",
+   "effect": "以降バトル終了時まで、選択された味方ユニットに適用される効果を以下の中から1つを選択する。\n• その味方ユニットの【移動力】は+2の修正を受ける。\n• その味方ユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。\n• その味方ユニットが装備している近接武器の【ダメージ量】は+1の修正を受ける。\n同一のユニットは、複数の効果を同時に得ることができる。ただし、各ユニットは、それぞれの効果を得ることができるのは1回だけである。"
+  },
+  "Prince Vhordrai|Trail of Crimson": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "ダイスを1個ロールする。ロール結果が4+であれば、選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。",
+   "keywords": "蹂躙",
+   "declare": "このユニットは近接戦闘中でなくとも、接敵移動を1回実行できる。その後、このユニットが近接戦闘中である場合、その近接戦闘中である敵ユニットを1個選択する。"
+  },
+  "Prison of Grief": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する、味方**ソウルブライト・グレイヴロード・魔術師**を1個選択する。その後、選択された魔術師の12mv以内に一部でも入っており、かつその魔術師から視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、対象は**『後手効果』**を得る。",
+   "keywords": "呪文"
+  },
+  "Radukar the Beast|Armour of the Night": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "2D6の詠唱ロールをする。",
+   "effect": "そのターン中、このユニットを対象とする攻撃のヒットロールとウーンズロールは-1の修正を受ける。",
+   "keywords": "呪文"
+  },
+  "Radukar the Beast|Call to the Hunt": {
+   "timing": "パッシブ"
+  },
+  "Radukar the Beast|The Beast Will Out": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "effect": "このユニットが近接戦闘中ではない場合、このユニットはD6mv移動できる。その際、近接戦闘に突入することができる。",
+   "keywords": "蹂躙"
+  },
+  "Radukar the Wolf|Call to the Hunt": {
+   "timing": "パッシブ",
+   "effect": "このユニットが現在のターン中に突撃を実行している場合、そのターン中、このユニットの12mv以内に全体が入っている味方**デスラトル**と**デッドウォーカー**・ユニットは、そのメレーアタックのウーンズロールに+1の修正を受ける。"
+  },
+  "Radukar the Wolf|Master of the Pack": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、このユニットの12mv以内に全体が入っている味方**ソウルブライト・グレイヴロード・歩兵**・ユニットは、突撃ロールをリロールできる。",
+   "keywords": "呪文"
+  },
+  "Revenant Draconith|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットの竜の爪の【攻撃回数】は5になる。"
+  },
+  "Revenant Draconith|Death on Tattered Wings": {
+   "timing": "初期配置フェイズ",
+   "declare": "このユニットが初期配置されていない場合、このユニットを選択する。",
+   "effect": "このユニットを予備戦力として**戦場の上空**に配置する。そのユニットは初期配置されたものとみなされる。",
+   "keywords": "初期配置"
+  },
+  "Revenant Draconith|Loathsome Descent": {
+   "timing": "自軍側移動フェイズ",
+   "declare": "このユニットが**戦場の上空**にいる場合、このユニットを選択する。",
+   "effect": "あらゆる敵ユニットから9mvより遠く離れた戦場の任意の位置に、このユニットを配置する。"
+  },
+  "Revenant Draconith|Red Ruin": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "declare": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "D3を1個ロールする。ロール結果が2+であれば、以下の効果をそれぞれ解決する、\n• 選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。\n• このユニットを**回復（X）**する。Xの値は、このロール結果に等しい値である。\n• このユニットを戦場から取り除き、予備戦力として**戦場の上空**に配置してもよい。",
+   "keywords": "蹂躙"
+  },
+  "Sanguine Swarm|Leeching Bites": {
+   "timing": "パッシブ",
+   "effect": "この**顕現**の攻撃でクリティカルヒットが出るたびに、この**顕現**を**回復（1）**する。"
+  },
+  "Sanguine Swarm|Multiple Parts": {
+   "timing": "パッシブ",
+   "effect": "この**顕現**の【体力】と等しい数のダメージがこの顕現に割り振られた場合、この**顕現**は全滅し、そのパーツのすべてがゲームから取り除かれる。\nこの**顕現**が移動を完了する際、双方のパーツは互いに9mv以内に一部が入っていなければならない。\nこの**顕現**の各パーツは、**吸血の嚙みつき**を装備している。"
+  },
+  "Scourge of Aqshy: Revenant Draconith|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**竜の爪**の【攻撃回数】は5になる。"
+  },
+  "Scourge of Aqshy: Revenant Draconith|Brimming with Rancour": {
+   "timing": "各ターンにつき1回（アーミー）、敵軍側ヒーローフェイズ",
+   "declare": "このユニットから視認状態である敵ユニットを1個選択する。",
+   "effect": "そのターン中、選択された敵ユニットは『**突撃**』ではない『**移動**』アビリティを使用する場合、このユニットのXmv以内に一部でも入るように移動を完了することができない。Xは自軍側の**憤激レベル**に等しい。",
+   "keywords": "蹂躙"
+  },
+  "Scourge of Aqshy: Revenant Draconith|Volatile Animus": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "**憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）その後、以下の効果から1つを選択する：\n**報復の構え：**そのターン中：\n• このユニットと近接戦闘中の敵ユニットの、ヒットロールとウーンズロールに対するすべてのプラス修正を無視する。\n• このユニットはセーブロールに+1の修正を受ける。\n• このターン中に『**近接攻撃**』アビリティを使用している敵ユニットを対象とするこのユニットの攻撃（**随行者**武器を含む）は、ヒットロールに+1の修正を受ける。\n**抑えざる獰猛性：**そのターン中：\n• このユニットの攻撃は、ヒットロールとウーンズロールに対するあらゆるマイナス修正を無視する。\n• このフェイズ中に『**近接攻撃**』アビリティを使用していない敵ユニットを対象とする、このユニットが装備している**随行者**近接武器の【貫通値】と【ダメージ量】は+1の修正を受ける。"
+  },
+  "Scourge of Aqshy: Vengorian Lord|Frenzied Surge": {
+   "timing": "各ターンにつき1回（アーミー）、任意の突撃フェイズ",
+   "declare": "このユニットの12mv以内に全体が入っており、かつ視認状態である別の**英雄でない**味方**ソウルブライト・グレイヴロード・歩兵**または**大型獣**・ユニットを1個選択できる。",
+   "effect": "このユニットはXmvまで移動できる。Xの値は、自軍の憤激レベルに等しい。このユニットは近接戦闘に突入するように、その移動を完了しなければならない。\nその後、選択された味方ユニットはXmvまで移動できる。Xの値は、自軍の憤激レベルに等しい。その移動の際に、その味方ユニットは敵兵や敵ユニットの近接範囲内を通り抜けることができるが、このユニットと近接戦闘中である敵ユニットと近接戦闘に突入するように、その移動を完了しなければならない。"
+  },
+  "Scourge of Aqshy: Vengorian Lord|Indignant Outburst": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "このユニットが近接戦闘中の場合、**憤激ダイス**を1個獲得する。"
+  },
+  "Scourge of Aqshy: Vengorian Lord|Nightmare's Miasma": {
+   "timing": "パッシブ",
+   "effect": "このユニットと近接戦闘中である敵ユニットが使用する近接武器の【貫通地】は-1の修正を受ける。"
+  },
+  "Scourge of Ghyran Corpse Cart|Necromantic Goad": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "declare": "このユニットの12mv以内に全体が入っており、かつ近接戦闘中ではない味方**デッドウォーカー・ゾンビ**・ユニットを1個選択する。",
+   "effect": "選択された味方ユニットは3mvまで移動してもよい。その移動中、このユニットは近接戦闘に突入することができる。"
+  },
+  "Scourge of Ghyran Corpse Cart|Unholy Lodestone": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの近接範囲内に一部でも入っている味方**デッドウォーカー・ゾンビ**・ユニットを1個選択する。",
+   "effect": "次の自軍側ターン開始時まで、選択された味方ユニットがこのユニットの12mv以内に全体が入っている間、『知性なき獰猛』アビリティは6+ではなく5+で致命的ダメージを与える。"
+  },
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Allow Me to Remind You...": {
+   "timing": "各ターンにつき1回、リアクション：敵軍側が、このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットに対して指揮アビリティを宣言",
+   "effect": "ダイスを1個ロールする。ロール結果が5+であれば、その指揮アビリティは効果を発揮せず、指揮アビリティは依然として使用されたものとみなされ、その指揮アビリティを使用するために消費した指揮ポイントも失われる。"
+  },
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Irresistible Demand": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵**英雄**を1体選択し、2D6の詠唱ロールをする。",
+   "effect": "選択された敵英雄の3mv以内に一部でも入っている自身以外の各敵ユニットは、それぞれD3ポイントの致命的ダメージを受ける。",
+   "keywords": "呪文"
+  },
+  "Scourge of Ghyran Sekhar, Fang of Nulahmia|Lest You Forget...": {
+   "timing": "各バトルラウンドにつき1回、リアクション：このユニットの18mv以内に一部でも入っており、かつ視認状態である敵ユニットが『呪文』または『突撃』アビリティを宣言",
+   "effect": "そのアビリティの突撃ロールあるいは詠唱ロールからダイスを1個選択する。敵軍側は選択されたダイスをリロールしなければならない。"
+  },
+  "Sekhar, Fang of Nulahmia|Death's Construction": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、選択された敵ユニットがこのユニットの6mv以内に全体が入っている間、その敵ユニットは味方**ソウルブライト・グレイヴロード**・ユニットをアビリティの対象として選択できるのは**『近接攻撃』**アビリティだけである。",
+   "keywords": "呪文"
+  },
+  "Sekhar, Fang of Nulahmia|Serpentine Agility": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象とするメレーアタックにおいて、修正前のヒットロールで出目1-4が出た場合、その攻撃は失敗し、攻撃手順を終了する。"
+  },
+  "Sekhar, Fang of Nulahmia|The Time-Swallower's Maw": {
+   "timing": "バトル中1回限り、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中である各敵ユニットを選択する。",
+   "effect": "以降バトル終了時まで、このユニットは『蛇の俊敏さ』アビリティを使用できない。選択された各敵ユニットに対して、それぞれ2D6をロールする。ロール結果がロール対象である敵ユニットの【移動力】を上回る場合、ロール対象の敵ユニットは、その【移動力】からロール結果を減算した数の致命的ダメージを受ける。"
+  },
+  "Shard of Night": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象とするレンジアタックのセーブロールは、すべてのプラス修正とマイナス修正を無視する。"
+  },
+  "Spearhead|Aura of Antiquity": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側近接フェイズ",
+   "declare": "味方ユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された敵ユニットが装備している近接武器の【貫通値】は-1の修正を受ける。"
+  },
+  "Spearhead|Aura of Night": {
+   "timing": "パッシブ",
+   "effect": "自軍側ジェネラルを攻撃目標とするレンジアタックに対して、自軍側ジェネラルはセーブロールのマイナス修正を無視する。"
+  },
+  "Spearhead|Barrow Guard|Guardians of the King": {
+   "timing": "パッシブ",
+   "effect": "自軍側ジェネラルがこのユニットの近接範囲内に一部でも入っている場合、このユニットとそのジェネラルは**加護（5+）**を持つ。"
+  },
+  "Spearhead|Barrow Knights|Cursed To Rise Once More": {
+   "timing": "自軍側ターン終了時",
+   "effect": "このユニットに撃破されている兵1体を復帰させることができる。"
+  },
+  "Spearhead|Blood Knights|Riders of Ruin": {
+   "timing": "パッシブ",
+   "effect": "このユニット内の兵は、あたかも自身が**飛行**を有するかのように、敵**歩兵**・兵を通り抜けることができる。"
+  },
+  "Spearhead|Bloodcrave Hunt|Deathrattle Skeletons|Skeleton Legion": {
+   "timing": "自軍側近接フェイズ",
+   "effect": "このユニット内の兵1体が撃破されるたびに、D6の**兵団ロール**を1個ロールする。ロール結果で6が出るたびに、このユニット内の撃破された兵1体を復帰させる。"
+  },
+  "Spearhead|Cloud of Bats": {
+   "timing": "バトル中1回限り、自軍側移動フェイズ",
+   "effect": "自軍側ジェネラルを戦場から取り除き、あらゆる敵ユニットから6mvより遠く離れた戦場の位置に再配置する。"
+  },
+  "Spearhead|Deathmarch": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "近接戦闘中ではない**英雄**ではない味方ニットを1個選択する。",
+   "effect": "そのターン中、選択された味方ユニットの【移動力】は+1mvの修正を受ける。さらに、その味方ユニットの確保スコアは+3の修正を受ける。"
+  },
+  "Spearhead|Deathrattle Tomb Host|Deathrattle Skeletons|Skeleton Legion": {
+   "timing": "任意のターン終了時",
+   "effect": "このユニットに撃破されている兵をD3体復帰させることができる。"
+  },
+  "Spearhead|Endless Legions": {
+   "timing": "バトル中1回限り、自軍側移動フェイズ",
+   "declare": "全滅した味方**デスラトル・スケルトン**・ユニットを1個選択する。",
+   "effect": "敵ユニットから6mvより遠く離れた自軍側陣地内の位置に、D6兵で構成された代替ユニットを1個配置できる。"
+  },
+  "Spearhead|Grave-sand Shard": {
+   "timing": "バトル中1回限り、リアクション：自軍側ジェネラル9mv以内に一部でも入っているユニットで『骨の兵団』アビリティを宣言",
+   "effect": "そのユニットの各**軍団ロール**は+1の修正を受ける。"
+  },
+  "Spearhead|Overwhelming Hordes": {
+   "timing": "パッシブ",
+   "effect": "攻撃側ユニットの兵数より少ない兵数を持つユニットを対象に攻撃する場合、**英雄**ではない味方ユニットのメレーアタックはウーンズロールに+1の修正を受ける。"
+  },
+  "Spearhead|Propelled by Hate": {
+   "timing": "自軍側突撃フェイズ",
+   "declare": "自軍側ジェネラルの12mv以内に全体が入っているジェネラル以外の味方ユニットを1個選択する。",
+   "effect": "そのターン中、選択された味方ユニットは突撃ロールをリロールできる。"
+  },
+  "Spearhead|Ruinous Chargers": {
+   "timing": "任意の突撃フェイズ",
+   "declare": "このターン中に突撃を実行している味方**ブラッドナイト**・ユニットを1個選択し、このアビリティを使用する。",
+   "effect": "その『**突撃**』アビリティを使用したときに通り抜けた各敵ユニットは、それぞれD3ポイントの致命的ダメージを受ける。"
+  },
+  "Spearhead|Shyishan Blade": {
+   "timing": "パッシブ",
+   "effect": "自軍側ジェネラルが装備しているベイルフル・トゥームブレイドの【貫通値】は2になる。"
+  },
+  "Spearhead|Soul-drain Pendant": {
+   "timing": "バトル中1回限り、任意の近接フェイズ",
+   "declare": "このジェネラルと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が2+であれば、そのターン中、選択された敵ユニットは『**後手効果**』を得る。"
+  },
+  "Spearhead|Spirit Gale": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "2D6の詠唱ロールをする。",
+   "effect": "ロール結果が7+であれば、戦場に配置されている各敵ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Spearhead|Stolen Animus": {
+   "timing": "パッシブ",
+   "effect": "自軍側ジェネラルがクリティカルヒットを出した際、その『**アタック**』アビリティを解決した直後に、自軍側ジェネラルを回復（2）する。"
+  },
+  "Spearhead|Swoop Down": {
+   "timing": "自軍側移動フェイズ",
+   "effect": "あらゆる敵ユニットから6mvより遠く離れた戦場の任意の位置に、このユニットを配置する。"
+  },
+  "Spearhead|The Hunger": {
+   "timing": "パッシブ",
+   "effect": "味方**ヴァンパイア**・ユニットが『**近接攻撃**』アビリティを使用する際、すべての攻撃が解決された後、その味方**ヴァンパイア**・ユニットを**回復（X）**する。それらの攻撃によって割り振られたダメージの合計を**X**とする。"
+  },
+  "Spearhead|The Rising Dead": {
+   "timing": "バトル中1回限り（アーミー）、自軍側移動フェイズ",
+   "effect": "戦場端の3mv以内に全体が入るように、かつあらゆる敵ユニットから6mvより遠く離れた戦場の任意の位置に、このユニットを配置する。"
+  },
+  "Spearhead|Vampire Lord|Vile Transference": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの6mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "ロール結果が6+であれば、選択された敵ユニットの【体力】と等しい数のダイスをロールする。ロール結果で5+が出るたびに、その敵ユニットは**1ポイントの致命的ダメージ**を受ける。そのたびに、このユニットを**回復（1）**する。"
+  },
+  "Spearhead|Vargheists|The Scent of Gore": {
+   "timing": "パッシブ",
+   "effect": "このユニットが損傷状態であるユニットを攻撃目標として攻撃をする際、その攻撃のウーンズロールは+1の修正を受ける。"
+  },
+  "Spearhead|Wight King|King of Shambling Bones": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの12mv以内に全体が入っている味方ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が2+であれば、そのターン中、選択された味方ユニットのメレーアタックのヒットロールは+1の修正を受ける。"
+  },
+  "Summon Hand of Nagash": {
+   "effect": "詠唱者から12mv以内に全体が入るように、かつ詠唱者から視認状態になるように、あらゆる敵から9mvより遠く離れた位置にナガッシュの手を1個配置する。",
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "戦場に味方の**ナガッシュの手**が1個も存在しない場合、この呪文を唱える際に味方**ソウルブライト・グレイヴロード・魔術師**を1体選択し、2D6の詠唱ロールをする。",
+   "keywords": "呪文、召喚"
+  },
+  "Summon Sanguine Swarm": {
+   "effect": "詠唱者から12mv以内に全体が入るように、かつ詠唱者から視認状態になるように、あらゆる敵から9mvより遠く離れた位置に吸血の群れを1個配置する。吸血の群れを召喚の永久呪文は、2つのパーツで構成されており、それらは互いの9mv以内に一部が入るように配置されなければならない。",
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "戦場に味方の**吸血の群れ**が1個も存在しない場合、この呪文を唱える際に味方**ソウルブライト・グレイヴロード・魔術師**を1体選択し、2D6の詠唱ロールをする。",
+   "keywords": "呪文、召喚"
+  },
+  "Summon Unholy Reliquary": {
+   "effect": "詠唱者から18mv以内に全体が入るように、かつ詠唱者から視認状態になるように、あらゆる敵から3mvより遠く離れた位置に罪咎の棺を1個配置する。",
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "戦場に味方の**罪咎の棺**が1個も存在しない場合、この呪文を唱える際に味方**ソウルブライト・グレイヴロード・魔術師**を1体選択し、2D6の詠唱ロールをする。",
+   "keywords": "呪文、召喚"
+  },
+  "Terminus Clock": {
+   "timing": "自軍側ヒーローフェイズ",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、このユニットの18mv以内に一部でも入っている敵**魔術師**の詠唱ロールは-1の修正を受ける。"
+  },
+  "Terrorgheist|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットの**骸骨の爪**の【攻撃回数】は4になる。"
+  },
+  "Terrorgheist|Gaping Maw": {
+   "timing": "パッシブ",
+   "effect": "このユニットの『**牙ありし口**』による攻撃がクリティカルヒットした場合、その攻撃は攻撃対象であるユニットに6ポイントの致命的ダメージを与え、その攻撃の攻撃手順は終了する。"
+  },
+  "Terrorgheist|Sonic Assault": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットがこのターン中に突撃していた場合、このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "選択した敵ユニット内の各兵に対して、それぞれダイスを1個ロールする。\n同じ出目のダイスが3個以上ある場合、このターン中、このユニットは『**先手効果**』を得る。\n同じ出目のダイスが6個以上ある場合、このターン中、このユニットは『**先手効果**』を獲得し、選択された敵ユニットは指揮アビリティを使用できない。",
+   "keywords": "蹂躙"
+  },
+  "The Crimson Court|Come Then, Amuse Us": {
+   "timing": "任意の近接フェイズ",
+   "effect": "このユニットが1個以上の敵**英雄**と近接戦闘中である場合、D3を1個ロールし、そのロール結果に等しい数だけ以下に挙げた効果を選択する：\n• そのターン中、このユニットのセーブロールは+1の修正を受ける。\n• 効果：そのターン中、このユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。\n• 効果：そのターン中、このユニットが装備している近接武器の【貫通値】は+1の修正を受ける。"
+  },
+  "The Empty Graveyard": {
+   "timing": "初期配置フェイズ",
+   "effect": "このユニットを戦場から取り除き、あらゆる敵ユニットから9mvより遠く離れ、かつ特殊地形の7mv以内に全体が入るように、または、戦場端から7mv以内に全体が入るように再配置する。第1バトルラウンド中の第1ターン中、このユニットは『**移動**』アビリティを使用できない。"
+  },
+  "The Exiled Dead|Deintalos the Exile": {
+   "timing": "パッシブ",
+   "effect": "このユニットの**追放者ダインタロス**が戦場に配置されている間、このユニットは**魔術師（1）**を有する。このユニットの**プレンティス・マルコフ**が戦場に配置されている間、このユニットの詠唱ロールは+1の修正を受ける。"
+  },
+  "The Exiled Dead|Unfeeling Fortitude": {
+   "timing": "自軍側ヒーローフェイズ",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された味方ユニットは**加護（5+）**を持つ。"
+  },
+  "The Hunger": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "declare": "このターン中に**『近接攻撃』**アビリティを実行している味方**ヴァンパイア**・ユニットをすべて選択する。",
+   "effect": "選択された各味方ユニットをそれぞれ**回復**（D3）する。そのターン中に**『近接攻撃』**アビリティを使用して敵ユニットを全滅させている味方ユニットは、代わりに**回復（2D3）**する。"
+  },
+  "The Incarnadine Killers": {
+   "timing": "任意のターン終了時",
+   "effect": "このユニットが近接戦闘中ではなく、かつこのターン中に、このユニットのメレーアタックにより敵ユニットが撃破されている場合、このユニットはD6mv移動できる。その移動を近接戦闘に突入するように終了することはできない。"
+  },
+  "The Never-Dead": {
+   "timing": "任意のヒーローフェイズ",
+   "effect": "**憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）\nその後、そのターン中、このユニットを対象とする攻撃のセーブロールで修正前の出目5+が出た場合、その攻撃は失敗し、攻撃手順を終了する。"
+  },
+  "The Rising Dead": {
+   "timing": "自軍側移動フェイズ",
+   "declare": "**墓の中**にいる味方ユニットを1個選択する。",
+   "effect": "味方の**呪われた墓**の6mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた戦場の位置に、選択された味方ユニットを配置する。あるいは戦場端から6mv以内に全体が入るように、かつ自軍側陣地内に全体が入っており、なおかつあらゆる敵ユニットから9mvより遠く離れた位置に、選択された味方ユニットを配置する。"
+  },
+  "The Sepulchral Guard|Restless Dead": {
+   "timing": "任意のターン終了時",
+   "effect": "このユニットに撃破されている兵をD3体復帰させることができる。"
+  },
+  "The Sons of Velmorn|Rise Again": {
+   "timing": "任意の近接フェイズ",
+   "effect": "このユニットの**モーラック・ヴェルモーン王**が戦場に配置されている場合、このユニット内にいる兵が撃破されるたびにダイスを1個ロールする。ロール結果が4+であれば、このユニットに撃破された兵を1体復帰させることができる。"
+  },
+  "The Speed of Death": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "味方**歩兵・ヴァンパイア・英雄**を1体選択する。",
+   "effect": "選択された味方英雄は12mvまで移動できる。また、その移動の際に**飛行**を得る。この移動は、近接戦闘に突入するように完了することはできない。"
+  },
+  "The Unquiet Dead": {
+   "timing": "初期配置フェイズ",
+   "declare": "初期配置されていない味方**デスラトル**または**デッドウォーカー**・ユニットを1個選択する。",
+   "effect": "選択された味方ユニットを予備戦力として**墓の中**に配置する。その味方ユニットは初期配置されたものとみなされる。**墓の中**に配置されている味方ユニットの数は、戦場に配置されている味方ユニットの数を上回ってはならない。",
+   "keywords": "初期配置"
+  },
+  "Tide of Bones and Blades": {
+   "timing": "パッシブ",
+   "effect": "現在のターン中に突撃を実行している味方**デスラトル**・ユニットは、自身の兵数が攻撃対象であるユニットの兵数よりも多い場合、その使用する近接武器の【貫通値】に+1の修正を受ける。"
+  },
+  "Torgillius the Chamberlain|Failing Fortitude": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、選択された敵ユニットによる攻撃は、ウーンズロールに-1の修正を受ける。",
+   "keywords": "呪文"
+  },
+  "Torgillius the Chamberlain|Trusted Lieutenant": {
+   "timing": "パッシブ",
+   "effect": "このユニットは、異なる味方ユニットがすでに『死の祈り』アビリティを使用していたとしても、そのアビリティを使用できる。ただし、現在のターン中にすでにそのアビリティの対象として選択されたことがあるユニットを再び選択することはできない。"
+  },
+  "Unbending Will": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの12mv以内に全体が入っており、かつ兵数が2体以上である味方**デスラトル**または**デッドウォーカー**・ユニットを1個選択する。",
+   "effect": "そのターン中、選択された味方ユニットの確保スコアは+D6の修正を受ける。"
+  },
+  "Unhinged Rampager": {
+   "timing": "パッシブ",
+   "effect": "自軍側突撃フェイズ中、このユニットは突撃ロールをリロールできる。"
+  },
+  "Unholy Reliquary|Draw on Power": {
+   "timing": "任意の近接フェイズ",
+   "declare": "この**顕現**の12mv以内に全体が入っている味方**ソウルブライト・グレイヴロード・英雄**を1体選択する。",
+   "effect": "以下の中から1つを選択する。\n• 選択された味方英雄を回復（D3）する。\n• そのターン中、選択された味方**英雄**が装備している近接武器は【攻撃回数】に+1の修正を受ける。その後、この**顕現**は追放され、ゲームから取り除かれる。"
+  },
+  "Unholy Site": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "味方**呪われた墓**を1個選択する。",
+   "effect": "次の自軍側ターン開始時まで、選択された味方呪われた墓は**加護（4+）**を持つ。"
+  },
+  "Vampire Lord on Nightmare Steed|'For Glory! For Blood!'": {
+   "timing": "リアクション：自軍側が『突撃』アビリティを宣言",
+   "effect": "宣言した**『突撃』**アビリティの突撃ロールをリロールできる。その後、突撃移動が実行される前に、現在のターン中に**『突撃』**アビリティを使用しておらず、かつこのユニットの12mv以内に全体が入っており、なおかつ近接戦闘中ではない味方**ブラッドナイト**・ユニットを1個選択してもよい。突撃を宣言したユニットが突撃を実行する際、そのユニットの**『突撃』**アビリティが解決された直後に、選択された味方ユニットは、自軍側突撃フェイズ中ではなくてもただちに『突撃』アビリティを使用できる。さらに、そのフェイズ中、その味方ユニットは突撃ロールをリロールできる。"
+  },
+  "Vampire Lord on Nightmare Steed|Strike At The Heart": {
+   "timing": "任意の近接フェイズ",
+   "declare": "このターン中に突撃を実行しており、かつこのユニットの12mv以内に全体が入っている味方**ブラッドナイト**・ユニットを1個選択する。",
+   "effect": "そのターン中、このユニットが装備している**テンプル騎士の武器**の【貫通値】は+1の修正を受ける。"
+  },
+  "Vampire Lord on Zombie Dragon|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットの**竜の爪**の【攻撃回数】は5になる。"
+  },
+  "Vampire Lord on Zombie Dragon|Bloodthirsty Dominance": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "declare": "このユニットがこのターン中に突撃していた場合、このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "選択された敵ユニットの【体力】と同じ個数のダイスをロールする。ロール結果で6が出るたびに、選択された敵ユニットは1ポイントの致命的ダメージを受ける。",
+   "keywords": "蹂躙"
+  },
+  "Vampire Lord on Zombie Dragon|That Which Should Not Be": {
+   "timing": "パッシブ",
+   "effect": "このユニットがこのターン中に突撃していた場合、そのターン中、このユニットと近接戦闘中である敵ユニットの確保スコアは-5の修正を受ける。"
+  },
+  "Vampire Lord|Sanguine Blur": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、このユニットを戦場から取り除き、**英雄**ではないあらゆる敵ユニットから9mvより遠く離れ、かつあらゆる敵**英雄**から3mvより遠く離れた戦場の位置に再配置する。"
+  },
+  "Vargheists|Death's Descent": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側移動フェイズ",
+   "effect": "このユニットが近接戦闘中ではない場合、このユニットを戦場から取り除いて、あらゆる敵ユニットから9mvより遠く離れた戦場の任意の位置に再配置する。",
+   "keywords": "コア"
+  },
+  "Vargskyr|Beast": {
+   "timing": "パッシブ",
+   "effect": "このユニットは最大1の確保スコアを持つ。"
+  },
+  "Vargskyr|Bounding Haste": {
+   "timing": "パッシブ",
+   "effect": "このユニットが突撃ロールをする場合、突撃ロールに用いられるダイス個数は1加算される（最大：3個）。また、このユニットが突撃アビリティを使用する際には、飛行を持つかのように特殊地形や敵兵を通過して移動できる。"
+  },
+  "Vengorian Lord|Festering Feast": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "effect": "このターン中、このユニットの攻撃によって敵ユニットに1ポイント以上のダメージが割り振られている場合、このユニットとこのユニットの12mv以内に全体が入っている各味方**ソウルブライト・グレイヴロード・大型獣**・ユニットをそれぞれ**回復（D3）**する。"
+  },
+  "Vengorian Lord|Nightmare's Miasma": {
+   "timing": "パッシブ",
+   "effect": "このユニットと近接戦闘中である敵ユニットが装備している近接武器の【貫通値】は-1の修正を受ける。"
+  },
+  "Vengorian Lord|Scything Talons": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットが現在のターン中に突撃を実行している場合、このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、選択された敵ユニット内にいる各兵に対して、それぞれダイスを1個ロールする。ロール結果で5+が出るたびに、その敵ユニットは1ポイントの致命的ダメージを受ける。",
+   "keywords": "蹂躙"
+  },
+  "Vile Transference": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**ソウルブライト・グレイヴロード・魔術師**を1体選択する。その後、選択された魔術師の18mv以内に一部でも入っており、かつその魔術師から視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "選択された敵ユニット内にいる兵数と等しい数のダイスをロールする。ロール結果で6が出るたびに、その敵ユニットは1ポイントの致命的ダメージを受ける。この呪文によって1体以上の兵が撃破された場合、詠唱者を**回復**（D3）する。",
+   "keywords": "呪文、無制限"
+  },
+  "Vyrkos Blood-born|Cling to the Shadows": {
+   "timing": "パッシブ",
+   "effect": "このユニット内にいる各兵が1個以上の特殊地形の1mv以内に一部が入っている間、このユニットの9mv以内に一部でも入っていない限り、攻撃側の兵はこのユニットを対象にレンジアタックをすることができない。"
+  },
+  "Vyrkos Blood-born|Shadowfast": {
+   "timing": "各ターンにつき1回（アーミー）、敵軍側ターン終了時",
+   "effect": "このユニットは、あたかも自軍側移動フェイズ中かのように『**移動**』アビリティを1回使用できる。"
+  },
+  "Wardens of the Wolf": {
+   "timing": "パッシブ",
+   "effect": "味方**ベラダンマ・ヴォルガ**または**“餓狼王”ラドゥカール**、**“野獣”ラドゥカール**、**イヴヤ・ヴォルガ**、**レディ・アンニカ**、**クリッツァ**、**“侍従”トーギリウス**、**“墓守”ゴルスラフ**、**監視隊長ハルグリム**の12mv以内に全体が入っている味方**ソウルブライト・グレイヴロード・歩兵**あるいは**獣兵**・ユニットに、撃破された兵が1体以上復帰する場合、そのユニットに復帰する兵の数は+1の修正を受ける。"
+  },
+  "Waste Away": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する、味方**ソウルブライト・グレイヴロード・魔術師**を1個選択する。その後、選択された魔術師の12mv以内に一部でも入っており、かつその魔術師から視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "そのターン中、選択された敵ユニットが装備している近接武器の【ダメージ量】は-1の修正を受ける。",
+   "keywords": "呪文"
+  },
+  "Watch Captain Halgrim|Disciplined Advance": {
+   "timing": "パッシブ",
+   "effect": "このユニットの12mv以内に全体が入っている味方**デスラトル・スケルトン**・ユニットが全力移動ロールをする際、そのロールのダイスを出目4に変更できる。"
+  },
+  "Watch Captain Halgrim|Echoes of the Watch": {
+   "timing": "リアクション：このユニットが『近接攻撃』アビリティを宣言",
+   "effect": "このターン中に『近接攻撃』アビリティを使用しておらず、かつこのユニットの近接範囲内に一部でも入っている味方**デスラトル・スケルトン**・ユニットを1個選択する。このユニットによる『**近接攻撃**』アビリティを解決した直後に、選択された味方ユニットはただちに『**近接攻撃**』アビリティを使用できる。"
+  },
+  "Wight King on Skeletal Steed|Ancient Barrow Curse": {
+   "timing": "パッシブ",
+   "effect": "このユニットが装備している**王の遺物**でクリティカルヒットが出た場合、以降バトル終了時まで、その攻撃対象は**呪われた**状態になる。このユニットが全滅していたとしても、呪われた状態にあるユニットはセーブロールに-1の修正を受ける。\nデザイナーズ・ノート：このアビリティは1個以上の敵ユニットを「呪われた」状態にすることができるが、同一の敵ユニットが「呪われた」状態になるのは1回だけである。"
+  },
+  "Wight King on Skeletal Steed|Immortal Conqueror": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "敵軍側陣地内にある作戦目標または特殊地形を1個選択する。",
+   "effect": "そのターン中、選択された作戦目標または特殊地形の6mv以内に全体が入っている味方**デスラトル**・ユニットの攻撃は、ヒットロールに+1の修正を受ける。"
+  },
+  "Wight King|Ancient Strategies": {
+   "timing": "リアクション：このユニットが『近接攻撃』アビリティを宣言",
+   "effect": "このターン中に**『近接攻撃』**アビリティを使用しておらず、かつこのユニットの近接範囲内に一部でも入っている**英雄**ではない味方**デスラトル・歩兵**・ユニットを1個選択する。このユニットが使用した**『近接攻撃』**アビリティを解決した直後に、選択された味方ユニットはただちに**『近接攻撃』**アビリティを使用できる。その味方ユニットが『近接攻撃』アビリティを使用した場合、そのターン中、その味方ユニットによる攻撃のヒットロールは+1の修正を受ける。"
+  },
+  "Wight King|King of Shambling Bones": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "このユニットの近接範囲内に一部でも入っている味方**デスラトル**・ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された味方ユニットが装備している近接武器は**クリティカル（2ヒット）**を得る。"
+  },
+  "Wight Lord on Skeletal Steed|Lord of Trampling Bones": {
+   "timing": "パッシブ",
+   "effect": "このユニットの12mv以内に全体が入っている味方**デスラトル・騎兵**・ユニットの突撃ロールは+1の修正を受ける。"
+  },
+  "Wight Lord on Skeletal Steed|Royal Companions": {
+   "timing": "リアクション：このユニットが『近接攻撃』アビリティを宣言",
+   "effect": "このターン中に**『近接攻撃』**アビリティを使用しておらず、かつこのユニットの近接範囲内に一部でも入っている**英雄**ではない味方**デスラトル・騎兵**・ユニットを1個選択する。このユニットが使用した**『近接攻撃』**アビリティを解決した直後に、選択された味方ユニットはただちに**『近接攻撃』**アビリティを使用できる。"
+  },
+  "Zondara's Gravebreakers|Wrest From the Realms": {
+   "timing": "自軍側ヒーローフェイズ",
+   "effect": "このユニットが**ソウルブライト・グレイヴロード・アーミー**に編成されている場合、このユニットから3mv以内に一部でも入っている特殊地形を1個選択する。次にダイスを1個ロールし、対応する効果を適用する。バトル中、同じ特殊地形を選択できるのは1回までである。\n1 **残酷なる希望：**効果なし。\n2-4 **呪われし肉体：**このユニットに、撃破された兵をD3体復帰させルコとができる。\n5-6 **借り物の力：**このユニットの12mv以内に全体が入っており、かつ神器を持っていない味方**ソウルブライト・グレイヴロード・英雄**を1体選択する。ソウルブライト・グレイヴロードの陣営ルールの中から他の味方**英雄**が持っていない神器を1つ選び、選択された**英雄**にこの神器を与える。"
+  },
+  "Zondara's Gravebreakers|Zondara Rivenheart": {
+   "timing": "パッシブ",
+   "effect": "このユニットの**“裂心の”ゾンダラ**が戦場に配置されている間、このユニットは**魔術師（1）**を有する。"
+  }
+ },
+ "group_names": {
+  "Bacchanal of Blood": "血の饗宴",
+  "Bloodcrave Hunt": "吸血族の狩り",
+  "Cryptmasters": "霊廟の守衛",
+  "Deathly Heirlooms": "死の家宝",
+  "Deathmarch": "死の行進",
+  "Deathrattle Tomb Host": "デスラトル墳墓隊",
+  "Deathstench Drove": "死臭の車列",
+  "Legion of Shyish": "シャイシュの兵団",
+  "Legions of Ulfenkarn": "ウルフェンカーンの軍団",
+  "Lore of Undeath": "不死の伝承",
+  "Manifestations of the Grave": "死地の顕現",
+  "Origins of Terrifying Folk Tales": "悍ましき恐怖譚の起源",
+  "Skinshifters": "呪われた肌変わり",
+  "Soulblight Gravelords Battle Traits": "戦闘特性",
+  "The Cursed Bloodlines": "呪われし血脈",
+  "Undying Tyrants": "不死の暴君"
+ },
+ "group_texts": {
+  "Bloodcrave Hunt Enhancements": "自軍のジェネラルに、以下の強化の中から1つを付与する。",
+  "Bloodcrave Hunt Regiment Abilities": "以下の連隊アビリティの中から1つを選択する。",
+  "Deathly Heirlooms": "（**英雄**のみ）",
+  "Deathrattle Tomb Host Enhancements": "自軍のジェネラルに、以下の強化の中から1つを付与する。",
+  "Deathrattle Tomb Host Regiment Abilities": "以下の連隊アビリティの中から1つを選択する。",
+  "Origins of Terrifying Folk Tales": "『悍ましき恐怖譚の起源』は、**英雄でないソウルブライト・グレイヴロード・歩兵**・ユニットに与えることのできる固有強化である。\n1個のユニットは、『悍ましき恐怖譚の起源』を1個だけ持つことができる。",
+  "Soulblight Gravelords Battle Traits": "ソウルブライト・グレイヴロードのアーミーは以下のアビリティを使用できる：",
+  "The Cursed Bloodlines": "（**英雄**のみ）",
+  "Undying Tyrants": "（**英雄**のみ）"
+ },
+ "wargear_option_texts": {
+  "Askurgan Trueblades": "このユニット内の各兵は、アスカルガンの武器を装備している。\n• 兵の1/8はカースブラッドであり、カースブラッドは「アスカルガンの武器」の代わりに「長い鉤爪と涎滴る顎」を装備しなければならない。\n• 豪傑はアスクルガン・エグゼンプラーであり、豪傑は装備している武器を交換できない。",
+  "Blades of the Hollow King": "• このユニット内の兵1体は、エゼキアルの大剣を装備しているカド・エゼキアルである。\n• このユニット内の兵1体は、シセンドラの双剣を装備しているシセンドラである。\n• このユニット内の兵1体は、ケニストリックスの牙を装備しているアウレリアスである。",
+  "Cursed Sepulchre": "以下の共通の特殊地形アビリティが、この特殊地形に適用される（特殊地形、1.2）：遮蔽物、通り抜け不可能",
+  "The Crimson Court": "このユニットの各兵は、宮廷人の武器を装備している。\nこのユニット内の兵は以下の通り：\n• デュバル公爵（豪傑）\n• 執行官ゴラス\n• ヴェラス・フォン・フェイン\n• エニアス・カースボーン",
+  "The Exiled Dead": "このユニット内の各兵は、電弧武器を装備している。\nこのユニット内の兵は以下の通り：\n• 追放者ダインタロス（豪傑）\n• プレンティス・マルコフ\n• レグルス（漏電）\n• コイル（漏電）\n• ボールト（漏電）\n• ヴラッシュ（漏電）\n• アイオーン（漏電）",
+  "The Sepulchral Guard": "このユニット内の各兵は、古代の武器を装備している。\nこのユニット内の兵は以下の通り：\n• “墳墓総監”（豪傑）\n• “勇士”\n• “刈り取る者”\n• “塵の王子”\n• 不可避なる嘆願者\n• 熱狂せる嘆願者\n• 立ち上がりし嘆願者",
+  "The Sons of Velmorn": "このユニットの各兵はロイヤルウェポンを装備している。このユニット内の兵は以下の通り：\n• モーラック・ヴェルモーン王（豪傑）\n• サー・ジェドラン・フォルスボーン\n• “切断者”ヘルマー\n• ファウルク・ヴェルモーン元帥\n• “末子四弟の”サイン",
+  "Zondara's Gravebreakers": "このユニット内の兵は以下の通り：\n• “裂心の”ゾンダラ（豪傑、盗掘者の道具を装備している）\n• ピック（盗掘者の道具を装備している）\n• クラックトゥーム（盗掘者の道具を装備している）\n• トイル（盗掘者の道具を装備している）\n• “喪心の”フェーライン（レンディングクロウを装備している）"
+ },
+ "faction_name": "ソウルブライト・グレイヴロード"
+}

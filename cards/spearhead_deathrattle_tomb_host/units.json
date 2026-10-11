@@ -3,19 +3,19 @@
   "slug": "spearhead_deathrattle_tomb_host",
   "kind": "spearhead",
   "faction_en": "Soulblight Gravelords",
-  "faction_ja": null,
+  "faction_ja": "ソウルブライト・グレイヴロード",
   "faction_slug": "soulblight_gravelords",
   "alliance": null,
   "title_en": "Deathrattle Tomb Host",
-  "title_ja": null,
+  "title_ja": "デスラトル墳墓隊",
   "data_version": 483
  },
  "units": [
   {
    "id": "e37647bc-c42c-454d-9461-68b5147d9499",
    "name": {
-    "ja": "Barrow Guard",
-    "en": "",
+    "ja": "バロウガード",
+    "en": "Barrow Guard",
     "own": false,
     "fix": [],
     "note": []
@@ -53,8 +53,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Wight Blade",
-     "en": "",
+     "ja": "ワイトブレイド",
+     "en": "Wight Blade",
      "own": false,
      "fix": [],
      "note": [],
@@ -65,7 +65,9 @@
       "1",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "クリティカル（致命的）"
+     ],
      "abil_en": [
       "Crit (Mortal)"
      ]
@@ -74,28 +76,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Guardians of the King",
-      "en": "",
+      "ja": "王の守護者",
+      "en": "Guardians of the King",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "While your general is within this unit’s combat range, both this unit and your general have **WARD (5+)**."
+       "ja": "自軍側ジェネラルがこのユニットの近接範囲内に一部でも入っている場合、このユニットとそのジェネラルは**加護（5+）**を持つ。",
+       "en": "While your general is within this unit’s combat range, both this unit and your general have **WARD (5+)**.",
+       "fix": []
       }
      },
      "own": false,
@@ -109,12 +115,12 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ]
    ],
    "keyword_fix": {},
@@ -125,8 +131,8 @@
   {
    "id": "64d6c2d7-6ae3-4d17-aba2-51bac8080e2c",
    "name": {
-    "ja": "Barrow Knights",
-    "en": "",
+    "ja": "バロウナイト",
+    "en": "Barrow Knights",
     "own": false,
     "fix": [],
     "note": []
@@ -164,8 +170,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Skeletal Steed’s Hooves and Teeth",
-     "en": "",
+     "ja": "スケルタル・スティードの蹄と歯",
+     "en": "Skeletal Steed’s Hooves and Teeth",
      "own": false,
      "fix": [],
      "note": [],
@@ -176,14 +182,16 @@
       "-",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "随行者"
+     ],
      "abil_en": [
       "Companion"
      ]
     },
     {
-     "ja": "Barrow Lance",
-     "en": "",
+     "ja": "バロウランス",
+     "en": "Barrow Lance",
      "own": false,
      "fix": [],
      "note": [],
@@ -194,7 +202,10 @@
       "1",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "クリティカル（致命的）",
+      "突撃（+1ダメージ量）"
+     ],
      "abil_en": [
       "Crit (Mortal)",
       "Charge (+1 Damage)"
@@ -204,28 +215,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Cursed To Rise Once More",
-      "en": "",
+      "ja": "再起の呪い",
+      "en": "Cursed To Rise Once More",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "End of Your Turn"
+       "ja": "自軍側ターン終了時",
+       "en": "End of Your Turn",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "You can return 1 slain model to this unit."
+       "ja": "このユニットに撃破されている兵1体を復帰させることができる。",
+       "en": "You can return 1 slain model to this unit.",
+       "fix": []
       }
      },
      "own": false,
@@ -239,12 +254,12 @@
    "terrain": [],
    "keywords": [
     [
-     "Cavalry",
-     ""
+     "騎兵",
+     "Cavalry"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ]
    ],
    "keyword_fix": {},
@@ -255,8 +270,8 @@
   {
    "id": "87a3bc83-b1e9-4291-b611-0274f1ced60a",
    "name": {
-    "ja": "Deathrattle Skeletons",
-    "en": "",
+    "ja": "デスラトル・スケルトン",
+    "en": "Deathrattle Skeletons",
     "own": false,
     "fix": [],
     "note": []
@@ -294,8 +309,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Ancient Weapon",
-     "en": "",
+     "ja": "古代の武器",
+     "en": "Ancient Weapon",
      "own": false,
      "fix": [],
      "note": [],
@@ -313,28 +328,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Skeleton Legion",
-      "en": "",
+      "ja": "骸骨の兵団",
+      "en": "Skeleton Legion",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "End of Any Turn"
+       "ja": "任意のターン終了時",
+       "en": "End of Any Turn",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "You can return D3 slain models to this unit."
+       "ja": "このユニットに撃破されている兵をD3体復帰させることができる。",
+       "en": "You can return D3 slain models to this unit.",
+       "fix": []
       }
      },
      "own": false,
@@ -348,12 +367,12 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ]
    ],
    "keyword_fix": {},
@@ -364,8 +383,8 @@
   {
    "id": "3d133ee0-c364-480b-aa5f-27c79d267249",
    "name": {
-    "ja": "Wight King",
-    "en": "",
+    "ja": "ワイトキング",
+    "en": "Wight King",
     "own": false,
     "fix": [],
     "note": []
@@ -403,8 +422,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Baleful Tomb Blade",
-     "en": "",
+     "ja": "ベイルフル・トゥームブレイド",
+     "en": "Baleful Tomb Blade",
      "own": false,
      "fix": [],
      "note": [],
@@ -415,7 +434,9 @@
       "1",
       "2"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "クリティカル（致命的）"
+     ],
      "abil_en": [
       "Crit (Mortal)"
      ]
@@ -424,28 +445,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "King of Shambling Bones",
-      "en": "",
+      "ja": "骸骨の将",
+      "en": "King of Shambling Bones",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Your Hero Phase"
+       "ja": "自軍側ヒーローフェイズ",
+       "en": "Your Hero Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick a friendly unit wholly within 12\" of this unit to be the target."
+       "ja": "このユニットの12mv以内に全体が入っている味方ユニットを1個選択する。",
+       "en": "Pick a friendly unit wholly within 12\" of this unit to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Roll a dice. On a 2+, add 1 to hit rolls for combat attacks made by the target for the rest of the turn."
+       "ja": "ダイスを1個ロールする。ロール結果が2+であれば、そのターン中、選択された味方ユニットのメレーアタックのヒットロールは+1の修正を受ける。",
+       "en": "Roll a dice. On a 2+, add 1 to hit rolls for combat attacks made by the target for the rest of the turn.",
+       "fix": []
       }
      },
      "own": false,
@@ -459,16 +484,16 @@
    "terrain": [],
    "keywords": [
     [
-     "Hero",
-     ""
+     "英雄",
+     "Hero"
     ],
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ]
    ],
    "keyword_fix": {},

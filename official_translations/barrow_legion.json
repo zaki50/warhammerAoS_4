@@ -1,0 +1,258 @@
+{
+ "_faction": "墳墓軍団 (Barrow Legion)",
+ "_source": [
+  "バトルトーム：ソウルブライト・グレイヴロード 日本語版（スキャン）pp.118-119（名高き軍勢 墳墓軍団）",
+  "同 p.65（名高き軍勢の紹介。ルビ）",
+  "ユニット（ウォースクロール）の訳は official_translations/soulblight_gravelords.json から写した"
+ ],
+ "_notes": [
+  "名前は書籍 p.118 の表題「墳墓軍団」（ルビ バロウ・レギオン。ルビは載せていない）。",
+  "書籍の英雄特性・神器には表の名前が無く、見出し「英雄特性」「神器」だけ（「（英雄のみ）」の前置きも無い）。戦闘特性も「戦闘特性」。見出しを group_names にした。",
+  "本文中のキーワード: Barrow Legion＝**バロウレギオン**（p.118「アーミー内にいるすべてのユニットはバロウレギオンのキーワードを獲得する」）。lookups の keyword_names に Barrow Legion は無いので載せていない。p.118 にはほかに「ワイトキング」と「ワイトキング（スケルタル・スティード騎乗）」は**総大将**（Warmaster）のキーワードを獲得する、とある（Warmaster は lookups に無い）。",
+  "Cursed Sepulchre: 書籍 p.118 で The Royal Crypt / Endless Legions of Bone は「呪われた墓」、Grave Sentinels / All to Dust は「呪いの墓」と表記が揺れている。書籍どおり（_book_issues に挙げた）。",
+  "The Royal Crypt の宣言は書籍どおり『陣営地形の初期配置』（本体 p.66 Ancient Burial Sites のデザイナーズ・ノートでは『陣営地形の配置』）。",
+  "太字: Gifts to the Petty Kingdoms の宣言は「かつ**固有**ではない**味方バロウレギオン・英雄**」、Endless Legions of Bone の宣言は「**固有ではない味方バロウレギオン**・ユニット」と、書籍では「固有ではない」「味方」まで太字に見える。見たとおりにした。Gifts のデザイナーズ・ノートは全体が太字に近い書体で区別できないため太字なしにした。",
+  "Grave Sentinels の「対突撃（+1貫通値）」は全体が太字。",
+  "Lord of the Arcane Aegis の4つのキーワード（歩兵・騎兵・大型獣・獣兵）は書籍で箇条書き・太字。英語は INFANTRY / CAVALRY / MONSTER / BEAST。",
+  "Crown of Cold Command のタイミングは書籍「各ターンにつき1回、任意のヒーローフェイズ」（英語 Once Per Turn, Any Hero Phase。（アーミー）なし）。",
+  "ロスター・オプション（p.118、参考）: 任意の**デスラトル**・ユニット /『名高き連隊』を編入することはできない。",
+  "背景文（各アビリティのイタリック導入文）は載せていない。半角数字・記号と全角文字の間の組版上の隙間は詰めた。",
+  "ルール・アップデート 2026年9月の日本語訳を適用: Wight King on Skeletal Steed|Ancient Barrow Curse、Barrow Knights|Cursed To Rise Once More"
+ ],
+ "unit_names": {
+  "Barrow Guard": "バロウガード",
+  "Barrow Knights": "バロウナイト",
+  "Cursed Sepulchre": "呪われた墓",
+  "Deathrattle Skeletons": "デスラトル・スケルトン",
+  "The Sepulchral Guard": "墳墓の守り手",
+  "The Sons of Velmorn": "ヴェルモーンの子ら",
+  "Watch Captain Halgrim": "監視隊長ハルグリム",
+  "Wight King": "ワイトキング",
+  "Wight King on Skeletal Steed": "ワイトキング（スケルタル・スティード騎乗）",
+  "Wight Lord on Skeletal Steed": "ワイトロード（スケルタル・スティード騎乗）"
+ },
+ "weapon_names": {
+  "Ancient Weapon": "古代の武器",
+  "Baleful Tomb Blade": "ベイルフル・トゥームブレイド",
+  "Barrow Lance": "バロウランス",
+  "King's Relic Weapon": "王の遺物",
+  "Lord's Tomb Blade": "領主のトゥームブレイド",
+  "Skeletal Steed’s Hooves and Teeth": "スケルタル・スティードの蹄と歯",
+  "The Sepulchral Guard|Ancient Weapon": "古代の武器",
+  "The Sons of Velmorn|Royal Weapons": "ロイヤルウェポン",
+  "Watch Captain Halgrim|Cursed Halberd and Sabre": "呪われしハルバードとサーベル",
+  "Wight Blade": "ワイトブレイド"
+ },
+ "weapon_ability_names": {
+  "Charge (+1 Damage)": "突撃（+1ダメージ量）",
+  "Companion": "随行者",
+  "Crit (2 Hits)": "クリティカル（2ヒット）",
+  "Crit (Mortal)": "クリティカル（致命的）"
+ },
+ "keyword_names": {
+  "Cavalry": "騎兵",
+  "Champion": "豪傑",
+  "Death": "死の大同盟",
+  "Deathrattle": "デスラトル",
+  "Faction Terrain": "陣営地形",
+  "Hero": "英雄",
+  "Infantry": "歩兵",
+  "Musician (1/5)": "楽士（1/5）",
+  "Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Standard Bearer (1/10)": "旗手（1/10）",
+  "Standard Bearer (1/5)": "旗手（1/5）",
+  "The Sepulchral Guard|Champion": "豪傑",
+  "The Sepulchral Guard|Death": "死の大同盟",
+  "The Sepulchral Guard|Deathrattle": "デスラトル",
+  "The Sepulchral Guard|Infantry": "歩兵",
+  "The Sepulchral Guard|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "The Sepulchral Guard|Unique": "固有",
+  "The Sepulchral Guard|Ward (6+)": "加護（6+）",
+  "The Sons of Velmorn|Champion": "豪傑",
+  "The Sons of Velmorn|Death": "死の大同盟",
+  "The Sons of Velmorn|Deathrattle": "デスラトル",
+  "The Sons of Velmorn|Infantry": "歩兵",
+  "The Sons of Velmorn|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "The Sons of Velmorn|Unique": "固有",
+  "The Sons of Velmorn|Ward (6+)": "加護（6+）",
+  "Ward (6+)": "加護（6+）",
+  "Watch Captain Halgrim|Death": "死の大同盟",
+  "Watch Captain Halgrim|Deathrattle": "デスラトル",
+  "Watch Captain Halgrim|Hero": "英雄",
+  "Watch Captain Halgrim|Infantry": "歩兵",
+  "Watch Captain Halgrim|Soulblight Gravelords": "ソウルブライト・グレイヴロード",
+  "Watch Captain Halgrim|Unique": "固有",
+  "Watch Captain Halgrim|Ward (6+)": "加護（6+）"
+ },
+ "ability_names": {
+  "All to Dust": "塵に帰す",
+  "Amulet of Nightmares": "悪夢のアミュレット",
+  "Ancient Barrow Curse": "古代墳墓の呪い",
+  "Ancient Strategies": "太古の軍略",
+  "Crown of Cold Command": "邪慳の王冠",
+  "Crypt Dagger": "霊堂の短剣",
+  "Cursed To Rise Once More": "再起の呪い",
+  "Endless Legions of Bone": "無尽蔵の骸骨団",
+  "Gifts to the Petty Kingdoms": "下卑た王国への贈り物",
+  "Grave Sentinels": "墳墓の衛兵",
+  "Grave-sand Pendant": "墓砂のペンダント",
+  "Guardians of the King": "王の守護者",
+  "Immortal Conqueror": "不死なる支配者",
+  "King of Shambling Bones": "骸骨の将",
+  "Knights of the King": "王の騎士",
+  "Leeching Soil": "吸血の大地",
+  "Locus of Shyish": "シャイシュの根源",
+  "Lord of Trampling Bones": "骨砕きの主",
+  "Lord of the Arcane Aegis": "神秘なる盾の主",
+  "Restless Tyrant": "眠らぬ暴君",
+  "Ring of Stricken Souls": "悲嘆に暮れた魂の指輪",
+  "Royal Companions": "親衛隊",
+  "Skeleton Legion": "骸骨の兵団",
+  "Spirit-eater": "魂喰らい",
+  "The Royal Crypt": "国王たる霊廟",
+  "The Sepulchral Guard|Restless Dead": "安息なき死者",
+  "The Sons of Velmorn|Rise Again": "再起",
+  "Watch Captain Halgrim|Disciplined Advance": "規律ある前進",
+  "Watch Captain Halgrim|Echoes of the Watch": "歩哨の名残"
+ },
+ "ability_texts": {
+  "All to Dust": {
+   "timing": "パッシブ",
+   "effect": "第3バトルラウンド以降、味方**呪いの墓**が戦場に配置されている場合、敵ユニットのセーブロールは-1の修正を受ける。"
+  },
+  "Amulet of Nightmares": {
+   "timing": "バトル中1回限り、任意の近接フェイズ",
+   "declare": "このユニットの9mv以内に一部でも入っている敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が2+であれば、このフェイズ中、選択された敵ユニットは**『後手効果』**を得る。"
+  },
+  "Barrow Guard|Guardians of the King": {
+   "timing": "パッシブ",
+   "effect": "1個以上の味方**ソウルブライト・グレイヴロード・歩兵・英雄**が、このユニットの近接範囲内に一部でも入っている場合、このユニットとそれらの味方ユニットはいずれも**加護（5+）**を持つ。"
+  },
+  "Barrow Knights|Cursed To Rise Once More": {
+   "effect": "このユニットに撃破されている兵1体を復帰させることができる。",
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時"
+  },
+  "Barrow Knights|Knights of the King": {
+   "timing": "パッシブ",
+   "effect": "1個以上の味方**デスラトル・騎兵・英雄**が、このユニットの近接範囲内に全体が入っている場合、このユニットとそれらの味方ユニットは**加護（5+）**を持つ。"
+  },
+  "Crown of Cold Command": {
+   "timing": "各ターンにつき1回、任意のヒーローフェイズ",
+   "declare": "このユニットの12mv以内に全体が入っている味方**バロウレギオン**・ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、\n• 選択された味方ユニットが損傷状態である場合、その味方ユニットを**回復**（3）する。\n• 選択された味方ユニットが損傷状態ではない場合、そのユニットに撃破された兵を復帰させる（復帰する兵の【体力】合計が最大3までになるように）。"
+  },
+  "Crypt Dagger": {
+   "timing": "バトル中1回限り、任意のターン終了時",
+   "declare": "このユニットと近接戦闘中である敵**英雄**を1体選択する。",
+   "effect": "選択された敵英雄はD6ポイントの致命的ダメージを受ける。"
+  },
+  "Cursed Sepulchre|Leeching Soil": {
+   "timing": "パッシブ",
+   "effect": "この特殊地形の9mv以内に一部でも入っている兵（敵味方問わず）が撃破されるたびに、この特殊地形を**回復（1）**する。"
+  },
+  "Cursed Sepulchre|Locus of Shyish": {
+   "timing": "パッシブ",
+   "effect": "味方**ソウルブライト・グレイヴロード・魔術師**が「死地の顕現」から**『召喚呪文』**を詠唱する際、この特殊地形から距離と視認状態を判定してもよい。"
+  },
+  "Deathrattle Skeletons|Skeleton Legion": {
+   "timing": "任意のターン終了時",
+   "effect": "このユニットに撃破されている兵をD3体復帰させることができる。"
+  },
+  "Endless Legions of Bone": {
+   "timing": "各バトルラウンドにつき1回（アーミー）、任意の移動フェイズ",
+   "declare": "全滅している**固有ではない味方バロウレギオン**・ユニットを1個選択する。",
+   "effect": "選択された味方ユニットの兵数の半分（端数切り上げ）で構成された代替ユニットを、味方**バロウレギオン・英雄**の12mv以内に全体が入るように、または味方の**呪われた墓**の6mv以内に全体が入るように配置する。その配置する場所は、あらゆる敵ユニットから9mvより遠く離れた位置でなければならない。\n自軍側移動フェイズ中である場合、その代替ユニットをあらゆる敵ユニットから（9mvではなく）3mvより遠く離れた戦場の位置に配置してもよい。ただし、あらゆる敵ユニットから3mvより遠く離れており、かつ9mv以内に一部でも入るように配置されたならば、この代替ユニットはこのターン中に**『突撃』**アビリティを使用できない。"
+  },
+  "Gifts to the Petty Kingdoms": {
+   "timing": "バトル中1回限り、初期配置フェイズ",
+   "declare": "神器を持っておらず、かつ**固有**ではない**味方バロウレギオン・英雄**を最大2体まで選択する（予備戦力に配置されているユニットを選んでもよい）。",
+   "effect": "選択された各英雄に対して、それぞれ「墳墓軍団」の名高き軍勢ルールに記載されている神器を1つ付与する。\nデザイナーズ・ノート：これらの神器はアーミー編成中ではなく、初期配置フェイズ中に英雄に付与される。"
+  },
+  "Grave Sentinels": {
+   "timing": "パッシブ",
+   "effect": "味方**バロウレギオン**・ユニットが味方**呪いの墓**の9mv以内に全体が入っている間、それらの味方ユニットが用いる近接武器は**対突撃（+1貫通値）**を得る。"
+  },
+  "Grave-sand Pendant": {
+   "timing": "パッシブ",
+   "effect": "このユニットが全滅するとき、そのユニットをゲームから取り除く前に、ダイスを1個ロールする。ロール結果が3+であれば、このユニットは全滅することなく、残りのダメージは無効化される。その後、このユニットを**回復**（1）する。そのバトル中、このユニットは再びこのアビリティを使用できない。"
+  },
+  "Lord of the Arcane Aegis": {
+   "timing": "初期配置フェイズ",
+   "effect": "以下のキーワードの中から1つを選択する。\n• **歩兵**\n• **騎兵**\n• **大型獣**\n• **獣兵**\n以降バトル終了時まで、このユニットが攻撃対象として選択された際、攻撃側ユニットが選択されたキーワードを持つ場合、その攻撃に対するセーブロールで修正前の出目4+が出たならば、そのセーブロールは成功したものとして扱われる。"
+  },
+  "Restless Tyrant": {
+   "timing": "自軍側移動フェイズ",
+   "declare": "このユニットの12mv以内に全体が入っている味方**バロウレギオン**・ユニットを1個選択する。",
+   "effect": "そのターン中、選択された味方ユニットの【移動力】は+2mvの修正を受ける。"
+  },
+  "Ring of Stricken Souls": {
+   "timing": "パッシブ",
+   "effect": "このユニットは**加護（5+）**を持つ。"
+  },
+  "Spirit-eater": {
+   "timing": "任意のターン終了時",
+   "effect": "このターン中に自軍側ジェネラルが1体以上の兵を撃破している場合、自軍側ジェネラルを**回復**（D6）する。"
+  },
+  "The Royal Crypt": {
+   "timing": "バトル中1回限り、初期配置フェイズ",
+   "declare": "『陣営地形の初期配置』アビリティの代わりに、このアビリティを使用する必要がある。",
+   "effect": "自軍側陣地内に全体が入るように**呪われた墓**を3つ配置する。それぞれは互いに½mv以内に一部が入っており、かつあらゆる作戦目標や他の特殊地形から3mvより遠く離れた位置に配置されなければならない。その後、これらは初期配置されたものとみなされ、【体力】8ではなく【体力】24を有する1個の**呪われた墓**の特殊地形として扱われる。",
+   "keywords": "特殊地形の初期配置"
+  },
+  "The Sepulchral Guard|Restless Dead": {
+   "timing": "任意のターン終了時",
+   "effect": "このユニットに撃破されている兵をD3体復帰させることができる。"
+  },
+  "The Sons of Velmorn|Rise Again": {
+   "timing": "任意の近接フェイズ",
+   "effect": "このユニットの**モーラック・ヴェルモーン王**が戦場に配置されている場合、このユニット内にいる兵が撃破されるたびにダイスを1個ロールする。ロール結果が4+であれば、このユニットに撃破された兵を1体復帰させることができる。"
+  },
+  "Watch Captain Halgrim|Disciplined Advance": {
+   "timing": "パッシブ",
+   "effect": "このユニットの12mv以内に全体が入っている味方**デスラトル・スケルトン**・ユニットが全力移動ロールをする際、そのロールのダイスを出目4に変更できる。"
+  },
+  "Watch Captain Halgrim|Echoes of the Watch": {
+   "timing": "リアクション：このユニットが『近接攻撃』アビリティを宣言",
+   "effect": "このターン中に『近接攻撃』アビリティを使用しておらず、かつこのユニットの近接範囲内に一部でも入っている味方**デスラトル・スケルトン**・ユニットを1個選択する。このユニットによる『**近接攻撃**』アビリティを解決した直後に、選択された味方ユニットはただちに『**近接攻撃**』アビリティを使用できる。"
+  },
+  "Wight King on Skeletal Steed|Ancient Barrow Curse": {
+   "timing": "パッシブ",
+   "effect": "このユニットが装備している**王の遺物**でクリティカルヒットが出た場合、以降バトル終了時まで、その攻撃対象は**呪われた**状態になる。このユニットが全滅していたとしても、呪われた状態にあるユニットはセーブロールに-1の修正を受ける。\nデザイナーズ・ノート：このアビリティは1個以上の敵ユニットを「呪われた」状態にすることができるが、同一の敵ユニットが「呪われた」状態になるのは1回だけである。"
+  },
+  "Wight King on Skeletal Steed|Immortal Conqueror": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "敵軍側陣地内にある作戦目標または特殊地形を1個選択する。",
+   "effect": "そのターン中、選択された作戦目標または特殊地形の6mv以内に全体が入っている味方**デスラトル**・ユニットの攻撃は、ヒットロールに+1の修正を受ける。"
+  },
+  "Wight King|Ancient Strategies": {
+   "timing": "リアクション：このユニットが『近接攻撃』アビリティを宣言",
+   "effect": "このターン中に**『近接攻撃』**アビリティを使用しておらず、かつこのユニットの近接範囲内に一部でも入っている**英雄**ではない味方**デスラトル・歩兵**・ユニットを1個選択する。このユニットが使用した**『近接攻撃』**アビリティを解決した直後に、選択された味方ユニットはただちに**『近接攻撃』**アビリティを使用できる。その味方ユニットが『近接攻撃』アビリティを使用した場合、そのターン中、その味方ユニットによる攻撃のヒットロールは+1の修正を受ける。"
+  },
+  "Wight King|King of Shambling Bones": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "このユニットの近接範囲内に一部でも入っている味方**デスラトル**・ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された味方ユニットが装備している近接武器は**クリティカル（2ヒット）**を得る。"
+  },
+  "Wight Lord on Skeletal Steed|Lord of Trampling Bones": {
+   "timing": "パッシブ",
+   "effect": "このユニットの12mv以内に全体が入っている味方**デスラトル・騎兵**・ユニットの突撃ロールは+1の修正を受ける。"
+  },
+  "Wight Lord on Skeletal Steed|Royal Companions": {
+   "timing": "リアクション：このユニットが『近接攻撃』アビリティを宣言",
+   "effect": "このターン中に**『近接攻撃』**アビリティを使用しておらず、かつこのユニットの近接範囲内に一部でも入っている**英雄**ではない味方**デスラトル・騎兵**・ユニットを1個選択する。このユニットが使用した**『近接攻撃』**アビリティを解決した直後に、選択された味方ユニットはただちに**『近接攻撃』**アビリティを使用できる。"
+  }
+ },
+ "group_names": {
+  "Barrow Legion Artefacts of Power": "神器",
+  "Barrow Legion Battle Traits": "戦闘特性",
+  "Barrow Legion Heroic Traits": "英雄特性"
+ },
+ "group_texts": {},
+ "wargear_option_texts": {
+  "Cursed Sepulchre": "以下の共通の特殊地形アビリティが、この特殊地形に適用される（特殊地形、1.2）：遮蔽物、通り抜け不可能",
+  "The Sepulchral Guard": "このユニット内の各兵は、古代の武器を装備している。\nこのユニット内の兵は以下の通り：\n• “墳墓総監”（豪傑）\n• “勇士”\n• “刈り取る者”\n• “塵の王子”\n• 不可避なる嘆願者\n• 熱狂せる嘆願者\n• 立ち上がりし嘆願者",
+  "The Sons of Velmorn": "このユニットの各兵はロイヤルウェポンを装備している。このユニット内の兵は以下の通り：\n• モーラック・ヴェルモーン王（豪傑）\n• サー・ジェドラン・フォルスボーン\n• “切断者”ヘルマー\n• ファウルク・ヴェルモーン元帥\n• “末子四弟の”サイン"
+ },
+ "faction_name": "墳墓軍団"
+}

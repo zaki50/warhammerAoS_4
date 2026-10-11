@@ -3,7 +3,7 @@
   "slug": "barrow_legion",
   "kind": "faction",
   "faction_en": "Barrow Legion",
-  "faction_ja": null,
+  "faction_ja": "墳墓軍団",
   "faction_slug": "barrow_legion",
   "alliance": "Death",
   "title_en": "Barrow Legion",
@@ -14,8 +14,8 @@
   {
    "id": "6f2b8d64-10a0-41e6-9e6a-045b6572081a",
    "name": {
-    "ja": "Barrow Guard",
-    "en": "",
+    "ja": "バロウガード",
+    "en": "Barrow Guard",
     "own": false,
     "fix": [],
     "note": []
@@ -53,8 +53,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Wight Blade",
-     "en": "",
+     "ja": "ワイトブレイド",
+     "en": "Wight Blade",
      "own": false,
      "fix": [],
      "note": [],
@@ -65,7 +65,9 @@
       "1",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "クリティカル（致命的）"
+     ],
      "abil_en": [
       "Crit (Mortal)"
      ]
@@ -74,28 +76,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Guardians of the King",
-      "en": "",
+      "ja": "王の守護者",
+      "en": "Guardians of the King",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "While any friendly **SOULBLIGHT GRAVELORDS INFANTRY HEROES** are within this unit’s combat range, both this unit and those friendly units have **WARD (5+)**."
+       "ja": "1個以上の味方**ソウルブライト・グレイヴロード・歩兵・英雄**が、このユニットの近接範囲内に一部でも入っている場合、このユニットとそれらの味方ユニットはいずれも**加護（5+）**を持つ。",
+       "en": "While any friendly **SOULBLIGHT GRAVELORDS INFANTRY HEROES** are within this unit’s combat range, both this unit and those friendly units have **WARD (5+)**.",
+       "fix": []
       }
      },
      "own": false,
@@ -109,36 +115,36 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Champion",
-     ""
+     "豪傑",
+     "Champion"
     ],
     [
-     "Musician (1/5)",
-     ""
+     "楽士（1/5）",
+     "Musician (1/5)"
     ],
     [
-     "Standard Bearer (1/5)",
-     ""
+     "旗手（1/5）",
+     "Standard Bearer (1/5)"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ],
     [
-     "Death",
-     ""
+     "死の大同盟",
+     "Death"
     ],
     [
-     "Soulblight Gravelords",
-     ""
+     "ソウルブライト・グレイヴロード",
+     "Soulblight Gravelords"
     ],
     [
-     "Deathrattle",
-     ""
+     "デスラトル",
+     "Deathrattle"
     ]
    ],
    "keyword_fix": {},
@@ -149,8 +155,8 @@
   {
    "id": "c810f285-ef9d-402f-827f-e52f1f966935",
    "name": {
-    "ja": "Barrow Knights",
-    "en": "",
+    "ja": "バロウナイト",
+    "en": "Barrow Knights",
     "own": false,
     "fix": [],
     "note": []
@@ -188,8 +194,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Barrow Lance",
-     "en": "",
+     "ja": "バロウランス",
+     "en": "Barrow Lance",
      "own": false,
      "fix": [],
      "note": [],
@@ -200,15 +206,18 @@
       "1",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "クリティカル（致命的）",
+      "突撃（+1ダメージ量）"
+     ],
      "abil_en": [
       "Crit (Mortal)",
       "Charge (+1 Damage)"
      ]
     },
     {
-     "ja": "Skeletal Steed’s Hooves and Teeth",
-     "en": "",
+     "ja": "スケルタル・スティードの蹄と歯",
+     "en": "Skeletal Steed’s Hooves and Teeth",
      "own": false,
      "fix": [],
      "note": [],
@@ -219,7 +228,9 @@
       "-",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "随行者"
+     ],
      "abil_en": [
       "Companion"
      ]
@@ -228,28 +239,37 @@
    "abilities": [
     {
      "name": {
-      "ja": "Knights of the King",
-      "en": "",
+      "ja": "王の騎士",
+      "en": "Knights of the King",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "While any friendly **DEATHRATTLE CAVALRY HEROES** are within this unit’s combat range, both this unit and those friendly units have **WARD (5+)**."
+       "ja": "1個以上の味方**デスラトル・騎兵・英雄**が、このユニットの近接範囲内に全体が入っている場合、このユニットとそれらの味方ユニットは**加護（5+）**を持つ。",
+       "en": "While any friendly **DEATHRATTLE CAVALRY HEROES** are within this unit’s combat range, both this unit and those friendly units have **WARD (5+)**.",
+       "fix": [
+        [
+         "近接範囲内に全体が入っている場合",
+         "近接範囲内に一部でも入っている場合"
+        ]
+       ]
       }
      },
      "own": false,
@@ -257,32 +277,38 @@
      "kw_en": "",
      "cast": null,
      "cp": null,
-     "note": []
+     "note": [
+      "英語版は「このユニットの近接範囲内にいる（within）」で、一部でも入っていればよい。日本語版（書籍 p.92）の「全体が入っている」は wholly within の訳で、条件が厳しすぎる（同じ形のバロウガード『王の守護者』は「一部でも入っている」）。味方デスラトル・騎兵・英雄が一部でも近接範囲内に入っていれば両者が加護（5+）を持つ。"
+     ]
     },
     {
      "name": {
-      "ja": "Cursed To Rise Once More",
-      "en": "",
+      "ja": "再起の呪い",
+      "en": "Cursed To Rise Once More",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), End of Any Turn"
+       "ja": "各ターンにつき1回（アーミー）、任意のターン終了時",
+       "en": "Once Per Turn (Army), End of Any Turn",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "You can return 1 slain model to this unit."
+       "ja": "このユニットに撃破されている兵1体を復帰させることができる。",
+       "en": "You can return 1 slain model to this unit.",
+       "fix": []
       }
      },
      "own": false,
@@ -296,36 +322,36 @@
    "terrain": [],
    "keywords": [
     [
-     "Cavalry",
-     ""
+     "騎兵",
+     "Cavalry"
     ],
     [
-     "Champion",
-     ""
+     "豪傑",
+     "Champion"
     ],
     [
-     "Musician (1/5)",
-     ""
+     "楽士（1/5）",
+     "Musician (1/5)"
     ],
     [
-     "Standard Bearer (1/5)",
-     ""
+     "旗手（1/5）",
+     "Standard Bearer (1/5)"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ],
     [
-     "Death",
-     ""
+     "死の大同盟",
+     "Death"
     ],
     [
-     "Soulblight Gravelords",
-     ""
+     "ソウルブライト・グレイヴロード",
+     "Soulblight Gravelords"
     ],
     [
-     "Deathrattle",
-     ""
+     "デスラトル",
+     "Deathrattle"
     ]
    ],
    "keyword_fix": {},
@@ -336,8 +362,8 @@
   {
    "id": "e9d8f8fe-8f93-465b-a6e3-8c6605952243",
    "name": {
-    "ja": "Cursed Sepulchre",
-    "en": "",
+    "ja": "呪われた墓",
+    "en": "Cursed Sepulchre",
     "own": false,
     "fix": [],
     "note": []
@@ -377,28 +403,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Leeching Soil",
-      "en": "",
+      "ja": "吸血の大地",
+      "en": "Leeching Soil",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Each time a model (friendly or enemy) is slain while it is within 9\" of this terrain feature, **Heal (1)** this terrain feature."
+       "ja": "この特殊地形の9mv以内に一部でも入っている兵（敵味方問わず）が撃破されるたびに、この特殊地形を**回復（1）**する。",
+       "en": "Each time a model (friendly or enemy) is slain while it is within 9\" of this terrain feature, **Heal (1)** this terrain feature.",
+       "fix": []
       }
      },
      "own": false,
@@ -410,28 +440,32 @@
     },
     {
      "name": {
-      "ja": "Locus of Shyish",
-      "en": "",
+      "ja": "シャイシュの根源",
+      "en": "Locus of Shyish",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Each time a friendly **SOULBLIGHT GRAVELORDS WIZARD** casts a **SUMMON SPELL** from the ‘Manifestations of the Grave’ lore, you can measure the range and visibility from this terrain feature instead."
+       "ja": "味方**ソウルブライト・グレイヴロード・魔術師**が「死地の顕現」から**『召喚呪文』**を詠唱する際、この特殊地形から距離と視認状態を判定してもよい。",
+       "en": "Each time a friendly **SOULBLIGHT GRAVELORDS WIZARD** casts a **SUMMON SPELL** from the ‘Manifestations of the Grave’ lore, you can measure the range and visibility from this terrain feature instead.",
+       "fix": []
       }
      },
      "own": false,
@@ -512,27 +546,27 @@
    ],
    "keywords": [
     [
-     "Faction Terrain",
-     ""
+     "陣営地形",
+     "Faction Terrain"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ],
     [
-     "Death",
-     ""
+     "死の大同盟",
+     "Death"
     ],
     [
-     "Soulblight Gravelords",
-     ""
+     "ソウルブライト・グレイヴロード",
+     "Soulblight Gravelords"
     ]
    ],
    "keyword_fix": {},
    "regiment": [],
    "notes_en": "",
    "wargear": {
-    "ja": "",
+    "ja": "以下の共通の特殊地形アビリティが、この特殊地形に適用される（特殊地形、1.2）：遮蔽物、通り抜け不可能",
     "en": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n**Cover, Impassable**",
     "fix": []
    }
@@ -540,8 +574,8 @@
   {
    "id": "27d2ad01-d368-486f-87f3-c2ee1417b880",
    "name": {
-    "ja": "Deathrattle Skeletons",
-    "en": "",
+    "ja": "デスラトル・スケルトン",
+    "en": "Deathrattle Skeletons",
     "own": false,
     "fix": [],
     "note": []
@@ -579,8 +613,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Ancient Weapon",
-     "en": "",
+     "ja": "古代の武器",
+     "en": "Ancient Weapon",
      "own": false,
      "fix": [],
      "note": [],
@@ -598,28 +632,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Skeleton Legion",
-      "en": "",
+      "ja": "骸骨の兵団",
+      "en": "Skeleton Legion",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "End of Any Turn"
+       "ja": "任意のターン終了時",
+       "en": "End of Any Turn",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "You can return D3 slain models to this unit."
+       "ja": "このユニットに撃破されている兵をD3体復帰させることができる。",
+       "en": "You can return D3 slain models to this unit.",
+       "fix": []
       }
      },
      "own": false,
@@ -633,32 +671,32 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Champion",
-     ""
+     "豪傑",
+     "Champion"
     ],
     [
-     "Standard Bearer (1/10)",
-     ""
+     "旗手（1/10）",
+     "Standard Bearer (1/10)"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ],
     [
-     "Death",
-     ""
+     "死の大同盟",
+     "Death"
     ],
     [
-     "Soulblight Gravelords",
-     ""
+     "ソウルブライト・グレイヴロード",
+     "Soulblight Gravelords"
     ],
     [
-     "Deathrattle",
-     ""
+     "デスラトル",
+     "Deathrattle"
     ]
    ],
    "keyword_fix": {},
@@ -669,8 +707,8 @@
   {
    "id": "97f74d2e-f2c6-44db-9d09-000edd17df0e",
    "name": {
-    "ja": "The Sepulchral Guard",
-    "en": "",
+    "ja": "墳墓の守り手",
+    "en": "The Sepulchral Guard",
     "own": false,
     "fix": [],
     "note": []
@@ -708,8 +746,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Ancient Weapon",
-     "en": "",
+     "ja": "古代の武器",
+     "en": "Ancient Weapon",
      "own": false,
      "fix": [],
      "note": [],
@@ -720,7 +758,9 @@
       "-",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "クリティカル（2ヒット）"
+     ],
      "abil_en": [
       "Crit (2 Hits)"
      ]
@@ -729,28 +769,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Restless Dead",
-      "en": "",
+      "ja": "安息なき死者",
+      "en": "Restless Dead",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "End of Any Turn"
+       "ja": "任意のターン終了時",
+       "en": "End of Any Turn",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "You can return D3 slain models to this unit."
+       "ja": "このユニットに撃破されている兵をD3体復帰させることができる。",
+       "en": "You can return D3 slain models to this unit.",
+       "fix": []
       }
      },
      "own": false,
@@ -764,39 +808,39 @@
    "terrain": [],
    "keywords": [
     [
-     "Unique",
-     ""
+     "固有",
+     "Unique"
     ],
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Champion",
-     ""
+     "豪傑",
+     "Champion"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ],
     [
-     "Death",
-     ""
+     "死の大同盟",
+     "Death"
     ],
     [
-     "Soulblight Gravelords",
-     ""
+     "ソウルブライト・グレイヴロード",
+     "Soulblight Gravelords"
     ],
     [
-     "Deathrattle",
-     ""
+     "デスラトル",
+     "Deathrattle"
     ]
    ],
    "keyword_fix": {},
    "regiment": [],
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
-    "ja": "",
+    "ja": "このユニット内の各兵は、古代の武器を装備している。\nこのユニット内の兵は以下の通り：\n• “墳墓総監”（豪傑）\n• “勇士”\n• “刈り取る者”\n• “塵の王子”\n• 不可避なる嘆願者\n• 熱狂せる嘆願者\n• 立ち上がりし嘆願者",
     "en": "***Each model in this unit is armed with an Ancient Weapon. The models in this unit are:***\n\n• ***The Sepulchral Warden** (champion)*\n• ***The Champion***\n• ***The Harvester***\n• ***The Prince of Dust***\n• ***The Inevitable Petitioner***\n• ***The Zealous Petitioner***\n• ***The Rising Petitioner***",
     "fix": []
    }
@@ -804,8 +848,8 @@
   {
    "id": "e6361fee-7b47-4577-9fc8-491a1741ea1d",
    "name": {
-    "ja": "The Sons of Velmorn",
-    "en": "",
+    "ja": "ヴェルモーンの子ら",
+    "en": "The Sons of Velmorn",
     "own": false,
     "fix": [],
     "note": []
@@ -843,8 +887,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Royal Weapons",
-     "en": "",
+     "ja": "ロイヤルウェポン",
+     "en": "Royal Weapons",
      "own": false,
      "fix": [],
      "note": [],
@@ -855,7 +899,9 @@
       "1",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "クリティカル（致命的）"
+     ],
      "abil_en": [
       "Crit (Mortal)"
      ]
@@ -864,28 +910,37 @@
    "abilities": [
     {
      "name": {
-      "ja": "Rise Again",
-      "en": "",
+      "ja": "再起",
+      "en": "Rise Again",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Any Combat Phase"
+       "ja": "任意の近接フェイズ",
+       "en": "Any Combat Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "If this unit’s **King Morlak Velmorn** is on the battlefield, roll a dice for each slain model from this unit. On a 4+, you can return 1 slain model to this unit."
+       "ja": "このユニットの**モーラック・ヴェルモーン王**が戦場に配置されている場合、このユニット内にいる兵が撃破されるたびにダイスを1個ロールする。ロール結果が4+であれば、このユニットに撃破された兵を1体復帰させることができる。",
+       "en": "If this unit’s **King Morlak Velmorn** is on the battlefield, roll a dice for each slain model from this unit. On a 4+, you can return 1 slain model to this unit.",
+       "fix": [
+        [
+         "このユニット内にいる兵が撃破されるたびにダイスを1個ロールする",
+         "このユニットの撃破されている兵1体につきダイスを1個ロールする"
+        ]
+       ]
       }
      },
      "own": false,
@@ -893,45 +948,47 @@
      "kw_en": "",
      "cast": null,
      "cp": null,
-     "note": []
+     "note": [
+      "英語版は「このユニットの撃破されている兵 1 体ごとにダイスを 1 個ロールする」（roll a dice for each slain model from this unit）で、任意の近接フェイズにその時点で撃破されている兵の数だけロールする。日本語版（レジェンド・ウォースクロール 2026年7月 p.40）の「兵が撃破されるたびに」は兵が撃破される時点で都度ロールするように読め、タイミングと対象（近接フェイズ以外で撃破されていた兵も含む）が違う。"
+     ]
     }
    ],
    "terrain": [],
    "keywords": [
     [
-     "Unique",
-     ""
+     "固有",
+     "Unique"
     ],
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Champion",
-     ""
+     "豪傑",
+     "Champion"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ],
     [
-     "Death",
-     ""
+     "死の大同盟",
+     "Death"
     ],
     [
-     "Soulblight Gravelords",
-     ""
+     "ソウルブライト・グレイヴロード",
+     "Soulblight Gravelords"
     ],
     [
-     "Deathrattle",
-     ""
+     "デスラトル",
+     "Deathrattle"
     ]
    ],
    "keyword_fix": {},
    "regiment": [],
    "notes_en": "This unit cannot be reinforced.",
    "wargear": {
-    "ja": "",
+    "ja": "このユニットの各兵はロイヤルウェポンを装備している。このユニット内の兵は以下の通り：\n• モーラック・ヴェルモーン王（豪傑）\n• サー・ジェドラン・フォルスボーン\n• “切断者”ヘルマー\n• ファウルク・ヴェルモーン元帥\n• “末子四弟の”サイン",
     "en": "***Each model in this unit is armed with Royal Weapons. The models in this unit are:***\n\n• ***King Morlak Velmorn** (champion)*\n• ***Sir Jedran Falseborn***\n• ***Helmar the Hewer***\n• ***Marshal Faulk Velmorn***\n• ***Thain, Fourth-and-last***",
     "fix": []
    }
@@ -939,8 +996,8 @@
   {
    "id": "2b645708-599c-4225-9918-e2a27ad005c4",
    "name": {
-    "ja": "Watch Captain Halgrim",
-    "en": "",
+    "ja": "監視隊長ハルグリム",
+    "en": "Watch Captain Halgrim",
     "own": false,
     "fix": [],
     "note": []
@@ -978,8 +1035,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Cursed Halberd and Sabre",
-     "en": "",
+     "ja": "呪われしハルバードとサーベル",
+     "en": "Cursed Halberd and Sabre",
      "own": false,
      "fix": [],
      "note": [],
@@ -990,7 +1047,9 @@
       "2",
       "2"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "クリティカル（致命的）"
+     ],
      "abil_en": [
       "Crit (Mortal)"
      ]
@@ -999,28 +1058,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Disciplined Advance",
-      "en": "",
+      "ja": "規律ある前進",
+      "en": "Disciplined Advance",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Each time you make a run roll for a friendly **Deathrattle Skeletons** unit wholly within 12\" of this unit, you can change that roll to a 4."
+       "ja": "このユニットの12mv以内に全体が入っている味方**デスラトル・スケルトン**・ユニットが全力移動ロールをする際、そのロールのダイスを出目4に変更できる。",
+       "en": "Each time you make a run roll for a friendly **Deathrattle Skeletons** unit wholly within 12\" of this unit, you can change that roll to a 4.",
+       "fix": []
       }
      },
      "own": false,
@@ -1032,28 +1095,32 @@
     },
     {
      "name": {
-      "ja": "Echoes of the Watch",
-      "en": "",
+      "ja": "歩哨の名残",
+      "en": "Echoes of the Watch",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Reaction: You declared a FIGHT ability for this unit"
+       "ja": "リアクション：このユニットが『近接攻撃』アビリティを宣言",
+       "en": "Reaction: You declared a FIGHT ability for this unit",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Pick a friendly **Deathrattle Skeletons** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved."
+       "ja": "このターン中に『近接攻撃』アビリティを使用しておらず、かつこのユニットの近接範囲内に一部でも入っている味方**デスラトル・スケルトン**・ユニットを1個選択する。このユニットによる『**近接攻撃**』アビリティを解決した直後に、選択された味方ユニットはただちに『**近接攻撃**』アビリティを使用できる。",
+       "en": "Pick a friendly **Deathrattle Skeletons** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved.",
+       "fix": []
       }
      },
      "own": false,
@@ -1067,32 +1134,32 @@
    "terrain": [],
    "keywords": [
     [
-     "Unique",
-     ""
+     "固有",
+     "Unique"
     ],
     [
-     "Hero",
-     ""
+     "英雄",
+     "Hero"
     ],
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ],
     [
-     "Death",
-     ""
+     "死の大同盟",
+     "Death"
     ],
     [
-     "Soulblight Gravelords",
-     ""
+     "ソウルブライト・グレイヴロード",
+     "Soulblight Gravelords"
     ],
     [
-     "Deathrattle",
-     ""
+     "デスラトル",
+     "Deathrattle"
     ]
    ],
    "keyword_fix": {},
@@ -1105,8 +1172,8 @@
   {
    "id": "212ee913-ec70-471d-8fec-b5d199b0298a",
    "name": {
-    "ja": "Wight King",
-    "en": "",
+    "ja": "ワイトキング",
+    "en": "Wight King",
     "own": false,
     "fix": [],
     "note": []
@@ -1144,8 +1211,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Baleful Tomb Blade",
-     "en": "",
+     "ja": "ベイルフル・トゥームブレイド",
+     "en": "Baleful Tomb Blade",
      "own": false,
      "fix": [],
      "note": [],
@@ -1156,7 +1223,9 @@
       "1",
       "2"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "クリティカル（致命的）"
+     ],
      "abil_en": [
       "Crit (Mortal)"
      ]
@@ -1165,28 +1234,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "King of Shambling Bones",
-      "en": "",
+      "ja": "骸骨の将",
+      "en": "King of Shambling Bones",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Your Hero Phase"
+       "ja": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+       "en": "Once Per Turn (Army), Your Hero Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick a friendly **DEATHRATTLE** unit within this unit’s combat range to be the target."
+       "ja": "このユニットの近接範囲内に一部でも入っている味方**デスラトル**・ユニットを1個選択する。",
+       "en": "Pick a friendly **DEATHRATTLE** unit within this unit’s combat range to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Roll a dice. On a 3+, the target’s melee weapons have **Crit (2 Hits)** for the rest of the turn."
+       "ja": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された味方ユニットが装備している近接武器は**クリティカル（2ヒット）**を得る。",
+       "en": "Roll a dice. On a 3+, the target’s melee weapons have **Crit (2 Hits)** for the rest of the turn.",
+       "fix": []
       }
      },
      "own": false,
@@ -1198,28 +1271,32 @@
     },
     {
      "name": {
-      "ja": "Ancient Strategies",
-      "en": "",
+      "ja": "太古の軍略",
+      "en": "Ancient Strategies",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Reaction: You declared a FIGHT ability for this unit"
+       "ja": "リアクション：このユニットが『近接攻撃』アビリティを宣言",
+       "en": "Reaction: You declared a FIGHT ability for this unit",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Pick a friendly non-**HERO DEATHRATTLE INFANTRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
+       "ja": "このターン中に**『近接攻撃』**アビリティを使用しておらず、かつこのユニットの近接範囲内に一部でも入っている**英雄**ではない味方**デスラトル・歩兵**・ユニットを1個選択する。このユニットが使用した**『近接攻撃』**アビリティを解決した直後に、選択された味方ユニットはただちに**『近接攻撃』**アビリティを使用できる。その味方ユニットが『近接攻撃』アビリティを使用した場合、そのターン中、その味方ユニットによる攻撃のヒットロールは+1の修正を受ける。",
+       "en": "Pick a friendly non-**HERO DEATHRATTLE INFANTRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
+       "fix": []
       }
      },
      "own": false,
@@ -1233,28 +1310,28 @@
    "terrain": [],
    "keywords": [
     [
-     "Hero",
-     ""
+     "英雄",
+     "Hero"
     ],
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ],
     [
-     "Death",
-     ""
+     "死の大同盟",
+     "Death"
     ],
     [
-     "Soulblight Gravelords",
-     ""
+     "ソウルブライト・グレイヴロード",
+     "Soulblight Gravelords"
     ],
     [
-     "Deathrattle",
-     ""
+     "デスラトル",
+     "Deathrattle"
     ]
    ],
    "keyword_fix": {},
@@ -1267,8 +1344,8 @@
   {
    "id": "a6a2e164-63b6-4f8a-9f18-3541d9481335",
    "name": {
-    "ja": "Wight King on Skeletal Steed",
-    "en": "",
+    "ja": "ワイトキング（スケルタル・スティード騎乗）",
+    "en": "Wight King on Skeletal Steed",
     "own": false,
     "fix": [],
     "note": []
@@ -1306,8 +1383,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "King's Relic Weapon",
-     "en": "",
+     "ja": "王の遺物",
+     "en": "King's Relic Weapon",
      "own": false,
      "fix": [],
      "note": [],
@@ -1318,15 +1395,18 @@
       "1",
       "2"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "突撃（+1ダメージ量）",
+      "クリティカル（致命的）"
+     ],
      "abil_en": [
       "Charge (+1 Damage)",
       "Crit (Mortal)"
      ]
     },
     {
-     "ja": "Skeletal Steed’s Hooves and Teeth",
-     "en": "",
+     "ja": "スケルタル・スティードの蹄と歯",
+     "en": "Skeletal Steed’s Hooves and Teeth",
      "own": false,
      "fix": [],
      "note": [],
@@ -1337,7 +1417,9 @@
       "-",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "随行者"
+     ],
      "abil_en": [
       "Companion"
      ]
@@ -1346,28 +1428,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Ancient Barrow Curse",
-      "en": "",
+      "ja": "古代墳墓の呪い",
+      "en": "Ancient Barrow Curse",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "If an attack made with this unit’s **King’s Relic Weapon** scores a critical hit, the target unit becomes **cursed** for the rest of the battle. Subtract 1 from save rolls for **cursed** units even if this unit has been destroyed.\n\n**Designer’s Note**: *Multiple enemy units can become cursed by this ability but the same enemy unit cannot become cursed more than once.*"
+       "ja": "このユニットが装備している**王の遺物**でクリティカルヒットが出た場合、以降バトル終了時まで、その攻撃対象は**呪われた**状態になる。このユニットが全滅していたとしても、呪われた状態にあるユニットはセーブロールに-1の修正を受ける。\nデザイナーズ・ノート：このアビリティは1個以上の敵ユニットを「呪われた」状態にすることができるが、同一の敵ユニットが「呪われた」状態になるのは1回だけである。",
+       "en": "If an attack made with this unit’s **King’s Relic Weapon** scores a critical hit, the target unit becomes **cursed** for the rest of the battle. Subtract 1 from save rolls for **cursed** units even if this unit has been destroyed.\n\n**Designer’s Note**: *Multiple enemy units can become cursed by this ability but the same enemy unit cannot become cursed more than once.*",
+       "fix": []
       }
      },
      "own": false,
@@ -1379,28 +1465,32 @@
     },
     {
      "name": {
-      "ja": "Immortal Conqueror",
-      "en": "",
+      "ja": "不死なる支配者",
+      "en": "Immortal Conqueror",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Your Hero Phase"
+       "ja": "自軍側ヒーローフェイズ",
+       "en": "Your Hero Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick an objective or terrain feature within enemy territory."
+       "ja": "敵軍側陣地内にある作戦目標または特殊地形を1個選択する。",
+       "en": "Pick an objective or terrain feature within enemy territory.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "For the rest of the turn, add 1 to hit rolls for attacks made by friendly **DEATHRATTLE** units while they are wholly within 6\" of that objective or terrain feature."
+       "ja": "そのターン中、選択された作戦目標または特殊地形の6mv以内に全体が入っている味方**デスラトル**・ユニットの攻撃は、ヒットロールに+1の修正を受ける。",
+       "en": "For the rest of the turn, add 1 to hit rolls for attacks made by friendly **DEATHRATTLE** units while they are wholly within 6\" of that objective or terrain feature.",
+       "fix": []
       }
      },
      "own": false,
@@ -1414,28 +1504,28 @@
    "terrain": [],
    "keywords": [
     [
-     "Hero",
-     ""
+     "英雄",
+     "Hero"
     ],
     [
-     "Cavalry",
-     ""
+     "騎兵",
+     "Cavalry"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ],
     [
-     "Death",
-     ""
+     "死の大同盟",
+     "Death"
     ],
     [
-     "Soulblight Gravelords",
-     ""
+     "ソウルブライト・グレイヴロード",
+     "Soulblight Gravelords"
     ],
     [
-     "Deathrattle",
-     ""
+     "デスラトル",
+     "Deathrattle"
     ]
    ],
    "keyword_fix": {},
@@ -1449,8 +1539,8 @@
   {
    "id": "bd0eaccb-5d49-4bc8-a1be-c8dff17d2e11",
    "name": {
-    "ja": "Wight Lord on Skeletal Steed",
-    "en": "",
+    "ja": "ワイトロード（スケルタル・スティード騎乗）",
+    "en": "Wight Lord on Skeletal Steed",
     "own": false,
     "fix": [],
     "note": []
@@ -1488,8 +1578,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Skeletal Steed’s Hooves and Teeth",
-     "en": "",
+     "ja": "スケルタル・スティードの蹄と歯",
+     "en": "Skeletal Steed’s Hooves and Teeth",
      "own": false,
      "fix": [],
      "note": [],
@@ -1500,14 +1590,16 @@
       "-",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "随行者"
+     ],
      "abil_en": [
       "Companion"
      ]
     },
     {
-     "ja": "Lord's Tomb Blade",
-     "en": "",
+     "ja": "領主のトゥームブレイド",
+     "en": "Lord's Tomb Blade",
      "own": false,
      "fix": [],
      "note": [],
@@ -1518,7 +1610,10 @@
       "1",
       "2"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "突撃（+1ダメージ量）",
+      "クリティカル（致命的）"
+     ],
      "abil_en": [
       "Charge (+1 Damage)",
       "Crit (Mortal)"
@@ -1528,28 +1623,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Royal Companions",
-      "en": "",
+      "ja": "親衛隊",
+      "en": "Royal Companions",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Reaction: You declared a Fight ability for this unit"
+       "ja": "リアクション：このユニットが『近接攻撃』アビリティを宣言",
+       "en": "Reaction: You declared a Fight ability for this unit",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Pick a friendly non-**HERO DEATHRATTLE CAVALRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved."
+       "ja": "このターン中に**『近接攻撃』**アビリティを使用しておらず、かつこのユニットの近接範囲内に一部でも入っている**英雄**ではない味方**デスラトル・騎兵**・ユニットを1個選択する。このユニットが使用した**『近接攻撃』**アビリティを解決した直後に、選択された味方ユニットはただちに**『近接攻撃』**アビリティを使用できる。",
+       "en": "Pick a friendly non-**HERO DEATHRATTLE CAVALRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved.",
+       "fix": []
       }
      },
      "own": false,
@@ -1561,28 +1660,32 @@
     },
     {
      "name": {
-      "ja": "Lord of Trampling Bones",
-      "en": "",
+      "ja": "骨砕きの主",
+      "en": "Lord of Trampling Bones",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Add 1 to charge rolls for friendly **DEATHRATTLE CAVALRY** units while they are wholly within 12\" of this unit."
+       "ja": "このユニットの12mv以内に全体が入っている味方**デスラトル・騎兵**・ユニットの突撃ロールは+1の修正を受ける。",
+       "en": "Add 1 to charge rolls for friendly **DEATHRATTLE CAVALRY** units while they are wholly within 12\" of this unit.",
+       "fix": []
       }
      },
      "own": false,
@@ -1596,28 +1699,28 @@
    "terrain": [],
    "keywords": [
     [
-     "Hero",
-     ""
+     "英雄",
+     "Hero"
     ],
     [
-     "Cavalry",
-     ""
+     "騎兵",
+     "Cavalry"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ],
     [
-     "Death",
-     ""
+     "死の大同盟",
+     "Death"
     ],
     [
-     "Soulblight Gravelords",
-     ""
+     "ソウルブライト・グレイヴロード",
+     "Soulblight Gravelords"
     ],
     [
-     "Deathrattle",
-     ""
+     "デスラトル",
+     "Deathrattle"
     ]
    ],
    "keyword_fix": {},

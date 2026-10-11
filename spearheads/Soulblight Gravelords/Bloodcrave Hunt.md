@@ -1,19 +1,19 @@
-# Spearhead: Bloodcrave Hunt（Soulblight Gravelords）
+# Spearhead: 吸血族の狩り(Bloodcrave Hunt)（ソウルブライト・グレイヴロード(Soulblight Gravelords)）
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
 
 
 ## 編成
 
-- Blood Knights（5体）
-- Deathrattle Skeletons（10体）
-- Vampire Lord（1体）
-- Vargheists（3体）
+- ブラッドナイト(Blood Knights)（5体）
+- デスラトル・スケルトン(Deathrattle Skeletons)（10体）
+- ヴァンパイア・ロード(Vampire Lord)（1体）
+- ヴァルガイスト(Vargheists)（3体）
 
 ## ユニット詳細
 
 
-### Blood Knights
+### ブラッドナイト(Blood Knights)
 
 **モデル数:** 5 / **ベースサイズ:** 75 x 42mm
 
@@ -27,17 +27,17 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Templar Lance or Templar Blade | 3 | 3+ | 3+ | 1 | 1 | Charge (+1 Damage) |
-| Nightmare’s Hooves and Teeth | 3 | 5+ | 3+ | - | 1 | Companion |
+| 騎士の槍または騎士の剣(Templar Lance or Templar Blade) | 3 | 3+ | 3+ | 1 | 1 | 突撃（+1ダメージ量）(Charge (+1 Damage)) |
+| ナイトメアの蹄と歯(Nightmare’s Hooves and Teeth) | 3 | 5+ | 3+ | - | 1 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Riders of Ruin**（Passive）
-  - 効果: Models in this unit can pass across enemy **INFANTRY** models as if this unit had **FLY**.
+- **破滅の乗り手(Riders of Ruin)**（パッシブ）
+  - 効果: このユニット内の兵は、あたかも自身が**飛行**を有するかのように、敵**歩兵**・兵を通り抜けることができる。
 
-**キーワード:** Cavalry, Vampire, Ward (6+)
+**キーワード:** 騎兵、ヴァンパイア、加護（6+）（Cavalry, Vampire, Ward (6+)）
 
-### Deathrattle Skeletons
+### デスラトル・スケルトン(Deathrattle Skeletons)
 
 **モデル数:** 10 / **ベースサイズ:** 25mm
 
@@ -51,16 +51,16 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Ancient Weapon | 2 | 4+ | 4+ | - | 1 | - |
+| 古代の武器(Ancient Weapon) | 2 | 4+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Skeleton Legion**（Your Combat Phase）
-  - 効果: For each slain model from this unit, make a **legion roll** of D6. For each 6, return 1 slain model to this unit.
+- **骸骨の兵団(Skeleton Legion)**（自軍側近接フェイズ）
+  - 効果: このユニット~~内の兵1体が撃破されるたびに~~==の撃破されている兵1体につき==、D6の**兵団ロール**を1個ロールする。ロール結果で6が出るたびに、このユニット内の撃破された兵1体を復帰させる。
 
-**キーワード:** Infantry, Ward (6+)
+**キーワード:** 歩兵、加護（6+）（Infantry, Ward (6+)）
 
-### Vampire Lord
+### ヴァンパイア・ロード(Vampire Lord)
 
 **モデル数:** 1 / **ベースサイズ:** 40mm
 
@@ -74,17 +74,17 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Dynastic War-relic | 5 | 3+ | 3+ | 1 | 2 | - |
+| 名家の戦遺物(Dynastic War-relic) | 5 | 3+ | 3+ | 1 | 2 | - |
 
 **アビリティ:**
 
-- **Vile Transference**（Your Hero Phase）
-  - 宣言: Pick a visible enemy unit within 6" of this unit to be the target, then make a casting roll of 2D6.
-  - 効果: On a 6+, roll a number of dice equal to the target’s Health characteristic. For each 5+, inflict 1 mortal damage on the target and **Heal (1)** this unit.
+- **邪悪なる生命転移(Vile Transference)**（自軍側ヒーローフェイズ）
+  - 宣言: このユニットの6mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。
+  - 効果: ロール結果が6+であれば、選択された敵ユニットの【体力】と等しい数のダイスをロールする。ロール結果で5+が出るたびに、その敵ユニットは**1ポイントの致命的ダメージ**を受ける。そのたびに、このユニットを**回復（1）**する。
 
-**キーワード:** Hero, Wizard, Infantry, Vampire, Ward (6+)
+**キーワード:** 英雄、魔術師、歩兵、ヴァンパイア、加護（6+）（Hero, Wizard, Infantry, Vampire, Ward (6+)）
 
-### Vargheists
+### ヴァルガイスト(Vargheists)
 
 **モデル数:** 3 / **ベースサイズ:** 50mm
 
@@ -98,43 +98,43 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Murderous Fangs and Talons | 3 | 4+ | 3+ | 1 | 2 | Crit (2 Hits) |
+| 残忍なる爪と牙(Murderous Fangs and Talons) | 3 | 4+ | 3+ | 1 | 2 | クリティカル（2ヒット）(Crit (2 Hits)) |
 
 **アビリティ:**
 
-- **The Scent of Gore**（Passive）
-  - 効果: Add 1 to wound rolls for attacks made by this unit that target a damaged unit.
+- **流血の香り(The Scent of Gore)**（パッシブ）
+  - 効果: このユニットが損傷状態であるユニットを攻撃目標として攻撃をする際、その攻撃のウーンズロールは+1の修正を受ける。
 
-**キーワード:** Infantry, Vampire, Fly, Ward (6+)
+**キーワード:** 歩兵、ヴァンパイア、飛行、加護（6+）（Infantry, Vampire, Fly, Ward (6+)）
 
 ## 戦闘特性（Bloodcrave Hunt Battle Traits）
 
-- **The Hunger**（Passive）
-  - 効果: Each time a friendly **VAMPIRE** unit uses a **FIGHT** ability, after all of its attacks have been resolved, **Heal (X)** that **VAMPIRE** unit where **X** is the number of damage points allocated by those attacks.
-- **Swoop Down**（Your Movement Phase）
-  - 効果: Set up this unit anywhere on the battlefield more than 6" from all enemy units.
+- **血の餓え(The Hunger)**（パッシブ）
+  - 効果: 味方**ヴァンパイア**・ユニットが『**近接攻撃**』アビリティを使用する際、すべての攻撃が解決された後、その味方**ヴァンパイア**・ユニットを**回復（X）**する。それらの攻撃によって割り振られたダメージの合計を**X**とする。
+- **急降下(Swoop Down)**（自軍側移動フェイズ）
+  - 効果: あらゆる敵ユニットから6mvより遠く離れた戦場の任意の位置に、このユニットを配置する。
 
 ## 連隊アビリティ（Bloodcrave Hunt Regiment Abilities）
 
-Pick 1 of the following regiment abilities.
+以下の連隊アビリティの中から1つを選択する。
 
-- **Endless Legions**（Once Per Battle, Your Movement Phase）
-  - 宣言: Pick a friendly **Deathrattle Skeletons** unit that has been destroyed.
-  - 効果: You can set up a replacement unit with D6 models in friendly territory more than 6" from enemy units.
-- **Ruinous Chargers**（Any Charge Phase）
-  - 宣言: Pick your **Blood Knights** unit to use this ability if it charged this turn.
-  - 効果: Inflict D3 mortal damage on each enemy unit it passed across during that **CHARGE** ability.
+- **無尽蔵の軍団(Endless Legions)**（バトル中1回限り、自軍側移動フェイズ）
+  - 宣言: 全滅した味方**デスラトル・スケルトン**・ユニットを1個選択する。
+  - 効果: 敵ユニットから6mvより遠く離れた自軍側陣地内の位置に、D6兵で構成された代替ユニットを1個配置できる。
+- **禍つ突撃隊(Ruinous Chargers)**（任意の突撃フェイズ）
+  - 宣言: このターン中に突撃を実行している味方**ブラッドナイト**・ユニットを1個選択し、このアビリティを使用する。
+  - 効果: その『**突撃**』アビリティを使用したときに通り抜けた各敵ユニットは、それぞれD3ポイントの致命的ダメージを受ける。
 
 ## 強化（Bloodcrave Hunt Enhancements）
 
-Give your general 1 of the following enhancements.
+自軍のジェネラルに、以下の強化の中から1つを付与する。
 
-- **Spirit Gale**（Your Hero Phase）
-  - 宣言: Make a casting roll of 2D6.
-  - 効果: On a 7+, inflict 1 mortal damage on each enemy unit on the battlefield.
-- **Aura of Night**（Passive）
-  - 効果: Ignore negative modifiers to save rolls for shooting attacks that target your general.
-- **Cloud of Bats**（Once Per Battle, Your Movement Phase）
-  - 効果: Remove your general from the battlefield and set them up again anywhere on the battlefield more than 6" from all enemy units.
-- **Grave-sand Shard**（Once Per Battle, Reaction: You declared the ‘Skeleton Legion’ ability for a unit within 9" of your general）
-  - 効果: Add 1 to each **legion roll** made for that unit.
+- **霊気の突風(Spirit Gale)**（自軍側ヒーローフェイズ）
+  - 宣言: 2D6の詠唱ロールをする。
+  - 効果: ロール結果が7+であれば、戦場に配置されている各敵ユニットは1ポイントの致命的ダメージを受ける。
+- **朧夜の霊気(Aura of Night)**（パッシブ）
+  - 効果: 自軍側ジェネラルを攻撃目標とするレンジアタックに対して、自軍側ジェネラルはセーブロールのマイナス修正を無視する。
+- **蝙蝠の一群(Cloud of Bats)**（バトル中1回限り、自軍側移動フェイズ）
+  - 効果: 自軍側ジェネラルを戦場から取り除き、あらゆる敵ユニットから6mvより遠く離れた戦場の位置に再配置する。
+- **墓砂の破片(Grave-sand Shard)**（バトル中1回限り、リアクション：自軍側ジェネラル9mv以内に一部でも入っているユニットで『==骸==骨の兵団』アビリティを宣言）
+  - 効果: そのユニットの各**~~軍~~==兵==団ロール**は+1の修正を受ける。
