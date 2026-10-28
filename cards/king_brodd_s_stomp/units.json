@@ -8,7 +8,7 @@
   "alliance": "Destruction",
   "title_en": "King Brodd's Stomp",
   "title_ja": null,
-  "data_version": 483
+  "data_version": 488
  },
  "units": [
   {
@@ -1613,7 +1613,7 @@
    ],
    "ward": null,
    "additional": [],
-   "points": 490,
+   "points": 400,
    "models": 1,
    "base": "130mm",
    "reinforce": false,
@@ -1888,7 +1888,7 @@
    ],
    "ward": null,
    "additional": [],
-   "points": 120,
+   "points": 150,
    "models": 1,
    "base": "90 x 52mm",
    "reinforce": false,

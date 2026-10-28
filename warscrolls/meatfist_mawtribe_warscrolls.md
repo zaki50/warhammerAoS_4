@@ -1,6 +1,6 @@
 # Meatfist Mawtribe ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.39.0 build 89 / dump.json data_version 488 / 抽出 2026-10-29
 
 全14 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -332,11 +332,11 @@
 
 **アビリティ:**
 
-- **Step Away From The Maw**（Your Movement Phase）
-  - 効果: If this terrain feature has a **Head Butcher** that was not placed on it this turn, set up the **Head Butcher** on the battlefield wholly within 3" of this terrain feature and not in combat. That unit is no longer a **Head Butcher**.
 - **Feed the Maw**（Your Hero Phase）
   - 宣言: If this terrain feature does not have a **Head Butcher**, pick a friendly **Butcher** within 3" of it and not in combat to be the target.
-  - 効果: Place the target on this terrain feature. The target is now a **Head Butcher** (see 'Hungry Sinkhole'). If this terrain feature is demolished, before removing it from the battlefield, inflict D3 mortal damage on the **Head Butcher**. Then, set up the **Head Butcher** on the battlefield wholly within 3" of this terrain feature and not in combat. That unit is no longer a **Head Butcher**. If it is not possible to set up the **Head Butcher**, it is slain.
+  - 効果: Place the target on this terrain feature. The target is now a **Head Butcher** (see 'Hungry Sinkhole'). If this terrain feature is demolished, before removing it from the battlefield, inflict D3 mortal damage on the **Head Butcher**. Then, set up the **Head Butcher** on the battlefield wholly within 3" of this terrain feature and not in combat. That unit is no longer a **Head Butcher**. If it is not possible to set up the **Head Butcher**, it is slain. All attacks that would target the **Head Butcher** target this terrain feature instead.
+- **Step Away From The Maw**（Your Movement Phase）
+  - 効果: If this terrain feature has a **Head Butcher** that was not placed on it this turn, set up the **Head Butcher** on the battlefield wholly within 3" of this terrain feature and not in combat. That unit is no longer a **Head Butcher**.
 - **Hungry Sinkhole**（Once Per Turn (Army), End of Any Turn）
   - 宣言: Pick this **Mawpit** to be a **sinkhole**. Then, you can pick another terrain feature within 12" of this **Mawpit** and that you have not already picked to be a **sinkhole** this battle to be a **sinkhole** for the rest of the turn. Then, pick each enemy unit within 3" of the **sinkhole(s)** to be the targets. From the second battle round onwards, increase the range at which another terrain feature can be picked to be a **sinkhole** by 3" for each previous battle round. If this terrain feature has a **Head Butcher**, increase the range at which another terrain feature can be picked to be a **sinkhole** by 6" for each previous battle round instead of 3".
   - 効果: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.

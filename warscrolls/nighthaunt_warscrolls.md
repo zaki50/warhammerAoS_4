@@ -1,6 +1,6 @@
 # Nighthaunt ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.39.0 build 89 / dump.json data_version 488 / 抽出 2026-10-29
 
 全38 ウォースクロール（Spearhead 版 9 件は除外。--include-spearhead で含められる）
 
@@ -655,7 +655,7 @@
 
 - **Spectral Alchemy**（Once Per Turn (Army), Your Shooting Phase）
   - 宣言: Pick an enemy unit within 10" of this unit to be the target.
-  - 効果: If this unit’s shooting attacks inflicted damage on the target this turn, apply 1 of the following effects. Otherwise, roll a dice. On a 3+, apply 1 of the following effects: ***Phantasmal Solvent:*** If the target has a Move characteristic of'-', inflict 6 mortal damage on the target. ***Acidic Fug:*** Inflict D3 mortal damage on the target. ***Fling Concoctions:*** Add 1 to the Attacks characteristic of this unit's Hurled Vial this phase but all attacks made by this unit this phase must target that enemy unit. ***Choking Vapours:*** If the target is a **WIZARD**, subtract 1 from its power level until the start of your next turn. ***Fear-laced Hallucinogen:*** If the target is a **PRIEST**, remove D3 ritual points from it. ***Unholy Prescription:*** Ward rolls cannot be made for the target for the rest of the turn.
+  - 効果: &#x20;If this unit’s shooting attacks inflicted damage on the target this turn, apply 1 of the following effects. Otherwise, roll a dice. On a 3+, apply 1 of the following effects: ***Phantasmal Solvent***: If the target has a Move characteristic of ‘-’, inflict 6 mortal damage on the target. Acidic Fug: Inflict D3 mortal damage on the target. ***Corrosive Mist***: Inflict 1 mortal damage on each enemy unit within the target’s combat range. ***Choking Vapours***: If the target is a **WIZARD**, subtract 1 from its power level until the start of your next turn. ***Fear‑laced Hallucinogen***: If the target is a **PRIEST**, remove D3 ritual points from it. ***Unholy Prescription***: Ward rolls cannot be made for the target for the rest of the turn.
 
 **連隊オプション:**
 
@@ -820,7 +820,7 @@
   - 宣言: If this unit is contesting an objective, pick a visible enemy unit within 6" of this unit to be the target.
   - 効果: Roll a D3. On a 2+: • Inflict an amount of mortal damage on the target equal to the roll. • Add a number equal to the roll to this unit’s control score for the rest of the turn.
 
-**キーワード:** Infantry, Champion, Fly, Ward (5+), Death, Nighthaunt
+**キーワード:** Infantry, Champion (1/8), Fly, Ward (5+), Death, Nighthaunt
 
 ---
 
@@ -1138,7 +1138,7 @@
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | Terminus | 3 | 3+ | 3+ | 2 | D6 | Crit (Auto-wound) |
-| Tool of Judgement | 3 | 4+ | 4+ | - | 1 | - |
+| Tool of Judgement | 3 | 4+ | 4+ | - | 1 | Crit (Auto-wound) |
 
 **アビリティ:**
 
@@ -1170,7 +1170,7 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Piercing Scream | 12" | D3 | 4+ | 3+ | 2 | D3 | Shoot in Combat |
+| Piercing Scream | 12" | D3 | 4+ | 3+ | 2 | D3 | Shoot in Combat, Crit (Auto-wound) |
 
 **近接武器:**
 
@@ -1211,7 +1211,7 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Piercing Scream | 10" | 2 | 4+ | 3+ | 2 | D3 | Shoot in Combat |
+| Piercing Scream | 10" | 2 | 4+ | 3+ | 2 | D3 | Shoot in Combat, Crit (Auto-wound) |
 
 **近接武器:**
 

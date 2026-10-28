@@ -8,7 +8,7 @@
   "alliance": "Death",
   "title_en": "Nighthaunt",
   "title_ja": null,
-  "data_version": 483
+  "data_version": 488
  },
  "units": [
   {
@@ -3081,7 +3081,7 @@
       },
       "effect": {
        "ja": "",
-       "en": "If this unit’s shooting attacks inflicted damage on the target this turn, apply 1 of the following effects. Otherwise, roll a dice. On a 3+, apply 1 of the following effects:\n\n***Phantasmal Solvent:*** If the target has a Move characteristic of'-', inflict 6 mortal damage on the target.\n***Acidic Fug:*** Inflict D3 mortal damage on the target.\n***Fling Concoctions:*** Add 1 to the Attacks characteristic of this unit's Hurled Vial this phase but all attacks made by this unit this phase must target that enemy unit.\n***Choking Vapours:*** If the target is a **WIZARD**, subtract 1 from its power level until the start of your next turn.\n***Fear-laced Hallucinogen:*** If the target is a **PRIEST**, remove D3 ritual points from it.\n***Unholy Prescription:*** Ward rolls cannot be made for the target for the rest of the turn."
+       "en": "&#x20;If this unit’s shooting attacks inflicted damage on the target this turn, apply 1 of the following effects. Otherwise, roll a dice. On a 3+, apply 1 of the following effects:\n***Phantasmal Solvent***: If the target has a Move characteristic of ‘-’, inflict 6 mortal damage on the target. Acidic Fug: Inflict D3 mortal damage on the target.\n***Corrosive Mist***: Inflict 1 mortal damage on each enemy unit within the target’s combat range.\n***Choking Vapours***: If the target is a **WIZARD**, subtract 1 from its power level until the start of your next turn.\n***Fear‑laced Hallucinogen***: If the target is a **PRIEST**, remove D3 ritual points from it.\n***Unholy Prescription***: Ward rolls cannot be made for the target for the rest of the turn."
       }
      },
      "own": false,
@@ -4003,7 +4003,7 @@
      ""
     ],
     [
-     "Champion",
+     "Champion (1/8)",
      ""
     ],
     [
@@ -5576,7 +5576,9 @@
       "1"
      ],
      "abil_ja": [],
-     "abil_en": []
+     "abil_en": [
+      "Crit (Auto-wound)"
+     ]
     }
    ],
    "abilities": [
@@ -5706,7 +5708,8 @@
      ],
      "abil_ja": [],
      "abil_en": [
-      "Shoot in Combat"
+      "Shoot in Combat",
+      "Crit (Auto-wound)"
      ]
     }
    ],
@@ -5908,7 +5911,8 @@
      ],
      "abil_ja": [],
      "abil_en": [
-      "Shoot in Combat"
+      "Shoot in Combat",
+      "Crit (Auto-wound)"
      ]
     }
    ],

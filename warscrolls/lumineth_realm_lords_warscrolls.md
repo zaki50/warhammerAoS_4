@@ -1,6 +1,6 @@
 # Lumineth Realm-lords ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.39.0 build 89 / dump.json data_version 488 / 抽出 2026-10-29
 
 全35 ウォースクロール（Spearhead 版 4 件は除外。--include-spearhead で含められる）
 
@@ -198,6 +198,7 @@
 
 - 0-1 *Lumineth Paragon*
 - 0-1 **Alarith Stonemage**
+- 0-1 **Scourge of Aqshy: Alarith Stonemage**
 - Any **VANARI**
 - Any **ALARITH**
 
@@ -711,7 +712,7 @@
 
 **キーワード:** Hero, Wizard (1), Infantry, Order, Lumineth Realm‑lords, Aelf, Alarith
 
-**ノート:** This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
+**ノート:** This **HERO** can join the regiment of **Avalenor, the Stoneheart King**. This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
 
 ---
 
@@ -1285,4 +1286,4 @@
 - **Relentless as the Driving Current**（Once Per Turn (Army), Any Combat Phase）
   - 効果: If this unit is in combat, it can move 2D6". It can pass through models in enemy units but must end that move in combat.
 
-**キーワード:** Infantry, Champion, Order, Lumineth Realm‑lords, Aelf, Ydrilan
+**キーワード:** Infantry, Champion (1/10), Order, Lumineth Realm‑lords, Aelf, Ydrilan

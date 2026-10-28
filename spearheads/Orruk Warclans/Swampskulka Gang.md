@@ -1,6 +1,6 @@
 # Spearhead: Swampskulka Gang（Orruk Warclans）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.39.0 build 89 / dump.json data_version 488 / 抽出 2026-10-29
 
 
 ## 編成
@@ -154,11 +154,11 @@
 
 Pick 1 of the following regiment abilities.
 
-- **Covered in Mud**（Start of the First Battle Round）
-  - 宣言: Pick a friendly unit to use this ability.
-  - 効果: In this battle, that unit is not visible to enemy models that are more than 12" away from it.
 - **Noisy Racket**（Passive）
   - 効果: Subtract 1 from wound rolls for attacks made by enemy units in the first battle round.
+- **Covered in Mud**（Once Per Turn (Army), Start of First Battle Round）
+  - 宣言: Pick a friendly unit to use this ability.
+  - 効果: In this battle, that unit is not visible to enemy models that are more than 12" away from it.
 
 ## 強化（Swampskulka Gang Enhancements）
 

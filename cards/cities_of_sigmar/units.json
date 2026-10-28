@@ -8,7 +8,7 @@
   "alliance": "Order",
   "title_en": "Cities of Sigmar",
   "title_ja": null,
-  "data_version": 483
+  "data_version": 488
  },
  "units": [
   {
@@ -10350,7 +10350,6 @@
    "keyword_fix": {},
    "regiment": [
     "0-1 **WAR MACHINE** **SIGMARITE**",
-    "0-1 **THAUMATURGICAL SPECIALIST**",
     "Any **SIGMARITE** **INFANTRY**"
    ],
    "notes_en": "This **HERO** can join an eligible regiment as a *Thaumaturgical Specialist*.\nThis unit isThis unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.",

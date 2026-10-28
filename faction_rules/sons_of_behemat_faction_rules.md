@@ -1,6 +1,6 @@
 # Sons of Behemat ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.39.0 build 89 / dump.json data_version 488 / 抽出 2026-10-29
 
 
 ## 戦闘特性
@@ -94,7 +94,7 @@ Sons of Behemat armies can use the following abilities:
   - 効果: Make a rampage roll of D6. If the roll equals or exceeds the target's Control characteristic, this unit cannot be picked to be the target of pile-in moves made by the target while there are other friendly **SONS OF BEHEMAT** units in combat with the target.
 - **One-Hit Wonder**（Once Per Battle (Army), Any Combat Phase）
   - 宣言: Pick an enemy unit in combat with this unit to be the target.
-  - 効果: This unit can make a pile-in move. Then, roll a dice. Add 1 to the roll for cach battle round in which this unit was on the battlefield in both combat phases and did not use any **FIGHT** abilities. On a 6+, inflict 4D6 mortal damage on the target.
+  - 効果: This unit can make a pile-in move. Then, roll a dice. Add 1 to the roll for each battle round in which this unit was on the battlefield in both combat phases and did not use any **FIGHT** abilities. On a 6+, inflict 4D6 mortal damage on the target.
 
 ## 神器
 

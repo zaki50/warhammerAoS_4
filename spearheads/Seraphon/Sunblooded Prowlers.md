@@ -1,6 +1,6 @@
 # Spearhead: Sunblooded Prowlers（Seraphon）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.39.0 build 89 / dump.json data_version 488 / 抽出 2026-10-29
 
 
 ## 編成
@@ -158,10 +158,10 @@
 
 Pick 1 of the following regiment abilities.
 
-- **Scaled Aegis**（Your Hero Phase）
+- **Scaled Aegis**（Once Per Turn (Army), Your Hero Phase）
   - 宣言: Pick a friendly **SAURUS** unit to be the target
   - 効果: Roll a dice. On a 3+, that unit has **WARD (6+)** until the start of your next turn.
-- **Followers of Huanchi**（Your Shooting Phase）
+- **Followers of Huanchi**（Once Per Turn (Army), Your Shooting Phase）
   - 宣言: Pick a friendly **SKINK** unit to be the target.
   - 効果: Roll a dice. On a 3+, the target's ranged weapons have **Crit (Auto-wound)** for the rest of the turn, including **Companion** weapons.
 

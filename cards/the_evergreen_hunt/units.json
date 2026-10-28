@@ -8,7 +8,7 @@
   "alliance": "Order",
   "title_en": "The Evergreen Hunt",
   "title_ja": null,
-  "data_version": 483
+  "data_version": 488
  },
  "units": [
   {
@@ -1052,7 +1052,7 @@
    ],
    "ward": null,
    "additional": [],
-   "points": 220,
+   "points": 210,
    "models": 3,
    "base": "50mm",
    "reinforce": true,

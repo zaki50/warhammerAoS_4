@@ -1,8 +1,8 @@
 # Matriarch's Mob ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.39.0 build 89 / dump.json data_version 488 / 抽出 2026-10-29
 
-全5 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
+全8 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
 
 ---
@@ -149,6 +149,47 @@
 
 ---
 
+## Mancrusher Gargant
+
+**ポイント:** 140pt / **モデル数:** 1 / **ベースサイズ:** 90 x 52mm
+
+**増援不可**
+
+**ステータス:**
+
+| 移動力 | 体力 | 防御力 | 確保力 |
+|---|---|---|---|
+| 8" | 12 | 5+ | 5 |
+
+**遠隔武器:**
+
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
+|---|---|---|---|---|---|---|---|
+| Throwin' Rocks | 12" | 1 | 4+ | 2+ | 1 | D3 | - |
+
+**近接武器:**
+
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
+|---|---|---|---|---|---|---|
+| ’Eadbutt | 1 | 4+ | 2+ | 2 | 3 | - |
+| Gigantic Weapon | 5 | 4+ | 2+ | 1 | 2 | - |
+
+**アビリティ:**
+
+- **Bet You Can't...**（Once Per Battle (Army), Deployment Phase）
+  - 宣言: Pick each friendly Mancrusher Gargant on the battlefield to be the targets.
+  - 効果: Pick 1 of the following effects: ***...Kill the Big Eads***: For the rest of the battle, add 1 to the Attacks characteristic of each target's melee weapons while they are in combat with any enemy **HEROES** or **MONSTERS**. ***...Get There Before Me!***: Up to 3 of the targets can each use the Normal Move' ability as if it were your movement phase. ***...Grab That!***: Add 5 to each target's control score for the rest of the battle.
+- **Excitable Followers**（Any Combat Phase / CP 1） ［Rampage］
+  - 効果: While this unit is wholly within 12" of a visible friendly **SONS OF BEHEMAT HERO**, this unit can use 2 **FIGHT** abilities this phase. After the first is used, however, this unit has **STRIKE-LAST** for the rest of the turn.
+
+**連隊オプション:**
+
+- Any **LITTLE**
+
+**キーワード:** Monster, Destruction, Sons of Behemat, Little
+
+---
+
 ## Rock-hurlers
 
 **ポイント:** 380pt / **モデル数:** 3 / **ベースサイズ:** 90mm
@@ -182,3 +223,81 @@
 **キーワード:** Monster, Champion, Destruction, Sons of Behemat, Little
 
 **ノート:** This unit cannot be reinforced.
+
+---
+
+## Scourge of Aqshy: Mancrusher Gargant
+
+**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 90 x 52mm
+
+**増援不可**
+
+**ステータス:**
+
+| 移動力 | 体力 | 防御力 | 確保力 |
+|---|---|---|---|
+| 8" | 12 | 5+ | 10 |
+
+**遠隔武器:**
+
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
+|---|---|---|---|---|---|---|---|
+| Throwin’ Rocks | 12" | 1 | 5+ | 2+ | 2 | D3 | - |
+
+**近接武器:**
+
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
+|---|---|---|---|---|---|---|
+| ’Eadbutt | 1 | 4+ | 2+ | 2 | 4 | - |
+| Mighty Kick | 1 | 4+ | 2+ | 2 | D3 | - |
+| Massive Club | 4 | 4+ | 2+ | 1 | 2 | - |
+
+**アビリティ:**
+
+- **Statue Tossing**（Once Per Turn (Army), Your Shooting Phase）
+  - 効果: For the rest of the turn, the Damage characteristic of this unit’s **Throwin’ Rocks** is 3 instead of D3. Then, you can spend up to 3 **rage dice**. If you do: •  For each **rage dice** spent, add 2 to the Attacks characteristic of this unit’s **Throwin’ Rocks** for the rest of the turn. •  If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7.
+
+**連隊オプション:**
+
+- Any **LITTLE**
+
+**キーワード:** Monster, Destruction, Sons of Behemat, Little
+
+**ノート:** This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
+
+---
+
+## Scourge of Aqshy: Mancrusher Gargant
+
+**ポイント:** 150pt / **モデル数:** 1 / **ベースサイズ:** 90 x 52mm
+
+**増援不可**
+
+**ステータス:**
+
+| 移動力 | 体力 | 防御力 | 確保力 |
+|---|---|---|---|
+| 8" | 12 | 5+ | 10 |
+
+**遠隔武器:**
+
+| 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
+|---|---|---|---|---|---|---|---|
+| Throwin’ Rocks | 12" | 1 | 5+ | 2+ | 2 | D3 | - |
+
+**近接武器:**
+
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
+|---|---|---|---|---|---|---|
+| ’Eadbutt | 1 | 4+ | 2+ | 2 | 4 | - |
+| Mighty Kick | 1 | 4+ | 2+ | 2 | D3 | - |
+| Massive Club | 4 | 4+ | 2+ | 1 | 2 | - |
+
+**アビリティ:**
+
+- **Statue Tossing**（Once Per Turn (Army), Your Shooting Phase）
+  - 効果: For the rest of the turn, the Damage characteristic of this unit’s **Throwin’ Rocks** is 3 instead of D3. Then, you can spend up to 3 **rage dice**. If you do: •  For each **rage dice** spent, add 2 to the Attacks characteristic of this unit’s **Throwin’ Rocks** for the rest of the turn. •  If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7.
+
+**キーワード:** Monster, Destruction, Sons of Behemat, Little
+
+**ノート:** This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.

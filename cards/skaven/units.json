@@ -8,7 +8,7 @@
   "alliance": "Chaos",
   "title_en": "Skaven",
   "title_ja": null,
-  "data_version": 483
+  "data_version": 488
  },
  "units": [
   {
@@ -2491,11 +2491,11 @@
       },
       "declare": {
        "ja": "",
-       "en": "This unit’s **Bomb Rats** are tokens. If there are fewer than 2 friendly **Bomb Rats** next to enemy units, pick an enemy unit in combat with this unit that does not have a friendly **Bomb Rat** next to it to be the target."
+       "en": "This unit’s **Bomb Rats** are tokens. If there are fewer than 2 friendly **Bomb Rats** next to enemy units, pick an enemy unit in combat with this unit that does not have a friendly **Bomb Rat** next to it to be the target. There is 1 Bomb Rat for every 10 models in this unit."
       },
       "effect": {
        "ja": "",
-       "en": "Place this unit’s **Bomb Rat** next to the target."
+       "en": "Place 1 of this unit’s Bomb Rats next to the target."
       }
      },
      "own": false,
@@ -2546,7 +2546,7 @@
      ""
     ],
     [
-     "Champion",
+     "Champion (1/10)",
      ""
     ],
     [

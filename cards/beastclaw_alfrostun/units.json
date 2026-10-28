@@ -8,7 +8,7 @@
   "alliance": "Destruction",
   "title_en": "Beastclaw Alfrostun",
   "title_ja": null,
-  "data_version": 483
+  "data_version": 488
  },
  "units": [
   {
@@ -2775,6 +2775,39 @@
    "abilities": [
     {
      "name": {
+      "ja": "Feed the Maw",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this terrain feature does not have a **Head Butcher**, pick a friendly **Butcher** within 3\" of it and not in combat to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Place the target on this terrain feature. The target is now a **Head Butcher** (see 'Hungry Sinkhole').\n\nIf this terrain feature is demolished, before removing it from the battlefield, inflict D3 mortal damage on the **Head Butcher**. Then, set up the **Head Butcher** on the battlefield wholly within 3\" of this terrain feature and not in combat. That unit is no longer a **Head Butcher**. If it is not possible to set up the **Head Butcher**, it is slain. All attacks that would target the **Head Butcher** target this terrain feature instead."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
       "ja": "Step Away From The Maw",
       "en": "",
       "own": false,
@@ -2797,39 +2830,6 @@
       "effect": {
        "ja": "",
        "en": "If this terrain feature has a **Head Butcher** that was not placed on it this turn, set up the **Head Butcher** on the battlefield wholly within 3\" of this terrain feature and not in combat. That unit is no longer a **Head Butcher**."
-      }
-     },
-     "own": false,
-     "kw_ja": "",
-     "kw_en": "",
-     "cast": null,
-     "cp": null,
-     "note": []
-    },
-    {
-     "name": {
-      "ja": "Feed the Maw",
-      "en": "",
-      "own": false,
-      "fix": [],
-      "note": []
-     },
-     "fields": {
-      "timing": {
-       "ja": "",
-       "en": "Your Hero Phase"
-      },
-      "used_by": {
-       "ja": "",
-       "en": ""
-      },
-      "declare": {
-       "ja": "",
-       "en": "If this terrain feature does not have a **Head Butcher**, pick a friendly **Butcher** within 3\" of it and not in combat to be the target."
-      },
-      "effect": {
-       "ja": "",
-       "en": "Place the target on this terrain feature. The target is now a **Head Butcher** (see 'Hungry Sinkhole').\n\nIf this terrain feature is demolished, before removing it from the battlefield, inflict D3 mortal damage on the **Head Butcher**. Then, set up the **Head Butcher** on the battlefield wholly within 3\" of this terrain feature and not in combat. That unit is no longer a **Head Butcher**. If it is not possible to set up the **Head Butcher**, it is slain."
       }
      },
      "own": false,

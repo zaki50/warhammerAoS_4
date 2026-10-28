@@ -8,7 +8,7 @@
   "alliance": "Order",
   "title_en": "Aelementiri Conclave",
   "title_ja": null,
-  "data_version": 483
+  "data_version": 488
  },
  "units": [
   {
@@ -752,6 +752,7 @@
    "regiment": [
     "0-1 *Lumineth Paragon*",
     "0-1 **Alarith Stonemage**",
+    "0-1 **Scourge of Aqshy: Alarith Stonemage**",
     "Any **VANARI**",
     "Any **ALARITH**"
    ],
@@ -1683,7 +1684,7 @@
     "Any **Vanari Auralan Wardens**",
     "Any **ALARITH**"
    ],
-   "notes_en": "This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.",
+   "notes_en": "This **HERO** can join the regiment of **Avalenor, the Stoneheart King**. This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.",
    "wargear": null
   },
   {
@@ -2573,7 +2574,7 @@
      ""
     ],
     [
-     "Champion",
+     "Champion (1/10)",
      ""
     ],
     [

@@ -1,6 +1,6 @@
 # Ogor Mawtribes ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.39.0 build 89 / dump.json data_version 488 / 抽出 2026-10-29
 
 
 ## 戦闘特性
@@ -11,7 +11,7 @@
 Ogor Mawtribes armies can use the following abilities:
 
 - **Eat 'Em Alive**（End of Any Turn）
-  - 宣言: Pick a friendly **OGOR** unit that used a **FIGHT** ability that targeted a unit, excluding **FACTION TERRAIN**, this turn to use this ability. Then, you can pick an enemy unit in combat with it to be the target. The same enemy unit cannot be picked to be the target of this ability more than once per turn.
+  - 宣言: Pick a friendly **OGOR** unit that used a **FIGHT** ability that targeted a unit (excluding **FACTION TERRAIN** and **MANIFESTATIONS**) this turn to use this ability. Then, you can pick an enemy unit in combat with it to be the target. The same enemy unit cannot be picked to be the target of this ability more than once per turn.
   - 効果: Inflict D3 mortal damage on the target (if any). Then, pick 1 of the following effects to apply to that friendly **OGOR** unit for the rest of the battle. If any of these effects already apply to it, you can pick a different effect to replace the current effect. • ***Raw and Bloody Flesh***: Subtract 1 from the Rend characteristic of weapons used for attacks that target that unit. • ***Exotic Giblets***: Subtract 1 from ward rolls for damage points inflicted by that unit’s combat attacks made with non‑**Companion** weapons. • ***Steaming Brains***: Add 2 to that unit’s Control characteristic. • ***Crunchy Bones***: That unit’s melee weapons have **Crit (2 Hits)**. If that unit’s melee weapons already have **Crit (2 Hits)**, they have **Crit (Mortal)** instead. • ***Slick Innards***: That unit can use **CHARGE** abilities even if it used a **RUN** ability in the same turn. • ***Mystery Meat***: Subtract 1 from the power level of enemy units while they are in combat with that unit, to a minimum of 0. **Designer’s Note**: *Only 1 of these effects can apply to the same unit at the same time unless specified otherwise. Also note that Steaming Brains affects the Control characteristic, not the control score.*
 - **Bull Charge**（Once Per Turn (Army), Any Charge Phase）
   - 宣言: Pick a friendly **OGOR MAWTRIBES** unit that charged this turn and has not used a **RAMPAGE** ability this turn to use this ability, then pick an enemy unit in combat with it to be the target.

@@ -1,6 +1,6 @@
 # Sylvaneth ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.39.0 build 89 / dump.json data_version 488 / 抽出 2026-10-29
 
 全33 ウォースクロール（Spearhead 版 5 件は除外。--include-spearhead で含められる）
 
@@ -465,7 +465,7 @@
 
 ## Kurnoth Hunters with Greatswords
 
-**ポイント:** 220pt / **モデル数:** 3 / **ベースサイズ:** 50mm
+**ポイント:** 210pt / **モデル数:** 3 / **ベースサイズ:** 50mm
 
 **ステータス:**
 
@@ -946,7 +946,7 @@
 
 **装備オプション:** ***Each model in this unit is armed with Twistroot Weapons.*** • ***The champion is a Swarmsage and is also armed with a Voracious Swarm.*** • ***2/8 models are Twistroot Wardens.*** • ***1/2 Twistroot Wardens can also be armed with a Warden’s Bow.***
 
-**キーワード:** Infantry, Champion, Order, Sylvaneth, Revenant
+**キーワード:** Infantry, Champion (1/8), Order, Sylvaneth, Revenant
 
 ---
 

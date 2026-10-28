@@ -1,6 +1,6 @@
 # Skaven ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.39.0 build 89 / dump.json data_version 488 / 抽出 2026-10-29
 
 全55 ウォースクロール（Spearhead 版 9 件は除外。--include-spearhead で含められる）
 
@@ -525,15 +525,15 @@
 **アビリティ:**
 
 - **Bomb Rats**（Once Per Turn (Army), Any Combat Phase）
-  - 宣言: This unit’s **Bomb Rats** are tokens. If there are fewer than 2 friendly **Bomb Rats** next to enemy units, pick an enemy unit in combat with this unit that does not have a friendly **Bomb Rat** next to it to be the target.
-  - 効果: Place this unit’s **Bomb Rat** next to the target.
+  - 宣言: This unit’s **Bomb Rats** are tokens. If there are fewer than 2 friendly **Bomb Rats** next to enemy units, pick an enemy unit in combat with this unit that does not have a friendly **Bomb Rat** next to it to be the target. There is 1 Bomb Rat for every 10 models in this unit.
+  - 効果: Place 1 of this unit’s Bomb Rats next to the target.
 - **Detonate**（End of Any Turn）
   - 宣言: This unit can use this ability even if it has been destroyed Pick each enemy unit that has a friendly **Bomb Rat** token to be a target
   - 効果: Roll a D3 for each enemy unit within a target’s combat range On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll Then, remove the target’s **Bomb Rat**.
 
 **装備オプション:** ***Each model in this unit is armed with a Punch Dagger and Blade.*** ***1/10 models in this unit can be armed with Saboteur Bombs in addition to their other weapons*** ***The champion cannot be armed with Saboteur Bombs.***
 
-**キーワード:** Infantry, Champion, Ward (6+), Chaos, Skaven, Eshin
+**キーワード:** Infantry, Champion (1/10), Ward (6+), Chaos, Skaven, Eshin
 
 ---
 

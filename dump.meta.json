@@ -1,9 +1,9 @@
 {
   "package": "com.gamesworkshop.aos4",
   "appName": "Warhammer Age of Sigmar",
-  "versionName": "1.38.1",
-  "versionCode": 88,
-  "dataVersion": 483,
-  "extractedAt": "2026-09-25T08:37:42+0900",
+  "versionName": "1.39.0",
+  "versionCode": 89,
+  "dataVersion": 488,
+  "extractedAt": "2026-10-29T02:48:45+0900",
   "device": "Pixel Tablet (emulator-5554)"
 }

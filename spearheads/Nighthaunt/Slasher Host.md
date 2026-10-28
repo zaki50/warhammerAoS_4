@@ -1,6 +1,6 @@
 # Spearhead: Slasher Host（Nighthaunt）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.39.0 build 89 / dump.json data_version 488 / 抽出 2026-10-29
 
 
 ## 編成
@@ -118,7 +118,7 @@
 
 Pick 1 of the following regiment abilities.
 
-- **Death Stalkers**（Start of the First Battle Round）
+- **Death Stalkers**（Once Per Turn (Army), Start of First Battle Round）
   - 宣言: Pick an enemy unit on the battlefield.
   - 効果: Add 1 to the Rend characteristic of melee weapons used for attacks that target that unit.
 - **Chorus of Terror**（Passive）

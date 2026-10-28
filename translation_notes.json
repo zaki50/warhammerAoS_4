@@ -2,7 +2,7 @@
  "_doc": "official_translations/*.json（書籍などから書き写した公式訳）の既知の誤訳・誤植。md 生成時に status=open のものを該当箇所の直後に「訳注」として差し込む（日本語の本文は書籍どおりのまま）。照合・更新は .claude/skills/translation-notes/scripts/translation_notes.py check --update。",
  "_location": "tr_section / tr_key / tr_field は日本語の場所（official_translations/<faction>.json のセクション・キー・フィールド。フィールドの無い名前のセクションは tr_field=null）。table / id / en_field は対応する英語の dump.json レコード。",
  "_fix_ja": "fix_ja: 誤訳を何に直すか。文字列なら ja をそれに置き換える。複数箇所・別範囲を直すときは {誤訳箇所: 修正後}。md の訳注に「訂正: 「誤」→「正」」として出る。",
- "checked_data_version": 483,
+ "checked_data_version": 488,
  "notes": [
   {
    "faction": "daughters_of_khaine",

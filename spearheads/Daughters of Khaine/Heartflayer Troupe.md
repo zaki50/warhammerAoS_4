@@ -1,6 +1,6 @@
 # Spearhead: Heartflayer Troupe（ドーター・オヴ・カイン(Daughters of Khaine)）
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.38.1 build 88 / dump.json data_version 483 / 抽出 2026-09-25
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.39.0 build 89 / dump.json data_version 488 / 抽出 2026-10-29
 
 
 ## 編成
@@ -138,7 +138,7 @@ Pick 1 of the following regiment abilities.
 
 - **殺戮の悟り(Murderous Epiphany)**（Once Per Battle, Your Hero Phase）
   - 効果: All friendly units gain the **Blood Rites** passive ability they would have gained at the start of the next battle round (they keep this ability for the rest of the battle, but they do not gain it for a second time at the start of the next battle round).
-- **カインの祝福(Blessing of Khaine)**（Any Combat Phase）
+- **カインの祝福(Blessing of Khaine)**（Once Per Turn (Army), Any Combat Phase）
   - 宣言: Pick a friendly unit wholly within 12" of your general. You cannot pick your general.
   - 効果: Add 1 to ward rolls for that unit this phase.
 
