@@ -1,0 +1,213 @@
+{
+ "_faction": "Fyrd of Fyrepeak（名高き軍勢。日本語名は資料なし）",
+ "_source": [
+  "ユニット（ウォースクロール）の訳は official_translations/khazalite_holds.json から写した"
+ ],
+ "_notes": [
+  "khazalite_holds と同じ資料・同じ訳（inventory にあるキーだけ）。詳細は khazalite_holds の _notes。",
+  "名高き軍勢のルール本体（バトルトーム：カザライト・ホールド）の日本語版は手元に無いので、陣営ルール・faction_name は英語のまま。"
+ ],
+ "unit_names": {
+  "Auric Flamekeeper": "オーリック・フレイムキーパー",
+  "Auric Hearthguard": "オーリック・ハースガード",
+  "Auric Runefather": "オーリック・ルーンファーザー",
+  "Auric Runefather on Magmadroth": "オーリック・ルーンファーザー（マグマドロス騎乗）",
+  "Auric Runemaster": "オーリック・ルーンマスター",
+  "Auric Runesmiter": "オーリック・ルーンスマイター",
+  "Auric Runesmiter on Magmadroth": "オーリック・ルーンスマイター（マグマドロス騎乗）",
+  "Auric Runeson": "オーリック・ルーンサン",
+  "Auric Runeson on Magmadroth": "オーリック・ルーンサン（マグマドロス騎乗）",
+  "Battlesmith": "バトルスミス",
+  "Doomseeker": "ドゥームシーカー",
+  "Grimhold Exile": "グリムホールド・エグザイル",
+  "Grimwrath Berzerker": "グリムラース・バーザーカー",
+  "Hearthguard Berzerkers": "ハースガード・バーザーカー",
+  "Ormyr and Ashtongue": "オーミル＆アッシュタン",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth": "アキュシーの禍事 オーリック・ルーンサン（マグマドロス騎乗）",
+  "Scourge of Aqshy: Vulkyn Flameseekers": "アキュシーの禍事 ヴルキン・フレイムシーカー",
+  "Vulkite Berzerkers with Bladed Slingshields": "ヴァルカイト・バーザーカー（刃ありし投げ盾装備）",
+  "Vulkite Berzerkers with Fyresteel Weapons": "ヴァルカイト・バーザーカー（焔鋼の武器装備）",
+  "Vulkyn Flameseekers": "ヴルキン・フレイムシーカー"
+ },
+ "weapon_names": {
+  "Ancestral Weapons": "父祖の武器",
+  "Auric Hearthguard|Magmapike": "マグマパイク",
+  "Auric Runefather on Magmadroth|Latchkey Grandaxe": "掛金鍵の大斧",
+  "Auric Runefather on Magmadroth|Magmadroth’s Maw, Claws and Horns": "マグマドロスの顎、鉤爪、角",
+  "Auric Runefather on Magmadroth|Roaring Fyrestream": "燃え盛る業焔",
+  "Auric Runemaster|Brazier Staff": "火鉢の杖",
+  "Auric Runesmiter|Latch-axe": "掛金の斧",
+  "Battlesmith|Ancestral Battle-axe": "先祖伝来の戦斧",
+  "Brazier Axe": "火鉢の斧",
+  "Doomseeker|Doomseeker Weapons": "ドゥームシーカーの武器",
+  "Fyre-rune Hammers": "ファイア＝ルーン・ハンマー",
+  "Fyresteel Weapons": "焔鋼の武器",
+  "Grimwrath Berzerker|Fyrestorm Greataxe": "焔嵐の巨斧",
+  "Latch-axe": "掛金の斧",
+  "Latchkey Grandaxe": "掛金鍵の大斧",
+  "Roaring Fyrestream": "燃え盛る業焔",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Ancestral Weapons": "アンセストラルウェポン",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Magmadroth’s Blazing Maw": "マグマドロスの燃え盛る顎",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Magmadroth’s Claws and Horns": "マグマドロスの鉤爪と角",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Roaring Fyrestream": "燃え盛る業焔",
+  "Scourge of Aqshy: Vulkyn Flameseekers|Emberteeth": "残り火の牙",
+  "Scourge of Aqshy: Vulkyn Flameseekers|Vulkyn Weapons": "ヴルキンの武器",
+  "Vulkite Berzerkers with Bladed Slingshields|Fyresteel Weapons": "焔鋼の武器",
+  "Vulkite Berzerkers with Fyresteel Weapons|Fyresteel Weapons": "焔鋼の武器",
+  "Vulkyn Flameseekers|Kyndledroth's Fangs": "キンドルドロスの牙",
+  "Vulkyn Flameseekers|Vulkyn Weapons": "ヴルキンの武器"
+ },
+ "ability_names": {
+  "Auric Hearthguard|Molten Rockbolts": "溶岩弾",
+  "Auric Runefather on Magmadroth|Battle Damaged": "バトルダメージ",
+  "Auric Runefather on Magmadroth|Volcanic Blood": "猛炎の血",
+  "Auric Runemaster|High Priest of the Zharrgrim": "ザールグリムの至高神官",
+  "Auric Runemaster|Master of the Runes": "ルーンの匠",
+  "Auric Runesmiter on Magmadroth|Battle Damaged": "バトルダメージ",
+  "Auric Runeson on Magmadroth|Battle Damaged": "バトルダメージ",
+  "Battlesmith|Bard of the Lodge": "ロッジの詩人",
+  "Battlesmith|Icon of Grimnir": "グリムニルの戦旗",
+  "Berserk Fury": "狂戦士の激情",
+  "Commanding Presence": "威厳ある存在感",
+  "Dauntless Assault": "揺るぎなき強襲",
+  "Doomseeker|Oathbound": "誓いを帯びし者",
+  "Doomseeker|Runic Power": "ルーンの力",
+  "Drothmasters": "怪獣使い",
+  "Duty Unto Death": "殉死の義務",
+  "Fearless Charge": "恐れ無き突進",
+  "Grimwrath Berzerker|Battle-fury": "戦いの熱狂",
+  "Grimwrath Berzerker|Grimwrath Oaths": "グリムラースの誓い",
+  "Lashing Tail": "叩きつける尾",
+  "Masterflame Rune": "父なる焔のルーン",
+  "Raging Inferno": "荒れ狂う業火",
+  "Royal Retinue": "王家の近衛",
+  "Runic Empowerment": "ルーン強化",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Battle Damaged": "バトルダメージ",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Fire, Blood and Vengeance": "炎の血讐",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Seeing Red": "紅蓮の怒り",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Volcanic Blood": "猛炎の血",
+  "Scourge of Aqshy: Vulkyn Flameseekers|Fiery Disposition": "宿炎の気質",
+  "Volcanic Blood": "猛炎の血",
+  "Vulkite Berzerkers with Bladed Slingshields|Berserk Fury": "狂戦士の激情",
+  "Vulkite Berzerkers with Fyresteel Weapons|Whirlwind of Destruction": "破壊の旋風",
+  "Warrior-Kings": "ロッジの主"
+ },
+ "ability_texts": {
+  "Auric Runefather on Magmadroth|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**マグマドロスの顎、鉤爪、角**の【攻撃回数】は4になる。"
+  },
+  "Auric Runefather on Magmadroth|Raging Inferno": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットのセーブロールは-1の修正を受ける。",
+   "keywords": "蹂躙"
+  },
+  "Auric Runefather on Magmadroth|Volcanic Blood": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Auric Runemaster|High Priest of the Zharrgrim": {
+   "timing": "パッシブ",
+   "effect": "このユニットによって祈願された奇蹟が成就した際、そのアビリティが解決された直後に、ダイスを1個ロールする。ロール結果が5+であれば、このユニットは**宿怨マーク**を1個得る。"
+  },
+  "Auric Runemaster|Master of the Runes": {
+   "timing": "自軍側ヒーローフェイズ",
+   "effect": "このユニットから**宿怨マーク**を1個取り除く。そうした場合、そのターン中、このユニットの12mv以内に全体が入っており、かつ視認状態である味方**グリムドロン・歩兵**・ユニットはセーブロールに+1の修正を受ける。"
+  },
+  "Auric Runesmiter on Magmadroth|Lashing Tail": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "2D6をロールする。ロール結果が選択された敵ユニットの兵数以下である場合、選択された敵ユニットはD3+3ポイントの致命的ダメージを受ける。",
+   "keywords": "蹂躙"
+  },
+  "Auric Runesmiter on Magmadroth|Volcanic Blood": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Auric Runeson on Magmadroth|Volcanic Blood": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Battlesmith|Bard of the Lodge": {
+   "timing": "パッシブ",
+   "effect": "このユニットの12mv以内に全体が入っている味方**グリムドロン**・ユニットが『再集結』指揮アビリティを使用する際、自軍はD6の再集結ロールを追加で3回実行できる。"
+  },
+  "Battlesmith|Icon of Grimnir": {
+   "timing": "パッシブ",
+   "effect": "• このユニットの12mv以内に全体が入っており、このユニットから視認状態である味方**グリムドロン**・ユニットは、確保スコアに対するマイナス修正を無視する。\n• このユニットが1個以上の**宿怨マーク**を持つ間、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**グリムドロン**・ユニットは、確保スコアに+3の修正を受ける。"
+  },
+  "Doomseeker|Oathbound": {
+   "timing": "バトル中1回限り（アーミー）、初期配置フェイズ",
+   "declare": "このユニットの獲物として敵ユニットを1個選択する。予備戦力として配置されているユニットを獲物に選んでもよい。",
+   "effect": "獲物を対象としたのユニットの攻撃は、ヒットロールおよびウーンズロールに+1の修正を受ける。\nこのユニットが、自身の獲物と近接戦闘中であるときに全滅した場合、このユニットを全滅させたアビリティが解決された直後に、このユニットの獲物の12mv以内に一部でも入っている各味方**グリムドロン**・ユニットは、それぞれ**宿怨マーク**を1個獲得する。"
+  },
+  "Doomseeker|Runic Power": {
+   "timing": "パッシブ",
+   "effect": "このユニットが受けているダメージが1ポイントである場合、このユニットの近接武器は【ダメージ量】に+1の修正を受ける。\nこのユニットが受けているダメージが2ポイント以上であるならば、このユニットの近接武器は【ダメージ量】に+2の修正を受ける。"
+  },
+  "Grimwrath Berzerker|Battle-fury": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "このユニットが1個以上の**宿怨マーク**を持ち、かつ近接戦闘中である場合、**宿怨マーク**を1個取り除いてもよい。そうした場合、このユニットはこのフェイズ中に『**近接攻撃**』アビリティを2回使用できる。ただし、1回目が使用された後、このユニットはそのフェイズ終了時まで『**後手効果**』を得る。"
+  },
+  "Grimwrath Berzerker|Grimwrath Oaths": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "effect": "このターン中、このユニットの6mv以内に一部でも入っており、かつこのユニットから視認状態であった味方**グリムドロン**・ユニットが1個全滅した場合、このユニットに**宿怨マーク**を1個与えてもよい。"
+  },
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**マグマドロスの鉤爪と角**の【攻撃回数】は4になる。"
+  },
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Fire, Blood and Vengeance": {
+   "timing": "初期配置フェイズ",
+   "declare": "戦場に配置されている味方**オーリック・ルーンファーザー（マグマドロス騎乗）**を1体選択する。",
+   "effect": "選択された味方ユニットが近接戦闘中である、あるいは損傷状態である、全滅している場合、このユニットが装備している近接武器の【ダメージ量】は+1の修正を受ける（随行者武器を含む）。"
+  },
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Seeing Red": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "**憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）その後、以下の効果から1つを選択する：\n**怒りの矛先：**このターン中、このユニットが装備している**随行者**近接武器は【攻撃回数】に+1の修正を受ける。\n**憤激の解放：**自軍側の**憤激レベル**に等しい数のダイスをロールする。効果：ロール結果で4+が出るたび、このユニットを**回復（1）**する。\n**憤怒の盾：**このターン中、このユニットは**加護（5+）**を持つ。",
+   "keywords": "蹂躙"
+  },
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Volcanic Blood": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象とするメレーアタックのセーブロールで修正前の出目1が出るたびに、その『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Scourge of Aqshy: Vulkyn Flameseekers|Fiery Disposition": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "effect": "**憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）その後、次の自軍側ターン開始時まで、以下の効果から1個選び適用する。Xは自軍側の**憤激レベル**に等しい。\n**ウル＝サラマンダーの活力：**このユニットは【移動力】に+Xmvの修正を受ける。\n**燃え立つ決意：**このユニットは確保スコアに+Xの修正を受ける。\n**燃え立つ怒り：**このユニットは**残り火の牙**の【攻撃回数】に+Xの修正を受ける。"
+  },
+  "Vulkite Berzerkers with Bladed Slingshields|Berserk Fury": {
+   "timing": "パッシブ",
+   "effect": "このユニット内の兵1体がメレーアタックよって撃破されるたび、撃破された兵が攻撃側ユニットと近接戦闘中であった場合、ダイスを1個ロールする。このユニットが1個以上の**宿怨マーク**を持つ場合、ロールは+1の修正を受ける。ロール結果が6+であれば、その『**近接攻撃**』アビリティの解決直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Vulkite Berzerkers with Fyresteel Weapons|Whirlwind of Destruction": {
+   "timing": "パッシブ",
+   "effect": "このユニットが1個以上の**宿怨マーク**を持つ間、このユニットは近接武器の【攻撃回数】に+1の修正を受ける。"
+  }
+ },
+ "keyword_names": {
+  "Champion": "豪傑",
+  "Champion (1/9)": "豪傑（1/9）",
+  "Duardin": "ドゥアーディン",
+  "Grimmdron": "グリムドロン",
+  "Hero": "英雄",
+  "Infantry": "歩兵",
+  "Khazalite Holds": "カザライト・ホールド",
+  "Monster": "大型獣",
+  "Musician (1/10)": "楽士（1/10）",
+  "Order": "秩序の大同盟",
+  "Priest (1)": "神官（1）",
+  "Ward (6+)": "加護（6+）"
+ },
+ "weapon_ability_names": {
+  "Anti-INFANTRY (+1 Rend)": "対歩兵（+1貫通値）",
+  "Anti-MONSTER (+1 Rend)": "対大型獣（+1貫通値）",
+  "Companion": "随行者",
+  "Crit (2 Hits)": "クリティカル（2ヒット）",
+  "Crit (Mortal)": "クリティカル（致命的）",
+  "Shoot in Combat": "近接射撃"
+ },
+ "wargear_option_texts": {
+  "Scourge of Aqshy: Vulkyn Flameseekers": "このユニット内にいる各兵は『ヴルキンの武器』を装備している。\n• 1/9の兵はキンドルドロスであり、その武器を「残り火の牙」に置き換える。\n• 豪傑はヴルキン・ルーンファーザーであり、その武器を置き換えることはできない。"
+ }
+}

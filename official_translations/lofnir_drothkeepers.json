@@ -1,0 +1,258 @@
+{
+ "_faction": "ロフニールのドロス番 (Lofnir Drothkeepers)",
+ "_source": [
+  "名高き軍勢 2026年10月 pp.3–4（ロフニールのドロス番）＋同英語版（その他のルール/名高き軍勢 202610.pdf）。200dpi の画像で太字・本文を確認",
+  "ルール・アップデート 2026年11月（日英）ロフニールのドロス番の項（日本語版 p.31）。2026年10月版の名高き軍勢 PDF は日英ともこの改訂を反映済みだった",
+  "バトルプロフィール 2026年11月 pp.14–15（カザライト・ホールド）: ロスター・オプションのユニット名の照合",
+  "ユニット（ウォースクロール）の訳は official_translations/khazalite_holds.json から写した（ロフニール独自の訳がある分は除く）"
+ ],
+ "_notes": [
+  "khazalite_holds と同じ資料・同じ訳（inventory にあるキーだけ）。詳細は khazalite_holds の _notes。",
+  "Summon Molten Infernoth は名前（溶岩の獄鬼の召喚）だけ入れた。ロフニールの顕現伝承版は宣言が DROTHKEEPERS PRIEST で、カザライト版（GRIMMDRON PRIEST）の訳文は当てられない。",
+  "faction_name・名前は p.3 の表題『名高き軍勢 ロフニールのドロス番』（画像で確認）。付与キーワード Drothkeepers は『ドロス番』（太字）。",
+  "ルール・アップデート 2026年11月の 4 項目（ルール冒頭の“ファイアスレイヤー”→“カザライト・ホールド”、ロスター枠にオーミル＆アッシュタン追加、『ヴァルカトリックスの吐息』の“マグマドロス”→“大型獣”、『ドロスの熟練使い』の変更、戦闘特性に『燃え盛る復讐』追加）は、手元の名高き軍勢 2026年10月 PDF（日英とも）ですでに反映済み（ルール冒頭は『カザライト・ホールド陣営を選ぶとき』、ロスターにオーミル＆アッシュタンあり、吐息の宣言は『ドロス番・大型獣』、ドロスの熟練使い・燃え盛る復讐の文はエラッタと同文）。そのまま採った。ルール冒頭は md に出ないので訳は入れていない。背景文の『ファイアスレイヤーの神官は…』（吐息）・『ファイアスレイヤーたちの士気を鼓舞』（召喚）は英語版も Fyreslayer のままで、設定文なので載せない。",
+  "Skilled Drothwranglers: 書籍・エラッタのタイミングは『パッシブ』だが、dump（md）のタイミングは 'Reaction: You declared a non-CHARGE MOVE ability for a friendly MAGMADROTH' で違うので timing は入れず effect だけ採った。効果文中の『各ターンにつき1回（アーミー）』の括弧は書籍で『1回 (』と半角・改行になっているのを全角『（』に詰めた。",
+  "Daring Tamers: 書籍では『効果:』が半角コロンで、『ドロス番·ヴルキン』の中黒も半角。中黒は『・』に揃えた。『in combat with』を『近接範囲内に一部でも入っている間』と訳しているが、近接戦闘中の定義どおりでルールは同じ。",
+  "Blazing Vengeance（燃え盛る復讐）は Drothkeepers を『ドロスキーパー』と訳している（他のアビリティ・ルール冒頭は『ドロス番』。エラッタ 2026年11月の追加文も『ドロスキーパー』）。書籍どおり載せ、_suspected_mistranslations に挙げた。",
+  "Rearing Strike / Searing Claws / Ferocious Heat の keywords は書籍のキーワード欄『蹂躙』。Breath of Vulcatrix は『奇蹟、無制限』、Summon Molten Infernoth は『奇蹟、召喚』。",
+  "group_names は AoR の先例（グランドストック遠征軍・オッシアの槍）どおり、見出しの『戦闘特性』『英雄特性』『神器』『奇蹟伝承』『顕現伝承』。group_texts の英雄特性・神器は『（**英雄**のみ）』。",
+  "unit_names はロスター・オプション欄（バトルプロフィール 2026年11月の名前と同じ）。Scourge of Aqshy の 2 件はバトルプロフィールの表から。",
+  "本文中の参照から: 『輸送ドロス』（Packdroth。ドロスの熟練使いの効果）を Auric Runeson on Magmadroth|Packdroth の ability_names に、『燃え盛る業焔』（Roaring Fyrestream。ヴァルカトリックスの吐息の効果、太字。スピアヘッド『岩漿召集軍』の武器表も同じ訳）を 3 種のマグマドロス騎乗ユニットの weapon_names に入れた。ウォースクロールの資料で別訳があれば親で判断。khazalite_holds 側には入れていない（担当外の資料と重なるため）。",
+  "Molten Infernoth の訳は本文で『溶岩の獄鬼』（太字）。lofnir_drothkeepers の unit_names 候補には無いので入れていない（khazalite_holds の _notes 参照）。"
+ ],
+ "unit_names": {
+  "Auric Runefather on Magmadroth": "オーリック・ルーンファーザー（マグマドロス騎乗）",
+  "Auric Runemaster": "オーリック・ルーンマスター",
+  "Auric Runesmiter": "オーリック・ルーンスマイター",
+  "Auric Runesmiter on Magmadroth": "オーリック・ルーンスマイター（マグマドロス騎乗）",
+  "Auric Runeson": "オーリック・ルーンサン",
+  "Auric Runeson on Magmadroth": "オーリック・ルーンサン（マグマドロス騎乗）",
+  "Ormyr and Ashtongue": "オーミル＆アッシュタン",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth": "アキュシーの禍事 オーリック・ルーンサン（マグマドロス騎乗）",
+  "Scourge of Aqshy: Vulkyn Flameseekers": "アキュシーの禍事 ヴルキン・フレイムシーカー",
+  "Scourge of Ghyran Auric Runeson on Magmadroth": "グューランの禍事 オーリック・ルーンサン（マグマドロス騎乗）",
+  "Vulkyn Flameseekers": "ヴルキン・フレイムシーカー"
+ },
+ "weapon_names": {
+  "Ancestral Weapons": "父祖の武器",
+  "Auric Runefather on Magmadroth|Latchkey Grandaxe": "掛金鍵の大斧",
+  "Auric Runefather on Magmadroth|Magmadroth’s Maw, Claws and Horns": "マグマドロスの顎、鉤爪、角",
+  "Auric Runefather on Magmadroth|Roaring Fyrestream": "燃え盛る業焔",
+  "Auric Runemaster|Brazier Staff": "火鉢の杖",
+  "Auric Runesmiter on Magmadroth|Roaring Fyrestream": "燃え盛る業焔",
+  "Auric Runesmiter|Latch-axe": "掛金の斧",
+  "Auric Runeson on Magmadroth|Roaring Fyrestream": "燃え盛る業焔",
+  "Latch-axe": "掛金の斧",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Ancestral Weapons": "アンセストラルウェポン",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Magmadroth’s Blazing Maw": "マグマドロスの燃え盛る顎",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Magmadroth’s Claws and Horns": "マグマドロスの鉤爪と角",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Roaring Fyrestream": "燃え盛る業焔",
+  "Scourge of Aqshy: Vulkyn Flameseekers|Emberteeth": "残り火の牙",
+  "Scourge of Aqshy: Vulkyn Flameseekers|Vulkyn Weapons": "ヴルキンの武器",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Ancestral Weapons": "父祖の武器",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Magmadroth’s Blazing Maw": "マグマドロスの灼け付く顎",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Magmadroth’s Claws and Horns": "マグマドロスの角と鉤爪",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Roaring Fyrestream": "燃え盛る業焔",
+  "Vulkyn Flameseekers|Kyndledroth's Fangs": "キンドルドロスの牙",
+  "Vulkyn Flameseekers|Vulkyn Weapons": "ヴルキンの武器"
+ },
+ "ability_names": {
+  "Auric Runefather on Magmadroth|Battle Damaged": "バトルダメージ",
+  "Auric Runefather on Magmadroth|Volcanic Blood": "猛炎の血",
+  "Auric Runemaster|High Priest of the Zharrgrim": "ザールグリムの至高神官",
+  "Auric Runemaster|Master of the Runes": "ルーンの匠",
+  "Auric Runesmiter on Magmadroth|Battle Damaged": "バトルダメージ",
+  "Auric Runeson on Magmadroth|Battle Damaged": "バトルダメージ",
+  "Auric Runeson on Magmadroth|Packdroth": "輸送ドロス",
+  "Blazing Vengeance": "燃え盛る復讐",
+  "Breath of Vulcatrix": "ヴァルカトリックスの吐息",
+  "Daring Tamers": "肝の据わった獣使い",
+  "Dauntless Assault": "揺るぎなき強襲",
+  "Drothmasters": "怪獣使い",
+  "Fearless Charge": "恐れ無き突進",
+  "Ferocious Heat": "猛火の怒り",
+  "Lashing Tail": "叩きつける尾",
+  "Mastery Over Monsters": "獣の師",
+  "Raging Inferno": "荒れ狂う業火",
+  "Raised Around Beasts": "獣蠢く地に育つ",
+  "Rearing Strike": "背面突進",
+  "Runic Empowerment": "ルーン強化",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Battle Damaged": "バトルダメージ",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Fire, Blood and Vengeance": "炎の血讐",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Seeing Red": "紅蓮の怒り",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Volcanic Blood": "猛炎の血",
+  "Scourge of Aqshy: Vulkyn Flameseekers|Fiery Disposition": "宿炎の気質",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Battle Damaged": "バトルダメージ",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Calamitous Crash": "崩壊撃",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Fire, Blood and Vengeance": "炎の血讐",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Volcanic Blood": "猛炎の血",
+  "Searing Claws": "灼熱の鉤爪",
+  "Skilled Drothwranglers": "ドロスの熟練使い",
+  "Summon Molten Infernoth": "溶岩の獄鬼の召喚",
+  "Volcanic Blood": "猛炎の血",
+  "Warrior-Kings": "ロッジの主"
+ },
+ "ability_texts": {
+  "Auric Runefather on Magmadroth|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**マグマドロスの顎、鉤爪、角**の【攻撃回数】は4になる。"
+  },
+  "Auric Runefather on Magmadroth|Raging Inferno": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットのセーブロールは-1の修正を受ける。",
+   "keywords": "蹂躙"
+  },
+  "Auric Runefather on Magmadroth|Volcanic Blood": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Auric Runemaster|High Priest of the Zharrgrim": {
+   "timing": "パッシブ",
+   "effect": "このユニットによって祈願された奇蹟が成就した際、そのアビリティが解決された直後に、ダイスを1個ロールする。ロール結果が5+であれば、このユニットは**宿怨マーク**を1個得る。"
+  },
+  "Auric Runemaster|Master of the Runes": {
+   "timing": "自軍側ヒーローフェイズ",
+   "effect": "このユニットから**宿怨マーク**を1個取り除く。そうした場合、そのターン中、このユニットの12mv以内に全体が入っており、かつ視認状態である味方**グリムドロン・歩兵**・ユニットはセーブロールに+1の修正を受ける。"
+  },
+  "Auric Runesmiter on Magmadroth|Lashing Tail": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "2D6をロールする。ロール結果が選択された敵ユニットの兵数以下である場合、選択された敵ユニットはD3+3ポイントの致命的ダメージを受ける。",
+   "keywords": "蹂躙"
+  },
+  "Auric Runesmiter on Magmadroth|Volcanic Blood": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Auric Runeson on Magmadroth|Volcanic Blood": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Blazing Vengeance": {
+   "timing": "パッシブ",
+   "effect": "味方**ドロスキーパー・大型獣**が撃破されるごとに、その6mv以内に一部でも入っている各味方**ドロスキーパー**・ユニットにそれぞれ**宿怨マーク**を1個与える。"
+  },
+  "Breath of Vulcatrix": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この奇蹟を祈願する際に、味方**ドロス番・神官**を1体選択する。この味方神官から12mv以内に全体が入っており、かつその神官から視認状態である味方**ドロス番・大型獣**・ユニットを1個選択し、D6の祈願ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、選択された味方ユニットの**燃え盛る業焔**の【ダメージ量】はD3ではなく3になる。",
+   "keywords": "奇蹟、無制限"
+  },
+  "Daring Tamers": {
+   "timing": "パッシブ",
+   "effect": "敵**大型獣**が2個以上の味方**ドロス番・ヴルキン・フレイムシーカー**・ユニットの近接範囲内に一部でも入っている間、その敵**大型獣**は『**後手効果**』を得る。"
+  },
+  "Ferocious Heat": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このアビリティを使用する際に、このターン中に『**蹂躙**』アビリティを使用していない味方**ドロス番・大型獣**を1個選択する。その後、選択された味方**大型獣**と近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットは加護ロールをすることができない。",
+   "keywords": "蹂躙"
+  },
+  "Mastery Over Monsters": {
+   "timing": "パッシブ",
+   "effect": "このユニットが作戦目標を争奪中である間、その作戦目標を争奪中している各敵**大型獣**の確保スコアの上限値は2である。"
+  },
+  "Raised Around Beasts": {
+   "timing": "パッシブ",
+   "effect": "**大型獣**ではない味方ユニットがこのユニットの9mv以内に全体が入っている間、その味方ユニットが装備している近接武器は**対大型獣（+1貫通値）**を得る。"
+  },
+  "Rearing Strike": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このアビリティを使用する際に、このターン中に『**蹂躙**』アビリティを使用していない味方**ドロス番・大型獣**を1個選択する。その後、選択された味方**大型獣**と近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "ダイスを2個ロールする。選択された敵ユニットが**大型獣**である場合、各ロールは+2の修正を受ける。ロール結果で5+が出るたびに、その敵ユニットはD3ポイントの致命的ダメージを受ける。",
+   "keywords": "蹂躙"
+  },
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**マグマドロスの鉤爪と角**の【攻撃回数】は4になる。"
+  },
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Fire, Blood and Vengeance": {
+   "timing": "初期配置フェイズ",
+   "declare": "戦場に配置されている味方**オーリック・ルーンファーザー（マグマドロス騎乗）**を1体選択する。",
+   "effect": "選択された味方ユニットが近接戦闘中である、あるいは損傷状態である、全滅している場合、このユニットが装備している近接武器の【ダメージ量】は+1の修正を受ける（随行者武器を含む）。"
+  },
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Seeing Red": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "**憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）その後、以下の効果から1つを選択する：\n**怒りの矛先：**このターン中、このユニットが装備している**随行者**近接武器は【攻撃回数】に+1の修正を受ける。\n**憤激の解放：**自軍側の**憤激レベル**に等しい数のダイスをロールする。効果：ロール結果で4+が出るたび、このユニットを**回復（1）**する。\n**憤怒の盾：**このターン中、このユニットは**加護（5+）**を持つ。",
+   "keywords": "蹂躙"
+  },
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Volcanic Blood": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象とするメレーアタックのセーブロールで修正前の出目1が出るたびに、その『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Scourge of Aqshy: Vulkyn Flameseekers|Fiery Disposition": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "effect": "**憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）その後、次の自軍側ターン開始時まで、以下の効果から1個選び適用する。Xは自軍側の**憤激レベル**に等しい。\n**ウル＝サラマンダーの活力：**このユニットは【移動力】に+Xmvの修正を受ける。\n**燃え立つ決意：**このユニットは確保スコアに+Xの修正を受ける。\n**燃え立つ怒り：**このユニットは**残り火の牙**の【攻撃回数】に+Xの修正を受ける。"
+  },
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**マグマドロスの角と鉤爪**の【攻撃回数】は4になる。"
+  },
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Calamitous Crash": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、選択された敵ユニット内にいる各兵に対して、それぞれダイスを1個ロールする。ロール結果で5+が出るたびに、その敵ユニットは1ポイントの致命的ダメージを受ける。",
+   "keywords": "蹂躙"
+  },
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Fire, Blood and Vengeance": {
+   "timing": "バトル中1回限り、初期配置フェイズ",
+   "declare": "戦場に配置されている味方**オーリック・ルーンファーザー（マグマドロス騎乗）**を1体選択する。",
+   "effect": "選択された味方ユニットが近接戦闘中である、あるいは損傷状態である、全滅している場合、このユニットが装備している近接武器の【ダメージ量】は+1の修正を受ける（随行者武器を含む）。"
+  },
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Volcanic Blood": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Searing Claws": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このアビリティを使用する際に、このターン中に『**蹂躙**』アビリティを使用していない味方**ドロス番・大型獣**を1個選択する。その後、選択された味方**大型獣**と近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットを攻撃対象とする近接武器の【貫通値】は+1の修正を受ける。",
+   "keywords": "蹂躙"
+  },
+  "Skilled Drothwranglers": {
+   "effect": "味方**オーリック・ルーンサン（マグマドロス騎乗）**ユニットの『輸送ドロス』アビリティのタイミングは「各ターンにつき1回（アーミー）、リアクション：このユニットは自軍側移動フェイズ中に**移動**アビリティを宣言」の代わりに、「リアクション：このユニットは**突撃**ではない**移動**アビリティを宣言」である。"
+  },
+  "Summon Molten Infernoth": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "戦場に味方の**溶岩の獄鬼**が1個も存在しない場合、この奇蹟を祈願する際に味方**ドロス番・神官**・を1体選択し、D6の祈願ロールをする。",
+   "effect": "祈願者の12mv以内に全体が入るように、かつ祈願者から視認状態であり、なおかつあらゆる敵ユニットから9mvより遠く離れた位置に**溶岩の獄鬼**を1個配置する。",
+   "keywords": "奇蹟、召喚"
+  }
+ },
+ "keyword_names": {
+  "Champion (1/9)": "豪傑（1/9）",
+  "Duardin": "ドゥアーディン",
+  "Fyreslayers": "ファイアスレイヤー",
+  "Grimmdron": "グリムドロン",
+  "Hero": "英雄",
+  "Infantry": "歩兵",
+  "Khazalite Holds": "カザライト・ホールド",
+  "Magmadroth": "マグマドロス",
+  "Monster": "大型獣",
+  "Order": "秩序の大同盟",
+  "Priest (1)": "神官（1）",
+  "Ward (6+)": "加護（6+）"
+ },
+ "weapon_ability_names": {
+  "Anti-INFANTRY (+1 Rend)": "対歩兵（+1貫通値）",
+  "Anti-MONSTER (+1 Rend)": "対大型獣（+1貫通値）",
+  "Companion": "随行者",
+  "Crit (Mortal)": "クリティカル（致命的）"
+ },
+ "wargear_option_texts": {
+  "Scourge of Aqshy: Vulkyn Flameseekers": "このユニット内にいる各兵は『ヴルキンの武器』を装備している。\n• 1/9の兵はキンドルドロスであり、その武器を「残り火の牙」に置き換える。\n• 豪傑はヴルキン・ルーンファーザーであり、その武器を置き換えることはできない。"
+ },
+ "group_names": {
+  "Lofnir Drothkeepers Artefact of Power": "神器",
+  "Lofnir Drothkeepers Battle Traits": "戦闘特性",
+  "Lofnir Drothkeepers Heroic Trait": "英雄特性",
+  "Lofnir Drothkeepers Manifestation Lore": "顕現伝承",
+  "Lofnir Drothkeepers Prayer Lore": "奇蹟伝承"
+ },
+ "group_texts": {
+  "Lofnir Drothkeepers Artefact of Power": "（**英雄**のみ）",
+  "Lofnir Drothkeepers Heroic Trait": "（**英雄**のみ）"
+ },
+ "faction_name": "ロフニールのドロス番"
+}

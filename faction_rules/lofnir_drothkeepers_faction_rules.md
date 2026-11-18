@@ -1,59 +1,60 @@
-# Lofnir Drothkeepers ファクションルール
+# ロフニールのドロス番(Lofnir Drothkeepers) ファクションルール
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.39.0 build 89 / dump.json data_version 488 / 抽出 2026-10-29
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.40.0 build 91 / dump.json data_version 499 / 抽出 2026-11-19
 
 
 ## 戦闘特性
 
 
-### Lofnir Drothkeepers Battle Traits（出典: Army of Renown: Lofnir Drothkeepers）
+### 戦闘特性(Lofnir Drothkeepers Battle Traits)（出典: Army of Renown: Lofnir Drothkeepers）
 
-- **Rearing Strike**（Once Per Turn (Army), Any Combat Phase）
-  - 宣言: Pick a friendly **DROTHKEEPERS MONSTER** that has not used a **RAMPAGE** ability this turn to use this ability, then pick an enemy unit in combat with it to be the target.
-  - 効果: Roll 2 dice. Add 2 to each roll if the target is a **MONSTER**. For each 5+, inflict D3 mortal damage on the target.
-- **Daring Tamers**（Passive）
-  - 効果: Enemy **MONSTERS** have **STRIKE-LAST** while they are in combat with 2 or more friendly **DROTHKEEPERS Vulkyn Flameseekers** units.
-- **Skilled Drothwranglers**（Reaction: You declared a non-CHARGE MOVE ability for a friendly MAGMADROTH）
-  - 使用者: The **MAGMADROTH** using that **MOVE** ability.
-  - 効果: Pick a friendly **Vulkyn Flameseekers** unit and/or a friendly **DROTHKEEPERS INFANTRY HERO** that are not in combat and are wholly within 6" of the **MAGMADROTH** to be the targets. Units that have **hitched a lift** this turn (see below) cannot be targets. Remove the targets from the battlefield. After the **MAGMADROTH** ends its move, you must set up each target on the battlefield, wholly within 6" of the **MAGMADROTH** and not in combat. The targets have **hitched a lift**. Units that **hitched a lift** cannot use **CHARGE** abilities in the same turn.
-- **Searing Claws**（Once Per Turn (Army), Any Combat Phase）
-  - 宣言: Pick a friendly **DROTHKEEPERS MONSTER** that has not used a **RAMPAGE** ability this turn to use this ability, then pick an enemy unit in combat with it to be the target.
-  - 効果: Roll a dice. On a 3+, for the rest of the turn, add 1 to the Rend characteristic of melee weapons used for attacks that target that enemy unit.
-- **Ferocious Heat**（Once Per Turn (Army), Any Combat Phase）
-  - 宣言: Pick a friendly **DROTHKEEPERS MONSTER** that has not used a **RAMPAGE** ability this turn to use this ability, then pick an enemy unit in combat with it to be the target.
-  - 効果: Roll a dice. On a 3+, ward rolls cannot be made for the target for the rest of the turn.
+- **背面突進(Rearing Strike)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 宣言: このアビリティを使用する際に、このターン中に『**蹂躙**』アビリティを使用していない味方**ドロス番・大型獣**を1個選択する。その後、選択された味方**大型獣**と近接戦闘中である敵ユニットを1個選択する。
+  - 効果: ダイスを2個ロールする。選択された敵ユニットが**大型獣**である場合、各ロールは+2の修正を受ける。ロール結果で5+が出るたびに、その敵ユニットはD3ポイントの致命的ダメージを受ける。
+- **肝の据わった獣使い(Daring Tamers)**（パッシブ）
+  - 効果: 敵**大型獣**が2個以上の味方**ドロス番・ヴルキン・フレイムシーカー**・ユニットの近接範囲内に一部でも入っている間、その敵**大型獣**は『**後手効果**』を得る。
+- **ドロスの熟練使い(Skilled Drothwranglers)**（Reaction: You declared a non-CHARGE MOVE ability for a friendly MAGMADROTH）
+  - 効果: 味方**オーリック・ルーンサン（マグマドロス騎乗）**ユニットの『輸送ドロス』アビリティのタイミングは「各ターンにつき1回（アーミー）、リアクション：このユニットは自軍側移動フェイズ中に**移動**アビリティを宣言」の代わりに、「リアクション：このユニットは**突撃**ではない**移動**アビリティを宣言」である。
+- **灼熱の鉤爪(Searing Claws)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 宣言: このアビリティを使用する際に、このターン中に『**蹂躙**』アビリティを使用していない味方**ドロス番・大型獣**を1個選択する。その後、選択された味方**大型獣**と近接戦闘中である敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットを攻撃対象とする近接武器の【貫通値】は+1の修正を受ける。
+- **猛火の怒り(Ferocious Heat)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 宣言: このアビリティを使用する際に、このターン中に『**蹂躙**』アビリティを使用していない味方**ドロス番・大型獣**を1個選択する。その後、選択された味方**大型獣**と近接戦闘中である敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットは加護ロールをすることができない。
+- **燃え盛る復讐(Blazing Vengeance)**（パッシブ）
+  - 効果: 味方**~~ドロスキーパー~~==ドロス番==・大型獣**が撃破されるごとに、その6mv以内に一部でも入っている各味方**ドロスキーパー**・ユニットにそれぞれ**宿怨マーク**を1個与える。
 
 ## 英雄特性
 
 
-### Lofnir Drothkeepers Heroic Trait（出典: Army of Renown: Lofnir Drothkeepers）
+### 英雄特性(Lofnir Drothkeepers Heroic Trait)（出典: Army of Renown: Lofnir Drothkeepers）
 
-**HERO** only
+（**英雄**のみ）
 
-- **Raised Around Beasts**（Passive）
-  - 効果: The melee weapons of friendly non-**MONSTER** units have **Anti-MONSTER (+1 Rend)** while they are wholly within 9" of this unit.
+- **獣蠢く地に育つ(Raised Around Beasts)**（パッシブ）
+  - 効果: **大型獣**ではない味方ユニットがこのユニットの9mv以内に全体が入っている間、その味方ユニットが装備している近接武器は**対大型獣（+1貫通値）**を得る。
 
 ## 神器
 
 
-### Lofnir Drothkeepers Artefact of Power（出典: Army of Renown: Lofnir Drothkeepers）
+### 神器(Lofnir Drothkeepers Artefact of Power)（出典: Army of Renown: Lofnir Drothkeepers）
 
-**HERO** only
+（**英雄**のみ）
 
-- **Mastery Over Monsters**（Passive）
-  - 効果: While this unit is contesting an objective, enemy **MONSTERS** contesting that objective each have a maximum control score of 2.
+- **獣の師(Mastery Over Monsters)**（パッシブ）
+  - 効果: このユニットが作戦目標を争奪中である間、その作戦目標を争奪~~中~~している各敵**大型獣**の確保スコアの上限値は2である。
 
 ## 伝承（呪文・奇蹟・顕現）
 
 
-### Lofnir Drothkeepers Manifestation Lore
+### 顕現伝承(Lofnir Drothkeepers Manifestation Lore)
 
-- **Summon Molten Infernoth**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: If there is not a friendly **Molten Infernoth** on the battlefield, pick a friendly **DROTHKEEPERS PRIEST** to chant this prayer, then make a chanting roll of D6.
-  - 効果: Set up a **Molten Infernoth** wholly within 12" of the chanter, visible to them and more than 9" from all enemy units.
+- **溶岩の獄鬼の召喚(Summon Molten Infernoth)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: 戦場に味方の**溶岩の獄鬼**が1個も存在しない場合、この奇蹟を祈願する際に味方**ドロス番・神官**~~・~~を1体選択し、D6の祈願ロールをする。
+  - 効果: 祈願者の12mv以内に全体が入るように、かつ祈願者から視認状態であり、なおかつあらゆる敵ユニットから9mvより遠く離れた位置に**溶岩の獄鬼**を1個配置する。
 
-### Lofnir Drothkeepers Prayer Lore
+### 奇蹟伝承(Lofnir Drothkeepers Prayer Lore)
 
-- **Breath of Vulcatrix**（Your Hero Phase / 詠唱/詠誦値 4）
-  - 宣言: Pick a friendly **DROTHKEEPERS PRIEST** to chant this prayer, pick a visible friendly **DROTHKEEPERS MAGMADROTH** wholly within 12" of them to be a target, then make a chanting roll of D6.
-  - 効果: Until the start of your next turn, the Damage characteristic of the target’s **Roaring Fyrestream** is 3 instead of D3.
+- **ヴァルカトリックスの吐息(Breath of Vulcatrix)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 4）
+  - 宣言: この奇蹟を祈願する際に、味方**ドロス番・神官**を1体選択する。この味方神官から12mv以内に全体が入っており、かつその神官から視認状態である味方**ドロス番・大型獣**・ユニットを1個選択し、D6の祈願ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、選択された味方ユニットの**燃え盛る業焔**の【ダメージ量】はD3ではなく3になる。

@@ -2,20 +2,20 @@
  "meta": {
   "slug": "spearhead_saga_axeband",
   "kind": "spearhead",
-  "faction_en": "Fyreslayers",
-  "faction_ja": null,
-  "faction_slug": "fyreslayers",
+  "faction_en": "Khazalite Holds",
+  "faction_ja": "カザライト・ホールド",
+  "faction_slug": "khazalite_holds",
   "alliance": null,
   "title_en": "Saga Axeband",
-  "title_ja": null,
-  "data_version": 488
+  "title_ja": "語り継がれし斧団",
+  "data_version": 499
  },
  "units": [
   {
    "id": "42cd3c16-3dc5-4c4a-905b-178600c128f6",
    "name": {
-    "ja": "Battlesmith",
-    "en": "",
+    "ja": "バトルスミス",
+    "en": "Battlesmith",
     "own": false,
     "fix": [],
     "note": []
@@ -53,8 +53,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Ancestral Battle-axe",
-     "en": "",
+     "ja": "先祖伝来の戦斧",
+     "en": "Ancestral Battle-axe",
      "own": false,
      "fix": [],
      "note": [],
@@ -72,28 +72,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Icon of Grimnir",
-      "en": "",
+      "ja": "グリムニルの戦旗",
+      "en": "Icon of Grimnir",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Add 1 to save rolls for friendly units while they are wholly within 12\" of this unit."
+       "ja": "このユニットの12mv以内に全体が入っている間、味方ユニットのセーブロールは+1の修正を受ける。",
+       "en": "Add 1 to save rolls for friendly units while they are wholly within 12\" of this unit.",
+       "fix": []
       }
      },
      "own": false,
@@ -105,28 +109,32 @@
     },
     {
      "name": {
-      "ja": "Plant the Icon",
-      "en": "",
+      "ja": "戦旗を地に突き立てよ",
+      "en": "Plant the Icon",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Battle, Any Hero Phase"
+       "ja": "バトル中1回限り、任意のヒーローフェイズ",
+       "en": "Once Per Battle, Any Hero Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "For the rest of the turn, friendly units have **WARD (5+)** while they are wholly within 12\" of this unit."
+       "ja": "そのターン中、このユニットの12mv以内に全体が入っている間、味方ユニットは**加護（5+）**を持つ。",
+       "en": "For the rest of the turn, friendly units have **WARD (5+)** while they are wholly within 12\" of this unit.",
+       "fix": []
       }
      },
      "own": false,
@@ -140,16 +148,16 @@
    "terrain": [],
    "keywords": [
     [
-     "Hero",
-     ""
+     "英雄",
+     "Hero"
     ],
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ]
    ],
    "keyword_fix": {},
@@ -160,8 +168,8 @@
   {
    "id": "c0240ef8-5cb0-40ce-9343-cced928200c7",
    "name": {
-    "ja": "Hearthguard Berzerkers",
-    "en": "",
+    "ja": "ハースガード・バーザーカー",
+    "en": "Hearthguard Berzerkers",
     "own": false,
     "fix": [],
     "note": []
@@ -199,8 +207,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Flamestrike Poleaxe",
-     "en": "",
+     "ja": "焔撃の矛槍",
+     "en": "Flamestrike Poleaxe",
      "own": false,
      "fix": [],
      "note": [],
@@ -211,7 +219,9 @@
       "1",
       "2"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "クリティカル（致命的）"
+     ],
      "abil_en": [
       "Crit (Mortal)"
      ]
@@ -220,28 +230,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Duty Unto Death",
-      "en": "",
+      "ja": "殉死の義務",
+      "en": "Duty Unto Death",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "While your general is wholly within this unit’s combat range, both this unit and your general have **WARD (5+)**."
+       "ja": "自軍側ジェネラルがこのユニットの近接範囲内に全体が入っている間、このユニットと自軍側ジェネラルは**加護（5+）**を持つ。",
+       "en": "While your general is wholly within this unit’s combat range, both this unit and your general have **WARD (5+)**.",
+       "fix": []
       }
      },
      "own": false,
@@ -255,12 +269,12 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ]
    ],
    "keyword_fix": {},
@@ -271,8 +285,8 @@
   {
    "id": "c13d5f3e-fa69-4cda-a99a-2b1a6058ef85",
    "name": {
-    "ja": "Vulkite Berzerkers",
-    "en": "",
+    "ja": "ヴァルカイト・バーザーカー",
+    "en": "Vulkite Berzerkers",
     "own": false,
     "fix": [],
     "note": []
@@ -310,8 +324,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Fyresteel Handaxes",
-     "en": "",
+     "ja": "焔鋼の手斧",
+     "en": "Fyresteel Handaxes",
      "own": false,
      "fix": [],
      "note": [],
@@ -322,7 +336,9 @@
       "1",
       "1"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "対突撃（+1貫通値）"
+     ],
      "abil_en": [
       "Anti-charge (+1 Rend)"
      ]
@@ -331,28 +347,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Whirlwind of Destruction",
-      "en": "",
+      "ja": "破滅の疾風",
+      "en": "Whirlwind of Destruction",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Add 1 to the Attacks characteristic of this unit’s melee weapons if it charged in the same turn."
+       "ja": "現在のターン中にこのユニットが突撃を実行している場合、このユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。",
+       "en": "Add 1 to the Attacks characteristic of this unit’s melee weapons if it charged in the same turn.",
+       "fix": []
       }
      },
      "own": false,
@@ -366,12 +386,12 @@
    "terrain": [],
    "keywords": [
     [
-     "Infantry",
-     ""
+     "歩兵",
+     "Infantry"
     ],
     [
-     "Ward (6+)",
-     ""
+     "加護（6+）",
+     "Ward (6+)"
     ]
    ],
    "keyword_fix": {},

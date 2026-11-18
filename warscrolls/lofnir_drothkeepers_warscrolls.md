@@ -1,13 +1,13 @@
-# Lofnir Drothkeepers ウォースクロール一覧
+# ロフニールのドロス番(Lofnir Drothkeepers) ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.39.0 build 89 / dump.json data_version 488 / 抽出 2026-10-29
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.40.0 build 91 / dump.json data_version 499 / 抽出 2026-11-19
 
-全10 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
+全11 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
 
 ---
 
-## Auric Runefather on Magmadroth
+## オーリック・ルーンファーザー（マグマドロス騎乗）(Auric Runefather on Magmadroth)
 
 **ポイント:** 320pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
@@ -23,41 +23,40 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Roaring Fyrestream | 10" | 4 | 3+ | 3+ | 1 | D3 | Anti-INFANTRY (+1 Rend), Companion |
+| 燃え盛る業焔(Roaring Fyrestream) | 10" | 4 | 3+ | 3+ | 1 | D3 | 対歩兵（+1貫通値）(Anti-INFANTRY (+1 Rend)), 随行者(Companion) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Latchkey Grandaxe | 4 | 3+ | 3+ | 2 | 3 | - |
-| Magmadroth’s Blazing Maw | 2 | 4+ | 2+ | 2 | 3 | Companion |
-| Magmadroth’s Claws and Horns（戦傷時） | 6 | 4+ | 2+ | 1 | 2 | Companion |
+| 掛金鍵の大斧(Latchkey Grandaxe) | 4 | 3+ | 3+ | 2 | 3 | - |
+| マグマドロスの顎、鉤爪、角(Magmadroth’s Maw, Claws and Horns)（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Volcanic Blood**（Passive）
-  - 効果: If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.
-- **Battle Damaged**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Claws and Horns** is 4.
-- **Raging Inferno**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
-  - 宣言: Pick an enemy unit in combat with this unit to be the target.
-  - 効果: Roll a dice. On a 3+, subtract 1 from save rolls for the target for the rest of the turn.
-- **Warrior-Kings**（Once Per Battle (Army), Your Combat Phase）
-  - 効果: For the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **FYRESLAYERS** units while they are wholly within 12" of this unit.
+- **猛炎の血(Volcanic Blood)**（パッシブ）
+  - 効果: このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。
+- **バトルダメージ(Battle Damaged)**（パッシブ）
+  - 効果: このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**マグマドロスの顎、鉤爪、角**の【攻撃回数】は4になる。
+- **荒れ狂う業火(Raging Inferno)**（各ターンにつき1回（アーミー）、任意の近接フェイズ） ［蹂躙］
+  - 宣言: このユニットと近接戦闘中である敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットのセーブロールは-1の修正を受ける。
+- **ロッジの主(Warrior-Kings)**（Once Per Battle (Army), Your Combat Phase）
+  - 効果: For the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **GRIMMDRON** units while they are wholly within 12" of this unit. If this unit has any **grudge marks**, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by the following visible friendly units while they are wholly within 12" of this unit instead: • **GRIMMDRON** units • **KROMDRON INFANTRY** units
 
 **連隊オプション:**
 
 - 0-1 *Grimnir’s Chosen*
 - 0-1 *Vulcatrix’s Chosen*
-- Any **FYRESLAYERS**
+- Any **KHAZALITE HOLDS**
 
-**キーワード:** Warmaster, Hero, Monster, Ward (6+), Order, Fyreslayers, Duardin, Magmadroth
+**キーワード:** 英雄、大型獣、加護（6+）、秩序の大同盟、カザライト・ホールド、ドゥアーディン、グリムドロン（Hero, Monster, Ward (6+), Order, Khazalite Holds, Duardin, Grimmdron）
 
 **ノート:** This **HERO** can join an eligible regiment as *Vulcatrix’s Chosen*.
 
 ---
 
-## Auric Runemaster
+## オーリック・ルーンマスター(Auric Runemaster)
 
 **ポイント:** 160pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -73,27 +72,26 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Brazier Staff | 3 | 3+ | 3+ | 1 | 2 | - |
+| 火鉢の杖(Brazier Staff) | 3 | 3+ | 3+ | 1 | 2 | - |
 
 **アビリティ:**
 
-- **High Priest of the Zharrgrim**（Passive）
-  - 効果: Each time a **PRAYER** chanted by this unit is answered, this unit gains a **magmic power token**.
-- **Master of the Runes**（Reaction: You declared an UR-GOLD RUNE ability）
-  - 効果: Remove 3 of this unit’s **magmic power tokens**. If you do so, apply the effect below that corresponds to the **UR‑GOLD RUNE** ability that was used: ***Rune of Fury:*** For the rest of the battle round, add 1 to wound rolls for combat attacks made by friendly **FYRESLAYERS** units while they have **STRIKE-FIRST**. ***Rune of Fiery Determination:*** Add 1 to save rolls for friendly **FYRESLAYERS** units for the rest of the battle round. ***Rune of Relentless Zeal:*** Add 1 to run rolls and charge rolls for friendly **FYRESLAYERS** units for the rest of the battle round. ***Rune of Searing Heat:*** Add 1 to the Rend characteristic of melee weapons used by friendly **FYRESLAYERS** units for the rest of the battle round. ***Rune of Farsight:*** Increase the range of the ‘Rune of Farsight’ ability to 16".
+- **ザールグリムの至高神官(High Priest of the Zharrgrim)**（パッシブ）
+  - 効果: このユニットによって祈願された奇蹟が成就した際、そのアビリティが解決された直後に、ダイスを1個ロールする。ロール結果が5+であれば、このユニットは**宿怨マーク**を1個得る。
+- **ルーンの匠(Master of the Runes)**（自軍側ヒーローフェイズ）
+  - 効果: このユニットから**宿怨マーク**を1個取り除く。そうした場合、そのターン中、このユニットの12mv以内に全体が入っており、かつ視認状態である味方**グリムドロン・歩兵**・ユニットはセーブロールに+1の修正を受ける。
 
 **連隊オプション:**
 
-- Any **FYRESLAYERS**
-- 0-1 *Grimnir’s Chosen*
+- Any **KHAZALITE HOLDS**
 
-**キーワード:** Hero, Priest (2), Infantry, Ward (6+), Order, Fyreslayers, Duardin
+**キーワード:** 英雄、神官（1）、歩兵、加護（6+）、秩序の大同盟、カザライト・ホールド、ドゥアーディン、グリムドロン（Hero, Priest (1), Infantry, Ward (6+), Order, Khazalite Holds, Duardin, Grimmdron）
 
-**ノート:** This **HERO** can join an eligible regiment as *Grimnir’s Chosen*.
+**ノート:** This **HERO** can join an eligible regiment as *Grimnir’s Chosen*. This unit will move to Warhammer Legends on 1 June 2027.
 
 ---
 
-## Auric Runesmiter
+## オーリック・ルーンスマイター(Auric Runesmiter)
 
 **ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -109,30 +107,29 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Latch-axe | 4 | 3+ | 3+ | 1 | 2 | - |
+| 掛金の斧(Latch-axe) | 4 | 3+ | 3+ | 1 | 2 | - |
 
 **アビリティ:**
 
-- **Magmic Tunnelling**（Deployment Phase） ［Deploy］
-  - 宣言: Pick this unit and any number of other units in its regiment if none of those units have been deployed to be the targets.
-  - 効果: Set up those units in reserve **underground**. They have now been deployed.
-- **Emergence**（Your Hero Phase）
-  - 宣言: Pick this unit if it is **underground**.
-  - 効果: Set up this unit anywhere on the battlefield more than 9" from all enemy units. Then, set up the other units that were set up **underground** with it (if any) wholly within 6" of this unit and more than 9" from all enemy units.
+- **Righteous Wrath**（Passive）
+  - 効果: Add 1 to chanting rolls for this unit while it has any **grudge marks**.
+- **Magmic Passage**（Once Per Turn (Army), Your Movement Phase）
+  - 宣言: Pick a visible friendly **GRIMMDRON INFANTRY** unit wholly within 12" of this unit to be the target.
+  - 効果: Roll a dice. On a 3+, add 2" to the target’s Move characteristic until the start of your next turn.
 
 **連隊オプション:**
 
-- Any **FYRESLAYERS**
+- Any **KHAZALITE HOLDS**
 
-**キーワード:** Hero, Priest (1), Infantry, Ward (6+), Order, Fyreslayers, Duardin
+**キーワード:** 英雄、神官（1）、歩兵、加護（6+）、秩序の大同盟、カザライト・ホールド、ドゥアーディン、グリムドロン（Hero, Priest (1), Infantry, Ward (6+), Order, Khazalite Holds, Duardin, Grimmdron）
 
 **ノート:** This **HERO** can join an eligible regiment as *Grimnir’s Chosen*.
 
 ---
 
-## Auric Runesmiter on Magmadroth
+## オーリック・ルーンスマイター（マグマドロス騎乗）(Auric Runesmiter on Magmadroth)
 
-**ポイント:** 280pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 290pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -146,42 +143,41 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Roaring Fyrestream | 10" | 4 | 3+ | 3+ | 1 | D3 | Anti-INFANTRY (+1 Rend), Companion |
+| 燃え盛る業焔(Roaring Fyrestream) | 10" | 4 | 3+ | 3+ | 1 | D3 | 対歩兵（+1貫通値）(Anti-INFANTRY (+1 Rend)), 随行者(Companion) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Latch-axe | 4 | 3+ | 3+ | 1 | 2 | - |
-| Magmadroth’s Blazing Maw | 2 | 4+ | 2+ | 2 | 3 | Companion |
-| Magmadroth’s Claws and Horns（戦傷時） | 6 | 4+ | 2+ | 1 | 2 | Companion |
+| 掛金の斧(Latch-axe) | 4 | 3+ | 3+ | 1 | 2 | - |
+| Magmadroth’s Maw, Claws and Horns（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Lashing Tail**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
-  - 宣言: Pick an enemy unit in combat with this unit to be the target.
-  - 効果: Roll 2D6. If the roll is equal to or less than the number of models in the target unit, inflict D3+3 mortal damage on the target.
-- **Runic Empowerment**（Your Hero Phase）
-  - 宣言: Pick a friendly **FYRESLAYERS** unit wholly within 12" of this unit to be the target.
-  - 効果: Roll a dice. On a 3+, add 1 to wound rolls for the target’s attacks for the rest of the turn.
-- **Battle Damaged**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Claws and Horns** is 4.
-- **Volcanic Blood**（Passive）
-  - 効果: If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.
+- **バトルダメージ(Battle Damaged)**（Passive）
+  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Maw, Claws and Horns** is 4.
+- **猛炎の血(Volcanic Blood)**（パッシブ）
+  - 効果: このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。
+- **ルーン強化(Runic Empowerment)**（Once Per Turn (Army), Your Hero Phase）
+  - 宣言: Pick a visible friendly **GRIMMDRON** unit wholly within 12" of this unit to be the target. If this unit has any **grudge marks**, pick a visible friendly **KHAZALITE HOLDS** unit wholly within 12" of this unit to be the target instead.
+  - 効果: Roll a dice. On a 3+, add 1 to wound rolls for the target’s combat attacks for the rest of the turn.
+- **叩きつける尾(Lashing Tail)**（各ターンにつき1回（アーミー）、任意の近接フェイズ） ［蹂躙］
+  - 宣言: このユニットと近接戦闘中である敵ユニットを1個選択する。
+  - 効果: 2D6をロールする。ロール結果が選択された敵ユニットの兵数以下である場合、選択された敵ユニットはD3+3ポイントの致命的ダメージを受ける。
 
 **連隊オプション:**
 
-- Any **FYRESLAYERS**
+- Any **KHAZALITE HOLDS**
 
-**キーワード:** Hero, Monster, Priest (1), Ward (6+), Order, Fyreslayers, Duardin, Magmadroth
+**キーワード:** 英雄、大型獣、神官（1）、加護（6+）、秩序の大同盟、カザライト・ホールド、ドゥアーディン、グリムドロン（Hero, Monster, Priest (1), Ward (6+), Order, Khazalite Holds, Duardin, Grimmdron）
 
 **ノート:** This **HERO** can join an eligible regiment as *Vulcatrix's Chosen*.
 
 ---
 
-## Auric Runeson
+## オーリック・ルーンサン(Auric Runeson)
 
-**ポイント:** 90pt / **モデル数:** 1 / **ベースサイズ:** 32mm
+**ポイント:** 100pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
 **増援不可**
 
@@ -195,29 +191,28 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Ancestral Weapons | 5 | 3+ | 3+ | 1 | 2 | Anti-MONSTER (+1 Rend) |
+| 父祖の武器(Ancestral Weapons) | 5 | 3+ | 3+ | 1 | 2 | 対大型獣（+1貫通値）(Anti-MONSTER (+1 Rend)) |
 
 **アビリティ:**
 
-- **Dauntless Assault**（Reaction: You declared a FIGHT ability for this unit）
-  - 効果: Pick a friendly non-**HERO FYRESLAYERS INFANTRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved.
-- **Fearless Charge**（Passive）
-  - 効果: If this unit charged this turn, for the rest of the turn, add 1 to charge rolls for friendly **FYRESLAYERS INFANTRY** units while they are wholly within 18" of this unit.
+- **恐れ無き突進(Fearless Charge)**（Passive）
+  - 効果: Add 1 to charge rolls for visible friendly **KHAZALITE HOLDS INFANTRY** units while they are wholly within 12" of this unit. While this unit has any **grudge marks**, add 2 to charge rolls for visible friendly **KHAZALITE HOLDS INFANTRY** units while they are wholly within 12" of this unit instead.
+- **揺るぎなき強襲(Dauntless Assault)**（Reaction: You declared a **FIGHT** ability for this unit or a non-**HERO GRIMMDRON INFANTRY** unit within 3" of this unit）
+  - 効果: If you declared a **FIGHT** ability for this unit, pick a friendly non-**HERO GRIMMDRON INFANTRY** unit that has not used a **FIGHT** ability this turn, is within this unit’s combat range and is visible to this unit to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn. If you declared a **FIGHT** ability for a friendly non-**HERO GRIMMDRON INFANTRY** unit, if this unit has not used a **FIGHT** ability this turn, it can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by the friendly non-**HERO GRIMMDRON INFANTRY** unit has been resolved. If it is picked to do so, add 1 to hit rolls for this unit’s attacks for the rest of the turn. **Designer’s Note**: *This ability lets another friendly unit fight immediately after this unit or lets this unit fight immediately after that other friendly unit. Add 1 to hit rolls for whichever of those two units fights after the first.*
 
 **連隊オプション:**
 
-- 0-1 *Grimnir’s Chosen*
-- Any **FYRESLAYERS**
+- Any **KHAZALITE HOLDS**
 
-**キーワード:** Hero, Infantry, Ward (6+), Order, Fyreslayers, Duardin
+**キーワード:** 英雄、歩兵、加護（6+）、秩序の大同盟、カザライト・ホールド、ドゥアーディン、グリムドロン（Hero, Infantry, Ward (6+), Order, Khazalite Holds, Duardin, Grimmdron）
 
 **ノート:** This **HERO** can join an eligible regiment as *Grimnir’s Chosen*.
 
 ---
 
-## Auric Runeson on Magmadroth
+## オーリック・ルーンサン（マグマドロス騎乗）(Auric Runeson on Magmadroth)
 
-**ポイント:** 240pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
+**ポイント:** 290pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
 **増援不可**
 
@@ -231,40 +226,81 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Roaring Fyrestream | 10" | 4 | 3+ | 3+ | 1 | D3 | Anti-INFANTRY (+1 Rend), Companion |
+| 燃え盛る業焔(Roaring Fyrestream) | 10" | 4 | 3+ | 3+ | 1 | D3 | 対歩兵（+1貫通値）(Anti-INFANTRY (+1 Rend)), 随行者(Companion) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Magmadroth’s Blazing Maw | 2 | 4+ | 2+ | 2 | 3 | Companion |
-| Magmadroth’s Claws and Horns（戦傷時） | 6 | 4+ | 2+ | 1 | 2 | Companion |
-| Ancestral Weapons | 5 | 3+ | 3+ | 1 | 2 | Anti-MONSTER (+1 Rend) |
+| Magmadroth’s Maw, Claws and Horns（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | 随行者(Companion) |
+| 父祖の武器(Ancestral Weapons) | 5 | 3+ | 3+ | 1 | 2 | 対大型獣（+1貫通値）(Anti-MONSTER (+1 Rend)) |
 
 **アビリティ:**
 
-- **Volcanic Blood**（Passive）
-  - 効果: If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.
-- **Battle Damaged**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Claws and Horns** is 4.
-- **Vying for Glory**（Passive）
-  - 効果: Each time this unit destroys a **MONSTER**, add 1 to the Attacks characteristic of this unit’s **Ancestral Weapons** for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative.
-- **Dominating Roar**（Once Per Turn (Army), End of Any Turn） ［Rampage］
-  - 宣言: Pick an enemy **MONSTER** in combat with this unit to be the target.
-  - 効果: If this unit has fewer damage points than the target, subtract 10 from the target’s control score for the rest of the turn.
+- **猛炎の血(Volcanic Blood)**（パッシブ）
+  - 効果: このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。
+- **Calamitous Crash**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
+  - 宣言: Pick an enemy unit in combat with this unit to be the target.
+  - 効果: Roll a dice. On a 3+, roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on that unit.
+- **輸送ドロス(Packdroth)**（Once Per Turn (Army), Reaction: You declared a **MOVE** ability for this unit in your movement phase）
+  - 効果: Pick a visible friendly **GRIMMDRON INFANTRY** unit that is wholly within 6" of this unit, is not in combat and has not been set up this turn to be the target. Remove the target from the battlefield. After this unit ends its move, you must set up the target wholly within 6" of this unit and not in combat. Unless this unit has any **grudge marks**, the target cannot use **CHARGE** abilities for the rest of the turn.
+- **バトルダメージ(Battle Damaged)**（Passive）
+  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Maw, Claws and Horns** is 4.
 
 **連隊オプション:**
 
-- 0-1 *Grimnir’s Chosen*
-- Any **FYRESLAYERS**
+- Any **KHAZALITE HOLDS**
 
-**キーワード:** Hero, Monster, Ward (6+), Order, Fyreslayers, Duardin, Magmadroth
+**キーワード:** 英雄、大型獣、加護（6+）、秩序の大同盟、カザライト・ホールド、ドゥアーディン、グリムドロン（Hero, Monster, Ward (6+), Order, Khazalite Holds, Duardin, Grimmdron）
 
 **ノート:** This **HERO** can join an eligible regiment as *Vulcatrix's Chosen*.
 
 ---
 
-## Scourge of Aqshy: Auric Runeson on Magmadroth
+## オーミル＆アッシュタン(Ormyr and Ashtongue)
+
+**ポイント:** 140pt / **モデル数:** 2 / **ベースサイズ:** 32mm [1], 50mm [1]
+
+**増援不可**
+
+**ステータス:**
+
+| 移動力 | 体力 | 防御力 | 確保力 | 加護 |
+|---|---|---|---|---|
+| 4" | 5 | 5+ | 2 | 6+ |
+
+**近接武器:**
+
+| 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
+|---|---|---|---|---|---|---|
+| Ormyr's Double-bladed Axe and Punchblade | 5 | 3+ | 3+ | 1 | 2 | 対大型獣（+1貫通値）(Anti-MONSTER (+1 Rend)) |
+| Ashtongue's Maw and Claws | 3 | 3+ | 3+ | 1 | 2 | クリティカル（致命的）(Crit (Mortal)), 随行者(Companion) |
+
+**アビリティ:**
+
+- **Vulcatrix's Fury**（Passive）
+  - 効果: While this unit has any **grudge marks**, add 1 to the Attacks characteristic of **Companion** weapons used by visible friendly **KHAZALITE HOLDS** units while they are wholly within 12" of this unit.
+- **Drothmaster At Heart**（Your Hero Phase）
+  - 宣言: Pick a visible friendly **Vulkyn Flameseekers** or **GRIMMDRON MONSTER** unit wholly within 12" of this unit to be the target.
+  - 効果: Pick 1 of the following effects: • If you picked a friendly **Vulkyn Flameseekers** unit to be the target, until the start of your next turn, ignore negative modifiers to hit rolls and wound rolls for the target’s combat attacks and ignore negative modifiers to the target’s control score. • If you picked a friendly **GRIMMDRON MONSTER** unit to be the target, add 1 to hit rolls for attacks made with the target’s **Companion** weapons until the start of your next turn.
+- **Smoke And Ash**（Your Shooting Phase）
+  - 宣言: If this unit contains **Ashtongue**, pick a visible enemy unit within 9" of this unit to be the target.
+  - 効果: Roll a dice. On a 3+, until the start of your next turn, units (friendly and enemy), terrain features and **MANIFESTATIONS** are not visible to the target while they are more than 6" from it.
+
+**連隊オプション:**
+
+- 0-1 *Grimnir’s Chosen*
+- Any **KHAZALITE HOLDS**
+
+**装備オプション:** *• Ormyr is armed with Ormyr’s Double-bladed Axe and Punchblade.* *• Ashtongue is armed with Ashtongue’s Maw and Claws.*
+
+**キーワード:** Unique、英雄、歩兵、加護（6+）、秩序の大同盟、カザライト・ホールド、ドゥアーディン、グリムドロン（Unique, Hero, Infantry, Ward (6+), Order, Khazalite Holds, Duardin, Grimmdron）
+
+**ノート:** This **HERO** can join an eligible regiment as *Grimnir’s Chosen*.
+
+---
+
+## アキュシーの禍事 オーリック・ルーンサン（マグマドロス騎乗）(Scourge of Aqshy: Auric Runeson on Magmadroth)
 
 **ポイント:** 330pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
@@ -280,40 +316,40 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Roaring Fyrestream | 10" | 4 | 3+ | 3+ | 1 | D3 | Anti-INFANTRY (+1 Rend), Companion |
+| 燃え盛る業焔(Roaring Fyrestream) | 10" | 4 | 3+ | 3+ | 1 | D3 | 対歩兵（+1貫通値）(Anti-INFANTRY (+1 Rend)), 随行者(Companion) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Magmadroth’s Blazing Maw | 2 | 4+ | 2+ | 2 | 3 | Companion |
-| Magmadroth’s Claws and Horns（戦傷時） | 6 | 4+ | 2+ | 1 | 2 | Companion |
-| Ancestral Weapons | 5 | 3+ | 3+ | 1 | 2 | Anti-MONSTER (+1 Rend) |
+| マグマドロスの燃え盛る顎(Magmadroth’s Blazing Maw) | 2 | 4+ | 2+ | 2 | 3 | 随行者(Companion) |
+| マグマドロスの鉤爪と角(Magmadroth’s Claws and Horns)（戦傷時） | 6 | 4+ | 2+ | 1 | 2 | 随行者(Companion) |
+| アンセストラルウェポン(Ancestral Weapons) | 5 | 3+ | 3+ | 1 | 2 | 対大型獣（+1貫通値）(Anti-MONSTER (+1 Rend)) |
 
 **アビリティ:**
 
-- **Battle Damaged**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Claws and Horns** is 4.
-- **Volcanic Blood**（Passive）
-  - 効果: Each time you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.
-- **Seeing Red**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
-  - 効果: Spend 1 **rage dice**. If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, pick 1 of the following effects: ***Channelled Ire***: Add 1 to the Attacks characteristic of this unit’s **Companion** melee weapons for the rest of the turn. ***Cathartic Release***: Roll a number of dice equal to your **fury level**. For each 4+, **Heal (1)** this unit. ***Shield of Anger***: This unit has **WARD (5+)** for the rest of the turn.
-- **Fire, Blood and Vengeance**（Deployment Phase）
-  - 宣言: Pick a friendly **Auric Runefather** **on Magmadroth** on the battlefield to be the target.
-  - 効果: Add 1 to the Damage characteristic of this unit’s melee weapons, including **Companion** weapons, while the target is in combat, damaged or destroyed.
+- **バトルダメージ(Battle Damaged)**（パッシブ）
+  - 効果: このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**マグマドロスの鉤爪と角**の【攻撃回数】は4になる。
+- **猛炎の血(Volcanic Blood)**（パッシブ）
+  - 効果: このユニットを対象とするメレーアタックのセーブロールで修正前の出目1が出るたびに、その『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。
+- **紅蓮の怒り(Seeing Red)**（各ターンにつき1回（アーミー）、任意の近接フェイズ） ［蹂躙］
+  - 効果: **憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）その後、以下の効果から1つを選択する： **怒りの矛先：**このターン中、このユニットが装備している**随行者**近接武器は【攻撃回数】に+1の修正を受ける。 **憤激の解放：**自軍側の**憤激レベル**に等しい数のダイスをロールする。~~効果：~~ロール結果で4+が出るたび、このユニットを**回復（1）**する。 **憤怒の盾：**このターン中、このユニットは**加護（5+）**を持つ。
+- **炎の血讐(Fire, Blood and Vengeance)**（初期配置フェイズ）
+  - 宣言: 戦場に配置されている味方**オーリック・ルーンファーザー（マグマドロス騎乗）**を1体選択する。
+  - 効果: 選択された味方ユニットが近接戦闘中である、あるいは損傷状態である、全滅している場合、このユニットが装備している近接武器の【ダメージ量】は+1の修正を受ける（随行者武器を含む）。
 
 **連隊オプション:**
 
 - 0-1 *Grimnir’s Chosen*
-- Any **FYRESLAYERS**
+- Any **KHAZALITE HOLDS**
 
-**キーワード:** Hero, Monster, Ward (6+), Order, Fyreslayers, Duardin, Magmadroth
+**キーワード:** 英雄、大型獣、加護（6+）、秩序の大同盟、カザライト・ホールド、ドゥアーディン、グリムドロン（Hero, Monster, Ward (6+), Order, Khazalite Holds, Duardin, Grimmdron）
 
 **ノート:** This **HERO** can join an eligible regiment as *Vulcatrix's Chosen*. This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
 
 ---
 
-## Scourge of Aqshy: Vulkyn Flameseekers
+## アキュシーの禍事 ヴルキン・フレイムシーカー(Scourge of Aqshy: Vulkyn Flameseekers)
 
 **ポイント:** 190pt / **モデル数:** 9 / **ベースサイズ:** 32mm [4], 28.5mm [5]
 
@@ -327,23 +363,23 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Vulkyn Weapons | 3 | 3+ | 3+ | 1 | 1 | Anti-MONSTER (+1 Rend) |
-| Emberteeth | 1 | 3+ | 3+ | - | 2 | Crit (Mortal), Companion |
+| ヴルキンの武器(Vulkyn Weapons) | 3 | 3+ | 3+ | 1 | 1 | 対大型獣（+1貫通値）(Anti-MONSTER (+1 Rend)) |
+| 残り火の牙(Emberteeth) | 1 | 3+ | 3+ | - | 2 | クリティカル（致命的）(Crit (Mortal)), 随行者(Companion) |
 
 **アビリティ:**
 
-- **Fiery Disposition**（Once Per Turn (Army), Your Hero Phase）
-  - 効果: Spend 1 **rage dice**. If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, pick 1 of the following effects to apply until the start of your next turn, where **X** is equal to your **fury level**. ***Vigour of the Ur-Salamander***: Add **X**" to this unit’s Move characteristic. ***Fiery Determination***: Add **X** to this unit’s control score. ***Kyndlewrath***: Add **X** to the Attacks characteristic of this unit’s **Emberteeth**.
+- **宿炎の気質(Fiery Disposition)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 効果: **憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）その後、次の自軍側ターン開始時まで、以下の効果から1個選び適用する。Xは自軍側の**憤激レベル**に等しい。 **ウル＝サラマンダーの活力：**このユニットは【移動力】に+Xmvの修正を受ける。 **燃え立つ決意：**このユニットは確保スコアに+Xの修正を受ける。 **燃え立つ怒り：**このユニットは**残り火の牙**の【攻撃回数】に+Xの修正を受ける。
 
-**装備オプション:** ***Each model in this unit is armed with Vulkyn Weapons.*** • ***1/9 models is a Kyndledroth and must replace their weapons with Emberteeth.*** • ***The champion is a Vulkyn Runefather and cannot replace their weapons.***
+**装備オプション:** このユニット内にいる各兵は『ヴルキンの武器』を装備している。 • 1/9の兵はキンドルドロスであり、その武器を「残り火の牙」に置き換える。 • 豪傑はヴルキン・ルーンファーザーであり、その武器を置き換えることはできない。
 
-**キーワード:** Infantry, Champion (1/9), Ward (6+), Order, Fyreslayers, Duardin
+**キーワード:** 歩兵、豪傑（1/9）、加護（6+）、秩序の大同盟、カザライト・ホールド、グリムドロン、ドゥアーディン（Infantry, Champion (1/9), Ward (6+), Order, Khazalite Holds, Grimmdron, Duardin）
 
 **ノート:** This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.
 
 ---
 
-## Scourge of Ghyran Auric Runeson on Magmadroth
+## グューランの禍事 オーリック・ルーンサン（マグマドロス騎乗）(Scourge of Ghyran Auric Runeson on Magmadroth)
 
 **ポイント:** 340pt / **モデル数:** 1 / **ベースサイズ:** 120 x 92mm
 
@@ -359,41 +395,41 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Roaring Fyrestream | 10" | 4 | 3+ | 3+ | 1 | D3 | Anti-INFANTRY (+1 Rend), Companion |
+| 燃え盛る業焔(Roaring Fyrestream) | 10" | 4 | 3+ | 3+ | 1 | D3 | 対歩兵（+1貫通値）(Anti-INFANTRY (+1 Rend)), 随行者(Companion) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Ancestral Weapons | 5 | 3+ | 3+ | 1 | 2 | Anti-MONSTER (+1 Rend) |
-| Magmadroth’s Blazing Maw | 2 | 4+ | 2+ | 2 | 3 | Companion |
-| Magmadroth’s Claws and Horns（戦傷時） | 6 | 4+ | 2+ | 1 | 2 | Companion |
+| 父祖の武器(Ancestral Weapons) | 5 | 3+ | 3+ | 1 | 2 | 対大型獣（+1貫通値）(Anti-MONSTER (+1 Rend)) |
+| マグマドロスの灼け付く顎(Magmadroth’s Blazing Maw) | 2 | 4+ | 2+ | 2 | 3 | 随行者(Companion) |
+| マグマドロスの角と鉤爪(Magmadroth’s Claws and Horns)（戦傷時） | 6 | 4+ | 2+ | 1 | 2 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **Calamitous Crash**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
-  - 宣言: Pick an enemy unit in combat with this unit to be the target.
-  - 効果: Roll a dice. On a 3+, roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.
-- **Battle Damaged**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Claws and Horns** is 4.
-- **Volcanic Blood**（Passive）
-  - 効果: If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.
-- **Fire, Blood and Vengeance**（Once Per Battle, Deployment Phase）
-  - 宣言: Pick a friendly **Auric Runefather on Magmadroth** on the battlefield to be the target.
-  - 効果: Add 1 to the Damage characteristic of this unit’s melee weapons, including **Companion** weapons, while the target is in combat, damaged or destroyed.
+- **崩壊撃(Calamitous Crash)**（各ターンにつき1回（アーミー）、任意の近接フェイズ） ［蹂躙］
+  - 宣言: このユニットと近接戦闘中である敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、選択された敵ユニット内にいる各兵に対して、それぞれダイスを1個ロールする。ロール結果で5+が出るたびに、その敵ユニットは1ポイントの致命的ダメージを受ける。
+- **バトルダメージ(Battle Damaged)**（パッシブ）
+  - 効果: このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**マグマドロスの角と鉤爪**の【攻撃回数】は4になる。
+- **猛炎の血(Volcanic Blood)**（パッシブ）
+  - 効果: このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。
+- **炎の血讐(Fire, Blood and Vengeance)**（バトル中1回限り、初期配置フェイズ）
+  - 宣言: 戦場に配置されている味方**オーリック・ルーンファーザー（マグマドロス騎乗）**を1体選択する。
+  - 効果: 選択された味方ユニットが近接戦闘中である、あるいは損傷状態である、全滅している場合、このユニットが装備している近接武器の【ダメージ量】は+1の修正を受ける（随行者武器を含む）。
 
 **連隊オプション:**
 
 - 0-1 *Grimnir’s Chosen*
-- Any **FYRESLAYERS**
+- Any **KHAZALITE HOLDS**
 
-**キーワード:** Hero, Monster, Ward (6+), Order, Fyreslayers, Duardin, Magmadroth
+**キーワード:** 英雄、大型獣、加護（6+）、秩序の大同盟、ファイアスレイヤー、ドゥアーディン、マグマドロス（Hero, Monster, Ward (6+), Order, Fyreslayers, Duardin, Magmadroth）
 
 **ノート:** This **HERO** can join an eligible regiment as *Vulcatrix's Chosen*. This unit is legal for Matched Play for battles fought using the *General’s Handbook 2025-26* battlepack.
 
 ---
 
-## Vulkyn Flameseekers
+## ヴルキン・フレイムシーカー(Vulkyn Flameseekers)
 
 **ポイント:** 160pt / **モデル数:** 9 / **ベースサイズ:** 32mm [4], 28.5mm [5]
 
@@ -407,15 +443,17 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Vulkyn Weapons | 3 | 3+ | 3+ | 1 | 1 | Anti-MONSTER (+1 Rend) |
-| Emberteeth | 1 | 3+ | 3+ | - | 2 | Crit (Mortal), Companion |
+| ヴルキンの武器(Vulkyn Weapons) | 3 | 3+ | 3+ | 1 | 1 | 対大型獣（+1貫通値）(Anti-MONSTER (+1 Rend)) |
+| キンドルドロスの牙(Kyndledroth's Fangs) | 1 | 3+ | 3+ | - | 2 | クリティカル（致命的）(Crit (Mortal)), 随行者(Companion) |
 
 **アビリティ:**
 
-- **Drothmasters**（Any Combat Phase）
+- **Blunt Their Horns and Fangs**（Passive）
+  - 効果: While this unit has any **grudge marks**: • Subtract 2 from the Attacks characteristic of **Companion** melee weapons used by enemy **MONSTERS** while they are in combat with this unit. • Enemy **MONSTERS** cannot use **RAMPAGE** abilities while they are in combat with this unit.
+- **怪獣使い(Drothmasters)**（Once Per Turn (Army), Any Combat Phase）
   - 宣言: Pick an enemy **MONSTER** in combat with this unit to be the target.
-  - 効果: Roll a dice. On a 3+, subtract D3 from the Damage characteristic of the target’s **COMPANION** melee weapons for the rest of the turn.
+  - 効果: Roll a dice. On a 3+, subtract 2 from the Damage characteristic of the target’s **COMPANION** melee weapons for the rest of the turn.
 
-**装備オプション:** ***Each model in this unit is armed with Vulkyn Weapons.*** • ***1/9 models is a Kyndledroth and must replace their weapons with Emberteeth.*** • ***The champion is a Vulkyn Runefather and cannot replace their weapons.***
+**装備オプション:** ***Each model in this unit is armed with Vulkyn Weapons.*** • ***1/9 models is a Kyndledroth and must replace their weapons with Kyndledroth’s Fangs.*** • ***The champion is a Vulkyn Runefather and cannot replace their weapons.***
 
-**キーワード:** Infantry, Champion (1/9), Ward (6+), Order, Fyreslayers, Duardin
+**キーワード:** 歩兵、豪傑（1/9）、加護（6+）、秩序の大同盟、カザライト・ホールド、ドゥアーディン、グリムドロン（Infantry, Champion (1/9), Ward (6+), Order, Khazalite Holds, Duardin, Grimmdron）

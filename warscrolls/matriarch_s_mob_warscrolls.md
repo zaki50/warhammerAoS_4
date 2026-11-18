@@ -1,6 +1,6 @@
 # Matriarch's Mob ウォースクロール一覧
 
-出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.39.0 build 89 / dump.json data_version 488 / 抽出 2026-10-29
+出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.40.0 build 91 / dump.json data_version 499 / 抽出 2026-11-19
 
 全8 ウォースクロール（Spearhead 版 0 件は除外。--include-spearhead で含められる）
 
@@ -95,12 +95,12 @@
   - 効果: Until the start of your next turn, add 1 to rampage rolls for the target and add 1 to hit rolls for the target's combat attacks.
 - **The Wandering Witch**（Passive）
   - 効果: While this unit is wholly within 12" of another friendly **SONS OF BEHEMAT MONSTER** unit, this unit is not visible to enemy units more than 12" away from it.
+- **Chooser of the Mighty**（Once Per Battle, Any Movement Phase）
+  - 宣言: Pick another visible friendly **LITTLE** unit wholly within 12" of this unit to be **mighty**.
+  - 効果: Pick 1 of the following effects: • For the rest of the turn, each time you make an unmodified wound roll of 6 for a combat attack made by the mighty unit, inflict 1 mortal damage on the target of the attack after the **FIGHT** ability has been resolved. • Pick a point on the battlefield within 1" of the **mighty** unit, then pick a friendly non-**UNIQUE BIG** unit that has been destroyed to be the target. Set up a replacement unit identical to the target within 1" of that point, then allocate 10 damage points to it (ward rolls cannot be made for those damage points). The replacement unit can only be set up in combat with units that the **mighty** unit was in combat with when it was picked to be **mighty**. Then, 1 model in the **mighty** unit is slain.
 - **Shepherdess**（Once Per Turn (Army), Your Hero Phase） ［Rampage］
   - 宣言: Pick a visible friendly **Ancient Ghyrochs** unit wholly within 12" of this unit to be the target.
   - 効果: If the target is within this unit's combat range, pick 1 of the effects below. Otherwise, make a rampage roll of D6. On a 3+, pick 1 of the effects below. ***Gore their Guts!***: If the target is in combat, add 1 to the Damage characteristic of the target's **Mighty Horns and Hooves** for the rest of the turn. ***Ghyroch Rush***: If the target is not in combat, it can move 3". It can move into combat. ***Reservoirs of Jade Energy***: Add 1 to this unit's casting power level until the start of your next turn.
-- **Chooser of the Mighty**（Once Per Battle, Any Movement Phase）
-  - 宣言: Pick another visible friendly **LITTLE** unit wholly within 12" of this unit to be mighty.
-  - 効果: Pick 1 of the following effects: • For the rest of the turn, each time you make an unmodified wound roll of 6 for a combat attack made by the mighty unit, inflict 1 mortal damage on the target of the attack after the **FIGHT** ability has been resolved. • Pick a point on the battlefield within 1" of the **mighty** unit, then pick a friendly non-**UNIQUE BIG** unit that has been destroyed to be the target. Set up a replacement unit identical to the target within 1" of that point, then allocate 10 damage points to it (ward rolls cannot be made for those damage points). The replacement unit can only be set up in combat with units that the **mighty** unit was in combat with when it was picked to be **mighty**. Then, 1 model in the **mighty** unit is slain.
 
 **連隊オプション:**
 

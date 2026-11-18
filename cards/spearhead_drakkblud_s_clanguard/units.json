@@ -1,0 +1,492 @@
+{
+ "meta": {
+  "slug": "spearhead_drakkblud_s_clanguard",
+  "kind": "spearhead",
+  "faction_en": "Khazalite Holds",
+  "faction_ja": "カザライト・ホールド",
+  "faction_slug": "khazalite_holds",
+  "alliance": null,
+  "title_en": "Drakkblud's Clanguard",
+  "title_ja": "ドラックブラッドの氏族衛士隊",
+  "data_version": 499
+ },
+ "units": [
+  {
+   "id": "7308cada-6928-493d-8aef-546fe950aeb2",
+   "name": {
+    "ja": "クランシールド",
+    "en": "Clanshields",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "1"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": null,
+   "models": 10,
+   "base": "28.5mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "クロムドロンの武器",
+     "en": "Kromdron Weapons",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [
+      "対歩兵（+1貫通値）"
+     ],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "石のごとき頑健性",
+      "en": "Tough As Stone",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニット内の各兵が自軍側が確保している作戦目標を争奪中である間、このユニットを対象とするメレーアタックに使用される武器は【貫通値】に-1の修正を受ける。\nこのユニットが**宿怨マーク**を1個でも持つ間、代わりに、このユニットが敵軍側陣地内に全体が入っているならば、このユニットを対象とする攻撃に使用される武器は【貫通値】に-1の修正を受ける。",
+       "en": "Subtract 1 from the Rend characteristic of weapons used for combat attacks that target this unit while every model in this unit is contesting an objective you control.\n\nWhile this unit has any **grudge marks**, instead, subtract 1 from the Rend characteristic of weapons used for attacks that target this uni while this unit is wholly within enemy territory.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "増援",
+     "Reinforcements"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "e7ccaae2-10ed-43ee-b903-ca4cbb7466a1",
+   "name": {
+    "ja": "ゴーレム・オヴ・ガズル",
+    "en": "Gholems of Gazul",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "6\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": null,
+   "models": 3,
+   "base": "50mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "ガズルの大鎚",
+     "en": "Gazulite Great Hammer",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "2+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "ガズルの力",
+      "en": "Gazul's Might",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットが現在のターン中に突撃していた場合、このユニットは確保スコアに+2の修正を受ける。",
+       "en": "Add 2 to this unit’s control score if it charged in the same turn.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "戦闘兵器",
+     "War Machine"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "4a67c07f-9680-403d-b0c6-36dc17b07a6c",
+   "name": {
+    "ja": "ヒュルダ・ドラックブラッド",
+    "en": "Hjulda Drakkblud",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "アザングロム",
+     "en": "Azangrom",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "3+",
+      "3+",
+      "2",
+      "2"
+     ],
+     "abil_ja": [
+      "クリティカル（致命的）"
+     ],
+     "abil_en": [
+      "Crit (Mortal)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "親分肌",
+      "en": "Browbeater",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "自軍側ヒーローフェイズ",
+       "en": "Your Hero Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**クランシールド**・ユニットを1個選択する。",
+       "en": "Pick a visible friendly **Clanshields** unit wholly within 12\" of this unit to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "ダイスを1個ロールする。このユニットが**宿怨マーク**を1個でも持つ場合、そのロールをリロールできる。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された味方ユニットが装備している武器は【貫通値】に+1の修正を受ける。",
+       "en": "Roll a dice. If this unit has any **grudge marks**, you can re-roll the roll. On a 3+, add 1 to the Rend characteristic of the target’s melee weapons until the start of your next turn.",
+       "fix": [
+        [
+         "装備している武器",
+         "装備している近接武器"
+        ]
+       ]
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": [
+      "英語は melee weapons（近接武器）に限定。日本語は『武器』で遠隔武器も含む読みになる（スピアヘッド ドラックブラッドの氏族衛士隊 2026年10月 p.3）"
+     ]
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "a8dce555-e687-435a-8429-a7a87e105cf0",
+   "name": {
+    "ja": "オースキーパー・キャノン",
+    "en": "Oathkeeper Cannon",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "6"
+    ],
+    [
+     "防御力",
+     "Save",
+     "3+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": null,
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "100mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "オースキーパー砲撃",
+     "en": "Oathkeeper Shot",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "24\"",
+      "3",
+      "4+",
+      "2+",
+      "2",
+      "D3+2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "オースキーパー砲手の道具",
+     "en": "Oathkeeper Crew Tools",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "4+",
+      "4+",
+      "-",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "オースキーパーの見習いルーン打ち",
+      "en": "Oathkeeper Apprentice Runestriker",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+       "en": "Once Per Turn (Army), Your Shooting Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このターン中、このユニットによるすべてのレンジアタックの対象となった敵ユニットを1個選択する。",
+       "en": "Pick an enemy unit that was targeted by all of this unit’s shooting attacks this turn to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "ダイスを1個ロールする。このユニットが**宿怨マーク**を1個でも持つ間、そのロールをリロールできる。ロール結果が3+であれば、以下の効果から1つ選択する。\n**粉砕のルーン：**次の自軍側ターン開始時まで、選択された敵ユニットのメレーアタックはウーンズロールに-1の修正を受ける。次の自軍側ターンに、この効果を選ぶことはできない。\n**燃焼のルーン：**そのターン中、選択された敵ユニットを対象とするメレーアタックはヒットロールに+1の修正を受ける。次の自軍側ターンに、この効果を選ぶことはできない。\n**衝撃のルーン：**そのターン中、選択された敵ユニットは『**後手効果**』を得る。次の自軍側ターンに、この効果を選ぶことはできない。",
+       "en": "Roll a dice. While this unit has any **grudge marks**, you can re-roll the roll. On a 3+, pick 1 of the following effects:\n\n***Rune of Sundering:*** Until the start of your next turn, subtract 1 from wound rolls for the target’s combat attacks. You cannot pick this effect in your next turn.\n\n***Rune of Burning:*** For the rest of the turn, add 1 to hit rolls for combat attacks that target that enemy unit. You cannot pick this effect in your next turn.\n\n***Rune of Shock:*** The target has **STRIKE-LAST** for the rest of the turn. You cannot pick this effect in your next turn.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "戦闘兵器",
+     "War Machine"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  }
+ ]
+}

@@ -1,0 +1,658 @@
+{
+ "_faction": "カザライト・ホールド (Khazalite Holds)",
+ "_source": [
+  "スピアヘッド カザライト・ホールド ドラックブラッドの氏族衛士隊 2026年10月（日本語版・英語版 PDF）pp.5–8『岩漿召集軍』（p.5 表題・編成、p.6 戦闘特性・連隊アビリティ・強化、p.7 オーリック・ルーンファーザー（マグマドロス騎乗）／オーリック・ルーンスマイター、p.8 ヴルキン・フレイムシーカー／オーリック・ハースガード）。表題・太字・タイミングは 110〜200dpi の画像で確認",
+  "ルール・アップデート 2026年11月（日英）: Magmic Fyrd とその 4 ユニットの Spearhead 版の改訂は無い",
+  "バトルトーム・サプリメント カザライト・ホールド 2026年11月（バトルトーム/バトルトーム・サプリメント-カザライト・ホールド 202611.pdf、全7頁）＋同英語版。p.2 オーリック・ルーンマスター、p.3 バトルスミス／グリムラース・バーザーカー、p.4 ドゥームシーカー／ヴァルカイト・バーザーカー（刃ありし投げ盾装備）、p.5 ヴァルカイト・バーザーカー（焔鋼の武器装備）／溶岩の獄鬼、p.6 ルーンの焔壁／ザールグロンの焔吐き、p.7 溶岩の戦炉・顕現伝承「溶岩の奇蹟」。全頁を画像（pdftoppm -r 170）で確認",
+  "アキュシーの禍事 カザライト・ホールド 2026年10月（アキュシーの禍事/カザライト・ホールド 202610.pdf、3頁）＋同英語版。p.1 ヴァルカトリックスの神印・奇蹟伝承「ヴルキンの恩寵」、p.2 オーリック・ルーンサン（マグマドロス騎乗）、p.3 ヴルキン・フレイムシーカー。全頁を画像（-r 150）で確認",
+  "グューランの禍事 ファイアスレイヤー 2025年5月（グューランの禍事/ファイアスレイヤー 202505.pdf、2頁）＋同英語版。p.1 ヴァルカトリックスの神印・奇蹟伝承「ヴァルキンの恩寵」、p.2 オーリック・ルーンサン（マグマドロス騎乗）。全頁を画像（-r 150）で確認",
+  "ルール・アップデート 2026年11月（日英）の『他のデジタル版』カザライト・ホールドの項（日本語版 1995〜2030 行付近）。アキュシーの禍事 202610 の日英 PDF はこの改訂を反映済み",
+  "名高き連隊 カザライト・ホールド 2026年10月（Fjori's Vengeance / Thengin's Grudgesettlers）は md の当て先なし（_skipped）",
+  "スピアヘッド カザライト・ホールド ドラックブラッドの氏族衛士隊 2026年10月（日本語版・英語版 PDF、全8頁のうち pp.1–4。p.1 表題・編成、p.2 戦闘特性・連隊アビリティ・強化、p.3 ヒュルダ・ドラックブラッド／クランシールド、p.4 ゴーレム・オヴ・ガズル／オースキーパー・キャノン）。表題・太字は 110〜200dpi の画像で確認。pp.5–8 は別のスピアヘッド『岩漿召集軍（マグミック・フュルド）』で担当外",
+  "バトルプロフィール 2026年11月 pp.14–15（カザライト・ホールド）＋同英語版。pp.14–15 は 130dpi の画像で確認。バトルプロフィール カザライト・ホールド 2026年10月（日英）と照合し、名前はすべて同じ",
+  "ルール・アップデート 2026年11月（日英）: ドラックブラッドの氏族衛士隊・クランシールド・オースキーパー・キャノン等への改訂は無いことを確認",
+  "陣営パック ファイアスレイヤー 2026年8月（~/Dropbox/2_Warhammer/AoS 4版/陣営パック/ファイアスレイヤー_202608.pdf、34頁）＋同(英語)版。p.6 顕現伝承（溶岩の奇蹟）、pp.7–28 ウォースクロール（p.7 ルーンファーザー（マグマドロス騎乗）、p.8 ルーンサン（同）、p.9 ルーンスマイター（同）、p.10 ルーンファーザー、p.11 ルーンサン、p.12 ルーンスマイター、p.13 ルーンマスター、p.14 バトルスミス、p.15 グリムラース・バーザーカー、p.16 フレイムキーパー、p.17 ドゥームシーカー、p.18 グリムホールド・エグザイル、p.19–20 ヴァルカイト・バーザーカー 2種、p.21 ハースガード、p.22 ヴルキン・フレイムシーカー、p.23–24 ハースガード・バーザーカー 2種、p.25 溶岩の獄鬼、p.26 ルーンの焔壁、p.27 ザールグロンの焔吐き、p.28 溶岩の戦炉）、pp.29–34 スピアヘッド『語り継がれし斧団』",
+  "ルール・アップデート 2026年11月（日本語版 pp.25–26『陣営パック：ファイアスレイヤー』の項）は照合のみ。改訂対象（遠視のルーン、揺るぎなき正義のルーン、溶岩の防壁、ヴァルカトリックスの憤怒、栄光のしのぎ合い、マグマの掘削、出現）はどれも現行のカザライト・ホールドに同じルールが無いので本文には使っていない"
+ ],
+ "_notes": [
+  "Spearhead 名 Magmic Fyrd は p.5 の表題『岩漿召集軍』（ルビ マグミック・フュルド）。先例どおりルビは載せていない。",
+  "キーの選び方: Saga Axeband・Drakkblud's Clanguard の Spearhead とアビリティ名が重ならない（Saga Axeband の戦闘特性は 'Awaken the Runes'（t が小文字）で、こちらのルーンスマイターのアビリティは 'Awaken The Runes'。キーが違う）ので、Spearhead 名付きのキーは使わず、戦闘特性・連隊アビリティ・強化は 'Spearhead|名前'、ウォースクロールは 'Spearhead|ユニット|名前' にした。",
+  "Spearhead 版ウォースクロールの本文と通常版（warscrolls/khazalite_holds_warscrolls.md）の比較: Battle Damaged（ルーンファーザー（マグマドロス騎乗））だけが英語で同文なので 'Auric Runefather on Magmadroth|Battle Damaged' キーにして通常版にも当てた。Volcanic Blood・Molten Rockbolts は文言が違い、Awaken The Runes・Confounded Beast! は Spearhead 版にだけあるので 'Spearhead|ユニット|名前'。名前（ability_names・weapon_names）は 'ユニット|名前' で通常版にも当たる。",
+  "Battle Damaged の名前は書籍で『バトルダメージ』（コロン無しの見出し）。",
+  "Fury for the Fallen（倒れし者の憤怒）の効果は書籍で 3 段落（\\n で区切った）。英語版も 3 段落。",
+  "Fiery Reinforcements の前置き文『初期配置フェイズ中、自軍側**オーリック・ハースガード**・ユニットは初期配置されない。代わりに第3バトルラウンド以降、以下のアビリティを使用できる：』は md（dump）に出ないので載せていない（参考に記録）。",
+  "Halo of Flames: 書籍の『加護(4+)』（半角括弧・太字）は全角『（4+）』にそろえた。",
+  "Stoke the Fire の効果は『そのフェイズ中、』＋• 箇条書き 2 項目。2 項目目は書籍では『このユニットによるレンジアタック』（英語は your general’s shooting attacks）。強化を持つジェネラル自身を指すので意味は同じと見て訳注にはしていない。",
+  "太字: 画像で確認した太字（ヴルキン・フレイムシーカー、オーリック・ハースガード、オーリック・ルーンスマイター、大型獣、加護（4+）、燃え盛る業焔、『突撃』『先手効果』『遠隔攻撃』、マグマドロスの顎、鉤爪、角、キンドルドロス）に ** を付けた。『通常移動』は書籍・英語とも太字でない。",
+  "日本語版 p.7 の武器表で、燃え盛る業焔のアビリティが『対歩兵（+1貫通値）、随行者』になっている。英語版 PDF と dump の Spearhead 版は Companion のみ（対歩兵は通常版の値）。能力値の表なので訳には影響しない（参考）。",
+  "keyword_names: 英雄・大型獣・神官・歩兵・加護（6+）はキーワード欄から。Spearhead 版ルーンスマイターのキーワードは dump では 'Priest'（数字なし）で、書籍も『神官』。",
+  "unit_names はスピアヘッド・ウォースクロールの表題（バトルプロフィールと同じ名前）。frag_sh.json と重複するが確認済みとして載せた。",
+  "エラッタ 202611（他のデジタル版・カザライト・ホールド）の 6 項目はすべて、アキュシーの禍事 202610 の日英 PDF と現行 dump に反映済みだった: 燃え盛る刺激の宣言（日本語 PDF の宣言はエラッタの日本語文と一字一句同じ）、オーリック・ルーンサン（マグマドロス騎乗）／ヴルキン・フレイムシーカーのキーワード置換（PDF のキーワード欄はカザライト・ホールド・グリムドロン）、ヴァルカトリックスの神印の対象（PDF は「グリムドロン・大型獣」）、黄金の獣皮（PDF は「カザライト・ホールド・神官」）、ヴルキンの恩寵（PDF はグリムドロン・大型獣）。そのため PDF の文をそのまま採った。エラッタの見出しが『ヴォルカトリックスの神印』と表記するのに対し PDF の見出しは『ヴァルカトリックスの神印』。見出し（PDF）を採った。",
+  "グューランの禍事版オーリック・ルーンサン（Scourge of Ghyran Auric Runeson on Magmadroth）は dump 上いまもファイアスレイヤー・マグマドロスのキーワードのまま（エラッタのキーワード置換はアキュシー版が対象）。keyword_names に Fyreslayers→ファイアスレイヤー、Magmadroth→マグマドロス を入れた（グューラン版 PDF のキーワード欄どおり）。",
+  "Vulkyn Gifts と Marks of Vulcatrix は md に グューラン版（Scourge of Ghyran: Khazalite Holds、FYRESLAYERS・MAGMADROTH の旧ルール）とアキュシー版（GRIMMDRON の現ルール）の 2 節が出るが、ファクションルールの本文・前置き文は名前だけのキーで引かれる。両版で本文が違う Ichor of the Ur-Salamander / Fury of Vulcatrix / Blazing Impetus の ability_texts と Marks of Vulcatrix の group_texts は main に入れず、_conflicts に両版の訳を置いた（親で判断）。両版で本文が同じ Thickened Scales と、片方にしかない Incandescent Blaze / Peerless Lineage（グューラン版）・Aureate Hide / Intense Fyrestream（アキュシー版）は main に入れた。",
+  "名前の揺れ: Ichor of the Ur-Salamander はアキュシー版「ウル＝サラマンダーの霊液」、グューラン版「ウル＝サラマンダーの神髄」。名前だけのキーなので新しいアキュシー版を採った。Vulkyn Gifts もアキュシー版「ヴルキンの恩寵」、グューラン版「ヴァルキンの恩寵」で、アキュシー版（エラッタ 202611 も「ヴルキンの恩寵」）を採った。Fury of Vulcatrix（ヴァルカトリックスの怒り）・Blazing Impetus（燃え盛る刺激）・Thickened Scales（分厚い鱗）・Marks of Vulcatrix（ヴァルカトリックスの神印）は両版で同じ。",
+  "グューラン版とアキュシー版のルーンサンで武器名の訳が違う: Ancestral Weapons は「父祖の武器」／「アンセストラルウェポン」、Magmadroth’s Claws and Horns は「マグマドロスの角と鉤爪」／「マグマドロスの鉤爪と角」、Magmadroth’s Blazing Maw は「マグマドロスの灼け付く顎」／「マグマドロスの燃え盛る顎」。それぞれユニット指定キーにした（名前だけのキーは通常版ルーンサン等に当たるので置いていない）。Volcanic Blood（猛炎の血）・Fire, Blood and Vengeance（炎の血讐）・Battle Damaged（バトルダメージ）も本文が版ごとに違うのでユニット指定キー。",
+  "サプリメントの武器・アビリティもすべてユニット指定キーにした。Fyresteel Weapons（焔鋼の武器）は The Chosen Axes にも同名武器があるが、名前だけのキーは置いていない（別担当の訳と揃えるなら親で名前だけのキーを足してよい）。",
+  "【要注意】Battlesmith|Icon of Grimnir の本文は、Spearhead（Saga Axeband）のバトルスミスの Icon of Grimnir（Add 1 to save rolls…、ルールが別物）にも Spearhead|Saga Axeband|Battlesmith|Icon of Grimnir → Spearhead|Battlesmith|Icon of Grimnir → Battlesmith|Icon of Grimnir の順のフォールバックで当たってしまう。スピアヘッド資料の訳で Spearhead 側のキーを埋めるか、無ければ Spearhead|Battlesmith|Icon of Grimnir に何か（英語のまま出す手段）を置く必要がある。名前（グリムニルの戦旗）は同じでよい。",
+  "Magmic Battleforge の地形ルール名は PDF p.7 の「以下の共通特殊地形アビリティが、この特殊地形に適用される（特殊地形、1.2）：遮蔽物、通行不可、射線妨害」から（ユニット指定キー）。他陣営のファイルの「通り抜け不可能」とは訳が違う（この資料どおり）。PDF の半角括弧 (特殊地形、1.2) は他ファイルにならい全角（）にした。地形ルールの本文は資料に無い。",
+  "ユニット名: 表題の下の括弧書き（刃ありし投げ盾装備）（焔鋼の武器装備）（マグマドロス騎乗）は DoK・OBR の先例どおり全角括弧でつないだ。禍事版は KO・DoK の先例どおり「アキュシーの禍事 」「グューランの禍事 」を前に付けた。",
+  "顕現伝承「溶岩の奇蹟」（Magmic Invocations）: 3 つの召喚の宣言は、英語の冒頭条件「If there is not a friendly ○○ on the battlefield,」が日本語版に無い（_suspected_mistranslations）。効果文末は PDF で句点なし（溶岩の獄鬼）または半角ピリオド「 .」（他 2 つ）なので「。」にした。設定文（イタリックの前置き）は載せていない。",
+  "本文中の全角「＋」（グリムニルの戦旗の「＋3」、溶岩の祝福の「＋1」）は他の箇所に合わせて半角「+」にした。半角数字・記号と全角の隙間は詰めた。太字は PDF の太字どおり（宿怨マーク、グリムドロン（・歩兵／・神官）、顕現、『近接攻撃』、『後手効果』、憤激ダイス／憤激レベル、随行者、回復（D3）、魔術師（1）など）。",
+  "紅蓮の怒り（Seeing Red）・宿炎の気質（Fiery Disposition）・焦熱の火炎流（Intense Fyrestream）の「（最大7まで）その後」は PDF で句点なし（書籍どおり）。選択肢の見出し（怒りの矛先：など）は KO の先例どおり **…：** の太字にした。",
+  "keywords 欄: Fury of Vulcatrix と Blazing Impetus（アキュシー版）は PDF のキーワード欄が「奇跡」（他は「奇蹟」）。書籍どおり（_suspected_mistranslations）。",
+  "名高き連隊 カザライト・ホールド 2026年10月（Fjori's Vengeance: Itinerant Grimmdron、Thengin's Grudgesettlers: Rune of Stoicism / Grudgesettlers）は dump.json にあるが、どの slug の md にも引かれない（inventory に無い）ので載せていない。",
+  "他の slug（fyrd_of_fyrepeak / lofnir_drothkeepers / throngankor_alliance）は、inventory に同じキーがあるものだけを同じ訳で入れた（README の「陣営をまたぐユニットも各ファイルに持つ」）。faction_name・group_names は入れていない。",
+  "faction_name『カザライト・ホールド』はバトルプロフィール・スピアヘッドの表題から。連隊オプション欄では『任意のカザライトホールド』（中黒なし）の表記が混じる（ルーンファーザー（マグマドロス騎乗）・至高王ヴァランクロム・ヒュルダ・オーミル＆アッシュタン・スリン（ウォースローン騎乗））が、見出し・他の行の『カザライト・ホールド』を採った。",
+  "Spearhead 名 Drakkblud's Clanguard は p.1 の表題（装飾フォント）を画像で読み『ドラックブラッドの氏族衛士隊』。",
+  "Spearhead 版ウォースクロールの本文はすべて通常版（warscrolls/khazalite_holds_warscrolls.md）と英語が違う（Tough As Stone・Oathkeeper Apprentice Runestriker は文言違い、Browbeater・Gazul's Might は Spearhead 版にだけある）ので、ability_texts は 'Spearhead|ユニット|名前' キーにした。名前（ability_names・weapon_names）は英語名が同じなので 'ユニット|名前' キーで通常版にも当たる。Spearhead の戦闘特性・連隊アビリティ・強化は KO の先例どおり 'Spearhead|名前'。",
+  "Spearhead の英語 PDF の武器名は 'Kromdron Weapon'（単数）だが dump は 'Kromdron Weapons'。訳『クロムドロンの武器』を dump のキーに当てた。",
+  "Oathkeeper Apprentice Runestriker の 3 つのルーン（粉砕のルーン／燃焼のルーン／衝撃のルーン）は書籍どおり改行して太字の見出しにした（KO の Codewright|Advisory Role と同じ形）。",
+  "太字: 『宿怨マーク』『宿怨の標的』（grudge mark / grudged）、『歩兵』、『クランシールド』、『退却』『突撃』『後手効果』は画像で太字を確認して ** を付けた。Grudge-Led Retribution の『通常移動』は書籍・英語とも太字でない。",
+  "連隊アビリティ『イングヒルデの導き』の宣言は『味方**歩兵**ユニット』（中黒なし、書籍どおり）。『宿怨を晴らせ』の効果は『味方**歩兵**・ユニットが**宿怨の標的**・ユニット』（書籍どおり）。",
+  "group_texts: 連隊アビリティ・強化の前置き文は見出し『連隊アビリティ：』『強化：』の後ろの文。",
+  "unit_names はバトルプロフィール 2026年11月の表の名前欄から。表の折り返し（クランガンナー（スランドリン・ショットキャノ/ン装備）、ヴァラヤン・ガーディアン（ルーンアックス＆シー/ルド装備）、ヴァルカイト・バーザーカー（ブレイデッド・ス/リングシールド装備）、（ファイアスティー/ル・ウェポン））は raw テキストと画像でつないだ。",
+  "Vulkite Berzerkers with Fyresteel Weapons は表では『ヴァルカイト・バーザーカー（ファイアスティール・ウェポン）』（『装備』が無い）。2026年10月版も同じ。名高き連隊（バトルプロフィール カザライト・ホールド 2026年10月 p.2 フィヨリ・フレイムベアラー）では『ヴァルカイト・バーザーカー（焔鋼の武器装備）』と別訳。名前欄の表記を採った。",
+  "Valayan Guardians with Runic Halberds は『ヴァラヤン・ガーディアン（ハルバード装備）』（Runic の訳が無い。書籍どおり）。英語の表は 'Rune Axes and Shields'（複数）だが dump のキーは 'Valayan Guardians with Rune Axe and Shields'。",
+  "Thrynn On War Throne（dump は On が大文字）→『スリン（ウォースローン騎乗）』。Ormyr and Ashtongue →『オーミル＆アッシュタン』（全角＆、書籍どおり）。High Kyng Valankrom →『至高王ヴァランクロム』。",
+  "Scourge of Aqshy の 2 件は表の 2 行組み『アキュシーの禍事 / オーリック・ルーンサン（マグマドロス騎乗）』『アキュシーの禍事 / ヴルキン・フレイムシーカー』を KO などの先例どおり空白でつないだ。",
+  "Magmic Battleforge（陣営地形のウォースクロール）はバトルプロフィールの陣営地形欄『溶岩の戦炉』から。",
+  "バトルプロフィールに無い unit_names（Molten Infernoth / Runic Fyrewall / Zharrgron Flame-spitter（顕現）、The Chosen Axes、Scourge of Ghyran Auric Runeson on Magmadroth、名前だけの Vulkite Berzerkers）は入れていない。参考: Molten Infernoth は名高き軍勢 2026年10月 ロフニールのドロス番の『溶岩の獄鬼の召喚』本文で『溶岩の獄鬼』（太字）。",
+  "バトルプロフィールの種別・名前表から group_names（戦闘陣形 4・伝承 5・ヴァルカトリックスの神印）と ability_names（英雄特性 3・神器 3・ヴァルカトリックスの神印 3）も入れた。キーは dump の表記（'Long Of Beard Or Braid' 'Sworn To Vengeance' 'Deep-Earth Runic Weapon' 'Reverberations Of The Runes' 'Resonance Of The Runes' など大文字小文字も）に合わせた。バトルトーム本体の見出しと違う訳があれば親で判断。",
+  "keyword_names: カザライト・ホールド・グリムドロン・クロムドロン・歩兵・戦闘兵器（バトルプロフィールの関連キーワード欄）、英雄・増援（スピアヘッドのキーワード欄）、大型獣（ロフニールのドロス番の本文）。",
+  "キーワードの手がかり（連隊オプション・備考欄の用語。dump のキーワードではなく連隊オプションの役割名）: グリムニルの選ばれし者（Grimnir’s Chosen）、ヴァルカトリックスの選ばれし者（Vulcatrix’s Chosen。連隊オプション欄は『ヴァルカトリックス』、備考欄の『この英雄は、ヴォルカトリックスの選ばれし者として…』は『ヴォルカトリックス』と表記が揺れる。2026年10月・11月とも同じ。名高き軍勢・神印・ロフニールの本文はすべて『ヴァルカトリックス』）、クロムドロン・ノーブル（Kromdron Noble）、グリムドロン（Grimmdron）、クロムドロン（Kromdron）、ヴァルカトリックスの神印（Mark of Vulcatrix）、ドロス番（Drothkeepers。名高き軍勢ロフニールのドロス番の付与キーワード）。",
+  "weapon_ability_names: クリティカル（致命的）・対歩兵（+1貫通値）はスピアヘッドの武器表（全角括弧、空白を詰めた）、対大型獣（+1貫通値）はロフニールの英雄特性本文、随行者（Companion）は同 PDF の『岩漿召集軍』の武器表（担当外のページだが名前だけ採った）。",
+  "陣営パック（2026年8月）はファイアスレイヤー陣営のもので、現行の Khazalite Holds（バトルトーム）とは戦闘特性・戦闘陣形・英雄特性・神器・奇蹟伝承がすべて別物（ウル＝ゴールドのルーン、ロッジ伝来の遺産、ザールグリムの祝福など）。採ったのは顕現伝承『溶岩の奇蹟』の名前と本文の一部だけ。",
+  "ウォースクロールの本文は、現行の英語が grudge mark・GRIMMDRON・KHAZALITE HOLDS を使う形に書き換わっており、ほとんどが別ルール。英語が現行と同じだったのは Raging Inferno（ルーンファーザー騎乗）、Lashing Tail（ルーンスマイター騎乗）、Volcanic Blood（3 騎乗英雄共通）、溶岩の戦炉の Molten Blessing の効果と装備オプション文、顕現召喚 3 種の効果だけ。",
+  "Volcanic Blood: パックの英語は “If you make an unmodified save roll of 1 …”、現行は “Each time you make …” だがルールは同じなので採った。本文はユニット指定キー（ルーンファーザー／ルーンサン／ルーンスマイター騎乗の 3 件。p.7–9 の文は 3 枚とも同文）にした。禍事版（Scourge of Aqshy / Ghyran）とスピアヘッド Magmic Fyrdのルーンファーザー騎乗も現行英語は同文なので、親の判断で同じ文を当ててよい（名前 ability_names は名前だけのキーなので禍事版にも当たる）。",
+  "Magmic Battleforge|Molten Blessing: 現行英語は “For the rest of the turn: • Add 1 to chanting rolls … • The target can use the ‘Unbind’ ability …” の箇条書き、パックは 2 文だが同じルールなので効果は採った。宣言は FYRESLAYERS PRIEST（現行は GRIMMDRON PRIEST）なので載せていない。Spending the Forge は宣言・効果とも FYRESLAYERS（現行は GRIMMDRON）なので timing だけ載せた。",
+  "顕現召喚 3 種（Summon Runic Fyrewall / Summon Zharrgron Flame-spitter / Summon Molten Infernoth）: 効果は現行と同じなので timing・effect・keywords を採った。宣言は FYRESLAYERS PRIEST（現行は GRIMMDRON PRIEST）で、しかも日本語版は英語の前置き “If there is not a friendly 〇〇 on the battlefield” を落としている（_suspected_mistranslations）。宣言は載せていない。",
+  "キーワードを FYRESLAYERS → GRIMMDRON に置き換えれば現行と同じルールになるもの（エラッタでこのパックのウォースクロールへの置換は示されていない）を _keyword_swap_candidates に日本語の置換済み案として置いた。採るかどうかは親が判断する（採る場合は ability_texts に移し、_notes に経緯を残す）。キーワードの日本語はエラッタ 2026年11月の『燃え盛る刺激』『ヴルキンの恩寵』の表記（グリムドロン・神官）に合わせた。",
+  "名前は英語名が同じものを採った（ルールが変わったアビリティも名前だけ採用）。Auric Runemaster / Battlesmith / Grimwrath Berzerker / Doomseeker / Vulkite Berzerkers with Bladed Slingshields はサプリメント担当が本文を取るので名前だけ（親の判断で上書きしてよい）。",
+  "ユニット名の表記: 騎乗版は表題の下の小見出し「（マグマドロス騎乗）」をつないだ。ヴァルカイト・バーザーカーは表題下の「（刃ありし投げ盾装備）」「（焔鋼の武器装備）」をつないだ。バトルプロフィール カザライト・ホールド 2026年10月は「ヴァルカイト・バーザーカー（ブレイデッド・ス…）」「（ファイアスティー…）」とカナ表記で、同じ資料の連隊表では「（焔鋼の武器装備）」とも書くので、表記の採否は親で判断すること。",
+  "Hearthguard Berzerkers: パックは（フレイムストライク・ポールアックス装備）（バーザーカー・ブロードアックス装備）の 2 枚だが現行は 1 枚（Broadaxe or Flamestrike Poleaxe）なので、ユニット名は小見出しなしの「ハースガード・バーザーカー」。武器名 Broadaxe or Flamestrike Poleaxe はパックに無い（焔撃の矛槍・バーザーカー・ブロードアックスは別々）ので載せていない。",
+  "Whirlwind of Destruction はウォースクロール（焔鋼の武器装備）p.20 が「破壊の旋風」、スピアヘッド p.34 が「破滅の疾風」と訳が違うので、ユニット指定キー（Vulkite Berzerkers with Fyresteel Weapons / Vulkite Berzerkers）に分けた。",
+  "Drothmasters は「怪獣使い」にルビ「ドロスマスター」（p.22、画像で確認）。ルビは載せていない。Saga Axeband は「語り継がれし斧団」にルビ「アックスバンド」（p.29）。",
+  "スピアヘッド『語り継がれし斧団』（pp.29–34）は現行の spearheads/Khazalite Holds/Saga Axeband.md と英語が全項目一致したので、Spearhead| キーで本文を入れた。Awaken the Runes の宣言は日本語版「右記に示されているウル＝ゴールドのルーン」（英語 “on the right”）で、現行の英語は “from the ur-gold runes table” だがルールは同じなので採った。単独のスピアヘッド冊子（スピアヘッド/ファイアスレイヤー 語り継がれし斧団(サガ・アックスバンド) 202603.pdf）を別担当が取り込むならそちらを優先してよい。",
+  "Spearhead の Horn of Grimnir は日本語版で「復帰」が太字だが、英語では太字でないので太字にしていない。太字は英語の太字の箇所（キーワード、Heal (D3) → 回復（D3）、activation roll → 覚醒ロール 等）に合わせた。",
+  "Magmic Battleforge の装備オプション文の地形アビリティ名は「遮蔽物、通行不可、射線妨害」。ability_names の Cover / Impassable / Obscuring もこれに合わせた（他陣営ファイルの Impassable は「通り抜け不可能」）。",
+  "p.8 ルーンサン（マグマドロス騎乗）のキーワード欄は日本語版が「英雄、大型獣、魔術師（1）」で、英語の Ward (6+) が魔術師（1）になっている誤植（キーワード名の訳には影響しない）。",
+  "禍事版（Scourge of Aqshy: Auric Runeson on Magmadroth の Battle Damaged「マグマドロスの角と鉤爪の【攻撃回数】は4」、Scourge of Aqshy: Vulkyn Flameseekers の装備オプション文（Emberteeth＝残り火の牙））はパックの英語と現行が一致するが、禍事の資料の担当に任せて載せていない。必要なら p.7 の Battle Damaged（ルーンファーザー騎乗の文）と p.22 の装備オプション文が使える。",
+  "背景文（イタリックの短文）は載せていない。半角数字・記号と全角の間の組版上の隙間は詰めた。",
+  "画像で確認した箇所: p.6（顕現伝承の見出し・太字）、p.7・p.9（騎乗英雄 2 枚の表題・太字）、p.13・p.16（表題）、p.22（怪獣使いのルビ）、p.23（殉死の義務の太字）、p.28（溶岩の戦炉）、pp.29–33（スピアヘッドの表題・太字）",
+  "Vulkyn Gifts（奇蹟伝承）と Marks of Vulcatrix（神印）は md にグューラン版（FYRESLAYERS の旧ルール）とアキュシー版（GRIMMDRON の現ルール）の 2 節が出るが、ファクションルールの本文・前置き文は名前だけのキーで引かれるため、Ichor of the Ur-Salamander / Fury of Vulcatrix / Blazing Impetus の本文と Marks of Vulcatrix の前置き文は片方の訳を入れるともう片方にルールの違う訳が出る。両版とも ability_texts / group_texts に入れず英語のまま（名前は新しいアキュシー版の訳）。",
+  "陣営パック ファイアスレイヤー 2026年8月の本文のうち、FYRESLAYERS を GRIMMDRON に置き換えれば現行と同じになるもの（Hearthguard Berzerkers の Duty Unto Death など）は、エラッタ 2026年11月がその置換を示していないので採らなかった（英語のまま）。"
+ ],
+ "unit_names": {
+  "Auric Flamekeeper": "オーリック・フレイムキーパー",
+  "Auric Hearthguard": "オーリック・ハースガード",
+  "Auric Runefather": "オーリック・ルーンファーザー",
+  "Auric Runefather on Magmadroth": "オーリック・ルーンファーザー（マグマドロス騎乗）",
+  "Auric Runemaster": "オーリック・ルーンマスター",
+  "Auric Runesmiter": "オーリック・ルーンスマイター",
+  "Auric Runesmiter on Magmadroth": "オーリック・ルーンスマイター（マグマドロス騎乗）",
+  "Auric Runeson": "オーリック・ルーンサン",
+  "Auric Runeson on Magmadroth": "オーリック・ルーンサン（マグマドロス騎乗）",
+  "Battlesmith": "バトルスミス",
+  "Clangunners with Thrundok Rifles": "クランガンナー（スランドック・ライフル装備）",
+  "Clangunners with Thrundrin Shotcannons": "クランガンナー（スランドリン・ショットキャノン装備）",
+  "Clanshields": "クランシールド",
+  "Doomseeker": "ドゥームシーカー",
+  "Gholems of Gazul": "ゴーレム・オヴ・ガズル",
+  "Gholems of Valaya": "ゴーレム・オヴ・ヴァラヤ",
+  "Gotrek Gurnisson": "ゴトレック・グルニソン",
+  "Grimhold Exile": "グリムホールド・エグザイル",
+  "Grimwrath Berzerker": "グリムラース・バーザーカー",
+  "Hearthguard Berzerkers": "ハースガード・バーザーカー",
+  "High Kyng Valankrom": "至高王ヴァランクロム",
+  "Hjulda Drakkblud": "ヒュルダ・ドラックブラッド",
+  "Magmic Battleforge": "溶岩の戦炉",
+  "Molten Infernoth": "溶岩の獄鬼",
+  "Oathkeeper Cannon": "オースキーパー・キャノン",
+  "Ormyr and Ashtongue": "オーミル＆アッシュタン",
+  "Runewright": "ルーンライト",
+  "Runic Fyrewall": "ルーンの焔壁",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth": "アキュシーの禍事 オーリック・ルーンサン（マグマドロス騎乗）",
+  "Scourge of Aqshy: Vulkyn Flameseekers": "アキュシーの禍事 ヴルキン・フレイムシーカー",
+  "Scourge of Ghyran Auric Runeson on Magmadroth": "グューランの禍事 オーリック・ルーンサン（マグマドロス騎乗）",
+  "Stonebreaker Mortar": "ストーンブレーカー・モーター",
+  "Thrynn": "スリン",
+  "Thrynn On War Throne": "スリン（ウォースローン騎乗）",
+  "Valayan Guardians with Rune Axe and Shields": "ヴァラヤン・ガーディアン（ルーンアックス＆シールド装備）",
+  "Valayan Guardians with Runic Halberds": "ヴァラヤン・ガーディアン（ハルバード装備）",
+  "Vulkite Berzerkers": "ヴァルカイト・バーザーカー",
+  "Vulkite Berzerkers with Bladed Slingshields": "ヴァルカイト・バーザーカー（刃ありし投げ盾装備）",
+  "Vulkite Berzerkers with Fyresteel Weapons": "ヴァルカイト・バーザーカー（焔鋼の武器装備）",
+  "Vulkyn Flameseekers": "ヴルキン・フレイムシーカー",
+  "Zharrgron Flame-spitter": "ザールグロンの焔吐き"
+ },
+ "weapon_names": {
+  "Ancestral Weapons": "父祖の武器",
+  "Auric Hearthguard|Magmapike": "マグマパイク",
+  "Auric Runefather on Magmadroth|Latchkey Grandaxe": "掛金鍵の大斧",
+  "Auric Runefather on Magmadroth|Magmadroth’s Maw, Claws and Horns": "マグマドロスの顎、鉤爪、角",
+  "Auric Runefather on Magmadroth|Roaring Fyrestream": "燃え盛る業焔",
+  "Auric Runemaster|Brazier Staff": "火鉢の杖",
+  "Auric Runesmiter|Latch-axe": "掛金の斧",
+  "Battlesmith|Ancestral Battle-axe": "先祖伝来の戦斧",
+  "Brazier Axe": "火鉢の斧",
+  "Clanshields|Kromdron Weapons": "クロムドロンの武器",
+  "Doomseeker|Doomseeker Weapons": "ドゥームシーカーの武器",
+  "Flamestrike Poleaxe": "焔撃の矛槍",
+  "Fyre-rune Hammers": "ファイア＝ルーン・ハンマー",
+  "Fyresteel Handaxes": "焔鋼の手斧",
+  "Fyresteel Weapons": "焔鋼の武器",
+  "Gholems of Gazul|Gazulite Great Hammer": "ガズルの大鎚",
+  "Grimwrath Berzerker|Fyrestorm Greataxe": "焔嵐の巨斧",
+  "Hjulda Drakkblud|Azangrom": "アザングロム",
+  "Latch-axe": "掛金の斧",
+  "Latchkey Grandaxe": "掛金鍵の大斧",
+  "Molten Infernoth|Molten Claws": "溶岩爪",
+  "Molten Infernoth|Raging Torrents of Lava": "溶岩の奔流",
+  "Oathkeeper Cannon|Oathkeeper Crew Tools": "オースキーパー砲手の道具",
+  "Oathkeeper Cannon|Oathkeeper Shot": "オースキーパー砲撃",
+  "Roaring Fyrestream": "燃え盛る業焔",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Ancestral Weapons": "アンセストラルウェポン",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Magmadroth’s Blazing Maw": "マグマドロスの燃え盛る顎",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Magmadroth’s Claws and Horns": "マグマドロスの鉤爪と角",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Roaring Fyrestream": "燃え盛る業焔",
+  "Scourge of Aqshy: Vulkyn Flameseekers|Emberteeth": "残り火の牙",
+  "Scourge of Aqshy: Vulkyn Flameseekers|Vulkyn Weapons": "ヴルキンの武器",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Ancestral Weapons": "父祖の武器",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Magmadroth’s Blazing Maw": "マグマドロスの灼け付く顎",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Magmadroth’s Claws and Horns": "マグマドロスの角と鉤爪",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Roaring Fyrestream": "燃え盛る業焔",
+  "Vulkite Berzerkers with Bladed Slingshields|Fyresteel Weapons": "焔鋼の武器",
+  "Vulkite Berzerkers with Fyresteel Weapons|Fyresteel Weapons": "焔鋼の武器",
+  "Vulkyn Flameseekers|Kyndledroth's Fangs": "キンドルドロスの牙",
+  "Vulkyn Flameseekers|Vulkyn Weapons": "ヴルキンの武器",
+  "Zharrgron Flame-spitter|Magma Blast": "マグマブラスト"
+ },
+ "ability_names": {
+  "Aureate Hide": "黄金の獣皮",
+  "Auric Hearthguard|Molten Rockbolts": "溶岩弾",
+  "Auric Runefather on Magmadroth|Battle Damaged": "バトルダメージ",
+  "Auric Runefather on Magmadroth|Volcanic Blood": "猛炎の血",
+  "Auric Runemaster|High Priest of the Zharrgrim": "ザールグリムの至高神官",
+  "Auric Runemaster|Master of the Runes": "ルーンの匠",
+  "Auric Runesmiter on Magmadroth|Battle Damaged": "バトルダメージ",
+  "Auric Runesmiter|Awaken The Runes": "ルーンの覚醒",
+  "Auric Runeson on Magmadroth|Battle Damaged": "バトルダメージ",
+  "Awaken the Runes": "覚醒のルーン",
+  "Battlesmith|Bard of the Lodge": "ロッジの詩人",
+  "Battlesmith|Icon of Grimnir": "グリムニルの戦旗",
+  "Berserk Charge": "狂戦士の突撃",
+  "Berserk Fury": "狂戦士の激情",
+  "Blazing Impetus": "燃え盛る刺激",
+  "Brazen Intimidation": "猛烈な威圧",
+  "Clanshields|Tough As Stone": "石のごとき頑健性",
+  "Commanding Presence": "威厳ある存在感",
+  "Dauntless Assault": "揺るぎなき強襲",
+  "Deep-Earth Runic Weapon": "深部のルーン武器",
+  "Doomseeker|Oathbound": "誓いを帯びし者",
+  "Doomseeker|Runic Power": "ルーンの力",
+  "Drothmasters": "怪獣使い",
+  "Duty Unto Death": "殉死の義務",
+  "Eager for Battle": "意気軒昂",
+  "Fearless Charge": "恐れ無き突進",
+  "Fiery Reinforcements": "烈火の増援",
+  "Flamescale Rune Cloak": "炎鱗のルーンクローク",
+  "Flaming Runes": "燃え盛るルーン",
+  "Fury for the Fallen": "倒れし者の憤怒",
+  "Fury of Vulcatrix": "ヴァルカトリックスの怒り",
+  "Fyrespawn": "火から生まれしもの",
+  "Fyresteel Throwing Axes": "焔鋼の投げ斧",
+  "Gholems of Gazul|Gazul's Might": "ガズルの力",
+  "Grimwrath Berzerker|Battle-fury": "戦いの熱狂",
+  "Grimwrath Berzerker|Grimwrath Oaths": "グリムラースの誓い",
+  "Grudge-Led Retribution": "宿怨の報い",
+  "Guided by Inghilde": "イングヒルデの導き",
+  "Halo of Flames": "炎の円環",
+  "Hearthflares": "ハースフレア",
+  "Hjulda Drakkblud|Browbeater": "親分肌",
+  "Honour Those With Gazul": "ガズルと共にある者を讃えよ",
+  "Horn of Grimnir": "グリムニルの角笛",
+  "Ichor of the Ur-Salamander": "ウル＝サラマンダーの霊液",
+  "Incandescent Blaze": "灼熱の焔",
+  "Innate Resonance": "内なる共鳴",
+  "Intense Fyrestream": "焦熱の火炎流",
+  "Lashing Tail": "叩きつける尾",
+  "Lodgefather": "ロッジファーザー",
+  "Long Of Beard Or Braid": "長い髭と編み込み髪",
+  "Magmic Battleforge|Cover": "遮蔽物",
+  "Magmic Battleforge|Impassable": "通行不可",
+  "Magmic Battleforge|Molten Blessing": "溶岩の祝福",
+  "Magmic Battleforge|Obscuring": "射線妨害",
+  "Magmic Battleforge|Spending the Forge": "すべての炎を費やす",
+  "Magmic Tunnels": "溶岩の坑道",
+  "Masterflame Rune": "父なる焔のルーン",
+  "Molten Infernoth|Flamescarred": "極熱の傷痍",
+  "Oathkeeper Cannon|Oathkeeper Apprentice Runestriker": "オースキーパーの見習いルーン打ち",
+  "Peerless Lineage": "至上の血脈",
+  "Plant the Icon": "戦旗を地に突き立てよ",
+  "Powerful Presence": "力漲る存在感",
+  "Raging Inferno": "荒れ狂う業火",
+  "Ragnisson's Cobalt Ale": "ラグニソンのコバルト酒",
+  "Royal Retinue": "王家の近衛",
+  "Runic Empowerment": "ルーン強化",
+  "Runic Fyrewall|Roaring Rune-fire": "荒れ狂うルーンの炎",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Battle Damaged": "バトルダメージ",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Fire, Blood and Vengeance": "炎の血讐",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Seeing Red": "紅蓮の怒り",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Volcanic Blood": "猛炎の血",
+  "Scourge of Aqshy: Vulkyn Flameseekers|Fiery Disposition": "宿炎の気質",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Battle Damaged": "バトルダメージ",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Calamitous Crash": "崩壊撃",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Fire, Blood and Vengeance": "炎の血讐",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Volcanic Blood": "猛炎の血",
+  "Settle the Grudge": "宿怨を晴らせ",
+  "Spirit of Grimnir": "グリムニルの魂",
+  "Stoke the Fire": "火を掻き立てる",
+  "Summon Molten Infernoth": "溶岩の獄鬼の召喚",
+  "Summon Runic Fyrewall": "ルーンの焔壁の召喚",
+  "Summon Zharrgron Flame-spitter": "ザールグロンの焔吐きの召喚",
+  "Sworn To Vengeance": "復讐の誓い",
+  "Thickened Scales": "分厚い鱗",
+  "Too Stubborn to Die": "死ぬことのできぬ頑強さ",
+  "Volcanic Blood": "猛炎の血",
+  "Vulkite Berzerkers with Bladed Slingshields|Berserk Fury": "狂戦士の激情",
+  "Vulkite Berzerkers with Fyresteel Weapons|Whirlwind of Destruction": "破壊の旋風",
+  "Vulkite Berzerkers|Whirlwind of Destruction": "破滅の疾風",
+  "Vulkyn Flameseekers|Confounded Beast!": "忌々しい獣め！",
+  "Warrior-Kings": "ロッジの主",
+  "Well-honed Tactics": "磨き上げられた戦術",
+  "Zharrgron Flame-spitter|Magma Blast": "マグマブラスト"
+ },
+ "ability_texts": {
+  "Aureate Hide": {
+   "timing": "リアクション：このユニットが『近接攻撃』アビリティを宣言",
+   "effect": "その『**近接攻撃**』アビリティによって敵の兵が撃破された場合、その『**近接戦闘**』アビリティが解決された直後に、このユニットから12mv以内に全体が入っており、かつこのユニットから視認状態である**カザライト・ホールド・神官**1体を選択する。その後、その**神官**はD3儀式ポイントを得る。"
+  },
+  "Auric Runefather on Magmadroth|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**マグマドロスの顎、鉤爪、角**の【攻撃回数】は4になる。"
+  },
+  "Auric Runefather on Magmadroth|Raging Inferno": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットのセーブロールは-1の修正を受ける。",
+   "keywords": "蹂躙"
+  },
+  "Auric Runefather on Magmadroth|Volcanic Blood": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Auric Runemaster|High Priest of the Zharrgrim": {
+   "timing": "パッシブ",
+   "effect": "このユニットによって祈願された奇蹟が成就した際、そのアビリティが解決された直後に、ダイスを1個ロールする。ロール結果が5+であれば、このユニットは**宿怨マーク**を1個得る。"
+  },
+  "Auric Runemaster|Master of the Runes": {
+   "timing": "自軍側ヒーローフェイズ",
+   "effect": "このユニットから**宿怨マーク**を1個取り除く。そうした場合、そのターン中、このユニットの12mv以内に全体が入っており、かつ視認状態である味方**グリムドロン・歩兵**・ユニットはセーブロールに+1の修正を受ける。"
+  },
+  "Auric Runesmiter on Magmadroth|Lashing Tail": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "2D6をロールする。ロール結果が選択された敵ユニットの兵数以下である場合、選択された敵ユニットはD3+3ポイントの致命的ダメージを受ける。",
+   "keywords": "蹂躙"
+  },
+  "Auric Runesmiter on Magmadroth|Volcanic Blood": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Auric Runeson on Magmadroth|Volcanic Blood": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Battlesmith|Bard of the Lodge": {
+   "timing": "パッシブ",
+   "effect": "このユニットの12mv以内に全体が入っている味方**グリムドロン**・ユニットが『再集結』指揮アビリティを使用する際、自軍はD6の再集結ロールを追加で3回実行できる。"
+  },
+  "Battlesmith|Icon of Grimnir": {
+   "timing": "パッシブ",
+   "effect": "• このユニットの12mv以内に全体が入っており、このユニットから視認状態である味方**グリムドロン**・ユニットは、確保スコアに対するマイナス修正を無視する。\n• このユニットが1個以上の**宿怨マーク**を持つ間、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**グリムドロン**・ユニットは、確保スコアに+3の修正を受ける。"
+  },
+  "Doomseeker|Oathbound": {
+   "timing": "バトル中1回限り（アーミー）、初期配置フェイズ",
+   "declare": "このユニットの獲物として敵ユニットを1個選択する。予備戦力として配置されているユニットを獲物に選んでもよい。",
+   "effect": "獲物を対象としたのユニットの攻撃は、ヒットロールおよびウーンズロールに+1の修正を受ける。\nこのユニットが、自身の獲物と近接戦闘中であるときに全滅した場合、このユニットを全滅させたアビリティが解決された直後に、このユニットの獲物の12mv以内に一部でも入っている各味方**グリムドロン**・ユニットは、それぞれ**宿怨マーク**を1個獲得する。"
+  },
+  "Doomseeker|Runic Power": {
+   "timing": "パッシブ",
+   "effect": "このユニットが受けているダメージが1ポイントである場合、このユニットの近接武器は【ダメージ量】に+1の修正を受ける。\nこのユニットが受けているダメージが2ポイント以上であるならば、このユニットの近接武器は【ダメージ量】に+2の修正を受ける。"
+  },
+  "Grimwrath Berzerker|Battle-fury": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "このユニットが1個以上の**宿怨マーク**を持ち、かつ近接戦闘中である場合、**宿怨マーク**を1個取り除いてもよい。そうした場合、このユニットはこのフェイズ中に『**近接攻撃**』アビリティを2回使用できる。ただし、1回目が使用された後、このユニットはそのフェイズ終了時まで『**後手効果**』を得る。"
+  },
+  "Grimwrath Berzerker|Grimwrath Oaths": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "effect": "このターン中、このユニットの6mv以内に一部でも入っており、かつこのユニットから視認状態であった味方**グリムドロン**・ユニットが1個全滅した場合、このユニットに**宿怨マーク**を1個与えてもよい。"
+  },
+  "Incandescent Blaze": {
+   "timing": "バトル中1回限り、自軍側遠隔フェイズ",
+   "effect": "そのターン中、\n• このユニットの**燃え盛る業焔**の【攻撃回数】は2倍になる。\n• このユニットの**燃え盛る業焔**の【ダメージ量】は3になる。"
+  },
+  "Intense Fyrestream": {
+   "timing": "任意の遠隔フェイズ",
+   "effect": "**憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）その後、そのターン中：\n• このユニットの**随行者**遠隔武器は、【射程】に+Xmvの修正を受け、【攻撃回数】に+Xの修正を受ける。Xは自軍側の**憤激レベル**に等しい。\n• このユニットが装備している**随行者**遠隔武器は**近接射撃**を得る。"
+  },
+  "Magmic Battleforge|Molten Blessing": {
+   "timing": "任意のターン開始時",
+   "declare": "この特殊地形の近接範囲内に一部でも入っている味方**グリムドロン・神官**を1体選択する。",
+   "effect": "そのターン中、\n• 選択された味方神官は祈願ロールに+1の修正を受ける。\n• その味方神官は、自身があたかも**魔術師（1）**であるかのように『打ち消し』アビリティを使用できる。"
+  },
+  "Magmic Battleforge|Spending the Forge": {
+   "timing": "バトル中1回限り（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "戦炉の力を用いるため、この特殊地形の近接範囲内に一部でも入っている味方**グリムドロン・神官**を1体選択する。",
+   "effect": "戦場に配置されている各味方**グリムドロン**・ユニットを、それぞれ**回復（D3）**する。このアビリティが使用された後、この特殊地形はバトル終了時まで『溶岩の祝福』アビリティを使用できない。"
+  },
+  "Molten Infernoth|Flamescarred": {
+   "timing": "任意のターン終了時",
+   "declare": "このターン中、この**顕現**の攻撃によって1ポイント以上のダメージが割り振られた敵ユニットを1個選択する。この**顕現**を召喚したユニットが1個以上の**宿怨マーク**を持つ場合、選択可能な敵ユニットをもう1個選択してもよい。",
+   "effect": "次の自軍側ターン終了時まで、選択された敵ユニットのメレーアタックはウーンズロールに-1の修正を受ける。"
+  },
+  "Peerless Lineage": {
+   "timing": "リアクション：このユニットが『蹂躙』アビリティを宣言",
+   "effect": "その『**蹂躙**』アビリティの対象として選択可能な別のユニットを追加で1個選択できる。ダイスロールが必要な場合は、各ユニットごとにダイスをロールする。"
+  },
+  "Runic Fyrewall|Roaring Rune-fire": {
+   "timing": "敵軍側移動フェイズ",
+   "declare": "この**顕現**の6mv以内に一部でも入っている敵ユニットを最大3個まで選択する。",
+   "effect": "選択された各敵ユニットに対して、それぞれダイスを1個ロールする。この**顕現**を召喚したユニットが1個以上の**宿怨マーク**を持つ場合、そのロールに+1または-1の修正を加えてもよい。\n• ロール結果が1-3であれば、そのターン終了時まで、選択された敵ユニットの確保スコアは-3の修正を受ける。\n• ロール結果が4-6であれば、選択された敵ユニットに2ポイントの致命的ダメージを与える。"
+  },
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**マグマドロスの鉤爪と角**の【攻撃回数】は4になる。"
+  },
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Fire, Blood and Vengeance": {
+   "timing": "初期配置フェイズ",
+   "declare": "戦場に配置されている味方**オーリック・ルーンファーザー（マグマドロス騎乗）**を1体選択する。",
+   "effect": "選択された味方ユニットが近接戦闘中である、あるいは損傷状態である、全滅している場合、このユニットが装備している近接武器の【ダメージ量】は+1の修正を受ける（随行者武器を含む）。"
+  },
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Seeing Red": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "**憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）その後、以下の効果から1つを選択する：\n**怒りの矛先：**このターン中、このユニットが装備している**随行者**近接武器は【攻撃回数】に+1の修正を受ける。\n**憤激の解放：**自軍側の**憤激レベル**に等しい数のダイスをロールする。効果：ロール結果で4+が出るたび、このユニットを**回復（1）**する。\n**憤怒の盾：**このターン中、このユニットは**加護（5+）**を持つ。",
+   "keywords": "蹂躙"
+  },
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Volcanic Blood": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象とするメレーアタックのセーブロールで修正前の出目1が出るたびに、その『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Scourge of Aqshy: Vulkyn Flameseekers|Fiery Disposition": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "effect": "**憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）その後、次の自軍側ターン開始時まで、以下の効果から1個選び適用する。Xは自軍側の**憤激レベル**に等しい。\n**ウル＝サラマンダーの活力：**このユニットは【移動力】に+Xmvの修正を受ける。\n**燃え立つ決意：**このユニットは確保スコアに+Xの修正を受ける。\n**燃え立つ怒り：**このユニットは**残り火の牙**の【攻撃回数】に+Xの修正を受ける。"
+  },
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**マグマドロスの角と鉤爪**の【攻撃回数】は4になる。"
+  },
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Calamitous Crash": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、選択された敵ユニット内にいる各兵に対して、それぞれダイスを1個ロールする。ロール結果で5+が出るたびに、その敵ユニットは1ポイントの致命的ダメージを受ける。",
+   "keywords": "蹂躙"
+  },
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Fire, Blood and Vengeance": {
+   "timing": "バトル中1回限り、初期配置フェイズ",
+   "declare": "戦場に配置されている味方**オーリック・ルーンファーザー（マグマドロス騎乗）**を1体選択する。",
+   "effect": "選択された味方ユニットが近接戦闘中である、あるいは損傷状態である、全滅している場合、このユニットが装備している近接武器の【ダメージ量】は+1の修正を受ける（随行者武器を含む）。"
+  },
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Volcanic Blood": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Spearhead|Auric Hearthguard|Molten Rockbolts": {
+   "timing": "自軍側遠隔フェイズ",
+   "declare": "このターン中、このユニットのレンジアタックによって1ポイント以上のダメージを割り振られた敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された敵ユニットは【移動力】に-1mvの修正を受ける。"
+  },
+  "Spearhead|Auric Runefather on Magmadroth|Volcanic Blood": {
+   "timing": "パッシブ",
+   "effect": "このユニットと近接戦闘中である敵ユニットの確保スコアは-1の修正を受ける。"
+  },
+  "Spearhead|Auric Runesmiter|Awaken The Runes": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方ユニットを1個選択し、D6の祈願ロールをする。",
+   "effect": "ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された味方ユニットを対象とするメレーアタックはウーンズロールに-1の修正を受ける。"
+  },
+  "Spearhead|Awaken the Runes": {
+   "timing": "各バトルラウンドにつき1回、自軍側ターン開始時",
+   "declare": "右記に示されている**ウル＝ゴールドのルーン**を1個選択し、D6の**覚醒ロール**をする。各ウル＝ゴールドのルーンは、バトル中1回だけ覚醒させることができる。",
+   "effect": "ロール結果が1-5であれば、ルーンには**標準の効果**が適用される。ロール結果が6であれば、ルーンに**強化型の効果**も適用される。適用された効果は、次の自軍側ターン開始時まで継続する。"
+  },
+  "Spearhead|Battlesmith|Icon of Grimnir": {
+   "timing": "パッシブ",
+   "effect": "このユニットの12mv以内に全体が入っている間、味方ユニットのセーブロールは+1の修正を受ける。"
+  },
+  "Spearhead|Battlesmith|Plant the Icon": {
+   "timing": "バトル中1回限り、任意のヒーローフェイズ",
+   "effect": "そのターン中、このユニットの12mv以内に全体が入っている間、味方ユニットは**加護（5+）**を持つ。"
+  },
+  "Spearhead|Berserk Charge": {
+   "timing": "バトル中1回限り（アーミー）、リアクション：味方ユニットが『突撃』アビリティを宣言",
+   "effect": "その味方ユニットは突撃ロールをリロールできる。リロールした場合、次の自軍側ターン開始時まで、その『**突撃**』アビリティを使用したユニットは、現在のターン中に突撃したならば『**先手効果**』を得る。"
+  },
+  "Spearhead|Brazen Intimidation": {
+   "timing": "バトル中1回限り、自軍側ヒーローフェイズ",
+   "declare": "自軍側ジェネラルの12mv以内に一部でも入っており、かつそのジェネラルから視認状態である敵ユニットを1個選択する。",
+   "effect": "次の自軍側ターン開始時まで、選択された敵ユニットの確保スコアは-D6の修正を受ける。"
+  },
+  "Spearhead|Clanshields|Tough As Stone": {
+   "timing": "パッシブ",
+   "effect": "このユニット内の各兵が自軍側が確保している作戦目標を争奪中である間、このユニットを対象とするメレーアタックに使用される武器は【貫通値】に-1の修正を受ける。\nこのユニットが**宿怨マーク**を1個でも持つ間、代わりに、このユニットが敵軍側陣地内に全体が入っているならば、このユニットを対象とする攻撃に使用される武器は【貫通値】に-1の修正を受ける。"
+  },
+  "Spearhead|Eager for Battle": {
+   "timing": "バトル中1回限り（アーミー）、初期配置フェイズ",
+   "declare": "**大型獣**でない味方ユニットを1個選択する。",
+   "effect": "選択された味方ユニットは、あたかも自軍側移動フェイズ中であるかのように『通常移動』アビリティを使用できる。"
+  },
+  "Spearhead|Fiery Reinforcements": {
+   "timing": "自軍側ターン開始時",
+   "effect": "このユニットを戦場端から1mv以内に全体が入るように、かつあらゆる敵ユニットから6mvより遠く離れた戦場の位置に配置する。"
+  },
+  "Spearhead|Flaming Runes": {
+   "timing": "各ターンにつき1回（アーミー）、敵軍側ターン終了時",
+   "declare": "味方ユニットを1個選択し、このアビリティを使用する。その後、選択された味方ユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "ダイスを6個ロールする。ロール結果で4+が出るたびに、その敵ユニットは1ポイントの致命的ダメージを受ける。このアビリティを使用したユニットは、以降バトル終了時まで、このアビリティを再び使用することはできない。"
+  },
+  "Spearhead|Fury for the Fallen": {
+   "timing": "パッシブ",
+   "effect": "自軍側**ヴルキン・フレイムシーカー**および**オーリック・ハースガード**・ユニットは、自身の兵の数が初期兵数の半分以下である間、その使用する近接武器は【攻撃回数】に+1の修正を受ける。\n自軍側**オーリック・ルーンスマイター**が3ポイント以上のダメージを受けている場合、その装備している近接武器は【攻撃回数】に+1の修正を受ける。\n自軍側ジェネラルが8ポイント以上のダメージを受けている場合、その近接武器は【攻撃回数】に+1の修正を受ける。"
+  },
+  "Spearhead|Fyrespawn": {
+   "timing": "任意のターン終了時",
+   "declare": "自軍側ジェネラルと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "選択された敵ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Spearhead|Fyresteel Throwing Axes": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+   "declare": "1個以上の敵ユニットの10mv以内に一部でも入っており、かつ近接戦闘中ではない味方ユニットを任意の数だけ選択する。",
+   "effect": "選択された各味方ユニットは、それぞれ自身から10mv以内に一部でも入っており、かつ視認状態である敵ユニットを1個選択し、ダイスを1個ロールする。ロール結果が4+であれば、ロール対象の敵ユニットはD3ポイントの致命的ダメージを受ける。"
+  },
+  "Spearhead|Gholems of Gazul|Gazul's Might": {
+   "timing": "パッシブ",
+   "effect": "このユニットが現在のターン中に突撃していた場合、このユニットは確保スコアに+2の修正を受ける。"
+  },
+  "Spearhead|Grudge-Led Retribution": {
+   "timing": "敵軍側遠隔フェイズ",
+   "declare": "このフェイズ中に1ポイント以上のダメージを割り振られた、近接戦闘中ではない味方ユニットを1個選択する。",
+   "effect": "選択された味方ユニットは、あたかも自軍側移動フェイズ中であるかのように『通常移動』アビリティを使用できる。"
+  },
+  "Spearhead|Guided by Inghilde": {
+   "timing": "バトル中1回限り、任意のヒーローフェイズ",
+   "declare": "味方**歩兵**ユニットを1個選択する。",
+   "effect": "選択された味方ユニットを戦場から取り除き、あらゆる敵ユニットから6mvより遠く離れた戦場の位置に再配置する。"
+  },
+  "Spearhead|Halo of Flames": {
+   "timing": "バトル中1回限り、任意の近接フェイズ",
+   "effect": "このターン中、自軍側ジェネラルは**加護（4+）**を持つ。その後、次のターン開始時から以降バトル終了時まで、自軍側ジェネラルは加護ロールに-1の修正を受ける。"
+  },
+  "Spearhead|Hearthguard Berzerkers|Duty Unto Death": {
+   "timing": "パッシブ",
+   "effect": "自軍側ジェネラルがこのユニットの近接範囲内に全体が入っている間、このユニットと自軍側ジェネラルは**加護（5+）**を持つ。"
+  },
+  "Spearhead|Hjulda Drakkblud|Browbeater": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**クランシールド**・ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。このユニットが**宿怨マーク**を1個でも持つ場合、そのロールをリロールできる。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された味方ユニットが装備している武器は【貫通値】に+1の修正を受ける。"
+  },
+  "Spearhead|Honour Those With Gazul": {
+   "timing": "各ターンにつき1回、自軍側ヒーローフェイズ",
+   "effect": "味方ユニット1個に**宿怨マーク**を1個与える。"
+  },
+  "Spearhead|Horn of Grimnir": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "近接戦闘中ではない自軍側ジェネラルを選択し、このアビリティを使用する。",
+   "effect": "戦場に配置されている各味方ユニットに対して、そのユニット内の兵が1体以上撃破されている場合、それぞれダイスを1個ロールする。ロール結果が3+であれば、ロール対象の味方ユニットに撃破された兵1体を復帰させることができる。"
+  },
+  "Spearhead|Lodgefather": {
+   "timing": "パッシブ",
+   "effect": "自軍側ジェネラルの3mv以内に全体が入っている**大型獣**でない味方ユニットは、加護ロールに+1の修正を受ける。"
+  },
+  "Spearhead|Magmic Tunnels": {
+   "timing": "バトル中1回限り、第1バトルラウンドの開始時",
+   "effect": "味方ユニットを最大2個まで選択する。選択された味方ユニットを戦場から取り除き、あらゆる敵ユニットから6mvより遠く離れた戦場の位置に再配置する。"
+  },
+  "Spearhead|Oathkeeper Cannon|Oathkeeper Apprentice Runestriker": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+   "declare": "このターン中、このユニットによるすべてのレンジアタックの対象となった敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。このユニットが**宿怨マーク**を1個でも持つ間、そのロールをリロールできる。ロール結果が3+であれば、以下の効果から1つ選択する。\n**粉砕のルーン：**次の自軍側ターン開始時まで、選択された敵ユニットのメレーアタックはウーンズロールに-1の修正を受ける。次の自軍側ターンに、この効果を選ぶことはできない。\n**燃焼のルーン：**そのターン中、選択された敵ユニットを対象とするメレーアタックはヒットロールに+1の修正を受ける。次の自軍側ターンに、この効果を選ぶことはできない。\n**衝撃のルーン：**そのターン中、選択された敵ユニットは『**後手効果**』を得る。次の自軍側ターンに、この効果を選ぶことはできない。"
+  },
+  "Spearhead|Powerful Presence": {
+   "timing": "パッシブ",
+   "effect": "自軍側ジェネラルの確保スコアは+3の修正を受ける。"
+  },
+  "Spearhead|Ragnisson's Cobalt Ale": {
+   "timing": "パッシブ",
+   "effect": "自軍側ジェネラルが装備している近接武器は【攻撃回数】に+2の修正を受ける。"
+  },
+  "Spearhead|Settle the Grudge": {
+   "timing": "バトル中1回限り、初期配置フェイズ",
+   "declare": "敵ユニットを1個選択し、**宿怨の標的**とする。",
+   "effect": "このバトル中、味方**歩兵**・ユニットが**宿怨の標的**・ユニットを対象とするメレーアタックは、ヒットロールの出目1をリロールできる。"
+  },
+  "Spearhead|Spirit of Grimnir": {
+   "timing": "パッシブ",
+   "effect": "『ウル＝ゴールドのルーン』アビリティ（戦闘特性参照）の**覚醒ロール**をリロールできる。"
+  },
+  "Spearhead|Stoke the Fire": {
+   "timing": "バトル中1回限り、自軍側遠隔フェイズ",
+   "effect": "そのフェイズ中、\n• 自軍側ジェネラルの**燃え盛る業焔**の【攻撃回数】は4ではなくD3+4になる。\n• このユニットによるレンジアタックのヒットロールで修正前の出目1が出るたび、その『**遠隔攻撃**』アビリティが解決された直後に、自軍側ジェネラルにD3ポイントのダメージを割り振る（これらのダメージに対して加護ロールはできない）。"
+  },
+  "Spearhead|Too Stubborn to Die": {
+   "timing": "任意のターン開始時",
+   "effect": "自軍側ジェネラルを**回復（D3）**する。"
+  },
+  "Spearhead|Vulkite Berzerkers|Whirlwind of Destruction": {
+   "timing": "パッシブ",
+   "effect": "現在のターン中にこのユニットが突撃を実行している場合、このユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。"
+  },
+  "Spearhead|Vulkyn Flameseekers|Confounded Beast!": {
+   "timing": "任意の近接フェイズ",
+   "declare": "このユニットが**キンドルドロス**を有する場合、このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットのメレーアタックはヒットロールに-1の修正を受ける。"
+  },
+  "Spearhead|Well-honed Tactics": {
+   "timing": "バトル中1回限り、自軍側移動フェイズ",
+   "declare": "自軍側ジェネラルの12mv以内に全体が入っており、かつそのジェネラルから視認状態である味方ユニットを1個選択する。",
+   "effect": "このユニットは、現在のターン中に『**退却**』アビリティを使用していたとしても、そのターン中に『**突撃**』アビリティを使用できる。加えて、このターン中、このユニットは『**退却**』アビリティによる致命的ダメージを受けない。"
+  },
+  "Summon Molten Infernoth": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この奇蹟を祈願する際に、味方**グリムドロン・神官**を1体選択し、D6の祈願ロールをする。",
+   "effect": "祈願者の12mv以内に全体が入るように、かつ祈願者から視認状態であり、なおかつあらゆる敵ユニットから9mvより遠く離れた位置に**溶岩の獄鬼**を1個配置する。",
+   "keywords": "奇蹟、召喚"
+  },
+  "Summon Runic Fyrewall": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この奇蹟を祈願する際に、味方**グリムドロン・神官**を1体選択し、D6の祈願ロールをする。",
+   "effect": "祈願者の12mv以内に全体が入るように、かつ祈願者から視認状態である位置に**ルーンの焔壁**を1個配置する。",
+   "keywords": "奇蹟、召喚"
+  },
+  "Summon Zharrgron Flame-spitter": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この奇蹟を祈願する際に、味方**グリムドロン・神官**を1体選択し、D6の祈願ロールをする。",
+   "effect": "祈願者の12mv以内に全体が入るように、かつ祈願者から視認状態である位置に**ザールグロンの焔吐き**を1個配置する。",
+   "keywords": "奇蹟、召喚"
+  },
+  "Thickened Scales": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象とする攻撃に使用される武器の【貫通値】は-1の修正を受ける。"
+  },
+  "Vulkite Berzerkers with Bladed Slingshields|Berserk Fury": {
+   "timing": "パッシブ",
+   "effect": "このユニット内の兵1体がメレーアタックよって撃破されるたび、撃破された兵が攻撃側ユニットと近接戦闘中であった場合、ダイスを1個ロールする。このユニットが1個以上の**宿怨マーク**を持つ場合、ロールは+1の修正を受ける。ロール結果が6+であれば、その『**近接攻撃**』アビリティの解決直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Vulkite Berzerkers with Fyresteel Weapons|Whirlwind of Destruction": {
+   "timing": "パッシブ",
+   "effect": "このユニットが1個以上の**宿怨マーク**を持つ間、このユニットは近接武器の【攻撃回数】に+1の修正を受ける。"
+  },
+  "Zharrgron Flame-spitter|Magma Blast": {
+   "timing": "パッシブ",
+   "effect": "この**顕現**を召喚したユニットが1個以上の**宿怨マーク**を持つ場合、この**顕現**のレンジアタックはヒットロールに+1の修正を受ける。"
+  }
+ },
+ "keyword_names": {
+  "Champion": "豪傑",
+  "Champion (1/9)": "豪傑（1/9）",
+  "Duardin": "ドゥアーディン",
+  "Faction Terrain": "陣営地形",
+  "Fly": "飛行",
+  "Fyreslayers": "ファイアスレイヤー",
+  "Grimmdron": "グリムドロン",
+  "Hero": "英雄",
+  "Infantry": "歩兵",
+  "Invocation": "神秘現象",
+  "Khazalite Holds": "カザライト・ホールド",
+  "Kromdron": "クロムドロン",
+  "Magmadroth": "マグマドロス",
+  "Manifestation": "顕現",
+  "Monster": "大型獣",
+  "Musician (1/10)": "楽士（1/10）",
+  "Order": "秩序の大同盟",
+  "Priest": "神官",
+  "Priest (1)": "神官（1）",
+  "Reinforcements": "増援",
+  "War Machine": "戦闘兵器",
+  "Ward (6+)": "加護（6+）",
+  "Warmaster": "総大将",
+  "Wizard (1)": "魔術師（1）"
+ },
+ "weapon_ability_names": {
+  "Anti-INFANTRY (+1 Rend)": "対歩兵（+1貫通値）",
+  "Anti-MONSTER (+1 Rend)": "対大型獣（+1貫通値）",
+  "Anti-charge (+1 Rend)": "対突撃（+1貫通値）",
+  "Companion": "随行者",
+  "Crit (2 Hits)": "クリティカル（2ヒット）",
+  "Crit (Mortal)": "クリティカル（致命的）",
+  "Shoot in Combat": "近接射撃"
+ },
+ "group_names": {
+  "Ancestor God Recitations": "祖神の暗誦",
+  "Drakkblud's Clanguard": "ドラックブラッドの氏族衛士隊",
+  "Hearthsworn Defenders": "炉の誓約衛兵",
+  "Magmic Fyrd": "岩漿召集軍",
+  "Magmic Invocations": "溶岩の奇蹟",
+  "Marks of Vulcatrix": "ヴァルカトリックスの神印",
+  "Resonance Of The Runes": "ルーンの共鳴",
+  "Reverberations Of The Runes": "ルーンの残響",
+  "Saga Axeband": "語り継がれし斧団",
+  "Unyielding Anvil": "揺るがざる金床",
+  "Vulkyn Gifts": "ヴルキンの恩寵",
+  "War Callers": "いくさ喚び",
+  "Wayfarer Nomads": "旅する放浪民"
+ },
+ "group_texts": {
+  "Drakkblud's Clanguard Enhancements": "自軍側ジェネラルに、以下の強化の中から1つを付与する。",
+  "Drakkblud's Clanguard Regiment Abilities": "以下の連隊アビリティの中から1つを選択する。",
+  "Magmic Fyrd Enhancements": "自軍側ジェネラルに、以下の強化の中から1つを付与する。",
+  "Magmic Fyrd Regiment Abilities": "以下の連隊アビリティの中から1つを選択する。",
+  "Saga Axeband Enhancements": "自軍のジェネラルに、以下の強化の中から1つを付与する。",
+  "Saga Axeband Regiment Abilities": "以下の連隊アビリティの中から1つを選択する。"
+ },
+ "wargear_option_texts": {
+  "Magmic Battleforge": "以下の共通特殊地形アビリティが、この特殊地形に適用される（特殊地形、1.2）：遮蔽物、通行不可、射線妨害",
+  "Scourge of Aqshy: Vulkyn Flameseekers": "このユニット内にいる各兵は『ヴルキンの武器』を装備している。\n• 1/9の兵はキンドルドロスであり、その武器を「残り火の牙」に置き換える。\n• 豪傑はヴルキン・ルーンファーザーであり、その武器を置き換えることはできない。"
+ },
+ "faction_name": "カザライト・ホールド"
+}

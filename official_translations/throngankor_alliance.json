@@ -1,0 +1,719 @@
+{
+ "_faction": "スロンガンコール連合軍 (Throngankor Alliance)",
+ "_source": [
+  "ユニット（ウォースクロール）の訳は official_translations/khazalite_holds.json から写した",
+  "カラドロン・オーヴァーロードのユニットの訳は official_translations/kharadron_overlords.json（書籍とルール・アップデート 2026年9月）から写した",
+  "faction_name: ルール・アップデート 2026年11月（日本語版）p.55（ルーンライト『ドゥアーディンの輸送』の改訂・FAQ）の「スロンガンコール連合軍」"
+ ],
+ "_notes": [
+  "khazalite_holds と同じ資料・同じ訳（inventory にあるキーだけ）。詳細は khazalite_holds の _notes。",
+  "名高き軍勢のルール本体（バトルトーム：カザライト・ホールド）の日本語版は手元に無いので、陣営ルール（戦闘特性・英雄特性・神器・伝承）は英語のまま。"
+ ],
+ "unit_names": {
+  "Aether-Khemist": "エーテル・ケミスト",
+  "Aetheric Navigator": "エーテリック・ナヴィゲイター",
+  "Arkanaut Admiral": "アルカノート・アドミラル",
+  "Arkanaut Company": "アルカノート・カンパニー",
+  "Arkanaut Frigate": "アルカノート・フリゲート",
+  "Arkanaut Ironclad": "アルカノート・アイアンクラッド",
+  "Auric Flamekeeper": "オーリック・フレイムキーパー",
+  "Auric Hearthguard": "オーリック・ハースガード",
+  "Auric Runefather": "オーリック・ルーンファーザー",
+  "Auric Runefather on Magmadroth": "オーリック・ルーンファーザー（マグマドロス騎乗）",
+  "Auric Runemaster": "オーリック・ルーンマスター",
+  "Auric Runesmiter": "オーリック・ルーンスマイター",
+  "Auric Runesmiter on Magmadroth": "オーリック・ルーンスマイター（マグマドロス騎乗）",
+  "Auric Runeson": "オーリック・ルーンサン",
+  "Auric Runeson on Magmadroth": "オーリック・ルーンサン（マグマドロス騎乗）",
+  "Auto-Endrin": "オートエンドリン",
+  "Battlesmith": "バトルスミス",
+  "Brokk Grungsson, Lord-Magnate of Barak-Nar": "バラク＝ナール富貴卿ブロック・グランソン",
+  "Clangunners with Thrundok Rifles": "クランガンナー（スランドック・ライフル装備）",
+  "Clangunners with Thrundrin Shotcannons": "クランガンナー（スランドリン・ショットキャノン装備）",
+  "Clanshields": "クランシールド",
+  "Codewright": "コードライト",
+  "Doomseeker": "ドゥームシーカー",
+  "Drekki Flynt": "ドレッキ・フリント",
+  "Endrinmaster with Dirigible Suit": "エンドリンマスター（可導気球スーツ装備）",
+  "Endrinmaster with Endrinharness": "エンドリンマスター（エンドリンハーネス装備）",
+  "Endrinriggers": "エンドリン・リガー",
+  "Gholems of Gazul": "ゴーレム・オヴ・ガズル",
+  "Gholems of Valaya": "ゴーレム・オヴ・ヴァラヤ",
+  "Gotrek Gurnisson": "ゴトレック・グルニソン",
+  "Grimhold Exile": "グリムホールド・エグザイル",
+  "Grimwrath Berzerker": "グリムラース・バーザーカー",
+  "Grundstok Gunhauler": "グランドストック・ガンハウラー",
+  "Grundstok Thunderers": "グランドストック・サンダラー",
+  "Hearthguard Berzerkers": "ハースガード・バーザーカー",
+  "High Kyng Valankrom": "至高王ヴァランクロム",
+  "Hjulda Drakkblud": "ヒュルダ・ドラックブラッド",
+  "Magmic Battleforge": "溶岩の戦炉",
+  "Null-Khemist": "ナル・ケミスト",
+  "Oathkeeper Cannon": "オースキーパー・キャノン",
+  "Ormyr and Ashtongue": "オーミル＆アッシュタン",
+  "Runewright": "ルーンライト",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth": "アキュシーの禍事 オーリック・ルーンサン（マグマドロス騎乗）",
+  "Scourge of Aqshy: Endrinriggers": "アキュシーの禍事 エンドリン・リガー",
+  "Scourge of Aqshy: Null-Khemist": "アキュシーの禍事 ナル・ケミスト",
+  "Scourge of Aqshy: Vulkyn Flameseekers": "アキュシーの禍事 ヴルキン・フレイムシーカー",
+  "Scourge of Ghyran Auric Runeson on Magmadroth": "グューランの禍事 オーリック・ルーンサン（マグマドロス騎乗）",
+  "Scourge of Ghyran Codewright": "グューランの禍事 コードライト",
+  "Scourge of Ghyran Grundstok Gunhauler": "グューランの禍事 グランドストック・ガンハウラー",
+  "Skywardens": "スカイウォーデン",
+  "Stonebreaker Mortar": "ストーンブレーカー・モーター",
+  "Thrynn": "スリン",
+  "Thrynn On War Throne": "スリン（ウォースローン騎乗）",
+  "Thundrik's Profiteers": "サンドリック武装商隊",
+  "Valayan Guardians with Rune Axe and Shields": "ヴァラヤン・ガーディアン（ルーンアックス＆シールド装備）",
+  "Valayan Guardians with Runic Halberds": "ヴァラヤン・ガーディアン（ハルバード装備）",
+  "Vongrim Harpoon Crew": "フォングリムの銛打ち衆",
+  "Vongrim Salvagers": "フォングリム・サルヴェイジャー",
+  "Vulkite Berzerkers with Bladed Slingshields": "ヴァルカイト・バーザーカー（刃ありし投げ盾装備）",
+  "Vulkite Berzerkers with Fyresteel Weapons": "ヴァルカイト・バーザーカー（焔鋼の武器装備）",
+  "Vulkyn Flameseekers": "ヴルキン・フレイムシーカー",
+  "Zontari Endrin Dock": "ゾンターリ・エンドリン船渠"
+ },
+ "weapon_names": {
+  "Aethercannon": "エーテルキャノン",
+  "Aetheric Fumigator or Decksweeper": "エーテリック・フュミゲイターまたはデッキスイーパー",
+  "Aethermatic Saw": "エーテル駆動式の鋸",
+  "Aethermatic Volley Gun": "エーテル駆動式ヴォレイガン",
+  "Aethermight Hammer": "エーテルマイト・ハンマー",
+  "Aethershock Torpedoes": "エーテルショック魚雷",
+  "Aethershot Pistol": "エーテルショット・ピストル",
+  "Aethershot Rifle": "エーテルショット・ライフル",
+  "Ancestral Weapons": "父祖の武器",
+  "Arkanaut Hand Weapon": "アルカノートの携帯武器",
+  "Atmospheric Anatomiser": "大気組成分析器",
+  "Auric Hearthguard|Magmapike": "マグマパイク",
+  "Auric Runefather on Magmadroth|Latchkey Grandaxe": "掛金鍵の大斧",
+  "Auric Runefather on Magmadroth|Magmadroth’s Maw, Claws and Horns": "マグマドロスの顎、鉤爪、角",
+  "Auric Runefather on Magmadroth|Roaring Fyrestream": "燃え盛る業焔",
+  "Auric Runemaster|Brazier Staff": "火鉢の杖",
+  "Auric Runesmiter|Latch-axe": "掛金の斧",
+  "Battlesmith|Ancestral Battle-axe": "先祖伝来の戦斧",
+  "Battletome": "バトルトーム",
+  "Boarding Weapons": "移乗武装",
+  "Brazier Axe": "火鉢の斧",
+  "Brokk’s Aethermatic Saw": "ブロック専用エーテル駆動式の鋸",
+  "Clanshields|Kromdron Weapons": "クロムドロンの武器",
+  "Dirigible Suit Weapon Battery": "可導気球スーツ砲",
+  "Doomseeker|Doomseeker Weapons": "ドゥームシーカーの武器",
+  "Fyre-rune Hammers": "ファイア＝ルーン・ハンマー",
+  "Fyresteel Weapons": "焔鋼の武器",
+  "Gholems of Gazul|Gazulite Great Hammer": "ガズルの大鎚",
+  "Great Sky Ordnance": "グレート・スカイ兵器",
+  "Grimwrath Berzerker|Fyrestorm Greataxe": "焔嵐の巨斧",
+  "Grundstok Mortar or Aethercannon": "グランドストック迫撃砲またはエーテルキャノン",
+  "Grungsson’s Boast": "グランソンの御自慢砲",
+  "Grunnsson’s Axe": "グランソンの斧",
+  "Gun Butt": "銃床",
+  "Heavy Instruments": "重器具",
+  "Heavy Sky Ordnance": "ヘヴィ・スカイ兵器",
+  "Hjulda Drakkblud|Azangrom": "アザングロム",
+  "Latch-axe": "掛金の斧",
+  "Latchkey Grandaxe": "掛金鍵の大斧",
+  "Masterwork Volley Pistol": "傑作ヴォレイピストル",
+  "Null-gas Extinguisher": "ナルガス無力化機器",
+  "Oathkeeper Cannon|Oathkeeper Crew Tools": "オースキーパー砲手の道具",
+  "Oathkeeper Cannon|Oathkeeper Shot": "オースキーパー砲撃",
+  "Pioneer Weapons": "工兵戎具",
+  "Privateer Heavy Weapon": "プライヴェーティア重火器",
+  "Privateer Pistol": "プライヴェーティア・ピストル",
+  "Prospecting Clamp": "探鉱クランプ",
+  "Ranging Pistol": "レンジングピストル",
+  "Rapid-fire Rivet Gun": "ラピッドファイア・リベットガン",
+  "Roaring Fyrestream": "燃え盛る業焔",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Ancestral Weapons": "アンセストラルウェポン",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Magmadroth’s Blazing Maw": "マグマドロスの燃え盛る顎",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Magmadroth’s Claws and Horns": "マグマドロスの鉤爪と角",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Roaring Fyrestream": "燃え盛る業焔",
+  "Scourge of Aqshy: Endrinriggers|Aethermatic Saw": "エーテル駆動式の鋸",
+  "Scourge of Aqshy: Endrinriggers|Aethermatic Volley Gun": "エーテル駆動式ヴォレイガン",
+  "Scourge of Aqshy: Endrinriggers|Gun Butt": "銃床",
+  "Scourge of Aqshy: Endrinriggers|Rapid-fire Rivet Gun": "ラピッドファイア・リベットガン",
+  "Scourge of Aqshy: Endrinriggers|Skyrigger Heavy Weapon": "スカイリガーの重火器",
+  "Scourge of Aqshy: Null-Khemist|Null-gas Extinguisher": "ナルガス無力化機器",
+  "Scourge of Aqshy: Null-Khemist|Prospecting Clamp": "探鉱クランプ",
+  "Scourge of Aqshy: Vulkyn Flameseekers|Emberteeth": "残り火の牙",
+  "Scourge of Aqshy: Vulkyn Flameseekers|Vulkyn Weapons": "ヴルキンの武器",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Ancestral Weapons": "父祖の武器",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Magmadroth’s Blazing Maw": "マグマドロスの灼け付く顎",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Magmadroth’s Claws and Horns": "マグマドロスの角と鉤爪",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Roaring Fyrestream": "燃え盛る業焔",
+  "Scourge of Ghyran Codewright|Aethershot Pistol": "エーテルショット・ピストル",
+  "Scourge of Ghyran Codewright|Battletome": "バトルトーム",
+  "Scourge of Ghyran Grundstok Gunhauler|Bombs and Boarding Weapons": "爆弾と移乗攻撃用武器",
+  "Scourge of Ghyran Grundstok Gunhauler|Sky Ordnance": "スカイ兵器",
+  "Skalfhammer": "スカルフハンマー",
+  "Sky Ordnance": "スカイ兵器",
+  "Skydrake Harpoon or Firearm": "スカイドレイク・ハープーンまたは小火器",
+  "Skypike": "スカイパイク",
+  "Skyrigger Heavy Weapon": "スカイリガーの重火器",
+  "Skywarden's Skypike": "スカイウォーデンのスカイパイク",
+  "The Aethermatic Equaliser Mk. III": "エーテル駆動式エコライザーMk. III",
+  "The Magnate’s Charter": "富豪の特権銃",
+  "Thundrik's Profiteers|Aethermatic Anatomiser": "エーテルマティック・アナトマイザー",
+  "Thundrik's Profiteers|Aethermatic Firearms": "エーテルマティック・ファイアアーム",
+  "Thundrik's Profiteers|Arkanaut Cutter": "アルカノート・カッター",
+  "Thundrik's Profiteers|Skypike": "スカイパイク",
+  "Upgraded Aethermatic Saw": "強化型エーテル駆動式の鋸",
+  "Vongrim Cutlass": "フォングリム舶刀",
+  "Vulcaniser Pistol": "ヴァルカナイザー・ピストル",
+  "Vulkite Berzerkers with Bladed Slingshields|Fyresteel Weapons": "焔鋼の武器",
+  "Vulkite Berzerkers with Fyresteel Weapons|Fyresteel Weapons": "焔鋼の武器",
+  "Vulkyn Flameseekers|Kyndledroth's Fangs": "キンドルドロスの牙",
+  "Vulkyn Flameseekers|Vulkyn Weapons": "ヴルキンの武器",
+  "Zephyrscope": "風読鏡"
+ },
+ "ability_names": {
+  "'Aye Aye, Captain!'": "「合点でさ、船長！」",
+  "Advisory Role": "顧問の助言",
+  "Aetheric Augmentation": "エーテル強化",
+  "Aethershot Overwatch": "エーテルショットの警戒射撃",
+  "Aethersight": "エーテル眼",
+  "Assault Boat": "強襲艇",
+  "Atmospheric Isolation": "大気からの隔絶",
+  "Auric Hearthguard|Molten Rockbolts": "溶岩弾",
+  "Auric Runefather on Magmadroth|Battle Damaged": "バトルダメージ",
+  "Auric Runefather on Magmadroth|Volcanic Blood": "猛炎の血",
+  "Auric Runemaster|High Priest of the Zharrgrim": "ザールグリムの至高神官",
+  "Auric Runemaster|Master of the Runes": "ルーンの匠",
+  "Auric Runesmiter on Magmadroth|Battle Damaged": "バトルダメージ",
+  "Auric Runeson on Magmadroth|Battle Damaged": "バトルダメージ",
+  "Auxiliary Skyhook": "補助スカイフック",
+  "Battle Damaged": "バトルダメージ",
+  "Battlesmith|Bard of the Lodge": "ロッジの詩人",
+  "Battlesmith|Icon of Grimnir": "グリムニルの戦旗",
+  "Berserk Fury": "狂戦士の激情",
+  "Bring Every Gun to Bear!": "「全砲、発射！」",
+  "Captain of the Aelsling": "アエルスリング号の船長",
+  "Clanshields|Tough As Stone": "石のごとき頑健性",
+  "Combat Engineers": "戦闘工兵員",
+  "Command the Fleet": "艦隊司令",
+  "Commanding Presence": "威厳ある存在感",
+  "Cover": "遮蔽物",
+  "Dauntless Assault": "揺るぎなき強襲",
+  "Doomseeker|Oathbound": "誓いを帯びし者",
+  "Doomseeker|Runic Power": "ルーンの力",
+  "Drothmasters": "怪獣使い",
+  "Duty Unto Death": "殉死の義務",
+  "Emergency Field Repairs": "緊急野戦修理",
+  "Endrinworks Outpost": "エンドリン前哨部隊",
+  "Expendable Munitions": "使い捨て兵器",
+  "Fearless Charge": "恐れ無き突進",
+  "First Rule of Grungsson": "グランソンの第一原則",
+  "Grimwrath Berzerker|Battle-fury": "戦いの熱狂",
+  "Grimwrath Berzerker|Grimwrath Oaths": "グリムラースの誓い",
+  "Grizzled Buccaneers": "白髭混じりの海賊",
+  "Grudgeblast Auto-Endrin": "グラッジブラスト・オートエンドリン",
+  "Heavy Bomb Racks": "大型爆弾ラック",
+  "Impassable": "通行不可",
+  "Incoming!": "敵接近！",
+  "Lashing Tail": "叩きつける尾",
+  "Light Bomb Racks": "小型爆弾ラック",
+  "Light Endrinpacks": "軽量型エンドリンパック",
+  "Long-line Slings": "帆桁の吊り鎖",
+  "Magmic Battleforge|Cover": "遮蔽物",
+  "Magmic Battleforge|Impassable": "通行不可",
+  "Magmic Battleforge|Molten Blessing": "溶岩の祝福",
+  "Magmic Battleforge|Obscuring": "射線妨害",
+  "Magmic Battleforge|Spending the Forge": "すべての炎を費やす",
+  "Masterflame Rune": "父なる焔のルーン",
+  "Medium Bomb Racks": "中型爆弾ラック",
+  "Mobile Repairs": "可搬式補修機器",
+  "Moustache-mounted Aetherblasters": "口ひげ内臓式エーテルブラスター",
+  "Nullifier Auto-Endrin": "ナルファイアー・オートエンドリン",
+  "Nullsuit": "ナルスーツ",
+  "Oathkeeper Cannon|Oathkeeper Apprentice Runestriker": "オースキーパーの見習いルーン打ち",
+  "Protection of the Void": "虚無の防護",
+  "Raging Inferno": "荒れ狂う業火",
+  "Read the Winds": "風読み",
+  "Release The Auto-Endrins": "オートエンドリン出撃",
+  "Repair Routines": "修理ルーチン",
+  "Royal Retinue": "王家の近衛",
+  "Runic Empowerment": "ルーン強化",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Battle Damaged": "バトルダメージ",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Fire, Blood and Vengeance": "炎の血讐",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Seeing Red": "紅蓮の怒り",
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Volcanic Blood": "猛炎の血",
+  "Scourge of Aqshy: Endrinriggers|We're Working Here!": "こっちは作業中だ！",
+  "Scourge of Aqshy: Null-Khemist|Customised Nullsuit": "特注ナルスーツ",
+  "Scourge of Aqshy: Null-Khemist|Diligent Researcher": "勤勉なる研究者",
+  "Scourge of Aqshy: Vulkyn Flameseekers|Fiery Disposition": "宿炎の気質",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Battle Damaged": "バトルダメージ",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Calamitous Crash": "崩壊撃",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Fire, Blood and Vengeance": "炎の血讐",
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Volcanic Blood": "猛炎の血",
+  "Scourge of Ghyran Codewright|Alright, Listen Up": "よぉし、よく聞けよ",
+  "Scourge of Ghyran Codewright|I'm Watching You": "見張ってるぞ",
+  "Scourge of Ghyran Grundstok Gunhauler|Attack Squadron": "攻撃部隊",
+  "Scourge of Ghyran Grundstok Gunhauler|Fighter Vessel": "攻勢航空機",
+  "Scourge of Ghyran Grundstok Gunhauler|Transport Capacity": "輸送枠",
+  "She Can Handle It!": "アエルスリング号は伊達じゃない！",
+  "Specialist Grundstok Ammunition": "特殊グランドストック弾",
+  "Spotter's Flaregun": "偵察兵の信号弾",
+  "Stuncloud Auto-Endrin": "スタンクラウド・オートエンドリン",
+  "The Admiral's Flagship": "提督の旗艦",
+  "Thundrik's Profiteers|Aethermatic Anatomiser": "エーテルマティック・アナトマイザー",
+  "Timed Charges": "時限式爆薬",
+  "Transport Capacity": "輸送枠",
+  "Volcanic Blood": "猛炎の血",
+  "Vulkite Berzerkers with Bladed Slingshields|Berserk Fury": "狂戦士の激情",
+  "Vulkite Berzerkers with Fyresteel Weapons|Whirlwind of Destruction": "破壊の旋風",
+  "Warrior-Kings": "ロッジの主"
+ },
+ "ability_texts": {
+  "Aether-Khemist|Aetheric Augmentation": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+   "declare": "このユニットの12mv以内に全体が入っている味方**アルカノート・カンパニー**・ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された味方ユニットが装備している遠隔武器の【貫通値】は+1の修正を受ける。"
+  },
+  "Aether-Khemist|Atmospheric Isolation": {
+   "timing": "パッシブ",
+   "effect": "このユニットの9mv以内に一部でも入っている敵ユニットは、その突撃ロールに-1の修正を受ける。"
+  },
+  "Aetheric Navigator|Aethersight": {
+   "timing": "パッシブ",
+   "effect": "このユニットは、自身があたかも**魔術師（1）**であるかのように『**打ち消し**』アビリティを使用できる。"
+  },
+  "Aetheric Navigator|Read the Winds": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側移動フェイズ",
+   "declare": "このユニットの近接範囲内に一部でも入っている、近接戦闘中ではない味方**飛行艦**または**オートエンドリン**を1個選択する。",
+   "effect": "選択された飛行艦あるいはオートエンドリンを戦場から取り除き、あらゆる敵ユニットから9mvより遠く離れた戦場の位置に再配置する。その後、それが**飛行艦**であった場合は、このユニットを戦場から取り除き、その飛行艦から6mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に再配置してもよい。"
+  },
+  "Arkanaut Admiral|Bring Every Gun to Bear!": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+   "declare": "このユニットの24mv以内に全体が入っている味方**飛行艦**を1個選択する。",
+   "effect": "そのターン中、選択された味方飛行艦が装備している遠隔武器の【攻撃回数】は+1の修正を受ける。"
+  },
+  "Arkanaut Admiral|The Admiral's Flagship": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+   "declare": "このユニットの12mv以内に全体が入っている味方**旗艦**を1個選択する。",
+   "effect": "そのフェイズ中、選択された旗艦が『**遠隔攻撃**』アビリティを使用する際、そのアビリティによるヒットロールを1個リロールできる。"
+  },
+  "Arkanaut Company|Grizzled Buccaneers": {
+   "declare": "このユニットと近接戦闘中であり、かつこのターン中に突撃を実行している敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、\n• このユニットはあたかも自軍側遠隔フェイズ中であるかのように、ただちに**『遠隔攻撃』**アビリティを使用できる。ただし、すべての攻撃は、選択された敵ユニットが対象でなければならない。\n• そのフェイズ中、このユニットが装備している**プライヴェーティア重火器**は**近接射撃**を得る。",
+   "timing": "各ターンにつき1回（アーミー）、任意の突撃フェイズ"
+  },
+  "Arkanaut Frigate|Assault Boat": {
+   "timing": "自軍側突撃フェイズ",
+   "declare": "このターン中に**『全力移動』**または**『退却』**アビリティを使用している、あるいは近接戦闘中である場合、このユニットはこのアビリティを使用できない。このターン中に突撃移動を実行しておらず、かつ自身の6mv以内に全体が入っている近接戦闘中ではない味方ユニットを輸送枠の最大個数まで選択してもよい。次に、2D6の突撃ロールをする。",
+   "effect": "このユニットは、突撃ロールの結果に等しい数の距離まで移動できる。ただし、視認状態である敵ユニットの½mv以内に一部でも入るように移動を完了しなければならない。そうした場合、\n• 選択された味方ユニットを戦場から取り除き、このユニットの近接範囲内に全体が入るように再配置する。近接戦闘に突入するように配置してもよい。\n• このユニットと選択された味方ユニットは突撃したものとみなされる。このフェイズ中、選択された味方ユニットはもう1回**『コア』**アビリティを使用できない。\n• 選択された味方ユニットの中から、そのターン中に**『先手効果』**を得るユニットを最大1個まで選択してもよい。"
+  },
+  "Arkanaut Frigate|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、自身が装備している**ヘヴィ・スカイ兵器**の【攻撃回数】は3になる。"
+  },
+  "Arkanaut Frigate|Incoming!": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中であり、かつこのターン中に突撃を実行している敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が2+であれば、選択された敵ユニットはロール結果に等しい数の致命的ダメージを受ける。"
+  },
+  "Arkanaut Frigate|Medium Bomb Racks": {
+   "timing": "自軍側移動フェイズ",
+   "declare": "このフェイズ中、このユニットが通り抜けた**飛行**を持っていない敵ユニットを1個選択する。",
+   "effect": "ダイスを6個ロールする。ロール結果で4+が出るたびに、選択された敵ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Arkanaut Frigate|Transport Capacity": {
+   "timing": "パッシブ",
+   "effect": "このユニットは最大2個までの味方**カラドロン・オーヴァーロード・歩兵**・ユニット、合計で兵12体（戦闘特性参照）までの輸送枠を持つ。"
+  },
+  "Arkanaut Ironclad|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、自身が装備している**グレート・スカイ兵器**の【攻撃回数】は4になる。"
+  },
+  "Arkanaut Ironclad|Heavy Bomb Racks": {
+   "timing": "自軍側移動フェイズ",
+   "declare": "このフェイズ中、このユニットが通り抜けた**飛行**を持っていない敵ユニットを1個選択する。",
+   "effect": "ダイスを10個ロールする。ロール結果で4+が出るたびに、選択された敵ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Arkanaut Ironclad|Incoming!": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中であり、かつこのターン中に突撃を実行している敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が2+であれば、選択された敵ユニットはロール結果に等しい数の致命的ダメージを受ける。"
+  },
+  "Arkanaut Ironclad|Transport Capacity": {
+   "timing": "パッシブ",
+   "effect": "このユニットは最大3個までの味方**カラドロン・オーヴァーロード・歩兵**・ユニット、合計で兵22体（戦闘特性参照）までの輸送枠を持つ。"
+  },
+  "Auric Runefather on Magmadroth|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**マグマドロスの顎、鉤爪、角**の【攻撃回数】は4になる。"
+  },
+  "Auric Runefather on Magmadroth|Raging Inferno": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットのセーブロールは-1の修正を受ける。",
+   "keywords": "蹂躙"
+  },
+  "Auric Runefather on Magmadroth|Volcanic Blood": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Auric Runemaster|High Priest of the Zharrgrim": {
+   "timing": "パッシブ",
+   "effect": "このユニットによって祈願された奇蹟が成就した際、そのアビリティが解決された直後に、ダイスを1個ロールする。ロール結果が5+であれば、このユニットは**宿怨マーク**を1個得る。"
+  },
+  "Auric Runemaster|Master of the Runes": {
+   "timing": "自軍側ヒーローフェイズ",
+   "effect": "このユニットから**宿怨マーク**を1個取り除く。そうした場合、そのターン中、このユニットの12mv以内に全体が入っており、かつ視認状態である味方**グリムドロン・歩兵**・ユニットはセーブロールに+1の修正を受ける。"
+  },
+  "Auric Runesmiter on Magmadroth|Lashing Tail": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "2D6をロールする。ロール結果が選択された敵ユニットの兵数以下である場合、選択された敵ユニットはD3+3ポイントの致命的ダメージを受ける。",
+   "keywords": "蹂躙"
+  },
+  "Auric Runesmiter on Magmadroth|Volcanic Blood": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Auric Runeson on Magmadroth|Volcanic Blood": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Auto-Endrin|Expendable Munitions": {
+   "timing": "パッシブ",
+   "effect": "このユニットに下記が適用される。\n• このユニットは最大「-」の確保スコアを持つ。\n• このユニットが全滅するとき、あるいは戦場から取り除かれるとき、他のルール上、このユニットは全滅したとカウントされない（戦術目標の達成など）。\n• アビリティに**オートエンドリン**が指定されていない限り、このユニットは他の味方ユニットが使用する**『コア』**アビリティ以外の対象として選択されたりすることも、そのアビリティの効果を受けたりすることもできない。\n• 味方や敵の戦術目標において、このユニットを無視する。"
+  },
+  "Auto-Endrin|Grudgeblast Auto-Endrin": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "各敵ユニットに対して、それぞれD3を1個ロールする。ロール結果が2+であれば、ロール対象の敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。その後、このユニットは戦場から取り除かれる。",
+   "declare": "このユニットが**グラッジブラスト・オートエンドリン**であり、かつ近接戦闘中である場合、このユニットと近接戦闘中である各敵ユニットを選択する。"
+  },
+  "Auto-Endrin|Nullifier Auto-Endrin": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "各顕現に対して、それぞれ3D6の**追放ロール**をする。追放ロールの結果が、その**顕現**のウォースクロールに記載されている**【追放値】**以上であれば、そのロール対象の顕現は追放され、ゲームから取り除かれる。その後、このユニットは戦場から取り除かれる。",
+   "declare": "このユニットが**ナルファイアー・オートエンドリン**であり、かつ1個以上の敵**顕現**と近接戦闘中である場合、このユニットと近接戦闘中である各敵**顕現**を選択する。"
+  },
+  "Auto-Endrin|Stuncloud Auto-Endrin": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "各敵ユニットに対して、それぞれダイスを1個ロールする。ロール結果がその敵ユニットの【体力】以下である場合、そのターン中、ロール対象の確保スコアは-10の修正を受ける。その後、このユニットは戦場から取り除かれる。",
+   "declare": "このユニットが**スタンクラウド・オートエンドリン**であり、かつ近接戦闘中である場合、このユニットと近接戦闘中である各敵ユニットを選択する。"
+  },
+  "Battlesmith|Bard of the Lodge": {
+   "timing": "パッシブ",
+   "effect": "このユニットの12mv以内に全体が入っている味方**グリムドロン**・ユニットが『再集結』指揮アビリティを使用する際、自軍はD6の再集結ロールを追加で3回実行できる。"
+  },
+  "Battlesmith|Icon of Grimnir": {
+   "timing": "パッシブ",
+   "effect": "• このユニットの12mv以内に全体が入っており、このユニットから視認状態である味方**グリムドロン**・ユニットは、確保スコアに対するマイナス修正を無視する。\n• このユニットが1個以上の**宿怨マーク**を持つ間、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**グリムドロン**・ユニットは、確保スコアに+3の修正を受ける。"
+  },
+  "Brokk Grungsson, Lord-Magnate of Barak-Nar|Command the Fleet": {
+   "timing": "バトル中1回限り、自軍側移動フェイズ",
+   "declare": "このユニットの24mv以内に全体が入っており、かつこのユニットから視認状態である近接戦闘中ではない味方**飛行艦**を最大3個まで選択する。",
+   "effect": "選択された各飛行艦は『**全力移動**』アビリティを1回使用できる。また、そのターン中に『全力移動』を使用していたとしても、それらの味方ユニットはターンの後半に『**遠隔攻撃**』と『**突撃**』アビリティの両方、またはいずれか一方を使用できる。"
+  },
+  "Brokk Grungsson, Lord-Magnate of Barak-Nar|First Rule of Grungsson": {
+   "timing": "任意の近接フェイズ",
+   "declare": "このユニットの近接範囲内に一部でも入っている、自身ではない別の味方**飛行船員**・ユニットを最大2個まで選択する。",
+   "effect": "そのターン中、選択された味方ユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。"
+  },
+  "Brokk Grungsson, Lord-Magnate of Barak-Nar|Moustache-mounted Aetherblasters": {
+   "timing": "任意のターン終了時",
+   "declare": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "D3を1個ロールする。ロール結果が2+であれば、選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。"
+  },
+  "Codewright|Advisory Role": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "自身から視認状態である味方**飛行船員**・ユニットを最大3個まで選択する。",
+   "effect": "選択された各味方ユニットに対して、それぞれダイスを1個ロールする。ロール結果が3+であれば、そのターン中に、ロール対象に適用される効果を以下から1つ選択する：\n**未知の探求：**その味方ユニットの確保スコアは+5の修正を受ける。\n**風に抗うな：**その味方ユニットの全力移動ロールと突撃ロールは+1の修正を受ける。\n**相手によっては取引すべからず：**その味方ユニットは『**退却**』アビリティを使用していたとしても、そのターン中に『**遠隔攻撃**』アビリティを使用できる。さらに、その味方ユニットは『**退却**』アビリティを使用して致命的ダメージを受けない。"
+  },
+  "Doomseeker|Oathbound": {
+   "timing": "バトル中1回限り（アーミー）、初期配置フェイズ",
+   "declare": "このユニットの獲物として敵ユニットを1個選択する。予備戦力として配置されているユニットを獲物に選んでもよい。",
+   "effect": "獲物を対象としたのユニットの攻撃は、ヒットロールおよびウーンズロールに+1の修正を受ける。\nこのユニットが、自身の獲物と近接戦闘中であるときに全滅した場合、このユニットを全滅させたアビリティが解決された直後に、このユニットの獲物の12mv以内に一部でも入っている各味方**グリムドロン**・ユニットは、それぞれ**宿怨マーク**を1個獲得する。"
+  },
+  "Doomseeker|Runic Power": {
+   "timing": "パッシブ",
+   "effect": "このユニットが受けているダメージが1ポイントである場合、このユニットの近接武器は【ダメージ量】に+1の修正を受ける。\nこのユニットが受けているダメージが2ポイント以上であるならば、このユニットの近接武器は【ダメージ量】に+2の修正を受ける。"
+  },
+  "Drekki Flynt|Auxiliary Skyhook": {
+   "timing": "任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中である敵**大型獣**を1体選択する。",
+   "effect": "D3を1個ロールする。ロール結果が2+であれば、\n• 選択された敵大型獣は、そのロール結果に等しい数の致命的ダメージを受ける。\n• このターン中、選択された敵大型獣による攻撃のウーンズロールは-1の修正を受ける。"
+  },
+  "Drekki Flynt|Captain of the Aelsling": {
+   "timing": "初期配置フェイズ",
+   "declare": "このユニットの連隊に属する**アルカノート・フリゲート**を1個選択する。このユニットは予備戦力にいる間に、このアビリティを使用できる。また、予備戦力にいるユニットを選択対象としてもよい。",
+   "effect": "選択された味方アルカノート・フリゲートは**アエルスリング**・キーワードを獲得する。以降バトル終了時まで、その**移乗武装**の【ダメージ量】は+1の修正を受ける。"
+  },
+  "Drekki Flynt|She Can Handle It!": {
+   "timing": "パッシブ",
+   "effect": "**アエルスリング**がこのユニットの12mv以内に全体が入っている間、そのアエルスリングは全力移動ロールと突撃ロールをリロールできる。"
+  },
+  "Endrinmaster with Dirigible Suit|Combat Engineers": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと、このユニットの12mv以内に全体が入っている他の味方**エンドリン・リガー**・ユニットを最大1個まで選択する。",
+   "effect": "そのターン中、このユニットと選択された味方ユニットのメレーアタックは、このターン中に突撃を実行している敵ユニットに対して**クリティカル（2ヒット）**を持つ。"
+  },
+  "Endrinmaster with Dirigible Suit|Mobile Repairs": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの近接範囲内に一部でも入っている味方**飛行艦**または**ゾンターリ・エンドリン船渠**を1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が2+であれば、選択された飛行艦あるいは船渠を**回復（3）**する。"
+  },
+  "Endrinmaster with Endrinharness|'Aye Aye, Captain!'": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "このユニットの近接範囲内に一部でも入っている味方**飛行艦**を1個選択する。",
+   "effect": "そのターン中、\n• 選択された味方飛行艦は『**退却**』または『**全力移動**』アビリティを使用していたとしても、そのターン中に『**遠隔攻撃**』アビリティを使用できる。\n• 選択された味方飛行艦は『**退却**』アビリティによる致命的ダメージを受けない。"
+  },
+  "Endrinmaster with Endrinharness|Mobile Repairs": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの近接範囲内に一部でも入っている味方**飛行艦**または**ゾンターリ・エンドリン船渠**を1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が2+であれば、選択された飛行艦あるいは船渠を**回復（3）**する。"
+  },
+  "Endrinriggers|Emergency Field Repairs": {
+   "timing": "任意のターン終了時",
+   "declare": "このユニットの近接範囲内に一部でも入っている味方**飛行艦**または**ゾンターリ・エンドリン船渠**を1個選択する。",
+   "effect": "このユニット内にいる兵ごとに、それぞれD6の修理ロールを1個する。ロール結果で4-5が出るたびに、選択された味方飛行艦あるいは船渠を**回復（1）**する。ロール結果で6が出るたびに、選択された味方飛行艦あるいは船渠を**回復（2）**する。"
+  },
+  "Grimwrath Berzerker|Battle-fury": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "このユニットが1個以上の**宿怨マーク**を持ち、かつ近接戦闘中である場合、**宿怨マーク**を1個取り除いてもよい。そうした場合、このユニットはこのフェイズ中に『**近接攻撃**』アビリティを2回使用できる。ただし、1回目が使用された後、このユニットはそのフェイズ終了時まで『**後手効果**』を得る。"
+  },
+  "Grimwrath Berzerker|Grimwrath Oaths": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "effect": "このターン中、このユニットの6mv以内に一部でも入っており、かつこのユニットから視認状態であった味方**グリムドロン**・ユニットが1個全滅した場合、このユニットに**宿怨マーク**を1個与えてもよい。"
+  },
+  "Grundstok Gunhauler|Aethershot Overwatch": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中であり、かつこのターン中に突撃を実行している敵ユニットを1個選択する。",
+   "effect": "D3を1個ロールする。ロール結果が2+であれば、選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。"
+  },
+  "Grundstok Gunhauler|Light Bomb Racks": {
+   "timing": "自軍側移動フェイズ",
+   "declare": "このフェイズ中、このユニットが通り抜けた**飛行**を持っていない敵ユニットを1個選択する。",
+   "effect": "ダイスを4個ロールする。ロール結果で4+が出るたびに、選択された敵ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Grundstok Gunhauler|Long-line Slings": {
+   "timing": "パッシブ",
+   "effect": "このユニットが『空挺戦士の輸送』アビリティを使用するとき、近接戦闘中である味方ユニットを選択できる。"
+  },
+  "Grundstok Gunhauler|Transport Capacity": {
+   "timing": "パッシブ",
+   "effect": "このユニットは最大1個までの味方**カラドロン・オーヴァーロード・歩兵**・ユニット、兵5体（戦闘特性参照）までの輸送枠を持つ。"
+  },
+  "Grundstok Thunderers|Specialist Grundstok Ammunition": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ、リアクション：このユニットが『遠隔攻撃』アビリティを宣言",
+   "declare": "**シールドブレイカー**弾もしくは**サンダードラック**弾を選択する。",
+   "effect": "その**『遠隔攻撃』**アビリティによるすべての攻撃が同一の敵ユニットを対象にしている場合、その**『遠隔攻撃』**アビリティが解決された直後に、ダイスを1個ロールする。ロールにその**『遠隔攻撃』**アビリティによって敵ユニットが受けたダメージの数を加算する。ロール結果がその敵ユニットの【確保力】を上回る場合、選んだ弾薬タイプに応じて、次の効果を敵ユニットに適用する。\n**シールドブレイカー**：次の自軍側ターン開始時まで、その敵ユニットは加護ロールを実行できない。\n**サンダードラック**：次の自軍側ターン開始時まで、その敵ユニットの最大確保スコアは1である。"
+  },
+  "Magmic Battleforge|Molten Blessing": {
+   "timing": "任意のターン開始時",
+   "declare": "この特殊地形の近接範囲内に一部でも入っている味方**グリムドロン・神官**を1体選択する。",
+   "effect": "そのターン中、\n• 選択された味方神官は祈願ロールに+1の修正を受ける。\n• その味方神官は、自身があたかも**魔術師（1）**であるかのように『打ち消し』アビリティを使用できる。"
+  },
+  "Magmic Battleforge|Spending the Forge": {
+   "timing": "バトル中1回限り（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "戦炉の力を用いるため、この特殊地形の近接範囲内に一部でも入っている味方**グリムドロン・神官**を1体選択する。",
+   "effect": "戦場に配置されている各味方**グリムドロン**・ユニットを、それぞれ**回復（D3）**する。このアビリティが使用された後、この特殊地形はバトル終了時まで『溶岩の祝福』アビリティを使用できない。"
+  },
+  "Null-Khemist|Nullsuit": {
+   "timing": "パッシブ",
+   "effect": "神官や魔術師、顕現を攻撃対象とするこのユニットが装備している武器の【ダメージ量】は2倍になる。"
+  },
+  "Null-Khemist|Protection of the Void": {
+   "timing": "パッシブ",
+   "effect": "味方**飛行船員**・ユニットがこのユニットの12mv以内に全体が入っている間、その味方ユニットは『**呪文**』『**奇蹟**』『**顕現**』アビリティから与えられる致命的ダメージに対して**加護（5+）**を持つ。"
+  },
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**マグマドロスの鉤爪と角**の【攻撃回数】は4になる。"
+  },
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Fire, Blood and Vengeance": {
+   "timing": "初期配置フェイズ",
+   "declare": "戦場に配置されている味方**オーリック・ルーンファーザー（マグマドロス騎乗）**を1体選択する。",
+   "effect": "選択された味方ユニットが近接戦闘中である、あるいは損傷状態である、全滅している場合、このユニットが装備している近接武器の【ダメージ量】は+1の修正を受ける（随行者武器を含む）。"
+  },
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Seeing Red": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "**憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）その後、以下の効果から1つを選択する：\n**怒りの矛先：**このターン中、このユニットが装備している**随行者**近接武器は【攻撃回数】に+1の修正を受ける。\n**憤激の解放：**自軍側の**憤激レベル**に等しい数のダイスをロールする。効果：ロール結果で4+が出るたび、このユニットを**回復（1）**する。\n**憤怒の盾：**このターン中、このユニットは**加護（5+）**を持つ。",
+   "keywords": "蹂躙"
+  },
+  "Scourge of Aqshy: Auric Runeson on Magmadroth|Volcanic Blood": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象とするメレーアタックのセーブロールで修正前の出目1が出るたびに、その『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Scourge of Aqshy: Endrinriggers|We're Working Here!": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "effect": "このユニットがこのターン中に突撃していない場合、次の自軍側ターン開始時まで、自軍側の**憤激レベル**に応じて、以下の効果を適用する。これらの効果は累積して適用される。\n1+ **苛立ち：**このユニットの**エーテル駆動式チェーンソー**は、**クリティカル（自動ウーンズ）**を得る。\n4+ **怒り心頭**このユニットは**加護（5+）**を持つ。\n7 **怒髪衝天：**このユニットが装備している近接武器の【ダメージ値】は+1の修正を受ける。"
+  },
+  "Scourge of Aqshy: Null-Khemist|Customised Nullsuit": {
+   "timing": "パッシブ",
+   "effect": "• このユニットはあたかも**魔術師（1）**を持つかのように『**打ち消し**』および『**追放**』アビリティを使用できる。\n• このユニットによる打ち消しロール、または追放ロールに用いられるダイス個数は1加算される（ダイス個数は最大3個まで）。"
+  },
+  "Scourge of Aqshy: Null-Khemist|Diligent Researcher": {
+   "timing": "パッシブ",
+   "effect": "対戦相手が『怒りの爆発』アビリティで**憤激ダイス**を消費するたび、そのアビリティの解決直後にこのユニットが近接戦闘中でない場合、このユニットはXD6mv移動できる。Xは消費された**憤激ダイス**の数に等しい。その移動を近接戦闘に突入するように終了することはできない。"
+  },
+  "Scourge of Aqshy: Vulkyn Flameseekers|Fiery Disposition": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "effect": "**憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）その後、次の自軍側ターン開始時まで、以下の効果から1個選び適用する。Xは自軍側の**憤激レベル**に等しい。\n**ウル＝サラマンダーの活力：**このユニットは【移動力】に+Xmvの修正を受ける。\n**燃え立つ決意：**このユニットは確保スコアに+Xの修正を受ける。\n**燃え立つ怒り：**このユニットは**残り火の牙**の【攻撃回数】に+Xの修正を受ける。"
+  },
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**マグマドロスの角と鉤爪**の【攻撃回数】は4になる。"
+  },
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Calamitous Crash": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、選択された敵ユニット内にいる各兵に対して、それぞれダイスを1個ロールする。ロール結果で5+が出るたびに、その敵ユニットは1ポイントの致命的ダメージを受ける。",
+   "keywords": "蹂躙"
+  },
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Fire, Blood and Vengeance": {
+   "timing": "バトル中1回限り、初期配置フェイズ",
+   "declare": "戦場に配置されている味方**オーリック・ルーンファーザー（マグマドロス騎乗）**を1体選択する。",
+   "effect": "選択された味方ユニットが近接戦闘中である、あるいは損傷状態である、全滅している場合、このユニットが装備している近接武器の【ダメージ量】は+1の修正を受ける（随行者武器を含む）。"
+  },
+  "Scourge of Ghyran Auric Runeson on Magmadroth|Volcanic Blood": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Scourge of Ghyran Codewright|Alright, Listen Up": {
+   "timing": "各ターンにつき1回（アーミー）、任意のヒーローフェイズ",
+   "declare": "このユニットが英雄でない味方**カラドロン・オーヴァーロード**・ユニットの12mv以内に全体が入っている場合、このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。その後、**議論ポイント**を3ポイントまたは6ポイント消費する。",
+   "effect": "以下の効果から1つを選択し、選択された敵ユニットにそのターン終了時まで適用する。\n• **連中が逃げ惑う様を見たか！？：**3**議論ポイント**を消費している場合、選択された敵ユニットの【移動力】は-D3の修正を受ける。6**議論ポイント**を消費しているならば、選択された敵ユニットの【移動力】は半減する。\n• **その武器は掟に反しとる！：**3**議論ポイント**を消費している場合、選択された敵ユニットのメレーアタックはウーンズロールに-1の修正を受ける。6**議論ポイント**を消費しているならば、選択された敵ユニットの近接武器は【貫通値】に-1の修正を受け、そのメレーアタックはウーンズロールに-1の修正を受ける。"
+  },
+  "Scourge of Ghyran Codewright|I'm Watching You": {
+   "timing": "任意のヒーローフェイズ",
+   "effect": "このユニットはD3**議論ポイント**を獲得する。"
+  },
+  "Scourge of Ghyran Grundstok Gunhauler|Attack Squadron": {
+   "timing": "パッシブ",
+   "effect": "このユニットが自身以外の味方**グランドストック・ガンハウラー**の12mv以内に全体が入っている間、このユニットはそのターン中に『全力移動』アビリティを使用していたとしても『**遠隔攻撃**』アビリティを使用できる。"
+  },
+  "Scourge of Ghyran Grundstok Gunhauler|Fighter Vessel": {
+   "timing": "任意の遠隔フェイズ",
+   "effect": "このフェイズ中、このユニットが『**遠隔攻撃**』アビリティを使用していた場合、このユニットはD6mv移動してもよい。その移動は、近接戦闘に突入するように完了することはできない。"
+  },
+  "Scourge of Ghyran Grundstok Gunhauler|Transport Capacity": {
+   "timing": "パッシブ",
+   "effect": "このユニットはいかなる味方ユニットも輸送できない。"
+  },
+  "Skywardens|Timed Charges": {
+   "declare": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "D3を1個ロールする。ロール結果が2+であれば、\n• ロール対象の敵ユニットは、ロール結果に等しい数の致命的ダメージを受ける。\n• あたかも自軍側移動フェイズ中であるかのように、このユニットは致命的ダメージを受けることなく、ただちに『退却』アビリティを使用できる。",
+   "timing": "各ターンにつき1回限り（アーミー）、任意のターン終了時"
+  },
+  "Thundrik's Profiteers|Aethermatic Anatomiser": {
+   "timing": "自軍側遠隔フェイズ",
+   "declare": "このユニットの**ビョルゲン・サンドリック**が戦場に配置されている場合、このユニットの12mv以内に一部でも入っている作戦目標を1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば：\n• その作戦目標がいずれかのプレイヤーによって確保されていれば、そのプレイヤーはその作戦目標の確保を失う。\n• 次の自軍側ターン開始時まで、その作戦目標は争奪できなくなる。"
+  },
+  "Vongrim Harpoon Crew|Light Endrinpacks": {
+   "effect": "このユニットが近接戦闘中である場合、このユニットは2D6mvの移動を1回実行できる。その際、近接戦闘に突入するように移動を完了しなければならない。",
+   "timing": "各ターンにつき1回限り（アーミー）、任意の近接フェイズ"
+  },
+  "Vongrim Salvagers|Spotter's Flaregun": {
+   "declare": "このユニットの9mv以内に一部でも入っている作戦目標を1個選択する。",
+   "timing": "各ターンにつき1回限り（アーミー）、任意の近接フェイズ",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、以下の効果が適用される：\n• 選択された作戦目標を争奪中であるユニットを対象にした味方**飛行船員**・ユニットのメレーアタックは、ヒットロールに+1の修正を受ける。\n• 味方**ヴォングリム・サルヴェイジャー**および**ヴォングリムの銛打ち衆**・ユニットは、選択された作戦目標を争奪中のユニットを対象として攻撃する際、近接武器の【貫通値】に+1の修正を受ける。"
+  },
+  "Vulkite Berzerkers with Bladed Slingshields|Berserk Fury": {
+   "timing": "パッシブ",
+   "effect": "このユニット内の兵1体がメレーアタックよって撃破されるたび、撃破された兵が攻撃側ユニットと近接戦闘中であった場合、ダイスを1個ロールする。このユニットが1個以上の**宿怨マーク**を持つ場合、ロールは+1の修正を受ける。ロール結果が6+であれば、その『**近接攻撃**』アビリティの解決直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Vulkite Berzerkers with Fyresteel Weapons|Whirlwind of Destruction": {
+   "timing": "パッシブ",
+   "effect": "このユニットが1個以上の**宿怨マーク**を持つ間、このユニットは近接武器の【攻撃回数】に+1の修正を受ける。"
+  },
+  "Zontari Endrin Dock|Endrinworks Outpost": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリンを1個選択する。",
+   "effect": "D6の製造ロールを1個する。味方エンドリンマスター（可導気球スーツ装備）またはエンドリン・マスター（エンドリンハーネス装備）がこの特殊地形の3mv以内に一部でも入っている場合、その製造ロールは+1の修正を受ける。ロール結果が4+であれば、この特殊地形の6mv以内に全体が入るように、かつあらゆる敵ユニットから3mvより遠く離れた戦場の位置に、代替のオートエンドリンを1個配置する。"
+  },
+  "Zontari Endrin Dock|Release The Auto-Endrins": {
+   "timing": "初期配置フェイズ",
+   "effect": "味方**ナルファイアー・オートエンドリン**1個、**スタンクラウド・オートエンドリン**1個、**グラッジブラスト・オートエンドリン**1個（オートエンドリンのウォースクロール参照）を自軍側陣地内に一部でも入るように、かつこの特殊地形の6mv以内に全体が入るように、なおかつあらゆる敵ユニットから9mvより遠く離れている戦場の位置に配置する。"
+  },
+  "Zontari Endrin Dock|Repair Routines": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この特殊地形の3mv以内に一部でも入っている味方**飛行艦**を1個選択する。",
+   "effect": "D6の修理ロールを1個する。味方**エンドリンマスター（可導気球スーツ装備）**または**エンドリン・マスター（エンドリンハーネス装備）**がこの特殊地形の3mv以内に一部でも入っている場合、その修理ロールは+1の修正を受ける。ロール結果が4+であれば、選択された味方飛行艦を**回復（3）**する。"
+  }
+ },
+ "keyword_names": {
+  "Auto-Endrin": "オートエンドリン",
+  "Champion": "豪傑",
+  "Champion (1/9)": "豪傑（1/9）",
+  "Duardin": "ドゥアーディン",
+  "Faction Terrain": "陣営地形",
+  "Fly": "飛行",
+  "Fyreslayers": "ファイアスレイヤー",
+  "Grimmdron": "グリムドロン",
+  "Hero": "英雄",
+  "Infantry": "歩兵",
+  "Kharadron Overlords": "カラドロン・オーヴァーロード",
+  "Khazalite Holds": "カザライト・ホールド",
+  "Kromdron": "クロムドロン",
+  "Magmadroth": "マグマドロス",
+  "Monster": "大型獣",
+  "Musician (1/10)": "楽士（1/10）",
+  "Order": "秩序の大同盟",
+  "Priest (1)": "神官（1）",
+  "Scourge of Aqshy: Endrinriggers|Champion": "豪傑",
+  "Scourge of Aqshy: Endrinriggers|Duardin": "ドゥアーディン",
+  "Scourge of Aqshy: Endrinriggers|Fly": "飛行",
+  "Scourge of Aqshy: Endrinriggers|Infantry": "歩兵",
+  "Scourge of Aqshy: Endrinriggers|Kharadron Overlords": "カラドロン・オーヴァーロード",
+  "Scourge of Aqshy: Endrinriggers|Order": "秩序の大同盟",
+  "Scourge of Aqshy: Endrinriggers|Skyfarer": "飛行船員",
+  "Scourge of Aqshy: Null-Khemist|Duardin": "ドゥアーディン",
+  "Scourge of Aqshy: Null-Khemist|Fly": "飛行",
+  "Scourge of Aqshy: Null-Khemist|Hero": "英雄",
+  "Scourge of Aqshy: Null-Khemist|Infantry": "歩兵",
+  "Scourge of Aqshy: Null-Khemist|Kharadron Overlords": "カラドロン・オーヴァーロード",
+  "Scourge of Aqshy: Null-Khemist|Order": "秩序の大同盟",
+  "Scourge of Aqshy: Null-Khemist|Skyfarer": "飛行船員",
+  "Scourge of Ghyran Codewright|Duardin": "ドゥアーディン",
+  "Scourge of Ghyran Codewright|Hero": "英雄",
+  "Scourge of Ghyran Codewright|Infantry": "歩兵",
+  "Scourge of Ghyran Codewright|Kharadron Overlords": "カラドロン・オーヴァーロード",
+  "Scourge of Ghyran Codewright|Order": "秩序の大同盟",
+  "Scourge of Ghyran Codewright|Skyfarer": "飛行船員",
+  "Scourge of Ghyran Grundstok Gunhauler|Duardin": "ドゥアーディン",
+  "Scourge of Ghyran Grundstok Gunhauler|Fly": "飛行",
+  "Scourge of Ghyran Grundstok Gunhauler|Kharadron Overlords": "カラドロン・オーヴァーロード",
+  "Scourge of Ghyran Grundstok Gunhauler|Order": "秩序の大同盟",
+  "Scourge of Ghyran Grundstok Gunhauler|Skyvessel": "飛行艦",
+  "Scourge of Ghyran Grundstok Gunhauler|War Machine": "戦闘兵器",
+  "Skyfarer": "飛行船員",
+  "Skyvessel": "飛行艦",
+  "Standard Bearer (1/5)": "旗手（1/5）",
+  "Thundrik's Profiteers|Duardin": "ドゥアーディン",
+  "Thundrik's Profiteers|Infantry": "歩兵",
+  "Thundrik's Profiteers|Kharadron Overlords": "カラドロン・オーヴァーロード",
+  "Thundrik's Profiteers|Order": "秩序の大同盟",
+  "Thundrik's Profiteers|Skyfarer": "飛行船員",
+  "Thundrik's Profiteers|Unique": "固有",
+  "Unique": "固有",
+  "War Machine": "戦闘兵器",
+  "Ward (6+)": "加護（6+）",
+  "Warmaster": "総大将",
+  "Wizard (1)": "魔術師（1）"
+ },
+ "weapon_ability_names": {
+  "Anti-INFANTRY (+1 Rend)": "対歩兵（+1貫通値）",
+  "Anti-MONSTER (+1 Rend)": "対大型獣（+1貫通値）",
+  "Anti-charge (+1 Rend)": "対突撃（+1貫通値）",
+  "Charge (+1 Damage)": "突撃（+1ダメージ量）",
+  "Companion": "随行者",
+  "Crit (2 Hits)": "クリティカル（2ヒット）",
+  "Crit (Mortal)": "クリティカル（致命的）",
+  "Shoot in Combat": "近接射撃"
+ },
+ "wargear_option_texts": {
+  "Arkanaut Company": "• このユニット内の各兵は、プライヴェーティア・ピストルとアルカノートの携帯武器を装備している。\n• 2/10の兵は、装備しているプライヴェーティア・ピストルをプライヴェーティア重火器（エーテル駆動式ヴォレイガンまたはライト・スカイフック）に交換できる。\n• 1/10の兵は、装備している両方の武器をスカイパイクに交換できる。\n• 豪傑は装備している武器を交換できない。",
+  "Auto-Endrin": "このユニットは、以下のいずれかで構成される：ナルファイアー・オートエンドリン、スタンクラウド・オートエンドリン、グラッジブラスト・オートエンドリン。",
+  "Endrinriggers": "• このユニット内の各兵は、ラピッドファイア・リベットガンとエーテル駆動式の鋸を装備している。\n• 1/3の兵は、装備している武器をエーテル駆動式ヴォレイガンと銃床に交換できる。\n• 1/3の兵は、装備している武器をスカイリガーの重火器（グラップネルランチャー、スカイフック、ドリルランチャー）と銃床に交換できる。\n• 豪傑は装備している武器を交換できない。",
+  "Grundstok Thunderers": "• このユニットの各兵は、エーテルショット・ライフルと大型銃床を装備している。\n• 2/5の兵は、エーテルショット・ライフルをエーテリック・フュミゲイターもしくはデッキスイーパーに交換できる。\n• 2/5の兵は、エーテルショット・ライフルをグランドストック迫撃砲もしくはエーテルキャノンに交換できる。\n• 豪傑は装備しているエーテルショット・ライフルを交換できない。",
+  "Magmic Battleforge": "以下の共通特殊地形アビリティが、この特殊地形に適用される（特殊地形、1.2）：遮蔽物、通行不可、射線妨害",
+  "Scourge of Aqshy: Endrinriggers": "このユニット内の各兵は、ラピッドファイア・リベットガンとエーテル駆動式の鋸を装備している。\n• 1/3の兵は、装備している武器をエーテル駆動式ヴォレイガンと銃床に交換できる。\n• 1/3の兵は、装備している武器をスカイリガーの重火器（グラップネルランチャー、スカイフック、ドリルランチャー）と銃床に交換できる。\n• 豪傑は装備している武器を交換できない。",
+  "Scourge of Aqshy: Vulkyn Flameseekers": "このユニット内にいる各兵は『ヴルキンの武器』を装備している。\n• 1/9の兵はキンドルドロスであり、その武器を「残り火の牙」に置き換える。\n• 豪傑はヴルキン・ルーンファーザーであり、その武器を置き換えることはできない。",
+  "Skywardens": "• このユニットの各兵は、ヴァルカナイザー・ピストルとスカイウォーデン・スカイパイクを装備している。\n• 1/3の兵は、装備している武器をエーテル駆動式ヴォレイガンと銃床に交換できる。\n• 1/3の兵は、装備している武器をスカイリガーの重火器（グラップネルランチャー、スカイフック、ドリルランチャー）と銃床に交換できる。\n• 豪傑は装備している武器を交換できない。",
+  "Thundrik's Profiteers": "このユニット内の兵は以下の通り：\n• ビョルゲン・サンドリック（エーテルマティック・アナトマイザー、アルカノート・カッターを装備している）\n• カズガン・ドレイクスキュワー（エーテルマティック・ファイアアーム、スカイパイクを装備している）\n• デッドアイ・ルンド（エーテルマティック・ファイアアーム、アルカノート・カッターを装備している）\n• エンリク・アイアンヘイル（エーテルマティック・ファイアアーム、アルカノート・カッターを装備している）\n• ガロッド・アレンセン（エーテルマティック・ファイアアーム、アルカノート・カッターを装備している）"
+ },
+ "faction_name": "スロンガンコール連合軍"
+}

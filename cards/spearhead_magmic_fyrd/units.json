@@ -1,0 +1,600 @@
+{
+ "meta": {
+  "slug": "spearhead_magmic_fyrd",
+  "kind": "spearhead",
+  "faction_en": "Khazalite Holds",
+  "faction_ja": "カザライト・ホールド",
+  "faction_slug": "khazalite_holds",
+  "alliance": null,
+  "title_en": "Magmic Fyrd",
+  "title_ja": "岩漿召集軍",
+  "data_version": 499
+ },
+ "units": [
+  {
+   "id": "8ca9703f-ec8d-4e41-a6f0-16a45f5f8371",
+   "name": {
+    "ja": "オーリック・ハースガード",
+    "en": "Auric Hearthguard",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 5,
+   "base": "32mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "マグマパイク",
+     "en": "Magmapike",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "2",
+      "4+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "melee": [
+    {
+     "ja": "マグマパイク",
+     "en": "Magmapike",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "溶岩弾",
+      "en": "Molten Rockbolts",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "自軍側遠隔フェイズ",
+       "en": "Your Shooting Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このターン中、このユニットのレンジアタックによって1ポイント以上のダメージを割り振られた敵ユニットを1個選択する。",
+       "en": "Pick an enemy unit that had any damage points allocated to it this turn by this unit’s shooting attacks to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された敵ユニットは【移動力】に-1mvの修正を受ける。",
+       "en": "Roll a dice. On a 3+, subtract 1\" from the target’s Move characteristic until the start of your next turn.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "e2e332c2-9cac-425a-a3af-4e96886f12a5",
+   "name": {
+    "ja": "オーリック・ルーンファーザー（マグマドロス騎乗）",
+    "en": "Auric Runefather on Magmadroth",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "14"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "燃え盛る業焔",
+     "en": "Roaring Fyrestream",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "4",
+      "3+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [
+      "随行者"
+     ],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "掛金鍵の大斧",
+     "en": "Latchkey Grandaxe",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "マグマドロスの顎、鉤爪、角（戦傷時）",
+     "en": "Magmadroth’s Maw, Claws and Horns (battle damaged)",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [
+      "随行者"
+     ],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "バトルダメージ",
+      "en": "Battle Damaged",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**マグマドロスの顎、鉤爪、角**の【攻撃回数】は4になる。",
+       "en": "While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Maw, Claws and Horns** is 4.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "猛炎の血",
+      "en": "Volcanic Blood",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットと近接戦闘中である敵ユニットの確保スコアは-1の修正を受ける。",
+       "en": "Subtract 1 from the control scores of enemy units while they are in combat with this unit.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "大型獣",
+     "Monster"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "6af73b0f-9e96-4fcf-9208-3b0c49cf0db1",
+   "name": {
+    "ja": "オーリック・ルーンスマイター",
+    "en": "Auric Runesmiter",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "掛金の斧",
+     "en": "Latch-axe",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "ルーンの覚醒",
+      "en": "Awaken The Runes",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "自軍側ヒーローフェイズ",
+       "en": "Your Hero Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方ユニットを1個選択し、D6の祈願ロールをする。",
+       "en": "Pick a visible friendly unit wholly within 12\" of this unit to be the target, then make a chanting roll of D6.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された味方ユニットを対象とするメレーアタックはウーンズロールに-1の修正を受ける。",
+       "en": "On a 3+, subtract 1 from wound rolls for combat attacks that target that friendly unit until the start of your next turn.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "神官",
+     "Priest"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "9d3d2996-b032-4228-8dd5-a2d00a31076a",
+   "name": {
+    "ja": "ヴルキン・フレイムシーカー",
+    "en": "Vulkyn Flameseekers",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": true,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": null,
+   "models": 9,
+   "base": "32mm [4], 28.5mm [5]",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "キンドルドロスの牙",
+     "en": "Kyndledroth's Fangs",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "3+",
+      "3+",
+      "-",
+      "2"
+     ],
+     "abil_ja": [
+      "随行者"
+     ],
+     "abil_en": [
+      "Companion"
+     ]
+    },
+    {
+     "ja": "ヴルキンの武器",
+     "en": "Vulkyn Weapons",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "忌々しい獣め！",
+      "en": "Confounded Beast!",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "任意の近接フェイズ",
+       "en": "Any Combat Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットが**キンドルドロス**を有する場合、このユニットと近接戦闘中である敵ユニットを1個選択する。",
+       "en": "If this unit has a **Kyndledroth**, pick an enemy unit in combat with this unit to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットのメレーアタックはヒットロールに-1の修正を受ける。",
+       "en": "Roll a dice. On a 3+, subtract 1 from hit rolls for the target’s combat attacks for the rest of the turn.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "***1 model in this unit is a Kyndledroth. The Kyndledroth is armed with Kyndledroth’s Fangs instead of Vulkyn Weapons.***",
+    "fix": []
+   }
+  }
+ ]
+}

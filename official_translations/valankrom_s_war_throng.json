@@ -1,0 +1,56 @@
+{
+ "_faction": "Valankrom's War Throng（名高き軍勢。日本語名は資料なし）",
+ "_source": [
+  "ユニット（ウォースクロール）の訳は official_translations/khazalite_holds.json から写した"
+ ],
+ "_notes": [
+  "名高き軍勢のルール本体（バトルトーム：カザライト・ホールド）の日本語版は手元に無いので、陣営ルール・faction_name は英語のまま。"
+ ],
+ "unit_names": {
+  "Clangunners with Thrundok Rifles": "クランガンナー（スランドック・ライフル装備）",
+  "Clangunners with Thrundrin Shotcannons": "クランガンナー（スランドリン・ショットキャノン装備）",
+  "Clanshields": "クランシールド",
+  "Gholems of Gazul": "ゴーレム・オヴ・ガズル",
+  "Gholems of Valaya": "ゴーレム・オヴ・ヴァラヤ",
+  "High Kyng Valankrom": "至高王ヴァランクロム",
+  "Hjulda Drakkblud": "ヒュルダ・ドラックブラッド",
+  "Oathkeeper Cannon": "オースキーパー・キャノン",
+  "Runewright": "ルーンライト",
+  "Stonebreaker Mortar": "ストーンブレーカー・モーター",
+  "Thrynn": "スリン",
+  "Thrynn On War Throne": "スリン（ウォースローン騎乗）",
+  "Valayan Guardians with Rune Axe and Shields": "ヴァラヤン・ガーディアン（ルーンアックス＆シールド装備）",
+  "Valayan Guardians with Runic Halberds": "ヴァラヤン・ガーディアン（ハルバード装備）"
+ },
+ "weapon_names": {
+  "Clanshields|Kromdron Weapons": "クロムドロンの武器",
+  "Gholems of Gazul|Gazulite Great Hammer": "ガズルの大鎚",
+  "Hjulda Drakkblud|Azangrom": "アザングロム",
+  "Oathkeeper Cannon|Oathkeeper Crew Tools": "オースキーパー砲手の道具",
+  "Oathkeeper Cannon|Oathkeeper Shot": "オースキーパー砲撃"
+ },
+ "ability_names": {
+  "Clanshields|Tough As Stone": "石のごとき頑健性",
+  "Oathkeeper Cannon|Oathkeeper Apprentice Runestriker": "オースキーパーの見習いルーン打ち"
+ },
+ "keyword_names": {
+  "Champion": "豪傑",
+  "Duardin": "ドゥアーディン",
+  "Hero": "英雄",
+  "Infantry": "歩兵",
+  "Khazalite Holds": "カザライト・ホールド",
+  "Kromdron": "クロムドロン",
+  "Musician (1/10)": "楽士（1/10）",
+  "Order": "秩序の大同盟",
+  "War Machine": "戦闘兵器",
+  "Warmaster": "総大将",
+  "Wizard (1)": "魔術師（1）"
+ },
+ "weapon_ability_names": {
+  "Anti-INFANTRY (+1 Rend)": "対歩兵（+1貫通値）",
+  "Anti-MONSTER (+1 Rend)": "対大型獣（+1貫通値）",
+  "Companion": "随行者",
+  "Crit (2 Hits)": "クリティカル（2ヒット）",
+  "Crit (Mortal)": "クリティカル（致命的）"
+ }
+}

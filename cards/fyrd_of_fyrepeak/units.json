@@ -1,0 +1,4194 @@
+{
+ "meta": {
+  "slug": "fyrd_of_fyrepeak",
+  "kind": "faction",
+  "faction_en": "Fyrd of Fyrepeak",
+  "faction_ja": null,
+  "faction_slug": "fyrd_of_fyrepeak",
+  "alliance": "Order",
+  "title_en": "Fyrd of Fyrepeak",
+  "title_ja": null,
+  "data_version": 499
+ },
+ "units": [
+  {
+   "id": "be24f4bc-4eed-4fa5-9dc7-cda57134a5ef",
+   "name": {
+    "ja": "オーリック・フレイムキーパー",
+    "en": "Auric Flamekeeper",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 110,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "火鉢の斧",
+     "en": "Brazier Axe",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "父なる焔のルーン",
+      "en": "Masterflame Rune",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible friendly **GRIMMDRON INFANTRY** unit wholly within 12\" of this unit to be the target. Then, make a Masterflame rune roll by rolling a dice."
+      },
+      "effect": {
+       "ja": "",
+       "en": "On a 1, or if the roll is equal to or less than the number of friendly **KHAZALITE HOLDS** units that have been destroyed during the battle, pick 1 of the following effects to apply until the start of your next turn:\n\n***Grimnir’s Grit:*** The target has **WARD (5+)**.\n\n***Grimnir’s Resolve:*** You can re-roll charge rolls for the target.\n\n***Grimnir’s Vengeance:*** Add 1 to the Damage characteristic of the target’s melee weapons."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Fire-Fuelled Anger",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Subtract 2 from Masterflame rune rolls for this unit while it has any **grudge marks**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Relight The Fire",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit is destroyed, before removing it from play, give each visible friendly **GRIMMDRON** unit within 6\" of it 1 **grudge mark**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **KHAZALITE HOLDS**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as *Grimnir’s Chosen*.",
+   "wargear": null
+  },
+  {
+   "id": "0db81a50-8066-4963-98f3-518e64183d20",
+   "name": {
+    "ja": "オーリック・ハースガード",
+    "en": "Auric Hearthguard",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 110,
+   "models": 5,
+   "base": "32mm",
+   "reinforce": true,
+   "ranged": [
+    {
+     "ja": "マグマパイク",
+     "en": "Magmapike",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "12\"",
+      "2",
+      "4+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [
+      "近接射撃",
+      "クリティカル（2ヒット）"
+     ],
+     "abil_en": [
+      "Shoot in Combat",
+      "Crit (2 Hits)"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "マグマパイク",
+     "en": "Magmapike",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [
+      "クリティカル（2ヒット）"
+     ],
+     "abil_en": [
+      "Crit (2 Hits)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "溶岩弾",
+      "en": "Molten Rockbolts",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Shooting Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit that had any damage points allocated to it this turn by this unit’s shooting attacks to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Subtract 1 from hit rolls for the target’s attacks until the start of your next turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Focused Ire",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to hit rolls for this unit’s shooting attacks while it has any **grudge marks**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "豪傑",
+     "Champion"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "9b95475f-15e0-4c23-a2c7-181425848ed8",
+   "name": {
+    "ja": "オーリック・ルーンファーザー",
+    "en": "Auric Runefather",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 130,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "掛金鍵の大斧",
+     "en": "Latchkey Grandaxe",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "王家の近衛",
+      "en": "Royal Retinue",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Battle (Army), Deployment Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a friendly non-**HERO GRIMMDRON INFANTRY** unit within this unit’s combat range to be the **royal retinue**."
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the battle, while the **royal retinue** is wholly within 6\" of and visible to this unit:\n\n• Add 1 to hit rolls for the **royal retinue’s** attacks.\n• This unit has **WARD (4+)**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "威厳ある存在感",
+      "en": "Commanding Presence",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has any **grudge marks**, the **royal retinue** has **WARD (4+)** while it is wholly within 6\" of this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **KHAZALITE HOLDS**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as *Grimnir’s Chosen*.",
+   "wargear": null
+  },
+  {
+   "id": "c92f02b5-a87d-439a-950c-f3b1ec4b6977",
+   "name": {
+    "ja": "オーリック・ルーンファーザー（マグマドロス騎乗）",
+    "en": "Auric Runefather on Magmadroth",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "14"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 320,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "燃え盛る業焔",
+     "en": "Roaring Fyrestream",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "4",
+      "3+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [
+      "対歩兵（+1貫通値）",
+      "随行者"
+     ],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)",
+      "Companion"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "掛金鍵の大斧",
+     "en": "Latchkey Grandaxe",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "マグマドロスの顎、鉤爪、角（戦傷時）",
+     "en": "Magmadroth’s Maw, Claws and Horns (battle damaged)",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [
+      "随行者"
+     ],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "猛炎の血",
+      "en": "Volcanic Blood",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。",
+       "en": "Each time you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "バトルダメージ",
+      "en": "Battle Damaged",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**マグマドロスの顎、鉤爪、角**の【攻撃回数】は4になる。",
+       "en": "While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Maw, Claws and Horns** is 4.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "荒れ狂う業火",
+      "en": "Raging Inferno",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+       "en": "Once Per Turn (Army), Any Combat Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+       "en": "Pick an enemy unit in combat with this unit to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットのセーブロールは-1の修正を受ける。",
+       "en": "Roll a dice. On a 3+, subtract 1 from save rolls for the target for the rest of the turn.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "蹂躙",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "ロッジの主",
+      "en": "Warrior-Kings",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Battle (Army), Your Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "For the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **GRIMMDRON** units while they are wholly within 12\" of this unit.\n\nIf this unit has any **grudge marks**, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by the following visible friendly units while they are wholly within 12\" of this unit instead:\n• **GRIMMDRON** units\n• **KROMDRON INFANTRY** units"
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "大型獣",
+     "Monster"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Grimnir’s Chosen*",
+    "0-1 *Vulcatrix’s Chosen*",
+    "Any **KHAZALITE HOLDS**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as *Vulcatrix’s Chosen*.",
+   "wargear": null
+  },
+  {
+   "id": "8020a869-728c-4071-b16c-345da0b48381",
+   "name": {
+    "ja": "オーリック・ルーンマスター",
+    "en": "Auric Runemaster",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 160,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "火鉢の杖",
+     "en": "Brazier Staff",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "ザールグリムの至高神官",
+      "en": "High Priest of the Zharrgrim",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットによって祈願された奇蹟が成就した際、そのアビリティが解決された直後に、ダイスを1個ロールする。ロール結果が5+であれば、このユニットは**宿怨マーク**を1個得る。",
+       "en": "Each time a prayer chanted by this unit is answered, after that ability has been resolved, roll a dice. On a 5+, give this unit 1 **grudge mark**.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "ルーンの匠",
+      "en": "Master of the Runes",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "自軍側ヒーローフェイズ",
+       "en": "Your Hero Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットから**宿怨マーク**を1個取り除く。そうした場合、そのターン中、このユニットの12mv以内に全体が入っており、かつ視認状態である味方**グリムドロン・歩兵**・ユニットはセーブロールに+1の修正を受ける。",
+       "en": "Remove 1 **grudge mark** from this unit. If you do so, for the rest of the turn, add 1 to save rolls for friendly **GRIMMDRON INFANTRY** units while they are wholly within 12\" of and visible to this unit.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "神官（1）",
+     "Priest (1)"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **KHAZALITE HOLDS**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as *Grimnir’s Chosen*. This unit will move to Warhammer Legends on 1 June 2027.",
+   "wargear": null
+  },
+  {
+   "id": "5f84c30b-5503-4425-8576-f2666f692694",
+   "name": {
+    "ja": "オーリック・ルーンスマイター",
+    "en": "Auric Runesmiter",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 110,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "掛金の斧",
+     "en": "Latch-axe",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Righteous Wrath",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to chanting rolls for this unit while it has any **grudge marks**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Magmic Passage",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible friendly **GRIMMDRON INFANTRY** unit wholly within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+, add 2\" to the target’s Move characteristic until the start of your next turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "神官（1）",
+     "Priest (1)"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **KHAZALITE HOLDS**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as *Grimnir’s Chosen*.",
+   "wargear": null
+  },
+  {
+   "id": "cfe2082e-13ca-4cc7-805a-33191e253421",
+   "name": {
+    "ja": "オーリック・ルーンスマイター（マグマドロス騎乗）",
+    "en": "Auric Runesmiter on Magmadroth",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "14"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 290,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "燃え盛る業焔",
+     "en": "Roaring Fyrestream",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "4",
+      "3+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [
+      "対歩兵（+1貫通値）",
+      "随行者"
+     ],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)",
+      "Companion"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "掛金の斧",
+     "en": "Latch-axe",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "Magmadroth’s Maw, Claws and Horns（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [
+      "随行者"
+     ],
+     "abil_en": [
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "バトルダメージ",
+      "en": "Battle Damaged",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Maw, Claws and Horns** is 4."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "猛炎の血",
+      "en": "Volcanic Blood",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。",
+       "en": "Each time you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "ルーン強化",
+      "en": "Runic Empowerment",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible friendly **GRIMMDRON** unit wholly within 12\" of this unit to be the target. If this unit has any **grudge marks**, pick a visible friendly **KHAZALITE HOLDS** unit wholly within 12\" of this unit to be the target instead."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+, add 1 to wound rolls for the target’s combat attacks for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "叩きつける尾",
+      "en": "Lashing Tail",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+       "en": "Once Per Turn (Army), Any Combat Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+       "en": "Pick an enemy unit in combat with this unit to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "2D6をロールする。ロール結果が選択された敵ユニットの兵数以下である場合、選択された敵ユニットはD3+3ポイントの致命的ダメージを受ける。",
+       "en": "Roll 2D6. If the roll is equal to or less than the number of models in the target unit, inflict D3+3 mortal damage on the target.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "蹂躙",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "大型獣",
+     "Monster"
+    ],
+    [
+     "神官（1）",
+     "Priest (1)"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **KHAZALITE HOLDS**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as *Vulcatrix's Chosen*.",
+   "wargear": null
+  },
+  {
+   "id": "91bd86ae-f985-4289-9c30-82446ad0d5f1",
+   "name": {
+    "ja": "オーリック・ルーンサン",
+    "en": "Auric Runeson",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 100,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "父祖の武器",
+     "en": "Ancestral Weapons",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [
+      "対大型獣（+1貫通値）"
+     ],
+     "abil_en": [
+      "Anti-MONSTER (+1 Rend)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "恐れ無き突進",
+      "en": "Fearless Charge",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Add 1 to charge rolls for visible friendly **KHAZALITE HOLDS INFANTRY** units while they are wholly within 12\" of this unit. While this unit has any **grudge marks**, add 2 to charge rolls for visible friendly **KHAZALITE HOLDS INFANTRY** units while they are wholly within 12\" of this unit instead."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "揺るぎなき強襲",
+      "en": "Dauntless Assault",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Reaction: You declared a **FIGHT** ability for this unit or a non-**HERO GRIMMDRON INFANTRY** unit within 3\" of this unit"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If you declared a **FIGHT** ability for this unit, pick a friendly non-**HERO GRIMMDRON INFANTRY** unit that has not used a **FIGHT** ability this turn, is within this unit’s combat range and is visible to this unit to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.\n\nIf you declared a **FIGHT** ability for a friendly non-**HERO GRIMMDRON INFANTRY** unit, if this unit has not used a **FIGHT** ability this turn, it can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by the friendly non-**HERO GRIMMDRON INFANTRY** unit has been resolved. If it is picked to do so, add 1 to hit rolls for this unit’s attacks for the rest of the turn.\n\n**Designer’s Note**: *This ability lets another friendly unit fight immediately after this unit or lets this unit fight immediately after that other friendly unit. Add 1 to hit rolls for whichever of those two units fights after the first.*"
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **KHAZALITE HOLDS**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as *Grimnir’s Chosen*.",
+   "wargear": null
+  },
+  {
+   "id": "7c086d44-ccfc-4936-b04f-de6befe35752",
+   "name": {
+    "ja": "オーリック・ルーンサン（マグマドロス騎乗）",
+    "en": "Auric Runeson on Magmadroth",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "14"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 290,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "燃え盛る業焔",
+     "en": "Roaring Fyrestream",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "4",
+      "3+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [
+      "対歩兵（+1貫通値）",
+      "随行者"
+     ],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)",
+      "Companion"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "Magmadroth’s Maw, Claws and Horns（戦傷時）",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [
+      "随行者"
+     ],
+     "abil_en": [
+      "Companion"
+     ]
+    },
+    {
+     "ja": "父祖の武器",
+     "en": "Ancestral Weapons",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [
+      "対大型獣（+1貫通値）"
+     ],
+     "abil_en": [
+      "Anti-MONSTER (+1 Rend)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "猛炎の血",
+      "en": "Volcanic Blood",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。",
+       "en": "Each time you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Calamitous Crash",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy unit in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+, roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on that unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Packdroth",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Reaction: You declared a **MOVE** ability for this unit in your movement phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick a visible friendly **GRIMMDRON INFANTRY** unit that is wholly within 6\" of this unit, is not in combat and has not been set up this turn to be the target. Remove the target from the battlefield. After this unit ends its move, you must set up the target wholly within 6\" of this unit and not in combat. Unless this unit has any **grudge marks**, the target cannot use **CHARGE** abilities for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "バトルダメージ",
+      "en": "Battle Damaged",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Maw, Claws and Horns** is 4."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "大型獣",
+     "Monster"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **KHAZALITE HOLDS**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as *Vulcatrix's Chosen*.",
+   "wargear": null
+  },
+  {
+   "id": "508b8474-599c-40e1-bfbc-78bfc2da829e",
+   "name": {
+    "ja": "バトルスミス",
+    "en": "Battlesmith",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 110,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "先祖伝来の戦斧",
+     "en": "Ancestral Battle-axe",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "ロッジの詩人",
+      "en": "Bard of the Lodge",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットの12mv以内に全体が入っている味方**グリムドロン**・ユニットが『再集結』指揮アビリティを使用する際、自軍はD6の再集結ロールを追加で3回実行できる。",
+       "en": "Each time a friendly **GRIMMDRON** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "グリムニルの戦旗",
+      "en": "Icon of Grimnir",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "• このユニットの12mv以内に全体が入っており、このユニットから視認状態である味方**グリムドロン**・ユニットは、確保スコアに対するマイナス修正を無視する。\n• このユニットが1個以上の**宿怨マーク**を持つ間、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**グリムドロン**・ユニットは、確保スコアに+3の修正を受ける。",
+       "en": "•  Ignore negative modifiers to the control scores of visible friendly **GRIMMDRON** units while they are wholly within 12\" of this unit.\n•  While this unit has any **grudge marks**, add 3 to the control scores of visible friendly **GRIMMDRON** units while they are wholly within 12\" of this unit.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **GRIMMDRON**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as *Grimnir’s Chosen*. This unit will move to Warhammer Legends on 1 June 2027.",
+   "wargear": null
+  },
+  {
+   "id": "f448e99f-16a2-4e3f-9164-d9fb9b02e1f4",
+   "name": {
+    "ja": "ドゥームシーカー",
+    "en": "Doomseeker",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 100,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "ドゥームシーカーの武器",
+     "en": "Doomseeker Weapons",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "ルーンの力",
+      "en": "Runic Power",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットが受けているダメージが1ポイントである場合、このユニットの近接武器は【ダメージ量】に+1の修正を受ける。\nこのユニットが受けているダメージが2ポイント以上であるならば、このユニットの近接武器は【ダメージ量】に+2の修正を受ける。",
+       "en": "Add 1 to the Damage characteristic of this unit’s melee weapons while this unit has 1 damage point.\nAdd 2 to the Damage characteristic of this unit’s melee weapons instead while this unit has 2 or more damage points.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "誓いを帯びし者",
+      "en": "Oathbound",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "バトル中1回限り（アーミー）、初期配置フェイズ",
+       "en": "Once Per Battle (Army), Deployment Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットの獲物として敵ユニットを1個選択する。予備戦力として配置されているユニットを獲物に選んでもよい。",
+       "en": "Pick an enemy unit to be this unit’s quarry. You can pick a unit that has been deployed in reserve.&#x20;",
+       "fix": []
+      },
+      "effect": {
+       "ja": "獲物を対象としたのユニットの攻撃は、ヒットロールおよびウーンズロールに+1の修正を受ける。\nこのユニットが、自身の獲物と近接戦闘中であるときに全滅した場合、このユニットを全滅させたアビリティが解決された直後に、このユニットの獲物の12mv以内に一部でも入っている各味方**グリムドロン**・ユニットは、それぞれ**宿怨マーク**を1個獲得する。",
+       "en": "Add 1 to hit rolls and wound rolls for this unit’s attacks that target its quarry.\n\nIf this unit is destroyed while it is in combat with its quarry, give 1 **grudge mark** to each friendly **GRIMMDRON** unit within 12\" of this unit’s quarry immediately after the ability that destroyed this unit has been resolved.",
+       "fix": [
+        [
+         "獲物を対象としたのユニットの攻撃",
+         "獲物を対象としたこのユニットの攻撃"
+        ]
+       ]
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": [
+      "日本語版「対象としたのユニット」は「こ」の脱字（バトルトーム・サプリメント カザライト・ホールド 2026年11月 p.4）。"
+     ]
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **GRIMMDRON**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as *Grimnir’s Chosen*. This unit will move to Warhammer Legends on 1 June 2027.",
+   "wargear": null
+  },
+  {
+   "id": "86da6e46-d5a4-4e7f-9a47-af026f2d169d",
+   "name": {
+    "ja": "グリムホールド・エグザイル",
+    "en": "Grimhold Exile",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 110,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "ファイア＝ルーン・ハンマー",
+     "en": "Fyre-rune Hammers",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "2",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": [
+      "Charge (+1 Damage)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Wrathful Wanderer",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Battle (Army), Deployment Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Remove this unit from the battlefield, then set it up again on the battlefield wholly within 6\" of a battlefield edge and more than 9\" from all enemy units."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Alone But Never Outnumbered",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "This unit has **STRIKE-FIRST** while there are no other friendly units within 6\" of it."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Relentless Wrath",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Enemy Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit has any **grudge marks** and is not in combat, it can move D6\". It can move through the combat ranges of enemy units but cannot end that move in combat and cannot end that move any further from the closest enemy unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **GRIMMDRON**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as *Grimnir’s Chosen*.",
+   "wargear": null
+  },
+  {
+   "id": "d506d398-8389-4cc9-b9e7-8a3764380d10",
+   "name": {
+    "ja": "グリムラース・バーザーカー",
+    "en": "Grimwrath Berzerker",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 110,
+   "models": 1,
+   "base": "32mm",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "焔嵐の巨斧",
+     "en": "Fyrestorm Greataxe",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "2",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "戦いの熱狂",
+      "en": "Battle-fury",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+       "en": "Once Per Turn (Army), Any Combat Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットが1個以上の**宿怨マーク**を持ち、かつ近接戦闘中である場合、**宿怨マーク**を1個取り除いてもよい。そうした場合、このユニットはこのフェイズ中に『**近接攻撃**』アビリティを2回使用できる。ただし、1回目が使用された後、このユニットはそのフェイズ終了時まで『**後手効果**』を得る。",
+       "en": "If this unit has any **grudge marks** and is in combat, you can remove 1 **grudge mark** from this unit. If you do so, this unit can use 2 **FIGHT** abilities this phase. After the first is used, however, this unit has **STRIKE-LAST** for the rest of the phase.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "グリムラースの誓い",
+      "en": "Grimwrath Oaths",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、任意のターン終了時",
+       "en": "Once Per Turn (Army), End of Any Turn",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このターン中、このユニットの6mv以内に一部でも入っており、かつこのユニットから視認状態であった味方**グリムドロン**・ユニットが1個全滅した場合、このユニットに**宿怨マーク**を1個与えてもよい。",
+       "en": "&#x20;If a friendly **GRIMMDRON** unit was within 6\" of and visible to this unit when it was destroyed this turn, you can give this unit 1 **grudge mark**.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "Any **GRIMMDRON**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as *Grimnir’s Chosen*. This unit will move to Warhammer Legends on 1 June 2027.",
+   "wargear": null
+  },
+  {
+   "id": "71fc848d-70c8-4561-b753-b66a11409133",
+   "name": {
+    "ja": "ハースガード・バーザーカー",
+    "en": "Hearthguard Berzerkers",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 110,
+   "models": 5,
+   "base": "32mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Broadaxe or Flamestrike Poleaxe",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "殉死の義務",
+      "en": "Duty Unto Death",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While any friendly **GRIMMDRON INFANTRY HEROES** are wholly within this unit’s combat range, both this unit and those friendly units have **WARD (5+)**."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Fury Of Grimnir",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Enemy Movement Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "If this unit has any **grudge marks** and is not in combat, it can move D6\". It can move through the combat ranges of enemy units but cannot end that move in combat and cannot end that move any further from the closest enemy unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "豪傑",
+     "Champion"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "d7779407-5a90-4cb7-83de-7e44b0ad6142",
+   "name": {
+    "ja": "オーミル＆アッシュタン",
+    "en": "Ormyr and Ashtongue",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "5"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "2"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 140,
+   "models": 2,
+   "base": "32mm [1], 50mm [1]",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "Ormyr's Double-bladed Axe and Punchblade",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [
+      "対大型獣（+1貫通値）"
+     ],
+     "abil_en": [
+      "Anti-MONSTER (+1 Rend)"
+     ]
+    },
+    {
+     "ja": "Ashtongue's Maw and Claws",
+     "en": "",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [
+      "クリティカル（致命的）",
+      "随行者"
+     ],
+     "abil_en": [
+      "Crit (Mortal)",
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Vulcatrix's Fury",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has any **grudge marks**, add 1 to the Attacks characteristic of **Companion** weapons used by visible friendly **KHAZALITE HOLDS** units while they are wholly within 12\" of this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Drothmaster At Heart",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Hero Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick a visible friendly **Vulkyn Flameseekers** or **GRIMMDRON MONSTER** unit wholly within 12\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Pick 1 of the following effects:\n• If you picked a friendly **Vulkyn Flameseekers** unit to be the target, until the start of your next turn, ignore negative modifiers to hit rolls and wound rolls for the target’s combat attacks and ignore negative modifiers to the target’s control score.\n\n• If you picked a friendly **GRIMMDRON MONSTER** unit to be the target, add 1 to hit rolls for attacks made with the target’s **Companion** weapons until the start of your next turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Smoke And Ash",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Your Shooting Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "If this unit contains **Ashtongue**, pick a visible enemy unit within 9\" of this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+, until the start of your next turn, units (friendly and enemy), terrain features and **MANIFESTATIONS** are not visible to the target while they are more than 6\" from it."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Grimnir’s Chosen*",
+    "Any **KHAZALITE HOLDS**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as *Grimnir’s Chosen*.",
+   "wargear": {
+    "ja": "",
+    "en": "*• Ormyr is armed with Ormyr’s Double-bladed Axe and Punchblade.*\n*• Ashtongue is armed with Ashtongue’s Maw and Claws.*",
+    "fix": []
+   }
+  },
+  {
+   "id": "0a87f44e-10f1-4caa-a9f9-7ac73b224d37",
+   "name": {
+    "ja": "アキュシーの禍事 オーリック・ルーンサン（マグマドロス騎乗）",
+    "en": "Scourge of Aqshy: Auric Runeson on Magmadroth",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "10\""
+    ],
+    [
+     "体力",
+     "Health",
+     "14"
+    ],
+    [
+     "防御力",
+     "Save",
+     "4+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "5"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 330,
+   "models": 1,
+   "base": "120 x 92mm",
+   "reinforce": false,
+   "ranged": [
+    {
+     "ja": "燃え盛る業焔",
+     "en": "Roaring Fyrestream",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "10\"",
+      "4",
+      "3+",
+      "3+",
+      "1",
+      "D3"
+     ],
+     "abil_ja": [
+      "対歩兵（+1貫通値）",
+      "随行者"
+     ],
+     "abil_en": [
+      "Anti-INFANTRY (+1 Rend)",
+      "Companion"
+     ]
+    }
+   ],
+   "melee": [
+    {
+     "ja": "マグマドロスの燃え盛る顎",
+     "en": "Magmadroth’s Blazing Maw",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "2+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [
+      "随行者"
+     ],
+     "abil_en": [
+      "Companion"
+     ]
+    },
+    {
+     "ja": "マグマドロスの鉤爪と角（戦傷時）",
+     "en": "Magmadroth’s Claws and Horns (battle damaged)",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "6",
+      "4+",
+      "2+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [
+      "随行者"
+     ],
+     "abil_en": [
+      "Companion"
+     ]
+    },
+    {
+     "ja": "アンセストラルウェポン",
+     "en": "Ancestral Weapons",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "5",
+      "3+",
+      "3+",
+      "1",
+      "2"
+     ],
+     "abil_ja": [
+      "対大型獣（+1貫通値）"
+     ],
+     "abil_en": [
+      "Anti-MONSTER (+1 Rend)"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "バトルダメージ",
+      "en": "Battle Damaged",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**マグマドロスの鉤爪と角**の【攻撃回数】は4になる。",
+       "en": "While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Claws and Horns** is 4.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "猛炎の血",
+      "en": "Volcanic Blood",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットを対象とするメレーアタックのセーブロールで修正前の出目1が出るたびに、その『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。",
+       "en": "Each time you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "紅蓮の怒り",
+      "en": "Seeing Red",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+       "en": "Once Per Turn (Army), Any Combat Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "**憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）その後、以下の効果から1つを選択する：\n**怒りの矛先：**このターン中、このユニットが装備している**随行者**近接武器は【攻撃回数】に+1の修正を受ける。\n**憤激の解放：**自軍側の**憤激レベル**に等しい数のダイスをロールする。効果：ロール結果で4+が出るたび、このユニットを**回復（1）**する。\n**憤怒の盾：**このターン中、このユニットは**加護（5+）**を持つ。",
+       "en": "Spend 1 **rage dice**. If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, pick 1 of the following effects:\n\n***Channelled Ire***: Add 1 to the Attacks characteristic of this unit’s **Companion** melee weapons for the rest of the turn.\n\n***Cathartic Release***: Roll a number of dice equal to your **fury level**. For each 4+, **Heal (1)** this unit.\n\n***Shield of Anger***: This unit has **WARD (5+)** for the rest of the turn.",
+       "fix": [
+        [
+         "ダイスをロールする。効果：ロール結果で4+",
+         "ダイスをロールする。ロール結果で4+"
+        ]
+       ]
+      }
+     },
+     "own": false,
+     "kw_ja": "蹂躙",
+     "kw_en": "Rampage",
+     "cast": null,
+     "cp": null,
+     "note": [
+      "日本語版（アキュシーの禍事 2026年10月 p.2）の『憤激の解放』の途中に「効果：」が紛れ込んでいる（英語版には無い。組版上の誤り）。"
+     ]
+    },
+    {
+     "name": {
+      "ja": "炎の血讐",
+      "en": "Fire, Blood and Vengeance",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "初期配置フェイズ",
+       "en": "Deployment Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "戦場に配置されている味方**オーリック・ルーンファーザー（マグマドロス騎乗）**を1体選択する。",
+       "en": "Pick a friendly **Auric Runefather** **on Magmadroth** on the battlefield to be the target.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "選択された味方ユニットが近接戦闘中である、あるいは損傷状態である、全滅している場合、このユニットが装備している近接武器の【ダメージ量】は+1の修正を受ける（随行者武器を含む）。",
+       "en": "Add 1 to the Damage characteristic of this unit’s melee weapons, including **Companion** weapons, while the target is in combat, damaged or destroyed.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "英雄",
+     "Hero"
+    ],
+    [
+     "大型獣",
+     "Monster"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [
+    "0-1 *Grimnir’s Chosen*",
+    "Any **KHAZALITE HOLDS**"
+   ],
+   "notes_en": "This **HERO** can join an eligible regiment as *Vulcatrix's Chosen*.\n\nThis unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.",
+   "wargear": null
+  },
+  {
+   "id": "9531f2a8-af91-44a3-bd6f-18d8ec6892d9",
+   "name": {
+    "ja": "アキュシーの禍事 ヴルキン・フレイムシーカー",
+    "en": "Scourge of Aqshy: Vulkyn Flameseekers",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 190,
+   "models": 9,
+   "base": "32mm [4], 28.5mm [5]",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "ヴルキンの武器",
+     "en": "Vulkyn Weapons",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [
+      "対大型獣（+1貫通値）"
+     ],
+     "abil_en": [
+      "Anti-MONSTER (+1 Rend)"
+     ]
+    },
+    {
+     "ja": "残り火の牙",
+     "en": "Emberteeth",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "3+",
+      "3+",
+      "-",
+      "2"
+     ],
+     "abil_ja": [
+      "クリティカル（致命的）",
+      "随行者"
+     ],
+     "abil_en": [
+      "Crit (Mortal)",
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "宿炎の気質",
+      "en": "Fiery Disposition",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+       "en": "Once Per Turn (Army), Your Hero Phase",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "**憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）その後、次の自軍側ターン開始時まで、以下の効果から1個選び適用する。Xは自軍側の**憤激レベル**に等しい。\n**ウル＝サラマンダーの活力：**このユニットは【移動力】に+Xmvの修正を受ける。\n**燃え立つ決意：**このユニットは確保スコアに+Xの修正を受ける。\n**燃え立つ怒り：**このユニットは**残り火の牙**の【攻撃回数】に+Xの修正を受ける。",
+       "en": "Spend 1 **rage dice**. If your opponent’s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, pick 1 of the following effects to apply until the start of your next turn, where **X** is equal to your **fury level**.\n\n***Vigour of the Ur-Salamander***: Add **X**\" to this unit’s Move characteristic.\n\n***Fiery Determination***: Add **X** to this unit’s control score.\n\n***Kyndlewrath***: Add **X** to the Attacks characteristic of this unit’s **Emberteeth**.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "豪傑（1/9）",
+     "Champion (1/9)"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit is legal for Matched Play for battles fought using the *General’s Handbook 2026-27* battlepack.",
+   "wargear": {
+    "ja": "このユニット内にいる各兵は『ヴルキンの武器』を装備している。\n• 1/9の兵はキンドルドロスであり、その武器を「残り火の牙」に置き換える。\n• 豪傑はヴルキン・ルーンファーザーであり、その武器を置き換えることはできない。",
+    "en": "***Each model in this unit is armed with Vulkyn Weapons.***\n\n• ***1/9 models is a Kyndledroth and must replace their weapons with Emberteeth.***\n• ***The champion is a Vulkyn Runefather and cannot replace their weapons.***",
+    "fix": []
+   }
+  },
+  {
+   "id": "7d807066-7b68-4190-9dcf-385320ff6ceb",
+   "name": {
+    "ja": "The Chosen Axes",
+    "en": "",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": true,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "3"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 120,
+   "models": 4,
+   "base": "32mm [4]",
+   "reinforce": false,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "焔鋼の武器",
+     "en": "Fyresteel Weapons",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    },
+    {
+     "ja": "掛金鍵の大斧",
+     "en": "Latchkey Grandaxe",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "4",
+      "3+",
+      "3+",
+      "2",
+      "3"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "狂戦士の激情",
+      "en": "Berserk Fury",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "Fjul's Retinue",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit’s **Fjul-Grimnir** is on the battlefield, ignore the first damage point that would be allocated to this unit each phase."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "Unique",
+     ""
+    ],
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "豪傑",
+     "Champion"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit cannot be reinforced.",
+   "wargear": {
+    "ja": "",
+    "en": "***The models in this unit are:***\n\n• ***Fjul-Grimnir** (champion, armed with a Latchkey Grandaxe)*\n• ***Tefk Flamebearer** (armed with Fyresteel Weapons)*\n• ***Vol Orrukbane** (armed with Fyresteel Weapons)*\n• ***Mad Maegrim** (armed with Fyresteel Weapons)*",
+    "fix": []
+   }
+  },
+  {
+   "id": "fe3e6634-3fbb-410f-8eab-836f58b3c308",
+   "name": {
+    "ja": "ヴァルカイト・バーザーカー（刃ありし投げ盾装備）",
+    "en": "Vulkite Berzerkers with Bladed Slingshields",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 150,
+   "models": 10,
+   "base": "32mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "焔鋼の武器",
+     "en": "Fyresteel Weapons",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "狂戦士の激情",
+      "en": "Berserk Fury",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニット内の兵1体がメレーアタックよって撃破されるたび、撃破された兵が攻撃側ユニットと近接戦闘中であった場合、ダイスを1個ロールする。このユニットが1個以上の**宿怨マーク**を持つ場合、ロールは+1の修正を受ける。ロール結果が6+であれば、その『**近接攻撃**』アビリティの解決直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。",
+       "en": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. If this unit has any **grudge marks**, add 1 to the roll. On a 6+, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.",
+       "fix": [
+        [
+         "メレーアタックよって撃破",
+         "メレーアタックによって撃破"
+        ]
+       ]
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": [
+      "日本語版「メレーアタックよって」は「に」の脱字（バトルトーム・サプリメント カザライト・ホールド 2026年11月 p.4）。"
+     ]
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "豪傑",
+     "Champion"
+    ],
+    [
+     "楽士（1/10）",
+     "Musician (1/10)"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "This unit will move to Warhammer Legends on 1 June 2027.",
+   "wargear": null
+  },
+  {
+   "id": "8b322117-9ed8-47da-846b-0dc6befb3bee",
+   "name": {
+    "ja": "ヴァルカイト・バーザーカー（焔鋼の武器装備）",
+    "en": "Vulkite Berzerkers with Fyresteel Weapons",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "6+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 130,
+   "models": 10,
+   "base": "32mm",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "焔鋼の武器",
+     "en": "Fyresteel Weapons",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "2",
+      "4+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [],
+     "abil_en": []
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "破壊の旋風",
+      "en": "Whirlwind of Destruction",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "",
+       "en": "",
+       "fix": []
+      },
+      "effect": {
+       "ja": "このユニットが1個以上の**宿怨マーク**を持つ間、このユニットは近接武器の【攻撃回数】に+1の修正を受ける。",
+       "en": "Add 1 to the Attacks characteristic of this unit’s melee weapons while this unit has any **grudge marks**.",
+       "fix": []
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "豪傑",
+     "Champion"
+    ],
+    [
+     "楽士（1/10）",
+     "Musician (1/10)"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": null
+  },
+  {
+   "id": "be321d6d-b6fb-4a56-a712-a4d4779aee76",
+   "name": {
+    "ja": "ヴルキン・フレイムシーカー",
+    "en": "Vulkyn Flameseekers",
+    "own": false,
+    "fix": [],
+    "note": []
+   },
+   "legends": false,
+   "spearhead": false,
+   "stats": [
+    [
+     "移動力",
+     "Move",
+     "4\""
+    ],
+    [
+     "体力",
+     "Health",
+     "2"
+    ],
+    [
+     "防御力",
+     "Save",
+     "5+"
+    ],
+    [
+     "確保力",
+     "Control",
+     "1"
+    ]
+   ],
+   "ward": "6+",
+   "additional": [],
+   "points": 160,
+   "models": 9,
+   "base": "32mm [4], 28.5mm [5]",
+   "reinforce": true,
+   "ranged": [],
+   "melee": [
+    {
+     "ja": "ヴルキンの武器",
+     "en": "Vulkyn Weapons",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "3",
+      "3+",
+      "3+",
+      "1",
+      "1"
+     ],
+     "abil_ja": [
+      "対大型獣（+1貫通値）"
+     ],
+     "abil_en": [
+      "Anti-MONSTER (+1 Rend)"
+     ]
+    },
+    {
+     "ja": "キンドルドロスの牙",
+     "en": "Kyndledroth's Fangs",
+     "own": false,
+     "fix": [],
+     "note": [],
+     "v": [
+      "1",
+      "3+",
+      "3+",
+      "-",
+      "2"
+     ],
+     "abil_ja": [
+      "クリティカル（致命的）",
+      "随行者"
+     ],
+     "abil_en": [
+      "Crit (Mortal)",
+      "Companion"
+     ]
+    }
+   ],
+   "abilities": [
+    {
+     "name": {
+      "ja": "Blunt Their Horns and Fangs",
+      "en": "",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Passive"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": ""
+      },
+      "effect": {
+       "ja": "",
+       "en": "While this unit has any **grudge marks**:\n• Subtract 2 from the Attacks characteristic of **Companion** melee weapons used by enemy **MONSTERS** while they are in combat with this unit.\n\n• Enemy **MONSTERS** cannot use **RAMPAGE** abilities while they are in combat with this unit."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    },
+    {
+     "name": {
+      "ja": "怪獣使い",
+      "en": "Drothmasters",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "",
+       "en": "Once Per Turn (Army), Any Combat Phase"
+      },
+      "used_by": {
+       "ja": "",
+       "en": ""
+      },
+      "declare": {
+       "ja": "",
+       "en": "Pick an enemy **MONSTER** in combat with this unit to be the target."
+      },
+      "effect": {
+       "ja": "",
+       "en": "Roll a dice. On a 3+, subtract 2 from the Damage characteristic of the target’s **COMPANION** melee weapons for the rest of the turn."
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": []
+    }
+   ],
+   "terrain": [],
+   "keywords": [
+    [
+     "歩兵",
+     "Infantry"
+    ],
+    [
+     "豪傑（1/9）",
+     "Champion (1/9)"
+    ],
+    [
+     "加護（6+）",
+     "Ward (6+)"
+    ],
+    [
+     "秩序の大同盟",
+     "Order"
+    ],
+    [
+     "カザライト・ホールド",
+     "Khazalite Holds"
+    ],
+    [
+     "ドゥアーディン",
+     "Duardin"
+    ],
+    [
+     "グリムドロン",
+     "Grimmdron"
+    ]
+   ],
+   "keyword_fix": {},
+   "regiment": [],
+   "notes_en": "",
+   "wargear": {
+    "ja": "",
+    "en": "***Each model in this unit is armed with Vulkyn Weapons.***\n\n• ***1/9 models is a Kyndledroth and must replace their weapons with Kyndledroth’s Fangs.***\n• ***The champion is a Vulkyn Runefather and cannot replace their weapons.***",
+    "fix": []
+   }
+  }
+ ]
+}

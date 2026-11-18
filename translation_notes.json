@@ -2,7 +2,7 @@
  "_doc": "official_translations/*.json（書籍などから書き写した公式訳）の既知の誤訳・誤植。md 生成時に status=open のものを該当箇所の直後に「訳注」として差し込む（日本語の本文は書籍どおりのまま）。照合・更新は .claude/skills/translation-notes/scripts/translation_notes.py check --update。",
  "_location": "tr_section / tr_key / tr_field は日本語の場所（official_translations/<faction>.json のセクション・キー・フィールド。フィールドの無い名前のセクションは tr_field=null）。table / id / en_field は対応する英語の dump.json レコード。",
  "_fix_ja": "fix_ja: 誤訳を何に直すか。文字列なら ja をそれに置き換える。複数箇所・別範囲を直すときは {誤訳箇所: 修正後}。md の訳注に「訂正: 「誤」→「正」」として出る。",
- "checked_data_version": 488,
+ "checked_data_version": 499,
  "notes": [
   {
    "faction": "daughters_of_khaine",
@@ -2888,6 +2888,596 @@
    "since": 483,
    "fix_ja": {
     "口ひげ内臓式エーテルブラスター": "口ひげ内蔵式エーテルブラスター"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Doomseeker|Oathbound",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "4291fd54-605e-46be-9915-cb99a9d22eed",
+   "en_field": "effect",
+   "name": "Oathbound",
+   "ja": "獲物を対象としたのユニットの攻撃",
+   "en": "this unit’s attacks that target its quarry",
+   "note": "日本語版「対象としたのユニット」は「こ」の脱字（バトルトーム・サプリメント カザライト・ホールド 2026年11月 p.4）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "獲物を対象としたのユニットの攻撃": "獲物を対象としたこのユニットの攻撃"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Vulkite Berzerkers with Bladed Slingshields|Berserk Fury",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "580f23c9-1c91-4db4-a2be-4113d68f7cfe",
+   "en_field": "effect",
+   "name": "Berserk Fury",
+   "ja": "メレーアタックよって撃破",
+   "en": "is slain by a combat attack",
+   "note": "日本語版「メレーアタックよって」は「に」の脱字（バトルトーム・サプリメント カザライト・ホールド 2026年11月 p.4）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "メレーアタックよって撃破": "メレーアタックによって撃破"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Summon Molten Infernoth",
+   "tr_field": "declare",
+   "table": "lore_ability",
+   "id": "301211f7-cc99-4d7d-a28b-0bec16d900fc",
+   "en_field": "declare",
+   "name": "Summon Molten Infernoth",
+   "ja": "この奇蹟を祈願する際に、味方**グリムドロン・神官**",
+   "en": "If there is not a friendly **Molten Infernoth** on the battlefield, pick a friendly **GRIMMDRON PRIEST**",
+   "note": "英語版は宣言の冒頭に「戦場に味方溶岩の獄鬼がいない場合」の条件がある。日本語版（バトルトーム・サプリメント 2026年11月 p.7）はこの条件が抜けている。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "この奇蹟を祈願する際に、": "戦場に味方**溶岩の獄鬼**が配置されていない場合、この奇蹟を祈願する際に、"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Summon Runic Fyrewall",
+   "tr_field": "declare",
+   "table": "lore_ability",
+   "id": "283323ce-d908-4f53-9e14-586435f60b5f",
+   "en_field": "declare",
+   "name": "Summon Runic Fyrewall",
+   "ja": "この奇蹟を祈願する際に、味方**グリムドロン・神官**",
+   "en": "If there is not a friendly **Runic Fyrewall** on the battlefield, pick a friendly **GRIMMDRON PRIEST**",
+   "note": "英語版は宣言の冒頭に「戦場に味方ルーンの焔壁がいない場合」の条件がある。日本語版（バトルトーム・サプリメント 2026年11月 p.7）はこの条件が抜けている。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "この奇蹟を祈願する際に、": "戦場に味方**ルーンの焔壁**が配置されていない場合、この奇蹟を祈願する際に、"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Summon Zharrgron Flame-spitter",
+   "tr_field": "declare",
+   "table": "lore_ability",
+   "id": "45c9cbfc-1e6a-422a-84e2-7a78db439c62",
+   "en_field": "declare",
+   "name": "Summon Zharrgron Flame-spitter",
+   "ja": "この奇蹟を祈願する際に、味方**グリムドロン・神官**",
+   "en": "If there is not a friendly **Zharrgron Flame-spitter** on the battlefield, pick a friendly **GRIMMDRON PRIEST**",
+   "note": "英語版は宣言の冒頭に「戦場に味方ザールグロンの焔吐きがいない場合」の条件がある。日本語版（バトルトーム・サプリメント 2026年11月 p.7）はこの条件が抜けている。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "この奇蹟を祈願する際に、": "戦場に味方**ザールグロンの焔吐き**が配置されていない場合、この奇蹟を祈願する際に、"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Aureate Hide",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "390d4ede-112b-4e82-9c67-9dbcedfcbbac",
+   "en_field": "effect",
+   "name": "Aureate Hide",
+   "ja": "その『**近接戦闘**』アビリティ",
+   "en": "After that **FIGHT** ability has been resolved",
+   "note": "英語版はどちらも Fight ability。日本語版（アキュシーの禍事 カザライト・ホールド 2026年10月 p.1）は 2 つ目だけ『近接戦闘』アビリティになっている（『近接攻撃』の誤り）。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "その『**近接戦闘**』アビリティ": "その『**近接攻撃**』アビリティ"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Aureate Hide",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "390d4ede-112b-4e82-9c67-9dbcedfcbbac",
+   "en_field": "effect",
+   "name": "Aureate Hide",
+   "ja": "視認状態である**カザライト・ホールド・神官**1体を選択する",
+   "en": "you can pick a visible friendly **KHAZALITE HOLDS PRIEST**",
+   "note": "英語版は「味方（friendly）」の神官を「選択してもよい（you can pick）」。日本語版（アキュシーの禍事 2026年10月 p.1）は「味方」が抜け、選択が必須のように読める。",
+   "issue": "C. 任意と必須の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "視認状態である**カザライト・ホールド・神官**1体を選択する": "視認状態である味方**カザライト・ホールド・神官**1体を選択してもよい"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Auric Runeson on Magmadroth|Seeing Red",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "3cab910e-c5ec-48ed-8a1b-f1179004f9c0",
+   "en_field": "effect",
+   "name": "Seeing Red",
+   "ja": "ダイスをロールする。効果：ロール結果で4+",
+   "en": "Roll a number of dice equal to your fury level. For each 4+, Heal (1) this unit.",
+   "note": "日本語版（アキュシーの禍事 2026年10月 p.2）の『憤激の解放』の途中に「効果：」が紛れ込んでいる（英語版には無い。組版上の誤り）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "ダイスをロールする。効果：ロール結果で4+": "ダイスをロールする。ロール結果で4+"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Spearhead|Hjulda Drakkblud|Browbeater",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "ec85cbb4-aa5c-4de1-a069-2beb70031f44",
+   "en_field": "effect",
+   "name": "Browbeater",
+   "ja": "選択された味方ユニットが装備している武器は【貫通値】に+1",
+   "en": "add 1 to the Rend characteristic of the target’s melee weapons",
+   "note": "英語は melee weapons（近接武器）に限定。日本語は『武器』で遠隔武器も含む読みになる（スピアヘッド ドラックブラッドの氏族衛士隊 2026年10月 p.3）",
+   "issue": "H. 攻撃種別の限定の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "装備している武器": "装備している近接武器"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Spearhead|Well-honed Tactics",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "44647e82-930c-439d-a0b6-b20dfbc5af7b",
+   "en_field": "effect",
+   "name": "Well-honed Tactics",
+   "ja": "このユニットは、現在のターン中に",
+   "en": "The target can use **RETREAT** abilities",
+   "note": "強化（ジェネラルに付与）の効果なので『このユニット』だとジェネラル自身と読める。英語は The target（宣言で選んだ味方ユニット）。同文後半の『このターン中、このユニットは『退却』アビリティによる致命的ダメージを受けない』も同様（the target）（同 p.2）",
+   "issue": "F. 効果を得る側の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "このユニットは、現在のターン中に": "選択された味方ユニットは、現在のターン中に"
+   }
+  },
+  {
+   "faction": "lofnir_drothkeepers",
+   "tr_section": "ability_texts",
+   "tr_key": "Blazing Vengeance",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "dc69f9f3-d9dc-4d4a-9860-4029763d1e2f",
+   "en_field": "effect",
+   "name": "Blazing Vengeance",
+   "ja": "ドロスキーパー",
+   "en": "DROTHKEEPERS",
+   "note": "キーワード Drothkeepers はルール冒頭・他のアビリティでは『ドロス番』。この能力だけ『ドロスキーパー』（2箇所）で、キーワードとして一致しない（名高き軍勢 2026年10月 p.3、ルール・アップデート 2026年11月 p.31 の追加文も同じ）",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "ドロスキーパー": "ドロス番"
+   }
+  },
+  {
+   "faction": "lofnir_drothkeepers",
+   "tr_section": "ability_texts",
+   "tr_key": "Mastery Over Monsters",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "dd6f17aa-0822-4f48-9401-326f1c53e060",
+   "en_field": "effect",
+   "name": "Mastery Over Monsters",
+   "ja": "争奪中している",
+   "en": "contesting that objective",
+   "note": "誤植（『争奪中である』と『争奪している』の混交）（名高き軍勢 2026年10月 p.4）",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "争奪中している": "争奪している"
+   }
+  },
+  {
+   "faction": "lofnir_drothkeepers",
+   "tr_section": "ability_texts",
+   "tr_key": "Summon Molten Infernoth",
+   "tr_field": "declare",
+   "table": "lore_ability",
+   "id": "9f142af0-f660-4919-944a-a0fe7ef4dc00",
+   "en_field": "declare",
+   "name": "Summon Molten Infernoth",
+   "ja": "**ドロス番・神官**・を",
+   "en": "pick a friendly **DROTHKEEPERS PRIEST**",
+   "note": "『神官』の後ろの余分な中黒（名高き軍勢 2026年10月 p.4）",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "**ドロス番・神官**・を": "**ドロス番・神官**を"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Spearhead|Fiery Reinforcements",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "b442fd58-4ac6-4a54-8de4-be19f6c7074e",
+   "en_field": "effect",
+   "name": "Fiery Reinforcements",
+   "ja": "戦場端から1mv以内に全体が入るように",
+   "en": "within 1\" of a battlefield edge",
+   "note": "英語は within（一部でも）で wholly within ではない。日本語は『全体が入る』で条件が厳しくなっている（スピアヘッド ドラックブラッドの氏族衛士隊 2026年10月 p.6『岩漿召集軍』）",
+   "issue": "N. 範囲（全体が／一部でも）の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "1mv以内に全体が入るように": "1mv以内に一部でも入るように"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Endrinriggers|We're Working Here!",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "cb0c2b61-bfb4-40b7-a54a-fd45802cc654",
+   "en_field": "effect",
+   "name": "We're Working Here!",
+   "ja": "このユニットの**エーテル駆動式チェーンソー**は",
+   "en": "This unit’s **Aethermatic Saws** have",
+   "note": "英語版は Aethermatic Saws。同じウォースクロール（アキュシーの禍事 2026年6月）の武器表では「エーテル駆動式の鋸」で、日本語版の「エーテル駆動式チェーンソー」は名称が食い違う（同じ武器を指す）。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "**エーテル駆動式チェーンソー**": "**エーテル駆動式の鋸**"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Endrinriggers|We're Working Here!",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "cb0c2b61-bfb4-40b7-a54a-fd45802cc654",
+   "en_field": "effect",
+   "name": "We're Working Here!",
+   "ja": "4+ **怒り心頭**このユニットは",
+   "en": "**4+ *Exasperated***: This unit has",
+   "note": "日本語版（アキュシーの禍事 2026年6月）は他の 2 行（苛立ち：／怒髪衝天：）にあるコロンが「怒り心頭」の後ろに無い。ルールへの影響は無い。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "**怒り心頭**": "**怒り心頭：**"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Zontari Endrin Dock|Endrinworks Outpost",
+   "tr_field": "declare",
+   "table": "warscroll_ability",
+   "id": "1eb0460c-38a2-46a2-9fdb-8e483baaa166",
+   "en_field": "declare",
+   "name": "Endrinworks Outpost",
+   "ja": "味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリンを1個選択する。",
+   "en": "Pick a friendly **AUTO-ENDRIN** or replacement **AUTO‑ENDRIN** that has been removed from the battlefield",
+   "note": "英語版は「戦場から取り除かれた（味方オートエンドリンまたは代替のオートエンドリン）」を選ぶ。改訂前の書籍 p.66 も「戦場から取り除かれた味方オートエンドリンを1個選択する」で、エラッタは代替のオートエンドリンも対象に加えただけ。日本語版（ルール・アップデート 2026年9月）の「味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリン」は「戦場から取り除かれた」が代替のほうにしか掛からず、戦場にいるオートエンドリンも選べるように読める。選べるのは戦場から取り除かれたもの（元のオートエンドリンでも代替でも）だけ。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "味方オートエンドリンを1個または戦場から取り除かれた代替のオートエンドリンを1個選択する。": "戦場から取り除かれた味方オートエンドリンまたは代替のオートエンドリンを1個選択する。"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Zontari Endrin Dock|Endrinworks Outpost",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "1eb0460c-38a2-46a2-9fdb-8e483baaa166",
+   "en_field": "effect",
+   "name": "Endrinworks Outpost",
+   "ja": "エンドリン・マスター（エンドリンハーネス装備）",
+   "en": "**Endrinmaster with Endrinharness**",
+   "note": "英語版は Endrinmaster with Endrinharness。日本語版（ルール・アップデート 2026年9月）の「エンドリン・マスター（エンドリンハーネス装備）」は、ユニット名「エンドリンマスター（エンドリンハーネス装備）」（書籍・バトルプロフィール）と表記が違い、同じ文の「エンドリンマスター（可導気球スーツ装備）」とも揃っていない。同じユニットを指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "エンドリン・マスター（エンドリンハーネス装備）": "エンドリンマスター（エンドリンハーネス装備）"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Zontari Endrin Dock|Repair Routines",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "53f75dec-851c-4dbb-931a-18e1f0ad0d66",
+   "en_field": "effect",
+   "name": "Repair Routines",
+   "ja": "**エンドリン・マスター（エンドリンハーネス装備）**",
+   "en": "**Endrinmaster with Endrinharness**",
+   "note": "英語版は Endrinmaster with Endrinharness。日本語版（書籍 p.66）の「エンドリン・マスター（エンドリンハーネス装備）」は、ユニット名「エンドリンマスター（エンドリンハーネス装備）」と表記が違い、同じ文の「エンドリンマスター（可導気球スーツ装備）」とも揃っていない。同じユニットを指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "**エンドリン・マスター（エンドリンハーネス装備）**": "**エンドリンマスター（エンドリンハーネス装備）**"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Vongrim Salvagers|Spotter's Flaregun",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "d4cb70c2-be9a-4ce8-8bf9-3df527e4a4a8",
+   "en_field": "effect",
+   "name": "Spotter's Flaregun",
+   "ja": "味方**ヴォングリム・サルヴェイジャー**および**ヴォングリムの銛打ち衆**・ユニット",
+   "en": "friendly **Vongrim Salvagers** and **Vongrim Harpoon Crew** units",
+   "note": "英語版は Vongrim Salvagers / Vongrim Harpoon Crew。日本語版（ルール・アップデート 2026年9月）の「ヴォングリム・サルヴェイジャー」「ヴォングリムの銛打ち衆」は、ユニット名「フォングリム・サルヴェイジャー」「フォングリムの銛打ち衆」（書籍 p.60・バトルプロフィール）と表記が違う。同じユニットを指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "**ヴォングリム・サルヴェイジャー**": "**フォングリム・サルヴェイジャー**",
+    "**ヴォングリムの銛打ち衆**": "**フォングリムの銛打ち衆**"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "wargear_option_texts",
+   "tr_key": "Grundstok Thunderers",
+   "tr_field": null,
+   "table": "warscroll",
+   "id": "f9716be2-d268-49a0-ae1a-d5ccf5884111",
+   "en_field": "wargearOptionsText",
+   "name": "Grundstok Thunderers",
+   "ja": "エーテルショット・ライフルと大型銃床を装備している",
+   "en": "armed with an Aethershot Rifle and Gun Butt",
+   "note": "英語版は Gun Butt。日本語版（書籍 p.64）の装備文の「大型銃床」は、同じウォースクロールの武器表の名前「銃床」と違う（「大型銃床」という武器は無い）。同じ武器を指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "大型銃床": "銃床"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "wargear_option_texts",
+   "tr_key": "Skywardens",
+   "tr_field": null,
+   "table": "warscroll",
+   "id": "c45a3efb-3821-4ac1-a734-c1d235c6668f",
+   "en_field": "wargearOptionsText",
+   "name": "Skywardens",
+   "ja": "ヴァルカナイザー・ピストルとスカイウォーデン・スカイパイクを装備している",
+   "en": "armed with a Vulcaniser Pistol and Skywarden’s Skypike",
+   "note": "英語版は Skywarden’s Skypike。日本語版（書籍 p.65）の装備文の「スカイウォーデン・スカイパイク」は、同じウォースクロールの武器表の名前「スカイウォーデンのスカイパイク」と表記が違う。同じ武器を指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "スカイウォーデン・スカイパイク": "スカイウォーデンのスカイパイク"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "wargear_option_texts",
+   "tr_key": "Scourge of Aqshy: Endrinriggers",
+   "tr_field": null,
+   "table": "warscroll",
+   "id": "c9b14826-b526-4859-a401-e5bc0db455b2",
+   "en_field": "wargearOptionsText",
+   "name": "Scourge of Aqshy: Endrinriggers",
+   "ja": "このユニット内の各兵は、ラピッドファイア・リベットガンとエーテル駆動式の鋸を装備している。",
+   "en": "• ***Each model in this unit is armed with a Rapid-fire Rivet Gun and Aethermatic Saw.***",
+   "note": "英語版は 4 項目とも箇条書き。日本語版（アキュシーの禍事 2026年6月 p.2）は 1 つ目の項目の先頭に「•」が無い（他の 3 項目にはある）。誤植でルール上の影響は無い。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "このユニット内の各兵は、ラピッドファイア・リベットガンとエーテル駆動式の鋸を装備している。": "• このユニット内の各兵は、ラピッドファイア・リベットガンとエーテル駆動式の鋸を装備している。"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_names",
+   "tr_key": "Moustache-mounted Aetherblasters",
+   "tr_field": null,
+   "table": "warscroll_ability",
+   "id": "cbc9ddb6-9722-428c-ba46-dc4d08bf4810",
+   "en_field": "name",
+   "name": "Moustache-mounted Aetherblasters",
+   "ja": "口ひげ内臓式エーテルブラスター",
+   "en": "Moustache-mounted Aetherblasters",
+   "note": "日本語版（書籍）のアビリティ名「口ひげ内臓式エーテルブラスター」の「内臓」は「内蔵」の誤り。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "口ひげ内臓式エーテルブラスター": "口ひげ内蔵式エーテルブラスター"
+   }
+  },
+  {
+   "faction": "fyrd_of_fyrepeak",
+   "tr_section": "ability_texts",
+   "tr_key": "Doomseeker|Oathbound",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "4291fd54-605e-46be-9915-cb99a9d22eed",
+   "en_field": "effect",
+   "name": "Oathbound",
+   "ja": "獲物を対象としたのユニットの攻撃",
+   "en": "this unit’s attacks that target its quarry",
+   "note": "日本語版「対象としたのユニット」は「こ」の脱字（バトルトーム・サプリメント カザライト・ホールド 2026年11月 p.4）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "獲物を対象としたのユニットの攻撃": "獲物を対象としたこのユニットの攻撃"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Doomseeker|Oathbound",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "4291fd54-605e-46be-9915-cb99a9d22eed",
+   "en_field": "effect",
+   "name": "Oathbound",
+   "ja": "獲物を対象としたのユニットの攻撃",
+   "en": "this unit’s attacks that target its quarry",
+   "note": "日本語版「対象としたのユニット」は「こ」の脱字（バトルトーム・サプリメント カザライト・ホールド 2026年11月 p.4）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "獲物を対象としたのユニットの攻撃": "獲物を対象としたこのユニットの攻撃"
+   }
+  },
+  {
+   "faction": "fyrd_of_fyrepeak",
+   "tr_section": "ability_texts",
+   "tr_key": "Vulkite Berzerkers with Bladed Slingshields|Berserk Fury",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "580f23c9-1c91-4db4-a2be-4113d68f7cfe",
+   "en_field": "effect",
+   "name": "Berserk Fury",
+   "ja": "メレーアタックよって撃破",
+   "en": "is slain by a combat attack",
+   "note": "日本語版「メレーアタックよって」は「に」の脱字（バトルトーム・サプリメント カザライト・ホールド 2026年11月 p.4）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "メレーアタックよって撃破": "メレーアタックによって撃破"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Vulkite Berzerkers with Bladed Slingshields|Berserk Fury",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "580f23c9-1c91-4db4-a2be-4113d68f7cfe",
+   "en_field": "effect",
+   "name": "Berserk Fury",
+   "ja": "メレーアタックよって撃破",
+   "en": "is slain by a combat attack",
+   "note": "日本語版「メレーアタックよって」は「に」の脱字（バトルトーム・サプリメント カザライト・ホールド 2026年11月 p.4）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "メレーアタックよって撃破": "メレーアタックによって撃破"
+   }
+  },
+  {
+   "faction": "fyrd_of_fyrepeak",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Auric Runeson on Magmadroth|Seeing Red",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "3cab910e-c5ec-48ed-8a1b-f1179004f9c0",
+   "en_field": "effect",
+   "name": "Seeing Red",
+   "ja": "ダイスをロールする。効果：ロール結果で4+",
+   "en": "Roll a number of dice equal to your fury level. For each 4+, Heal (1) this unit.",
+   "note": "日本語版（アキュシーの禍事 2026年10月 p.2）の『憤激の解放』の途中に「効果：」が紛れ込んでいる（英語版には無い。組版上の誤り）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "ダイスをロールする。効果：ロール結果で4+": "ダイスをロールする。ロール結果で4+"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Auric Runeson on Magmadroth|Seeing Red",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "3cab910e-c5ec-48ed-8a1b-f1179004f9c0",
+   "en_field": "effect",
+   "name": "Seeing Red",
+   "ja": "ダイスをロールする。効果：ロール結果で4+",
+   "en": "Roll a number of dice equal to your fury level. For each 4+, Heal (1) this unit.",
+   "note": "日本語版（アキュシーの禍事 2026年10月 p.2）の『憤激の解放』の途中に「効果：」が紛れ込んでいる（英語版には無い。組版上の誤り）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "ダイスをロールする。効果：ロール結果で4+": "ダイスをロールする。ロール結果で4+"
+   }
+  },
+  {
+   "faction": "lofnir_drothkeepers",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Auric Runeson on Magmadroth|Seeing Red",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "3cab910e-c5ec-48ed-8a1b-f1179004f9c0",
+   "en_field": "effect",
+   "name": "Seeing Red",
+   "ja": "ダイスをロールする。効果：ロール結果で4+",
+   "en": "Roll a number of dice equal to your fury level. For each 4+, Heal (1) this unit.",
+   "note": "日本語版（アキュシーの禍事 2026年10月 p.2）の『憤激の解放』の途中に「効果：」が紛れ込んでいる（英語版には無い。組版上の誤り）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "ダイスをロールする。効果：ロール結果で4+": "ダイスをロールする。ロール結果で4+"
    }
   }
  ]
