@@ -25,7 +25,7 @@ dump.json は英語のみ。入手方法は fetch-dump スキルを参照。
 import json, re, argparse, sys, os
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "_lib"))
-from aos_translations import Translations  # noqa: E402
+from aos_translations import Translations, source_keys  # noqa: E402
 
 GROUP_SECTIONS = [
     ("battleTraits", "戦闘特性"),
@@ -65,11 +65,12 @@ def slugify(en):
     return re.sub(r"[^a-z0-9]+", "_", (en or "").lower()).strip("_")
 
 
-def render_ability(a, indent="  ", tr=None):
-    """ability / battle_formation_rule / lore_ability を共通の箇条書きで描画。"""
+def render_ability(a, indent="  ", tr=None, source=None):
+    """ability / battle_formation_rule / lore_ability を共通の箇条書きで描画。
+    source は所属グループ・伝承の出典名 (のリスト)。訳を "出典名|名前" で引き分けるのに使う。"""
     lines = []
-    head = "- **%s**" % (tr.ability(a.get("name")) if tr else a.get("name"))
-    tx = (tr.text(a.get("name")) if tr else None) or {}
+    head = "- **%s**" % (tr.ability(a.get("name"), source=source) if tr else a.get("name"))
+    tx = (tr.text(a.get("name"), source=source) if tr else None) or {}
     tags = []
     if tx.get("timing") or a.get("phaseDetails"):
         tags.append(tx.get("timing") or a["phaseDetails"])
@@ -97,10 +98,17 @@ def render_ability(a, indent="  ", tr=None):
                 lines.append("%s- %s" % (indent, clean(a[k])))
                 break
     if tr:
-        notes = tr.fix_lines(lines, "ability_texts", tr.text_keys(a.get("name")), indent)
-        notes += tr.fix_lines(lines, "ability_names", [a.get("name")], indent)
+        notes = tr.fix_lines(lines, "ability_texts", tr.text_keys(a.get("name"), source=source), indent)
+        notes += tr.fix_lines(lines, "ability_names", source_keys(a.get("name"), source), indent)
         lines += notes
     return lines
+
+
+def render_group_text(tr, name, text, source):
+    """グループ・伝承の前置き文。訳注 (group_texts) の訂正も書き込む。"""
+    lines = [clean(tr.group_text(name, text, source))]
+    notes = tr.fix_lines(lines, "group_texts", source_keys(name, source))
+    return ["%s\n" % lines[0]] + notes
 
 
 def spearhead_pub_ids(d):
@@ -154,8 +162,11 @@ def build(dump_path, fid, raw):
     gp = group_pubs(d)
     pubs = {p["id"]: p for p in d["publication"]}
 
+    def pub_names(gid):
+        return [pubs[p]["name"] for p in gp.get(gid, []) if p in pubs]
+
     def pub_suffix(gid):
-        names = [pubs[p]["name"] for p in gp.get(gid, []) if p in pubs]
+        names = pub_names(gid)
         return "（出典: %s）" % ", ".join(names) if names else ""
 
     out = []
@@ -171,11 +182,12 @@ def build(dump_path, fid, raw):
         out.append("\n## %s\n" % title)
         for g in sorted(gs, key=lambda x: x["name"]):
             legends = " (Legends)" if g.get("isLegends") else ""
-            out.append("\n### %s%s%s\n" % (tr.group(g["name"]), legends, pub_suffix(g["id"])))
+            src = pub_names(g["id"])
+            out.append("\n### %s%s%s\n" % (tr.group(g["name"], src), legends, pub_suffix(g["id"])))
             if g.get("restrictionText"):
-                out.append("%s\n" % clean(tr.group_text(g["name"], g["restrictionText"])))
+                out.extend(render_group_text(tr, g["name"], g["restrictionText"], src))
             for a in ab_by_group.get(g["id"], []):
-                out.extend(render_ability(a, tr=tr))
+                out.extend(render_ability(a, tr=tr, source=src))
                 n_items += 1
 
     emit_groups("battleTraits", "戦闘特性")
@@ -201,14 +213,18 @@ def build(dump_path, fid, raw):
     lores = [l for l in d["lore"] if l.get("factionId") == fid]
     if lores:
         out.append("\n## 伝承（呪文・奇蹟・顕現）\n")
-        for l in sorted(lores, key=lambda x: x["name"]):
+        dup = {n for n in (l["name"] for l in lores) if sum(1 for x in lores if x["name"] == n) > 1}
+        for l in sorted(lores, key=lambda x: (x["name"], (pubs.get(x.get("publicationId")) or {}).get("name") or "")):
             pts = "（%spt）" % l["points"] if l.get("points") else ""
-            out.append("\n### %s%s\n" % (tr.group(l["name"]), pts))
+            src = [pubs[l["publicationId"]]["name"]] if l.get("publicationId") in pubs else []
+            # 同じ名前の伝承が並ぶとき (禍事版など) だけ見出しに出典を添える
+            suffix = "（出典: %s）" % src[0] if src and l["name"] in dup else ""
+            out.append("\n### %s%s%s\n" % (tr.group(l["name"], src), pts, suffix))
             if l.get("restrictionText"):
-                out.append("%s\n" % clean(tr.group_text(l["name"], l["restrictionText"])))
+                out.extend(render_group_text(tr, l["name"], l["restrictionText"], src))
             for a in sorted(la_by_lore.get(l["id"], []),
                             key=lambda x: (x.get("castingValue") or 0, x["name"])):
-                out.extend(render_ability(a, tr=tr))
+                out.extend(render_ability(a, tr=tr, source=src))
                 n_items += 1
 
     return "\n".join(out) + "\n", n_items, fname

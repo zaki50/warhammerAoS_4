@@ -441,7 +441,6 @@
  "ability_names": {
   "'For Glory! For Blood!'": "血と栄光の為に！",
   "A Promising Concoction": "良質な調合薬",
-  "A Wastrel and a Vagabond": "ろくでなしと流浪者",
   "Amulet of Graves": "墳墓の呪術具",
   "Ancient Barrow Curse": "古代墳墓の呪い",
   "Ancient Burial Sites": "古代の埋葬地",
@@ -472,12 +471,9 @@
   "Dragged Down and Torn Apart": "引きずり倒して八つ裂き",
   "Draw on Power": "吸血の力",
   "Endless Legions": "無尽蔵の軍団",
-  "Eternal Thrall": "永遠の隷従者",
   "Festering Feast": "おぞましき祝宴",
   "First of the Vyrkos": "ヴァーコスの拳",
   "Fleet and Fell": "恐るべき俊敏",
-  "Frightening Vitality": "震撼する生命力",
-  "Furious Endings": "憤怒の終焉",
   "Gorslav the Gravekeeper|Arise! Arise!": "立ち上がれ！",
   "Gorslav the Gravekeeper|Keeper of the Corpse-gardens": "墓園の番人",
   "Grave-sand Shard": "墓砂の破片",
@@ -486,7 +482,6 @@
   "Hand of Dust": "塵の手",
   "Horror Unending": "終わりなき恐怖",
   "Immortal Conqueror": "不死なる支配者",
-  "Immortal Ego": "不滅の自我",
   "Impaling Talons": "貫きの鉤爪",
   "Inescapable Reach": "逃れられぬ手",
   "Invocation of Nagash": "ナガッシュの死霊呪文",
@@ -526,6 +521,12 @@
   "Scourge of Aqshy: Revenant Draconith|Battle Damaged": "バトルダメージ",
   "Scourge of Aqshy: Revenant Draconith|Brimming with Rancour": "満ちる怨恨",
   "Scourge of Aqshy: Revenant Draconith|Volatile Animus": "揺らぐ怨魂",
+  "Scourge of Aqshy: Soulblight Gravelords|Eternal Thrall": "永遠の隷従者",
+  "Scourge of Aqshy: Soulblight Gravelords|Furious Endings": "憤怒の終焉",
+  "Scourge of Aqshy: Soulblight Gravelords|Immortal Ego": "不滅の自我",
+  "Scourge of Aqshy: Soulblight Gravelords|The Empty Graveyard": "空ろなる墓所",
+  "Scourge of Aqshy: Soulblight Gravelords|The Incarnadine Killers": "血染めの殺戮者",
+  "Scourge of Aqshy: Soulblight Gravelords|The Never-Dead": "死にえぬ者たち",
   "Scourge of Aqshy: Vengorian Lord|Frenzied Surge": "狂乱の奔流",
   "Scourge of Aqshy: Vengorian Lord|Indignant Outburst": "憤然たる噴出",
   "Scourge of Aqshy: Vengorian Lord|Nightmare's Miasma": "悪夢の瘴気",
@@ -534,6 +535,9 @@
   "Scourge of Ghyran Sekhar, Fang of Nulahmia|Allow Me to Remind You...": "思い出させてあげよう……",
   "Scourge of Ghyran Sekhar, Fang of Nulahmia|Irresistible Demand": "抗しがたい服従",
   "Scourge of Ghyran Sekhar, Fang of Nulahmia|Lest You Forget...": "お忘れなきよう……",
+  "Scourge of Ghyran: Soulblight Gravelords|A Wastrel and a Vagabond": "ろくでなしと流浪者",
+  "Scourge of Ghyran: Soulblight Gravelords|Frightening Vitality": "震撼する生命力",
+  "Scourge of Ghyran: Soulblight Gravelords|Immortal Ego": "不滅の自我",
   "Scrying Pool": "占いの泉",
   "Scurrying Retreat": "分裂退却",
   "Scything Talons": "薙ぎ払う鉤爪",
@@ -562,14 +566,11 @@
   "The Adevore": "黄泉の捕食獣",
   "The Beast Will Out": "野獣の露顕",
   "The Crimson Court|Come Then, Amuse Us": "さぁ我々を楽しませてくれ",
-  "The Empty Graveyard": "空ろなる墓所",
   "The Exiled Dead|Deintalos the Exile": "追放者ダインタロス",
   "The Exiled Dead|Unfeeling Fortitude": "無情の耐久力",
   "The Hunger": "血の餓え",
-  "The Incarnadine Killers": "血染めの殺戮者",
   "The Mortarch of Blood": "血の御使",
   "The Mortarch of Night": "夜の御使",
-  "The Never-Dead": "死にえぬ者たち",
   "The Queen's Dictat": "女王の命令",
   "The Reliquary": "遺骸箱",
   "The Rising Dead": "起き上がる死者",
@@ -614,10 +615,6 @@
   "Zondara's Gravebreakers|Zondara Rivenheart": "“裂心の”ゾンダラ"
  },
  "ability_texts": {
-  "A Wastrel and a Vagabond": {
-   "timing": "パッシブ",
-   "effect": "味方**デッドウォーカー・ゾンビ**または**デスラトル・スケルトン**・ユニットがこのユニットの12mv以内に全体が入っている間、\n• その味方ユニットの全力移動ロールは+2の修正を受ける。\n• その味方ユニットが接敵移動をする際、その移動距離は+3mvの修正を受ける。"
-  },
   "Amulet of Graves": {
    "timing": "バトル中1回限り、自軍側ヒーローフェイズ",
    "effect": "戦場に配置されている**呪われた墓**が2個以下である場合、あらゆる敵ユニットから9mvより遠く離れており、かつ味方ユニットから1mvより遠く離れており、なおかつあらゆる作戦目標と他の特殊地形から3mvより遠く離れた戦場の位置に**呪われた墓**を1個配置する。"
@@ -765,11 +762,6 @@
    "declare": "バトル開始時における兵数が2体以上であり、かつ現在全滅している**固有**ではない味方**デスラトル**または**デッドウォーカー**・ユニットを1個選択する。",
    "effect": "味方**ソウルブライト・グレイヴロード・英雄**の12mv以内に全体が入るように、または味方**呪われた墓**の6mv以内に全体が入るように、選択された味方ユニットの兵数の半分（端数切り上げ）で構成された代替ユニットを配置する。その配置する場所は、あらゆる敵ユニットから9mvより遠く離れた位置でなければならない。\n自軍側移動フェイズ中である場合、その代替ユニットをあらゆる敵ユニットから（9mvではなく）3mvより遠く離れた戦場の位置に配置してもよい。ただし、あらゆる敵ユニットから3mvより遠く離れており、かつ9mv以内に一部でも入るように配置されたならば、この代替ユニットはこのターン中に**『突撃』**アビリティを使用できない。"
   },
-  "Eternal Thrall": {
-   "timing": "初期配置フェイズ",
-   "declare": "自身以外の**固有でない味方ソウルブライト・グレイヴロード・歩兵・英雄**を1個選択する。",
-   "effect": "以降そのバトル中、選択された味方ユニットが戦場にいる間：\n• このユニットが**ネクロマンサー**である場合、このユニットのパワーレベルは+1の修正を受ける。\n• このユニットが**ヴァンパイア**である場合、このユニットの打ち消しロールは+1の修正を受ける。\n• このユニットが**デスラトル**である場合、各フェイズ中、このユニットに割り振られる最初の1ポイントのダメージは無視される。"
-  },
   "Fell Bats|Beast": {
    "timing": "パッシブ",
    "effect": "このユニットは最大1の確保スコアを得る。"
@@ -777,14 +769,6 @@
   "Fell Bats|Fleet and Fell": {
    "timing": "パッシブ",
    "effect": "このユニットは現在のターン中に**『退却』**アビリティを使用していた場合でも**『突撃』**アビリティを使用できる。さらに、このユニットは**『退却』**アビリティを使用した際に致命的ダメージを受けない。"
-  },
-  "Frightening Vitality": {
-   "timing": "パッシブ",
-   "effect": "このユニットが受けているダメージを丁度1ポイントまたは2ポイント回復する場合、代わりに3ポイントのダメージを回復する。"
-  },
-  "Furious Endings": {
-   "timing": "パッシブ",
-   "effect": "このユニットから12mv以内に一部でも入っている**顕現**がゲームから取り除かれた場合、**憤激ダイス**を1個獲得する。"
   },
   "Gorslav the Gravekeeper|Arise! Arise!": {
    "timing": "バトル中1回限り、リアクション：自軍が『無尽の軍団』アビリティを宣言し、味方デッドウォーカー・ユニットを選択した時。",
@@ -806,10 +790,6 @@
   "Horror Unending": {
    "timing": "パッシブ",
    "effect": "『死の祈り』アビリティを使用する際、追加のユニットを1個選択できる。"
-  },
-  "Immortal Ego": {
-   "timing": "パッシブ",
-   "effect": "各フェイズ中、このユニットはヒットロール1個とウーンズロール1個、セーブロール1個をリロールできる。"
   },
   "Ivya Volga, The Outcast|Behemoth's Bane": {
    "timing": "パッシブ",
@@ -1064,6 +1044,31 @@
    "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
    "effect": "**憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）その後、以下の効果から1つを選択する：\n**報復の構え：**そのターン中：\n• このユニットと近接戦闘中の敵ユニットの、ヒットロールとウーンズロールに対するすべてのプラス修正を無視する。\n• このユニットはセーブロールに+1の修正を受ける。\n• このターン中に『**近接攻撃**』アビリティを使用している敵ユニットを対象とするこのユニットの攻撃（**随行者**武器を含む）は、ヒットロールに+1の修正を受ける。\n**抑えざる獰猛性：**そのターン中：\n• このユニットの攻撃は、ヒットロールとウーンズロールに対するあらゆるマイナス修正を無視する。\n• このフェイズ中に『**近接攻撃**』アビリティを使用していない敵ユニットを対象とする、このユニットが装備している**随行者**近接武器の【貫通値】と【ダメージ量】は+1の修正を受ける。"
   },
+  "Scourge of Aqshy: Soulblight Gravelords|Eternal Thrall": {
+   "timing": "初期配置フェイズ",
+   "declare": "自身以外の**固有でない味方ソウルブライト・グレイヴロード・歩兵・英雄**を1個選択する。",
+   "effect": "以降そのバトル中、選択された味方ユニットが戦場にいる間：\n• このユニットが**ネクロマンサー**である場合、このユニットのパワーレベルは+1の修正を受ける。\n• このユニットが**ヴァンパイア**である場合、このユニットの打ち消しロールは+1の修正を受ける。\n• このユニットが**デスラトル**である場合、各フェイズ中、このユニットに割り振られる最初の1ポイントのダメージは無視される。"
+  },
+  "Scourge of Aqshy: Soulblight Gravelords|Furious Endings": {
+   "timing": "パッシブ",
+   "effect": "このユニットから12mv以内に一部でも入っている**顕現**がゲームから取り除かれた場合、**憤激ダイス**を1個獲得する。"
+  },
+  "Scourge of Aqshy: Soulblight Gravelords|Immortal Ego": {
+   "timing": "パッシブ",
+   "effect": "各フェイズ中、このユニットはヒットロール1個とウーンズロール1個、セーブロール1個をリロールできる。"
+  },
+  "Scourge of Aqshy: Soulblight Gravelords|The Empty Graveyard": {
+   "timing": "初期配置フェイズ",
+   "effect": "このユニットを戦場から取り除き、あらゆる敵ユニットから9mvより遠く離れ、かつ特殊地形の7mv以内に全体が入るように、または、戦場端から7mv以内に全体が入るように再配置する。第1バトルラウンド中の第1ターン中、このユニットは『**移動**』アビリティを使用できない。"
+  },
+  "Scourge of Aqshy: Soulblight Gravelords|The Incarnadine Killers": {
+   "timing": "任意のターン終了時",
+   "effect": "このユニットが近接戦闘中ではなく、かつこのターン中に、このユニットのメレーアタックにより敵ユニットが撃破されている場合、このユニットはD6mv移動できる。その移動を近接戦闘に突入するように終了することはできない。"
+  },
+  "Scourge of Aqshy: Soulblight Gravelords|The Never-Dead": {
+   "timing": "任意のヒーローフェイズ",
+   "effect": "**憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）\nその後、そのターン中、このユニットを対象とする攻撃のセーブロールで修正前の出目5+が出た場合、その攻撃は失敗し、攻撃手順を終了する。"
+  },
   "Scourge of Aqshy: Vengorian Lord|Frenzied Surge": {
    "timing": "各ターンにつき1回（アーミー）、任意の突撃フェイズ",
    "declare": "このユニットの12mv以内に全体が入っており、かつ視認状態である別の**英雄でない**味方**ソウルブライト・グレイヴロード・歩兵**または**大型獣**・ユニットを1個選択できる。",
@@ -1100,6 +1105,18 @@
   "Scourge of Ghyran Sekhar, Fang of Nulahmia|Lest You Forget...": {
    "timing": "各バトルラウンドにつき1回、リアクション：このユニットの18mv以内に一部でも入っており、かつ視認状態である敵ユニットが『呪文』または『突撃』アビリティを宣言",
    "effect": "そのアビリティの突撃ロールあるいは詠唱ロールからダイスを1個選択する。敵軍側は選択されたダイスをリロールしなければならない。"
+  },
+  "Scourge of Ghyran: Soulblight Gravelords|A Wastrel and a Vagabond": {
+   "timing": "パッシブ",
+   "effect": "味方**デッドウォーカー・ゾンビ**または**デスラトル・スケルトン**・ユニットがこのユニットの12mv以内に全体が入っている間、\n• その味方ユニットの全力移動ロールは+2の修正を受ける。\n• その味方ユニットが接敵移動をする際、その移動距離は+3mvの修正を受ける。"
+  },
+  "Scourge of Ghyran: Soulblight Gravelords|Frightening Vitality": {
+   "timing": "パッシブ",
+   "effect": "このユニットが受けているダメージを丁度1ポイントまたは2ポイント回復する場合、代わりに3ポイントのダメージを回復する。"
+  },
+  "Scourge of Ghyran: Soulblight Gravelords|Immortal Ego": {
+   "timing": "パッシブ",
+   "effect": "各フェイズ中、このユニットはヒットロール1個とウーンズロール1個、セーブロール1個をリロールできる。"
   },
   "Sekhar, Fang of Nulahmia|Death's Construction": {
    "timing": "自軍側ヒーローフェイズ",
@@ -1265,10 +1282,6 @@
    "timing": "任意の近接フェイズ",
    "effect": "このユニットが1個以上の敵**英雄**と近接戦闘中である場合、D3を1個ロールし、そのロール結果に等しい数だけ以下に挙げた効果を選択する：\n• そのターン中、このユニットのセーブロールは+1の修正を受ける。\n• 効果：そのターン中、このユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。\n• 効果：そのターン中、このユニットが装備している近接武器の【貫通値】は+1の修正を受ける。"
   },
-  "The Empty Graveyard": {
-   "timing": "初期配置フェイズ",
-   "effect": "このユニットを戦場から取り除き、あらゆる敵ユニットから9mvより遠く離れ、かつ特殊地形の7mv以内に全体が入るように、または、戦場端から7mv以内に全体が入るように再配置する。第1バトルラウンド中の第1ターン中、このユニットは『**移動**』アビリティを使用できない。"
-  },
   "The Exiled Dead|Deintalos the Exile": {
    "timing": "パッシブ",
    "effect": "このユニットの**追放者ダインタロス**が戦場に配置されている間、このユニットは**魔術師（1）**を有する。このユニットの**プレンティス・マルコフ**が戦場に配置されている間、このユニットの詠唱ロールは+1の修正を受ける。"
@@ -1281,14 +1294,6 @@
    "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
    "declare": "このターン中に**『近接攻撃』**アビリティを実行している味方**ヴァンパイア**・ユニットをすべて選択する。",
    "effect": "選択された各味方ユニットをそれぞれ**回復**（D3）する。そのターン中に**『近接攻撃』**アビリティを使用して敵ユニットを全滅させている味方ユニットは、代わりに**回復（2D3）**する。"
-  },
-  "The Incarnadine Killers": {
-   "timing": "任意のターン終了時",
-   "effect": "このユニットが近接戦闘中ではなく、かつこのターン中に、このユニットのメレーアタックにより敵ユニットが撃破されている場合、このユニットはD6mv移動できる。その移動を近接戦闘に突入するように終了することはできない。"
-  },
-  "The Never-Dead": {
-   "timing": "任意のヒーローフェイズ",
-   "effect": "**憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）\nその後、そのターン中、このユニットを対象とする攻撃のセーブロールで修正前の出目5+が出た場合、その攻撃は失敗し、攻撃手順を終了する。"
   },
   "The Rising Dead": {
    "timing": "自軍側移動フェイズ",
@@ -1480,11 +1485,12 @@
   "Legions of Ulfenkarn": "ウルフェンカーンの軍団",
   "Lore of Undeath": "不死の伝承",
   "Manifestations of the Grave": "死地の顕現",
-  "Origins of Terrifying Folk Tales": "悍ましき恐怖譚の起源",
+  "Scourge of Aqshy: Soulblight Gravelords|Origins of Terrifying Folk Tales": "悍ましき恐怖譚の起源",
+  "Scourge of Aqshy: Soulblight Gravelords|The Cursed Bloodlines": "呪われし血脈",
+  "Scourge of Ghyran: Soulblight Gravelords|Undying Tyrants": "不死の暴君",
   "Skinshifters": "呪われた肌変わり",
   "Soulblight Gravelords Battle Traits": "戦闘特性",
-  "The Cursed Bloodlines": "呪われし血脈",
-  "Undying Tyrants": "不死の暴君"
+  "The Cursed Bloodlines": "呪われし血脈"
  },
  "group_texts": {
   "Bloodcrave Hunt Enhancements": "自軍のジェネラルに、以下の強化の中から1つを付与する。",
@@ -1492,10 +1498,11 @@
   "Deathly Heirlooms": "（**英雄**のみ）",
   "Deathrattle Tomb Host Enhancements": "自軍のジェネラルに、以下の強化の中から1つを付与する。",
   "Deathrattle Tomb Host Regiment Abilities": "以下の連隊アビリティの中から1つを選択する。",
-  "Origins of Terrifying Folk Tales": "『悍ましき恐怖譚の起源』は、**英雄でないソウルブライト・グレイヴロード・歩兵**・ユニットに与えることのできる固有強化である。\n1個のユニットは、『悍ましき恐怖譚の起源』を1個だけ持つことができる。",
+  "Scourge of Aqshy: Soulblight Gravelords|Origins of Terrifying Folk Tales": "『悍ましき恐怖譚の起源』は、**英雄でないソウルブライト・グレイヴロード・歩兵**・ユニットに与えることのできる固有強化である。\n1個のユニットは、『悍ましき恐怖譚の起源』を1個だけ持つことができる。",
+  "Scourge of Aqshy: Soulblight Gravelords|The Cursed Bloodlines": "（**英雄**のみ）",
+  "Scourge of Ghyran: Soulblight Gravelords|Undying Tyrants": "（**英雄**のみ）",
   "Soulblight Gravelords Battle Traits": "ソウルブライト・グレイヴロードのアーミーは以下のアビリティを使用できる：",
-  "The Cursed Bloodlines": "（**英雄**のみ）",
-  "Undying Tyrants": "（**英雄**のみ）"
+  "The Cursed Bloodlines": "（**英雄**のみ）"
  },
  "wargear_option_texts": {
   "Askurgan Trueblades": "このユニット内の各兵は、アスカルガンの武器を装備している。\n• 兵の1/8はカースブラッドであり、カースブラッドは「アスカルガンの武器」の代わりに「長い鉤爪と涎滴る顎」を装備しなければならない。\n• 豪傑はアスクルガン・エグゼンプラーであり、豪傑は装備している武器を交換できない。",

@@ -592,7 +592,7 @@
   {
    "faction": "helsmiths_of_hashut",
    "tr_section": "ability_texts",
-   "tr_key": "Bullfather's Scorn",
+   "tr_key": "Scourge of Aqshy: Helsmiths of Hashut|Bullfather's Scorn",
    "tr_field": "effect",
    "table": "ability",
    "id": "0fda61ec-7261-4193-9fef-3b492f0fd50d",
@@ -631,7 +631,7 @@
   {
    "faction": "helsmiths_of_hashut",
    "tr_section": "ability_texts",
-   "tr_key": "Casque of Belittlement",
+   "tr_key": "Scourge of Aqshy: Helsmiths of Hashut|Casque of Belittlement",
    "tr_field": "declare",
    "table": "ability",
    "id": "80c9381f-091e-4b16-a574-95d0f3801c7a",
@@ -878,7 +878,7 @@
   {
    "faction": "helsmiths_of_hashut",
    "tr_section": "ability_names",
-   "tr_key": "Earthwrack Stabilisers",
+   "tr_key": "Scourge of Aqshy: Helsmiths of Hashut|Earthwrack Stabilisers",
    "tr_field": null,
    "table": "ability",
    "id": "67092628-de89-403c-95e8-72f258e56a96",
@@ -916,7 +916,7 @@
   {
    "faction": "helsmiths_of_hashut",
    "tr_section": "ability_names",
-   "tr_key": "Bullfather's Scorn",
+   "tr_key": "Scourge of Aqshy: Helsmiths of Hashut|Bullfather's Scorn",
    "tr_field": null,
    "table": "ability",
    "id": "0fda61ec-7261-4193-9fef-3b492f0fd50d",
@@ -992,7 +992,7 @@
   {
    "faction": "ossiarch_bonereapers",
    "tr_section": "ability_texts",
-   "tr_key": "Banner of Old Ossia",
+   "tr_key": "Scourge of Aqshy: Ossiarch Bonereapers|Banner of Old Ossia",
    "tr_field": "effect",
    "table": "ability",
    "id": "0e0f099e-ff66-4c6b-a967-c2d5bf7dee2d",
@@ -1240,7 +1240,7 @@
   {
    "faction": "ossiarch_bonereapers",
    "tr_section": "ability_texts",
-   "tr_key": "Soul-Claim",
+   "tr_key": "Scourge of Ghyran: Ossiarch Bonereapers|Soul-Claim",
    "tr_field": "declare",
    "table": "lore_ability",
    "id": "81539afe-150a-421a-b7b6-e28d7c28bb10",
@@ -1485,7 +1485,7 @@
   {
    "faction": "kharadron_overlords",
    "tr_section": "ability_texts",
-   "tr_key": "Emberstone Flare",
+   "tr_key": "Scourge of Ghyran: Kharadron Overlords|Emberstone Flare",
    "tr_field": "declare",
    "table": "ability",
    "id": "04b41eb1-c850-437c-a998-5fcf1594ed1b",
@@ -1504,7 +1504,7 @@
   {
    "faction": "kharadron_overlords",
    "tr_section": "ability_texts",
-   "tr_key": "Artycle 25, Point 6",
+   "tr_key": "Scourge of Aqshy: Kharadron Overlords|Artycle 25, Point 6",
    "tr_field": "effect",
    "table": "ability",
    "id": "52401bf0-dfaa-46a2-ac7e-ce297e570504",
@@ -1523,7 +1523,7 @@
   {
    "faction": "kharadron_overlords",
    "tr_section": "ability_texts",
-   "tr_key": "Heat-Seeking Auto-Endrin",
+   "tr_key": "Scourge of Aqshy: Kharadron Overlords|Heat-Seeking Auto-Endrin",
    "tr_field": "effect",
    "table": "ability",
    "id": "9453a4b2-0732-4134-abd1-9dc8a5cee4ad",
@@ -1542,7 +1542,7 @@
   {
    "faction": "kharadron_overlords",
    "tr_section": "ability_texts",
-   "tr_key": "Persistent Drillbill",
+   "tr_key": "Scourge of Aqshy: Kharadron Overlords|Persistent Drillbill",
    "tr_field": "effect",
    "table": "ability",
    "id": "2119b0d4-d0a9-40d5-9922-7f3ed78eca37",
@@ -2227,7 +2227,7 @@
   {
    "faction": "soulblight_gravelords",
    "tr_section": "ability_texts",
-   "tr_key": "The Incarnadine Killers",
+   "tr_key": "Scourge of Aqshy: Soulblight Gravelords|The Incarnadine Killers",
    "tr_field": "effect",
    "table": "ability",
    "id": "7d0cbbc4-c7a8-4c94-9f98-927a91344a04",
@@ -2246,7 +2246,7 @@
   {
    "faction": "soulblight_gravelords",
    "tr_section": "ability_texts",
-   "tr_key": "The Never-Dead",
+   "tr_key": "Scourge of Aqshy: Soulblight Gravelords|The Never-Dead",
    "tr_field": "effect",
    "table": "ability",
    "id": "f11521b1-58ac-4207-9ecf-daaef5e73e0d",
@@ -2988,7 +2988,7 @@
   {
    "faction": "khazalite_holds",
    "tr_section": "ability_texts",
-   "tr_key": "Aureate Hide",
+   "tr_key": "Scourge of Aqshy: Khazalite Holds|Aureate Hide",
    "tr_field": "effect",
    "table": "ability",
    "id": "390d4ede-112b-4e82-9c67-9dbcedfcbbac",
@@ -3007,7 +3007,7 @@
   {
    "faction": "khazalite_holds",
    "tr_section": "ability_texts",
-   "tr_key": "Aureate Hide",
+   "tr_key": "Scourge of Aqshy: Khazalite Holds|Aureate Hide",
    "tr_field": "effect",
    "table": "ability",
    "id": "390d4ede-112b-4e82-9c67-9dbcedfcbbac",
@@ -3478,6 +3478,82 @@
    "since": 499,
    "fix_ja": {
     "ダイスをロールする。効果：ロール結果で4+": "ダイスをロールする。ロール結果で4+"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Khazalite Holds|Fury of Vulcatrix",
+   "tr_field": "effect",
+   "table": "lore_ability",
+   "id": "4dc02202-77a5-4b83-9e13-82f6cb0afe58",
+   "en_field": "effect",
+   "name": "Fury of Vulcatrix",
+   "ja": "選択された味方ユニットのメレーアタックはヒットロールに+1の修正を受ける（**随行者**武器を含む）。",
+   "en": "add 1 to the Attacks characteristic of the target’s melee weapons",
+   "note": "英語版の第2段落は「8+ なら近接武器（随行者武器を含む）の【攻撃回数】+1」。日本語版（アキュシーの禍事 2026年10月 p.1）は第1段落の「ヒットロール+1」を繰り返していて誤り。",
+   "issue": "P. 特性値の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "さらに祈願ロールが8+であった場合、次の自軍側ターン開始時まで、選択された味方ユニットのメレーアタックはヒットロールに+1の修正を受ける（**随行者**武器を含む）。": "さらに祈願ロールが8+であった場合、次の自軍側ターン開始時まで、選択された味方ユニットの近接武器は【攻撃回数】に+1の修正を受ける（**随行者**武器を含む）。"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Khazalite Holds|Blazing Impetus",
+   "tr_field": "declare",
+   "table": "lore_ability",
+   "id": "5c7ddb5f-a869-494a-b18a-f71c384be93e",
+   "en_field": "declare",
+   "name": "Blazing Impetus",
+   "ja": "全体が入っている味方**グリムドロン**・ユニットを1個選択し",
+   "en": "pick a visible friendly **GRIMMDRON** unit",
+   "note": "英語版（エラッタ 2026年11月の英語文も）は「視認状態である（visible）」味方ユニット。日本語版はアキュシーの禍事 2026年10月 p.1、エラッタ 2026年11月の日本語文とも「視認状態」が抜けている。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "全体が入っている味方**グリムドロン**・ユニットを1個選択し": "全体が入っており、かつその神官から視認状態である味方**グリムドロン**・ユニットを1個選択し"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Scourge of Aqshy: Khazalite Holds|Ichor of the Ur-Salamander",
+   "tr_field": "effect",
+   "table": "lore_ability",
+   "id": "cfb1d6f9-0bbf-411d-a609-4db87d9e7332",
+   "en_field": "effect",
+   "name": "Ichor of the Ur-Salamander",
+   "ja": "このユニットを対象とするメレーアタック",
+   "en": "a combat attack that targets that unit",
+   "note": "英語版は「that unit（選択された味方ユニット）」を対象とする攻撃。日本語版（アキュシーの禍事 2026年10月 p.1）の「このユニット」は祈願者を指すようにも読める（軽微）。",
+   "issue": "F. 効果を得る側の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "このユニットを対象とするメレーアタック": "その味方ユニットを対象とするメレーアタック"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "group_texts",
+   "tr_key": "Scourge of Aqshy: Khazalite Holds|Marks of Vulcatrix",
+   "tr_field": null,
+   "table": "ability_group",
+   "id": "a0526ddb-42b0-4b61-b27e-e9735b866d21",
+   "en_field": "restrictionText",
+   "name": "Marks of Vulcatrix",
+   "ja": "付与できる強化である",
+   "en": "unique enhancements",
+   "note": "英語版は unique enhancements。日本語版（アキュシーの禍事 2026年10月 p.1）は「固有」が抜けている（エラッタ 2026年11月の日本語文は「固有強化」）。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "付与できる強化である": "付与できる固有の強化である"
    }
   }
  ]

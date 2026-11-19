@@ -92,7 +92,7 @@ Khazalite Holds armies can use the following abilities:
 
 ### ヴァルカトリックスの神印(Marks of Vulcatrix)（出典: Scourge of Ghyran: Khazalite Holds）
 
-Marks of Vulcatrix are enhancements that can only be given to **MAGMADROTHS**.
+ヴァルカトリックスの神印は、**マグマドロス**のみに対して付与できる強化である。
 
 - **灼熱の焔(Incandescent Blaze)**（バトル中1回限り、自軍側遠隔フェイズ）
   - 効果: そのターン中、 • このユニットの**燃え盛る業焔**の【攻撃回数】は2倍になる。 • このユニットの**燃え盛る業焔**の【ダメージ量】は3になる。
@@ -103,7 +103,7 @@ Marks of Vulcatrix are enhancements that can only be given to **MAGMADROTHS**.
 
 ### ヴァルカトリックスの神印(Marks of Vulcatrix)（出典: Scourge of Aqshy: Khazalite Holds）
 
-Marks of Vulcatrix are unique enhancements that can be given to **GRIMMDRON MONSTERS**. A unit can only have 1 Mark of Vulcatrix.
+『ヴァルカトリックスの神印』は、**グリムドロン・大型獣**に対して付与できる==固有の==強化である。 1個のユニットは、『ヴァルカトリックスの神印』を1個だけ持つことができる。
 
 - **分厚い鱗(Thickened Scales)**（パッシブ / 20pt）
   - 効果: このユニットを対象とする攻撃に使用される武器の【貫通値】は-1の修正を受ける。
@@ -163,26 +163,26 @@ Marks of Vulcatrix are unique enhancements that can be given to **GRIMMDRON MONS
   - 宣言: Pick a friendly **KHAZALITE HOLDS WIZARD** to cast this spell, then make a casting roll of 2D6.
   - 効果: Inflict D3 mortal damage on each visible enemy unit within 12" of the caster.
 
-### ヴルキンの恩寵(Vulkyn Gifts)
+### ヴルキンの恩寵(Vulkyn Gifts)（出典: Scourge of Aqshy: Khazalite Holds）
 
-- **ウル＝サラマンダーの霊液(Ichor of the Ur-Salamander)**（Your Hero Phase / 詠唱/詠誦値 3）
-  - 宣言: Pick a friendly **FYRESLAYERS PRIEST** to chant this prayer, pick a visible friendly **FYRESLAYERS MONSTER** wholly within 12" of them to be the target, then make a chanting roll of D6.
-  - 効果: Until the start of your next turn, if any damage points were inflicted on an enemy unit by the target’s ‘Volcanic Blood’ ability, after the damage sequence has been resolved, inflict 3 mortal damage on that enemy unit. If the chanting roll was 6+, inflict D3+3 mortal damage instead.
-- **ヴァルカトリックスの怒り(Fury of Vulcatrix)**（Your Hero Phase / 詠唱/詠誦値 4）
-  - 宣言: Pick a friendly **FYRESLAYERS PRIEST** to chant this prayer, pick a visible friendly **FYRESLAYERS** unit wholly within 12" of them to be the target, then make a chanting roll of D6.
-  - 効果: Add 1 to hit rolls for the target’s combat attacks, including those made with **Companion** weapons, until the start of your next turn. In addition, if the chanting roll was 8+, add 2 to the Attacks characteristic of the target’s **Companion** weapons until the start of your next turn.
-- **燃え盛る刺激(Blazing Impetus)**（Your Hero Phase / 詠唱/詠誦値 5）
-  - 宣言: Pick a friendly **FYRESLAYERS PRIEST** to chant this prayer, pick a visible friendly **FYRESLAYERS** unit wholly within 12" of them and that was not set up this turn to be the target, then make a chanting roll of D6.
-  - 効果: The target can use the ‘Normal Move’ ability as if it were your movement phase. If the chanting roll was 10+, you can pick another eligible unit to be a second target.
+- **ウル＝サラマンダーの霊液(Ichor of the Ur-Salamander)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 3）
+  - 宣言: この奇蹟を祈願する際に、味方**グリムドロン・神官**を1体選択する。その後、選択された味方神官から12mv以内に全体が入っており、かつその神官から視認状態である味方**グリムドロン**・ユニットを1個選択し、D6の祈願ロールをする。
+  - 効果: 祈願ロールが6+であった場合、選択可能な他の味方ユニットを追加でもう1個選択してもよい。次の自軍側ターン開始時まで： • その味方ユニットが**大型獣**である場合、『猛炎の血』アビリティが敵に1ポイントの致命的ダメージを与える場合、代わりにD3ポイントの致命的ダメージを与える。 • その味方ユニットが**大型獣**でなかった場合、~~この~~==その味方==ユニットを対象とするメレーアタックのセーブロールで修正前の出目1が出るたびに、その『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。
+- **ヴァルカトリックスの怒り(Fury of Vulcatrix)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 4）
+  - 宣言: この奇蹟を祈願する際に、味方**グリムドロン・神官**を1体選択する。その後、選択された味方神官から12mv以内に全体が入っており、かつその神官から視認状態である味方**グリムドロン**・ユニットを1個選択し、D6の祈願ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、選択された味方ユニットのメレーアタックはヒットロールに+1の修正を受ける（**随行者**武器を含む）。 さらに祈願ロールが8+であった場合、次の自軍側ターン開始時まで、選択された味方ユニットの~~メレーアタックはヒットロール~~==近接武器は【攻撃回数】==に+1の修正を受ける（**随行者**武器を含む）。
+- **燃え盛る刺激(Blazing Impetus)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 5）
+  - 宣言: この奇蹟を祈願する際に、味方**グリムドロン・神官**を1体選択する。その後、このターン中に配置されたばかりではない、かつ選択された味方神官の12mv以内に全体が入って~~い~~==おり、かつその神官から視認状態であ==る味方**グリムドロン**・ユニットを1個選択し、D6の祈願ロールをする。
+  - 効果: 祈願ロールが10+であった場合、選択可能な他の味方ユニットを追加でもう1個選択してもよい。対象の味方ユニットは、あたかも自軍側移動フェイズ中かのように『通常移動』もしくは『退却』アビリティを使用できる。
 
-### ヴルキンの恩寵(Vulkyn Gifts)
+### ヴァルキンの恩寵(Vulkyn Gifts)（出典: Scourge of Ghyran: Khazalite Holds）
 
-- **ウル＝サラマンダーの霊液(Ichor of the Ur-Salamander)**（Your Hero Phase / 詠唱/詠誦値 3）
-  - 宣言: Pick a friendly **GRIMMDRON PRIEST** to chant this prayer, pick a visible friendly **GRIMMDRON** unit wholly within 12" of them to be the target, then make a chanting roll of D6.
-  - 効果: If the chanting roll was 6+, you can pick another eligible unit to be a second target. Until the start of your next turn: • If the target is a **MONSTER**, each time its ‘Volcanic Blood’ ability would inflict 1 mortal damage on an enemy unit, inflict D3 mortal damage instead. • If the target is a non‐**MONSTER** unit, each time you make an unmodified save roll of 1 for a combat attack that targets that unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.
-- **ヴァルカトリックスの怒り(Fury of Vulcatrix)**（Your Hero Phase / 詠唱/詠誦値 4）
-  - 宣言: Pick a friendly **GRIMMDRON PRIEST** to chant this prayer, pick a visible friendly **GRIMMDRON** unit wholly within 12" of them to be the target, then make a chanting roll of D6.
-  - 効果: Add 1 to hit rolls for the target’s combat attacks, including those made with **Companion** weapons, until the start of your next turn. In addition, if the chanting roll was 8+, add 1 to the Attacks characteristic of the target’s melee weapons, including **Companion** weapons, until the start of your next turn.
-- **燃え盛る刺激(Blazing Impetus)**（Your Hero Phase / 詠唱/詠誦値 5）
-  - 宣言: Pick a friendly **GRIMMDRON PRIEST** to chant this prayer, pick a visible friendly **GRIMMDRON** unit that was not set up this turn and that is wholly within 12" of them to be the target, then make a chanting roll of D6.
-  - 効果: If the chanting roll was 10+, you can pick another eligible unit to be a second target. Each target can use the ‘Normal Move’ or ‘Retreat’ ability as if it were your movement phase.
+- **ウル＝サラマンダーの神髄(Ichor of the Ur-Salamander)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 3）
+  - 宣言: この奇蹟を祈願する際に、味方**ファイアスレイヤー・神官**を1体選択する。その後、選択された味方神官から12mv以内に全体が入っており、かつその神官から視認状態である味方**ファイアスレイヤー・大型獣**を1体選択し、D6の祈願ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、選択された味方大型獣が使用した『猛炎の血』アビリティによって敵ユニットが1ポイント以上のダメージを受けていた場合、そのダメージ手順が解決された直後に、その敵ユニットに3ポイントの致命的ダメージを与える。祈願ロールが6+であった場合、代わりにD3+3ポイントの致命的ダメージを与える。
+- **ヴァルカトリックスの怒り(Fury of Vulcatrix)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 4）
+  - 宣言: この奇蹟を祈願する際に、味方**ファイアスレイヤー・神官**を1体選択する。その後、選択された味方神官から12mv以内に全体が入っており、かつその神官から視認状態である味方**ファイアスレイヤー**・ユニットを1個選択し、D6の祈願ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、選択された味方ユニットのメレーアタックはヒットロールに+1の修正を受ける（**随行者**武器を含む）。 さらに祈願ロールが8+であった場合、次の自軍側ターン開始時まで、選択された味方ユニットの**随行者**武器の【攻撃回数】は+2の修正を受ける。
+- **燃え盛る刺激(Blazing Impetus)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 5）
+  - 宣言: この奇蹟を祈願する際に、味方**ファイアスレイヤー・神官**を1体選択する。その後、選択された味方神官から12mv以内に全体が入っており、かつこのターン中に配置されたばかりではない、その神官から視認状態である味方**ファイアスレイヤー**・ユニットを1個選択し、D6の祈願ロールをする。
+  - 効果: 選択された味方ユニットは、あたかも自軍側移動フェイズ中であるかのように『通常移動』アビリティを1回使用できる。祈願ロールが10+であった場合、選択可能なユニットを追加でもう1個選択してもよい。

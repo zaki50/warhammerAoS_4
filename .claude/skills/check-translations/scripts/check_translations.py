@@ -88,6 +88,7 @@ def check(dump_path, raw):
     faction_slugs = {T.slugify(f["name"]) for f in d["faction_keyword"]}
     names = known_names(d)
     unit_set = names["unit_names"]
+    pub_set = {p["name"] for p in d["publication"]}
 
     tables = {}
     for layer in T.LAYERS:
@@ -115,11 +116,13 @@ def check(dump_path, raw):
                 if unit == "Spearhead" or unit.startswith("Spearhead|"):
                     unit = unit[len("Spearhead"):].lstrip("|")
                 if (slug, sec, key) in shadowed:
-                    why = "出てくる箇所がすべて、より具体的なキー（「ユニット|%s」や「Spearhead|…」）で上書きされていて使われない" % key
-                elif unit and unit not in unit_set:
-                    why = "ユニット「%s」が dump.json に無い（削除・改名）" % unit
+                    why = "出てくる箇所がすべて、より具体的なキー（「ユニット|%s」「出典名|%s」や「Spearhead|…」）で上書きされていて使われない" % (key, key)
+                elif unit and unit not in unit_set and unit not in pub_set:
+                    why = "ユニット（または出典）「%s」が dump.json に無い（削除・改名）" % unit
                 elif name not in names[sec]:
                     why = "dump.json にこの名前が無い（削除・改名）"
+                elif unit and unit in pub_set and unit not in unit_set:
+                    why = "このファクションの md で、出典「%s」にこの名前が出ない" % unit
                 elif unit:
                     why = "このファクションの md で、ユニット「%s」にこの名前が出ない" % unit
                 else:

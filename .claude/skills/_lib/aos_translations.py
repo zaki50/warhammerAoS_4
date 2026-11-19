@@ -8,6 +8,9 @@ check-translations は LOOKUPS に記録されたキーから未使用の訳を�
   キーは英語名、または "ユニット英語名|英語名" (そのユニットにだけ当たる。武器・アビリティのみ)。
   ability_texts はウォースクロールのアビリティを "ユニット英語名|英語名" で持つ (名前だけのキーには落ちない)。
   名前だけのキーはファクションルールのアビリティ用。"Spearhead|…" を前に付けると Spearhead 版にだけ当たる。
+  ファクションルールは "出典名|名前" (publication 名) を先に引くので、同じ名前のグループ・アビリティが
+  出典 (禍事版など) ごとに別ルールで並ぶときはこれで使い分ける。禍事版 (Scourge of Ghyran / Aqshy) の節は
+  "出典名|名前" だけを引き、名前だけのキーには落ちない (STRICT_SOURCE_PREFIXES)。
   keyword_names (ユニットのキーワード) / weapon_ability_names (武器アビリティ) / group_names (アビリティグループ・
   戦闘陣形・伝承・Spearhead の名前) / group_texts (グループの前置き文) は英語名がキー。
   "faction_name" はファクション名の日本語 (文字列)。
@@ -131,6 +134,28 @@ def _load_layer(base, layer, slug):
     return _cache[p]
 
 
+def _sources(source):
+    """出典名の指定 (None / 文字列 / リスト) をリストにする。"""
+    if not source:
+        return []
+    return [source] if isinstance(source, str) else [s for s in source if s]
+
+
+# この出典の節では名前だけのキーに戻らない (禍事版は同じ名前で本体と別ルールのことがあるため、
+# 出典付きのキーに訳が無ければ英語のまま出す)
+STRICT_SOURCE_PREFIXES = ("Scourge of Ghyran", "Scourge of Aqshy")
+
+
+def is_strict_source(source):
+    return any(s.startswith(STRICT_SOURCE_PREFIXES) for s in _sources(source))
+
+
+def source_keys(en, source):
+    """ファクションルールの名前・前置き文を引くキーの候補。"出典名|名前" → "名前" (禍事版の出典なら "名前" は引かない)。"""
+    keys = ["%s|%s" % (s, en) for s in _sources(source)]
+    return keys if is_strict_source(source) else keys + [en]
+
+
 def pair(ja, en):
     """{日本語}({英語}) 表記。訳が無い (または英語と同じ) なら英語のみ。"""
     return "%s(%s)" % (ja, en) if ja and ja != en else en
@@ -169,8 +194,23 @@ class Translations:
     def weapon(self, en, unit=None):
         return pair(self._scoped("weapon_names", en, unit), en)
 
-    def ability(self, en, unit=None):
+    def ability(self, en, unit=None, source=None):
+        """source (出典名の文字列かそのリスト) を渡すと、ファクションルールで "出典名|名前" を先に引く。"""
+        if not unit and source:
+            return pair(self._sourced("ability_names", en, source), en)
         return pair(self._scoped("ability_names", en, unit), en)
+
+    def _sourced(self, section, en, source):
+        """"出典名|名前" (出典名は source の順) を先に、無ければ "名前" を引く。
+        同じ名前のグループ・アビリティが出典 (禍事版など) ごとに別ルールで並ぶときに使い分ける。"""
+        keys = source_keys(en, source)
+        for i, k in enumerate(keys):
+            v = self._get(section, k)
+            if v:
+                if i < len(keys) - 1:
+                    SHADOWED.add((self.base, self.slug, section, en))
+                return v
+        return None
 
     def keyword(self, en, unit=None):
         """キーワードの日本語か None。"""
@@ -192,25 +232,30 @@ class Translations:
         """ウォースクロールの装備オプション文 (wargearOptionsText)。キーはユニット英語名。"""
         return self._get("wargear_option_texts", unit) or text
 
-    def group(self, en):
-        """アビリティグループ・戦闘陣形・伝承・Spearhead の名前。"""
-        return pair(self._get("group_names", en), en)
+    def group(self, en, source=None):
+        """アビリティグループ・戦闘陣形・伝承・Spearhead の名前。source を渡すと "出典名|名前" を先に引く。"""
+        return pair(self._sourced("group_names", en, source), en)
 
-    def group_text(self, en, text):
-        """グループの前置き文 (restrictionText)。訳が無ければ英語のまま。"""
-        return self._get("group_texts", en) or text
+    def group_text(self, en, text, source=None):
+        """グループの前置き文 (restrictionText)。訳が無ければ英語のまま。source は group と同じ。"""
+        return self._sourced("group_texts", en, source) or text
 
     def faction(self, en):
         v = self.official.get("faction_name") or self.own.get("faction_name")
         return pair(v, en)
 
     @staticmethod
-    def text_keys(en, unit=None, spearhead=False):
+    def text_keys(en, unit=None, spearhead=False, source=None):
         """ability_texts を引くキーの候補 (具体的なものから順)。spearhead に Spearhead 名 (文字列) を渡すと、
-        同じユニット・同じ名前でも Spearhead ごとに本文が違うとき用の "Spearhead|Spearhead名|…" を最初に引く。"""
+        同じユニット・同じ名前でも Spearhead ごとに本文が違うとき用の "Spearhead|Spearhead名|…" を最初に引く。
+        ファクションルール (unit=None) で source (出典名かそのリスト) を渡すと "出典名|名前" を先に引く。"""
         named = (["Spearhead|%s|%s|%s" % (spearhead, unit, en) if unit else "Spearhead|%s|%s" % (spearhead, en)]
                  if isinstance(spearhead, str) else [])
-        return named + Translations._text_keys(en, unit, spearhead)
+        if not unit and is_strict_source(source):
+            # 禍事版の節は出典付きのキーだけ (名前だけのキーに落とすと本体の別ルールの訳が当たる)
+            return named + ["%s|%s" % (s, en) for s in _sources(source)]
+        sourced = ["%s|%s" % (s, en) for s in _sources(source)] if not unit else []
+        return named + sourced + Translations._text_keys(en, unit, spearhead)
 
     @staticmethod
     def _text_keys(en, unit=None, spearhead=False):
@@ -261,11 +306,11 @@ class Translations:
             out += ["%s> [!warning] 訳注" % indent, "%s> %s" % (indent, body)]
         return out
 
-    def text(self, en, unit=None, spearhead=False):
+    def text(self, en, unit=None, spearhead=False, source=None):
         """アビリティ本文の訳 ({timing, declare, effect, keywords} の dict) か None。
         ユニットのアビリティは Spearhead|ユニット|名前 → ユニット|名前、ファクションルールの
-        アビリティ (unit=None) は Spearhead|名前 → 名前 の順に引く。"""
-        keys = self.text_keys(en, unit, spearhead)
+        アビリティ (unit=None) は Spearhead|名前 → (出典名|名前) → 名前 の順に引く。"""
+        keys = self.text_keys(en, unit, spearhead, source)
         for i, k in enumerate(keys):
             v = self._get("ability_texts", k)
             if v:

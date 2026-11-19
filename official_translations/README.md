@@ -51,7 +51,15 @@ md に出る日本語はすべてこのフォルダと `own_translations/` か�
 - 本文は書籍どおりに書く。段落の区切りは `\n`、箇条書きは `• ` で始める（md では 1 行にまとめて出す）。太字は `**…**`
 - キーは具体的なものから順に引く: `Spearhead|Spearhead名|ユニット|名前`（同じユニット・同じ名前でも Spearhead ごとに本文が違うとき）→ `Spearhead|ユニット|名前` → `Spearhead|名前`（Spearhead 版にだけ当たる）→
   `ユニット|名前` → `名前`。同じ名前でもユニットごとや通常版／Spearhead 版で本文が違うときに使い分ける。
-  ファクションルール（バトル特性・ロアなど）は `名前` だけで引かれる
+  ファクションルール（バトル特性・ロアなど）は `出典名|名前` → `名前` で引かれる
+- `出典名|名前` … ファクションルールで、同じ名前のグループ・伝承・アビリティが出典ごとに別ルールで並ぶとき
+  （禍事版など。例: `Scourge of Ghyran: Khazalite Holds|Ichor of the Ur-Salamander` と
+  `Scourge of Aqshy: Khazalite Holds|Ichor of the Ur-Salamander`）に使う。出典名は md の見出しの「（出典: …）」と同じ
+  dump.json の publication 名。`ability_names` / `ability_texts` / `group_names` / `group_texts` で使える。
+  **禍事版（`Scourge of Ghyran…` / `Scourge of Aqshy…`）の節は `出典名|名前` だけを引き、名前だけのキーには落ちない**
+  （本体と同じ名前で別ルールのことがあるため。訳が無ければ英語のまま）。禍事版の陣営ルールの訳は必ず出典付きのキーで書く
+  出典名は改名されることがある（例: `Scourge of Ghyran: Fyreslayers` → `…: Khazalite Holds`）ので、
+  当たらなくなったら check-translations が知らせる
 
 - `<slug>` は md のファイル名と同じファクションのスラッグ（`Daughters of Khaine` → `daughters_of_khaine`）
 - **他ファクションのファイルは参照しない**（同じ英語名でも資料ごとに訳が違うことがあり、

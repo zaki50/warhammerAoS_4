@@ -277,10 +277,8 @@
   "Aviarch Sentry": "猛禽の番鳥",
   "Aviarch Spymaster": "アヴィアーク・スパイマスター",
   "Balefire Braziers": "霊炎の火鉢",
-  "Banner of Old Ossia": "古きオッシアの軍旗",
   "Beast": "獣兵",
   "Blade of the Nadir": "天底の刃",
-  "Bolster Creation": "作成強化",
   "Bone Cage": "骨の檻",
   "Bone Harvest": "骨の収穫",
   "Bone-deep Savagery": "骨の髄からの獰猛性",
@@ -303,7 +301,6 @@
   "Drain Vitality": "生命力の吸収",
   "Dread Descent": "恐怖の降下",
   "Ebon-wrought Armour": "黒檀色の甲冑",
-  "Elongated Tibias": "伸長された脛骨",
   "Empower Nadirite Weapons": "ナディライト武器の強化",
   "Feigned Retreat": "偽装退却",
   "Fourfold Slayers": "四重の殺戮者",
@@ -323,7 +320,6 @@
   "Imperious Commander": "傲岸なる指揮官",
   "Imperious Will": "傲岸なる意志",
   "Inpenetrable Ranks": "強固な隊列",
-  "Invigorate the Ranks": "戦列の活性化",
   "Inviolate Legions": "けがれなき兵団",
   "Invocation of Nagash": "ナガッシュの死霊呪文",
   "Kainan's Reapers|Mir Kainan": "ミール・カイナン",
@@ -351,7 +347,6 @@
   "No Escape": "脱出不可能",
   "No Escaping the Tithe": "骨税から逃れられる者なし",
   "Peerless Cohesion": "比類なき統一性",
-  "Perpetually Empowered Weapons": "永続強化武器",
   "Pinning Attacks": "足止め攻撃",
   "Pitiless Assault": "無情なる強襲",
   "Plentiful Bone": "豊富な骨の備蓄",
@@ -363,25 +358,31 @@
   "Remorseless March": "悔悟なき行進",
   "Repair Construct": "再修復",
   "Ruthless Extermination": "苛烈なる殲滅",
-  "Scarabaean Cloak": "スカラベの外套",
   "Scourge of Aqshy: Mortis Reapers|Terminate Their Command": "奴らの指揮を断て",
   "Scourge of Aqshy: Mortis Reapers|The Coldness of Death": "死の凍気",
+  "Scourge of Aqshy: Ossiarch Bonereapers|Banner of Old Ossia": "古きオッシアの軍旗",
+  "Scourge of Aqshy: Ossiarch Bonereapers|Elongated Tibias": "伸長された脛骨",
+  "Scourge of Aqshy: Ossiarch Bonereapers|Perpetually Empowered Weapons": "永続強化武器",
+  "Scourge of Aqshy: Ossiarch Bonereapers|Scarabaean Cloak": "スカラベの外套",
+  "Scourge of Aqshy: Ossiarch Bonereapers|Soulweb Gem": "魂網の秘宝",
+  "Scourge of Aqshy: Ossiarch Bonereapers|Utterly Unquestioning": "完全なる忠誠",
   "Scourge of Aqshy: Vokmortian, Master of the Bone-tithe|Cowed Into Inaction": "戦意を折る威圧",
   "Scourge of Aqshy: Vokmortian, Master of the Bone-tithe|Master of the Bone-Tithe": "骨税長官",
   "Scourge of Ghyran Mortek Guard|Shields of the Legion": "軍団の盾",
   "Scourge of Ghyran Mortisan Boneshaper|Boneshaper": "骨の組立て師",
   "Scourge of Ghyran Mortisan Boneshaper|Legion Quartermaster": "軍団補給官",
+  "Scourge of Ghyran: Ossiarch Bonereapers|Bolster Creation": "作成強化",
+  "Scourge of Ghyran: Ossiarch Bonereapers|Invigorate the Ranks": "戦列の活性化",
+  "Scourge of Ghyran: Ossiarch Bonereapers|Soul-Claim": "魂奪い",
   "Scything Assault": "斬り裂く襲撃",
   "Shard Storm": "破片嵐",
   "Shard of Necris": "ネクリスの欠片",
   "Shields of the Legion": "兵団の盾",
   "Signal the Advance": "進軍命令",
   "Silent Empire": "静寂の帝国",
-  "Soul-Claim": "魂奪い",
   "Soul-guide": "魂の導き",
   "Soulbound Protectors": "魂を捧げし守護者",
   "Soulreaper": "ソウルリーパー",
-  "Soulweb Gem": "魂網の秘宝",
   "Still Their Breath!": "息の根を止めろ！",
   "Summon Bone-tithe Shrieker": "骨税の金切り魔を召喚",
   "Summon Nightmare Predator": "悪夢の捕食者の召喚",
@@ -396,7 +397,6 @@
   "Unstable": "不安定",
   "Unstoppable Charge": "阻止不能な突撃",
   "Unstoppable Commander": "負け知らずの指揮官",
-  "Utterly Unquestioning": "完全なる忠誠",
   "Voice of Nagash": "ナガッシュの声",
   "You Dare?!": "不遜なり！"
  },
@@ -440,19 +440,9 @@
    "timing": "パッシブ",
    "effect": "このユニットの詠唱ロールは+1の修正を受ける。このユニットが呪文の詠唱を成功させるたびに、その『**呪文**』アビリティを解決した直後に、このユニットを**回復（1）**する。"
   },
-  "Banner of Old Ossia": {
-   "timing": "リアクション：このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方オシアーク・ボーンリーパーユニットを対象に、自軍側が『再集結』アビリティを宣言",
-   "effect": "その指揮コマンド解決時、以下の方法で再集結ポイントを消費できる：\n• 消費した再集結ポイントごとに、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である**英雄でない**他の味方**オシアーク・ボーンリーパー**・ユニットを**回復（1）**する。\n• このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**オシアーク・ボーンリーパー**・ユニット1個に対して、そのユニット内の撃破されている兵1体を復帰させるめに、そのユニットの【体力】に等しい数までの再集結ポイントを消費できる。"
-  },
   "Blade of the Nadir": {
    "timing": "初期配置フェイズ",
    "effect": "このユニットの**随行者**でない近接武器を1個選択する。以降バトル終了時まで、選択された武器によるメレーアタックで修正前の出目6が出た場合、その『**近接攻撃**』アビリティを解決した直後に、攻撃対象はD3ポイントの致命的ダメージを受ける。"
-  },
-  "Bolster Creation": {
-   "timing": "自軍側ヒーローフェイズ",
-   "declare": "この呪文を詠唱する際に、味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に全体が入っており、かつその魔術師から視認状態である味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、2D6の詠唱ロールをする。",
-   "effect": "次の自軍側ターン開始時まで、各フェイズごとに選択された味方ユニットに割り当てられる最初の1ポイントのダメージを無効化する。",
-   "keywords": "呪文、無制限"
   },
   "Bone-tithe Nexus|Deadly Aura": {
    "timing": "パッシブ",
@@ -472,10 +462,6 @@
    "declare": "この呪文を詠唱する際に、味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に一部でも入っており、かつその魔術師から視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。",
    "effect": "次の自軍側ターン開始時まで、選択された敵ユニットの攻撃のヒットロールは-1の修正を受ける。また、その敵ユニットのセーブロールは-1の修正を受ける。",
    "keywords": "呪文"
-  },
-  "Elongated Tibias": {
-   "timing": "パッシブ",
-   "effect": "このユニットの突撃ロールは+1の修正を受ける。"
   },
   "Empower Nadirite Weapons": {
    "timing": "自軍側ヒーローフェイズ",
@@ -529,12 +515,6 @@
   "Imperious Will": {
    "timing": "リアクション：このユニットの12mv以内に全体が入っている英雄でない自軍側オシアーク・ボーンリーパー・ユニットが『近接攻撃』アビリティを宣言",
    "effect": "その**英雄**でないユニットがこのターン中に突撃していない場合、その英雄でないユニットと近接戦闘中である敵ユニットを1個選択し、D3を1個ロールする。ロール結果が2+であれば、選択された敵ユニットはロール結果に等しい数の致命的ダメージを受ける。このユニットは、各フェイズ中にこのアビリティを2回以上使用できる。ただし、『近接攻撃』アビリティごとに1回だけである。"
-  },
-  "Invigorate the Ranks": {
-   "timing": "自軍側ヒーローフェイズ",
-   "declare": "この呪文を詠唱する際に、味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に全体が入っており、かつその魔術師から視認状態である味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、2D6の詠唱ロールをする。",
-   "effect": "次の自軍側ターン開始時まで、選択された味方ユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。",
-   "keywords": "呪文"
   },
   "Inviolate Legions": {
    "timing": "リアクション：敵軍側が『アタック』アビリティを宣言",
@@ -732,10 +712,6 @@
    "timing": "任意のターン終了時",
    "effect": "このターン中、この**顕現**が全滅または追放されており、召喚者であったユニットが戦場に配置されている場合、ダイスを1個ロールする。このターン中、この**顕現**のメレーアタックによって敵兵が1体でも撃破されている場合、ロールは+1の修正を受ける。ロール結果が4+であれば、召喚者であったユニットの12mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に、この**顕現**を再配置する。その召喚者であったユニットが、この**顕現**を召喚したことになる。"
   },
-  "Perpetually Empowered Weapons": {
-   "timing": "パッシブ",
-   "effect": "このユニットが装備している近接武器（**随行者**武器も含む）は**クリティカル（2ヒット）**を得る。"
-  },
   "Pitiless Assault": {
    "timing": "リアクション：このフェイズ中に『無慈悲なる規律』アビリティを使用していない自軍側ユニットが『近接攻撃』アビリティを宣言",
    "used_by": "その『**近接攻撃**』アビリティを使用するユニット。",
@@ -759,10 +735,6 @@
    "effect": "1**無慈悲なる規律**ポイントを消費する。その『**遠隔攻撃**』アビリティの攻撃によって与えられるダメージに対して、加護ロールは-1の修正を受ける。",
    "keywords": "無慈悲なる規律"
   },
-  "Scarabaean Cloak": {
-   "timing": "バトル中1回限り、自軍側移動フェイズ",
-   "effect": "このユニットを戦場から取り除き、あらゆる敵ユニットから9mvより遠く離れた戦場の位置に再配置する。"
-  },
   "Scourge of Aqshy: Mortis Reapers|Terminate Their Command": {
    "timing": "各ターンにつき1回（アーミー）、任意の突撃フェイズ",
    "declare": "このユニットが近接戦闘中である場合、このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵**英雄**を1個選択する。",
@@ -771,6 +743,31 @@
   "Scourge of Aqshy: Mortis Reapers|The Coldness of Death": {
    "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
    "effect": "このターン中に、このユニットのメレーアタックにより敵**英雄**が撃破されていた場合、対戦相手の**激憤レベル**は0に減少する。"
+  },
+  "Scourge of Aqshy: Ossiarch Bonereapers|Banner of Old Ossia": {
+   "timing": "リアクション：このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方オシアーク・ボーンリーパーユニットを対象に、自軍側が『再集結』アビリティを宣言",
+   "effect": "その指揮コマンド解決時、以下の方法で再集結ポイントを消費できる：\n• 消費した再集結ポイントごとに、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である**英雄でない**他の味方**オシアーク・ボーンリーパー**・ユニットを**回復（1）**する。\n• このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**オシアーク・ボーンリーパー**・ユニット1個に対して、そのユニット内の撃破されている兵1体を復帰させるめに、そのユニットの【体力】に等しい数までの再集結ポイントを消費できる。"
+  },
+  "Scourge of Aqshy: Ossiarch Bonereapers|Elongated Tibias": {
+   "timing": "パッシブ",
+   "effect": "このユニットの突撃ロールは+1の修正を受ける。"
+  },
+  "Scourge of Aqshy: Ossiarch Bonereapers|Perpetually Empowered Weapons": {
+   "timing": "パッシブ",
+   "effect": "このユニットが装備している近接武器（**随行者**武器も含む）は**クリティカル（2ヒット）**を得る。"
+  },
+  "Scourge of Aqshy: Ossiarch Bonereapers|Scarabaean Cloak": {
+   "timing": "バトル中1回限り、自軍側移動フェイズ",
+   "effect": "このユニットを戦場から取り除き、あらゆる敵ユニットから9mvより遠く離れた戦場の位置に再配置する。"
+  },
+  "Scourge of Aqshy: Ossiarch Bonereapers|Soulweb Gem": {
+   "timing": "バトル中1回限り、任意のターン終了時",
+   "declare": "このアビリティは、このユニットが現在のターン中に全滅していた場合にのみ使用できる。",
+   "effect": "このユニットと同一の代替ユニット1個を、自軍側陣地に全体が入るように、かつ近接戦闘に突入しないように配置する。その後、その代替ユニットの【体力】から、1減算したポイントのダメージをこのユニットに割り振る（それらのダメージに対して加護ロールはできない）。"
+  },
+  "Scourge of Aqshy: Ossiarch Bonereapers|Utterly Unquestioning": {
+   "timing": "パッシブ",
+   "effect": "このユニットが**無慈悲なる規律**アビリティを使用するたびに、リアクションとしてダイスを1個ロールする。ロール結果が5+であった場合、そのアビリティに必要な**無慈悲なる規律**ポイントは1ポイント減算される。"
   },
   "Scourge of Aqshy: Vokmortian, Master of the Bone-tithe|Cowed Into Inaction": {
    "timing": "自軍側ヒーローフェイズ",
@@ -795,6 +792,24 @@
    "timing": "パッシブ",
    "effect": "このユニットの12mv以内に全体が入っている英雄でない味方**オシアーク・ボーンリーパー**・ユニットが『再集結』指揮アビリティを使用する際、自軍はD6の再集結ロールを追加で3回実行できる。"
   },
+  "Scourge of Ghyran: Ossiarch Bonereapers|Bolster Creation": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に全体が入っており、かつその魔術師から視認状態である味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、各フェイズごとに選択された味方ユニットに割り当てられる最初の1ポイントのダメージを無効化する。",
+   "keywords": "呪文、無制限"
+  },
+  "Scourge of Ghyran: Ossiarch Bonereapers|Invigorate the Ranks": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。その後、選択された魔術師の12mv以内に全体が入っており、かつその魔術師から視認状態である味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、選択された味方ユニットが装備している近接武器の【攻撃回数】は+1の修正を受ける。",
+   "keywords": "呪文"
+  },
+  "Scourge of Ghyran: Ossiarch Bonereapers|Soul-Claim": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。次に、選択された魔術師の18mv以内に一部でも入っており、かつその魔術師から視認状態である敵ユニットを1個選択する。その後、選択された魔術師の12mv以内に全体が入っており、かつその魔術師から視認状態である味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、2D6の詠唱ロールをする。",
+   "effect": "選択された敵ユニットはD3ポイントの致命的ダメージを受ける。このアビリティによって1体以上の兵が撃破された場合、以下から効果を1つ選択する。\n• 選択された味方ユニットを**回復（3）**する。\n• 選択された味方ユニット内の撃破されている兵を、その味方ユニットに復帰させる（復帰する兵の【体力】合計が最大3までになるように）。",
+   "keywords": "呪文"
+  },
   "Shard of Necris": {
    "timing": "パッシブ",
    "effect": "このユニットを対象とする攻撃において、このユニットが現在のターン中に突撃しておらず、かつ修正前のヒットロールで出目1-4が出たならば、その攻撃は失敗し、攻撃手順を終了する。"
@@ -804,20 +819,9 @@
    "declare": "敵ユニットを1個選択する。",
    "effect": "ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された敵ユニットが中立地帯や自軍側陣地内に一部でも入っている間、その敵ユニットの最大確保スコアは1となる。"
   },
-  "Soul-Claim": {
-   "timing": "自軍側ヒーローフェイズ",
-   "declare": "この呪文を詠唱する際に、味方**オシアーク・ボーンリーパー・魔術師**を1体選択する。次に、選択された魔術師の18mv以内に一部でも入っており、かつその魔術師から視認状態である敵ユニットを1個選択する。その後、選択された魔術師の12mv以内に全体が入っており、かつその魔術師から視認状態である味方**オシアーク・ボーンリーパー**・ユニットを1個選択し、2D6の詠唱ロールをする。",
-   "effect": "選択された敵ユニットはD3ポイントの致命的ダメージを受ける。このアビリティによって1体以上の兵が撃破された場合、以下から効果を1つ選択する。\n• 選択された味方ユニットを**回復（3）**する。\n• 選択された味方ユニット内の撃破されている兵を、その味方ユニットに復帰させる（復帰する兵の【体力】合計が最大3までになるように）。",
-   "keywords": "呪文"
-  },
   "Soulstealer Carrion|Aviarch Sentry": {
    "timing": "パッシブ",
    "effect": "敵ユニットがこの**顕現**の6mv以内に一部でも入っている間、その敵ユニットの確保スコアは-10の修正を受ける。"
-  },
-  "Soulweb Gem": {
-   "timing": "バトル中1回限り、任意のターン終了時",
-   "declare": "このアビリティは、このユニットが現在のターン中に全滅していた場合にのみ使用できる。",
-   "effect": "このユニットと同一の代替ユニット1個を、自軍側陣地に全体が入るように、かつ近接戦闘に突入しないように配置する。その後、その代替ユニットの【体力】から、1減算したポイントのダメージをこのユニットに割り振る（それらのダメージに対して加護ロールはできない）。"
   },
   "Spearhead|Calculated Feint": {
    "timing": "パッシブ",
@@ -1018,10 +1022,6 @@
    "used_by": "その『**全力移動**』アビリティを使用するユニット。",
    "effect": "このユニットの移動距離を決定する際、ロール結果が1-3であれば、代わりに4の値を用いてもよい。"
   },
-  "Utterly Unquestioning": {
-   "timing": "パッシブ",
-   "effect": "このユニットが**無慈悲なる規律**アビリティを使用するたびに、リアクションとしてダイスを1個ロールする。ロール結果が5+であった場合、そのアビリティに必要な**無慈悲なる規律**ポイントは1ポイント減算される。"
-  },
   "Vokmortian, Master of the Bone-tithe|Mortal Contract": {
    "timing": "自軍側ヒーローフェイズ",
    "declare": "このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択し、2D6の詠唱ロールをする。",
@@ -1040,14 +1040,15 @@
   "Horrors of the Necropolis": "死都の恐怖",
   "Imbuements of the Tithe-Reapers": "骨税徴収吏の吹き込み",
   "Kavalos Vanguard": "カヴァロス先遣隊",
-  "Lore of Necrotheurgy": "死霊神秘術の伝承",
   "Lore of Ossian Sorcery": "オッシア魔術の呪文伝承",
   "Mortisan Elite": "モーティザン精鋭部隊",
-  "Mortisan Refinements": "モーティザン改良術",
   "Ossiarch Bonereapers Battle Traits": "戦闘特性",
   "Relics of the Empire": "帝国の至宝",
   "Remorseless Conquerors": "無慈悲なる征服者",
   "Ruthless Legion": "苛烈なる兵団",
+  "Scourge of Aqshy: Ossiarch Bonereapers|Mortisan Refinements": "モーティザン改良術",
+  "Scourge of Aqshy: Ossiarch Bonereapers|Relics of the Empire": "帝国の至宝",
+  "Scourge of Ghyran: Ossiarch Bonereapers|Lore of Necrotheurgy": "死霊神秘術の伝承",
   "The Inevitable Empire": "やがて来たるべき帝国",
   "Tithe Guards": "骨税の守り手",
   "Tithe-reaper Echelon": "骨税狩りの梯団"
@@ -1058,9 +1059,10 @@
   "Kavalos Vanguard Regiment Abilities": "以下の連隊アビリティの中から1つを選択する。",
   "Mortisan Elite Enhancements": "自軍のジェネラルに、以下の強化の中から1つを付与する。",
   "Mortisan Elite Regiment Abilities": "以下の連隊アビリティの中から1つを選択する。",
-  "Mortisan Refinements": "『モーティザン改良術』は**英雄でないオシアーク・ボーンリーパー**・ユニットに付与できる固有の強化である。1個のユニットは『モーティザン改良術』を1個だけ持つことができる。",
   "Ossiarch Bonereapers Battle Traits": "オシアーク・ボーンリーパーのアーミーは、以下のアビリティを使用できる：",
   "Relics of the Empire": "（**英雄**のみ）",
+  "Scourge of Aqshy: Ossiarch Bonereapers|Mortisan Refinements": "『モーティザン改良術』は**英雄でないオシアーク・ボーンリーパー**・ユニットに付与できる固有の強化である。1個のユニットは『モーティザン改良術』を1個だけ持つことができる。",
+  "Scourge of Aqshy: Ossiarch Bonereapers|Relics of the Empire": "（**英雄**のみ）",
   "Tithe-reaper Echelon Enhancements": "自軍のジェネラルに、以下の強化の中から1つを付与する。",
   "Tithe-reaper Echelon Regiment Abilities": "以下の連隊アビリティの中から1つを選択する。"
  },

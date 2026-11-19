@@ -79,8 +79,9 @@
   "禍事版（Scourge of Aqshy: Auric Runeson on Magmadroth の Battle Damaged「マグマドロスの角と鉤爪の【攻撃回数】は4」、Scourge of Aqshy: Vulkyn Flameseekers の装備オプション文（Emberteeth＝残り火の牙））はパックの英語と現行が一致するが、禍事の資料の担当に任せて載せていない。必要なら p.7 の Battle Damaged（ルーンファーザー騎乗の文）と p.22 の装備オプション文が使える。",
   "背景文（イタリックの短文）は載せていない。半角数字・記号と全角の間の組版上の隙間は詰めた。",
   "画像で確認した箇所: p.6（顕現伝承の見出し・太字）、p.7・p.9（騎乗英雄 2 枚の表題・太字）、p.13・p.16（表題）、p.22（怪獣使いのルビ）、p.23（殉死の義務の太字）、p.28（溶岩の戦炉）、pp.29–33（スピアヘッドの表題・太字）",
-  "Vulkyn Gifts（奇蹟伝承）と Marks of Vulcatrix（神印）は md にグューラン版（FYRESLAYERS の旧ルール）とアキュシー版（GRIMMDRON の現ルール）の 2 節が出るが、ファクションルールの本文・前置き文は名前だけのキーで引かれるため、Ichor of the Ur-Salamander / Fury of Vulcatrix / Blazing Impetus の本文と Marks of Vulcatrix の前置き文は片方の訳を入れるともう片方にルールの違う訳が出る。両版とも ability_texts / group_texts に入れず英語のまま（名前は新しいアキュシー版の訳）。",
-  "陣営パック ファイアスレイヤー 2026年8月の本文のうち、FYRESLAYERS を GRIMMDRON に置き換えれば現行と同じになるもの（Hearthguard Berzerkers の Duty Unto Death など）は、エラッタ 2026年11月がその置換を示していないので採らなかった（英語のまま）。"
+  "陣営パック ファイアスレイヤー 2026年8月の本文のうち、FYRESLAYERS を GRIMMDRON に置き換えれば現行と同じになるもの（Hearthguard Berzerkers の Duty Unto Death など）は、エラッタ 2026年11月がその置換を示していないので採らなかった（英語のまま）。",
+  "Vulkyn Gifts（奇蹟伝承）と Marks of Vulcatrix（神印）は md にグューラン版（Scourge of Ghyran: Khazalite Holds。FYRESLAYERS の旧ルール、グューランの禍事 2025年5月）とアキュシー版（Scourge of Aqshy: Khazalite Holds。GRIMMDRON の現ルール、アキュシーの禍事 2026年10月）の 2 節が出る。名前が同じでルールが違う Ichor of the Ur-Salamander / Fury of Vulcatrix / Blazing Impetus の本文と Marks of Vulcatrix の前置き文は「出典名|名前」のキーで版ごとに持つ。禍事版の陣営ルールはすべて「出典名|名前」のキーで持ち（禍事版の節は名前だけのキーを引かない）、名前も版ごとの訳（Ichor: 霊液／神髄、Vulkyn Gifts: ヴルキン／ヴァルキン）を当てる。",
+  "アキュシー版 Fury of Vulcatrix / Blazing Impetus のキーワード欄は書籍どおり「奇跡、無制限」（他の箇所は「奇蹟」。誤植）。陣営ルールの md はアビリティのキーワード欄を出さないので訳注にはしていない。"
  ],
  "unit_names": {
   "Auric Flamekeeper": "オーリック・フレイムキーパー",
@@ -168,7 +169,6 @@
   "Zharrgron Flame-spitter|Magma Blast": "マグマブラスト"
  },
  "ability_names": {
-  "Aureate Hide": "黄金の獣皮",
   "Auric Hearthguard|Molten Rockbolts": "溶岩弾",
   "Auric Runefather on Magmadroth|Battle Damaged": "バトルダメージ",
   "Auric Runefather on Magmadroth|Volcanic Blood": "猛炎の血",
@@ -182,7 +182,6 @@
   "Battlesmith|Icon of Grimnir": "グリムニルの戦旗",
   "Berserk Charge": "狂戦士の突撃",
   "Berserk Fury": "狂戦士の激情",
-  "Blazing Impetus": "燃え盛る刺激",
   "Brazen Intimidation": "猛烈な威圧",
   "Clanshields|Tough As Stone": "石のごとき頑健性",
   "Commanding Presence": "威厳ある存在感",
@@ -198,7 +197,6 @@
   "Flamescale Rune Cloak": "炎鱗のルーンクローク",
   "Flaming Runes": "燃え盛るルーン",
   "Fury for the Fallen": "倒れし者の憤怒",
-  "Fury of Vulcatrix": "ヴァルカトリックスの怒り",
   "Fyrespawn": "火から生まれしもの",
   "Fyresteel Throwing Axes": "焔鋼の投げ斧",
   "Gholems of Gazul|Gazul's Might": "ガズルの力",
@@ -211,10 +209,7 @@
   "Hjulda Drakkblud|Browbeater": "親分肌",
   "Honour Those With Gazul": "ガズルと共にある者を讃えよ",
   "Horn of Grimnir": "グリムニルの角笛",
-  "Ichor of the Ur-Salamander": "ウル＝サラマンダーの霊液",
-  "Incandescent Blaze": "灼熱の焔",
   "Innate Resonance": "内なる共鳴",
-  "Intense Fyrestream": "焦熱の火炎流",
   "Lashing Tail": "叩きつける尾",
   "Lodgefather": "ロッジファーザー",
   "Long Of Beard Or Braid": "長い髭と編み込み髪",
@@ -227,7 +222,6 @@
   "Masterflame Rune": "父なる焔のルーン",
   "Molten Infernoth|Flamescarred": "極熱の傷痍",
   "Oathkeeper Cannon|Oathkeeper Apprentice Runestriker": "オースキーパーの見習いルーン打ち",
-  "Peerless Lineage": "至上の血脈",
   "Plant the Icon": "戦旗を地に突き立てよ",
   "Powerful Presence": "力漲る存在感",
   "Raging Inferno": "荒れ狂う業火",
@@ -239,11 +233,23 @@
   "Scourge of Aqshy: Auric Runeson on Magmadroth|Fire, Blood and Vengeance": "炎の血讐",
   "Scourge of Aqshy: Auric Runeson on Magmadroth|Seeing Red": "紅蓮の怒り",
   "Scourge of Aqshy: Auric Runeson on Magmadroth|Volcanic Blood": "猛炎の血",
+  "Scourge of Aqshy: Khazalite Holds|Aureate Hide": "黄金の獣皮",
+  "Scourge of Aqshy: Khazalite Holds|Blazing Impetus": "燃え盛る刺激",
+  "Scourge of Aqshy: Khazalite Holds|Fury of Vulcatrix": "ヴァルカトリックスの怒り",
+  "Scourge of Aqshy: Khazalite Holds|Ichor of the Ur-Salamander": "ウル＝サラマンダーの霊液",
+  "Scourge of Aqshy: Khazalite Holds|Intense Fyrestream": "焦熱の火炎流",
+  "Scourge of Aqshy: Khazalite Holds|Thickened Scales": "分厚い鱗",
   "Scourge of Aqshy: Vulkyn Flameseekers|Fiery Disposition": "宿炎の気質",
   "Scourge of Ghyran Auric Runeson on Magmadroth|Battle Damaged": "バトルダメージ",
   "Scourge of Ghyran Auric Runeson on Magmadroth|Calamitous Crash": "崩壊撃",
   "Scourge of Ghyran Auric Runeson on Magmadroth|Fire, Blood and Vengeance": "炎の血讐",
   "Scourge of Ghyran Auric Runeson on Magmadroth|Volcanic Blood": "猛炎の血",
+  "Scourge of Ghyran: Khazalite Holds|Blazing Impetus": "燃え盛る刺激",
+  "Scourge of Ghyran: Khazalite Holds|Fury of Vulcatrix": "ヴァルカトリックスの怒り",
+  "Scourge of Ghyran: Khazalite Holds|Ichor of the Ur-Salamander": "ウル＝サラマンダーの神髄",
+  "Scourge of Ghyran: Khazalite Holds|Incandescent Blaze": "灼熱の焔",
+  "Scourge of Ghyran: Khazalite Holds|Peerless Lineage": "至上の血脈",
+  "Scourge of Ghyran: Khazalite Holds|Thickened Scales": "分厚い鱗",
   "Settle the Grudge": "宿怨を晴らせ",
   "Spirit of Grimnir": "グリムニルの魂",
   "Stoke the Fire": "火を掻き立てる",
@@ -251,7 +257,6 @@
   "Summon Runic Fyrewall": "ルーンの焔壁の召喚",
   "Summon Zharrgron Flame-spitter": "ザールグロンの焔吐きの召喚",
   "Sworn To Vengeance": "復讐の誓い",
-  "Thickened Scales": "分厚い鱗",
   "Too Stubborn to Die": "死ぬことのできぬ頑強さ",
   "Volcanic Blood": "猛炎の血",
   "Vulkite Berzerkers with Bladed Slingshields|Berserk Fury": "狂戦士の激情",
@@ -263,10 +268,6 @@
   "Zharrgron Flame-spitter|Magma Blast": "マグマブラスト"
  },
  "ability_texts": {
-  "Aureate Hide": {
-   "timing": "リアクション：このユニットが『近接攻撃』アビリティを宣言",
-   "effect": "その『**近接攻撃**』アビリティによって敵の兵が撃破された場合、その『**近接戦闘**』アビリティが解決された直後に、このユニットから12mv以内に全体が入っており、かつこのユニットから視認状態である**カザライト・ホールド・神官**1体を選択する。その後、その**神官**はD3儀式ポイントを得る。"
-  },
   "Auric Runefather on Magmadroth|Battle Damaged": {
    "timing": "パッシブ",
    "effect": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**マグマドロスの顎、鉤爪、角**の【攻撃回数】は4になる。"
@@ -328,14 +329,6 @@
    "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
    "effect": "このターン中、このユニットの6mv以内に一部でも入っており、かつこのユニットから視認状態であった味方**グリムドロン**・ユニットが1個全滅した場合、このユニットに**宿怨マーク**を1個与えてもよい。"
   },
-  "Incandescent Blaze": {
-   "timing": "バトル中1回限り、自軍側遠隔フェイズ",
-   "effect": "そのターン中、\n• このユニットの**燃え盛る業焔**の【攻撃回数】は2倍になる。\n• このユニットの**燃え盛る業焔**の【ダメージ量】は3になる。"
-  },
-  "Intense Fyrestream": {
-   "timing": "任意の遠隔フェイズ",
-   "effect": "**憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）その後、そのターン中：\n• このユニットの**随行者**遠隔武器は、【射程】に+Xmvの修正を受け、【攻撃回数】に+Xの修正を受ける。Xは自軍側の**憤激レベル**に等しい。\n• このユニットが装備している**随行者**遠隔武器は**近接射撃**を得る。"
-  },
   "Magmic Battleforge|Molten Blessing": {
    "timing": "任意のターン開始時",
    "declare": "この特殊地形の近接範囲内に一部でも入っている味方**グリムドロン・神官**を1体選択する。",
@@ -350,10 +343,6 @@
    "timing": "任意のターン終了時",
    "declare": "このターン中、この**顕現**の攻撃によって1ポイント以上のダメージが割り振られた敵ユニットを1個選択する。この**顕現**を召喚したユニットが1個以上の**宿怨マーク**を持つ場合、選択可能な敵ユニットをもう1個選択してもよい。",
    "effect": "次の自軍側ターン終了時まで、選択された敵ユニットのメレーアタックはウーンズロールに-1の修正を受ける。"
-  },
-  "Peerless Lineage": {
-   "timing": "リアクション：このユニットが『蹂躙』アビリティを宣言",
-   "effect": "その『**蹂躙**』アビリティの対象として選択可能な別のユニットを追加で1個選択できる。ダイスロールが必要な場合は、各ユニットごとにダイスをロールする。"
   },
   "Runic Fyrewall|Roaring Rune-fire": {
    "timing": "敵軍側移動フェイズ",
@@ -378,6 +367,36 @@
    "timing": "パッシブ",
    "effect": "このユニットを対象とするメレーアタックのセーブロールで修正前の出目1が出るたびに、その『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
   },
+  "Scourge of Aqshy: Khazalite Holds|Aureate Hide": {
+   "timing": "リアクション：このユニットが『近接攻撃』アビリティを宣言",
+   "effect": "その『**近接攻撃**』アビリティによって敵の兵が撃破された場合、その『**近接戦闘**』アビリティが解決された直後に、このユニットから12mv以内に全体が入っており、かつこのユニットから視認状態である**カザライト・ホールド・神官**1体を選択する。その後、その**神官**はD3儀式ポイントを得る。"
+  },
+  "Scourge of Aqshy: Khazalite Holds|Blazing Impetus": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この奇蹟を祈願する際に、味方**グリムドロン・神官**を1体選択する。その後、このターン中に配置されたばかりではない、かつ選択された味方神官の12mv以内に全体が入っている味方**グリムドロン**・ユニットを1個選択し、D6の祈願ロールをする。",
+   "effect": "祈願ロールが10+であった場合、選択可能な他の味方ユニットを追加でもう1個選択してもよい。対象の味方ユニットは、あたかも自軍側移動フェイズ中かのように『通常移動』もしくは『退却』アビリティを使用できる。",
+   "keywords": "奇跡"
+  },
+  "Scourge of Aqshy: Khazalite Holds|Fury of Vulcatrix": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この奇蹟を祈願する際に、味方**グリムドロン・神官**を1体選択する。その後、選択された味方神官から12mv以内に全体が入っており、かつその神官から視認状態である味方**グリムドロン**・ユニットを1個選択し、D6の祈願ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、選択された味方ユニットのメレーアタックはヒットロールに+1の修正を受ける（**随行者**武器を含む）。\nさらに祈願ロールが8+であった場合、次の自軍側ターン開始時まで、選択された味方ユニットのメレーアタックはヒットロールに+1の修正を受ける（**随行者**武器を含む）。",
+   "keywords": "奇跡"
+  },
+  "Scourge of Aqshy: Khazalite Holds|Ichor of the Ur-Salamander": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この奇蹟を祈願する際に、味方**グリムドロン・神官**を1体選択する。その後、選択された味方神官から12mv以内に全体が入っており、かつその神官から視認状態である味方**グリムドロン**・ユニットを1個選択し、D6の祈願ロールをする。",
+   "effect": "祈願ロールが6+であった場合、選択可能な他の味方ユニットを追加でもう1個選択してもよい。次の自軍側ターン開始時まで：\n• その味方ユニットが**大型獣**である場合、『猛炎の血』アビリティが敵に1ポイントの致命的ダメージを与える場合、代わりにD3ポイントの致命的ダメージを与える。\n• その味方ユニットが**大型獣**でなかった場合、このユニットを対象とするメレーアタックのセーブロールで修正前の出目1が出るたびに、その『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。",
+   "keywords": "奇蹟、無制限"
+  },
+  "Scourge of Aqshy: Khazalite Holds|Intense Fyrestream": {
+   "timing": "任意の遠隔フェイズ",
+   "effect": "**憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）その後、そのターン中：\n• このユニットの**随行者**遠隔武器は、【射程】に+Xmvの修正を受け、【攻撃回数】に+Xの修正を受ける。Xは自軍側の**憤激レベル**に等しい。\n• このユニットが装備している**随行者**遠隔武器は**近接射撃**を得る。"
+  },
+  "Scourge of Aqshy: Khazalite Holds|Thickened Scales": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象とする攻撃に使用される武器の【貫通値】は-1の修正を受ける。"
+  },
   "Scourge of Aqshy: Vulkyn Flameseekers|Fiery Disposition": {
    "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
    "effect": "**憤激ダイス**を1個消費する。敵軍側の**憤激レベル**が自軍側よりも少ない場合、敵軍側の**憤激レベル**は1増加する（最大7まで）その後、次の自軍側ターン開始時まで、以下の効果から1個選び適用する。Xは自軍側の**憤激レベル**に等しい。\n**ウル＝サラマンダーの活力：**このユニットは【移動力】に+Xmvの修正を受ける。\n**燃え立つ決意：**このユニットは確保スコアに+Xの修正を受ける。\n**燃え立つ怒り：**このユニットは**残り火の牙**の【攻撃回数】に+Xの修正を受ける。"
@@ -400,6 +419,36 @@
   "Scourge of Ghyran Auric Runeson on Magmadroth|Volcanic Blood": {
    "timing": "パッシブ",
    "effect": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Scourge of Ghyran: Khazalite Holds|Blazing Impetus": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この奇蹟を祈願する際に、味方**ファイアスレイヤー・神官**を1体選択する。その後、選択された味方神官から12mv以内に全体が入っており、かつこのターン中に配置されたばかりではない、その神官から視認状態である味方**ファイアスレイヤー**・ユニットを1個選択し、D6の祈願ロールをする。",
+   "effect": "選択された味方ユニットは、あたかも自軍側移動フェイズ中であるかのように『通常移動』アビリティを1回使用できる。祈願ロールが10+であった場合、選択可能なユニットを追加でもう1個選択してもよい。",
+   "keywords": "奇蹟"
+  },
+  "Scourge of Ghyran: Khazalite Holds|Fury of Vulcatrix": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この奇蹟を祈願する際に、味方**ファイアスレイヤー・神官**を1体選択する。その後、選択された味方神官から12mv以内に全体が入っており、かつその神官から視認状態である味方**ファイアスレイヤー**・ユニットを1個選択し、D6の祈願ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、選択された味方ユニットのメレーアタックはヒットロールに+1の修正を受ける（**随行者**武器を含む）。\nさらに祈願ロールが8+であった場合、次の自軍側ターン開始時まで、選択された味方ユニットの**随行者**武器の【攻撃回数】は+2の修正を受ける。",
+   "keywords": "奇蹟"
+  },
+  "Scourge of Ghyran: Khazalite Holds|Ichor of the Ur-Salamander": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この奇蹟を祈願する際に、味方**ファイアスレイヤー・神官**を1体選択する。その後、選択された味方神官から12mv以内に全体が入っており、かつその神官から視認状態である味方**ファイアスレイヤー・大型獣**を1体選択し、D6の祈願ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、選択された味方大型獣が使用した『猛炎の血』アビリティによって敵ユニットが1ポイント以上のダメージを受けていた場合、そのダメージ手順が解決された直後に、その敵ユニットに3ポイントの致命的ダメージを与える。祈願ロールが6+であった場合、代わりにD3+3ポイントの致命的ダメージを与える。",
+   "keywords": "奇蹟、無制限"
+  },
+  "Scourge of Ghyran: Khazalite Holds|Incandescent Blaze": {
+   "timing": "バトル中1回限り、自軍側遠隔フェイズ",
+   "effect": "そのターン中、\n• このユニットの**燃え盛る業焔**の【攻撃回数】は2倍になる。\n• このユニットの**燃え盛る業焔**の【ダメージ量】は3になる。"
+  },
+  "Scourge of Ghyran: Khazalite Holds|Peerless Lineage": {
+   "timing": "リアクション：このユニットが『蹂躙』アビリティを宣言",
+   "effect": "その『**蹂躙**』アビリティの対象として選択可能な別のユニットを追加で1個選択できる。ダイスロールが必要な場合は、各ユニットごとにダイスをロールする。"
+  },
+  "Scourge of Ghyran: Khazalite Holds|Thickened Scales": {
+   "timing": "パッシブ",
+   "effect": "このユニットを対象とする攻撃に使用される武器の【貫通値】は-1の修正を受ける。"
   },
   "Spearhead|Auric Hearthguard|Molten Rockbolts": {
    "timing": "自軍側遠隔フェイズ",
@@ -575,10 +624,6 @@
    "effect": "祈願者の12mv以内に全体が入るように、かつ祈願者から視認状態である位置に**ザールグロンの焔吐き**を1個配置する。",
    "keywords": "奇蹟、召喚"
   },
-  "Thickened Scales": {
-   "timing": "パッシブ",
-   "effect": "このユニットを対象とする攻撃に使用される武器の【貫通値】は-1の修正を受ける。"
-  },
   "Vulkite Berzerkers with Bladed Slingshields|Berserk Fury": {
    "timing": "パッシブ",
    "effect": "このユニット内の兵1体がメレーアタックよって撃破されるたび、撃破された兵が攻撃側ユニットと近接戦闘中であった場合、ダイスを1個ロールする。このユニットが1個以上の**宿怨マーク**を持つ場合、ロールは+1の修正を受ける。ロール結果が6+であれば、その『**近接攻撃**』アビリティの解決直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。"
@@ -633,12 +678,14 @@
   "Hearthsworn Defenders": "炉の誓約衛兵",
   "Magmic Fyrd": "岩漿召集軍",
   "Magmic Invocations": "溶岩の奇蹟",
-  "Marks of Vulcatrix": "ヴァルカトリックスの神印",
   "Resonance Of The Runes": "ルーンの共鳴",
   "Reverberations Of The Runes": "ルーンの残響",
   "Saga Axeband": "語り継がれし斧団",
+  "Scourge of Aqshy: Khazalite Holds|Marks of Vulcatrix": "ヴァルカトリックスの神印",
+  "Scourge of Aqshy: Khazalite Holds|Vulkyn Gifts": "ヴルキンの恩寵",
+  "Scourge of Ghyran: Khazalite Holds|Marks of Vulcatrix": "ヴァルカトリックスの神印",
+  "Scourge of Ghyran: Khazalite Holds|Vulkyn Gifts": "ヴァルキンの恩寵",
   "Unyielding Anvil": "揺るがざる金床",
-  "Vulkyn Gifts": "ヴルキンの恩寵",
   "War Callers": "いくさ喚び",
   "Wayfarer Nomads": "旅する放浪民"
  },
@@ -648,7 +695,9 @@
   "Magmic Fyrd Enhancements": "自軍側ジェネラルに、以下の強化の中から1つを付与する。",
   "Magmic Fyrd Regiment Abilities": "以下の連隊アビリティの中から1つを選択する。",
   "Saga Axeband Enhancements": "自軍のジェネラルに、以下の強化の中から1つを付与する。",
-  "Saga Axeband Regiment Abilities": "以下の連隊アビリティの中から1つを選択する。"
+  "Saga Axeband Regiment Abilities": "以下の連隊アビリティの中から1つを選択する。",
+  "Scourge of Aqshy: Khazalite Holds|Marks of Vulcatrix": "『ヴァルカトリックスの神印』は、**グリムドロン・大型獣**に対して付与できる強化である。\n1個のユニットは、『ヴァルカトリックスの神印』を1個だけ持つことができる。",
+  "Scourge of Ghyran: Khazalite Holds|Marks of Vulcatrix": "ヴァルカトリックスの神印は、**マグマドロス**のみに対して付与できる強化である。"
  },
  "wargear_option_texts": {
   "Magmic Battleforge": "以下の共通特殊地形アビリティが、この特殊地形に適用される（特殊地形、1.2）：遮蔽物、通行不可、射線妨害",

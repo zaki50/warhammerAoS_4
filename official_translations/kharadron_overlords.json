@@ -256,16 +256,12 @@
   "Aethershot Overwatch": "エーテルショットの警戒射撃",
   "Aethersight": "エーテル眼",
   "Always Take What You Are Owed": "貸しは常に取り立てよ",
-  "Artycle 15, Point 4": "カラドロン法典 法規15、第4項",
-  "Artycle 20, Amendment 2": "カラドロン法典 法規20、第2修正項",
-  "Artycle 25, Point 6": "カラドロン法典 法規25、第6項",
   "Assault Boat": "強襲艇",
   "Atmospheric Isolation": "大気からの隔絶",
   "Auxiliary Skyhook": "補助スカイフック",
   "Battle Damaged": "バトルダメージ",
   "Bewilderblast Rounds": "ビウィルダーブラスト弾",
   "Blazebeard and Sons Bamboozling Flakgun": "ブレイズビアード・アンド・サンズ社製バンブーズル対空砲",
-  "Blazebeard and Sons Ejector Pod": "ブレイズビアード＆サンズ社製脱出ポッド",
   "Bold As Brass": "輝かしき大胆さ",
   "Bomb Racks": "爆弾ラック",
   "Bring Every Gun to Bear!": "「全砲、発射！」",
@@ -280,14 +276,12 @@
   "Cover": "遮蔽物",
   "Descend from the Clouds": "雲からの急降下",
   "Disengage": "離脱",
-  "Emberstone Flare": "熾火石の信号弾",
   "Emergency Field Repairs": "緊急野戦修理",
   "Emergency Fuel Injection Pods": "緊急燃料噴射ポッド",
   "Endrinmaster Extraordinaire": "非凡なエンドリンマスター",
   "Endrinworks Outpost": "エンドリン前哨部隊",
   "Entrenched Crews": "防衛体制を固めた乗組員",
   "Expendable Munitions": "使い捨て兵器",
-  "Experimental Aether-Powered Ejector Rig": "試作エーテル駆動式射出装置",
   "Extra Rappel Anchors": "追加懸垂降下アンカー",
   "Extraction Fail-safes": "防護対抗装置",
   "First Rule of Grungsson": "グランソンの第一原則",
@@ -301,12 +295,10 @@
   "Gruksson Wide-bore Cylinders": "グルックソン広口径シリンダー",
   "Gunhauler Escort": "ガンハウラー護衛兵",
   "Gunhauler Overwatch": "ガンハウラーの援護射撃",
-  "Heat-Seeking Auto-Endrin": "熱追尾式オートエンドリン",
   "Heavy Bomb Racks": "大型爆弾ラック",
   "Hegsson Solutions 'Old Reliable' Hullplates": "ヘグソン・ソリューション社製“オールド・リライアブル”装甲板",
   "Impassable": "通り抜け不可能",
   "Incoming!": "敵接近！",
-  "Karst-Bana Aether-Powered Combat Rig": "カルスト＝バナ・エーテル駆動式戦闘服",
   "Leave No Duardin Behind": "ドゥアーディンを置き去りにしてはならぬ",
   "Light Bomb Racks": "小型爆弾ラック",
   "Light Endrinpacks": "軽量型エンドリンパック",
@@ -318,7 +310,6 @@
   "Nullifier Auto-Endrin": "ナルファイアー・オートエンドリン",
   "Nullstone Galvanisation": "虚無石メッキ仕上げ",
   "Nullsuit": "ナルスーツ",
-  "Persistent Drillbill": "執拗なるドリルビル",
   "Ply the Skies": "空の覇権",
   "Propeller Downdraught": "プロペラ下降気流",
   "Prospector and Pioneer": "探鉱開拓者",
@@ -328,6 +319,12 @@
   "Release The Auto-Endrins": "オートエンドリン出撃",
   "Repair Routines": "修理ルーチン",
   "Scourge of Aqshy: Endrinriggers|We're Working Here!": "こっちは作業中だ！",
+  "Scourge of Aqshy: Kharadron Overlords|Artycle 15, Point 4": "カラドロン法典 法規15、第4項",
+  "Scourge of Aqshy: Kharadron Overlords|Artycle 20, Amendment 2": "カラドロン法典 法規20、第2修正項",
+  "Scourge of Aqshy: Kharadron Overlords|Artycle 25, Point 6": "カラドロン法典 法規25、第6項",
+  "Scourge of Aqshy: Kharadron Overlords|Experimental Aether-Powered Ejector Rig": "試作エーテル駆動式射出装置",
+  "Scourge of Aqshy: Kharadron Overlords|Heat-Seeking Auto-Endrin": "熱追尾式オートエンドリン",
+  "Scourge of Aqshy: Kharadron Overlords|Persistent Drillbill": "執拗なるドリルビル",
   "Scourge of Aqshy: Null-Khemist|Customised Nullsuit": "特注ナルスーツ",
   "Scourge of Aqshy: Null-Khemist|Diligent Researcher": "勤勉なる研究者",
   "Scourge of Ghyran Codewright|Alright, Listen Up": "よぉし、よく聞けよ",
@@ -335,12 +332,17 @@
   "Scourge of Ghyran Grundstok Gunhauler|Attack Squadron": "攻撃部隊",
   "Scourge of Ghyran Grundstok Gunhauler|Fighter Vessel": "攻勢航空機",
   "Scourge of Ghyran Grundstok Gunhauler|Transport Capacity": "輸送枠",
+  "Scourge of Ghyran: Kharadron Overlords|Blazebeard and Sons Ejector Pod": "ブレイズビアード＆サンズ社製脱出ポッド",
+  "Scourge of Ghyran: Kharadron Overlords|Emberstone Flare": "熾火石の信号弾",
+  "Scourge of Ghyran: Kharadron Overlords|Karst-Bana Aether-Powered Combat Rig": "カルスト＝バナ・エーテル駆動式戦闘服",
+  "Scourge of Ghyran: Kharadron Overlords|Spell in a Bottle": "瓶詰め魔法",
+  "Scourge of Ghyran: Kharadron Overlords|Voidstone Repulser Vents": "虚無石リパルサー排気口",
+  "Scourge of Ghyran: Kharadron Overlords|Zonbarcorp 'Dealbreaker' Battle Ram": "ゾンバーコープ社製“契約破り”破城鎚",
   "She Can Handle It!": "アエルスリング号は伊達じゃない！",
   "Shrewd Opportunist": "狡猾な機会主義者",
   "Skyvessel Cover": "飛行艦の庇護",
   "Special Procurement": "特殊な軍事調達",
   "Specialist Grundstok Ammunition": "特殊グランドストック弾",
-  "Spell in a Bottle": "瓶詰め魔法",
   "Spotter's Flaregun": "偵察兵の信号弾",
   "Stuncloud Auto-Endrin": "スタンクラウド・オートエンドリン",
   "The Admiral's Flagship": "提督の旗艦",
@@ -351,9 +353,7 @@
   "Tracer-fire Rounds": "曳光弾",
   "Transport Capacity": "輸送枠",
   "Transport Skyfarers": "空挺戦士の輸送",
-  "Voidstone Orb": "虚空石のオーブ",
-  "Voidstone Repulser Vents": "虚無石リパルサー排気口",
-  "Zonbarcorp 'Dealbreaker' Battle Ram": "ゾンバーコープ社製“契約破り”破城鎚"
+  "Voidstone Orb": "虚空石のオーブ"
  },
  "ability_texts": {
   "Aether-Khemist|Aetheric Augmentation": {
@@ -430,19 +430,6 @@
    "timing": "パッシブ",
    "effect": "このユニットは最大3個までの味方**カラドロン・オーヴァーロード・歩兵**・ユニット、合計で兵22体（戦闘特性参照）までの輸送枠を持つ。"
   },
-  "Artycle 15, Point 4": {
-   "timing": "パッシブ",
-   "effect": "• **飛行**を持つ敵ユニットを対象とするこのユニットのメレーアタックは、ヒットロールに+1の修正を受ける。\n• **飛行**を持たない敵ユニットを対象とするこのユニットのメレーアタックは、ウーンズロールに+1の修正を受ける。"
-  },
-  "Artycle 20, Amendment 2": {
-   "timing": "バトル中1回限り、敵軍側突撃フェイズ",
-   "declare": "このユニットがこのターン中に突撃を実行していない場合、このユニットと近接戦闘中かつ、このターン中に突撃を実行している敵ユニットを1個選択する。",
-   "effect": "そのターン中、その敵ユニットの攻撃からはクリティカルヒットが発生しない（通常のヒットとして扱う）。"
-  },
-  "Artycle 25, Point 6": {
-   "timing": "パッシブ",
-   "effect": "味方**カラドロン・オーヴァーロード・英雄**ユニットが、このユニットの近接戦闘範囲内に一部でも入っている間、その味方英雄は**加護（5+）**を持つ。"
-  },
   "Auto-Endrin|Expendable Munitions": {
    "timing": "パッシブ",
    "effect": "このユニットに下記が適用される。\n• このユニットは最大「-」の確保スコアを持つ。\n• このユニットが全滅するとき、あるいは戦場から取り除かれるとき、他のルール上、このユニットは全滅したとカウントされない（戦術目標の達成など）。\n• アビリティに**オートエンドリン**が指定されていない限り、このユニットは他の味方ユニットが使用する**『コア』**アビリティ以外の対象として選択されたりすることも、そのアビリティの効果を受けたりすることもできない。\n• 味方や敵の戦術目標において、このユニットを無視する。"
@@ -464,11 +451,6 @@
   },
   "Blazebeard and Sons Bamboozling Flakgun": {
    "effect": "その突撃ロールにおけるダイスを1個選択する。その後、**バンブーズル対空砲ロール**としてD6を1個ロールする。ロール結果が選択したダイスの出目以上であれば、選択したダイスを突撃ロールから取り除く。"
-  },
-  "Blazebeard and Sons Ejector Pod": {
-   "timing": "バトル中1回限り、任意の近接フェイズ",
-   "declare": "このユニットが近接戦闘中である場合、このユニットの6mv以内に全体が入っており、かつこのユニットから視認状態である味方**カラドロン・オーヴァーロード・英雄**・ユニットを1体選択する。",
-   "effect": "選択された味方英雄を戦場から取り除き、このユニットの18mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に再配置する。"
   },
   "Bold As Brass": {
    "timing": "パッシブ",
@@ -526,11 +508,6 @@
    "timing": "パッシブ",
    "effect": "**アエルスリング**がこのユニットの12mv以内に全体が入っている間、そのアエルスリングは全力移動ロールと突撃ロールをリロールできる。"
   },
-  "Emberstone Flare": {
-   "timing": "バトル中1回限り、自軍側移動フェイズ",
-   "declare": "**飛行**を持ち、かつ近接戦闘中ではない味方**カラドロン・オーバーロード**・ユニットを1個選択する。",
-   "effect": "選択された味方ユニットを戦場から取り除き、このユニットの9mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた戦場の位置に再配置する。"
-  },
   "Endrinmaster with Dirigible Suit|Combat Engineers": {
    "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
    "declare": "このユニットと、このユニットの12mv以内に全体が入っている他の味方**エンドリン・リガー**・ユニットを最大1個まで選択する。",
@@ -560,10 +537,6 @@
    "timing": "各ターンにつき1回（アーミー）、任意のバトルラウンド開始時",
    "declare": "味方**アルカノート・カンパニー**・ユニットを最大3個まで選択する。",
    "effect": "このバトルラウンド中、選択されたユニットがこのバトルラウンド中に配置されたばかりではなく、このターン中に移動していない場合、そのユニットを対象とする攻撃の【貫通値】は-1の修正を受ける。"
-  },
-  "Experimental Aether-Powered Ejector Rig": {
-   "timing": "バトル中1回限り、任意の近接フェイズ",
-   "effect": "このユニットを戦場から取り除き、味方**飛行艦**または**ゾンターリ・エンドリン船渠**の3mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に再配置する。"
   },
   "Extra Rappel Anchors": {
    "timing": "パッシブ",
@@ -610,18 +583,9 @@
    "declare": "**シールドブレイカー**弾もしくは**サンダードラック**弾を選択する。",
    "effect": "その**『遠隔攻撃』**アビリティによるすべての攻撃が同一の敵ユニットを対象にしている場合、その**『遠隔攻撃』**アビリティが解決された直後に、ダイスを1個ロールする。ロールにその**『遠隔攻撃』**アビリティによって敵ユニットが受けたダメージの数を加算する。ロール結果がその敵ユニットの【確保力】を上回る場合、選んだ弾薬タイプに応じて、次の効果を敵ユニットに適用する。\n**シールドブレイカー**：次の自軍側ターン開始時まで、その敵ユニットは加護ロールを実行できない。\n**サンダードラック**：次の自軍側ターン開始時まで、その敵ユニットの最大確保スコアは1である。"
   },
-  "Heat-Seeking Auto-Endrin": {
-   "timing": "自軍側移動フェイズ",
-   "declare": "このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。",
-   "effect": "次の自軍側ターン開始時まで、選択された敵ユニットの確保力は-「対戦相手の**憤激レベル**」の修正を受ける。\nデザイナーズ・ノート：そのユニットの確保スコアを決定する時点での、対戦相手の憤激レベルを参照すること。"
-  },
   "Hegsson Solutions 'Old Reliable' Hullplates": {
    "timing": "パッシブ",
    "effect": "このユニットは**『遠隔攻撃』**アビリティによるダメージに対して**加護（5+）**を持つ。"
-  },
-  "Karst-Bana Aether-Powered Combat Rig": {
-   "timing": "パッシブ",
-   "effect": "このユニットは**加護（5+）**を持つ。さらに、このユニットの近接武器は【攻撃回数】に+1の修正を受ける。"
   },
   "Null-Khemist|Nullsuit": {
    "timing": "パッシブ",
@@ -635,14 +599,36 @@
    "timing": "任意のターン終了時",
    "effect": "このユニットの近接範囲内にいる各敵**顕現**に、D6ポイントの致命的ダメージを与える。"
   },
-  "Persistent Drillbill": {
-   "timing": "自軍側ヒーローフェイズ",
-   "declare": "このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。",
-   "effect": "D3を1個ロールする。ロール結果が2+であれば：\n• 選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。\n• 対象ユニットの初期兵数が1体だった場合、対象ユニットのメレーアタックは、次の自軍側ターン開始時までヒットロールに-1の修正を受ける。"
-  },
   "Scourge of Aqshy: Endrinriggers|We're Working Here!": {
    "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
    "effect": "このユニットがこのターン中に突撃していない場合、次の自軍側ターン開始時まで、自軍側の**憤激レベル**に応じて、以下の効果を適用する。これらの効果は累積して適用される。\n1+ **苛立ち：**このユニットの**エーテル駆動式チェーンソー**は、**クリティカル（自動ウーンズ）**を得る。\n4+ **怒り心頭**このユニットは**加護（5+）**を持つ。\n7 **怒髪衝天：**このユニットが装備している近接武器の【ダメージ値】は+1の修正を受ける。"
+  },
+  "Scourge of Aqshy: Kharadron Overlords|Artycle 15, Point 4": {
+   "timing": "パッシブ",
+   "effect": "• **飛行**を持つ敵ユニットを対象とするこのユニットのメレーアタックは、ヒットロールに+1の修正を受ける。\n• **飛行**を持たない敵ユニットを対象とするこのユニットのメレーアタックは、ウーンズロールに+1の修正を受ける。"
+  },
+  "Scourge of Aqshy: Kharadron Overlords|Artycle 20, Amendment 2": {
+   "timing": "バトル中1回限り、敵軍側突撃フェイズ",
+   "declare": "このユニットがこのターン中に突撃を実行していない場合、このユニットと近接戦闘中かつ、このターン中に突撃を実行している敵ユニットを1個選択する。",
+   "effect": "そのターン中、その敵ユニットの攻撃からはクリティカルヒットが発生しない（通常のヒットとして扱う）。"
+  },
+  "Scourge of Aqshy: Kharadron Overlords|Artycle 25, Point 6": {
+   "timing": "パッシブ",
+   "effect": "味方**カラドロン・オーヴァーロード・英雄**ユニットが、このユニットの近接戦闘範囲内に一部でも入っている間、その味方英雄は**加護（5+）**を持つ。"
+  },
+  "Scourge of Aqshy: Kharadron Overlords|Experimental Aether-Powered Ejector Rig": {
+   "timing": "バトル中1回限り、任意の近接フェイズ",
+   "effect": "このユニットを戦場から取り除き、味方**飛行艦**または**ゾンターリ・エンドリン船渠**の3mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に再配置する。"
+  },
+  "Scourge of Aqshy: Kharadron Overlords|Heat-Seeking Auto-Endrin": {
+   "timing": "自軍側移動フェイズ",
+   "declare": "このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。",
+   "effect": "次の自軍側ターン開始時まで、選択された敵ユニットの確保力は-「対戦相手の**憤激レベル**」の修正を受ける。\nデザイナーズ・ノート：そのユニットの確保スコアを決定する時点での、対戦相手の憤激レベルを参照すること。"
+  },
+  "Scourge of Aqshy: Kharadron Overlords|Persistent Drillbill": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。",
+   "effect": "D3を1個ロールする。ロール結果が2+であれば：\n• 選択された敵ユニットは、そのロール結果に等しい数の致命的ダメージを受ける。\n• 対象ユニットの初期兵数が1体だった場合、対象ユニットのメレーアタックは、次の自軍側ターン開始時までヒットロールに-1の修正を受ける。"
   },
   "Scourge of Aqshy: Null-Khemist|Customised Nullsuit": {
    "timing": "パッシブ",
@@ -672,6 +658,33 @@
   "Scourge of Ghyran Grundstok Gunhauler|Transport Capacity": {
    "timing": "パッシブ",
    "effect": "このユニットはいかなる味方ユニットも輸送できない。"
+  },
+  "Scourge of Ghyran: Kharadron Overlords|Blazebeard and Sons Ejector Pod": {
+   "timing": "バトル中1回限り、任意の近接フェイズ",
+   "declare": "このユニットが近接戦闘中である場合、このユニットの6mv以内に全体が入っており、かつこのユニットから視認状態である味方**カラドロン・オーヴァーロード・英雄**・ユニットを1体選択する。",
+   "effect": "選択された味方英雄を戦場から取り除き、このユニットの18mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に再配置する。"
+  },
+  "Scourge of Ghyran: Kharadron Overlords|Emberstone Flare": {
+   "timing": "バトル中1回限り、自軍側移動フェイズ",
+   "declare": "**飛行**を持ち、かつ近接戦闘中ではない味方**カラドロン・オーバーロード**・ユニットを1個選択する。",
+   "effect": "選択された味方ユニットを戦場から取り除き、このユニットの9mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた戦場の位置に再配置する。"
+  },
+  "Scourge of Ghyran: Kharadron Overlords|Karst-Bana Aether-Powered Combat Rig": {
+   "timing": "パッシブ",
+   "effect": "このユニットは**加護（5+）**を持つ。さらに、このユニットの近接武器は【攻撃回数】に+1の修正を受ける。"
+  },
+  "Scourge of Ghyran: Kharadron Overlords|Spell in a Bottle": {
+   "timing": "バトル中1回限り、自軍側ヒーローフェイズ",
+   "effect": "このユニットはあたかも**魔術師（1）**であるかのように、自軍側のアーミー編成中に選択した顕現伝承から『**召喚**』アビリティを使用できる。この『**召喚**』アビリティでは詠唱ロールをする代わりに、修正できない詠唱ロール結果7を使用する。この『**召喚**』アビリティは打ち消されない。"
+  },
+  "Scourge of Ghyran: Kharadron Overlords|Voidstone Repulser Vents": {
+   "timing": "リアクション：このユニットの12mv以内に一部でも入っている味方ユニット1個が、敵『呪文』アビリティの対象として選択された時",
+   "effect": "ダイスを1個ロールする。ロール結果が4+であれば、\n• その味方ユニットに対する呪文の効果は無効化される。\n• 詠唱者は、D3ポイントの致命的ダメージを受ける。\nこのユニットは、各フェイズ中にこのアビリティを2回以上使用できる。ただし、詠唱される呪文ごとに、それぞれの味方ユニットに対してロールできるのは1回だけである。"
+  },
+  "Scourge of Ghyran: Kharadron Overlords|Zonbarcorp 'Dealbreaker' Battle Ram": {
+   "timing": "任意の突撃フェイズ",
+   "declare": "このユニットが現在のフェイズ中に突撃を実行している場合、このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "修正前の突撃ロール結果と等しい数のダイスをロールする。ロール結果で4+が出るたびに、選択された敵ユニットは1ポイントの致命的ダメージを受ける。"
   },
   "Shrewd Opportunist": {
    "timing": "初期配置フェイズ",
@@ -796,10 +809,6 @@
    "declare": "神器を所持しておらず、固有でもない味方**カラドロン・オーヴァーロード・英雄**を1体選択する。それは予備戦力にいるものでもよい。",
    "effect": "選択された英雄に、「浮遊港の発明」または「独創的発明」の中から神器を1個与える。\nデザイナーズ・ノート：この神器は、アーミー編成中ではなく初期配置フェイズ中にユニットに付与される。"
   },
-  "Spell in a Bottle": {
-   "timing": "バトル中1回限り、自軍側ヒーローフェイズ",
-   "effect": "このユニットはあたかも**魔術師（1）**であるかのように、自軍側のアーミー編成中に選択した顕現伝承から『**召喚**』アビリティを使用できる。この『**召喚**』アビリティでは詠唱ロールをする代わりに、修正できない詠唱ロール結果7を使用する。この『**召喚**』アビリティは打ち消されない。"
-  },
   "The Flagship": {
    "timing": "バトル中1回限り（アーミー）、初期配置フェイズ",
    "declare": "味方**飛行艦**を1個選択する。それは予備戦力にいるものでもよい。",
@@ -822,10 +831,6 @@
    "timing": "バトル中1回限り、リアクション：このユニットの30mv以内に一部でも入っている敵魔術師が『呪文』アビリティを宣言",
    "effect": "その呪文は打ち消される。"
   },
-  "Voidstone Repulser Vents": {
-   "timing": "リアクション：このユニットの12mv以内に一部でも入っている味方ユニット1個が、敵『呪文』アビリティの対象として選択された時",
-   "effect": "ダイスを1個ロールする。ロール結果が4+であれば、\n• その味方ユニットに対する呪文の効果は無効化される。\n• 詠唱者は、D3ポイントの致命的ダメージを受ける。\nこのユニットは、各フェイズ中にこのアビリティを2回以上使用できる。ただし、詠唱される呪文ごとに、それぞれの味方ユニットに対してロールできるのは1回だけである。"
-  },
   "Vongrim Harpoon Crew|Light Endrinpacks": {
    "effect": "このユニットが近接戦闘中である場合、このユニットは2D6mvの移動を1回実行できる。その際、近接戦闘に突入するように移動を完了しなければならない。",
    "timing": "各ターンにつき1回限り（アーミー）、任意の近接フェイズ"
@@ -834,11 +839,6 @@
    "declare": "このユニットの9mv以内に一部でも入っている作戦目標を1個選択する。",
    "timing": "各ターンにつき1回限り（アーミー）、任意の近接フェイズ",
    "effect": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、以下の効果が適用される：\n• 選択された作戦目標を争奪中であるユニットを対象にした味方**飛行船員**・ユニットのメレーアタックは、ヒットロールに+1の修正を受ける。\n• 味方**ヴォングリム・サルヴェイジャー**および**ヴォングリムの銛打ち衆**・ユニットは、選択された作戦目標を争奪中のユニットを対象として攻撃する際、近接武器の【貫通値】に+1の修正を受ける。"
-  },
-  "Zonbarcorp 'Dealbreaker' Battle Ram": {
-   "timing": "任意の突撃フェイズ",
-   "declare": "このユニットが現在のフェイズ中に突撃を実行している場合、このユニットと近接戦闘中である敵ユニットを1個選択する。",
-   "effect": "修正前の突撃ロール結果と等しい数のダイスをロールする。ロール結果で4+が出るたびに、選択された敵ユニットは1ポイントの致命的ダメージを受ける。"
   },
   "Zontari Endrin Dock|Endrinworks Outpost": {
    "timing": "自軍側ヒーローフェイズ",
@@ -856,28 +856,32 @@
   }
  },
  "group_names": {
-  "Artycle References": "カラドロン法典条項",
   "Endrineers Guild Expeditionary Force": "エンドリニア・ギルド遠征部隊",
   "Great Endrinworks": "傑作エンドリン機関",
   "Grundstok Trailblazers": "グランドストック・トレイルブレイザー",
-  "Ingenious Innovations": "独創的発明",
   "Inventions of the Sky-Ports": "浮遊港の発明",
   "Kharadron Overlords Battle Traits": "戦闘特性",
   "Lords of the Sky-fleets": "飛空船団の将校",
   "Pioneers and Scavengers": "開拓者と漁り屋",
   "Rapid Redeployment Squadron": "即応部隊",
+  "Scourge of Aqshy: Kharadron Overlords|Artycle References": "カラドロン法典条項",
+  "Scourge of Aqshy: Kharadron Overlords|Ingenious Innovations": "独創的発明",
+  "Scourge of Ghyran: Kharadron Overlords|Great Endrinworks": "傑作エンドリン機関",
+  "Scourge of Ghyran: Kharadron Overlords|Ingenious Innovations": "独創的発明",
   "Skyhammer Task Force": "スカイハンマー機動艇旅団",
   "Veteran Ground Troops": "古参陸戦部隊"
  },
  "group_texts": {
-  "Artycle References": "カラドロン法典条項は、**英雄**でない**カラドロン・オーヴァーロード・歩兵**ユニットを対象とする、固有の強化である。1個のユニットは、『カラドロン法典条項』を1個だけ持つことができる。",
   "Great Endrinworks": "傑作エンドリン機関は、**飛行艦**のための特殊な強化である。アーミー編成中に強化を追加する際、傑作エンドリン機関を1つ選択し、自軍のアーミーロスター内にいる**飛行艦**1個に与えてもよい。",
   "Grundstok Trailblazers Enhancements": "自軍のジェネラルに、以下の強化の中から1つを付与する。",
   "Grundstok Trailblazers Regiment Abilities": "以下の連隊アビリティの中から1つを選択する。",
-  "Ingenious Innovations": "（**英雄**のみ）",
   "Inventions of the Sky-Ports": "（**英雄**のみ）",
   "Kharadron Overlords Battle Traits": "カラドロン・オーヴァーロードのアーミーは以下のアビリティを使用できる：",
   "Lords of the Sky-fleets": "（**英雄**のみ）",
+  "Scourge of Aqshy: Kharadron Overlords|Artycle References": "カラドロン法典条項は、**英雄**でない**カラドロン・オーヴァーロード・歩兵**ユニットを対象とする、固有の強化である。1個のユニットは、『カラドロン法典条項』を1個だけ持つことができる。",
+  "Scourge of Aqshy: Kharadron Overlords|Ingenious Innovations": "（**英雄**のみ）",
+  "Scourge of Ghyran: Kharadron Overlords|Great Endrinworks": "傑作エンドリン機関は、**飛行艦**のための特殊な強化である。アーミー編成中に強化を追加する際、傑作エンドリン機関を1つ選択し、自軍のアーミーロスター内にいる**飛行艦**1個に与えてもよい。",
+  "Scourge of Ghyran: Kharadron Overlords|Ingenious Innovations": "（**英雄**のみ）",
   "Skyhammer Task Force Enhancements": "自軍のジェネラルに、以下の強化の中から1つを付与する。",
   "Skyhammer Task Force Regiment Abilities": "以下の連隊アビリティの中から1つを選択する。"
  },
