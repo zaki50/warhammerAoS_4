@@ -1,13 +1,13 @@
 ---
 name: refresh-data
-description: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) のデータを丸ごと最新化する。接続済み Android 端末から dump.json を取り直し(fetch-dump)、warscrolls / faction_rules（ファクション単位）/ battle_tactics.md / spearheads を一括再生成する。「dump.json を更新して .md を作り直して」「データを最新化して全部再生成して」「アプリのデータ更新を反映して」といった、取得と全再生成をまとめて行いたい依頼で使う。
+description: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) のデータを丸ごと最新化する。接続済み Android 端末から dump.json を取り直し(fetch-dump)、warscrolls / faction_rules（ファクション単位）/ battle_tactics.md / core_rules.md / spearheads を一括再生成する。「dump.json を更新して .md を作り直して」「データを最新化して全部再生成して」「アプリのデータ更新を反映して」といった、取得と全再生成をまとめて行いたい依頼で使う。
 ---
 
 # データ一括更新スキル
 
 接続済み Android 端末から最新の `dump.json` を取得し、その内容で全 Markdown
 （ウォースクロール・ファクションルール [いずれもファクション単位]・
-バトルタクティックカード・Spearhead）を一括再生成する。個別スキル
+バトルタクティックカード・コアルール・Spearhead）を一括再生成する。個別スキル
 （`fetch-dump` / `extract-*`）を一つ一つ回す代わりに、アプリのバージョンアップ時などに
 「取得 → 全再生成」をワンショットで実行するためのスキル。
 
@@ -55,18 +55,20 @@ bash $SKILL -s 46221FDAP000JD
    **クリアしてから**再生成
 3. **faction_rules** … `--all` で一括再生成。同様に `faction_rules/` をクリアしてから再生成
 4. **battle_tactics.md** … 単一ファイルを上書き再生成
-5. **spearheads** … 全一括再生成。ファクション別ディレクトリ構造のため、
+5. **core_rules.md** … コアルールと上級ルールを単一ファイルに上書き再生成（日本語は `official_translations/core_rules.json`。
+   英語が改訂されて使えなくなった訳の件数も出る）
+6. **spearheads** … 全一括再生成。ファクション別ディレクトリ構造のため、
    `spearheads/` をクリアしてから再生成
-6. **データ改訂なしの自動復元** … git 管理下で `dump.json` が HEAD から不変
+7. **データ改訂なしの自動復元** … git 管理下で `dump.json` が HEAD から不変
    （= data_version も不変）かつ、生成物の変更行がすべて出典行（抽出日）と
    `dump.meta.json` の `extractedAt` のみで、新規・削除ファイルも無い場合は、
    生成物一式を自動で `git checkout` して元に戻す
    （抽出日だけの無意味な差分をコミット候補に残さないため）。
    出典行以外の変更が 1 行でもあれば何も戻さない。
-7. **訳ファイルの確認** … `check-translations` を走らせ、`official_translations/` /
+8. **訳ファイルの確認** … `check-translations` を走らせ、`official_translations/` /
    `own_translations/` のうち参照されなくなった訳（ユニットの削除・改名など）を表示する。
    表示だけで失敗扱いにはしないので、出ていたら訳ファイルを直す。
-8. **ウォースクロールカード** … `cards/make.py --all` で全組の HTML と PDF（Dropbox）を作り直し、`--check` ではみ出しを確認する（`cards/README.md`）
+9. **ウォースクロールカード** … `cards/make.py --all` で全組の HTML と PDF（Dropbox）を作り直し、`--check` ではみ出しを確認する（`cards/README.md`）
 
 AoS の dump.json は英語のみのため、40k 版のような言語方針（`--lang`）は無い。
 
@@ -85,4 +87,5 @@ AoS の dump.json は英語のみのため、40k 版のような言語方針（`
 - `extract-warscrolls` … ウォースクロール（ファクション単位）
 - `extract-faction-rules` … ファクションルール（ファクション単位）
 - `extract-battle-tactics` … バトルタクティックカード（単一ファイル）
+- `extract-core-rules` … コアルール・上級ルール（単一ファイル）
 - `extract-spearheads` … Spearhead（全一括）

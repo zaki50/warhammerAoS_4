@@ -4,6 +4,8 @@ GW が出している日本語版の資料（バトルプロフィール、陣�
 **公式訳**を、ファクションごとに `official_translations/<ファクションslug>.json` に書く。
 ファイルは取り込んだファクションの分だけ置く（無いファクションはこの層をスキップするだけ）。
 
+`core_rules.json` だけはファクションではなくコアルール用で形式も違う（`extract-core-rules` スキルの SKILL.md を参照）。
+
 AoS の dump.json には日本語が一切入っていない（40k 版と違い `localisations` が無い）ので、
 md に出る日本語はすべてこのフォルダと `own_translations/` から来る。
 

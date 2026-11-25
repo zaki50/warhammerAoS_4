@@ -11,6 +11,7 @@ build 関数で全 md をメモリ上に生成し (ファイルは書かない)�
   - 名前が dump.json に無いキー (削除・改名)
   - 名前はあるが、そのファクションの md では引かれないキー (他ファクションへの移動など)
   - 公式訳に同じキーがあるため使われない独自訳
+  - core_rules.json（コアルール用の別形式）で、英語が改訂された訳・どこにも出ない訳
 
 使い方:
   python3 check_translations.py --dump dump.json
@@ -97,6 +98,8 @@ def check(dump_path, raw):
             continue
         for fn in sorted(os.listdir(ldir)):
             if fn.endswith(".json") and not fn.startswith("_"):
+                if (layer, fn) == ("official_translations", "core_rules.json"):
+                    continue  # コアルール用の別形式。下で extract-core-rules に確かめさせる
                 tables[(layer, fn[:-5])] = json.load(open(os.path.join(ldir, fn), encoding="utf-8"))
 
     problems = []
@@ -128,7 +131,16 @@ def check(dump_path, raw):
                 else:
                     why = "このファクションの md に出ない（他ファクションへの移動など）"
                 problems.append((rel, sec, key, why))
-    return problems, len(tables)
+
+    nfiles = len(tables)
+    if os.path.exists(os.path.join(base, "official_translations", "core_rules.json")):
+        nfiles += 1
+        core = load_module("extract-core-rules", "extract_core_rules.py").Core(dump_path, raw)
+        core.build()
+        rel = "official_translations/core_rules.json"
+        problems += [(rel, sec, k, "英語が改訂されたので使われない（%s）" % at) for sec, k, at in core.stale]
+        problems += [(rel, sec, k, "コアルールの md に出ない（削除・別の id）") for sec, k in core.unused()]
+    return problems, nfiles
 
 
 def main():

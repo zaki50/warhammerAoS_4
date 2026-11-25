@@ -7557,7 +7557,12 @@
       "effect": {
        "ja": "このユニットが**宿怨マーク**を1個でも持つ間、このユニットの6mv以内に全体が入っており、かつこのユニットから視認状態である味方**カザライト・ホールド・歩兵**と**ゴーレム**でない味方**戦闘兵器**・ユニットは、**加護（5+）**を持つ。",
        "en": "While this unit has any **grudge marks**, visible friendly **KHAZALITE HOLDS INFANTRY** and non-**GHOLEM** **WAR MACHINE** units have **WARD (5+)** while they are wholly within 6\" of this unit.",
-       "fix": []
+       "fix": [
+        [
+         "ない味方**戦闘兵器**・ユニット",
+         "ない味方**カザライト・ホールド・戦闘兵器**・ユニット"
+        ]
+       ]
       }
      },
      "own": false,
@@ -7565,7 +7570,9 @@
      "kw_en": "",
      "cast": null,
      "cp": null,
-     "note": []
+     "note": [
+      "英語版は「friendly KHAZALITE HOLDS INFANTRY and non-GHOLEM WAR MACHINE units」。コアルールのFAQ 5.1（ルール・アップデート 2026年11月）の、並んだキーワードの先頭部分は後ろにも掛かるという解釈に従い、「カザライト・ホールド」は戦闘兵器にも掛かる。日本語版では歩兵にしか掛かっていない。"
+     ]
     }
    ],
    "terrain": [],

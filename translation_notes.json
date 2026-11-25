@@ -5026,6 +5026,962 @@
     "選択された敵**英雄**を対象とする味方": "味方",
     "ユニットのレンジアタックは、その敵**英雄**の": "ユニットは、レンジアタックの攻撃対象を選択する際、選択された敵**英雄**の"
    }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "c0f367ba-eb8a-4ad9-8877-3f8fb4ee89c8",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "c0f367ba-eb8a-4ad9-8877-3f8fb4ee89c8",
+   "en_field": "textContent",
+   "name": "5.0 Abilities > 5.1 Keywords",
+   "ja": "直前のターン中に自身のユニットが**全力移動**または**退却**のキーワードを持つアビリティを宣言していない場合",
+   "en": "earlier in the turn",
+   "note": "英語版は「同じターンのこれより前に（earlier in the turn）」。日本語版（コアルール p.7）は「直前のターン中に」で、前のターンの全力移動・退却を見るように読める（『突撃』アビリティ自体の宣言（p.14）は「このターン中に」で正しい）。",
+   "issue": "E. タイミングの誤り",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "直前のターン中に": "このターン中に"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "abilities",
+   "tr_key": "30238fab-a246-4aee-9f76-8ad483d8c4aa",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "30238fab-a246-4aee-9f76-8ad483d8c4aa",
+   "en_field": "effect",
+   "name": "10.0 The Deployment Phase > 10.1 Universal Deployment Phase Abilities",
+   "ja": "選択された連隊内に属していないユニット（戦場あるいは予備戦力に配置されている）を、その一連の『**初期配置**』アビリティの対象として選択することはできない",
+   "en": "You cannot set up units that are not in that regiment on the battlefield or in reserve as part of any of those **DEPLOY** abilities",
+   "note": "英語版は「連隊に属していないユニットを、その一連の初期配置アビリティの一環として戦場または予備戦力に配置できない」。日本語版（ルール・アップデート 2026年11月 p.2）は「戦場あるいは予備戦力に」がユニットの説明（配置されている）になり、禁止するのも対象としての選択だけになっている（対象にとらずに他のユニットを配置するアビリティを妨げないように読める）。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "選択された連隊内に属していないユニット（戦場あるいは予備戦力に配置されている）を、その一連の『**初期配置**』アビリティの対象として選択することはできない": "その一連の『**初期配置**』アビリティにおいて、選択された連隊内に属していないユニットを戦場あるいは予備戦力に配置することはできない"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "6e416ec9-b3a0-47bb-9a89-ff1c5ba0572d",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "6e416ec9-b3a0-47bb-9a89-ff1c5ba0572d",
+   "en_field": "textContent",
+   "name": "9.0 Battleplans > Battleplans",
+   "ja": "スペシャルール",
+   "en": "special rules",
+   "note": "日本語版（コアルール p.11）は「スペシャルルール」の「ル」が抜けている（誤植）。ルール上の影響は無い。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "スペシャルール": "スペシャルルール"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "250222dc-359c-44e5-9b43-bfd558eff9a9",
+   "tr_field": "ja",
+   "table": "bullet_point",
+   "id": "250222dc-359c-44e5-9b43-bfd558eff9a9",
+   "en_field": "text",
+   "name": "9.0 Battleplans > 9.1.2 Territories",
+   "ja": "ベースのすべて指定された",
+   "en": "every part of the base of every model in the unit is within that territory",
+   "note": "日本語版（コアルール p.11）は「ベースのすべて」の後の「が」が抜けている（2.1.1 は「ベースのすべてが指定された」）。誤植でルール上の影響は無い。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "ベースのすべて指定された": "ベースのすべてが指定された"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "4a9020f6-ef2e-4f0b-9341-872615d16635",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "4a9020f6-ef2e-4f0b-9341-872615d16635",
+   "en_field": "textContent",
+   "name": "2.0 Tools of War > 2.2 Dice",
+   "ja": "『ウォーハンマー エイジ・オヴ・シグマー』",
+   "en": "Warhammer Age of Sigmar",
+   "note": "日本語版（コアルール p.5）の 2.2 だけ「ウォーハンマー」の後の「：」が抜けている（誤植）。ルール上の影響は無い。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "『ウォーハンマー エイジ": "『ウォーハンマー：エイジ"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "7a31e689-c07f-4228-aaea-2fbea7bcf19a",
+   "tr_field": "ja",
+   "table": "bullet_point",
+   "id": "7a31e689-c07f-4228-aaea-2fbea7bcf19a",
+   "en_field": "text",
+   "name": "4.0 Warscrolls > Warscrolls",
+   "ja": "（17.0）",
+   "en": "(see 17.0)",
+   "note": "日本語版（コアルール p.6）は「参照」が抜けている（他の項目は「（15.0参照）」など）。誤植でルール上の影響は無い。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "（17.0）": "（17.0参照）"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "e41a6bee-26f2-43ca-99b4-180810f57680",
+   "tr_field": "ja",
+   "table": "bullet_point",
+   "id": "e41a6bee-26f2-43ca-99b4-180810f57680",
+   "en_field": "text",
+   "name": "4.0 Warscrolls > Warscrolls",
+   "ja": "（5.1参照）",
+   "en": "(see 5.1).",
+   "note": "日本語版（コアルール p.6）は末尾に句点が無い（他の項目にはある）。誤植でルール上の影響は無い。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "（5.1参照）": "（5.1参照）。"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "abilities",
+   "tr_key": "3a353bd5-9e49-4e5b-a3ad-f7a1cf77abdd",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "3a353bd5-9e49-4e5b-a3ad-f7a1cf77abdd",
+   "en_field": "effect",
+   "name": "10.0 The Deployment Phase > 10.1 Universal Deployment Phase Abilities",
+   "ja": "されたものとみなされる",
+   "en": "it has been **deployed**.",
+   "note": "日本語版（コアルール p.12）は文末の句点が無い。誤植でルール上の影響は無い。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "されたものとみなされる": "されたものとみなされる。"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "33a9b192-60a7-4ac5-9453-b3b9979d28ef",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "33a9b192-60a7-4ac5-9453-b3b9979d28ef",
+   "en_field": "textContent",
+   "name": "15.0 Movement > Movement",
+   "ja": "各兵はベースの中心を軸として旋回できるが",
+   "en": "Each model can turn and pivot",
+   "note": "英語版は「向きを変えたり旋回したりできる」（turn and pivot）だけで、旋回の軸を定めていない。日本語版（コアルール p.15 の赤枠）の「ベースの中心を軸として」は英語に無い条件（本文 15.0 にも無い）。",
+   "issue": "I. 英語に無い条件",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "ベースの中心を軸として旋回できるが": "自由に方向を変えたり旋回したりできるが"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "33a9b192-60a7-4ac5-9453-b3b9979d28ef",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "33a9b192-60a7-4ac5-9453-b3b9979d28ef",
+   "en_field": "textContent",
+   "name": "15.0 Movement > Movement",
+   "ja": "ユニットは隊形を保持して移動する必要がある。",
+   "en": "Units must end their move in coherency.",
+   "note": "英語版は移動の完了時に隊形を保っていればよい（end their move in coherency）。日本語版（コアルール p.15 の赤枠）は移動中も隊形を保つ必要があるように読める。",
+   "issue": "E. タイミングの誤り",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "隊形を保持して移動する必要がある": "隊形を保った状態で移動を完了する必要がある"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "c8ca68a5-7c97-41d9-b294-1a5776e4ca2f",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "c8ca68a5-7c97-41d9-b294-1a5776e4ca2f",
+   "en_field": "textContent",
+   "name": "15.0 Movement > 15.5 Overhanging Models",
+   "ja": "楕円のベースは180°まで回転させてよい",
+   "en": "an oval base may only be rotated 180°",
+   "note": "英語版は楕円ベースを「180°だけ」回転できる（may only be rotated 180°。同じ位置を占めたまま前後を入れ替える）。日本語版（ルール・アップデート 2026年11月 p.2）の「180°まで」は途中の角度も許すように読める（同じ文の「ベースは同じ位置に留まっていなければならない」とは合わない）。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "楕円のベースは180°まで回転させてよい": "楕円のベースはちょうど180°だけ回転させてよい"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "486d9ee7-c5be-4789-8391-536534957b15",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "486d9ee7-c5be-4789-8391-536534957b15",
+   "en_field": "textContent",
+   "name": "16.0 Picking Targets > Picking Targets",
+   "ja": "選ばなけれならない",
+   "en": "must pick between multiple weapons",
+   "note": "コアルール p.17 の「選ばなけれならない」は「ば」が抜けている（誤植）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "選ばなけれならない": "選ばなければならない"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "f7b455ab-d4b0-402f-8238-c2426b8086a0",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "f7b455ab-d4b0-402f-8238-c2426b8086a0",
+   "en_field": "textContent",
+   "name": "17.0 The Attack Sequence > 17.3 Fast Dice Rolling",
+   "ja": "20.0参照）持っており",
+   "en": "the same **weapon abilities** (if any – see 20.0)",
+   "note": "コアルール p.18 の「20.0参照）持っており」は「を」が抜けている（誤植）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "20.0参照）持っており": "20.0参照）を持っており"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "0ad3b1c4-d247-40a4-9ed7-87c0d6edf62b",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "0ad3b1c4-d247-40a4-9ed7-87c0d6edf62b",
+   "en_field": "textContent",
+   "name": "18.0 The Damage Sequence > 18.2 Allocating Damage",
+   "ja": "致命的なダメージ",
+   "en": "mortal damage",
+   "note": "英語版は mortal damage（17.2）で、日本語版の用語は「致命的ダメージ」。コアルール p.19 の「致命的なダメージ」は同じものの別表記。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "致命的なダメージ": "致命的ダメージ"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "c10f6ca4-8238-4f53-a599-a7174b8e122f",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "c10f6ca4-8238-4f53-a599-a7174b8e122f",
+   "en_field": "textContent",
+   "name": "23.0 Tokens > Tokens",
+   "ja": "永続的な効果",
+   "en": "persisting effects",
+   "note": "英語版は persisting effects（28.1）で、日本語版の用語は「継続効果」（28.1 の見出し）。コアルール p.24 の「永続的な効果」は同じものの別表記。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "永続的な効果": "継続効果"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "2310ee80-45c5-452f-8895-90bc158cda3c",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "2310ee80-45c5-452f-8895-90bc158cda3c",
+   "en_field": "textContent",
+   "name": "24.0 Setting up Units > 24.1 Reserve Units",
+   "ja": "予備戦力に配置されたユニットや予備戦力に残っているユニットはすべて全滅する",
+   "en": "units that were set up in reserve using a **DEPLOY** ability and that are still in reserve are destroyed",
+   "note": "英語版は「『初期配置』アビリティで予備戦力に配置され、かつまだ予備戦力にいるユニット」（両方を満たすもの）だけが全滅する。日本語版（コアルール p.24）の「…ユニットや…ユニットはすべて」は、既に戦場に出たユニットや『初期配置』以外のアビリティで予備戦力に置かれたユニットまで全滅するように読める。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "予備戦力に配置されたユニットや予備戦力に残っているユニットは": "予備戦力に配置され、まだ予備戦力に残っているユニットは"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "4d312c6c-7202-462e-93ee-395af9e351da",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "4d312c6c-7202-462e-93ee-395af9e351da",
+   "en_field": "textContent",
+   "name": "24.0 Setting up Units > 24.2 Replacement Units",
+   "ja": "永続的な効果",
+   "en": "persisting effects",
+   "note": "英語版は persisting effects（28.1）で、日本語版の用語は「継続効果」（28.1 の見出し）。コアルール p.24 の「永続的な効果」は同じものの別表記。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "永続的な効果": "継続効果"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "864f0c34-660e-4486-b549-040bc74be381",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "864f0c34-660e-4486-b549-040bc74be381",
+   "en_field": "textContent",
+   "name": "26.0 Random Characteristics > Random Characteristics",
+   "ja": "アビリティに必要とされる能力値の値は",
+   "en": "each time an ability requires that characteristic",
+   "note": "英語版は能力値が必要になる「たびに」（each time）生成する。日本語版（コアルール p.25）は「たびに」が抜けている（同じ頁の赤枠は正しく「必要になるたびに生成する」）。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "アビリティに必要とされる能力値の値は": "アビリティにその能力値が必要とされるたびに、その値は"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "57ade820-7ec6-4028-b577-9066e6e3db25",
+   "tr_field": "ja",
+   "table": "bullet_point",
+   "id": "57ade820-7ec6-4028-b577-9066e6e3db25",
+   "en_field": "text",
+   "name": "28.0 Advanced Ability Rules > Advanced Ability Rules",
+   "ja": "ビリティが複数のユニット",
+   "en": "If an ability instructs you to pick more than 1 unit",
+   "note": "コアルール p.26 の「ビリティ」は先頭の「ア」が抜けている（誤植）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "ビリティが複数のユニット": "アビリティが複数のユニット"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "8af89ce4-af74-4434-8f75-1eee3d784db2",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "8af89ce4-af74-4434-8f75-1eee3d784db2",
+   "en_field": "textContent",
+   "name": "28.0 Advanced Ability Rules > 28.2 'Once per' Timings",
+   "ja": "各フェイズにつき1回（アーミ－）",
+   "en": "Once Per Phase (Army)",
+   "note": "コアルール p.26 の「アーミ－」は長音符が全角の負号になっている（誤植）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "（アーミ－）": "（アーミー）"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "f9845cdd-eb6f-45c2-9b9d-c7337b33c0db",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "f9845cdd-eb6f-45c2-9b9d-c7337b33c0db",
+   "en_field": "textContent",
+   "name": "28.0 Advanced Ability Rules > Who is Using the Ability?",
+   "ja": "その最もの例は",
+   "en": "the best examples being",
+   "note": "コアルール p.26 の「その最もの例は」は「その最たる例は」の誤植。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "その最もの例は": "その最たる例は"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "b94327cf-c949-4bf1-b161-0c861ba0d1f8",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "b94327cf-c949-4bf1-b161-0c861ba0d1f8",
+   "en_field": "textContent",
+   "name": "30.0 Order of Effects > Order of Effects",
+   "ja": "このユニットを**回復（D3）**する",
+   "en": "**Heal (D3)** that unit",
+   "note": "英語版は『近接攻撃』を使用した「その味方ユニット」（that unit）を回復する。日本語版（コアルール p.26、ルール・アップデート 2026年11月 p.2）の「このユニット」はアビリティを使用しているユニット（28.0）と読める。",
+   "issue": "F. 効果を得る側の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "このユニットを**回復（D3）**": "そのユニットを**回復（D3）**"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "d2f1cc8f-d530-4e2c-8a6a-8ead6ac2fe3c",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "d2f1cc8f-d530-4e2c-8a6a-8ead6ac2fe3c",
+   "en_field": "textContent",
+   "name": "31.0 End of Turn Overview > End of Turn Overview",
+   "ja": "**「自軍側フェイズ終了時」**または**「任意のフェイズ終了時」**とタイミング欄に記載されているアビリティを使用できる。次に、対戦相手は任意の順序で**「敵軍側フェイズ終了時」**または**「任意のフェイズ終了時」**",
+   "en": "the End of Your Turn or End of Any Turn timing",
+   "note": "英語版は End of Your Turn / End of Any Turn / End of Enemy Turn（ターン終了時）。日本語版（コアルール p.27）の「フェイズ終了時」は誤り。ターンの終了時に使うアビリティのこと。",
+   "issue": "E. タイミングの誤り",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "自軍側フェイズ終了時": "自軍側ターン終了時",
+    "「任意のフェイズ終了時」**とタイミング欄に記載": "「任意のターン終了時」**とタイミング欄に記載",
+    "敵軍側フェイズ終了時": "敵軍側ターン終了時",
+    "任意のフェイズ終了時」**とタイミング欄に記載": "任意のターン終了時」**とタイミング欄に記載"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "d2f1cc8f-d530-4e2c-8a6a-8ead6ac2fe3c",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "d2f1cc8f-d530-4e2c-8a6a-8ead6ac2fe3c",
+   "en_field": "textContent",
+   "name": "31.0 End of Turn Overview > End of Turn Overview",
+   "ja": "バトル中に記載されている通りに",
+   "en": "as described in the battleplan",
+   "note": "英語版は「バトルプランに記載されている通りに」（as described in the battleplan）。日本語版（コアルール p.27）の「バトル中に」は「バトルプランに」の誤植。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "バトル中に記載されている通りに": "バトルプランに記載されている通りに"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "e8e0bcd3-497f-4767-a1b0-554a6f1704fd",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "e8e0bcd3-497f-4767-a1b0-554a6f1704fd",
+   "en_field": "textContent",
+   "name": "32.0 Objectives > 32.2 Objective Control",
+   "ja": "アビリティが使用された後、**各ターン終了時**に",
+   "en": "after all Deployment Phase abilities have been used and at the **end of each turn**",
+   "note": "英語版は「初期配置フェイズにすべての初期配置フェイズアビリティが使用された後」と（and）「各ターン終了時」の 2 つの時点で手順を行う。日本語版（ルール・アップデート 2026年11月 p.3）は「および」が無く、各ターン終了時だけに行うように読める。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "アビリティが使用された後、**各ターン終了時**に": "アビリティが使用された後、および**各ターン終了時**に"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "17401943-18f9-460c-ade4-26bbbd9cf284",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "17401943-18f9-460c-ade4-26bbbd9cf284",
+   "en_field": "textContent",
+   "name": "Addenda > 15.6 Charge Moves",
+   "ja": "突撃移動を完了したものとみなされる。’",
+   "en": "the unit has charged as part of that ability.’",
+   "note": "日本語版（ルール・アップデート 2026年11月 p.2）は閉じる引用符が「”」でなく「’」になっている（誤植。ルール上の影響は無い）。",
+   "issue": "Y. 書籍・エラッタの誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "みなされる。’": "みなされる。”"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "5b9a27d2-4a8d-4e56-97c0-0bf7e3c4ac6b",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "5b9a27d2-4a8d-4e56-97c0-0bf7e3c4ac6b",
+   "en_field": "textContent",
+   "name": "Errata > 10.1 Universal Deployment Phase Abilities",
+   "ja": "選択された連隊内に属していないユニット（戦場あるいは予備戦力に配置されている）を、その一連の『**初期配置**』アビリティの対象として選択することはできない。",
+   "en": "You cannot set up units that are not in that regiment on the battlefield or in reserve as part of any of those **DEPLOY** abilities.",
+   "note": "英語版は「その連隊に属していないユニットを、それらの『初期配置』アビリティの一環として、戦場にも予備戦力にも配置することはできない」。日本語版（ルール・アップデート 2026年11月 p.2）は「戦場あるいは予備戦力に」が「配置する」先でなくユニットの状態（すでに配置されているユニット）に掛かっている。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "ユニット（戦場あるいは予備戦力に配置されている）を、その一連の『**初期配置**』アビリティの対象として選択することはできない": "ユニットを、その一連の『**初期配置**』アビリティの一環として戦場あるいは予備戦力に配置することはできない"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "4dea348a-b73a-40d2-a4b1-887a83df7abe",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "4dea348a-b73a-40d2-a4b1-887a83df7abe",
+   "en_field": "textContent",
+   "name": "Errata > 15.5 Overhanging Models",
+   "ja": "楕円のベースは180°まで回転させてよい",
+   "en": "an oval base may only be rotated 180°",
+   "note": "英語版は「ベースは同じ位置を占めていなければならず、楕円のベースはちょうど180°しか回転できない（may only be rotated 180°）」。日本語版（ルール・アップデート 2026年11月 p.2）の「180°まで」は途中の角度でもよいと読める。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "180°まで回転させてよい": "180°だけ回転させてよい"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "13c8971f-caac-451b-9c49-2e88ddb7b96f",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "13c8971f-caac-451b-9c49-2e88ddb7b96f",
+   "en_field": "textContent",
+   "name": "Errata > 25.0 Guarded Hero",
+   "ja": "“護られし英雄”の効果を以下の部分を：",
+   "en": "In the effect of ‘Guarded Hero’, replace:",
+   "note": "日本語版（ルール・アップデート 2026年11月 p.3）は「の」が「を」になり、2 つの引用文の閉じる引用符「”」も抜けている（誤植。ルール上の影響は無い）。",
+   "issue": "Y. 書籍・エラッタの誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "の効果を以下の部分を：": "の効果の以下の部分を：",
+    "離れているユニットは、その英雄をレンジアタックの攻撃対象として選択することはできない。": "離れているユニットは、その英雄をレンジアタックの攻撃対象として選択することはできない。”",
+    "離れている兵は、その英雄をレンジアタックの攻撃対象として選択することはできない。": "離れている兵は、その英雄をレンジアタックの攻撃対象として選択することはできない。”"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "c40f8a29-1b45-4cb4-aeb5-e4ee04d888e3",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "c40f8a29-1b45-4cb4-aeb5-e4ee04d888e3",
+   "en_field": "textContent",
+   "name": "Errata > 32.2 Objective Control",
+   "ja": "使用された後、**各ターン終了時**に",
+   "en": "after all Deployment Phase abilities have been used and at the **end of each turn**",
+   "note": "英語版は「初期配置フェイズのすべての『初期配置フェイズ』アビリティが使用された後と、各ターン終了時の両方」で作戦目標の確保を判定する。日本語版（ルール・アップデート 2026年11月 p.3）は「および」が無く、初期配置フェイズでの判定（第1バトルラウンド開始時点の確保）があるのか分からない。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "使用された後、**各ターン終了時**に": "使用された後、および**各ターン終了時**に"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "55cfe5f7-f118-45e3-93b5-6c3547552a12",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "55cfe5f7-f118-45e3-93b5-6c3547552a12",
+   "en_field": "textContent",
+   "name": "Frequently Asked Questions > 5.1 Keywords",
+   "ja": "non-Skyryre Moulder",
+   "en": "non-**SKRYRE MOULDER**",
+   "note": "日本語版（ルール・アップデート 2026年11月 p.4）の「Skyryre」は「Skryre」の誤植。",
+   "issue": "Y. 書籍・エラッタの誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "Skyryre": "Skryre"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "fb242ca3-a9a9-4f37-a038-4af31ab3a810",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "fb242ca3-a9a9-4f37-a038-4af31ab3a810",
+   "en_field": "textContent",
+   "name": "Frequently Asked Questions > 7.0 Combat Range",
+   "ja": "３mv退却した場合",
+   "en": "retreats 3\" directly away from the enemy model",
+   "note": "英語版は「敵兵からまっすぐ離れる方向に（directly away）3mv 退却した場合」。日本語版（ルール・アップデート 2026年11月 p.5）は方向の条件が抜けている（斜めや横に3mv 動いただけなら近接範囲内に残ることがある）。数字の「３」も全角。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "３mv退却した場合": "その敵兵からまっすぐ離れるように3mv退却した場合"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "8fdff4ac-4533-4627-b406-3ee0542439fd",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "8fdff4ac-4533-4627-b406-3ee0542439fd",
+   "en_field": "textContent",
+   "name": "Frequently Asked Questions > 15.2 Moving Across Terrain",
+   "ja": "完了することはできない記されているけど",
+   "en": "state that a model cannot end a move mid-climb",
+   "note": "日本語版（ルール・アップデート 2026年11月 p.5）は「できないと記されている」の「と」が抜けている（誤植。ルール上の影響は無い）。",
+   "issue": "Y. 書籍・エラッタの誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "できない記されている": "できないと記されている"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "16a64230-8fc2-452c-9764-8cea6fd68756",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "16a64230-8fc2-452c-9764-8cea6fd68756",
+   "en_field": "textContent",
+   "name": "Frequently Asked Questions > 17.0 The Attack Sequence",
+   "ja": "ヒットロールの修正前の出目5+は攻撃対象にヒットするの",
+   "en": "would unmodified hit rolls of 5 hit the target?",
+   "note": "英語版が尋ねているのは「修正前の出目5」がヒットするか（出目6はヒットする）。日本語版（ルール・アップデート 2026年11月 p.5）の「5+」だと、A の「その攻撃のヒットは成功していない」が出目6にも当てはまるように読める。",
+   "issue": "A. 数値の誤り",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "出目5+は攻撃対象": "出目5は攻撃対象"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "8c2a736a-7fbd-4186-aa73-773a07cf78ee",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "8c2a736a-7fbd-4186-aa73-773a07cf78ee",
+   "en_field": "textContent",
+   "name": "Frequently Asked Questions > 19.0 STRIKE-FIRST and STRIKE-LAST",
+   "ja": "『後手効果』を持つユニットの最後のユニットを選択した後",
+   "en": "the player who did not pick the last non-**STRIKE-LAST** unit",
+   "note": "英語版は「『後手効果』を持たない（non-STRIKE-LAST）ユニットの最後の1個を選択しなかったほうのプレイヤー」が最初の『後手効果』ユニットを選ぶ。日本語版（ルール・アップデート 2026年11月 p.6）は「持つ」になっていて逆。",
+   "issue": "R. 肯定と否定の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "『後手効果』を持つユニットの最後の": "『後手効果』を持たないユニットの最後の"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "e0837934-ee8b-4632-96be-6eb06223630c",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "e0837934-ee8b-4632-96be-6eb06223630c",
+   "en_field": "textContent",
+   "name": "Frequently Asked Questions > 20.0 Weapon Abilities",
+   "ja": "味方アビリティからの効果を受たり",
+   "en": "would it be affected by friendly abilities",
+   "note": "日本語版（ルール・アップデート 2026年11月 p.6）の「受たり」は「受けたり」の誤植。",
+   "issue": "Y. 書籍・エラッタの誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "効果を受たり": "効果を受けたり"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "5963a480-3590-48c0-b88a-ac43b16f9d1e",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "5963a480-3590-48c0-b88a-ac43b16f9d1e",
+   "en_field": "textContent",
+   "name": "Frequently Asked Questions > 25.0 Guarded Heroes",
+   "ja": "アビリティによって『護られし英雄』アビリティの効果を無視することができる場合",
+   "en": "allows me to ignore the effects of the ‘Guarded Hero’ ability when picking targets",
+   "note": "英語版は「攻撃対象を選択する際に（when picking targets）」効果を無視できるアビリティについての質問。日本語版（ルール・アップデート 2026年11月 p.7）はこの限定が抜け、『護られし英雄』の効果をすべて無視するアビリティでもヒットロール-1を受けるように読める。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "アビリティによって『護られし英雄』アビリティの効果を": "アビリティによって、攻撃対象を選択する際に『護られし英雄』アビリティの効果を"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "464c3ecb-1785-467a-92b2-3309b5e4627b",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "464c3ecb-1785-467a-92b2-3309b5e4627b",
+   "en_field": "textContent",
+   "name": "Frequently Asked Questions > 32.3 Terrain Control",
+   "ja": "プレイヤーが特殊地形の一部分を確保している場合、そのユニットが一部分を確保している状態を保ちながら、そのユニットは別の特殊地形の一部を確保するためにカウントすることはできるの",
+   "en": "If a player controls a piece of terrain, can a unit be counted towards contesting a different piece of terrain while still maintaining control of the first piece?",
+   "note": "英語版の a piece of terrain は「特殊地形1個」で、別の特殊地形の「争奪（contesting）」に数えられるかを尋ねている。日本語版（ルール・アップデート 2026年11月 p.7）は「特殊地形の一部分」とし、contesting も「確保」としている。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "特殊地形の一部分を確保している場合、そのユニットが一部分を確保している状態を保ちながら、そのユニットは別の特殊地形の一部を確保するためにカウントすることはできるの": "特殊地形を確保している場合、最初の特殊地形を確保している状態を保ちながら、ユニットは別の特殊地形を争奪しているものとしてカウントすることはできるの"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "d96676b2-7319-44b2-9cc0-bb4248bff303",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "d96676b2-7319-44b2-9cc0-bb4248bff303",
+   "en_field": "textContent",
+   "name": "1.0 Terrain Overview > 1.1 Wholly On Terrain and Behind Terrain",
+   "ja": "射程内にいる対象ユニットの兵まで直線を引く",
+   "en": "to the closest point on the base of a model in the target unit that is in range",
+   "note": "英語版は直線の終点も「対象ユニットの兵のベースの最も近い点」（the closest point on the base of a model）。日本語版（ルール・アップデート 202611 p.21）は「兵まで」で、終点の限定が抜けている。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "対象ユニットの兵まで直線を": "対象ユニットの兵のベースの最も近い部分まで直線を"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "d96676b2-7319-44b2-9cc0-bb4248bff303",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "d96676b2-7319-44b2-9cc0-bb4248bff303",
+   "en_field": "textContent",
+   "name": "1.0 Terrain Overview > 1.1 Wholly On Terrain and Behind Terrain",
+   "ja": "一部でも入っている特殊地形やその特殊地形の一部であるパーツは無視される",
+   "en": "Ignore parts of the terrain feature within the attacking unit’s combat range",
+   "note": "英語版が無視するのは近接範囲内にある特殊地形の部分だけ（parts of the terrain feature within …）。日本語版（コアルール p.31）は「一部でも入っている特殊地形や…パーツ」で、一部が入っていれば特殊地形全体を無視できるように読める（ルール・アップデート 202611 p.21 は「特殊地形のパーツは無視する」）。",
+   "issue": "N. 範囲（全体が／一部でも）の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "特殊地形やその特殊地形の一部であるパーツは": "特殊地形のパーツは"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "99ec3ed3-acbd-4e24-959b-d838153e52e0",
+   "tr_field": "ja",
+   "table": "bullet_point",
+   "id": "99ec3ed3-acbd-4e24-959b-d838153e52e0",
+   "en_field": "text",
+   "name": "1.0 Terrain Overview > 1.2 Universal Terrain Abilities",
+   "ja": "攻撃側ユニットが現在のターン中に**突撃**を実行している",
+   "en": "unless that unit charged this turn or has the **FLY** keyword",
+   "note": "英語版の that unit は攻撃の対象となったユニット（a unit that is behind or wholly on this terrain feature）で、突撃したか飛行を持つと遮蔽物の効果を得られない。日本語版（コアルール p.31）の「攻撃側ユニット」は誤り（ルール・アップデート 202611 p.9 も「日本語訳に変更なし」で未訂正）。",
+   "issue": "F. 効果を得る側の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "攻撃側ユニットが現在のターン中に": "攻撃対象のユニットが現在のターン中に"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "fe8df009-b13e-4fec-92b8-6554e4fc903f",
+   "tr_field": "ja",
+   "table": "bullet_point",
+   "id": "fe8df009-b13e-4fec-92b8-6554e4fc903f",
+   "en_field": "text",
+   "name": "1.0 Terrain Overview > 1.2 Universal Terrain Abilities",
+   "ja": "ユニット内の全兵が**大型獣**でなく**戦闘兵器**でない、**飛行**を持たないユニットが、この特殊地形の1mv以内に",
+   "en": "While every model in a non-**MONSTER** non-**WAR MACHINE** unit that does not have the **FLY** keyword is within 1\" of this terrain feature",
+   "note": "英語版は「ユニット内の全兵がこの特殊地形の 1mv 以内に一部でも入っている間」。日本語版（ルール・アップデート 202611 p.21）は「全兵が」が大型獣・戦闘兵器の条件に掛かり、1 体でも 1mv 以内にいればよいように読める（同 p.24 の質問と回答は「ユニットの全兵が…1mv 以内に一部でも入っている間」）。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "ユニット内の全兵が大型獣で": "大型獣で",
+    "持たないユニットが、": "持たないユニットの全兵が、"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "462709bc-aad9-4dc0-8d00-a67b6456e128",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "462709bc-aad9-4dc0-8d00-a67b6456e128",
+   "en_field": "textContent",
+   "name": "1.4.4 Places of Power",
+   "ja": "魔力抽出器、浄化の聖水源",
+   "en": "Realmgate, Cleansing Aqualith",
+   "note": "英語版の 1 つ目は Realmgate（境界門。コアルール p.28 と p.65「禍々しき境界門」の訳語）。日本語版（コアルール p.31）は「魔力抽出器」（Nexus Syphon）が 2 回並んでいる。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "魔力抽出器、浄化の聖水源": "境界門、浄化の聖水源"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "462709bc-aad9-4dc0-8d00-a67b6456e128",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "462709bc-aad9-4dc0-8d00-a67b6456e128",
+   "en_field": "textContent",
+   "name": "1.4.4 Places of Power",
+   "ja": "遮蔽物、力を秘めし、不安定",
+   "en": "Cover, Place of Power, Unstable",
+   "note": "特殊地形アビリティの名前は「力を秘めし地形」（Place of Power、同ページ 1.2）。日本語版（コアルール p.31）は「力を秘めし」で「地形」が抜けている。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "力を秘めし、不安定": "力を秘めし地形、不安定"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "8793bc3a-525e-4b3a-be8f-27f0c551ee53",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "8793bc3a-525e-4b3a-be8f-27f0c551ee53",
+   "en_field": "textContent",
+   "name": "1.0 Getting Started > 1.3 Battle Profiles",
+   "ja": "アーミロスター",
+   "en": "army roster",
+   "note": "日本語版（コアルール p.35）の「アーミロスター」は誤植（「アーミーロスター」）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "アーミロスター": "アーミーロスター"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "676f23ca-0a70-48da-a23e-381e468d0dcc",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "676f23ca-0a70-48da-a23e-381e468d0dcc",
+   "en_field": "textContent",
+   "name": "3.0 Adding Units > 3.5 Regiments of Renown",
+   "ja": "名高き連隊はあらかじめに編成されている連隊",
+   "en": "Regiments of Renown are pre‑built regiments",
+   "note": "日本語版（コアルール p.36）の「あらかじめに」は誤植（「あらかじめ」）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "あらかじめに編成": "あらかじめ編成"
+   }
+  },
+  {
+   "faction": "core_rules",
+   "tr_section": "texts",
+   "tr_key": "575cfe98-ac1f-4775-ae61-a89c234c512e",
+   "tr_field": "ja",
+   "table": "rule_container_component",
+   "id": "575cfe98-ac1f-4775-ae61-a89c234c512e",
+   "en_field": "textContent",
+   "name": "Frequently Asked Questions > ARMY COMPOSITION, 3.1 REGIMENTS",
+   "ja": "英雄ではないユニットとして扱われるの？",
+   "en": "do they take the place of a non-**HERO** unit in that regiment?",
+   "note": "英語版は、連隊の中で英雄ではないユニット 1 個分の枠を占めるか（take the place of a non-Hero unit）という質問。日本語版（ルール・アップデート 202611 p.12）は「英雄ではないユニットとして扱われる」で、英雄でなくなるように読める。",
+   "issue": "K. 条件の掛かり方の違い",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "英雄ではないユニットとして扱われるの": "英雄ではないユニットの枠を使うの"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Valayan Guardians with Rune Axe and Shields|Protection Of Valaya",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "b2c252e4-f6aa-408e-b6dc-33038b0f89a3",
+   "en_field": "effect",
+   "name": "Protection Of Valaya",
+   "ja": "**ゴーレム**でない味方**戦闘兵器**・ユニット",
+   "en": "friendly **KHAZALITE HOLDS INFANTRY** and non-**GHOLEM** **WAR MACHINE** units",
+   "note": "英語版は「friendly KHAZALITE HOLDS INFANTRY and non-GHOLEM WAR MACHINE units」。コアルールのFAQ 5.1（ルール・アップデート 2026年11月）の、並んだキーワードの先頭部分は後ろにも掛かるという解釈に従い、「カザライト・ホールド」は戦闘兵器にも掛かる。日本語版では歩兵にしか掛かっていない。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "ない味方**戦闘兵器**・ユニット": "ない味方**カザライト・ホールド・戦闘兵器**・ユニット"
+   }
+  },
+  {
+   "faction": "valankrom_s_war_throng",
+   "tr_section": "ability_texts",
+   "tr_key": "Valayan Guardians with Rune Axe and Shields|Protection Of Valaya",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "b2c252e4-f6aa-408e-b6dc-33038b0f89a3",
+   "en_field": "effect",
+   "name": "Protection Of Valaya",
+   "ja": "**ゴーレム**でない味方**戦闘兵器**・ユニット",
+   "en": "friendly **KHAZALITE HOLDS INFANTRY** and non-**GHOLEM** **WAR MACHINE** units",
+   "note": "英語版は「friendly KHAZALITE HOLDS INFANTRY and non-GHOLEM WAR MACHINE units」。コアルールのFAQ 5.1（ルール・アップデート 2026年11月）の、並んだキーワードの先頭部分は後ろにも掛かるという解釈に従い、「カザライト・ホールド」は戦闘兵器にも掛かる。日本語版では歩兵にしか掛かっていない。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "ない味方**戦闘兵器**・ユニット": "ない味方**カザライト・ホールド・戦闘兵器**・ユニット"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Valayan Guardians with Rune Axe and Shields|Protection Of Valaya",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "b2c252e4-f6aa-408e-b6dc-33038b0f89a3",
+   "en_field": "effect",
+   "name": "Protection Of Valaya",
+   "ja": "**ゴーレム**でない味方**戦闘兵器**・ユニット",
+   "en": "friendly **KHAZALITE HOLDS INFANTRY** and non-**GHOLEM** **WAR MACHINE** units",
+   "note": "英語版は「friendly KHAZALITE HOLDS INFANTRY and non-GHOLEM WAR MACHINE units」。コアルールのFAQ 5.1（ルール・アップデート 2026年11月）の、並んだキーワードの先頭部分は後ろにも掛かるという解釈に従い、「カザライト・ホールド」は戦闘兵器にも掛かる。日本語版では歩兵にしか掛かっていない。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "ない味方**戦闘兵器**・ユニット": "ない味方**カザライト・ホールド・戦闘兵器**・ユニット"
+   }
   }
  ]
 }
