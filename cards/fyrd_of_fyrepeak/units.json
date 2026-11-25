@@ -3,7 +3,7 @@
   "slug": "fyrd_of_fyrepeak",
   "kind": "faction",
   "faction_en": "Fyrd of Fyrepeak",
-  "faction_ja": null,
+  "faction_ja": "ファイアピークの召集軍",
   "faction_slug": "fyrd_of_fyrepeak",
   "alliance": "Order",
   "title_en": "Fyrd of Fyrepeak",
@@ -72,7 +72,7 @@
    "abilities": [
     {
      "name": {
-      "ja": "父なる焔のルーン",
+      "ja": "大炎のルーン",
       "en": "Masterflame Rune",
       "own": false,
       "fix": [],
@@ -80,20 +80,68 @@
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Your Hero Phase"
+       "ja": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+       "en": "Once Per Turn (Army), Your Hero Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
+      },
+      "declare": {
+       "ja": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**グリムドロン・歩兵**・ユニットを1個選択する。その後、ダイス1個で大炎のルーンロールをする。",
+       "en": "Pick a visible friendly **GRIMMDRON INFANTRY** unit wholly within 12\" of this unit to be the target. Then, make a Masterflame rune roll by rolling a dice.",
+       "fix": []
+      },
+      "effect": {
+       "ja": "ロール結果が1の場合、あるいはこのバトル中に全滅した**ファイアスレイヤー**・ユニット数以下である場合、以下の中から効果を1つ選択し、次の自軍側ターン開始時まで適用する。\n• **グリムニルの気迫：**選択された味方ユニットは**加護（5+）**を持つ。\n• **グリムニルの決意：**選択された味方ユニットの突撃ロールをリロールできる。\n• **グリムニルの報復：**選択された味方ユニットが装備している近接武器は【ダメージ量】に+1の修正を受ける。",
+       "en": "On a 1, or if the roll is equal to or less than the number of friendly **KHAZALITE HOLDS** units that have been destroyed during the battle, pick 1 of the following effects to apply until the start of your next turn:\n\n***Grimnir’s Grit:*** The target has **WARD (5+)**.\n\n***Grimnir’s Resolve:*** You can re-roll charge rolls for the target.\n\n***Grimnir’s Vengeance:*** Add 1 to the Damage characteristic of the target’s melee weapons.",
+       "fix": [
+        [
+         "全滅した**ファイアスレイヤー**・ユニット数以下",
+         "全滅した味方**カザライト・ホールド**・ユニット数以下"
+        ]
+       ]
+      }
+     },
+     "own": false,
+     "kw_ja": "",
+     "kw_en": "",
+     "cast": null,
+     "cp": null,
+     "note": [
+      "英語版は「味方カザライト・ホールド・ユニット（friendly KHAZALITE HOLDS units）」。日本語版（書籍 p.79）はキーワードが旧版の「ファイアスレイヤー」のままで、「味方」も抜けている。"
+     ]
+    },
+    {
+     "name": {
+      "ja": "火の灯る怒り",
+      "en": "Fire-Fuelled Anger",
+      "own": false,
+      "fix": [],
+      "note": []
+     },
+     "fields": {
+      "timing": {
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
+      },
+      "used_by": {
+       "ja": "",
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": "Pick a visible friendly **GRIMMDRON INFANTRY** unit wholly within 12\" of this unit to be the target. Then, make a Masterflame rune roll by rolling a dice."
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "On a 1, or if the roll is equal to or less than the number of friendly **KHAZALITE HOLDS** units that have been destroyed during the battle, pick 1 of the following effects to apply until the start of your next turn:\n\n***Grimnir’s Grit:*** The target has **WARD (5+)**.\n\n***Grimnir’s Resolve:*** You can re-roll charge rolls for the target.\n\n***Grimnir’s Vengeance:*** Add 1 to the Damage characteristic of the target’s melee weapons."
+       "ja": "このユニットが**宿怨マーク**を1個でも持つ間、このユニットによる大炎のルーンロールは-2の修正を受ける。",
+       "en": "Subtract 2 from Masterflame rune rolls for this unit while it has any **grudge marks**.",
+       "fix": []
       }
      },
      "own": false,
@@ -105,61 +153,32 @@
     },
     {
      "name": {
-      "ja": "Fire-Fuelled Anger",
-      "en": "",
+      "ja": "再点火",
+      "en": "Relight The Fire",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Subtract 2 from Masterflame rune rolls for this unit while it has any **grudge marks**."
-      }
-     },
-     "own": false,
-     "kw_ja": "",
-     "kw_en": "",
-     "cast": null,
-     "cp": null,
-     "note": []
-    },
-    {
-     "name": {
-      "ja": "Relight The Fire",
-      "en": "",
-      "own": false,
-      "fix": [],
-      "note": []
-     },
-     "fields": {
-      "timing": {
-       "ja": "",
-       "en": "Passive"
-      },
-      "used_by": {
-       "ja": "",
-       "en": ""
-      },
-      "declare": {
-       "ja": "",
-       "en": ""
-      },
-      "effect": {
-       "ja": "",
-       "en": "If this unit is destroyed, before removing it from play, give each visible friendly **GRIMMDRON** unit within 6\" of it 1 **grudge mark**."
+       "ja": "このユニットが全滅した場合、そのユニットをゲームから取り除く前に、このユニットから6mv以内に一部でも入っており、かつこのユニットから視認状態である各味方**グリムドロン**・ユニットに、それぞれ**宿怨マーク**を1個与える。",
+       "en": "If this unit is destroyed, before removing it from play, give each visible friendly **GRIMMDRON** unit within 6\" of it 1 **grudge mark**.",
+       "fix": []
       }
      },
      "own": false,
@@ -305,20 +324,24 @@
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Any Shooting Phase"
+       "ja": "各ターンにつき1回（アーミー）、任意の遠隔フェイズ",
+       "en": "Once Per Turn (Army), Any Shooting Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick an enemy unit that had any damage points allocated to it this turn by this unit’s shooting attacks to be the target."
+       "ja": "このターン中、このユニットのレンジアタックによって1ポイント以上のダメージを割り振られた敵ユニットを1個選択する。",
+       "en": "Pick an enemy unit that had any damage points allocated to it this turn by this unit’s shooting attacks to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Subtract 1 from hit rolls for the target’s attacks until the start of your next turn."
+       "ja": "次の自軍側ターン開始時まで、選択された敵ユニットの攻撃はヒットロールに-1の修正を受ける。",
+       "en": "Subtract 1 from hit rolls for the target’s attacks until the start of your next turn.",
+       "fix": []
       }
      },
      "own": false,
@@ -330,28 +353,32 @@
     },
     {
      "name": {
-      "ja": "Focused Ire",
-      "en": "",
+      "ja": "集中的憤怒",
+      "en": "Focused Ire",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Add 1 to hit rolls for this unit’s shooting attacks while it has any **grudge marks**."
+       "ja": "このユニットが**宿怨マーク**を1個でも持つ間、このユニットのレンジアタックはヒットロールに+1の修正を受ける。",
+       "en": "Add 1 to hit rolls for this unit’s shooting attacks while it has any **grudge marks**.",
+       "fix": []
       }
      },
      "own": false,
@@ -467,20 +494,24 @@
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Battle (Army), Deployment Phase"
+       "ja": "バトル中1回限り（アーミー）、初期配置フェイズ",
+       "en": "Once Per Battle (Army), Deployment Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick a friendly non-**HERO GRIMMDRON INFANTRY** unit within this unit’s combat range to be the **royal retinue**."
+       "ja": "このユニットの近接範囲内に一部でも入っている、**英雄**でない味方**グリムドロン・歩兵**・ユニットを1個選択し、**王家の近衛**とする。",
+       "en": "Pick a friendly non-**HERO GRIMMDRON INFANTRY** unit within this unit’s combat range to be the **royal retinue**.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "For the rest of the battle, while the **royal retinue** is wholly within 6\" of and visible to this unit:\n\n• Add 1 to hit rolls for the **royal retinue’s** attacks.\n• This unit has **WARD (4+)**."
+       "ja": "以降バトル終了時まで、**王家の近衛**がこのユニットの6mv以内に全体が入っており、かつこのユニットから視認状態である間、\n• **王家の近衛**の攻撃は、ヒットロールに+1の修正を受ける。\n• このユニットは**加護（4+）**を持つ。",
+       "en": "For the rest of the battle, while the **royal retinue** is wholly within 6\" of and visible to this unit:\n\n• Add 1 to hit rolls for the **royal retinue’s** attacks.\n• This unit has **WARD (4+)**.",
+       "fix": []
       }
      },
      "own": false,
@@ -492,7 +523,7 @@
     },
     {
      "name": {
-      "ja": "威厳ある存在感",
+      "ja": "傑出した存在感",
       "en": "Commanding Presence",
       "own": false,
       "fix": [],
@@ -500,20 +531,29 @@
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "While this unit has any **grudge marks**, the **royal retinue** has **WARD (4+)** while it is wholly within 6\" of this unit."
+       "ja": "このユニットが**宿怨マーク**を1個でも持つ間、このユニットの6mv以内に全体が入っている**王家の衛兵**は**加護（4+）**を持つ。",
+       "en": "While this unit has any **grudge marks**, the **royal retinue** has **WARD (4+)** while it is wholly within 6\" of this unit.",
+       "fix": [
+        [
+         "王家の衛兵",
+         "王家の近衛"
+        ]
+       ]
       }
      },
      "own": false,
@@ -521,7 +561,9 @@
      "kw_en": "",
      "cast": null,
      "cp": null,
-     "note": []
+     "note": [
+      "英語版は royal retinue。日本語版（書籍 p.78）の「王家の衛兵」は、同じウォースクロールの『王家の近衛』で指定する「王家の近衛」と表記が違う。同じユニットを指す。"
+     ]
     }
    ],
    "terrain": [],
@@ -690,7 +732,7 @@
        "fix": []
       },
       "effect": {
-       "ja": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。",
+       "ja": "このユニットを対象とするメレーアタックのセーブロールで修正前の出目1が出るたびに、その『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。",
        "en": "Each time you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.",
        "fix": []
       }
@@ -727,7 +769,7 @@
        "fix": []
       },
       "effect": {
-       "ja": "このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**マグマドロスの顎、鉤爪、角**の【攻撃回数】は4になる。",
+       "ja": "このユニットが10ポイント以上のダメージを受けている場合、自身が装備している**マグマドロスの顎、鉤爪、角**の【攻撃回数】は4になる。",
        "en": "While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Maw, Claws and Horns** is 4.",
        "fix": []
       }
@@ -764,9 +806,14 @@
        "fix": []
       },
       "effect": {
-       "ja": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットのセーブロールは-1の修正を受ける。",
+       "ja": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットの加護ロールは-1の修正を受ける。",
        "en": "Roll a dice. On a 3+, subtract 1 from save rolls for the target for the rest of the turn.",
-       "fix": []
+       "fix": [
+        [
+         "加護ロール",
+         "セーブロール"
+        ]
+       ]
       }
      },
      "own": false,
@@ -774,11 +821,13 @@
      "kw_en": "Rampage",
      "cast": null,
      "cp": null,
-     "note": []
+     "note": [
+      "英語版は save rolls（セーブロール）。日本語版（書籍 p.76）の「加護ロール」は誤り（陣営パック ファイアスレイヤー 2026年8月の日本語版は「セーブロール」）。"
+     ]
     },
     {
      "name": {
-      "ja": "ロッジの主",
+      "ja": "戦士王",
       "en": "Warrior-Kings",
       "own": false,
       "fix": [],
@@ -786,20 +835,29 @@
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Battle (Army), Your Combat Phase"
+       "ja": "バトル中1回限り（アーミー）、自軍側近接フェイズ",
+       "en": "Once Per Battle (Army), Your Combat Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "For the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **GRIMMDRON** units while they are wholly within 12\" of this unit.\n\nIf this unit has any **grudge marks**, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by the following visible friendly units while they are wholly within 12\" of this unit instead:\n• **GRIMMDRON** units\n• **KROMDRON INFANTRY** units"
+       "ja": "このターン中、このユニットの12mv以内に全体が入っている味方**グリムドロン**・ユニットが使用する近接武器は【攻撃回数】に+1の修正を受ける。\nこのユニットが**宿怨マーク**を1個でも持つ場合、このターン中、代わりにこのユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である下記のユニットの近接武器は【攻撃回数】に+1の修正を受ける。\n• **グリムドロン**・ユニット\n• **クロムドロン・歩兵**・ユニット",
+       "en": "For the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **GRIMMDRON** units while they are wholly within 12\" of this unit.\n\nIf this unit has any **grudge marks**, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by the following visible friendly units while they are wholly within 12\" of this unit instead:\n• **GRIMMDRON** units\n• **KROMDRON INFANTRY** units",
+       "fix": [
+        [
+         "視認状態である下記のユニットの近接武器",
+         "視認状態である下記の味方ユニットの近接武器"
+        ]
+       ]
       }
      },
      "own": false,
@@ -807,7 +865,9 @@
      "kw_en": "",
      "cast": null,
      "cp": null,
-     "note": []
+     "note": [
+      "英語版は「味方（friendly）」ユニット。日本語版（書籍 p.76）の第2段落は「味方」が抜けている。"
+     ]
     }
    ],
    "terrain": [],
@@ -1087,28 +1147,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Righteous Wrath",
-      "en": "",
+      "ja": "義憤",
+      "en": "Righteous Wrath",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Add 1 to chanting rolls for this unit while it has any **grudge marks**."
+       "ja": "このユニットが**宿怨マーク**を1個でも持つ間、このユニットは祈願ロールに+1の修正を受ける。",
+       "en": "Add 1 to chanting rolls for this unit while it has any **grudge marks**.",
+       "fix": []
       }
      },
      "own": false,
@@ -1120,28 +1184,32 @@
     },
     {
      "name": {
-      "ja": "Magmic Passage",
-      "en": "",
+      "ja": "マグマの掘削",
+      "en": "Magmic Passage",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Your Movement Phase"
+       "ja": "各ターンにつき1回（アーミー）、自軍側移動フェイズ",
+       "en": "Once Per Turn (Army), Your Movement Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick a visible friendly **GRIMMDRON INFANTRY** unit wholly within 12\" of this unit to be the target."
+       "ja": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**グリムドロン・歩兵**・ユニットを1個選択する。",
+       "en": "Pick a visible friendly **GRIMMDRON INFANTRY** unit wholly within 12\" of this unit to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Roll a dice. On a 3+, add 2\" to the target’s Move characteristic until the start of your next turn."
+       "ja": "ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された味方ユニットは【移動力】に+2mvの修正を受ける。",
+       "en": "Roll a dice. On a 3+, add 2\" to the target’s Move characteristic until the start of your next turn.",
+       "fix": []
       }
      },
      "own": false,
@@ -1276,8 +1344,8 @@
      "abil_en": []
     },
     {
-     "ja": "Magmadroth’s Maw, Claws and Horns（戦傷時）",
-     "en": "",
+     "ja": "マグマドロスの顎、鉤爪、角（戦傷時）",
+     "en": "Magmadroth’s Maw, Claws and Horns (battle damaged)",
      "own": false,
      "fix": [],
      "note": [],
@@ -1307,20 +1375,24 @@
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Maw, Claws and Horns** is 4."
+       "ja": "このユニットが10ポイント以上のダメージを受けている場合、自身が装備している**マグマドロスの顎、鉤爪、角**の【攻撃回数】は4になる。",
+       "en": "While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Maw, Claws and Horns** is 4.",
+       "fix": []
       }
      },
      "own": false,
@@ -1355,7 +1427,7 @@
        "fix": []
       },
       "effect": {
-       "ja": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。",
+       "ja": "このユニットを対象とするメレーアタックのセーブロールで修正前の出目1が出るたびに、その『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。",
        "en": "Each time you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.",
        "fix": []
       }
@@ -1377,20 +1449,24 @@
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Your Hero Phase"
+       "ja": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+       "en": "Once Per Turn (Army), Your Hero Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick a visible friendly **GRIMMDRON** unit wholly within 12\" of this unit to be the target. If this unit has any **grudge marks**, pick a visible friendly **KHAZALITE HOLDS** unit wholly within 12\" of this unit to be the target instead."
+       "ja": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**グリムドロン**・ユニットを1個選択する。このユニットが**宿怨マーク**を1個でも持つ場合、代わりにこのユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**カザライト・ホールド**・ユニットを1個選択する。",
+       "en": "Pick a visible friendly **GRIMMDRON** unit wholly within 12\" of this unit to be the target. If this unit has any **grudge marks**, pick a visible friendly **KHAZALITE HOLDS** unit wholly within 12\" of this unit to be the target instead.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Roll a dice. On a 3+, add 1 to wound rolls for the target’s combat attacks for the rest of the turn."
+       "ja": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された味方ユニットのメレーアタックはウーンズロールに+1の修正を受ける。",
+       "en": "Roll a dice. On a 3+, add 1 to wound rolls for the target’s combat attacks for the rest of the turn.",
+       "fix": []
       }
      },
      "own": false,
@@ -1553,20 +1629,24 @@
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Add 1 to charge rolls for visible friendly **KHAZALITE HOLDS INFANTRY** units while they are wholly within 12\" of this unit. While this unit has any **grudge marks**, add 2 to charge rolls for visible friendly **KHAZALITE HOLDS INFANTRY** units while they are wholly within 12\" of this unit instead."
+       "ja": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**カザライト・ホールド・歩兵**・ユニットは、突撃ロールに+1の修正を受ける。このユニットが**宿怨マーク**を1個でも持つ場合、代わりにこのユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**カザライト・ホールド・歩兵**・ユニットは、突撃ロールに+2の修正を受ける。",
+       "en": "Add 1 to charge rolls for visible friendly **KHAZALITE HOLDS INFANTRY** units while they are wholly within 12\" of this unit. While this unit has any **grudge marks**, add 2 to charge rolls for visible friendly **KHAZALITE HOLDS INFANTRY** units while they are wholly within 12\" of this unit instead.",
+       "fix": []
       }
      },
      "own": false,
@@ -1586,20 +1666,29 @@
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Reaction: You declared a **FIGHT** ability for this unit or a non-**HERO GRIMMDRON INFANTRY** unit within 3\" of this unit"
+       "ja": "リアクション：このユニットもしくは、このユニットの3mv以内に一部でも入っている英雄でない味方グリムドロン・歩兵・ユニットが『近接攻撃』アビリティを宣言",
+       "en": "Reaction: You declared a **FIGHT** ability for this unit or a non-**HERO GRIMMDRON INFANTRY** unit within 3\" of this unit",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "If you declared a **FIGHT** ability for this unit, pick a friendly non-**HERO GRIMMDRON INFANTRY** unit that has not used a **FIGHT** ability this turn, is within this unit’s combat range and is visible to this unit to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.\n\nIf you declared a **FIGHT** ability for a friendly non-**HERO GRIMMDRON INFANTRY** unit, if this unit has not used a **FIGHT** ability this turn, it can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by the friendly non-**HERO GRIMMDRON INFANTRY** unit has been resolved. If it is picked to do so, add 1 to hit rolls for this unit’s attacks for the rest of the turn.\n\n**Designer’s Note**: *This ability lets another friendly unit fight immediately after this unit or lets this unit fight immediately after that other friendly unit. Add 1 to hit rolls for whichever of those two units fights after the first.*"
+       "ja": "このユニットが『**近接攻撃**』アビリティを宣言した場合、このユニットの近接範囲内に一部でも入っており、かつこのユニットから視認状態である、このターン中に『**近接攻撃**』アビリティを使用していない英雄でない**グリムドロン・歩兵**・ユニットを1個選択する。このユニットの『**近接攻撃**』アビリティが解決された直後に、選択された味方ユニットはただちに『**近接攻撃**』アビリティを使用できる。その味方ユニットが『近接攻撃』アビリティを使用した場合、そのターン中、その味方ユニットの攻撃はヒットロールに+1の修正を受ける。\n英雄でない味方**グリムドロン・歩兵**・ユニットが『**近接攻撃**』アビリティを宣言した場合、このユニットがこのターン中に『**近接攻撃**』アビリティを使用していなければ、その英雄でない味方**グリムドロン・歩兵**・ユニットが使用した『**近接攻撃**』アビリティを解決した直後に、このユニットはただちに『**近接攻撃**』アビリティを使用できる。このユニットが『近接攻撃』アビリティを使用した場合、そのターン中、このユニットの攻撃はヒットロールに+1の修正を受ける。\nデザイナーズノート：このアビリティによって、このユニットが近接攻撃を実行した直後に、他の味方ユニットが近接攻撃できるようになる。あるいは他の味方ユニットが近接攻撃を実行した直後に、このユニットが近接攻撃できるようになる。これら2つのユニットのうち、後から近接攻撃をする方のヒットロールは+1の修正を受ける。",
+       "en": "If you declared a **FIGHT** ability for this unit, pick a friendly non-**HERO GRIMMDRON INFANTRY** unit that has not used a **FIGHT** ability this turn, is within this unit’s combat range and is visible to this unit to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.\n\nIf you declared a **FIGHT** ability for a friendly non-**HERO GRIMMDRON INFANTRY** unit, if this unit has not used a **FIGHT** ability this turn, it can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by the friendly non-**HERO GRIMMDRON INFANTRY** unit has been resolved. If it is picked to do so, add 1 to hit rolls for this unit’s attacks for the rest of the turn.\n\n**Designer’s Note**: *This ability lets another friendly unit fight immediately after this unit or lets this unit fight immediately after that other friendly unit. Add 1 to hit rolls for whichever of those two units fights after the first.*",
+       "fix": [
+        [
+         "使用していない英雄でない**グリムドロン・歩兵**・ユニット",
+         "使用していない英雄でない味方**グリムドロン・歩兵**・ユニット"
+        ]
+       ]
       }
      },
      "own": false,
@@ -1607,7 +1696,9 @@
      "kw_en": "",
      "cast": null,
      "cp": null,
-     "note": []
+     "note": [
+      "英語版は「味方（friendly）」ユニット。日本語版（書籍 p.78）は「味方」が抜けている（直後の文は「選択された味方ユニット」）。"
+     ]
     }
    ],
    "terrain": [],
@@ -1714,8 +1805,8 @@
    ],
    "melee": [
     {
-     "ja": "Magmadroth’s Maw, Claws and Horns（戦傷時）",
-     "en": "",
+     "ja": "マグマドロスの顎、鉤爪、角（戦傷時）",
+     "en": "Magmadroth’s Maw, Claws and Horns (battle damaged)",
      "own": false,
      "fix": [],
      "note": [],
@@ -1780,7 +1871,7 @@
        "fix": []
       },
       "effect": {
-       "ja": "このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。",
+       "ja": "このユニットを対象とするメレーアタックのセーブロールで修正前の出目1が出るたびに、その『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。",
        "en": "Each time you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved.",
        "fix": []
       }
@@ -1794,32 +1885,36 @@
     },
     {
      "name": {
-      "ja": "Calamitous Crash",
-      "en": "",
+      "ja": "崩壊撃",
+      "en": "Calamitous Crash",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Any Combat Phase"
+       "ja": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+       "en": "Once Per Turn (Army), Any Combat Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick an enemy unit in combat with this unit to be the target."
+       "ja": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+       "en": "Pick an enemy unit in combat with this unit to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Roll a dice. On a 3+, roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on that unit."
+       "ja": "ダイスを1個ロールする。ロール結果が3+であれば、選択された敵ユニット内にいる各兵に対して、それぞれダイスを1個ロールする。ロール結果で5+が出るたびに、その敵ユニットは1ポイントの致命的ダメージを受ける。",
+       "en": "Roll a dice. On a 3+, roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on that unit.",
+       "fix": []
       }
      },
      "own": false,
-     "kw_ja": "",
+     "kw_ja": "蹂躙",
      "kw_en": "Rampage",
      "cast": null,
      "cp": null,
@@ -1827,28 +1922,37 @@
     },
     {
      "name": {
-      "ja": "Packdroth",
-      "en": "",
+      "ja": "輸送ドロス",
+      "en": "Packdroth",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Reaction: You declared a **MOVE** ability for this unit in your movement phase"
+       "ja": "各ターンにつき1回（アーミー）、リアクション：自軍側移動フェイズ中、このユニットが『移動』アビリティを宣言",
+       "en": "Once Per Turn (Army), Reaction: You declared a **MOVE** ability for this unit in your movement phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Pick a visible friendly **GRIMMDRON INFANTRY** unit that is wholly within 6\" of this unit, is not in combat and has not been set up this turn to be the target. Remove the target from the battlefield. After this unit ends its move, you must set up the target wholly within 6\" of this unit and not in combat. Unless this unit has any **grudge marks**, the target cannot use **CHARGE** abilities for the rest of the turn."
+       "ja": "このユニットの6mv以内に全体が入っており、かつターン中に配置されたばかりではない、このユニットから視認状態である近接戦闘中ではない味方**グリムドロン・歩兵**・ユニットを1個選択する。選択された味方ユニットを戦場から取り除く。このユニットが移動を完了した直後に、このユニットの6mv以内に全体が入るように、かつ近接戦闘に突入しないように、選択された味方ユニットを配置しなければならない。このユニットが**宿怨マーク**を持たない場合、そのターン中、選択された味方ユニットは『**突撃**』アビリティを使用できない。",
+       "en": "Pick a visible friendly **GRIMMDRON INFANTRY** unit that is wholly within 6\" of this unit, is not in combat and has not been set up this turn to be the target. Remove the target from the battlefield. After this unit ends its move, you must set up the target wholly within 6\" of this unit and not in combat. Unless this unit has any **grudge marks**, the target cannot use **CHARGE** abilities for the rest of the turn.",
+       "fix": [
+        [
+         "かつターン中に配置されたばかりではない",
+         "かつこのターン中に配置されたばかりではない"
+        ]
+       ]
       }
      },
      "own": false,
@@ -1856,7 +1960,9 @@
      "kw_en": "",
      "cast": null,
      "cp": null,
-     "note": []
+     "note": [
+      "英語版は「このターン中（this turn）」。日本語版（書籍 p.77）は「この」が抜けている（軽微）。"
+     ]
     },
     {
      "name": {
@@ -1868,20 +1974,24 @@
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Maw, Claws and Horns** is 4."
+       "ja": "このユニットが10ポイント以上のダメージを受けている場合、自身が装備している**マグマドロスの顎、鉤爪、角**の【攻撃回数】は4になる。",
+       "en": "While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Maw, Claws and Horns** is 4.",
+       "fix": []
       }
      },
      "own": false,
@@ -2284,7 +2394,7 @@
   {
    "id": "86da6e46-d5a4-4e7f-9a47-af026f2d169d",
    "name": {
-    "ja": "グリムホールド・エグザイル",
+    "ja": "グリムホールドの放浪者",
     "en": "Grimhold Exile",
     "own": false,
     "fix": [],
@@ -2335,7 +2445,9 @@
       "2",
       "2"
      ],
-     "abil_ja": [],
+     "abil_ja": [
+      "突撃（+1ダメージ量）"
+     ],
      "abil_en": [
       "Charge (+1 Damage)"
      ]
@@ -2344,28 +2456,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Wrathful Wanderer",
-      "en": "",
+      "ja": "怒れる放浪者",
+      "en": "Wrathful Wanderer",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Battle (Army), Deployment Phase"
+       "ja": "バトル中1回限り（アーミー）、初期配置フェイズ",
+       "en": "Once Per Battle (Army), Deployment Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Remove this unit from the battlefield, then set it up again on the battlefield wholly within 6\" of a battlefield edge and more than 9\" from all enemy units."
+       "ja": "このユニットを戦場から取り除き、戦場端から6mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた戦場の位置に再配置する。",
+       "en": "Remove this unit from the battlefield, then set it up again on the battlefield wholly within 6\" of a battlefield edge and more than 9\" from all enemy units.",
+       "fix": []
       }
      },
      "own": false,
@@ -2377,28 +2493,32 @@
     },
     {
      "name": {
-      "ja": "Alone But Never Outnumbered",
-      "en": "",
+      "ja": "孤独なれど劣勢ならず",
+      "en": "Alone But Never Outnumbered",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "This unit has **STRIKE-FIRST** while there are no other friendly units within 6\" of it."
+       "ja": "他の味方ユニットがこのユニットの6mv以内に一部でも入っていない間、このユニットは『**先手効果**』を得る。",
+       "en": "This unit has **STRIKE-FIRST** while there are no other friendly units within 6\" of it.",
+       "fix": []
       }
      },
      "own": false,
@@ -2410,28 +2530,32 @@
     },
     {
      "name": {
-      "ja": "Relentless Wrath",
-      "en": "",
+      "ja": "苛烈なる憤怒",
+      "en": "Relentless Wrath",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Enemy Movement Phase"
+       "ja": "各ターンにつき1回（アーミー）、敵軍側移動フェイズ",
+       "en": "Once Per Turn (Army), Enemy Movement Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "If this unit has any **grudge marks** and is not in combat, it can move D6\". It can move through the combat ranges of enemy units but cannot end that move in combat and cannot end that move any further from the closest enemy unit."
+       "ja": "このユニットが**宿怨マーク**を1個でも持ち、かつ近接戦闘中ではない場合、このユニットはD6mv移動できる。その移動中、このユニットは敵ユニットの近接範囲内を通り抜けることができるが、近接戦闘に突入するように移動を完了することはできない。また、自身に最も近い敵ユニットから離れるように移動を完了することもできない。",
+       "en": "If this unit has any **grudge marks** and is not in combat, it can move D6\". It can move through the combat ranges of enemy units but cannot end that move in combat and cannot end that move any further from the closest enemy unit.",
+       "fix": []
       }
      },
      "own": false,
@@ -2694,8 +2818,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Broadaxe or Flamestrike Poleaxe",
-     "en": "",
+     "ja": "幅広斧または焔撃の長柄斧",
+     "en": "Broadaxe or Flamestrike Poleaxe",
      "own": false,
      "fix": [],
      "note": [],
@@ -2721,20 +2845,24 @@
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "While any friendly **GRIMMDRON INFANTRY HEROES** are wholly within this unit’s combat range, both this unit and those friendly units have **WARD (5+)**."
+       "ja": "1個以上の味方**グリムドロン・歩兵・英雄**が、このユニットの近接範囲内に全体が入っている間、このユニットとその味方ユニットは**加護（5+）**を持つ。",
+       "en": "While any friendly **GRIMMDRON INFANTRY HEROES** are wholly within this unit’s combat range, both this unit and those friendly units have **WARD (5+)**.",
+       "fix": []
       }
      },
      "own": false,
@@ -2746,28 +2874,32 @@
     },
     {
      "name": {
-      "ja": "Fury Of Grimnir",
-      "en": "",
+      "ja": "グリムニルの怒り",
+      "en": "Fury Of Grimnir",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Enemy Movement Phase"
+       "ja": "各ターンにつき1回（アーミー）、敵軍側移動フェイズ",
+       "en": "Once Per Turn (Army), Enemy Movement Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "If this unit has any **grudge marks** and is not in combat, it can move D6\". It can move through the combat ranges of enemy units but cannot end that move in combat and cannot end that move any further from the closest enemy unit."
+       "ja": "このユニットが**宿怨マーク**を1個でも持ち、かつ近接戦闘中ではない場合、このユニットはD6mv移動できる。その移動中、このユニットは敵ユニットの近接範囲内を通り抜けることができるが、近接戦闘に突入するように移動を完了することはできない。また、自身に最も近い敵ユニットから離れるように移動を完了することもできない。",
+       "en": "If this unit has any **grudge marks** and is not in combat, it can move D6\". It can move through the combat ranges of enemy units but cannot end that move in combat and cannot end that move any further from the closest enemy unit.",
+       "fix": []
       }
      },
      "own": false,
@@ -2856,8 +2988,8 @@
    "ranged": [],
    "melee": [
     {
-     "ja": "Ormyr's Double-bladed Axe and Punchblade",
-     "en": "",
+     "ja": "オーミルの両刃斧と小刀",
+     "en": "Ormyr's Double-bladed Axe and Punchblade",
      "own": false,
      "fix": [],
      "note": [],
@@ -2876,8 +3008,8 @@
      ]
     },
     {
-     "ja": "Ashtongue's Maw and Claws",
-     "en": "",
+     "ja": "アッシュタンの顎と鉤爪",
+     "en": "Ashtongue's Maw and Claws",
      "own": false,
      "fix": [],
      "note": [],
@@ -2901,28 +3033,32 @@
    "abilities": [
     {
      "name": {
-      "ja": "Vulcatrix's Fury",
-      "en": "",
+      "ja": "ヴァルカトリックスの憤怒",
+      "en": "Vulcatrix's Fury",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "While this unit has any **grudge marks**, add 1 to the Attacks characteristic of **Companion** weapons used by visible friendly **KHAZALITE HOLDS** units while they are wholly within 12\" of this unit."
+       "ja": "このユニットが**宿怨マーク**を1個でも持つ間、このユニットの12mv以内に全体が入っており、かつ視認状態である味方**カザライト・ホールド**・ユニットが使用する**随行者**武器は【攻撃回数】に+1の修正を受ける。",
+       "en": "While this unit has any **grudge marks**, add 1 to the Attacks characteristic of **Companion** weapons used by visible friendly **KHAZALITE HOLDS** units while they are wholly within 12\" of this unit.",
+       "fix": []
       }
      },
      "own": false,
@@ -2934,28 +3070,37 @@
     },
     {
      "name": {
-      "ja": "Drothmaster At Heart",
-      "en": "",
+      "ja": "天性のドロス遣い",
+      "en": "Drothmaster At Heart",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Your Hero Phase"
+       "ja": "自軍側ヒーローフェイズ",
+       "en": "Your Hero Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick a visible friendly **Vulkyn Flameseekers** or **GRIMMDRON MONSTER** unit wholly within 12\" of this unit to be the target."
+       "ja": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**ヴルキン・フレイムシーカー**または**グリムドロン・大型獣**・ユニットを1個選択する。",
+       "en": "Pick a visible friendly **Vulkyn Flameseekers** or **GRIMMDRON MONSTER** unit wholly within 12\" of this unit to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Pick 1 of the following effects:\n• If you picked a friendly **Vulkyn Flameseekers** unit to be the target, until the start of your next turn, ignore negative modifiers to hit rolls and wound rolls for the target’s combat attacks and ignore negative modifiers to the target’s control score.\n\n• If you picked a friendly **GRIMMDRON MONSTER** unit to be the target, add 1 to hit rolls for attacks made with the target’s **Companion** weapons until the start of your next turn."
+       "ja": "以下の効果から1つを選択する、\n• 選択したのが味方**ヴルキン・フレイムシーカー**の場合、次の自軍側ターン開始時まで、その味方ユニットのメレーアタックにおけるヒットロールとウーンズロールへのマイナス修正と、確保スコアに対するマイナス修正を無視する。\n• 選択したのが味方**グリムドロン・大型獣**の場合、次の自軍側ターン開始時まで、その味方ユニットの**随行者**武器による攻撃はヒットロールに+1の修正を受ける。",
+       "en": "Pick 1 of the following effects:\n• If you picked a friendly **Vulkyn Flameseekers** unit to be the target, until the start of your next turn, ignore negative modifiers to hit rolls and wound rolls for the target’s combat attacks and ignore negative modifiers to the target’s control score.\n\n• If you picked a friendly **GRIMMDRON MONSTER** unit to be the target, add 1 to hit rolls for attacks made with the target’s **Companion** weapons until the start of your next turn.",
+       "fix": [
+        [
+         "以下の効果から1つを選択する、",
+         "以下の効果から1つを選択する："
+        ]
+       ]
       }
      },
      "own": false,
@@ -2963,32 +3108,38 @@
      "kw_en": "",
      "cast": null,
      "cp": null,
-     "note": []
+     "note": [
+      "日本語版（書籍 p.75）は箇条書きの前の「：」が「、」になっている（誤植。ルール上の影響は無い）。"
+     ]
     },
     {
      "name": {
-      "ja": "Smoke And Ash",
-      "en": "",
+      "ja": "煙と灰",
+      "en": "Smoke And Ash",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Your Shooting Phase"
+       "ja": "自軍側遠隔フェイズ",
+       "en": "Your Shooting Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "If this unit contains **Ashtongue**, pick a visible enemy unit within 9\" of this unit to be the target."
+       "ja": "このユニット内に**アッシュタン**が含まれている場合、このユニットの9mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。",
+       "en": "If this unit contains **Ashtongue**, pick a visible enemy unit within 9\" of this unit to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Roll a dice. On a 3+, until the start of your next turn, units (friendly and enemy), terrain features and **MANIFESTATIONS** are not visible to the target while they are more than 6\" from it."
+       "ja": "ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された敵ユニットは、自身から6mvより遠く離れているユニット（敵味方問わず）、特殊地形、**顕現**を視認できない。",
+       "en": "Roll a dice. On a 3+, until the start of your next turn, units (friendly and enemy), terrain features and **MANIFESTATIONS** are not visible to the target while they are more than 6\" from it.",
+       "fix": []
       }
      },
      "own": false,
@@ -3002,8 +3153,8 @@
    "terrain": [],
    "keywords": [
     [
-     "Unique",
-     ""
+     "固有",
+     "Unique"
     ],
     [
      "英雄",
@@ -3041,7 +3192,7 @@
    ],
    "notes_en": "This **HERO** can join an eligible regiment as *Grimnir’s Chosen*.",
    "wargear": {
-    "ja": "",
+    "ja": "• オーミルは「オーミルの両刃斧と小刀」を装備している。\n• アッシュタンは「アッシュタンの顎と鉤爪」を装備している。",
     "en": "*• Ormyr is armed with Ormyr’s Double-bladed Axe and Punchblade.*\n*• Ashtongue is armed with Ashtongue’s Maw and Claws.*",
     "fix": []
    }
@@ -3534,8 +3685,8 @@
   {
    "id": "7d807066-7b68-4190-9dcf-385320ff6ceb",
    "name": {
-    "ja": "The Chosen Axes",
-    "en": "",
+    "ja": "選び抜かれし戦斧",
+    "en": "The Chosen Axes",
     "own": false,
     "fix": [],
     "note": []
@@ -3676,8 +3827,8 @@
    "terrain": [],
    "keywords": [
     [
-     "Unique",
-     ""
+     "固有",
+     "Unique"
     ],
     [
      "歩兵",
@@ -4085,28 +4236,41 @@
    "abilities": [
     {
      "name": {
-      "ja": "Blunt Their Horns and Fangs",
-      "en": "",
+      "ja": "奴らの角と爪を抑えろ！",
+      "en": "Blunt Their Horns and Fangs",
       "own": false,
       "fix": [],
       "note": []
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Passive"
+       "ja": "パッシブ",
+       "en": "Passive",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "While this unit has any **grudge marks**:\n• Subtract 2 from the Attacks characteristic of **Companion** melee weapons used by enemy **MONSTERS** while they are in combat with this unit.\n\n• Enemy **MONSTERS** cannot use **RAMPAGE** abilities while they are in combat with this unit."
+       "ja": "このユニットが**宿怨マーク**を1個でも持つ間、\n• 効果：このユニットと近接戦闘中である敵**大型獣**ユニットが使用する**随行者**近接武器は【攻撃回数】に-2の修正を受ける。\n• 効果：このユニットと近接戦闘中である敵**大型獣**は『**蹂躙**』アビリティを使用できない。",
+       "en": "While this unit has any **grudge marks**:\n• Subtract 2 from the Attacks characteristic of **Companion** melee weapons used by enemy **MONSTERS** while they are in combat with this unit.\n\n• Enemy **MONSTERS** cannot use **RAMPAGE** abilities while they are in combat with this unit.",
+       "fix": [
+        [
+         "効果：このユニットと近接戦闘中である敵**大型獣**ユニットが使用する",
+         "このユニットと近接戦闘中である敵**大型獣**ユニットが使用する"
+        ],
+        [
+         "効果：このユニットと近接戦闘中である敵**大型獣**は",
+         "このユニットと近接戦闘中である敵**大型獣**は"
+        ]
+       ]
       }
      },
      "own": false,
@@ -4114,11 +4278,13 @@
      "kw_en": "",
      "cast": null,
      "cp": null,
-     "note": []
+     "note": [
+      "日本語版（書籍 p.80）は箇条書きの各項目の先頭に「効果：」が紛れ込んでいる（英語版には無い。組版上の誤り）。"
+     ]
     },
     {
      "name": {
-      "ja": "怪獣使い",
+      "ja": "ドロス遣い",
       "en": "Drothmasters",
       "own": false,
       "fix": [],
@@ -4126,20 +4292,24 @@
      },
      "fields": {
       "timing": {
-       "ja": "",
-       "en": "Once Per Turn (Army), Any Combat Phase"
+       "ja": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+       "en": "Once Per Turn (Army), Any Combat Phase",
+       "fix": []
       },
       "used_by": {
        "ja": "",
-       "en": ""
+       "en": "",
+       "fix": []
       },
       "declare": {
-       "ja": "",
-       "en": "Pick an enemy **MONSTER** in combat with this unit to be the target."
+       "ja": "このユニットと近接戦闘中である敵**大型獣**を1体選択する。",
+       "en": "Pick an enemy **MONSTER** in combat with this unit to be the target.",
+       "fix": []
       },
       "effect": {
-       "ja": "",
-       "en": "Roll a dice. On a 3+, subtract 2 from the Damage characteristic of the target’s **COMPANION** melee weapons for the rest of the turn."
+       "ja": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵の**随行者**近接武器は【ダメージ量】に-2の修正を受ける。",
+       "en": "Roll a dice. On a 3+, subtract 2 from the Damage characteristic of the target’s **COMPANION** melee weapons for the rest of the turn.",
+       "fix": []
       }
      },
      "own": false,
@@ -4185,7 +4355,7 @@
    "regiment": [],
    "notes_en": "",
    "wargear": {
-    "ja": "",
+    "ja": "このユニット内の各兵は「ヴルキンの武器」を装備している。\n• 1/9の兵はキンドルドロスであり、その武器を「キンドルドロスの牙」に置き換える。\n• 豪傑はヴルキン・ルーンファーザーであり、その武器を置き換えることはできない。",
     "en": "***Each model in this unit is armed with Vulkyn Weapons.***\n\n• ***1/9 models is a Kyndledroth and must replace their weapons with Kyndledroth’s Fangs.***\n• ***The champion is a Vulkyn Runefather and cannot replace their weapons.***",
     "fix": []
    }

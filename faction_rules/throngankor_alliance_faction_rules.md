@@ -6,60 +6,60 @@
 ## 戦闘特性
 
 
-### Throngankor Alliance Battle Traits（出典: Army of Renown: Throngankor Alliance）
+### 戦闘特性(Throngankor Alliance Battle Traits)（出典: Army of Renown: Throngankor Alliance）
 
-- **Stone and Sky**（Once Per Turn (Army), Start of Battle Round）
-  - 宣言: Pick a friendly non-**HERO KHAZALITE HOLDS INFANTRY** unit and a friendly non-**HERO KHARADRON OVERLORDS INFANTRY** unit that are within ½" of each other to be the targets.
-  - 効果: For the rest of the battle round, while the targets are within ½" of each other: • The targets have the **STONE AND SKY** keyword. •Subtract 1 from wound rolls for attacks that target those friendly units.
-- **Transport Duardin**（Once Per Turn (Army), Reaction: You declared a **MOVE** ability for a friendly Skyvessel in your movement phase）
-  - 宣言: Pick a number of **THRONGANKOR ALLIANCE INFANTRY** units up to that **SKYVESSEL’S** Transport Capacity (see its warscroll) that are wholly within 6" of it, visible to it and not in combat to be the targets. Units that have been transported this turn cannot be targets.
-  - 効果: Remove the targets from the battlefield. After the **SKYVESSEL** ends its move, you must set up each target unit on the battlefield, wholly within 6" of that **SKYVESSEL** and not in combat. Those units have been transported. A unit cannot use **CHARGE** abilities if it was transported in the same turn. For this ability, treat that **SKYVESSEL’s** Transport Capacity as referring to **THRONGANKOR ALLIANCE** instead of **KHARADRON OVERLORDS**.
-- **Duardin Pride**（Passive）
-  - 効果: Add 10 to the control scores of friendly **THRONGANKOR ALLIANCE** units while they are wholly within 12" of and visible to any friendly **STONE AND SKY** units.
-- **The Vice**（Once Per Turn (Army), Any Combat Phase）
-  - 宣言: Pick a friendly non-**STONE AND SKY KHAZALITE HOLDS** unit and a friendly non-**STONE AND SKY KHARADRON OVERLORDS** unit that are in combat with the same enemy unit to be the friendly targets. Then, pick an enemy unit in combat with both friendly targets to be the enemy target.
-  - 効果: For the rest of the turn, the friendly targets’ melee weapons have **Crit (Mortal)** for combat attacks that target the enemy target.
-- **Hammer and Anvil**（Once Per Turn (Army), Your Shooting Phase）
-  - 宣言: Pick a friendly non-**STONE AND SKY THRONGANKOR ALLIANCE** unit that is in combat to be the **anvil**. Then, pick an enemy unit in combat with the **anvil** to be the **workpiece**. Finally, pick a friendly **THRONGANKOR ALLIANCE** unit that is not in combat and does not have the same faction keyword (i.e. **KHAZALITE HOLDS** or **KHARADRON OVERLORDS**) as the **anvil** to be the **hammer**.
-  - 効果: For the rest of the turn, the **hammer**’s ranged weapons have **Crit (2 Hits)** for shooting attacks that target the **workpiece**.
-- **Allied Grudgement**（Once Per Battle Round (Army), Reaction: Opponent declared a command for a unit within 12" of and visible to a **STONE AND SKY** unit in your army）
-  - 効果: Pick a friendly **THRONGANKOR ALLIANCE** unit and give it 1 **grudge mark**.
+- **石と空(Stone and Sky)**（各ターンにつき1回（アーミー）、バトルラウンドの開始時）
+  - 宣言: 互いの**1/2**mv以内に一部でも入っている、英雄でない味方**カザライト・ホールド・歩兵**・ユニット1個と、英雄でない味方カラドロン・オーヴァーロード・歩兵・ユニットを1個選択する。
+  - 効果: そのバトルラウンド中、選択された味方ユニットが互いの½mv以内に一部でも入っている間、 • 選択された味方ユニットは**石と空**のキーワードを持つ。 • 選択された味方ユニットを対象とする攻撃はウーンズロールに-1の修正を受ける。
+- **ドゥアーディンの輸送(Transport Duardin)**（各ターンにつき1回（アーミー）、リアクション：自軍側移動フェイズ中、味方飛行艦が『移動』アビリティを宣言）
+  - 宣言: その**飛行艦**の輸送枠に示される最大の数まで（ウォースクロール参照）、その飛行艦から視認状態かつ6mv以内に全体が入っており、近接戦闘中ではない味方**スロンガンコール連合軍・歩兵**・ユニットを任意の数選択する。このターン中、すでに輸送されたユニットは選択できない。このアビリティにおいて、その**飛行艦**の輸送枠は**カラドロン・オーヴァーロード**ではなく**スロンガンコール連合軍**を指している。
+  - 効果: 選択された味方ユニットを戦場から取り除く。その**飛行艦**が移動を完了した後に、その**飛行艦**の6mv以内に全体が入るように、かつ近接戦闘に突入しないように、戦場から取り除いた各味方ユニットを戦場に配置しなければならない。それらの味方ユニットは輸送されたものとみなされる。ユニットがターン中に輸送されていた場合、そのユニットは同じターン中に**『突撃』**アビリティを使用できない。
+- **ドゥアーディンの誇り(Duardin Pride)**（パッシブ）
+  - 効果: 1個以上の==味方==**石と空**・ユニットの12mv以内に全体が入っており、かつそのユニットから視認状態である味方**スロンガンコール連合軍**・ユニットは確保スコアに+10の修正を受ける。
+- **染みついたやり方(The Vice)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 宣言: 同一の敵ユニットと近接戦闘中である**石と空**でない味方**カザライト・ホールド**・ユニット1個と、**石と空**でない味方**カラドロン・オーヴァーロード**・ユニット1個を選択する。その後、選択された両方の味方ユニットと近接戦闘中である敵ユニットを1個選択する。
+  - 効果: そのターン中、==選択された==味方ユニットが装備している近接武器は、選択された敵ユニットを対象とするメレーアタックの際に**クリティカル（致命的）**を得る。
+- **鎚と鉄床(Hammer and Anvil)**（各ターンにつき1回（アーミー）、自軍側遠隔フェイズ）
+  - 宣言: 近接戦闘中である**石と空**でない味方**スロンガンコール連合軍**・ユニットを1個選択し、**鉄床**とする。次に、**鉄床**と近接戦闘中である敵ユニットを1個選択し、**材料**とする。最後に、近接戦闘中ではない味方**スロンガンコール連合軍**・ユニットのうち、**鉄床**と同一の陣営キーワード（つまり**カザライト・ホールド**や**カラドロン・オーヴァーロード**など）を持たないものを1個選択し、**鎚**とする。
+  - 効果: そのターン中、**材料**を対象とするレンジアタックにおいて、**鎚**の遠隔武器は**クリティカル（2ヒット）**を得る。
+- **同盟者の宿怨(Allied Grudgement)**（各バトルラウンドにつき1回（アーミー）、リアクション：味方石と空・ユニットの12mv以内に一部でも入っており、かつその石と空・ユニットから視認状態であるユニットに対して、敵軍側が指揮アビリティを宣言）
+  - 効果: 味方**スロンガンコール連合軍**・ユニットを1個選択し、**宿怨マーク**を1個与える。
 
 ## 英雄特性
 
 
-### Throngankor Alliance Heroic Trait（出典: Army of Renown: Throngankor Alliance）
+### 英雄特性(Throngankor Alliance Heroic Trait)（出典: Army of Renown: Throngankor Alliance）
 
-(**HERO** only)
+（**英雄**のみ）
 
-- **Stronger when Alloyed**（Passive）
-  - 効果: If this unit is a **KHAZALITE HOLDS** unit, add 2 to the Attacks characteristic of its melee weapons while it is within 3" of any visible friendly **KHARADRON OVERLORDS** units. If this unit is a **KHARADRON OVERLORDS** unit, add 2 to the Attacks characteristic of its melee weapons while it is within 3" of any visible friendly **KHAZALITE HOLDS** units.
+- **合金の強さ(Stronger when Alloyed)**（パッシブ）
+  - 効果: このユニットが**カザライト・ホールド**・ユニットであり、自身が味方**カラドロン・オーヴァーロード**・ユニットの3mv以内に一部でも入っており、かつ自身からそのユニットが視認状態である間、このユニットが装備している近接武器は【攻撃回数】に+2の修正を受ける。 ~~効果：~~このユニットが**カラドロン・オーヴァーロード**・ユニットであり、自身が味方**カザライト・ホールド**・ユニットの3mv以内に一部でも入って~~い~~==おり、かつ自身からそのユニットが視認状態であ==る間、このユニットが装備している近接武器は【攻撃回数】に+2の修正を受ける。
 
 ## 神器
 
 
-### Throngankor Alliance Artefact of Power（出典: Army of Renown: Throngankor Alliance）
+### 神器(Throngankor Alliance Artefact of Power)（出典: Army of Renown: Throngankor Alliance）
 
-(**HERO** only)
+（**英雄**のみ）
 
-- **Throngankor Flare**（Once Per Battle, Your Hero Phase / CP 1）
-  - 宣言: Pick a friendly non-**UNIQUE THRONGANKOR ALLIANCE INFANTRY** unit that has been destroyed to be the target.
-  - 効果: Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12" of this unit and more than 3" from all enemy units.
+- **スロンガンコールのフレア(Throngankor Flare)**（バトル中1回限り、自軍側ヒーローフェイズ / CP 1）
+  - 宣言: 全滅した固有でない味方**スロンガンコール連合軍・歩兵**・ユニットを1個選択する。
+  - 効果: このユニットの12mv以内に全体が入るように、かつあらゆる敵ユニットから3mvより遠く離れた位置に、選択された味方ユニットの兵数の半分（端数切り上げ）で構成された代替ユニットを1個配置する。
 
 ## 伝承（呪文・奇蹟・顕現）
 
 
-### Throngankor Alliance Prayer Lore
+### 奇蹟伝承(Throngankor Alliance Prayer Lore)
 
-- **Redeclaration of Alliance**（Your Hero Phase / 詠唱/詠誦値 5）
-  - 宣言: Pick a friendly **THRONGANKOR ALLIANCE PRIEST** to chant this prayer, then make a chanting roll of D6.
-  - 効果: Until the start of your next turn, subtract 1 from the Attacks characteristic of weapons used by visible enemy units while they are within 9" of this unit, in combat with any friendly **KHAZALITE HOLDS** units and in combat with any friendly **KHARADRON OVERLORDS** units. If the chanting roll was 10+, add 3" to the range of this ability.
+- **同盟の再宣言(Redeclaration of Alliance)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 5）
+  - 宣言: この奇蹟を祈願する際に、味方**スロンガンコール連合軍・神官**を1体選択した後、D6の祈願ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、味方**カザライト・ホールド**・ユニットと味方**カラドロン・オーヴァーロード**・ユニットの両方と近接戦闘中である敵ユニットで、このユニットの9mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットが装備している武器は、【攻撃回数】に-1の修正を受ける。祈願ロールが10+であった場合、このアビリティの範囲は+3mv拡大する。
 
-### Throngankor Alliance Spell Lore
+### 呪文伝承(Throngankor Alliance Spell Lore)
 
-- **Rune of Defence**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: Pick a friendly **THRONGANKOR ALLIANCE WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: Until the start of your next turn, while there is another visible friendly **KHAZALITE HOLDS** unit and a visible friendly **KHARADRON OVERLORDS** unit wholly within 12" of the caster, subtract 1 from hit rolls for attacks that target friendly **THRONGANKOR ALLIANCE** units wholly within 12" of the caster.
-- **Rune of Spirit**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: Pick a friendly **THRONGANKOR ALLIANCE WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: Until the start of your next turn, while there is another visible friendly **KHAZALITE HOLDS** unit and a visible friendly **KHARADRON OVERLORDS** unit wholly within 12" of the caster, add 2" to the Move characteristic of friendly **THRONGANKOR ALLIANCE** units while they are wholly within 12" of the caster.
+- **守勢のルーン(Rune of Defence)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: この呪文を詠唱する際に、味方**スロンガンコール連合軍・魔術師**を1体選択した後、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、他の味方**カザライト・ホールド**・ユニット1個と、~~他の~~味方**カラドロン・オーヴァーロード**・ユニット1個の両方が詠唱者の12mv以内に全体が入って~~い~~==おり、かつその詠唱者からそれぞれが視認状態であ==る間、その詠唱者の12mv以内に全体が入っている味方**スロンガンコール連合軍**・ユニットを対象とする攻撃は、ヒットロールに-1の修正を受ける。
+- **気力のルーン(Rune of Spirit)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: この呪文を詠唱する際に、味方**スロンガンコール連合軍・魔術師**を1体選択した後、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、他の味方**カザライト・ホールド**・ユニット1個と、~~他の~~味方**カラドロン・オーヴァーロード**・ユニット1個が詠唱者の12mv以内に全体が入っており、かつその詠唱者からそれぞれが視認状態である間、その詠唱者の12mv以内に全体が入っている味方**スロンガンコール連合軍**・ユニットは【移動力】に+2mvの修正を受ける。

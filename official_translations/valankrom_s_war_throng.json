@@ -1,10 +1,17 @@
 {
  "_faction": "Valankrom's War Throng（名高き軍勢。日本語名は資料なし）",
  "_source": [
-  "ユニット（ウォースクロール）の訳は official_translations/khazalite_holds.json から写した"
+  "ユニット（ウォースクロール）の訳は official_translations/khazalite_holds.json から写した",
+  "バトルトーム：カザライト・ホールド日本語版（スキャン）pp.106–107（名高き軍勢 ヴァランクロムの総軍）"
  ],
  "_notes": [
-  "名高き軍勢のルール本体（バトルトーム：カザライト・ホールド）の日本語版は手元に無いので、陣営ルール・faction_name は英語のまま。"
+  "名高き軍勢『ヴァランクロムの総軍』の陣営ルールと faction_name は書籍 pp.106–107 から（エラッタ 2026年11月に該当なし）。表題のルビは『総軍（ウォースロング）』。ルール冒頭・ロスター・オプション・背景文は md に出ないので載せない。",
+  "group_names は見出し『戦闘特性』『英雄特性』『神器』『呪文伝承』、group_texts は見出し下の『（英雄のみ）』（英雄が太字）。先例: lofnir_drothkeepers。",
+  "付与キーワード Valankrom's War Throng は『ヴァランクロムの総軍』（太字）。dump の keyword_names には引くキーが無い（lookups に無い）ので本文中だけ。keyword_names の Gholem は p.106 のロスター・オプション『任意のゴーレム・ユニット』（ゴーレムが太字）から。",
+  "太字: 『至高王ヴァランクロム』『敬意受ける衛兵』『過ち犯したる者』『宿怨マーク』『ヴァランクロムの総軍（・魔術師）』『加護（5+）』『先手効果』『ゴーレム』。Venerated Sentinels の宣言『そのヴァランクロム』、Hold Them to Account の宣言『その至高王ヴァランクロム』は太字でない（書籍どおり）。",
+  "Rune of Banishment の2つ目の括弧は書籍で半角っぽく詰まっているのを全角『（…）』に揃えた。",
+  "誤植メモ（背景文なので訳には出ない）: The Audacity! の背景文『手出ししようするのは』は『と』の脱字。",
+  "カザライト・ホールドのユニットの訳は khazalite_holds.json と同じ（書籍 pp.62–81 を反映）。"
  ],
  "unit_names": {
   "Clangunners with Thrundok Rifles": "クランガンナー（スランドック・ライフル装備）",
@@ -18,20 +25,81 @@
   "Runewright": "ルーンライト",
   "Stonebreaker Mortar": "ストーンブレーカー・モーター",
   "Thrynn": "スリン",
-  "Thrynn On War Throne": "スリン（ウォースローン騎乗）",
+  "Thrynn On War Throne": "スリン（ウォースローン搭乗）",
   "Valayan Guardians with Rune Axe and Shields": "ヴァラヤン・ガーディアン（ルーンアックス＆シールド装備）",
-  "Valayan Guardians with Runic Halberds": "ヴァラヤン・ガーディアン（ハルバード装備）"
+  "Valayan Guardians with Runic Halberds": "ヴァラヤン・ガーディアン（ルーンハルバード装備）"
  },
  "weapon_names": {
   "Clanshields|Kromdron Weapons": "クロムドロンの武器",
   "Gholems of Gazul|Gazulite Great Hammer": "ガズルの大鎚",
   "Hjulda Drakkblud|Azangrom": "アザングロム",
   "Oathkeeper Cannon|Oathkeeper Crew Tools": "オースキーパー砲手の道具",
-  "Oathkeeper Cannon|Oathkeeper Shot": "オースキーパー砲撃"
+  "Oathkeeper Cannon|Oathkeeper Shot": "オースキーパー砲撃",
+  "Clangunners with Thrundok Rifles|Rifle Butt": "ライフル銃床",
+  "Clangunners with Thrundok Rifles|Thrundok Rifle": "スランドック・ライフル",
+  "Clangunners with Thrundrin Shotcannons|Shotcannon Butt": "ショットキャノン銃床",
+  "Clangunners with Thrundrin Shotcannons|Thrundrin Shotcannon": "スランドリン・ショットキャノン",
+  "Gholems of Valaya|Valayan Great Axe": "ヴァラヤの大斧",
+  "High Kyng Valankrom|Bharadreng": "バラドレング",
+  "High Kyng Valankrom|Forge-spark Lightning": "ほとばしる炉の火花",
+  "High Kyng Valankrom|Karak War Council's Armoury": "カラク戦争評議会の武器",
+  "Runewright|Runic Forgehammers": "ルーンの鍛治鎚",
+  "Stonebreaker Mortar|Stonebreaker Crew Tools": "ストーンブレーカー砲手の道具",
+  "Stonebreaker Mortar|Stonebreaker Shot": "ストーンブレーカー砲撃",
+  "Thrynn On War Throne|Forge-spark Lightning": "ほとばしる炉の火花",
+  "Thrynn On War Throne|Karak War Council's Armoury": "カラク戦争評議会の武器",
+  "Thrynn On War Throne|Thrynn's Runeweapons": "スリンのルーン武器",
+  "Thrynn|Grudgehammer and Runic Axe": "グラッジハンマー＆ルーンアックス",
+  "Valayan Guardians with Rune Axe and Shields|Valayan Rune Axe": "ヴァラヤのルーンアックス",
+  "Valayan Guardians with Runic Halberds|Valayan Runic Halberd": "ヴァラヤのルーンハルバード"
  },
  "ability_names": {
   "Clanshields|Tough As Stone": "石のごとき頑健性",
-  "Oathkeeper Cannon|Oathkeeper Apprentice Runestriker": "オースキーパーの見習いルーン打ち"
+  "Oathkeeper Cannon|Oathkeeper Apprentice Runestriker": "オースキーパーの見習いルーン打ち",
+  "Venerated Sentinels": "敬意受ける衛兵",
+  "The Audacity!": "不遜なり！",
+  "Grudgebearing High Kyng": "宿怨抱く至高王",
+  "Remember Their Perfidy": "奴らの不実を忘れるな",
+  "Dreng Tromm!": "ドレング・トロム！",
+  "Hold Them to Account for Their Misdeeds": "悪行の報いを受けさせよ",
+  "Time for a Reckoning": "清算の時来たれり",
+  "Honour-Bound and Fearless": "誉れ高く恐れ知らず",
+  "Grombrindalian Pipe": "グロムブリンダルの煙管",
+  "Rune of Vigour": "活力のルーン",
+  "Rune of Upheaval": "激動のルーン",
+  "Rune of Banishment": "追放のルーン",
+  "Clangunners with Thrundok Rifles|Settled With A Bullet": "弾丸による解決",
+  "Clangunners with Thrundok Rifles|Thrundok Hail": "スランドックの雨霰",
+  "Clangunners with Thrundrin Shotcannons|Blasted And Dazed": "爆破による朦朧",
+  "Clangunners with Thrundrin Shotcannons|Grim Retaliation": "恐るべき報復",
+  "Clanshields|Remember Their Names": "名を記憶せよ",
+  "Gholems of Gazul|Armour-Crushing Swings": "鎧潰しの一振り",
+  "Gholems of Gazul|Runes of Gazul": "ガズルのルーン",
+  "Gholems of Valaya|Icons Of Valaya": "ヴァラヤの象徴",
+  "Gholems of Valaya|Shield Strike": "盾撃",
+  "High Kyng Valankrom|Battle Damaged": "バトルダメージ",
+  "High Kyng Valankrom|Defend The High Throne": "高座を守れ！",
+  "High Kyng Valankrom|High Kyng's War Council": "至高王御前戦争評議会",
+  "High Kyng Valankrom|Stirring The High Kyng's Ire": "至高王の沸き上がる憤怒",
+  "High Kyng Valankrom|Tide Of Stone": "石の大波",
+  "Hjulda Drakkblud|Book Of Fallen Holds": "失われし城塞の書",
+  "Hjulda Drakkblud|Last Of Her Clan": "氏族最後の生き残り",
+  "Hjulda Drakkblud|Talisman Of The Lost Karak": "失われし山都の護符",
+  "Oathkeeper Cannon|Artillerist's Revenge": "砲手の復讐",
+  "Runewright|Grudgement Of The Forge": "鍛冶場の宿怨",
+  "Runewright|Rhythmic Hammering": "リズミカルな打ち付け",
+  "Stonebreaker Mortar|Artillerist's Revenge": "砲手の復讐",
+  "Stonebreaker Mortar|Stonebreaker Apprentice Runestriker": "ストーンブレーカーの見習いルーン打ち",
+  "Thrynn On War Throne|Battle Damaged": "バトルダメージ",
+  "Thrynn On War Throne|Defend The Throne!": "玉座を守れ！",
+  "Thrynn On War Throne|Forge A Path": "道を切り拓け",
+  "Thrynn On War Throne|Karak War Council": "カラク戦争評議会",
+  "Thrynn On War Throne|Tectonic Impact": "大地の衝撃",
+  "Thrynn|Fight Shoulder To Shoulder": "肩を並べて戦え",
+  "Thrynn|Steadfast Retribution": "堅固なる報復",
+  "Valayan Guardians with Rune Axe and Shields|Protection Of Valaya": "ヴァラヤの守護",
+  "Valayan Guardians with Rune Axe and Shields|Shield Maidens": "盾の乙女",
+  "Valayan Guardians with Runic Halberds|Warriors Of The Hearth": "炉の戦士"
  },
  "keyword_names": {
   "Champion": "豪傑",
@@ -44,13 +112,243 @@
   "Order": "秩序の大同盟",
   "War Machine": "戦闘兵器",
   "Warmaster": "総大将",
-  "Wizard (1)": "魔術師（1）"
+  "Wizard (1)": "魔術師（1）",
+  "Gholem": "ゴーレム",
+  "Standard Bearer (1/10)": "旗手（1/10）",
+  "Unique": "固有",
+  "Valayan": "ヴァラヤン",
+  "Ward (4+)": "加護（4+）"
  },
  "weapon_ability_names": {
   "Anti-INFANTRY (+1 Rend)": "対歩兵（+1貫通値）",
   "Anti-MONSTER (+1 Rend)": "対大型獣（+1貫通値）",
   "Companion": "随行者",
   "Crit (2 Hits)": "クリティカル（2ヒット）",
-  "Crit (Mortal)": "クリティカル（致命的）"
- }
+  "Crit (Mortal)": "クリティカル（致命的）",
+  "Crit (Auto-wound)": "クリティカル（自動ウーンズ）"
+ },
+ "ability_texts": {
+  "Venerated Sentinels": {
+   "timing": "バトル中1回限り（アーミー）、初期配置フェイズ",
+   "declare": "味方**至高王ヴァランクロム**の3mv以内に一部でも入っており、かつそのヴァランクロムから視認状態である味方**ゴーレム**を1個選択し、**敬意受ける衛兵**とする。",
+   "effect": "以降バトル終了時まで、\n• 味方**敬意受ける衛兵**が味方**至高王ヴァランクロム**の近接範囲内に一部でも入っている間、それらのユニットはいずれも**加護（5+）**を持つ。\n• 味方**至高王ヴァランクロム**と近接戦闘中である敵ユニットを対象とする**敬意受ける衛兵**の攻撃は、ヒットロールに+1の修正を受ける。"
+  },
+  "The Audacity!": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン終了時",
+   "declare": "このターン中、アビリティを使用して味方**至高王ヴァランクロム**に1ポイントでもダメージを与えた各敵ユニットを選択する。",
+   "effect": "以降バトル終了時まで、選択された各敵ユニットは**過ち犯したる者**となる。"
+  },
+  "Grudgebearing High Kyng": {
+   "timing": "初期配置フェイズ",
+   "declare": "味方**至高王ヴァランクロム**から視認状態である敵ユニットを最大D3個まで選択する。",
+   "effect": "以降バトル終了時まで、選択された各敵ユニットは**過ち犯したる者**となる。"
+  },
+  "Remember Their Perfidy": {
+   "timing": "パッシブ",
+   "effect": "味方**ヴァランクロムの総軍**・ユニットは、敵**過ち犯したる者**と近接戦闘中である間、**宿怨マーク**を1個持つものとして扱われる。"
+  },
+  "Dreng Tromm!": {
+   "timing": "パッシブ",
+   "effect": "味方**至高王ヴァランクロム**が全滅した場合、このバトル中、味方**ヴァランクロムの総軍**・ユニットが装備している近接武器は【攻撃回数】に+1の修正を受ける。"
+  },
+  "Hold Them to Account for Their Misdeeds": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "declare": "味方**至高王ヴァランクロム**の12mv以内に一部でも入っており、かつその至高王ヴァランクロムから視認状態である敵ユニットを1個選択する。",
+   "effect": "以降バトル終了時まで、選択された敵ユニットは**過ち犯したる者**となる。"
+  },
+  "Time for a Reckoning": {
+   "timing": "バトル中1回限り（アーミー）、自軍側遠隔フェイズ",
+   "declare": "味方**ヴァランクロムの総軍**・ユニットを1個選択する。",
+   "effect": "そのフェイズ中、選択された味方ユニットは**宿怨マーク**を1個持つものとして扱われるが、自身のレンジアタックの対象として選択できるのは敵**過ち犯したる者**・ユニットだけである。"
+  },
+  "Honour-Bound and Fearless": {
+   "timing": "パッシブ",
+   "effect": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**ヴァランクロムの総軍**・ユニットは、突撃ロールに+1の修正を受ける。"
+  },
+  "Grombrindalian Pipe": {
+   "timing": "バトル中1回限り（アーミー）、任意の近接フェイズ",
+   "effect": "このターン中、このユニットは**『先手効果』**を得る。"
+  },
+  "Rune of Vigour": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**ヴァランクロムの総軍・魔術師**を1体選択した後、2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、詠唱者の12mv以内に全体が入っており、その詠唱者から視認状態である味方**ヴァランクロムの総軍**・ユニットは、【移動力】に+2mvの修正を受ける。",
+   "keywords": "呪文、無制限"
+  },
+  "Rune of Upheaval": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**ヴァランクロムの総軍・魔術師**を1体選択した後、2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、詠唱者の12mv以内に全体が入っており、かつその詠唱者から視認状態である敵ユニットが指揮アビリティを使用するたびに、リアクションとしてダイスを1個ロールする。ロール結果が6+であれば、その指揮アビリティは効果を発揮しない。指揮アビリティは依然として使用されたものとみなされ、その指揮アビリティを使用するために消費した指揮ポイントも失われる。",
+   "keywords": "呪文"
+  },
+  "Rune of Banishment": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "この呪文を詠唱する際に、味方**ヴァランクロムの総軍・魔術師**を1体選択した後、2D6の詠唱ロールをする。",
+   "effect": "次の自軍側ターン開始時まで、\n• このユニットの12mv以内に一部でも入っている敵ユニットは、詠唱ロール、祈願ロール、打ち消しロールに-1の修正を受ける。\n• このユニットの12mv以内に全体が入っている味方ユニットが追放ロールをする場合、用いられるダイスは1個加算される（ダイス個数は最大3個まで）。",
+   "keywords": "呪文"
+  },
+  "Clangunners with Thrundok Rifles|Settled With A Bullet": {
+   "timing": "パッシブ",
+   "effect": "このユニットが**宿怨マーク**を1個でも持つ間、このユニットのレンジアタックはウーンズロールに+1の修正を受ける。"
+  },
+  "Clangunners with Thrundok Rifles|Thrundok Hail": {
+   "timing": "各ターンにつき1回（アーミー）、任意の遠隔フェイズ",
+   "declare": "このターン中、このユニットのレンジアタックによって1ポイント以上のダメージを割り振られた敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。選択された敵ユニットが**騎兵**や**飛行**を持つ場合、ロールは+1の修正を受ける。その敵ユニットが**大型獣**を持つならば、ロールは代わりに+2の修正を受ける。ロール結果が4+であれば、次の自軍側ターン開始時まで、選択された敵ユニットの【移動力】は半減する。"
+  },
+  "Clangunners with Thrundrin Shotcannons|Blasted And Dazed": {
+   "timing": "各ターンにつき1回（アーミー）、任意の遠隔フェイズ",
+   "declare": "このターン中、このユニットのレンジアタックによって1ポイント以上のダメージを割り振られた敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。選択されたユニットが**飛行**を持たない場合、ロールは+1の修正を受ける。ロール結果が4+であれば、次の自軍側ターン開始時まで、選択された敵ユニットが用いる突撃ロールのダイス個数は1減少する（ダイス個数は最小1個まで）。"
+  },
+  "Clangunners with Thrundrin Shotcannons|Grim Retaliation": {
+   "timing": "パッシブ",
+   "effect": "このユニットが**宿怨マーク**を1個でも持つ間、このユニットが装備している遠隔武器は【攻撃回数】に+1の修正を受ける。"
+  },
+  "Clanshields|Remember Their Names": {
+   "timing": "パッシブ",
+   "effect": "このユニットが**宿怨マーク**を1個でも持つ間、このユニットの攻撃はウーンズロールに+1の修正を受ける。"
+  },
+  "Clanshields|Tough As Stone": {
+   "timing": "パッシブ",
+   "effect": "このユニット内のあらゆる兵が、自軍側が確保している作戦目標の3mv以内に一部でも入っている間、このユニットを対象とするメレーアタックに使用される武器は【貫通値】に-1の修正を受ける。"
+  },
+  "Gholems of Gazul|Armour-Crushing Swings": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中である敵ユニットを1個選択する。",
+   "effect": "対戦相手は、選択されたユニットが**避ける**か、避けないかを選択する。避ける場合、そのターン中、その敵ユニットの攻撃はヒットロールに-1の修正を受ける。\nその後、ダイスを1個ロールする。**避ける**ことを選んでいた場合、ロールは-1の修正を受ける。ロール結果が選択された敵ユニットの【防御力】以上であれば、そのターン中、その敵ユニットはセーブロールに-1の修正を受ける。"
+  },
+  "Gholems of Gazul|Runes of Gazul": {
+   "timing": "パッシブ",
+   "effect": "このユニットのメレーアタックによって与えられたダメージに対して、加護ロールは-1の修正を受ける。"
+  },
+  "Gholems of Valaya|Icons Of Valaya": {
+   "timing": "パッシブ",
+   "effect": "このユニットが全滅した場合、ユニットをゲームから取り除く前に、このユニットから視認状態である**ゴーレム**でない各味方**ヴァラヤン**・ユニットに、それぞれ**宿怨マーク**を1個与える。"
+  },
+  "Gholems of Valaya|Shield Strike": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットがこのターン中に突撃していた場合、自身の1mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットは『**後手効果**』を得る。"
+  },
+  "High Kyng Valankrom|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、自身の**カラク戦争評議会の武器**の【攻撃回数】は4になる。"
+  },
+  "High Kyng Valankrom|Defend The High Throne": {
+   "timing": "任意のターン開始時",
+   "declare": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である別の味方**カザライト・ホールド**・ユニットを1個選択する。このユニットが持つ**宿怨マーク**1個につき、自軍は条件に合う他のユニットを追加で1個選択してもよい。",
+   "effect": "そのターン中、選択された味方ユニットがこのユニットの6mv以内に全体が入っている間、選択された味方ユニットには以下の効果が適用される。このユニットが持つ**宿怨マーク**1個につき、効果範囲は3mv拡大する。\n• 選択された味方ユニットの近接武器は**対突撃（+1貫通値）**を得る。\n• 選択された味方ユニットが**宿怨マーク**を持っていない場合、**宿怨マーク**を1個持つものとしてカウントされる。"
+  },
+  "High Kyng Valankrom|High Kyng's War Council": {
+   "timing": "自軍側ヒーローフェイズ",
+   "effect": "以下の効果から1つを選択し、次の自軍側ターン開始時まで適用する。\n**石工の妨害：**このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。選択された敵ユニットの最大確保スコアは1になる。\n**宿怨保持者の非難：**このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**カザライト・ホールド**・ユニットは、現在のターン中に『**退却**』アビリティを使用していたとしても、そのターン中に『**突撃**』アビリティを使用できる。加えて、それらの味方ユニットは『**退却**』アビリティによる致命的ダメージを受けない。\n**城塞探しの導き：**このユニットの12mv以内に全体が入っている味方**カザライト・ホールド**・ユニットは、その詠唱ロール、祈願ロール、追放ロールに+1の修正を受ける。"
+  },
+  "High Kyng Valankrom|Stirring The High Kyng's Ire": {
+   "timing": "バトルラウンドの開始時",
+   "declare": "このバトル中に、このアビリティの対象として選択されたことがない、このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵**英雄**を1体選択する。",
+   "effect": "対戦相手は、その選択されたユニットが**告発を認める**か**告発を否定する**かを選択しなければならない。\n対戦相手が**告発を認める**場合、そのバトルラウンド中、その敵ユニットを対象とする味方**カザライト・ホールド**・ユニットのメレーアタックは、ヒットロールに+1の修正を受ける。\n対戦相手が**告発を否定する**場合、そのバトルラウンド中、その敵ユニットは指揮アビリティを使用できない。"
+  },
+  "High Kyng Valankrom|Tide Of Stone": {
+   "timing": "各ターンにつき1回（アーミー）、任意の移動フェイズ",
+   "effect": "このユニットはD6mv移動してもよい。あるいは自軍側移動フェイズ中であるならば、2D6mv移動してもよい。その移動中、他の兵や敵ユニットの近接範囲内を通り抜けることはできるが、近接戦闘に突入するように移動を完了することはできない。その後、このユニットがその移動中に通り抜けた敵ユニットを1個選択し、ダイスを1個ロールする。ロール結果が3+であれば、その敵ユニットはロール結果に等しい数の致命的ダメージを受ける。",
+   "keywords": "コア、移動"
+  },
+  "Hjulda Drakkblud|Book Of Fallen Holds": {
+   "timing": "バトル中1回限り（アーミー）、第1バトルラウンドの開始時",
+   "declare": "自軍はこのアビリティを使用しなければならない。敵ユニット1個を**宿怨の標的**として選択する。予備戦力として配置されている敵ユニットも選択できる。",
+   "effect": "以降バトル終了時まで、\n• **宿怨の標的**である敵ユニットが、このユニットから視認状態であり、かつこのユニットの12mv以内に全体が入っている間、このユニットの12mv以内に全体が入っている味方**カザライト・ホールド**・ユニットは突撃ロールをリロールできる。\n• **宿怨の標的**である敵ユニットが1個も戦場に配置されていない場合、このユニットの12mv以内に全体が入っている味方**カザライト・ホールド**・ユニットは確保スコアに+3の修正を受ける。"
+  },
+  "Hjulda Drakkblud|Last Of Her Clan": {
+   "timing": "自軍側ヒーローフェイズ",
+   "declare": "このユニットと、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である**英雄**でない他の味方**カザライト・ホールド**・ユニットを最大2個まで選択する。",
+   "effect": "このユニットが**宿怨マーク**を1個でも持つ場合、この効果は自動的に適用される。それ以外の場合、選択された各味方ユニットに対して、それぞれダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、各フェイズ中にその味方ユニットに割り振られる最初の1ポイントのダメージを無視する。"
+  },
+  "Hjulda Drakkblud|Talisman Of The Lost Karak": {
+   "timing": "パッシブ",
+   "effect": "このユニットが近接戦闘中である間、このユニットの3mv以内に一部でも入っており、かつこのユニットから視認状態である**英雄**でない味方**カザライト・ホールド・歩兵**・ユニットのメレーアタックは、ヒットロールに+1の修正を受ける。"
+  },
+  "Oathkeeper Cannon|Artillerist's Revenge": {
+   "timing": "パッシブ",
+   "effect": "このユニットが**宿怨マーク**を1個でも持つ間、このユニットが装備している遠隔武器は**クリティカル（2ヒット）**を得る。"
+  },
+  "Oathkeeper Cannon|Oathkeeper Apprentice Runestriker": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+   "declare": "このターン中、このユニットのレンジアタックによって1ポイント以上のダメージを割り振られた敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、効果を以下から1つ選ぶ、\n**粉砕のルーン：**次の自軍側ターン開始時まで、選択された敵ユニットが装備している近接武器は【貫通値】に-1の修正を受ける。\n**燃焼のルーン：**そのターン中、選択された敵ユニットを対象とするこのユニットのメレーアタックは、修正前の出目5+のヒットロールでクリティカルヒットする。\n**衝撃のルーン：**次の自軍側ターン開始時まで、選択された敵ユニットは『**後手効果**』を得る。"
+  },
+  "Runewright|Grudgement Of The Forge": {
+   "timing": "パッシブ",
+   "effect": "このユニットが**宿怨マーク**を1個でも持つ間、このユニットは打ち消しロール、追放ロール、リズミカルな打ち付けロールに+1の修正を受ける。"
+  },
+  "Runewright|Rhythmic Hammering": {
+   "timing": "リアクション：このユニットが『ルーンの残響』または『ルーンの共鳴』から呪文アビリティを宣言",
+   "effect": "その呪文の詠唱ロールが【詠唱値】以上である場合、2D6のリズミカルな打ち付けロールをする。\nリズミカルな打ち付けロールがその呪文の【詠唱値】を下回るならば、その呪文は失敗し、効果は解決されない。\nリズミカルな打ち付けロールが呪文の【詠唱値】以上である場合、その呪文の【射程】は3mv拡大する。自軍は【詠唱値】を下回るロールが出るまで、その呪文に対するリズミカルな打ち付けロールを繰り返してもよい。このアビリティの効果は累積する。"
+  },
+  "Stonebreaker Mortar|Artillerist's Revenge": {
+   "timing": "パッシブ",
+   "effect": "このユニットが**宿怨マーク**を1個でも持つ場間、このユニットが装備している遠隔武器は**クリティカル（2ヒット）**を得る。"
+  },
+  "Stonebreaker Mortar|Stonebreaker Apprentice Runestriker": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側遠隔フェイズ",
+   "declare": "このターン中、このユニットのレンジアタックによって1ポイント以上のダメージを割り振られた敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、効果を以下から1つ選ぶ、\n**爆発のルーン：**選択された敵ユニットの3mv以内に一部でも入っている他の各敵ユニットに対して、それぞれD3を1個ロールする。ロール結果が2+であれば、ロール対象の敵ユニットは、ロール結果と等しい数の致命的ダメージを受ける。\n**雷鳴のルーン：**次の自軍側ターン開始時まで、選択された敵ユニットの最大確保スコアは1になる。\n**地揺れのルーン：**次の自軍側ターン開始時まで、選択された敵ユニットは『**全力移動**』アビリティを使用できなくなる。"
+  },
+  "Thrynn On War Throne|Battle Damaged": {
+   "timing": "パッシブ",
+   "effect": "このユニットが10ポイント以上のダメージを受けている場合、自身の**カラク戦争評議会の武器**の【攻撃回数】は4になる。"
+  },
+  "Thrynn On War Throne|Defend The Throne!": {
+   "timing": "各ターンにつき1回（アーミー）、任意のターン開始時",
+   "declare": "このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である自身以外の味方**カザライト・ホールド**・ユニットを1個選択する。このユニットが持つ**宿怨マーク**1個につき、自軍は条件に合う別のユニットを追加で1個選択してもよい。",
+   "effect": "そのターン中、選択された味方ユニットがこのユニットの6mv以内に全体が入っている間、その味方ユニットが装備している近接武器は**対突撃（+1貫通値）**を得る。このユニットが持つ**宿怨マーク**1個につき、この効果範囲は+3mvずつ拡大する。"
+  },
+  "Thrynn On War Throne|Forge A Path": {
+   "timing": "各ターンにつき1回（アーミー）、リアクション：自軍側移動フェイズ中、このユニットが『移動』アビリティを宣言",
+   "effect": "このユニットの6mv以内に全体が入っており、かつこのユニットから視認状態であり、なおかつこのターン中に配置されたばかりでも近接戦闘中でもない味方**クロムドロン・歩兵**・ユニットを1個選択する。\n効果：選択された味方ユニットを戦場から取り除き、このユニットの移動が完了した直後に、自軍は選択された味方ユニットをこのユニットの6mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に再配置しなければならない。"
+  },
+  "Thrynn On War Throne|Karak War Council": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ",
+   "effect": "以下の効果から1つを選択し、次の自軍側ターン開始時まで適用する。\n**石工の抜け道：**このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**カザライト・ホールド・歩兵**・ユニットは、その【移動力】に+2mvの修正を受ける。加えて、それらの味方ユニットは『**退却**』アビリティによる致命的ダメージを受けない。\n**宿怨保持者の非難：**このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵**英雄**を1体選択する。選択された敵**英雄**を対象とする味方**カザライト・ホールド・歩兵**・ユニットのレンジアタックは、その敵**英雄**の『護られし英雄』アビリティの効果を無視することができる。\n**城塞探しの守り：**このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**カザライト・ホールド**・ユニットを1個選択する。ダイスを1個ロールする。ロール結果が3+であれば、選択された味方ユニットを対象とする攻撃の武器アビリティは効果を発揮しない（**随行者**武器アビリティは除く）。"
+  },
+  "Thrynn On War Throne|Tectonic Impact": {
+   "timing": "各ターンにつき1回（アーミー）、任意の突撃フェイズ",
+   "declare": "このユニットがこのターン中に突撃していた場合、自身の1mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。",
+   "effect": "ダイスを1個ロールする。ロール結果が3+であれば、選択された敵ユニットは、ロール結果に等しい数の致命的ダメージを受ける。"
+  },
+  "Thrynn|Fight Shoulder To Shoulder": {
+   "timing": "各ターンにつき1回（アーミー）、リアクション：このユニットか、もしくはこのユニットの3mv以内に全体が入っており、かつこのユニットから視認状態である英雄でない味方クロムドロン・歩兵・ユニットが『近接攻撃』アビリティを宣言",
+   "effect": "このユニットが『**近接攻撃**』アビリティを宣言した場合、このターン中に『**近接攻撃**』アビリティを使用しておらず、かつこのユニットの近接範囲内に一部でも入っており、なおかつこのユニットから視認状態である英雄でない味方**クロムドロン・歩兵**・ユニットを1個選択する。選択された味方ユニットは、このユニットによる『**近接攻撃**』アビリティを解決した直後に、『**近接攻撃**』アビリティを使用できる。その味方ユニットが『近接攻撃』アビリティを使用した場合、そのターン中、選択された味方ユニットの攻撃はヒットロールに+1の修正を受ける。\n**英雄**でない味方**クロムドロン・歩兵**・ユニットが『**近接攻撃**』アビリティを宣言したならば、このユニットがこのターン中に『**近接攻撃**』アビリティを使用していなければ、その**英雄**でない味方**クロムドロン・歩兵**・ユニットが『**近接攻撃**』アビリティを解決した直後に、このユニットは『**近接攻撃**』アビリティを使用できる。このユニットが『近接攻撃』アビリティを使用した場合、そのターン中、このユニットの攻撃はヒットロールに+1の修正を受ける。\n**デザイナーズノート：**このアビリティによって、このユニットが近接攻撃を実行した直後に、他の味方ユニットが近接攻撃できるようになる。あるいは他の味方ユニットが近接攻撃を実行した直後に、このユニットが近接攻撃できるようになる。これら2つのユニットのうち、後から近接攻撃をする方のヒットロールは+1の修正を受ける。"
+  },
+  "Thrynn|Steadfast Retribution": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "effect": "このユニットの6mv以内に全体が入っており、かつこのユニットから視認状態である**宿怨マーク**を1個でも持つ味方ユニット1個につき、このユニットが装備している近接武器は【攻撃回数】に+1の修正を受ける（最大+3）。"
+  },
+  "Valayan Guardians with Rune Axe and Shields|Protection Of Valaya": {
+   "timing": "パッシブ",
+   "effect": "このユニットが**宿怨マーク**を1個でも持つ間、このユニットの6mv以内に全体が入っており、かつこのユニットから視認状態である味方**カザライト・ホールド・歩兵**と**ゴーレム**でない味方**戦闘兵器**・ユニットは、**加護（5+）**を持つ。"
+  },
+  "Valayan Guardians with Rune Axe and Shields|Shield Maidens": {
+   "timing": "各ターンにつき1回（アーミー）、任意の近接フェイズ",
+   "declare": "このユニットと近接戦闘中であり、かつこのターン中に突撃していた敵ユニットを1個選択する。",
+   "effect": "このユニットと近接戦闘中である各敵兵に対し、それぞれダイスを1個ロールする。ロール結果で4+が出るたびに、選択された敵ユニットは1ポイントの致命的ダメージを受ける。"
+  },
+  "Valayan Guardians with Runic Halberds|Warriors Of The Hearth": {
+   "timing": "各ターンにつき1回（アーミー）、自軍側突撃フェイズ",
+   "declare": "このユニットがこのターン中に『**全力移動**』または『**退却**』アビリティも使用しておらず、かつ近接戦闘中ではない場合、2D6の突撃ロールをする。このユニットが**宿怨マーク**を1個でも持つ間、その突撃ロールをリロールできる。",
+   "effect": "このユニットは、突撃ロール結果に等しい数値の距離まで移動できる。その移動中、このユニットは敵ユニットの近接範囲内を通り抜けることができ、敵兵を乗り越えて通ることもできるが、自身から視認状態である敵ユニットの½mv以内に一部でも入るように移動を完了しなければならない。そうした場合、このユニットは突撃したものとみなされる。\nその後、このユニットがこのターン中に突撃していた場合、そのターン中に自身が通り抜けた敵ユニットを1個選択する。その敵ユニットはD3ポイントの致命的ダメージを受ける。",
+   "keywords": "コア、移動、突撃"
+  }
+ },
+ "group_names": {
+  "Valankrom's War Throng Battle Traits": "戦闘特性",
+  "Valankrom's War Throng Heroic Trait": "英雄特性",
+  "Valankrom's War Throng Artefacts of Power": "神器",
+  "Valankrom's War Throng Spell Lore": "呪文伝承"
+ },
+ "group_texts": {
+  "Valankrom's War Throng Heroic Trait": "（**英雄**のみ）",
+  "Valankrom's War Throng Artefacts of Power": "（**英雄**のみ）"
+ },
+ "faction_name": "ヴァランクロムの総軍"
 }

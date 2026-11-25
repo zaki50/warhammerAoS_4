@@ -1,4 +1,4 @@
-# Fyrd of Fyrepeak ファクションルール
+# ファイアピークの召集軍(Fyrd of Fyrepeak) ファクションルール
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.40.0 build 91 / dump.json data_version 499 / 抽出 2026-11-19
 
@@ -6,53 +6,53 @@
 ## 戦闘特性
 
 
-### Fyrd of Fryepeak Battle Traits（出典: Army of Renown: Fyrd of Fyrepeak）
+### 戦闘特性(Fyrd of Fryepeak Battle Traits)（出典: Army of Renown: Fyrd of Fyrepeak）
 
-- **Grimmdron Grudges**（Passive）
-  - 効果: Each time a friendly **FYRD OF FYREPEAK** unit destroys an enemy unit, give that friendly unit 1 **grudge mark**.
-- **Rune of Guarding**（Once Per Battle (Army), Any Hero Phase）
-  - 効果: You can only use this ability if you have not used any **UR-GOLD RUNE** abilities this battle round. For the rest of the battle round, ignore the first damage point that would be allocated to each friendly **FYRD OF FYREPEAK** unit in each phase.
-- **Rune of Fortune**（Once Per Battle (Army), Any Hero Phase）
-  - 効果: You can only use this ability if you have not used any **UR-GOLD RUNE** abilities this battle round. For the rest of the battle round, if the unmodified hit roll for a shooting attack that targets a friendly **FYRD OF FYREPEAK** unit is 1-4, the attack fails and the attack sequence ends.
-- **Rune of Speed**（Once Per Battle (Army), Any Hero Phase）
-  - 効果: You can only use this ability if you have not used any **UR-GOLD RUNE** abilities this battle round. For the rest of the battle round, you can re-roll run rolls and charge rolls for friendly **FYRD OF FYREPEAK** units.
-- **Rune of Spellbreaking**（Once Per Battle (Army), Any Hero Phase）
-  - 効果: You can only use this ability if you have not used any **UR-GOLD RUNE** abilities this battle round. For the rest of the battle round: • Subtract 2 from casting rolls and chanting rolls for enemy units. • Add 1 to chanting rolls for friendly **FYRD OF FYREPEAK** units.
-- **Rune of Striking**（Once Per Battle (Army), Any Hero Phase）
-  - 効果: You can only use this ability if you have not used any **UR-GOLD RUNE** abilities this battle round. For the rest of the battle round, add 1 to hit rolls and wound rolls for attacks made by friendly **FYRD OF FYREPEAK** units.
+- **グリムドロンの宿怨(Grimmdron Grudges)**（パッシブ）
+  - 効果: 味方**ファイアピークの召集軍**・ユニットが敵ユニットを1個全滅させるたび、その味方ユニットに**宿怨マーク**を1個与える。
+- **防御のルーン(Rune of Guarding)**（バトル中1回限り（アーミー）、任意のヒーローフェイズ）
+  - 効果: このバトルラウンド中に**『ウル＝ゴールドのルーン』**アビリティを使用していない場合にのみ、このアビリティを使用できる。 そのバトルラウンド中、各フェイズにおいて、各味方**ファイアピークの召集軍**・ユニットに割り振られる最初の1ポイントのダメージは無視される。
+- **幸運のルーン(Rune of Fortune)**（バトル中1回限り（アーミー）、任意のヒーローフェイズ）
+  - 効果: このバトルラウンド中に**『ウル＝ゴールドのルーン』**アビリティを使用していない場合にのみ、このアビリティを使用できる。 このバトルラウンド中、味方**ファイアピークの召集軍**・ユニットを対象とするレンジアタックのヒットロールで修正前の出目1-4が出た場合、その攻撃は失敗し、攻撃手順はそこで終了する。
+- **速度のルーン(Rune of Speed)**（バトル中1回限り（アーミー）、任意のヒーローフェイズ）
+  - 効果: このバトルラウンド中に**『ウル＝ゴールドのルーン』**アビリティを使用していない場合にのみ、このアビリティを使用できる。 このバトルラウンド中、味方**ファイアピークの召集軍**・ユニットの全力移動ロールと突撃ロールをリロールできる。
+- **破魔のルーン(Rune of Spellbreaking)**（バトル中1回限り（アーミー）、任意のヒーローフェイズ）
+  - 効果: このバトルラウンド中に**『ウル＝ゴールドのルーン』**アビリティを使用していない場合にのみ、このアビリティを使用できる。 このバトルラウンド終了時まで、 • 各敵ユニットの詠唱ロールと祈願ロールは-2の修正を受ける。 • 味方**ファイアピークの召集軍**・ユニットは祈願ロールに+1の修正を受ける。
+- **一撃のルーン(Rune of Striking)**（バトル中1回限り（アーミー）、任意のヒーローフェイズ）
+  - 効果: このバトルラウンド中に**『ウル＝ゴールドのルーン』**アビリティを使用していない場合にのみ、このアビリティを使用できる。 このバトルラウンド中、味方**ファイアピークの召集軍**・ユニットの攻撃はヒットロールとウーンズロールに+1の修正を受ける。
 
 ## 英雄特性
 
 
-### Fyrd of Fryepeak Heroic Trait（出典: Army of Renown: Fyrd of Fyrepeak）
+### 英雄特性(Fyrd of Fryepeak Heroic Trait)（出典: Army of Renown: Fyrd of Fyrepeak）
 
-(**HERO** only)
+（**英雄**のみ）
 
-- **Foeseeker**（Deployment Phase）
-  - 宣言: Pick an enemy **HERO** to be the **nemesis** for the rest of the battle. You can pick an enemy unit in reserve.
-  - 効果: If the enemy **nemesis** is destroyed by this unit, after removing the destroyed unit from play, give each friendly **FYRD OF FYREPEAK** unit on the battlefield 1 **grudge mark**. If this unit is within 12" of the enemy **nemesis** when it is destroyed but it did not destroy the enemy **nemesis**, after removing the destroyed unit from play, give each visible friendly **FYRD OF FYREPEAK** unit wholly within 12" of this unit 1 **grudge mark**.
+- **敵を追う者(Foeseeker)**（初期配置フェイズ）
+  - 宣言: 敵**英雄**を1個選択し、このバトル中の**仇敵**とする。予備戦力に配置されている敵ユニットも選択できる。
+  - 効果: このユニット自身が敵**仇敵**を全滅させた場合、その敵ユニットがゲームから取り除かれた後、戦場にいる各味方**ファイアピークの召集軍**・ユニットに、それぞれ**宿怨マーク**を1個与える。 敵**仇敵**が全滅したときに、このユニットがその敵**仇敵**の12mv以内に一部でも入っていたものの、このユニット自身がその敵仇敵を全滅させたわけではない場合、その敵ユニットがゲームから取り除かれた後、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である各味方**ファイアピークの召集軍**・ユニットに、それぞれ**宿怨マーク**を1個与える。
 
 ## 神器
 
 
-### Fyrd of Fryepeak Artefact of Power（出典: Army of Renown: Fyrd of Fyrepeak）
+### 神器(Fyrd of Fryepeak Artefact of Power)（出典: Army of Renown: Fyrd of Fyrepeak）
 
-(**HERO** only)
+（**英雄**のみ）
 
-- **Relic of the Lodge**（Passive）
-  - 効果: While this unit is damaged and the number of damage points allocated to it is equal to or greater than half its Health characteristic, rounding down, other friendly **FYRD OF FYREPEAK** units’ melee weapons have **Crit (Mortal)** while they are wholly within 6" of and visible to this unit.
+- **ロッジの遺産(Relic of the Lodge)**（パッシブ）
+  - 効果: このユニットが損傷状態であり、自身に割り振られているダメージの数が【体力】の半分以上（端数切り下げ）である間、このユニットの6mv以内に全体が入っており、かつこのユニットから視認状態である自身以外の味方**ファイアピークの召集軍**・ユニットが装備している近接武器は**クリティカル（致命的）**を得る。
 
 ## 伝承（呪文・奇蹟・顕現）
 
 
-### Fyrd of Fryepeak Prayer Lore
+### 奇蹟伝承(Fyrd of Fryepeak Prayer Lore)
 
-- **Grimnir's Protection**（Your Hero Phase / 詠唱/詠誦値 3）
-  - 宣言: Pick a friendly **FYRD OF FYREPEAK PRIEST** to chant this prayer, pick a visible friendly **FYRD OF FYREPEAK** unit wholly within 12" of them to be the target, then make a chanting roll of D6.
-  - 効果: If the chanting roll was 6+, you can pick another eligible unit to be a second target. Each target has **WARD (5+)** until the start of your next turn.
-- **Grimnir's Fury**（Your Hero Phase / 詠唱/詠誦値 4）
-  - 宣言: Pick a friendly **FYRD OF FYREPEAK PRIEST** to chant this prayer, pick a visible enemy unit within 18" of them to be the target, then make a chanting roll of D6.
-  - 効果: Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target. If the chanting roll was 8+, inflict 1 mortal damage on the target for each 4+ instead.
-- **Grimnir's Geyser**（Your Hero Phase / 詠唱/詠誦値 5）
-  - 宣言: Pick a friendly **FYRD OF FYREPEAK PRIEST** to chant this prayer, pick a visible friendly **FYRD OF FYREPEAK** unit wholly within 12" of them to be the target, then make a chanting roll of D6.
-  - 効果: If the chanting roll was 9+, you can pick another eligible unit to be a second target. Remove each target from the battlefield and set them up again on the battlefield more than 9" from all enemy units.
+- **グリムニルの加護(Grimnir's Protection)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 3）
+  - 宣言: この奇蹟を祈願する際に、味方**ファイアピークの召集軍・神官**を1体選択する。その後、選択された味方神官から12mv以内に全体が入っており、かつその神官から視認状態である味方**ファイアピークの召集軍**・ユニットを1個選択し、D6の祈願ロールをする。
+  - 効果: 祈願ロールが6+であった場合、選択可能な味方ユニットをもう1個選択してもよい。次の自軍側ターン開始時まで、選択された各味方ユニットは**加護（5+）**を持つ。
+- **グリムニルの激怒(Grimnir's Fury)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 4）
+  - 宣言: この奇蹟を祈願する際に、味方**ファイアピークの召集軍・神官**を1体選択する。その後、選択された神官の18mv以内に一部でも入っており、かつその神官から視認状態である敵ユニットを1個選択し、D6の祈願ロールをする。
+  - 効果: 選択された敵ユニット内にいる各兵に対して、それぞれダイスを1個ロールする。ロール結果で5+が出るたびに、その敵ユニットは1ポイントの致命的ダメージを受ける。祈願ロールが8+であった場合、代わりにロール結果で4+が出るたびに、その敵ユニットは1ポイントの致命的ダメージを受ける。
+- **グリムニルの噴出(Grimnir's Geyser)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 5）
+  - 宣言: この奇蹟を祈願する際に、味方**ファイアピークの召集軍・神官**を1体選択する。その後、選択された味方神官から12mv以内に全体が入っており、かつその神官から視認状態である味方**ファイアピークの召集軍**・ユニットを1個選択し、D6の祈願ロールをする。
+  - 効果: 祈願ロールが9+であった場合、選択可能な味方ユニットをもう1個選択してもよい。選択された各味方ユニットを戦場から取り除き、あらゆる敵ユニットから9mvより遠く離れた戦場の位置に再配置する。

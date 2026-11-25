@@ -3077,7 +3077,8 @@
    "status": "open",
    "since": 499,
    "fix_ja": {
-    "このユニットは、現在のターン中に": "選択された味方ユニットは、現在のターン中に"
+    "このユニットは、現在のターン中に": "選択された味方ユニットは、現在のターン中に",
+    "このターン中、このユニットは『**退却**』アビリティによる": "このターン中、選択された味方ユニットは『**退却**』アビリティによる"
    }
   },
   {
@@ -3554,6 +3555,1476 @@
    "since": 499,
    "fix_ja": {
     "付与できる強化である": "付与できる固有の強化である"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "We Honour Valaya!",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "68682cf1-f1e2-48b6-adb8-788f34d30461",
+   "en_field": "effect",
+   "name": "We Honour Valaya!",
+   "ja": "その後、以下から1つを選択する。",
+   "en": "Then, you can pick 1 of the following:",
+   "note": "英語版は「選択してもよい」（you can pick）。日本語版（書籍 p.56、p.114 も）は「選択する」で、回復か復帰の選択が必須のように読める。",
+   "issue": "C. 任意と必須の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "以下から1つを選択する。": "以下から1つを選択してもよい。"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Deep-Earth Runic Weapon",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "7e0c242c-0f75-47f3-948e-b337b73e8304",
+   "en_field": "effect",
+   "name": "Deep-Earth Runic Weapon",
+   "ja": "さらにその**ルーン武器**の【ダメージ量】も+1の修正を受ける",
+   "en": "also add 1 to the Attacks characteristic and Damage characteristic of the **runic weapon**",
+   "note": "英語版の Repeatedly Strike a Rune は【攻撃回数】と【ダメージ量】の両方に+1。日本語版（書籍 p.59）は【攻撃回数】が抜けている。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "の【ダメージ量】も+1": "の【攻撃回数】と【ダメージ量】も+1"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Rune Of Courage",
+   "tr_field": "effect",
+   "table": "lore_ability",
+   "id": "8b49edf3-d95b-43b4-9352-9b448e65e018",
+   "en_field": "effect",
+   "name": "Rune Of Courage",
+   "ja": "味方**カザライト・ホールド・歩兵**・ユニットは、その突撃ロール",
+   "en": "charge rolls for friendly **KHAZALITE HOLDS** units",
+   "note": "英語版は歩兵に限らない（friendly KHAZALITE HOLDS units）。日本語版（書籍 p.60）は「歩兵」が余分。p.114 のルール・リファレンスの同じ呪文には「歩兵」が無い。",
+   "issue": "I. 英語に無い条件",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "**カザライト・ホールド・歩兵**・ユニット": "**カザライト・ホールド**・ユニット"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Well-Travelled Roamers",
+   "tr_field": "effect",
+   "table": "battle_formation_rule",
+   "id": "db3832b7-8766-494e-8958-012dcd44d816",
+   "en_field": "effect",
+   "name": "Well-Travelled Roamers",
+   "ja": "ダイスを何個でもリロールできる",
+   "en": "you can re-roll the dice that determines how far it can move",
+   "note": "英語版は移動距離を決定するダイス（突撃なら突撃ロール全体）をリロールできるだけで、一部のダイスだけを選んでリロールできるとは書いていない（any of the dice ではない）。日本語版（書籍 p.58）は「何個でも」で、突撃ロールの 2D6 のうち片方だけを振り直せるように読める。",
+   "issue": "I. 英語に無い条件",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "ダイスを何個でもリロールできる": "ダイスをリロールできる"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Well-Travelled Roamers",
+   "tr_field": "effect",
+   "table": "battle_formation_rule",
+   "id": "db3832b7-8766-494e-8958-012dcd44d816",
+   "en_field": "effect",
+   "name": "Well-Travelled Roamers",
+   "ja": "あらゆる味方ユニットから6mvより遠く離れている",
+   "en": "from all other friendly units",
+   "note": "英語版は「他の」（other）味方ユニット。日本語版（書籍 p.58）は「他の」が抜けている（軽微）。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "あらゆる味方ユニットから": "他のあらゆる味方ユニットから"
+   }
+  },
+  {
+   "faction": "valankrom_s_war_throng",
+   "tr_section": "ability_texts",
+   "tr_key": "Rune of Upheaval",
+   "tr_field": "effect",
+   "table": "lore_ability",
+   "id": "56f6d097-09c0-438c-a2df-5706f1207555",
+   "en_field": "effect",
+   "name": "Rune of Upheaval",
+   "ja": "詠唱者の12mv以内に全体が入っており",
+   "en": "a visible enemy unit within 12\" of the caster",
+   "note": "英語版は within（一部でも）で wholly within ではない。日本語版（書籍 p.107）の「全体が入っており」は条件が厳しくなっている。",
+   "issue": "N. 範囲（全体が／一部でも）の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "詠唱者の12mv以内に全体が入っており": "詠唱者の12mv以内に一部でも入っており"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Duardin Pride",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "e92da14f-c0d9-4dc2-88e0-12bfacf58070",
+   "en_field": "effect",
+   "name": "Duardin Pride",
+   "ja": "1個以上の**石と空**・ユニットの12mv以内",
+   "en": "any friendly **STONE AND SKY** units",
+   "note": "英語版は「味方」の石と空・ユニット（any friendly）。日本語版（書籍 p.110）は「味方」が抜けている。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "1個以上の**石と空**": "1個以上の味方**石と空**"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "The Vice",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "cb21c624-7f68-4126-9636-3e9b78d8a0bc",
+   "en_field": "effect",
+   "name": "The Vice",
+   "ja": "そのターン中、味方ユニットが装備している近接武器は",
+   "en": "the friendly targets’ melee weapons have",
+   "note": "英語版は the friendly targets（宣言で選択された2個の味方ユニット）の近接武器。日本語版（書籍 p.110）は「選択された」が抜け、すべての味方ユニットが得るように読める。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "そのターン中、味方ユニットが": "そのターン中、選択された味方ユニットが"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Stronger when Alloyed",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "d99c86bc-5e0a-4c2a-9c60-61d6d2f69ee7",
+   "en_field": "effect",
+   "name": "Stronger when Alloyed",
+   "ja": "味方**カザライト・ホールド**・ユニットの3mv以内に一部でも入っている間",
+   "en": "while it is within 3\" of any visible friendly **KHAZALITE HOLDS** units",
+   "note": "英語版は第2段落も「視認状態である（visible）」味方ユニット。日本語版（書籍 p.111）は第1段落にはあるが第2段落では「視認状態」が抜けている。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "味方**カザライト・ホールド**・ユニットの3mv以内に一部でも入っている間": "味方**カザライト・ホールド**・ユニットの3mv以内に一部でも入っており、かつ自身からそのユニットが視認状態である間"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Stronger when Alloyed",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "d99c86bc-5e0a-4c2a-9c60-61d6d2f69ee7",
+   "en_field": "effect",
+   "name": "Stronger when Alloyed",
+   "ja": "効果：このユニットが**カラドロン・オーヴァーロード**・ユニットであり",
+   "en": "If this unit is a **KHARADRON OVERLORDS** unit",
+   "note": "書籍 p.111 の第2段落の先頭にある「効果：」は余分（誤植）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "効果：このユニットが**カラドロン・オーヴァーロード**": "このユニットが**カラドロン・オーヴァーロード**"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Rune of Spirit",
+   "tr_field": "effect",
+   "table": "lore_ability",
+   "id": "24757b57-9eb8-47e2-98d7-846c8658476e",
+   "en_field": "effect",
+   "name": "Rune of Spirit",
+   "ja": "他の味方**カラドロン・オーヴァーロード**・ユニット1個が詠唱者の",
+   "en": "a visible friendly **KHARADRON OVERLORDS** unit wholly within 12\" of the caster",
+   "note": "英語版で another（他の）が付くのはカザライト・ホールドだけ。日本語版（書籍 p.111）はカラドロン・オーヴァーロードにも「他の」が付き、詠唱者自身がカラドロン・オーヴァーロードでも数えられないことになる（軽微）。",
+   "issue": "I. 英語に無い条件",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "他の味方**カラドロン・オーヴァーロード**": "味方**カラドロン・オーヴァーロード**"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Rune of Defence",
+   "tr_field": "effect",
+   "table": "lore_ability",
+   "id": "b283101e-76b2-4279-85bc-fa910210ade8",
+   "en_field": "effect",
+   "name": "Rune of Defence",
+   "ja": "他の味方**カラドロン・オーヴァーロード**・ユニット1個の両方が",
+   "en": "a visible friendly **KHARADRON OVERLORDS** unit wholly within 12\" of the caster",
+   "note": "英語版で another（他の）が付くのはカザライト・ホールドだけ。日本語版（書籍 p.111）はカラドロン・オーヴァーロードにも「他の」が付き、詠唱者自身がカラドロン・オーヴァーロードでも数えられないことになる（軽微）。",
+   "issue": "I. 英語に無い条件",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "他の味方**カラドロン・オーヴァーロード**": "味方**カラドロン・オーヴァーロード**"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Rune of Defence",
+   "tr_field": "effect",
+   "table": "lore_ability",
+   "id": "b283101e-76b2-4279-85bc-fa910210ade8",
+   "en_field": "effect",
+   "name": "Rune of Defence",
+   "ja": "両方が詠唱者の12mv以内に全体が入っている間",
+   "en": "another visible friendly **KHAZALITE HOLDS** unit and a visible friendly **KHARADRON OVERLORDS** unit",
+   "note": "英語版は両ユニットとも「視認状態である（visible）」。日本語版（書籍 p.111）は「視認状態」が抜けている（同じ文型の『気力のルーン』にはある）。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "両方が詠唱者の12mv以内に全体が入っている間": "両方が詠唱者の12mv以内に全体が入っており、かつその詠唱者からそれぞれが視認状態である間"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Hjulda Drakkblud|Book Of Fallen Holds",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "ddca8e0f-80eb-4a19-9963-9b1976d7bbed",
+   "en_field": "effect",
+   "name": "Book Of Fallen Holds",
+   "ja": "かつこのユニットの12mv以内に全体が入っている間",
+   "en": "within 12\" of and visible to this unit",
+   "note": "英語版は「within 12\" of」（一部でも入っていればよい）。日本語版（書籍 p.66）は「12mv以内に全体が入っている間」で、宿怨の標的の全体が入っている必要があるように読める。",
+   "issue": "N. 範囲（全体が／一部でも）の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "かつこのユニットの12mv以内に全体が入っている間": "かつこのユニットの12mv以内に一部でも入っている間"
+   }
+  },
+  {
+   "faction": "valankrom_s_war_throng",
+   "tr_section": "ability_texts",
+   "tr_key": "Hjulda Drakkblud|Book Of Fallen Holds",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "ddca8e0f-80eb-4a19-9963-9b1976d7bbed",
+   "en_field": "effect",
+   "name": "Book Of Fallen Holds",
+   "ja": "かつこのユニットの12mv以内に全体が入っている間",
+   "en": "within 12\" of and visible to this unit",
+   "note": "英語版は「within 12\" of」（一部でも入っていればよい）。日本語版（書籍 p.66）は「12mv以内に全体が入っている間」で、宿怨の標的の全体が入っている必要があるように読める。",
+   "issue": "N. 範囲（全体が／一部でも）の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "かつこのユニットの12mv以内に全体が入っている間": "かつこのユニットの12mv以内に一部でも入っている間"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Hjulda Drakkblud|Book Of Fallen Holds",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "ddca8e0f-80eb-4a19-9963-9b1976d7bbed",
+   "en_field": "effect",
+   "name": "Book Of Fallen Holds",
+   "ja": "かつこのユニットの12mv以内に全体が入っている間",
+   "en": "within 12\" of and visible to this unit",
+   "note": "英語版は「within 12\" of」（一部でも入っていればよい）。日本語版（書籍 p.66）は「12mv以内に全体が入っている間」で、宿怨の標的の全体が入っている必要があるように読める。",
+   "issue": "N. 範囲（全体が／一部でも）の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "かつこのユニットの12mv以内に全体が入っている間": "かつこのユニットの12mv以内に一部でも入っている間"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Thrynn|Fight Shoulder To Shoulder",
+   "tr_field": "timing",
+   "table": "warscroll_ability",
+   "id": "8358516b-3e1e-4eff-9430-512ed7939e40",
+   "en_field": "phaseDetails",
+   "name": "Fight Shoulder To Shoulder",
+   "ja": "このユニットの3mv以内に全体が入っており",
+   "en": "within 3\" of and visible to this unit",
+   "note": "英語版は「within 3\" of」（一部でも入っていればよい）。日本語版（書籍 p.67）の「3mv以内に全体が入っており」は誤り。",
+   "issue": "N. 範囲（全体が／一部でも）の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "このユニットの3mv以内に全体が入っており": "このユニットの3mv以内に一部でも入っており"
+   }
+  },
+  {
+   "faction": "valankrom_s_war_throng",
+   "tr_section": "ability_texts",
+   "tr_key": "Thrynn|Fight Shoulder To Shoulder",
+   "tr_field": "timing",
+   "table": "warscroll_ability",
+   "id": "8358516b-3e1e-4eff-9430-512ed7939e40",
+   "en_field": "phaseDetails",
+   "name": "Fight Shoulder To Shoulder",
+   "ja": "このユニットの3mv以内に全体が入っており",
+   "en": "within 3\" of and visible to this unit",
+   "note": "英語版は「within 3\" of」（一部でも入っていればよい）。日本語版（書籍 p.67）の「3mv以内に全体が入っており」は誤り。",
+   "issue": "N. 範囲（全体が／一部でも）の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "このユニットの3mv以内に全体が入っており": "このユニットの3mv以内に一部でも入っており"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Thrynn|Fight Shoulder To Shoulder",
+   "tr_field": "timing",
+   "table": "warscroll_ability",
+   "id": "8358516b-3e1e-4eff-9430-512ed7939e40",
+   "en_field": "phaseDetails",
+   "name": "Fight Shoulder To Shoulder",
+   "ja": "このユニットの3mv以内に全体が入っており",
+   "en": "within 3\" of and visible to this unit",
+   "note": "英語版は「within 3\" of」（一部でも入っていればよい）。日本語版（書籍 p.67）の「3mv以内に全体が入っており」は誤り。",
+   "issue": "N. 範囲（全体が／一部でも）の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "このユニットの3mv以内に全体が入っており": "このユニットの3mv以内に一部でも入っており"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Thrynn|Steadfast Retribution",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "9665a224-9d47-4d09-9208-dcccb6ae4fb4",
+   "en_field": "effect",
+   "name": "Steadfast Retribution",
+   "ja": "**宿怨マーク**を1個でも持つ味方ユニット1個につき",
+   "en": "for each other visible friendly unit",
+   "note": "英語版は「each other visible friendly unit」（このユニット以外の味方ユニット）。日本語版（書籍 p.67）は「他の」が抜けており、このユニット自身も数えるように読める。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "味方ユニット1個につき": "他の味方ユニット1個につき"
+   }
+  },
+  {
+   "faction": "valankrom_s_war_throng",
+   "tr_section": "ability_texts",
+   "tr_key": "Thrynn|Steadfast Retribution",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "9665a224-9d47-4d09-9208-dcccb6ae4fb4",
+   "en_field": "effect",
+   "name": "Steadfast Retribution",
+   "ja": "**宿怨マーク**を1個でも持つ味方ユニット1個につき",
+   "en": "for each other visible friendly unit",
+   "note": "英語版は「each other visible friendly unit」（このユニット以外の味方ユニット）。日本語版（書籍 p.67）は「他の」が抜けており、このユニット自身も数えるように読める。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "味方ユニット1個につき": "他の味方ユニット1個につき"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Thrynn|Steadfast Retribution",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "9665a224-9d47-4d09-9208-dcccb6ae4fb4",
+   "en_field": "effect",
+   "name": "Steadfast Retribution",
+   "ja": "**宿怨マーク**を1個でも持つ味方ユニット1個につき",
+   "en": "for each other visible friendly unit",
+   "note": "英語版は「each other visible friendly unit」（このユニット以外の味方ユニット）。日本語版（書籍 p.67）は「他の」が抜けており、このユニット自身も数えるように読める。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "味方ユニット1個につき": "他の味方ユニット1個につき"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Oathkeeper Cannon|Oathkeeper Apprentice Runestriker",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "943dd0ca-ca62-4d46-8652-25c1dc940c7d",
+   "en_field": "effect",
+   "name": "Oathkeeper Apprentice Runestriker",
+   "ja": "選択された敵ユニットを対象とするこのユニットのメレーアタックは",
+   "en": "combat attacks that target that enemy unit score critical hits on unmodified hit rolls of 5+",
+   "note": "英語版はその敵ユニットを対象とするすべてのメレーアタック（combat attacks that target that enemy unit）。日本語版（書籍 p.70）は「このユニットの」が余分で、このユニットの攻撃だけに限られるように読める（スピアヘッド版の『燃焼のルーン』には「このユニットの」が無い）。",
+   "issue": "I. 英語に無い条件",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "選択された敵ユニットを対象とするこのユニットのメレーアタックは": "選択された敵ユニットを対象とするメレーアタックは"
+   }
+  },
+  {
+   "faction": "valankrom_s_war_throng",
+   "tr_section": "ability_texts",
+   "tr_key": "Oathkeeper Cannon|Oathkeeper Apprentice Runestriker",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "943dd0ca-ca62-4d46-8652-25c1dc940c7d",
+   "en_field": "effect",
+   "name": "Oathkeeper Apprentice Runestriker",
+   "ja": "選択された敵ユニットを対象とするこのユニットのメレーアタックは",
+   "en": "combat attacks that target that enemy unit score critical hits on unmodified hit rolls of 5+",
+   "note": "英語版はその敵ユニットを対象とするすべてのメレーアタック（combat attacks that target that enemy unit）。日本語版（書籍 p.70）は「このユニットの」が余分で、このユニットの攻撃だけに限られるように読める（スピアヘッド版の『燃焼のルーン』には「このユニットの」が無い）。",
+   "issue": "I. 英語に無い条件",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "選択された敵ユニットを対象とするこのユニットのメレーアタックは": "選択された敵ユニットを対象とするメレーアタックは"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Oathkeeper Cannon|Oathkeeper Apprentice Runestriker",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "943dd0ca-ca62-4d46-8652-25c1dc940c7d",
+   "en_field": "effect",
+   "name": "Oathkeeper Apprentice Runestriker",
+   "ja": "選択された敵ユニットを対象とするこのユニットのメレーアタックは",
+   "en": "combat attacks that target that enemy unit score critical hits on unmodified hit rolls of 5+",
+   "note": "英語版はその敵ユニットを対象とするすべてのメレーアタック（combat attacks that target that enemy unit）。日本語版（書籍 p.70）は「このユニットの」が余分で、このユニットの攻撃だけに限られるように読める（スピアヘッド版の『燃焼のルーン』には「このユニットの」が無い）。",
+   "issue": "I. 英語に無い条件",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "選択された敵ユニットを対象とするこのユニットのメレーアタックは": "選択された敵ユニットを対象とするメレーアタックは"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Stonebreaker Mortar|Stonebreaker Apprentice Runestriker",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "41e32ba7-6a11-46fd-b748-d333769060d3",
+   "en_field": "effect",
+   "name": "Stonebreaker Apprentice Runestriker",
+   "ja": "選択された敵ユニットの3mv以内に一部でも入っている他の各敵ユニットに対して",
+   "en": "Roll a D3 for each enemy unit within 3\" of the target",
+   "note": "英語版は「each enemy unit within 3\" of the target」で「他の（other）」が無い。日本語版（書籍 p.71）の「他の各敵ユニット」は選択された敵ユニット自身を除くことになる。",
+   "issue": "I. 英語に無い条件",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "他の各敵ユニットに対して": "各敵ユニットに対して"
+   }
+  },
+  {
+   "faction": "valankrom_s_war_throng",
+   "tr_section": "ability_texts",
+   "tr_key": "Stonebreaker Mortar|Stonebreaker Apprentice Runestriker",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "41e32ba7-6a11-46fd-b748-d333769060d3",
+   "en_field": "effect",
+   "name": "Stonebreaker Apprentice Runestriker",
+   "ja": "選択された敵ユニットの3mv以内に一部でも入っている他の各敵ユニットに対して",
+   "en": "Roll a D3 for each enemy unit within 3\" of the target",
+   "note": "英語版は「each enemy unit within 3\" of the target」で「他の（other）」が無い。日本語版（書籍 p.71）の「他の各敵ユニット」は選択された敵ユニット自身を除くことになる。",
+   "issue": "I. 英語に無い条件",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "他の各敵ユニットに対して": "各敵ユニットに対して"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Stonebreaker Mortar|Stonebreaker Apprentice Runestriker",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "41e32ba7-6a11-46fd-b748-d333769060d3",
+   "en_field": "effect",
+   "name": "Stonebreaker Apprentice Runestriker",
+   "ja": "選択された敵ユニットの3mv以内に一部でも入っている他の各敵ユニットに対して",
+   "en": "Roll a D3 for each enemy unit within 3\" of the target",
+   "note": "英語版は「each enemy unit within 3\" of the target」で「他の（other）」が無い。日本語版（書籍 p.71）の「他の各敵ユニット」は選択された敵ユニット自身を除くことになる。",
+   "issue": "I. 英語に無い条件",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "他の各敵ユニットに対して": "各敵ユニットに対して"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Thrynn On War Throne|Forge A Path",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "558c195a-29fb-44e7-b57e-d866f81077ce",
+   "en_field": "effect",
+   "name": "Forge A Path",
+   "ja": "効果：選択された味方ユニットを戦場から取り除き",
+   "en": "Remove the target from the battlefield.",
+   "note": "日本語版（書籍 p.65）は効果欄が「効果：」で2つに分かれている（1つ目は「宣言：」の誤りとも見られるが、英語版では全体が1つの効果）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "効果：選択された味方ユニットを戦場から取り除き": "選択された味方ユニットを戦場から取り除き"
+   }
+  },
+  {
+   "faction": "valankrom_s_war_throng",
+   "tr_section": "ability_texts",
+   "tr_key": "Thrynn On War Throne|Forge A Path",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "558c195a-29fb-44e7-b57e-d866f81077ce",
+   "en_field": "effect",
+   "name": "Forge A Path",
+   "ja": "効果：選択された味方ユニットを戦場から取り除き",
+   "en": "Remove the target from the battlefield.",
+   "note": "日本語版（書籍 p.65）は効果欄が「効果：」で2つに分かれている（1つ目は「宣言：」の誤りとも見られるが、英語版では全体が1つの効果）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "効果：選択された味方ユニットを戦場から取り除き": "選択された味方ユニットを戦場から取り除き"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Thrynn On War Throne|Forge A Path",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "558c195a-29fb-44e7-b57e-d866f81077ce",
+   "en_field": "effect",
+   "name": "Forge A Path",
+   "ja": "効果：選択された味方ユニットを戦場から取り除き",
+   "en": "Remove the target from the battlefield.",
+   "note": "日本語版（書籍 p.65）は効果欄が「効果：」で2つに分かれている（1つ目は「宣言：」の誤りとも見られるが、英語版では全体が1つの効果）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "効果：選択された味方ユニットを戦場から取り除き": "選択された味方ユニットを戦場から取り除き"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Oathkeeper Cannon|Oathkeeper Apprentice Runestriker",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "943dd0ca-ca62-4d46-8652-25c1dc940c7d",
+   "en_field": "effect",
+   "name": "Oathkeeper Apprentice Runestriker",
+   "ja": "効果を以下から1つ選ぶ、",
+   "en": "pick 1 of the following effects:",
+   "note": "日本語版（書籍 p.70）「1つ選ぶ、」の読点は句点（またはコロン）の誤り。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "効果を以下から1つ選ぶ、": "効果を以下から1つ選ぶ。"
+   }
+  },
+  {
+   "faction": "valankrom_s_war_throng",
+   "tr_section": "ability_texts",
+   "tr_key": "Oathkeeper Cannon|Oathkeeper Apprentice Runestriker",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "943dd0ca-ca62-4d46-8652-25c1dc940c7d",
+   "en_field": "effect",
+   "name": "Oathkeeper Apprentice Runestriker",
+   "ja": "効果を以下から1つ選ぶ、",
+   "en": "pick 1 of the following effects:",
+   "note": "日本語版（書籍 p.70）「1つ選ぶ、」の読点は句点（またはコロン）の誤り。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "効果を以下から1つ選ぶ、": "効果を以下から1つ選ぶ。"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Oathkeeper Cannon|Oathkeeper Apprentice Runestriker",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "943dd0ca-ca62-4d46-8652-25c1dc940c7d",
+   "en_field": "effect",
+   "name": "Oathkeeper Apprentice Runestriker",
+   "ja": "効果を以下から1つ選ぶ、",
+   "en": "pick 1 of the following effects:",
+   "note": "日本語版（書籍 p.70）「1つ選ぶ、」の読点は句点（またはコロン）の誤り。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "効果を以下から1つ選ぶ、": "効果を以下から1つ選ぶ。"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Stonebreaker Mortar|Stonebreaker Apprentice Runestriker",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "41e32ba7-6a11-46fd-b748-d333769060d3",
+   "en_field": "effect",
+   "name": "Stonebreaker Apprentice Runestriker",
+   "ja": "効果を以下から1つ選ぶ、",
+   "en": "pick 1 of the following effects:",
+   "note": "日本語版（書籍 p.71）「1つ選ぶ、」の読点は句点（またはコロン）の誤り。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "効果を以下から1つ選ぶ、": "効果を以下から1つ選ぶ。"
+   }
+  },
+  {
+   "faction": "valankrom_s_war_throng",
+   "tr_section": "ability_texts",
+   "tr_key": "Stonebreaker Mortar|Stonebreaker Apprentice Runestriker",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "41e32ba7-6a11-46fd-b748-d333769060d3",
+   "en_field": "effect",
+   "name": "Stonebreaker Apprentice Runestriker",
+   "ja": "効果を以下から1つ選ぶ、",
+   "en": "pick 1 of the following effects:",
+   "note": "日本語版（書籍 p.71）「1つ選ぶ、」の読点は句点（またはコロン）の誤り。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "効果を以下から1つ選ぶ、": "効果を以下から1つ選ぶ。"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Stonebreaker Mortar|Stonebreaker Apprentice Runestriker",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "41e32ba7-6a11-46fd-b748-d333769060d3",
+   "en_field": "effect",
+   "name": "Stonebreaker Apprentice Runestriker",
+   "ja": "効果を以下から1つ選ぶ、",
+   "en": "pick 1 of the following effects:",
+   "note": "日本語版（書籍 p.71）「1つ選ぶ、」の読点は句点（またはコロン）の誤り。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "効果を以下から1つ選ぶ、": "効果を以下から1つ選ぶ。"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Stonebreaker Mortar|Artillerist's Revenge",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "e9f9c2e1-3745-4f60-99ff-5b55fc1292f9",
+   "en_field": "effect",
+   "name": "Artillerist's Revenge",
+   "ja": "を1個でも持つ場間、",
+   "en": "while it has any **grudge marks**",
+   "note": "日本語版（書籍 p.71）「持つ場間」は「持つ間」の誤植（オースキーパー・キャノンの同名アビリティは「持つ間」）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "を1個でも持つ場間、": "を1個でも持つ間、"
+   }
+  },
+  {
+   "faction": "valankrom_s_war_throng",
+   "tr_section": "ability_texts",
+   "tr_key": "Stonebreaker Mortar|Artillerist's Revenge",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "e9f9c2e1-3745-4f60-99ff-5b55fc1292f9",
+   "en_field": "effect",
+   "name": "Artillerist's Revenge",
+   "ja": "を1個でも持つ場間、",
+   "en": "while it has any **grudge marks**",
+   "note": "日本語版（書籍 p.71）「持つ場間」は「持つ間」の誤植（オースキーパー・キャノンの同名アビリティは「持つ間」）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "を1個でも持つ場間、": "を1個でも持つ間、"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Stonebreaker Mortar|Artillerist's Revenge",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "e9f9c2e1-3745-4f60-99ff-5b55fc1292f9",
+   "en_field": "effect",
+   "name": "Artillerist's Revenge",
+   "ja": "を1個でも持つ場間、",
+   "en": "while it has any **grudge marks**",
+   "note": "日本語版（書籍 p.71）「持つ場間」は「持つ間」の誤植（オースキーパー・キャノンの同名アビリティは「持つ間」）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "を1個でも持つ場間、": "を1個でも持つ間、"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Valayan Guardians with Runic Halberds|Warriors Of The Hearth",
+   "tr_field": "declare",
+   "table": "warscroll_ability",
+   "id": "f2af5c7f-410b-463b-af71-fd2854975169",
+   "en_field": "declare",
+   "name": "Warriors Of The Hearth",
+   "ja": "『**退却**』アビリティも使用しておらず",
+   "en": "has not used a **RUN** or **RETREAT** ability this turn",
+   "note": "日本語版（書籍 p.72）「『全力移動』または『退却』アビリティも」の「も」は「を」の誤り（軽微）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "アビリティも使用しておらず": "アビリティを使用しておらず"
+   }
+  },
+  {
+   "faction": "valankrom_s_war_throng",
+   "tr_section": "ability_texts",
+   "tr_key": "Valayan Guardians with Runic Halberds|Warriors Of The Hearth",
+   "tr_field": "declare",
+   "table": "warscroll_ability",
+   "id": "f2af5c7f-410b-463b-af71-fd2854975169",
+   "en_field": "declare",
+   "name": "Warriors Of The Hearth",
+   "ja": "『**退却**』アビリティも使用しておらず",
+   "en": "has not used a **RUN** or **RETREAT** ability this turn",
+   "note": "日本語版（書籍 p.72）「『全力移動』または『退却』アビリティも」の「も」は「を」の誤り（軽微）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "アビリティも使用しておらず": "アビリティを使用しておらず"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Valayan Guardians with Runic Halberds|Warriors Of The Hearth",
+   "tr_field": "declare",
+   "table": "warscroll_ability",
+   "id": "f2af5c7f-410b-463b-af71-fd2854975169",
+   "en_field": "declare",
+   "name": "Warriors Of The Hearth",
+   "ja": "『**退却**』アビリティも使用しておらず",
+   "en": "has not used a **RUN** or **RETREAT** ability this turn",
+   "note": "日本語版（書籍 p.72）「『全力移動』または『退却』アビリティも」の「も」は「を」の誤り（軽微）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "アビリティも使用しておらず": "アビリティを使用しておらず"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Runefather on Magmadroth|Raging Inferno",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "e14df19b-636b-43b8-94ff-8cee856bb43d",
+   "en_field": "effect",
+   "name": "Raging Inferno",
+   "ja": "加護ロールは-1の修正を受ける",
+   "en": "subtract 1 from save rolls for the target",
+   "note": "英語版は save rolls（セーブロール）。日本語版（書籍 p.76）の「加護ロール」は誤り（陣営パック ファイアスレイヤー 2026年8月の日本語版は「セーブロール」）。",
+   "issue": "B. ロールの種類の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "加護ロール": "セーブロール"
+   }
+  },
+  {
+   "faction": "fyrd_of_fyrepeak",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Runefather on Magmadroth|Raging Inferno",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "e14df19b-636b-43b8-94ff-8cee856bb43d",
+   "en_field": "effect",
+   "name": "Raging Inferno",
+   "ja": "加護ロールは-1の修正を受ける",
+   "en": "subtract 1 from save rolls for the target",
+   "note": "英語版は save rolls（セーブロール）。日本語版（書籍 p.76）の「加護ロール」は誤り（陣営パック ファイアスレイヤー 2026年8月の日本語版は「セーブロール」）。",
+   "issue": "B. ロールの種類の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "加護ロール": "セーブロール"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Runefather on Magmadroth|Raging Inferno",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "e14df19b-636b-43b8-94ff-8cee856bb43d",
+   "en_field": "effect",
+   "name": "Raging Inferno",
+   "ja": "加護ロールは-1の修正を受ける",
+   "en": "subtract 1 from save rolls for the target",
+   "note": "英語版は save rolls（セーブロール）。日本語版（書籍 p.76）の「加護ロール」は誤り（陣営パック ファイアスレイヤー 2026年8月の日本語版は「セーブロール」）。",
+   "issue": "B. ロールの種類の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "加護ロール": "セーブロール"
+   }
+  },
+  {
+   "faction": "lofnir_drothkeepers",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Runefather on Magmadroth|Raging Inferno",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "e14df19b-636b-43b8-94ff-8cee856bb43d",
+   "en_field": "effect",
+   "name": "Raging Inferno",
+   "ja": "加護ロールは-1の修正を受ける",
+   "en": "subtract 1 from save rolls for the target",
+   "note": "英語版は save rolls（セーブロール）。日本語版（書籍 p.76）の「加護ロール」は誤り（陣営パック ファイアスレイヤー 2026年8月の日本語版は「セーブロール」）。",
+   "issue": "B. ロールの種類の取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "加護ロール": "セーブロール"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Flamekeeper|Masterflame Rune",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "8330f4c5-2604-44c3-998a-85141895dc45",
+   "en_field": "effect",
+   "name": "Masterflame Rune",
+   "ja": "全滅した**ファイアスレイヤー**・ユニット数以下",
+   "en": "the number of friendly **KHAZALITE HOLDS** units that have been destroyed during the battle",
+   "note": "英語版は「味方カザライト・ホールド・ユニット（friendly KHAZALITE HOLDS units）」。日本語版（書籍 p.79）はキーワードが旧版の「ファイアスレイヤー」のままで、「味方」も抜けている。",
+   "issue": "S. キーワードの取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "全滅した**ファイアスレイヤー**・ユニット数以下": "全滅した味方**カザライト・ホールド**・ユニット数以下"
+   }
+  },
+  {
+   "faction": "fyrd_of_fyrepeak",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Flamekeeper|Masterflame Rune",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "8330f4c5-2604-44c3-998a-85141895dc45",
+   "en_field": "effect",
+   "name": "Masterflame Rune",
+   "ja": "全滅した**ファイアスレイヤー**・ユニット数以下",
+   "en": "the number of friendly **KHAZALITE HOLDS** units that have been destroyed during the battle",
+   "note": "英語版は「味方カザライト・ホールド・ユニット（friendly KHAZALITE HOLDS units）」。日本語版（書籍 p.79）はキーワードが旧版の「ファイアスレイヤー」のままで、「味方」も抜けている。",
+   "issue": "S. キーワードの取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "全滅した**ファイアスレイヤー**・ユニット数以下": "全滅した味方**カザライト・ホールド**・ユニット数以下"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Flamekeeper|Masterflame Rune",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "8330f4c5-2604-44c3-998a-85141895dc45",
+   "en_field": "effect",
+   "name": "Masterflame Rune",
+   "ja": "全滅した**ファイアスレイヤー**・ユニット数以下",
+   "en": "the number of friendly **KHAZALITE HOLDS** units that have been destroyed during the battle",
+   "note": "英語版は「味方カザライト・ホールド・ユニット（friendly KHAZALITE HOLDS units）」。日本語版（書籍 p.79）はキーワードが旧版の「ファイアスレイヤー」のままで、「味方」も抜けている。",
+   "issue": "S. キーワードの取り違え",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "全滅した**ファイアスレイヤー**・ユニット数以下": "全滅した味方**カザライト・ホールド**・ユニット数以下"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Runefather|Commanding Presence",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "0fd91aaf-bfc5-4928-85aa-28880d4b3e38",
+   "en_field": "effect",
+   "name": "Commanding Presence",
+   "ja": "**王家の衛兵**は**加護（4+）**を持つ",
+   "en": "the **royal retinue** has **WARD (4+)**",
+   "note": "英語版は royal retinue。日本語版（書籍 p.78）の「王家の衛兵」は、同じウォースクロールの『王家の近衛』で指定する「王家の近衛」と表記が違う。同じユニットを指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "王家の衛兵": "王家の近衛"
+   }
+  },
+  {
+   "faction": "fyrd_of_fyrepeak",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Runefather|Commanding Presence",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "0fd91aaf-bfc5-4928-85aa-28880d4b3e38",
+   "en_field": "effect",
+   "name": "Commanding Presence",
+   "ja": "**王家の衛兵**は**加護（4+）**を持つ",
+   "en": "the **royal retinue** has **WARD (4+)**",
+   "note": "英語版は royal retinue。日本語版（書籍 p.78）の「王家の衛兵」は、同じウォースクロールの『王家の近衛』で指定する「王家の近衛」と表記が違う。同じユニットを指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "王家の衛兵": "王家の近衛"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Runefather|Commanding Presence",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "0fd91aaf-bfc5-4928-85aa-28880d4b3e38",
+   "en_field": "effect",
+   "name": "Commanding Presence",
+   "ja": "**王家の衛兵**は**加護（4+）**を持つ",
+   "en": "the **royal retinue** has **WARD (4+)**",
+   "note": "英語版は royal retinue。日本語版（書籍 p.78）の「王家の衛兵」は、同じウォースクロールの『王家の近衛』で指定する「王家の近衛」と表記が違う。同じユニットを指す。",
+   "issue": "M. 同一物の名称不統一",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "王家の衛兵": "王家の近衛"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Runeson|Dauntless Assault",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "c7a30550-6b7c-493c-9ba5-1d777e45db7d",
+   "en_field": "effect",
+   "name": "Dauntless Assault",
+   "ja": "使用していない英雄でない**グリムドロン・歩兵**・ユニットを1個選択する",
+   "en": "pick a friendly non-**HERO GRIMMDRON INFANTRY** unit",
+   "note": "英語版は「味方（friendly）」ユニット。日本語版（書籍 p.78）は「味方」が抜けている（直後の文は「選択された味方ユニット」）。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "使用していない英雄でない**グリムドロン・歩兵**・ユニット": "使用していない英雄でない味方**グリムドロン・歩兵**・ユニット"
+   }
+  },
+  {
+   "faction": "fyrd_of_fyrepeak",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Runeson|Dauntless Assault",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "c7a30550-6b7c-493c-9ba5-1d777e45db7d",
+   "en_field": "effect",
+   "name": "Dauntless Assault",
+   "ja": "使用していない英雄でない**グリムドロン・歩兵**・ユニットを1個選択する",
+   "en": "pick a friendly non-**HERO GRIMMDRON INFANTRY** unit",
+   "note": "英語版は「味方（friendly）」ユニット。日本語版（書籍 p.78）は「味方」が抜けている（直後の文は「選択された味方ユニット」）。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "使用していない英雄でない**グリムドロン・歩兵**・ユニット": "使用していない英雄でない味方**グリムドロン・歩兵**・ユニット"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Runeson|Dauntless Assault",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "c7a30550-6b7c-493c-9ba5-1d777e45db7d",
+   "en_field": "effect",
+   "name": "Dauntless Assault",
+   "ja": "使用していない英雄でない**グリムドロン・歩兵**・ユニットを1個選択する",
+   "en": "pick a friendly non-**HERO GRIMMDRON INFANTRY** unit",
+   "note": "英語版は「味方（friendly）」ユニット。日本語版（書籍 p.78）は「味方」が抜けている（直後の文は「選択された味方ユニット」）。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "使用していない英雄でない**グリムドロン・歩兵**・ユニット": "使用していない英雄でない味方**グリムドロン・歩兵**・ユニット"
+   }
+  },
+  {
+   "faction": "lofnir_drothkeepers",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Runeson|Dauntless Assault",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "c7a30550-6b7c-493c-9ba5-1d777e45db7d",
+   "en_field": "effect",
+   "name": "Dauntless Assault",
+   "ja": "使用していない英雄でない**グリムドロン・歩兵**・ユニットを1個選択する",
+   "en": "pick a friendly non-**HERO GRIMMDRON INFANTRY** unit",
+   "note": "英語版は「味方（friendly）」ユニット。日本語版（書籍 p.78）は「味方」が抜けている（直後の文は「選択された味方ユニット」）。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "使用していない英雄でない**グリムドロン・歩兵**・ユニット": "使用していない英雄でない味方**グリムドロン・歩兵**・ユニット"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Runefather on Magmadroth|Warrior-Kings",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "e39b86bc-e344-4fa9-9927-789eeb90449d",
+   "en_field": "effect",
+   "name": "Warrior-Kings",
+   "ja": "視認状態である下記のユニットの近接武器",
+   "en": "the following visible friendly units",
+   "note": "英語版は「味方（friendly）」ユニット。日本語版（書籍 p.76）の第2段落は「味方」が抜けている。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "視認状態である下記のユニットの近接武器": "視認状態である下記の味方ユニットの近接武器"
+   }
+  },
+  {
+   "faction": "fyrd_of_fyrepeak",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Runefather on Magmadroth|Warrior-Kings",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "e39b86bc-e344-4fa9-9927-789eeb90449d",
+   "en_field": "effect",
+   "name": "Warrior-Kings",
+   "ja": "視認状態である下記のユニットの近接武器",
+   "en": "the following visible friendly units",
+   "note": "英語版は「味方（friendly）」ユニット。日本語版（書籍 p.76）の第2段落は「味方」が抜けている。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "視認状態である下記のユニットの近接武器": "視認状態である下記の味方ユニットの近接武器"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Runefather on Magmadroth|Warrior-Kings",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "e39b86bc-e344-4fa9-9927-789eeb90449d",
+   "en_field": "effect",
+   "name": "Warrior-Kings",
+   "ja": "視認状態である下記のユニットの近接武器",
+   "en": "the following visible friendly units",
+   "note": "英語版は「味方（friendly）」ユニット。日本語版（書籍 p.76）の第2段落は「味方」が抜けている。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "視認状態である下記のユニットの近接武器": "視認状態である下記の味方ユニットの近接武器"
+   }
+  },
+  {
+   "faction": "lofnir_drothkeepers",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Runefather on Magmadroth|Warrior-Kings",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "e39b86bc-e344-4fa9-9927-789eeb90449d",
+   "en_field": "effect",
+   "name": "Warrior-Kings",
+   "ja": "視認状態である下記のユニットの近接武器",
+   "en": "the following visible friendly units",
+   "note": "英語版は「味方（friendly）」ユニット。日本語版（書籍 p.76）の第2段落は「味方」が抜けている。",
+   "issue": "L. 限定語の脱落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "視認状態である下記のユニットの近接武器": "視認状態である下記の味方ユニットの近接武器"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Runeson on Magmadroth|Packdroth",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "4a52e30b-912a-406f-b6f5-ed92bd344715",
+   "en_field": "effect",
+   "name": "Packdroth",
+   "ja": "かつターン中に配置されたばかりではない",
+   "en": "has not been set up this turn",
+   "note": "英語版は「このターン中（this turn）」。日本語版（書籍 p.77）は「この」が抜けている（軽微）。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "かつターン中に配置されたばかりではない": "かつこのターン中に配置されたばかりではない"
+   }
+  },
+  {
+   "faction": "fyrd_of_fyrepeak",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Runeson on Magmadroth|Packdroth",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "4a52e30b-912a-406f-b6f5-ed92bd344715",
+   "en_field": "effect",
+   "name": "Packdroth",
+   "ja": "かつターン中に配置されたばかりではない",
+   "en": "has not been set up this turn",
+   "note": "英語版は「このターン中（this turn）」。日本語版（書籍 p.77）は「この」が抜けている（軽微）。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "かつターン中に配置されたばかりではない": "かつこのターン中に配置されたばかりではない"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Runeson on Magmadroth|Packdroth",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "4a52e30b-912a-406f-b6f5-ed92bd344715",
+   "en_field": "effect",
+   "name": "Packdroth",
+   "ja": "かつターン中に配置されたばかりではない",
+   "en": "has not been set up this turn",
+   "note": "英語版は「このターン中（this turn）」。日本語版（書籍 p.77）は「この」が抜けている（軽微）。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "かつターン中に配置されたばかりではない": "かつこのターン中に配置されたばかりではない"
+   }
+  },
+  {
+   "faction": "lofnir_drothkeepers",
+   "tr_section": "ability_texts",
+   "tr_key": "Auric Runeson on Magmadroth|Packdroth",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "4a52e30b-912a-406f-b6f5-ed92bd344715",
+   "en_field": "effect",
+   "name": "Packdroth",
+   "ja": "かつターン中に配置されたばかりではない",
+   "en": "has not been set up this turn",
+   "note": "英語版は「このターン中（this turn）」。日本語版（書籍 p.77）は「この」が抜けている（軽微）。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "かつターン中に配置されたばかりではない": "かつこのターン中に配置されたばかりではない"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Vulkyn Flameseekers|Blunt Their Horns and Fangs",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "f0a6f372-4f2f-44f4-8117-b317ca4be6e3",
+   "en_field": "effect",
+   "name": "Blunt Their Horns and Fangs",
+   "ja": "効果：このユニットと近接戦闘中である敵**大型獣**ユニットが使用する",
+   "en": "Subtract 2 from the Attacks characteristic of **Companion** melee weapons used by enemy **MONSTERS**",
+   "note": "日本語版（書籍 p.80）は箇条書きの各項目の先頭に「効果：」が紛れ込んでいる（英語版には無い。組版上の誤り）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "効果：このユニットと近接戦闘中である敵**大型獣**ユニットが使用する": "このユニットと近接戦闘中である敵**大型獣**ユニットが使用する",
+    "効果：このユニットと近接戦闘中である敵**大型獣**は": "このユニットと近接戦闘中である敵**大型獣**は"
+   }
+  },
+  {
+   "faction": "fyrd_of_fyrepeak",
+   "tr_section": "ability_texts",
+   "tr_key": "Vulkyn Flameseekers|Blunt Their Horns and Fangs",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "f0a6f372-4f2f-44f4-8117-b317ca4be6e3",
+   "en_field": "effect",
+   "name": "Blunt Their Horns and Fangs",
+   "ja": "効果：このユニットと近接戦闘中である敵**大型獣**ユニットが使用する",
+   "en": "Subtract 2 from the Attacks characteristic of **Companion** melee weapons used by enemy **MONSTERS**",
+   "note": "日本語版（書籍 p.80）は箇条書きの各項目の先頭に「効果：」が紛れ込んでいる（英語版には無い。組版上の誤り）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "効果：このユニットと近接戦闘中である敵**大型獣**ユニットが使用する": "このユニットと近接戦闘中である敵**大型獣**ユニットが使用する",
+    "効果：このユニットと近接戦闘中である敵**大型獣**は": "このユニットと近接戦闘中である敵**大型獣**は"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Vulkyn Flameseekers|Blunt Their Horns and Fangs",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "f0a6f372-4f2f-44f4-8117-b317ca4be6e3",
+   "en_field": "effect",
+   "name": "Blunt Their Horns and Fangs",
+   "ja": "効果：このユニットと近接戦闘中である敵**大型獣**ユニットが使用する",
+   "en": "Subtract 2 from the Attacks characteristic of **Companion** melee weapons used by enemy **MONSTERS**",
+   "note": "日本語版（書籍 p.80）は箇条書きの各項目の先頭に「効果：」が紛れ込んでいる（英語版には無い。組版上の誤り）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "効果：このユニットと近接戦闘中である敵**大型獣**ユニットが使用する": "このユニットと近接戦闘中である敵**大型獣**ユニットが使用する",
+    "効果：このユニットと近接戦闘中である敵**大型獣**は": "このユニットと近接戦闘中である敵**大型獣**は"
+   }
+  },
+  {
+   "faction": "lofnir_drothkeepers",
+   "tr_section": "ability_texts",
+   "tr_key": "Vulkyn Flameseekers|Blunt Their Horns and Fangs",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "f0a6f372-4f2f-44f4-8117-b317ca4be6e3",
+   "en_field": "effect",
+   "name": "Blunt Their Horns and Fangs",
+   "ja": "効果：このユニットと近接戦闘中である敵**大型獣**ユニットが使用する",
+   "en": "Subtract 2 from the Attacks characteristic of **Companion** melee weapons used by enemy **MONSTERS**",
+   "note": "日本語版（書籍 p.80）は箇条書きの各項目の先頭に「効果：」が紛れ込んでいる（英語版には無い。組版上の誤り）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "効果：このユニットと近接戦闘中である敵**大型獣**ユニットが使用する": "このユニットと近接戦闘中である敵**大型獣**ユニットが使用する",
+    "効果：このユニットと近接戦闘中である敵**大型獣**は": "このユニットと近接戦闘中である敵**大型獣**は"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Ormyr and Ashtongue|Drothmaster At Heart",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "107b28a5-9bc9-4dc6-a1d5-5b6f74cb1673",
+   "en_field": "effect",
+   "name": "Drothmaster At Heart",
+   "ja": "以下の効果から1つを選択する、",
+   "en": "Pick 1 of the following effects:",
+   "note": "日本語版（書籍 p.75）は箇条書きの前の「：」が「、」になっている（誤植。ルール上の影響は無い）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "以下の効果から1つを選択する、": "以下の効果から1つを選択する："
+   }
+  },
+  {
+   "faction": "fyrd_of_fyrepeak",
+   "tr_section": "ability_texts",
+   "tr_key": "Ormyr and Ashtongue|Drothmaster At Heart",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "107b28a5-9bc9-4dc6-a1d5-5b6f74cb1673",
+   "en_field": "effect",
+   "name": "Drothmaster At Heart",
+   "ja": "以下の効果から1つを選択する、",
+   "en": "Pick 1 of the following effects:",
+   "note": "日本語版（書籍 p.75）は箇条書きの前の「：」が「、」になっている（誤植。ルール上の影響は無い）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "以下の効果から1つを選択する、": "以下の効果から1つを選択する："
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Ormyr and Ashtongue|Drothmaster At Heart",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "107b28a5-9bc9-4dc6-a1d5-5b6f74cb1673",
+   "en_field": "effect",
+   "name": "Drothmaster At Heart",
+   "ja": "以下の効果から1つを選択する、",
+   "en": "Pick 1 of the following effects:",
+   "note": "日本語版（書籍 p.75）は箇条書きの前の「：」が「、」になっている（誤植。ルール上の影響は無い）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "以下の効果から1つを選択する、": "以下の効果から1つを選択する："
+   }
+  },
+  {
+   "faction": "lofnir_drothkeepers",
+   "tr_section": "ability_texts",
+   "tr_key": "Ormyr and Ashtongue|Drothmaster At Heart",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "107b28a5-9bc9-4dc6-a1d5-5b6f74cb1673",
+   "en_field": "effect",
+   "name": "Drothmaster At Heart",
+   "ja": "以下の効果から1つを選択する、",
+   "en": "Pick 1 of the following effects:",
+   "note": "日本語版（書籍 p.75）は箇条書きの前の「：」が「、」になっている（誤植。ルール上の影響は無い）。",
+   "issue": "Y. 書籍の誤植",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "以下の効果から1つを選択する、": "以下の効果から1つを選択する："
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "We Honour Valaya!",
+   "tr_field": "effect",
+   "table": "ability",
+   "id": "68682cf1-f1e2-48b6-adb8-788f34d30461",
+   "en_field": "effect",
+   "name": "We Honour Valaya!",
+   "ja": "復帰する兵の【体力】合計がロール結果に等しい値になるまで",
+   "en": "with a combined Health characteristic of up to the value of the roll",
+   "note": "英語版は「合計【体力】がロール結果以下（up to the value of the roll）の数の撃破された兵を復帰させる」。日本語版（書籍 p.56、p.114 も）の「ロール結果に等しい値になるまで」は「最大で」が抜けていて、ちょうど等しい値でなければならない、あるいは達するまで（超えてもよい）と読める。ロール結果は上限なので、例えばロール結果が3で【体力】2の兵なら1体（合計2）を復帰させる。他の書籍の同じ言い回しは「最大3までになるように」。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "合計がロール結果に等しい値になるまで": "合計が最大でロール結果に等しい値になるまで"
+   }
+  },
+  {
+   "faction": "khazalite_holds",
+   "tr_section": "ability_texts",
+   "tr_key": "Thrynn On War Throne|Karak War Council",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "df48b715-c4d2-46c5-b0f2-3236f9366da8",
+   "en_field": "effect",
+   "name": "Karak War Council",
+   "ja": "選択された敵**英雄**を対象とする味方**カザライト・ホールド・歩兵**・ユニットのレンジアタックは、その敵**英雄**の『護られし英雄』アビリティの効果を無視することができる",
+   "en": "can ignore the effects of the ‘Guarded Hero’ ability on the target when picking targets for their shooting attacks",
+   "note": "英語版の Grudgebearer’s Accusation は「レンジアタックの攻撃対象を選択する際に（when picking targets for their shooting attacks）」『護られし英雄』の効果を無視できるだけ。日本語版（書籍 p.65）の「宿怨保持者の非難」は「攻撃対象を選択する際」が抜け、『護られし英雄』のヒットロール-1も無視できるように読める。12mvより遠い歩兵・英雄も攻撃対象に選べるようになるが、ヒットロール-1の修正は受ける（ルール・アップデート 2026年11月のコアルール 25.0 の FAQ「護られし英雄」も、攻撃対象の選択時に効果を無視するアビリティでは-1の修正を「受ける」とする）。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "選択された敵**英雄**を対象とする味方": "味方",
+    "ユニットのレンジアタックは、その敵**英雄**の": "ユニットは、レンジアタックの攻撃対象を選択する際、選択された敵**英雄**の"
+   }
+  },
+  {
+   "faction": "valankrom_s_war_throng",
+   "tr_section": "ability_texts",
+   "tr_key": "Thrynn On War Throne|Karak War Council",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "df48b715-c4d2-46c5-b0f2-3236f9366da8",
+   "en_field": "effect",
+   "name": "Karak War Council",
+   "ja": "選択された敵**英雄**を対象とする味方**カザライト・ホールド・歩兵**・ユニットのレンジアタックは、その敵**英雄**の『護られし英雄』アビリティの効果を無視することができる",
+   "en": "can ignore the effects of the ‘Guarded Hero’ ability on the target when picking targets for their shooting attacks",
+   "note": "英語版の Grudgebearer’s Accusation は「レンジアタックの攻撃対象を選択する際に（when picking targets for their shooting attacks）」『護られし英雄』の効果を無視できるだけ。日本語版（書籍 p.65）の「宿怨保持者の非難」は「攻撃対象を選択する際」が抜け、『護られし英雄』のヒットロール-1も無視できるように読める。12mvより遠い歩兵・英雄も攻撃対象に選べるようになるが、ヒットロール-1の修正は受ける（ルール・アップデート 2026年11月のコアルール 25.0 の FAQ「護られし英雄」も、攻撃対象の選択時に効果を無視するアビリティでは-1の修正を「受ける」とする）。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "選択された敵**英雄**を対象とする味方": "味方",
+    "ユニットのレンジアタックは、その敵**英雄**の": "ユニットは、レンジアタックの攻撃対象を選択する際、選択された敵**英雄**の"
+   }
+  },
+  {
+   "faction": "throngankor_alliance",
+   "tr_section": "ability_texts",
+   "tr_key": "Thrynn On War Throne|Karak War Council",
+   "tr_field": "effect",
+   "table": "warscroll_ability",
+   "id": "df48b715-c4d2-46c5-b0f2-3236f9366da8",
+   "en_field": "effect",
+   "name": "Karak War Council",
+   "ja": "選択された敵**英雄**を対象とする味方**カザライト・ホールド・歩兵**・ユニットのレンジアタックは、その敵**英雄**の『護られし英雄』アビリティの効果を無視することができる",
+   "en": "can ignore the effects of the ‘Guarded Hero’ ability on the target when picking targets for their shooting attacks",
+   "note": "英語版の Grudgebearer’s Accusation は「レンジアタックの攻撃対象を選択する際に（when picking targets for their shooting attacks）」『護られし英雄』の効果を無視できるだけ。日本語版（書籍 p.65）の「宿怨保持者の非難」は「攻撃対象を選択する際」が抜け、『護られし英雄』のヒットロール-1も無視できるように読める。12mvより遠い歩兵・英雄も攻撃対象に選べるようになるが、ヒットロール-1の修正は受ける（ルール・アップデート 2026年11月のコアルール 25.0 の FAQ「護られし英雄」も、攻撃対象の選択時に効果を無視するアビリティでは-1の修正を「受ける」とする）。",
+   "issue": "D. 語の欠落",
+   "status": "open",
+   "since": 499,
+   "fix_ja": {
+    "選択された敵**英雄**を対象とする味方": "味方",
+    "ユニットのレンジアタックは、その敵**英雄**の": "ユニットは、レンジアタックの攻撃対象を選択する際、選択された敵**英雄**の"
    }
   }
  ]

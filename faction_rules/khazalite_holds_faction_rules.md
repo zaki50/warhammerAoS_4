@@ -6,86 +6,86 @@
 ## 戦闘特性
 
 
-### Khazalite Holds Battle Traits（出典: Order Battletome: Khazalite Holds）
+### 戦闘特性(Khazalite Holds Battle Traits)（出典: Order Battletome: Khazalite Holds）
 
-Khazalite Holds armies can use the following abilities:
+カザライト・ホールドのアーミーは以下のアビリティを使用できる：
 
-- **Thorgrim's Beard! There Are Grudges To Be Settled**（Once Per Turn (Army), End of Any Turn）
-  - 効果: If your general was destroyed this turn, you can give up to 3 friendly **KHAZALITE HOLDS** units 1 **grudge mark**. Otherwise, pick up to 3 of the following effects: • If any friendly **KHAZALITE HOLDS** units were destroyed this turn, give 1 **grudge mark** to a friendly **KHAZALITE HOLDS** unit. • If any friendly **KROMDRON** units are contesting an objective that is being contested by any enemy units, give 1 **grudge mark** to a friendly **KHAZALITE HOLDS** unit. • If any friendly **GRIMMDRON** units charged this turn, are in combat, have not been destroyed and did not destroy an enemy unit this turn, give 1 **grudge mark** to a friendly **KHAZALITE HOLDS** unit. • If any damage points were allocated to your general this turn, give 1 **grudge mark** to a friendly **KHAZALITE HOLDS** unit that is not your general.
-- **Reclaim The Karaks**（Passive）
-  - 効果: Immediately after your opponent gains control of an objective within your territory, you can give 1 **grudge mark** to a friendly **KHAZALITE HOLDS** unit. Each time a friendly **KHAZALITE HOLDS** unit uses the ‘Retreat’ ability, after that ability has been resolved, you must remove 1 **grudge mark** from that unit (if it has one).
-- **Let It Be Known!**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: Pick a friendly **KHAZALITE HOLDS HERO** to use this ability, then pick a visible friendly non‑**HERO KHAZALITE HOLDS** unit wholly within 12" of that **HERO** to be the target.
-  - 効果: Until the start of your next turn, the target has 1 additional **grudge mark**.
-- **Gazul, Remember The Fallen!**（Passive）
-  - 効果: While at least half the models in a **DUARDIN KHAZALITE HOLDS** unit have been slain, add 1 to the Attacks characteristic of its melee weapons. **Designer’s Note**: *Models that have been slain and returned to the unit do not count as having been slain for the purposes of this ability.*
-- **We Honour Valaya!**（Once Per Battle (Army), Any Hero Phase）
-  - 宣言: Pick up to 3 friendly **DUARDIN KHAZALITE HOLDS** units in combat to be **blessed by Valaya**. Then, for each unit **blessed by Valaya** this turn, pick an enemy unit in combat with it to be its target.
-  - 効果: Roll a D3 for each unit **blessed by Valaya** this turn. If that unit is **VALAYAN**, use a value of 3 instead. Inflict an amount of mortal damage on its target equal to the roll. Then, you can pick 1 of the following: • **Heal (X)** the unit **blessed by Valaya**, where **X** is equal to the value of the roll. • Return a number of slain models to the unit **blessed by Valaya** with a combined Health characteristic of up to the value of the roll. You cannot use any other **ANCESTRAL VOW** abilities for the rest of the battle round.
-- **Inghilde, Our Light In The Darkness**（Once Per Battle (Army), Any Hero Phase）
-  - 宣言: Pick up to 1 friendly non‑**HERO KHAZALITE HOLDS INFANTRY** unit and up to 1 friendly **KHAZALITE HOLDS** **INFANTRY HERO** that are wholly within 6" of the same terrain feature and not in combat to be the targets.
-  - 効果: Remove the targets from the battlefield and set them up again wholly within 6" of a terrain feature and more than 9" from all enemy units. If there are 2 targets, you must set them up within 3" of each other. You cannot use any other **ANCESTRAL VOW** abilities for the rest of the battle round.
-- **Grimnir's Wrath Will Burn Bright!**（Once Per Battle (Army), Any Hero Phase）
-  - 宣言: Pick up to 3 friendly **DUARDIN KHAZALITE HOLDS** units to be the targets.
-  - 効果: For the rest of the battle round: • Add 1 to wound rolls for the targets’ combat attacks. • If a target is **GRIMMDRON INFANTRY**, it has **STRIKE-FIRST** if it charged in the same turn.&#x20; You cannot use any other **ANCESTRAL VOW** abilities for the rest of the battle round.
-- **By Grungni, Stand Firm!**（Once Per Battle (Army), Any Hero Phase）
-  - 宣言: Pick up to 3 friendly **DUARDIN KHAZALITE HOLDS** units to be the targets.
-  - 効果: For the rest of the battle round, while a target has not used a **CHARGE** ability this battle round, subtract 1 from the Rend characteristic of melee weapons used for attacks that target that unit. You cannot use any other **ANCESTRAL VOW** abilities for the rest of the battle round.
-- **Enlighten Us With Your Wisdom, Grombrindal!**（Once Per Battle (Army), Any Hero Phase）
-  - 効果: For the rest of the battle round: • Add 1 to casting rolls and chanting rolls for friendly **KHAZALITE HOLDS** units. • While they are wholly within 12" of a friendly **KHAZALITE** **HOLDS WIZARD** or **PRIEST**, friendly **KHAZALITE HOLDS** units have **WARD (4+)** against damage points inflicted by **SPELL** abilities, **PRAYER** abilities and abilities used by **MANIFESTATIONS**. You cannot use any other **ANCESTRAL VOW** abilities for the rest of the battle round.
+- **ソルグリムの髭にかけて！　晴らすべき宿怨があるぞ！(Thorgrim's Beard! There Are Grudges To Be Settled)**（各ターンにつき1回（アーミー）、任意のターン終了時）
+  - 効果: このターン中に自軍側ジェネラルが全滅した場合、最大3個までの味方**カザライト・ホールド**・ユニットに、それぞれ**宿怨マーク**を1つ与えることができる。 それ以外の場合、以下の効果を3つまで選択できる： • このターン中に味方**カザライト・ホールド**・ユニットが1個でも全滅した場合、味方**カザライト・ホールド**・ユニット1個に**宿怨マーク**を1つ与える。 • 敵ユニットが争奪している作戦目標を味方**クロムドロン**・ユニットが1個でも争奪中である場合、味方**カザライト・ホールド**・ユニット1個に**宿怨マーク**を1つ与える。 • 味方**グリムドロン**・ユニットで、このターン中に突撃しており、かつ近接戦闘中であり、なおかつ自身が全滅しておらず敵ユニットも全滅させていない味方ユニットが1個でもいる場合、味方**カザライト・ホールド**・ユニット1個に**宿怨マーク**を1つ与える。 • このターン中、自軍側ジェネラルに1ポイント以上のダメージが割り振られた場合、自軍側ジェネラルでない味方**カザライト・ホールド**・ユニット1個に**宿怨マーク**を1つ与える。
+- **山都の奪還(Reclaim The Karaks)**（パッシブ）
+  - 効果: 敵軍側が自軍側陣地内に一部でも入っている作戦目標を確保した直後に、味方**カザライト・ホールド**・ユニット1個に**宿怨マーク**を1個与えてもよい。 味方**カザライト・ホールド**・ユニットが『退却』アビリティを使用する際、そのアビリティが解決された直後に、その味方ユニットから**宿怨マーク**を1個取り除かねばならない（有するならば）。
+- **知らしめよ！(Let It Be Known!)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: 味方**カザライト・ホールド・英雄**を1体選択し、このアビリティを使用する。その後、選択された**英雄**の12mv以内に全体が入っており、かつその**英雄**から視認状態である**英雄**でない味方**カザライト・ホールド**・ユニットを1個選択する。
+  - 効果: 次の自軍側ターン開始時まで、その英雄でない味方ユニットは追加で1つの**宿怨マーク**を持つ。
+- **ガズルよ、死せる者を記憶したまえ！(Gazul, Remember The Fallen!)**（パッシブ）
+  - 効果: **ドゥアーディン・カザライト・ホールド**・ユニット内の兵が半分以上撃破されている間、そのユニットの近接武器は【攻撃回数】に+1の修正を受ける。 デザイナーズ・ノート：ユニット内の撃破された後に復帰した兵は、このアビリティの効果を判定する上で、撃破されている兵としてはカウントされない。
+- **ヴァラヤに栄誉あれ！(We Honour Valaya!)**（バトル中1回限り（アーミー）、任意のヒーローフェイズ）
+  - 宣言: 近接戦闘中である味方**ドゥアーディン・カザライト・ホールド**・ユニットを最大3個まで選択する。それらの味方ユニットは**ヴァラヤに祝福された**状態になる。その後、このターン中に**ヴァラヤに祝福された**ユニット1個につき、その味方ユニットと近接戦闘中である敵ユニットを1個選択する。
+  - 効果: このターン中、**ヴァラヤに祝福された**各ユニットは、それぞれD3を1個ロールする。**ヴァラヤン**・ユニットがロールする場合、代わりに3の値を使用する。味方ユニットと近接戦闘中である選択された敵ユニットは、それぞれロール結果に等しい数の致命的ダメージを受ける。その後、以下から1つを選択~~する~~==してもよい==。 • **ヴァラヤに祝福された**ユニットを**回復（X）**する。**X**の値は、ロール結果に等しい数値である。 • **ヴァラヤに祝福された**ユニットに、そのユニット内の撃破された兵を復帰させる（復帰する兵の【体力】合計が==最大で==ロール結果に等しい値になるまで）。 このバトルラウンド中、自軍はこれ以上他の**祖先の誓い**アビリティを使用することはできない。
+- **イングヒルデ、闇の中の光よ(Inghilde, Our Light In The Darkness)**（バトル中1回限り（アーミー）、任意のヒーローフェイズ）
+  - 宣言: 同一の特殊地形から6mv以内に全体が入っており、かつ近接戦闘中ではない、**英雄**でない味方**カザライト・ホールド・歩兵**・ユニットを最大1個までと、味方**カザライト・ホールド・歩兵・英雄**を最大1体まで選択する。
+  - 効果: 選択された味方ユニットを戦場から取り除き、特殊地形から6mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に再配置する。選択された味方ユニットが合計2個ならば、それらは互いに3mv以内に一部でも入るように配置されなければならない。 このバトルラウンド中、自軍はこれ以上他の**祖先の誓い**アビリティを使用することはできない。
+- **グリムニルの怒りよ、赫赫と燃え上がれ！(Grimnir's Wrath Will Burn Bright!)**（バトル中1回限り（アーミー）、任意のヒーローフェイズ）
+  - 宣言: 味方**ドゥアーディン・カザライト・ホールド**・ユニットを最大3個まで選択する。
+  - 効果: そのバトルラウンド中、 • 選択された味方ユニットのメレーアタックは、ウーンズロールに+1の修正を受ける。 • **グリムドロン・歩兵**が選択された場合、その歩兵が現在のターン中に突撃していたならば、それは『**先手効果**』を得る。 このバトルラウンド中、自軍はこれ以上他の**祖先の誓い**アビリティを使用することはできない。
+- **グルングニにかけて、踏みとどまれ！(By Grungni, Stand Firm!)**（バトル中1回限り（アーミー）、任意のヒーローフェイズ）
+  - 宣言: 味方**ドゥアーディン・カザライト・ホールド**・ユニットを最大3個まで選択する。
+  - 効果: そのバトルラウンド中、選択された味方ユニットが『**突撃**』アビリティを使用していない場合、その味方ユニットを対象とする攻撃に使用される近接武器は【貫通値】に-1の修正を受ける。 このバトルラウンド中、自軍はこれ以上他の**祖先の誓い**アビリティを使用することはできない。
+- **グロムブリンダルよ、叡智を授けたまえ！(Enlighten Us With Your Wisdom, Grombrindal!)**（バトル中1回限り（アーミー）、任意のヒーローフェイズ）
+  - 効果: このバトルラウンド終了時まで、 • 味方**カザライト・ホールド**・ユニットは、詠唱ロールと祈願ロールに+1の修正を受ける。 • 味方**カザライト・ホールド・魔術師**または**神官**の12mv以内に全体が入っている味方**カザライト・ホールド・ユニット**は、『**呪文**』アビリティや『**奇蹟**』アビリティ、そして『**顕現**』が使用するアビリティによって与えられるダメージに対して**加護（4+）**を持つ。 このバトルラウンド中、自軍はこれ以上他の**祖先の誓い**アビリティを使用することはできない。
 
 ## 戦闘陣形
 
 
 ### 炉の誓約衛兵(Hearthsworn Defenders)
 
-- **Lock Shields!**（Passive）
-  - 効果: Subtract 1 from hit rolls for shooting attacks that target friendly **KHAZALITE HOLDS** units while they are wholly within friendly territory or while every model in the unit is contesting an objective you control.
+- **盾を合わせろ！(Lock Shields!)**（パッシブ）
+  - 効果: 味方**カザライト・ホールド**・ユニットが自軍側陣地内に全体が入っている間、あるいはその味方ユニット内の各兵が自軍側が確保している作戦目標を争奪中である間、その味方ユニットを対象とするレンジアタックはヒットロールに-1の修正を受ける。
 
 ### 揺るがざる金床(Unyielding Anvil)
 
-- **Stalwart Resolve**（Passive）
-  - 効果: While an enemy unit is in combat with a friendly **KHAZALITE HOLDS** unit, subtract 1 from the number of inches that enemy unit can move when it makes a pile in move, to a minimum of 1".
+- **堅固なる意志(Stalwart Resolve)**（パッシブ）
+  - 効果: 敵ユニットが味方**カザライト・ホールド**・ユニットと近接戦闘中である間、その敵ユニットは接敵移動の距離に-1mvの修正を受ける（最小値1mv）。
 
 ### いくさ喚び(War Callers)
 
-- **Bellicose Belligerents**（Passive）
-  - 効果: Subtract 3 from the control scores of enemy units while they are in combat with any friendly **KHAZALITE HOLDS** units.
+- **溢れ出る敵愾心(Bellicose Belligerents)**（パッシブ）
+  - 効果: 敵ユニットが1個以上の味方**カザライト・ホールド**・ユニットと近接戦闘中である間、その敵ユニットは確保スコアに-3の修正を受ける。
 
 ### 旅する放浪民(Wayfarer Nomads)
 
-- **Well-Travelled Roamers**（Once Per Turn (Army), Reaction: You delcared a **RUN** or **CHARGE** ability for a **KHAZALITE HOLDS** unit）
-  - 効果: If that unit is more than 6" from all other friendly units, you can re-roll the dice that determines how far it can move.
+- **経験豊富な放浪者(Well-Travelled Roamers)**（各ターンにつき1回（アーミー）、リアクション：味方**カザライト・ホールド**・ユニットが『**全力移動**』または『**突撃**』アビリティを宣言）
+  - 効果: その味方ユニットが==他の==あらゆる味方ユニットから6mvより遠く離れている場合、その移動距離を決定するダイスを~~何個でも~~リロールできる。
 
 ## 英雄特性
 
 
-### Revered Duardin Attributes（出典: Order Battletome: Khazalite Holds）
+### 敬意受けるドゥアーディンの特徴(Revered Duardin Attributes)（出典: Order Battletome: Khazalite Holds）
 
-**HERO** only
+（**英雄**のみ）
 
-- **長い髭と編み込み髪(Long Of Beard Or Braid)**（Passive）
-  - 効果: Each time a visible friendly **KHAZALITE HOLDS** unit wholly within 12" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.
-- **内なる共鳴(Innate Resonance)**（Passive / 10pt）
-  - 効果: If this unit is not a **PRIEST**, it has **WIZARD (1)**. If this unit already has **WIZARD (1)**, it has **WIZARD (2)** instead. In addition, enemy **MANIFESTATIONS** have **STRIKE-LAST** while they are within 12" of this unit.
-- **復讐の誓い(Sworn To Vengeance)**（End of Any Turn）
-  - 効果: If any damage points were allocated to an enemy unit by attacks made with this unit’s non-**Companion** weapons this turn and that enemy unit has been destroyed, give this unit a **vengeance token**, to a maximum of 3. Until the end of the next turn, add 1 to the Attacks characteristic of this unit’s non-**Companion** melee weapons for each **vengeance token** it has.
+- **長い髭と編み込み髪(Long Of Beard Or Braid)**（パッシブ）
+  - 効果: このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**カザライト・ホールド**・ユニットが『再集結』指揮アビリティを使用する際、D6の再集結ロールを追加で3回実行できる。
+- **内なる共鳴(Innate Resonance)**（パッシブ / 10pt）
+  - 効果: このユニットが**神官**でない場合、このユニットは**魔術師（1）**を得る。このユニットがすでに**魔術師（1）**であるならば、代わりに**魔術師（2）**を得る。加えて、このユニットの12mv以内に一部でも入っている敵**顕現**は『**後手効果**』を得る。
+- **復讐の誓い(Sworn To Vengeance)**（任意のターン終了時）
+  - 効果: このターン中、このユニットが装備している**随行者**ではない武器による攻撃で、敵ユニットに1ポイント以上のダメージが割り振られており、かつその敵ユニットが全滅していた場合、このユニットに**復讐トークン**を1個与える（最大3個まで）。次のターン終了時まで、このユニットが装備している**随行者**ではない近接武器の【攻撃回数】は、保有する**復讐トークン**1個につき+1の修正を受ける。
 
 ## 神器
 
 
-### Heirlooms Of The Karaks（出典: Order Battletome: Khazalite Holds）
+### カラク伝来の品(Heirlooms Of The Karaks)（出典: Order Battletome: Khazalite Holds）
 
-**HERO** only
+（**英雄**のみ）
 
-- **ハースフレア(Hearthflares)**（Your Hero Phase）
-  - 宣言: Pick an objective within 12" of this unit to be the target.
-  - 効果: Until the start of your next turn, add 5 to the control scores of friendly **KHAZALITE HOLDS** units while they are contesting the target.
-- **炎鱗のルーンクローク(Flamescale Rune Cloak)**（Passive）
-  - 効果: Subtract 1 from hit rolls for attacks that target this unit if it has not charged this turn.
-- **深部のルーン武器(Deep-Earth Runic Weapon)**（Deployment Phase）
-  - 宣言: Pick 1 of this unit’s non-**Companion** melee weapons to be the **runic weapon**. This unit can use this ability even if it is in reserve.
-  - 効果: Add 1 to the Rend characteristic of the **runic weapon** for the rest of the battle. Then, pick 1 of the following: ***Strike a Rune***: Roll a dice. On a 3+, also add 1 to the Attacks characteristic of the **runic weapon** for the rest of the battle. ***Repeatedly Strike a Rune***: Roll a dice. On a 5+, also add 1 to the Attacks characteristic and Damage characteristic of the **runic weapon** for the rest of the battle.
+- **ハースフレア(Hearthflares)**（自軍側ヒーローフェイズ）
+  - 宣言: このユニットの12mv以内に一部でも入っている作戦目標を1個選択する。
+  - 効果: 次の自軍側ターン開始時まで、選択された作戦目標を争奪中である味方**カザライト・ホールド**・ユニットは、その確保スコアに+5の修正を受ける。
+- **炎鱗のルーンクローク(Flamescale Rune Cloak)**（パッシブ）
+  - 効果: このユニットがこのターン中に突撃していない場合、このユニットを対象とする攻撃はヒットロールに-1の修正を受ける。
+- **深部のルーン武器(Deep-Earth Runic Weapon)**（初期配置フェイズ）
+  - 宣言: このユニットの**随行者**ではない近接武器を1個選択し、それを**ルーン武器**とする。このユニットは、予備戦力内にいる場合でもこのアビリティを使用できる。
+  - 効果: このバトル中、その**ルーン武器**は【貫通値】に+1の修正を受ける。その後、以下から1つ選択する： **ルーンを打つ：**ダイスを1個ロールする。ロール結果が3+であれば、このバトル中、さらにその**ルーン武器**の【攻撃回数】も+1の修正を受ける。 **繰り返しルーンを打つ：**ダイスを1個ロールする。ロール結果が5+であれば、このバトル中、さらにその**ルーン武器**の【==攻撃回数】と【==ダメージ量】も+1の修正を受ける。
 
 ## その他の強化
 
@@ -117,15 +117,15 @@ Khazalite Holds armies can use the following abilities:
 
 ### 祖神の暗誦(Ancestor God Recitations)（10pt）
 
-- **Recitation To Gazul**（Your Hero Phase / 詠唱/詠誦値 4）
-  - 宣言: Pick a friendly **KHAZALITE HOLDS PRIEST** to chant this prayer, then make a chanting roll of D6.
-  - 効果: Until the start of your next turn, enemy units and enemy **MANIFESTATIONS** cannot be set up within 12" of the chanter. If the chanting roll was 9+, enemy units and enemy **MANIFESTATIONS** cannot be set up within 18" of the chanter instead.
-- **Recitation To Valaya**（Your Hero Phase / 詠唱/詠誦値 4）
-  - 宣言: Pick a friendly **KHAZALITE HOLDS PRIEST** to chant this prayer, pick a visible friendly **KHAZALITE HOLDS** unit wholly within 12" of them to be the target, then make a chanting roll of D6.
-  - 効果: If the chanting roll was 8+, you can pick another eligible unit to be a second target. Subtract 1 from wound rolls for attacks that target those friendly units until the start of your next turn.
-- **Recitation To Grimnir**（Your Hero Phase / 詠唱/詠誦値 5）
-  - 宣言: Pick a friendly **KHAZALITE HOLDS PRIEST** to chant this prayer, pick a visible enemy unit within 18" of them to be the target, then make a chanting roll of D6.
-  - 効果: Until the start of your next turn, each time the target uses a **CORE** ability, after that ability has been resolved, inflict 1 mortal damage on the target or, if the chanting roll was 10+, inflict D3 mortal damage on the target instead.
+- **ガズルの暗誦(Recitation To Gazul)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 4）
+  - 宣言: この奇蹟を祈願する際、味方**カザライト・ホールド・神官**を1体選択し、D6の祈願ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、敵ユニットや敵**顕現**を祈願者の12mv以内に一部でも入るように配置することはできない。祈願ロールが9+であった場合、代わりに敵ユニットや敵**顕現**を祈願者の18mv以内に一部でも入るように配置することはできない。
+- **ヴァラヤの暗誦(Recitation To Valaya)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 4）
+  - 宣言: この奇蹟を祈願する際、味方**カザライト・ホールド・神官**を1体選択する。その後、選択された神官の12mv以内に全体が入っており、かつその神官から視認状態である味方**カザライト・ホールド**・ユニットを1個選択し、D6の祈願ロールをする。
+  - 効果: 祈願ロールが8+であった場合、選択可能な味方ユニットを追加でもう1個選択してもよい。次の自軍側ターン開始時まで、選択された味方ユニットを対象とする攻撃はウーンズロールに-1の修正を受ける。
+- **グリムニルの暗誦(Recitation To Grimnir)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 5）
+  - 宣言: この奇蹟を祈願する際、味方**カザライト・ホールド・神官**を1体選択する。その後、選択された神官の18mv以内に一部でも入っており、かつその神官から視認状態である敵ユニットを1個選択し、D6の祈願ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、選択された敵ユニットが『**コア**』アビリティを使用する際、そのアビリティが解決された直後に、その敵ユニットは1ポイントの致命的ダメージを受ける。祈願ロールが10+であった場合、代わりにその敵ユニットはD3ポイントの致命的ダメージを受ける。
 
 ### 溶岩の奇蹟(Magmic Invocations)
 
@@ -141,27 +141,27 @@ Khazalite Holds armies can use the following abilities:
 
 ### ルーンの共鳴(Resonance Of The Runes)（10pt）
 
-- **Rune Of Might**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: Pick a friendly **KHAZALITE HOLDS WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: Until the start of your next turn, add 1 to the Rend characteristic of melee weapons used by friendly **KHAZALITE HOLDS** units while they are within 3" of the caster.
-- **Rune Of Sanctuary**（Your Hero Phase / 詠唱/詠誦値 7）
-  - 宣言: Pick a friendly **KHAZALITE HOLDS WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: Until the start of your next turn, while they are wholly within 12" of the caster, friendly **KHAZALITE HOLDS** units are not visible to enemy units more than 12" from them.
-- **Rune Of Warding**（Your Hero Phase / 詠唱/詠誦値 7）
-  - 宣言: Pick a friendly **KHAZALITE HOLDS WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: Until the start of your next turn, while they are within 12" of the caster, attacks made by enemy units cannot score critical hits (treat them as regular hits instead).
+- **力のルーン(Rune Of Might)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: この呪文を詠唱する際、味方**カザライト・ホールド・魔術師**を1体選択し、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、詠唱者の3mv以内に一部でも入っている味方**カザライト・ホールド**・ユニットが使用する近接武器は【貫通値】に+1の修正を受ける。
+- **聖域のルーン(Rune Of Sanctuary)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 7）
+  - 宣言: この呪文を詠唱する際、味方**カザライト・ホールド・魔術師**を1体選択し、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、詠唱者の12mv以内に全体が入っている味方**カザライト・ホールド**・ユニットは、自身から12mvより遠く離れた敵ユニットから視認されなくなる。
+- **結界のルーン(Rune Of Warding)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 7）
+  - 宣言: この呪文を詠唱する際、味方**カザライト・ホールド・魔術師**を1体選択し、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、詠唱者の12mv以内に一部でも入っている敵ユニットの攻撃からはクリティカルヒットが発生しない（通常のヒットとして扱う）。
 
 ### ルーンの残響(Reverberations Of The Runes)（20pt）
 
-- **Rune Of Courage**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: Pick a friendly **KHAZALITE HOLDS WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: Until the start of your next turn, you can re-roll charge rolls for friendly **KHAZALITE HOLDS** units while they are wholly within 12" of the caster.
-- **Rune Of Dismay**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: Pick a friendly **KHAZALITE HOLDS WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: Until the start of your next turn, subtract 1 from the Attacks characteristic of melee weapons used by enemy units while they are within 6" of the caster.
-- **Rune Of The Furnace**（Your Hero Phase / 詠唱/詠誦値 8）
-  - 宣言: Pick a friendly **KHAZALITE HOLDS WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: Inflict D3 mortal damage on each visible enemy unit within 12" of the caster.
+- **勇気のルーン(Rune Of Courage)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: この呪文を詠唱する際、味方**カザライト・ホールド・魔術師**を1体選択し、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、詠唱者の12mv以内に全体が入っている味方**カザライト・ホールド・~~歩兵**・~~ユニットは、その突撃ロールをリロールできる。
+- **失意のルーン(Rune Of Dismay)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: この呪文を詠唱する際、味方**カザライト・ホールド・魔術師**を1体選択し、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、詠唱者の6mv以内に一部でも入っている敵ユニットの近接武器は【攻撃回数】に-1の修正を受ける。
+- **炉のルーン(Rune Of The Furnace)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 8）
+  - 宣言: この呪文を詠唱する際、味方**カザライト・ホールド・魔術師**を1体選択し、2D6の詠唱ロールをする。
+  - 効果: 詠唱者の12mv以内に一部でも入っており、かつその詠唱者から視認状態である各敵ユニットは、それぞれD3ポイントの致命的ダメージを受ける。
 
 ### ヴルキンの恩寵(Vulkyn Gifts)（出典: Scourge of Aqshy: Khazalite Holds）
 

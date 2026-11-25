@@ -1,4 +1,4 @@
-# Valankrom's War Throng ファクションルール
+# ヴァランクロムの総軍(Valankrom's War Throng) ファクションルール
 
 出典: Warhammer Age of Sigmar 公式アプリ (com.gamesworkshop.aos4) / アプリ版 1.40.0 build 91 / dump.json data_version 499 / 抽出 2026-11-19
 
@@ -6,59 +6,59 @@
 ## 戦闘特性
 
 
-### Valankrom's War Throng Battle Traits（出典: Army of Renown: Valankrom's War Throng）
+### 戦闘特性(Valankrom's War Throng Battle Traits)（出典: Army of Renown: Valankrom's War Throng）
 
-- **Venerated Sentinels**（Once Per Battle (Army), Deployment Phase）
-  - 宣言: Pick a visible friendly **GHOLEM** unit within 3" of the friendly **High Kyng Valankrom** to be the **venerated sentinels**.
-  - 効果: For the rest of the battle: • While the friendly **venerated sentinels** are within the friendly **High Kyng Valankrom’s** combat range, both those units have **WARD (5+)**. • Add 1 to hit rolls for the friendly **venerated sentinels**’ attacks that target an enemy unit in combat with the friendly **High Kyng Valankrom**.
-- **The Audacity!**（Once Per Turn (Army), End of Any Turn）
-  - 宣言: Pick each enemy unit that used an ability that inflicted any damage on the friendly **High Kyng Valankrom** this turn to be the targets.
-  - 効果: Each target is a **wrongdoer** for the rest of the battle.
-- **Grudgebearing High Kyng**（Deployment Phase）
-  - 宣言: Pick up to D3 enemy units that are visible to the friendly **High Kyng Valankrom** to be the targets.
-  - 効果: Each target is a **wrongdoer** for the rest of the battle.
-- **Remember Their Perfidy**（Passive）
-  - 効果: Friendly **VALANKROM’S WAR THRONG** units are treated as having 1 **grudge mark** while they are in combat with an enemy **wrongdoer**.
-- **Dreng Tromm!**（Passive）
-  - 効果: If the friendly **High Kyng Valankrom** has been destroyed, add 1 to the Attacks characteristic of friendly **VALANKROM’S WAR THRONG** units’ melee weapons for the rest of the battle.
-- **Hold Them to Account for Their Misdeeds**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: Pick an enemy unit within 12" of and visible to the friendly **High Kyng Valankrom** to be the target.
-  - 効果: The target is a **wrongdoer** for the rest of the battle.
-- **Time for a Reckoning**（Once Per Battle (Army), Your Shooting Phase）
-  - 宣言: Pick a friendly **VALANKROM’S WAR THRONG** unit to be the target.
-  - 効果: For the rest of the phase, the target is treated as having 1 **grudge mark** but can only pick enemy **wrongdoer** units to be the targets of its shooting attacks.
+- **敬意受ける衛兵(Venerated Sentinels)**（バトル中1回限り（アーミー）、初期配置フェイズ）
+  - 宣言: 味方**至高王ヴァランクロム**の3mv以内に一部でも入っており、かつそのヴァランクロムから視認状態である味方**ゴーレム**を1個選択し、**敬意受ける衛兵**とする。
+  - 効果: 以降バトル終了時まで、 • 味方**敬意受ける衛兵**が味方**至高王ヴァランクロム**の近接範囲内に一部でも入っている間、それらのユニットはいずれも**加護（5+）**を持つ。 • 味方**至高王ヴァランクロム**と近接戦闘中である敵ユニットを対象とする**敬意受ける衛兵**の攻撃は、ヒットロールに+1の修正を受ける。
+- **不遜なり！(The Audacity!)**（各ターンにつき1回（アーミー）、任意のターン終了時）
+  - 宣言: このターン中、アビリティを使用して味方**至高王ヴァランクロム**に1ポイントでもダメージを与えた各敵ユニットを選択する。
+  - 効果: 以降バトル終了時まで、選択された各敵ユニットは**過ち犯したる者**となる。
+- **宿怨抱く至高王(Grudgebearing High Kyng)**（初期配置フェイズ）
+  - 宣言: 味方**至高王ヴァランクロム**から視認状態である敵ユニットを最大D3個まで選択する。
+  - 効果: 以降バトル終了時まで、選択された各敵ユニットは**過ち犯したる者**となる。
+- **奴らの不実を忘れるな(Remember Their Perfidy)**（パッシブ）
+  - 効果: 味方**ヴァランクロムの総軍**・ユニットは、敵**過ち犯したる者**と近接戦闘中である間、**宿怨マーク**を1個持つものとして扱われる。
+- **ドレング・トロム！(Dreng Tromm!)**（パッシブ）
+  - 効果: 味方**至高王ヴァランクロム**が全滅した場合、このバトル中、味方**ヴァランクロムの総軍**・ユニットが装備している近接武器は【攻撃回数】に+1の修正を受ける。
+- **悪行の報いを受けさせよ(Hold Them to Account for Their Misdeeds)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: 味方**至高王ヴァランクロム**の12mv以内に一部でも入っており、かつその至高王ヴァランクロムから視認状態である敵ユニットを1個選択する。
+  - 効果: 以降バトル終了時まで、選択された敵ユニットは**過ち犯したる者**となる。
+- **清算の時来たれり(Time for a Reckoning)**（バトル中1回限り（アーミー）、自軍側遠隔フェイズ）
+  - 宣言: 味方**ヴァランクロムの総軍**・ユニットを1個選択する。
+  - 効果: そのフェイズ中、選択された味方ユニットは**宿怨マーク**を1個持つものとして扱われるが、自身のレンジアタックの対象として選択できるのは敵**過ち犯したる者**・ユニットだけである。
 
 ## 英雄特性
 
 
-### Valankrom's War Throng Heroic Trait（出典: Army of Renown: Valankrom's War Throng）
+### 英雄特性(Valankrom's War Throng Heroic Trait)（出典: Army of Renown: Valankrom's War Throng）
 
-(**HERO** only)
+（**英雄**のみ）
 
-- **Honour-Bound and Fearless**（Passive）
-  - 効果: Add 1 to charge rolls for friendly **VALANKROM’S WAR THRONG** units while they are wholly within 12" of and visible to this unit.
+- **誉れ高く恐れ知らず(Honour-Bound and Fearless)**（パッシブ）
+  - 効果: このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**ヴァランクロムの総軍**・ユニットは、突撃ロールに+1の修正を受ける。
 
 ## 神器
 
 
-### Valankrom's War Throng Artefacts of Power（出典: Army of Renown: Valankrom's War Throng）
+### 神器(Valankrom's War Throng Artefacts of Power)（出典: Army of Renown: Valankrom's War Throng）
 
-(**HERO** only)
+（**英雄**のみ）
 
-- **Grombrindalian Pipe**（Once Per Battle (Army), Any Combat Phase）
-  - 効果: This unit has **STRIKE-FIRST** for the rest of the turn.
+- **グロムブリンダルの煙管(Grombrindalian Pipe)**（バトル中1回限り（アーミー）、任意の近接フェイズ）
+  - 効果: このターン中、このユニットは**『先手効果』**を得る。
 
 ## 伝承（呪文・奇蹟・顕現）
 
 
-### Valankrom's War Throng Spell Lore
+### 呪文伝承(Valankrom's War Throng Spell Lore)
 
-- **Rune of Banishment**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: Pick a friendly **VALANKROM’S WAR THRONG WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: Until the start of your next turn: • Subtract 1 from casting rolls, chanting rolls and unbinding rolls for enemy units while they are within 12" of this unit. • Add 1 to the number of dice rolled when making banishment rolls for friendly units while they are wholly within 12" of this unit, to a maximum of 3.
-- **Rune of Upheaval**（Your Hero Phase / 詠唱/詠誦値 6）
-  - 宣言: Pick a friendly **VALANKROM’S WAR THRONG WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: Until the start of your next turn, each time a visible enemy unit within 12" of the caster uses a command, roll a dice as a reaction. On a 6+, that command has no effect, it counts as having been used and the command points spent to use the command are still lost.
-- **Rune of Vigour**（Your Hero Phase / 詠唱/詠誦値 7）
-  - 宣言: Pick a friendly **VALANKROM’S WAR THRONG WIZARD** to cast this spell, then make a casting roll of 2D6.
-  - 効果: Until the start of your next turn, add 2" to the Move characteristic of visible friendly **VALANKROM’S WAR THRONG** units while they are wholly within 12" of the caster.
+- **追放のルーン(Rune of Banishment)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: この呪文を詠唱する際に、味方**ヴァランクロムの総軍・魔術師**を1体選択した後、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、 • このユニットの12mv以内に一部でも入っている敵ユニットは、詠唱ロール、祈願ロール、打ち消しロールに-1の修正を受ける。 • このユニットの12mv以内に全体が入っている味方ユニットが追放ロールをする場合、用いられるダイスは1個加算される（ダイス個数は最大3個まで）。
+- **激動のルーン(Rune of Upheaval)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 6）
+  - 宣言: この呪文を詠唱する際に、味方**ヴァランクロムの総軍・魔術師**を1体選択した後、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、詠唱者の12mv以内に~~全体が~~==一部でも==入っており、かつその詠唱者から視認状態である敵ユニットが指揮アビリティを使用するたびに、リアクションとしてダイスを1個ロールする。ロール結果が6+であれば、その指揮アビリティは効果を発揮しない。指揮アビリティは依然として使用されたものとみなされ、その指揮アビリティを使用するために消費した指揮ポイントも失われる。
+- **活力のルーン(Rune of Vigour)**（自軍側ヒーローフェイズ / 詠唱/詠誦値 7）
+  - 宣言: この呪文を詠唱する際に、味方**ヴァランクロムの総軍・魔術師**を1体選択した後、2D6の詠唱ロールをする。
+  - 効果: 次の自軍側ターン開始時まで、詠唱者の12mv以内に全体が入っており、その詠唱者から視認状態である味方**ヴァランクロムの総軍**・ユニットは、【移動力】に+2mvの修正を受ける。

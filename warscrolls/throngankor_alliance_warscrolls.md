@@ -277,13 +277,13 @@
 
 **アビリティ:**
 
-- **父なる焔のルーン(Masterflame Rune)**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: Pick a visible friendly **GRIMMDRON INFANTRY** unit wholly within 12" of this unit to be the target. Then, make a Masterflame rune roll by rolling a dice.
-  - 効果: On a 1, or if the roll is equal to or less than the number of friendly **KHAZALITE HOLDS** units that have been destroyed during the battle, pick 1 of the following effects to apply until the start of your next turn: ***Grimnir’s Grit:*** The target has **WARD (5+)**. ***Grimnir’s Resolve:*** You can re-roll charge rolls for the target. ***Grimnir’s Vengeance:*** Add 1 to the Damage characteristic of the target’s melee weapons.
-- **Fire-Fuelled Anger**（Passive）
-  - 効果: Subtract 2 from Masterflame rune rolls for this unit while it has any **grudge marks**.
-- **Relight The Fire**（Passive）
-  - 効果: If this unit is destroyed, before removing it from play, give each visible friendly **GRIMMDRON** unit within 6" of it 1 **grudge mark**.
+- **大炎のルーン(Masterflame Rune)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**グリムドロン・歩兵**・ユニットを1個選択する。その後、ダイス1個で大炎のルーンロールをする。
+  - 効果: ロール結果が1の場合、あるいはこのバトル中に全滅した**~~ファイアスレイヤー~~==味方カザライト・ホールド==**・ユニット数以下である場合、以下の中から効果を1つ選択し、次の自軍側ターン開始時まで適用する。 • **グリムニルの気迫：**選択された味方ユニットは**加護（5+）**を持つ。 • **グリムニルの決意：**選択された味方ユニットの突撃ロールをリロールできる。 • **グリムニルの報復：**選択された味方ユニットが装備している近接武器は【ダメージ量】に+1の修正を受ける。
+- **火の灯る怒り(Fire-Fuelled Anger)**（パッシブ）
+  - 効果: このユニットが**宿怨マーク**を1個でも持つ間、このユニットによる大炎のルーンロールは-2の修正を受ける。
+- **再点火(Relight The Fire)**（パッシブ）
+  - 効果: このユニットが全滅した場合、そのユニットをゲームから取り除く前に、このユニットから6mv以内に一部でも入っており、かつこのユニットから視認状態である各味方**グリムドロン**・ユニットに、それぞれ**宿怨マーク**を1個与える。
 
 **連隊オプション:**
 
@@ -319,11 +319,11 @@
 
 **アビリティ:**
 
-- **溶岩弾(Molten Rockbolts)**（Once Per Turn (Army), Any Shooting Phase）
-  - 宣言: Pick an enemy unit that had any damage points allocated to it this turn by this unit’s shooting attacks to be the target.
-  - 効果: Subtract 1 from hit rolls for the target’s attacks until the start of your next turn.
-- **Focused Ire**（Passive）
-  - 効果: Add 1 to hit rolls for this unit’s shooting attacks while it has any **grudge marks**.
+- **溶岩弾(Molten Rockbolts)**（各ターンにつき1回（アーミー）、任意の遠隔フェイズ）
+  - 宣言: このターン中、このユニットのレンジアタックによって1ポイント以上のダメージを割り振られた敵ユニットを1個選択する。
+  - 効果: 次の自軍側ターン開始時まで、選択された敵ユニットの攻撃はヒットロールに-1の修正を受ける。
+- **集中的憤怒(Focused Ire)**（パッシブ）
+  - 効果: このユニットが**宿怨マーク**を1個でも持つ間、このユニットのレンジアタックはヒットロールに+1の修正を受ける。
 
 **キーワード:** 歩兵、豪傑、加護（6+）、秩序の大同盟、カザライト・ホールド、ドゥアーディン、グリムドロン（Infantry, Champion, Ward (6+), Order, Khazalite Holds, Duardin, Grimmdron）
 
@@ -349,11 +349,11 @@
 
 **アビリティ:**
 
-- **王家の近衛(Royal Retinue)**（Once Per Battle (Army), Deployment Phase）
-  - 宣言: Pick a friendly non-**HERO GRIMMDRON INFANTRY** unit within this unit’s combat range to be the **royal retinue**.
-  - 効果: For the rest of the battle, while the **royal retinue** is wholly within 6" of and visible to this unit: • Add 1 to hit rolls for the **royal retinue’s** attacks. • This unit has **WARD (4+)**.
-- **威厳ある存在感(Commanding Presence)**（Passive）
-  - 効果: While this unit has any **grudge marks**, the **royal retinue** has **WARD (4+)** while it is wholly within 6" of this unit.
+- **王家の近衛(Royal Retinue)**（バトル中1回限り（アーミー）、初期配置フェイズ）
+  - 宣言: このユニットの近接範囲内に一部でも入っている、**英雄**でない味方**グリムドロン・歩兵**・ユニットを1個選択し、**王家の近衛**とする。
+  - 効果: 以降バトル終了時まで、**王家の近衛**がこのユニットの6mv以内に全体が入っており、かつこのユニットから視認状態である間、 • **王家の近衛**の攻撃は、ヒットロールに+1の修正を受ける。 • このユニットは**加護（4+）**を持つ。
+- **傑出した存在感(Commanding Presence)**（パッシブ）
+  - 効果: このユニットが**宿怨マーク**を1個でも持つ間、このユニットの6mv以内に全体が入っている**~~王家の衛兵~~==王家の近衛==**は**加護（4+）**を持つ。
 
 **連隊オプション:**
 
@@ -393,14 +393,14 @@
 **アビリティ:**
 
 - **猛炎の血(Volcanic Blood)**（パッシブ）
-  - 効果: このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。
+  - 効果: このユニットを対象とするメレーアタックのセーブロールで修正前の出目1が出るたびに、その『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。
 - **バトルダメージ(Battle Damaged)**（パッシブ）
-  - 効果: このユニットが10ポイント以上のダメージを受けている場合、このユニットが装備している**マグマドロスの顎、鉤爪、角**の【攻撃回数】は4になる。
+  - 効果: このユニットが10ポイント以上のダメージを受けている場合、自身が装備している**マグマドロスの顎、鉤爪、角**の【攻撃回数】は4になる。
 - **荒れ狂う業火(Raging Inferno)**（各ターンにつき1回（アーミー）、任意の近接フェイズ） ［蹂躙］
   - 宣言: このユニットと近接戦闘中である敵ユニットを1個選択する。
-  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットのセーブロールは-1の修正を受ける。
-- **ロッジの主(Warrior-Kings)**（Once Per Battle (Army), Your Combat Phase）
-  - 効果: For the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **GRIMMDRON** units while they are wholly within 12" of this unit. If this unit has any **grudge marks**, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by the following visible friendly units while they are wholly within 12" of this unit instead: • **GRIMMDRON** units • **KROMDRON INFANTRY** units
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットの~~加護ロール~~==セーブロール==は-1の修正を受ける。
+- **戦士王(Warrior-Kings)**（バトル中1回限り（アーミー）、自軍側近接フェイズ）
+  - 効果: このターン中、このユニットの12mv以内に全体が入っている味方**グリムドロン**・ユニットが使用する近接武器は【攻撃回数】に+1の修正を受ける。 このユニットが**宿怨マーク**を1個でも持つ場合、このターン中、代わりにこのユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である下記の==味方==ユニットの近接武器は【攻撃回数】に+1の修正を受ける。 • **グリムドロン**・ユニット • **クロムドロン・歩兵**・ユニット
 
 **連隊オプション:**
 
@@ -469,11 +469,11 @@
 
 **アビリティ:**
 
-- **Righteous Wrath**（Passive）
-  - 効果: Add 1 to chanting rolls for this unit while it has any **grudge marks**.
-- **Magmic Passage**（Once Per Turn (Army), Your Movement Phase）
-  - 宣言: Pick a visible friendly **GRIMMDRON INFANTRY** unit wholly within 12" of this unit to be the target.
-  - 効果: Roll a dice. On a 3+, add 2" to the target’s Move characteristic until the start of your next turn.
+- **義憤(Righteous Wrath)**（パッシブ）
+  - 効果: このユニットが**宿怨マーク**を1個でも持つ間、このユニットは祈願ロールに+1の修正を受ける。
+- **マグマの掘削(Magmic Passage)**（各ターンにつき1回（アーミー）、自軍側移動フェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**グリムドロン・歩兵**・ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された味方ユニットは【移動力】に+2mvの修正を受ける。
 
 **連隊オプション:**
 
@@ -508,17 +508,17 @@
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
 | 掛金の斧(Latch-axe) | 4 | 3+ | 3+ | 1 | 2 | - |
-| Magmadroth’s Maw, Claws and Horns（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | 随行者(Companion) |
+| マグマドロスの顎、鉤爪、角(Magmadroth’s Maw, Claws and Horns)（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | 随行者(Companion) |
 
 **アビリティ:**
 
-- **バトルダメージ(Battle Damaged)**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Maw, Claws and Horns** is 4.
+- **バトルダメージ(Battle Damaged)**（パッシブ）
+  - 効果: このユニットが10ポイント以上のダメージを受けている場合、自身が装備している**マグマドロスの顎、鉤爪、角**の【攻撃回数】は4になる。
 - **猛炎の血(Volcanic Blood)**（パッシブ）
-  - 効果: このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。
-- **ルーン強化(Runic Empowerment)**（Once Per Turn (Army), Your Hero Phase）
-  - 宣言: Pick a visible friendly **GRIMMDRON** unit wholly within 12" of this unit to be the target. If this unit has any **grudge marks**, pick a visible friendly **KHAZALITE HOLDS** unit wholly within 12" of this unit to be the target instead.
-  - 効果: Roll a dice. On a 3+, add 1 to wound rolls for the target’s combat attacks for the rest of the turn.
+  - 効果: このユニットを対象とするメレーアタックのセーブロールで修正前の出目1が出るたびに、その『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。
+- **ルーン強化(Runic Empowerment)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**グリムドロン**・ユニットを1個選択する。このユニットが**宿怨マーク**を1個でも持つ場合、代わりにこのユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**カザライト・ホールド**・ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された味方ユニットのメレーアタックはウーンズロールに+1の修正を受ける。
 - **叩きつける尾(Lashing Tail)**（各ターンにつき1回（アーミー）、任意の近接フェイズ） ［蹂躙］
   - 宣言: このユニットと近接戦闘中である敵ユニットを1個選択する。
   - 効果: 2D6をロールする。ロール結果が選択された敵ユニットの兵数以下である場合、選択された敵ユニットはD3+3ポイントの致命的ダメージを受ける。
@@ -553,10 +553,10 @@
 
 **アビリティ:**
 
-- **恐れ無き突進(Fearless Charge)**（Passive）
-  - 効果: Add 1 to charge rolls for visible friendly **KHAZALITE HOLDS INFANTRY** units while they are wholly within 12" of this unit. While this unit has any **grudge marks**, add 2 to charge rolls for visible friendly **KHAZALITE HOLDS INFANTRY** units while they are wholly within 12" of this unit instead.
-- **揺るぎなき強襲(Dauntless Assault)**（Reaction: You declared a **FIGHT** ability for this unit or a non-**HERO GRIMMDRON INFANTRY** unit within 3" of this unit）
-  - 効果: If you declared a **FIGHT** ability for this unit, pick a friendly non-**HERO GRIMMDRON INFANTRY** unit that has not used a **FIGHT** ability this turn, is within this unit’s combat range and is visible to this unit to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn. If you declared a **FIGHT** ability for a friendly non-**HERO GRIMMDRON INFANTRY** unit, if this unit has not used a **FIGHT** ability this turn, it can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by the friendly non-**HERO GRIMMDRON INFANTRY** unit has been resolved. If it is picked to do so, add 1 to hit rolls for this unit’s attacks for the rest of the turn. **Designer’s Note**: *This ability lets another friendly unit fight immediately after this unit or lets this unit fight immediately after that other friendly unit. Add 1 to hit rolls for whichever of those two units fights after the first.*
+- **恐れ無き突進(Fearless Charge)**（パッシブ）
+  - 効果: このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**カザライト・ホールド・歩兵**・ユニットは、突撃ロールに+1の修正を受ける。このユニットが**宿怨マーク**を1個でも持つ場合、代わりにこのユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**カザライト・ホールド・歩兵**・ユニットは、突撃ロールに+2の修正を受ける。
+- **揺るぎなき強襲(Dauntless Assault)**（リアクション：このユニットもしくは、このユニットの3mv以内に一部でも入っている英雄でない味方グリムドロン・歩兵・ユニットが『近接攻撃』アビリティを宣言）
+  - 効果: このユニットが『**近接攻撃**』アビリティを宣言した場合、このユニットの近接範囲内に一部でも入っており、かつこのユニットから視認状態である、このターン中に『**近接攻撃**』アビリティを使用していない英雄でない==味方==**グリムドロン・歩兵**・ユニットを1個選択する。このユニットの『**近接攻撃**』アビリティが解決された直後に、選択された味方ユニットはただちに『**近接攻撃**』アビリティを使用できる。その味方ユニットが『近接攻撃』アビリティを使用した場合、そのターン中、その味方ユニットの攻撃はヒットロールに+1の修正を受ける。 英雄でない味方**グリムドロン・歩兵**・ユニットが『**近接攻撃**』アビリティを宣言した場合、このユニットがこのターン中に『**近接攻撃**』アビリティを使用していなければ、その英雄でない味方**グリムドロン・歩兵**・ユニットが使用した『**近接攻撃**』アビリティを解決した直後に、このユニットはただちに『**近接攻撃**』アビリティを使用できる。このユニットが『近接攻撃』アビリティを使用した場合、そのターン中、このユニットの攻撃はヒットロールに+1の修正を受ける。 デザイナーズノート：このアビリティによって、このユニットが近接攻撃を実行した直後に、他の味方ユニットが近接攻撃できるようになる。あるいは他の味方ユニットが近接攻撃を実行した直後に、このユニットが近接攻撃できるようになる。これら2つのユニットのうち、後から近接攻撃をする方のヒットロールは+1の修正を受ける。
 
 **連隊オプション:**
 
@@ -590,20 +590,20 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Magmadroth’s Maw, Claws and Horns（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | 随行者(Companion) |
+| マグマドロスの顎、鉤爪、角(Magmadroth’s Maw, Claws and Horns)（戦傷時） | 6 | 4+ | 2+ | 2 | 3 | 随行者(Companion) |
 | 父祖の武器(Ancestral Weapons) | 5 | 3+ | 3+ | 1 | 2 | 対大型獣（+1貫通値）(Anti-MONSTER (+1 Rend)) |
 
 **アビリティ:**
 
 - **猛炎の血(Volcanic Blood)**（パッシブ）
-  - 効果: このユニットを対象としたメレーアタックのセーブロールで修正前の出目1が出た場合、『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。
-- **Calamitous Crash**（Once Per Turn (Army), Any Combat Phase） ［Rampage］
-  - 宣言: Pick an enemy unit in combat with this unit to be the target.
-  - 効果: Roll a dice. On a 3+, roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on that unit.
-- **Packdroth**（Once Per Turn (Army), Reaction: You declared a **MOVE** ability for this unit in your movement phase）
-  - 効果: Pick a visible friendly **GRIMMDRON INFANTRY** unit that is wholly within 6" of this unit, is not in combat and has not been set up this turn to be the target. Remove the target from the battlefield. After this unit ends its move, you must set up the target wholly within 6" of this unit and not in combat. Unless this unit has any **grudge marks**, the target cannot use **CHARGE** abilities for the rest of the turn.
-- **バトルダメージ(Battle Damaged)**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Maw, Claws and Horns** is 4.
+  - 効果: このユニットを対象とするメレーアタックのセーブロールで修正前の出目1が出るたびに、その『**近接攻撃**』アビリティが解決された直後に、攻撃側ユニットは1ポイントの致命的ダメージを受ける。
+- **崩壊撃(Calamitous Crash)**（各ターンにつき1回（アーミー）、任意の近接フェイズ） ［蹂躙］
+  - 宣言: このユニットと近接戦闘中である敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、選択された敵ユニット内にいる各兵に対して、それぞれダイスを1個ロールする。ロール結果で5+が出るたびに、その敵ユニットは1ポイントの致命的ダメージを受ける。
+- **輸送ドロス(Packdroth)**（各ターンにつき1回（アーミー）、リアクション：自軍側移動フェイズ中、このユニットが『移動』アビリティを宣言）
+  - 効果: このユニットの6mv以内に全体が入っており、かつ==この==ターン中に配置されたばかりではない、このユニットから視認状態である近接戦闘中ではない味方**グリムドロン・歩兵**・ユニットを1個選択する。選択された味方ユニットを戦場から取り除く。このユニットが移動を完了した直後に、このユニットの6mv以内に全体が入るように、かつ近接戦闘に突入しないように、選択された味方ユニットを配置しなければならない。このユニットが**宿怨マーク**を持たない場合、そのターン中、選択された味方ユニットは『**突撃**』アビリティを使用できない。
+- **バトルダメージ(Battle Damaged)**（パッシブ）
+  - 効果: このユニットが10ポイント以上のダメージを受けている場合、自身が装備している**マグマドロスの顎、鉤爪、角**の【攻撃回数】は4になる。
 
 **連隊オプション:**
 
@@ -742,23 +742,23 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Thrundok Rifle | 18" | 2 | 3+ | 4+ | 1 | 1 | - |
+| スランドック・ライフル(Thrundok Rifle) | 18" | 2 | 3+ | 4+ | 1 | 1 | - |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Rifle Butt | 1 | 4+ | 4+ | - | 1 | - |
+| ライフル銃床(Rifle Butt) | 1 | 4+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Thrundok Hail**（Once Per Turn (Army), Any Shooting Phase）
-  - 宣言: Pick an enemy unit that had any damage points allocated to it this turn by this unit’s shooting attacks to be the target.
-  - 効果: Roll a dice. Add 1 to the roll if the target is **CAVALRY** or has **FLY**. Add 2 to the roll instead if the target is a **MONSTER**. On a 4+, halve the target’s Move characteristic until the start of your next turn.
-- **Settled With A Bullet**（Passive）
-  - 効果: Add 1 to wound rolls for this unit’s shooting attacks while it has any **grudge marks**.
+- **スランドックの雨霰(Thrundok Hail)**（各ターンにつき1回（アーミー）、任意の遠隔フェイズ）
+  - 宣言: このターン中、このユニットのレンジアタックによって1ポイント以上のダメージを割り振られた敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。選択された敵ユニットが**騎兵**や**飛行**を持つ場合、ロールは+1の修正を受ける。その敵ユニットが**大型獣**を持つならば、ロールは代わりに+2の修正を受ける。ロール結果が4+であれば、次の自軍側ターン開始時まで、選択された敵ユニットの【移動力】は半減する。
+- **弾丸による解決(Settled With A Bullet)**（パッシブ）
+  - 効果: このユニットが**宿怨マーク**を1個でも持つ間、このユニットのレンジアタックはウーンズロールに+1の修正を受ける。
 
-**キーワード:** 歩兵、豪傑、楽士（1/10）、Standard Bearer (1/10)、秩序の大同盟、カザライト・ホールド、ドゥアーディン、クロムドロン（Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Order, Khazalite Holds, Duardin, Kromdron）
+**キーワード:** 歩兵、豪傑、楽士（1/10）、旗手（1/10）、秩序の大同盟、カザライト・ホールド、ドゥアーディン、クロムドロン（Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Order, Khazalite Holds, Duardin, Kromdron）
 
 ---
 
@@ -776,23 +776,23 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Thrundrin Shotcannon | 12" | 2 | 3+ | 3+ | - | 1 | Crit (Auto-wound) |
+| スランドリン・ショットキャノン(Thrundrin Shotcannon) | 12" | 2 | 3+ | 3+ | - | 1 | クリティカル（自動ウーンズ）(Crit (Auto-wound)) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Shotcannon Butt | 1 | 4+ | 4+ | - | 1 | - |
+| ショットキャノン銃床(Shotcannon Butt) | 1 | 4+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Blasted And Dazed**（Once Per Turn (Army), Any Shooting Phase）
-  - 宣言: Pick an enemy unit that had any damage points allocated to it this turn by this unit’s shooting attacks to be the target.
-  - 効果: Roll a dice. Add 1 to the roll if the target does not have **FLY**. On a 4+, until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.
-- **Grim Retaliation**（Passive）
-  - 効果: Add 1 to the Attacks characteristic of this unit’s ranged weapons while it has any **grudge marks**.
+- **爆破による朦朧(Blasted And Dazed)**（各ターンにつき1回（アーミー）、任意の遠隔フェイズ）
+  - 宣言: このターン中、このユニットのレンジアタックによって1ポイント以上のダメージを割り振られた敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。選択されたユニットが**飛行**を持たない場合、ロールは+1の修正を受ける。ロール結果が4+であれば、次の自軍側ターン開始時まで、選択された敵ユニットが用いる突撃ロールのダイス個数は1減少する（ダイス個数は最小1個まで）。
+- **恐るべき報復(Grim Retaliation)**（パッシブ）
+  - 効果: このユニットが**宿怨マーク**を1個でも持つ間、このユニットが装備している遠隔武器は【攻撃回数】に+1の修正を受ける。
 
-**キーワード:** 歩兵、豪傑、楽士（1/10）、Standard Bearer (1/10)、秩序の大同盟、カザライト・ホールド、ドゥアーディン、クロムドロン（Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Order, Khazalite Holds, Duardin, Kromdron）
+**キーワード:** 歩兵、豪傑、楽士（1/10）、旗手（1/10）、秩序の大同盟、カザライト・ホールド、ドゥアーディン、クロムドロン（Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Order, Khazalite Holds, Duardin, Kromdron）
 
 ---
 
@@ -814,12 +814,12 @@
 
 **アビリティ:**
 
-- **石のごとき頑健性(Tough As Stone)**（Passive）
-  - 効果: Subtract 1 from the Rend characteristic of weapons used for combat attacks that target this unit while every model in this unit is within 3" of an objective you control.
-- **Remember Their Names**（Passive）
-  - 効果: Add 1 to wound rolls for this unit’s attacks while it has any **grudge marks**.
+- **石のごとき頑健性(Tough As Stone)**（パッシブ）
+  - 効果: このユニット内のあらゆる兵が、自軍側が確保している作戦目標の3mv以内に一部でも入っている間、このユニットを対象とするメレーアタックに使用される武器は【貫通値】に-1の修正を受ける。
+- **名を記憶せよ(Remember Their Names)**（パッシブ）
+  - 効果: このユニットが**宿怨マーク**を1個でも持つ間、このユニットの攻撃はウーンズロールに+1の修正を受ける。
 
-**キーワード:** 歩兵、豪傑、楽士（1/10）、Standard Bearer (1/10)、秩序の大同盟、カザライト・ホールド、ドゥアーディン、クロムドロン（Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Order, Khazalite Holds, Duardin, Kromdron）
+**キーワード:** 歩兵、豪傑、楽士（1/10）、旗手（1/10）、秩序の大同盟、カザライト・ホールド、ドゥアーディン、クロムドロン（Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Order, Khazalite Holds, Duardin, Kromdron）
 
 ---
 
@@ -1083,13 +1083,13 @@
 
 **アビリティ:**
 
-- **Runes of Gazul**（Passive）
-  - 効果: Subtract 1 from ward rolls for damage points inflicted by this unit’s combat attacks.
-- **Armour-Crushing Swings**（Once Per Turn (Army), Any Combat Phase）
-  - 宣言: Pick an enemy unit in combat with this unit to be the target.
-  - 効果: Your opponent can pick whether the target will **attempt to sidestep** or not. If they do, subtract 1 from hit rolls for the target’s attacks for the rest of the turn. Then, roll a dice. Subtract 1 from the roll if the target **attempted to sidestep**. If the roll equals or exceeds the target’s Save characteristic, subtract 1 from save rolls for the target for the rest of the turn.
+- **ガズルのルーン(Runes of Gazul)**（パッシブ）
+  - 効果: このユニットのメレーアタックによって与えられたダメージに対して、加護ロールは-1の修正を受ける。
+- **鎧潰しの一振り(Armour-Crushing Swings)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 宣言: このユニットと近接戦闘中である敵ユニットを1個選択する。
+  - 効果: 対戦相手は、選択されたユニットが**避ける**か、避けないかを選択する。避ける場合、そのターン中、その敵ユニットの攻撃はヒットロールに-1の修正を受ける。 その後、ダイスを1個ロールする。**避ける**ことを選んでいた場合、ロールは-1の修正を受ける。ロール結果が選択された敵ユニットの【防御力】以上であれば、そのターン中、その敵ユニットはセーブロールに-1の修正を受ける。
 
-**キーワード:** 戦闘兵器、秩序の大同盟、カザライト・ホールド、Gholem（War Machine, Order, Khazalite Holds, Gholem）
+**キーワード:** 戦闘兵器、秩序の大同盟、カザライト・ホールド、ゴーレム（War Machine, Order, Khazalite Holds, Gholem）
 
 ---
 
@@ -1107,17 +1107,17 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Valayan Great Axe | 4 | 4+ | 2+ | 2 | 2 | - |
+| ヴァラヤの大斧(Valayan Great Axe) | 4 | 4+ | 2+ | 2 | 2 | - |
 
 **アビリティ:**
 
-- **Icons Of Valaya**（Passive）
-  - 効果: If this unit is destroyed, before removing it from play, give each visible friendly non-**GHOLEM VALAYAN** unit 1 **grudge mark**.
-- **Shield Strike**（Once Per Turn (Army), Any Combat Phase）
-  - 宣言: If this unit charged this turn, pick a visible enemy unit within 1" of it to be the target.
-  - 効果: Roll a dice. On a 3+, the target has **STRIKE-LAST** for the rest of the turn.
+- **ヴァラヤの象徴(Icons Of Valaya)**（パッシブ）
+  - 効果: このユニットが全滅した場合、ユニットをゲームから取り除く前に、このユニットから視認状態である**ゴーレム**でない各味方**ヴァラヤン**・ユニットに、それぞれ**宿怨マーク**を1個与える。
+- **盾撃(Shield Strike)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 宣言: このユニットがこのターン中に突撃していた場合、自身の1mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵ユニットは『**後手効果**』を得る。
 
-**キーワード:** 戦闘兵器、秩序の大同盟、カザライト・ホールド、Gholem、Valayan（War Machine, Order, Khazalite Holds, Gholem, Valayan）
+**キーワード:** 戦闘兵器、秩序の大同盟、カザライト・ホールド、ゴーレム、ヴァラヤン（War Machine, Order, Khazalite Holds, Gholem, Valayan）
 
 ---
 
@@ -1137,24 +1137,24 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Zangrom-Thaz | 8 | 2+ | 2+ | 2 | 3 | クリティカル（致命的）(Crit (Mortal)) |
+| ザングロム＝ザッズ(Zangrom-Thaz) | 8 | 2+ | 2+ | 2 | 3 | クリティカル（致命的）(Crit (Mortal)) |
 
 **アビリティ:**
 
-- **Indifferent And Pragmatic**（Passive）
-  - 効果: This unit cannot have **grudge marks** and cannot be affected by **ANCESTRAL VOW** abilities.
-- **Too Stubborn To Die**（Passive）
-  - 効果: The first time this unit would be destroyed, before removing it from play, roll a dice. On a 3+, this unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, **Heal (D3)** this unit.
-- **A Glorious Doom**（Passive）
-  - 効果: While this unit is in combat with any enemy **HEROES** or **MONSTERS**: • It can only pick those enemy units to be the targets of its combat attacks. • Add 2 to the Attacks characteristic of this unit’s melee weapons for each enemy **HERO** or **MONSTER** unit in combat with it. **Designer’s Note**: *A unit with both the* **HERO** *and* **MONSTER** *keywords only adds 2 to the Attacks characteristic of this unit’s melee weapons.*
+- **淡白にして現実的(Indifferent And Pragmatic)**（パッシブ）
+  - 効果: このユニットは**宿怨マーク**を持つことができず、『**祖先の誓い**』アビリティの効果も受けない。
+- **不死身の頑固さ(Too Stubborn To Die)**（パッシブ）
+  - 効果: このユニットが初めて全滅するとき、ユニットをゲームから取り除く前に、ダイスを1個ロールする。ロール結果が3+であれば、このユニットは全滅することなく、残りのダメージは無効化される。その後、このユニットを**回復（D3）**する。
+- **栄誉ある破滅(A Glorious Doom)**（パッシブ）
+  - 効果: このユニットが1体以上の敵**英雄**または**大型獣**と近接戦闘中である間、 • このユニットはそれらの敵ユニットのみをメレーアタックの対象に選択できる。 • このユニットが近接戦闘中である各敵**英雄**または**大型獣**・ユニット1個につき、このユニットが装備している近接武器は【攻撃回数】に+2の修正を受ける。 デザイナーズノート：敵ユニットが**英雄**と**大型獣**両方のキーワードを持つ場合、その敵ユニットがもたらす近接武器の【攻撃回数】への修正は+2だけである。
 
-**キーワード:** 固有、英雄、歩兵、Ward (3+)、秩序の大同盟、カザライト・ホールド、ドゥアーディン（Unique, Hero, Infantry, Ward (3+), Order, Khazalite Holds, Duardin）
+**キーワード:** 固有、英雄、歩兵、加護（3+）、秩序の大同盟、カザライト・ホールド、ドゥアーディン（Unique, Hero, Infantry, Ward (3+), Order, Khazalite Holds, Duardin）
 
 **ノート:** This **HERO** can join an eligible regiment as **Grimnir’s Chosen**.
 
 ---
 
-## グリムホールド・エグザイル(Grimhold Exile)
+## グリムホールドの放浪者(Grimhold Exile)
 
 **ポイント:** 110pt / **モデル数:** 1 / **ベースサイズ:** 32mm
 
@@ -1174,12 +1174,12 @@
 
 **アビリティ:**
 
-- **Wrathful Wanderer**（Once Per Battle (Army), Deployment Phase）
-  - 効果: Remove this unit from the battlefield, then set it up again on the battlefield wholly within 6" of a battlefield edge and more than 9" from all enemy units.
-- **Alone But Never Outnumbered**（Passive）
-  - 効果: This unit has **STRIKE-FIRST** while there are no other friendly units within 6" of it.
-- **Relentless Wrath**（Once Per Turn (Army), Enemy Movement Phase）
-  - 効果: If this unit has any **grudge marks** and is not in combat, it can move D6". It can move through the combat ranges of enemy units but cannot end that move in combat and cannot end that move any further from the closest enemy unit.
+- **怒れる放浪者(Wrathful Wanderer)**（バトル中1回限り（アーミー）、初期配置フェイズ）
+  - 効果: このユニットを戦場から取り除き、戦場端から6mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた戦場の位置に再配置する。
+- **孤独なれど劣勢ならず(Alone But Never Outnumbered)**（パッシブ）
+  - 効果: 他の味方ユニットがこのユニットの6mv以内に一部でも入っていない間、このユニットは『**先手効果**』を得る。
+- **苛烈なる憤怒(Relentless Wrath)**（各ターンにつき1回（アーミー）、敵軍側移動フェイズ）
+  - 効果: このユニットが**宿怨マーク**を1個でも持ち、かつ近接戦闘中ではない場合、このユニットはD6mv移動できる。その移動中、このユニットは敵ユニットの近接範囲内を通り抜けることができるが、近接戦闘に突入するように移動を完了することはできない。また、自身に最も近い敵ユニットから離れるように移動を完了することもできない。
 
 **連隊オプション:**
 
@@ -1317,14 +1317,14 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Broadaxe or Flamestrike Poleaxe | 2 | 3+ | 3+ | 1 | 2 | - |
+| 幅広斧または焔撃の長柄斧(Broadaxe or Flamestrike Poleaxe) | 2 | 3+ | 3+ | 1 | 2 | - |
 
 **アビリティ:**
 
-- **殉死の義務(Duty Unto Death)**（Passive）
-  - 効果: While any friendly **GRIMMDRON INFANTRY HEROES** are wholly within this unit’s combat range, both this unit and those friendly units have **WARD (5+)**.
-- **Fury Of Grimnir**（Once Per Turn (Army), Enemy Movement Phase）
-  - 効果: If this unit has any **grudge marks** and is not in combat, it can move D6". It can move through the combat ranges of enemy units but cannot end that move in combat and cannot end that move any further from the closest enemy unit.
+- **殉死の義務(Duty Unto Death)**（パッシブ）
+  - 効果: 1個以上の味方**グリムドロン・歩兵・英雄**が、このユニットの近接範囲内に全体が入っている間、このユニットとその味方ユニットは**加護（5+）**を持つ。
+- **グリムニルの怒り(Fury Of Grimnir)**（各ターンにつき1回（アーミー）、敵軍側移動フェイズ）
+  - 効果: このユニットが**宿怨マーク**を1個でも持ち、かつ近接戦闘中ではない場合、このユニットはD6mv移動できる。その移動中、このユニットは敵ユニットの近接範囲内を通り抜けることができるが、近接戦闘に突入するように移動を完了することはできない。また、自身に最も近い敵ユニットから離れるように移動を完了することもできない。
 
 **キーワード:** 歩兵、豪傑、加護（6+）、秩序の大同盟、カザライト・ホールド、ドゥアーディン、グリムドロン（Infantry, Champion, Ward (6+), Order, Khazalite Holds, Duardin, Grimmdron）
 
@@ -1346,29 +1346,29 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Forge-spark Lightning | 12" | 6 | 4+ | 2+ | 2 | 1 | クリティカル（2ヒット）(Crit (2 Hits)), 随行者(Companion) |
+| ほとばしる炉の火花(Forge-spark Lightning) | 12" | 6 | 4+ | 2+ | 2 | 1 | クリティカル（2ヒット）(Crit (2 Hits)), 随行者(Companion) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Bharadreng | 6 | 3+ | 3+ | 2 | 3 | 対大型獣（+1貫通値）(Anti-MONSTER (+1 Rend)), クリティカル（致命的）(Crit (Mortal)) |
-| Karak War Council's Armoury（戦傷時） | 6 | 3+ | 3+ | 1 | 2 | - |
+| バラドレング(Bharadreng) | 6 | 3+ | 3+ | 2 | 3 | 対大型獣（+1貫通値）(Anti-MONSTER (+1 Rend)), クリティカル（致命的）(Crit (Mortal)) |
+| カラク戦争評議会の武器(Karak War Council's Armoury)（戦傷時） | 6 | 3+ | 3+ | 1 | 2 | - |
 
 **アビリティ:**
 
-- **バトルダメージ(Battle Damaged)**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of its **Karak War Council’s Armoury** is 4.
-- **Defend The High Throne**（Start of Any Turn）
-  - 宣言: Pick another visible friendly **KHAZALITE HOLDS** unit wholly within 12" of this unit to be the target. For each **grudge mark** this unit has, you can pick another eligible unit to be an additional target.
-  - 効果: For the rest of the turn, the following effects apply to the targets while they are wholly within 6" of this unit. Add 3" to this range for each **grudge mark** this unit has. • The target’s melee weapons have **Anti-charge (+1 Rend)**. • If the target has no **grudge marks**, it counts as having 1 **grudge mark**.
-- **High Kyng's War Council**（Your Hero Phase）
-  - 効果: Pick 1 of the following effects to apply until the start of your next turn: ***Stonesmith’s Disruption**: The stonesmith causes the ground under a group of enemies to tremble violently, disrupting their cohesion.* Pick a visible enemy unit within 12" of this unit to be the target. The target has a maximum control score of 1. ***Grudgebearer’s Denunciation***: *The exhortations of the grudgebearer instil in the duardin a relentless drive to enact vengeance on the foe.* While they are wholly within 12" of this unit, visible friendly **KHAZALITE HOLDS** units can use **CHARGE** abilities even if they used a **RETREAT** ability in the same turn. In addition, no mortal damage is inflicted on those friendly units by **RETREAT** abilities. ***Holdseeker’s Guidance***: *The holdseeker reveals magically resonant areas of the battlefield to aid the efforts of those working the runes.* Add 1 to casting rolls, chanting rolls and banishment rolls for friendly **KHAZALITE HOLDS** units while they are wholly within 12" of this unit.
-- **Stirring The High Kyng's Ire**（Start of Battle Round）
-  - 宣言: Pick a visible enemy **HERO** within 18" of this unit that has not been picked to be the target of this ability this battle to be the target.
-  - 効果: Your opponent must decide whether the target will **accept the accusation** or **reject the accusation**. If they **accept the accusation**, for the rest of the battle round, add 1 to hit rolls for combat attacks made by friendly **KHAZALITE HOLDS** units that target that enemy unit. If they **reject the accusation**, the target cannot use commands for the rest of the battle round.
-- **Tide Of Stone**（Once Per Turn (Army), Any Movement Phase） ［Core, Move］
-  - 効果: This unit can move D6" or, if it is your movement phase, it can move 2D6". It can pass through other models and the combat ranges of enemy units, but it cannot end that move in combat. Then, pick an enemy unit that this unit passed across during that move to be the target and roll a dice. On a 3+, inflict an amount of mortal damage on the target equal to the roll.
+- **バトルダメージ(Battle Damaged)**（パッシブ）
+  - 効果: このユニットが10ポイント以上のダメージを受けている場合、自身の**カラク戦争評議会の武器**の【攻撃回数】は4になる。
+- **高座を守れ！(Defend The High Throne)**（任意のターン開始時）
+  - 宣言: このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である別の味方**カザライト・ホールド**・ユニットを1個選択する。このユニットが持つ**宿怨マーク**1個につき、自軍は条件に合う他のユニットを追加で1個選択してもよい。
+  - 効果: そのターン中、選択された味方ユニットがこのユニットの6mv以内に全体が入っている間、選択された味方ユニットには以下の効果が適用される。このユニットが持つ**宿怨マーク**1個につき、効果範囲は3mv拡大する。 • 選択された味方ユニットの近接武器は**対突撃（+1貫通値）**を得る。 • 選択された味方ユニットが**宿怨マーク**を持っていない場合、**宿怨マーク**を1個持つものとしてカウントされる。
+- **至高王御前戦争評議会(High Kyng's War Council)**（自軍側ヒーローフェイズ）
+  - 効果: 以下の効果から1つを選択し、次の自軍側ターン開始時まで適用する。 **石工の妨害：**このユニットの12mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。選択された敵ユニットの最大確保スコアは1になる。 **宿怨保持者の非難：**このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**カザライト・ホールド**・ユニットは、現在のターン中に『**退却**』アビリティを使用していたとしても、そのターン中に『**突撃**』アビリティを使用できる。加えて、それらの味方ユニットは『**退却**』アビリティによる致命的ダメージを受けない。 **城塞探しの導き：**このユニットの12mv以内に全体が入っている味方**カザライト・ホールド**・ユニットは、その詠唱ロール、祈願ロール、追放ロールに+1の修正を受ける。
+- **至高王の沸き上がる憤怒(Stirring The High Kyng's Ire)**（バトルラウンドの開始時）
+  - 宣言: このバトル中に、このアビリティの対象として選択されたことがない、このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵**英雄**を1体選択する。
+  - 効果: 対戦相手は、その選択されたユニットが**告発を認める**か**告発を否定する**かを選択しなければならない。 対戦相手が**告発を認める**場合、そのバトルラウンド中、その敵ユニットを対象とする味方**カザライト・ホールド**・ユニットのメレーアタックは、ヒットロールに+1の修正を受ける。 対戦相手が**告発を否定する**場合、そのバトルラウンド中、その敵ユニットは指揮アビリティを使用できない。
+- **石の大波(Tide Of Stone)**（各ターンにつき1回（アーミー）、任意の移動フェイズ） ［コア、移動］
+  - 効果: このユニットはD6mv移動してもよい。あるいは自軍側移動フェイズ中であるならば、2D6mv移動してもよい。その移動中、他の兵や敵ユニットの近接範囲内を通り抜けることはできるが、近接戦闘に突入するように移動を完了することはできない。その後、このユニットがその移動中に通り抜けた敵ユニットを1個選択し、ダイスを1個ロールする。ロール結果が3+であれば、その敵ユニットはロール結果に等しい数の致命的ダメージを受ける。
 
 **連隊オプション:**
 
@@ -1401,14 +1401,14 @@
 
 **アビリティ:**
 
-- **Book Of Fallen Holds**（Once Per Battle (Army), Start of First Battle Round）
-  - 宣言: You must use this ability. Pick an enemy unit to be **grudged**. You can pick an enemy unit in reserve.
-  - 効果: For the rest of the battle: • While the **grudged** enemy unit is within 12" of and visible to this unit, you can re-roll charge rolls for friendly **KHAZALITE HOLDS** units while they are wholly within 12" of this unit. • While there is no **grudged** enemy unit on the battlefield, add 3 to the control scores of friendly **KHAZALITE HOLDS** units while they are wholly within 12" of this unit.
-- **Talisman Of The Lost Karak**（Passive）
-  - 効果: While this unit is in combat, add 1 to hit rolls for combat attacks made by friendly non-**HERO KHAZALITE HOLDS INFANTRY** units while they are within 3" of and visible to this unit.
-- **Last Of Her Clan**（Your Hero Phase）
-  - 宣言: Pick this unit and up to 2 other visible friendly non-**HERO KHAZALITE HOLDS** units wholly within 12" of this unit to be the targets.
-  - 効果: If this unit has any **grudge marks**, apply this effect automatically. Otherwise, roll a dice for each target. On a 3+, until the start of your next turn, ignore the first damage point that would be allocated to that target in each phase.
+- **失われし城塞の書(Book Of Fallen Holds)**（バトル中1回限り（アーミー）、第1バトルラウンドの開始時）
+  - 宣言: 自軍はこのアビリティを使用しなければならない。敵ユニット1個を**宿怨の標的**として選択する。予備戦力として配置されている敵ユニットも選択できる。
+  - 効果: 以降バトル終了時まで、 • **宿怨の標的**である敵ユニットが、このユニットから視認状態であり、かつこのユニットの12mv以内に~~全体が~~==一部でも==入っている間、このユニットの12mv以内に全体が入っている味方**カザライト・ホールド**・ユニットは突撃ロールをリロールできる。 • **宿怨の標的**である敵ユニットが1個も戦場に配置されていない場合、このユニットの12mv以内に全体が入っている味方**カザライト・ホールド**・ユニットは確保スコアに+3の修正を受ける。
+- **失われし山都の護符(Talisman Of The Lost Karak)**（パッシブ）
+  - 効果: このユニットが近接戦闘中である間、このユニットの3mv以内に一部でも入っており、かつこのユニットから視認状態である**英雄**でない味方**カザライト・ホールド・歩兵**・ユニットのメレーアタックは、ヒットロールに+1の修正を受ける。
+- **氏族最後の生き残り(Last Of Her Clan)**（自軍側ヒーローフェイズ）
+  - 宣言: このユニットと、このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である**英雄**でない他の味方**カザライト・ホールド**・ユニットを最大2個まで選択する。
+  - 効果: このユニットが**宿怨マーク**を1個でも持つ場合、この効果は自動的に適用される。それ以外の場合、選択された各味方ユニットに対して、それぞれダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、各フェイズ中にその味方ユニットに割り振られる最初の1ポイントのダメージを無視する。
 
 **連隊オプション:**
 
@@ -1524,11 +1524,11 @@
 
 **アビリティ:**
 
-- **Artillerist's Revenge**（Passive）
-  - 効果: This unit’s ranged weapons have **Crit (2 Hits)** while it has any **grudge marks**.
-- **オースキーパーの見習いルーン打ち(Oathkeeper Apprentice Runestriker)**（Once Per Turn (Army), Your Shooting Phase）
-  - 宣言: Pick an enemy unit that had any damage points allocated to it this turn by this unit’s shooting attacks to be the target.
-  - 効果: Roll a dice. On a 3+, pick 1 of the following effects: ***Rune of Sundering***: Until the start of your next turn, subtract 1 from the Rend characteristic of the target’s melee weapons. ***Rune of Burning***: For the rest of the turn, combat attacks that target that enemy unit score critical hits on unmodified hit rolls of 5+. ***Rune of Shock***: The target has **STRIKE-LAST** until the start of your next turn.
+- **砲手の復讐(Artillerist's Revenge)**（パッシブ）
+  - 効果: このユニットが**宿怨マーク**を1個でも持つ間、このユニットが装備している遠隔武器は**クリティカル（2ヒット）**を得る。
+- **オースキーパーの見習いルーン打ち(Oathkeeper Apprentice Runestriker)**（各ターンにつき1回（アーミー）、自軍側遠隔フェイズ）
+  - 宣言: このターン中、このユニットのレンジアタックによって1ポイント以上のダメージを割り振られた敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、効果を以下から1つ選ぶ~~、~~==。== **粉砕のルーン：**次の自軍側ターン開始時まで、選択された敵ユニットが装備している近接武器は【貫通値】に-1の修正を受ける。 **燃焼のルーン：**そのターン中、選択された敵ユニットを対象とする~~このユニットの~~メレーアタックは、修正前の出目5+のヒットロールでクリティカルヒットする。 **衝撃のルーン：**次の自軍側ターン開始時まで、選択された敵ユニットは『**後手効果**』を得る。
 
 **キーワード:** 戦闘兵器、秩序の大同盟、カザライト・ホールド、クロムドロン（War Machine, Order, Khazalite Holds, Kromdron）
 
@@ -1550,26 +1550,26 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Ormyr's Double-bladed Axe and Punchblade | 5 | 3+ | 3+ | 1 | 2 | 対大型獣（+1貫通値）(Anti-MONSTER (+1 Rend)) |
-| Ashtongue's Maw and Claws | 3 | 3+ | 3+ | 1 | 2 | クリティカル（致命的）(Crit (Mortal)), 随行者(Companion) |
+| オーミルの両刃斧と小刀(Ormyr's Double-bladed Axe and Punchblade) | 5 | 3+ | 3+ | 1 | 2 | 対大型獣（+1貫通値）(Anti-MONSTER (+1 Rend)) |
+| アッシュタンの顎と鉤爪(Ashtongue's Maw and Claws) | 3 | 3+ | 3+ | 1 | 2 | クリティカル（致命的）(Crit (Mortal)), 随行者(Companion) |
 
 **アビリティ:**
 
-- **Vulcatrix's Fury**（Passive）
-  - 効果: While this unit has any **grudge marks**, add 1 to the Attacks characteristic of **Companion** weapons used by visible friendly **KHAZALITE HOLDS** units while they are wholly within 12" of this unit.
-- **Drothmaster At Heart**（Your Hero Phase）
-  - 宣言: Pick a visible friendly **Vulkyn Flameseekers** or **GRIMMDRON MONSTER** unit wholly within 12" of this unit to be the target.
-  - 効果: Pick 1 of the following effects: • If you picked a friendly **Vulkyn Flameseekers** unit to be the target, until the start of your next turn, ignore negative modifiers to hit rolls and wound rolls for the target’s combat attacks and ignore negative modifiers to the target’s control score. • If you picked a friendly **GRIMMDRON MONSTER** unit to be the target, add 1 to hit rolls for attacks made with the target’s **Companion** weapons until the start of your next turn.
-- **Smoke And Ash**（Your Shooting Phase）
-  - 宣言: If this unit contains **Ashtongue**, pick a visible enemy unit within 9" of this unit to be the target.
-  - 効果: Roll a dice. On a 3+, until the start of your next turn, units (friendly and enemy), terrain features and **MANIFESTATIONS** are not visible to the target while they are more than 6" from it.
+- **ヴァルカトリックスの憤怒(Vulcatrix's Fury)**（パッシブ）
+  - 効果: このユニットが**宿怨マーク**を1個でも持つ間、このユニットの12mv以内に全体が入っており、かつ視認状態である味方**カザライト・ホールド**・ユニットが使用する**随行者**武器は【攻撃回数】に+1の修正を受ける。
+- **天性のドロス遣い(Drothmaster At Heart)**（自軍側ヒーローフェイズ）
+  - 宣言: このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**ヴルキン・フレイムシーカー**または**グリムドロン・大型獣**・ユニットを1個選択する。
+  - 効果: 以下の効果から1つを選択する~~、~~==：== • 選択したのが味方**ヴルキン・フレイムシーカー**の場合、次の自軍側ターン開始時まで、その味方ユニットのメレーアタックにおけるヒットロールとウーンズロールへのマイナス修正と、確保スコアに対するマイナス修正を無視する。 • 選択したのが味方**グリムドロン・大型獣**の場合、次の自軍側ターン開始時まで、その味方ユニットの**随行者**武器による攻撃はヒットロールに+1の修正を受ける。
+- **煙と灰(Smoke And Ash)**（自軍側遠隔フェイズ）
+  - 宣言: このユニット内に**アッシュタン**が含まれている場合、このユニットの9mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、次の自軍側ターン開始時まで、選択された敵ユニットは、自身から6mvより遠く離れているユニット（敵味方問わず）、特殊地形、**顕現**を視認できない。
 
 **連隊オプション:**
 
 - 0-1 *Grimnir’s Chosen*
 - Any **KHAZALITE HOLDS**
 
-**装備オプション:** *• Ormyr is armed with Ormyr’s Double-bladed Axe and Punchblade.* *• Ashtongue is armed with Ashtongue’s Maw and Claws.*
+**装備オプション:** • オーミルは「オーミルの両刃斧と小刀」を装備している。 • アッシュタンは「アッシュタンの顎と鉤爪」を装備している。
 
 **キーワード:** 固有、英雄、歩兵、加護（6+）、秩序の大同盟、カザライト・ホールド、ドゥアーディン、グリムドロン（Unique, Hero, Infantry, Ward (6+), Order, Khazalite Holds, Duardin, Grimmdron）
 
@@ -1593,14 +1593,14 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Runic Forgehammers | 3 | 3+ | 4+ | 1 | 2 | - |
+| ルーンの鍛治鎚(Runic Forgehammers) | 3 | 3+ | 4+ | 1 | 2 | - |
 
 **アビリティ:**
 
-- **Grudgement Of The Forge**（Passive）
-  - 効果: Add 1 to unbinding rolls, banishment rolls and rhythmic hammering rolls for this unit while it has any **grudge marks**.
-- **Rhythmic Hammering**（Reaction: You declared a **SPELL** ability from the 'Reverberations of the Runes' or the 'Resonance of the Runes' for this unit）
-  - 効果: If the casting roll for that spell equals or exceeds its casting value, make a rhythmic hammering roll of 2D6. If a rhythmic hammering roll is lower than that spell’s casting value, the spell fails and its effect is not resolved. If a rhythmic hammering roll equals or exceeds that spell’s casting value, increase the range of that spell by 3". You can keep making rhythmic hammering rolls for that spell until you roll lower than its casting value. The effects of this ability are cumulative.
+- **鍛冶場の宿怨(Grudgement Of The Forge)**（パッシブ）
+  - 効果: このユニットが**宿怨マーク**を1個でも持つ間、このユニットは打ち消しロール、追放ロール、リズミカルな打ち付けロールに+1の修正を受ける。
+- **リズミカルな打ち付け(Rhythmic Hammering)**（リアクション：このユニットが『ルーンの残響』または『ルーンの共鳴』から呪文アビリティを宣言）
+  - 効果: その呪文の詠唱ロールが【詠唱値】以上である場合、2D6のリズミカルな打ち付けロールをする。 リズミカルな打ち付けロールがその呪文の【詠唱値】を下回るならば、その呪文は失敗し、効果は解決されない。 リズミカルな打ち付けロールが呪文の【詠唱値】以上である場合、その呪文の【射程】は3mv拡大する。自軍は【詠唱値】を下回るロールが出るまで、その呪文に対するリズミカルな打ち付けロールを繰り返してもよい。このアビリティの効果は累積する。
 
 **連隊オプション:**
 
@@ -1955,27 +1955,27 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Stonebreaker Shot | 30" | 5 | 3+ | 3+ | 1 | 2 | 対歩兵（+1貫通値）(Anti-INFANTRY (+1 Rend)) |
+| ストーンブレーカー砲撃(Stonebreaker Shot) | 30" | 5 | 3+ | 3+ | 1 | 2 | 対歩兵（+1貫通値）(Anti-INFANTRY (+1 Rend)) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Stonebreaker Crew Tools | 3 | 4+ | 4+ | - | 1 | - |
+| ストーンブレーカー砲手の道具(Stonebreaker Crew Tools) | 3 | 4+ | 4+ | - | 1 | - |
 
 **アビリティ:**
 
-- **Artillerist's Revenge**（Passive）
-  - 効果: This unit’s ranged weapons have **Crit (2 Hits)** while it has any **grudge marks**.
-- **Stonebreaker Apprentice Runestriker**（Once Per Turn (Army), Your Shooting Phase）
-  - 宣言: Pick an enemy unit that had any damage points allocated to it this turn by this unit’s shooting attacks to be the target.
-  - 効果: Roll a dice. On a 3+, pick 1 of the following effects: ***Rune of Detonation***: Roll a D3 for each enemy unit within 3" of the target. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll. ***Rune of Thunder***: Until the start of your next turn, the target has a maximum control score of 1. ***Rune of Earthshaking***: The target cannot use **RUN** abilities until the start of your next turn.
+- **砲手の復讐(Artillerist's Revenge)**（パッシブ）
+  - 効果: このユニットが**宿怨マーク**を1個でも持つ~~場~~間、このユニットが装備している遠隔武器は**クリティカル（2ヒット）**を得る。
+- **ストーンブレーカーの見習いルーン打ち(Stonebreaker Apprentice Runestriker)**（各ターンにつき1回（アーミー）、自軍側遠隔フェイズ）
+  - 宣言: このターン中、このユニットのレンジアタックによって1ポイント以上のダメージを割り振られた敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、効果を以下から1つ選ぶ~~、~~==。== **爆発のルーン：**選択された敵ユニットの3mv以内に一部でも入っている~~他の~~各敵ユニットに対して、それぞれD3を1個ロールする。ロール結果が2+であれば、ロール対象の敵ユニットは、ロール結果と等しい数の致命的ダメージを受ける。 **雷鳴のルーン：**次の自軍側ターン開始時まで、選択された敵ユニットの最大確保スコアは1になる。 **地揺れのルーン：**次の自軍側ターン開始時まで、選択された敵ユニットは『**全力移動**』アビリティを使用できなくなる。
 
 **キーワード:** 戦闘兵器、秩序の大同盟、カザライト・ホールド、クロムドロン（War Machine, Order, Khazalite Holds, Kromdron）
 
 ---
 
-## The Chosen Axes (Legends)
+## 選び抜かれし戦斧(The Chosen Axes) (Legends)
 
 **ポイント:** 120pt / **モデル数:** 4 / **ベースサイズ:** 32mm [4]
 
@@ -2025,14 +2025,14 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Grudgehammer and Runic Axe | 5 | 3+ | 3+ | 1 | 2 | クリティカル（致命的）(Crit (Mortal)) |
+| グラッジハンマー＆ルーンアックス(Grudgehammer and Runic Axe) | 5 | 3+ | 3+ | 1 | 2 | クリティカル（致命的）(Crit (Mortal)) |
 
 **アビリティ:**
 
-- **Steadfast Retribution**（Once Per Turn (Army), Any Combat Phase）
-  - 効果: Add 1 to the Attacks characteristic of this unit’s melee weapons, to a maximum of +3, for each other visible friendly unit wholly within 6" of this unit that has any **grudge marks**.
-- **Fight Shoulder To Shoulder**（Once Per Turn (Army), Reaction: You declared a **FIGHT** ability for this unit or a non-**HERO KROMDRON INFANTRY** unit within 3" of and visible to this unit）
-  - 効果: If you declared a **FIGHT** ability for this unit, pick a friendly non-**HERO KROMDRON INFANTRY** unit that has not used a **FIGHT** ability this turn, is within this unit’s combat range and is visible to this unit to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn. If you declared a **FIGHT** ability for a friendly non-**HERO KROMDRON INFANTRY** unit, if this unit has not used a **FIGHT** ability this turn, it can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by the friendly non-**HERO KROMDRON INFANTRY** unit has been resolved. If it is picked to do so, add 1 to hit rolls for this unit’s attacks for the rest of the turn. **Designer’s Note**: *This ability lets another friendly unit fight immediately after this unit or lets this unit fight immediately after that other friendly unit. Add 1 to hit rolls for whichever of those two units fights after the first.*
+- **堅固なる報復(Steadfast Retribution)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 効果: このユニットの6mv以内に全体が入っており、かつこのユニットから視認状態である**宿怨マーク**を1個でも持つ==他の==味方ユニット1個につき、このユニットが装備している近接武器は【攻撃回数】に+1の修正を受ける（最大+3）。
+- **肩を並べて戦え(Fight Shoulder To Shoulder)**（各ターンにつき1回（アーミー）、リアクション：このユニットか、もしくはこのユニットの3mv以内に~~全体が~~==一部でも==入っており、かつこのユニットから視認状態である英雄でない味方クロムドロン・歩兵・ユニットが『近接攻撃』アビリティを宣言）
+  - 効果: このユニットが『**近接攻撃**』アビリティを宣言した場合、このターン中に『**近接攻撃**』アビリティを使用しておらず、かつこのユニットの近接範囲内に一部でも入っており、なおかつこのユニットから視認状態である英雄でない味方**クロムドロン・歩兵**・ユニットを1個選択する。選択された味方ユニットは、このユニットによる『**近接攻撃**』アビリティを解決した直後に、『**近接攻撃**』アビリティを使用できる。その味方ユニットが『近接攻撃』アビリティを使用した場合、そのターン中、選択された味方ユニットの攻撃はヒットロールに+1の修正を受ける。 **英雄**でない味方**クロムドロン・歩兵**・ユニットが『**近接攻撃**』アビリティを宣言したならば、このユニットがこのターン中に『**近接攻撃**』アビリティを使用していなければ、その**英雄**でない味方**クロムドロン・歩兵**・ユニットが『**近接攻撃**』アビリティを解決した直後に、このユニットは『**近接攻撃**』アビリティを使用できる。このユニットが『近接攻撃』アビリティを使用した場合、そのターン中、このユニットの攻撃はヒットロールに+1の修正を受ける。 **デザイナーズノート：**このアビリティによって、このユニットが近接攻撃を実行した直後に、他の味方ユニットが近接攻撃できるようになる。あるいは他の味方ユニットが近接攻撃を実行した直後に、このユニットが近接攻撃できるようになる。これら2つのユニットのうち、後から近接攻撃をする方のヒットロールは+1の修正を受ける。
 
 **連隊オプション:**
 
@@ -2044,7 +2044,7 @@
 
 ---
 
-## スリン（ウォースローン騎乗）(Thrynn On War Throne)
+## スリン（ウォースローン搭乗）(Thrynn On War Throne)
 
 **ポイント:** 340pt / **モデル数:** 1 / **ベースサイズ:** 170 x 105mm
 
@@ -2060,29 +2060,29 @@
 
 | 武器 | 射程 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|---|
-| Forge-spark Lightning | 12" | 6 | 4+ | 2+ | 2 | 1 | クリティカル（2ヒット）(Crit (2 Hits)), 随行者(Companion) |
+| ほとばしる炉の火花(Forge-spark Lightning) | 12" | 6 | 4+ | 2+ | 2 | 1 | クリティカル（2ヒット）(Crit (2 Hits)), 随行者(Companion) |
 
 **近接武器:**
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Thrynn's Runeweapons | 6 | 3+ | 3+ | 2 | 2 | クリティカル（致命的）(Crit (Mortal)) |
-| Karak War Council's Armoury（戦傷時） | 6 | 3+ | 3+ | 1 | 2 | - |
+| スリンのルーン武器(Thrynn's Runeweapons) | 6 | 3+ | 3+ | 2 | 2 | クリティカル（致命的）(Crit (Mortal)) |
+| カラク戦争評議会の武器(Karak War Council's Armoury)（戦傷時） | 6 | 3+ | 3+ | 1 | 2 | - |
 
 **アビリティ:**
 
-- **バトルダメージ(Battle Damaged)**（Passive）
-  - 効果: While this unit has 10 or more damage points, the Attacks characteristic of **Karak War Council’s Armoury** is 4.
-- **Defend The Throne!**（Once Per Turn (Army), Start of Any Turn）
-  - 宣言: Pick another visible friendly **KHAZALITE HOLDS** unit wholly within 12" of this unit to be a target. For each **grudge mark** this unit has, you can pick another eligible unit to be an additional target.
-  - 効果: For the rest of the turn, the targets’ melee weapons have **Anti-charge (+1 Rend)** while they are wholly within 6" of this unit. Add 3" to this range for each **grudge mark** this unit has.
-- **Karak War Council**（Once Per Turn (Army), Your Hero Phase）
-  - 効果: Pick 1 of the following effects to apply until the start of your next turn: ***Stonesmith’s Passage***: *The Stonesmith shifts rock and earth to aid the manoeuvres of nearby duardin.* Add 2" to the Move characteristic of visible friendly **KHAZALITE HOLDS INFANTRY** units while they are wholly within 12" of this unit. In addition, no mortal damage is inflicted on those friendly units by **RETREAT** abilities. ***Grudgebearer’s Accusation***: *The grudgebearer singles out an enemy champion to be the target of the duardin’s vengeance.* Pick a visible enemy **HERO** within 18" of this unit to be the target. Friendly **KHAZALITE HOLDS INFANTRY** units can ignore the effects of the ‘Guarded Hero’ ability on the target when picking targets for their shooting attacks. ***Holdseeker’s Protection***: *Awakening the runes on their staff, the holdseeker imbues nearby duardin with an aura that repels the attacks of the foe.* Pick a visible friendly **KHAZALITE HOLDS** unit wholly within 12" of this unit to be the target. Roll a dice. On a 3+, other than the **Companion** weapon ability, weapon abilities for attacks that target that friendly unit have no effect.
-- **Forge A Path**（Once Per Turn (Army), Reaction: You declared a **MOVE** ability for this unit in your movement phase）
-  - 効果: Pick a visible friendly **KROMDRON INFANTRY** unit that is wholly within 6" of this unit, is not in combat and has not been set up this turn to be the target. Remove the target from the battlefield. After this unit ends its move, you must set up the target wholly within 6" of this unit and more than 9" from all enemy units.
-- **Tectonic Impact**（Once Per Turn (Army), Any Charge Phase）
-  - 宣言: If this unit charged this turn, pick a visible enemy unit within 1" of it to be the target.
-  - 効果: Roll a dice. On a 3+, inflict an amount of mortal damage on the target equal to the roll.
+- **バトルダメージ(Battle Damaged)**（パッシブ）
+  - 効果: このユニットが10ポイント以上のダメージを受けている場合、自身の**カラク戦争評議会の武器**の【攻撃回数】は4になる。
+- **玉座を守れ！(Defend The Throne!)**（各ターンにつき1回（アーミー）、任意のターン開始時）
+  - 宣言: このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である自身以外の味方**カザライト・ホールド**・ユニットを1個選択する。このユニットが持つ**宿怨マーク**1個につき、自軍は条件に合う別のユニットを追加で1個選択してもよい。
+  - 効果: そのターン中、選択された味方ユニットがこのユニットの6mv以内に全体が入っている間、その味方ユニットが装備している近接武器は**対突撃（+1貫通値）**を得る。このユニットが持つ**宿怨マーク**1個につき、この効果範囲は+3mvずつ拡大する。
+- **カラク戦争評議会(Karak War Council)**（各ターンにつき1回（アーミー）、自軍側ヒーローフェイズ）
+  - 効果: 以下の効果から1つを選択し、次の自軍側ターン開始時まで適用する。 **石工の抜け道：**このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**カザライト・ホールド・歩兵**・ユニットは、その【移動力】に+2mvの修正を受ける。加えて、それらの味方ユニットは『**退却**』アビリティによる致命的ダメージを受けない。 **宿怨保持者の非難：**このユニットの18mv以内に一部でも入っており、かつこのユニットから視認状態である敵**英雄**を1体選択する。~~選択された敵**英雄**を対象とする味方~~==味方==**カザライト・ホールド・歩兵**・ユニット~~のレンジアタックは、その~~==は、レンジアタックの攻撃対象を選択する際、選択された==敵**英雄**の『護られし英雄』アビリティの効果を無視することができる。 **城塞探しの守り：**このユニットの12mv以内に全体が入っており、かつこのユニットから視認状態である味方**カザライト・ホールド**・ユニットを1個選択する。ダイスを1個ロールする。ロール結果が3+であれば、選択された味方ユニットを対象とする攻撃の武器アビリティは効果を発揮しない（**随行者**武器アビリティは除く）。
+- **道を切り拓け(Forge A Path)**（各ターンにつき1回（アーミー）、リアクション：自軍側移動フェイズ中、このユニットが『移動』アビリティを宣言）
+  - 効果: このユニットの6mv以内に全体が入っており、かつこのユニットから視認状態であり、なおかつこのターン中に配置されたばかりでも近接戦闘中でもない味方**クロムドロン・歩兵**・ユニットを1個選択する。 ~~効果：~~選択された味方ユニットを戦場から取り除き、このユニットの移動が完了した直後に、自軍は選択された味方ユニットをこのユニットの6mv以内に全体が入るように、かつあらゆる敵ユニットから9mvより遠く離れた位置に再配置しなければならない。
+- **大地の衝撃(Tectonic Impact)**（各ターンにつき1回（アーミー）、任意の突撃フェイズ）
+  - 宣言: このユニットがこのターン中に突撃していた場合、自身の1mv以内に一部でも入っており、かつこのユニットから視認状態である敵ユニットを1個選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、選択された敵ユニットは、ロール結果に等しい数の致命的ダメージを受ける。
 
 **連隊オプション:**
 
@@ -2148,21 +2148,21 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Valayan Rune Axe | 3 | 3+ | 4+ | 1 | 1 | - |
+| ヴァラヤのルーンアックス(Valayan Rune Axe) | 3 | 3+ | 4+ | 1 | 1 | - |
 
 **アビリティ:**
 
-- **Shield Maidens**（Once Per Turn (Army), Any Combat Phase）
-  - 宣言: Pick an enemy unit that charged this turn and is in combat with this unit to be the target.
-  - 効果: Roll a dice for each enemy model in combat with this unit. For each 4+, inflict 1 mortal damage on the target.
-- **Protection Of Valaya**（Passive）
-  - 効果: While this unit has any **grudge marks**, visible friendly **KHAZALITE HOLDS INFANTRY** and non-**GHOLEM** **WAR MACHINE** units have **WARD (5+)** while they are wholly within 6" of this unit.
+- **盾の乙女(Shield Maidens)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 宣言: このユニットと近接戦闘中であり、かつこのターン中に突撃していた敵ユニットを1個選択する。
+  - 効果: このユニットと近接戦闘中である各敵兵に対し、それぞれダイスを1個ロールする。ロール結果で4+が出るたびに、選択された敵ユニットは1ポイントの致命的ダメージを受ける。
+- **ヴァラヤの守護(Protection Of Valaya)**（パッシブ）
+  - 効果: このユニットが**宿怨マーク**を1個でも持つ間、このユニットの6mv以内に全体が入っており、かつこのユニットから視認状態である味方**カザライト・ホールド・歩兵**と**ゴーレム**でない味方**戦闘兵器**・ユニットは、**加護（5+）**を持つ。
 
-**キーワード:** 歩兵、豪傑、Ward (4+)、秩序の大同盟、カザライト・ホールド、ドゥアーディン、クロムドロン、Valayan（Infantry, Champion, Ward (4+), Order, Khazalite Holds, Duardin, Kromdron, Valayan）
+**キーワード:** 歩兵、豪傑、加護（4+）、秩序の大同盟、カザライト・ホールド、ドゥアーディン、クロムドロン、ヴァラヤン（Infantry, Champion, Ward (4+), Order, Khazalite Holds, Duardin, Kromdron, Valayan）
 
 ---
 
-## ヴァラヤン・ガーディアン（ハルバード装備）(Valayan Guardians with Runic Halberds)
+## ヴァラヤン・ガーディアン（ルーンハルバード装備）(Valayan Guardians with Runic Halberds)
 
 **ポイント:** 110pt / **モデル数:** 5 / **ベースサイズ:** 28.5mm
 
@@ -2176,15 +2176,15 @@
 
 | 武器 | 回数 | ヒット | ウーンズ | 貫通 | ダメージ | アビリティ |
 |---|---|---|---|---|---|---|
-| Valayan Runic Halberd | 2 | 3+ | 4+ | 2 | 2 | クリティカル（2ヒット）(Crit (2 Hits)) |
+| ヴァラヤのルーンハルバード(Valayan Runic Halberd) | 2 | 3+ | 4+ | 2 | 2 | クリティカル（2ヒット）(Crit (2 Hits)) |
 
 **アビリティ:**
 
-- **Warriors Of The Hearth**（Once Per Turn (Army), Your Charge Phase） ［Core, Move, Charge］
-  - 宣言: If this unit is not in combat and has not used a **RUN** or **RETREAT** ability this turn, make a charge roll of 2D6. While this unit has any **grudge marks**, you can re-roll that charge roll.
-  - 効果: This unit can move a distance up to the value of the charge roll. It can move through the combat ranges of enemy units, pass across enemy models and must end that move within ½" of a visible enemy unit. If it does so, it has charged. Then, if this unit charged this turn, pick an enemy unit it passed across this turn. Inflict D3 mortal damage on that enemy unit.
+- **炉の戦士(Warriors Of The Hearth)**（各ターンにつき1回（アーミー）、自軍側突撃フェイズ） ［コア、移動、突撃］
+  - 宣言: このユニットがこのターン中に『**全力移動**』または『**退却**』アビリティ~~も~~==を==使用しておらず、かつ近接戦闘中ではない場合、2D6の突撃ロールをする。このユニットが**宿怨マーク**を1個でも持つ間、その突撃ロールをリロールできる。
+  - 効果: このユニットは、突撃ロール結果に等しい数値の距離まで移動できる。その移動中、このユニットは敵ユニットの近接範囲内を通り抜けることができ、敵兵を乗り越えて通ることもできるが、自身から視認状態である敵ユニットの½mv以内に一部でも入るように移動を完了しなければならない。そうした場合、このユニットは突撃したものとみなされる。 その後、このユニットがこのターン中に突撃していた場合、そのターン中に自身が通り抜けた敵ユニットを1個選択する。その敵ユニットはD3ポイントの致命的ダメージを受ける。
 
-**キーワード:** 歩兵、豪傑、Ward (4+)、秩序の大同盟、カザライト・ホールド、ドゥアーディン、クロムドロン、Valayan（Infantry, Champion, Ward (4+), Order, Khazalite Holds, Duardin, Kromdron, Valayan）
+**キーワード:** 歩兵、豪傑、加護（4+）、秩序の大同盟、カザライト・ホールド、ドゥアーディン、クロムドロン、ヴァラヤン（Infantry, Champion, Ward (4+), Order, Khazalite Holds, Duardin, Kromdron, Valayan）
 
 ---
 
@@ -2322,13 +2322,13 @@
 
 **アビリティ:**
 
-- **Blunt Their Horns and Fangs**（Passive）
-  - 効果: While this unit has any **grudge marks**: • Subtract 2 from the Attacks characteristic of **Companion** melee weapons used by enemy **MONSTERS** while they are in combat with this unit. • Enemy **MONSTERS** cannot use **RAMPAGE** abilities while they are in combat with this unit.
-- **怪獣使い(Drothmasters)**（Once Per Turn (Army), Any Combat Phase）
-  - 宣言: Pick an enemy **MONSTER** in combat with this unit to be the target.
-  - 効果: Roll a dice. On a 3+, subtract 2 from the Damage characteristic of the target’s **COMPANION** melee weapons for the rest of the turn.
+- **奴らの角と爪を抑えろ！(Blunt Their Horns and Fangs)**（パッシブ）
+  - 効果: このユニットが**宿怨マーク**を1個でも持つ間、 • ~~効果：~~このユニットと近接戦闘中である敵**大型獣**ユニットが使用する**随行者**近接武器は【攻撃回数】に-2の修正を受ける。 • ~~効果：~~このユニットと近接戦闘中である敵**大型獣**は『**蹂躙**』アビリティを使用できない。
+- **ドロス遣い(Drothmasters)**（各ターンにつき1回（アーミー）、任意の近接フェイズ）
+  - 宣言: このユニットと近接戦闘中である敵**大型獣**を1体選択する。
+  - 効果: ダイスを1個ロールする。ロール結果が3+であれば、そのターン中、選択された敵の**随行者**近接武器は【ダメージ量】に-2の修正を受ける。
 
-**装備オプション:** ***Each model in this unit is armed with Vulkyn Weapons.*** • ***1/9 models is a Kyndledroth and must replace their weapons with Kyndledroth’s Fangs.*** • ***The champion is a Vulkyn Runefather and cannot replace their weapons.***
+**装備オプション:** このユニット内の各兵は「ヴルキンの武器」を装備している。 • 1/9の兵はキンドルドロスであり、その武器を「キンドルドロスの牙」に置き換える。 • 豪傑はヴルキン・ルーンファーザーであり、その武器を置き換えることはできない。
 
 **キーワード:** 歩兵、豪傑（1/9）、加護（6+）、秩序の大同盟、カザライト・ホールド、ドゥアーディン、グリムドロン（Infantry, Champion (1/9), Ward (6+), Order, Khazalite Holds, Duardin, Grimmdron）
 
